@@ -1,10 +1,10 @@
 Files to seed a new cBioPortal database.
 
 Release notes:
+----
 
 20 September 2016
 Created by Sander Tan and Pieter Lukasse, The Hyve (thehyve.nl)
----
 
 These files contain the updated seed database for cBioPortal. We included:
 1. Updated genes (60072) and gene aliases
