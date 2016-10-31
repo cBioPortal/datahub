@@ -1,25 +1,7 @@
-Files to seed a new cBioPortal database.
+These files are MySQL database dump for seeding a new instance of the cBioPortal DB. They contain all the necessary background data for a properly functioning cBioPortal website, including cancer types, gene, uniprot-mappings, drug, pdb and network data. Data is compatible with release **1.3.1** of cBioPortal.  
+You can download the files by using the links below:
 
-Release notes:
-----
+- **Schema**: [sql file with create table statements for release 1.3.1](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.3.1/core/src/main/resources/db/cgds.sql) 
+- **Seed data, part1**: [cbioportal-seed SQL (.gz) file - part1 (no pdb_ tables)](https://github.com/cbioportal/datahub/raw/88020174c83290fa545bff3925109f63959461fd/seedDB/seed-cbioportal_no-pdb_hg19.sql.gz)
+- **Seed data, part2 (optional)** [cbioportal-seed SQL (.gz) file - part2 (only pdb_ tables)](https://github.com/cbioportal/datahub/raw/88020174c83290fa545bff3925109f63959461fd/seedDB/seed-cbioportal_only-pdb.sql.gz)
 
-20 September 2016
-Created by Sander Tan and Pieter Lukasse, The Hyve (thehyve.nl)
-
-These files contain the updated seed database for cBioPortal. We included:
-1. Updated genes (60072) and gene aliases
-2. Updated gene lengths
-3. Updated pfam graphics
-
-Compared to the previous seed database, the following number of values are removed because their associated Entrez Gene IDs do not exist anymore in the NCBI Gene info:
-- cosmic_mutation: 247
-- uniprot_id_mapping: 1375
-- interaction: 56
-- drug_interaction: 6
-
-These tables were dropped, since they were not found in cgds.sql:
-- micro_rna
-- micro_rna_alteration
-- mutation_frequency
-- patient_list
-- patient_list_list
