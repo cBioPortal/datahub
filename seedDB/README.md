@@ -1,8 +1,13 @@
 These files are MySQL database dump for seeding a new instance of the cBioPortal DB. They contain all the necessary background data for a properly functioning cBioPortal website, including cancer types, gene, uniprot-mappings, drug, pdb and network data. Data is compatible with:
+
 - DB schema version **1.3.0**
+
 Which is suitable for:
+
 - release version **1.3.1** of cBioPortal.  
 - release version **> 1.3.1** of cBioPortal (:warning: with possible migration script step). 
+
+:information_source: the DB schema and the cBioPortal can follow different numbering cycles. This means that the version numbers won't be always identical. 
 
 You can download the files by using the links below:
 
