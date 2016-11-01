@@ -1,4 +1,9 @@
-These files are MySQL database dump for seeding a new instance of the cBioPortal DB. They contain all the necessary background data for a properly functioning cBioPortal website, including cancer types, gene, uniprot-mappings, drug, pdb and network data. Data is compatible with release **1.3.1 (or later)** of cBioPortal.  
+These files are MySQL database dump for seeding a new instance of the cBioPortal DB. They contain all the necessary background data for a properly functioning cBioPortal website, including cancer types, gene, uniprot-mappings, drug, pdb and network data. Data is compatible with:
+- DB schema version **1.3.1**
+Which is suitable for
+- release version **1.3.1** of cBioPortal.  
+- release version **> 1.3.1** of cBioPortal (:warning: with possible migration script step). 
+
 You can download the files by using the links below:
 
 - **Schema**: [SQL file with create table statements for release >= 1.3.1](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.3.1/core/src/main/resources/db/cgds.sql) 
