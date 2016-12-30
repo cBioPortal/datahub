@@ -3,7 +3,7 @@ The datahub is a repository for store data only. It contains staging files which
 
 Behind the scenes git-lfs is used to manage the large files. https://github.com/github/git-lfs
 
-## How to download Data
+## How to Download Data
 
 1. Install git-lfs
 2. Checkout this project
