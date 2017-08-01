@@ -1,18 +1,35 @@
-These files are MySQL database dump for seeding a new instance of the cBioPortal DB for mouse. They contain all the necessary background data for a properly functioning cBioPortal website, including cancer types, gene, and uniprot-mappings. Data is compatible with:
+# cBioPortal Seed Database for Mouse
 
-- DB schema version **2.1.0**
+These files are MySQL database dump files for seeding a new instance of the cBioPortal database for mouse. They contain all the necessary background data for a properly functioning cBioPortal website, including cancer types, genes and uniprot-mappings.
 
-Which is suitable for:
+The database schema and cBioPortal release follows different numbering cycles since cBioPortal 1.5.0 and database schema 2.1.0. This means that the version numbers won't be identical. 
 
-- release version **1.5.1** of cBioPortal.  
-- release version **> 1.5.1** of cBioPortal (:warning: with possible migration script step). 
+## Latest mouse seed database
+#### Seed database schema 2.3.1
 
-:information_source: the DB schema and the cBioPortal can follow different numbering cycles. This means that the version numbers won't be always identical. 
+This schema is required for cBioPortal release versions: 
+- **1.7.1**
+- **1.7.2**
+- **1.7.3**
+- **1.8.0**
 
-You can download the files by using the links below:
+When using a release version **> 1.8.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
 
-- **Schema 2.1.0**: [SQL file with create table statements for portal release 1.5.1](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.5.1/db-scripts/src/main/resources/cgds.sql) 
-- **Seed data, part1**: [cbioportal-seed SQL (.igz) file - part1 (no pdb_ tables)](seed-cbioportal_mm10_v2.1.0.sql.gz)
-- There is no part2 of mouse seed data (pdb tables are currently not used).
+**Schema 2.3.1**: [SQL file with create table statements for portal release 1.7.3](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.7.3/db-scripts/src/main/resources/cgds.sql)<br>
+**Seed database**: [cbioportal-seed SQL (.gz) file](seed-cbioportal_mm10_v2.3.1.sql.gz)
 
-**For developers:** if you want to update the seed version, take a look at the [file from the human folder](../seedDB/Update-Seed-Database.md)
+## Previous mouse seed databases
+#### Seed database schema 2.1.0
+
+This schema is required for **older** cBioPortal release versions:
+- 1.5.0
+- 1.5.1
+- 1.5.2
+
+When using this older seed database with a release version > 1.5.2, a migration step to a new database schema is required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
+
+Schema 2.1.0: [SQL file with create table statements for portal release 1.5.0](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.5.1/db-scripts/src/main/resources/cgds.sql)<br>
+Seed database: [cbioportal-seed SQL (.gz) file)](https://github.com/cBioPortal/datahub/raw/8031b659b99c833d7fbcd057834220cd6708a032/seedDB_mouse/seed-cbioportal_mm10_v2.1.0.sql.gz)
+
+## For developers
+Updating the seed database for Datahub is described [here](../seedDB/Update-Seed-Database.md).
