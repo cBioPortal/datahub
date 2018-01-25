@@ -1,0 +1,2239 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Copyright (c) 2016 The Hyve B.V.
+  This code is licensed under the GNU Affero General Public License as
+  published by the Free Software Foundation, version 3,
+  or (at your option) any later version.
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <style type="text/css">
+    .jumbotron {
+      text-align: center;
+      border: 5px solid #eeeeee;
+      background-color: white !important;
+    }
+
+    .panel-heading .badge {
+      float: right;
+    }
+
+    div.panel-body > :last-child {
+      margin-bottom: 0;
+    }
+
+    .header-icon {
+      float: left;
+      margin-right: .5em;
+    }
+  </style>
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+  <title>cBioPortal validation report: study in '.'</title>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <div class="container">
+    <div class="header">
+      <div class="jumbotron">
+        <h1>cBioPortal validation report</h1>
+        <p>Study directory:<br />.</p>
+        <p>For details, please see <a href='https://github.com/cbioportal/cbioportal/blob/master/docs/File-Formats.md'>the documentation on file formats supported by cBioPortal</a></p>
+        <p>cBioPortal version 1.10.2-SNAPSHOT</p>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">Legend</h4>
+      </div>
+      <div class="panel-body">
+        <p>
+	  Click on a filename below to see a table of messages about the data
+	  in the file. The colors in the tables have the following meanings:
+        </p>
+        <table class="table">
+          <tbody>
+            <tr class="danger">
+              <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+              <td><strong>Error:</strong> cBioPortal will not know how to load this, please revise or remove</td>
+            </tr>
+            <tr class="warning">
+              <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+              <td><strong>Warning:</strong> possible cause of confusion, please check whether this is intended</td>
+            </tr>
+            <tr class="success">
+              <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+              <td><strong>Info:</strong> this looks good, no action required</td>
+            </tr>
+            <tr class="info">
+              <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+              <td><strong>Verbose output:</strong> details on the progress of the validation script</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+    <div class="panel-body">
+    <div class="alert alert-danger">
+      Validation status:
+      <strong>
+        Failed
+      </strong>
+    </div>
+
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_2689738401393696111">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_2689738401393696111" href="#collapse_2689738401393696111">
+            <span class="badge">8</span>
+            <h4 class="panel-title">General</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_2689738401393696111" id="collapse_2689738401393696111">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Requesting cancertypes from portal at &#39;http://cbioportal.org&#39;</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Requesting genes from portal at &#39;http://cbioportal.org&#39;</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Requesting genesaliases from portal at &#39;http://cbioportal.org&#39;</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Requesting genesets from portal at &#39;http://cbioportal.org&#39;</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Retrieving chromosome lengths from &#39;http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes&#39;</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validating case lists</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of case list folder complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="panel panel-danger">
+        <div class="panel-heading" role="tab"
+              id="heading_5852386028788427032">
+          <span class="header-icon"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_5852386028788427032" href="#collapse_5852386028788427032">
+            <span class="badge">5</span>
+            <h4 class="panel-title">blca_tcga_data_cna_hg19.seg</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_5852386028788427032" id="collapse_5852386028788427032">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="danger">
+                <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+                <td>2, 3, 4, (24735 more)</td>
+                <td>1</td>
+                <td>Sample ID not defined in clinical file</td>
+                <td>TCGA-2F-A9KO-11, TCGA-2F-A9KP-10, TCGA-2F-A9KQ-11, (385 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>12458, 16893, 34018, (5 more)</td>
+                <td>&ndash;</td>
+                <td>Segment is zero bases wide and will not be loaded</td>
+                <td>5939727-5939727, 123655874-123655874, 127754599-127754599, (5 more)</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 104350 lines. Lines with warning: 8. Lines with error: 24738</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_3024214940174813536">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_3024214940174813536" href="#collapse_3024214940174813536">
+            <span class="badge">2</span>
+            <h4 class="panel-title">blca_tcga_meta_cna_hg19_seg.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_3024214940174813536" id="collapse_3024214940174813536">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-721785603395902814">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-721785603395902814" href="#collapse_-721785603395902814">
+            <span class="badge">2</span>
+            <h4 class="panel-title">case_lists/cases_RNA_Seq_v2_mRNA.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-721785603395902814" id="collapse_-721785603395902814">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-danger">
+        <div class="panel-heading" role="tab"
+              id="heading_249451935691599982">
+          <span class="header-icon"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_249451935691599982" href="#collapse_249451935691599982">
+            <span class="badge">4</span>
+            <h4 class="panel-title">case_lists/cases_all.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_249451935691599982" id="collapse_249451935691599982">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Duplicate Sample ID in case list</td>
+                <td>TCGA-GD-A3OP-01, TCGA-4Z-AA86-01, TCGA-2F-A9KO-01, TCGA-HQ-A5NE-01, TCGA-E5-A2PC-01, TCGA-FD-A3SL-01, TCGA-FD-A3N6-01, TCGA-CU-A3YL-01, TCGA-GV-A3JW-01, TCGA-XF-A9SV-01, TCGA-E7-A6MF-01, TCGA-ZF-AA52-01, TCGA-E7-A541-01, TCGA-DK-AA6L-01, TCGA-FD-A6TI-01, TCGA-XF-A9SZ-01, TCGA-C4-A0EZ-01, TCGA-FD-A3SJ-01, TCGA-ZF-AA56-01, TCGA-XF-AAMH-01, TCGA-FD-A3NA-01, TCGA-DK-A3IK-01, TCGA-UY-A8OB-01, TCGA-BT-A3PJ-01, TCGA-K4-A6FZ-01, TCGA-YC-A9TC-01, TCGA-BT-A2LB-01, TCGA-DK-A2HX-01, TCGA-ZF-A9R9-01, TCGA-XF-AAN5-01, TCGA-XF-A8HG-01, TCGA-DK-AA76-01, TCGA-DK-A2I2-01, TCGA-CF-A1HS-01, TCGA-KQ-A41O-01, TCGA-CF-A47T-01, TCGA-E7-A7DV-01, TCGA-XF-A8HB-01, TCGA-E7-A97P-01, TCGA-ZF-AA4V-01, TCGA-HQ-A2OE-01, TCGA-XF-A9SI-01, TCGA-DK-A1AA-01, TCGA-K4-A5RH-01, TCGA-CU-A5W6-01, TCGA-XF-A9SM-01, TCGA-C4-A0F7-01, TCGA-4Z-AA7S-01, TCGA-DK-A1AE-01, TCGA-4Z-AA7Q-01, TCGA-DK-AA6S-01, TCGA-XF-A8HD-01, TCGA-DK-A3IU-01, TCGA-KQ-A41S-01, TCGA-4Z-AA7O-01, TCGA-E7-A7XN-01, TCGA-G2-AA3B-01, TCGA-2F-A9KR-01, TCGA-XF-AAMW-01, TCGA-BT-A0YX-01, TCGA-DK-A6AW-01, TCGA-GC-A3I6-01, TCGA-XF-A9SK-01, TCGA-CF-A5U8-01, TCGA-GU-AATP-01, TCGA-BT-A20T-01, TCGA-FD-A62O-01, TCGA-MV-A51V-01, TCGA-FD-A3B3-01, TCGA-FD-A6TF-01, TCGA-UY-A78K-01, TCGA-BT-A20W-01, TCGA-BT-A20R-01, TCGA-FJ-A3ZF-01, TCGA-4Z-AA87-01, TCGA-E7-A6MD-01, TCGA-FD-A43Y-01, TCGA-UY-A9PD-01, TCGA-4Z-AA7W-01, TCGA-DK-A6B2-01, TCGA-YC-A8S6-01, TCGA-DK-A6B6-01, TCGA-DK-AA6M-01, TCGA-GU-A763-01, TCGA-DK-A3IN-01, TCGA-E7-A5KF-01, TCGA-XF-A9T3-01, TCGA-CF-A47Y-01, TCGA-4Z-AA83-01, TCGA-CU-A72E-01, TCGA-XF-A9T5-01, TCGA-G2-A2EL-01, TCGA-BT-A3PH-01, TCGA-BL-A13J-01, TCGA-FD-A6TH-01, TCGA-DK-AA74-01, TCGA-GD-A2C5-01, TCGA-XF-A9SP-01, TCGA-FD-A3SR-01, TCGA-G2-A2EO-01, TCGA-K4-A83P-01, TCGA-XF-AAN8-01, TCGA-DK-A6B0-01, TCGA-BT-A20N-01, TCGA-G2-A2EJ-01, TCGA-FD-A3SN-01, TCGA-FT-A61P-01, TCGA-G2-A2EF-01, TCGA-XF-AAMF-01, TCGA-FD-A5BS-01, TCGA-CF-A3MH-01, TCGA-GV-A3QK-01, TCGA-LT-A5Z6-01, TCGA-DK-A1AD-01, TCGA-CF-A8HX-01, TCGA-C4-A0F6-01, TCGA-XF-AAMQ-01, TCGA-XF-A9SX-01, TCGA-FD-A5C1-01, TCGA-XF-A8HH-01, TCGA-DK-A3IQ-01, TCGA-CF-A27C-01, TCGA-LC-A66R-01, TCGA-FD-A3B8-01, TCGA-BL-A0C8-01, TCGA-G2-A3VY-01, TCGA-BT-A2LA-01, TCGA-ZF-AA54-01, TCGA-DK-AA6R-01, TCGA-YF-AA3M-01, TCGA-UY-A78N-01, TCGA-FD-A3B7-01, TCGA-ZF-AA4T-01, TCGA-ZF-A9R1-01, TCGA-CF-A47S-01, TCGA-DK-A1AB-01, TCGA-K4-A3WU-01, TCGA-K4-A6MB-01, TCGA-FD-A62N-01, TCGA-E7-A3X6-01, TCGA-XF-AAN7-01, TCGA-FD-A6TG-01, TCGA-CF-A47V-01, TCGA-KQ-A41R-01, TCGA-XF-A9ST-01, TCGA-FD-A5BZ-01, TCGA-XF-AAN3-01, TCGA-FD-A5BV-01, TCGA-DK-A3IL-01, TCGA-FD-A43X-01, TCGA-GU-A766-01, TCGA-DK-A1A5-01, TCGA-2F-A9KQ-01, TCGA-FD-A6TA-01, TCGA-GU-A762-01, TCGA-K4-A3WS-01, TCGA-DK-A3X1-01, TCGA-XF-AAME-01, TCGA-XF-AAMG-01, TCGA-YC-A89H-01, TCGA-4Z-AA7Y-01, TCGA-KQ-A41Q-01, TCGA-XF-AAMY-01, TCGA-4Z-AA81-01, TCGA-GU-AATQ-01, TCGA-FD-A6TE-01, TCGA-CF-A3MG-01, TCGA-UY-A8OC-01, TCGA-GU-A42R-01, TCGA-K4-A5RJ-01, TCGA-GD-A3OQ-01, TCGA-ZF-A9RG-01, TCGA-BT-A20Q-01, TCGA-FD-A5C0-01, TCGA-FD-A3SS-01, TCGA-FJ-A3ZE-01, TCGA-ZF-A9RD-01, TCGA-E7-A6ME-01, TCGA-BT-A20O-01, TCGA-G2-A2EK-01, TCGA-DK-AA75-01, TCGA-GV-A3JZ-01, TCGA-FD-A3SO-01, TCGA-FD-A43S-01, TCGA-4Z-AA89-01, TCGA-XF-A8HE-01, TCGA-GC-A3WC-01, TCGA-ZF-A9RM-01, TCGA-FD-A5BR-01, TCGA-G2-A2EC-01, TCGA-XF-A9T4-01, TCGA-FD-A62S-01, TCGA-ZF-AA51-01, TCGA-XF-A9SY-01, TCGA-GD-A6C6-01, TCGA-XF-A8HI-01, TCGA-UY-A78L-01, TCGA-G2-A3IB-01, TCGA-BT-A42B-01, TCGA-CU-A3KJ-01, TCGA-DK-A3WW-01, TCGA-GV-A40E-01, TCGA-DK-A1A6-01, TCGA-DK-A2I1-01, TCGA-K4-A4AB-01, TCGA-GV-A3QF-01, TCGA-4Z-AA7M-01, TCGA-BL-A3JM-01, TCGA-ZF-A9R0-01, TCGA-GD-A76B-01, TCGA-BT-A20J-01, TCGA-DK-A3WY-01, TCGA-ZF-AA53-01, TCGA-CF-A9FF-01, TCGA-LT-A8JT-01, TCGA-GC-A3YS-01, TCGA-XF-AAML-01, TCGA-CF-A47W-01, TCGA-DK-A1AF-01, TCGA-GC-A3BM-01, TCGA-XF-AAN2-01, TCGA-GU-A764-01, TCGA-DK-A3IV-01, TCGA-4Z-AA7R-01, TCGA-XF-A9SJ-01, TCGA-C4-A0F0-01, TCGA-ZF-AA58-01, TCGA-PQ-A6FI-01, TCGA-E7-A8O8-01, TCGA-K4-AAQO-01, TCGA-XF-AAMT-01, TCGA-XF-AAN4-01, TCGA-DK-A3IM-01, TCGA-DK-AA6P-01, TCGA-E7-A7PW-01, TCGA-S5-A6DX-01, TCGA-GV-A6ZA-01, TCGA-FD-A43N-01, TCGA-FD-A3B5-01, TCGA-4Z-AA80-01, TCGA-CF-A3MF-01, TCGA-XF-AAMJ-01, TCGA-BT-A0S7-01, TCGA-ZF-A9RN-01, TCGA-XF-AAMZ-01, TCGA-E7-A7DU-01, TCGA-FD-A3SM-01, TCGA-ZF-AA4N-01, TCGA-CF-A1HR-01, TCGA-FD-A5BT-01, TCGA-DK-A6B1-01, TCGA-5N-A9KI-01, TCGA-GV-A3QH-01, TCGA-CF-A9FL-01, TCGA-S5-AA26-01, TCGA-E5-A4U1-01, TCGA-UY-A78O-01, TCGA-DK-A6B5-01, TCGA-E7-A5KE-01, TCGA-CF-A8HY-01, TCGA-CF-A3MI-01, TCGA-HQ-A5ND-01, TCGA-BT-A20U-01, TCGA-G2-A3IE-01, TCGA-BT-A42C-01, TCGA-FD-A3SQ-01, TCGA-UY-A8OD-01, TCGA-XF-A9T0-01, TCGA-DK-A1A3-01, TCGA-H4-A2HO-01, TCGA-4Z-AA84-01, TCGA-XF-A9SG-01, TCGA-UY-A78M-01, TCGA-KQ-A41N-01, TCGA-ZF-A9R2-01, TCGA-K4-A4AC-01, TCGA-XF-A8HC-01, TCGA-FD-A43U-01, TCGA-BT-A2LD-01, TCGA-GV-A3JV-01, TCGA-DK-A1AC-01, TCGA-DK-A3WX-01, TCGA-E7-A85H-01, TCGA-XF-A9T8-01, TCGA-XF-A9T6-01, TCGA-G2-A2ES-01, TCGA-DK-A2I4-01, TCGA-HQ-A2OF-01, TCGA-GU-AATO-01, TCGA-DK-A1AG-01, TCGA-E7-A3Y1-01, TCGA-XF-A8HF-01, TCGA-CU-A3QU-01, TCGA-KQ-A41P-01, TCGA-XF-A9T2-01, TCGA-BL-A13I-01, TCGA-GD-A3OS-01, TCGA-FD-A6TK-01, TCGA-BT-A3PK-01, TCGA-C4-A0F1-01, TCGA-E7-A8O7-01, TCGA-DK-AA6Q-01, TCGA-GV-A3QG-01, TCGA-H4-A2HQ-01, TCGA-E7-A4XJ-01, TCGA-E7-A678-01, TCGA-K4-A54R-01, TCGA-FD-A6TD-01, TCGA-K4-A5RI-01, TCGA-DK-AA77-01, TCGA-2F-A9KT-01, TCGA-XF-A9SW-01, TCGA-FD-A6TB-01, TCGA-K4-A3WV-01, TCGA-XF-AAMX-01, TCGA-XF-A9SH-01, TCGA-FD-A3B4-01, TCGA-XF-AAN0-01, TCGA-BT-A20P-01, TCGA-ZF-AA4W-01, TCGA-DK-A3IT-01, TCGA-XF-A9SL-01, TCGA-CF-A5UA-01, TCGA-FD-A3N5-01, TCGA-R3-A69X-01, TCGA-DK-A3X2-01, TCGA-BT-A42E-01, TCGA-FJ-A3Z9-01, TCGA-E7-A677-01, TCGA-E7-A519-01, TCGA-CF-A9FM-01, TCGA-GV-A40G-01, TCGA-BT-A20X-01, TCGA-G2-AA3C-01, TCGA-CU-A0YN-01, TCGA-FJ-A3Z7-01, TCGA-CF-A9FH-01, TCGA-GV-A3QI-01, TCGA-4Z-AA82-01, TCGA-FD-A5BX-01, TCGA-FD-A3B6-01, TCGA-ZF-AA5P-01, TCGA-BT-A20V-01, TCGA-FD-A3SP-01</td>
+              </tr>
+              <tr class="danger">
+                <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Sample id not defined in clinical file</td>
+                <td>TCGA-BL-A13J-11, TCGA-BT-A20W-11, TCGA-GC-A3BM-11, (18 more)</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-4804495587888260517">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-4804495587888260517" href="#collapse_-4804495587888260517">
+            <span class="badge">2</span>
+            <h4 class="panel-title">case_lists/cases_cna.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-4804495587888260517" id="collapse_-4804495587888260517">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-danger">
+        <div class="panel-heading" role="tab"
+              id="heading_8212022451584977224">
+          <span class="header-icon"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_8212022451584977224" href="#collapse_8212022451584977224">
+            <span class="badge">3</span>
+            <h4 class="panel-title">case_lists/cases_methylation_hm450.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_8212022451584977224" id="collapse_8212022451584977224">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="danger">
+                <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Sample id not defined in clinical file</td>
+                <td>TCGA-BL-A13J-11, TCGA-GC-A3BM-11, TCGA-K4-A5RI-11, (18 more)</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_5912750320372888847">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_5912750320372888847" href="#collapse_5912750320372888847">
+            <span class="badge">2</span>
+            <h4 class="panel-title">case_lists/cases_rppa.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_5912750320372888847" id="collapse_5912750320372888847">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_-1211125621321342529">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-1211125621321342529" href="#collapse_-1211125621321342529">
+            <span class="badge">12</span>
+            <h4 class="panel-title">data_CNA.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-1211125621321342529" id="collapse_-1211125621321342529">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>117, 125, 128, (1459 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol not known to the cBioPortal instance. This record will not be loaded.</td>
+                <td>SNOU13|ENSG00000239166.1, RN7SL729P, SNORA77|ENSG00000221083.1, (1459 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>223, 1317, 1341, (66 more)</td>
+                <td>&ndash;</td>
+                <td>Duplicate line for a previously listed feature/gene, this line will be ignored.</td>
+                <td>645425 (already defined on line 213), 51463 (already defined on line 1316), 284565 (already defined on line 1340), (63 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>2898</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1035/100616265), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR4433</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>10238</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1466/-1465/619554), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR486</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>16963</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-373/406986), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR203</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>17642</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1673/693132), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR549</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>18970</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1149/-1148/100616466), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR4520B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>22869</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-745/100500862), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR3648</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>22870</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-799/100500815), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR3687</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 24777 lines. Lines with warning: 1538. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_-247572399924498566">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-247572399924498566" href="#collapse_-247572399924498566">
+            <span class="badge">6</span>
+            <h4 class="panel-title">data_RNA_Seq_v2_expression_median.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-247572399924498566" id="collapse_-247572399924498566">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>2, 3, 6, (91 more)</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id not known to the cBioPortal instance. This record will not be loaded. Might be new or deprecated Entrez gene id.</td>
+                <td>100130426, 100133144, 10431, (91 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>5, 18, 29, (2339 more)</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id exists, but gene symbol specified is not known to the cBioPortal instance. The gene symbol will be ignored. Might be wrong mapping, new or deprecated gene symbol.</td>
+                <td>LOC149767, LOC286106, LOC100132347, (2339 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>318, 607, 1439, (73 more)</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id and gene symbol do not match. The gene symbol will be ignored. Might be wrong mapping or recycled gene symbol.</td>
+                <td>(LOC105371437, 54507), (PFM, 60529), (LOC101928714, 594), (73 more)</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 20532 lines. Lines with warning: 2512. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_-3369543659974386686">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-3369543659974386686" href="#collapse_-3369543659974386686">
+            <span class="badge">5</span>
+            <h4 class="panel-title">data_RNA_Seq_v2_mRNA_median_Zscores.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-3369543659974386686" id="collapse_-3369543659974386686">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>9721, 10830, 11611</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id not known to the cBioPortal instance. This record will not be loaded. Might be new or deprecated Entrez gene id.</td>
+                <td>100272216, 84849, 284702</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>9874, 9875, 9995, (2 more)</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id exists, but gene symbol specified is not known to the cBioPortal instance. The gene symbol will be ignored. Might be wrong mapping, new or deprecated gene symbol.</td>
+                <td>LOC285740, LOC285768, LOC493754, (2 more)</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 20441 lines. Lines with warning: 8. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_2011068803821983889">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_2011068803821983889" href="#collapse_2011068803821983889">
+            <span class="badge">6</span>
+            <h4 class="panel-title">data_bcr_clinical_data_patient.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_2011068803821983889" id="collapse_2011068803821983889">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>5</td>
+                <td>56, 62, 79</td>
+                <td>Attribute expected to be a sample-level attribute. Some *minor* details will be missing in patient/sample view for this study</td>
+                <td>METASTATIC_SITE, PRIMARY_SITE, TUMOR_TISSUE_SITE</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>254, 271</td>
+                <td>&ndash;</td>
+                <td>OS_MONTHS is not specified for deceased patient. Patient will be excluded from survival curve and month of death will not be shown on patient view timeline.</td>
+                <td>[Not Available]</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Missing clinical data for a patient associated with samples</td>
+                <td>TCGA-2F-A9KO</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 416 lines. Lines with warning: 3. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_1174787077127762639">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_1174787077127762639" href="#collapse_1174787077127762639">
+            <span class="badge">3</span>
+            <h4 class="panel-title">data_bcr_clinical_data_sample.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_1174787077127762639" id="collapse_1174787077127762639">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 418 lines. Lines with warning: 0. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-danger">
+        <div class="panel-heading" role="tab"
+              id="heading_4479070818687924185">
+          <span class="header-icon"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_4479070818687924185" href="#collapse_4479070818687924185">
+            <span class="badge">15</span>
+            <h4 class="panel-title">data_gistic_genes_amp.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_4479070818687924185" id="collapse_4479070818687924185">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>3, 4, 5, (15 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol maps to a single Entrez gene id, but is also associated to other genes as an alias. The system will assume the official gene symbol to be the intended one.</td>
+                <td>CAP1, ARNT, MIR4257, (135 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>5, 7, 14, (7 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol not known to the cBioPortal instance. This record will not be loaded.</td>
+                <td>SNORA2, SNOU13, FLJ30594, (13 more)</td>
+              </tr>
+              <tr class="danger">
+                <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+                <td>5</td>
+                <td>&ndash;</td>
+                <td>Gene symbol maps to multiple Entrez gene ids (339789/105373410), please specify which one you mean.</td>
+                <td>LINC00299</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>7</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (6069/6070/26835/26838/26839/26840/26841), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>U4</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>10, 15, 19, (2 more)</td>
+                <td>&ndash;</td>
+                <td>Peak is 0 bases wide and will not be shown in cBioPortal</td>
+                <td>1287540-1287540, 17059174-17059174, 128316059-128316059, (2 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>18</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1466/-1465/619554), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR486</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>32</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (7077/100653515), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>DDC8</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>32</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (22994/51582), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>AZI1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>32</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (4851/51155/100462977), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HN1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>32</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (8553/201254), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>STRA13</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>36</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (6068/26842/26843/26844/692232/780851), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>U3</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>36</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (6399/10597), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>TRAPPC2P1</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 38 lines. Lines with warning: 21. Lines with error: 1</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-danger">
+        <div class="panel-heading" role="tab"
+              id="heading_6737523873840923216">
+          <span class="header-icon"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_6737523873840923216" href="#collapse_6737523873840923216">
+            <span class="badge">13</span>
+            <h4 class="panel-title">data_gistic_genes_del.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_6737523873840923216" id="collapse_6737523873840923216">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>2, 3, 4, (16 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol not known to the cBioPortal instance. This record will not be loaded.</td>
+                <td>RN7SL501P, SNOU13, RN7SL467P, (26 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>3, 4, 9, (19 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol maps to a single Entrez gene id, but is also associated to other genes as an alias. The system will assume the official gene symbol to be the intended one.</td>
+                <td>MIR1182, MIR3620, MIR4742, (199 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>3, 7, 9, (4 more)</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (6068/26842/26843/26844/692232/780851), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>U3</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>3, 12</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (26825/26827), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>U6</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>4</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (54620/285093), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>CXXC11</td>
+              </tr>
+              <tr class="danger">
+                <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+                <td>12</td>
+                <td>&ndash;</td>
+                <td>Gene symbol maps to multiple Entrez gene ids (389422/100996634), please specify which one you mean.</td>
+                <td>C6ORF183</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>12</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (202/9212/51151), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>AIM1</td>
+              </tr>
+              <tr class="danger">
+                <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+                <td>15, 16</td>
+                <td>&ndash;</td>
+                <td>Gene symbol maps to multiple Entrez gene ids (619431/105379219), please specify which one you mean.</td>
+                <td>FAM85B</td>
+              </tr>
+              <tr class="danger">
+                <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+                <td>19</td>
+                <td>&ndash;</td>
+                <td>Gene symbol maps to multiple Entrez gene ids (158314/105379831), please specify which one you mean.</td>
+                <td>LINC00475</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>23, 24</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (677882/677885), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>ACA59</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 37 lines. Lines with warning: 26. Lines with error: 4</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_-3363526666004913176">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-3363526666004913176" href="#collapse_-3363526666004913176">
+            <span class="badge">12</span>
+            <h4 class="panel-title">data_linear_CNA.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-3363526666004913176" id="collapse_-3363526666004913176">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>117, 125, 128, (1459 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol not known to the cBioPortal instance. This record will not be loaded.</td>
+                <td>SNOU13|ENSG00000239166.1, RN7SL729P, SNORA77|ENSG00000221083.1, (1459 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>223, 1317, 1341, (66 more)</td>
+                <td>&ndash;</td>
+                <td>Duplicate line for a previously listed feature/gene, this line will be ignored.</td>
+                <td>645425 (already defined on line 213), 51463 (already defined on line 1316), 284565 (already defined on line 1340), (63 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>2898</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1035/100616265), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR4433</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>10238</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1466/-1465/619554), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR486</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>16963</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-373/406986), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR203</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>17642</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1673/693132), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR549</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>18970</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1149/-1148/100616466), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR4520B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>22869</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-745/100500862), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR3648</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>22870</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-799/100500815), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>MIR3687</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 24777 lines. Lines with warning: 1538. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-danger">
+        <div class="panel-heading" role="tab"
+              id="heading_-3574542648090725116">
+          <span class="header-icon"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-3574542648090725116" href="#collapse_-3574542648090725116">
+            <span class="badge">3</span>
+            <h4 class="panel-title">data_methylation_hm450.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-3574542648090725116" id="collapse_-3574542648090725116">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="danger">
+                <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+                <td>1</td>
+                <td>29, 35, 37, (18 more)</td>
+                <td>Sample ID not defined in clinical file</td>
+                <td>TCGA-BL-A13J-11, TCGA-BT-A20J-11, TCGA-BT-A20N-11, (18 more)</td>
+              </tr>
+              <tr class="danger">
+                <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Invalid column header, file cannot be parsed</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_3224285424345288921">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_3224285424345288921" href="#collapse_3224285424345288921">
+            <span class="badge">10</span>
+            <h4 class="panel-title">data_mutations_uniprot.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_3224285424345288921" id="collapse_3224285424345288921">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>1</td>
+                <td>&ndash;</td>
+                <td>Including the SWISSPROT column is recommended to make sure that the UniProt canonical isoform is used when drawing Pfam domains in the mutations view</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>5, 9, 11, (10253 more)</td>
+                <td>&ndash;</td>
+                <td>Line will not be loaded due to the variant classification filter. Filtered types: [Silent, Intron, 3&#39;UTR, 3&#39;Flank, 5&#39;UTR, 5&#39;Flank, IGR, RNA]</td>
+                <td>Silent, 3&#39;UTR, Intron, (4 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>1286, 2477, 4679, (5 more)</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id not known to the cBioPortal instance. This record will not be loaded. Might be new or deprecated Entrez gene id.</td>
+                <td>170063, 728936, 768329, (3 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>1444, 3527, 6175, (6 more)</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id and gene symbol do not match. The gene symbol will be ignored. Might be wrong mapping or recycled gene symbol.</td>
+                <td>(C7ORF55-LUC7L2, 51631), (FAM47E-STBD1, 8987), (TRGC1, 445347), (2 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>2564, 2734, 4499, (17 more)</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id exists, but gene symbol specified is not known to the cBioPortal instance. The gene symbol will be ignored. Might be wrong mapping, new or deprecated gene symbol.</td>
+                <td>RP11-152F13.10, DKFZP761J1410, RP11-108K14.8, (14 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21601, 33338</td>
+                <td>&ndash;</td>
+                <td>No Amino_Acid_Change or HGVSp_Short value. This mutation record will get a generic &#34;MUTATED&#34; flag</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>24061</td>
+                <td>&ndash;</td>
+                <td>Gene symbol not known to the cBioPortal instance. This record will not be loaded.</td>
+                <td>RP11-76C10.5</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 39313 lines. Lines with warning: 41. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-5188868991972048721">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-5188868991972048721" href="#collapse_-5188868991972048721">
+            <span class="badge">3</span>
+            <h4 class="panel-title">data_mutsig.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-5188868991972048721" id="collapse_-5188868991972048721">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 18075 lines. Lines with warning: 0. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_-4848930305703966805">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-4848930305703966805" href="#collapse_-4848930305703966805">
+            <span class="badge">5</span>
+            <h4 class="panel-title">data_rppa.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-4848930305703966805" id="collapse_-4848930305703966805">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>17, 34, 41, (16 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol maps to a single Entrez gene id, but is also associated to other genes as an alias. The system will assume the official gene symbol to be the intended one.</td>
+                <td>AR, BAP1, RAF1, (13 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>126, 128, 129, (1 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol not known to the cBioPortal instance. This record will not be loaded.</td>
+                <td></td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 209 lines. Lines with warning: 23. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_4939611786931470029">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_4939611786931470029" href="#collapse_4939611786931470029">
+            <span class="badge">5</span>
+            <h4 class="panel-title">data_rppa_Zscores.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_4939611786931470029" id="collapse_4939611786931470029">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>16, 33, 40, (16 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol maps to a single Entrez gene id, but is also associated to other genes as an alias. The system will assume the official gene symbol to be the intended one.</td>
+                <td>AR, BAP1, RAF1, (13 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>125, 127, 128, (1 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol not known to the cBioPortal instance. This record will not be loaded.</td>
+                <td></td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 208 lines. Lines with warning: 23. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_6496178228918583572">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_6496178228918583572" href="#collapse_6496178228918583572">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_CNA.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_6496178228918583572" id="collapse_6496178228918583572">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_6504594170492499679">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_6504594170492499679" href="#collapse_6504594170492499679">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_RNA_Seq_v2_expression_median.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_6504594170492499679" id="collapse_6504594170492499679">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_686828425753612151">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_686828425753612151" href="#collapse_686828425753612151">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_RNA_Seq_v2_mRNA_median_Zscores.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_686828425753612151" id="collapse_686828425753612151">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-2389579620393347500">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-2389579620393347500" href="#collapse_-2389579620393347500">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_bcr_clinical_patient.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-2389579620393347500" id="collapse_-2389579620393347500">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-1787731666099192404">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-1787731666099192404" href="#collapse_-1787731666099192404">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_bcr_clinical_sample.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-1787731666099192404" id="collapse_-1787731666099192404">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-3330264176859895552">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-3330264176859895552" href="#collapse_-3330264176859895552">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_gistic_genes_amp.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-3330264176859895552" id="collapse_-3330264176859895552">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-3808702996157259951">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-3808702996157259951" href="#collapse_-3808702996157259951">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_gistic_genes_del.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-3808702996157259951" id="collapse_-3808702996157259951">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-3283595237559131003">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-3283595237559131003" href="#collapse_-3283595237559131003">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_linear_CNA.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-3283595237559131003" id="collapse_-3283595237559131003">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_4234778160982766043">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_4234778160982766043" href="#collapse_4234778160982766043">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_methylation_hm450.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_4234778160982766043" id="collapse_4234778160982766043">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-402917117353387965">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-402917117353387965" href="#collapse_-402917117353387965">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_mutations_extended.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-402917117353387965" id="collapse_-402917117353387965">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_-492596451577698418">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-492596451577698418" href="#collapse_-492596451577698418">
+            <span class="badge">3</span>
+            <h4 class="panel-title">meta_mutsig.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-492596451577698418" id="collapse_-492596451577698418">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Unrecognized field in meta file</td>
+                <td>reference_genome_id</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-3508777375554008706">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-3508777375554008706" href="#collapse_-3508777375554008706">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_rppa.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-3508777375554008706" id="collapse_-3508777375554008706">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-823395465871412260">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-823395465871412260" href="#collapse_-823395465871412260">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_rppa_Zscores.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-823395465871412260" id="collapse_-823395465871412260">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_4972704087644385041">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_4972704087644385041" href="#collapse_4972704087644385041">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_study.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_4972704087644385041" id="collapse_4972704087644385041">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
