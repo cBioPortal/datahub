@@ -10,7 +10,7 @@ Behind the scenes git-lfs is used to manage the large files. https://github.com/
 
 Or you can download individual files directly
 
-## Download lastest version of the whole database
+## Download a complete MySQL export of the latest database
 http://download.cbioportal.org/mysql-snapshots/public-portal-dump.latest.sql.gz
 
 ## License
