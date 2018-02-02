@@ -1,0 +1,2226 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Copyright (c) 2016 The Hyve B.V.
+  This code is licensed under the GNU Affero General Public License as
+  published by the Free Software Foundation, version 3,
+  or (at your option) any later version.
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <style type="text/css">
+    .jumbotron {
+      text-align: center;
+      border: 5px solid #eeeeee;
+      background-color: white !important;
+    }
+
+    .panel-heading .badge {
+      float: right;
+    }
+
+    div.panel-body > :last-child {
+      margin-bottom: 0;
+    }
+
+    .header-icon {
+      float: left;
+      margin-right: .5em;
+    }
+  </style>
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+  <title>cBioPortal validation report: study in '.'</title>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <div class="container">
+    <div class="header">
+      <div class="jumbotron">
+        <h1>cBioPortal validation report</h1>
+        <p>Study directory:<br />.</p>
+        <p>For details, please see <a href='https://github.com/cbioportal/cbioportal/blob/master/docs/File-Formats.md'>the documentation on file formats supported by cBioPortal</a></p>
+        <p>cBioPortal version 1.10.2-SNAPSHOT</p>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">Legend</h4>
+      </div>
+      <div class="panel-body">
+        <p>
+	  Click on a filename below to see a table of messages about the data
+	  in the file. The colors in the tables have the following meanings:
+        </p>
+        <table class="table">
+          <tbody>
+            <tr class="danger">
+              <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+              <td><strong>Error:</strong> cBioPortal will not know how to load this, please revise or remove</td>
+            </tr>
+            <tr class="warning">
+              <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+              <td><strong>Warning:</strong> possible cause of confusion, please check whether this is intended</td>
+            </tr>
+            <tr class="success">
+              <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+              <td><strong>Info:</strong> this looks good, no action required</td>
+            </tr>
+            <tr class="info">
+              <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+              <td><strong>Verbose output:</strong> details on the progress of the validation script</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+    <div class="panel-body">
+    <div class="alert alert-danger">
+      Validation status:
+      <strong>
+        Failed
+      </strong>
+    </div>
+
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_2689738401393696111">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_2689738401393696111" href="#collapse_2689738401393696111">
+            <span class="badge">8</span>
+            <h4 class="panel-title">General</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_2689738401393696111" id="collapse_2689738401393696111">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Requesting cancertypes from portal at &#39;http://cbioportal.org&#39;</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Requesting genes from portal at &#39;http://cbioportal.org&#39;</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Requesting genesaliases from portal at &#39;http://cbioportal.org&#39;</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Requesting genesets from portal at &#39;http://cbioportal.org&#39;</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Retrieving chromosome lengths from &#39;http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes&#39;</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validating case lists</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of case list folder complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-8009334576770002847">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-8009334576770002847" href="#collapse_-8009334576770002847">
+            <span class="badge">3</span>
+            <h4 class="panel-title">acyc_mskcc_2013_data_cna_hg19.seg</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-8009334576770002847" id="collapse_-8009334576770002847">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 15432 lines. Lines with warning: 0. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_5997838961623206797">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_5997838961623206797" href="#collapse_5997838961623206797">
+            <span class="badge">3</span>
+            <h4 class="panel-title">acyc_mskcc_2013_meta_cna_hg19_seg.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_5997838961623206797" id="collapse_5997838961623206797">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Unrecognized field in meta file</td>
+                <td>show_profile_in_analysis_tab</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_249451935691599982">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_249451935691599982" href="#collapse_249451935691599982">
+            <span class="badge">2</span>
+            <h4 class="panel-title">case_lists/cases_all.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_249451935691599982" id="collapse_249451935691599982">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-4804495587888260517">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-4804495587888260517" href="#collapse_-4804495587888260517">
+            <span class="badge">2</span>
+            <h4 class="panel-title">case_lists/cases_cna.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-4804495587888260517" id="collapse_-4804495587888260517">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_928552437633269435">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_928552437633269435" href="#collapse_928552437633269435">
+            <span class="badge">2</span>
+            <h4 class="panel-title">case_lists/cases_cnaseq.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_928552437633269435" id="collapse_928552437633269435">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_4570987244812435416">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_4570987244812435416" href="#collapse_4570987244812435416">
+            <span class="badge">2</span>
+            <h4 class="panel-title">case_lists/cases_sequenced.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_4570987244812435416" id="collapse_4570987244812435416">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_-1211125621321342529">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-1211125621321342529" href="#collapse_-1211125621321342529">
+            <span class="badge">174</span>
+            <h4 class="panel-title">data_CNA.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-1211125621321342529" id="collapse_-1211125621321342529">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>300, 313, 372, (1122 more)</td>
+                <td>&ndash;</td>
+                <td>Duplicate line for a previously listed feature/gene, this line will be ignored.</td>
+                <td>114 (already defined on line 295), 131 (already defined on line 310), 119016 (already defined on line 368), (1103 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>1752, 1755, 2982, (132 more)</td>
+                <td>&ndash;</td>
+                <td>Gene symbol not known to the cBioPortal instance. This record will not be loaded.</td>
+                <td>C14ORF181, C14ORF184, CCL14-CCL15, (132 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>4420, 9014, 9015, (542 more)</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id exists, but gene symbol specified is not known to the cBioPortal instance. The gene symbol will be ignored. Might be wrong mapping, new or deprecated gene symbol.</td>
+                <td>1-DEC, LOC100009676, LOC100049076, (542 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>9019, 9024, 9063, (36 more)</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id not known to the cBioPortal instance. This record will not be loaded. Might be new or deprecated Entrez gene id.</td>
+                <td>100124692, 100128003, 100129335, (36 more)</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>17605</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (83592/389932), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>TAKR</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20268</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-643/-642), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3194</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20276</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-634/-633), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3187</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20279</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-366/-365), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-200A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20280</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-368/-367), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-200B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20285</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-613/-612), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3177</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20288</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-209/-208), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-132</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20297</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-77/-76), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-1225</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20329</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-341/-340), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-195</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20332</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-236/-235), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-141</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20333</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-370/-369), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-200C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20348</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-700/-699), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-34A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20353</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-92/-91), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-124-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20369</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-354/-353), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-199A-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20385</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-294/-293), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-181C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20388</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-440/-439), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-24-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20389</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-456/-455), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-27A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20390</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-336/-335), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-193B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20396</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-583/-582), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3156-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20398</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-619/-618), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3180-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20411</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-621/-620), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3180-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20424</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-575/-574), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3152</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20426</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-623/-622), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3180-3</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20427</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-637/-636), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3189</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20445</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-408/-407), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-218-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20546</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-256/-255), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-148A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20557</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-242/-241), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-144</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20558</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-346/-345), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-196B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20586</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-334/-333), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-193A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20587</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-749/-748), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-365-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20615</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-412/-411), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-219-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20617</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-308/-307), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-187</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20618</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1486/-1485), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-499</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20642</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-450/-449), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-26A-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20649</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-503/-502), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-30C-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20650</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-509/-508), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-30E</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20662</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-176/-175), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-129-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20666</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-228/-227), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-138-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20678</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-581/-580), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3156-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20684</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-592/-591), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3160-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20685</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-594/-593), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3160-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20709</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-396/-395), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-2115</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20715</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-321/-320), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-191</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20722</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-262/-261), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-150</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20732</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-282/-281), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-16-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20741</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-121/-120), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-125A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20742</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1905/-1904), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-99B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20744</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-220/-219), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-135A-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20759</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1517/-1516), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-512-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20760</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1519/-1518), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-512-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20761</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1532/-1531), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-515-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20762</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1534/-1533), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-515-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20763</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1536/-1535), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-516A-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20764</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1540/-1539), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-516B-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20765</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1542/-1541), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-516B-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20766</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1544/-1543), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-517A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20767</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1546/-1545), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-517B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20768</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1548/-1547), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-517C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20769</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1550/-1549), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-518A-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20770</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1552/-1551), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-518A-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20772</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1555/-1554), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-518C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20773</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1557/-1556), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-518D</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20774</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1559/-1558), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-518E</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20775</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1561/-1560), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-518F</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20776</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1563/-1562), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-519A-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20777</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1566/-1565), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-519B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20778</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1568/-1567), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-519C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20780</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1571/-1570), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-519E</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20781</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1573/-1572), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-520A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20783</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1576/-1575), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-520C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20784</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1578/-1577), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-520D</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20797</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1596/-1595), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-526B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20799</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-344/-343), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-196A-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20803</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1538/-1537), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-516A-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20806</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1113/-1112), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-449B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20807</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1115/-1114), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-449C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20810</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-258/-257), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-148B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20820</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-238/-237), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-142</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20822</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-230/-229), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-138-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20830</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-205/-204), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-130A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20831</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-464/-463), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-296</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20839</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-452/-451), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-26A-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20844</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-597/-596), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3162</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20845</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-398/-397), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-2116</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20854</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-96/-95), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-124-3</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20883</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-332/-331), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-192</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20884</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-339/-338), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-194-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20888</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1634/-1633), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-548C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20891</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-94/-93), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-124-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20892</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-30/-29), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-101-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20893</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1638/-1637), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-548D-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20903</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-516/-515), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3117</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20912</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-552/-551), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3136</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20914</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-535/-534), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3126</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20917</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-234/-233), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-140</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20926</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-306/-305), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-186</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20931</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-505/-504), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-30C-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20932</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-499/-498), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-30A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20933</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-232/-231), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-139</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20962</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-495/-494), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3065</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>20966</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-632/-631), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3186</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21003</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-362/-361), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-19B-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21006</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1876/-1875), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-92A-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21008</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-427/-426), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-2277</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21028</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-608/-607), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3173</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21035</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-5/-4), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-LET-7A-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21037</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-18/-17), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-LET-7F-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21039</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-537/-536), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3127</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21043</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-438/-437), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-24-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21044</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-458/-457), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-27B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21045</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-497/-496), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3074</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21046</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-586/-585), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3157</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21055</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-44/-43), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-106B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21102</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-142/-141), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-127</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21103</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-225/-224), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-136</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21126</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-273/-272), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-154</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21127</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-470/-469), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-299</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21130</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-669/-668), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-323B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21134</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-837/-836), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-376A-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21166</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1661/-1660), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-548O</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21172</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-588/-587), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3158-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21175</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-250/-249), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-146B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21179</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1613/-1612), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-548A-3</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21193</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-702/-701), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-34B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21194</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-704/-703), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-34C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21203</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-483/-482), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-302A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21204</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-485/-484), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-302B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21205</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-487/-486), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-302C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21206</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-489/-488), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-302D</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21222</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1632/-1631), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-548B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21226</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-562/-561), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3144</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21228</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-7/-6), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-LET-7A-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21229</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-28/-27), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-100</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21230</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-123/-122), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-125B-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21233</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1636/-1635), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-548D-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21247</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-174/-173), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-129-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21255</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-297/-296), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-182</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21256</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-301/-300), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-183</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21262</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-474/-473), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-29B-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21263</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-358/-357), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-199B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21266</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-414/-413), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-219-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21280</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-501/-500), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-30B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21281</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-507/-506), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-30D</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21291</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-564/-563), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3145</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21292</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-127/-126), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-126</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21311</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-240/-239), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-143</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21312</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-244/-243), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-145</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21319</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-557/-556), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3140</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21337</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-248/-247), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-146A</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21339</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-284/-283), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-16-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21354</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-410/-409), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-218-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21355</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-1683/-1682), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-551B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21363</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-356/-355), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-199A-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21364</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-402/-401), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-214</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21365</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-526/-525), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3120</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21389</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-528/-527), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3121</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21394</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-75/-74), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-1224</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21405</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-540/-539), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3129</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21417</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-223/-222), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-135B</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21420</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-542/-541), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3130-1</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21421</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-544/-543), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3130-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21424</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-430/-429), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-2355</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21425</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-476/-475), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-29B-2</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21426</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-478/-477), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-29C</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21428</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-376/-375), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-205</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21457</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-260/-259), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-149</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>21459</td>
+                <td>&ndash;</td>
+                <td>Gene alias maps to multiple Entrez gene ids (-532/-531), please specify which one you mean or choose a non-ambiguous symbol.</td>
+                <td>HSA-MIR-3124</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 21459 lines. Lines with warning: 2009. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-danger">
+        <div class="panel-heading" role="tab"
+              id="heading_7384470362107382953">
+          <span class="header-icon"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_7384470362107382953" href="#collapse_7384470362107382953">
+            <span class="badge">4</span>
+            <h4 class="panel-title">data_clinical_patient.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_7384470362107382953" id="collapse_7384470362107382953">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="danger">
+                <td><span class="glyphicon glyphicon-remove" aria-hidden="true"></span><span class="sr-only">Error</span></td>
+                <td>5</td>
+                <td>4, 15</td>
+                <td>Attribute must be a sample-level attribute</td>
+                <td>TUMOR_GRADE, HISTOLOGY</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 65 lines. Lines with warning: 0. Lines with error: 1</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-6950939804751669509">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-6950939804751669509" href="#collapse_-6950939804751669509">
+            <span class="badge">3</span>
+            <h4 class="panel-title">data_clinical_sample.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-6950939804751669509" id="collapse_-6950939804751669509">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 65 lines. Lines with warning: 0. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-2178637330966976716">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-2178637330966976716" href="#collapse_-2178637330966976716">
+            <span class="badge">3</span>
+            <h4 class="panel-title">data_fusions.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-2178637330966976716" id="collapse_-2178637330966976716">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 73 lines. Lines with warning: 0. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_3545539217590698130">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_3545539217590698130" href="#collapse_3545539217590698130">
+            <span class="badge">7</span>
+            <h4 class="panel-title">data_mutations_extended.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_3545539217590698130" id="collapse_3545539217590698130">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>2</td>
+                <td>&ndash;</td>
+                <td>Including the SWISSPROT column is recommended to make sure that the UniProt canonical isoform is used when drawing Pfam domains in the mutations view</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>4, 61, 126, (36 more)</td>
+                <td>&ndash;</td>
+                <td>Line will not be loaded due to the variant classification filter. Filtered types: [Silent, Intron, 3&#39;UTR, 3&#39;Flank, 5&#39;UTR, 5&#39;Flank, IGR, RNA]</td>
+                <td>Intron, RNA, Silent</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>260</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id not known to the cBioPortal instance. This record will not be loaded. Might be new or deprecated Entrez gene id.</td>
+                <td>645090</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>310, 311, 312, (380 more)</td>
+                <td>&ndash;</td>
+                <td>Entrez gene id is not an integer. This record will not be loaded.</td>
+                <td>NA</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of file complete</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Read 710 lines. Lines with warning: 385. Lines with error: 0</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_6496178228918583572">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_6496178228918583572" href="#collapse_6496178228918583572">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_CNA.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_6496178228918583572" id="collapse_6496178228918583572">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-1136454072798033056">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-1136454072798033056" href="#collapse_-1136454072798033056">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_clinical_patient.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-1136454072798033056" id="collapse_-1136454072798033056">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_5083298737809278072">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_5083298737809278072" href="#collapse_5083298737809278072">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_clinical_sample.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_5083298737809278072" id="collapse_5083298737809278072">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_2049352910318321071">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_2049352910318321071" href="#collapse_2049352910318321071">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_fusions.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_2049352910318321071" id="collapse_2049352910318321071">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-success">
+        <div class="panel-heading" role="tab"
+              id="heading_-402917117353387965">
+          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_-402917117353387965" href="#collapse_-402917117353387965">
+            <span class="badge">2</span>
+            <h4 class="panel-title">meta_mutations_extended.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_-402917117353387965" id="collapse_-402917117353387965">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading" role="tab"
+              id="heading_4972704087644385041">
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
+          <a role="button" data-toggle="collapse" aria-expanded="true"
+              aria-controls="collapse_4972704087644385041" href="#collapse_4972704087644385041">
+            <span class="badge">3</span>
+            <h4 class="panel-title">meta_study.txt</h4>
+          </a>
+        </div>
+        <div class="panel-collapse collapse" role="tabpanel"
+              aria-labelledby="heading_4972704087644385041" id="collapse_4972704087644385041">
+          <div class="panel-body">
+            <table class="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Line Number</th>
+                <th>Column Number</th>
+                <th>Message</th>
+                <th>Value Encountered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="sr-only">Debug</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Starting validation of meta file</td>
+                <td>&ndash;</td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Unrecognized field in meta file</td>
+                <td>public_study</td>
+              </tr>
+              <tr class="success">
+                <td><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Validation of meta file complete</td>
+                <td>&ndash;</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
