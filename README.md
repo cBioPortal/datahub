@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/cbioportal/datahub.svg?style=svg)](https://circleci.com/gh/cbioportal/datahub)
+[![CircleCI](https://circleci.com/gh/cBioPortal/datahub.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub)
 
 # cBioPortal Public Datahub
 The datahub is a repository for store data only. It contains staging files which are pre-validated and can be loaded directly into the cBioPortal.
