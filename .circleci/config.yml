@@ -59,7 +59,7 @@ jobs:
             mkdir ~/repo/test-reports
             mkdir ~/repo/test-reports/ERRORS
             # run the tests:
-            #./run_tests.sh
+            ./run_tests.sh
 
       - store_artifacts:
           path: test-reports
