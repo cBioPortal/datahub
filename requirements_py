@@ -1,0 +1,4 @@
+requests==2.10.0
+Jinja2==2.8
+MySQL-python==1.2.5
+
