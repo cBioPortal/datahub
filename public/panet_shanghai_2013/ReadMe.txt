@@ -1,0 +1,1 @@
+To Validate a MAF, please rename the desired isoform file to data_mutations_extended.txt
