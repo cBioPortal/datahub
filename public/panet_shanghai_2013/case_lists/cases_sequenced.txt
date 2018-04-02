@@ -1,6 +1,3 @@
-cancer_study_identifier: panet_shanghai_2013
-stable_id: panet_shanghai_2013_sequenced
-case_list_name: Sequenced Tumors
-case_list_description: All (Next-Gen) sequenced samples (10 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: INS19	INS40	INS12	INS15	INS31	INS24	INS20	INS38	INS8	INS29
+version https://git-lfs.github.com/spec/v1
+oid sha256:825e7a63085e78c3a9eacc61ac08b86a467860341270a8ad1515590fe8691ea5
+size 311

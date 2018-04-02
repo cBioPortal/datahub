@@ -2,3 +2,14 @@
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.gz filter=lfs diff=lfs merge=lfs -text
+public/blca_dfarber_mskcc_2014/case_lists/cases_sequenced.txt filter=lfs diff=lfs merge=lfs -text
+public/crc_msk_2018/case_lists/cases_cna.txt filter=lfs diff=lfs merge=lfs -text
+public/crc_msk_2018/case_lists/cases_sequenced.txt filter=lfs diff=lfs merge=lfs -text
+public/nbl_amc_2012/case_lists/cases_sequenced.txt filter=lfs diff=lfs merge=lfs -text
+public/nbl_ucologne_2015/case_lists/cases_sequenced.txt filter=lfs diff=lfs merge=lfs -text
+public/panet_shanghai_2013/case_lists/cases_all.txt filter=lfs diff=lfs merge=lfs -text
+public/panet_shanghai_2013/case_lists/cases_sequenced.txt filter=lfs diff=lfs merge=lfs -text
+public/thyroid_mskcc_2016/case_lists/cases_cnaseq.txt filter=lfs diff=lfs merge=lfs -text
+public/thyroid_mskcc_2016/case_lists/cases_sequenced.txt filter=lfs diff=lfs merge=lfs -text
+public/thyroid_mskcc_2016/case_lists/cases_all.txt filter=lfs diff=lfs merge=lfs -text
+public/thyroid_mskcc_2016/case_lists/cases_cna.txt filter=lfs diff=lfs merge=lfs -text

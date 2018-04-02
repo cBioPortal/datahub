@@ -1,6 +1,3 @@
-cancer_study_identifier: panet_shanghai_2013
-stable_id: panet_shanghai_2013_all
-case_list_name: All Tumors
-case_list_description: All tumor samples (14 samples)
-case_list_category: all_cases_in_study
-case_list_ids: AGE_AT_SURGERY	INS19	INS40	INS12	INS15	INS31	INS24	INS20	INS38	SEX	PATIENT_ID	INS8	INS29	PATHOLOGICAL_DIAGNOSIS
+version https://git-lfs.github.com/spec/v1
+oid sha256:e762c59f9ff376211fd2e374b68d855a56ea9b2be50a06758ab0c02e5bb70f3a
+size 327
