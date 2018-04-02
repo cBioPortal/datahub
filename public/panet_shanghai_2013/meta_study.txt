@@ -1,8 +1,3 @@
-type_of_cancer: panet
-cancer_study_identifier: panet_shanghai_2013
-name: Insulinoma (Shanghai, Nat Commun 2013)
-short_name: Panet (Shanghai 2013)
-description: Whole exome sequencing of 10 benign insulinoma tumors. <A HREF="http://www.nature.com/ncomms/2013/131210/ncomms3810/extref/ncomms3810-s1.pdf">
-add_global_case_list: true
-pmid: 24326773
-citation: Cao et al. Nat Commun 2013
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0a64852f7c7f2a4384749e6006eadd0765bcf8402ddf658c0f0e25503ea68b3
+size 380

@@ -1,8 +1,3 @@
-cancer_study_identifier: blca_dfarber_mskcc_2014
-stable_id: mutations
-profile_name: Mutations
-profile_description: Mutation status from whole exome sequencing.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations_extended.txt
-show_profile_in_analysis_tab: true
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf5755df2f102315878367ac961376ad0e3b4d4d43ccbd8d3fb7fe2844685c0a
+size 294

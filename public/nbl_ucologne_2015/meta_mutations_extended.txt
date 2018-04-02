@@ -1,8 +1,3 @@
-cancer_study_identifier: nbl_ucologne_2015
-genetic_alteration_type: MUTATION_EXTENDED
-stable_id: mutations
-datatype: MAF
-show_profile_in_analysis_tab: true
-profile_description: Mutation data from whole-genome sequencing of 56 neuroblastomas and matched normal controls.
-profile_name: Mutations
-data_filename: data_mutations_extended.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:e49c411879f56c4eef89d6e8e2f0bca630e706b035dfd737ca0f1a5ff7c0c900
+size 336

@@ -1,8 +1,3 @@
-cancer_study_identifier: panet_shanghai_2013
-genetic_alteration_type: MUTATION_EXTENDED
-stable_id: mutations
-datatype: MAF
-show_profile_in_analysis_tab: true
-profile_description: Mutation data from whole exome sequencing of 10 functional pancreatic neuroendocrine tumors.
-profile_name: Mutations
-data_filename: data_mutations_extended.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0cee98d0e6993a1f4b6b2539ffe036dd9da368f14934f9d4a8cc4090c16228f
+size 338
