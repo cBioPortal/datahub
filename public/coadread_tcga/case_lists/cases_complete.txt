@@ -1,0 +1,6 @@
+cancer_study_identifier: coadread_tcga
+stable_id: coadread_tcga_3way_complete
+case_list_name: All Complete Tumors
+case_list_description: All tumor samples that have mRNA, CNA and sequencing data (7 samples)
+case_list_category: all_cases_with_mutation_and_cna_and_mrna_data
+case_list_ids: TCGA-AA-3685-01	TCGA-AA-A01X-01	TCGA-AA-3526-01	TCGA-AA-A01Z-01	TCGA-AA-A01P-01	TCGA-AG-3902-01	TCGA-AA-A02Y-01
