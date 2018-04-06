@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae7438e2e7223edb1e58528b32e6e56b5f2787317bd2494aa5c2672322acb5df
-size 148
+cancer_study_identifier: esca_tcga
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_bcr_clinical_data_patient.txt

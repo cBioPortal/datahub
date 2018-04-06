@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:982624c28efec26353f662771cf87ff789f907763517e09e11921ca1d58b8888
-size 398
+cancer_study_identifier: brca_tcga
+genetic_alteration_type: PROTEIN_LEVEL
+datatype: CONTINUOUS
+stable_id: protein_quantification
+show_profile_in_analysis_tab: false
+profile_description: Protein levels measured with mass spectrometry by the Clinical Proteomic Tumor Analysis Consortium (CPTAC)
+profile_name: Protein levels (mass spectrometry by CPTAC)
+data_filename: data_protein_quantification.txt

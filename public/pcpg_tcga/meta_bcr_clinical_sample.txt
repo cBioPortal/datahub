@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4304ad2ee480dd587034b87c0a7b1b53592dbb6066c49c6575b13e7a9ff5fbc8
-size 146
+cancer_study_identifier: pcpg_tcga
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_bcr_clinical_data_sample.txt

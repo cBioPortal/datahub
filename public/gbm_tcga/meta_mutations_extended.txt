@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d1d2d117e18d7f00047b6e6073c2f489ebb9e4ed8bbb164056a63c3985e5ad8e
-size 278
+cancer_study_identifier: gbm_tcga
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+data_filename: data_mutations_extended.txt
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Mutation data from whole exome sequencing.
+profile_name: Mutations

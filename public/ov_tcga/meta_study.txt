@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4cb3280387e53a71837e1b831f09a3805a2872df7a5ed91c12bade9cbfee526f
-size 485
+type_of_cancer: hgsoc
+cancer_study_identifier: ov_tcga
+name: Ovarian Serous Cystadenocarcinoma (TCGA, Provisional)
+short_name: Ovarian (TCGA)
+description: TCGA Ovarian Serous Cystadenocarcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/OV/20160128/gdac.broadinstitute.org_OV.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

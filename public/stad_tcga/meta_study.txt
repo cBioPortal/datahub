@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:34f18ee32337cd9b2cbea0289555ca4e65791f6143f9312e82b6c11abd004fb8
-size 472
+type_of_cancer: stad
+cancer_study_identifier: stad_tcga
+name: Stomach Adenocarcinoma (TCGA, Provisional)
+short_name: Stomach (TCGA)
+description: TCGA Stomach Adenocarcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/STAD/20160128/gdac.broadinstitute.org_STAD.Mutation_Packager_Raw_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

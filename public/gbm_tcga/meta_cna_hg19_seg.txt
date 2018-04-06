@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e6212cc9f67853dce53cce4fc55c9087283fa7c02b8bd031d2f51c2f5f6510c9
-size 268
+cancer_study_identifier: gbm_tcga
+reference_genome_id: hg19
+description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals) from TCGA.
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: SEG
+data_filename: data_cna_hg19.seg

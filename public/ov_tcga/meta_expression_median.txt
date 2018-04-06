@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f48877487ef88e52a25242824d47e734bfc85ec0208574eee85a0701799d6823
-size 328
+cancer_study_identifier: ov_tcga
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+data_filename: data_expression_median.txt
+stable_id: mrna
+show_profile_in_analysis_tab: false
+profile_description: Expression levels for 17155 genes in 561 hgsoc cases (Agilent microarray).
+profile_name: mRNA expression (microarray)

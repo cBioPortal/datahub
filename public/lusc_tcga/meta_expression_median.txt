@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:732a5bd9d08132e69e97d30f100e5cbeaebbd5ba79ed69046eef300f56987f7b
-size 329
+cancer_study_identifier: lusc_tcga
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+data_filename: data_expression_median.txt
+stable_id: mrna
+show_profile_in_analysis_tab: false
+profile_description: Expression levels for 17155 genes in 154 lusc cases (Agilent microarray).
+profile_name: mRNA expression (microarray)

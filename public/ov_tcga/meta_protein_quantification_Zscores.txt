@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:43bf80ca010705a38e98732ea62e416b5a77df96deb4a9496c6f0e9714c34b62
-size 424
+cancer_study_identifier: ov_tcga
+genetic_alteration_type: PROTEIN_LEVEL
+datatype: Z-SCORE
+stable_id: protein_quantification_zscores
+show_profile_in_analysis_tab: true
+profile_description: Protein level Z-scores measured with mass spectrometry by the Clinical Proteomic Tumor Analysis Consortium (CPTAC)
+profile_name: Protein level Z-scores (mass spectrometry by CPTAC)
+data_filename: data_protein_quantification_Zscores.txt

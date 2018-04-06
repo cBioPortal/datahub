@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:244c51a426971335525c0fb267c0bab0acb1730fc264c37a7b1c4ef47c4641f2
-size 350
+cancer_study_identifier: ucs_tcga
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+data_filename: data_RNA_Seq_v2_expression_median.txt
+stable_id: rna_seq_v2_mrna
+show_profile_in_analysis_tab: false
+profile_description: Expression levels for 20532 genes in 57 ucs cases (RNA Seq V2 RSEM).
+profile_name: mRNA expression (RNA Seq V2 RSEM)

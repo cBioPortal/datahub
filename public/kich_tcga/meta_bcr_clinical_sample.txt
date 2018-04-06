@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1b86f4909c1380d3cd21f52f514d5cec171304d7aaea0dbe3256d51eeb9d1590
-size 146
+cancer_study_identifier: kich_tcga
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_bcr_clinical_data_sample.txt

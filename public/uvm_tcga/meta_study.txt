@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:030e1fac25c767f50933e9ee671288a5b7fa568e028ee5ec2ab346679bb574b3
-size 454
+type_of_cancer: um
+cancer_study_identifier: uvm_tcga
+name: Uveal Melanoma (TCGA, Provisional)
+short_name: Uveal melanoma (TCGA)
+description: TCGA Uveal Melanoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/UVM/20160128/gdac.broadinstitute.org_UVM.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

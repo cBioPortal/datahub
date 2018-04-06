@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:89a491bd97b70f3f398c4b543632c7139c4e6abda4221512c080886435178940
-size 321
+cancer_study_identifier: lusc_tcga
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+data_filename: data_expression.txt
+stable_id: mrna_U133
+show_profile_in_analysis_tab: false
+profile_description: mRNA expression data from the Affymetrix U133 microarray.
+profile_name: mRNA expression (U133 microarray only)

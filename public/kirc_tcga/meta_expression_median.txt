@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f50311b69adb3adf4a856d0fffcbc4b5ab63321158eb1068b7527b9de0500775
-size 329
+cancer_study_identifier: kirc_tcga
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+data_filename: data_expression_median.txt
+stable_id: mrna
+show_profile_in_analysis_tab: false
+profile_description: Expression levels for 17155 genes in 72 ccrcc cases (Agilent microarray).
+profile_name: mRNA expression (microarray)

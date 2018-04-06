@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0ede7166dcf7a2e31e0cca96761acfbbb67bc9ee2fa4c81be07a78a1f1572de7
-size 142
+cancer_study_identifier: pcpg_tcga
+genetic_alteration_type: MUTSIG
+datatype: Q-VALUE
+reference_genome_id: hg19
+data_filename: data_mutsig.txt

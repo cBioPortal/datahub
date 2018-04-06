@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1795ce4bada740466a31f44b4b9525cc0832248c30d6ae6b2d6301e9c5e5dc6c
-size 340
+cancer_study_identifier: lihc_tcga
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: CONTINUOUS
+data_filename: data_linear_CNA.txt
+stable_id: linear_CNA
+show_profile_in_analysis_tab: false
+profile_description: Relative linear copy-number values for each gene (from Affymetrix SNP6).
+profile_name: Relative linear copy-number values

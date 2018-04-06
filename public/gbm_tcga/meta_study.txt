@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5407aae689e73ff8a47f84a506f79e62b88d7f5a6f0c17173a8d5e399bcf9d88
-size 466
+type_of_cancer: gbm
+cancer_study_identifier: gbm_tcga
+name: Glioblastoma Multiforme (TCGA, Provisional)
+short_name: GBM (TCGA)
+description: TCGA Glioblastoma Multiforme; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/GBM/20160128/gdac.broadinstitute.org_GBM.Mutation_Packager_Raw_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

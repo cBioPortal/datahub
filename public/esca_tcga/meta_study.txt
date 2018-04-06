@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cbe492d14ce0e8b09fdef99e97e79e7169ccb246d67a5d50b70790758b8075c4
-size 467
+type_of_cancer: esca
+cancer_study_identifier: esca_tcga
+name: Esophageal Carcinoma (TCGA, Provisional)
+short_name: Esophagus (TCGA)
+description: TCGA Esophageal Carcinoma ; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ESCA/20160128/gdac.broadinstitute.org_ESCA.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

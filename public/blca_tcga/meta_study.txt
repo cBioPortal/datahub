@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a18dd9009a8df16661eacab42af967ea1956f4a1fac51b8bbcbbd00e58146c6f
-size 480
+type_of_cancer: blca
+cancer_study_identifier: blca_tcga
+name: Bladder Urothelial Carcinoma (TCGA, Provisional)
+short_name: Bladder (TCGA)
+description: TCGA Bladder Urothelial Carcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/BLCA/20160128/gdac.broadinstitute.org_BLCA.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

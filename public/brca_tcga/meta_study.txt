@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:899362fc2dda234eb0efb0a19b5febfb197f9a7e1bb9f7011b243240831f2725
-size 473
+type_of_cancer: brca
+cancer_study_identifier: brca_tcga
+name: Breast Invasive Carcinoma (TCGA, Provisional)
+short_name: Breast (TCGA)
+description: TCGA Breast Invasive Carcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/BRCA/20160128/gdac.broadinstitute.org_BRCA.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c07ccee0f836651584e165443beaccdd149e32bbc72b6ba14b5820251cb6657
-size 352
+cancer_study_identifier: chol_tcga
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+data_filename: data_RNA_Seq_v2_expression_median.txt
+stable_id: rna_seq_v2_mrna
+show_profile_in_analysis_tab: false
+profile_description: Expression levels for 20532 genes in 45 chol cases (RNA Seq V2 RSEM).
+profile_name: mRNA expression (RNA Seq V2 RSEM)
