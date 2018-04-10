@@ -6,11 +6,27 @@ The datahub is a repository for store data only. It contains staging files which
 Behind the scenes git-lfs is used to manage the large files. https://github.com/github/git-lfs
 
 ## How to Download Data
+### Downloading zip files individual studies
+At [cbioportal.org](http://www.cbioportal.org/data_sets.jsp) a zipped folder with staging files from each study can be downloaded. These zip files are compressed versions of the study folders in the master branch of this repository.
 
-1. Install git-lfs
-2. Checkout this project
+### Example downloading individual study with git-lfs
+It is also possible to download uncompressed staging files from this repository with git-lfs.
 
-Or you can download individual files directly
+After you have installed git-lfs, set up the following git configurations to prevent from downloading all at once:
+```
+git config --global filter.process "git-lfs filter-process --skip"
+git config --global filter.lfs.smudge "git-lfs smudge --skip -- %f"
+```
+Clone the git repository:
+```
+git clone https://github.com/cBioPortal/datahub.git
+cd datahub
+```
+Downloading the study, for example brca_tcga:
+```
+git lfs pull -I "/public/brca_tcga/*"
+git lfs pull -I "/public/brca_tcga/case_lists/*"
+```
 
 ## Download a complete MySQL export of the latest database
 http://download.cbioportal.org/mysql-snapshots/public-portal-dump.latest.sql.gz
