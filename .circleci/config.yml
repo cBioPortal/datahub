@@ -53,7 +53,7 @@ jobs:
             git clone https://github.com/thehyve/cbioportal.git
             cd cbioportal
             git fetch origin validating-multiple-studies
-            git checkout validating-multiple-studies
+            git checkout a1861486808bfe81f45664c62d62420e860041c6
             cd ~/repo/.circleci
             # make test reports location:
             mkdir ~/repo/test-reports
