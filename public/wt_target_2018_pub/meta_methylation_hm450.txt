@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d9a7dca01bc9655764eebe558ec6b244a8eb5febde5483e42ebba9c2e40c78cf
-size 405
+cancer_study_identifier: wt_target_2018_pub
+genetic_alteration_type: METHYLATION
+datatype: CONTINUOUS
+stable_id: methylation_hm450
+profile_description: Methylation beta-values (HM450 platform). For genes with multiple methylation probes, the probe least correlated with expression is selected.
+show_profile_in_analysis_tab: false
+profile_name: Methylation (HM450)
+data_filename:data_methylation_hm450.txt

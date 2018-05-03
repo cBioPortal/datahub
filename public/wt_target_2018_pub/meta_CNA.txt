@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b84c6613523c94b8eec3550235d8885b8ef2f838eaaf37bca2be768bbbd25361
-size 465
+cancer_study_identifier: wt_target_2018_pub
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: DISCRETE
+stable_id: gistic
+show_profile_in_analysis_tab: true
+profile_description: Putative copy-number calls on 129 cases determined using GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
+profile_name: Putative copy-number alterations from GISTIC
+data_filename:data_CNA.txt
