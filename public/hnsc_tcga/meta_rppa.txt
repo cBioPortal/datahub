@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:31644b8fcdbf0edcb11f9b905628f9fe32d732a035fa2bf438032a1ee3fc2bde
-size 296
+cancer_study_identifier: hnsc_tcga
+genetic_alteration_type: PROTEIN_LEVEL
+datatype: LOG2-VALUE
+data_filename: data_rppa.txt
+stable_id: rppa
+show_profile_in_analysis_tab: false
+profile_description: Protein expression measured by reverse-phase protein array
+profile_name: Protein expression (RPPA)

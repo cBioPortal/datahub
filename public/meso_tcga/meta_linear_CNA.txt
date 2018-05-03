@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf6e5e0702ebac11cded9825fd9e2ac24382da8c0c32c7dfa28e0344ac094405
-size 340
+cancer_study_identifier: meso_tcga
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: CONTINUOUS
+data_filename: data_linear_CNA.txt
+stable_id: linear_CNA
+show_profile_in_analysis_tab: false
+profile_description: Relative linear copy-number values for each gene (from Affymetrix SNP6).
+profile_name: Relative linear copy-number values

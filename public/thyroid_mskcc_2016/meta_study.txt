@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc0178e1b8cdd8f76b01292e8b0bf516eac9f16fc946b20892e8f1eaa6403d4c
-size 395
+type_of_cancer: thyroid
+cancer_study_identifier: thyroid_mskcc_2016
+name: Poorly-Differentiated and Anaplastic Thyroid Cancers (MSKCC, JCI 2016)
+description: Next generation sequencing (MSK-IMPACT) of 84 poorly-differentiated (PDTC) and 33 anaplastic thyroid cancers (ATC).
+groups: PUBLIC
+short_name: Thyroid (MSKCC 2016)
+citation: Landa et al. JCI 2016
+pmid: 26878173

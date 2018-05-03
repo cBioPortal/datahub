@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:06f21be2c3d50fd9ca0335b3ebd18118827d5608883d63a908ca09faa7314df7
-size 142
+cancer_study_identifier: chol_tcga
+genetic_alteration_type: MUTSIG
+datatype: Q-VALUE
+reference_genome_id: hg19
+data_filename: data_mutsig.txt

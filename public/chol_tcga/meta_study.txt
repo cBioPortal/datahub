@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fb3dc60eed29d4504c8776c9eb18ef8b22a749ee3559cdbc5c332193c6b3d82f
-size 471
+type_of_cancer: chol
+cancer_study_identifier: chol_tcga
+name: Cholangiocarcinoma (TCGA, Provisional)
+short_name: Cholangiocarcinoma (TCGA)
+description: TCGA Cholangiocarcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/CHOL/20160128/gdac.broadinstitute.org_CHOL.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

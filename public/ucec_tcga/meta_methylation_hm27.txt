@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0a142656a4793d8869dcbfcbb437c1592ed8b962db369b36374313d515ec4df8
-size 399
+cancer_study_identifier: ucec_tcga
+genetic_alteration_type: METHYLATION
+datatype: CONTINUOUS
+data_filename: data_methylation_hm27.txt
+stable_id: methylation_hm27
+show_profile_in_analysis_tab: false
+profile_description: Methylation (HM27) beta-values for genes in 118 cases. For genes with multiple methylation probes, the probe most anti-correlated with expression.
+profile_name: Methylation (HM27)

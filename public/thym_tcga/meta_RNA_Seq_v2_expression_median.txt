@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fd7c3eb0f37e463e850bd88ffa90b189068fd59372ea3493554acc66e1b14393
-size 353
+cancer_study_identifier: thym_tcga
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+data_filename: data_RNA_Seq_v2_expression_median.txt
+stable_id: rna_seq_v2_mrna
+show_profile_in_analysis_tab: false
+profile_description: Expression levels for 20532 genes in 122 thym cases (RNA Seq V2 RSEM).
+profile_name: mRNA expression (RNA Seq V2 RSEM)

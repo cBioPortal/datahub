@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1d8190db1aef964e727dd370e5cd006e7eddf275bec0775d13a56b37ccefe2af
-size 465
+type_of_cancer: luad
+cancer_study_identifier: luad_tcga
+name: Lung Adenocarcinoma (TCGA, Provisional)
+short_name: Lung adeno (TCGA)
+description: TCGA Lung Adenocarcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/LUAD/20160128/gdac.broadinstitute.org_LUAD.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

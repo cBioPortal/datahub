@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a3ac24cf85c2442e8b78624e964d3358495b62cbfb7985bea0fe785ef13b6281
-size 437
+type_of_cancer: thym
+cancer_study_identifier: thym_tcga
+name: Thymoma (TCGA, Provisional)
+short_name: Thymoma(TCGA)
+description: TCGA Thymoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/THYM/20160128/gdac.broadinstitute.org_THYM.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

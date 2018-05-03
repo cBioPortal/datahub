@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:de1340db13c4091ed0f5e24d8a2d80a219099da5ef37df57ca051a4775bae6eb
-size 146
+cancer_study_identifier: prad_tcga
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_bcr_clinical_data_sample.txt

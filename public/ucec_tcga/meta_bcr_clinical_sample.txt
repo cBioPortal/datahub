@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7b10476aadd8d89b6e0cd02963b9a89ef42572de2f36a09e4cfa3474dfbfe405
-size 146
+cancer_study_identifier: ucec_tcga
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_bcr_clinical_data_sample.txt

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ff3b9abfeb242cc0240a14c2bb04ddc2f8f07b1d9722c919ad1a1bcaf7e5d377
-size 403
+cancer_study_identifier: lusc_tcga
+genetic_alteration_type: METHYLATION
+datatype: CONTINUOUS
+data_filename: data_methylation_hm450.txt
+stable_id: methylation_hm450
+show_profile_in_analysis_tab: false
+profile_description: Methylation (HM450) beta-values for genes in 412 cases. For genes with multiple methylation probes, the probe most anti-correlated with expression.
+profile_name: Methylation (HM450)

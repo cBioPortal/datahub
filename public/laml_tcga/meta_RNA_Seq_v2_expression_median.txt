@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a7ced43a6400aed83190bf7946af6bc92649a7dd8a672dce71156a2bb5175cea
-size 352
+cancer_study_identifier: laml_tcga
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+data_filename: data_RNA_Seq_v2_expression_median.txt
+stable_id: rna_seq_v2_mrna
+show_profile_in_analysis_tab: false
+profile_description: Expression levels for 20532 genes in 173 aml cases (RNA Seq V2 RSEM).
+profile_name: mRNA expression (RNA Seq V2 RSEM)

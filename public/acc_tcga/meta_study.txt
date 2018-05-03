@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e2d87f05b6917be66e373ead170ea564402a6071c67a16e32f170e340799a61e
-size 464
+type_of_cancer: acc
+cancer_study_identifier: acc_tcga
+name: Adrenocortical Carcinoma (TCGA, Provisional)
+short_name: ACC (TCGA)
+description: TCGA Adrenocortical Carcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ACC/20160128/gdac.broadinstitute.org_ACC.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6a4ca36bfaf5f5bf07804e08f13cfcce9339bc120328ae488814156aa591370e
-size 328
+cancer_study_identifier: cesc_tcga
+genetic_alteration_type: PROTEIN_LEVEL
+datatype: Z-SCORE
+data_filename: data_rppa_Zscores.txt
+stable_id: rppa_Zscores
+show_profile_in_analysis_tab: true
+profile_description: Protein expression, measured by reverse-phase protein array, Z-scores
+profile_name: Protein expression Z-scores (RPPA)
