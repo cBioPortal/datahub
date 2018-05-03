@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:13311c90c60b091fe9fa6b9bf036ee9728a1059e1b6645f29d5df1a974903619
-size 237
+cancer_study_identifier: prad_eururol_2017
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: SEG
+reference_genome_id: hg19
+description: Somatic CNA data. Log2(Copy number ratio).
+data_filename: prad_eururol_2017_data_cna_hg19.seg
