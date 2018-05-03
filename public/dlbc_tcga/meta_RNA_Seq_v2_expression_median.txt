@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d9d6c45e8b8917e46510fe77f7700f54e4af34db5c9a27d726c59295923dc7a7
-size 353
+cancer_study_identifier: dlbc_tcga
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+data_filename: data_RNA_Seq_v2_expression_median.txt
+stable_id: rna_seq_v2_mrna
+show_profile_in_analysis_tab: false
+profile_description: Expression levels for 20532 genes in 48 dlbcl cases (RNA Seq V2 RSEM).
+profile_name: mRNA expression (RNA Seq V2 RSEM)

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:adb1dc5a237cfd77823b41dd86d45b11fd9847b6abe3c569fc7547fab7282359
-size 403
+cancer_study_identifier: kirp_tcga
+genetic_alteration_type: METHYLATION
+datatype: CONTINUOUS
+data_filename: data_methylation_hm450.txt
+stable_id: methylation_hm450
+show_profile_in_analysis_tab: false
+profile_description: Methylation (HM450) beta-values for genes in 321 cases. For genes with multiple methylation probes, the probe most anti-correlated with expression.
+profile_name: Methylation (HM450)

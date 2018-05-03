@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:829efd5d953a89cda27f8ad19b65ff26d60954c09d8668243b88ebbbba59b70f
-size 162
+cancer_study_identifier: kich_tcga
+genetic_alteration_type: GISTIC_GENES_AMP
+datatype: Q-VALUE
+reference_genome_id: hg19
+data_filename: data_gistic_genes_amp.txt

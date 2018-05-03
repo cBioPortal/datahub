@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e069d32e79ddec85e0b71d22b726d846674b3a7a6bbf78bb077ced43b7d817c
-size 403
+cancer_study_identifier: lgg_tcga
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+data_filename: data_mRNA_median_Zscores.txt
+stable_id: mrna_median_Zscores
+show_profile_in_analysis_tab: true
+profile_description: mRNA z-Scores (Agilent microarray) compared to the expression distribution of each gene tumors that are diploid for this gene.
+profile_name: mRNA Expression z-Scores (microarray)

@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:74e99f4a856a843341bf5b2f845250f4b9d65786da64afb06c0becb8990b210d
-size 161
+cancer_study_identifier: acc_tcga
+genetic_alteration_type: GISTIC_GENES_DEL
+datatype: Q-VALUE
+reference_genome_id: hg19
+data_filename: data_gistic_genes_del.txt

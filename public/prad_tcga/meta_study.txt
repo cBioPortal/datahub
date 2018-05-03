@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:614f85caf698b71d58543f5105c11f558f4b66b04bc9f2d337f1d802814956ff
-size 475
+type_of_cancer: prad
+cancer_study_identifier: prad_tcga
+name: Prostate Adenocarcinoma (TCGA, Provisional)
+short_name: Prostate (TCGA)
+description: TCGA Prostate Adenocarcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/PRAD/20160128/gdac.broadinstitute.org_PRAD.Mutation_Packager_Raw_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

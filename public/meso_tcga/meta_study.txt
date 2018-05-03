@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fa7865fb1eb6e278a7c58ca9696e173310c60b2d91afc09c589e20bf58a9af8d
-size 743
+type_of_cancer: plmeso
+cancer_study_identifier: meso_tcga
+name: Mesothelioma (TCGA, Provisional)
+short_name: Mesothelioma (TCGA)
+description: TCGA Mesothelioma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data at the <A HREF="https://portal.gdc.cancer.gov/legacy-archive/search/f?filters=%7B%22op%22:%22and%22,%22content%22:%5B%7B%22op%22:%22in%22,%22content%22:%7B%22field%22:%22cases.project.program.name%22,%22value%22:%5B%22TCGA%22%5D%7D%7D,%7B%22op%22:%22in%22,%22content%22:%7B%22field%22:%22cases.project.project_id%22,%22value%22:%5B%22TCGA-MESO%22%5D%7D%7D,%7B%22op%22:%22in%22,%22content%22:%7B%22field%22:%22files.data_format%22,%22value%22:%5B%22MAF%22%5D%7D%7D%5D%7D">GDC</A>.
+groups: PUBLIC

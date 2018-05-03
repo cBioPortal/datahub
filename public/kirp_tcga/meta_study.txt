@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2826a4fc9283c1cdec4e85d077a8e6f7631d3f1f9470df6f2b58f99d6bc59a6f
-size 499
+type_of_cancer: prcc
+cancer_study_identifier: kirp_tcga
+name: Kidney Renal Papillary Cell Carcinoma (TCGA, Provisional)
+short_name: pRCC (TCGA)
+description: TCGA Kidney Renal Papillary Cell Carcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/KIRP/20160128/gdac.broadinstitute.org_KIRP.Mutation_Packager_Raw_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

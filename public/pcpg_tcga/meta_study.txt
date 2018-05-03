@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d8d87d7eb845e8c5fc43aa2200595fe66bc37fe28106cfac3436fa223f24e1d8
-size 489
+type_of_cancer: mnet
+cancer_study_identifier: pcpg_tcga
+name: Pheochromocytoma and Paraganglioma (TCGA, Provisional)
+short_name: PCPG (TCGA)
+description: TCGA Pheochromocytoma and Paraganglioma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/PCPG/20160128/gdac.broadinstitute.org_PCPG.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

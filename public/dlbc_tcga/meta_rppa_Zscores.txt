@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3186226f1cf74b07bcb77dec7440fcea9e8bda2c68e59434aa78d688b973c6cc
-size 328
+cancer_study_identifier: dlbc_tcga
+genetic_alteration_type: PROTEIN_LEVEL
+datatype: Z-SCORE
+data_filename: data_rppa_Zscores.txt
+stable_id: rppa_Zscores
+show_profile_in_analysis_tab: true
+profile_description: Protein expression, measured by reverse-phase protein array, Z-scores
+profile_name: Protein expression Z-scores (RPPA)

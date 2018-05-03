@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5f1e3ec0d8a2992684eeacde410951748a81e8ac6b19afbb104e6d81dbf3a9d7
-size 152
+cancer_study_identifier: coadread_tcga
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_bcr_clinical_data_patient.txt

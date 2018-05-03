@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7e4f75999690552ac171ca5dca37560b208e6e70502ffbc014603b8d1940a5e4
-size 148
+cancer_study_identifier: kirp_tcga
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_bcr_clinical_data_patient.txt

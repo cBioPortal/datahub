@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d3853fcb0cce30633f33b841e29c5d4ad539c191e0d58423ee73781fa88fac32
-size 296
+cancer_study_identifier: meso_tcga
+genetic_alteration_type: PROTEIN_LEVEL
+datatype: LOG2-VALUE
+data_filename: data_rppa.txt
+stable_id: rppa
+show_profile_in_analysis_tab: false
+profile_description: Protein expression measured by reverse-phase protein array
+profile_name: Protein expression (RPPA)

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c764682b74c67215afa02fea4156c24a74e12dd64ccac41917632d33272eef4d
-size 458
+type_of_cancer: thpa
+cancer_study_identifier: thca_tcga
+name: Thyroid Carcinoma (TCGA, Provisional)
+short_name: Thyroid (TCGA)
+description: TCGA Thyroid Carcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/THCA/20160128/gdac.broadinstitute.org_THCA.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

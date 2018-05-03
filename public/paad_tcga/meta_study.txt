@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5b890a7c6095333a4f747d65d5fe23960ab9b451ab17f33aaced12cb71f8f86f
-size 475
+type_of_cancer: paad
+cancer_study_identifier: paad_tcga
+name: Pancreatic Adenocarcinoma (TCGA, Provisional)
+short_name: Pancreas (TCGA)
+description: TCGA Pancreatic Adenocarcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/PAAD/20160128/gdac.broadinstitute.org_PAAD.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC
