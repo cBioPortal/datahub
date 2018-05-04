@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e762c59f9ff376211fd2e374b68d855a56ea9b2be50a06758ab0c02e5bb70f3a
-size 327
+cancer_study_identifier: panet_shanghai_2013
+stable_id: panet_shanghai_2013_all
+case_list_name: All Tumors
+case_list_description: All tumor samples (10 samples)
+case_list_category: all_cases_in_study
+case_list_ids: INS19	INS40	INS12	INS15	INS31	INS24	INS20	INS38	INS8	INS29
