@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8b710d48df14c5fec3e06123496463183c64c7d00fba34ea10f4f2232d524ad3
-size 147
+cancer_study_identifier: prad_eururol_2017
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_clinical_patient.txt

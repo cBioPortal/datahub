@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5b893c51bf0bc6af1942fe077745bbfa2834db51634658fe1f6f0c1c389198af
-size 259
+cancer_study_identifier:crc_msk_2018
+stable_id: fusion
+genetic_alteration_type:FUSION
+show_profile_in_analysis_tab:true
+datatype:FUSION
+profile_name:Fusions.
+profile_description:Foundation fusions data for coadread_crc1000_2016
+data_filename:data_fusions.txt

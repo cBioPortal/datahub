@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4895462fd0e1500929f9d8c3231943a5e16789b57c48ef782d41515f9469bd74
-size 158
+cancer_study_identifier: sclc_cancercell_gardner_2017
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_clinical_patients.txt

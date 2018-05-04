@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c91dc20dc36cbf6ba58d4a64cc1357b71a93d14996ce7f445eee8672164e9636
-size 351
+type_of_cancer: all
+cancer_study_identifier: all_stjude_2016
+name: Acute Lymphoblastic Leukemia (St Jude, Nat Genet 2016)
+short_name: ALL (St. Jude, Nat Gen)
+description: Whole-genome and/or whole-exome sequencing was performed for ERG-altered B-ALL cases.
+citation: Zhang et al. Nat Genet 2016
+pmid: 27776115
+groups: PUBLIC
+add_global_case_list: true

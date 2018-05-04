@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1f6153477720dd2d8084b01d5ab10b4654ca6b36c33eb64cfae078809b451b7a
-size 252
+type_of_cancer: prad
+cancer_study_identifier: prad_p1000
+name: Prostate Adenocarcinoma (MSKCC/DFCI, Nature Genetics 2018)
+short_name: PRAD (MSKCC/DFCI 2018)
+description: Whole Exome Sequencing of 1013 prostate cancer samples.
+add_global_case_list: true

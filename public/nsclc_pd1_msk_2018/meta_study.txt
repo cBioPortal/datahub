@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9556ce5d79dbef25453d387c9df6cdaf28a4aa9054af08979c6477e38df35c50
-size 355
+type_of_cancer: nsclc
+cancer_study_identifier: nsclc_pd1_msk_2018
+name: Non-Small Cell Lung Cancer (MSK, JCO 2018)
+short_name: NSCLC (MSK PD1)
+description: NGS sequencing of 240 NSCLC cases treated at MSKCC with anti-PD-(L)1 based therapy using the MSK-IMPACT assay.
+citation: Rizvi et al. JCO 2018
+pmid: 29337640
+groups: PUBLIC
+add_global_case_list: true

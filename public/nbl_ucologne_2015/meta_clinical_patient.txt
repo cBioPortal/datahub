@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6311dffc56b921cc99388bb27a2ed1add0bc422f492f25adc021b59b550bd700
-size 146
+cancer_study_identifier: nbl_ucologne_2015
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_clinical_patient.txt

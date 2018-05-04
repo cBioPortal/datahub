@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:65d186ccbfcefe932483bbdf4553924daf30e58ab98e083b016c37aa893beb51
-size 380
+type_of_cancer: blca
+cancer_study_identifier: blca_dfarber_mskcc_2014
+name: Bladder Urothelial Carcinoma (Dana Farber & MSKCC, Cancer Discov 2014)
+description: Whole exome sequencing of 50 patients with muscle invasive urothelial carcinoma
+citation: Van Allen et al. Cancer Discov 2014
+pmid: 25096233
+short_name: Bladder (DFCI/MSKCC 2014)
+groups: PUBLIC
+add_global_case_list: true

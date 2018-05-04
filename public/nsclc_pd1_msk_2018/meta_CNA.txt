@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5cc4125c8cd2fc0e60061a6dbcfce3515f2ad5cd2ec83b3973185ba0a5e1ee0e
-size 273
+cancer_study_identifier: nsclc_pd1_msk_2018
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: DISCRETE
+stable_id: cna
+show_profile_in_analysis_tab: true
+profile_name: Putative copy-number alterations
+profile_description: Copy Number data
+data_filename: data_CNA.txt

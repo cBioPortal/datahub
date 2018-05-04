@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a39eaf8c2fee2d800c3df9afc5f65880ba233d50c42d518b59cea436b05854e8
-size 284
+cancer_study_identifier: nsclc_pd1_msk_2018
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Mutation data from next-gen sequencing.
+profile_name: Mutations
+data_filename: data_mutations_extended.txt

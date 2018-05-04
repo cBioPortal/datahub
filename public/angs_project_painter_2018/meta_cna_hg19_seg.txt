@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c2a4e1b915267a208401b29e9fe63f1fa2c710dd5bf8832f96480ff7c2fda1e6
-size 202
+cancer_study_identifier: angs_project_painter_2018
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: SEG
+reference_genome_id: hg19
+description: Somatic CNA data
+data_filename: data_cna_hg19.seg

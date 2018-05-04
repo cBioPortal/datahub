@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8f913b5ee364c7f8b9f1f10c5e2065d1aaacb88b9103ddb127244b3c93f0a6fa
-size 323
+cancer_study_identifier: aml_target_2018_pub
+stable_id: mrna_median_Zscores
+profile_name: mRNA expression (microarray)
+profile_description: mRNA expression levels (Affymetrix microarray)
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+show_profile_in_analysis_tab: false
+data_filename:data_expression_median.txt

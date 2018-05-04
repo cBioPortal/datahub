@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0ad299312d97b84be769d90724eb1c576517b68bf0d2ed5a90ccfe6cf9d9f149
-size 169
+cancer_study_identifier: angs_project_painter_2018
+genetic_alteration_type: MUTSIG
+datatype: Q-VALUE
+profile_description:MutSig 2CV v3.1.
+data_filename: data_mutsig.txt

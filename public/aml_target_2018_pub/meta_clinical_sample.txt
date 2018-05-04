@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2f6302dfbf4901ac09dd3fadbaa4e0a69f591b52c2a1841a5b876feb16e2f067
-size 147
+cancer_study_identifier: aml_target_2018_pub
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_clinical_sample.txt

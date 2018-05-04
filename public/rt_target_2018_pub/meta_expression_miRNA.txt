@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:49202ff8a85e58f703f61a1a950c96a6276386e865d836e02f87246a7ef144ce
-size 287
+cancer_study_identifier: rt_target_2018_pub
+stable_id: mirna
+profile_name: microRNA expression
+profile_description: Expression levels for microRNAs.
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+show_profile_in_analysis_tab: false
+data_filename:data_expression_miRNA.txt

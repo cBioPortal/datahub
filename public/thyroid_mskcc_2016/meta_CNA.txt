@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c8944cf4643e18743d26c732fd98026de05ae69203e6bf6080227a0e1ef5271f
-size 434
+cancer_study_identifier: thyroid_mskcc_2016
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: DISCRETE
+stable_id: gistic
+show_profile_in_analysis_tab: true
+profile_name: Putative copy-number alterations from GISTIC
+profile_description: Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
+data_filename: data_CNA.txt

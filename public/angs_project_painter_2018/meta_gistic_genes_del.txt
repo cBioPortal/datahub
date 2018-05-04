@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab670e8f7cdd0daf46205ac1c0c171ffba7fd0e60fcb00c18f592f1edb0c8fd1
-size 178
+cancer_study_identifier: angs_project_painter_2018
+genetic_alteration_type: GISTIC_GENES_DEL
+datatype: Q-VALUE
+reference_genome_id: hg19
+data_filename: data_gistic_genes_del.txt

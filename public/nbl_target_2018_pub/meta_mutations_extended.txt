@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8b82c23d221fce2107f5168922c58a2d6f2de350011f4dcfff25474899c1826d
-size 336
+cancer_study_identifier: nbl_target_2018_pub
+stable_id: mutations
+profile_name: Somatic mutations
+profile_description: Somatic mutation status from whole genome or whole exome sequencing on 313 samples.
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+data_filename:data_mutations_extended.txt
+show_profile_in_analysis_tab: true

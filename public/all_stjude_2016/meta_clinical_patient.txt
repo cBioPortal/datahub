@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:832afbec0f5b8acf284bca1f1165d7c822cf9f04d9dc10d1cdc0792acce34cda
-size 144
+cancer_study_identifier: all_stjude_2016
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_clinical_patient.txt

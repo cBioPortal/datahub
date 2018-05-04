@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:938fe70ef31b184c1fac87c06ea33e7feca730a3c59c38b191e0fc03b68f880d
-size 153
+cancer_study_identifier: brca_mbcproject_wagle_2017
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_clinical_sample.txt

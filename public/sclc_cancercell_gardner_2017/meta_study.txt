@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e5ad877c191b471663aae76a469cc59be6342518bdcab316aa536587d9576e45
-size 327
+type_of_cancer: sclc
+cancer_study_identifier: sclc_cancercell_gardner_2017
+name: Small-Cell Lung Cancer (Multi-Institute 2017)
+short_name: SCLC (GARDNER)
+description: Whole Exome Sequencing of paired chemosensitive and chemoresistant SCLC PDX.
+add_global_case_list: true
+citation: Gardner et al. Cancer Cell 2017
+pmid: 28196596

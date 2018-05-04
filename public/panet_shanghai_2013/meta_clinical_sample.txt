@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0a5515ee007828a3475bfbb0b33741af11f6bf04097ba231187a5f1bc35c4eee
-size 147
+cancer_study_identifier: panet_shanghai_2013
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_clinical_sample.txt

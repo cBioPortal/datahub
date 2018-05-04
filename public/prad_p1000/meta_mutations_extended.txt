@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:81ef2546a3aea654331cd4555d7dc379a8cf8be025d7ebbba40915c270e8ec3a
-size 291
+cancer_study_identifier: prad_p1000
+stable_id: mutations
+profile_name: Mutations from CMO WES dataset
+profile_description: Mutations from Pan-Prostate P1000
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+show_profile_in_analysis_tab: true
+data_filename: data_mutations_extended.txt

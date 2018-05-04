@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f08290424655f8f92a5422b8367cd1ed83ecc1732397cd41c4ef9ba42afa1f0a
-size 149
+cancer_study_identifier: nbl_target_2018_pub
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_clinical_patient.txt

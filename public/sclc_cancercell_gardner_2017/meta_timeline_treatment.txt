@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f9cee06058f8b02e744d94c6c08acc3fd40853371a05620fb7afe71f89268cdd
-size 149
+cancer_study_identifier: sclc_cancercell_gardner_2017
+genetic_alteration_type: CLINICAL
+datatype: TIMELINE
+data_filename: data_timeline_treatment.txt

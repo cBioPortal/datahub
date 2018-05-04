@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2fef3484f1e5e6d6272d198380bf2c7140ca9e80e5c7ea69b4041abeacf9b076
-size 139
+cancer_study_identifier: prad_p1000
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_clinical_patient.txt

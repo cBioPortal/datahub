@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0642e515931855cbb2fefbc32a810886cb208d1a2b6ea33dce038b3e4ed66351
-size 286
+cancer_study_identifier: angs_project_painter_2018
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Mutation data from 103 WES samples.
+profile_name: Mutations
+data_filename:data_mutations_extended.txt

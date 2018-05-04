@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:04a52d3a8d2b7f7d3ca1de1afc4b176467ad0efc6b1707ebb228d9e34c2c575e
-size 269
+cancer_study_identifier: all_stjude_2016
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Mutation data from WGS/WES.
+profile_name: Mutations
+data_filename: data_mutations_extended.txt

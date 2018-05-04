@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a0764c44ef6a3dd9bab41f83c39902979c036857736398e7c7bcd71b09ca210b
-size 147
+cancer_study_identifier: brca_mbcproject_wagle_2017
+genetic_alteration_type: CLINICAL
+datatype: TIMELINE
+data_filename: data_timeline_treatment.txt
