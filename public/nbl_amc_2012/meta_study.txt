@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f783a68c08b3bbaae3c1db0df9b3eba88391eb9f1908da862c7e806ef8b22015
-size 333
+type_of_cancer: nbl
+cancer_study_identifier: nbl_amc_2012
+name: Neuroblastoma (AMC Amsterdam, Nature 2012)
+description: Whole genome sequencing of 87 neuroblastoma samples from the Academic Medical Center, Amsterdam.
+citation: Molenaar et al. Nature 2012
+pmid: 22367537
+short_name: NBL (AMC)
+groups: PUBLIC
+add_global_case_list: true

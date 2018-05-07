@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2358100becc9ef951af5c3339e3203be6ec7230cb0669e8f8a5df803a5abdf72
-size 150
+cancer_study_identifier: blca_dfarber_mskcc_2014
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_clinical_sample.txt
