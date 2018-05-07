@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:25dc7569cd63275037ce67d277e64b43cae4d3e1120d1bd4c9e72b6901e48383
-size 301
+cancer_study_identifier: nbl_target_2018_pub
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: SEG
+reference_genome_id: hg19
+description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals) from TARGET.
+data_filename: nbl_target_2018_pub_data_cna_hg19.seg

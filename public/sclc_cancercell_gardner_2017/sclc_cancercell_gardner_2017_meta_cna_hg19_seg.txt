@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:063d8b5892483776e4bf4b528d2281cba35aea1ea416829b90338c253840438b
-size 307
+cancer_study_identifier: sclc_cancercell_gardner_2017
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: SEG
+reference_genome_id: hg19
+description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals).
+data_filename: sclc_cancercell_gardner_2017_data_cna_hg19.seg
