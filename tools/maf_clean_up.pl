@@ -166,7 +166,9 @@ while (my $line = <IN>) {
 				print DAT "CTGF";
 			} elsif (uc($columns[$keep_col_index]) eq "1-DEC") {
 				print DAT "DEC1";
-			} 
+			} else {
+				print DAT "$columns[$keep_col_index]";
+			}
 		} 
 		$col_counter++;
 	}
