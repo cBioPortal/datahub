@@ -54,7 +54,7 @@ C11orf40	1-Nov
 2. Correct letter case pattern for header fields
 
 Start_Position
-End_Postion
+End_Position
 
 3. Drop columns
 

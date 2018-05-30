@@ -59,101 +59,101 @@ while (my $line = <IN>) {
 			print DAT "\t";
 		} else {
 			# convert hugo gene symbol in date format. 
-			if (uc($columns[$keep_col_index]) eq "1-Feb") {
+			if (uc($columns[$keep_col_index]) eq "1-FEB") {
 				print DAT "FEB1";
-			} elsif (uc($columns[$keep_col_index]) eq "2-Feb") {
+			} elsif (uc($columns[$keep_col_index]) eq "2-FEB") {
 				print DAT "FEB2";
-			} elsif (uc($columns[$keep_col_index]) eq "5-Feb") {
+			} elsif (uc($columns[$keep_col_index]) eq "5-FEB") {
 				print DAT "FEB5";
-			} elsif (uc($columns[$keep_col_index]) eq "6-Feb") {
+			} elsif (uc($columns[$keep_col_index]) eq "6-FEB") {
 				print DAT "FEB6";
-			} elsif (uc($columns[$keep_col_index]) eq "7-Feb") {
+			} elsif (uc($columns[$keep_col_index]) eq "7-FEB") {
 				print DAT "FEB7";
-			} elsif (uc($columns[$keep_col_index]) eq "9-Feb") {
+			} elsif (uc($columns[$keep_col_index]) eq "9-FEB") {
 				print DAT "FEB9";
-			} elsif (uc($columns[$keep_col_index]) eq "10-Feb") {
+			} elsif (uc($columns[$keep_col_index]) eq "10-FEB") {
 				print DAT "FEB10";
-			} elsif (uc($columns[$keep_col_index]) eq "1-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "1-MAR") {
 				print DAT "MARCH1";
-			} elsif (uc($columns[$keep_col_index]) eq "2-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "2-MAR") {
 				print DAT "MARCH2";
-			} elsif (uc($columns[$keep_col_index]) eq "3-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "3-MAR") {
 				print DAT "MARCH3";
-			} elsif (uc($columns[$keep_col_index]) eq "4-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "4-MAR") {
 				print DAT "MARCH4";
-			} elsif (uc($columns[$keep_col_index]) eq "5-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "5-MAR") {
 				print DAT "MARCH5";
-			} elsif (uc($columns[$keep_col_index]) eq "6-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "6-MAR") {
 				print DAT "MARCH6";
-			} elsif (uc($columns[$keep_col_index]) eq "7-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "7-MAR") {
 				print DAT "MARCH7";
-			} elsif (uc($columns[$keep_col_index]) eq "8-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "8-MAR") {
 				print DAT "MARCH8";
-			} elsif (uc($columns[$keep_col_index]) eq "9-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "9-MAR") {
 				print DAT "MARCH9";
-			} elsif (uc($columns[$keep_col_index]) eq "10-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "10-MAR") {
 				print DAT "MARCH10";
-			} elsif (uc($columns[$keep_col_index]) eq "11-Mar") {
+			} elsif (uc($columns[$keep_col_index]) eq "11-MAR") {
 				print DAT "MARCH11";
-			} elsif (uc($columns[$keep_col_index]) eq "1-Apr") {
+			} elsif (uc($columns[$keep_col_index]) eq "1-APR") {
 				print DAT "MAGEH1";
-			} elsif (uc($columns[$keep_col_index]) eq "2-Apr") {
+			} elsif (uc($columns[$keep_col_index]) eq "2-APR") {
 				print DAT "FAM215A";
-			} elsif (uc($columns[$keep_col_index]) eq "3-Apr") {
+			} elsif (uc($columns[$keep_col_index]) eq "3-APR") {
 				print DAT "ATRAID";
-			} elsif (uc($columns[$keep_col_index]) eq "1-May") {
+			} elsif (uc($columns[$keep_col_index]) eq "1-MAY") {
 				print DAT "PRKCD";
-			} elsif (uc($columns[$keep_col_index]) eq "1-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "1-SEP") {
 				print DAT "SEPT1";
-			} elsif (uc($columns[$keep_col_index]) eq "2-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "2-SEP") {
 				print DAT "SEPT2";
-			} elsif (uc($columns[$keep_col_index]) eq "3-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "3-SEP") {
 				print DAT "SEPT3";
-			} elsif (uc($columns[$keep_col_index]) eq "4-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "4-SEP") {
 				print DAT "SEPT4";
-			} elsif (uc($columns[$keep_col_index]) eq "5-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "5-SEP") {
 				print DAT "SEPT5";
-			} elsif (uc($columns[$keep_col_index]) eq "6-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "6-SEP") {
 				print DAT "SEPT6";
-			} elsif (uc($columns[$keep_col_index]) eq "7-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "7-SEP") {
 				print DAT "SEPT7";
-			} elsif (uc($columns[$keep_col_index]) eq "8-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "8-SEP") {
 				print DAT "SEPT8";
-			} elsif (uc($columns[$keep_col_index]) eq "9-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "9-SEP") {
 				print DAT "SEPT9";
-			} elsif (uc($columns[$keep_col_index]) eq "10-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "10-SEP") {
 				print DAT "SEPT10";
-			} elsif (uc($columns[$keep_col_index]) eq "11-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "11-SEP") {
 				print DAT "SEPT11";
-			} elsif (uc($columns[$keep_col_index]) eq "12-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "12-SEP") {
 				print DAT "SEPT12";
-			} elsif (uc($columns[$keep_col_index]) eq "13-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "13-SEP") {
 				print DAT "SEPT13";
-			} elsif (uc($columns[$keep_col_index]) eq "14-Sep") {
+			} elsif (uc($columns[$keep_col_index]) eq "14-SEP") {
 				print DAT "SEPT14";
-			} elsif (uc($columns[$keep_col_index]) eq "2-Oct") {
+			} elsif (uc($columns[$keep_col_index]) eq "2-OCT") {
 				print DAT "POU2F2";
-			} elsif (uc($columns[$keep_col_index]) eq "2-Oct") {
+			} elsif (uc($columns[$keep_col_index]) eq "2-OCT") {
 				print DAT "SLC22A2";
-			} elsif (uc($columns[$keep_col_index]) eq "3-Oct") {
+			} elsif (uc($columns[$keep_col_index]) eq "3-OCT") {
 				print DAT "POU5F1";
-			} elsif (uc($columns[$keep_col_index]) eq "4-Oct") {
+			} elsif (uc($columns[$keep_col_index]) eq "4-OCT") {
 				print DAT "POU5F1";
-			} elsif (uc($columns[$keep_col_index]) eq "6-Oct") {
+			} elsif (uc($columns[$keep_col_index]) eq "6-OCT") {
 				print DAT "POU3F1";
-			} elsif (uc($columns[$keep_col_index]) eq "6-Oct") {
+			} elsif (uc($columns[$keep_col_index]) eq "6-OCT") {
 				print DAT "SLC22A16";
-			} elsif (uc($columns[$keep_col_index]) eq "7-Oct") {
+			} elsif (uc($columns[$keep_col_index]) eq "7-OCT") {
 				print DAT "POU3F2";
-			} elsif (uc($columns[$keep_col_index]) eq "9-Oct") {
+			} elsif (uc($columns[$keep_col_index]) eq "9-OCT") {
 				print DAT "POU3F4";
-			} elsif (uc($columns[$keep_col_index]) eq "11-Oct") {
+			} elsif (uc($columns[$keep_col_index]) eq "11-OCT") {
 				print DAT "POU2F3";
-			} elsif (uc($columns[$keep_col_index]) eq "1-Nov") {
+			} elsif (uc($columns[$keep_col_index]) eq "1-NOV") {
 				print DAT "C11orf40";
-			} elsif (uc($columns[$keep_col_index]) eq "2-Nov") {
+			} elsif (uc($columns[$keep_col_index]) eq "2-NOV") {
 				print DAT "CTGF";
-			} elsif (uc($columns[$keep_col_index]) eq "1-Dec") {
+			} elsif (uc($columns[$keep_col_index]) eq "1-DEC") {
 				print DAT "DEC1";
 			}
 		} 
