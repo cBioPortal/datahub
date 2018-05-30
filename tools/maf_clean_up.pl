@@ -57,9 +57,20 @@ while (my $line = <IN>) {
 	foreach $keep_col_index (@keep_cols) {
 		if ($col_counter != 0) {
 			print DAT "\t";
+			# normalize casing for certain columns
+			if (uc($columns[$keep_col_index]) eq "START_POSITION") {
+				print DAT "Start_Position";
+			} elsif (uc($columns[$keep_col_index]) eq "END_POSITION") {
+				print DAT "End_Position";	
+			} else {
+				# write out only columns needed / trim outdated unused columns 
+				print DAT "$columns[$keep_col_index]";
+			}
 		} else {
-			# convert hugo gene symbol in date format. 
-			if (uc($columns[$keep_col_index]) eq "1-FEB") {
+			# convert hugo gene symbol in date format.
+			if (uc($columns[$keep_col_index]) eq "HUGO_SYMBOL") {
+				print DAT "Hugo_Symbol";
+			} elsif (uc($columns[$keep_col_index]) eq "1-FEB") {
 				print DAT "FEB1";
 			} elsif (uc($columns[$keep_col_index]) eq "2-FEB") {
 				print DAT "FEB2";
@@ -155,20 +166,9 @@ while (my $line = <IN>) {
 				print DAT "CTGF";
 			} elsif (uc($columns[$keep_col_index]) eq "1-DEC") {
 				print DAT "DEC1";
-			}
+			} 
 		} 
 		$col_counter++;
-		# normalize casing for certain columns
-		if (uc($columns[$keep_col_index]) eq "START_POSITION") {
-			print DAT "Start_Position";
-		} elsif (uc($columns[$keep_col_index]) eq "END_POSITION") {
-			print DAT "End_Position";	
-		} elsif (uc($columns[$keep_col_index]) eq "HUGO_SYMBOL") {
-			print DAT "Hugo_Symbol";
-		} else {
-			# write out only columns needed / trim outdated unused columns 
-			print DAT "$columns[$keep_col_index]";
-		}
 	}
 	print DAT "\n";
 }
