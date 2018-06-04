@@ -189,6 +189,9 @@ while (my $line = <IN>) {
 		}
 		$col_counter++;
 	}
+	if ($keep_cols[-1] != ((scalar @headers) - 1) ) {
+		print DAT "\n";
+	}
 }
 print "Done.\n";
 
