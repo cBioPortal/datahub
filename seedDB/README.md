@@ -22,6 +22,7 @@ Contents of seed database:
 - Entrez Gene IDs, HGNC symbols and gene aliases updated in April 2018 from [NCBI](ftp://ftp.ncbi.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz)
 - Gene lengths retrieved from [Gencode Release 27 (mapped to GRCh37)](https://www.gencodegenes.org/releases/27lift37.html)
 - Pfam graphics fetched in August 2017
+- Gene Sets from MSigDB 6.1
 
 ## Previous seed databases
 #### Seed database schema 2.4.0
