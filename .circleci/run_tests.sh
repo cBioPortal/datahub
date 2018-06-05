@@ -56,4 +56,3 @@ if [[ $num_studies > 0 ]]; then
 else
   echo "No studies were changed"
 fi
-
