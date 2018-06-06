@@ -1,0 +1,5 @@
+type_of_cancer: coadread
+cancer_study_identifier: crc_msk_2018
+name: Targeted sequencing of 1134 samples from metastatic colorectal cancer samples (MSK, Cancer Cell 2018)
+short_name:
+description:

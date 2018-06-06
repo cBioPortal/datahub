@@ -1,0 +1,6 @@
+type_of_cancer: coadread
+cancer_study_identifier: coadread_tcga
+name: Colorectal Adenocarcinoma (TCGA, Provisional)
+short_name: Colorectal (TCGA)
+description: TCGA Colorectal Adenocarcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/COADREAD/20160128/gdac.broadinstitute.org_COADREAD.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+groups: PUBLIC

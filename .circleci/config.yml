@@ -40,7 +40,7 @@ jobs:
             git lfs install --skip-smudge
 
       - save_cache:
-          paths:		
+          paths:
           - ./venv
           key: v1-dependencies-{{ checksum "requirements_py" }}
         
@@ -59,7 +59,7 @@ jobs:
             mkdir ~/repo/test-reports
             mkdir ~/repo/test-reports/ERRORS
             # run the tests:
-            #./run_tests.sh
+            ./run_tests.sh
 
       - store_artifacts:
           path: test-reports

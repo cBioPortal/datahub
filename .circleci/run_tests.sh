@@ -15,16 +15,22 @@ do
     if [[ $file_changing = *$STUDIES_DIR* ]] && [[ $file_changing != *".htm"* ]]; then
       echo "study file changing > [$file_changing]"
       dir_name=`dirname $file_changing`
-      if [[ $dir_name != *"/case_lists"* ]]; then
+      # match case_list*, caselist* as a case list dir (actually only case_lists is valid, 
+      # but this is up to validation script to flag):
+      if [[ $dir_name != *"/case_list"* ]] && [[ $dir_name != *"/caselist"* ]]; then
         echo "study dir > [$dir_name]"
-        found_in_list=`echo ${list_of_study_dirs[@]} | grep $dir_name`
-        if [[ $found_in_list = "" ]]; then
-          echo "adding to list..."
-          list_of_study_dirs+=($dir_name)
-          echo "downloading files from git lfs..."
-          git lfs pull -I "$dir_name/*"
-          git lfs pull -I "$dir_name/case_lists/*"
-        fi
+      else
+        # get parent dir:
+        dir_name=`dirname $dir_name`
+        echo "study dir > [$dir_name]"
+      fi
+      found_in_list=`echo ${list_of_study_dirs[@]} | grep $dir_name`
+      if [[ $found_in_list = "" ]]; then
+        echo "adding to list..."
+        list_of_study_dirs+=($dir_name)
+        echo "downloading files from git lfs..."
+        git lfs pull -I "$dir_name/*"
+        git lfs pull -I "$dir_name/case_lists/*"
       fi
     fi
 done
@@ -50,4 +56,3 @@ if [[ $num_studies > 0 ]]; then
 else
   echo "No studies were changed"
 fi
-

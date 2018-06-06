@@ -14,11 +14,17 @@ mysqldump -u cbio -pP@ssword1 -P 8306 --host 127.0.0.1 --ignore-table cbioportal
 ```
 :warning: The database schema is not included in these dump files.
 
-4. Zip the generated mysql dump files:
+4. In case gene sets are included in the seed, manually add a line at the end the sql file to update the gene set version.
+```bash
+-- Manually add gene set version
+UPDATE info SET GENESET_VERSION="msigdb_6.1";
+```
+
+5. Zip the generated mysql dump files:
 ```shell
 gzip seed-cbioportal_hg19_v2.1.0.sql
 ```
 
-5. New files are ready to be uploaded to datahub.
+6. New files are ready to be uploaded to datahub.
 
 :warning: The database schema itself is found at: `$PORTAL_HOME/db-scripts/src/main/resources/db/cgds.sql`
