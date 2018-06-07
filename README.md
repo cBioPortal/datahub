@@ -12,20 +12,21 @@ At [cbioportal.org](http://www.cbioportal.org/data_sets.jsp) a zipped folder wit
 ### Example downloading individual study with git-lfs
 It is also possible to download uncompressed staging files from this repository with git-lfs.
 
-After you have installed git-lfs, set up the following git configurations to prevent from downloading all at once:
+After you have installed git-lfs, configure it not to download all data files right away:
 ```
-git config --global filter.process "git-lfs filter-process --skip"
-git config --global filter.lfs.smudge "git-lfs smudge --skip -- %f"
+git lfs install --skip-repo --skip-smudge
 ```
-Clone the git repository:
+
+Clone the git repository and install lfs hooks into it:
 ```
 git clone https://github.com/cBioPortal/datahub.git
 cd datahub
+git lfs install --local --skip-smudge
 ```
-Downloading the study, for example brca_tcga:
+
+Download the data files for a study folder, for example brca_tcga:
 ```
-git lfs pull -I "/public/brca_tcga/*"
-git lfs pull -I "/public/brca_tcga/case_lists/*"
+git lfs pull -I public/brca_tcga
 ```
 
 ## Download a complete MySQL export of the latest database
