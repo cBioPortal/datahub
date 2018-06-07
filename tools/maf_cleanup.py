@@ -20,16 +20,14 @@ elif not output_file:
 ### end of parsing parameters
 
 ### start of searching for header row
-input_maf = open (input_file, "r")
 header_line = ""
-for line in input_maf:
-	values = line.split("\t")
-	if values[0].upper() == "HUGO_SYMBOL":
-		header_line = line
-
+with open(input_file, "r") as f:
+	for line in f:
+		values = line.split("\t")
+		if values[0].upper() == "HUGO_SYMBOL":
+			header_line = line
 headers = header_line.rstrip().split("\t")
 keep_col_index_arr = [] #Index of columns to keep
-input_maf.close()
 ### end of searching for header row
 
 ### start of filtering out unwanted columns
@@ -56,7 +54,7 @@ print "INTRON: " + str(intron_index)
 print "EXON_NUMBER: " + str(exon_number_index)
 print "EXON: " + str(exon_index)
 print "ONCOTATOR: " + ' '.join(str(index) for index in oncotator_index_arr)
-print "DROPPING COLUMNS ...."
+print "Reconstructing file ...."
 ### end of filtering out unwated columns
 
 ### Start of reconstructing file
@@ -72,127 +70,39 @@ for line in input_maf:
 		break
 
 # write out header line
+header_item_arr = []
 for keep_col_index in keep_col_index_arr:
 	if headers[keep_col_index].upper() == "HUGO_SYMBOL":
-		output_maf.write("Hugo_Symbol")
+		header_item_arr.append("Hugo_Symbol")
 	elif headers[keep_col_index].upper() == "START_POSITION":
-		output_maf.write("\tStart_Position")
+		header_item_arr.append("Start_Position")
 	elif headers[keep_col_index].upper() == "END_POSITION":
-		output_maf.write("\tEnd_Position")
+		header_item_arr.append("End_Position")
 	else:
-		output_maf.write("\t" + headers[keep_col_index])
-output_maf.write("\n")
+		header_item_arr.append(headers[keep_col_index])
+output_maf.write("\t".join(header_item_arr) + "\n");
+
+#creating dictionary of gene id mapping
+id_mapping = {}
+with open("gene_ids.txt", "r") as f:
+	for line in f:
+		cols = line.rstrip("\n").split("\t")
+		id_mapping[cols[1]]=cols[0]
 
 # write out content
+row_count = 0;
 for line in input_maf:
-	line = line.rstrip()
-	col_counter = 0
+	line = line.rstrip("\n")
 	cols = line.split("\t")
+	content_item_arr = []
 	for keep_col_index in keep_col_index_arr:
-		if col_counter != 0:
-			output_maf.write("\t")
-			output_maf.write(cols[keep_col_index])
+		if cols[keep_col_index].upper() in id_mapping:
+			content_item_arr.append(id_mapping[cols[keep_col_index].upper()])
+			print "ROW " + str(row_count) + " converting gene symbol: " + cols[keep_col_index] + " --> " + id_mapping[cols[keep_col_index].upper()]
 		else:
-			if cols[keep_col_index].upper() == "1-FEB":
-				output_maf.write("FEB1")
-			elif cols[keep_col_index].upper() == "2-FEB":
-				output_maf.write("FEB2")
-			elif cols[keep_col_index].upper() == "5-FEB":
-				output_maf.write("FEB5")
-			elif cols[keep_col_index].upper() == "6-FEB":
-				output_maf.write("FEB6")
-			elif cols[keep_col_index].upper() == "7-FEB":
-				output_maf.write("FEB7")
-			elif cols[keep_col_index].upper() == "9-FEB":
-				output_maf.write("FEB9")
-			elif cols[keep_col_index].upper() == "10-FEB":
-				output_maf.write("FEB10")
-			elif cols[keep_col_index].upper() == "1-MAR":
-				output_maf.write("MARCH1")
-			elif cols[keep_col_index].upper() == "2-MAR":
-				output_maf.write("MARCH2")
-			elif cols[keep_col_index].upper() == "3-MAR":
-				output_maf.write("MARCH3")
-			elif cols[keep_col_index].upper() == "4-MAR":
-				output_maf.write("MARCH4")
-			elif cols[keep_col_index].upper() == "5-MAR":
-				output_maf.write("MARCH5")
-			elif cols[keep_col_index].upper() == "6-MAR":
-				output_maf.write("MARCH6")
-			elif cols[keep_col_index].upper() == "7-MAR":
-				output_maf.write("MARCH7")
-			elif cols[keep_col_index].upper() == "8-MAR":
-				output_maf.write("MARCH8")
-			elif cols[keep_col_index].upper() == "9-MAR":
-				output_maf.write("MARCH9")
-			elif cols[keep_col_index].upper() == "10-MAR":
-				output_maf.write("MARCH10")
-			elif cols[keep_col_index].upper() == "11-MAR":
-				output_maf.write("MARCH11")
-			elif cols[keep_col_index].upper() == "1-APR":
-				output_maf.write("MAGEH1")
-			elif cols[keep_col_index].upper() == "2-APR":
-				output_maf.write("FAM215A")
-			elif cols[keep_col_index].upper() == "3-APR":
-				output_maf.write("ATRAID")
-			elif cols[keep_col_index].upper() == "1-MAY":
-				output_maf.write("PRKCD")
-			elif cols[keep_col_index].upper() == "1-SEP":
-				output_maf.write("SEPT1")
-			elif cols[keep_col_index].upper() == "2-SEP":
-				output_maf.write("SEPT2")
-			elif cols[keep_col_index].upper() == "3-SEP":
-				output_maf.write("SEPT3")
-			elif cols[keep_col_index].upper() == "4-SEP":
-				output_maf.write("SEPT4")
-			elif cols[keep_col_index].upper() == "5-SEP":
-				output_maf.write("SEPT5")
-			elif cols[keep_col_index].upper() == "6-SEP":
-				output_maf.write("SEPT6")
-			elif cols[keep_col_index].upper() == "7-SEP":
-				output_maf.write("SEPT7")
-			elif cols[keep_col_index].upper() == "8-SEP":
-				output_maf.write("SEPT8")
-			elif cols[keep_col_index].upper() == "9-SEP":
-				output_maf.write("SEPT9")
-			elif cols[keep_col_index].upper() == "10-SEP":
-				output_maf.write("SEPT10")
-			elif cols[keep_col_index].upper() == "11-SEP":
-				output_maf.write("SEPT11")
-			elif cols[keep_col_index].upper() == "12-SEP":
-				output_maf.write("SEPT12")
-			elif cols[keep_col_index].upper() == "13-SEP":
-				output_maf.write("SEPT13")
-			elif cols[keep_col_index].upper() == "14-SEP":
-				output_maf.write("SEPT14")
-			elif cols[keep_col_index].upper() == "2-OCT":
-				output_maf.write("POU2F2")
-			elif cols[keep_col_index].upper() == "2-OCT":
-				output_maf.write("SLC22A2")
-			elif cols[keep_col_index].upper() == "3-OCT":
-				output_maf.write("POU5F1")
-			elif cols[keep_col_index].upper() == "4-OCT":
-				output_maf.write("POU5F1")
-			elif cols[keep_col_index].upper() == "6-OCT":
-				output_maf.write("POU3F1")
-			elif cols[keep_col_index].upper() == "6-OCT":
-				output_maf.write("SLC22A16")
-			elif cols[keep_col_index].upper() == "7-OCT":
-				output_maf.write("POU3F2")
-			elif cols[keep_col_index].upper() == "9-OCT":
-				output_maf.write("POU3F4")
-			elif cols[keep_col_index].upper() == "11-OCT":
-				output_maf.write("POU2F3")
-			elif cols[keep_col_index].upper() == "1-NOV":
-				output_maf.write("C11orf40")
-			elif cols[keep_col_index].upper() == "2-NOV":
-				output_maf.write("CTGF")
-			elif cols[keep_col_index].upper() == "1-DEC":
-				output_maf.write("DEC1")
-			else:
-				output_maf.write(cols[keep_col_index])
-		col_counter += 1
-	output_maf.write("\n")
+			content_item_arr.append(cols[keep_col_index])			
+	row_count = row_count + 1
+	output_maf.write("\t".join(content_item_arr) + "\n")
 
 input_maf.close()
 output_maf.close()
