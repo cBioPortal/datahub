@@ -26,6 +26,7 @@ with open(input_file, "r") as f:
 		values = line.split("\t")
 		if values[0].upper() == "HUGO_SYMBOL":
 			header_line = line
+			break;
 headers = header_line.rstrip().split("\t")
 keep_col_index_arr = [] #Index of columns to keep
 ### end of searching for header row
@@ -49,17 +50,18 @@ for header_item in headers:
 		keep_col_index_arr.append(count)
 	count += 1
 
-print "INDEX OF COLUMNS TO DROP >>>>>>>>>>>>>>"
-print "INTRON: " + str(intron_index)
-print "EXON_NUMBER: " + str(exon_number_index)
-print "EXON: " + str(exon_index)
-print "ONCOTATOR: " + ' '.join(str(index) for index in oncotator_index_arr)
-print "Reconstructing file ...."
+if exon_number_index == -1 and exon_index == -1 and intron_index == -1 and len(oncotator_index_arr) == 0:
+	print "Dropping columns >>>>>>>>>>>>>>"
+	print "INTRON: " + str(intron_index)
+	print "EXON_NUMBER: " + str(exon_number_index)
+	print "EXON: " + str(exon_index)
+	print "ONCOTATOR: " + ' '.join(str(index) for index in oncotator_index_arr)
 ### end of filtering out unwated columns
 
 ### Start of reconstructing file
-input_maf = open (input_file, "r")
-output_maf = open (output_file, "w")
+print "Reconstructing file ........"
+input_maf = open(input_file, "r")
+output_maf = open(output_file, "w")
 
 # write out the original extra header lines (sequences samples, versions, etc.)
 for line in input_maf:
@@ -92,8 +94,7 @@ with open("gene_ids.txt", "r") as f:
 # write out content
 row_count = 0;
 for line in input_maf:
-	line = line.rstrip("\n")
-	cols = line.split("\t")
+	cols = line.rstrip("\n").split("\t")
 	content_item_arr = []
 	for keep_col_index in keep_col_index_arr:
 		if cols[keep_col_index].upper() in id_mapping:
