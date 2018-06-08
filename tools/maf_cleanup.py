@@ -50,11 +50,15 @@ for header_item in headers:
 		keep_col_index_arr.append(count)
 	count += 1
 
-if exon_number_index == -1 and exon_index == -1 and intron_index == -1 and len(oncotator_index_arr) == 0:
+if exon_number_index != -1 or exon_index != -1 or intron_index != -1 or len(oncotator_index_arr) != 0:
 	print "Dropping columns >>>>>>>>>>>>>>"
-	print "INTRON: " + str(intron_index)
+if exon_number_index != -1:
 	print "EXON_NUMBER: " + str(exon_number_index)
+if exon_index != -1:
 	print "EXON: " + str(exon_index)
+if intron_index != -1:
+	print "INTRON: " + str(intron_index)
+if len(oncotator_index_arr) != 0:
 	print "ONCOTATOR: " + ' '.join(str(index) for index in oncotator_index_arr)
 ### end of filtering out unwated columns
 
