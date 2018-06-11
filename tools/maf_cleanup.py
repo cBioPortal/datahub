@@ -4,11 +4,13 @@ import optparse
 ### start of parsing parameters
 parser = optparse.OptionParser()
 parser.add_option('-i', '--input-file', action = 'store', dest = 'inputfile', help = "file name of input maf")
-parser.add_option('-o', '--output-file', action= 'store', dest = "outputfile", default=False, help = "name of output maf")
+parser.add_option('-o', '--output-file', action= 'store', dest = "outputfile", default=False, help = "file name of output maf")
+parser.add_option('-c', '--gene-id', action= 'store', dest = "geneidfile", default=False, help = "file name of gene id mapping")
 
 (options, args) = parser.parse_args()
 input_file = options.inputfile
 output_file = options.outputfile
+gene_id_file = options.geneidfile
 
 if not input_file:
 	print 'ERROR: missing input MAF name.'
@@ -90,7 +92,7 @@ output_maf.write("\t".join(header_item_arr) + "\n");
 
 #creating dictionary of gene id mapping
 id_mapping = {}
-with open("gene_ids.txt", "r") as f:
+with open(gene_id_file, "r") as f:
 	for line in f:
 		cols = line.rstrip("\n").split("\t")
 		id_mapping[cols[1]]=cols[0]
