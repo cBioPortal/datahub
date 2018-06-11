@@ -112,4 +112,3 @@ for line in input_maf:
 input_maf.close()
 output_maf.close()
 #### End of reconstructing file
-
