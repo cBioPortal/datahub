@@ -6,14 +6,32 @@ The datahub is a repository for store data only. It contains staging files which
 Behind the scenes git-lfs is used to manage the large files. https://github.com/github/git-lfs
 
 ## How to Download Data
+### Downloading zip files individual studies
+At [cbioportal.org](http://www.cbioportal.org/data_sets.jsp) a zipped folder with staging files from each study can be downloaded. These zip files are compressed versions of the study folders in the master branch of this repository.
 
-1. Install git-lfs
-2. Checkout this project
+### Example downloading individual study with git-lfs
+It is also possible to download uncompressed staging files from this repository with git-lfs.
 
-Or you can download individual files directly
+After you have installed git-lfs, configure it not to download all data files right away:
+```
+git lfs install --skip-repo --skip-smudge
+```
+
+Clone the git repository and install lfs hooks into it:
+```
+git clone https://github.com/cBioPortal/datahub.git
+cd datahub
+git lfs install --local --skip-smudge
+```
+
+Download the data files for a study folder, for example brca_tcga:
+```
+git lfs pull -I public/brca_tcga
+```
 
 ## Download a complete MySQL export of the latest database
-http://download.cbioportal.org/mysql-snapshots/public-portal-dump.latest.sql.gz
+
+- [Snapshot Jan-2018](http://download.cbioportal.org/mysql-snapshots/public-portal-dump.latest.sql.gz)
 
 ## License
 The data are available under [the ODC Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/) (summary available [here](http://www.opendatacommons.org/licenses/odbl/1-0/summary/)): you are free to share and modify the data so long as you attribute any public use of the database, or works produced from the database; keep the resulting data-sets open; and offer your shared or adapted version of the data-set under the same ODbL license.
