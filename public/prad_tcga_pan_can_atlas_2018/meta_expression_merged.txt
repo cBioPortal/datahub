@@ -1,0 +1,7 @@
+cancer_study_identifier: prad_tcga_pan_can_atlas_2018
+stable_id: prad_tcga_pan_can_atlas_2018_rna_seq_v2_mrna_median
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+show_profile_in_analysis_tab: FALSE
+profile_name: mRNA Expression Batch Normalized/Merged from Illumina HiSeq_RNASeqV2 syn4976369
+profile_description: mRNA Expression from Illumina HiSeq Batch Normalized: https://www.synapse.org/#!Synapse:syn4976369
