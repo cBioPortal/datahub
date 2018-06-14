@@ -41,7 +41,7 @@ if [[ $num_studies > 0 ]]; then
   echo $list_csv
 
   test_reports_location="$HOME/repo/test-reports"
-  validation_command="$HOME/repo/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $list_csv -p $HOME/repo/.circleci/portalinfo -html $test_reports_location --strict_mutation_checks True"
+  validation_command="$HOME/repo/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $list_csv -p $HOME/repo/.circleci/portalinfo -html $test_reports_location --strict_mutation_checks"
   echo $'\nExecuting: '; echo $validation_command
   if sh -c "$validation_command" ; then
     echo "Tests passed successfully"
