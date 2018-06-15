@@ -1,12 +1,14 @@
 ### Usage
 
-This tool aims to cleanup MAFs in the following aspects:
+This tool is intended to fix some common seen issues with MAFs during curation and importing. 
+This tool shall be ran on MAF as the last step before importing. 
+Below listed the issues this scripts targets: 
 
-1. Convert dates back to gene symbols (hugo_symbol)
+#### Convert dates back to gene symbols (hugo_symbol)
 
 Detailed list see gene_id.txt
 
-2. Correct letter case pattern for header fields
+#### Correct letter case pattern for header fields
 
 Start_Position
 End_Position
@@ -32,8 +34,7 @@ ONCOTATOR_*
 
 ### Example
 ```
-	cd path/to/study
-	python maf_cleanup.py -i data_mutations_extended.txt -o output.txt -c gene_id.txt
+python maf_cleanup.py -i <old_maf> -o <new_maf> -c gene_id.txt
 ```
 
 ### Notes

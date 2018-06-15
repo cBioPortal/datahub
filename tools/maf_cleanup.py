@@ -1,23 +1,24 @@
-#!/usr/bin/python
-import optparse
+#!/usr/bin/env python2.7
+
+import argparse
 
 ### start of parsing parameters
-parser = optparse.OptionParser()
-parser.add_option('-i', '--input-file', action = 'store', dest = 'inputfile', help = "file name of input maf")
-parser.add_option('-o', '--output-file', action= 'store', dest = "outputfile", default=False, help = "file name of output maf")
-parser.add_option('-c', '--gene-id', action= 'store', dest = "geneidfile", default=False, help = "file name of gene id mapping")
+parser = argparse.ArgumentParser()
+parser.add_argument('-i', '--input-file', action = 'store', dest = 'inputfile', help = "file name of input maf", required=True)
+parser.add_argument('-o', '--output-file', action= 'store', dest = "outputfile", default=False, help = "file name of output maf", required=True)
+parser.add_argument('-c', '--gene-id', action= 'store', dest = "geneidfile", default=False, help = "file name of gene id mapping", required=True)
 
-(options, args) = parser.parse_args()
-input_file = options.inputfile
-output_file = options.outputfile
-gene_id_file = options.geneidfile
+args = parser.parse_args()
+input_file = args.inputfile
+output_file = args.outputfile
+gene_id_file = args.geneidfile
 
-if not input_file:
-	print 'ERROR: missing input MAF name.'
-	parser.print_help()
-elif not output_file:
-	print 'ERROR: missing output MAF name.'
-	parser.print_help()
+#if not input_file:
+#	print 'ERROR: missing input MAF name.'
+#	parser.print_help()
+#elif not output_file:
+#	print 'ERROR: missing output MAF name.'
+#	parser.print_help()
 
 ### end of parsing parameters
 
