@@ -1,0 +1,8 @@
+cancer_study_identifier:blca_plasmacytoid_mskcc_2016
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: DISCRETE
+stable_id: cna
+show_profile_in_analysis_tab: true
+profile_name: mskimpact  MSK-IMPACT Clinical Sequencing Cohort (MSKCC)  blca_mskcc_signet_ring  Putative copy-number alterations (IMPACT)
+profile_description: mskimpact   blca_mskcc_signet_ring  Putative copy-number calls derived from IMPACT data. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
+data_filename: data_CNA.txt
