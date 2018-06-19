@@ -1,4 +1,4 @@
-type_of_cancer: kirp
+type_of_cancer: KIDNEY
 cancer_study_identifier: kirp_tcga_pan_can_atlas_2018
 name: Kidney Renal Papillary Cell Carcinoma (TCGA, PanCancer Atlas)
 short_name: pRCC (TCGA PanCan)
