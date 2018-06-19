@@ -1,4 +1,4 @@
-type_of_cancer: meso
+type_of_cancer: plmeso
 cancer_study_identifier: meso_tcga_pan_can_atlas_2018
 name: Mesothelioma (TCGA, PanCancer Atlas)
 short_name: Mesothelioma (TCGA PanCan)

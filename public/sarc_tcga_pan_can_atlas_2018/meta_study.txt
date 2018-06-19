@@ -1,4 +1,4 @@
-type_of_cancer: sarc
+type_of_cancer: soft_tissue
 cancer_study_identifier: sarc_tcga_pan_can_atlas_2018
 name: Sarcoma (TCGA, PanCancer Atlas)
 short_name: Sarcoma (TCGA PanCan)

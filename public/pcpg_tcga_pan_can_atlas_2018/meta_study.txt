@@ -1,4 +1,4 @@
-type_of_cancer: pcpg
+type_of_cancer: soft_tissue
 cancer_study_identifier: pcpg_tcga_pan_can_atlas_2018
 name: Pheochromocytoma and Paraganglioma (TCGA, PanCancer Atlas)
 short_name: PCPG (TCGA PanCan)
