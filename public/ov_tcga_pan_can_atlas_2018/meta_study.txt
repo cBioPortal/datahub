@@ -1,4 +1,4 @@
-type_of_cancer: OVARY
+type_of_cancer: hgsoc
 cancer_study_identifier: ov_tcga_pan_can_atlas_2018
 name: Ovarian Serous Cystadenocarcinoma (TCGA, PanCancer Atlas)
 short_name: Ovarian (TCGA PanCan)
