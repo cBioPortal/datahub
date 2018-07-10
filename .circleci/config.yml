@@ -49,11 +49,7 @@ jobs:
           name: run tests
           command: |
             git remote add upstream git@github.com:cbioportal/datahub.git
-            # TODO - taking validator from feature branch now, change to take it from upstream / master later:
-            git clone https://github.com/thehyve/cbioportal.git
-            cd cbioportal
-            git fetch origin validating-multiple-studies
-            git checkout validating-multiple-studies
+            git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
             cd ~/repo/.circleci
             # make test reports location:
             mkdir ~/repo/test-reports
