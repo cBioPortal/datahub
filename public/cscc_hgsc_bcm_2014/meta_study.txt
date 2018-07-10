@@ -1,0 +1,6 @@
+type_of_cancer: cscc
+cancer_study_identifier: cscc_hgsc_bcm_2014
+name: Whole-exome sequencing of 39 cases aggressive cutaneous squamous cell carcinoma
+short_name: CSCC (hgsc_bcm 2014)
+description: Whole-exome sequencing of 39 cases aggressive cutaneous squamous cell carcinoma
+pmid: 25303977
