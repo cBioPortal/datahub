@@ -49,7 +49,7 @@ jobs:
           name: run tests
           command: |
             git remote add upstream git@github.com:cbioportal/datahub.git
-            git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
+            git clone --depth 1 -b validator_fix_unknown_exit_status https://github.com/thehyve/cbioportal.git
             cd ~/repo/.circleci
             # make test reports location:
             mkdir ~/repo/test-reports
