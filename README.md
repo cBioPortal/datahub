@@ -29,8 +29,8 @@ Download the data files for a study folder, for example brca_tcga:
 git lfs pull -I public/brca_tcga
 ```
 
-## Download a complete MySQL export of the latest database
-http://download.cbioportal.org/mysql-snapshots/public-portal-dump.latest.sql.gz
+## Download a complete MySQL export of the database
+http://download.cbioportal.org/mysql-snapshots/mysql-dump-toc.html
 
 ## License
 The data are available under [the ODC Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/) (summary available [here](http://www.opendatacommons.org/licenses/odbl/1-0/summary/)): you are free to share and modify the data so long as you attribute any public use of the database, or works produced from the database; keep the resulting data-sets open; and offer your shared or adapted version of the data-set under the same ODbL license.
