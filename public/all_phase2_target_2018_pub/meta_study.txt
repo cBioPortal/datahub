@@ -1,4 +1,4 @@
-type_of_cancer: all
+type_of_cancer: bll
 cancer_study_identifier: all_phase2_target_2018_pub
 name: Pediatric Acute Lymphoid Leukemia - Phase II (TARGET, 2018)
 short_name: ALL-Phase II (TARGET, 2018)
