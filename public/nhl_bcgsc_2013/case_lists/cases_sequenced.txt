@@ -1,0 +1,6 @@
+cancer_study_identifier: nhl_bcgsc_2013
+stable_id: nhl_bcgsc_2013_sequenced
+case_list_name: Sequenced Tumors
+case_list_description: All (Next-Gen) sequenced samples (52 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: RG086	RG142	RG082	RG083	RG081	RG028	DB	RG138	RG003	Karpas422	RG051	RG055	RG054	RG077	RG075	RG074	RG111	RG038	RG115	RG116	RG014	RG036	RG013	RG034	RG024	SU-DHL-6	RG008	RG132	RG130	RG136	RG026	NU-DHL-1	RG135	DOHH-2	WSU-DLCL2	OCI-Ly19	NU-DUL-1	RG043	RG040	RG027	RG023	RG061	RG049	RG064	RG065	RG067	SU-DHL-9	RG068	MD903	OCI-Ly7	OCI-Ly1	OCI-Ly3
