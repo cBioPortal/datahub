@@ -1,0 +1,7 @@
+cancer_study_identifier: mbl_icgc_2014
+genetic_alteration_type: MUTATION_EXTENDED
+stable_id: mbl_icgc_2014_mutations
+datatype: MAF
+show_profile_in_analysis_tab: true
+profile_description: Mutation data from whole genome/exome/targeted sequencing of 127 sonic-hedgehog-driven medulloblastoma (SHH-MB) patients.
+profile_name: Mutations
