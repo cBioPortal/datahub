@@ -6,4 +6,3 @@ citation: Grasso et al. Nature 2012
 pmid: 22722839
 short_name: Prostate (MICH)
 groups: PUBLIC
-add_global_case_list: true
