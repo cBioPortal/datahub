@@ -20,7 +20,9 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-"""Update cancer types script - updates cancer types from OncoPrint API to an empty cBioPortal database
+"""Update cancer types script - updates cancer types from OncoTree API to an empty cBioPortal database
+
+http://oncotree.mskcc.org/#/home?tab=api
 
 Run with the command line option --help for usage information.
 """
@@ -30,9 +32,6 @@ import requests
 import MySQLdb
 import sys
 import argparse
-
-# Code used in several methods to extract cancer types form data for cBioPortal
-# Author: Sander Tan, The Hyve
 
 
 def eprint(*args, **kwargs):
