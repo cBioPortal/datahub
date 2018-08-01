@@ -70,12 +70,12 @@ def parse_cancer_types_json(cancer_types_json):
     def flatten_oncotree(node, node_name):
         """Recursive function to flatten the JSON formatted cancer types"""
 
-        type_of_cancer_id = node_name
+        type_of_cancer_id = node_name.lower()
         name = node['name']
         clinical_trial_keywords = node['name'].lower()
         dedicated_color = node['color']
         short_name = node_name
-        parent = node['parent']
+        parent = node['parent'].lower()
 
         cancer_type = [type_of_cancer_id, name, clinical_trial_keywords, dedicated_color, short_name, parent]
         cancer_types.append(cancer_type)
