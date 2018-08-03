@@ -1,0 +1,8 @@
+type_of_cancer: chol
+cancer_study_identifier: chol_jhu_2013
+name: Intrahepatic Cholangiocarcinoma (Johns Hopkins University, Nat Genet 2013)
+description: Exome Sequencing of 32 intrahepatic cholangiocarcinoma cases and 8 gall bladder carcinoma cases.
+citation: Jiao et al. Nat Genet 2013
+pmid: 24185509
+short_name: Cholangiocarcinoma (JHU)
+groups: PUBLIC
