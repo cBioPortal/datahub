@@ -1,0 +1,6 @@
+cancer_study_identifier: luad_mskcc_2015_pdx
+stable_id: luad_mskcc_2015_pdx_mutations
+profile_name: Mutations
+profile_description: IMPACT410 and IMPACT340 sequencing of lung PDX samples
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF

@@ -1,0 +1,5 @@
+cancer_study_identifier: luad_mskcc_2015_pdx
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+stable_id: luad_mskcc_2015_pdx_cna
+show_profile_in_analysis_tab: true
+description:Values: -2 = homozygous deletion; 2 = high level amplification.
