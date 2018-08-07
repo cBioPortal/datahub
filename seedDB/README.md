@@ -16,13 +16,14 @@ When using a release version **> 1.14.0**, a migration step to a new database sc
 
 **Schema 2.6.0**: [SQL file with create table statements](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.13.1/db-scripts/src/main/resources/cgds.sql)<br>
 **Seed database**: [seed-cbioportal_hg19_v2.6.0.sql.gz](https://github.com/cBioPortal/datahub/raw/master/seedDB/seed-cbioportal_hg19_v2.6.0.sql.gz)<br>
-md5sum 01a1db3ae38d160d27af23c2f7db86f7
+md5sum ae7b20340476b0bfcde92ff8379d526c
 
 Contents of seed database:
 - Entrez Gene IDs, HGNC symbols and gene aliases updated in April 2018 from [NCBI](ftp://ftp.ncbi.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz)
 - Gene lengths retrieved from [Gencode Release 27 (mapped to GRCh37)](https://www.gencodegenes.org/releases/27lift37.html)
 - Pfam graphics fetched in August 2017
 - Gene Sets from MSigDB 6.1
+- Cancer Types from OncoTree (fetched July 2018 from http://oncotree.mskcc.org)
 
 ## Previous seed databases
 #### Seed database schema 2.4.0
