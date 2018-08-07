@@ -1,8 +1,0 @@
-cancer_study_identifier: gbm_tcga_pan_can_atlas_2018
-stable_id: rna_seq_v2_mrna
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-show_profile_in_analysis_tab: FALSE
-profile_name: mRNA Expression Batch Normalized/Merged from Illumina HiSeq_RNASeqV2 syn4976369
-profile_description: mRNA Expression from Illumina HiSeq Batch Normalized: https://www.synapse.org/#!Synapse:syn4976369
-data_filename: data_expression_merged.txt
