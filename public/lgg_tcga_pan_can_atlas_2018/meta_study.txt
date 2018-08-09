@@ -1,0 +1,5 @@
+type_of_cancer: difg
+cancer_study_identifier: lgg_tcga_pan_can_atlas_2018
+name: Brain Lower Grade Glioma (TCGA, PanCancer Atlas)
+short_name: LGG (TCGA PanCan)
+description: Comprehensive TCGA PanCanAtlas (https://gdc.cancer.gov/about-data/publications/pancanatlas) data from 11k cases and all TCGA tumor types (33). (PMID: 29625048, 29596782, 29622463, 29617662, 29625055, 29625050)

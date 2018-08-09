@@ -1,0 +1,5 @@
+type_of_cancer: testis
+cancer_study_identifier: tgct_tcga_pan_can_atlas_2018
+name: Testicular Germ Cell Tumors (TCGA, PanCancer Atlas)
+short_name: Testicular germ cell (TCGA PanCan)
+description: Comprehensive TCGA PanCanAtlas (https://gdc.cancer.gov/about-data/publications/pancanatlas) data from 11k cases and all TCGA tumor types (33). (PMID: 29625048, 29596782, 29622463, 29617662, 29625055, 29625050)
