@@ -4,5 +4,4 @@ name:Pediatric Pan-Cancer (DKFZ - German Cancer Consortium,  2017)
 description:Comprehensive genomic profiling of 961 Pediatric Cancer samples. Data generated from Pfister Lab & DKFZ/German Cancer Consortium.
 groups: PUBLIC
 short_name:Pediatric Pan-Cancer (DKFZ-2017)
-add_global_case_list: true
 pmid: 29489754
