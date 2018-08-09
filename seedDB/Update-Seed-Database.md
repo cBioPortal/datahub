@@ -5,7 +5,11 @@ This documentation file is addressed to developers. To update the seed database 
 
 2. Run the migration script from a branch that includes the new database schema ([more information](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script)).
 
-3. Move to the folder where you want to save the seed files. Use the following commands (assuming that the database is running on port 8306) to generate the new seed files. Please specify the species and the new schema version in the file name (e.g. for the human version of `v2.1.0`, the file name should be `seed-cbioportal_hg19_v2.1.0.sql`).
+3. Update the gene and gene alias by following the instructions in https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-gene-and-gene_alias-tables.md
+
+4. Update the cancer types by running `./update_cancer_types.py -p <local_dir>/portal.properties`
+
+5. Move to the folder where you want to save the seed files. Use the following commands (assuming that the database is running on port 8306) to generate the new seed files. Please specify the species and the new schema version in the file name (e.g. for the human version of `v2.1.0`, the file name should be `seed-cbioportal_hg19_v2.1.0.sql`).
 
 :warning: Do not confuse the schema version with the cBioPortal version.
 
@@ -14,17 +18,17 @@ mysqldump -u cbio -pP@ssword1 -P 8306 --host 127.0.0.1 --ignore-table cbioportal
 ```
 :warning: The database schema is not included in these dump files.
 
-4. In case gene sets are included in the seed, manually add a line at the end the sql file to update the gene set version.
+6. In case gene sets are included in the seed, manually add a line at the end the sql file to update the gene set version.
 ```bash
 -- Manually add gene set version
 UPDATE info SET GENESET_VERSION="msigdb_6.1";
 ```
 
-5. Zip the generated mysql dump files:
+7. Zip the generated mysql dump files:
 ```shell
 gzip seed-cbioportal_hg19_v2.1.0.sql
 ```
 
-6. New files are ready to be uploaded to datahub.
+8. New files are ready to be uploaded to datahub.
 
 :warning: The database schema itself is found at: `$PORTAL_HOME/db-scripts/src/main/resources/db/cgds.sql`
