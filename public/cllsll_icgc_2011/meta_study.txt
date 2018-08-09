@@ -1,0 +1,6 @@
+type_of_cancer: cllsll
+cancer_study_identifier: cllsll_icgc_2011
+name: Chronic lymphocytic leukemia (ICGA, Nat 2011)
+short_name: CLLSLL (Nat 2011)
+description: Exome Sequencing of CLL samples.
+groups: PUBLIC
