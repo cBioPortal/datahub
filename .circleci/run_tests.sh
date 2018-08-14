@@ -3,9 +3,9 @@
 STUDIES_DIR="public/"
 
 git remote add upstream git@github.com:cbioportal/datahub.git
-git fetch upstream rc
+git fetch upstream master
 
-files_changing=`git diff --name-only --diff-filter=ACMRU upstream/rc`
+files_changing=`git diff --name-only --diff-filter=ACMRU upstream/master`
 list_of_study_dirs=()
 
 for file_changing in $files_changing
