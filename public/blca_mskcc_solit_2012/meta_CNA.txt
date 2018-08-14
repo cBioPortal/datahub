@@ -1,0 +1,8 @@
+cancer_study_identifier: blca_mskcc_solit_2012
+stable_id: cna
+profile_name: Putative copy-number alterations (RAE)
+profile_description: Putative copy-number calls in 97 samples determined using standard RAE on Agilent 1M data. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: DISCRETE
+data_filename: data_CNA.txt
+show_profile_in_analysis_tab: true
