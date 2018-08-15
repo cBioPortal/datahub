@@ -1,0 +1,6 @@
+cancer_study_identifier: prad_broad_2013
+stable_id: prad_broad_2013_normal_mrna
+case_list_category: other
+case_list_name: Normal samples with mRNA data
+case_list_description: All normal samples with mRNA expression data (16 samples)
+case_list_ids: PR-01-28-Normal	PR-02-1431-Normal	PR-03-1426-Normal	PR-03-2345-Normal	PR-03-728-Normal	PR-04-1084-Normal	PR-04-1243-Normal	PR-05-1657-Normal	PR-05-2709-Normal	PR-05-3595-Normal	PR-05-3852-Normal	PR-07-144-Normal	PR-06-1749-Normal	PR-07-837-Normal	PR-07-360-Normal	PR-09-146-Normal
