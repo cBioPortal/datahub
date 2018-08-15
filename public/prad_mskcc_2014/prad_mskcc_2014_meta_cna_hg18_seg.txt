@@ -1,0 +1,6 @@
+cancer_study_identifier: prad_mskcc_2014
+reference_genome_id: hg18
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: SEG
+description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals).
+data_filename: prad_mskcc_2014_data_cna_hg18.seg
