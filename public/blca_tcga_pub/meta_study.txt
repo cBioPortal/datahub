@@ -1,0 +1,8 @@
+type_of_cancer: blca
+cancer_study_identifier: blca_tcga_pub
+name: Bladder Urothelial Carcinoma (TCGA, Nature 2014)
+short_name: Bladder (TCGA 2014)
+description: Comprehensive study of 131 high-grade muscle-invasive urothelial bladder carcinomas
+citation: TCGA, Nature 2014
+pmid: 24476821
+groups: PUBLIC
