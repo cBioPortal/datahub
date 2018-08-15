@@ -1,0 +1,4 @@
+cancer_study_identifier: prad_mskcc_2015_pan_primary
+reference_genome_id: hg19
+description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals) from TCGA.
+data_filename: prad_mskcc_2015_pan_primary_data_cna_hg19.seg

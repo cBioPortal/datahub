@@ -1,0 +1,9 @@
+type_of_cancer: prad
+cancer_study_identifier: prad_mskcc_2014
+name: Prostate Adenocarcinoma CNA study (MSKCC, PNAS 2014)
+description: Copy-number profiling of 103 primary prostate cancer samples from MSKCC. <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54691">Raw data via GEO (GSE54691)</a>.
+citation: Hieronymus et al. PNAS 2014
+pmid: 25024180
+short_name: Prostate (MSKCC 2014)
+groups: PUBLIC
+add_global_case_list: true
