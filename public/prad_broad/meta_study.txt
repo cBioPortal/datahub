@@ -6,4 +6,3 @@ citation: Barbieri et al. Nat Genet 2012
 pmid: 22610119
 short_name: Prostate (Broad/Cornell 2012)
 groups: PUBLIC
-add_global_case_list: true

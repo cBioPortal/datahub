@@ -1,2 +1,0 @@
-compiled_missing_clincal_sample_list	NF225,NF92,NF90,NF84,NF180,NF95,NF119,NF117,NF115
-./meta_expression_median.txt	NF225,NF92,NF90,NF84,NF180,NF95,NF119,NF117,NF115
