@@ -1,7 +1,7 @@
 cancer_study_identifier: lung_msk_2017
 genetic_alteration_type: FUSION
 datatype: FUSION
-stable_id: fusions
+stable_id: fusion
 profile_description: Fusions.
 show_profile_in_analysis_tab: true
 profile_name: Fusions
