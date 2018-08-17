@@ -5,4 +5,4 @@ profile_description: mRNA expression values, median values from all three mRNA e
 genetic_alteration_type: MRNA_EXPRESSION_NORMALS
 datatype: Z-SCORE
 show_profile_in_analysis_tab: false
-data_filename: data_expression_median_normals_archived.txt
+data_filename: data_expression_median_normals.txt

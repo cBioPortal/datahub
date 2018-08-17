@@ -5,4 +5,4 @@ profile_description: Binarized Methylation Calls for BRCA1 and RAD51C.  1 = hype
 genetic_alteration_type: METHYLATION_BINARY
 datatype: CONTINUOUS
 show_profile_in_analysis_tab: false
-data_filename: data_brca1_binary_methylation_archived.txt
+data_filename: data_brca1_binary_methylation.txt
