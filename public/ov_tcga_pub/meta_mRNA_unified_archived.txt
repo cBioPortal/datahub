@@ -5,4 +5,4 @@ profile_description: merged and scaled mRNA expression values of genes represent
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: CONTINUOUS
 show_profile_in_analysis_tab: false
-data_filename: data_mRNA_unified.txt
+data_filename: data_mRNA_unified_archived.txt

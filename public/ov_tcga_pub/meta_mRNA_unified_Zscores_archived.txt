@@ -5,4 +5,4 @@ profile_description: mRNA expression Z-scores compared to diploid tumors (diploi
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 show_profile_in_analysis_tab: true
-data_filename: data_mRNA_unified_Zscores.txt
+data_filename: data_mRNA_unified_Zscores_archived.txt
