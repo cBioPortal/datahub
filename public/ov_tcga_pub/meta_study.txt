@@ -1,0 +1,8 @@
+type_of_cancer: hgsoc
+cancer_study_identifier: ov_tcga_pub
+name: Ovarian Serous Cystadenocarcinoma (TCGA, Nature 2011)
+short_name: Ovarian (TCGA pub)
+description: Analysis of comprehensive genomic and epigenomic abnormalities in high grade serous ovarian cancer (HGS-OvCa). <a href="https://tcga-data.nci.nih.gov/docs/publications/ov_2011/">Raw data via the TCGA Data Portal</a>.
+citation: TCGA, Nature 2011
+pmid: 21720365
+groups: PUBLIC
