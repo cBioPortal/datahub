@@ -1,8 +1,0 @@
-cancer_study_identifier: ov_tcga_pub
-stable_id: mrna_median_normals
-profile_name: mRNA expression (all genes, only includes normal samples)
-profile_description: mRNA expression values, median values from all three mRNA expression platforms (only includes normal samples).
-genetic_alteration_type: MRNA_EXPRESSION_NORMALS
-datatype: Z-SCORE
-show_profile_in_analysis_tab: false
-data_filename: data_expression_median_normals.txt
