@@ -1,0 +1,8 @@
+type_of_cancer: gbm
+cancer_study_identifier: gbm_tcga_pub
+name: Glioblastoma (TCGA, Nature 2008)
+short_name: GBM (TCGA 2008)
+description: Comprehensive profiling of 206 primary glioblastoma samples. The Cancer Genome Atlas (TCGA) Glioblastoma Project.<br> <a href="https://tcga-data.nci.nih.gov/docs/publications/gbm_2008/">Raw data via the TCGA Data Portal</a>.
+citation: TCGA, Nature 2008
+pmid: 18772890
+groups: PUBLIC

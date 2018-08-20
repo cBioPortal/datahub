@@ -1,0 +1,6 @@
+cancer_study_identifier: prad_broad_2013
+stable_id: prad_broad_2013_mrna
+case_list_category: all_cases_with_mrna_array_data
+case_list_name: Tumors with mRNA data
+case_list_description: All tumor samples with mRNA expression data (16 samples)
+case_list_ids: PR-01-28	PR-02-1431	PR-03-1426	PR-03-2345	PR-03-728	PR-04-1084	PR-04-1243	PR-05-1657	PR-05-2709	PR-05-3595	PR-05-3852	PR-06-1749	PR-07-144	PR-07-360	PR-07-837	PR-09-146

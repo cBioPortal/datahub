@@ -1,0 +1,7 @@
+type_of_cancer: utuc
+cancer_study_identifier: utuc_mskcc_2013
+name: Upper Tract Urothelial Cancer (MSK, Eur Urol 2013)
+short_name: Upper tract (MSKCC)
+description: Genomic Characterization using next-generation sequencing of Upper Tract Urothelial Carcinoma.
+pmid: 26278805
+groups: PUBLIC

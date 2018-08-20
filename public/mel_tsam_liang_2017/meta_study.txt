@@ -1,0 +1,9 @@
+type_of_cancer: mel
+cancer_study_identifier: mel_tsam_liang_2017
+name: Acral Melanoma (TGEN, Genome Res 2017)
+description: Comprehensive genomic and transcriptomic analysis of ALM patients with matched normals.
+citation: Liang et al. Genome Res 2017
+add_global_case_list: true
+pmid: 28373299
+groups: PUBLIC
+short_name: TSAM

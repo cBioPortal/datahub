@@ -1,0 +1,8 @@
+type_of_cancer: liad
+cancer_study_identifier: liad_inserm_fr_2014
+name: Hepatocellular Adenoma (INSERM, Cancer Cell 2014)
+short_name: Liad (Inserm 2014)
+description: Mutation data from whole-exome sequencing (WXS) of 46 liver tumor and corresponding nontumor DNA.
+add_global_case_list: true
+pmid: 24735922
+citation: Pilati et al. Cancer Cell 2014

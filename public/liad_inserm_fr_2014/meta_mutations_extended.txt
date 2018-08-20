@@ -1,0 +1,8 @@
+cancer_study_identifier: liad_inserm_fr_2014
+genetic_alteration_type: MUTATION_EXTENDED
+stable_id: mutations
+datatype: MAF
+show_profile_in_analysis_tab: true
+profile_description: Mutation data from whole-exome sequencing(WXS) of 46 liver tumor and corresponding nontumor DNA.
+profile_name: Mutations
+data_filename: data_mutations_extended.txt

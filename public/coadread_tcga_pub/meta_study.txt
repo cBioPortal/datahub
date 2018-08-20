@@ -1,0 +1,8 @@
+type_of_cancer: coadread
+cancer_study_identifier: coadread_tcga_pub
+name: Colorectal Adenocarcinoma (TCGA, Nature 2012)
+short_name: Colorectal (TCGA pub)
+description: <a href="http://cancergenome.nih.gov/">The Cancer Genome Atlas (TCGA)</a> Colorectal Cancer project. <a href="https://tcga-data.nci.nih.gov/docs/publications/coadread_2012/">Raw data via the TCGA Data Portal</a>.
+citation: TCGA, Nature 2012
+pmid: 22810696
+groups: PUBLIC

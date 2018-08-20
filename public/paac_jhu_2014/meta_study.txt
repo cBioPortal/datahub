@@ -1,0 +1,8 @@
+type_of_cancer: paac
+cancer_study_identifier: paac_jhu_2014
+name: Acinar Cell Carcinoma of the Pancreas (Johns Hopkins, J Pathol 2014)
+description: Mutation data from whole exome sequencing of 23 surgically resected pancreatic carcinomas with acinar differentiation.
+citation: Jial et al. J Pathol 2014
+pmid: 24293293
+short_name: PAAC (JHU)
+groups: PUBLIC

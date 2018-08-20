@@ -1,0 +1,8 @@
+type_of_cancer: skcm
+cancer_study_identifier: skcm_broad_dfarber
+name: Melanoma (Broad/Dana Farber, Nature 2012)
+description: Somatic Mutation data from 25 Whole Genome Sequenced metastatic melanoma samples
+citation: Berger et al. Nature 2012
+pmid: 22622578
+short_name: Melanoma (Broad/DFCI)
+groups: PUBLIC
