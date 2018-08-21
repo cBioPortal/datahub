@@ -1,0 +1,8 @@
+type_of_cancer: prad
+cancer_study_identifier: prad_mskcc_2017
+name: MSK-IMPACT Clinical Sequencing Cohort in Prostate Cancer (MSKCC, JCO Precis Oncol 2017)
+short_name: MSK-IMPACT Prostate
+description: Targeted sequencing of clinical cases via MSK-IMPACT for prostate cancer
+groups: PUBLIC
+citation: Abida et al. JCO Precis Oncol 2017
+pmid: 28825054

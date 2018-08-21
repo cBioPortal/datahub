@@ -3,6 +3,6 @@ genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
 stable_id: mutations
 show_profile_in_analysis_tab: true
-profile_description: Mutation data from WGS/WES.
+profile_description: Paired-end whole-genome and WXS sequencing of tumor and normal DNA samples.
 profile_name: Mutations
 data_filename: data_mutations_extended.txt

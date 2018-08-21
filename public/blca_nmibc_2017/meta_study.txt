@@ -1,0 +1,7 @@
+type_of_cancer: blca
+cancer_study_identifier: blca_nmibc_2017
+name: Nonmuscle Invasive Bladder Cancer (MSK Eur Urol 2017)
+short_name: NMIBC (MSK Our Urol 2017)
+pmid: 28583311
+description: Genomic Landscape and Predictors of Response for High Risk NMIBC
+groups: PUBLIC

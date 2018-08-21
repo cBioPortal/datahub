@@ -1,0 +1,8 @@
+type_of_cancer: hnsc
+cancer_study_identifier: hnsc_broad
+name: Head and Neck Squamous Cell Carcinoma (Broad, Science 2011)
+description: Comprehensive profiling of 74 head and neck squamous cell carcinoma samples from the Broad Institute.
+citation: Stransky et al. Science 2011
+pmid: 21798893
+short_name: Head & neck (Broad)
+groups: PUBLIC

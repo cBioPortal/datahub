@@ -1,8 +1,8 @@
 type_of_cancer: thyroid
 cancer_study_identifier: thyroid_mskcc_2016
 name: Poorly-Differentiated and Anaplastic Thyroid Cancers (MSKCC, JCI 2016)
-description: Next generation sequencing (MSK-IMPACT) of 84 poorly-differentiated (PDTC) and 33 anaplastic thyroid cancers (ATC).
+description: Poorly-Differentiated and Anaplastic Thyroid Cancers (MSKCC, J Clin Invest 2016)
 groups: PUBLIC
 short_name: Thyroid (MSKCC 2016)
-citation: Landa et al. JCI 2016
+citation: Landa et al. J Clin Invest 2016
 pmid: 26878173

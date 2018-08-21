@@ -1,0 +1,8 @@
+type_of_cancer: skcm
+cancer_study_identifier: skcm_ucla_2016
+name: Metastatic Melanoma (UCLA, Cell 2016)
+description: Genetic Characterization of 38 pretreatment (pembrolizumab and nivolumab) melanoma tumors.
+groups: PUBLIC
+short_name: SKCM UCLA (Cell 2016)
+citation: Hugo et al. Cell 2016
+pmid: 26997480

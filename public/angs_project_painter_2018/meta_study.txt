@@ -3,4 +3,3 @@ cancer_study_identifier: angs_project_painter_2018
 name: The Angiosarcoma Project (Provisional, February 2018)
 short_name: (ASC Project)
 description: The Angiosarcoma Project is a patient-driven initiative. This study includes genomic data, patient-reported data (pre-pended as PRD), medical record data (MedR), and pathology report data (PATH). As these data were generated in a research, not a clinical, laboratory, they are for research purposes only and cannot be used to inform clinical decision-making. All annotations have been de-identified. More information is available at www.ascproject.org. Questions about these data can be directed to data@ascproject.org.
-add_global_case_list: true

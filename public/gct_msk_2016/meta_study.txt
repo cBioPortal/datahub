@@ -1,0 +1,8 @@
+type_of_cancer: gct
+cancer_study_identifier: gct_msk_2016
+name: Germ Cell Tumors (MSKCC, J Clin Oncol 2016)
+short_name: GCT (JCO, 2016)
+description: Whole-exome profiling to identify the genetic determinants of cisplatin resistance in 180 advanced germ cell tumors
+groups: PUBLIC
+pmid: 27646943
+citation: Bagrodia et al. J Clin Oncol 2016

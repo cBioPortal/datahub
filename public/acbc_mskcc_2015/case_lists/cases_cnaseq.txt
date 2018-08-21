@@ -1,0 +1,6 @@
+cancer_study_identifier:acbc_mskcc_2015
+stable_id:acbc_mskcc_2015_cnaseq
+case_list_category:all_cases_with_mutation_and_cna_data
+case_list_name:Tumor Samples with sequencing and CNA data
+case_list_description:All tumor samples that have CNA and sequencing data (12 samples)
+case_list_ids:AdCC5T	AdCC4T	AdCC2T	AdCC9T	AdCC8T	AdCC6T	AdCC32T	AdCC1T	AdCC12T	AdCC3T	AdCC11T	AdCC10T

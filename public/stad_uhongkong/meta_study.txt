@@ -1,0 +1,8 @@
+type_of_cancer: stad
+cancer_study_identifier: stad_uhongkong
+name: Stomach Adenocarcinoma (UHK, Nat Genet 2011)
+description: Exome sequencing of 22 gastric cancer samples.
+citation: Wang et al. Nat Genet 2011
+pmid: 22037554
+short_name: Stomach (UHK)
+groups: PUBLIC

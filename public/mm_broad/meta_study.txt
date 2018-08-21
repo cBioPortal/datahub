@@ -1,0 +1,7 @@
+type_of_cancer: pcm
+cancer_study_identifier: mm_broad
+name: Multiple Myeloma (Broad, Cancer Cell 2014)
+short_name: MM (Broad)
+description: Whole exome/genome sequencing of paired tumor/normal samples from multiple myeloma patients
+citation: Lohr et al. Cancer Cell 2014
+pmid: 24434212
