@@ -27,18 +27,7 @@ Download the data files for a study folder, for example brca_tcga:
 git lfs pull -I public/brca_tcga
 ```
 
-## Download a complete MySQL export of the latest database
-
-http://download.cbioportal.org/mysql-snapshots/mysql-snapshots-toc.html
-
-
-## License
-The data are available under [the ODC Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/) (summary available [here](http://www.opendatacommons.org/licenses/odbl/1-0/summary/)): you are free to share and modify the data so long as you attribute any public use of the database, or works produced from the database; keep the resulting data-sets open; and offer your shared or adapted version of the data-set under the same ODbL license.
-
-TCGA data are availabe under Broad Institute GDAC TCGA Analysis Pipeline License. The Cancer Genome Atlas Consortium is pleased to provide the researchcommunity with preliminary data prior to publication.  Users are requested to carefully consider that these data are preliminary and have yet to be validated. Researchers are warned that the preliminary data have a significant uncertainty, are likely to change, and should be used with caution.
-
-
-## How to update data
+## How to upload data
 #### Step1 create a topic branch from the 'master' branch. 
 
 ```git checkout master```
@@ -55,5 +44,15 @@ For instructions on submitting a pull-request, please see:  [Using Pull Requests
 
 ## Automated tests on Circle CI
 All Pull Requests are automatically tested on [Circle CI](https://circleci.com/) 
-
 Validation status of latest studies added to this repo: [![CircleCI](https://circleci.com/gh/cBioPortal/datahub.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub)
+
+
+## Download a complete MySQL export of the latest database
+
+http://download.cbioportal.org/mysql-snapshots/mysql-snapshots-toc.html
+
+
+## License
+The data are available under [the ODC Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/) (summary available [here](http://www.opendatacommons.org/licenses/odbl/1-0/summary/)): you are free to share and modify the data so long as you attribute any public use of the database, or works produced from the database; keep the resulting data-sets open; and offer your shared or adapted version of the data-set under the same ODbL license.
+
+TCGA data are availabe under Broad Institute GDAC TCGA Analysis Pipeline License. The Cancer Genome Atlas Consortium is pleased to provide the researchcommunity with preliminary data prior to publication.  Users are requested to carefully consider that these data are preliminary and have yet to be validated. Researchers are warned that the preliminary data have a significant uncertainty, are likely to change, and should be used with caution.
