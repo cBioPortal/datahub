@@ -1,4 +1,4 @@
-type_of_cancer: all
+type_of_cancer: bll
 cancer_study_identifier: all_stjude_2016
 name: Acute Lymphoblastic Leukemia (St Jude, Nat Genet 2016)
 short_name: ALL (St. Jude, Nat Gen)
@@ -6,4 +6,3 @@ description: Whole-genome and/or whole-exome sequencing was performed for ERG-al
 citation: Zhang et al. Nat Genet 2016
 pmid: 27776115
 groups: PUBLIC
-add_global_case_list: true

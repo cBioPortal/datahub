@@ -1,0 +1,6 @@
+cancer_study_identifier: kirc_tcga_pub
+stable_id:kirc_tcga_pub_chromophobe
+case_list_category: other
+case_list_name: Freeze: Chromophobe
+case_list_description: Chromophobe samples (15 samples)
+case_list_ids: TCGA-A3-3365-01	TCGA-A3-3374-01	TCGA-AK-3427-01	TCGA-AK-3440-01	TCGA-AS-3777-01	TCGA-B2-3923-01	TCGA-B8-4619-01	TCGA-B0-4699-01	TCGA-B0-4834-01	TCGA-B0-5083-01	TCGA-B0-5117-01	TCGA-AK-3433-01	TCGA-BP-4334-01	TCGA-BP-4995-01	TCGA-BP-4994-01

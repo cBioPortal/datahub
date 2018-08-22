@@ -1,0 +1,6 @@
+cancer_study_identifier: prad_tcga_pub
+stable_id: prad_tcga_pub_wgs
+case_list_category:  other
+case_list_name: Manuscript: 20 WGS samples (whole genome sequenced)
+case_list_description: Whole genome sequenced samples
+case_list_ids: TCGA-CH-5750-01	TCGA-CH-5763-01	TCGA-CH-5771-01	TCGA-CH-5788-01	TCGA-CH-5789-01	TCGA-EJ-5503-01	TCGA-EJ-5506-01	TCGA-EJ-7791-01	TCGA-G9-6336-01	TCGA-G9-6365-01	TCGA-G9-6370-01	TCGA-G9-7522-01	TCGA-HC-7075-01	TCGA-HC-7079-01	TCGA-HC-7233-01	TCGA-HC-7737-01	TCGA-HC-7740-01	TCGA-HC-7744-01	TCGA-HC-8258-01	TCGA-HI-7169-01	

@@ -1,0 +1,8 @@
+type_of_cancer: hcc
+cancer_study_identifier: lihc_amc_prv
+name: Liver Hepatocellular Carcinoma (AMC, Hepatology 2014)
+description: Whole exome sequencing of 231 early-stage hepatocellular carcinomas
+citation: Ahn et al. Hepatology 2014
+pmid: 24798001
+short_name: Liver (AMC)
+groups: PUBLIC
