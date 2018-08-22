@@ -1,0 +1,8 @@
+type_of_cancer: ccrcc
+cancer_study_identifier: ccrcc_utokyo_2013
+name: Clear Cell Renal Cell Carcinoma (U Tokyo, Nat Genet 2013)
+description: Mutation data from whole genome and/or whole exome sequencing of 106 clear-cell renal cell carcinoma samples.
+citation: Sato et al. Nat Genet 2013
+pmid: 23797736
+short_name: ccRCC (U Tokyo)
+groups: PUBLIC

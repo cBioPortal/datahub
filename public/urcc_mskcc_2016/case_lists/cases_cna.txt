@@ -1,0 +1,6 @@
+cancer_study_identifier: urcc_mskcc_2016
+stable_id: urcc_mskcc_2016_cna
+case_list_name: Tumor Samples with CNA data
+case_list_description: All tumors with CNA data (62 samples)
+case_list_category: all_cases_with_cna_data
+case_list_ids: T40	T38	T47	T13	T60	T14	T15	T70	T17	T10	T11	T12	T39	T37	T34	T35	T18	T19	T30	T31	T58	T59	T50	T32	T53	T54	T56	T33	T51	T45	T08	T29	T06	T05	T04	T57	T02	T01	T21	T20	T23	T22	T25	T09	T26	T72	T49	T69	T68	T28	T43	T64	T41	T66	T61	T16	T63	T44	T71	T42	T67	T62

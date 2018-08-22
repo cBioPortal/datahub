@@ -1,0 +1,7 @@
+type_of_cancer: past
+cancer_study_identifier: past_dkfz_heidelberg_2013
+name: Pilocytic Astrocytomasatic (ICGC, Nature Genetics 2013)
+description: Whole-genome sequencing of 96 pilocytic astrocytomasatic alterations in pilocytic astrocytoma conducted by the International Cancer Genome Consortium (ICGC) PedBrain Tumor Project.
+pmid: 23817572
+groups: PUBLIC
+short_name: PAST (Nat Gen, 2013)

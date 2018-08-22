@@ -1,0 +1,6 @@
+cancer_study_identifier:acbc_mskcc_2015
+stable_id:acbc_mskcc_2015_sequenced
+case_list_category:all_cases_with_mutation_data
+case_list_name:Sequenced Tumors
+case_list_description:All (Next-Gen) sequenced samples (12 samples)
+case_list_ids:AdCC5T	AdCC4T	AdCC2T	AdCC9T	AdCC8T	AdCC6T	AdCC32T	AdCC1T	AdCC12T	AdCC3T	AdCC11T	AdCC10T

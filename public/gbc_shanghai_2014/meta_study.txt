@@ -1,0 +1,9 @@
+type_of_cancer: gbc
+cancer_study_identifier: gbc_shanghai_2014
+name: Gallbladder Carcinoma (Shanghai, Nat Genet 2014)
+description: Mutation data from whole exome sequencing of 32 gallbladder carcinoma tumors with paired normals
+citation: Maolan Li et al. Nat Genet 2014
+pmid: 24997986
+short_name: GBC (Shanghai)
+groups: PUBLIC
+add_global_case_list: true

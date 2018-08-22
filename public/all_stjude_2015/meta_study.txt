@@ -1,0 +1,8 @@
+type_of_cancer: bll
+cancer_study_identifier: all_stjude_2015
+name: Infant MLL-Rearranged Acute Lymphoblastic Leukemia (St Jude, Nat Genet 2015)
+short_name: ALL (St. Jude 2015)
+description: Comprehensive profiling of infant MLL-rearranged acute lymphoblastic leukemia (MLL-R ALL)
+citation: Andersson et al. Nat Genet 2015
+pmid: 25730765
+groups: PUBLIC
