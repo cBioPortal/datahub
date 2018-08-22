@@ -1,5 +1,3 @@
-Validation status of latest studies added to this repo: [![CircleCI](https://circleci.com/gh/cBioPortal/datahub.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub)
-
 # cBioPortal Public Datahub
 The datahub is a repository for store data only. It contains staging files which are pre-validated and can be loaded directly into the cBioPortal.
 
@@ -39,5 +37,23 @@ The data are available under [the ODC Open Database License (ODbL)](http://opend
 
 TCGA data are availabe under Broad Institute GDAC TCGA Analysis Pipeline License. The Cancer Genome Atlas Consortium is pleased to provide the researchcommunity with preliminary data prior to publication.  Users are requested to carefully consider that these data are preliminary and have yet to be validated. Researchers are warned that the preliminary data have a significant uncertainty, are likely to change, and should be used with caution.
 
-## Disclaimer
-We are in the process of updating data. Some studies may result in 'fail' from validation.
+
+## How to update data
+#### Step1 create a topic branch from the 'master' branch. 
+
+```git checkout master```
+```git checkout -b [name_of_your_new_branch]```
+
+For general background on creating and managing branches within GitHub, see:  [Git Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
+
+#### Step2 Commit code changes, and push the branch back to GitHub.
+
+```git push origin [name_of_your_new_branch]```
+
+#### Step3 Open a Pull Request on GitHub to the 'master' branch.
+For instructions on submitting a pull-request, please see:  [Using Pull Requests ](https://help.github.com/articles/using-pull-requests/) and [Sending Pull Requests](http://help.github.com/send-pull-requests/).
+
+## Automated tests on Circle CI
+All Pull Requests are automatically tested on [Circle CI](https://circleci.com/) 
+
+Validation status of latest studies added to this repo: [![CircleCI](https://circleci.com/gh/cBioPortal/datahub.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub)
