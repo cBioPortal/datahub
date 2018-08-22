@@ -27,28 +27,26 @@ Download the data files for a study folder, for example brca_tcga:
 git lfs pull -I public/brca_tcga
 ```
 
-## How to upload data
-#### Step1 create a topic branch from the 'master' branch. 
-
+## How to Upload data
+#### Step1- Create a topic branch from the 'master' branch. 
 ```git checkout master```
 ```git checkout -b [name_of_your_new_branch]```
 
 For general background on creating and managing branches within GitHub, see:  [Git Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
 
-#### Step2 Commit code changes, and push the branch back to GitHub.
-
+#### Step2- Commit changes, and push the branch back to GitHub.
 ```git push origin [name_of_your_new_branch]```
 
 #### Step3 Open a Pull Request on GitHub to the 'master' branch.
 For instructions on submitting a pull-request, please see:  [Using Pull Requests ](https://help.github.com/articles/using-pull-requests/) and [Sending Pull Requests](http://help.github.com/send-pull-requests/).
 
 ## Automated tests on Circle CI
-All Pull Requests are automatically tested on [Circle CI](https://circleci.com/) 
+All Pull Requests are automatically tested on [Circle CI](https://circleci.com/).
+
 Validation status of latest studies added to this repo: [![CircleCI](https://circleci.com/gh/cBioPortal/datahub.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub)
 
 
 ## Download a complete MySQL export of the latest database
-
 http://download.cbioportal.org/mysql-snapshots/mysql-snapshots-toc.html
 
 
