@@ -27,7 +27,7 @@ Download the data files for a study folder, for example brca_tcga:
 git lfs pull -I public/brca_tcga
 ```
 
-## How to Upload data
+## How to Upload Data
 #### Step1 -Create a new branch from the 'master' branch.
 ```
 git checkout master
