@@ -2,7 +2,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
-version: 2
+version: 1
 jobs:
   validate_changed_studies:
     docker:
@@ -13,46 +13,19 @@ jobs:
     steps:
       - checkout
 
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "requirements_py" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
-
       - run:
           name: install dependencies
-          command: |
-            sudo pip install -r requirements_py
-            wget https://github.com/git-lfs/git-lfs/releases/download/v2.3.4/git-lfs-linux-amd64-2.3.4.tar.gz
-            tar -xvf git-lfs-linux-amd64-2.3.4.tar.gz
-            cd git-lfs-2.3.4
-            sudo ./install.sh
-            cd ~/repo
-            sudo chown -R circleci .git
-            git lfs install --skip-smudge
+          command: ./install_dependencies.sh
 
-      - save_cache:
-          paths:
-          - ./venv
-          key: v1-dependencies-{{ checksum "requirements_py" }}
-        
-      # run tests!
       - run:
-          name: run tests
-          command: |
-            git remote add upstream git@github.com:cbioportal/datahub.git
-            git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
-            cd ~/repo/.circleci
-            # make test reports location:
-            mkdir ~/repo/test-reports
-            mkdir ~/repo/test-reports/ERRORS
-            # run the tests:
-            ./validate_changed_studies.sh
+          name: validate changed studies
+          command: ./validate_changed_studies.sh
 
       - store_artifacts:
           path: test-reports
           destination: test-reports
+
+################################################################################
 
   validate_all_studies:
     docker:
@@ -63,46 +36,19 @@ jobs:
     steps:
       - checkout
 
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "requirements_py" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
-
       - run:
           name: install dependencies
-          command: |
-            sudo pip install -r requirements_py
-            wget https://github.com/git-lfs/git-lfs/releases/download/v2.3.4/git-lfs-linux-amd64-2.3.4.tar.gz
-            tar -xvf git-lfs-linux-amd64-2.3.4.tar.gz
-            cd git-lfs-2.3.4
-            sudo ./install.sh
-            cd ~/repo
-            sudo chown -R circleci .git
-            git lfs install --skip-smudge
+          command: ./install_dependencies.sh
 
-      - save_cache:
-          paths:
-          - ./venv
-          key: v1-dependencies-{{ checksum "requirements_py" }}
-
-      # run tests!
       - run:
-          name: run tests
-          command: |
-            git remote add upstream git@github.com:cbioportal/datahub.git
-            git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
-            cd ~/repo/.circleci
-            # make test reports location:
-            mkdir ~/repo/test-reports
-            mkdir ~/repo/test-reports/ERRORS
-            # run the tests:
-            ./validate_all_studies.sh
+          name: validate all studies
+          command: ./validate_all_studies.sh
 
       - store_artifacts:
           path: test-reports
           destination: test-reports
+
+################################################################################
 
 workflows:
   version: 1
