@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # This script detects the studies that were changed and triggers the validation accordingly
 
 STUDIES_DIR="public/"
