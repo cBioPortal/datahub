@@ -1,9 +1,10 @@
-Validation status of latest studies added to this repo: [![CircleCI](https://circleci.com/gh/cBioPortal/datahub.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub)
-
 # cBioPortal Public Datahub
 The datahub is a repository for store data only. It contains staging files which are pre-validated and can be loaded directly into the cBioPortal.
 
 Behind the scenes git-lfs is used to manage the large files. https://github.com/github/git-lfs
+
+Validation status of all studies on cBioPortal Datahub. This runs weekly using the validator from cBioPortal master.
+[![CircleCI](https://circleci.com/gh/cBioPortal/datahub.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub)
 
 ## How to Download Data
 ### Downloading zip files individual studies
