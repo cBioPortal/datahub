@@ -2,7 +2,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
-version: 1
+version: 2
 jobs:
   validate_changed_studies:
     docker:
@@ -51,7 +51,7 @@ jobs:
 ################################################################################
 
 workflows:
-  version: 1
+  version: 2
   on_every_commit:
     jobs:
       - validate_changed_studies
@@ -60,10 +60,6 @@ workflows:
     triggers:
       - schedule:
           cron: "00 17 * * 2"
-          filters:
-            branches:
-              only:
-                - master
 
     jobs:
       - validate_all_studies
