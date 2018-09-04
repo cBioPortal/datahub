@@ -63,10 +63,10 @@ workflows:
     triggers:
       - schedule:
           cron: "00 17 * * 2"
-
-    jobs:
-      - validate_all_studies:
           filters:
             branches:
-              only: 
+              only:
                 - master
+
+    jobs:
+      - validate_all_studies
