@@ -25,13 +25,12 @@ jobs:
           - ./venv
           key: v1-dependencies-{{ checksum "requirements_py" }}
         
-      # run tests!
       - run:
           name: run tests
           command: |
-            ./circleci/install_dependencies.sh
+            ~/repo/circleci/install_dependencies.sh
             # run the tests:
-            ./circleci/validate_changed_studies.sh
+            ~/repo/circleci/validate_all_studies.sh
 
       - store_artifacts:
           path: test-reports
@@ -58,13 +57,12 @@ jobs:
           - ./venv
           key: v1-dependencies-{{ checksum "requirements_py" }}
 
-      # run tests!
       - run:
           name: run tests
           command: |
-            ./circleci/install_dependencies.sh
+            ~/repo/circleci/install_dependencies.sh
             # run the tests:
-            ./circleci/validate_all_studies.sh
+            ~/repo/circleci/validate_all_studies.sh
 
       - store_artifacts:
           path: test-reports

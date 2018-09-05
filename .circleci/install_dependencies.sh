@@ -5,6 +5,7 @@
 sudo pip install -r requirements_py
 
 # Install and configure Git LFS
+cd ~/repo
 wget https://github.com/git-lfs/git-lfs/releases/download/v2.3.4/git-lfs-linux-amd64-2.3.4.tar.gz
 tar -xvf git-lfs-linux-amd64-2.3.4.tar.gz
 cd git-lfs-2.3.4
