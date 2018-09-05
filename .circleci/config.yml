@@ -29,9 +29,9 @@ jobs:
       - run:
           name: run tests
           command: |
-            ./install_dependencies.sh
+            ./circleci/install_dependencies.sh
             # run the tests:
-            ./validate_changed_studies.sh
+            ./circleci/validate_changed_studies.sh
 
       - store_artifacts:
           path: test-reports
@@ -62,9 +62,9 @@ jobs:
       - run:
           name: run tests
           command: |
-            ./install_dependencies.sh
+            ./circleci/install_dependencies.sh
             # run the tests:
-            ./validate_all_studies.sh
+            ./circleci/validate_all_studies.sh
 
       - store_artifacts:
           path: test-reports
