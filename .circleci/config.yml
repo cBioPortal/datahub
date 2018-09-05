@@ -24,6 +24,7 @@ jobs:
           path: test-reports
           destination: test-reports
 
+########################
   validate_all_studies:
     docker:
       - image: circleci/python:3.4
@@ -44,6 +45,7 @@ jobs:
           path: test-reports
           destination: test-reports
 
+#########################
 workflows:
   version: 2
   on_every_commit:

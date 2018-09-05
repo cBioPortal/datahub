@@ -16,7 +16,6 @@ sudo chown -R circleci .git
 git lfs install --skip-smudge
 
 # Clone datahub master branch
-git remote add upstream git@github.com:cbioportal/datahub.git
 git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
 
 # Make test reports location
