@@ -6,12 +6,12 @@ STUDIES_DIR="public/"
 git remote add upstream git@github.com:cbioportal/datahub.git
 git fetch upstream master
 
-git lfs pull -I "public/acc_tcga"
+git lfs pull -I "public"
 
 num_studies=${#list_of_study_dirs[@]}
 
 test_reports_location="$HOME/repo/test-reports"
-validation_command="$HOME/repo/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/public/  -l acc_tcga -p $HOME/repo/.circleci/portalinfo -html $test_reports_location"
+validation_command="$HOME/repo/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/public/ -p $HOME/repo/.circleci/portalinfo -html $test_reports_location"
 echo $'\nExecuting: '; echo $validation_command
 if sh -c "$validation_command" ; then
     echo "Tests passed successfully"
