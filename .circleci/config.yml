@@ -8,29 +8,17 @@ jobs:
     docker:
       - image: circleci/python:3.4
 
-    working_directory: ~/repo
+    working_directory: ~/repo/
 
     steps:
       - checkout
 
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "requirements_py" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
-
-      - save_cache:
-          paths:
-          - ./venv
-          key: v1-dependencies-{{ checksum "requirements_py" }}
-        
       - run:
-          name: run tests
+          name: validate changed studies
           command: |
-            ~/repo/circleci/install_dependencies.sh
-            # run the tests:
-            ~/repo/circleci/validate_all_studies.sh
+            cd ~/repo/.circleci
+            ./install_dependencies.sh
+            ./validate_changed_studies.sh
 
       - store_artifacts:
           path: test-reports
@@ -45,24 +33,12 @@ jobs:
     steps:
       - checkout
 
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "requirements_py" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
-
-      - save_cache:
-          paths:
-          - ./venv
-          key: v1-dependencies-{{ checksum "requirements_py" }}
-
       - run:
-          name: run tests
+          name: validate all studies
           command: |
-            ~/repo/circleci/install_dependencies.sh
-            # run the tests:
-            ~/repo/circleci/validate_all_studies.sh
+            cd ~/repo/.circleci
+            ./install_dependencies.sh
+            ./validate_changed_studies.sh
 
       - store_artifacts:
           path: test-reports
