@@ -46,10 +46,8 @@ def retrieve_oncotree_cancer_types():
     print('Retrieving cancer types from OncoTree API')
     request_url = 'http://oncotree.mskcc.org/api/tumorTypes/tree?version=oncotree_latest_stable'
     request_headers = {'Accept': 'application/json'}
-    # request_data = '{ "transcriptIds" : ["%s"] }' % ('", "'.join(self.transcript_set))
     request = requests.get(url=request_url, headers=request_headers)
     if request.ok:
-        # Parse transcripts and exons from JSON
         result_json = request.json()
         return result_json
 
