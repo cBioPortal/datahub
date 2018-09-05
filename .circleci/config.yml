@@ -6,7 +6,7 @@ version: 2
 jobs:
   
   # Job to validate only the changed studies
-  validate_changed_studies:
+  build:
     docker:
       - image: circleci/python:3.4
     working_directory: ~/repo/
@@ -45,18 +45,18 @@ workflows:
 
   # Workflow to run on every commit for new PRs. Does not run when commit
   # is merged into the master branch.
-  workflow_nr_1:
+  workflow_on_commit:
     jobs:
-      - validate_changed_studies:
+      - build:
           filters:
             branches:
               ignore: master
 
   # Workflow to run weekly, only on the master branch
-  workflow_nr_2:
+  workflow_weekly:
     triggers:
       - schedule:
-          cron: "00 14 * * 3"
+          cron: "35 12 * * 3"
           filters:
             branches:
               only: 
