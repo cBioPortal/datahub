@@ -2,6 +2,7 @@
 # This script installs the dependencies to download and validate all studies
 
 # Install python dependencies
+cd ~/repo/.circleci
 sudo pip install -r requirements_py
 
 # Install and configure Git LFS
