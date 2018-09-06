@@ -1,0 +1,7 @@
+cancer_study_identifier: sarc_mskcc
+stable_id: sarc_mskcc_pleo
+case_list_category: other
+case_list_name: Subtype PLEO
+case_list_description: Sarcoma Subtype: Pleomorphic liposarcoma (24 samples)
+case_list_ids: PT159PL	PT160PL	PT161PL	PT162PL	PT163PL	PT164PL	PT165PL	PT166PL	PT167PL	PT168PL	PT169PL	PT170PL	PT171PL	PT172PL	PT173PL	PT174PL	PT175PL	PT176PL	PT177PL	PT178PL	PT179PL	PT180PL	PT181PL	PT182PL	
+

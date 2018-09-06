@@ -1,0 +1,6 @@
+cancer_study_identifier: sarc_mskcc
+stable_id: sarc_mskcc_synovial
+case_list_category: other
+case_list_name: Subtype SYNOVIAL 
+case_list_description: Sarcoma Subtype: Synovial sarcoma (25 samples)
+case_list_ids: PT183SYN	PT184SYN	PT185SYN	PT186SYN	PT187SYN	PT188SYN	PT189SYN	PT190SYN	PT191SYN	PT192SYN	PT193SYN	PT194SYN	PT195SYN	PT196SYN	PT197SYN	PT198SYN	PT199SYN	PT200SYN	PT201SYN	PT202SYN	PT203SYN	PT204SYN	PT205SYN	PT206SYN	PT207SYN	

@@ -1,0 +1,6 @@
+cancer_study_identifier: sarc_mskcc
+stable_id: sarc_mskcc_gist
+case_list_category: other
+case_list_name: Subtype GIST
+case_list_description: Sarcoma Subtype: Gastrointestinal stromal tumor (22 samples)
+case_list_ids: PT51GT	PT52GT	PT53GT	PT55GT	PT56GT	PT57GT	PT58GT	PT59GT	PT60GT	PT61GT	PT62GT	PT63GT	PT64GT	PT66GT	PT67GT	PT71GT	PT54GT	PT65GT	PT72GT	PT68GT	PT69GT	PT70GT	
