@@ -1,5 +1,3 @@
-Validation status of latest studies added to this repo: [![CircleCI](https://circleci.com/gh/cBioPortal/datahub.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub)
-
 # cBioPortal Public Datahub
 The datahub is a repository for store data only. It contains staging files which are pre-validated and can be loaded directly into the cBioPortal.
 
@@ -29,8 +27,33 @@ Download the data files for a study folder, for example brca_tcga:
 git lfs pull -I public/brca_tcga
 ```
 
-## Download a complete MySQL export of the latest database
+## How to Upload Data
+#### Step1 -Create a new branch from the 'master' branch.
+```
+git checkout master
+git pull origin master
+git checkout -b [name_of_your_new_branch]
+```
+For general background on creating and managing branches within GitHub, see:  [Git Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
 
+#### Step2 -Commit changes, and push the branch back to GitHub.
+```
+[back to the root directory]
+git add .
+git commit -m '[notes_for_your_change]'
+git push origin [name_of_your_new_branch]
+```
+
+#### Step3 -Open a Pull Request on GitHub to the 'master' branch.
+For instructions on submitting a pull-request, please see:  [Using Pull Requests ](https://help.github.com/articles/using-pull-requests/) and [Sending Pull Requests](http://help.github.com/send-pull-requests/).
+
+## Automated tests on Circle CI
+All Pull Requests are automatically tested on [Circle CI](https://circleci.com/).
+
+Validation status of latest studies added to this repo: [![CircleCI](https://circleci.com/gh/cBioPortal/datahub.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub)
+
+
+## Download a complete MySQL export of the latest database
 http://download.cbioportal.org/mysql-snapshots/mysql-snapshots-toc.html
 
 
@@ -38,6 +61,3 @@ http://download.cbioportal.org/mysql-snapshots/mysql-snapshots-toc.html
 The data are available under [the ODC Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/) (summary available [here](http://www.opendatacommons.org/licenses/odbl/1-0/summary/)): you are free to share and modify the data so long as you attribute any public use of the database, or works produced from the database; keep the resulting data-sets open; and offer your shared or adapted version of the data-set under the same ODbL license.
 
 TCGA data are availabe under Broad Institute GDAC TCGA Analysis Pipeline License. The Cancer Genome Atlas Consortium is pleased to provide the researchcommunity with preliminary data prior to publication.  Users are requested to carefully consider that these data are preliminary and have yet to be validated. Researchers are warned that the preliminary data have a significant uncertainty, are likely to change, and should be used with caution.
-
-## Disclaimer
-We are in the process of updating data. Some studies may result in 'fail' from validation.
