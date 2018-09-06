@@ -4,60 +4,62 @@
 #
 version: 2
 jobs:
+  
+  # Job to validate only the changed studies
   build:
     docker:
-      # specify the version you desire here
-      # use `-browsers` prefix for selenium tests, e.g. `3.6.1-browsers`
-      - image: circleci/python:2.7
-      
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/ , e.g.:
-      # - image: circleci/postgres:9.4
-
-    working_directory: ~/repo
-
+      - image: circleci/python:3.4
+    working_directory: ~/repo/
     steps:
       - checkout
-
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "requirements_py" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
-
       - run:
-          name: install dependencies
+          name: validate changed studies
           command: |
-            sudo pip install -r requirements_py
-            wget https://github.com/git-lfs/git-lfs/releases/download/v2.3.4/git-lfs-linux-amd64-2.3.4.tar.gz
-            tar -xvf git-lfs-linux-amd64-2.3.4.tar.gz
-            cd git-lfs-2.3.4
-            sudo ./install.sh
-            cd ~/repo
-            sudo chown -R circleci .git
-            git lfs install --skip-smudge
-
-      - save_cache:
-          paths:
-          - ./venv
-          key: v1-dependencies-{{ checksum "requirements_py" }}
-        
-      # run tests!
-      - run:
-          name: run tests
-          command: |
-            git remote add upstream git@github.com:cbioportal/datahub.git
-            git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
             cd ~/repo/.circleci
-            # make test reports location:
-            mkdir ~/repo/test-reports
-            mkdir ~/repo/test-reports/ERRORS
-            # run the tests:
-            ./run_tests.sh
-
+            ./install_dependencies.sh
+            ./validate_changed_studies.sh
       - store_artifacts:
           path: test-reports
           destination: test-reports
-          
+
+  # Job to validate all studies
+  validate_all_studies:
+    docker:
+      - image: circleci/python:3.4
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: validate all studies
+          command: |
+            cd ~/repo/.circleci
+            ./install_dependencies.sh
+            ./validate_all_studies.sh
+      - store_artifacts:
+          path: test-reports
+          destination: test-reports
+
+# Workflow containing the different jobs
+workflows:
+  version: 2
+
+  # Workflow to run on every commit for new PRs. Does not run when commit
+  # is merged into the master branch.
+  workflow_on_commit:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: master
+
+  # Workflow to run weekly, only on the master branch
+  workflow_weekly:
+    triggers:
+      - schedule:
+          cron: "0 12 * * 6"
+          filters:
+            branches:
+              only: 
+                - master
+    jobs:
+      - validate_all_studies

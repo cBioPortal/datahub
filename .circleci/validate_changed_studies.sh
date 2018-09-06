@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # This script detects the studies that were changed and triggers the validation accordingly
 
 STUDIES_DIR="public/"
@@ -17,7 +18,7 @@ do
       dir_name=`dirname $file_changing`
       # match case_list*, caselist* as a case list dir (actually only case_lists is valid, 
       # but this is up to validation script to flag):
-      if [[ $dir_name != *"/case_list"* ]] && [[ $dir_name != *"/caselist"* ]]; then
+      if [[ $dir_name != *"/case_list"* ]] && [[ $dir_name != *"/caselist"* ]] && [[ $dir_name != *"/archived_files"* ]]; then
         echo "study dir > [$dir_name]"
       else
         # get parent dir:
