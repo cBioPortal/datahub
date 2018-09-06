@@ -3,6 +3,11 @@ The datahub is a repository for store data only. It contains staging files which
 
 Behind the scenes git-lfs is used to manage the large files. https://github.com/github/git-lfs
 
+## Test Status
+Validation of all studies on Datahub master branch. This test runs weekly using the validation code from the cBioPortal master branch.
+
+[![CircleCI](https://circleci.com/gh/cBioPortal/datahub/tree/master.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub/tree/master)
+
 ## How to Download Data
 ### Downloading zip files individual studies
 At [cbioportal.org](http://www.cbioportal.org/data_sets.jsp) a zipped folder with staging files from each study can be downloaded. These zip files are compressed versions of the study folders in the master branch of this repository.
@@ -47,12 +52,6 @@ git push origin [name_of_your_new_branch]
 #### Open a Pull Request on GitHub to the 'master' branch.
 For instructions on submitting a pull-request, please see:  [Using Pull Requests ](https://help.github.com/articles/using-pull-requests/) and [Sending Pull Requests](http://help.github.com/send-pull-requests/).
 
-## Automated tests on Circle CI
-All Pull Requests are automatically tested on [Circle CI](https://circleci.com/).
-
-Validation status of latest studies added to this repo: [![CircleCI](https://circleci.com/gh/cBioPortal/datahub.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub)
-
-
 ## Download a complete MySQL export of the latest database
 http://download.cbioportal.org/mysql-snapshots/mysql-snapshots-toc.html
 
@@ -61,3 +60,4 @@ http://download.cbioportal.org/mysql-snapshots/mysql-snapshots-toc.html
 The data are available under [the ODC Open Database License (ODbL)](http://opendatacommons.org/licenses/odbl/1.0/) (summary available [here](http://www.opendatacommons.org/licenses/odbl/1-0/summary/)): you are free to share and modify the data so long as you attribute any public use of the database, or works produced from the database; keep the resulting data-sets open; and offer your shared or adapted version of the data-set under the same ODbL license.
 
 TCGA data are availabe under Broad Institute GDAC TCGA Analysis Pipeline License. The Cancer Genome Atlas Consortium is pleased to provide the researchcommunity with preliminary data prior to publication.  Users are requested to carefully consider that these data are preliminary and have yet to be validated. Researchers are warned that the preliminary data have a significant uncertainty, are likely to change, and should be used with caution.
+
