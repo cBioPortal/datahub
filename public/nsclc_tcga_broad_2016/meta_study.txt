@@ -1,0 +1,7 @@
+type_of_cancer: nsclc
+cancer_study_identifier: nsclc_tcga_broad_2016
+name: Pan-Lung Cancer (TCGA, Nat Genet 2016)
+short_name: NSCLC (TCGA 2016)
+description: Somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas.
+pmid: 27158780
+citation: TCGA, Nat Genet 2016
