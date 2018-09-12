@@ -4,7 +4,7 @@ The datahub is a repository for store data only. It contains staging files which
 Behind the scenes git-lfs is used to manage the large files. https://github.com/github/git-lfs
 
 ## Test Status
-Validation of all studies on Datahub master branch. This test runs weekly using the validation code from the cBioPortal master branch.
+Validation status of all studies on Datahub master branch. This runs weekly using the validation code from the cBioPortal master branch. It also validates if the studies on cbioportal.org and on Datahub are in sync.
 
 [![CircleCI](https://circleci.com/gh/cBioPortal/datahub/tree/master.svg?style=svg)](https://circleci.com/gh/cBioPortal/datahub/tree/master)
 
