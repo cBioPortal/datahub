@@ -1,0 +1,6 @@
+type_of_cancer: hcc
+cancer_study_identifier: hcc_msk_venturaa_2018
+name: miRNAs in HCA/HCC (MSK, 2018)
+description: Sequencing of miRNAs from hepatocellular carcinomas, hepatocellular adenomas and paired.
+groups: COMPONC;VENTURAA
+short_name: HCC (CMO AV_hcchca [05226])
