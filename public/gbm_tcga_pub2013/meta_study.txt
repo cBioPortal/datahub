@@ -1,0 +1,7 @@
+type_of_cancer: gbm
+cancer_study_identifier: gbm_tcga_pub2013
+name: Glioblastoma (TCGA, Cell 2013)
+short_name: GBM (TCGA 2013)
+description: A comprehensive catalogue of molecular alterations in Glioblastoma. The Cancer Genome Atlas (TCGA) Glioblastoma Project. <br> <a href="https://tcga-data.nci.nih.gov/docs/publications/gbm_2013/">Raw data via the TCGA Data Portal</a>.
+pmid: 24120142
+citation: TCGA, Cell 2013
