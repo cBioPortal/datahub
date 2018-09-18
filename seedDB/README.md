@@ -16,7 +16,7 @@ When using a release version **> 1.14.0**, a migration step to a new database sc
 
 **Schema 2.6.0**: [SQL file with create table statements](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.13.1/db-scripts/src/main/resources/cgds.sql)<br>
 **Seed database**: [seed-cbioportal_hg19_v2.6.0.sql.gz](https://github.com/cBioPortal/datahub/raw/master/seedDB/seed-cbioportal_hg19_v2.6.0.sql.gz)<br>
-md5sum ae7b20340476b0bfcde92ff8379d526c
+md5sum aafc9da7b72a29f3978ddca31004b8f5
 
 Contents of seed database:
 - Entrez Gene IDs, HGNC symbols and gene aliases updated in April 2018 from [NCBI](ftp://ftp.ncbi.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz)
