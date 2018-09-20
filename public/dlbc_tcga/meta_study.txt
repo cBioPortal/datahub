@@ -1,4 +1,4 @@
-type_of_cancer: dlbcl
+type_of_cancer: dlbclnos
 cancer_study_identifier: dlbc_tcga
 name: Lymphoid Neoplasm Diffuse Large B-cell Lymphoma (TCGA, Provisional)
 short_name: DLBC (TCGA)
