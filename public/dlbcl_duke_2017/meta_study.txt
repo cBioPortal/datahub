@@ -1,0 +1,8 @@
+type_of_cancer: dlbclnos
+cancer_study_identifier: dlbcl_duke_2017
+name: Diffuse Large B-Cell Lymphoma (Duke, Cell 2017)
+description: Genomic profiling of 1,001 DLBCL patients, mutations reported in only 150 driver genes.
+citation: Reddy et al. Cell 2017
+pmid: 28985567
+short_name: DLBCLNOS (Duke 2017)
+groups: PUBLIC
