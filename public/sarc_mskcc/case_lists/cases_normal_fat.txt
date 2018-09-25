@@ -1,6 +1,0 @@
-cancer_study_identifier: sarc_mskcc
-stable_id: sarc_mskcc_normal
-case_list_category: other
-case_list_name: Normal Fat Samples
-case_list_description: Sarcoma Normal Fat (adipose tissue, 9 samples)
-case_list_ids: NF115	NF117	NF119	NF180	NF225	NF84	NF90	NF92	NF95	
