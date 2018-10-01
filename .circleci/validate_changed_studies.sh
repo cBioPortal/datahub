@@ -41,8 +41,8 @@ if [[ $num_studies > 0 ]]; then
   list_csv=`echo ${list_of_study_dirs[@]} | tr ' ' ','`
   echo $list_csv
 
-  test_reports_location="$HOME/repo/test-reports"
-  validation_command="$HOME/repo/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $list_csv -p $HOME/repo/.circleci/portalinfo -html $test_reports_location"
+  test_reports_location="$HOME/test-reports"
+  validation_command="$HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $list_csv -p $HOME/repo/.circleci/portalinfo -html $test_reports_location"
   echo $'\nExecuting: '; echo $validation_command
   if sh -c "$validation_command" ; then
     echo "Tests passed successfully"

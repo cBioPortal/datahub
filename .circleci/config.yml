@@ -13,14 +13,14 @@ jobs:
     steps:
       - checkout
       - run:
-          name: validate changed studies
+          name: Validate changed studies
           command: |
             cd ~/repo/.circleci
             ./install_dependencies.sh
             ./validate_changed_studies.sh
       - store_artifacts:
-          path: test-reports
-          destination: test-reports
+          path: ~/test-reports
+          destination: ~/test-reports
 
   # Job to validate all studies
   validate_all_studies:
@@ -30,7 +30,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: validate all studies
+          name: Validate all studies
           command: |
             cd ~/repo/.circleci
             ./install_dependencies.sh
@@ -38,6 +38,28 @@ jobs:
       - store_artifacts:
           path: test-reports
           destination: test-reports
+
+  # Job to validate the seed database
+  validate_changed_seed:
+    # This is required to mount volumes when starting a new docker container, see:
+    # https://support.circleci.com/hc/en-us/articles/360007324514-How-can-I-mount-volumes-to-docker-containers-
+    machine: true
+    working_directory: ~/repo/
+    steps:
+      - checkout
+      - run:
+          name: Start docker container with python3
+          command: |
+            docker network create cbio-net
+            docker run -t -d --net=cbio-net --name python_circleci -v /var/run/docker.sock:/var/run/docker.sock -v /home/circleci/repo/:/home/circleci/repo/:rw -w /home/circleci/repo/.circleci circleci/python:3.6
+      - run:
+          name: Install dependencies
+          command: |
+            docker exec python_circleci bash install_dependencies.sh
+      - run:
+          name: Validate changed seed
+          command: |
+            docker exec python_circleci sudo python validate_changed_seed.py
 
 # Workflow containing the different jobs
 workflows:
@@ -48,6 +70,10 @@ workflows:
   workflow_on_commit:
     jobs:
       - build:
+          filters:
+            branches:
+              ignore: master
+      - validate_changed_seed:
           filters:
             branches:
               ignore: master
