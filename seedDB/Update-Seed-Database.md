@@ -13,6 +13,7 @@ This documentation file is addressed to developers. To update the seed database 
 
 :warning: Do not confuse the schema version with the cBioPortal version.
 
+Run `mysqldump` to generate the dump files. Make sure you use mysqldump version 5.7.
 ```shell
 mysqldump -u cbio -pP@ssword1 -P 8306 --host 127.0.0.1 --ignore-table cbioportal.pdb_uniprot_alignment --ignore-table cbioportal.pdb_uniprot_residue_mapping --ignore-table cbioportal.info --no-create-info --complete-insert cbioportal > seed-cbioportal_hg19_v2.1.0.sql
 ```
