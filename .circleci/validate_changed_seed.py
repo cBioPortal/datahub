@@ -55,7 +55,7 @@ def check_changed_seed():
             seed_files.add(changed_file)
 
     if len(seed_files) == 0:
-        print('Seed database files are not changed')
+        print('Seed database files are not changed. It is not necessary to the the seed database.')
         sys.exit(0)
     elif len(seed_files) > 1:
         eprint('Found multiple seed databases. Unable to test whether seed is updated correctly.')
@@ -197,7 +197,7 @@ def check_info_table(cursor):
     info_values = cursor.fetchall()[0]
     if not (len(info_values)) == 2:
         eprint('The "info" table contains other than 2 values: %s' % info_values)
-    if info_values[1] is None or info_values[1] == '':
+    elif info_values[1] is None or info_values[1] == '':
         eprint('Missing gene set version in seed database. This is a manual addition to the automated database dump.\n'
                'See step 6 at https://github.com/cBioPortal/datahub/blob/master/seedDB/Update-Seed-Database.md')
     else:
@@ -231,6 +231,9 @@ def main():
 
     # Check the info table for empty values
     check_info_table(cursor)
+
+    print('\n')
+    print('Tests completed. The updated seed database seems valid.')
 
 
 if __name__ == '__main__':

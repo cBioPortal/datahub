@@ -73,7 +73,7 @@ jobs:
       - run:
           name: Validate changed seed
           command: |
-            docker exec python_circleci sudo python validate_changed_seed.py
+            docker exec -t python_circleci sudo python validate_changed_seed.py
 
 # Workflow containing the different jobs
 workflows:
