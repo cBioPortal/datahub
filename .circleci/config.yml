@@ -39,6 +39,20 @@ jobs:
           path: test-reports
           destination: test-reports
 
+  # Job to validate cbioportal.org with cBioPortal Datahub
+  validate_datahub_with_cbioportal:
+    docker:
+      - image: circleci/python:3.4
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: validate cbioportal with datahub
+          command: |
+            cd ~/repo/.circleci
+            sudo pip install "requests==2.10.0"
+            ./validate_datahub_with_cbioportal.py
+
 # Workflow containing the different jobs
 workflows:
   version: 2
@@ -63,3 +77,4 @@ workflows:
                 - master
     jobs:
       - validate_all_studies
+      - validate_datahub_with_cbioportal
