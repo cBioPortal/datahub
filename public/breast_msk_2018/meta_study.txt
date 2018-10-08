@@ -1,0 +1,5 @@
+type_of_cancer: breast
+cancer_study_identifier: breast_msk_2018
+name: Breast Cancer (MSK, Cancer Cell 2018)
+short_name: Breast Cancer (MSK, Cancer Cell 2018)
+description: The genomic landscape of endocrine resistant advanced breast cancers.
