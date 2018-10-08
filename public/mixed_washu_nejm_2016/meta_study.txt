@@ -1,5 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: mixed_washu_nejm_2016
-name: AML and MDS decitabine Response (WashU, 2016)  
-short_name: AML/MDS decitabine (WashU, 2016)
-description: Genomic profiling of 116 acute myeloid leukemia (AML) and myelodysplastic syndromes (MDS) patients receiving decitabine therapy. 
