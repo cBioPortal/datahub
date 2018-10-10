@@ -1,0 +1,7 @@
+type_of_cancer: soft_tissue
+cancer_study_identifier: sarc_mskcc
+name: Sarcoma (MSKCC/Broad, Nat Genet 2010)
+short_name: Sarcoma (MSKCC)
+description: Integrative genomic analysis of 207 samples encompassing 7 major sarcoma subtypes. The Sarcoma Genome Project, MSKCC and The Broad Institute.
+citation: Barretina et al. Nat Genet 2010
+pmid: 20601955
