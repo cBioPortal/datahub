@@ -3,4 +3,4 @@ cancer_study_identifier: mnm_washu_2016
 name: AML and MDS decitabine Response (WashU, 2016)  
 short_name: AML/MDS decitabine (WashU, 2016)
 description: Genomic profiling of 116 acute myeloid leukemia (AML) and myelodysplastic syndromes (MDS) patients receiving decitabine therapy. 
-PMID: 27959731
+pmid: 27959731
