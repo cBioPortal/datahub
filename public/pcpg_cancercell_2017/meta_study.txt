@@ -1,0 +1,6 @@
+type_of_cancer: soft_tissue
+cancer_study_identifier: pcpg_cancercell_2017
+name: Pheochromocytoma and Paraganglioma (Cell, 2017)
+short_name: PCPG (Cell 2017)
+description: Comprehensive molecular characterization of a cohort of PCCs/PGLs from 173 patients through TCGA.
+groups: PUBLIC
