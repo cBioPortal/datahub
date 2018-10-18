@@ -1,0 +1,6 @@
+cancer_study_identifier: sarc_mskcc
+stable_id: sarc_mskcc_sequenced
+case_list_name: Sequenced Tumors
+case_list_description: All (Next-Gen) sequenced samples (35 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: PT101MF	PT38DD	PT100MF	PT203SYN	PT57GT	PT182PL	PT106MF	PT158MRC	PT10DD	PT143MRC	PT179PL	PT59GT	PT104MF	PT138MRC	PT164PL	PT7DD	PT195SYN	PT63GT	PT58GT	PT102MF	PT130MF	PT190SYN	PT127MF	PT167PL	PT169PL	PT134MF	PT18DD	PT149MRC	PT60GT	PT206SYN	PT173PL	PT163PL	PT61GT	PT176PL	PT137MF
