@@ -1,7 +1,7 @@
 type_of_cancer: ucec
 cancer_study_identifier: ucec_msk_2018
 name: Endometrial Cancer (MSK, 2018)
-add_global_case_list: true
-short_name: CRC(MSK 2018)
-description: Clinical Utility Of Prospective Molecular Characterization In Advanced Endometrial Cancer
+short_name: UCEC (MSK 2018)
+description: MSK-IMPACT sequencing of 197 advanced-staged endometrial cancer tumor samples, from 189 patients treated at Memorial Sloan Kettering Cancer Center, with integrated prospective clinical sequencing and IHC data with detailed clinical and treatment histories. 
 pmid: 30068706
+citation: Tara et al. Clin Cancer Res. 2018
