@@ -1,8 +1,8 @@
 type_of_cancer: mixed
 cancer_study_identifier: mixed_pipseq_2017
-name: Pediatric Mixed Tumors (PIP-Seq 2017)
+name: Pediatric Pan-cancer (Columbia U, Genome Med 2016)
 description: Whole exome sequencing of 101 high-risk pediatric cancer patients
-citation: Oberg JA et al. Genome Medicine 2016
+citation: Oberg et al. Genome Med 2016
 pmid: 28007021
 short_name: pediatric-cancers
-groups: cumc-pipseq
+groups: public
