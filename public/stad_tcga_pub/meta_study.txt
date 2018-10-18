@@ -6,4 +6,3 @@ description: Comprehensive molecular evaluation of 295 primary gastric adenocarc
 citation: TCGA, Nature 2014
 pmid: 25079317
 groups: PUBLIC
-add_global_case_list: true
