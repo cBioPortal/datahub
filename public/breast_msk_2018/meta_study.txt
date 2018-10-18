@@ -2,4 +2,4 @@ type_of_cancer: breast
 cancer_study_identifier: breast_msk_2018
 name: Breast Cancer (MSK, Cancer Cell 2018)
 short_name: Breast Cancer (MSK, Cancer Cell 2018)
-description: The genomic landscape of endocrine resistant advanced breast cancers.
+description: Targeted Sequencing of 1918 tumor and patient-matched normals.pmid: 30205045citation: Razavi et al. Cancer Cell 2018
