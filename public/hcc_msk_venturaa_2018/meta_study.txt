@@ -5,5 +5,4 @@ description: Targeted sequencing of tumor/normal pairs of 9 LIAD and 10 HCC pati
 citation: Zheng et al. PLOS One 2018
 pmid: 30052636
 short_name: HCC (MSK, PLOS One)
-groups: COMPONC;VENTURAA
-
+groups: PUBLIC
