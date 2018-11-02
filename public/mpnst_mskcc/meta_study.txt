@@ -6,4 +6,3 @@ citation: Lee et al. Nat Genet 2014
 pmid: 25240281
 short_name: MPNST (MSKCC)
 groups: PUBLIC
-add_global_case_list: true
