@@ -6,4 +6,3 @@ citation: Barretina et al. Nature 2012
 pmid: 22460905
 short_name: CCLE (Novartis/Broad 2012)
 groups: PUBLIC
-add_global_case_list: true
