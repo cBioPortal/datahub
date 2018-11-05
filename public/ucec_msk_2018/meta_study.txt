@@ -4,5 +4,5 @@ name: Endometrial Cancer (MSK, 2018)
 short_name: UCEC (MSK 2018)
 description: MSK-IMPACT sequencing of 197 advanced-staged endometrial cancer tumor samples and matched normals, from 189 patients treated at Memorial Sloan Kettering Cancer Center, with integrated prospective clinical sequencing and IHC data with detailed clinical and treatment histories. 
 pmid: 30068706
-citation: Soumerai TE et al. Clin Cancer Res. 2018
+citation: Soumerai et al. Clin Cancer Res. 2018
 groups: PUBLIC
