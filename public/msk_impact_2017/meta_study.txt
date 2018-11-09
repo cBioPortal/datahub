@@ -4,6 +4,5 @@ name: MSK-IMPACT Clinical Sequencing Cohort (MSKCC, Nat Med 2017)
 short_name: MSK-IMPACT
 description: Targeted sequencing of 10,000 clinical cases using the MSK-IMPACT assay
 groups:PUBLIC
-add_global_case_list: true
 pmid: 28481359
 citation: Zehir et al. Nat Med 2017
