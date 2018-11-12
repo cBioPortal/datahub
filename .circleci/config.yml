@@ -62,18 +62,10 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Start docker container with python3
+          name: Check for changed seed database and run validation if necessary
           command: |
-            docker network create cbio-net
-            docker run -t -d --net=cbio-net --name python_circleci -v /var/run/docker.sock:/var/run/docker.sock -v /home/circleci/repo/:/home/circleci/repo/:rw -w /home/circleci/repo/.circleci circleci/python:3.6
-      - run:
-          name: Install dependencies
-          command: |
-            docker exec python_circleci bash install_dependencies.sh
-      - run:
-          name: Validate changed seed
-          command: |
-            docker exec -t python_circleci sudo python validate_changed_seed.py
+            cd ~/repo/.circleci
+            ./check_changed_seed.sh
 
 # Workflow containing the different jobs
 workflows:
