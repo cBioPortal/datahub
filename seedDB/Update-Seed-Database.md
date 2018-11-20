@@ -13,8 +13,18 @@ This documentation file is addressed to developers. To update the seed database 
 
 :warning: Do not confuse the schema version with the cBioPortal version.
 
+Make sure you use mysqldump version 5.7. When using macOS with homebrew, you can install this by running:
 ```shell
-mysqldump -u cbio -pP@ssword1 -P 8306 --host 127.0.0.1 --ignore-table cbioportal.pdb_uniprot_alignment --ignore-table cbioportal.pdb_uniprot_residue_mapping --ignore-table cbioportal.info --no-create-info --complete-insert cbioportal > seed-cbioportal_hg19_v2.1.0.sql
+brew install mysql@5.7
+
+# Move to 5.7 folder to run this specific mysqldump version
+cd '/usr/local/Cellar/mysql@5.7/5.7.23/bin'
+./mysqldump --version
+```
+
+Run `mysqldump` to generate the dump files:
+```shell
+./mysqldump -u cbio -pP@ssword1 -P 8306 --host 127.0.0.1 --ignore-table cbioportal.pdb_uniprot_alignment --ignore-table cbioportal.pdb_uniprot_residue_mapping --ignore-table cbioportal.info --no-create-info --complete-insert cbioportal > seed-cbioportal_hg19_v2.1.0.sql
 ```
 :warning: The database schema is not included in these dump files.
 
