@@ -1,4 +1,4 @@
-type_of_cancer: brca
+type_of_cancer: brca_test
 cancer_study_identifier: brca_tcga
 name: Breast Invasive Carcinoma (TCGA, Provisional)
 short_name: Breast (TCGA)
