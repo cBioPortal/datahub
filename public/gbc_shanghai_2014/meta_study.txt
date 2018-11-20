@@ -6,4 +6,3 @@ citation: Maolan Li et al. Nat Genet 2014
 pmid: 24997986
 short_name: GBC (Shanghai)
 groups: PUBLIC
-add_global_case_list: true
