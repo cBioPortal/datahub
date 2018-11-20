@@ -6,4 +6,3 @@ description: Comprehensive genomic profiling of 477 Prostate Adenocarcinoma samp
 add_global_case_list: true
 pmid: 28068672
 citation: Fraser et al. Nature 2017
-add_global_case_list: true

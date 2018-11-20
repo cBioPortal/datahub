@@ -6,4 +6,3 @@ description: Mutation data from exome sequencing analysis of 160 cancers arising
 pmid: 26804919
 citation: Gingras et al. Cell Rep 2016
 groups: PUBLIC
-add_global_case_list: true

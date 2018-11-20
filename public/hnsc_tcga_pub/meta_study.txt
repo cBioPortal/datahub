@@ -6,4 +6,3 @@ description: TCGA comprehensive profile of 279 head and neck squamous cell carci
 citation: TCGA, Nature 2015
 pmid: 25631445
 groups: PUBLIC
-add_global_case_list: true
