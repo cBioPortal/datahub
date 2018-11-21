@@ -6,4 +6,3 @@ citation: Kim et al. Eur Urol 2015
 pmid: 25092538
 short_name: Bladder (MSKCC 2014)
 groups: PUBLIC
-add_global_case_list: true

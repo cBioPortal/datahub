@@ -6,4 +6,3 @@ description: Integrative genomic analysis of 373 endometrial carcinomas. TCGA Ut
 citation: TCGA, Nature 2013
 pmid: 23636398
 groups: PUBLIC
-add_global_case_list: true

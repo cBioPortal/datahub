@@ -6,4 +6,3 @@ citation: Molenaar et al. Nature 2012
 pmid: 22367537
 short_name: NBL (AMC)
 groups: PUBLIC
-add_global_case_list: true

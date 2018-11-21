@@ -6,4 +6,3 @@ citation: Hieronymus et al. PNAS 2014
 pmid: 25024180
 short_name: Prostate (MSKCC 2014)
 groups: PUBLIC
-add_global_case_list: true
