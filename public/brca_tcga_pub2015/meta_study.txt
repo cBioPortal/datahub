@@ -6,4 +6,3 @@ description: Comprehensive profiling of 817 tumor samples from The Cancer Genome
 citation: TCGA, Cell 2015
 pmid: 26451490
 groups: PUBLIC
-add_global_case_list: true

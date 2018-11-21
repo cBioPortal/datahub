@@ -6,4 +6,3 @@ citation: Peifer et al. Nat Genet 2012
 pmid: 22941188
 short_name: Small Cell Lung (CLCGP)
 groups: PUBLIC;SCLCPORTAL
-add_global_case_list: true

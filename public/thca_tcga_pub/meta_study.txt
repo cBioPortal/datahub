@@ -5,5 +5,4 @@ short_name: Thyroid (TCGA pub)
 description: Exome and whole genome sequencing of 496 papillary thyroid carcinoma tumor/normal pairs
 citation: TCGA, Cell 2014
 pmid: 25417114
-add_global_case_list: true
 groups: PUBLIC

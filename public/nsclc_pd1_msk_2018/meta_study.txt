@@ -6,4 +6,3 @@ description: NGS sequencing of 240 NSCLC cases treated at MSKCC with anti-PD-(L)
 citation: Rizvi et al. J Clin Oncol 2018
 pmid: 29337640
 groups: PUBLIC
-add_global_case_list: true

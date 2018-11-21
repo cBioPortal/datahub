@@ -6,4 +6,3 @@ citation: Iyer et al. J Clin Oncol 2013
 pmid: 23897969
 short_name: Bladder (MSKCC 2012)
 groups: PUBLIC
-add_global_case_list: true

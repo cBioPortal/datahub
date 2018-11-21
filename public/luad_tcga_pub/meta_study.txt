@@ -6,4 +6,3 @@ description: Comprehensive molecular profiling of 230 lung adenocarcinomas;  <a 
 citation: TCGA, Nature 2014
 pmid: 25079552
 groups: PUBLIC
-add_global_case_list: true

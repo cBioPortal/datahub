@@ -6,4 +6,3 @@ description: Integrated profiling of 333 primary prostate adenocarcinoma samples
 citation: TCGA, Cell 2015
 pmid: 26544944
 groups: PUBLIC
-add_global_case_list: true
