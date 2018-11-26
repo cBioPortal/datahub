@@ -4,3 +4,4 @@ name: Prostate Adenocarcinoma (MSKCC/DFCI, Nature Genetics 2018)
 short_name: PRAD (MSKCC/DFCI 2018)
 description: Whole Exome Sequencing of 1013 prostate cancer samples.
 pmid: 29610475
+citation: Armenia et al. Nat Genet 2018
