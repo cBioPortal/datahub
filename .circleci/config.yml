@@ -83,6 +83,7 @@ workflows:
           filters:
             branches:
               ignore: master
+      - validate_all_studies
 
   # Workflow to run weekly, only on the master branch
   workflow_weekly:
