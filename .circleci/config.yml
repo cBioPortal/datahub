@@ -36,8 +36,8 @@ jobs:
             ./install_dependencies.sh
             ./validate_all_studies.sh
       - store_artifacts:
-          path: test-reports
-          destination: test-reports
+          path: ~/test-reports
+          destination: ~/test-reports
 
   # Job to validate cbioportal.org with cBioPortal Datahub
   validate_datahub_with_cbioportal:
