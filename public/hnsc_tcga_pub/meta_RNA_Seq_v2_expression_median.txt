@@ -3,6 +3,6 @@ genetic_alteration_type: MRNA_EXPRESSION
 datatype: CONTINUOUS
 stable_id: rna_seq_v2_mrna
 show_profile_in_analysis_tab: false
-profile_description: Expression levels for 20532 genes in 303 hnsc cases (RNA Seq V2 RSEM).
+profile_description: mRNA gene expression (RNA Seq V2 RSEM)
 profile_name: mRNA expression (RNA Seq V2 RSEM)
 data_filename: data_RNA_Seq_v2_expression_median.txt
