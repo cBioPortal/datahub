@@ -5,15 +5,34 @@ These files are MySQL database dump files for seeding a new instance of the cBio
 The database schema and cBioPortal release follows different numbering cycles since cBioPortal 1.5.0 and database schema 2.1.0. This means that the version numbers won't be identical. cBioPortal 1.9.0 with database schema 2.4.0 removed PDB annotations from the database.
 
 ## Latest seed database
+#### Seed database schema 2.7.3
+
+This schema is required for cBioPortal release versions:
+- **1.19.0**
+
+When using a release version **> 1.19.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
+
+**Schema 2.7.3**: [SQL file with create table statements](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.19.0/db-scripts/src/main/resources/cgds.sql)<br>
+**Seed database**: [seed-cbioportal_hg19_v2.7.3.sql.gz](https://github.com/cBioPortal/datahub/raw/master/seedDB/seed-cbioportal_hg19_v2.7.3.sql.gz)<br>
+md5sum 85444ce645104dbc00610fc1f15e8c7a
+
+Contents of seed database:
+- Entrez Gene IDs, HGNC symbols and gene aliases updated in December 2018 from [NCBI](ftp://ftp.ncbi.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz)
+- Gene lengths retrieved from [Gencode Release 29 (mapped to GRCh37)](https://www.gencodegenes.org/releases/29lift37.html)
+- Pfam graphics fetched in August 2017
+- Gene Sets from MSigDB 6.1
+- Cancer Types from OncoTree (fetched December 2018 from http://oncotree.mskcc.org)
+
+## Previous seed databases
 #### Seed database schema 2.7.2
 
 This schema is required for cBioPortal release versions:
-- **1.18.0**
+- 1.18.0
 
-When using a release version **> 1.18.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
+When using a release version > 1.18.0, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
 
-**Schema 2.7.2**: [SQL file with create table statements](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.18.0/db-scripts/src/main/resources/cgds.sql)<br>
-**Seed database**: [seed-cbioportal_hg19_v2.7.2.sql.gz](https://github.com/cBioPortal/datahub/raw/master/seedDB/seed-cbioportal_hg19_v2.7.2.sql.gz)<br>
+Schema 2.7.2: [SQL file with create table statements](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.18.0/db-scripts/src/main/resources/cgds.sql)<br>
+Seed database: [seed-cbioportal_hg19_v2.7.2.sql.gz](https://github.com/cBioPortal/datahub/raw/9d7b90c53c189b6d2c083d156cea2932cd318c0a/seedDB/seed-cbioportal_hg19_v2.7.2.sql.gz)<br>
 md5sum b0a4e11b94d00a7291129c30ee4e0f70
 
 Contents of seed database:
@@ -23,7 +42,6 @@ Contents of seed database:
 - Gene Sets from MSigDB 6.1
 - Cancer Types from OncoTree (fetched July 2018 from http://oncotree.mskcc.org)
 
-## Previous seed databases
 #### Seed database schema 2.6.0
 
 This schema is required for cBioPortal release versions:
