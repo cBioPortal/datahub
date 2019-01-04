@@ -4,4 +4,5 @@ name: Upper Tract Urothelial Cancer (MSK, Eur Urol 2013)
 short_name: Upper tract (MSKCC)
 description: Genomic Characterization using next-generation sequencing of Upper Tract Urothelial Carcinoma.
 pmid: 26278805
+citation: Sfakianos et al. Eur Urol 2015
 groups: PUBLIC
