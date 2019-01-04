@@ -1,6 +1,6 @@
 type_of_cancer: luad
 cancer_study_identifier: lung_msk_2017
-name: MSK-IMPACT Clinical Sequencing Cohort for Non-Small Cell Cancer (MSKCC, Cancer Discov 2017)
+name: Non-Small Cell Cancer (MSKCC, Cancer Discov 2017)
 short_name: LUAD (MSK,2017)
 description: Prospective molecular characterization of 860 patients with metastatic lung adenocarcinoma
 citation: Jordan et al. Cancer Discov 2017
