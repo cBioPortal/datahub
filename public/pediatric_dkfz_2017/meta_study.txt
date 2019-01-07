@@ -5,3 +5,4 @@ description:Comprehensive genomic profiling of 961 Pediatric Cancer samples. Dat
 groups: PUBLIC
 short_name:Pediatric Pan-Cancer (DKFZ-2017)
 pmid: 29489754
+citation: Grobner et al. Nature 2018
