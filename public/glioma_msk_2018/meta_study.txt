@@ -1,0 +1,5 @@
+type_of_cancer: difg
+cancer_study_identifier: glioma_msk_2018
+name: Glioma (MSK, 2018)
+short_name: DIFG(MSK 2018)
+description: Targeted Sequencing of cfDNA Glioma samples.
