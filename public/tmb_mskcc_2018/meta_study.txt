@@ -1,0 +1,5 @@
+type_of_cancer: mixed
+cancer_study_identifier: tmb_mskcc_2018
+name: TMB (MSKCC 2018)
+short_name: TMB (MSKCC 2018)
+description: Genomic and survival data from 1661 tumor-normal pairs from 1661 patients with various cancer types sequenced with the MSK-IMPACT assay.
