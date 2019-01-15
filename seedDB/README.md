@@ -8,11 +8,11 @@ The database schema and cBioPortal release follows different numbering cycles si
 #### Seed database schema 2.7.3
 
 This schema is required for cBioPortal release versions:
-- **1.19.0**
+- **2.0.0**
 
-When using a release version **> 1.19.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
+When using a release version **> 2.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
 
-**Schema 2.7.3**: [SQL file with create table statements](https://raw.githubusercontent.com/cBioPortal/cbioportal/v1.19.0/db-scripts/src/main/resources/cgds.sql)<br>
+**Schema 2.7.3**: [SQL file with create table statements](https://raw.githubusercontent.com/cBioPortal/cbioportal/v2.0.0/db-scripts/src/main/resources/cgds.sql)<br>
 **Seed database**: [seed-cbioportal_hg19_v2.7.3.sql.gz](https://github.com/cBioPortal/datahub/raw/master/seedDB/seed-cbioportal_hg19_v2.7.3.sql.gz)<br>
 md5sum 85444ce645104dbc00610fc1f15e8c7a
 
