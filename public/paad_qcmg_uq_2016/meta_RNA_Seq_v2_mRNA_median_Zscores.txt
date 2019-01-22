@@ -5,4 +5,4 @@ stable_id: rna_seq_v2_mrna_median_Zscores
 show_profile_in_analysis_tab: true
 profile_name: mRNA expression 
 profile_description: Expression levels 
-data_filename: data_RNA_Seq_v2_mRNA_median_Zscores.txt
+data_filename: data_RNA_Seq_mRNA_median_Zscores.txt
