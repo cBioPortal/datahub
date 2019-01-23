@@ -1,6 +1,6 @@
 type_of_cancer: difg
 cancer_study_identifier: glioma_msk_2018
-name: Glioma (MSK, 2019)
-short_name: DIFG(MSK 2019)
-description: Targeted Sequencing of 91 cfDNA samples (86 samples with matched normals) from 42 glioma patients.
+name: Glioma (MSK, 2018)
+short_name: DIFG(MSK 2018)
+description: Targeted Sequencing of CSF samples (91 samples with 86 matched normals) from 42 glioma patients.
 groups: PUBLIC
