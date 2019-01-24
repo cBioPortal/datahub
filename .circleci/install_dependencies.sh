@@ -17,7 +17,7 @@ git lfs install --skip-smudge
 
 # Clone datahub master branch
 cd ~/
-git clone --depth 1 -b rc https://github.com/cbioportal/cbioportal.git
+git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
 
 # Make test reports location
 cd ~/
