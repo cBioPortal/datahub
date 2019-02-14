@@ -202,8 +202,8 @@ def check_info_table(cursor):
                'See step 6 at https://github.com/cBioPortal/datahub/blob/master/seedDB/Update-Seed-Database.md')
     else:
         print('The "info" table is correctly filled.\n'
-              'DB_SCHEMA_VERSION: %s\n'
-              'GENESET_VERSION: %s' % (info_values[0], info_values[1]))
+              'GENESET_VERSION in info table: %s\n'
+              'These tests ran with cgds.sql from cBioPortal master branch, schema: %s' % (info_values[1], info_values[0]))
 
 
 def main():
