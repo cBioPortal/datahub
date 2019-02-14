@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3.6
 
 # Copyright (c) 2018 The Hyve B.V.
 # This code is licensed under the GNU Affero General Public License (AGPL),
