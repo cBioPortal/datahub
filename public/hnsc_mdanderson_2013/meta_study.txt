@@ -2,6 +2,6 @@ type_of_cancer: hnsc
 cancer_study_identifier: hnsc_mdanderson_2013
 name: Oral Squamous Cell Carcinoma (MD Anderson, Cancer Discov 2013)
 short_name: Head & neck (MDA)
-description: Comprehensive profiling of 40 oral squamous cell carcinoma samples from MD Anderson.
+description: Comprehensive profiling of 40 oral squamous cell carcinoma tumor/normal sample pairs.
 pmid: 23619168
 citation: Pickering et al. Cancer Discov 2013
