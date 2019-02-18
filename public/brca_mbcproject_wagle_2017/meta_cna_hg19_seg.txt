@@ -3,4 +3,4 @@ genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: SEG
 reference_genome_id: hg19
 description: Somatic CNA data
-data_filename: brca_mbcproject_wagle_2017_data_cna_hg19.seg
+data_filename: data_cna_hg19.seg
