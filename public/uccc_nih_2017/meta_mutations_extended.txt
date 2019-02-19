@@ -4,5 +4,5 @@ datatype: MAF
 stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_name: Mutations
-profile_description: Somatic mutation data from whole exome sequencing of 16 clear cell endometrial cancer samples.
+profile_description: Somatic mutation data from whole exome sequencing of 16 clear cell endometrial cancer samples with matched normals.
 data_filename: data_mutations_extended.txt
