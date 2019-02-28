@@ -6,4 +6,3 @@ citation: Raja et al, Cancer 2018
 pmid: 30427539
 short_name: GBC (MSK CANCER 2018)
 groups: PUBLIC
-add_global_case_list: true
