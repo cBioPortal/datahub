@@ -3,4 +3,4 @@ genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: SEG
 reference_genome_id: hg19
 description: Segment data for the nepc study obtained from CNVseeqer pipeline and adjusted by ploidy and purity with CLONET
-data_filename: nepc_wcm_2016_data_cna_hg19.seg
+data_filename: data_cna_hg19.seg
