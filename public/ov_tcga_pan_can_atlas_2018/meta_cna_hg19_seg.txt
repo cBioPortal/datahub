@@ -6,4 +6,4 @@ show_profile_in_analysis_tab: false
 description: Segment data for the TCGA PanCanAtlas study.
 profile_name: Segment data values
 reference_genome_id: hg19
-data_filename: ov_tcga_pan_can_atlas_2018_data_cna_hg19.seg
+data_filename: data_cna_hg19.seg
