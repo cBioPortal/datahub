@@ -4,5 +4,5 @@ datatype: MAF
 stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_name: Mutations
-profile_description: Mutation data for the Breast Xenograft Evolution study.
+profile_description: Mutation data from whole genome/targeted sequencing of the breast xenograft evolution study.
 data_filename: data_mutations_extended.txt

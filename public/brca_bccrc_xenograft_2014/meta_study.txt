@@ -1,7 +1,7 @@
 type_of_cancer: brca
 cancer_study_identifier: brca_bccrc_xenograft_2014
-name: Breast cancer patient xenografts (British Columbia, Nature 2015)
-description: Dynamics of genomic clones in breast cancer patient xenografts.
+name: Breast Cancer Xenografts (British Columbia, Nature 2015)
+description: Whole genome/targeted sequencing to evaluate the clonal dynamics in breast cancer patient xenografts.
 citation: Eirew et al. Nature 2015
 pmid: 25470049
 short_name: Breast (BCCRC Xenograft)
