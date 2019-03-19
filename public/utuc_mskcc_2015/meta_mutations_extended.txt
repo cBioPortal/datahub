@@ -1,4 +1,4 @@
-cancer_study_identifier: utuc_mskcc_2013
+cancer_study_identifier: utuc_mskcc_2015
 stable_id: mutations
 profile_name: Mutations
 profile_description: Mutation status of 85 UTUC tumor samples (with paired normals) from targeted sequencing (IMPACT assay).
