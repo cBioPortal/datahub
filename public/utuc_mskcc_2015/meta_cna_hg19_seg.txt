@@ -1,4 +1,4 @@
-cancer_study_identifier: utuc_mskcc_2013
+cancer_study_identifier: utuc_mskcc_2015
 reference_genome_id: hg19
 description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals).
 data_filename: data_cna_hg19.seg
