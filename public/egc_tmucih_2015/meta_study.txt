@@ -1,7 +1,7 @@
 type_of_cancer: egc
 cancer_study_identifier: egc_tmucih_2015
 name: Gastric Adenocarcinoma (TMUCIH, PNAS 2015)
-description: Whole-exome sequencing on 78 Gastric Adenocarcinoma of differing histologies and anatomic locations
+description: Whole-exome sequencing of 78 Gastric Adenocarcinomas and their matched normal samples.
 citation: Chen et al. PNAS 2015
 pmid: 25583476
 short_name: Stomach (TMUCIH 2015)
