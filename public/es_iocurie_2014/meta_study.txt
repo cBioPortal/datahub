@@ -1,7 +1,7 @@
 type_of_cancer: es
 cancer_study_identifier: es_iocurie_2014
 name: Ewing Sarcoma (Institut Curie, Cancer Discov 2014)
-description: Mutation data from whole-genome sequencing of 112 Ewing sarcoma samples and matched germ line DNA. <a href="http://cancerdiscovery.aacrjournals.org/content/4/11/1342/suppl/DC1">
+description: Whole-genome sequencing of 112 Ewing sarcoma samples and matched germ line DNA.
 citation: Tirode et al. Cancer Discov 2014
 pmid: 25223734
 short_name: Ewing Sarcoma (Institut Curie)
