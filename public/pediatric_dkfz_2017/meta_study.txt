@@ -1,6 +1,6 @@
 type_of_cancer: mixed
 cancer_study_identifier: pediatric_dkfz_2017
-name:Pediatric Pan-Cancer (DKFZ - German Cancer Consortium,  2017)
+name:Pediatric Pan-Cancer (DKFZ, Nature 2017)
 description:Comprehensive genomic profiling of 961 Pediatric Cancer samples. Data generated from Pfister Lab & DKFZ/German Cancer Consortium.
 groups: PUBLIC
 short_name:Pediatric Pan-Cancer (DKFZ-2017)
