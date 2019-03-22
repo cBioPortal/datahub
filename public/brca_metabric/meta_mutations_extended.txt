@@ -3,6 +3,6 @@ genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
 stable_id: mutations
 show_profile_in_analysis_tab: true
-profile_description: Mutation data from targeted sequencing of 173 genes.
+profile_description: Somatic mutation data from targeted sequencing of 173 genes of 2509 primary breast tumors with 548 matched normals.
 profile_name: Mutations
 data_filename: data_mutations_extended.txt

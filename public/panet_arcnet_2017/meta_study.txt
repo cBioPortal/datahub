@@ -1,7 +1,7 @@
 type_of_cancer: panet
 cancer_study_identifier: panet_arcnet_2017
 name: Pancreatic Neuroendocrine Tumors (Multi-Institute, Nature 2017)
-description: Whole-genome sequencing of primary PanNETs and the defined genomic events that characterize their pathogenesis
+description: Whole-genome sequencing of 98 pancreatic neuroendocrine tumours (PanNETs) and matched normal DNA pairs.
 groups: PUBLIC
 short_name: ACRNET (Nature, 2017)
 pmid: 28199314

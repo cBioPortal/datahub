@@ -1,7 +1,7 @@
 type_of_cancer: brca
 cancer_study_identifier: brca_metabric
 name: Breast Cancer (METABRIC, Nature 2012 & Nat Commun 2016)
-short_name: Breast (METABRIC)
-description: The genomic profiles (somatic mutations [targeted sequencing], copy number alterations, and gene expression) of 2509 breast cancers.
+short_name: Breast (METABRIC 2016)
+description: Targeted sequencing, copy number aberration (CNA), gene expression and long-term clinical follow-up data of 2509 primary breast tumors with 548 matched normals.
 citation: Pereira et al. Nat Commun 2016
 pmid: 27161491
