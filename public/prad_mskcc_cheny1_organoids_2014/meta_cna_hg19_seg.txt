@@ -3,4 +3,4 @@ reference_genome_id: hg19
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: SEG
 description: Whole exome sequencing of prostate organic cultures.
-data_filename: prad_mskcc_cheny1_organoids_2014_data_cna_hg19.seg
+data_filename: data_cna_hg19.seg
