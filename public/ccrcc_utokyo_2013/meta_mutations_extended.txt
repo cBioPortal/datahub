@@ -3,6 +3,6 @@ genetic_alteration_type: MUTATION_EXTENDED
 stable_id: mutations
 datatype: MAF
 show_profile_in_analysis_tab: true
-profile_description: Mutation data from whole genome and(or) whole exome sequencing of 240 clear-cell renal cell carcinoma samples.
+profile_description: Mutation data from whole exome and(or) whole genome sequencing of 106 clear-cell renal cell carcinoma tumor-normal pairs.
 profile_name: Mutations
 data_filename: data_mutations_extended.txt

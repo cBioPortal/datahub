@@ -4,5 +4,5 @@ datatype: MAF
 data_filename: data_mutations_extended.txt
 stable_id: mutations
 show_profile_in_analysis_tab: true
-profile_description: Mutations.
+profile_description: Mutations from whole exome sequencing of 249 tumor/normal pairs across multiple cancer types including melanoma, non-small cell lung cancer, head and neck cancer, and bladder cancer.
 profile_name: Mutations

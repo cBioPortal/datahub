@@ -3,6 +3,6 @@ genetic_alteration_type: MUTATION_EXTENDED
 stable_id: mutations
 datatype: MAF
 show_profile_in_analysis_tab: true
-profile_description: Mutation data from WGS and/or WXS of 43 rhabdomyosarcoma samples.
+profile_description: Mutation data from WGS or WXS of 43 rhabdomyosarcoma tumor/normal pairs.
 profile_name: Mutations
 data_filename: data_mutations_extended.txt
