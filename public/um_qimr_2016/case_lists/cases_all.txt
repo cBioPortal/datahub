@@ -1,6 +1,6 @@
 cancer_study_identifier: um_qimr_2016
 stable_id: um_qimr_2016_all
-case_list_name: All Tumors
-case_list_description: All tumor samples (28 samples)
+case_list_name: All samples
+case_list_description: All samples (28 samples)
 case_list_category: all_cases_in_study
 case_list_ids: C0622943-T	141378RG-T	ETB-0002-T	J2217960PR-T	K0111890AC-T	um_qimr_553	um_qimr_535	um_qimr_556	um_qimr_552	um_qimr_534	um_qimr_533	um_qimr_557	um_qimr_537	um_qimr_538	um_qimr_531	um_qimr_258	um_qimr_550	um_qimr_554	um_qimr_539	MM1488	MM1551	MM1563	MM639	00028-001-CL	00038-001-CL	00061-001-CL	00085-001-CL	00099-001-CL
