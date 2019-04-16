@@ -4,4 +4,4 @@ description:Somatic segment CNA data (copy number ratio from tumor samples minus
 show_profile_in_analysis_tab:true
 datatype:SEG
 genetic_alteration_type:COPY_NUMBER_ALTERATION
-data_filename:acyc_mskcc_2013_data_cna_hg19.seg
+data_filename: data_cna_hg19.seg
