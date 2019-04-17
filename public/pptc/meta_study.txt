@@ -1,0 +1,6 @@
+type_of_cancer: mixed
+cancer_study_identifier: pptc
+name: Pediatric Preclinical Testing Consortium  (Maris, 2018)
+description: As part of an overall strategy for improving therapies for child-hood cancers, the PPTC seeks to develop models for the types of tumors that will be encountered in early phase clinical testing by establishing patient derived xenografts (PDXs) from high-risk childhood cancers refractory to current standard of care treatments. Genomic profiling of these models is required to enable PPTC investigators to develop robust "responder hypotheses" when drug activity is observed. With funding provided by <a href='https://www.alexslemonade.org/'>Alex's Lemonade Stand Foundation</a>, we genomically characterize a major subset of 261 PDX models. We use whole exome sequencing, transcriptome sequencing, and SNPArray to characterize the tumor models. The focus on DNA and RNA sequencing data mirrors the current standard practice in most clinical diagnostics lab that use these technologies to detect the spectrum of targetable mutations, gene amplifications, and gene fusion events relevant to preclinical drug development.
+short_name: PPTC (2018)
+groups: PUBLIC
