@@ -123,8 +123,8 @@ def check_gene_table(cursor):
     number_genes = cursor.fetchone()[0]
     if number_genes == 0:
         eprint('No genes in seed database')
-    elif number_genes < 55000:
-        # The seed in September 2018 contains 60070 genes.
+    elif number_genes < 56000:
+        # The seed in September 2018 contains 58098 genes.
         eprint('Unexpected low number of genes in seed database: %s' % number_genes)
     else:
         print('Genes in seed database: %s' % number_genes)
@@ -138,7 +138,7 @@ def check_gene_alias_table(cursor):
     if number_aliases == 0:
         eprint('No genes in seed database')
     elif number_aliases < 63000:
-        # The seed in September 2018 contains 66840 gene aliases.
+        # The seed in April 2019 contains 63531 gene aliases.
         eprint('Unexpected low number of gene aliases in seed database: %s' % number_aliases)
     else:
         print('Gene aliases in seed database: %s' % number_aliases)
