@@ -151,8 +151,8 @@ def check_cancer_type_table(cursor):
     number_cancer_types = cursor.fetchone()[0]
     if number_cancer_types == 0:
         eprint('No cancer types in seed database')
-    elif number_cancer_types < 600:
-        # The seed in April 2019 contains 601 cancer types.
+    elif number_cancer_types < 800:
+        # The seed in April 2019 contains 855 cancer types.
         eprint('Unexpected low number of cancer types in seed database: %s' % number_cancer_types)
     else:
         print('Cancer types in seed database: %s' % number_cancer_types)
