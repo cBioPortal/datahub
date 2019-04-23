@@ -124,7 +124,7 @@ def check_gene_table(cursor):
     if number_genes == 0:
         eprint('No genes in seed database')
     elif number_genes < 56000:
-        # The seed in September 2018 contains 58098 genes.
+        # The seed in April 2019 contains 58098 genes.
         eprint('Unexpected low number of genes in seed database: %s' % number_genes)
     else:
         print('Genes in seed database: %s' % number_genes)
