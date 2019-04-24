@@ -1,0 +1,7 @@
+type_of_cancer: utuc
+cancer_study_identifier: utuc_cornell_baylor_mdacc_2019
+name: Cornell/Baylor/MDACC, Nat Comm 2019
+short_name: Cornell/Baylor/MDACC
+description: 37 WES and 32 RNAseq samples for total 47 patients
+groups: PUBLIC
+add_global_case_list: true
