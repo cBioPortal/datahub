@@ -13,8 +13,8 @@ This schema is required for cBioPortal release versions:
 When using a cBioPortal release version **> 2.2.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
 
 **Schema 2.8.2**: [SQL file with create table statements](https://raw.githubusercontent.com/cBioPortal/cbioportal/451cdeacb06606369ff13b64219fce70388c679b/db-scripts/src/main/resources/cgds.sql)<br>
-**Seed database**: [seed-cbioportal_hg19_v2.8.2.sql.gz](https://github.com/cBioPortal/datahub/raw/57083e91763fa825d3ce8acfeb2576177402db68/seedDB/seed-cbioportal_hg19_v2.8.2.sql.gz)<br>
-md5sum 60c99a7c4bc4f3b6c9ac973a0e79d4ca
+**Seed database**: [seed-cbioportal_hg19_v2.8.2.sql.gz](https://github.com/cBioPortal/datahub/raw/5fef74c844b963fc37afeaf58f9ba609e4661c6a/seedDB/seed-cbioportal_hg19_v2.8.2.sql.gz)<br>
+md5sum f070b735324560e45af91f2737e99546
 
 Contents of seed database:
 - Entrez Gene IDs, HGNC symbols and gene aliases updated in December 2018 from [NCBI](ftp://ftp.ncbi.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz) (miRNA removed)
