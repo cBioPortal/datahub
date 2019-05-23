@@ -55,7 +55,7 @@ def check_changed_seed():
             seed_files.add(changed_file)
 
     if len(seed_files) == 0:
-        print('Seed database files are not changed. It is not necessary to the the seed database.')
+        print('Seed database files are not changed. It is not necessary to test the seed database.')
         sys.exit(0)
     elif len(seed_files) > 1:
         eprint('Found multiple seed databases. Unable to test whether seed is updated correctly.')
