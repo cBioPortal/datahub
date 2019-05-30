@@ -1,9 +1,0 @@
-cancer_study_identifier: gbm_tcga
-genetic_alteration_type: GENESET_SCORE
-datatype: P-VALUE
-stable_id: gsva_pvalues
-source_stable_id: gsva_scores
-profile_name: GSVA p-values
-profile_description: P-values calculated with permutation test (n=100) based on GSVA scores of random gene sets. See https://github.com/thehyve/cbioportal-gsva-analysis for documentation and R code.
-data_filename: data_gsva_pvalues.txt
-geneset_def_version: msigdb_6.1
