@@ -1,4 +1,4 @@
-cancer_study_identifier: pptc
+cancer_study_identifier: pptc_2018
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: SEG
 reference_genome_id: hg19
