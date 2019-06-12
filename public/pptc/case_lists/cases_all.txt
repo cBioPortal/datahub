@@ -1,5 +1,5 @@
-cancer_study_identifier: pptc
-stable_id: pptc_all
+cancer_study_identifier: pptc_2018
+stable_id: pptc_2018_all
 case_list_name: All Tumors
 case_list_description: All tumor samples (261 samples)
 case_list_category: all_cases_in_study
