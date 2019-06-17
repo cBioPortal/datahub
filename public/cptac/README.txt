@@ -1,0 +1,1 @@
+This folder will contain all the curated studies from the Clinical Proteomic Technologies for Cancer Initiative (CPTAC)
