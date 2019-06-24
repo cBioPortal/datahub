@@ -1,4 +1,4 @@
-type_of_cancer: Colon Adenocarinoma
+type_of_cancer: coad
 cancer_study_identifier: coad_cptac_2019
 name: Colon Cancer (CPTAC-2 Prospective, Cell 2019)
 short_name: COAD (CPTAC-2 2019)
