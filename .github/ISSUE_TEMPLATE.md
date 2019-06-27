@@ -7,4 +7,5 @@ Please keep this checklist for curation of a new study.
 - [ ] Create a pull request to datahub once the data is curated
 - [ ] Push to triage portal
 - [ ] Import into  msk and public portal database
+- [ ] Update the default quick select study list see https://github.com/cBioPortal/cbioportal/issues/5831
 - [ ] Update [cBioPortal news](https://github.com/cBioPortal/cbioportal/blob/master/docs/News.md)
