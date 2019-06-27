@@ -6,3 +6,4 @@ stable_id: rna_seq_v2_mrna_median_Zscores
 show_profile_in_analysis_tab: true
 profile_description: mRNA z-Scores (RNA Seq V2 RSEM) compared to the expression distribution of each gene tumors that are diploid for this gene.
 profile_name: mRNA Expression z-Scores (RNA Seq V2 RSEM)
+source_stable_id: rna_seq_v2_mrna

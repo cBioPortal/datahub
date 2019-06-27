@@ -1,6 +1,6 @@
 cancer_study_identifier: prad_mich
 stable_id: prad_mich_cna
 case_list_category: all_cases_with_cna_data
-case_list_name: Tumors CNA
-case_list_description: All tumors with CNA data (61 samples)
+case_list_name: Samples with CNA data
+case_list_description: Samples with CNA data (61 samples)
 case_list_ids: T12	T32	T8	T90	T91	T92	T93	T94	T95	T96	T97	WA10	WA11	WA12	WA13	WA14	WA15	WA16	WA17	WA18	WA19	WA20	WA22	WA23	WA24	WA25	WA26	WA27	WA28	WA29	WA3	WA30	WA31	WA32	WA33	WA35	WA37	WA38	WA39	WA40	WA41	WA42	WA43-27	WA43-44	WA43-71	WA46	WA47	WA48	WA49	WA50	WA51	WA52	WA53	WA54	WA55	WA56	WA57	WA58	WA59	WA60	WA7
