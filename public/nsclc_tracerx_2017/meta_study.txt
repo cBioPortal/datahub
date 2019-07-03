@@ -1,0 +1,8 @@
+type_of_cancer: nsclc
+cancer_study_identifier: nsclc_tracerx_2017
+name: Non-Small Cell Lung Cancer (TRACERx, NEJM 2017)
+description: Whole-exome sequencing of 327 (with 100 matched germline samples) tumors from 100 early-stage NSCLC patients.
+citation: Jamal-Hanjani M et al. NEJM 2017
+pmid: 28445112
+groups: PUBLIC
+short_name: Tracerx (NSCLC 2017)
