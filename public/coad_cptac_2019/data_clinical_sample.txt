@@ -1,202 +1,115 @@
-#PATIENT_ID	SAMPLE_ID	SAMPLE_DISPLAY_NAME	SPECIMEN_PRESERVATION	SEQUENCED	COPY_NUMBER	MRNA_DATA	METHYLATION_STATUS	PROTEIN	PHOSPHOPROTEIN	MSI_STATUS	PATHOLOGY_STATUS	TUMOR_SITE	HISTOLOGY	PATHOLOGY_T_STAGE	PATHOLOGY_N_STAGE	STAGE	PERCENT_NECROSIS	PERCENT_TUMOR_CELLULARITY	PERCENT_TOTAL_CELLULARITY	MUTATION_RATE	INTEGRATED_PHENOTYPE	CANCER_TYPE
-#Patient unique identifier. Sample unique identifier. Sample tissue identifier. Specimen preservation method. Sequenced.  Copy number. mRNA. Methylation status. Protein data. Phosphoprotein data. MSI data. Pathology report. Site of tumor. Histology report. Pathology T stage. Pathology N stage. Cancer stage.  Perecnt tumor necrosis. Percent tumor cellularity.  Percent total cellularity.  Mutation rate.  Integrated phenotype. Cancer type.
-#STRING STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING	STRING  STRING  STRING  NUMBER  NUMBER  NUMBER  NUMBER  STRING  STRING
-#1  1 1	1	1	1	1	1	1	1	1	1	1	1	1 1 1 1 1 1 1 1 1
-PATIENT_ID	SAMPLE_ID	SAMPLE_DISPLAY_NAME	SPECIMEN_PRESERVATION	SEQUENCED	COPY_NUMBER	MRNA_DATA	METHYLATION_STATUS	PROTEIN	PHOSPHOPROTEIN	MSI_STATUS	PATHOLOGY_STATUS	TUMOR_SITE	HISTOLOGY	PATHOLOGY_T_STAGE	PATHOLOGY_N_STAGE	STAGE	PERCENT_NECROSIS	PERCENT_TUMOR_CELLULARITY	PERCENT_TOTAL_CELLULARITY	MUTATION_RATE	INTEGRATED_PHENOTYPE	CANCER_TYPE
-01CO001	760f15d2-444c-4deb-b133-62f3ca_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Mucinous	T4a	N2b	Stage III	3	70	98	4.8	Epithelial	Colon Adenocarcinoma
-01CO005	05a33362-82bb-48ac-8feb-ad2ea1_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	10.4	Epithelial	Colon Adenocarcinoma
-01CO005	59891744-2db3-4541-a86a-7f911f_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	0	98	98	10.4	Epithelial	Colon Adenocarcinoma
-01CO006	f9d6fb1b-988e-4d28-9272-cc672f_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Mucinous	T4a	N2b	Stage III	0	90	90	1.2667	EMT	Colon Adenocarcinoma
-01CO006	f9d6fb1b-988e-4D88-9272-cc672f_D8	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Mucinous	T4a	N2b	Stage III	[Not Available]	[Not Available]	[Not Available]	1.2667	EMT	Colon Adenocarcinoma
-01CO008	8cc7e656-0152-4359-8566-0581c3	Tumor Tissue 4	Frozen Tissue Block	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Mucinous	T3	N0	Stage II	0	95	80	1.8333	Epithelial	Colon Adenocarcinoma
-01CO008	9452572f-e3ec-4063-a82e-43ac90_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Mucinous	T3	N0	Stage II	0	70	80	1.8333	Epithelial	Colon Adenocarcinoma
-01CO013	c7aeb685-31b3-445e-8177-a3e729_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T2	N0	Stage I	0	75	70	29.5	Epithelial	Colon Adenocarcinoma
-01CO014	c9730cb4-b52c-4ca8-9652-4509d0_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Hepatix Flexure	Mucinous	T3	N2a	Stage III	[Not Available]	[Not Available]	[Not Available]	39.7667	Hypermutated	Colon Adenocarcinoma
-01CO015	6e20c8e9-ab75-4996-9296-445b00_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T2	N0	Stage I	[Not Available]	[Not Available]	[Not Available]	6.3333	Epithelial	Colon Adenocarcinoma
-01CO015	b873f54a-5a86-4dca-90f9-715820_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T2	N0	Stage I	10	70	75	6.3333	Epithelial	Colon Adenocarcinoma
-01CO019	573048dd-2502-40e0-8e8c-c41bb8_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Mucinous	T4a	N2a	Stage III	0	60	55	5.0667	Epithelial	Colon Adenocarcinoma
-01CO019	573048dd-2502-40e0-8e8c-c41bb8_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Mucinous	T4a	N2a	Stage III	0	60	55	5.0667	Epithelial	Colon Adenocarcinoma
-01CO022	7a0266b4-b07c-41dc-8ddd-350e1b_D2	Tumor Tissue 5	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Mucinous	T2	N0	Stage I	0	75	45	79.0333	Hypermutated	Colon Adenocarcinoma
-01CO022	b4e91300-405e-4239-b8da-5e1a42_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Mucinous	T2	N0	Stage I	[Not Available]	[Not Available]	[Not Available]	79.0333	Hypermutated	Colon Adenocarcinoma
-05CO002	159c49fd-40ff-4616-b6b6-be21a6_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T2	N1a	Stage III	0	70	50	5.6667	EMT	Colon Adenocarcinoma
-05CO002	f635496c-0046-4ecd-89bc-7a4f33_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T2	N1a	Stage III	[Not Available]	[Not Available]	[Not Available]	5.6667	EMT	Colon Adenocarcinoma
-05CO003	7cc7f69f-99f5-4b23-a9e0-ba0dc8_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	20	80	20	43.4667	Hypermutated	Colon Adenocarcinoma
-05CO003	7cc7f69f-99f5-4b23-a9e0-ba0dc8_D8	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	43.4667	Hypermutated	Colon Adenocarcinoma
-05CO004	9fb0c084-16fd-4d54-ab60-d94303_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	[Not Available]	Malignant	Sigmoid Colon	Not Mucinous	T3	N1b	Stage III	5	98	[Not Available]	[Not Available]	[Not Available]	Colon Adenocarcinoma
-05CO006	37219a7c-6fe2-4684-a494-d0be08_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Not Mucinous	T3	N1b	Stage III	[Not Available]	[Not Available]	[Not Available]	34.8333	Hypermutated	Colon Adenocarcinoma
-05CO006	a8955d38-7a72-4f9d-9c70-5c0f08_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Not Mucinous	T3	N1b	Stage III	0	70	80	34.8333	Hypermutated	Colon Adenocarcinoma
-05CO007	9899e1ad-62e1-4cc2-91fc-49b85c_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Sigmoid Colon	Mucinous	T4a	N2b	Stage III	0	80	40	40.1667	Hypermutated	Colon Adenocarcinoma
-05CO011	8495cc54-eb88-40ab-b03f-363edf_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	10	60	60	6.0333	Epithelial	Colon Adenocarcinoma
-05CO011	c1b66358-d103-493c-b8ec-92c43b_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	6.0333	Epithelial	Colon Adenocarcinoma
-05CO015	0aef1fe8-ca61-4113-81d0-d82ee7_D2	Tumor Tissue 5	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	52.1667	Hypermutated	Colon Adenocarcinoma
-05CO015	416bb805-e4cd-4ca6-8fdd-1eec2d_D2	Tumor Tissue 4	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	0	70	80	52.1667	Hypermutated	Colon Adenocarcinoma
-05CO020	803736b3-9ca9-4f9f-bdfe-8783e3_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N0	Stage II	5	70	25	14.6333	Epithelial	Colon Adenocarcinoma
-05CO020	803736b3-9ca9-4f9f-bdfe-8783e3_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N0	Stage II	5	70	25	14.6333	Epithelial	Colon Adenocarcinoma
-05CO026	41ee934e-f7a3-4ef5-8a83-e2ac56_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Not Mucinous	T3	N1a	Stage III	[Not Available]	[Not Available]	[Not Available]	7.2333	Epithelial	Colon Adenocarcinoma
-05CO026	b2615b47-5ac2-4775-9205-50990d_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Not Mucinous	T3	N1a	Stage III	0	60	60	7.2333	Epithelial	Colon Adenocarcinoma
-05CO028	e0068ac5-f557-443a-bd4b-bdfcef_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T2	N0	Stage I	0	90	80	13.2667	Epithelial	Colon Adenocarcinoma
-05CO028	e0068ac5-f557-443a-bd4b-bdfcef_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T2	N0	Stage I	0	90	80	13.2667	Epithelial	Colon Adenocarcinoma
-05CO029	58a92726-4d1f-4e44-8938-52b97d_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Not Mucinous	T3	N0	Stage II	0	80	90	8.2333	Epithelial	Colon Adenocarcinoma
-05CO029	58a92726-4d1f-4e44-8938-52b97d_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Not Mucinous	T3	N0	Stage II	0	80	90	8.2333	Epithelial	Colon Adenocarcinoma
-05CO032	695b0b00-a86b-43c0-a6c8-50a840_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N1a	Stage III	0	70	75	41.1	Hypermutated	Colon Adenocarcinoma
-05CO032	695b0b00-a86b-43c0-a6c8-50a840_D3	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N1a	Stage III	0	70	75	41.1	Hypermutated	Colon Adenocarcinoma
-05CO033	2f8b02e4-1848-4abc-a95e-dd9eb5_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T2	N2a	Stage III	0	80	85	8.4667	EMT	Colon Adenocarcinoma
-05CO033	2f8b02e4-1848-4abc-a95e-dd9eb5_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T2	N2a	Stage III	0	80	85	8.4667	EMT	Colon Adenocarcinoma
-05CO034	42216d99-e8ff-43c9-b6db-28c3a6_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N1a	Stage III	0	60	45	5.1	Epithelial	Colon Adenocarcinoma
-05CO034	42216d99-e8ff-43c9-b6db-28c3a6_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N1a	Stage III	0	60	45	5.1	Epithelial	Colon Adenocarcinoma
-05CO035	1312a0e0-5025-433e-9670-0595bb_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	20	65	65	11.9	Epithelial	Colon Adenocarcinoma
-05CO035	dfdf03a6-c324-4d8c-a909-ea7345_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	11.9	Epithelial	Colon Adenocarcinoma
-05CO037	5a007558-764c-463b-a788-fdbccb_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Sigmoid Colon	Mucinous	T3	N0	Stage II	5	60	45	48.6667	Hypermutated	Colon Adenocarcinoma
-05CO037	e2e83b72-b14b-4b06-9461-1115d6_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Sigmoid Colon	Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	48.6667	Hypermutated	Colon Adenocarcinoma
-05CO039	66b57abc-0d49-46bb-a390-0e11a9_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Mucinous	T4a	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	58.5667	Hypermutated	Colon Adenocarcinoma
-05CO039	c952715e-35ca-4e18-ad6f-dd4e39_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Mucinous	T4a	N0	Stage II	0	90	80	58.5667	Hypermutated	Colon Adenocarcinoma
-05CO041	b4dd4a04-5eda-43dd-8298-215b07_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	5	80	80	92.1	Hypermutated	Colon Adenocarcinoma
-05CO041	b4dd4a04-5eda-43dd-8298-215b07_D3	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	5	80	80	92.1	Hypermutated	Colon Adenocarcinoma
-05CO044	8af80ae9-2088-4124-91fb-8d6c17_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Not Mucinous	T4a	N0	Stage II	0	70	15	101.6333	Hypermutated	Colon Adenocarcinoma
-05CO044	8af80ae9-2088-4124-91fb-8d6c17_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Not Mucinous	T4a	N0	Stage II	0	70	15	101.6333	Hypermutated	Colon Adenocarcinoma
-05CO045	92c1ebb5-ac1d-4bf5-a14f-516e1d_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1b	Stage III	5	60	70	9.2	Epithelial	Colon Adenocarcinoma
-05CO045	92c1ebb5-ac1d-4bf5-a14f-516e1d_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1b	Stage III	5	60	70	9.2	Epithelial	Colon Adenocarcinoma
-05CO047	f6173181-0993-4a5f-a4cd-5f30b1_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T2	N0	Stage I	[Not Available]	[Not Available]	[Not Available]	6.5	Epithelial	Colon Adenocarcinoma
-05CO048	4976cbf9-cad4-48ce-b234-622c70_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Mucinous	T4b	N2a	Stage III	5	65	65	43.9333	Hypermutated	Colon Adenocarcinoma
-05CO048	92f7419c-c57a-4b50-bdc9-4d09ca_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Mucinous	T4b	N2a	Stage III	[Not Available]	[Not Available]	[Not Available]	43.9333	Hypermutated	Colon Adenocarcinoma
-05CO049	d7608884-a0d6-4e9e-aac7-6cd813_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Not Mucinous	T3	N0	Stage II	0	65	70	7.7	Epithelial	Colon Adenocarcinoma
-05CO049	d7608884-a0d6-4e9e-aac7-6cd813_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Not Mucinous	T3	N0	Stage II	0	65	70	7.7	Epithelial	Colon Adenocarcinoma
-05CO050	17cd2121-d347-431c-9cc7-fbab14_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Mucinous	T3	N1b	Stage III	5	60	70	83.3667	Hypermutated	Colon Adenocarcinoma
-05CO050	5271982c-5de1-4d6e-b414-b1f3ef_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Mucinous	T3	N1b	Stage III	[Not Available]	[Not Available]	[Not Available]	83.3667	Hypermutated	Colon Adenocarcinoma
-05CO053	66b829db-1cdd-460d-b2f3-0e9ca9_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N1b	Stage II	0	80	65	6.5	Epithelial	Colon Adenocarcinoma
-05CO053	66b829db-1cdd-460d-b2f3-0e9ca9_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N1b	Stage II	0	80	65	6.5	Epithelial	Colon Adenocarcinoma
-05CO054	43192517-085e-450e-9481-0a6713_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T2	N0	Stage I	0	70	70	13.5333	Epithelial	Colon Adenocarcinoma
-05CO054	43192517-085e-450e-9481-0a6713_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T2	N0	Stage I	0	70	70	13.5333	Epithelial	Colon Adenocarcinoma
-06CO001	87408d9e-4029-4e8f-b14c-8efc04_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1b	Stage III	0	70	70	4.4667	Epithelial	Colon Adenocarcinoma
-06CO001	87408d9e-4029-4e8f-b14c-8efc04_D3	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1b	Stage III	0	70	70	4.4667	Epithelial	Colon Adenocarcinoma
-06CO002	4b263734-430f-41dc-a296-8691f0_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N2a	Stage III	0	80	40	7.1	EMT	Colon Adenocarcinoma
-06CO002	4b263734-430f-41dc-a296-8691f0_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N2a	Stage III	0	80	40	7.1	EMT	Colon Adenocarcinoma
-09CO005	ec9afcc4-ccf7-4226-b0e8-d6897d_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T3	N1a	Stage III	0	95	40	6.9	Epithelial	Colon Adenocarcinoma
-09CO005	ec9afcc4-ccf7-4226-b0e8-d6897d_D3	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T3	N1a	Stage III	0	95	40	6.9	Epithelial	Colon Adenocarcinoma
-09CO006	c2c53076-b5db-4b7d-983c-a35740_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	[Not Available]	T2	N0	Stage I	0	90	80	6.4333	Epithelial	Colon Adenocarcinoma
-09CO006	c2c53076-b5db-4b7d-983c-a35740_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	[Not Available]	T2	N0	Stage I	0	90	80	6.4333	Epithelial	Colon Adenocarcinoma
-09CO008	aa0f5b40-3290-4255-8f4d-f45d4e_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T3	N1a	Stage III	10	90	40	8.5333	Epithelial	Colon Adenocarcinoma
-09CO008	aa0f5b40-3290-4255-8f4d-f45d4e_D3	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T3	N1a	Stage III	10	90	40	8.5333	Epithelial	Colon Adenocarcinoma
-09CO011	1425a1a1-c835-47a2-a9b9-4db5d0_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T2	N0	Stage I	0	75	80	16.3	Epithelial	Colon Adenocarcinoma
-09CO011	1425a1a1-c835-47a2-a9b9-4db5d0_D8	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T2	N0	Stage I	[Not Available]	[Not Available]	[Not Available]	16.3	Epithelial	Colon Adenocarcinoma
-09CO013	dffcac99-9eac-4717-aeb6-f4a2e7_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T3	N1b	Stage III	10	70	65	6.9667	Epithelial	Colon Adenocarcinoma
-09CO013	dffcac99-9eac-4717-aeb6-f4a2e7_D8	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T3	N1b	Stage III	[Not Available]	[Not Available]	[Not Available]	6.9667	Epithelial	Colon Adenocarcinoma
-09CO014	1ea1d7ee-e382-4a68-8e7c-74e833_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	0	65	65	11.6	Epithelial	Colon Adenocarcinoma
-09CO014	8b9e4266-7754-4f2c-ac9e-329905_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	11.6	Epithelial	Colon Adenocarcinoma
-09CO015	1ab06c24-ffc0-4323-a0cc-e9f5c5_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N1b	Stage III	[Not Available]	[Not Available]	[Not Available]	6.1667	Epithelial	Colon Adenocarcinoma
-09CO015	d068de5f-8394-46bc-b03a-c6dc9c_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N1b	Stage III	0	80	70	6.1667	Epithelial	Colon Adenocarcinoma
-09CO018	372c900a-fced-4eef-9dc4-7282ec_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T2	N1a	Stage III	[Not Available]	[Not Available]	[Not Available]	8.5	Epithelial	Colon Adenocarcinoma
-09CO018	743c74e4-cd76-4f38-8cb4-3c9107_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T2	N1a	Stage III	0	70	65	8.5	Epithelial	Colon Adenocarcinoma
-09CO019	79097be1-cd36-4a23-99d1-3d744f_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Not Mucinous	T2	N0	Stage I	[Not Available]	[Not Available]	[Not Available]	7	Epithelial	Colon Adenocarcinoma
-09CO019	b913f361-c5c2-4e49-91ca-719bd8_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Not Mucinous	T2	N0	Stage I	5	70	65	7	Epithelial	Colon Adenocarcinoma
-09CO022	f69deaeb-6b6f-4c61-8900-fd0f26_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T4a	N0	Stage II	0	80	70	7.5667	Epithelial	Colon Adenocarcinoma
-09CO022	f69deaeb-6b6f-4c61-8900-fd0f26_D3	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T4a	N0	Stage II	0	80	70	7.5667	Epithelial	Colon Adenocarcinoma
-11CO005	bc574f73-89ba-44d7-992e-82622c_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1	Stage III	0	60	55	4.2	EMT	Colon Adenocarcinoma
-11CO005	bc574f73-89ba-44d7-992e-82622c_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1	Stage III	0	60	55	4.2	EMT	Colon Adenocarcinoma
-11CO007	799893aa-d523-4a08-9ea7-611cca_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	20	65	50	76.2333	Hypermutated	Colon Adenocarcinoma
-11CO007	799893aa-d523-4a08-9ea7-611cca_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	20	65	50	76.2333	Hypermutated	Colon Adenocarcinoma
-11CO008	98742d96-cc2f-43f0-9de2-bc7afe_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1	Stage III	0	65	55	6.7	EMT	Colon Adenocarcinoma
-11CO008	98742d96-cc2f-43f0-9de2-bc7afe_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1	Stage III	0	65	55	6.7	EMT	Colon Adenocarcinoma
-11CO010	0f757044-9bc8-4ed4-90f3-e0a49a_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	8	75	65	8.7333	Epithelial	Colon Adenocarcinoma
-11CO010	0f757044-9bc8-4ed4-90f3-e0a49a_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	8	75	65	8.7333	Epithelial	Colon Adenocarcinoma
-11CO018	3d797911-d476-436f-9cce-33e20c_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Hepatix Flexure	Not Mucinous	T3	N0	Stage II	10	60	65	72.2333	Hypermutated	Colon Adenocarcinoma
-11CO018	3d797911-d476-436f-9cce-33e20c_D8	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Hepatix Flexure	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	72.2333	Hypermutated	Colon Adenocarcinoma
-11CO019	722378ea-d1a7-4cfc-aca5-ba45f9_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N1b	Stage III	15	60	55	12.5	EMT	Colon Adenocarcinoma
-11CO019	722378ea-d1a7-4cfc-aca5-ba45f9_D8	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N1b	Stage III	[Not Available]	[Not Available]	[Not Available]	12.5	EMT	Colon Adenocarcinoma
-11CO020	321fb3b2-ebb6-4ea5-b737-081264_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1b	Stage III	[Not Available]	[Not Available]	[Not Available]	10.5	Epithelial	Colon Adenocarcinoma
-11CO020	52d61ab1-5781-4b47-8e88-37c2ea_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1b	Stage III	0	75	70	10.5	Epithelial	Colon Adenocarcinoma
-11CO021	642fc6c3-8d4a-4e3d-ad0a-cc088a_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N2a	Stage IV	[Not Available]	[Not Available]	[Not Available]	6.8667	EMT	Colon Adenocarcinoma
-11CO021	cf795cd2-317b-4897-a35e-390001_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N2a	Stage IV	15	70	60	6.8667	EMT	Colon Adenocarcinoma
-11CO022	21c6f56a-8881-421b-81fa-c354cb_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T4b	N0	Stage IV	5	70	65	10.2	Epithelial	Colon Adenocarcinoma
-11CO022	2b810478-7956-4a8b-870d-184859_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T4b	N0	Stage IV	[Not Available]	[Not Available]	[Not Available]	10.2	Epithelial	Colon Adenocarcinoma
-11CO027	5da00abd-5fa7-4deb-95f1-7982e0_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	0	70	70	8.5	Epithelial	Colon Adenocarcinoma
-11CO027	5da00abd-5fa7-4deb-95f1-7982e0_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	0	70	70	8.5	Epithelial	Colon Adenocarcinoma
-11CO030	4cdeecb5-19fb-493c-91f5-eb0efc_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	20	60	65	5.4667	EMT	Colon Adenocarcinoma
-11CO030	4cdeecb5-19fb-493c-91f5-eb0efc_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	20	60	65	5.4667	EMT	Colon Adenocarcinoma
-11CO031	c6ae57a7-65a0-438e-bae2-97b1c8_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	0	80	75	36.2	Hypermutated	Colon Adenocarcinoma
-11CO031	c6ae57a7-65a0-438e-bae2-97b1c8_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	0	80	75	36.2	Hypermutated	Colon Adenocarcinoma
-11CO032	01d1ffca-4235-4dfe-bf62-56f71d_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1b	Stage III	0	70	70	6.6	Epithelial	Colon Adenocarcinoma
-11CO032	01d1ffca-4235-4dfe-bf62-56f71d_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1b	Stage III	0	70	70	6.6	Epithelial	Colon Adenocarcinoma
-11CO033	8960a27e-69d8-4ec8-a795-c6cf8a_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	5	60	65	73.3667	EMT	Colon Adenocarcinoma
-11CO033	8960a27e-69d8-4ec8-a795-c6cf8a_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	5	60	65	73.3667	EMT	Colon Adenocarcinoma
-11CO036	21cab01c-e968-42cc-9651-1e53c0_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N1a	Stage III	2	65	55	78.7333	Hypermutated	Colon Adenocarcinoma
-11CO036	21cab01c-e968-42cc-9651-1e53c0_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N1a	Stage III	2	65	55	78.7333	Hypermutated	Colon Adenocarcinoma
-11CO037	1563ef63-d2e6-406f-adc1-255949_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1b	Stage III	5	60	60	7.8333	EMT	Colon Adenocarcinoma
-11CO037	1563ef63-d2e6-406f-adc1-255949_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1b	Stage III	5	60	60	7.8333	EMT	Colon Adenocarcinoma
-11CO039	d6584b4a-ca99-4a2a-8b4e-c8b22e_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	0	65	65	9.0667	Epithelial	Colon Adenocarcinoma
-11CO039	e295a7d1-a0d0-4b0b-bdc2-729a0d_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	5	65	65	9.0667	Epithelial	Colon Adenocarcinoma
-11CO042	2167c594-c33f-4795-b95b-69bd07_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	8.9	Epithelial	Colon Adenocarcinoma
-11CO042	4b68d71e-48b4-45ba-a041-9d6aa0_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Not Mucinous	T3	N0	Stage II	0	60	60	8.9	Epithelial	Colon Adenocarcinoma
-11CO043	591fb460-703a-437d-8d9a-ff2a35_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	5	65	65	6.3667	Epithelial	Colon Adenocarcinoma
-11CO043	591fb460-703a-437d-8d9a-ff2a35_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	5	65	65	6.3667	Epithelial	Colon Adenocarcinoma
-11CO044	7e3d5ae0-3dcc-4207-8dd2-59ab4b_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1a	Stage IV	10	70	60	9.0333	Epithelial	Colon Adenocarcinoma
-11CO044	b605fafc-f7dd-44cc-9c86-da04e3_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1a	Stage IV	[Not Available]	[Not Available]	[Not Available]	9.0333	Epithelial	Colon Adenocarcinoma
-11CO045	f4bccfe4-98d0-466b-a6d7-44341b_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N1b	Stage III	0	65	70	11.5333	EMT	Colon Adenocarcinoma
-11CO045	f4bccfe4-98d0-466b-a6d7-44341b_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N1b	Stage III	0	65	70	11.5333	EMT	Colon Adenocarcinoma
-11CO047	3ca0ab23-70ae-4083-bd7d-9f71d8_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	15	70	60	6.0333	Epithelial	Colon Adenocarcinoma
-11CO047	cd6a4013-2958-44b9-a4f1-45c9e4_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	6.0333	Epithelial	Colon Adenocarcinoma
-11CO048	43e0432b-343d-4e12-817f-21281c_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T3	N0	Stage II	5	60	65	13.3333	EMT	Colon Adenocarcinoma
-11CO048	cfb4831f-e9ee-4e11-80fb-958f6f_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	13.3333	EMT	Colon Adenocarcinoma
-11CO051	f6b1079b-9d67-4c63-b3d0-d562b5_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	44.8667	Hypermutated	Colon Adenocarcinoma
-11CO052	0630ecb0-b664-4e75-bb3c-fb62ee_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N2a	Stage III	10	65	60	9.3333	EMT	Colon Adenocarcinoma
-11CO052	0630ecb0-b664-4e75-bb3c-fb62ee_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N2a	Stage III	10	65	60	9.3333	EMT	Colon Adenocarcinoma
-11CO053	092c5a37-325b-4181-b230-2d8fff_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	12.1	Epithelial	Colon Adenocarcinoma
-11CO053	ecf1ca92-c8b7-470f-baf4-81cf73_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	5	70	70	12.1	Epithelial	Colon Adenocarcinoma
-11CO054	9bf309bc-0fb6-4060-aba2-888eb3_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	6.7	Epithelial	Colon Adenocarcinoma
-11CO054	f6a7f764-2495-4a1d-89a2-e12f51_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	10	65	55	6.7	Epithelial	Colon Adenocarcinoma
-11CO057	e515eb5c-8005-416a-9b42-59de9d_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1	Stage III	20	65	65	7.4	Epithelial	Colon Adenocarcinoma
-11CO057	e515eb5c-8005-416a-9b42-59de9d_D8	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1	Stage III	[Not Available]	[Not Available]	[Not Available]	7.4	Epithelial	Colon Adenocarcinoma
-11CO058	d3078fa8-0692-411f-8441-0c7c48_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	5	60	65	5.0667	EMT	Colon Adenocarcinoma
-11CO058	d3078fa8-0692-411f-8441-0c7c48_D8	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	5.0667	EMT	Colon Adenocarcinoma
-11CO060	fe4b3b1c-9f7f-4109-8a76-ca1d6f_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	5	65	65	7.0667	Epithelial	Colon Adenocarcinoma
-11CO061	8c73f3a5-fea8-4942-90c0-966f66_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	0	65	65	35.9667	Hypermutated	Colon Adenocarcinoma
-11CO061	8c73f3a5-fea8-4942-90c0-966f66_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage II	0	65	65	35.9667	Hypermutated	Colon Adenocarcinoma
-11CO062	e8faa3a7-9fc7-428e-9334-a0afd0_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage IV	0	70	65	6.8667	Epithelial	Colon Adenocarcinoma
-11CO062	e8faa3a7-9fc7-428e-9334-a0afd0_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N0	Stage IV	0	70	65	6.8667	Epithelial	Colon Adenocarcinoma
-11CO070	c8694e31-2c8f-4eb6-a7ef-a137d9_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	[Not Available]	Malignant	Sigmoid Colon	Not Mucinous	T3	N1b	Stage III	5	60	60	462.2667	EMT	Colon Adenocarcinoma
-11CO070	c8694e31-2c8f-4eb6-a7ef-a137d9_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	[Not Available]	Malignant	Sigmoid Colon	Not Mucinous	T3	N1b	Stage III	5	60	60	462.2667	EMT	Colon Adenocarcinoma
-11CO072	0f238226-864c-4de0-8c61-01e729_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Not Mucinous	T3	N1b	Stage III	[Not Available]	[Not Available]	[Not Available]	16.6333	Epithelial	Colon Adenocarcinoma
-11CO072	64b606d7-d40f-41ae-b220-a66324_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Not Mucinous	T3	N1b	Stage III	10	70	70	16.6333	Epithelial	Colon Adenocarcinoma
-11CO077	5557e478-3e6f-475b-8acc-1b4159_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	2	60	60	7.5	EMT	Colon Adenocarcinoma
-11CO077	5557e478-3e6f-475b-8acc-1b4159_D8	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	7.5	EMT	Colon Adenocarcinoma
-11CO079	77c493b1-34ba-4efc-8def-987116_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1	Stage III	0	75	70	6.3333	Epithelial	Colon Adenocarcinoma
-11CO079	f6afe41c-111d-4818-8485-fe95e0_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N1	Stage III	[Not Available]	[Not Available]	[Not Available]	6.3333	Epithelial	Colon Adenocarcinoma
-13CO001	d91f20f5-f59f-421d-9164-e5fd19_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	[Not Available]	Malignant	Sigmoid Colon	Not Mucinous	T3	N1a	Stage III	0	60	[Not Available]	[Not Available]	[Not Available]	Colon Adenocarcinoma
-14CO001	85930155-5a70-4aab-97e3-e9c5a9_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	[Not Available]	Malignant	Sigmoid Colon	Not Mucinous	T3	N1a	Stage III	3	90	[Not Available]	[Not Available]	Epithelial	Colon Adenocarcinoma
-14CO002	5a85e6e7-35ab-4ca9-ab62-707e77_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	0	90	90	6.4	Epithelial	Colon Adenocarcinoma
-14CO003	ea6df59d-5240-4927-b19d-d44590_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Tranverse Colon	Mucinous	T3	N2b	Stage III	[Not Available]	[Not Available]	[Not Available]	32.8667	Hypermutated	Colon Adenocarcinoma
-14CO003	fd4edc52-09ef-4b01-be7c-f23f05_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Tranverse Colon	Mucinous	T3	N2b	Stage III	0	80	80	32.8667	Hypermutated	Colon Adenocarcinoma
-14CO005	db3f5ad9-d14d-4126-a3e7-d80faa_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T3	N0	Stage II	2	60	60	11.5333	Epithelial	Colon Adenocarcinoma
-14CO005	db3f5ad9-d14d-4126-a3e7-d80faa_D3	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Mucinous	T3	N0	Stage II	2	60	60	11.5333	Epithelial	Colon Adenocarcinoma
-15CO001	c2db7236-990c-42b6-9ffb-2ad150_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Mucinous	T3	N1a	Stage III	0	75	70	6.1	Epithelial	Colon Adenocarcinoma
-15CO001	cd89ffbb-574a-4052-bd9a-00c890_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Mucinous	T3	N1a	Stage III	[Not Available]	[Not Available]	[Not Available]	6.1	Epithelial	Colon Adenocarcinoma
-15CO002	74f7759a-279c-4098-b080-358900_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Not Mucinous	T4a	N0	Stage II	2	65	65	5.6667	Epithelial	Colon Adenocarcinoma
-15CO002	c65afd57-530c-4366-b2c8-463a46_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Not Mucinous	T4a	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	5.6667	Epithelial	Colon Adenocarcinoma
-16CO002	6f5853a3-1d47-4a54-94dc-970c1c_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Not Mucinous	T3	N1	Stage III	5	65	65	4.3667	Epithelial	Colon Adenocarcinoma
-16CO002	820a3f08-5bb1-44b3-a133-ee167e_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Not Mucinous	T3	N1	Stage III	[Not Available]	[Not Available]	[Not Available]	4.3667	Epithelial	Colon Adenocarcinoma
-16CO003	47b9deba-dea0-4e0c-8b0a-4864c3_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	2	65	65	7.7667	EMT	Colon Adenocarcinoma
-16CO003	526c3664-5b9b-4a2b-a00e-a14623_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	[Not Available]	[Not Available]	[Not Available]	7.7667	EMT	Colon Adenocarcinoma
-16CO006	4bb08fad-fa5e-471e-978b-6b09ab_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Not Mucinous	T3	N0	Stage IV	[Not Available]	[Not Available]	[Not Available]	8	Epithelial	Colon Adenocarcinoma
-16CO006	97423edb-6f19-4b41-a7cb-af1635_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Not Mucinous	T3	N0	Stage IV	5	65	65	8	Epithelial	Colon Adenocarcinoma
-16CO011	7782134d-02db-44ee-adfa-fc1372_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1	Stage III	5	65	65	8.6333	EMT	Colon Adenocarcinoma
-16CO011	a90eb718-6a8f-4cbf-89c1-f9e9bd_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1	Stage III	[Not Available]	[Not Available]	[Not Available]	8.6333	EMT	Colon Adenocarcinoma
-20CO001	b2400046-1d25-429d-a821-6040a6	Tumor Tissue 3	Frozen Tissue Block	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1a	Stage III	0	80	40	8.3667	EMT	Colon Adenocarcinoma
-20CO001	d8345fa1-f692-4025-bc82-bfaec6_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Not Mucinous	T3	N1a	Stage III	0	80	40	8.3667	EMT	Colon Adenocarcinoma
-20CO003	2d266d2d-4bb3-436c-a3e7-06acb2_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Not Mucinous	T4a	N1b	Stage IV	0	80	70	76.6333	EMT	Colon Adenocarcinoma
-20CO003	2d266d2d-4bb3-436c-a3e7-06acb2_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Not Mucinous	T4a	N1b	Stage IV	0	80	70	76.6333	EMT	Colon Adenocarcinoma
-20CO004	e196a0b4-2a05-43de-bb30-ceb761_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T4a	N2b	Stage III	[Not Available]	[Not Available]	[Not Available]	7.9667	Epithelial	Colon Adenocarcinoma
-20CO004	f0bb6ff4-7cb8-427f-84bf-7f51d7_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T4a	N2b	Stage III	0	70	70	7.9667	Epithelial	Colon Adenocarcinoma
-20CO006	1e451f20-718d-458e-abeb-93f1d8_D2	Tumor Tissue 5	Frozen Tissue	1	1	1	0	1	1	[Not Available]	Malignant	Cecum	Not Mucinous	T3	N1a	Stage IV	0	70	70	[Not Available]	Epithelial	Colon Adenocarcinoma
-20CO006	bd67de01-ad7d-431a-9ad6-4dd5a1	Tumor Tissue 3	Frozen Tissue Block	1	1	1	0	1	1	[Not Available]	Malignant	Cecum	Not Mucinous	T3	N1a	Stage IV	5	60	65	[Not Available]	Epithelial	Colon Adenocarcinoma
-20CO007	0065bfd9-e1b9-43a8-9379-9658ba_D2	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	5	60	65	35.9333	Epithelial	Colon Adenocarcinoma
-20CO007	0065bfd9-e1b9-43a8-9379-9658ba_D3	Tumor Tissue 2	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Not Mucinous	T3	N0	Stage II	5	60	65	35.9333	Epithelial	Colon Adenocarcinoma
-21CO006	5f823547-ee16-45b7-a6a0-ef25d6_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T2	N0	Stage I	10	60	60	6.3333	EMT	Colon Adenocarcinoma
-21CO006	5f823547-ee16-45b7-a6a0-ef25d6_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T2	N0	Stage I	10	60	60	6.3333	EMT	Colon Adenocarcinoma
-21CO007	a467b905-fc0b-427b-8753-6d38dd_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T4a	N2a	Stage IV	2	75	65	7.8	Epithelial	Colon Adenocarcinoma
-21CO007	a467b905-fc0b-427b-8753-6d38dd_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T4a	N2a	Stage IV	2	75	65	7.8	Epithelial	Colon Adenocarcinoma
-22CO004	a2f03d85-5f1a-4b3e-9dbf-74e67e_D2	Tumor Tissue 4	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	3	60	65	7.2333	Epithelial	Colon Adenocarcinoma
-22CO004	a2f03d85-5f1a-4b3e-9dbf-74e67e_D3	Tumor Tissue 4	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Not Mucinous	T3	N0	Stage II	3	60	65	7.2333	Epithelial	Colon Adenocarcinoma
-22CO006	4d86cf19-8d5b-46b5-ab4c-ace0b2_D2	Tumor Tissue 3	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N2b	Stage III	3	60	70	44.8333	EMT	Colon Adenocarcinoma
-22CO006	e1cd3d70-132b-452f-ba10-026721_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Not Mucinous	T3	N2b	Stage III	[Not Available]	[Not Available]	[Not Available]	44.8333	EMT	Colon Adenocarcinoma
-27CO004	d0511ea6-43c3-4c61-b08e-cf49b7_D2	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N2a	Stage III	0	60	60	5.2333	EMT	Colon Adenocarcinoma
-27CO004	d0511ea6-43c3-4c61-b08e-cf49b7_D3	Tumor Tissue 1	Frozen Tissue	1	1	1	0	1	1	MSS	Malignant	Cecum	Not Mucinous	T3	N2a	Stage III	0	60	60	5.2333	EMT	Colon Adenocarcinoma
+#PATIENT_ID	SAMPLE_ID	SPECIMEN_PRESERVATION	SEQUENCED	COPY_NUMBER	MRNA_DATA	MICRORNA_DATA	METHYLATION_STATUS	PROTEIN	PHOSPHOPROTEIN	MSI_STATUS	PATHOLOGY_STATUS	PRIMARY_SITE	CANCER_TYPE
+#Patient unique identifier.	Sample tissue identifier.	Specimen preservation method.	Sequenced.	Copy number.	mRNA.	microRNA.	Methylation status.	Protein data.	Phosphoprotein data.	MSI data.	Pathology report.	Site of tumor.	Cancer type.
+#STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SPECIMEN_PRESERVATION	SEQUENCED	COPY_NUMBER	MRNA_DATA	MICRORNA_DATA	METHYLATION_STATUS	PROTEIN	PHOSPHOPROTEIN	MSI_STATUS	PATHOLOGY_STATUS	PRIMARY_SITE	CANCER_TYPE
+01CO001	01CO001	Frozen Tissue	1	1	1	1	0	0	0	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+01CO005	01CO005	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+01CO006	01CO006	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+01CO008	01CO008	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+01CO013	01CO013	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+01CO014	01CO014	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+01CO015	01CO015	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+01CO019	01CO019	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+01CO022	01CO022	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Colon Adenocarcinoma
+05CO002	05CO002	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO003	05CO003	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO004	05CO004	Frozen Tissue	0	0	0	0	0	0	0	[Not Available]	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO006	05CO006	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Colon Adenocarcinoma
+05CO007	05CO007	Frozen Tissue	1	1	1	0	0	0	0	MSI-H	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO011	05CO011	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO015	05CO015	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO020	05CO020	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+05CO026	05CO026	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Colon Adenocarcinoma
+05CO028	05CO028	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO029	05CO029	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+05CO032	05CO032	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO033	05CO033	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+05CO034	05CO034	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+05CO035	05CO035	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO037	05CO037	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO039	05CO039	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO041	05CO041	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO044	05CO044	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Colon Adenocarcinoma
+05CO045	05CO045	Frozen Tissue	1	0	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO047	05CO047	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO048	05CO048	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO049	05CO049	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+05CO050	05CO050	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Colon Adenocarcinoma
+05CO053	05CO053	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+05CO054	05CO054	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+06CO001	06CO001	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+06CO002	06CO002	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+09CO005	09CO005	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+09CO006	09CO006	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+09CO008	09CO008	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+09CO011	09CO011	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+09CO013	09CO013	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+09CO014	09CO014	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+09CO015	09CO015	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+09CO018	09CO018	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+09CO019	09CO019	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+09CO022	09CO022	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+11CO005	11CO005	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO007	11CO007	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO008	11CO008	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO010	11CO010	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO018	11CO018	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+11CO019	11CO019	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+11CO020	11CO020	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO021	11CO021	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO022	11CO022	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO027	11CO027	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO030	11CO030	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO031	11CO031	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO032	11CO032	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO033	11CO033	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO036	11CO036	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO037	11CO037	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO039	11CO039	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO042	11CO042	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Colon Adenocarcinoma
+11CO043	11CO043	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO044	11CO044	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO045	11CO045	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+11CO047	11CO047	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO048	11CO048	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+11CO051	11CO051	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO052	11CO052	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+11CO053	11CO053	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO054	11CO054	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO057	11CO057	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO058	11CO058	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO060	11CO060	Frozen Tissue	1	1	1	1	0	0	0	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO061	11CO061	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO062	11CO062	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO070	11CO070	Frozen Tissue	1	1	1	1	0	1	1	[Not Available]	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO072	11CO072	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO077	11CO077	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO079	11CO079	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+13CO001	13CO001	Frozen Tissue	0	0	0	0	0	0	0	[Not Available]	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+14CO001	14CO001	Frozen Tissue	0	0	0	0	0	0	0	[Not Available]	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+14CO002	14CO002	Frozen Tissue	1	1	1	1	0	0	0	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+14CO003	14CO003	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Tranverse Colon	Colon Adenocarcinoma
+14CO005	14CO005	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+15CO001	15CO001	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+15CO002	15CO002	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+16CO002	16CO002	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Colon Adenocarcinoma
+16CO003	16CO003	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+16CO006	16CO006	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+16CO011	16CO011	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+20CO001	20CO001	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+20CO003	20CO003	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Colon Adenocarcinoma
+20CO004	20CO004	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+20CO006	20CO006	Frozen Tissue	0	0	0	0	0	1	1	[Not Available]	Malignant	Cecum	Colon Adenocarcinoma
+20CO007	20CO007	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+21CO006	21CO006	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+21CO007	21CO007	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+22CO004	22CO004	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+22CO006	22CO006	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+27CO004	27CO004	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+05CO005	05CO005	[Not Available]	1	1	1	1	0	0	0	MSS	[Not Available]	Sigmoid Colon	Colon Adenocarcinoma
+05CO014	05CO014	[Not Available]	1	1	1	1	0	0	0	MSS	[Not Available]	[Not Available]	Colon Adenocarcinoma
+05CO055	05CO055	[Not Available]	1	1	1	1	0	0	0	MSS	[Not Available]	Sigmoid Colon	Colon Adenocarcinoma
+11CO059	11CO059	[Not Available]	1	1	1	1	0	0	0	MSI-H	[Not Available]	Ascending Colon	Colon Adenocarcinoma
+16CO012	16CO012	[Not Available]	1	1	1	1	0	0	0	MSS	[Not Available]	Sigmoid Colon	Colon Adenocarcinoma
+24CO005	24CO005	[Not Available]	1	1	1	1	0	0	0	MSS	[Not Available]	Sigmoid Colon	Colon Adenocarcinoma

@@ -1,7 +1,7 @@
 #PATIENT_ID	AGE	GENDER	VITAL_STATUS	TUMOR_STATUS	HISTOLOGY	TUMOR_SITE	PATHOLOGY_T_STAGE	PATHOLOGY_N_STAGE	STAGE	POLYPS_HISTORY	POLYPS_PRESENT	MUTATION_RATE	MUTATION_PHENOTYPE	INTEGRATED_PHENOTYPE
-#Patient unique identifier.	Patient age.	Patient gender.	Overal patient survival status.	Overal tumor status.	Tumor histology.	Tumor site.	Pathology T stage.	Pathology N stage.	Cancer stage.	History of polyps.	Polyps currently present.	Mutation rate of tumor.	Mutation Phenotype. Integrated phenotype.
-#STRING NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
-#1  1 1	1	1	1	1	1	1	1	1	1	1	1	1
+#Patient unique identifier.	Patient age.	Patient gender.	Overal patient survival status.	Overal tumor status.	Tumor histology.	Tumor site.	Pathology T stage.	Pathology N stage.	Cancer stage.	History of polyps.	Polyps currently present.	Mutation rate of tumor.	Mutation Phenotype.	Integrated phenotype.
+#STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
 PATIENT_ID	AGE	GENDER	VITAL_STATUS	TUMOR_STATUS	HISTOLOGY	TUMOR_SITE	PATHOLOGY_T_STAGE	PATHOLOGY_N_STAGE	STAGE	POLYPS_HISTORY	POLYPS_PRESENT	MUTATION_RATE	MUTATION_PHENOTYPE	INTEGRATED_PHENOTYPE
 01CO001	61	Male	Living	Tumor free	Mucinous	Sigmoid Colon	T4a	N2b	Stage III	No	No	4.8	MSS	Epithelial
 01CO005	70	Female	Deceased	Tumor free	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	Yes	Yes	10.4	MSS	Epithelial
