@@ -1,0 +1,6 @@
+cancer_study_identifier: nsclc_mskcc_2015
+stable_id: nsclc_mskcc_2015_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data ( 34 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: AL4602	AU5884	BL3403	CA9903	CU9061	DI6359	DM123062	FR9547	GR0134	GR4788	HE3202	JB112852	KA3947	LO3793	LO5004	M4945	MA7027	NI9507	R7495_2	RH090935	RI1933	RO3338	SA9755	SB010944	SC0899	SC6470	SR070761	TU0428	VA1330	VA7859	WA7899	Y2087	ZA6505	ZA6965
