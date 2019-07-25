@@ -1,6 +1,6 @@
 type_of_cancer: mixed
 cancer_study_identifier: pptc_2018
-name: Pediatric Preclinical Testing Consortium</a>  (Maris, 2018)
+name: Pediatric Preclinical Testing Consortium  (Maris, 2018)
 description: WES, RNA-Seq, and SNP arrays to characterize patient derived xenografts (PDXs) from high-risk childhood cancers (with no matched normals). Website: <a href='http://www.ncipptc.org/'>PPTC</a>
 short_name: PPTC (2018)
 groups: PUBLIC
