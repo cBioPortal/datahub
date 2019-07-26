@@ -1,111 +1,110 @@
 #PATIENT_ID	AGE	GENDER	OS_STATUS	OS_MONTHS	DFS_STATUS	DFS_MONTHS	HISTOLOGY	TUMOR_SITE	PATHOLOGY_T_STAGE	PATHOLOGY_N_STAGE	STAGE	POLYPS_HISTORY	POLYPS_PRESENT	MUTATION_RATE	MUTATION_PHENOTYPE	INTEGRATED_PHENOTYPE
 #Patient unique identifier.	Patient age.	Patient gender.	Overal patient survival status.	Overal patient survival months.	Overal disease free status.	veral disease free months.	Tumor histology.	Tumor site.	Pathology T stage.	Pathology N stage.	Cancer stage.	History of polyps.	Polyps currently present.	Mutation rate of tumor.	Mutation Phenotype.	Integrated phenotype.
 #STRING	NUMBER	STRING	STRING	NUMBER	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
-#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
-
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
 PATIENT_ID	AGE	GENDER	OS_STATUS	OS_MONTHS	DFS_STATUS	DFS_MONTHS	HISTOLOGY	TUMOR_SITE	PATHOLOGY_T_STAGE	PATHOLOGY_N_STAGE	STAGE	POLYPS_HISTORY	POLYPS_PRESENT	MUTATION_RATE	MUTATION_PHENOTYPE	INTEGRATED_PHENOTYPE
-01CO001	61	Male	Living	32	DiseaseFree	32	Mucinous	Sigmoid Colon	T4a	N2b	Stage III	No	No	4.8	MSS	Epithelial
-01CO005	70	Female	Deceased	44	DiseaseFree	[Not Available]	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	Yes	Yes	10.4	MSS	Epithelial
-01CO006	75	Female	Living	30	Recurred/Progressed	29	Mucinous	Ascending Colon	T4a	N2b	Stage III	No	No	1.2667	MSS	EMT
-01CO008	54	Female	Living	31	Recurred/Progressed	[Not Available]	Mucinous	Descending Colon	T3	N0	Stage II	No	Yes	1.8333	MSS	Epithelial
-01CO013	58	Male	Living	13	DiseaseFree	13	Not Mucinous	Sigmoid Colon	T2	N0	Stage I	Yes	No	29.5	MSS	Epithelial
-01CO014	78	Female	Living	31	Recurred/Progressed	32	Mucinous	Hepatix Flexure	T3	N2a	Stage III	Yes	No	39.7667	MSI-H	Hypermutated
-01CO015	89	Male	Living	31	DiseaseFree	31	Not Mucinous	Cecum	T2	N0	Stage I	Yes	Yes	6.3333	MSS	Epithelial
-01CO019	63	Female	Living	30	Recurred/Progressed	16	Mucinous	Sigmoid Colon	T4a	N2a	Stage III	No	No	5.0667	MSS	Epithelial
-01CO022	77	Female	Living	31	DiseaseFree	31	Mucinous	Cecum	T2	N0	Stage I	[Not Available]	No	79.0333	MSI-H	Hypermutated
-05CO002	[Not Available]	Female	Living	29	DiseaseFree	29	Not Mucinous	Sigmoid Colon	T2	N1a	Stage III	No	No	5.6667	MSS	EMT
-05CO003	[Not Available]	Male	Living	27	DiseaseFree	27	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	Yes	43.4667	MSI-H	Hypermutated
-05CO004	40	Female	Living	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1b	Stage III	Yes	Yes	[Not Available]	[Not Available]	[Not Available]
-05CO006	83	Female	Living	27	DiseaseFree	27	Not Mucinous	Cecum	T3	N1b	Stage III	No	No	34.8333	MSI-H	Hypermutated
-05CO007	85	Female	Living	30	DiseaseFree	30	Mucinous	Sigmoid Colon	T4a	N2b	Stage III	Yes	No	40.1667	MSI-H	Hypermutated
-05CO011	39	Male	Living	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	Yes	Yes	6.0333	MSS	Epithelial
-05CO015	74	Female	Deceased	11	DiseaseFree	[Not Available]	Not Mucinous	Ascending Colon	T3	N0	Stage II	[Not Available]	Yes	52.1667	MSI-H	Hypermutated
-05CO020	93	Female	Living	31	DiseaseFree	31	Not Mucinous	Cecum	T3	N0	Stage II	No	Yes	14.6333	MSS	Epithelial
-05CO026	70	Female	Living	26	DiseaseFree	26	Not Mucinous	Splenic Flexure	T3	N1a	Stage III	No	Yes	7.2333	MSS	Epithelial
-05CO028	61	Female	Living	27	DiseaseFree	27	Not Mucinous	Ascending Colon	T2	N0	Stage I	No	Yes	13.2667	MSS	Epithelial
-05CO029	55	Female	Living	30	DiseaseFree	30	Not Mucinous	Hepatix Flexure	T3	N0	Stage II	No	Yes	8.2333	MSS	Epithelial
-05CO032	79	Male	Living	28	DiseaseFree	28	Not Mucinous	Ascending Colon	T3	N1a	Stage III	No	Yes	41.1	MSI-H	Hypermutated
-05CO033	61	Male	Living	28	Recurred/Progressed	13	Mucinous	Cecum	T2	N2a	Stage III	Yes	Yes	8.4667	MSS	EMT
-05CO034	55	Female	Living	31	DiseaseFree	31	Not Mucinous	Cecum	T3	N1a	Stage III	No	No	5.1	MSS	Epithelial
-05CO035	64	Female	Living	30	DiseaseFree	30	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	Yes	11.9	MSS	Epithelial
-05CO037	50	Male	Living	28	DiseaseFree	28	Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	48.6667	MSI-H	Hypermutated
-05CO039	74	Male	Deceased	18	DiseaseFree	[Not Available]	Mucinous	Ascending Colon	T4a	N0	Stage II	No	No	58.5667	MSI-H	Hypermutated
-05CO041	79	Female	Living	30	DiseaseFree	30	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	92.1	MSI-H	Hypermutated
-05CO044	71	Female	Living	30	DiseaseFree	30	Not Mucinous	Descending Colon	T4a	N0	Stage II	Yes	Yes	101.6333	MSI-H	Hypermutated
-05CO045	75	Female	Living	29	DiseaseFree	29	Not Mucinous	Ascending Colon	T3	N1b	Stage III	Yes	No	9.2	MSS	Epithelial
-05CO047	56	Male	Living	29	DiseaseFree	29	Not Mucinous	Sigmoid Colon	T2	N0	Stage I	Yes	Yes	6.5	MSS	Epithelial
-05CO048	78	Female	Living	28	DiseaseFree	28	Mucinous	Ascending Colon	T4b	N2a	Stage III	No	No	43.9333	MSI-H	Hypermutated
-05CO049	88	Male	Living	27	DiseaseFree	27	Not Mucinous	Hepatix Flexure	T3	N0	Stage II	No	Yes	7.7	MSS	Epithelial
-05CO050	67	Female	Living	25	DiseaseFree	25	Mucinous	Cecum	T3	N1b	Stage III	No	Yes	83.3667	MSI-H	Hypermutated
-05CO053	52	Male	Living	30	DiseaseFree	30	Not Mucinous	Cecum	T3	N1b	Stage II	No	No	6.5	MSS	Epithelial
-05CO054	86	Male	Living	30	DiseaseFree	30	Not Mucinous	Cecum	T2	N0	Stage I	Yes	Yes	13.5333	MSS	Epithelial
-06CO001	75	Male	Living	7	Recurred/Progressed	[Not Available]	Not Mucinous	Ascending Colon	T3	N1b	Stage III	[Not Available]	[Not Available]	4.4667	MSS	Epithelial
-06CO002	73	Female	Living	27	DiseaseFree	27	Not Mucinous	Sigmoid Colon	T3	N2a	Stage III	[Not Available]	[Not Available]	7.1	MSS	EMT
-09CO005	69	Female	Living	24	[Not Available]	[Not Available]	Mucinous	Cecum	T3	N1a	Stage III	[Not Available]	Yes	6.9	MSS	Epithelial
-09CO006	87	Male	Living	3	[Not Available]	[Not Available]	[Not Available]	Ascending Colon	T2	N0	Stage I	[Not Available]	Yes	6.4333	MSS	Epithelial
-09CO008	54	Male	Living	28	DiseaseFree	28	Mucinous	Cecum	T3	N1a	Stage III	[Not Available]	Yes	8.5333	MSS	Epithelial
-09CO011	75	Female	Living	20	DiseaseFree	20	Mucinous	Cecum	T2	N0	Stage I	Yes	Yes	16.3	MSS	Epithelial
-09CO013	50	Male	Living	15	[Not Available]	[Not Available]	Mucinous	Cecum	T3	N1b	Stage III	No	Yes	6.9667	MSS	Epithelial
-09CO014	67	Male	Living	27	DiseaseFree	27	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	Yes	11.6	MSS	Epithelial
-09CO015	69	Male	Living	30	DiseaseFree	30	Not Mucinous	Cecum	T3	N1b	Stage III	No	No	6.1667	MSS	Epithelial
-09CO018	53	Female	Living	23	DiseaseFree	23	Not Mucinous	Sigmoid Colon	T2	N1a	Stage III	No	No	8.5	MSS	Epithelial
-09CO019	88	Male	Living	17	DiseaseFree	17	Not Mucinous	Hepatix Flexure	T2	N0	Stage I	No	Yes	7	MSS	Epithelial
-09CO022	72	Female	Living	26	DiseaseFree	26	Mucinous	Cecum	T4a	N0	Stage II	No	No	7.5667	MSS	Epithelial
-11CO005	66	Female	Living	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N1	Stage III	No	No	4.2	MSS	EMT
-11CO007	64	Female	Living	31	DiseaseFree	31	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	76.2333	MSI-H	Hypermutated
-11CO008	67	Female	Living	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N1	Stage III	No	No	6.7	MSS	EMT
-11CO010	59	Female	Living	31	DiseaseFree	31	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	8.7333	MSS	Epithelial
-11CO018	74	Male	Living	31	DiseaseFree	31	Not Mucinous	Hepatix Flexure	T3	N0	Stage II	No	No	72.2333	MSI-H	Hypermutated
-11CO019	74	Female	Living	31	DiseaseFree	31	Not Mucinous	Cecum	T3	N1b	Stage III	No	No	12.5	MSS	EMT
-11CO020	55	Male	Living	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1b	Stage III	No	No	10.5	MSS	Epithelial
-11CO021	75	Female	Deceased	8	Recurred/Progressed	[Not Available]	Not Mucinous	Sigmoid Colon	T3	N2a	Stage IV	No	No	6.8667	MSS	EMT
-11CO022	72	Male	Living	32	Recurred/Progressed	[Not Available]	Not Mucinous	Sigmoid Colon	T4b	N0	Stage IV	No	No	10.2	MSS	Epithelial
-11CO027	55	Female	Living	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	8.5	MSS	Epithelial
-11CO030	55	Female	Living	31	DiseaseFree	31	Not Mucinous	Descending Colon	T3	N0	Stage II	No	No	5.4667	MSS	EMT
-11CO031	54	Female	Living	32	DiseaseFree	32	Not Mucinous	Descending Colon	T3	N0	Stage II	No	No	36.2	MSI-H	Hypermutated
-11CO032	58	Male	Living	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1b	Stage III	No	No	6.6	MSS	Epithelial
-11CO033	55	Male	Living	32	DiseaseFree	32	Not Mucinous	Descending Colon	T3	N0	Stage II	No	No	73.3667	MSI-H	EMT
-11CO036	37	Male	Living	30	DiseaseFree	30	Not Mucinous	Ascending Colon	T3	N1a	Stage III	No	No	78.7333	MSI-H	Hypermutated
-11CO037	52	Female	Living	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1b	Stage III	No	No	7.8333	MSS	EMT
-11CO039	68	Female	Living	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	9.0667	MSS	Epithelial
-11CO042	71	Male	Living	31	DiseaseFree	31	Not Mucinous	Splenic Flexure	T3	N0	Stage II	No	No	8.9	MSS	Epithelial
-11CO043	67	Female	Living	31	DiseaseFree	31	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	6.3667	MSS	Epithelial
-11CO044	69	Female	Deceased	20	Recurred/Progressed	[Not Available]	Not Mucinous	Ascending Colon	T3	N1a	Stage IV	No	No	9.0333	MSS	Epithelial
-11CO045	71	Female	Living	32	DiseaseFree	32	Not Mucinous	Cecum	T3	N1b	Stage III	No	No	11.5333	MSS	EMT
-11CO047	65	Male	Living	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	6.0333	MSS	Epithelial
-11CO048	64	Male	Living	32	DiseaseFree	32	Mucinous	Cecum	T3	N0	Stage II	No	No	13.3333	MSS	EMT
-11CO051	61	Female	Living	35	DiseaseFree	35	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	44.8667	MSI-H	Hypermutated
-11CO052	66	Female	Deceased	18	Recurred/Progressed	9	Not Mucinous	Cecum	T3	N2a	Stage III	No	No	9.3333	MSS	EMT
-11CO053	64	Female	Living	34	DiseaseFree	34	Not Mucinous	Descending Colon	T3	N0	Stage II	No	No	12.1	MSS	Epithelial
-11CO054	66	Female	Living	34	DiseaseFree	34	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	6.7	MSS	Epithelial
-11CO057	74	Male	Living	33	DiseaseFree	33	Not Mucinous	Ascending Colon	T3	N1	Stage III	No	No	7.4	MSS	Epithelial
-11CO058	56	Female	Living	33	DiseaseFree	33	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	5.0667	MSS	EMT
-11CO060	72	Female	Living	33	DiseaseFree	33	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	7.0667	MSS	Epithelial
-11CO061	48	Female	Living	32	DiseaseFree	32	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	35.9667	MSI-H	Hypermutated
-11CO062	75	Male	Living	32	DiseaseFree	32	Not Mucinous	Ascending Colon	T3	N0	Stage IV	No	No	6.8667	MSS	Epithelial
-11CO070	35	Male	Living	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1b	Stage III	No	No	462.2667	[Not Available]	EMT
-11CO072	65	Female	Living	11	DiseaseFree	11	Not Mucinous	Descending Colon	T3	N1b	Stage III	No	No	16.6333	MSS	Epithelial
-11CO077	68	Male	Living	32	Recurred/Progressed	31	Not Mucinous	Descending Colon	T3	N0	Stage II	No	No	7.5	MSS	EMT
-11CO079	75	Female	Living	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1	Stage III	No	No	6.3333	MSS	Epithelial
-14CO002	63	Male	Living	1	DiseaseFree	1	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	Yes	No	6.4	MSS	Epithelial
-14CO003	75	Female	Living	42	DiseaseFree	42	Mucinous	Tranverse Colon	T3	N2b	Stage III	Yes	No	32.8667	MSI-H	Hypermutated
-14CO005	75	Female	Living	39	DiseaseFree	39	Mucinous	Cecum	T3	N0	Stage II	No	No	11.5333	MSS	Epithelial
-15CO001	57	Female	Living	29	DiseaseFree	29	Mucinous	Sigmoid Colon	T3	N1a	Stage III	No	No	6.1	MSS	Epithelial
-15CO002	53	Female	Living	27	DiseaseFree	27	Not Mucinous	Hepatix Flexure	T4a	N0	Stage II	Yes	No	5.6667	MSS	Epithelial
-16CO002	68	Male	Living	35	DiseaseFree	35	Not Mucinous	Splenic Flexure	T3	N1	Stage III	No	No	4.3667	MSS	Epithelial
-16CO003	63	Female	Living	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	7.7667	MSS	EMT
-16CO006	64	Male	Living	15	Recurred/Progressed	[Not Available]	Not Mucinous	Hepatix Flexure	T3	N0	Stage IV	No	No	8	MSS	Epithelial
-16CO011	59	Male	Living	35	DiseaseFree	35	Not Mucinous	Ascending Colon	T3	N1	Stage III	No	No	8.6333	MSS	EMT
-20CO001	54	Female	Living	29	DiseaseFree	29	Not Mucinous	Ascending Colon	T3	N1a	Stage III	[Not Available]	No	8.3667	MSS	EMT
-20CO003	60	Female	Deceased	26	Recurred/Progressed	[Not Available]	Not Mucinous	Descending Colon	T4a	N1b	Stage IV	[Not Available]	No	76.6333	MSI-H	EMT
-20CO004	56	Male	Living	29	Recurred/Progressed	[Not Available]	Not Mucinous	Cecum	T4a	N2b	Stage III	[Not Available]	No	7.9667	MSS	Epithelial
-20CO006	58	Male	Living	26	Recurred/Progressed	[Not Available]	Not Mucinous	Cecum	T3	N1a	Stage IV	[Not Available]	Yes	[Not Available]	[Not Available]	Epithelial
-20CO007	55	Male	Living	23	DiseaseFree	23	Not Mucinous	Descending Colon	T3	N0	Stage II	Yes	Yes	35.9333	MSS	Epithelial
-21CO006	76	Male	Living	31	[Not Available]	[Not Available]	Not Mucinous	Sigmoid Colon	T2	N0	Stage I	Yes	Yes	6.3333	MSS	EMT
-21CO007	50	Male	Living	23	[Not Available]	[Not Available]	Not Mucinous	Sigmoid Colon	T4a	N2a	Stage IV	No	[Not Available]	7.8	MSS	Epithelial
-22CO004	52	Male	Living	29	DiseaseFree	29	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	Yes	Yes	7.2333	MSS	Epithelial
-22CO006	57	Female	Deceased	28	Recurred/Progressed	22	Not Mucinous	Ascending Colon	T3	N2b	Stage III	[Not Available]	No	44.8333	MSI-H	EMT
-27CO004	51	Female	Living	36	DiseaseFree	36	Not Mucinous	Cecum	T3	N2a	Stage III	[Not Available]	No	5.2333	MSS	EMT
+01CO001	61	Male	LIVING	32	DiseaseFree	32	Mucinous	Sigmoid Colon	T4a	N2b	Stage III	No	No	4.8	MSS	Epithelial
+01CO005	70	Female	DECEASED	44	DiseaseFree	[Not Available]	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	Yes	Yes	10.4	MSS	Epithelial
+01CO006	75	Female	LIVING	30	Recurred/Progressed	29	Mucinous	Ascending Colon	T4a	N2b	Stage III	No	No	1.2667	MSS	EMT
+01CO008	54	Female	LIVING	31	Recurred/Progressed	[Not Available]	Mucinous	Descending Colon	T3	N0	Stage II	No	Yes	1.8333	MSS	Epithelial
+01CO013	58	Male	LIVING	13	DiseaseFree	13	Not Mucinous	Sigmoid Colon	T2	N0	Stage I	Yes	No	29.5	MSS	Epithelial
+01CO014	78	Female	LIVING	31	Recurred/Progressed	32	Mucinous	Hepatix Flexure	T3	N2a	Stage III	Yes	No	39.7667	MSI-H	Hypermutated
+01CO015	89	Male	LIVING	31	DiseaseFree	31	Not Mucinous	Cecum	T2	N0	Stage I	Yes	Yes	6.3333	MSS	Epithelial
+01CO019	63	Female	LIVING	30	Recurred/Progressed	16	Mucinous	Sigmoid Colon	T4a	N2a	Stage III	No	No	5.0667	MSS	Epithelial
+01CO022	77	Female	LIVING	31	DiseaseFree	31	Mucinous	Cecum	T2	N0	Stage I	[Not Available]	No	79.0333	MSI-H	Hypermutated
+05CO002	[Not Available]	Female	LIVING	29	DiseaseFree	29	Not Mucinous	Sigmoid Colon	T2	N1a	Stage III	No	No	5.6667	MSS	EMT
+05CO003	[Not Available]	Male	LIVING	27	DiseaseFree	27	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	Yes	43.4667	MSI-H	Hypermutated
+05CO004	40	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1b	Stage III	Yes	Yes	[Not Available]	[Not Available]	[Not Available]
+05CO006	83	Female	LIVING	27	DiseaseFree	27	Not Mucinous	Cecum	T3	N1b	Stage III	No	No	34.8333	MSI-H	Hypermutated
+05CO007	85	Female	LIVING	30	DiseaseFree	30	Mucinous	Sigmoid Colon	T4a	N2b	Stage III	Yes	No	40.1667	MSI-H	Hypermutated
+05CO011	39	Male	LIVING	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	Yes	Yes	6.0333	MSS	Epithelial
+05CO015	74	Female	DECEASED	11	DiseaseFree	[Not Available]	Not Mucinous	Ascending Colon	T3	N0	Stage II	[Not Available]	Yes	52.1667	MSI-H	Hypermutated
+05CO020	93	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Cecum	T3	N0	Stage II	No	Yes	14.6333	MSS	Epithelial
+05CO026	70	Female	LIVING	26	DiseaseFree	26	Not Mucinous	Splenic Flexure	T3	N1a	Stage III	No	Yes	7.2333	MSS	Epithelial
+05CO028	61	Female	LIVING	27	DiseaseFree	27	Not Mucinous	Ascending Colon	T2	N0	Stage I	No	Yes	13.2667	MSS	Epithelial
+05CO029	55	Female	LIVING	30	DiseaseFree	30	Not Mucinous	Hepatix Flexure	T3	N0	Stage II	No	Yes	8.2333	MSS	Epithelial
+05CO032	79	Male	LIVING	28	DiseaseFree	28	Not Mucinous	Ascending Colon	T3	N1a	Stage III	No	Yes	41.1	MSI-H	Hypermutated
+05CO033	61	Male	LIVING	28	Recurred/Progressed	13	Mucinous	Cecum	T2	N2a	Stage III	Yes	Yes	8.4667	MSS	EMT
+05CO034	55	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Cecum	T3	N1a	Stage III	No	No	5.1	MSS	Epithelial
+05CO035	64	Female	LIVING	30	DiseaseFree	30	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	Yes	11.9	MSS	Epithelial
+05CO037	50	Male	LIVING	28	DiseaseFree	28	Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	48.6667	MSI-H	Hypermutated
+05CO039	74	Male	DECEASED	18	DiseaseFree	[Not Available]	Mucinous	Ascending Colon	T4a	N0	Stage II	No	No	58.5667	MSI-H	Hypermutated
+05CO041	79	Female	LIVING	30	DiseaseFree	30	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	92.1	MSI-H	Hypermutated
+05CO044	71	Female	LIVING	30	DiseaseFree	30	Not Mucinous	Descending Colon	T4a	N0	Stage II	Yes	Yes	101.6333	MSI-H	Hypermutated
+05CO045	75	Female	LIVING	29	DiseaseFree	29	Not Mucinous	Ascending Colon	T3	N1b	Stage III	Yes	No	9.2	MSS	Epithelial
+05CO047	56	Male	LIVING	29	DiseaseFree	29	Not Mucinous	Sigmoid Colon	T2	N0	Stage I	Yes	Yes	6.5	MSS	Epithelial
+05CO048	78	Female	LIVING	28	DiseaseFree	28	Mucinous	Ascending Colon	T4b	N2a	Stage III	No	No	43.9333	MSI-H	Hypermutated
+05CO049	88	Male	LIVING	27	DiseaseFree	27	Not Mucinous	Hepatix Flexure	T3	N0	Stage II	No	Yes	7.7	MSS	Epithelial
+05CO050	67	Female	LIVING	25	DiseaseFree	25	Mucinous	Cecum	T3	N1b	Stage III	No	Yes	83.3667	MSI-H	Hypermutated
+05CO053	52	Male	LIVING	30	DiseaseFree	30	Not Mucinous	Cecum	T3	N1b	Stage II	No	No	6.5	MSS	Epithelial
+05CO054	86	Male	LIVING	30	DiseaseFree	30	Not Mucinous	Cecum	T2	N0	Stage I	Yes	Yes	13.5333	MSS	Epithelial
+06CO001	75	Male	LIVING	7	Recurred/Progressed	[Not Available]	Not Mucinous	Ascending Colon	T3	N1b	Stage III	[Not Available]	[Not Available]	4.4667	MSS	Epithelial
+06CO002	73	Female	LIVING	27	DiseaseFree	27	Not Mucinous	Sigmoid Colon	T3	N2a	Stage III	[Not Available]	[Not Available]	7.1	MSS	EMT
+09CO005	69	Female	LIVING	24	[Not Available]	[Not Available]	Mucinous	Cecum	T3	N1a	Stage III	[Not Available]	Yes	6.9	MSS	Epithelial
+09CO006	87	Male	LIVING	3	[Not Available]	[Not Available]	[Not Available]	Ascending Colon	T2	N0	Stage I	[Not Available]	Yes	6.4333	MSS	Epithelial
+09CO008	54	Male	LIVING	28	DiseaseFree	28	Mucinous	Cecum	T3	N1a	Stage III	[Not Available]	Yes	8.5333	MSS	Epithelial
+09CO011	75	Female	LIVING	20	DiseaseFree	20	Mucinous	Cecum	T2	N0	Stage I	Yes	Yes	16.3	MSS	Epithelial
+09CO013	50	Male	LIVING	15	[Not Available]	[Not Available]	Mucinous	Cecum	T3	N1b	Stage III	No	Yes	6.9667	MSS	Epithelial
+09CO014	67	Male	LIVING	27	DiseaseFree	27	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	Yes	11.6	MSS	Epithelial
+09CO015	69	Male	LIVING	30	DiseaseFree	30	Not Mucinous	Cecum	T3	N1b	Stage III	No	No	6.1667	MSS	Epithelial
+09CO018	53	Female	LIVING	23	DiseaseFree	23	Not Mucinous	Sigmoid Colon	T2	N1a	Stage III	No	No	8.5	MSS	Epithelial
+09CO019	88	Male	LIVING	17	DiseaseFree	17	Not Mucinous	Hepatix Flexure	T2	N0	Stage I	No	Yes	7	MSS	Epithelial
+09CO022	72	Female	LIVING	26	DiseaseFree	26	Mucinous	Cecum	T4a	N0	Stage II	No	No	7.5667	MSS	Epithelial
+11CO005	66	Female	LIVING	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N1	Stage III	No	No	4.2	MSS	EMT
+11CO007	64	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	76.2333	MSI-H	Hypermutated
+11CO008	67	Female	LIVING	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N1	Stage III	No	No	6.7	MSS	EMT
+11CO010	59	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	8.7333	MSS	Epithelial
+11CO018	74	Male	LIVING	31	DiseaseFree	31	Not Mucinous	Hepatix Flexure	T3	N0	Stage II	No	No	72.2333	MSI-H	Hypermutated
+11CO019	74	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Cecum	T3	N1b	Stage III	No	No	12.5	MSS	EMT
+11CO020	55	Male	LIVING	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1b	Stage III	No	No	10.5	MSS	Epithelial
+11CO021	75	Female	DECEASED	8	Recurred/Progressed	[Not Available]	Not Mucinous	Sigmoid Colon	T3	N2a	Stage IV	No	No	6.8667	MSS	EMT
+11CO022	72	Male	LIVING	32	Recurred/Progressed	[Not Available]	Not Mucinous	Sigmoid Colon	T4b	N0	Stage IV	No	No	10.2	MSS	Epithelial
+11CO027	55	Female	LIVING	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	8.5	MSS	Epithelial
+11CO030	55	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Descending Colon	T3	N0	Stage II	No	No	5.4667	MSS	EMT
+11CO031	54	Female	LIVING	32	DiseaseFree	32	Not Mucinous	Descending Colon	T3	N0	Stage II	No	No	36.2	MSI-H	Hypermutated
+11CO032	58	Male	LIVING	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1b	Stage III	No	No	6.6	MSS	Epithelial
+11CO033	55	Male	LIVING	32	DiseaseFree	32	Not Mucinous	Descending Colon	T3	N0	Stage II	No	No	73.3667	MSI-H	EMT
+11CO036	37	Male	LIVING	30	DiseaseFree	30	Not Mucinous	Ascending Colon	T3	N1a	Stage III	No	No	78.7333	MSI-H	Hypermutated
+11CO037	52	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1b	Stage III	No	No	7.8333	MSS	EMT
+11CO039	68	Female	LIVING	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	9.0667	MSS	Epithelial
+11CO042	71	Male	LIVING	31	DiseaseFree	31	Not Mucinous	Splenic Flexure	T3	N0	Stage II	No	No	8.9	MSS	Epithelial
+11CO043	67	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	6.3667	MSS	Epithelial
+11CO044	69	Female	DECEASED	20	Recurred/Progressed	[Not Available]	Not Mucinous	Ascending Colon	T3	N1a	Stage IV	No	No	9.0333	MSS	Epithelial
+11CO045	71	Female	LIVING	32	DiseaseFree	32	Not Mucinous	Cecum	T3	N1b	Stage III	No	No	11.5333	MSS	EMT
+11CO047	65	Male	LIVING	32	DiseaseFree	32	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	6.0333	MSS	Epithelial
+11CO048	64	Male	LIVING	32	DiseaseFree	32	Mucinous	Cecum	T3	N0	Stage II	No	No	13.3333	MSS	EMT
+11CO051	61	Female	LIVING	35	DiseaseFree	35	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	44.8667	MSI-H	Hypermutated
+11CO052	66	Female	DECEASED	18	Recurred/Progressed	9	Not Mucinous	Cecum	T3	N2a	Stage III	No	No	9.3333	MSS	EMT
+11CO053	64	Female	LIVING	34	DiseaseFree	34	Not Mucinous	Descending Colon	T3	N0	Stage II	No	No	12.1	MSS	Epithelial
+11CO054	66	Female	LIVING	34	DiseaseFree	34	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	6.7	MSS	Epithelial
+11CO057	74	Male	LIVING	33	DiseaseFree	33	Not Mucinous	Ascending Colon	T3	N1	Stage III	No	No	7.4	MSS	Epithelial
+11CO058	56	Female	LIVING	33	DiseaseFree	33	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	5.0667	MSS	EMT
+11CO060	72	Female	LIVING	33	DiseaseFree	33	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	7.0667	MSS	Epithelial
+11CO061	48	Female	LIVING	32	DiseaseFree	32	Not Mucinous	Ascending Colon	T3	N0	Stage II	No	No	35.9667	MSI-H	Hypermutated
+11CO062	75	Male	LIVING	32	DiseaseFree	32	Not Mucinous	Ascending Colon	T3	N0	Stage IV	No	No	6.8667	MSS	Epithelial
+11CO070	35	Male	LIVING	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1b	Stage III	No	No	462.2667	[Not Available]	EMT
+11CO072	65	Female	LIVING	11	DiseaseFree	11	Not Mucinous	Descending Colon	T3	N1b	Stage III	No	No	16.6333	MSS	Epithelial
+11CO077	68	Male	LIVING	32	Recurred/Progressed	31	Not Mucinous	Descending Colon	T3	N0	Stage II	No	No	7.5	MSS	EMT
+11CO079	75	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N1	Stage III	No	No	6.3333	MSS	Epithelial
+14CO002	63	Male	LIVING	1	DiseaseFree	1	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	Yes	No	6.4	MSS	Epithelial
+14CO003	75	Female	LIVING	42	DiseaseFree	42	Mucinous	Tranverse Colon	T3	N2b	Stage III	Yes	No	32.8667	MSI-H	Hypermutated
+14CO005	75	Female	LIVING	39	DiseaseFree	39	Mucinous	Cecum	T3	N0	Stage II	No	No	11.5333	MSS	Epithelial
+15CO001	57	Female	LIVING	29	DiseaseFree	29	Mucinous	Sigmoid Colon	T3	N1a	Stage III	No	No	6.1	MSS	Epithelial
+15CO002	53	Female	LIVING	27	DiseaseFree	27	Not Mucinous	Hepatix Flexure	T4a	N0	Stage II	Yes	No	5.6667	MSS	Epithelial
+16CO002	68	Male	LIVING	35	DiseaseFree	35	Not Mucinous	Splenic Flexure	T3	N1	Stage III	No	No	4.3667	MSS	Epithelial
+16CO003	63	Female	LIVING	31	DiseaseFree	31	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	No	No	7.7667	MSS	EMT
+16CO006	64	Male	LIVING	15	Recurred/Progressed	[Not Available]	Not Mucinous	Hepatix Flexure	T3	N0	Stage IV	No	No	8	MSS	Epithelial
+16CO011	59	Male	LIVING	35	DiseaseFree	35	Not Mucinous	Ascending Colon	T3	N1	Stage III	No	No	8.6333	MSS	EMT
+20CO001	54	Female	LIVING	29	DiseaseFree	29	Not Mucinous	Ascending Colon	T3	N1a	Stage III	[Not Available]	No	8.3667	MSS	EMT
+20CO003	60	Female	DECEASED	26	Recurred/Progressed	[Not Available]	Not Mucinous	Descending Colon	T4a	N1b	Stage IV	[Not Available]	No	76.6333	MSI-H	EMT
+20CO004	56	Male	LIVING	29	Recurred/Progressed	[Not Available]	Not Mucinous	Cecum	T4a	N2b	Stage III	[Not Available]	No	7.9667	MSS	Epithelial
+20CO006	58	Male	LIVING	26	Recurred/Progressed	[Not Available]	Not Mucinous	Cecum	T3	N1a	Stage IV	[Not Available]	Yes	[Not Available]	[Not Available]	Epithelial
+20CO007	55	Male	LIVING	23	DiseaseFree	23	Not Mucinous	Descending Colon	T3	N0	Stage II	Yes	Yes	35.9333	MSS	Epithelial
+21CO006	76	Male	LIVING	31	[Not Available]	[Not Available]	Not Mucinous	Sigmoid Colon	T2	N0	Stage I	Yes	Yes	6.3333	MSS	EMT
+21CO007	50	Male	LIVING	23	[Not Available]	[Not Available]	Not Mucinous	Sigmoid Colon	T4a	N2a	Stage IV	No	[Not Available]	7.8	MSS	Epithelial
+22CO004	52	Male	LIVING	29	DiseaseFree	29	Not Mucinous	Sigmoid Colon	T3	N0	Stage II	Yes	Yes	7.2333	MSS	Epithelial
+22CO006	57	Female	DECEASED	28	Recurred/Progressed	22	Not Mucinous	Ascending Colon	T3	N2b	Stage III	[Not Available]	No	44.8333	MSI-H	EMT
+27CO004	51	Female	LIVING	36	DiseaseFree	36	Not Mucinous	Cecum	T3	N2a	Stage III	[Not Available]	No	5.2333	MSS	EMT
 05CO005	62	Male	[Not Available]	[Not Available]	[Not Available]	[Not Available]	Not Mucinous	Sigmoid Colon	T2	N0	Stage I	No	No	14.0667	MSS	Epithelial
 05CO014	73	Female	[Not Available]	[Not Available]	[Not Available]	[Not Available]	Not Mucinous	[Not Available]	T3	N1b	Stage III	Yes	No	5.2	MSS	Epithelial
 05CO055	54	Female	[Not Available]	[Not Available]	[Not Available]	[Not Available]	Not Mucinous	Sigmoid Colon	T4a	N2b	Stage III	No	No	9.2667	MSS	Epithelial
