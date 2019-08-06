@@ -1,0 +1,8 @@
+cancer_study_identifier: nsclc_mskcc_2015
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_name: Mutations
+profile_description: Mutations data from whole-exome sequencing of 16 NSCLC tumor/normal pairs.
+data_filename: data_mutations_extended.txt
