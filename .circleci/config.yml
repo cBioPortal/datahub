@@ -78,7 +78,7 @@ jobs:
           name: check if all studies imported on cbioportal.org
           command: |
             cd ~/repo/.circleci
-            ./check_all_studies_imported.py
+            python check_all_studies_imported.py
 
 # Workflow containing the different jobs
 workflows:
