@@ -1,0 +1,115 @@
+#PATIENT_ID	SAMPLE_ID	SPECIMEN_PRESERVATION	SEQUENCED	COPY_NUMBER	MRNA_DATA	MICRORNA_DATA	METHYLATION_STATUS	PROTEIN	PHOSPHOPROTEIN	MSI_STATUS	PATHOLOGY_STATUS	PRIMARY_SITE	CANCER_TYPE
+#Patient unique identifier.	Sample tissue identifier.	Specimen preservation method.	Sequenced.	Copy number.	mRNA.	microRNA.	Methylation status.	Protein data.	Phosphoprotein data.	MSI data.	Pathology report.	Site of tumor.	Cancer type.
+#STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SPECIMEN_PRESERVATION	SEQUENCED	COPY_NUMBER	MRNA_DATA	MICRORNA_DATA	METHYLATION_STATUS	PROTEIN	PHOSPHOPROTEIN	MSI_STATUS	PATHOLOGY_STATUS	PRIMARY_SITE	CANCER_TYPE
+01CO001	01CO001	Frozen Tissue	1	1	1	1	0	0	0	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+01CO005	01CO005	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+01CO006	01CO006	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+01CO008	01CO008	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+01CO013	01CO013	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+01CO014	01CO014	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+01CO015	01CO015	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+01CO019	01CO019	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+01CO022	01CO022	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Colon Adenocarcinoma
+05CO002	05CO002	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO003	05CO003	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO004	05CO004	Frozen Tissue	0	0	0	0	0	0	0	[Not Available]	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO006	05CO006	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Colon Adenocarcinoma
+05CO007	05CO007	Frozen Tissue	1	1	1	0	0	0	0	MSI-H	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO011	05CO011	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO015	05CO015	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO020	05CO020	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+05CO026	05CO026	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Colon Adenocarcinoma
+05CO028	05CO028	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO029	05CO029	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+05CO032	05CO032	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO033	05CO033	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+05CO034	05CO034	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+05CO035	05CO035	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO037	05CO037	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO039	05CO039	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO041	05CO041	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO044	05CO044	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Colon Adenocarcinoma
+05CO045	05CO045	Frozen Tissue	1	0	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO047	05CO047	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+05CO048	05CO048	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+05CO049	05CO049	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+05CO050	05CO050	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Cecum	Colon Adenocarcinoma
+05CO053	05CO053	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+05CO054	05CO054	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+06CO001	06CO001	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+06CO002	06CO002	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+09CO005	09CO005	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+09CO006	09CO006	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+09CO008	09CO008	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+09CO011	09CO011	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+09CO013	09CO013	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+09CO014	09CO014	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+09CO015	09CO015	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+09CO018	09CO018	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+09CO019	09CO019	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+09CO022	09CO022	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+11CO005	11CO005	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO007	11CO007	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO008	11CO008	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO010	11CO010	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO018	11CO018	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+11CO019	11CO019	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+11CO020	11CO020	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO021	11CO021	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO022	11CO022	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO027	11CO027	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO030	11CO030	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO031	11CO031	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO032	11CO032	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO033	11CO033	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO036	11CO036	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO037	11CO037	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO039	11CO039	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO042	11CO042	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Colon Adenocarcinoma
+11CO043	11CO043	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO044	11CO044	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO045	11CO045	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+11CO047	11CO047	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO048	11CO048	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+11CO051	11CO051	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO052	11CO052	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+11CO053	11CO053	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO054	11CO054	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO057	11CO057	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO058	11CO058	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO060	11CO060	Frozen Tissue	1	1	1	1	0	0	0	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO061	11CO061	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO062	11CO062	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+11CO070	11CO070	Frozen Tissue	1	1	1	1	0	1	1	[Not Available]	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+11CO072	11CO072	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO077	11CO077	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+11CO079	11CO079	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+13CO001	13CO001	Frozen Tissue	0	0	0	0	0	0	0	[Not Available]	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+14CO001	14CO001	Frozen Tissue	0	0	0	0	0	0	0	[Not Available]	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+14CO002	14CO002	Frozen Tissue	1	1	1	1	0	0	0	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+14CO003	14CO003	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Tranverse Colon	Colon Adenocarcinoma
+14CO005	14CO005	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+15CO001	15CO001	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+15CO002	15CO002	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+16CO002	16CO002	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Splenic Flexure	Colon Adenocarcinoma
+16CO003	16CO003	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+16CO006	16CO006	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Hepatix Flexure	Colon Adenocarcinoma
+16CO011	16CO011	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+20CO001	20CO001	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Ascending Colon	Colon Adenocarcinoma
+20CO003	20CO003	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Descending Colon	Colon Adenocarcinoma
+20CO004	20CO004	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+20CO006	20CO006	Frozen Tissue	0	0	0	0	0	1	1	[Not Available]	Malignant	Cecum	Colon Adenocarcinoma
+20CO007	20CO007	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Descending Colon	Colon Adenocarcinoma
+21CO006	21CO006	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+21CO007	21CO007	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+22CO004	22CO004	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Sigmoid Colon	Colon Adenocarcinoma
+22CO006	22CO006	Frozen Tissue	1	1	1	1	0	1	1	MSI-H	Malignant	Ascending Colon	Colon Adenocarcinoma
+27CO004	27CO004	Frozen Tissue	1	1	1	1	0	1	1	MSS	Malignant	Cecum	Colon Adenocarcinoma
+05CO005	05CO005	[Not Available]	1	1	1	1	0	0	0	MSS	[Not Available]	Sigmoid Colon	Colon Adenocarcinoma
+05CO014	05CO014	[Not Available]	1	1	1	1	0	0	0	MSS	[Not Available]	[Not Available]	Colon Adenocarcinoma
+05CO055	05CO055	[Not Available]	1	1	1	1	0	0	0	MSS	[Not Available]	Sigmoid Colon	Colon Adenocarcinoma
+11CO059	11CO059	[Not Available]	1	1	1	1	0	0	0	MSI-H	[Not Available]	Ascending Colon	Colon Adenocarcinoma
+16CO012	16CO012	[Not Available]	1	1	1	1	0	0	0	MSS	[Not Available]	Sigmoid Colon	Colon Adenocarcinoma
+24CO005	24CO005	[Not Available]	1	1	1	1	0	0	0	MSS	[Not Available]	Sigmoid Colon	Colon Adenocarcinoma
