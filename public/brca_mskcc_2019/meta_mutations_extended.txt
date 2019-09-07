@@ -5,3 +5,4 @@ profile_description: IMPACT341 sequencing of tumor/normal samples
 genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
 data_filename: data_mutations_extended.txt
+show_profile_in_analysis_tab: true
