@@ -1,7 +1,7 @@
 cancer_study_identifier: prad_mskcc
 stable_id: mrna_zbynorm
 profile_name: mRNA Expression Z-Scores vs Normals
-profile_description: mRNA Z-Scores compared to expression in normal prostate samples
+profile_description: mRNA Z-Scores compared to expression in all tumor samples.
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 data_filename: data_mRNA_median_Zscores.txt
