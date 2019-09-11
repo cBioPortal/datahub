@@ -67,6 +67,19 @@ jobs:
             cd ~/repo/.circleci
             ./check_changed_seed.sh
 
+  # Check if all studies on datahub are imported in cbioportal.org
+  check_all_studies_imported:
+    docker:
+      - image: circleci/python:3.4
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: check if all studies imported on cbioportal.org
+          command: |
+            cd ~/repo/.circleci
+            python check_all_studies_imported.py
+
 # Workflow containing the different jobs
 workflows:
   version: 2
@@ -83,6 +96,18 @@ workflows:
           filters:
             branches:
               ignore: master
+
+  # Workflow to run daily, only on the master branch
+  workflow_daily:
+    triggers:
+      - schedule:
+          cron: "0 16 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - check_all_studies_imported
 
   # Workflow to run weekly, only on the master branch
   workflow_weekly:
