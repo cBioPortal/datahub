@@ -1,7 +1,7 @@
 type_of_cancer: aodg
 cancer_study_identifier: odg_msk_2017
 name: Anaplastic Oligodendroglioma and Anaplastic Oligoastrocytoma (MSKCC, Neuro Oncol 2017)
-description: Genomic characterization using next generation sequencing (NGS) in 22 Anaplastic Oligodendroglioma and Anaplastic Oligoastrocytomas.
+description: IMPACT sequencing of 22 Anaplastic Oligodendroglioma and Anaplastic Oligoastrocytomas.
 citation: Thomas et al. Neuro Oncol 2017
 pmid: 28472509 
 groups: PUBLIC
