@@ -2,7 +2,7 @@ type_of_cancer: egc
 cancer_study_identifier: egc_msk_2017
 name: Metastatic Esophagogastric Cancer (MSKCC, Cancer Discovery 2017)
 short_name: EGC (MSK 2017)
-description: Prospective genomic profiling of 341 samples from 305 metastatic esophagogastric cancer patients
+description: Targeted sequencing of 341 samples from 305 metastatic esophagogastric cancer patients
 citation: Janjigian et al. Cancer Discov 2017
 groups: PUBLIC
 pmid: 29122777
