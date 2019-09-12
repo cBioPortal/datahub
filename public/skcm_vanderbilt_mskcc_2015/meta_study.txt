@@ -2,5 +2,5 @@ type_of_cancer: skcm
 cancer_study_identifier: skcm_vanderbilt_mskcc_2015
 name: Metastatic Melanoma (MSKCC, JCO Precis Oncol 2017)
 short_name: SKCM (Vanderbilt/Mskcc)
-description: Next generation sequencing (NGS) of pre-treatment tumor to identify co-altered genes that predict for intrinsic resistance to BRAF inhibitor therapy in melanoma patients as a prelude to rational combination strategies.
+description: Targeted sequencing of pre-treatment 66 Melanoma tumor samples.
 groups: PUBLIC
