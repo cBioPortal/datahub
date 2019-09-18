@@ -2,7 +2,7 @@ type_of_cancer: prad
 cancer_study_identifier: prad_mskcc_2017
 name: Prostate Cancer (MSKCC, JCO Precis Oncol 2017)
 short_name: MSK-IMPACT Prostate
-description: Targeted sequencing of 504 prostate cancer tumor/normal pairs via MSK-IMPACT.
+description: IMPACT sequencing of 504 prostate cancer tumor/normal pairs.
 groups: PUBLIC
 citation: Abida et al. JCO Precis Oncol 2017
 pmid: 28825054
