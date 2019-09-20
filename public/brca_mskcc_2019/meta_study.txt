@@ -1,0 +1,6 @@
+type_of_cancer: brca
+cancer_study_identifier: brca_mskcc_2019
+name: Breast Cancer (MSKCC, 2019)
+description: Targeted Sequencing of buparlisib + letrozole and alpelisib + letrozole-treated metastatic ER+ unmatched breast tumors.
+groups: COMPONC;SOLITD;PUBLIC
+short_name: BRCA (MSKCC 2019)
