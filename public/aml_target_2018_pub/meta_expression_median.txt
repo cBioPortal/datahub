@@ -3,6 +3,6 @@ stable_id: mrna
 profile_name: mRNA expression (microarray)
 profile_description: mRNA expression levels (Affymetrix microarray)
 genetic_alteration_type: MRNA_EXPRESSION
-datatype: Z-SCORE
+datatype: CONTINUOUS
 show_profile_in_analysis_tab: false
 data_filename:data_expression_median.txt
