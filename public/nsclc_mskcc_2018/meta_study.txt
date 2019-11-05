@@ -1,0 +1,7 @@
+type_of_cancer: nsclc
+cancer_study_identifier: nsclc_mskcc_2018
+name: Non-Small Cell Lung Cancer (MSK, Cancer Cell 2018)
+short_name: NSCLC (MSKCC 2018)
+description: Whole-exome sequencing of 75 tumor/normal NSCLC pairs treated with PD-1 plus CTLA-4 blockade..
+pmid: 29657128
+citation: Hellmann et al. Cancer Cell 2018
