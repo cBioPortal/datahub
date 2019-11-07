@@ -18,6 +18,10 @@ git lfs install --skip-smudge
 # Clone datahub master branch
 cd ~/
 git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
+# Print head of cloned repository
+cd cbioportal
+git log -1
+cd ..
 # install validator dependencies
 sudo pip install -r cbioportal/requirements.txt
 
