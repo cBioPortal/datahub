@@ -20,8 +20,9 @@ cd ~/
 git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
 # Print head of cloned repository
 cd cbioportal
+pwd
 git log -1
-cd ..
+cd ~/
 # install validator dependencies
 sudo pip install -r cbioportal/requirements.txt
 
