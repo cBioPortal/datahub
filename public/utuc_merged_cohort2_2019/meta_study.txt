@@ -1,5 +1,0 @@
-type_of_cancer: utuc
-cancer_study_identifier: utuc_merged_cohort2_2019
-name: UTUC Merged Cohort 2
-short_name: UTUC Cohort 2 (IMPACT + CMO)
-description: IMPACT sequencing of 78 UTUC samples.
