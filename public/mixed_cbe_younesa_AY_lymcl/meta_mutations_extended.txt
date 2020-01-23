@@ -1,0 +1,6 @@
+cancer_study_identifier: mixed_cbe_younesa_AY_lymcl
+stable_id: mixed_cbe_younesa_AY_lymcl_mutations
+profile_name: Mutations
+profile_description: HemePACT_v3 sequencing of tumor/normal samples
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF

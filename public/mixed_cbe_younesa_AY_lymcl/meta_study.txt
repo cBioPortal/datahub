@@ -1,0 +1,7 @@
+type_of_cancer: mixed
+cancer_study_identifier: mixed_cbe_younesa_AY_lymcl
+name: Characterization of Lymphoma Cell Lines Using HemePACT - Younes (CMO AY_lymcl [05270])
+date_of_last_update: 2019-05-05
+description: This project is a molecular characterization screening of a series of lymphoma cell lines using HemePACT_v3. (updated on 2019-05-05) (ver v_2.0.2-2-g3c5ad5c; BATCHES: B,D,F,H,J)
+groups: COMPONC;YOUNESA
+short_name: MIXED (CMO AY_lymcl [05270])
