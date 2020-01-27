@@ -1,5 +1,5 @@
-cancer_study_identifier: mixed_cbe_younesa_AY_lymcl
-stable_id: mixed_cbe_younesa_AY_lymcl_cnaseq
+cancer_study_identifier: lymphoma_cellline_msk_2020
+stable_id: lymphoma_cellline_msk_2020_cnaseq
 case_list_name: Samples with mutation and CNA data
 case_list_description: Samples with mutation and CNA data (14 samples)
 case_list_category: all_cases_with_mutation_and_cna_data
