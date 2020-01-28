@@ -1,4 +1,4 @@
-type_of_cancer: mixed
+type_of_cancer: lymph
 cancer_study_identifier: lymphoma_cellline_msk_2020
 name: Characterization of Lymphoma Cell Lines Using HemePACT - Younes (CMO AY_lymcl [05270])
 date_of_last_update: 2019-05-05
