@@ -1,4 +1,4 @@
-type_of_cancer: DIFG
+type_of_cancer: difg
 cancer_study_identifier: glioma_mskcc_2019
 name: Glioma (MSKCC, Clin Cancer Res 2019)
 short_name: Glioma (MSKCC, 2019)
