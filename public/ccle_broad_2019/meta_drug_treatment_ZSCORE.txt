@@ -8,3 +8,4 @@ data_filename: data_drug_treatment_ZSCORE.txt
 show_profile_in_analysis_tab: true
 pivot_threshold_value: 0
 value_sort_order: ASC
+generic_assay_type: TREATMENT_RESPONSE
