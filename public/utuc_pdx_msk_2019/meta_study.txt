@@ -1,5 +1,5 @@
 type_of_cancer: utuc
 cancer_study_identifier: utuc_pdx_msk_2019
 name: Bladder/Urinary Tract Cancer (MSKCC, 2019)
-description: Targeting sequencing of Bladder/Urinary tract tumors and their matching PDXs from 34 patients via MSK-IMPACT.
+description: MSK-IMPACT sequencing of 34 upper tract urothelial patients and the matching PDX or PDC generated from 17 patient tumors.
 short_name: UTUC (MSK, 2019)
