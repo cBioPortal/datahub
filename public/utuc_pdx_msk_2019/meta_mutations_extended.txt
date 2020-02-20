@@ -3,6 +3,6 @@ genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
 stable_id: mutations
 show_profile_in_analysis_tab: true
-profile_description: Somatic mutation data from targeted sequencing of Bladder/Urinary tract tumors and their matching PDXs from 34 patients via MSK-IMPACT.
+profile_description: Somatic mutation data from MSK-IMPACT sequencing of 34 upper tract urothelial patients and the matching PDX or PDC generated from 17 patient tumors.
 profile_name: Mutations
 data_filename: data_mutations_extended.txt
