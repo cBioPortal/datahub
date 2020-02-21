@@ -1,8 +1,0 @@
-cancer_study_identifier: prad_eururol_2017
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: Z-SCORE
-stable_id: mrna_seq_fpkm_capture_Zscores
-show_profile_in_analysis_tab: true
-profile_description: mRNA expression from capture Z-scores (RNA Seq FPKM).
-profile_name: mRNA expression Z-scores (FPKM capture)
-data_filename: data_mRNA_seq_fpkm_capture.txt
