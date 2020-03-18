@@ -1,5 +1,5 @@
-cancer_study_identifier: mixed_cfdna_mskcc_2019
-stable_id: mixed_cfdna_mskcc_2019_sequenced
+cancer_study_identifier: mixed_cfdna_msk_2019
+stable_id: mixed_cfdna_msk_2019_sequenced
 case_list_name: Samples with mutation data
 case_list_description: Samples with mutation data (248 samples)
 case_list_category: all_cases_with_mutation_data
