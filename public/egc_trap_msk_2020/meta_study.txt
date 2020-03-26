@@ -1,6 +1,0 @@
-type_of_cancer: egc
-cancer_study_identifier: egc_trap_msk_2020
-name: EGC TRAP (MSK 2020)
-short_name: EGC (TRAP,MSK)
-description: MSK-IMPACT sequencing of EGC cases.
-groups: CHATILAW;MILLANGB;MARONS;HECHTMAJ;JANJIGIY2;CHAVANS;DONOGHUM;SOLITD1
