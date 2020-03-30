@@ -1,4 +1,4 @@
-cancer_study_identifier: gym_tcga_pub2013
+cancer_study_identifier: gbm_tcga_pub2013
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 stable_id: rna_seq_v2_mrna_median_all_sample_Zscores
