@@ -1,0 +1,8 @@
+cancer_study_identifier: kirc_tcga_pub
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+stable_id: mrna_median_all_sample_Zscores
+show_profile_in_analysis_tab: true
+profile_description: Log-transformed mRNA z-scores compared to the expression distribution of all samples  (Agilent microarray).
+profile_name: mRNA expression z-scores relative to all samples (log microarray)
+data_filename: data_mRNA_median_all_sample_Zscores.txt
