@@ -1,0 +1,8 @@
+type_of_cancer: mel
+cancer_study_identifier: mel_dfci_2019
+name: Metastatic Melanoma (DFCI 2019)
+short_name: MEL (DFCI)
+description: Whole-exome sequencing of 144 pre-treatment samples from 144 patients with metastatic melanoma treated with anti-PD1 ICB.
+groups: PUBLIC
+citation: Liu et al. Nature Medicine 2019
+PMID: 31792460
