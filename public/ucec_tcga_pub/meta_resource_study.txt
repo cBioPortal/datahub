@@ -1,0 +1,3 @@
+cancer_study_identifier: ucec_tcga_pub
+resource_type: STUDY
+data_filename: data_resource_study.txt
