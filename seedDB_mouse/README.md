@@ -4,9 +4,6 @@ These files are MySQL database dump files for seeding a new instance of the cBio
 
 The database schema and cBioPortal release follows different numbering cycles since cBioPortal 1.5.0 and database schema 2.1.0. This means that the version numbers won't be identical. 
 
-## cBioPortal mouse instance
-When using a cBioPortal instance with mouse data, the "chromosome plot" displayed in the Patient View is not supported ([see issue](https://github.com/cBioPortal/cbioportal-frontend/issues/410)). Also make sure the reference genome in `portal.properties` is set to `mm10`.
-
 ## Latest mouse seed database
 #### Seed database schema 2.4.0
 
