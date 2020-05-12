@@ -5,3 +5,4 @@ description: Whole-genome sequencing of 187 gastric cancer tumors with matched n
 short_name: STAD (OncoSG)
 pmid: 29670109
 citation: Guo et al. Nat Commun 2018
+group: PUBLIC
