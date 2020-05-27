@@ -1,0 +1,5 @@
+type_of_cancer: luad
+cancer_study_identifier: luad_mskcc_2020
+name: Lung Adenocarcinoma (MSKCC 2020)
+short_name: LUAD (MSKCC)
+description: IMPACT sequencing of 1001 Lung adenocarcinoma samples.
