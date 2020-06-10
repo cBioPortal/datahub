@@ -1,5 +1,5 @@
 type_of_cancer: breast
 cancer_study_identifier: breast_alpelisib_2020
-name: Breast Cancer (Alpelisib plus AI, Nature Cancer 2020)
-description: The pre- and post-treatment ctDNA sequencing of 51 Breast Cancer patients to understand the mechanisms of resistance to Alepelisib.
+name: Breast Cancer (MSK, Nature Cancer 2020)
+description: Targeted sequencing of pre- and post-treatment tumor/cfDNA samples from 51 Breast Cancer patients to understand the mechanisms of resistance to Alepelisib.
 short_name: BREAST (Alpelisib)
