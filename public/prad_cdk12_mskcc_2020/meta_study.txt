@@ -4,3 +4,4 @@ name: Prostate Adenocarcinoma (MSK, Eur Urol 2020)
 short_name: PRAD (MSKCC, 2020)
 description: Targeted sequencing of 1465 prostate adenocarcinoma tumor/normal pairs via MSK-IMPACT.
 pmid: 32317181
+citation: Nguyen et al. Eur Urol 2020
