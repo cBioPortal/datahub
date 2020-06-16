@@ -1,0 +1,21 @@
+Oncotree Code Provided	Cancer Type Detailed in portal	Cancer Type Detailed provided -> now in `cancer type other`
+AML	Acute Myeloid Leukemia	AML with t(9;11)(p22;q23); MLLT3-MLL
+MPN	Myeloproliferative Neoplasms	Secondary myelofibrosis
+AML	Acute Myeloid Leukemia	AML with inv(3)(q21q26.2) or t(3;3)(q21;q26.2); RPN1-EVI1
+MDS	Myelodysplastic Syndromes	RAEB
+AML	Acute Myeloid Leukemia	Acute erythroid leukemia
+MDS	Myelodysplastic Syndromes	Acute myeloid leukemia
+MDS	Myelodysplastic Syndromes	Refractory cytopenia with multilineage dysplasia
+AML	Acute Myeloid Leukemia	Acute myeloblastic leukemia
+AML	Acute Myeloid Leukemia	Acute myeloid leukemia with multilineage dysplasia
+AML	Acute Myeloid Leukemia	Acute myeloblastic leukemia, in relapse
+AML	Acute Myeloid Leukemia	Acute myeloid leukemia with multilineage dysplasia, not having achieved remission
+AML	Acute Myeloid Leukemia	AML with mutated RUNX1
+MDS	Myelodysplastic Syndromes	RCMD
+MDS	Myelodysplastic Syndromes	RA
+MDS	Myelodysplastic Syndromes	RT
+MDS	Myelodysplastic Syndromes	RARS
+MDS	Myelodysplastic Syndromes	RCMD-RS
+MDS	Myelodysplastic Syndromes	RARS-T
+MDS	Myelodysplastic Syndromes	AML-MDS
+MDS	Myelodysplastic Syndromes	RAEB1
