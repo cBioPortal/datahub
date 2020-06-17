@@ -5,3 +5,4 @@ short_name: MDS  (MSKCC)
 description: Single-cell analysis reveals allele-specific basis for dual mutations in MDS-associated RNA splicing factors.
 pmid: 27276561,30333627,24030381
 citation: Papaemmanuil et al. NEJM 2016; Tyner et al. Nature 2018; Papaemmanuil et al. Blood 2013
+groups: OMARHISTCOBI; PENSONA
