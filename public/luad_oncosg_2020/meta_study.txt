@@ -5,3 +5,4 @@ description: Whole-exome and Transcriptome sequencing of 305 East Asian Lung Ade
 pmid: 32015526
 citation: Chen et al. Nat Genet 2020
 short_name: LUAD (OncoSG, 2020)
+groups: PUBLIC
