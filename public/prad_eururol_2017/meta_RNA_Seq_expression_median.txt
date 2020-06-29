@@ -5,4 +5,4 @@ stable_id: rna_seq_mrna
 show_profile_in_analysis_tab: false
 profile_description: mRNA expression from capture (RNA Seq FPKM).
 profile_name: mRNA expression (FPKM)
-data_filename: data_mRNA_seq_fpkm.txt
+data_filename: data_RNA_Seq_expression_median.txt
