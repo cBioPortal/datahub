@@ -1,0 +1,8 @@
+type_of_cancer: mixed
+cancer_study_identifier: met_stanford_2020
+name: Upper Tract Urothelial Carcinoma (MSK, Nat Commun 2020)
+description: Whole-exome sequencing of 457 paired primary tumor and metastatic samples from 136 patients with breast, colorectal and lung cancer, including untreated (n = 99) and treated (n = 100) metastases.
+groups: PUBLIC
+pmid: 32424352
+citation: Zheng et al. Nat Genet 2020
+short_name: MET (Stanford, 2020)
