@@ -4,5 +4,5 @@ datatype: CONTINUOUS
 stable_id: mrna_seq_tpm
 show_profile_in_analysis_tab: false
 profile_name: mRNA expression (RNA Seq TPM) 
-profile_description: Expression levels for genes in 178 samples (168 tumors, 10 normals) Breast Invasive Ductal Carcinoma cases (RNA Seq TPM). 
+profile_description: Expression levels for genes in 168 samples of Breast Invasive Ductal Carcinoma cases (RNA Seq TPM). 
 data_filename: data_RNA_Seq_expression_tpm.txt
