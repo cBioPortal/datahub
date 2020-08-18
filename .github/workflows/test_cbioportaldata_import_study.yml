@@ -1,0 +1,38 @@
+# This workflow can be manually triggered, the user can give a study id and it will try to import it
+name: Test conversion of study to cBioPortalData MultiAssayExperiment
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      study_id:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Study to test'
+        # Default value if no value is explicitly provided
+        default: 'acc_tcga'
+        # Input has to be provided for the workflow to run
+        required: true
+
+jobs:
+  test_study_conversion_to_mae:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - name: Configure git-lfs to download only specific study
+      run: |
+        git config --global lfs.fetchinclude 'public/${{ github.event.inputs.study_id }}/**'
+    - name: 'Checkout git repo'
+      uses: actions/checkout@v2
+      with:
+        lfs: true
+    # Runs a single command using the runners shell
+    - name: Test study converstion to MultiAssayExperiment
+      uses: docker://inodb/cbioportaldata:split-cbiodatapack-function
+      with:
+        # run: echo "Hello ${{ github.event.inputs.name }}"
+        entrypoint: Rscript
+        args: -e library(cBioPortalData);source('/app/R/cBioDataPack.R');source('/app/R/utils.R');loadStudy('./public/${{ github.event.inputs.study_id }}')
