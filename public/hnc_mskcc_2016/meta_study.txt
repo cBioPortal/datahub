@@ -1,4 +1,4 @@
-type_of_cancer: mixed
+type_of_cancer: head_neck
 cancer_study_identifier: hnc_mskcc_2016
 name: Recurrent and Metastatic Head & Neck Cancer (MSKCC, JAMA Oncol 2016)
 short_name: HNC (MSKCC 2016)
