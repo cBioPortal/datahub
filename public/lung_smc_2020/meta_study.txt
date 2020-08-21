@@ -1,0 +1,7 @@
+type_of_cancer: lung
+cancer_study_identifier: lung_smc_2016  
+name: Lung Cancer(SMC, AACR 2016)
+description: Whole-exome and whole transcriptome sequencing. 22 lung cancer tumor/normal pairs.
+citation : Sang-Won et al., AACR 2016
+pmid  : 27634761
+short_name: lung (SMC 2016)
