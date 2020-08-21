@@ -1,0 +1,6 @@
+cancer_study_identifier: lung_smc_2016
+stable_id: lung_smc_2016_rna_seq_mrna
+case_list_name: Samples with mRNA data (RNA Seq)
+case_list_description: Samples with mRNA expression data (21 samples)
+case_list_category: all_cases_with_mrna_rnaseq_data
+case_list_ids: TH1_N2_4R	TH5_N1_11L	TH1_N2_2_7	TH1_N3_4L	TH2_Liver_M1b	TH2_N2_4L	TH3_Primary_LUL	TH5_N3_4R	TH4_N2_7	TH4_Primary_RBI	TH1_Primary_RML	TH6_Primary_LUL	TH2_Primary_LLL	TH5_N2_7	TH5_Primary_LUL	TH4_N3_4L	TH6_N2_4L	TH3_N1_11R	TH6_N2_7	TH6_N3_2R	TH4_N1_11Rs
