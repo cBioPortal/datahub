@@ -1,5 +1,5 @@
-cancer_study_identifier: lung_smc_2020
-stable_id: lung_smc_2020_sequenced
+cancer_study_identifier: lung_smc_2016
+stable_id: lung_smc_2016_sequenced
 case_list_name: Samples with mutation data
 case_list_description: Samples with mutation data (22 samples)
 case_list_category: all_cases_with_mutation_data
