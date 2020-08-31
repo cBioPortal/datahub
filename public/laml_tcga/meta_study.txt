@@ -2,5 +2,5 @@ type_of_cancer: aml
 cancer_study_identifier: laml_tcga
 name: Acute Myeloid Leukemia (TCGA, Firehose Legacy)
 short_name: AML (TCGA)
-description: TCGA Acute Myeloid Leukemia; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/LAML/20160128/gdac.broadinstitute.org_LAML.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Acute Myeloid Leukemia. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/LAML/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC

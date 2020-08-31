@@ -2,5 +2,5 @@ type_of_cancer: stad
 cancer_study_identifier: stad_tcga
 name: Stomach Adenocarcinoma (TCGA, Firehose Legacy)
 short_name: Stomach (TCGA)
-description: TCGA Stomach Adenocarcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/STAD/20160128/gdac.broadinstitute.org_STAD.Mutation_Packager_Raw_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Stomach Adenocarcinoma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/STAD/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC

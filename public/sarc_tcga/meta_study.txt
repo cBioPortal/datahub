@@ -2,5 +2,5 @@ type_of_cancer: soft_tissue
 cancer_study_identifier: sarc_tcga
 name: Sarcoma (TCGA, Firehose Legacy)
 short_name: Sarcoma (TCGA)
-description: TCGA Sarcoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/SARC/20160128/gdac.broadinstitute.org_SARC.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Sarcoma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/SARC/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC

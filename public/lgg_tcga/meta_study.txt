@@ -2,5 +2,5 @@ type_of_cancer: difg
 cancer_study_identifier: lgg_tcga
 name: Brain Lower Grade Glioma (TCGA, Firehose Legacy)
 short_name: Glioma (TCGA)
-description: TCGA Brain Lower Grade Glioma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/LGG/20160128/gdac.broadinstitute.org_LGG.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Brain Lower Grade Glioma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/LGG/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC
