@@ -2,5 +2,5 @@ type_of_cancer: lusc
 cancer_study_identifier: lusc_tcga
 name: Lung Squamous Cell Carcinoma (TCGA, Firehose Legacy)
 short_name: Lung squ (TCGA)
-description: TCGA Lung Squamous Cell Carcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/LUSC/20160128/gdac.broadinstitute.org_LUSC.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Lung Squamous Cell Carcinoma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/LUSC/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC
