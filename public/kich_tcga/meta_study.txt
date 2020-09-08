@@ -2,5 +2,5 @@ type_of_cancer: chrcc
 cancer_study_identifier: kich_tcga
 name: Kidney Chromophobe (TCGA, Firehose Legacy)
 short_name: chRCC (TCGA)
-description: TCGA Kidney Chromophobe; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/KICH/20160128/gdac.broadinstitute.org_KICH.Mutation_Packager_Raw_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Kidney Chromophobe. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/KICH/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC
