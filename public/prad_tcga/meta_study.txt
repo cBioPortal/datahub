@@ -2,5 +2,5 @@ type_of_cancer: prad
 cancer_study_identifier: prad_tcga
 name: Prostate Adenocarcinoma (TCGA, Firehose Legacy)
 short_name: Prostate (TCGA)
-description: TCGA Prostate Adenocarcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/PRAD/20160128/gdac.broadinstitute.org_PRAD.Mutation_Packager_Raw_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Prostate Adenocarcinoma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/PRAD/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC
