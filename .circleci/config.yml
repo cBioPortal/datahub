@@ -8,7 +8,7 @@ jobs:
   # Job to validate only the changed studies
   build:
     docker:
-      - image: circleci/python:3.4
+      - image: circleci/python:3.6
     working_directory: ~/repo/
     steps:
       - checkout
@@ -26,7 +26,7 @@ jobs:
   # Job to validate all studies
   validate_all_studies:
     docker:
-      - image: circleci/python:3.4
+      - image: circleci/python:3.6
     working_directory: ~/repo
     steps:
       - checkout
@@ -44,7 +44,7 @@ jobs:
   # Job to validate cbioportal.org with cBioPortal Datahub
   validate_datahub_with_cbioportal:
     docker:
-      - image: circleci/python:3.4
+      - image: circleci/python:3.6
     working_directory: ~/repo
     steps:
       - checkout
@@ -52,7 +52,7 @@ jobs:
           name: validate cbioportal with datahub
           command: |
             cd ~/repo/.circleci
-            sudo pip install "requests==2.10.0"
+            sudo pip install "requests==2.20.0"
             ./validate_datahub_with_cbioportal.py
 
   # Job to validate the seed database
@@ -72,7 +72,7 @@ jobs:
   # Check if all studies on datahub are imported in cbioportal.org
   check_all_studies_imported:
     docker:
-      - image: circleci/python:3.4
+      - image: circleci/python:3.6
     working_directory: ~/repo
     steps:
       - checkout
