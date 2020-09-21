@@ -6,4 +6,4 @@ show_profile_in_analysis_tab: true
 profile_description: Mutation data identified in blood samples from cancer patients whose tumor-blood pairs were analyzed using MSK-IMPACT targeted panel.
 profile_name: Mutations
 data_filename: data_mutations_extended.txt
-namespaces: ASCN.CH_PD
+namespaces: MUTATION
