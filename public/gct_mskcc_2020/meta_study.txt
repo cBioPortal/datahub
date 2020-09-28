@@ -1,0 +1,6 @@
+type_of_cancer: testis
+cancer_study_identifier: gct_mskcc_2020
+name: Testicular Germ Cell Tumors (CMO DF_bvtgct [06536])
+description: The goals of this project are to identify the mutations and copy number variations in advanced germ cell tumors, and correlate the findings with treatment outcomes on protocol 13-074, a randomized study of first-line BEP (standard arm) vs. TIP (experimental arm). (updated on 2018-07-23) (ver v_2.0.1-41-g7c03a2d; BATCHES: G,H,L,P,Q)
+short_name: TESTIS (CMO DF_bvtgct [06536])
+groups: FELDMAND;COMPONC;IYERG;ODONNELD;BROMBERM;CHAUDHRS
