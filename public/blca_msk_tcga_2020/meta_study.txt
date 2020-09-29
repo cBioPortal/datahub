@@ -1,0 +1,6 @@
+type_of_cancer: blca
+cancer_study_identifier: blca_msk_tcga_2020
+name: Bladder Cancer (MSK/TCGA, 2020)
+short_name: BLCA (MSK_TCGA 2020)
+description: Whole-exome or targeted sequencing of 476 muscle-invasive bladder tumor/normal pairs via TCGA or MSK-IMPACT sequencing.
+groups: PUBLIC
