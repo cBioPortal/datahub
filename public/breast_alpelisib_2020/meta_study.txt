@@ -3,3 +3,6 @@ cancer_study_identifier: breast_alpelisib_2020
 name: Breast Cancer (MSK, Nature Cancer 2020)
 description: Targeted sequencing of pre- and post-treatment tumor/cfDNA samples from 51 Breast Cancer patients to understand the mechanisms of resistance to Alepelisib.
 short_name: BREAST (Alpelisib)
+pmid: 32864625
+citation: Razavi et al. Nature Cancer 2020
+groups: PUBLIC
