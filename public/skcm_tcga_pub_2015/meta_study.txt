@@ -6,4 +6,3 @@ citation: TCGA, Cell 2015
 pmid: 26091043
 short_name: Mel (TCGA pub)
 groups: PUBLIC
-add_global_case_list: true
