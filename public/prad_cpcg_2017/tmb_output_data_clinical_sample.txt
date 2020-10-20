@@ -1,0 +1,482 @@
+#Patient Identifier	Sample Identifier	Cancer Type	Cancer Type Detailed	Oncotree Code	Platform	Cellularity	Days to Sample Collection.	ERG FISH Result	ETS	Radical Prostatectomy Gleason Score for Prostate Cancer	Gleason Score Percent 4 & 5	Is FFPE	Longest Dimension	Oct embedded	Pathology Report File Name	Ploidy	Primary Tumor Site	Absolute Purity	Sample Type	Shortest Dimension	Specimen Second Longest Dimension	Tissue Source Site	Tumor Level	Tumor Disease Anatomic Site	WGS Based Purity Estimation	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Cancer Type	Cancer Type Detailed	Oncotree Code	Platform.	Tumor Content	Days to sample collection.	ERG Fish result.	ETS	The score derived from universally embraced prostate cancer grading system developed by Dr. Donald F. Gleason in 1977. The system provides a reproducible description of the glandular architecture of prostate tissue to which a pathologist assigns a score depending primarily on the microscopic patterns of cancerous glands and cell morphology. The system correlates well with behavior at the extremes: Gleason 1+1 tumors are the most well differentiated, slowly growing and rarely spread; Gleason 4+5 tumors are the most poorly differentiated, often widely metastatic at the time of diagnosis. In the commoner intermediate grade tumors, however, behavior is extremely variable.	Gleason score percent 4 & 5.	If the sample is from FFPE	Longest Dimension	Oct embedded	Pathology Report File Name	Ploidy.	Text term to describe the organ sub-division in an individual with cancer.	Absolute purity.	The type of sample (i.e., normal, primary, met, recurrence).	Shortest Dimension	The second longest dimension of the specimen.	A Tissue Source Site collects samples (tissue, cell, or blood) and cliincal metadata which are then sent to tha Biospecimen Core Resource.	Tumor level.	Text term that describes the anatomic site of the tumor or disease.	WGS based purity estimation	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING	STRING	STRING	NUMBER	STRING	NUMBER	STRING	STRING	NUMBER	STRING	STRING	STRING	NUMBER	NUMBER	STRING	STRING	STRING	NUMBER	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	9	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	PLATFORM	CELLULARITY	DAYS_TO_COLLECTION	ERG_FISH_RESULT	ETS	GLEASON_SCORE	GLEASON_SCORE_PERCENT_4_AND_5	IS_FFPE	LONGEST_DIMENSION	OCT_EMBEDDED	PATHOLOGY_REPORT_FILE_NAME	PLOIDY	PRIMARY_SITE	PURITY_ABSOLUTE	SAMPLE_TYPE	SHORTEST_DIMENSION	SPECIMEN_SECOND_LONGEST_DIMENSION	TISSUE_SOURCE_SITE	TUMOR_LEVEL	TUMOR_TISSUE_SITE	WGS_BASED_PURITY_ESTIMATION	TMB_NONSYNONYMOUS
+EOPC-01	EOPC-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.733333333333
+EOPC-02	EOPC-02	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.133333333333
+EOPC-04	EOPC-04	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					4+3														Prostate		0.333333333333
+EOPC-05	EOPC-05	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.166666666667
+EOPC-06	EOPC-06	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.233333333333
+EOPC-07	EOPC-07	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.0666666666667
+EOPC-08	EOPC-08	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.1
+EOPC-09	EOPC-09	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.1
+EOPC-10	EOPC-10	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.166666666667
+EOPC-11	EOPC-11	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.1
+PR-0508	PR-0508	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	73			Negative	3+4						1.962								Prostate		0.2
+PR-1701	PR-1701	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	49			TMPRSS2-ERG	3+4						1.992								Prostate		0.0666666666667
+PR-2832	PR-2832	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	59			TMPRSS2-ERG	3+4						1.927								Prostate		NA
+PR-3043	PR-3043	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	68			Negative	3+4						1.956								Prostate		0.333333333333
+P03-1426	P03-1426	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.78		Translocation	TMPRSS2-ERG	4+3	60							0.78						Prostate		0.366666666667
+P03-2345	P03-2345	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.56		Translocation with deletion	TMPRSS2-ERG	3+4	10							0.55						Prostate		0.433333333333
+P04-1084	P04-1084	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.75			TMPRSS2-ERG	3+4	40							0.74						Prostate		0.566666666667
+P05-1657	P05-1657	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.6		Translocation with deletion	TMPRSS2-ERG	3+4	10							0.61						Prostate		0.2
+P05-3852	P05-3852	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.71			TMPRSS2-ERG	4+3;5	60							0.75						Prostate		0.5
+P05-620	P05-620	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.82				4+3	90							0.81						Prostate		0.866666666667
+P07-144	P07-144	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.68				3+4	30							0.7						Prostate		0.5
+P07-4941	P07-4941	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.49		Translocation	TMPRSS2-ERG	3+3	0							0.48						Prostate		0.466666666667
+P07-5021	P07-5021	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.71				3+3	0							0.71						Prostate		0.233333333333
+P07-5037	P07-5037	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.5		Translocation	TMPRSS2-ERG	4+3	70							not determined						Prostate		0.366666666667
+P07-5318	P07-5318	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.55				3+4	10							0.56						Prostate		0.633333333333
+P07-837	P07-837	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.59				4+3	80							not determined						Prostate		0.433333333333
+P08-1042	P08-1042	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.6		Translocation with deletion	TMPRSS2-ERG	3+4	10							0.57						Prostate		0.366666666667
+P08-1541	P08-1541	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.52				4+3	80							0.52						Prostate		0.266666666667
+P08-217	P08-217	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.81				3+4	2							0.8						Prostate		0.266666666667
+P08-492	P08-492	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.77		Translocation	TMPRSS2-ERG	3+4	40							not determined						Prostate		0.3
+P08-501	P08-501	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.73		Translocation with deletion	TMPRSS2-ERG	3+3	0							0.72						Prostate		0.366666666667
+P08-5852	P08-5852	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.47				3+3	0							not determined						Prostate		0.3
+P08-716	P08-716	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.66				3+4;5	40							not determined						Prostate		0.566666666667
+P09-37	P09-37	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.23		Translocation with deletion	TMPRSS2-ERG	3+4	40							not determined						Prostate		0.433333333333
+P09-396	P09-396	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.21				3+4;5	32							non-aneuploid						Prostate		NA
+P09-628	P09-628	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.57				3+3	0							0.58						Prostate		0.266666666667
+PR-03-3125	PR-03-3125	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.72				3+3	0							0.71						Prostate		0.6
+PR-03-728	PR-03-728	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4	10							non-aneuploid						Prostate		0.0333333333333
+PR-04-1243	PR-04-1243	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.87		Translocation with deletion	TMPRSS2-ERG	3+4	30							0.9						Prostate		0.866666666667
+PR-05-3595	PR-05-3595	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.63				3+4	50							0.61						Prostate		0.833333333333
+PR-06-1749	PR-06-1749	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.71				4+3	60							0.74						Prostate		0.5
+PR-06-3199	PR-06-3199	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.75		Translocation	SLC45A3-ERG	4+3	80							0.75						Prostate		0.566666666667
+PR-07-4610	PR-07-4610	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.81		Translocation	TMPRSS2-ERG	3+4	40							0.81						Prostate		0.5
+PR-08-2153	PR-08-2153	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.52		Translocation	TMPRSS2-ERG	4+3	70							0.55						Prostate		0.233333333333
+PR-08-4154	PR-08-4154	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.71				3+4	5							0.72						Prostate		0.566666666667
+PR-08-556	PR-08-556	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.55				4+3	95							0.57						Prostate		0.533333333333
+PR-08-784	PR-08-784	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.78		Translocation with deletion	TMPRSS2-ERG	4+3	80							0.77						Prostate		0.166666666667
+PR-09-146	PR-09-146	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	0.47		Translocation with deletion	TMPRSS2-ERG	3+4	10							0.46						Prostate		NA
+TCGA-2A-A8VL	TCGA-2A-A8VL-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		1273			3+3		NO	NA	TRUE	TCGA-2A-A8VL.FC65B44D-EDAD-4A48-A564-8721C5CD3AA8.pdf				Primary	NA	NA			Prostate		0.366666666667
+TCGA-2A-A8VO	TCGA-2A-A8VO-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		1290			6		NO	NA	TRUE	TCGA-2A-A8VO.B699D2D8-1EB6-4BFE-A468-D1FFA5F32D98.pdf		Overlapping / Multiple Zones		Primary	NA	NA	2A	Apex|Middle|Base	Prostate		0.266666666667
+TCGA-2A-A8VV	TCGA-2A-A8VV-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		1155			6		NO	NA	TRUE	TCGA-2A-A8VV.E42BC148-77A7-4FEB-9ACE-8BC2FFD33BF7.pdf		Peripheral Zone		Primary	NA	NA	2A	Apex|Middle	Prostate		0.2
+TCGA-2A-A8W1	TCGA-2A-A8W1-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		888			7		NO	NA	TRUE	TCGA-2A-A8W1.3A4CC21B-D751-49EA-BCFB-785B683423A0.pdf		Peripheral Zone		Primary	NA	NA	2A	Middle|Base	Prostate		0.333333333333
+TCGA-CH-5737	TCGA-CH-5737-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.2	NA	TCGA-CH-5737.dbf280bb-fb7c-422f-b772-a62381c19afa.pdf		Peripheral Zone		Primary	0.4	0.4	CH	NA	Prostate		0.4
+TCGA-CH-5738	TCGA-CH-5738-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	1.3	NA	TCGA-CH-5738.3e17e46c-0c96-4930-b8ac-7acee8d40750.pdf		NA		Primary	0.4	0.4	CH	NA	Prostate		0.1
+TCGA-CH-5739	TCGA-CH-5739-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.9	NA	TCGA-CH-5739.6db82b14-85e4-40c4-9827-a588c4a25ce8.pdf		Peripheral Zone		Primary	0.4	0.4	CH	NA	Prostate		0.666666666667
+TCGA-CH-5740	TCGA-CH-5740-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-CH-5740.25992d81-7441-4d60-a773-457618dcedbc.pdf		NA		Primary	0.3	0.8	CH	NA	Prostate		0.333333333333
+TCGA-CH-5743	TCGA-CH-5743-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.2	NA	TCGA-CH-5743.e4f18f30-a6f0-4262-8f34-ce32db5cbe4a.pdf		Peripheral Zone		Primary	0.4	0.5	CH	NA	Prostate		NA
+TCGA-CH-5744	TCGA-CH-5744-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.5	NA	TCGA-CH-5744.797db4c8-a9d9-4404-a520-9be024ced9d5.pdf		Peripheral Zone		Primary	0.2	0.4	CH	NA	Prostate		0.533333333333
+TCGA-CH-5745	TCGA-CH-5745-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.8	NA	TCGA-CH-5745.43e941e9-cfbd-45bc-91bb-28e5f5d9b767.pdf		Overlapping / Multiple Zones		Primary	0.4	0.5	CH	NA	Prostate		0.466666666667
+TCGA-CH-5746	TCGA-CH-5746-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.5	NA	TCGA-CH-5746.4ded5042-7ca5-46eb-ae44-1dd4c7a38c9e.pdf		NA		Primary	0.1	0.4	CH	NA	Prostate		0.0666666666667
+TCGA-CH-5748	TCGA-CH-5748-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.3	NA	TCGA-CH-5748.7d2d5d7d-481b-445d-8505-42564e11fce4.pdf		NA		Primary	0.4	0.4	CH	NA	Prostate		0.0666666666667
+TCGA-CH-5750	TCGA-CH-5750-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	0.9	NA	TCGA-CH-5750.4cbd15a8-2912-4a6d-bdc3-38a4ae4e1381.pdf		Peripheral Zone		Primary	0.3	0.4	CH	NA	Prostate		0.666666666667
+TCGA-CH-5788	TCGA-CH-5788-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	0.8	NA	TCGA-CH-5788.41e797ae-db60-4653-9e61-4050ec9c05b2.pdf		NA		Primary	0.2	0.5	CH	Base	Prostate		0.833333333333
+TCGA-CH-5789	TCGA-CH-5789-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	1	NA	TCGA-CH-5789.50e47b92-4c6a-4fca-8d01-0b4abc61bd0e.pdf		Peripheral Zone		Primary	0.4	0.4	CH	NA	Prostate		NA
+TCGA-CH-5790	TCGA-CH-5790-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-CH-5790.0f2f0a80-6a25-4374-96ad-0dbd6d136906.pdf		NA		Primary	0.3	0.4	CH	NA	Prostate		0.2
+TCGA-CH-5791	TCGA-CH-5791-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.8	NA	TCGA-CH-5791.009bf26f-b3df-4f10-b496-a4304af1e091.pdf		Peripheral Zone		Primary	0.2	0.4	CH	NA	Prostate		0.566666666667
+TCGA-CH-5794	TCGA-CH-5794-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.1	NA	TCGA-CH-5794.2bdbd62b-c2a0-4cdd-8187-6cf1db227e7e.pdf		Peripheral Zone		Primary	0.4	0.4	CH	NA	Prostate		0.533333333333
+TCGA-EJ-5494	TCGA-EJ-5494-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.7	NA	TCGA-EJ-5494.e52eefbc-e27d-4a5d-a261-d06a2dcf5d53.pdf		NA		Primary	0.3	1	EJ	Apex|Middle	Prostate		0.166666666667
+TCGA-EJ-5496	TCGA-EJ-5496-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	2	NA	TCGA-EJ-5496.80e82784-0bca-4657-9c9f-e9b860dc09bc.pdf		Overlapping / Multiple Zones		Primary	0.3	1	EJ	Apex|Middle|Base	Prostate		0.366666666667
+TCGA-EJ-5497	TCGA-EJ-5497-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.5	NA	TCGA-EJ-5497.4c6ab617-53f7-4556-a1a0-b44df4f67b6b.pdf		Overlapping / Multiple Zones		Primary	0.5	0.6	EJ	Middle	Prostate		0.1
+TCGA-EJ-5498	TCGA-EJ-5498-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.4	NA	TCGA-EJ-5498.53d058fd-5faa-43ab-8a5e-b6f95134970b.pdf		Overlapping / Multiple Zones		Primary	0.5	0.7	EJ	Middle	Prostate		0.0666666666667
+TCGA-EJ-5499	TCGA-EJ-5499-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.1	NA	TCGA-EJ-5499.f69e29da-24d1-45f2-9b4f-a32f9e5479a4.pdf		Overlapping / Multiple Zones		Primary	0.4	0.9	EJ	Apex|Middle|Base	Prostate		0.466666666667
+TCGA-EJ-5501	TCGA-EJ-5501-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-EJ-5501.630dee46-15db-4a16-84ee-a9d25fcccb80.pdf		Overlapping / Multiple Zones		Primary	0.3	1	EJ	Middle|Base	Prostate		0.266666666667
+TCGA-EJ-5502	TCGA-EJ-5502-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.7	NA	TCGA-EJ-5502.173e45e9-e2ab-4a1d-8bcc-15374f1ae511.pdf		Overlapping / Multiple Zones		Primary	0.3	1	EJ	Middle|Base	Prostate		0.0666666666667
+TCGA-EJ-5504	TCGA-EJ-5504-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.9	NA	TCGA-EJ-5504.74f98316-075f-45e1-9bca-3d885a070fa8.pdf		Overlapping / Multiple Zones		Primary	0.4	0.8	EJ	Apex|Middle|Base	Prostate		0.3
+TCGA-EJ-5505	TCGA-EJ-5505-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-EJ-5505.b8c31900-c8a8-45a7-a71a-fa356bf78511.pdf		NA		Primary	0.6	0.6	EJ	Apex|Middle|Base	Prostate		0.566666666667
+TCGA-EJ-5508	TCGA-EJ-5508-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.7	NA	TCGA-EJ-5508.d2590559-0eb6-479e-ba3a-b59c3429ca6d.pdf		NA		Primary	0.3	0.6	EJ	Middle|Base	Prostate		0.0333333333333
+TCGA-EJ-5509	TCGA-EJ-5509-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-EJ-5509.672ff51d-12ba-402a-b6d6-87cc9c91e7ad.pdf		NA		Primary	0.2	0.6	EJ	Apex|Middle|Base	Prostate		0.3
+TCGA-EJ-5510	TCGA-EJ-5510-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.3	NA	TCGA-EJ-5510.9f549743-cbb3-46bb-9356-40f80e961b4d.pdf		NA		Primary	0.4	0.6	EJ	NA	Prostate		0.233333333333
+TCGA-EJ-5511	TCGA-EJ-5511-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	2	NA	TCGA-EJ-5511.4e4d79fc-ecc3-4533-ac69-9bdec44a080c.pdf		NA		Primary	0.3	1.2	EJ	Apex|Middle|Base	Prostate		0.466666666667
+TCGA-EJ-5512	TCGA-EJ-5512-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.1	NA	TCGA-EJ-5512.8b273389-2655-4ac1-bcf0-b64505fe7b3d.pdf		NA		Primary	0.5	1	EJ	Apex|Middle|Base	Prostate		0.1
+TCGA-EJ-5515	TCGA-EJ-5515-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	2	NA	TCGA-EJ-5515.1029ba11-efb4-42b7-871c-c97192a40e12.pdf		NA		Primary	0.4	0.4	EJ	Apex|Middle|Base	Prostate		NA
+TCGA-EJ-5516	TCGA-EJ-5516-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.6	NA	TCGA-EJ-5516.b15c052e-04f9-49d7-bca9-dddf59a7e9da.pdf		NA		Primary	0.3	0.8	EJ	NA	Prostate		0.133333333333
+TCGA-EJ-5517	TCGA-EJ-5517-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	1.4	NA	TCGA-EJ-5517.67b66178-bd1b-44a8-9a30-762b0fc7c1ba.pdf		NA		Primary	0.2	1	EJ	NA	Prostate		0.2
+TCGA-EJ-5521	TCGA-EJ-5521-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.2	NA	TCGA-EJ-5521.0c816088-3fe4-4646-abaa-94095efd0b26.pdf		NA		Primary	0.3	1	EJ	Middle|Base	Prostate		0.366666666667
+TCGA-EJ-5522	TCGA-EJ-5522-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.3	NA	TCGA-EJ-5522.756659d2-5e97-40d4-aa4e-c6d777153d0c.pdf		Overlapping / Multiple Zones		Primary	0.3	0.9	EJ	Apex|Middle|Base	Prostate		0.266666666667
+TCGA-EJ-5527	TCGA-EJ-5527-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.5	NA	TCGA-EJ-5527.b4c74b9e-b639-4488-aef1-8bf008324f73.pdf		NA		Primary	0.3	0.7	EJ	Apex|Middle	Prostate		0.133333333333
+TCGA-EJ-5530	TCGA-EJ-5530-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	2	NA	TCGA-EJ-5530.03cb0863-99db-411a-a347-a8675a65cb5a.pdf		NA		Primary	0.3	1.8	EJ	Apex|Middle	Prostate		0.233333333333
+TCGA-EJ-5531	TCGA-EJ-5531-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-EJ-5531.0f235aad-3f99-4ac4-919e-0a4290c02075.pdf		NA		Primary	0.8	1	EJ	Apex|Middle|Base	Prostate		0.433333333333
+TCGA-EJ-5532	TCGA-EJ-5532-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.7	NA	TCGA-EJ-5532.11afaa3c-a99c-4e43-b4cb-eb139c9b1dab.pdf		NA		Primary	0.4	1	EJ	Middle|Base	Prostate		0.433333333333
+TCGA-EJ-5542	TCGA-EJ-5542-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.7	NA	TCGA-EJ-5542.d6fe7cc6-45e5-4b6c-b1f4-1dd7fd3c27be.pdf		NA		Primary	0.4	0.9	EJ	Apex|Middle|Base	Prostate		0.333333333333
+TCGA-EJ-7115	TCGA-EJ-7115-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.1	NA	TCGA-EJ-7115.1638ac15-f8d6-4c88-b91e-e21033ae09db.pdf		NA		Primary	0.4	0.9	EJ	NA	Prostate		0.8
+TCGA-EJ-7123	TCGA-EJ-7123-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.7	NA	TCGA-EJ-7123.1ba8d08d-0be5-46a6-9540-8f6d028e0dea.pdf		NA		Primary	0.1	0.4	EJ	Apex|Middle|Base	Prostate		0.366666666667
+TCGA-EJ-7125	TCGA-EJ-7125-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-EJ-7125.3565cc83-8305-490f-a47a-dc71b36a9044.pdf		NA		Primary	0.4	1	EJ	Apex|Middle	Prostate		0.5
+TCGA-EJ-7218	TCGA-EJ-7218-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		2397			7		NO	NA	TRUE	TCGA-EJ-7218.D1D8A1D3-24B1-4787-8925-A5A8FC19DF74.pdf		NA		Primary	NA	NA	EJ	NA	Prostate		0.2
+TCGA-EJ-7312	TCGA-EJ-7312-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		832			7		NO	NA	TRUE	TCGA-EJ-7312.92D81258-C134-48A6-8B74-DE3789E1530F.pdf		NA		Primary	NA	NA	EJ	NA	Prostate		0.366666666667
+TCGA-EJ-7314	TCGA-EJ-7314-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.5	NA	TCGA-EJ-7314.bbd6fa31-f4d4-4c06-aa64-1e263ccd8844.pdf		NA		Primary	0.3	1	EJ	Apex|Middle|Base	Prostate		0.366666666667
+TCGA-EJ-7315	TCGA-EJ-7315-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	2.5	NA	TCGA-EJ-7315.6afa83ac-9060-4b49-90a3-dc19824822e3.pdf		NA		Primary	0.5	1.5	EJ	Apex|Middle|Base	Prostate		0.4
+TCGA-EJ-7317	TCGA-EJ-7317-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.2	NA	TCGA-EJ-7317.f1531404-e42a-47a0-bbd7-6b0bd5ebf56b.pdf		NA		Primary	0.3	0.8	EJ	Apex|Middle	Prostate		0.566666666667
+TCGA-EJ-7318	TCGA-EJ-7318-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		757			7		NO	NA	TRUE	TCGA-EJ-7318.B31F5757-0D35-4436-8F26-9AFE229049CD.pdf		NA		Primary	NA	NA	EJ	NA	Prostate		0.533333333333
+TCGA-EJ-7321	TCGA-EJ-7321-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	1.4	NA	TCGA-EJ-7321.9d0d3184-b73a-4f24-919d-0ba7d5d32ff2.pdf		NA		Primary	0.4	1	EJ	NA	Prostate		0.266666666667
+TCGA-EJ-7325	TCGA-EJ-7325-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		855			7		NO	NA	TRUE	TCGA-EJ-7325.6E9EC98C-FD89-47DA-BF8A-B7F4229C9E09.pdf		NA		Primary	NA	NA	EJ	NA	Prostate		0.333333333333
+TCGA-EJ-7327	TCGA-EJ-7327-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.7	NA	TCGA-EJ-7327.d2a2c78b-e7dd-4bdf-a6a0-4b87383a55bd.pdf		NA		Primary	0.2	1.6	EJ	Apex|Middle|Base	Prostate		0.333333333333
+TCGA-EJ-7328	TCGA-EJ-7328-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.8	NA	TCGA-EJ-7328.30c9c833-ae7e-46de-951c-a488df1d723a.pdf		NA		Primary	0.5	0.8	EJ	Middle|Base	Prostate		0.4
+TCGA-EJ-7330	TCGA-EJ-7330-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.5	NA	TCGA-EJ-7330.d910cd86-89be-4fc9-8f9d-497692a6face.pdf		NA		Primary	0.4	1.3	EJ	Apex|Middle|Base	Prostate		0.2
+TCGA-EJ-7331	TCGA-EJ-7331-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.9	NA	TCGA-EJ-7331.84790d75-bbef-49b0-9486-94e049c13ddd.pdf		NA		Primary	0.3	1.4	EJ	Apex|Middle	Prostate		0.333333333333
+TCGA-EJ-7781	TCGA-EJ-7781-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	2	NA	TCGA-EJ-7781.3582ff42-09f7-4ffb-9421-60f3cba1ff28.pdf		NA		Primary	0.3	0.5	EJ	NA	Prostate		0.366666666667
+TCGA-EJ-7783	TCGA-EJ-7783-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.4	NA	TCGA-EJ-7783.8c4eab7f-e0e2-4cad-b06c-ae2d3ed11052.pdf		NA		Primary	0.3	1.3	EJ	NA	Prostate		0.3
+TCGA-EJ-7784	TCGA-EJ-7784-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.1	NA	TCGA-EJ-7784.d140c74d-8e74-43da-a181-63a7bbe718af.pdf		NA		Primary	0.3	1	EJ	NA	Prostate		0.4
+TCGA-EJ-7785	TCGA-EJ-7785-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-EJ-7785.01ed5c8e-64f0-4e58-bd52-92a0d4f4af2b.pdf		NA		Primary	0.3	1	EJ	Middle|Base	Prostate		0.233333333333
+TCGA-EJ-7786	TCGA-EJ-7786-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.9	NA	TCGA-EJ-7786.3b3ac042-2bb6-445b-a82b-eea969f0bd33.pdf		NA		Primary	0.6	0.7	EJ	NA	Prostate		0.2
+TCGA-EJ-7788	TCGA-EJ-7788-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	2	NA	TCGA-EJ-7788.b66a0868-e91c-4ebf-be9c-ba55e94552fd.pdf		NA		Primary	0.4	1.2	EJ	Middle|Base	Prostate		0.566666666667
+TCGA-EJ-7789	TCGA-EJ-7789-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.8	NA	TCGA-EJ-7789.7483212d-f96c-4afd-b817-74517b54de53.pdf		NA		Primary	0.3	1.5	EJ	Base	Prostate		0.633333333333
+TCGA-EJ-7791	TCGA-EJ-7791-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	2	NA	TCGA-EJ-7791.001c43cb-3e9b-43db-b6d0-61e67d058c9f.pdf		NA		Primary	0.3	1.5	EJ	Apex|Middle	Prostate		0.166666666667
+TCGA-EJ-7792	TCGA-EJ-7792-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.4	NA	TCGA-EJ-7792.607fd612-7ab9-475b-8c22-fd7cdbaccb37.pdf		NA		Primary	0.3	1.3	EJ	Apex|Middle	Prostate		0.333333333333
+TCGA-EJ-7793	TCGA-EJ-7793-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.7	NA	TCGA-EJ-7793.c9d3d69c-f362-454f-a8ff-cbda4d713c41.pdf		NA		Primary	0.3	1.3	EJ	Apex|Middle	Prostate		0.0666666666667
+TCGA-EJ-7794	TCGA-EJ-7794-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.4	NA	TCGA-EJ-7794.73164d62-bc3a-4dd3-8201-86c5f35ef168.pdf		NA		Primary	0.4	0.5	EJ	NA	Prostate		0.1
+TCGA-EJ-7797	TCGA-EJ-7797-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-EJ-7797.d9d6f871-c436-469e-9d7f-9684c379a320.pdf		NA		Primary	0.4	0.6	EJ	NA	Prostate		0.1
+TCGA-EJ-8470	TCGA-EJ-8470-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.9	NA	TCGA-EJ-8470.e53212bf-d686-4acc-8859-00cbdddd627c.pdf		NA		Primary	0.4	1.6	EJ	NA	Prostate		0.3
+TCGA-EJ-A46H	TCGA-EJ-A46H-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		188			7		NO	NA	TRUE	TCGA-EJ-A46H.CF251041-E282-4840-9652-67665E7B10BB.pdf		NA		Primary	NA	NA	EJ	NA	Prostate		NA
+TCGA-EJ-A46I	TCGA-EJ-A46I-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		520			7		NO	NA	TRUE	TCGA-EJ-A46I.741CC282-0593-45E4-BEEB-343339F891AA.pdf		NA		Primary	NA	NA	EJ	NA	Prostate		0.0333333333333
+TCGA-EJ-A65E	TCGA-EJ-A65E-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		289			7		NO	NA	TRUE	TCGA-EJ-A65E.4B502278-393D-4B65-A424-B795547938ED.pdf		NA		Primary	NA	NA	EJ	NA	Prostate		0.566666666667
+TCGA-EJ-A65M	TCGA-EJ-A65M-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		69			6		NO	NA	TRUE	TCGA-EJ-A65M.E0FB271C-8BC6-43FB-BE90-85A28009D962.pdf		NA		Primary	NA	NA	EJ	NA	Prostate		0.466666666667
+TCGA-FC-7708	TCGA-FC-7708-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.3	NA	TCGA-FC-7708.da17eddc-be95-4387-9c6a-fa647f33ceb7.pdf		Overlapping / Multiple Zones		Primary	0.2	0.9	FC	Apex|Middle	Prostate		0.233333333333
+TCGA-FC-A66V	TCGA-FC-A66V-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		287			7		NO	NA	TRUE	TCGA-FC-A66V.3C1BD6CD-0915-4DEA-A013-F2DE554C267F.pdf		Overlapping / Multiple Zones		Primary	NA	NA	FC	Middle|Base	Prostate		NA
+TCGA-FC-A6HD	TCGA-FC-A6HD-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		140			7		NO	NA	TRUE	TCGA-FC-A6HD.7452FEB1-FFB9-4DD2-8CD7-5BEB2B108208.pdf		Overlapping / Multiple Zones		Primary	NA	NA	FC	Middle	Prostate		0.533333333333
+TCGA-FC-A8O0	TCGA-FC-A8O0-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		168			6		NO	NA	TRUE	TCGA-FC-A8O0.4DC18F34-9319-45E5-8ECA-D86E9CD81EE6.pdf		Peripheral Zone		Primary	NA	NA	FC	Base	Prostate		0.233333333333
+TCGA-G9-6329	TCGA-G9-6329-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.3	NA	TCGA-G9-6329.fd7b8f28-b1ee-428e-859c-c888c459a3b0.pdf		NA		Primary	0.2	0.7	G9	NA	Prostate		0.0666666666667
+TCGA-G9-6332	TCGA-G9-6332-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.4	NA	TCGA-G9-6332.18b9fda1-2d69-4c5e-94ba-bfbbcd742bdd.pdf		NA		Primary	0.1	0.2	G9	Apex|Base	Prostate		0.533333333333
+TCGA-G9-6333	TCGA-G9-6333-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-G9-6333.df50612f-a299-468b-b6bf-226366f4cf42.pdf		NA		Primary	0.2	0.6	G9	Apex|Base	Prostate		0.333333333333
+TCGA-G9-6336	TCGA-G9-6336-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	0.4	NA	TCGA-G9-6336.ceda2ffb-b844-4f89-baba-82a66e6f3f0e.pdf		NA		Primary	0.2	0.3	G9	Apex|Base	Prostate		0.133333333333
+TCGA-G9-6338	TCGA-G9-6338-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-G9-6338.d3962697-f160-4a76-bfbe-81c06c89d5c3.pdf		NA		Primary	0.2	1	G9	Apex	Prostate		0.466666666667
+TCGA-G9-6339	TCGA-G9-6339-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.3	NA	TCGA-G9-6339.10FA561E-76C7-4F83-BC1C-B858DF9CCC46.pdf		NA		Primary	0.3	0.8	G9	Apex|Middle|Base	Prostate		0.633333333333
+TCGA-G9-6342	TCGA-G9-6342-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	0.8	NA	TCGA-G9-6342.80379cb8-9fb7-4e01-9e4a-2bf7813dc839.pdf		NA		Primary	0.3	0.4	G9	Apex|Base	Prostate		0.3
+TCGA-G9-6343	TCGA-G9-6343-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.5	NA	TCGA-G9-6343.3d7d837b-a09e-4281-93af-a789123a9356.pdf		NA		Primary	0.2	0.6	G9	Apex|Base	Prostate		0.0333333333333
+TCGA-G9-6347	TCGA-G9-6347-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	1	NA	TCGA-G9-6347.2ED4FCE8-5DCF-4529-95E5-C454529D7971.pdf		Peripheral Zone		Primary	0.1	0.4	G9	Apex|Middle	Prostate		0.0333333333333
+TCGA-G9-6348	TCGA-G9-6348-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.9	NA	TCGA-G9-6348.2ee3eb4c-3673-41a1-b005-fec737174aca.pdf		NA		Primary	0.1	0.8	G9	Apex|Base	Prostate		0.366666666667
+TCGA-G9-6351	TCGA-G9-6351-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.6	NA	TCGA-G9-6351.7942304b-0a3d-492c-bbb2-65695f1958e4.pdf		NA		Primary	0.3	0.3	G9	Apex	Prostate		0.166666666667
+TCGA-G9-6353	TCGA-G9-6353-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-G9-6353.72b2694f-8b37-402a-a75a-2a50372a789e.pdf		Peripheral Zone		Primary	0.5	0.6	G9	Apex|Middle	Prostate		NA
+TCGA-G9-6354	TCGA-G9-6354-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.6	NA	TCGA-G9-6354.CFFC4C63-D738-41CD-8EE3-25C190A9638C.pdf		NA		Primary	0.1	0.1	G9	Apex|Base	Prostate		0.233333333333
+TCGA-G9-6361	TCGA-G9-6361-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.3	NA	TCGA-G9-6361.49fe865a-79e8-4ff3-a52e-9888c4514cf2.pdf		NA		Primary	0.2	0.7	G9	Apex|Base	Prostate		0.566666666667
+TCGA-G9-6362	TCGA-G9-6362-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.2	NA	TCGA-G9-6362.fc8bac85-e3c5-47c1-b4c1-9b8834e01780.pdf		NA		Primary	0.2	0.8	G9	Apex|Base	Prostate		0.4
+TCGA-G9-6363	TCGA-G9-6363-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.2	NA	TCGA-G9-6363.bd52ccc2-462d-41df-a5a4-dc45bd78aea4.pdf		NA		Primary	0.3	0.9	G9	Base	Prostate		0.4
+TCGA-G9-6364	TCGA-G9-6364-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.7	NA	TCGA-G9-6364.81deb5a1-4d5d-490a-a956-a64a4e6763f8.pdf		NA		Primary	0.4	0.8	G9	NA	Prostate		0.366666666667
+TCGA-G9-6365	TCGA-G9-6365-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	2	NA	TCGA-G9-6365.0f1f5e1b-4086-4a77-96ba-2108abdde80f.pdf		NA		Primary	0.3	0.8	G9	Apex|Base	Prostate		0.4
+TCGA-G9-6366	TCGA-G9-6366-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.8	NA	TCGA-G9-6366.6ef07861-a4db-4aa2-ba73-4cd43e10d72f.pdf		NA		Primary	0.2	1.2	G9	Apex|Base	Prostate		0.466666666667
+TCGA-G9-6369	TCGA-G9-6369-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-G9-6369.8da381e8-6bab-4b75-9ae3-d7b76f90f044.pdf		NA		Primary	0.2	0.5	G9	Base	Prostate		0.633333333333
+TCGA-G9-6370	TCGA-G9-6370-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	1.2	NA	TCGA-G9-6370.fa0332e6-d535-45c0-8ed9-9b36816f1350.pdf		NA		Primary	0.4	0.6	G9	Apex|Base	Prostate		NA
+TCGA-G9-6371	TCGA-G9-6371-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	1	NA	TCGA-G9-6371.26034718-f43a-491d-99fb-934d99ba4a6a.pdf		NA		Primary	0.3	0.6	G9	Apex|Base	Prostate		0.166666666667
+TCGA-G9-6373	TCGA-G9-6373-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-G9-6373.ed631fb0-95e4-4b30-963f-1ff4cb4f0ece.pdf		NA		Primary	0.1	0.9	G9	Apex|Base	Prostate		0.5
+TCGA-G9-6377	TCGA-G9-6377-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.4	NA	TCGA-G9-6377.520abbf9-817a-45db-aecc-22c4fc80ddae.pdf		NA		Primary	0.2	0.5	G9	Apex|Base	Prostate		0.266666666667
+TCGA-G9-6378	TCGA-G9-6378-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.2	NA	TCGA-G9-6378.425008c5-919c-45b3-beb7-2392d6866ffb.pdf		NA		Primary	0.2	0.9	G9	Apex|Base	Prostate		0.0666666666667
+TCGA-G9-6379	TCGA-G9-6379-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.5	NA	TCGA-G9-6379.A097CB29-5440-45F9-B261-025603C37CEF.pdf		NA		Primary	0.4	1	G9	Apex	Prostate		0.166666666667
+TCGA-G9-6384	TCGA-G9-6384-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.2	NA	TCGA-G9-6384.6987c1c1-6e23-44f0-bba8-6bba4a288025.pdf		NA		Primary	0.6	0.7	G9	Apex|Base	Prostate		0.333333333333
+TCGA-G9-6385	TCGA-G9-6385-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-G9-6385.3027c5cd-f972-469c-a9f2-9a72b83a86c8.pdf		NA		Primary	0.3	0.7	G9	Base	Prostate		0.1
+TCGA-G9-6494	TCGA-G9-6494-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.7	NA	TCGA-G9-6494.9aad0222-0731-498b-a9c2-400ce0ccfa0d.pdf		NA		Primary	0.4	1	G9	Base	Prostate		0.433333333333
+TCGA-G9-6496	TCGA-G9-6496-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.2	NA	TCGA-G9-6496.193cca51-2d1f-49aa-afdb-63a55d689c86.pdf		NA		Primary	0.5	1	G9	Apex|Base	Prostate		0.733333333333
+TCGA-G9-6498	TCGA-G9-6498-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.3	NA	TCGA-G9-6498.0F610D96-54E9-4E40-B3D4-19554C782057.pdf		NA		Primary	0.4	0.5	G9	Apex	Prostate		0.333333333333
+TCGA-G9-7519	TCGA-G9-7519-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.1	NA	TCGA-G9-7519.07227b7d-9285-4d1b-9484-ccdb20841905.pdf		NA		Primary	0.7	0.8	G9	Apex|Base	Prostate		0.266666666667
+TCGA-G9-7522	TCGA-G9-7522-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	1.1	NA	TCGA-G9-7522.8d3c4720-f528-4a73-b2f0-95b2aac093f2.pdf		NA		Primary	0.4	0.9	G9	Apex	Prostate		0.1
+TCGA-G9-7525	TCGA-G9-7525-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.8	NA	TCGA-G9-7525.837a5284-61ec-4a13-9743-010fc6a8df6a.pdf		NA		Primary	0.4	0.9	G9	Base	Prostate		0.533333333333
+TCGA-H9-7775	TCGA-H9-7775-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-H9-7775.2a752788-15f1-4879-96a7-eaf5dfa6921d.pdf		NA		Primary	0.4	0.6	H9	NA	Prostate		0.533333333333
+TCGA-H9-A6BX	TCGA-H9-A6BX-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		479			6		NO	NA	FALSE	TCGA-H9-A6BX.5AEA61BF-A79E-4A8A-B3F1-45982DAF288E.pdf		NA		Primary	NA	NA	H9	NA	Prostate		NA
+TCGA-H9-A6BY	TCGA-H9-A6BY-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		303			7		NO	NA	FALSE	TCGA-H9-A6BY.87EDA3C6-8BAC-49FD-8592-1D38812660E6.pdf		Overlapping / Multiple Zones		Primary	NA	NA	H9	NA	Prostate		0.466666666667
+TCGA-HC-7075	TCGA-HC-7075-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			6		NO	0.7	NA	TCGA-HC-7075.72e3166c-bbd4-4bc1-931c-5fda225b3cf9.pdf		NA		Primary	0.2	0.4	HC	NA	Prostate		0.433333333333
+TCGA-HC-7077	TCGA-HC-7077-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	1.1	NA	TCGA-HC-7077.67940700-dcd0-4e3c-9cca-4f6daeacf34c.pdf		NA		Primary	0.1	0.5	HC	NA	Prostate		0.7
+TCGA-HC-7078	TCGA-HC-7078-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.9	NA	TCGA-HC-7078.fb3865df-5e90-4a2f-b684-063d41369bfc.pdf		NA		Primary	0.1	0.5	HC	NA	Prostate		0.733333333333
+TCGA-HC-7079	TCGA-HC-7079-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	0.9	NA	TCGA-HC-7079.8e42fce1-33e7-45e1-b8e9-2faf5a02766d.pdf		NA		Primary	0.3	0.6	HC	Apex|Middle|Base	Prostate		NA
+TCGA-HC-7080	TCGA-HC-7080-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.5	NA	TCGA-HC-7080.f2bf590a-9473-47fe-89a9-69c480b6c42b.pdf		NA		Primary	0.2	0.4	HC	Apex|Middle	Prostate		0.7
+TCGA-HC-7209	TCGA-HC-7209-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	0.6	NA	TCGA-HC-7209.87f8ff1b-d58b-470e-9156-144cbe34b71c.pdf		NA		Primary	0.1	0.4	HC	Apex|Middle|Base	Prostate		0.366666666667
+TCGA-HC-7210	TCGA-HC-7210-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.1	NA	TCGA-HC-7210.8398444a-bfad-41d6-94a6-ab85ddf159aa.pdf		NA		Primary	0.4	0.9	HC	NA	Prostate		0.5
+TCGA-HC-7212	TCGA-HC-7212-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-HC-7212.b401d78b-78c2-4e6e-86db-c93997da85a4.pdf		NA		Primary	0.3	0.8	HC	NA	Prostate		0.266666666667
+TCGA-HC-7230	TCGA-HC-7230-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.5	NA	TCGA-HC-7230.0c078733-c8ed-4d5c-9da0-979f4af4fc4f.pdf		NA		Primary	0.1	0.4	HC	NA	Prostate		0.4
+TCGA-HC-7231	TCGA-HC-7231-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.3	NA	TCGA-HC-7231.4a904b18-b8cf-4666-a384-2b3ce33f7891.pdf		NA		Primary	0.1	0.2	HC	NA	Prostate		0.333333333333
+TCGA-HC-7233	TCGA-HC-7233-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	1	NA	TCGA-HC-7233.3531e095-4042-4fc8-aa69-522b16e4e1fc.pdf		NA		Primary	0.6	0.9	HC	Apex	Prostate		0.7
+TCGA-HC-7736	TCGA-HC-7736-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-HC-7736.d5cb57cb-ff9a-4c83-b019-7b5ed2cd7494.pdf		NA		Primary	0.4	1	HC	Middle|Base	Prostate		0.333333333333
+TCGA-HC-7738	TCGA-HC-7738-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.6	NA	TCGA-HC-7738.374827be-3cc2-4da8-a815-40539e441ccd.pdf		NA		Primary	0.1	0.3	HC	Apex	Prostate		0.533333333333
+TCGA-HC-7740	TCGA-HC-7740-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	1.2	NA	TCGA-HC-7740.d2b80346-3a50-4fc3-99c2-0e15225cc433.pdf		NA		Primary	0.3	0.7	HC	Apex|Middle|Base	Prostate		0.1
+TCGA-HC-7742	TCGA-HC-7742-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.6	NA	TCGA-HC-7742.1fe1a801-da9e-4e62-935e-0d014c0b5631.pdf		NA		Primary	0.1	0.4	HC	NA	Prostate		0.666666666667
+TCGA-HC-7744	TCGA-HC-7744-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	1	NA	TCGA-HC-7744.01b8c2af-bdf8-4627-bf6e-c7a41d929b94.pdf		NA		Primary	0.3	0.6	HC	Apex|Middle|Base	Prostate		0.6
+TCGA-HC-7745	TCGA-HC-7745-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.7	NA	TCGA-HC-7745.4a65a2d9-6007-4ff2-9711-46351f540367.pdf		NA		Primary	0.2	0.4	HC	Middle	Prostate		0.233333333333
+TCGA-HC-7747	TCGA-HC-7747-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.5	NA	TCGA-HC-7747.cd814697-95e2-46d6-8f80-4467d7bedf01.pdf		NA		Primary	0.2	0.4	HC	Apex|Middle|Base	Prostate		0.133333333333
+TCGA-HC-7748	TCGA-HC-7748-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	0.8	NA	TCGA-HC-7748.6516e000-dc8c-4715-a561-ee47a114ad23.pdf		NA		Primary	0.4	0.7	HC	NA	Prostate		0.333333333333
+TCGA-HC-7749	TCGA-HC-7749-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.3	NA	TCGA-HC-7749.35e33cb7-77a7-4d02-b4ec-9374423027c0.pdf		NA		Primary	0.2	0.3	HC	Middle|Base	Prostate		0.933333333333
+TCGA-HC-7750	TCGA-HC-7750-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.4	NA	TCGA-HC-7750.f05d95fd-391d-49ab-8a2f-039110a654bd.pdf		NA		Primary	0.2	0.3	HC	Apex|Middle|Base	Prostate		0.166666666667
+TCGA-HC-7752	TCGA-HC-7752-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.4	NA	TCGA-HC-7752.d077f87f-0c7a-4641-a3fd-8bcd89fc67e7.pdf		NA		Primary	0.2	0.3	HC	Base	Prostate		0.633333333333
+TCGA-HC-7817	TCGA-HC-7817-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.1	NA	TCGA-HC-7817.A1E3EC71-D7D2-4286-A12F-78ADFD27E53C.pdf		NA		Primary	0.5	0.8	HC	Apex|Middle|Base	Prostate		0.1
+TCGA-HC-7818	TCGA-HC-7818-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.4	NA	TCGA-HC-7818.e6f3745f-31bf-4475-85f8-956811ce6cb6.pdf		NA		Primary	0.2	0.2	HC	Apex|Middle|Base	Prostate		NA
+TCGA-HC-7820	TCGA-HC-7820-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.4	NA	TCGA-HC-7820.750c91eb-1732-4ca3-8c71-f1309a90e4f5.pdf		NA		Primary	0.1	0.3	HC	NA	Prostate		0.266666666667
+TCGA-HC-8213	TCGA-HC-8213-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	0.7	NA	TCGA-HC-8213.E6CE4E34-DE42-455C-AD93-CCE42FCFE049.pdf		NA		Primary	0.3	0.5	HC	NA	Prostate		0.1
+TCGA-HC-8216	TCGA-HC-8216-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.4	NA	TCGA-HC-8216.CD881D57-9CCB-4984-8C37-B3DDE9189814.pdf		NA		Primary	0.3	0.3	HC	Middle|Base	Prostate		0.6
+TCGA-HC-8256	TCGA-HC-8256-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.4	NA	TCGA-HC-8256.2ec7732c-f24c-41eb-ba84-39bfc1c0c5b3.pdf		NA		Primary	0.1	0.3	HC	NA	Prostate		0.266666666667
+TCGA-HC-8257	TCGA-HC-8257-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1.1	NA	TCGA-HC-8257.ff35baf5-f38f-4458-8c20-c61d61c61c19.pdf		NA		Primary	0.1	0.3	HC	NA	Prostate		0.5
+TCGA-HC-8258	TCGA-HC-8258-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			6		NO	0.6	NA	TCGA-HC-8258.fffd3795-6c0c-43a0-afe4-30e759e5f20a.pdf		NA		Primary	0.2	0.5	HC	NA	Prostate		NA
+TCGA-HC-8259	TCGA-HC-8259-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	0.5	NA	TCGA-HC-8259.e53c1322-0854-4ae8-b087-3ddd3712df56.pdf		NA		Primary	0.2	0.4	HC	NA	Prostate		0.3
+TCGA-HC-8260	TCGA-HC-8260-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	1	NA	TCGA-HC-8260.12d41624-f0a9-4ba1-aa55-18fea0b733af.pdf		Peripheral Zone		Primary	0.1	0.7	HC	Apex	Prostate		0.133333333333
+TCGA-HC-8261	TCGA-HC-8261-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.4	NA	TCGA-HC-8261.66690c59-06ae-4d5e-b862-3be6a11d67fb.pdf		NA		Primary	0.2	0.3	HC	NA	Prostate		0.333333333333
+TCGA-HC-A6AL	TCGA-HC-A6AL-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		224			7		NO	NA	FALSE	TCGA-HC-A6AL.2A2BA0EA-C67A-4AA6-948C-019AA6475C06.pdf		NA		Primary	NA	NA	HC	NA	Prostate		0.666666666667
+TCGA-HC-A6AN	TCGA-HC-A6AN-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		209			7		NO	NA	FALSE	TCGA-HC-A6AN.D5C8CC7E-BADE-457C-AC31-CC138C8C794C.pdf		NA		Primary	NA	NA	HC	NA	Prostate		0.6
+TCGA-HC-A6AO	TCGA-HC-A6AO-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		301			7		NO	NA	FALSE	TCGA-HC-A6AO.37F41695-9D8D-4CA1-9728-6A04AAD76274.pdf		NA		Primary	NA	NA	HC	NA	Prostate		0.266666666667
+TCGA-HC-A6AP	TCGA-HC-A6AP-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		182			7		NO	NA	FALSE	TCGA-HC-A6AP.7271E139-D1C7-4FB1-B148-54DE4A1DF42B.pdf		Overlapping / Multiple Zones		Primary	NA	NA	HC	NA	Prostate		0.233333333333
+TCGA-HC-A6AQ	TCGA-HC-A6AQ-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		204			7		NO	NA	FALSE	TCGA-HC-A6AQ.1B1D93C4-54AB-43CA-B800-6807A81AA89A.pdf		NA		Primary	NA	NA	HC	NA	Prostate		0.166666666667
+TCGA-HC-A6AS	TCGA-HC-A6AS-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		127			7		NO	NA	FALSE	TCGA-HC-A6AS.89891821-AF8C-4105-8270-D6FCF714697F.pdf		NA		Primary	NA	NA	HC	NA	Prostate		0.133333333333
+TCGA-HC-A6HX	TCGA-HC-A6HX-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		112			7		NO	NA	FALSE	TCGA-HC-A6HX.0E22E3BE-B28B-40CC-83F9-9B59593B7187.pdf		NA		Primary	NA	NA	HC	NA	Prostate		0.0333333333333
+TCGA-HC-A6HY	TCGA-HC-A6HY-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		179			7		NO	NA	FALSE	TCGA-HC-A6HY.91DC18E8-EF04-47C0-A77F-632A9DE2BA55.pdf		NA		Primary	NA	NA	HC	NA	Prostate		0.5
+TCGA-HI-7169	TCGA-HI-7169-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS;WGS		NA			7		NO	1.3	NA	TCGA-HI-7169.ed386bc1-82a8-489e-81e0-53a93325a48e.pdf		NA		Primary	0.3	0.5	HI	Apex	Prostate		0.366666666667
+TCGA-HI-7170	TCGA-HI-7170-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			6		NO	1.3	NA	TCGA-HI-7170.96f2ece8-246a-43fe-8963-217613c84f0b.pdf		NA		Primary	0.4	0.8	HI	Apex	Prostate		0.466666666667
+TCGA-J4-8198	TCGA-J4-8198-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.8	NA	TCGA-J4-8198.c61b1da1-f0d2-48c9-ac71-5967799def29.pdf		NA		Primary	0.4	0.7	J4	Apex|Middle|Base	Prostate		0.666666666667
+TCGA-J4-8200	TCGA-J4-8200-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		NA			7		NO	0.7	NA	TCGA-J4-8200.5E18C318-D20B-4837-850D-34FD96C87EEC.pdf		Overlapping / Multiple Zones		Primary	0.4	0.5	J4	NA	Prostate		0.266666666667
+TCGA-J4-A67K	TCGA-J4-A67K-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		580			7		NO	NA	TRUE	TCGA-J4-A67K.F8FF8077-8922-4CC8-95DD-4AF68CCC7EEC.pdf		Peripheral Zone		Primary	NA	NA	J4	NA	Prostate		0.366666666667
+TCGA-J4-A67L	TCGA-J4-A67L-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		485			7		NO	NA	TRUE	TCGA-J4-A67L.91F854F5-D488-4B25-B59A-6CB59C6357BB.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle|Base	Prostate		0.433333333333
+TCGA-J4-A67M	TCGA-J4-A67M-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		482			7		NO	NA	TRUE	TCGA-J4-A67M.590FEE5C-E5FF-4DB2-8A7E-6502E5B9A56B.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle|Base	Prostate		0.333333333333
+TCGA-J4-A67N	TCGA-J4-A67N-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		504			7		NO	NA	TRUE	TCGA-J4-A67N.70E5E77E-6B59-40A7-8E87-456EF28AED98.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle|Base	Prostate		0.366666666667
+TCGA-J4-A67O	TCGA-J4-A67O-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		392			7		NO	NA	TRUE	TCGA-J4-A67O.BF98B941-3DEB-46EB-803D-4A4AF49F529E.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex	Prostate		0.1
+TCGA-J4-A67Q	TCGA-J4-A67Q-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		584			6		NO	NA	TRUE	TCGA-J4-A67Q.E7702E20-7616-4A88-862B-E860045E9C81.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle	Prostate		0.0666666666667
+TCGA-J4-A67R	TCGA-J4-A67R-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		440			7		NO	NA	TRUE	TCGA-J4-A67R.EAFE4CB1-BB7F-4D26-851D-49ECE5A73750.pdf		Peripheral Zone		Primary	NA	NA	J4	Middle|Base	Prostate		NA
+TCGA-J4-A67S	TCGA-J4-A67S-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		427			7		NO	NA	TRUE	TCGA-J4-A67S.D5BC3AA7-D957-4291-8A6B-D148AA7CA909.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle|Base	Prostate		0.2
+TCGA-J4-A67T	TCGA-J4-A67T-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		409			7		NO	NA	TRUE	TCGA-J4-A67T.8E3BAF97-3B7F-4B3A-BC88-BACB5A716DFD.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle	Prostate		0.1
+TCGA-J4-A6M7	TCGA-J4-A6M7-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		309			7		NO	NA	TRUE	TCGA-J4-A6M7.F717DD9D-074A-4252-9125-C00A3DE587B0.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle	Prostate		0.233333333333
+TCGA-J4-A83I	TCGA-J4-A83I-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		183			7		NO	NA	TRUE	TCGA-J4-A83I.E3AFE230-AE22-4120-BC42-7FE78FCB06A2.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle|Base	Prostate		0.366666666667
+TCGA-J4-A83J	TCGA-J4-A83J-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		272			7		NO	NA	TRUE	TCGA-J4-A83J.D3FF2CCF-E6D0-4C8A-9159-F78176E7EE59.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle|Base	Prostate		0.733333333333
+TCGA-J4-A83K	TCGA-J4-A83K-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		254			6		NO	NA	TRUE	TCGA-J4-A83K.B03E6C45-550E-4657-9292-75D7BB058D2A.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle|Base	Prostate		0.166666666667
+TCGA-J4-A83L	TCGA-J4-A83L-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		218			7		NO	NA	TRUE	TCGA-J4-A83L.837A4811-0DAF-46F6-9C84-D2BBFFC56AF0.pdf		Central Zone		Primary	NA	NA	J4	Apex|Middle|Base	Prostate		0.133333333333
+TCGA-J4-A83M	TCGA-J4-A83M-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		412			7		NO	NA	TRUE	TCGA-J4-A83M.8AA3EBE4-49E8-4D0A-A3A4-B51E41B3AA4F.pdf		Peripheral Zone		Primary	NA	NA	J4	Apex|Middle	Prostate		0.3
+TCGA-J4-A83N	TCGA-J4-A83N-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		519			7		NO	NA	TRUE	TCGA-J4-A83N.C40A9D7F-BFEC-4C07-A1C3-A34706E39713.pdf		Overlapping / Multiple Zones		Primary	NA	NA	J4	Apex|Middle|Base	Prostate		0.266666666667
+TCGA-M7-A71Y	TCGA-M7-A71Y-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		183			7		NO	NA	FALSE	TCGA-M7-A71Y.569825C5-98D3-4A52-AD1D-2859F8F54A34.pdf		Overlapping / Multiple Zones		Primary	NA	NA	M7	Apex|Middle|Base	Prostate		NA
+TCGA-M7-A71Z	TCGA-M7-A71Z-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		136			7		NO	NA	FALSE	TCGA-M7-A71Z.5F9BC119-B8E9-4C05-8A34-AA8E79C490B6.pdf		Overlapping / Multiple Zones		Primary	NA	NA	M7	Apex|Base	Prostate		0.533333333333
+TCGA-M7-A720	TCGA-M7-A720-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		190			6		NO	NA	FALSE	TCGA-M7-A720.65D5D425-D41A-4E98-AA86-119F3BE1D3CE.pdf		Peripheral Zone		Primary	NA	NA	M7	Middle|Base	Prostate		NA
+TCGA-M7-A721	TCGA-M7-A721-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		276			7		NO	NA	FALSE	TCGA-M7-A721.357FE07A-B561-44BF-B59B-811F77C1F634.pdf		Overlapping / Multiple Zones		Primary	NA	NA	M7	Apex|Middle|Base	Prostate		0.0333333333333
+TCGA-M7-A723	TCGA-M7-A723-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		442			7		NO	NA	FALSE	TCGA-M7-A723.8F42420C-A513-4A6A-A89F-B5C9303FBF59.pdf		Overlapping / Multiple Zones		Primary	NA	NA	M7	Apex|Middle|Base	Prostate		NA
+TCGA-M7-A725	TCGA-M7-A725-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		240			7		NO	NA	FALSE	TCGA-M7-A725.5885079D-F3C7-44DB-9BA1-60DCA1C9919C.pdf		Overlapping / Multiple Zones		Primary	NA	NA	M7	Apex|Base	Prostate		0.466666666667
+TCGA-QU-A6IL	TCGA-QU-A6IL-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		4048			7		NO	NA	TRUE	TCGA-QU-A6IL.EF13AC98-FA7C-442C-A6A4-A5E7ECB2596D.pdf		NA		Primary	NA	NA	QU	Apex|Middle|Base	Prostate		0.333333333333
+TCGA-QU-A6IM	TCGA-QU-A6IM-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		3796			7		NO	NA	TRUE	TCGA-QU-A6IM.6999B5F3-AC5C-4447-9590-548F103039C3.pdf		NA		Primary	NA	NA	QU	Apex|Middle	Prostate		1.33333333333
+TCGA-QU-A6IN	TCGA-QU-A6IN-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		3789			7		NO	NA	TRUE	TCGA-QU-A6IN.11063611-DCFF-427E-89A9-25961C79DF07.pdf		NA		Primary	NA	NA	QU	Apex|Middle|Base	Prostate		0.366666666667
+TCGA-QU-A6IO	TCGA-QU-A6IO-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		3614			6		NO	NA	TRUE	TCGA-QU-A6IO.6450E3BE-55E8-4A6C-AA40-86B74F30458B.pdf		NA		Primary	NA	NA	QU	Apex|Middle|Base	Prostate		0.3
+TCGA-QU-A6IP	TCGA-QU-A6IP-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		3118			6		NO	NA	TRUE	TCGA-QU-A6IP.D1E73097-6F07-4B1E-8914-074FA037CB85.pdf		NA		Primary	NA	NA	QU	Middle|Base	Prostate		0.133333333333
+TCGA-VN-A88L	TCGA-VN-A88L-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		367			7		NO	NA	TRUE	TCGA-VN-A88L.7247904D-2E8C-49B5-8D35-A6CE0D9687DE.pdf		NA		Primary	NA	NA	VN	Middle|Base	Prostate		0.1
+TCGA-VN-A88M	TCGA-VN-A88M-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		288			7		NO	NA	TRUE	TCGA-VN-A88M.787071AD-ED3D-46CA-8982-2087EE6AC0EA.pdf		NA		Primary	NA	NA	VN	Middle	Prostate		0.1
+TCGA-VN-A88N	TCGA-VN-A88N-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		156			7		NO	NA	TRUE	TCGA-VN-A88N.CB3E6129-CCCC-4EEB-88CD-63DE78D8F163.pdf		Overlapping / Multiple Zones		Primary	NA	NA	VN	Apex|Middle|Base	Prostate		0.333333333333
+TCGA-VN-A88O	TCGA-VN-A88O-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		426			7		NO	NA	TRUE	TCGA-VN-A88O.E47DAF10-187B-4909-A0C5-D96231A5893F.pdf		Overlapping / Multiple Zones		Primary	NA	NA	VN	Apex|Middle|Base	Prostate		0.266666666667
+TCGA-VN-A88P	TCGA-VN-A88P-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		911			7		NO	NA	TRUE	TCGA-VN-A88P.9C83DFB8-B75A-40D1-B791-BE52B52BBDA6.pdf		Overlapping / Multiple Zones		Primary	NA	NA	VN	Base	Prostate		0.6
+TCGA-VP-A875	TCGA-VP-A875-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		3124			7		NO	NA	TRUE	TCGA-VP-A875.2CF80467-58E9-4A65-94D5-08401BE6ACB5.pdf		Overlapping / Multiple Zones		Primary	NA	NA	VP	Apex|Base	Prostate		0.4
+TCGA-VP-A87C	TCGA-VP-A87C-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		2229			7		NO	NA	TRUE	TCGA-VP-A87C.2E0994EC-7C5F-4721-972D-5D590674D6AC.pdf		Overlapping / Multiple Zones		Primary	NA	NA	VP	Apex|Base	Prostate		0.333333333333
+TCGA-VP-A87E	TCGA-VP-A87E-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		2059			6		NO	NA	TRUE	TCGA-VP-A87E.6B46F895-B5CD-40B8-8962-AA8DF2505446.pdf		Overlapping / Multiple Zones		Primary	NA	NA	VP	Apex|Base	Prostate		0.0333333333333
+TCGA-VP-A87J	TCGA-VP-A87J-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		1379			7		NO	NA	TRUE	TCGA-VP-A87J.03F4F8F1-ACE1-4391-85AC-A10B2F56CDD0.pdf		Overlapping / Multiple Zones		Primary	NA	NA	VP	Apex|Base	Prostate		0.3
+TCGA-X4-A8KS	TCGA-X4-A8KS-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		735			7		NO	NA	TRUE	TCGA-X4-A8KS.30844429-3F9C-4AD0-8A23-64012532347C.pdf		Peripheral Zone		Primary	NA	NA	X4	NA	Prostate		NA
+TCGA-XA-A8JR	TCGA-XA-A8JR-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		223			7		NO	NA	TRUE	TCGA-XA-A8JR.587379B6-9AF9-471D-834C-668555ABC32A.pdf		NA		Primary	NA	NA	XA	NA	Prostate		0.0666666666667
+TCGA-XJ-A83G	TCGA-XJ-A83G-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		1114			7		NO	NA	FALSE	TCGA-XJ-A83G.F5DB0EA7-336E-4A5E-9BFD-3291A5DB4D3D.pdf		Peripheral Zone		Primary	NA	NA	XJ	Apex|Middle	Prostate		0.266666666667
+TCGA-XJ-A9DQ	TCGA-XJ-A9DQ-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		2265			6		NO	NA	FALSE	TCGA-XJ-A9DQ.CAD1C3A1-9EF6-4253-AEEB-C6D80A07C8E7.pdf		Peripheral Zone		Primary	NA	NA	XJ	Apex|Base	Prostate		0.0666666666667
+TCGA-Y6-A8TL	TCGA-Y6-A8TL-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		677			6		NO	NA	TRUE	TCGA-Y6-A8TL.8DE4AB1E-913E-4763-81EE-272430E5CC4A.pdf		Peripheral Zone		Primary	NA	NA	Y6	Apex	Prostate		0.333333333333
+TCGA-YL-A8HO	TCGA-YL-A8HO-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		2100			7		NO	NA	TRUE	TCGA-YL-A8HO.3C690B20-F9EC-456D-B397-928E39B3FFE2.pdf		Overlapping / Multiple Zones		Primary	NA	NA	YL	Middle|Base	Prostate		0.3
+TCGA-YL-A8SH	TCGA-YL-A8SH-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		1481			7		NO	NA	TRUE	TCGA-YL-A8SH.62FF9B6A-9C3E-4E29-9D57-10CC2025C5B7.pdf		Overlapping / Multiple Zones		Primary	NA	NA	YL	Apex|Middle|Base	Prostate		0.533333333333
+TCGA-ZG-A8QX	TCGA-ZG-A8QX-01	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WXS		167			6		NO	NA	TRUE	TCGA-ZG-A8QX.153CAD0D-4566-4BC2-B33D-FF1B44BA8E2B.pdf		Overlapping / Multiple Zones		Primary	NA	NA	ZG	Middle	Prostate		0.333333333333
+PR-3051	PR-3051-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.366666666667
+PR-3048	PR-3048-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		NA
+PR-3036	PR-3036-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.133333333333
+PR-3035	PR-3035-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.333333333333
+PR-3026	PR-3026-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.5
+PR-3023	PR-3023-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.0666666666667
+PR-2916	PR-2916-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		NA
+PR-2915	PR-2915-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.5
+PR-2858	PR-2858-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.0333333333333
+PR-2762	PR-2762-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.333333333333
+PR-2761	PR-2761-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.366666666667
+PR-2740	PR-2740-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.0333333333333
+PR-2661	PR-2661-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		NA
+PR-1043	PR-1043-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.566666666667
+PR-1024	PR-1024-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.6
+PR-0427	PR-0427-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.133333333333
+PR-0099	PR-0099-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.1
+P09-649	P09-649-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.0333333333333
+P03-1906	P03-1906-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.166666666667
+PR-01-1934	PR-01-1934-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.5
+P04-47	P04-47-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.233333333333
+PR-06-1999	PR-06-1999-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		NA
+P02-2035	P02-2035-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.533333333333
+PR-02-2072	PR-02-2072-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.366666666667
+P05-2212	P05-2212-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.5
+P06-2325	P06-2325-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.0333333333333
+PR-01-2382	PR-01-2382-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.166666666667
+PR-02-2480	PR-02-2480-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.0333333333333
+PR-01-2492	PR-01-2492-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.233333333333
+P09-2497	P09-2497-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.1
+PR-09-2517	PR-09-2517-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.366666666667
+PR-01-2554	PR-01-2554-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.466666666667
+P05-2594	P05-2594-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.0666666666667
+P04-2599	P04-2599-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.5
+P03-2620	P03-2620-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.166666666667
+P04-2641	P04-2641-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.1
+P04-2740	P04-2740-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.4
+PR-09-2744	PR-09-2744-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.333333333333
+PR-04-3113	PR-04-3113-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.1
+PR-04-3222	PR-04-3222-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.566666666667
+PR-04-3347	PR-04-3347-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.266666666667
+P03-3391	P03-3391-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.0333333333333
+PR-09-3421	PR-09-3421-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.366666666667
+P05-3436	P05-3436-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.4
+PR-05-3440	PR-05-3440-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.0333333333333
+PR-09-3566	PR-09-3566-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.233333333333
+P06-3676	P06-3676-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		NA
+PR-09-3687	PR-09-3687-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.5
+P05-3829	P05-3829-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		NA
+P05-3859	P05-3859-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.433333333333
+P06-4428	P06-4428-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.466666666667
+P07-5036	P07-5036-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.1
+PR-09-5446	PR-09-5446-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.166666666667
+PR-09-5630	PR-09-5630-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.133333333333
+PR-09-5700	PR-09-5700-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.3
+PR-09-5702	PR-09-5702-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.4
+P00-000450	P00-000450-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.4
+PR-00-1165	PR-00-1165-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		2.36666666667
+PR-00-160	PR-00-160-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.366666666667
+PR-00-1823	PR-00-1823-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.366666666667
+PR-02-1082	PR-02-1082-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.0333333333333
+P02-1562	P02-1562-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.4
+PR-02-169	PR-02-169-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		NA
+PR-02-1736	PR-02-1736-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.1
+PR-02-1899	PR-02-1899-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.366666666667
+PR-02-254	PR-02-254-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.333333333333
+PR-03-022	PR-03-022-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.4
+PR-03-1026	PR-03-1026-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.0666666666667
+P03-1334	P03-1334-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.533333333333
+PR-03-870	PR-03-870-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.0333333333333
+P03-871	P03-871-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.3
+PR-04-1367	PR-04-1367-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+3														Prostate		0.433333333333
+P04-1421	P04-1421-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.333333333333
+P04-1790	P04-1790-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.366666666667
+PR-04-194	PR-04-194-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.0666666666667
+P04-594	P04-594-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.4
+PR-04-639	PR-04-639-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.133333333333
+PR-04-903	PR-04-903-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.5
+PR-05-839	PR-05-839-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.366666666667
+P06-1125	P06-1125-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.333333333333
+P06-1696	P06-1696-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		NA
+P07-684	P07-684-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					4+3														Prostate		0.533333333333
+P07-718	P07-718-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		NA
+P08-590	P08-590-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.0333333333333
+P09-120	P09-120-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.0666666666667
+P09-1372	P09-1372-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.1
+P09-1580	P09-1580-Tumor	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WEX					3+4														Prostate		0.333333333333
+CPCG0001-F1	CPCG0001-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Positive	3+4						NA								Prostate	0.987485939	0.333333333333
+CPCG0003-F1	CPCG0003-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Negative	3+4						2.13								Prostate	0.98619574	0.3
+CPCG0006-F1	CPCG0006-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	4+3						1.96								Prostate	0.986770348	0.433333333333
+CPCG0020-F1	CPCG0020-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	75			Negative	3+4						NA								Prostate	0.987765515	0.4
+CPCG0022-F1	CPCG0022-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+3						NA								Prostate	0.986101988	NA
+CPCG0027-F1	CPCG0027-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+3						1.87								Prostate	0.989353818	NA
+CPCG0040-F1	CPCG0040-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+4						NA								Prostate	0.981220344	0.433333333333
+CPCG0046-F1	CPCG0046-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	4+3						NA								Prostate	0.955607185	0.0333333333333
+CPCG0047-F1	CPCG0047-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	4+3						NA								Prostate	0.985668542	0.4
+CPCG0048-F1	CPCG0048-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+3						NA								Prostate	0.963609215	0.1
+CPCG0050-F1	CPCG0050-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+3						NA								Prostate	0.990340369	0.566666666667
+CPCG0057-F1	CPCG0057-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+3						1.81								Prostate	0.985765359	0.366666666667
+CPCG0063-F1	CPCG0063-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	4+3						1.93								Prostate	0.964023558	0.533333333333
+CPCG0073-F1	CPCG0073-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	4+3						NA								Prostate	0.978957198	0.366666666667
+CPCG0078-F1	CPCG0078-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	4+3						NA								Prostate	0.930986675	0.4
+CPCG0081-F1	CPCG0081-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	4+3						2.07								Prostate	0.984901504	0.233333333333
+CPCG0083-F1	CPCG0083-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+4						1.87								Prostate	0.960558865	0.6
+CPCG0087-F1	CPCG0087-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+4						3.64								Prostate	0.989911686	0.4
+CPCG0090-F1	CPCG0090-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+3						NA								Prostate	0.987697014	0.366666666667
+CPCG0094-F1	CPCG0094-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	4+3						1.75								Prostate	0.958216265	0.6
+CPCG0095-F1	CPCG0095-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	50			Positive	4+3						NA								Prostate	0.974849128	0.1
+CPCG0098-F1	CPCG0098-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	4+3						NA								Prostate	0.957871969	0.7
+CPCG0099-F1	CPCG0099-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+4						1.86								Prostate	0.975636327	1.23333333333
+CPCG0102-F1	CPCG0102-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Negative	4+3						NA								Prostate	0.963392074	0.0333333333333
+CPCG0114-F1	CPCG0114-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	4+3						NA								Prostate	0.960175891	0.0333333333333
+CPCG0117-F1	CPCG0117-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+4						1.79								Prostate	0.969050287	0.5
+CPCG0121-F1	CPCG0121-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+4						1.82								Prostate	0.972622595	0.166666666667
+CPCG0122-F1	CPCG0122-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+3						NA								Prostate	0.989479567	0.0333333333333
+CPCG0123-F1	CPCG0123-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						NA								Prostate	0.966497133	0.366666666667
+CPCG0124-F1	CPCG0124-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	4+3						NA								Prostate	0.974547807	0.433333333333
+CPCG0127-F1	CPCG0127-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+4						NA								Prostate	0.976035033	NA
+CPCG0128-F1	CPCG0128-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+4						NA								Prostate	0.951495212	0.566666666667
+CPCG0154-F1	CPCG0154-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+3						NA								Prostate	0.969215309	0.2
+CPCG0158-F1	CPCG0158-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+4						NA								Prostate	0.969838148	0.566666666667
+CPCG0166-F1	CPCG0166-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+4						NA								Prostate	0.969288471	0.0666666666667
+CPCG0182-F1	CPCG0182-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	4+3						NA								Prostate	0.990650525	0.133333333333
+CPCG0183-F1	CPCG0183-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Negative	4+3						NA								Prostate	0.972743162	0.366666666667
+CPCG0184-F1	CPCG0184-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Negative	4+3						3.37								Prostate	0.968710776	0.4
+CPCG0185-F1	CPCG0185-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						NA								Prostate	0.964072934	0.5
+CPCG0189-F1	CPCG0189-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						1.75								Prostate	0.951502599	0.633333333333
+CPCG0190-F1	CPCG0190-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	50			Negative	3+4						NA								Prostate	0.968681781	0.133333333333
+CPCG0191-F1	CPCG0191-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Positive	4+3						1.81								Prostate	0.970660308	0.333333333333
+CPCG0196-F1	CPCG0196-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	4+3						NA								Prostate	0.987248603	0.233333333333
+CPCG0199-F1	CPCG0199-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	4+3						1.78								Prostate	0.96672836	0.3
+CPCG0201-F1	CPCG0201-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	4+3						1.69								Prostate	0.959928156	0.9
+CPCG0205-F1	CPCG0205-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+4						1.85								Prostate	0.970176001	0.3
+CPCG0206-F1	CPCG0206-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	4+3						1.83								Prostate	0.963001817	0.333333333333
+CPCG0208-F1	CPCG0208-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Negative	3+4						NA								Prostate	0.974897413	0.4
+CPCG0210-F1	CPCG0210-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	4+3						1.84								Prostate	0.978959841	0.433333333333
+CPCG0211-F1	CPCG0211-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+4						NA								Prostate	0.986326992	0.466666666667
+CPCG0212-F1	CPCG0212-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+4						NA								Prostate	0.975341872	0.3
+CPCG0213-F1	CPCG0213-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+4						NA								Prostate	0.972839378	0.2
+CPCG0217-F1	CPCG0217-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+3						NA								Prostate	0.962038511	0.3
+CPCG0232-F1	CPCG0232-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	40			Positive	3+4						1.79								Prostate	0.990417872	0.3
+CPCG0233-F1	CPCG0233-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Negative	4+3						1.84								Prostate	0.972489541	0.466666666667
+CPCG0234-F1	CPCG0234-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+4						NA								Prostate	0.971309404	0.133333333333
+CPCG0236-F1	CPCG0236-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Negative	4+3						NA								Prostate	0.979102747	0.366666666667
+CPCG0237-F1	CPCG0237-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+3						NA								Prostate	0.983847878	0.1
+CPCG0238-F1	CPCG0238-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+4						NA								Prostate	0.980818808	0.3
+CPCG0241-F1	CPCG0241-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						NA								Prostate	0.990765697	0.2
+CPCG0242-F1	CPCG0242-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	4+3						NA								Prostate	0.983479033	0.766666666667
+CPCG0243-F1	CPCG0243-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+3						NA								Prostate	0.985866772	0.533333333333
+CPCG0246-F1	CPCG0246-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+3						NA								Prostate	0.976779552	0.233333333333
+CPCG0248-F1	CPCG0248-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	3+4						1.77								Prostate	0.985176883	0.366666666667
+CPCG0249-F1	CPCG0249-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+4						1.84								Prostate	0.986054938	0.866666666667
+CPCG0250-F1	CPCG0250-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Positive	3+3						NA								Prostate	0.98055776	NA
+CPCG0251-F1	CPCG0251-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Negative	3+4						NA								Prostate	0.977198113	0.1
+CPCG0255-F1	CPCG0255-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+3						NA								Prostate	0.97869518	0.166666666667
+CPCG0256-F1	CPCG0256-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Positive	3+4						NA								Prostate	0.979809708	0.2
+CPCG0258-F1	CPCG0258-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+3						NA								Prostate	0.968158014	0.1
+CPCG0259-F1	CPCG0259-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+3						NA								Prostate	0.986421692	0.433333333333
+CPCG0260-F1	CPCG0260-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	4+3						1.81								Prostate	0.987825091	0.4
+CPCG0262-F1	CPCG0262-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						NA								Prostate	0.985316622	0.166666666667
+CPCG0263-F1	CPCG0263-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Negative	3+3						1.88								Prostate	0.979608287	0.4
+CPCG0265-F1	CPCG0265-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+3						NA								Prostate	0.97946173	0.3
+CPCG0266-F1	CPCG0266-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	3+4						NA								Prostate	0.977314743	0.566666666667
+CPCG0267-F1	CPCG0267-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Negative	3+4						NA								Prostate	0.973242048	0.166666666667
+CPCG0268-F1	CPCG0268-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Negative	3+3						NA								Prostate	0.979609124	0.133333333333
+CPCG0269-F1	CPCG0269-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	3+3						NA								Prostate	0.971595353	0.4
+CPCG0324-F1	CPCG0324-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						NA								Prostate	0.979947426	0.2
+CPCG0331-F1	CPCG0331-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						NA								Prostate	0.91582805	0.433333333333
+CPCG0334-F1	CPCG0334-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+4						NA								Prostate	0.982954278	0.266666666667
+CPCG0336-F1	CPCG0336-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Positive	3+3						NA								Prostate	0.986674797	0.366666666667
+CPCG0339-F1	CPCG0339-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	3+4						NA								Prostate	0.970407057	0.133333333333
+CPCG0340-F1	CPCG0340-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						1.79								Prostate	0.977928918	0.333333333333
+CPCG0341-F1	CPCG0341-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	4+3						NA								Prostate	0.970875165	0.233333333333
+CPCG0342-F1	CPCG0342-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	4+3						NA								Prostate	0.980102317	0.3
+CPCG0344-F1	CPCG0344-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	3+3						3.68								Prostate	0.975261265	0.266666666667
+CPCG0345-F1	CPCG0345-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	3+4						1.99								Prostate	0.99150328	0.5
+CPCG0346-F1	CPCG0346-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	3+4						NA								Prostate	0.968020809	0.0333333333333
+CPCG0348-F1	CPCG0348-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	3+4						NA								Prostate	0.985980959	0.2
+CPCG0350-F1	CPCG0350-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	4+3						NA								Prostate	0.988285887	0.633333333333
+CPCG0352-F1	CPCG0352-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Positive	4+3						NA								Prostate	0.987846468	0.4
+CPCG0353-F1	CPCG0353-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	3+4						NA								Prostate	0.988243779	0.133333333333
+CPCG0354-F1	CPCG0354-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	3+4						1.83								Prostate	0.988142292	0.333333333333
+CPCG0355-F1	CPCG0355-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+3						1.88								Prostate	0.988007487	0.166666666667
+CPCG0356-F1	CPCG0356-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Positive	4+3						NA								Prostate	0.988080327	0.233333333333
+CPCG0357-F1	CPCG0357-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						NA								Prostate	0.987498845	0.266666666667
+CPCG0358-F1	CPCG0358-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	40			Positive	3+4						1.79								Prostate	0.986994367	0.133333333333
+CPCG0360-F1	CPCG0360-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+4						1.82								Prostate	0.98860832	0.133333333333
+CPCG0361-F1	CPCG0361-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Positive	3+4						NA								Prostate	0.985267276	NA
+CPCG0362-F1	CPCG0362-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						NA								Prostate	0.988070026	0.133333333333
+CPCG0363-F1	CPCG0363-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	3+4						NA								Prostate	0.987208173	NA
+CPCG0364-F1	CPCG0364-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Positive	3+3						NA								Prostate	0.98451186	0.6
+CPCG0365-F1	CPCG0365-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Negative	3+3						NA								Prostate	0.984424731	0.166666666667
+CPCG0366-F1	CPCG0366-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	3+4						NA								Prostate	0.981709127	0.166666666667
+CPCG0368-F1	CPCG0368-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	50			Negative	3+3						NA								Prostate	0.98792709	NA
+CPCG0369-F1	CPCG0369-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Positive	3+4						1.86								Prostate	0.984328887	0.833333333333
+CPCG0371-F1	CPCG0371-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	3+4						NA								Prostate	0.987236883	0.5
+CPCG0372-F1	CPCG0372-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	3+4						NA								Prostate	0.988028018	0.3
+CPCG0373-F1	CPCG0373-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Negative	3+4						NA								Prostate	0.987566756	0.1
+CPCG0374-F1	CPCG0374-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+3						NA								Prostate	0.987681825	0.333333333333
+CPCG0375-F1	CPCG0375-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	3+3						NA								Prostate	0.98759815	0.6
+CPCG0378-F1	CPCG0378-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+4						NA								Prostate	0.987569438	0.566666666667
+CPCG0379-F1	CPCG0379-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	3+4						4.01								Prostate	0.986707361	0.6
+CPCG0380-F1	CPCG0380-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	3+4						NA								Prostate	0.986494452	0.2
+CPCG0381-F1	CPCG0381-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	3+4						NA								Prostate	0.987465601	NA
+CPCG0387-F1	CPCG0387-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Negative	4+3						NA								Prostate	0.98865668	0.233333333333
+CPCG0388-F1	CPCG0388-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Negative	3+4						NA								Prostate	0.975767435	0.433333333333
+CPCG0391-F1	CPCG0391-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	3+3						NA								Prostate	0.982411358	NA
+CPCG0392-F1	CPCG0392-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+4						1.79								Prostate	0.970591576	0.433333333333
+CPCG0401-F1	CPCG0401-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+4						NA								Prostate	0.986862317	0.0666666666667
+CPCG0404-F1	CPCG0404-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Negative	3+4						NA								Prostate	0.988731668	0.766666666667
+CPCG0407-F1	CPCG0407-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	3+4						NA								Prostate	0.987317177	0.5
+CPCG0409-F1	CPCG0409-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	90			Positive	3+4						NA								Prostate	0.987269235	0.233333333333
+CPCG0410-F1	CPCG0410-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Positive	3+4						1.84								Prostate	0.987758228	0.4
+CPCG0411-F1	CPCG0411-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	60			Negative	4+3						NA								Prostate	0.988061671	NA
+CPCG0412-F1	CPCG0412-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	80			Positive	4+3						1.75								Prostate	0.987837467	0.366666666667
+CPCG0413-F1	CPCG0413-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS				Negative	3+4						NA								Prostate	0.986660281	0.466666666667
+CPCG0414-F1	CPCG0414-F1	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS	70			Negative	4+3						NA								Prostate	0.987078312	0.1
+PR-0410	PR-0410	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+3														Prostate		NA
+PR-2525	PR-2525	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.133333333333
+PR-2621	PR-2621	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.3
+PR-3042	PR-3042	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.433333333333
+PR-STID0000002682	PR-STID0000002682	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					4+3														Prostate		0.4
+PR-STID0000002872	PR-STID0000002872	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.3
+PR-STID0000003127	PR-STID0000003127	Prostate Cancer	Prostate Adenocarcinoma	PRAD	WGS					3+4														Prostate		0.3

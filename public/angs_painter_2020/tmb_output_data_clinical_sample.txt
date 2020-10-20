@@ -1,0 +1,88 @@
+#Patient Identifier	Sample Timepoint	Sample Identifier	Cancer Type	Cancer Type Detailed	PATH Sample Collection Time	PATH Procedure Location	PATH Procedure Type 	PATH Vasoformative	PATH Epithelioid	PATH Spindle Cell	PATH Nuclear Grade	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	Sample sequential timepoint (T1 = timepoint 1, T2 = timepoint 2, etc.)	A unique sample identifier.	Cancer Type	Cancer Type Detailed	Sample collection time in days from primary diagnosis	For each sample, the anatomical location where the biopsy or surgery was performed as listed in the pathology report (Note: some patients in this dataset have more than one sample)	The procedure performed to obtain the sample	Sample has vasoformative characteristics	Sample has epithelioid characteristics	Sample has spindle cell characteristics	Nuclear grade of the sample	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	28	1	19	18	17	16	1
+PATIENT_ID	SAMPLE_TIMEPOINT	SAMPLE_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	BX_TIME_DAYS	BX_LOCATION	BX_TYPE	BX_VASOFORMATIVE	BX_EPITHELIOID	BX_SPINDLE_CELL	BX_NUCLEAR_GRADE	TMB_NONSYNONYMOUS
+Angio-ASCProject_03IpIBIR	ASCProject_03IpIBIR_T1	RP-1447_ASCProject_03IpIBIR_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	181	BLADDER WALL	RESECTION	YES	YES	YES	HIGH	1.96666666667
+Angio-ASCProject_09iyC6Cp	ASCProject_09iyC6Cp_T2	RP-1447_ASCProject_09iyC6Cp_T2_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	28	HEADFACENECKSCALP	EXCISION	YES	YES	NO	HIGH	32.1666666667
+Angio-ASCProject_0RU8CnuV	ASCProject_0RU8CnuV_T1	RP-1447_ASCProject_0RU8CnuV_T1_v4_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	SPLEEN	SPLENECTOMY	YES; FOCAL	NO	YES	HIGH	4.16666666667
+Angio-ASCProject_0xI6UVSy	ASCProject_0xI6UVSy_T2	RP-1447_ASCProject_0xI6UVSy_T2_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	37	BREAST	MASTECTOMY	NO	YES	NO	HIGH	3.46666666667
+Angio-ASCProject_3NflfGHo	ASCProject_3NflfGHo_T1	RP-1447_ASCProject_3NflfGHo_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	14	BREAST	MASTECTOMY	YES	NO	YES	HIGH	1.16666666667
+Angio-ASCProject_47SztnTm	ASCProject_47SztnTm_T1	RP-1447_ASCProject_47SztnTm_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	42	BREAST	MASTECTOMY	YES	NO	NO	HIGH	2.03333333333
+Angio-ASCProject_5DFyF0HA	ASCProject_5DFyF0HA_T1	RP-1447_ASCProject_5DFyF0HA_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	LUMPECTOMY	YES	NO	YES	LOW	1.1
+Angio-ASCProject_5NsKslTb	ASCProject_5NsKslTb_T1	RP-1447_ASCProject_5NsKslTb_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	ABDOMEN	EXCISION	YES; FOCAL	YES	YES	HIGH	2.33333333333
+Angio-ASCProject_5Ph4hetv	ASCProject_5Ph4hetv_T1	RP-1447_ASCProject_5Ph4hetv_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	42	BREAST	MASTECTOMY	YES	NO	NO	LOW	1.06666666667
+Angio-ASCProject_64i5tauQ	ASCProject_64i5tauQ_T2	RP-1447_ASCProject_64i5tauQ_T2_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	21	HEADFACENECKSCALP	PUNCH BIOPSY 	YES	YES; FOCAL	NO	HIGH	7.16666666667
+Angio-ASCProject_7bt2t8IJ	ASCProject_7bt2t8IJ_T4	RP-1447_ASCProject_7bt2t8IJ_T4_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	2837	HEADFACENECKSCALP	RESECTION	YES	NO	YES	HIGH	1.96666666667
+Angio-ASCProject_7bt2t8IJ	ASCProject_7bt2t8IJ_T2	RP-1447_ASCProject_7bt2t8IJ_T2_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	1092	HEADFACENECKSCALP	EXCISION	YES	NO	YES	HIGH	1.73333333333
+Angio-ASCProject_7bt2t8IJ	ASCProject_7bt2t8IJ_T3	RP-1447_ASCProject_7bt2t8IJ_T3_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	2394	HEADFACENECKSCALP	RESECTION	YES	NO	YES	HIGH	2.9
+Angio-ASCProject_87uAC2t8	ASCProject_87uAC2t8_T1	RP-1447_ASCProject_87uAC2t8_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	58	HEADFACENECKSCALP	OTHER	YES	NO	YES	HIGH	4.86666666667
+Angio-ASCProject_87uAC2t8	ASCProject_87uAC2t8_T2	RP-1447_ASCProject_87uAC2t8_T2_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	210	HEADFACENECKSCALP	RESECTION	YES	NO	YES	HIGH	4.9
+Angio-ASCProject_aPskieIL	ASCProject_aPskieIL_T1	RP-1447_ASCProject_aPskieIL_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	1838	CHEST WALL	EXCISION	YES	YES	NO	HIGH	2.5
+Angio-ASCProject_aPskieIL	ASCProject_aPskieIL_T2	RP-1447_ASCProject_aPskieIL_T2_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	1950	CHEST WALL	EXCISION	YES	YES	NO	HIGH	3.26666666667
+Angio-ASCProject_aPskieIL	ASCProject_aPskieIL_T3	RP-1447_ASCProject_aPskieIL_T3_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	2154	CHEST WALL	RESECTION	YES	YES	NO	HIGH	2.66666666667
+Angio-ASCProject_B0FQhzI9	ASCProject_B0FQhzI9_T1	RP-1447_ASCProject_B0FQhzI9_T1_v4_Exome	Soft Tissue Sarcoma	Angiosarcoma	64	SKIN	EXCISION	YES	NO	NO	LOW	2.73333333333
+Angio-ASCProject_bJi9iyCb	ASCProject_bJi9iyCb_T1	RP-1447_ASCProject_bJi9iyCb_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	HEADFACENECKSCALP	EXCISION	YES	NO	NO	LOW	3.36666666667
+Angio-ASCProject_blh1uyhK	ASCProject_blh1uyhK_T1	RP-1447_ASCProject_blh1uyhK_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	BIOPSY	YES	NO	YES	LOW	1.1
+Angio-ASCProject_blh1uyhK	ASCProject_blh1uyhK_T2	RP-1447_ASCProject_blh1uyhK_T2_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	187	BREAST	MASTECTOMY	YES	NO	YES	LOW	1.13333333333
+Angio-ASCProject_bRSGSlCG	ASCProject_bRSGSlCG_T2	RP-1447_ASCProject_bRSGSlCG_T2_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	1258	LUNG	PNEUMONECTOMY	YES	NO	YES	HIGH	1.16666666667
+Angio-ASCProject_dvH7FdsQ	ASCProject_dvH7FdsQ_T2	RP-1447_ASCProject_dvH7FdsQ_T2_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	377	BONELIMB	BIOPSY 	YES	NO	YES	HIGH	2.76666666667
+Angio-ASCProject_dyhLT8sG	ASCProject_dyhLT8sG_T1	RP-1447_ASCProject_dyhLT8sG_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	414	MANDIBULAR NODE	BIOPSY	YES	YES	NO	LOW	60.3666666667
+Angio-ASCProject_EAuOu4uD	ASCProject_EAuOu4uD_T1	RP-1447_ASCProject_EAuOu4uD_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	13	BREAST	RESECTION	YES	NO	NO	LOW	1.36666666667
+Angio-ASCProject_EdCVC0um	ASCProject_EdCVC0um_T1	RP-1447_ASCProject_EdCVC0um_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	EXCISION	YES	NO	NO	LOW	13.0333333333
+Angio-ASCProject_eVIAsEIy	ASCProject_eVIAsEIy_T1	RP-1447_ASCProject_eVIAsEIy_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	EXCISION	YES	NO	YES; FOCAL	HIGH	1.26666666667
+Angio-ASCProject_eVIAsEIy	ASCProject_eVIAsEIy_T2	RP-1447_ASCProject_eVIAsEIy_T2_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	1415	BREAST	MASTECTOMY	YES	YES	YES	HIGH	0.8
+Angio-ASCProject_EzU1Tmcp	ASCProject_EzU1Tmcp_T1A	RP-1447_ASCProject_EzU1Tmcp_T1A_v4_Exome	Soft Tissue Sarcoma	Angiosarcoma	60	SKIN	EXCISION	YES; FOCAL	YES	NO	HIGH	1.76666666667
+Angio-ASCProject_EzU1Tmcp	ASCProject_EzU1Tmcp_T1B	RP-1447_ASCProject_EzU1Tmcp_T1B_v4_Exome	Soft Tissue Sarcoma	Angiosarcoma	60	SKIN	EXCISION	YES; FOCAL	YES	NO	HIGH	2.06666666667
+Angio-ASCProject_GXTMTxU7	ASCProject_GXTMTxU7_T1	RP-1447_ASCProject_GXTMTxU7_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	EXCISION	YES	NO	YES	HIGH	1.3
+Angio-ASCProject_JkivIBSV	ASCProject_JkivIBSV_T2	RP-1447_ASCProject_JkivIBSV_T2_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	233	HEADFACENECKSCALP	PUNCH BIOPSY	YES	NO	NO	HIGH	6.6
+Angio-ASCProject_JkivIBSV	ASCProject_JkivIBSV_T1	RP-1447_ASCProject_JkivIBSV_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	HEADFACENECKSCALP	BIOPSY	NO	NO	YES	HIGH	6.16666666667
+Angio-ASCProject_JltRf4Sd	ASCProject_JltRf4Sd_T3	RP-1447_ASCProject_JltRf4Sd_T3_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	309	OTHER	OTHER	NO	NO	YES	HIGH	33.0333333333
+Angio-ASCProject_JltRf4Sd	ASCProject_JltRf4Sd_T1	RP-1447_ASCProject_JltRf4Sd_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	29	HEADFACENECKSCALP	EXCISION	YES	NO	YES	HIGH	13.6333333333
+Angio-ASCProject_JvCxfgU1	ASCProject_JvCxfgU1_T1	RP-1447_ASCProject_JvCxfgU1_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	MEDIASTINUM	RESECTION	YES	NO	NO	HIGH	0.566666666667
+Angio-ASCProject_Jyiwc4t6	ASCProject_Jyiwc4t6_T2A	RP-1447_ASCProject_Jyiwc4t6_T2A_v4_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	CORE BIOPSY 	YES	NO	YES	HIGH	2.0
+Angio-ASCProject_kJFaIXcN	ASCProject_kJFaIXcN_T2	RP-1447_ASCProject_kJFaIXcN_T2_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	73	BREAST	MASTECTOMY	YES	NO	NO	HIGH	0.833333333333
+Angio-ASCProject_kJFaIXcN	ASCProject_kJFaIXcN_T3	RP-1447_ASCProject_kJFaIXcN_T3_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	438	CHEST WALL	EXCISION	YES	YES	YES	HIGH	1.1
+Angio-ASCProject_kWCRuOFB	ASCProject_kWCRuOFB_T1	RP-1447_ASCProject_kWCRuOFB_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	57	BREAST	MASTECTOMY	YES	NO	NO	LOW	1.7
+Angio-ASCProject_KxFGsofW	ASCProject_KxFGsofW_T2	RP-1447_ASCProject_KxFGsofW_T2_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	450	HEADFACENECKSCALP	EXCISION	YES	YES	YES	HIGH	29.1333333333
+Angio-ASCProject_loC8UQUk	ASCProject_loC8UQUk_T1	RP-1447_ASCProject_loC8UQUk_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	BIOPSY	YES	NO	YES; FOCAL	LOW	1.6
+Angio-ASCProject_loC8UQUk	ASCProject_loC8UQUk_T2	RP-1447_ASCProject_loC8UQUk_T2_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	191	BREAST	MASTECTOMY	YES	NO	YES; FOCAL	LOW	1.63333333333
+Angio-ASCProject_lYIMuWu5	ASCProject_lYIMuWu5_T3	RP-1447_ASCProject_lYIMuWu5_T3_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	1322	HEADFACENECKSCALP	EXCISION	YES; FOCAL	YES	YES	HIGH	26.5333333333
+Angio-ASCProject_lYIMuWu5	ASCProject_lYIMuWu5_T1	RP-1447_ASCProject_lYIMuWu5_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	HEADFACENECKSCALP	EXCISION	YES	NO	NO	LOW	16.9333333333
+Angio-ASCProject_mpUNibFx	ASCProject_mpUNibFx_T1	RP-1447_ASCProject_mpUNibFx_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	SPLEEN	SPLENECTOMY	NO	YES	NO	HIGH	2.8
+Angio-ASCProject_NdUxUwCM	ASCProject_NdUxUwCM_T1	RP-1447_ASCProject_NdUxUwCM_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	HEADFACENECKSCALP	EXCISION	YES; FOCAL	YES	NO	HIGH	19.1
+Angio-ASCProject_nvfdfZCz	ASCProject_nvfdfZCz_T1	RP-1447_ASCProject_nvfdfZCz_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	27	BREAST	MASTECTOMY	YES	NO	NO	LOW	1.33333333333
+Angio-ASCProject_oQi7i3U5	ASCProject_oQi7i3U5_T2	RP-1447_ASCProject_oQi7i3U5_T2_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	108	HEADFACENECKSCALP	RESECTION	YES	NO	YES	HIGH	17.9333333333
+Angio-ASCProject_QYsAsrTO	ASCProject_QYsAsrTO_T1	RP-1447_ASCProject_QYsAsrTO_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	18	BREAST	MASTECTOMY	YES	YES	NO	HIGH	1.86666666667
+Angio-ASCProject_QYsAsrTO	ASCProject_QYsAsrTO_T2	RP-1447_ASCProject_QYsAsrTO_T2_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	511	PECTORALIS MINOR	RESECTION	YES	NO	YES	HIGH	1.5
+Angio-ASCProject_rnhwT3Hk	ASCProject_rnhwT3Hk_T1	RP-1447_ASCProject_rnhwT3Hk_T1_v4_Exome	Soft Tissue Sarcoma	Angiosarcoma	45	BREAST	MASTECTOMY	YES	NO	YES	HIGH	4.36666666667
+Angio-ASCProject_RvtOtjtj	ASCProject_RvtOtjtj_T3	RP-1447_ASCProject_RvtOtjtj_T3_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	3848	BACK	RESECTION	YES	NO	NO	LOW	0.8
+Angio-ASCProject_XbieiohK	ASCProject_XbieiohK_T1	RP-1447_ASCProject_XbieiohK_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	12	BREAST	MASTECTOMY	NO	YES	NO	HIGH	1.6
+Angio-ASCProject_xdigi2t7	ASCProject_xdigi2t7_T1	RP-1447_ASCProject_xdigi2t7_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	BIOPSY	YES	NO	YES	HIGH	0.9
+Angio-ASCProject_xEFYtWU3	ASCProject_xEFYtWU3_T1	RP-1447_ASCProject_xEFYtWU3_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	42	HEADFACENECKSCALP	REEXCISION	YES	NO	YES	HIGH	6.73333333333
+Angio-ASCProject_XjHAU9uR	ASCProject_XjHAU9uR_T2	RP-1447_ASCProject_XjHAU9uR_T2_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	304	RIGHT ATRIUM	RESECTION	YES	YES	YES	HIGH	2.3
+Angio-ASCProject_XOHgH4CR	ASCProject_XOHgH4CR_T1	RP-1532_ASCProject_XOHgH4CR_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	-623	BREAST	BIOPSY 	YES	NO	YES	LOW	1.56666666667
+Angio-ASCProject_Y4SjSnIg	ASCProject_Y4SjSnIg_T1	RP-1447_ASCProject_Y4SjSnIg_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	15	BREAST	MASTECTOMY	YES	NO	YES; FOCAL	LOW	0.366666666667
+Angio-ASCProject_ybi8CAUN	ASCProject_ybi8CAUN_T1	RP-1447_ASCProject_ybi8CAUN_T1_v4_Exome	Soft Tissue Sarcoma	Angiosarcoma	6	BREAST	MASTECTOMY	YES	NO	NO	LOW	0.8
+Angio-ASCProject_YLCRINC8	ASCProject_YLCRINC8_T1	RP-1447_ASCProject_YLCRINC8_T1_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	EXCISION	YES	NO	YES	HIGH	2.23333333333
+Angio-ASCProject_YqsAUeFb	ASCProject_YqsAUeFb_T1	RP-1447_ASCProject_YqsAUeFb_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	65	HEADFACENECKSCALP	RESECTION	YES; FOCAL	YES	NO	HIGH	48.7666666667
+Angio-ASCProject_YzTlTytj	ASCProject_YzTlTytj_T1	RP-1447_ASCProject_YzTlTytj_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	HEADFACENECKSCALP	EXCISION	YES	YES	YES	HIGH	0.266666666667
+Angio-ASCProject_YzTlTytj	ASCProject_YzTlTytj_T2	RP-1447_ASCProject_YzTlTytj_T2_v3_Exome	Soft Tissue Sarcoma	Angiosarcoma	4380	LUNG	RESECTION	YES; FOCAL	YES	NO	HIGH	0.633333333333
+Angio-ASCProject_YzTxcouV	ASCProject_YzTxcouV_T2	RP-1447_ASCProject_YzTxcouV_T2_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	11	BREAST	EXCISION	YES	NO	YES	HIGH	1.4
+Angio-ASCProject_ZbSaSACL	ASCProject_ZbSaSACL_T1	RP-1447_ASCProject_ZbSaSACL_T1_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	77	BREAST	MASTECTOMY	YES	NO	YES	HIGH	1.53333333333
+Angio-ASCProject_ZbSaSACL	ASCProject_ZbSaSACL_T2	RP-1447_ASCProject_ZbSaSACL_T2_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	556	BREAST	MASTECTOMY	YES	NO	YES	HIGH	1.3
+Angio-ASCProject_zgCLCGco	ASCProject_zgCLCGco_T1	RP-1447_ASCProject_zgCLCGco_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	0	HEADFACENECKSCALP	BIOPSY 	YES	YES	NO	HIGH	6.4
+Angio-ASCProject_zgCLCGco	ASCProject_zgCLCGco_T2	RP-1447_ASCProject_zgCLCGco_T2_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	144	HEADFACENECKSCALP	RESECTION	YES	YES	NO	HIGH	4.93333333333
+Angio-ASCProject_zQtVt5tr	ASCProject_zQtVt5tr_T2	RP-1447_ASCProject_zQtVt5tr_T2_v2_Exome	Soft Tissue Sarcoma	Angiosarcoma	387	OVARY	BILATERAL SALPINGO-OOPHORECTOMY	YES	NO	YES	LOW	1.43333333333
+Angio-ASCProject_ZXi6FXFo	ASCProject_ZXi6FXFo_T1	RP-1447_ASCProject_ZXi6FXFo_T1_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	4	HEADFACENECKSCALP	EXCISION	YES	NO	NO	LOW	8.06666666667
+Angio-ASCProject_RRFGCkUD	ASCProject_RRFGCkUD_BLOOD_P	RP-1447_ASCProject_RRFGCkUD_BLOOD_P_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	155	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	2.16666666667
+Angio-ASCProject_zQtVt5tr	ASCProject_zQtVt5tr_BLOOD	RP-1447_ASCProject_zQtVt5tr_BLOOD_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	313	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	1.06666666667
+Angio-ASCProject_QYsAsrTO	ASCProject_QYsAsrTO_BLOOD	RP-1447_ASCProject_QYsAsrTO_BLOOD_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	1351	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	1.23333333333
+Angio-ASCProject_LRS0tkCV	ASCProject_LRS0tkCV_BLOOD_P	RP-1447_ASCProject_LRS0tkCV_BLOOD_P_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	309	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	3.36666666667
+Angio-ASCProject_jWhlFLi3	ASCProject_jWhlFLi3_BLOOD_P	RP-1447_ASCProject_jWhlFLi3_BLOOD_P_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	196	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	0.5
+Angio-ASCProject_zgCLCGco	ASCProject_zgCLCGco_BLOOD	RP-1447_ASCProject_zgCLCGco_BLOOD_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	504	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	0.7
+Angio-ASCProject_y5TafLf8	ASCProject_y5TafLf8_BLOOD_P	RP-1447_ASCProject_y5TafLf8_BLOOD_P_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	199	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	1.6
+Angio-ASCProject_A8UvuRTN	ASCProject_A8UvuRTN_BLOOD_P	RP-1447_ASCProject_A8UvuRTN_BLOOD_P_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	163	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	1.1
+Angio-ASCProject_44uvIDfp	ASCProject_44uvIDfp_BLOOD_P	RP-1447_ASCProject_44uvIDfp_BLOOD_P_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	88	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	0.333333333333
+Angio-ASCProject_OwHXUEs2	ASCProject_OwHXUEs2_BLOOD_P	RP-1447_ASCProject_OwHXUEs2_BLOOD_P_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	203	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	0.966666666667
+Angio-ASCProject_RvtOtjtj	ASCProject_RvtOtjtj_BLOOD	RP-1447_ASCProject_RvtOtjtj_BLOOD_v1_Exome	Soft Tissue Sarcoma	Angiosarcoma	4338	BLOOD BIOPSY	BLOOD BIOPSY		NA	NA	NA	1.06666666667

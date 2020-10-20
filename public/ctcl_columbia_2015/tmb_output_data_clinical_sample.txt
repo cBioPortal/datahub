@@ -1,0 +1,48 @@
+#Patient Identifier	Sample Identifier	Cancer Type	Cancer Type Detailed	Oncotree Code	Tumor Subtype	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Cancer Type	Cancer Type Detailed	Oncotree Code	Tumor Subtype	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	TUMOR_SUBTYPE	TMB_NONSYNONYMOUS
+SS_L1	SS_L1	Mature T and NK Neoplasms	Sezary Syndrome	SS		0.6
+SS_L2	SS_L2	Mature T and NK Neoplasms	Sezary Syndrome	SS		1.1
+SS_L3	SS_L3	Mature T and NK Neoplasms	Sezary Syndrome	SS		0.0666666666667
+SS_L4	SS_L4	Mature T and NK Neoplasms	Sezary Syndrome	SS		3.23333333333
+SS_L5	SS_L5	Mature T and NK Neoplasms	Sezary Syndrome	SS		1.5
+SS_L6	SS_L6	Mature T and NK Neoplasms	Sezary Syndrome	SS		0.166666666667
+SS_L7	SS_L7	Mature T and NK Neoplasms	Sezary Syndrome	SS		0.6
+SS_L8	SS_L8	Mature T and NK Neoplasms	Sezary Syndrome	SS		6.1
+SS_L9	SS_L9	Mature T and NK Neoplasms	Sezary Syndrome	SS		0.0333333333333
+SS_L10	SS_L10	Mature T and NK Neoplasms	Sezary Syndrome	SS		0.233333333333
+SS_L11	SS_L11	Mature T and NK Neoplasms	Sezary Syndrome	SS		0.966666666667
+SS_L12	SS_L12	Mature T and NK Neoplasms	Sezary Syndrome	SS		1.3
+SS_L13	SS_L13	Mature T and NK Neoplasms	Sezary Syndrome	SS		3.7
+SS_L14	SS_L14	Mature T and NK Neoplasms	Sezary Syndrome	SS		2.06666666667
+SS_L15	SS_L15	Mature T and NK Neoplasms	Sezary Syndrome	SS		0.0666666666667
+SS_L16	SS_L16	Mature T and NK Neoplasms	Sezary Syndrome	SS		1.06666666667
+SS_L17	SS_L17	Mature T and NK Neoplasms	Sezary Syndrome	SS		1.63333333333
+SS_L18	SS_L18	Mature T and NK Neoplasms	Sezary Syndrome	SS		2.0
+SS_L19	SS_L19	Mature T and NK Neoplasms	Sezary Syndrome	SS		2.13333333333
+SS_L20	SS_L20	Mature T and NK Neoplasms	Sezary Syndrome	SS		1.13333333333
+SS_L21	SS_L21	Mature T and NK Neoplasms	Sezary Syndrome	SS		5.5
+SS_L22	SS_L22	Mature T and NK Neoplasms	Sezary Syndrome	SS		1.9
+SS_L23	SS_L23	Mature T and NK Neoplasms	Sezary Syndrome	SS		1.13333333333
+SS_NU6	SS_NU6	Mature T and NK Neoplasms	Sezary Syndrome	SS		0.1
+SS_NU8	SS_NU8	Mature T and NK Neoplasms	Sezary Syndrome	SS		1.66666666667
+SS_NU15	SS_NU15	Mature T and NK Neoplasms	Sezary Syndrome	SS		2.26666666667
+CTCL_NU1	CTCL_NU1	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL		0.833333333333
+CTCL_NU2	CTCL_NU2	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	Folliculotropic Mycosis Fungoides	1.13333333333
+CTCL_NU3	CTCL_NU3	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	CTCL, NOS with Large cell morphology (CD30)	0.166666666667
+CTCL_NU4	CTCL_NU4	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	Folliculotropic Mycosis Fungoides	3.13333333333
+CTCL_NU6	CTCL_NU6	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	CTCL, NOS	NA
+CTCL_NU7	CTCL_NU7	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	Folliculotropic Mycosis Fungoides	9.73333333333
+CTCL_NU9	CTCL_NU9	Mature T and NK Neoplasms	Mycosis Fungoides	MYCF		0.0666666666667
+CTCL_NU11	CTCL_NU11	Mature T and NK Neoplasms	Mycosis Fungoides	MYCF		0.4
+CTCL_NU12	CTCL_NU12	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	Intravascular gamma delta T cell lymphoma	0.133333333333
+CTCL_NU13	CTCL_NU13	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	CTCL, NOS with Large cell transformation (CD30)	0.133333333333
+CTCL_NU14	CTCL_NU14	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL		2.73333333333
+CTCL_NU16	CTCL_NU16	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	CD30+ LPD (ALCL type)	0.166666666667
+CTCL_NU17	CTCL_NU17	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	CD30+ LPD (Lymphomatoid papulosis vs. ALCL, borderline)	3.13333333333
+CTCL_NU18	CTCL_NU18	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	Folliculotropic Mycosis Fungoides	0.4
+CTCL_NU19	CTCL_NU19	Mature T and NK Neoplasms	Primary Cutaneous CD8 Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma	PCAECTCL	Folliculotropic Mycosis Fungoides	3.03333333333
+CTCL_NU20	CTCL_NU20	Mature T and NK Neoplasms	Mycosis Fungoides	MYCF		13.8333333333
+CTCL_NU21	CTCL_NU21	Mature T and NK Neoplasms	Primary Cutaneous CD30 Positive T-Cell Lymphoproliferative Disorders	PCLPD	CD30+ LPD (Type D Lymphomatoid papulosis)	0.433333333333

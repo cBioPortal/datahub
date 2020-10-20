@@ -1,0 +1,58 @@
+#Patient Identifier	Sample Identifier	Sample Class	Estimated Tumor Cellularity	Cllularity based on allele frequency	Tumor Genome Library	Tumor Genome Coverage	Normal Genome Library	Normal Genome Coverage	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The sample classification (i.e., tumor, cellline, xenograph).	Estimated tumor cellularity.	Cllularity based on allele frequency	Tumor Genome Library	Tumor Genome Coverage	Normal Genome Library	Normal Genome Coverage	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	NUMBER	NUMBER	STRING	NUMBER	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	1	9	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_CLASS	EST_TUMOR_CELLULARITY	ALLELE_FREQUENCY_CELLULARITY	TUMOR_GENOME_LIBRARY	TUMOR_GENOME_COVERAGE	NORMAL_GENOME_LIBRARY	NORMAL_GENOME_COVERAGE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+99-27137	RG111	Tumor	84	82.55438253	A01427	37.59	A01449	32.222507	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	4.3
+98-22532	RG013	Tumor	91	87.94059457	HS2702	28	HS2703	34.57	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.4
+95-32814	RG040	Tumor	59	50.85123497	A06417	36.41	A06420	26.45	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.16666666667
+81-52884	RG081	Tumor	48	63.63839379	A01423	35.6	A01446	37.45	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	2.93333333333
+09-41082	RG130	Tumor	50	69.36934643	A01428	29.16	A01454	39.256155	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	3.4
+09-33003	RG115	Tumor	50	52.54460201	HS2974	37.29	HS2975	38.5	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.83333333333
+09-12737	RG116	Tumor	80	100	A06419	32.18	A06422	34.887	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	4.16666666667
+08-25894	RG135	Tumor	50	68.48997464	A01431	35.94	A01448	37.29	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.66666666667
+08-15460	RG067	Tumor	50	59.29075673	HS2972	32.41	HS2973	28.93	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.73333333333
+07-35482	RG043	Tumor	52	60.52397505	HS2704	31.53	HS2705	31.29154	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	10.5
+07-30628	RG075	Tumor	75	52.40708119	A06720	30.96	A06721	31.53	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.4
+07-25012	RG132	Tumor	50	81.82082992	A01429	31.91	A01432	27.74	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.83333333333
+07-17613	RG038	Tumor	57	68.07082923	A01676	42.11	A01677	38.56	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	2.03333333333
+06-34043	RG036	Tumor	50	67.42923538	A01457	33.91	A01459	23.72	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	1.7
+06-33777	RG133	Tumor	40		A01430	56.64	A01433	30.16	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	NA
+06-30145	RG068	Tumor	81	68.27685204	A01420	29.72	A01441	29.52	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	2.66666666667
+06-30025	RG034	Tumor	58	67.89454126	A01462	34.2	A01438	36.69	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.86666666667
+06-25674	RG138	Tumor	45	57.78782899	A01435	36.87	A01451	28.55	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	1.3
+06-24915	RG065	Tumor	91	88.36664578	A01419	29.88	A01440	28.45	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	1.06666666667
+06-23907	RG028	Tumor	73	82.79161488	A02010	31.65	A02011	35.354656	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	3.56666666667
+06-22057	RG027	Tumor	82	89.53895363	A01416	37.95	A01452	29.16	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	1.9
+06-19919	RG054	Tumor	32	51.59469936	A01418	30	A01447	30.33	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.53333333333
+06-16716	RG026	Tumor	52	59.58422737	A01972	32.48	A01973	34.61	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	2.16666666667
+06-15256	RG136	Tumor	50	71.35356894	A01434	32	A01436	28.9	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.73333333333
+06-14634	RG142	Tumor	48	54.29219633	A03290	30.31	A03291	29.137234	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	4.6
+06-11535	RG024	Tumor	58	65.34663772	A01415	51.33	A01439	34.64	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.8
+06-10398	RG074	Tumor	92	83.27260956	A01421	36.21	A01442	30.8	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	0.966666666667
+05-32947	RG014	Tumor	70	77.77565964	A01414	37.73	A01443	27.124435	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	4.33333333333
+05-25674	RG083	Tumor	50	79.24574826	A01424	30.42	A01445	29.76	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.6
+05-25439	RG003	Tumor	64	71.69648276	A01413	47.6	A01437	28.39	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.46666666667
+05-24904	RG077	Tumor	50	47.03870648	A01422	48.43	A01455	29.17	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.33333333333
+05-24561	RG055	Tumor	52	46.12716034	A06418	27.9	A06421	36.06	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	0.333333333333
+05-24395	RG051	Tumor	79	84.9076915	A01417	32.88	A01444	33.65	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.43333333333
+05-24006	RG082	Tumor	50	51.15252578	A01971	34.71	A01974	27.56	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	0.566666666667
+05-23110	RG064	Tumor	65	71.71104304	HS2706	37	HS2707	45.15	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.46666666667
+05-12939	RG023	Tumor	60	64.34829369	A01426	37.27	A01453	30.19	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	0.733333333333
+04-29264	RG008	Tumor	70	46.65962165	A01456	35.13	A01458	28.09	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	0.733333333333
+03-10363	RG049	Tumor	77	75	A03561	32.2	A03586	26.66	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	0.7
+02-22991	RG061	Tumor	52	50.44822581	HS2970	28.52	HS2971	33.5	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	1.5
+02-20170	RG086	Tumor	58	69.98917453	A01425	31.48	A01450	28.55	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	1.93333333333
+DB	DB	Cell line			A12437	24.81			GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	13.6
+DOHH-2	DOHH-2	Cell line			A12438	32.45			GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	10.3333333333
+Karpas422	Karpas422	Cell line			A12439	31.36			GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	15.2
+MD903	MD903	Cell line			A12440	28.31			ABC	Mature B-Cell Neoplasms	Activated B-cell Type	22.4
+NU-DHL-1	NU-DHL-1	Cell line			A12441	31.71			GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	13.6666666667
+NU-DUL-1	NU-DUL-1	Cell line			A12442	26.33			ABC	Mature B-Cell Neoplasms	Activated B-cell Type	14.1
+OCI-Ly1	OCI-Ly1	Cell line			A12443	29.96			GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	17.2666666667
+OCI-Ly19	OCI-Ly19	Cell line			A12445	27.46			GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	12.1
+OCI-Ly3	OCI-Ly3	Cell line			A12449	27.1			ABC	Mature B-Cell Neoplasms	Activated B-cell Type	15.0666666667
+OCI-Ly7	OCI-Ly7	Cell line			A12444	27.85			GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	11.9666666667
+SU-DHL-6	SU-DHL-6	Cell line			A12446	32.3			GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	15.0
+SU-DHL-9	SU-DHL-9	Cell line			A12447	28.89			ABC	Mature B-Cell Neoplasms	Activated B-cell Type	17.4333333333
+WSU-DLCL2	WSU-DLCL2	Cell line			A14217	27.31			GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	12.1333333333

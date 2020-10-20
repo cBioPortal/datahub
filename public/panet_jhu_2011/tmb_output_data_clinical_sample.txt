@@ -1,0 +1,15 @@
+#Patient Identifier	Sample Identifier	Tumor Stage	Neoplasm Histologic Grade	Metastatic Site	Tissue Sequenced	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Tumor stage.	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	The anatomic location to which the cancer has spread.	Tissue Sequnced	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR_STAGE	GRADE	METASTATIC_SITE	TISSUE_SEQUENCED	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+PEN10	PanNET10PT	IV	3	liver	Liver	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.733333333333
+PEN21	PanNET21PT	IV	2	liver	Pancreas	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.366666666667
+PEN23	PanNET23PT	IV	2	liver	Pancreas	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.633333333333
+PEN24	PanNET24PT	IV	2	liver	Pancreas	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.6
+PEN25	PanNET25PT	IV	2	liver	Liver	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.466666666667
+PEN3	PanNET3PT	IV	2	liver	Pancreas	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.5
+PEN31	PanNET31PT	IV	2	liver	Pancreas	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.666666666667
+PEN36	PanNET36PT	IIIb	1		Pancreas	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.266666666667
+PEN7	PanNET7PT	IV	1	liver	Pancreas	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.333333333333
+PEN93	PanNET93PT	IV	1	liver	Liver	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.5

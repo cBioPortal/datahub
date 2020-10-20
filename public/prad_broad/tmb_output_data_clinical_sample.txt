@@ -1,0 +1,128 @@
+#Patient Identifier	Sample Identifier	Radical Prostatectomy Gleason Score for Prostate Cancer	Gleason Score Percent 4 & 5	Tumor Stage	TMPRSS2-ERG Fusion Status	Modified Capra S Score Without Including Surgical Margins	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The score derived from universally embraced prostate cancer grading system developed by Dr. Donald F. Gleason in 1977. The system provides a reproducible description of the glandular architecture of prostate tissue to which a pathologist assigns a score depending primarily on the microscopic patterns of cancerous glands and cell morphology. The system correlates well with behavior at the extremes: Gleason 1+1 tumors are the most well differentiated, slowly growing and rarely spread; Gleason 4+5 tumors are the most poorly differentiated, often widely metastatic at the time of diagnosis. In the commoner intermediate grade tumors, however, behavior is extremely variable.	Gleason score percent 4 & 5.	Tumor stage.	TMPRESS2-ERG fusion status.	Modified Capra S Score Without Including Surgical Margins	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	NUMBER	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	GLEASON_SCORE	GLEASON_SCORE_PERCENT_4_AND_5	TUMOR_STAGE	TMPRSS2_ERG_FUSION_STATUS	MODIFIED_CAPRA_S_SCORE_WITHOUT_INCLUDING_SURGICAL_MARGINS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+P00-000450	P00-000450	4+3	80	pT3a	Positive with interstitial deletion	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.03333333333
+P01-28	P01-28	4+4	100	pT3a	Negative	6	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.8
+P02-1562	P02-1562	4+3	95	pT3b	Negative	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.06666666667
+P02-2035	P02-2035	3+4	20	pT2c	Positive	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.8
+P03-1334	P03-1334	3+4	2	pT3a	Negative	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.53333333333
+P03-1426	P03-1426	4+3	60	pT2c	Positive	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.06666666667
+P03-1906	P03-1906	3+4	30	pT3b	Positive	6	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.23333333333
+P03-2345	P03-2345	3+4	10	pT2c	Positive with interstitial deletion	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.9
+P03-2620	P03-2620	3+4	20	pT3a	Negative	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.733333333333
+P03-3391	P03-3391	3+3	0	pT3b	Positive	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.366666666667
+P03-595	P03-595	4+5	100	pT3a	Positive with interstitial deletion	7	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.0
+P03-871	P03-871	4+3;5	60	pT2c	Positive	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.06666666667
+P04-1084	P04-1084	3+4	40	pT3a	Negative	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.33333333333
+P04-1243	P04-1243	3+4	30	pT3a	Positive with interstitial deletion	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.43333333333
+P04-1421	P04-1421	3+4	20	pT2a	Positive	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.26666666667
+P04-1790	P04-1790	4+3;5	75	pT3a	Positive with interstitial deletion	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.933333333333
+P04-2599	P04-2599	4+3	60	pT2c	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.866666666667
+P04-2641	P04-2641	3+4	20	pT3a	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.866666666667
+P04-2666	P04-2666	4+5;3	95	pT3a	Negative	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.5
+P04-2740	P04-2740	4+3	70	pT3a	Positive	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.1
+P04-47	P04-47	4+3;5	82	pT2b	Negative	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.3
+P04-594	P04-594	3+4	5	pT3a	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.26666666667
+P05-2212	P05-2212	3+4	30	pT3a	Positive with interstitial deletion	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.26666666667
+P05-2594	P05-2594	3+4	20	pT3b	Negative	6	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.5
+P05-3436	P05-3436	4+3	80	pT2c	Positive	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.06666666667
+P05-3829	P05-3829	3+3	0	pT2c	Negative	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.433333333333
+P05-3852	P05-3852	4+3;5	60	pT3a	Negative	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.0
+P05-3859	P05-3859	4+3	80	pT3a	Negative	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.03333333333
+P05-620	P05-620	4+3	90	pT3a	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.63333333333
+P06-1125	P06-1125	3+4	30	pT3a	Positive with interstitial deletion	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.13333333333
+P06-1696	P06-1696	4+3;5	80	pT3a	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.4
+P06-2325	P06-2325	4+3	70	pT2c	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.366666666667
+P06-3676	P06-3676	3+4	15	pT3a	Positive	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.466666666667
+P06-3939	P06-3939	4+5	100	pT3bN1	Negative	8	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.43333333333
+P06-4428	P06-4428	3+4	20	pT3a	Positive with interstitial deletion	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.8
+P07-144	P07-144	3+4	30	pT3a	Negative	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.4
+P07-360	P07-360	4+4	100	pT2c	Negative	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.866666666667
+P07-5036	P07-5036	3+4;5	60	pT3a	Positive	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.933333333333
+P07-684	P07-684	4+3	90	pT3b	Negative	6	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.26666666667
+P07-718	P07-718	3+4	5	pT2c	Negative	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.766666666667
+P07-837	P07-837	4+3	80	pT3a	Negative	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.7
+P08-2516	P08-2516	4+4	100	pT3b	Negative	7	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.8
+P08-590	P08-590	3+4	5	pT2c	Positive with interstitial deletion	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.8
+P09-120	P09-120	3+4	5	pT2c	Positive	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.566666666667
+P09-1372	P09-1372	3+4	5	pT3a	Positive with interstitial deletion	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.833333333333
+P09-1580	P09-1580	3+4;5	50	pT3a	Positive	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.36666666667
+P09-2497	P09-2497	3+3	0	pT3a	Positive with interstitial deletion	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.566666666667
+P09-649	P09-649	4+3	80	pT2c	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.933333333333
+PR-00-1165	PR-00-1165	3+4	5	pT3b	Negative	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	23.7333333333
+PR-00-160	PR-00-160	3+4	40	pT2c	Negative	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.26666666667
+PR-00-1823	PR-00-1823	3+4;5	12	pT3a	Positive with interstitial deletion	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.26666666667
+PR-0099	PR-0099	3+4	10	pT3a	Positive	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.733333333333
+PR-01-1934	PR-01-1934	3+4	20	pT3b	Negative	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.13333333333
+PR-01-2382	PR-01-2382	3+4	10	pT3a	Positive	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.733333333333
+PR-01-2492	PR-01-2492	3+4	10	pT3a	Negative		PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.0
+PR-01-2554	PR-01-2554	4+3	90	pT3b	Positive	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	2.06666666667
+PR-02-1082	PR-02-1082	3+4	30	pT3b	Positive with interstitial deletion	6	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.933333333333
+PR-02-169	PR-02-169	3+4	20	pT2c	Positive with interstitial deletion	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.233333333333
+PR-02-1736	PR-02-1736	3+4	5	pT3b	Negative	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.833333333333
+PR-02-1899	PR-02-1899	3+3	0	pT3a	Positive with interstitial deletion	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.73333333333
+PR-02-2072	PR-02-2072	4+3;5	62	pT3a	Positive with interstitial deletion	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.33333333333
+PR-02-2480	PR-02-2480	3+4	20	pT3b	Positive with interstitial deletion	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.866666666667
+PR-02-254	PR-02-254	4+3	70	pT3b	Positive	7	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	2.63333333333
+PR-03-022	PR-03-022	3+4	10	pT3a	Positive	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.666666666667
+PR-03-1026	PR-03-1026	4+3;5	85	pT3a	Positive	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.7
+PR-03-870	PR-03-870	4+3	90	pT3a	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.0
+PR-04-1367	PR-04-1367	3+3	0	pT2c	Positive with interstitial deletion	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.7
+PR-0415	PR-0415	4+4	100	pT3a	Positive with interstitial deletion	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.5
+PR-04-194	PR-04-194	3+4	30	pT2c	Positive with interstitial deletion	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.866666666667
+PR-0427	PR-0427	4+3		pT2a	Negative	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.5
+PR-04-3113	PR-04-3113	3+3	0	pT3b	Positive	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	2.06666666667
+PR-04-3222	PR-04-3222	3+4	5	pT2c	Negative	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.9
+PR-04-3347	PR-04-3347	3+3	0	pT2c	Negative	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.0
+PR-04-639	PR-04-639	3+4	5	pT3a	Negative	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.0
+PR-04-903	PR-04-903	3+4	5	pT3a	Positive with interstitial deletion	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.23333333333
+PR-05-3440	PR-05-3440	4+3	80	pT3a	Positive with interstitial deletion	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.33333333333
+PR-05-3595	PR-05-3595	3+4	50	pT2c	Negative	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.0
+PR-05-839	PR-05-839	3+4	30	pT2a	Negative	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.36666666667
+PR-06-1651	PR-06-1651	4+5;3	95	pT2c	Positive with interstitial deletion	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.633333333333
+PR-06-1749	PR-06-1749	4+3	60	pT2c	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.86666666667
+PR-06-1999	PR-06-1999	3+4	40	pT2a	Positive	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.3
+PR-09-2517	PR-09-2517	3+4	5	pT3a	Positive with interstitial deletion	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.33333333333
+PR-09-2744	PR-09-2744	3+3	0	pT3a	Positive with interstitial deletion	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.733333333333
+PR-09-2767	PR-09-2767	4+4	100	pT3a	Positive with interstitial deletion	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.4
+PR-09-3421	PR-09-3421	3+4	10	pT3a	Positive with interstitial deletion	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.23333333333
+PR-09-3566	PR-09-3566	4+3	80	pT3a	Positive with interstitial deletion	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.26666666667
+PR-09-3687	PR-09-3687	3+4	5	pT2c	Positive	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.8
+PR-09-5094	PR-09-5094	4+4	100	pT3b	Negative	7	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.26666666667
+PR-09-5245	PR-09-5245	4+4	100	pT3a	Negative	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.63333333333
+PR-09-5446	PR-09-5446	3+3	0	pT2c	Positive with interstitial deletion	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.733333333333
+PR-09-5630	PR-09-5630	4+3	60	pT3b	Positive with interstitial deletion	7	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.2
+PR-09-5700	PR-09-5700	3+4	20	pT3a	Positive	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.43333333333
+PR-09-5702	PR-09-5702	3+4	20	pT2c	Positive with interstitial deletion	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	2.1
+PR-1024	PR-1024	3+4;5	22	pT3b	Negative	4	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.43333333333
+PR-1043	PR-1043	3+3	0	pT2c	Positive	0	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.26666666667
+PR-2661	PR-2661	3+3	0	pT2c	Positive with interstitial deletion	0	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.0
+PR-2682	PR-2682	4+3	80	pT2c	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.9
+PR-2740	PR-2740	3+3	0	pT2c	Negative	0	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.6
+PR-2761	PR-2761	3+3	0	pT2c	Negative	0	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.9
+PR-2762	PR-2762	3+4	5	pT2c	Negative	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.13333333333
+PR-2858	PR-2858	3+4	NA	pT3a	Positive	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.33333333333
+PR-2872	PR-2872	3+4	5	pT3a	Positive with interstitial deletion	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.6
+PR-2915	PR-2915	3+4	30	pT2c	Negative	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.3
+PR-2916	PR-2916	3+4	2	pT3a	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.76666666667
+PR-3023	PR-3023	4+3	95	pT2c	Negative	2	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.633333333333
+PR-3026	PR-3026	3+4	20	pT3b	Negative	7	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.36666666667
+PR-3034	PR-3034	4+4	100	pT2c	Negative	5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.4
+PR-3035	PR-3035	3+4	5	pT2c	Positive with interstitial deletion	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.6
+PR-3036	PR-3036	3+4	5	pT2c	Negative	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.533333333333
+PR-3048	PR-3048	3+4	10	pT2c	Negative	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.06666666667
+PR-3051	PR-3051	3+4	20	pT2c	Negative	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.666666666667
+PR-3127	PR-3127	3+4	2	pT2c	Negative	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.866666666667
+PR-3027	PR-3027						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA
+PR-2832	PR-2832						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA
+PR-3043	PR-3043						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA
+PR-3042	PR-3042						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA
+PR-0581	PR-0581						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA
+PR-2621	PR-2621						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA
+PR-2741	PR-2741						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA
+PR-2525	PR-2525						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA
+PR-1783	PR-1783						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA
+PR-1701	PR-1701						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA
+PR-0508	PR-0508						PRAD	Prostate Cancer	Prostate Adenocarcinoma		NA

@@ -1,0 +1,30 @@
+#Patient Identifier	Sample Identifier	Cancer Type	Cancer Type Detailed	Sample Type	Primary Tumor Site	Tumor Disease Anatomic Site	Platform	Genomic Alterations	Oncotree Code	Fusion Status	MYB or MYBL1 Fusion	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Cancer Type	Cancer Type Detailed	The type of sample (i.e., normal, primary, met, recurrence).	Text term to describe the organ sub-division in an individual with cancer.	Text term that describes the anatomic site of the tumor or disease.	Platform.	Number of genomic alterations	Oncotree Code	Yes/No indicator of fusion status	Description of MYB or MYBL1 fusions identified.	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	9	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	SAMPLE_TYPE	PRIMARY_SITE	TUMOR_TISSUE_SITE	PLATFORM	GENOMIC_ALTERATIONS	ONCOTREE_CODE	FUSION_STATUS	MYB_MYBL1_FUSION	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+ACYC-JHU_PGDX920T	ACYC-JHU_PGDX920T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Salivary gland	Sublingual gland	Exome	17	ACYC	YES	Negative	Matched	0.466666666667
+ACYC-JHU_PGDX2881T	ACYC-JHU_PGDX2881T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Oral cavity	Palate	Exome	6	ACYC	YES	Negative	Matched	0.2
+ACYC-JHU_PGDX910T	ACYC-JHU_PGDX910T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Salivary gland	Parotid gland	Exome	8	ACYC	YES	Negative	Matched	0.266666666667
+ACYC-JHU_PGDX912T	ACYC-JHU_PGDX912T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Maxillary sinus	Exome	28	ACYC	YES	Positive	Matched	0.866666666667
+ACYC-JHU_PGDX916T	ACYC-JHU_PGDX916T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Maxillary sinus	Exome	6	ACYC	YES	Negative	Matched	0.166666666667
+ACYC-JHU_PGDX1762T	ACYC-JHU_PGDX1762T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Salivary gland	Parotid gland	WGS	14	ACYC	YES	Positive	Matched	0.466666666667
+ACYC-JHU_PGDX1770T	ACYC-JHU_PGDX1770T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Salivary gland	Submandibular gland	WGS	22	ACYC	YES	Positive	Matched	0.666666666667
+ACYC-JHU_PGDX1766T	ACYC-JHU_PGDX1766T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Oral cavity	Lip	WGS	33	ACYC	YES	Positive	Matched	1.06666666667
+ACYC-JHU_PGDX914T	ACYC-JHU_PGDX914T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Ethmoid	Exome	14	ACYC	YES	Positive	Matched	0.466666666667
+ACYC-JHU_PGDX1772T	ACYC-JHU_PGDX1772T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Maxilla	WGS	18	ACYC	YES	Positive	Matched	0.5
+ACYC-JHU_PGDX1764T	ACYC-JHU_PGDX1764T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Salivary gland	Parotid gland	WGS	10	ACYC	YES	Positive	Matched	0.266666666667
+ACYC-JHU_PGDX1768T	ACYC-JHU_PGDX1768T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Maxilla	WGS	13	ACYC	YES	Negative	Matched	0.366666666667
+ACYC-JHU_PGDX2880T	ACYC-JHU_PGDX2880T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Ear	Exome	11	ACYC	YES	Negative	Matched	0.366666666667
+ACYC-JHU_PGDX919T	ACYC-JHU_PGDX919T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Maxillary sinus	Exome	27	ACYC	YES	Negative	Matched	0.766666666667
+ACYC-JHU_PGDX2882T	ACYC-JHU_PGDX2882T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Salivary gland	Parotid gland	Exome	5	ACYC	YES	Positive	Matched	0.166666666667
+ACYC-JHU_PGDX921T	ACYC-JHU_PGDX921T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Oral cavity	Hard palate	Exome	7	ACYC	YES	Positive	Matched	0.233333333333
+ACYC-JHU_PGDX2884T	ACYC-JHU_PGDX2884T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Salivary gland	Parotid gland	Exome	2	ACYC	YES	Negative	Matched	0.0666666666667
+ACYC-JHU_PGDX913T	ACYC-JHU_PGDX913T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Oral cavity	Base of tongue	Exome	13	ACYC	YES	Negative	Matched	0.333333333333
+ACYC-JHU_PGDX1763T	ACYC-JHU_PGDX1763T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Salivary gland	Submandibular gland	WGS	23	ACYC	YES	Negative	Matched	0.633333333333
+ACYC-JHU_PGDX915T	ACYC-JHU_PGDX915T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Salivary gland	Parotid gland	Exome	16	ACYC	YES	Negative	Matched	0.5
+ACYC-JHU_PGDX1767T	ACYC-JHU_PGDX1767T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Maxilla	WGS	25	ACYC	YES	Positive	Matched	0.733333333333
+ACYC-JHU_PGDX1771T	ACYC-JHU_PGDX1771T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Maxilla	WGS	36	ACYC	YES	Negative	Matched	1.1
+ACYC-JHU_PGDX1765T	ACYC-JHU_PGDX1765T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Salivary gland	Submandibular gland	WGS	9	ACYC	YES	Negative	Matched	0.266666666667
+ACYC-JHU_PGDX1769T	ACYC-JHU_PGDX1769T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Maxilla	WGS	15	ACYC	YES	Positive	Matched	0.5
+ACYC-JHU_PGDX2883T	ACYC-JHU_PGDX2883T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	Head and Neck	Nasal septum	Exome	18	ACYC	YES	Negative	Matched	0.6

@@ -1,0 +1,124 @@
+#Patient Identifier	Sample Identifier	Neoplasm Histologic Grade	Somatic Status	Oncotree Code	Cancer Type	Cancer Type Detailed	Collaboration Id	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Somatic Status	Oncotree Code	Cancer Type	Cancer Type Detailed	Collaboration id.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	GRADE	SOMATIC_STATUS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	COLLAB_ID	TMB_NONSYNONYMOUS
+P_JC_ucc_013	s_JC_ucc_013_P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC13_primary	4.96782834365
+P_JC_ucc_020	s_JC_ucc_020_P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC20_primary	5.96139401238
+P_JC_ucc_022	s_JC_ucc_022_P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC22_primary	13.9099193622
+P_JC_ucc_028	s_JC_ucc_028_P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC28_primary	3.97426267492
+UCC_EU2015_27	DS-bla-021	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		4.64729904788
+UCC_EU2015_48	DS-bla-026-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.0
+UCC_EU2015_56	DS-bla-027	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_39	DS-bla-028	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		8.1327733338
+UCC_EU2015_55	DS-bla-032	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		12.7800723817
+UCC_EU2015_54	DS-bla-035	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		4.64729904788
+UCC_EU2015_1	DS-uttcc-005-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		11.6182476197
+UCC_EU2015_5	DS-uttcc-006-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		8.1327733338
+UCC_EU2015_7	DS-uttcc-007-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		12.7800723817
+UCC_EU2015_10	DS-uttcc-008-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_11	DS-uttcc-009-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		2.32364952394
+UCC_EU2015_15	DS-uttcc-010-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_18	DS-uttcc-012-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		11.6182476197
+UCC_EU2015_19	DS-uttcc-013-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		2.32364952394
+UCC_EU2015_20	DS-uttcc-014-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		8.1327733338
+UCC_EU2015_25	DS-uttcc-015-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_26	DS-uttcc-016-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		4.64729904788
+UCC_EU2015_32	DS-uttcc-017-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		2.32364952394
+UCC_EU2015_33	DS-uttcc-018-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		3.48547428591
+UCC_EU2015_38	DS-uttcc-019-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		3.48547428591
+UCC_EU2015_46	DS-uttcc-021-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_47	DS-uttcc-022-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		2.32364952394
+UCC_EU2015_68	DS-uttcc-024-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		8.1327733338
+UCC_EU2015_2	DS-uttcc-026-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		9.29459809577
+UCC_EU2015_3	DS-uttcc-027-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		1.16182476197
+UCC_EU2015_8	DS-uttcc-028-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.0
+UCC_EU2015_14	DS-uttcc-029-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		8.1327733338
+UCC_EU2015_17	DS-uttcc-030-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_21	DS-uttcc-031-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		12.7800723817
+UCC_EU2015_37	DS-uttcc-035-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_42	DS-uttcc-038-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		3.48547428591
+UCC_EU2015_43	DS-uttcc-039-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		1.16182476197
+UCC_EU2015_45	DS-uttcc-041-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		36.0165676211
+UCC_EU2015_49	DS-uttcc-042-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		11.6182476197
+UCC_EU2015_50	DS-uttcc-043-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		3.48547428591
+UCC_EU2015_52	DS-uttcc-045-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		20.9128457155
+UCC_EU2015_58	DS-uttcc-046-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		12.7800723817
+UCC_EU2015_59	DS-uttcc-047-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_61	DS-uttcc-048-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		4.64729904788
+UCC_EU2015_62	DS-uttcc-049-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		13.9418971437
+UCC_EU2015_63	DS-uttcc-050-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_36	DS-uttcc-051-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		17.4273714296
+UCC_EU2015_4	DS-uttcc-052-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		4.64729904788
+UCC_EU2015_6	DS-uttcc-053-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		3.48547428591
+UCC_EU2015_9	DS-uttcc-054-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_12	DS-uttcc-055-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		4.64729904788
+UCC_EU2015_28	DS-uttcc-057-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_30	DS-uttcc-058-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		8.1327733338
+UCC_EU2015_31	DS-uttcc-059-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		5.80912380986
+UCC_EU2015_35	DS-uttcc-060-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		490.290049552
+UCC_EU2015_57	DS-uttcc-061-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		61.5767123845
+UCC_EU2015_65	DS-uttcc-063-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		8.1327733338
+UCC_EU2015_67	DS-uttcc-064-P	High	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		10.4564228577
+UCC_EU2015_64	DS-uttcc-069-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		23.2364952394
+UCC_EU2015_53	DS-uttcc-070-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		9.29459809577
+UCC_EU2015_24	DS-uttcc-072-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		2.32364952394
+UCC_EU2015_13	DS-uttcc-074-P	Low	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		10.4564228577
+DS-bla-033	DS-bla-033	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.2
+DS-uttcc-001	DS-uttcc-001-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.166666666667
+DS-uttcc-002	DS-uttcc-002-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.0666666666667
+DS-uttcc-003	DS-uttcc-003-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.2
+DS-uttcc-004	DS-uttcc-004-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.433333333333
+DS-uttcc-011	DS-uttcc-011-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.133333333333
+DS-uttcc-020	DS-uttcc-020-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.2
+DS-uttcc-023	DS-uttcc-023-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.533333333333
+DS-uttcc-025	DS-uttcc-025-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.6
+DS-uttcc-032	DS-uttcc-032-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.266666666667
+DS-uttcc-033	DS-uttcc-033-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.333333333333
+DS-uttcc-034	DS-uttcc-034-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.166666666667
+DS-uttcc-036	DS-uttcc-036-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.166666666667
+DS-uttcc-037	DS-uttcc-037-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.2
+DS-uttcc-040	DS-uttcc-040-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.1
+DS-uttcc-044	DS-uttcc-044-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.166666666667
+DS-uttcc-056	DS-uttcc-056-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.2
+DS-uttcc-071	DS-uttcc-071-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.266666666667
+DS-uttcc-073	DS-uttcc-073-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.333333333333
+DS-uttcc-075	DS-uttcc-075-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.2
+DS-uttcc-076	DS-uttcc-076-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.266666666667
+DS-uttcc-077	DS-uttcc-077-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.633333333333
+DS-uttcc-078	DS-uttcc-078-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.566666666667
+DS-uttcc-081	DS-uttcc-081-P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		0.166666666667
+p_JC_ucc_001	s_JC_ucc_001_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC01_primary	0.993565668729
+p_JC_ucc_003	s_JC_ucc_003_M	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC03_Met	12.3370389312
+p_JC_ucc_005	s_JC_ucc_005_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC05_primary	0.993565668729
+p_JC_ucc_008	s_JC_ucc_008_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC08_primary	7.94852534983
+p_JC_ucc_009	s_JC_ucc_009_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC09_primary	10.929222356
+p_JC_ucc_011	DS-uttcc-062-P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC11_primary	3.48547428591
+p_JC_ucc_014	s_JC_ucc_014_TZ	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC14_primary	10.929222356
+p_JC_ucc_015	P-0005947-T01-IM5	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC15_primary	28.8134043931
+p_JC_ucc_017	s_JC_ucc_017_TZ	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC17_primary	77.4981221609
+p_JC_ucc_019	s_JC_ucc_019_P1	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC19_primary	13.9099193622
+p_JC_ucc_030	s_JC_ucc_030_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC30_primary	23.8455760495
+p_JC_ucc_032	s_JC_ucc_032_TZ	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC32_primary	23.8455760495
+p_JC_ucc_034	s_JC_ucc_034_P	LG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC34_primary	220.571578458
+p_JC_ucc_036	s_JC_ucc_036_TZ	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC36_primary	99.3565668729
+p_JC_ucc_040	s_JC_ucc_040_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC40_primary	1.76563024171
+p_JC_ucc_047	s_JC_ucc_047_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC47_primary	2.98069700619
+p_JC_ucc_050	P-0020542-T01-IM6	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC50_primary	4.41407560429
+p_JC_ucc_002	s_JC_ucc_002_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC02_primary	21.1875629006
+p_JC_ucc_006	s_JC_ucc_006_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC06_primary	60.9142433392
+p_JC_ucc_007	s_JC_ucc_007_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC07_primary	13.2422268129
+p_JC_ucc_021	s_JC_ucc_021_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC21_primary	13.2422268129
+p_JC_ucc_023	s_JC_ucc_023_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC23_primary	9.71096632943
+p_JC_ucc_024	P-0010096-T01-IM5	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC24_primary	0.0
+p_JC_ucc_025	P-0004688-T01-IM5	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC25_primary	410.342621185
+p_JC_ucc_029	s_C_006046_P002_d	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC29_primary	3.53126048343
+p_JC_ucc_031	s_JC_ucc_031_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC31_primary	4.41407560429
+p_JC_ucc_037	s_JC_ucc_037_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC37_primary	10.5937814503
+p_JC_ucc_038	s_JC_ucc_038_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC38_primary	6.179705846
+p_JC_ucc_039	s_JC_ucc_039_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC39_primary	14.1250419337
+p_JC_ucc_042	s_JC_ucc_042_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC42_primary	10.5937814503
+p_JC_ucc_045	P-0003190-T01-IM5	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC45_primary	4.96782834365
+p_JC_ucc_046	P-0016742-T01-IM6	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC46_primary	3.53126048343
+p_JC_ucc_048	s_C_001470_P002_d	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC48_primary	0.0
+p_JC_ucc_051	s_JC_ucc_051_P	HG	Matched	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	UCC51_primary	3.97426267492

@@ -1,0 +1,25 @@
+#Patient Identifier	Sample Identifier	Collaboration Id	Sample Type	Gene Panel	Oncotree Code	Cancer Type	Cancer Type Detailed	Sample Class	Specimen Preservation Type	Tissue Site	Stage At Diagnosis	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Collaboration id.	The type of sample (i.e., normal, primary, met, recurrence).	Gene panel.	Oncotree Code	Cancer Type	Cancer Type Detailed	The sample classification (i.e., tumor, cellline, xenograph).	The method used for preparing the tissue for examination and study.	Tissue Site	Stage At Diagnosis	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	9	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	COLLAB_ID	SAMPLE_TYPE	GENE_PANEL	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SAMPLE_CLASS	SPECIMEN_PRESERVATION_TYPE	TISSUE_SITE	STAGE_AT_DIAGNOSIS	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+p_CR_pdx_095	MSK-LX95	MSK_LX95	Baseline	IMPACT410	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	PDX	Fresh	Lung	3b	Matched	14.1
+p_CR_pdx_040	MSK-LX40	MSK_LX40	Baseline	IMPACT410	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	PDX	Fresh	Lung	4	Matched	6.63333333333
+p_SCRX-Lu149	SCRX-Lu149		Baseline		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	52.2
+p_SCRX-Lu149	SCRX-Lu149-R		Relapse		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	51.9666666667
+p_CR_pdx_095	MSK-LX95-R		Relapse		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Matched	14.9333333333
+p_CR_pdx_040	MSK-LX40-R		Relapse		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Matched	7.03333333333
+p_JHU-LX110	JHU-LX110		Baseline		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	51.7666666667
+p_JHU-LX110	JHU-LX110-R		Relapse		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	52.2
+p_JHU-LX108	JHU-LX108		Baseline		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	49.3
+p_JHU-LX108	JHU-LX108-R		Relapse		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	49.8
+p_JHU-LX102	JHU-LX102		Baseline		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	50.5333333333
+p_JHU-LX102	JHU-LX102-R		Relapse		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	50.2333333333
+p_JHU-LX101	JHU-LX101		Baseline		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	48.6
+p_JHU-LX101	JHU-LX101-R		Relapse		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	48.5333333333
+p_JHU-LX48	JHU-LX48		Baseline		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	61.0666666667
+p_JHU-LX48	JHU-LX48-R		Relapse		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	60.5333333333
+p_JHU-LX33	JHU-LX33		Baseline		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	62.7666666667
+p_JHU-LX33	JHU-LX33-R		Relapse		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	64.7666666667
+p_JHU-LX22	JHU-LX22		Baseline		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	47.3666666667
+p_JHU-LX22	JHU-LX22-R		Relapse		SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer					Unmatched	47.2666666667

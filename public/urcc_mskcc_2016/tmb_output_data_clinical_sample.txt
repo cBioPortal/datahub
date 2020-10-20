@@ -1,0 +1,67 @@
+#Sample Identifier	Patient Identifier	Somatic Status	Gene Panel	Primary Tumor Site	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Somatic Status	Gene panel.	Text term to describe the organ sub-division in an individual with cancer.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	SOMATIC_STATUS	GENE_PANEL	PRIMARY_SITE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+T01	T01	Matched	IMPACTv2	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T02	T02	Unmatched	IMPACTv2	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	7.75565348361
+T04	T04	Matched	IMPACTv2	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	3.10226139344
+T05	T05	Unmatched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	6.20452278689
+T06	T06	Matched	IMPACTv2	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T08	T08	Matched	IMPACTv2	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	4.65339209016
+T09	T09	Matched	IMPACTv2	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	6.20452278689
+T10	T10	Matched	IMPACTv2	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T11	T11	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	0.0
+T12	T12	Unmatched	IMPACTv2	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	0.0
+T13	T13	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	6.20452278689
+T14	T14	Matched	IMPACTv2	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	0.0
+T15	T15	Matched	IMPACTv2	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	6.20452278689
+T16	T16	Matched	IMPACTv2	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	6.20452278689
+T17	T17	Matched	IMPACTv2	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	0.0
+T18	T18	Matched	IMPACTv2	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	0.0
+T19	T19	Matched	IMPACTv2	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	0.0
+T20	T20	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T21	T21	Unmatched	IMPACTv2	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T22	T22	Matched	IMPACTv2	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	4.65339209016
+T23	T23	Matched	IMPACTv2	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	4.65339209016
+T25	T25	Unmatched	IMPACTv2	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T26	T26	Matched	IMPACTv2	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	0.0
+T28	T28	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T29	T29	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	3.10226139344
+T30	T30	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	3.10226139344
+T31	T31	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T32	T32	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T33	T33	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T34	T34	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	6.20452278689
+T35	T35	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T37	T37	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	4.65339209016
+T38	T38	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	3.10226139344
+T39	T39	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	3.10226139344
+T40	T40	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	6.20452278689
+T41	T41	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	6.20452278689
+T42	T42	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	4.65339209016
+T43	T43	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	12.4090455738
+T44	T44	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	7.75565348361
+T45	T45	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	7.75565348361
+T47	T47	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T49	T49	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	3.10226139344
+T50	T50	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	9.30678418033
+T51	T51	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	4.65339209016
+T53	T53	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T54	T54	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	4.65339209016
+T56	T56	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	9.30678418033
+T57	T57	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T58	T58	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	9.30678418033
+T59	T59	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	0.0
+T60	T60	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	0.0
+T61	T61	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	6.20452278689
+T62	T62	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	6.20452278689
+T63	T63	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	7.75565348361
+T64	T64	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	9.30678418033
+T66	T66	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T67	T67	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	4.65339209016
+T68	T68	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	10.857914877
+T69	T69	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T70	T70	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	4.65339209016
+T71	T71	Matched	IMPACTv4	Right kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	1.55113069672
+T72	T72	Matched	IMPACTv4	Left kidney	URCC	Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	7.75565348361

@@ -1,0 +1,85 @@
+#Patient Identifier	Sample Identifier	Sample name	Source	Sample Type	Sample Class	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Sample name	Source	The type of sample (i.e., normal, primary, met, recurrence).	The sample classification (i.e., tumor, cellline, xenograph).	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	9	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_NAME	SOURCE	SAMPLE_TYPE	SAMPLE_CLASS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+32970	98687	HF-18666-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.56666666667
+65928	134426	HF-29673		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	1.16666666667
+65929	134427	HF-29676		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.4
+65948	134430	HF-29681		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.06666666667
+67589	585210	HF-29725	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.86666666667
+67590	585276	HF-29723	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.33333333333
+67591	585265	HF-29721	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	1.03333333333
+67595	585203	HF-29716	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	1.4
+67596	585270	HF-29714	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.13333333333
+67597	585258	HF-29712	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.66666666667
+67599	585208	HF-29709	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	25.1
+33033	98711	HF-18694-(1)	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.5
+67608	585260	HF-29729	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.1666666667
+67609	585272	HF-29731	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.76666666667
+67610	585205	HF-29733	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.23333333333
+67629	585223	HF-29737	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.6
+67630	585267	HF-29739	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.46666666667
+68309	585268	HF-29798-(1)	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+75129	585281	HF-31249-(1)	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+94708	631052	HF-32076-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.2
+94709	631056	HF-32078-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.43333333333
+94710	631060	HF-32080-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	3.76666666667
+33038	98735	HF-18702-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.13333333333
+94711	631064	HF-32082-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	1.73333333333
+94714	631076	HF-32088-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.96666666667
+94716	631084	HF-32092-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	3.93333333333
+94718	631092	HF-32096-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	3.83333333333
+33039	98742	HF-18704-(2)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+40288	588421	HF-24374-(3)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+40289	113368	HF-24376-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.26666666667
+63013	134398	HF-29523-(1)		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	11.1333333333
+65510	134421	HF-29662		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	1.9
+63011	134413	HF-29531		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.0
+63010	134417	HF-29533		Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	3.4
+49168	585213	HF-31251-(1)	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+41044	585224	HF-29796-(1)	JHU	Paired Primary Tumor	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+2334202_p	2334202	HCC33	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.83333333333
+2334201_p	2334201	HCC2433	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.76666666667
+2334199_p	2334199	H289	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	10.8666666667
+2334196_p	2334196	H2141	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	10.7333333333
+2334195_p	2334195	H2107	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.9
+2334194_p	2334194	H209	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.36666666667
+2334193_p	2334193	H1963	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.03333333333
+2334192_p	2334192	H1672	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.6666666667
+2334191_p	2334191	H1607	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	10.7
+2334189_p	2334189	H1450	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.66666666667
+2334188_p	2334188	H1339	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.3
+2334187_p	2334187	H1184	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.56666666667
+2334197_p	2334197	H2171	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+2334204_p	2334204	HCC1772	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+2334203_p	2334203	HCC970	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+2334186_p	2334186	H128	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+2334198_p	2334198	H2195	UTSW	Paired Cell Line	Cell line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+D-4655	631088	HF-32094-(1)		Primary Tumor Unpaired	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+D-4630	631068	HF-32084-(1)		Primary Tumor Unpaired	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+D-4638	631072	HF-32086-(1)		Primary Tumor Unpaired	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+D-4648	631080	HF-32090-(1)		Primary Tumor Unpaired	Tumor	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+636368_p	636368	NCI-H446		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+636370_p	636370	SCLC-21H		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+636371_p	636371	SCLC-22H		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+636413_p	636413	COR-L279		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+636414_p	636414	DMS 79		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+636425_p	636425	NCI-H196		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+637036_p	637036	DMS 273		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+637049_p	637049	NCI-H82		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+637050_p	637050	NCI-N417		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+637122_p	637122	COR-L47		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+637123_p	637123	COR-L88		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+637124_p	637124	CPC-N		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+637133_p	637133	NCI-H187		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+637134_p	637134	NCI-H1930		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+637137_p	637137	NCI-H345		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+2334190_p	2334190	H1514	UTSW	Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+636136_p	636136	NCI-H146		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+636776_p	636776	NCI-H889		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+639168_p	639168	DMS 454		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+639169_p	639169	DMS 53		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+639171_p	639171	NCI-H1882		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+639172_p	639172	NCI-H2081		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+639170_p	639170	NCI-H1092		Cell Line	Cell Line	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA

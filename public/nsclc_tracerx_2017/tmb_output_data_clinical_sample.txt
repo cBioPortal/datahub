@@ -1,0 +1,452 @@
+#Sample Identifier	Patient Identifier	Sample Class	Sample Type	Sample Collection Time	Tumor Size (mm)	Margin Status	Vascular invasion	Pleural Invasion	Genome Doubled	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	The sample classification (i.e., tumor, cellline, xenograph).	The type of sample (i.e., normal, primary, met, recurrence).	Sample Collection Time	Tumor size based on pathological examination of the post-operative tumor specimen	Margin Status	Vascular invasion.	Pleural Invasion	Genome Doubled	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	SAMPLE_CLASS	SAMPLE_TYPE	SAMPLE_COLLECTION_TIMEPOINT	TUMOR_SIZE	MARGIN_STATUS	VASCULAR_INVASION	PLEURAL_INVASION	GENOME_DOUBLED	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+CRUK0001-R1	CRUK0001	Tumor	Primary	Pre-treatment	26	R0	No	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	35.6333333333
+CRUK0002-R1	CRUK0002	Tumor	Primary	Pre-treatment	35	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.13333333333
+CRUK0003-R1	CRUK0003	Tumor	Primary	Pre-treatment	52	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.56666666667
+CRUK0004-R1	CRUK0004	Tumor	Primary	Pre-treatment	47	R0	No	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.53333333333
+CRUK0005-R1	CRUK0005	Tumor	Primary	Pre-treatment	43	R0	Yes	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	15.0
+CRUK0006-R1	CRUK0006	Tumor	Primary	Pre-treatment	18	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	23.5333333333
+CRUK0007-R1	CRUK0007	Tumor	Primary	Pre-treatment	18	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.13333333333
+CRUK0008-R1	CRUK0008	Tumor	Primary	Pre-treatment	25	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.4
+CRUK0009-R1	CRUK0009	Tumor	Primary	Pre-treatment	65	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	6.2
+CRUK0010-R1	CRUK0010	Tumor	Primary	Pre-treatment	32	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.96666666667
+CRUK0011-R1	CRUK0011	Tumor	Primary	Pre-treatment	40	R0	No	No	Subclonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	8.46666666667
+CRUK0012-R1	CRUK0012	Tumor	Primary	Pre-treatment	28	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.2
+CRUK0013-R1	CRUK0013	Tumor	Primary	Pre-treatment	35	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.8
+CRUK0014-R1	CRUK0014	Tumor	Primary	Pre-treatment	13	R0	No	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0015-R1	CRUK0015	Tumor	Primary	Pre-treatment	19	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.53333333333
+CRUK0016-R1	CRUK0016	Tumor	Primary	Pre-treatment	28	R0	Yes	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	33.5333333333
+CRUK0017-R1	CRUK0017	Tumor	Primary	Pre-treatment	18	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	14.9333333333
+CRUK0018-R1	CRUK0018	Tumor	Primary	Pre-treatment	24	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	7.8
+CRUK0019-R1	CRUK0019	Tumor	Primary	Pre-treatment	32	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.36666666667
+CRUK0020-R1	CRUK0020	Tumor	Primary	Pre-treatment	19	R0	Yes	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	47.4666666667
+CRUK0021-R1	CRUK0021	Tumor	Primary	Pre-treatment	18	R1	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.83333333333
+CRUK0022-R1	CRUK0022	Tumor	Primary	Pre-treatment	27	R0	Yes	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.06666666667
+CRUK0023-R1	CRUK0023	Tumor	Primary	Pre-treatment	71	R0	No	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	5.0
+CRUK0024-R1	CRUK0024	Tumor	Primary	Pre-treatment	52	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	12.7
+CRUK0025-R1	CRUK0025	Tumor	Primary	Pre-treatment	33	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	7.23333333333
+CRUK0026-R1	CRUK0026	Tumor	Primary	Pre-treatment	26	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.66666666667
+CRUK0027-R1	CRUK0027	Tumor	Primary	Pre-treatment	22	R0	No	Yes	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	12.7333333333
+CRUK0028-R1	CRUK0028	Tumor	Primary	Pre-treatment	22	R0	No	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.43333333333
+CRUK0029-R1	CRUK0029	Tumor	Primary	Pre-treatment	70	R0	No	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.73333333333
+CRUK0030-R1	CRUK0030	Tumor	Primary	Pre-treatment	14	R0	No	Yes	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.03333333333
+CRUK0031-R1	CRUK0031	Tumor	Primary	Pre-treatment	40	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	15.4
+CRUK0032-R1	CRUK0032	Tumor	Primary	Pre-treatment	34	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	14.6333333333
+CRUK0033-R1	CRUK0033	Tumor	Primary	Pre-treatment	21	R0	No	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.966666666667
+CRUK0034-R1	CRUK0034	Tumor	Primary	Pre-treatment	40	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	12.2333333333
+CRUK0035-R1	CRUK0035	Tumor	Primary	Pre-treatment	28	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.9
+CRUK0036-R1	CRUK0036	Tumor	Primary	Pre-treatment	40	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.2
+CRUK0037-R1	CRUK0037	Tumor	Primary	Pre-treatment	75	R0	No	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	7.76666666667
+CRUK0038-R1	CRUK0038	Tumor	Primary	Pre-treatment	25	R1	Yes	Yes	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.06666666667
+CRUK0039-R1	CRUK0039	Tumor	Primary	Pre-treatment	48	R0	Yes	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	16.6333333333
+CRUK0040-R1	CRUK0040	Tumor	Primary	Pre-treatment	14	R0	No	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	5.4
+CRUK0041-R1	CRUK0041	Tumor	Primary	Pre-treatment	35	R0	Yes	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.7
+CRUK0042-R1	CRUK0042	Tumor	Primary	Pre-treatment	30	R0	No	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.5
+CRUK0043-R1	CRUK0043	Tumor	Primary	Pre-treatment	20	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.86666666667
+CRUK0044-R1	CRUK0044	Tumor	Primary	Pre-treatment	23	R0	Yes	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	7.33333333333
+CRUK0045-R1	CRUK0045	Tumor	Primary	Pre-treatment	48	R0	Yes	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.73333333333
+CRUK0046-R1	CRUK0046	Tumor	Primary	Pre-treatment	60	R1	No	Yes	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.0
+CRUK0047-R1	CRUK0047	Tumor	Primary	Pre-treatment	21	R0	No	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.56666666667
+CRUK0048-R1	CRUK0048	Tumor	Primary	Pre-treatment	33	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	7.43333333333
+CRUK0049-R1	CRUK0049	Tumor	Primary	Pre-treatment	20	R0	No	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	17.4666666667
+CRUK0050-R1	CRUK0050	Tumor	Primary	Pre-treatment	120	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.43333333333
+CRUK0051-R2	CRUK0051	Tumor	Primary	Pre-treatment	50	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	9.53333333333
+CRUK0052-R1	CRUK0052	Tumor	Primary	Pre-treatment	37	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	20.2666666667
+CRUK0053-R1	CRUK0053	Tumor	Primary	Pre-treatment	19	R0	Yes	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	33.2666666667
+CRUK0054-R1	CRUK0054	Tumor	Primary	Pre-treatment	14	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.03333333333
+CRUK0055-R1	CRUK0055	Tumor	Primary	Pre-treatment	45	R0	Yes	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	29.5333333333
+CRUK0056-R1	CRUK0056	Tumor	Primary	Pre-treatment	25	R0	No	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	5.33333333333
+CRUK0057-R1	CRUK0057	Tumor	Primary	Pre-treatment	22	R0	Yes	Yes	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	18.5666666667
+CRUK0058-R1	CRUK0058	Tumor	Primary	Pre-treatment	16	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.26666666667
+CRUK0059-R1	CRUK0059	Tumor	Primary	Pre-treatment	11	R0	No	No	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.1
+CRUK0060-R1	CRUK0060	Tumor	Primary	Pre-treatment	10	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	37.4666666667
+CRUK0061-R1	CRUK0061	Tumor	Primary	Pre-treatment	30	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.4
+CRUK0062-R1	CRUK0062	Tumor	Primary	Pre-treatment	55	R0	No	No	Subclonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.0
+CRUK0063-R3	CRUK0063	Tumor	Primary	Pre-treatment	50	R0	Yes	No	Subclonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.33333333333
+CRUK0064-R1	CRUK0064	Tumor	Primary	Pre-treatment	38	R0	No	Yes	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	12.1333333333
+CRUK0065-R1	CRUK0065	Tumor	Primary	Pre-treatment	75	R0	Yes	No	Not GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	9.86666666667
+CRUK0066-R1	CRUK0066	Tumor	Primary	Pre-treatment	42	R0	No	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	7.96666666667
+CRUK0067-R1	CRUK0067	Tumor	Primary	Pre-treatment	10	R0	No	No	Not GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.6
+CRUK0068-R1	CRUK0068	Tumor	Primary	Pre-treatment	38	R0	No	No	Not GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	12.2666666667
+CRUK0069-R1	CRUK0069	Tumor	Primary	Pre-treatment	50	R0	Yes	Yes	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	12.4666666667
+CRUK0070-R1	CRUK0070	Tumor	Primary	Pre-treatment	45	R0	Yes	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.63333333333
+CRUK0071-R1	CRUK0071	Tumor	Primary	Pre-treatment	55	R0	No	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.76666666667
+CRUK0072-R1	CRUK0072	Tumor	Primary	Pre-treatment	35	R0	Yes	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.96666666667
+CRUK0073-R1	CRUK0073	Tumor	Primary	Pre-treatment	21	R0	No	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.43333333333
+CRUK0074-R1	CRUK0074	Tumor	Primary	Pre-treatment	60	R0	No	Yes	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	13.8
+CRUK0075-R1	CRUK0075	Tumor	Primary	Pre-treatment	30	R0	Yes	Yes	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	12.3
+CRUK0076-R1	CRUK0076	Tumor	Primary	Pre-treatment	32	R0	No	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	16.2
+CRUK0077-R1	CRUK0077	Tumor	Primary	Pre-treatment	35	R1	Yes	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	10.7333333333
+CRUK0078-R2	CRUK0078	Tumor	Primary	Pre-treatment	38	R0	Yes	Yes	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	5.7
+CRUK0079-R1	CRUK0079	Tumor	Primary	Pre-treatment	60	R0	Yes	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	7.5
+CRUK0080-R2	CRUK0080	Tumor	Primary	Pre-treatment	37	R0	No	Yes	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.03333333333
+CRUK0081-R1	CRUK0081	Tumor	Primary	Pre-treatment	60	R0	No	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	10.3333333333
+CRUK0082-R1	CRUK0082	Tumor	Primary	Pre-treatment	115	R0	Yes	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	10.3
+CRUK0083-R1	CRUK0083	Tumor	Primary	Pre-treatment	39	R0	Yes	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	15.6
+CRUK0084-R1	CRUK0084	Tumor	Primary	Pre-treatment	32	R0	No	No	Not GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	5.6
+CRUK0085-R1	CRUK0085	Tumor	Primary	Pre-treatment	29	R0	Yes	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	19.8666666667
+CRUK0086-R1	CRUK0086	Tumor	Primary	Pre-treatment	42	R0	Yes	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.36666666667
+CRUK0087-R1	CRUK0087	Tumor	Primary	Pre-treatment	110	R0	No	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.4
+CRUK0088-R1	CRUK0088	Tumor	Primary	Pre-treatment	10	R1	No	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	7.8
+CRUK0089-R1	CRUK0089	Tumor	Primary	Pre-treatment	45	R0	Yes	No	Not GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	15.9
+CRUK0090-R1	CRUK0090	Tumor	Primary	Pre-treatment	35	R0	Yes	Yes	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	19.1
+CRUK0091-R1	CRUK0091	Tumor	Primary	Pre-treatment	15	R0	No	No	Not GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	14.1333333333
+CRUK0092-R1	CRUK0092	Tumor	Primary	Pre-treatment	45	R0	No	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.16666666667
+CRUK0093-R1	CRUK0093	Tumor	Primary	Pre-treatment	11	R0	No	No	Clonal GD	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	26.6666666667
+CRUK0094-R1	CRUK0094	Tumor	Primary	Pre-treatment	35	R0	No	Yes	Not GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.03333333333
+CRUK0095-R1	CRUK0095	Tumor	Primary	Pre-treatment	20	R0	Yes	No	Not GD	LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	4.16666666667
+CRUK0096-R1	CRUK0096	Tumor	Primary	Pre-treatment	85	R0	No	No	Clonal GD	LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	8.26666666667
+CRUK0097-R1	CRUK0097	Tumor	Primary	Pre-treatment	25	R0	No	Yes	Clonal GD	LCLC	Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	7.3
+CRUK0098-R1	CRUK0098	Tumor	Primary	Pre-treatment	42	R0	No	No	Clonal GD	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	13.2333333333
+CRUK0099-R1	CRUK0099	Tumor	Primary	Pre-treatment	72	R0	Yes	Yes	Not GD	LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	6.5
+CRUK0100-R1	CRUK0100	Tumor	Primary	Pre-treatment	29	R0	No	No	Clonal GD	LUNE	Non-Small Cell Lung Cancer	Large Cell Neuroendocrine Carcinoma	14.2666666667
+CRUK0001-R2	CRUK0001	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.6666666667
+CRUK0001-R3	CRUK0001	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	14.6666666667
+CRUK0002-R2	CRUK0002	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.36666666667
+CRUK0002-R3	CRUK0002	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.96666666667
+CRUK0003-R2	CRUK0003	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.6
+CRUK0003-R3	CRUK0003	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.7
+CRUK0003-R4	CRUK0003	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.06666666667
+CRUK0003-R6	CRUK0003	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.6
+CRUK0004-R2	CRUK0004	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.36666666667
+CRUK0004-R3	CRUK0004	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.76666666667
+CRUK0004-R4	CRUK0004	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.73333333333
+CRUK0005-R2	CRUK0005	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	16.4666666667
+CRUK0005-R3	CRUK0005	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	25.6
+CRUK0005-R4	CRUK0005	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	17.1
+CRUK0006-R2	CRUK0006	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	24.0666666667
+CRUK0007-R2	CRUK0007	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.4
+CRUK0008-R2	CRUK0008	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.9
+CRUK0009-R2	CRUK0009	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	6.23333333333
+CRUK0009-R3	CRUK0009	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	6.93333333333
+CRUK0009-R4	CRUK0009	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	6.63333333333
+CRUK0010-R2	CRUK0010	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.83333333333
+CRUK0011-R2	CRUK0011	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	9.8
+CRUK0011-R3	CRUK0011	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	8.16666666667
+CRUK0012-R2	CRUK0012	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.1
+CRUK0013-LN1	CRUK0013	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.56666666667
+CRUK0013-LN2	CRUK0013	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.4
+CRUK0013-R2	CRUK0013	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.53333333333
+CRUK0013-R3	CRUK0013	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.7
+CRUK0014-R2	CRUK0014	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.8
+CRUK0015-R2	CRUK0015	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.73333333333
+CRUK0016-R2	CRUK0016	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	31.1666666667
+CRUK0017-R2	CRUK0017	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	18.3666666667
+CRUK0017-R3	CRUK0017	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	17.5333333333
+CRUK0017-R4	CRUK0017	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	20.0666666667
+CRUK0018-R2	CRUK0018	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	9.4
+CRUK0018-R3	CRUK0018	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	7.6
+CRUK0018-R4	CRUK0018	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	7.56666666667
+CRUK0019-R2	CRUK0019	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.56666666667
+CRUK0020-R2	CRUK0020	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	41.6666666667
+CRUK0021-R2	CRUK0021	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.76666666667
+CRUK0022-R2	CRUK0022	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.3
+CRUK0023-R2	CRUK0023	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.46666666667
+CRUK0023-R3	CRUK0023	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.2
+CRUK0023-R4	CRUK0023	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.26666666667
+CRUK0024-R2	CRUK0024	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	13.4333333333
+CRUK0024-R3	CRUK0024	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	13.0333333333
+CRUK0024-R4	CRUK0024	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	13.5
+CRUK0024-R6	CRUK0024	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.6666666667
+CRUK0025-R2	CRUK0025	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	6.73333333333
+CRUK0025-R3	CRUK0025	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	6.8
+CRUK0026-R2	CRUK0026	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.63333333333
+CRUK0027-R2	CRUK0027	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	16.1
+CRUK0027-R3	CRUK0027	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	12.3333333333
+CRUK0028-R2	CRUK0028	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.46666666667
+CRUK0029-R2	CRUK0029	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.5
+CRUK0029-R4	CRUK0029	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.6
+CRUK0029-R5	CRUK0029	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.96666666667
+CRUK0029-R6	CRUK0029	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	5.3
+CRUK0029-R7	CRUK0029	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	5.0
+CRUK0029-R8	CRUK0029	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	5.03333333333
+CRUK0030-R2	CRUK0030	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.13333333333
+CRUK0030-R3	CRUK0030	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.33333333333
+CRUK0031-R2	CRUK0031	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	15.6666666667
+CRUK0031-R3	CRUK0031	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	15.0666666667
+CRUK0032-R2	CRUK0032	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	15.2666666667
+CRUK0032-R3	CRUK0032	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	15.0
+CRUK0032-R4	CRUK0032	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	15.7666666667
+CRUK0033-R2	CRUK0033	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.06666666667
+CRUK0034-R2	CRUK0034	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	13.7
+CRUK0034-R3	CRUK0034	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	13.0
+CRUK0035-LN1	CRUK0035	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.06666666667
+CRUK0035-R2	CRUK0035	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.8
+CRUK0035-R3	CRUK0035	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.83333333333
+CRUK0036-R2	CRUK0036	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.3
+CRUK0036-R3	CRUK0036	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.33333333333
+CRUK0036-R4	CRUK0036	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.23333333333
+CRUK0037-R2	CRUK0037	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	8.26666666667
+CRUK0037-R3	CRUK0037	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	8.26666666667
+CRUK0037-R4	CRUK0037	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	8.03333333333
+CRUK0037-R5	CRUK0037	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	8.2
+CRUK0038-R2	CRUK0038	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.83333333333
+CRUK0039-R2	CRUK0039	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	21.0
+CRUK0039-R3	CRUK0039	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	16.4
+CRUK0040-R2	CRUK0040	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	5.4
+CRUK0041-R2	CRUK0041	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.66666666667
+CRUK0041-R3	CRUK0041	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.6
+CRUK0041-R4	CRUK0041	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.63333333333
+CRUK0042-R2	CRUK0042	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.13333333333
+CRUK0043-R2	CRUK0043	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.63333333333
+CRUK0044-R2	CRUK0044	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	6.66666666667
+CRUK0045-R2	CRUK0045	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.66666666667
+CRUK0045-R3	CRUK0045	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.93333333333
+CRUK0046-R2	CRUK0046	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.8
+CRUK0046-R3	CRUK0046	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.93333333333
+CRUK0046-R4	CRUK0046	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.03333333333
+CRUK0047-R2	CRUK0047	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.66666666667
+CRUK0048-R2	CRUK0048	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	7.13333333333
+CRUK0048-R3	CRUK0048	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	7.26666666667
+CRUK0049-R2	CRUK0049	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	16.8666666667
+CRUK0050-R2	CRUK0050	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.16666666667
+CRUK0050-R3	CRUK0050	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.3
+CRUK0050-R4	CRUK0050	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.26666666667
+CRUK0050-R5	CRUK0050	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.23333333333
+CRUK0051-R3	CRUK0051	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	9.4
+CRUK0051-R4	CRUK0051	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	9.66666666667
+CRUK0052-R2	CRUK0052	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	19.0666666667
+CRUK0052-R3	CRUK0052	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	19.5
+CRUK0052-R4	CRUK0052	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	20.2333333333
+CRUK0053-R2	CRUK0053	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	34.6666666667
+CRUK0054-R2	CRUK0054	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	3.33333333333
+CRUK0055-R2	CRUK0055	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	29.6
+CRUK0055-R3	CRUK0055	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	30.6666666667
+CRUK0055-R4	CRUK0055	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	30.9333333333
+CRUK0056-R2	CRUK0056	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	5.7
+CRUK0056-R3	CRUK0056	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	6.1
+CRUK0057-R2	CRUK0057	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	19.6333333333
+CRUK0058-R2	CRUK0058	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	2.26666666667
+CRUK0059-R2	CRUK0059	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.1
+CRUK0060-R2	CRUK0060	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	36.5
+CRUK0061-R2	CRUK0061	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	4.4
+CRUK0062-R2	CRUK0062	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	9.1
+CRUK0062-R3	CRUK0062	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.1
+CRUK0062-R4	CRUK0062	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.7
+CRUK0062-R5	CRUK0062	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.96666666667
+CRUK0062-R6	CRUK0062	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.53333333333
+CRUK0062-R7	CRUK0062	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.9
+CRUK0063-R4	CRUK0063	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.16666666667
+CRUK0063-R5	CRUK0063	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.5
+CRUK0063-R6	CRUK0063	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.33333333333
+CRUK0063-R7	CRUK0063	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.3
+CRUK0064-R2	CRUK0064	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	10.0
+CRUK0065-R2	CRUK0065	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	9.7
+CRUK0065-R3	CRUK0065	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	13.6
+CRUK0065-R4	CRUK0065	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	12.0666666667
+CRUK0065-R5	CRUK0065	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	12.4666666667
+CRUK0065-R6	CRUK0065	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	10.6666666667
+CRUK0065-R7	CRUK0065	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.53333333333
+CRUK0066-R2	CRUK0066	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.26666666667
+CRUK0066-R3	CRUK0066	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	9.23333333333
+CRUK0066-R4	CRUK0066	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.16666666667
+CRUK0067-R3	CRUK0067	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.06666666667
+CRUK0068-R2	CRUK0068	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	13.2666666667
+CRUK0068-R3	CRUK0068	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	11.9
+CRUK0068-R4	CRUK0068	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	12.3
+CRUK0069-R2	CRUK0069	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	13.5333333333
+CRUK0069-R3	CRUK0069	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	13.5333333333
+CRUK0069-R4	CRUK0069	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	11.3333333333
+CRUK0069-R5	CRUK0069	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	11.6333333333
+CRUK0070-R2	CRUK0070	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.53333333333
+CRUK0070-R4	CRUK0070	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.76666666667
+CRUK0070-R6	CRUK0070	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.96666666667
+CRUK0070-R7	CRUK0070	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.7
+CRUK0071-R2	CRUK0071	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.33333333333
+CRUK0071-R3	CRUK0071	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.86666666667
+CRUK0071-R5	CRUK0071	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.73333333333
+CRUK0071-R6	CRUK0071	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.5
+CRUK0071-R7	CRUK0071	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.13333333333
+CRUK0072-R2	CRUK0072	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.3
+CRUK0072-R3	CRUK0072	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	5.63333333333
+CRUK0072-R4	CRUK0072	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.3
+CRUK0073-R2	CRUK0073	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.56666666667
+CRUK0074-R2	CRUK0074	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	14.2666666667
+CRUK0074-R3	CRUK0074	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	14.1
+CRUK0075-R2	CRUK0075	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	13.1
+CRUK0076-R2	CRUK0076	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	14.0333333333
+CRUK0076-R3	CRUK0076	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	16.2666666667
+CRUK0076-R4	CRUK0076	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	14.1
+CRUK0077-R2	CRUK0077	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	10.9
+CRUK0077-R3	CRUK0077	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	10.7333333333
+CRUK0077-R4	CRUK0077	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	9.93333333333
+CRUK0078-R3	CRUK0078	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	5.26666666667
+CRUK0078-R4	CRUK0078	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	5.6
+CRUK0079-R2	CRUK0079	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	7.66666666667
+CRUK0079-R3	CRUK0079	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.0
+CRUK0079-R4	CRUK0079	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	7.56666666667
+CRUK0080-R3	CRUK0080	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.06666666667
+CRUK0080-R4	CRUK0080	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.13333333333
+CRUK0080-R5	CRUK0080	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.13333333333
+CRUK0080-R6	CRUK0080	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.03333333333
+CRUK0081-R5	CRUK0081	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	10.9
+CRUK0081-R6	CRUK0081	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	10.7666666667
+CRUK0082-R2	CRUK0082	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	10.2666666667
+CRUK0082-R3	CRUK0082	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	9.5
+CRUK0082-R4	CRUK0082	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	9.83333333333
+CRUK0082-R5	CRUK0082	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	9.3
+CRUK0083-R2	CRUK0083	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	15.2666666667
+CRUK0083-R3	CRUK0083	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	15.3333333333
+CRUK0083-R4	CRUK0083	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	15.3666666667
+CRUK0084-R2	CRUK0084	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	5.53333333333
+CRUK0084-R3	CRUK0084	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	5.76666666667
+CRUK0084-R4	CRUK0084	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	5.36666666667
+CRUK0085-R2	CRUK0085	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	20.8333333333
+CRUK0085-R3	CRUK0085	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	20.7666666667
+CRUK0085-R4	CRUK0085	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	20.4666666667
+CRUK0086-R2	CRUK0086	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.53333333333
+CRUK0086-R4	CRUK0086	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.53333333333
+CRUK0087-R2	CRUK0087	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.7
+CRUK0087-R3	CRUK0087	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.33333333333
+CRUK0088-R2	CRUK0088	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.0
+CRUK0089-R2	CRUK0089	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	15.4666666667
+CRUK0090-R2	CRUK0090	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	19.1333333333
+CRUK0091-R2	CRUK0091	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	14.0666666667
+CRUK0092-R2	CRUK0092	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.13333333333
+CRUK0093-R2	CRUK0093	Tumor	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	26.7
+CRUK0094-R2	CRUK0094	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.13333333333
+CRUK0094-R3	CRUK0094	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.03333333333
+CRUK0094-R4	CRUK0094	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.23333333333
+CRUK0095-R2	CRUK0095	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	4.3
+CRUK0095-R3	CRUK0095	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	4.33333333333
+CRUK0096-R2	CRUK0096	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	8.36666666667
+CRUK0096-R3	CRUK0096	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	8.63333333333
+CRUK0096-R4	CRUK0096	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	8.56666666667
+CRUK0096-R5	CRUK0096	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	8.46666666667
+CRUK0096-R6	CRUK0096	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	8.56666666667
+CRUK0096-R7	CRUK0096	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	8.6
+CRUK0097-R2	CRUK0097	Tumor	Primary	Pre-treatment						LCLC	Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	7.9
+CRUK0098-R2	CRUK0098	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	13.1333333333
+CRUK0098-R3	CRUK0098	Tumor	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	14.0333333333
+CRUK0099-LN1	CRUK0099	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	6.93333333333
+CRUK0099-R2	CRUK0099	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	6.66666666667
+CRUK0099-R3	CRUK0099	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	6.9
+CRUK0099-R4	CRUK0099	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	6.73333333333
+CRUK0099-R5	CRUK0099	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	6.73333333333
+CRUK0099-R6	CRUK0099	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	7.06666666667
+CRUK0099-R7	CRUK0099	Tumor	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	6.8
+CRUK0100-R2	CRUK0100	Tumor	Primary	Pre-treatment						LUNE	Non-Small Cell Lung Cancer	Large Cell Neuroendocrine Carcinoma	14.0333333333
+CRUK0100-R3	CRUK0100	Tumor	Primary	Pre-treatment						LUNE	Non-Small Cell Lung Cancer	Large Cell Neuroendocrine Carcinoma	13.9666666667
+CRUK0038-Pre-ctDNA	CRUK0038	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.5
+CRUK0030-Pre-ctDNA	CRUK0030	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.533333333333
+CRUK0084-Pre-ctDNA	CRUK0084	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.5
+CRUK0040-Pre-ctDNA	CRUK0040	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0059-Pre-ctDNA	CRUK0059	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.3
+CRUK0052-Pre-ctDNA	CRUK0052	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0006-Pre-ctDNA	CRUK0006	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0014-Pre-ctDNA	CRUK0014	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.5
+CRUK0009-Pre-ctDNA	CRUK0009	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.0
+CRUK0094-Pre-ctDNA	CRUK0094	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.5
+CRUK0070-Pre-ctDNA	CRUK0070	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.566666666667
+CRUK0023-Pre-ctDNA	CRUK0023	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.866666666667
+CRUK0095-Pre-ctDNA	CRUK0095	cfDNA	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	0.466666666667
+CRUK0083-Pre-ctDNA	CRUK0083	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.6
+CRUK0035-Pre-ctDNA	CRUK0035	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.833333333333
+CRUK0045-Pre-ctDNA	CRUK0045	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0098-Pre-ctDNA	CRUK0098	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0003-Pre-ctDNA	CRUK0003	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.533333333333
+CRUK0061-Pre-ctDNA	CRUK0061	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.533333333333
+CRUK0100-Pre-ctDNA	CRUK0100	cfDNA	Primary	Pre-treatment						LUNE	Non-Small Cell Lung Cancer	Large Cell Neuroendocrine Carcinoma	0.7
+CRUK0019-Pre-ctDNA	CRUK0019	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.433333333333
+CRUK0004-Pre-ctDNA	CRUK0004	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.866666666667
+CRUK0091-Pre-ctDNA	CRUK0091	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0063-Pre-ctDNA	CRUK0063	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	2.46666666667
+CRUK0021-Pre-ctDNA	CRUK0021	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.833333333333
+CRUK0028-Pre-ctDNA	CRUK0028	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0039-Pre-ctDNA	CRUK0039	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.7
+CRUK0037-Pre-ctDNA	CRUK0037	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0053-Pre-ctDNA	CRUK0053	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.666666666667
+CRUK0029-Pre-ctDNA	CRUK0029	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0018-Pre-ctDNA	CRUK0018	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0013-Pre-ctDNA	CRUK0013	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.9
+CRUK0048-Pre-ctDNA	CRUK0048	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.5
+CRUK0067-Pre-ctDNA	CRUK0067	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.566666666667
+CRUK0066-Pre-ctDNA	CRUK0066	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.533333333333
+CRUK0072-Pre-ctDNA	CRUK0072	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.533333333333
+CRUK0043-Pre-ctDNA	CRUK0043	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0042-Pre-ctDNA	CRUK0042	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.5
+CRUK0025-Pre-ctDNA	CRUK0025	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.733333333333
+CRUK0093-Pre-ctDNA	CRUK0093	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.566666666667
+CRUK0056-Pre-ctDNA	CRUK0056	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.7
+CRUK0076-Pre-ctDNA	CRUK0076	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0036-Pre-ctDNA	CRUK0036	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.866666666667
+CRUK0086-Pre-ctDNA	CRUK0086	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0046-Pre-ctDNA	CRUK0046	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0079-Pre-ctDNA	CRUK0079	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.6
+CRUK0080-Pre-ctDNA	CRUK0080	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.6
+CRUK0085-Pre-ctDNA	CRUK0085	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0058-Pre-ctDNA	CRUK0058	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0017-Pre-ctDNA	CRUK0017	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.633333333333
+CRUK0055-Pre-ctDNA	CRUK0055	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0033-Pre-ctDNA	CRUK0033	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.366666666667
+CRUK0041-Pre-ctDNA	CRUK0041	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.833333333333
+CRUK0075-Pre-ctDNA	CRUK0075	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0016-Pre-ctDNA	CRUK0016	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	1.0
+CRUK0069-Pre-ctDNA	CRUK0069	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.566666666667
+CRUK0010-Pre-ctDNA	CRUK0010	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0062-Pre-ctDNA	CRUK0062	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.7
+CRUK0034-Pre-ctDNA	CRUK0034	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0089-Pre-ctDNA	CRUK0089	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.666666666667
+CRUK0047-Pre-ctDNA	CRUK0047	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0022-Pre-ctDNA	CRUK0022	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.533333333333
+CRUK0068-Pre-ctDNA	CRUK0068	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0074-Pre-ctDNA	CRUK0074	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0001-Pre-ctDNA	CRUK0001	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.633333333333
+CRUK0002-Pre-ctDNA	CRUK0002	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0065-Pre-ctDNA	CRUK0065	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0020-Pre-ctDNA	CRUK0020	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.666666666667
+CRUK0057-Pre-ctDNA	CRUK0057	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.966666666667
+CRUK0015-Pre-ctDNA	CRUK0015	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0005-Pre-ctDNA	CRUK0005	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0007-Pre-ctDNA	CRUK0007	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0087-Pre-ctDNA	CRUK0087	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0049-Pre-ctDNA	CRUK0049	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0024-Pre-ctDNA	CRUK0024	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0051-Pre-ctDNA	CRUK0051	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0044-Pre-ctDNA	CRUK0044	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.966666666667
+CRUK0082-Pre-ctDNA	CRUK0082	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.666666666667
+CRUK0064-Pre-ctDNA	CRUK0064	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.5
+CRUK0031-Pre-ctDNA	CRUK0031	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0099-Pre-ctDNA	CRUK0099	cfDNA	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	0.666666666667
+CRUK0050-Pre-ctDNA	CRUK0050	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0027-Pre-ctDNA	CRUK0027	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.433333333333
+CRUK0008-Pre-ctDNA	CRUK0008	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0078-Pre-ctDNA	CRUK0078	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.566666666667
+CRUK0088-Pre-ctDNA	CRUK0088	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.566666666667
+CRUK0090-Pre-ctDNA	CRUK0090	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0096-Pre-ctDNA	CRUK0096	cfDNA	Primary	Pre-treatment						LUAS	Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	0.6
+CRUK0081-Pre-ctDNA	CRUK0081	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.666666666667
+CRUK0011-Pre-ctDNA	CRUK0011	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.633333333333
+CRUK0077-Pre-ctDNA	CRUK0077	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.6
+CRUK0071-Pre-ctDNA	CRUK0071	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0097-Pre-ctDNA	CRUK0097	cfDNA	Primary	Pre-treatment						LCLC	Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	0.6
+CRUK0073-Pre-ctDNA	CRUK0073	cfDNA	Primary	Pre-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.666666666667
+CRUK0012-Pre-ctDNA	CRUK0012	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.566666666667
+CRUK0026-Pre-ctDNA	CRUK0026	cfDNA	Primary	Pre-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.6
+CRUK0004-Post-ctDNA	CRUK0004	cfDNA	Recurrence	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.8
+CRUK0009-Post-ctDNA	CRUK0009	cfDNA	Primary	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.966666666667
+CRUK0013-Post-ctDNA	CRUK0013	cfDNA	Primary	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0016-Post-ctDNA	CRUK0016	cfDNA	Primary	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.9
+CRUK0021-Post-ctDNA	CRUK0021	cfDNA	Recurrence	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.833333333333
+CRUK0023-Post-ctDNA	CRUK0023	cfDNA	Recurrence	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.833333333333
+CRUK0029-Post-ctDNA	CRUK0029	cfDNA	Recurrence	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0035-Post-ctDNA	CRUK0035	cfDNA	Recurrence	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.8
+CRUK0036-Post-ctDNA	CRUK0036	cfDNA	Recurrence	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.833333333333
+CRUK0037-Post-ctDNA	CRUK0037	cfDNA	Recurrence	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0041-Post-ctDNA	CRUK0041	cfDNA	Recurrence	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.8
+CRUK0044-Post-ctDNA	CRUK0044	cfDNA	Recurrence	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0045-Post-ctDNA	CRUK0045	cfDNA	Recurrence	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.9
+CRUK0051-Post-ctDNA	CRUK0051	cfDNA	Primary	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.866666666667
+CRUK0052-Post-ctDNA	CRUK0052	cfDNA	Primary	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.933333333333
+CRUK0057-Post-ctDNA	CRUK0057	cfDNA	Primary	Post-treatment						NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0.966666666667
+CRUK0062-Post-ctDNA	CRUK0062	cfDNA	Recurrence	Post-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0063-Post-ctDNA	CRUK0063	cfDNA	Recurrence	Post-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	2.4
+CRUK0065-Post-ctDNA	CRUK0065	cfDNA	Recurrence	Post-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0071-Post-ctDNA	CRUK0071	cfDNA	Primary	Post-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.633333333333
+CRUK0073-Post-ctDNA	CRUK0073	cfDNA	Primary	Post-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.666666666667
+CRUK0080-Post-ctDNA	CRUK0080	cfDNA	Recurrence	Post-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.6
+CRUK0083-Post-ctDNA	CRUK0083	cfDNA	Primary	Post-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.533333333333
+CRUK0084-Post-ctDNA	CRUK0084	cfDNA	Primary	Post-treatment						LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.4

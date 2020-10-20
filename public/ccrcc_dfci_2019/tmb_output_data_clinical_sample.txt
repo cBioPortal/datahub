@@ -1,0 +1,40 @@
+#Sample Identifier	Patient Identifier	Purity	Ploidy	Genome Doublings	Oncotree Code	Cancer Type Detailed	Cancer Type	Somatic Status	All Mutations	Nonsynonymous Mutation Count	All Synonymous Mutations	FrameShift Indels	Mutations Clonal	Mutations Subclonal	Mutations Uneval	Nonsynonymous Clonal	NonSynonymous Subclonal	NonSynonymous Uneval	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Purity	Ploidy	Genome Doublings	Oncotree Code	Cancer Type Detailed	Cancer Type	Somatic Status	All Mutations	Nonsynonymous Mutation Count	All Synonymous Mutations	FrameShift Indels	Mutations Clonal	Mutations Subclonal	Mutations Uneval	Nonsynonymous Clonal	NonSynonymous Subclonal	NonSynonymous Uneval	TMB (nonsynonymous)
+#STRING	STRING	NUMBER	NUMBER	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	NUMBER	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	PURITY	PLOIDY	GENOME_DOUBLINGS	ONCOTREE_CODE	CANCER_TYPE_DETAILED	CANCER_TYPE	SOMATIC_STATUS	ALL_MUTS	NONSYNONYMOUS_MUTATION_COUNT	ALL_SYNS	FRAMESHIFT_INDELS	MUTS_CLONAL	MUTS_SUBCLONAL	MUTS_UNEVAL	NONSYNS_CLONAL	NONSYNS_SUBCLONAL	NONSYNS_UNEVAL	TMB_NONSYNONYMOUS
+RCC_1-Tumor-SM-A46EX	RCC_1	NA	NA	NA	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	84	61	23	4	66	11	7	50	9	2	1.96666666667
+RCC_10-Tumor-SM-A46EN	RCC_10	0.2	3.6	1	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	135	85	50	7	84	26	25	65	17	3	2.83333333333
+RCC_102-Tumor-SM-A46FM	RCC_102	0.76	2	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	166	115	51	8	92	44	30	73	38	4	3.63333333333
+RCC_105-Tumor-SM-A46FA	RCC_105	0.48	1.97	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	152	105	47	5	118	18	16	87	15	3	3.46666666667
+RCC_106-Tumor-SM-A46FT	RCC_106	0.48	2.06	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	104	76	28	5	70	26	8	50	21	5	2.3
+RCC_11-Tumor-SM-A46F1	RCC_11	0.35	1.9	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	100	63	37	4	64	25	11	44	18	1	1.93333333333
+RCC_114-Tumor-SM-A46FO	RCC_114	0.38	3.56	1	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	83	59	24	2	65	10	8	48	8	3	1.9
+RCC_115-Tumor-SM-A46FY	RCC_115	0.29	1.97	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	90	64	26	4	52	26	12	39	22	3	2.03333333333
+RCC_117-Tumor-SM-A46FP	RCC_117	0.63	1.64	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	86	65	21	4	71	14	1	53	11	1	2.03333333333
+RCC_119-Tumor-SM-A46FX	RCC_119	0.33	1.87	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	97	62	35	4	81	2	14	60	2	0	2.0
+RCC_14-Tumor-SM-A46F5	RCC_14	0.49	3.08	1	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	128	86	42	5	107	11	10	75	9	2	2.83333333333
+RCC_15-Tumor-SM-A46EE	RCC_15	0.25	3.67	1	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	110	75	35	5	77	18	15	58	10	7	2.43333333333
+RCC_18-Tumor-SM-A46EL	RCC_18	0.69	1.97	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	81	61	20	2	51	29	1	40	21	0	1.96666666667
+RCC_20-Tumor-SM-A46EG	RCC_20	0.21	2.3	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	80	50	30	4	51	18	11	33	13	4	1.63333333333
+RCC_21-Tumor-SM-A46FB	RCC_21	0.51	1.78	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	128	82	46	6	92	21	15	68	13	1	2.76666666667
+RCC_25-Tumor-SM-A46EF	RCC_25	0.51	3.39	1	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	157	113	44	2	107	33	17	79	27	7	3.7
+RCC_27-Tumor-SM-A46ES	RCC_27	0.32	1.99	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	128	98	30	8	78	41	9	63	32	3	3.13333333333
+RCC_32-Tumor-SM-A46FH	RCC_32	0.39	2.21	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	125	89	36	9	103	12	10	77	10	2	2.8
+RCC_39-Tumor-SM-A46EP	RCC_39	0.13	1.92	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	126	86	40	0	117	2	7	81	2	3	2.76666666667
+RCC_41-Tumor-SM-A46FE	RCC_41	0.19	4.28	1	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	102	73	29	5	87	5	10	65	4	4	2.43333333333
+RCC_50-Tumor-SM-A46EK	RCC_50	0.31	1.81	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	171	126	45	10	122	31	18	92	20	14	4.13333333333
+RCC_52-Tumor-SM-A46EU	RCC_52	0.54	1.88	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	125	94	31	8	94	15	16	77	13	4	2.93333333333
+RCC_56-Tumor-SM-A46EJ	RCC_56	0.56	1.89	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	125	102	23	8	55	62	8	43	54	5	3.23333333333
+RCC_58-Tumor-SM-A46FJ	RCC_58	0.69	1.81	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	82	60	22	2	39	33	10	32	25	3	2.0
+RCC_62-Tumor-SM-A46FI	RCC_62	0.49	1.83	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	110	82	28	1	68	23	19	57	17	8	2.7
+RCC_68-Tumor-SM-A46FC	RCC_68	0.46	2.16	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	132	102	30	4	43	83	6	32	68	2	3.36666666667
+RCC_73-Tumor-SM-A46FG	RCC_73	NA	NA	NA	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	70	45	25	0	36	29	5	22	23	0	1.46666666667
+RCC_79-Tumor-SM-A46ER	RCC_79	0.6	1.83	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	78	54	24	6	47	22	9	35	16	3	1.76666666667
+RCC_84-Tumor-SM-A46FL	RCC_84	NA	NA	NA	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	117	87	30	9	71	28	18	59	22	6	2.83333333333
+RCC_85-Tumor-SM-A46EQ	RCC_85	0.45	1.93	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	83	52	31	3	72	0	11	50	0	2	1.76666666667
+RCC_90-Tumor-SM-A46F3	RCC_90	0.17	4.08	1	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	140	102	38	5	96	39	5	70	30	2	3.33333333333
+RCC_93-Tumor-SM-A46F8	RCC_93	0.3	2.67	1	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	125	91	34	4	101	17	7	78	12	1	3.0
+RCC_96-Tumor-SM-A46FW	RCC_96	0.09	2.57	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	255	157	98	10	83	107	65	61	83	13	5.36666666667
+RCC_97-Tumor-SM-A46EW	RCC_97	0.67	1.8	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	116	82	34	5	77	26	13	62	20	0	2.6
+RCC_99-Tumor-SM-A46F7	RCC_99	0.38	2.2	0	CCRCC	Renal Clear Cell Carcinoma	Renal Cell Carcinoma	Matched	155	102	53	6	64	57	34	49	48	5	3.4

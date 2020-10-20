@@ -1,0 +1,79 @@
+#Patient Identifier	Sample Identifier	Tumor Disease Anatomic Site	Sample Type	Tumor HPV ISH	Tumor HPV PCR	Tumor HPV PATHSEQ	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Text term that describes the anatomic site of the tumor or disease.	The type of sample (i.e., normal, primary, met, recurrence).	Tumor human papilloma virus status by in situ hybridization: Positive/Negative/Not Evaluated	Tumor human papilloma virus status by HPV-16 PCR: Positive/Negative/Not Evaluated	Tumor human papilloma virus status by PathSeq: Positive/Negative	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	9	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR_TISSUE_SITE	SAMPLE_TYPE	HPV_ISH	HPV_PCR	HPV_PATHSEQ	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+HN_00076	HN_00076	Oral Cavity	Primary		Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.76666666667
+HN_00122	HN_00122	Larynx	Recurrent	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.73333333333
+HN_00190	HN_00190	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	5.8
+HN_00313	HN_00313	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.03333333333
+HN_00338	HN_00338	Oropharynx	Primary	Positive	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.966666666667
+HN_00361	HN_00361	Sinonasal	Primary	Positive	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.966666666667
+HN_00378	HN_00378	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.1
+HN_00443	HN_00443	Oral Cavity	Primary	Negative	Negative	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.36666666667
+HN_00466	HN_00466	Oropharynx	Primary	Positive	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.933333333333
+HN_0-046	HN_0-046	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.5
+HN_0-064	HN_0-064	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.633333333333
+HN_00761	HN_00761	Larynx	Recurrent	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.06666666667
+HN_01000	HN_01000	Larynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.63333333333
+HN_62237	HN_62237	Hypopharynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	4.26666666667
+HN_62298	HN_62298	Oral Cavity	Primary		Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.73333333333
+HN_62318	HN_62318	Oropharynx	Primary	Positive	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.43333333333
+HN_62332	HN_62332	Oropharynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.4
+HN_62338	HN_62338	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.03333333333
+HN_62374	HN_62374	Oropharynx	Primary	Positive	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.466666666667
+HN_62376	HN_62376	Hypopharynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.03333333333
+HN_62415	HN_62415	Larynx	Primary		Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	5.53333333333
+HN_62417	HN_62417	Oral Cavity	Primary		Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.36666666667
+HN_62421	HN_62421	Hypopharynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	15.0333333333
+HN_62426	HN_62426	Oropharynx	Primary	Positive	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	6.93333333333
+HN_62432	HN_62432	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.1
+HN_62469	HN_62469	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	3.26666666667
+HN_62481	HN_62481	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	3.43333333333
+HN_62493	HN_62493	Oral Cavity	Primary	Negative	Negative	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.2
+HN_62505	HN_62505	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	5.53333333333
+HN_62506	HN_62506	Larynx	Primary		Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	10.6333333333
+HN_62515	HN_62515	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.26666666667
+HN_62532	HN_62532	Larynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.46666666667
+HN_62539	HN_62539	Larynx	Primary	Negative		Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.833333333333
+HN_62601	HN_62601	Oral Cavity	Primary		Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.23333333333
+HN_62602	HN_62602	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.4
+HN_62624	HN_62624	Larynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	3.96666666667
+HN_62646	HN_62646	Oral Cavity	Primary		Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	4.26666666667
+HN_62652	HN_62652	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.8
+HN_62671	HN_62671	Oral Cavity	Primary	Negative	Negative	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.23333333333
+HN_62672	HN_62672	Hypopharynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.63333333333
+HN_62686	HN_62686	Larynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	7.16666666667
+HN_62699	HN_62699	Hypopharynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	4.66666666667
+HN_62739	HN_62739	Larynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	10.6333333333
+HN_62740	HN_62740	Hypopharynx	Primary	Positive	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.23333333333
+HN_62741	HN_62741	Larynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	6.5
+HN_62755	HN_62755	Larynx	Primary		Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.86666666667
+HN_62756	HN_62756	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	3.06666666667
+HN_62807	HN_62807	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.23333333333
+HN_62810	HN_62810	Oropharynx	Primary	Positive	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.2
+HN_62814	HN_62814	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	8.16666666667
+HN_62825	HN_62825	Oral Cavity	Primary	Positive	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.96666666667
+HN_62832	HN_62832	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.23333333333
+HN_62854	HN_62854	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	17.4
+HN_62857_2	HN_62857_2	Oral Cavity	Recurrent	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.56666666667
+HN_62860	HN_62860	Hypopharynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.5
+HN_62861	HN_62861	Oropharynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.63333333333
+HN_62863	HN_62863	Larynx	Primary		Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.5
+HN_62897	HN_62897	Larynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	8.3
+HN_62921	HN_62921	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.23333333333
+HN_62926	HN_62926	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.56666666667
+HN_62984	HN_62984	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.733333333333
+HN_62995	HN_62995	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.33333333333
+HN_62996	HN_62996	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.8
+HN_63007	HN_63007	Oropharynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.766666666667
+HN_63021	HN_63021	Larynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	6.7
+HN_63027	HN_63027	Oropharynx	Primary	Negative	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.433333333333
+HN_63039	HN_63039	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.1
+HN_63048	HN_63048	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	1.46666666667
+HN_63058	HN_63058	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.9
+HN_63080	HN_63080	Oral Cavity	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	7.56666666667
+HN_63081	HN_63081	Oropharynx	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.63333333333
+HN_63095	HN_63095	Hypopharynx	Recurrent	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.733333333333
+HN_63114	HN_63114	Sinonasal	Primary	Negative	Negative	Negative	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	0.6
+HN_63115	HN_63115	Oral Cavity	Primary	Positive	Positive	Positive	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	2.46666666667

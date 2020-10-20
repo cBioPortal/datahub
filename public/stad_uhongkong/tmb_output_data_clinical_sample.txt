@@ -1,0 +1,27 @@
+#Patient Identifier	Sample Identifier	tumor content	MSI Status	Tumor Differentiation 	T Stage	Type of Surgery	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	tumor content	MSI status.	Tumor Differentiation 	T Stage	Type of Surgery.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR_CONTENT	MSI_STATUS	TUMOR_DIFFERENTIATION	T_STAGE	TYPE_OF_SURGERY	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+pfg001T	pfg001T	70	MSS	poor	T4	palliative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.93333333333
+pfg002T	pfg002T	90	MSS	poor	T4	palliative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.7
+pfg003T	pfg003T	70	MSS	poor	T3	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.7
+pfg005T	pfg005T	75	MSS	poor	T2a	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.133333333333
+pfg006T	pfg006T	95	MSS	moderate	T3	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.8
+pfg007T	pfg007T	95	MSS	moderate	T4	palliative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.63333333333
+pfg008T	pfg008T	80	MSI	moderate	T2b	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	35.0666666667
+pfg009T	pfg009T	90	MSS	poor	T2b	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.3
+pfg010T	pfg010T	95	MSS	well	T2b	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.53333333333
+pfg011T	pfg011T	90	MSS	poor	T2b	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.9
+pfg014T	pfg014T	85	MSS	poor	T3	palliative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.93333333333
+pfg015T	pfg015T	80	MSS	poor	T3	palliative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.43333333333
+pfg016T	pfg016T	90	MSI	moderate	T4	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	30.9333333333
+pfg017T	pfg017T	80	MSI	moderate	T2b	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	8.6
+pfg018T	pfg018T	80	MSS	moderate	T3	palliative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.76666666667
+pfg019T	pfg019T	90	MSI	moderate	T2b	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	19.0
+pfg020T	pfg020T	90	MSS	poor	T4	palliative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.33333333333
+pfg021T	pfg021T	80	MSS	moderate	T3	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.06666666667
+pfg022T	pfg022T	90	MSS	poor	T3	palliative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.53333333333
+pfg024T	pfg024T	85	MSS	moderate	T2a	palliative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.73333333333
+pfg025T	pfg025T	95	MSS	poor	T3	palliative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.53333333333
+pfg029T	pfg029T	80	MSS	moderate	T2b	curative	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	7.0

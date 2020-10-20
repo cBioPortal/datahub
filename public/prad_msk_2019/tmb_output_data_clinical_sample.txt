@@ -1,0 +1,23 @@
+#Sample Identifier	Patient Identifier	Sample Type	Gene Panel	Oncotree Code	Cancer Type	Cancer Type Detailed	Sample Class	Specimen Preservation Type	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	The type of sample (i.e., normal, primary, met, recurrence).	Gene Panel.	Oncotree Code	Cancer Type	Cancer Type Detailed	The sample classification (i.e., tumor, cellline, xenograph).	The method used for preparing the tissue for examination and study.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	SAMPLE_TYPE	GENE_PANEL	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SAMPLE_CLASS	SPECIMEN_PRESERVATION_TYPE	TMB_NONSYNONYMOUS
+s_C_03LNU8_P001_d	p_C_03LNU8	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	0.882815120857
+s_C_36924L_P001_d	p_C_36924L	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	0.0
+s_C_CAUWT7_P001_d	p_C_CAUWT7	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	0.0
+s_C_DU6ECC_P001_d	p_C_DU6ECC	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	0.0
+s_C_DU6ECC_P002_d	p_C_DU6ECC	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	0.0
+s_C_E0KJFJ_P001_d	p_C_E0KJFJ	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	2.64844536257
+s_C_E0KJFJ_P002_d	p_C_E0KJFJ	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	2.64844536257
+s_C_EDTVRA_P001_d	p_C_EDTVRA	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	0.0
+s_C_M8X42T_P001_d	p_C_M8X42T	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	9.71096632943
+s_C_M8X42T_P002_d	p_C_M8X42T	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	9.71096632943
+s_C_P8K3TR_P001_d	p_C_P8K3TR	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	3.53126048343
+s_C_P8K3TR_P002_d	p_C_P8K3TR	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	3.53126048343
+s_C_P8K3TR_P003_d	p_C_P8K3TR	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	3.53126048343
+s_C_VC6P9A_P001_d	p_C_VC6P9A	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	1.76563024171
+s_C_VC6P9A_P002_d	p_C_VC6P9A	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	1.76563024171
+s_C_WXR0TT_P001_d	p_C_WXR0TT	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	0.882815120857
+s_C_WXR0TT_P002_d	p_C_WXR0TT	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	0.882815120857
+s_C_WXR0TT_P003_d	p_C_WXR0TT	Primary	IMPACT468	PROSTATE	Prostate Cancer	Prostate Adenocarcinoma	Biopsy	FFPE	0.882815120857

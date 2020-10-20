@@ -1,0 +1,34 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	MSI Status	Source of Sample Site	Sample Type	Sample Class	Nonsynonymous Mutation Count	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	MSI status.	Source of Sample Site	The type of sample (i.e., normal, primary, met, recurrence).	The sample classification (i.e., tumor, cellline, xenograph).	Nonsynonymous Mutation Count	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING
+#1	1	1	1	1	2	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	MSI_STATUS	SAMPLE_SITE_SOURCE	SAMPLE_TYPE	SAMPLE_CLASS	NONSYNONYMOUS_MUTATION_COUNT	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+coad_caseccc_11843	coad_caseccc_11843	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	162	Matched	5.3
+coad_caseccc_15937	coad_caseccc_15937	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Liver	Metastasis	Tumor	149	Matched	5.06666666667
+coad_caseccc_7525	coad_caseccc_7525	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Liver	Metastasis	Tumor	139	Matched	4.63333333333
+coad_caseccc_9041	coad_caseccc_9041	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	135	Matched	4.5
+coad_caseccc_8685a	coad_caseccc_8685a	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	129	Matched	4.3
+coad_caseccc_11835	coad_caseccc_11835	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	124	Matched	4.16666666667
+coad_caseccc_11893	coad_caseccc_11893	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	120	Matched	4.03333333333
+coad_caseccc_15807	coad_caseccc_15807	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	115	Matched	3.86666666667
+coad_caseccc_9347	coad_caseccc_9347	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	104	Matched	3.43333333333
+coad_caseccc_9339	coad_caseccc_9339	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	99	Matched	3.36666666667
+coad_caseccc_15861	coad_caseccc_15861	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Liver	Metastasis	Tumor	90	Matched	3.16666666667
+coad_caseccc_9587	coad_caseccc_9587	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	89	Matched	3.26666666667
+coad_caseccc_5804	coad_caseccc_5804	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	88	Matched	3.03333333333
+coad_caseccc_15960	coad_caseccc_15960	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	87	Matched	2.96666666667
+coad_caseccc_8705a	coad_caseccc_8705a	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	86	Matched	2.83333333333
+coad_caseccc_13260	coad_caseccc_13260	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Liver	Metastasis	Tumor	84	Matched	2.8
+coad_caseccc_15927	coad_caseccc_15927	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Liver	Metastasis	Tumor	84	Matched	2.93333333333
+coad_caseccc_15972	coad_caseccc_15972	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	82	Matched	2.76666666667
+coad_caseccc_15919	coad_caseccc_15919	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Liver	Metastasis	Tumor	73	Matched	2.53333333333
+coad_caseccc_2089	coad_caseccc_2089	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	72	Matched	2.46666666667
+coad_caseccc_9029	coad_caseccc_9029	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	72	Matched	2.33333333333
+coad_caseccc_11604	coad_caseccc_11604	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	68	Matched	2.26666666667
+coad_caseccc_11677	coad_caseccc_11677	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	68	Matched	2.46666666667
+coad_caseccc_11027	coad_caseccc_11027	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	64	Matched	2.1
+coad_caseccc_15931	coad_caseccc_15931	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Liver	Metastasis	Tumor	63	Matched	2.06666666667
+coad_caseccc_15873	coad_caseccc_15873	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	59	Matched	2.03333333333
+coad_caseccc_5363	coad_caseccc_5363	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	51	Matched	1.7
+coad_caseccc_15245	coad_caseccc_15245	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Liver	Metastasis	Cell line	38	Matched	1.23333333333
+coad_caseccc_15968	coad_caseccc_15968	COAD	Colorectal Cancer	Colon Adenocarcinoma	MSS	Colon	Primary	Tumor	5	Matched	0.166666666667

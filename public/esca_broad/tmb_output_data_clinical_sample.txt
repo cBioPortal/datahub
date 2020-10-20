@@ -1,0 +1,156 @@
+#Patient Identifier	Sample Identifier	Primary Other Site of Disease Name	Neoplasm Histologic Grade	Non Silent per Mb	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	A text description of an 'other' originating or primary anatomic site of the disease/condition under investigation or review.	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Non Silent per Mb	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	PRIMARY_SITE_OTHER	GRADE	NONSILENT_PER_MB	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+ESO-0001	ESO-0001	Esophagus	Well	7.25	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	7.56666666667
+ESO-0009	ESO-0009	Esophagus	Moderately	4.07	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.4
+ESO-0013	ESO-0013	Esophagus	Well	9.76	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	10.0333333333
+ESO-0015	ESO-0015	Esophagus	Well-Moderately	4.82	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.9
+ESO-0019	ESO-0019	Esophagus	Well-Moderately	4.58	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.53333333333
+ESO-0023	ESO-0023	Esophagus	Moderately-Poor	4.23	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.5
+ESO-0025	ESO-0025	Esophagus	Poorly	3.81	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.16666666667
+ESO-0029	ESO-0029	Esophagus	Moderately-Poor	4.47	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.7
+ESO-003	ESO-003	Esophagus	Well-Moderately	4.47	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.46666666667
+ESO-005	ESO-005	Esophagus	Moderately-Poor	2.51	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.66666666667
+ESO-0053	ESO-0053	Esophagus	Moderately-Poor	4.11	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.0
+ESO-0059	ESO-0059	Cardia/GEJ	Moderately	2.89	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.03333333333
+ESO-0061	ESO-0061	Esophagus	Well	3.47	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.56666666667
+ESO-0067	ESO-0067	Cardia/GEJ	Moderately-Poor	4.49	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.5
+ESO-007	ESO-007	Esophagus	Moderately	4.68	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.86666666667
+ESO-0071	ESO-0071	Esophagus	Well	3.29	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.3
+ESO-0079	ESO-0079	Esophagus	Poorly	3.7	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.76666666667
+ESO-0103	ESO-0103	Esophagus	Moderately	2.97	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.13333333333
+ESO-0115	ESO-0115	Esophagus	Moderately-Poor	4.76	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.06666666667
+ESO-0123	ESO-0123	Esophagus	Moderately	2.02	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.06666666667
+ESO-0125	ESO-0125	Esophagus	Poorly	2.99	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.16666666667
+ESO-0129	ESO-0129	Cardia/GEJ	Moderately-Poor	6.63	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	7.06666666667
+ESO-0133	ESO-0133	Cardia/GEJ	Moderately	4.57	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.86666666667
+ESO-0149	ESO-0149	Esophagus	Moderately	3.44	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.9
+ESO-0167	ESO-0167	Esophagus	Poorly	1.99	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.3
+ESO-017	ESO-017	Esophagus	Moderately	2.66	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.63333333333
+ESO-0176	ESO-0176	Cardia/GEJ	Moderately	1.83	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	1.9
+ESO-021	ESO-021	Esophagus	Moderately	3.16	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.36666666667
+ESO-0255	ESO-0255	Esophagus	Poorly	2.37	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.53333333333
+ESO-027	ESO-027	Esophagus	Poorly	2.59	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.63333333333
+ESO-0280	ESO-0280	Cardia/GEJ	Well	5.68	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	6.03333333333
+ESO-0292	ESO-0292		Poorly	23.6	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	NA
+ESO-037	ESO-037	Esophagus	Moderately-Poor	2.99	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.1
+ESO-043	ESO-043	Cardia/GEJ	Poorly	3.48	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.66666666667
+ESO-045	ESO-045	Cardia/GEJ	Poorly	3.47	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.56666666667
+ESO-0459	ESO-0459	Cardia/GEJ	Well	5.5	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.8
+ESO-049	ESO-049	Esophagus	Poorly	5.94	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	6.26666666667
+ESO-051	ESO-051	Esophagus	Moderately	2.55	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.63333333333
+ESO-0590	ESO-0590	Esophagus	Poorly	3.86	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.9
+ESO-075	ESO-075	Esophagus	Moderately	4.1	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.43333333333
+ESO-077	ESO-077	Esophagus	Poorly	4.88	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.16666666667
+ESO-081	ESO-081	Esophagus	Poorly	14.6	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	NA
+ESO-083	ESO-083	Cardia/GEJ	Well	3.15	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.26666666667
+ESO-085	ESO-085	Esophagus	Poorly	5.94	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	6.03333333333
+ESO-0950	ESO-0950	Cardia/GEJ	Moderately	4.68	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.1
+ESO-105	ESO-105	Esophagus	Moderately	9.12	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	9.06666666667
+ESO-1059	ESO-1059		Moderately	7.24	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	7.43333333333
+ESO-1060	ESO-1060		Moderately	4.19	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.63333333333
+ESO-107	ESO-107	Esophagus	Moderately-Poor	3.03	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.2
+ESO-1096	ESO-1096		Poorly	4.27	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.53333333333
+ESO-111	ESO-111	Esophagus	Poorly	3.17	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.43333333333
+ESO-1130	ESO-1130		Poorly	2.55	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.53333333333
+ESO-1133	ESO-1133		Poorly	4.74	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.0
+ESO-114	ESO-114	Esophagus	Moderately	10.8	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	11.1333333333
+ESO-1145	ESO-1145		Moderately	5.63	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	6.36666666667
+ESO-1154	ESO-1154		Moderately	2.03	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.1
+ESO-116	ESO-116	Esophagus	Well	3.2	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.36666666667
+ESO-1163	ESO-1163		Moderately	5.03	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.66666666667
+ESO-117	ESO-117		Moderately	3.21	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.3
+ESO-118	ESO-118	Esophagus	Moderately-Poor	4.64	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.8
+ESO-119	ESO-119	Esophagus	Poorly	2.04	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.16666666667
+ESO-120	ESO-120	Esophagus	Moderately	3.94	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.3
+ESO-122	ESO-122	Esophagus	Moderately-Poor	6.63	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	7.2
+ESO-130	ESO-130		Moderately	2.67	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.1
+ESO-131	ESO-131	Esophagus	Moderately-Poor	2.45	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.53333333333
+ESO-135	ESO-135	Esophagus	Poorly	2.3	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.46666666667
+ESO-137	ESO-137	Esophagus	Moderately-Poor	2.59	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.76666666667
+ESO-139	ESO-139	Esophagus	Moderately	6.01	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	6.13333333333
+ESO-141	ESO-141	Esophagus	Moderately-Poor	3.28	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.43333333333
+ESO-1427	ESO-1427	Cardia/GEJ	Moderately	4.25	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.33333333333
+ESO-143	ESO-143	Cardia/GEJ	Poorly	3.96	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.8
+ESO-147	ESO-147	Esophagus	Moderately-Poor	3.54	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.83333333333
+ESO-1481	ESO-1481		Moderately	3.54	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.73333333333
+ESO-1488	ESO-1488	Cardia/GEJ	Moderately	3.51	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.8
+ESO-151	ESO-151	Esophagus	Poorly	1.97	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.13333333333
+ESO-152	ESO-152		Poorly	5.44	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.53333333333
+ESO-153	ESO-153	Esophagus	Poorly	3.62	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.96666666667
+ESO-155	ESO-155	Cardia/GEJ	Moderately	2.51	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.83333333333
+ESO-157	ESO-157	Cardia/GEJ	Moderately-Poor	4.06	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.4
+ESO-159	ESO-159	Cardia/GEJ	Moderately	0.97	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	1.16666666667
+ESO-1594	ESO-1594	Cardia/GEJ	Moderately	3.06	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.23333333333
+ESO-160	ESO-160		Poorly	4.39	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.43333333333
+ESO-1608	ESO-1608	Cardia/GEJ	Moderately	4.25	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.43333333333
+ESO-161	ESO-161	Cardia/GEJ	Well-Moderately	4.32	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.7
+ESO-164	ESO-164		Poorly	3.35	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.5
+ESO-165	ESO-165	Esophagus	Moderately	2.77	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.96666666667
+ESO-167	ESO-167	Cardia/GEJ	Poorly	1.67	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	1.73333333333
+ESO-1670	ESO-1670	Cardia/GEJ	Poorly	4.78	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.3
+ESO-169	ESO-169	Cardia/GEJ	Moderately-Poor	4.22	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.76666666667
+ESO-171	ESO-171	Cardia/GEJ	Poorly	3.51	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.93333333333
+ESO-173	ESO-173	Cardia/GEJ	Moderately	4.43	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.6
+ESO-1733	ESO-1733	Cardia/GEJ	Moderately	3.72	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.8
+ESO-1748	ESO-1748	Cardia/GEJ	Moderately	2.39	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.5
+ESO-175	ESO-175	Cardia/GEJ	Poorly	10	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	10.5
+ESO-177	ESO-177	Cardia/GEJ	Well-Moderately	2.3	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.53333333333
+ESO-179	ESO-179	Cardia/GEJ	Moderately-Poor	2.94	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.0
+ESO-181	ESO-181	Esophagus	Poorly	1.84	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	NA
+ESO-185	ESO-185	Cardia/GEJ	Moderately-Poor	2.58	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.93333333333
+ESO-187	ESO-187	Cardia/GEJ	Poorly	4.35	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.63333333333
+ESO-1872	ESO-1872		Moderately	3.23	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.63333333333
+ESO-189	ESO-189	Esophagus	Well	2.17	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.5
+ESO-191	ESO-191	Cardia/GEJ	Poorly	5.37	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.73333333333
+ESO-2143	ESO-2143	Cardia/GEJ	Poorly	5.95	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	6.33333333333
+ESO-224	ESO-224		Moderately	4.15	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.06666666667
+ESO-2472	ESO-2472	Cardia/GEJ	Poorly	2.1	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.2
+ESO-250	ESO-250		Poorly	6.05	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	6.6
+ESO-251	ESO-251		Poorly	2.49	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.8
+ESO-2536	ESO-2536	Cardia/GEJ	Moderately	3.87	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.03333333333
+ESO-327	ESO-327		Poorly	4.42	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.46666666667
+ESO-408	ESO-408		Poorly	2.26	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.33333333333
+ESO-409	ESO-409		Moderately	2.8	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.23333333333
+ESO-512	ESO-512		Poorly	3.07	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.46666666667
+ESO-536	ESO-536		Moderately	4.4	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.8
+ESO-539	ESO-539		Poorly	4.84	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.93333333333
+ESO-555	ESO-555		Poorly	2.75	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.86666666667
+ESO-580	ESO-580		Moderately	2.75	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.23333333333
+ESO-582	ESO-582		Poorly	2.98	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.1
+ESO-601	ESO-601		Moderately	3.5	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.06666666667
+ESO-610	ESO-610		Poorly	2.89	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.13333333333
+ESO-632	ESO-632		Moderately	5.62	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.63333333333
+ESO-640	ESO-640		Poorly	3.33	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.4
+ESO-669	ESO-669		Poorly	2.98	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.16666666667
+ESO-682	ESO-682		Moderately	3.79	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.36666666667
+ESO-683	ESO-683		Moderately	2.58	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.56666666667
+ESO-708	ESO-708		Moderately	4.03	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.13333333333
+ESO-717	ESO-717		Poorly	19.7	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	NA
+ESO-718	ESO-718		Moderately	2.64	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.33333333333
+ESO-720	ESO-720		Moderately	3.64	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.93333333333
+ESO-721	ESO-721		Moderately	8.35	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	9.6
+ESO-732	ESO-732		Moderately	5.03	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	5.06666666667
+ESO-752	ESO-752		Moderately	5.45	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	6.0
+ESO-774	ESO-774		Poorly		ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	NA
+ESO-805	ESO-805		Moderately	3.45	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.5
+ESO-837	ESO-837		Moderately	3.49	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.63333333333
+ESO-838	ESO-838		Moderately	3.93	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.6
+ESO-859	ESO-859		Poorly	50.9	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	56.1
+ESO-864	ESO-864		Moderately	1.54	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	1.76666666667
+ESO-866	ESO-866		Poorly	3.31	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.4
+ESO-874	ESO-874		Poorly	2.99	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.93333333333
+ESO-887	ESO-887		Well	9.02	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	9.96666666667
+ESO-913	ESO-913		Moderately	2.86	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.2
+ESO-916	ESO-916		Poorly	2.29	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.46666666667
+ESO-931	ESO-931		Well	1.34	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	1.33333333333
+ESO-963	ESO-963		Poorly	2.78	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.83333333333
+ESO-D76	ESO-D76	Cardia/GEJ	Well	2.31	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.5
+ESO-H01	ESO-H01	Cardia/GEJ	Poorly	3.99	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.2
+ESO-H63	ESO-H63	Cardia/GEJ	Moderately-Poor	2.34	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.43333333333
+ESO-K08	ESO-K08	Esophagus	Poorly	3.97	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	4.16666666667
+ESO-R61	ESO-R61	Cardia/GEJ	Poorly	1.63	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	1.66666666667
+ESO-S41	ESO-S41	Cardia/GEJ	Poorly	2.36	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.6
+ESO-184	ESO-184	NA	Na	NA	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	2.1

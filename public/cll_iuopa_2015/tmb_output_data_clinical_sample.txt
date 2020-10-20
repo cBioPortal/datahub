@@ -1,0 +1,511 @@
+#Patient Identifier	Sample Identifier	Cancer Type	Cancer Type Detailed	Oncotree_Code	IGHV Mutated	IGHV Identity (%)	IGHV Gene	Exome Capture	Platform	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Cancer Type	Cancer Type Detailed	Oncotree_Code	IGHV Mutated	IGHV Identity (%)	IGHV Gene	Exome Capture	Platform.	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	IGHV_MUTATED	IGHV_IDENTITY	IGHV_GENE	EXOME_CAPTURE	PLATFORM	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+cll_iuopa_2015_1	cll_iuopa_2015_1	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-3	SureSelect Human All Exon	WES,WGS	Matched	0.4
+cll_iuopa_2015_2	cll_iuopa_2015_2	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-39	0	WGS	Matched	0.0333333333333
+cll_iuopa_2015_3	cll_iuopa_2015_3	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.25	IGHV4-61	SureSelect Human All Exon	WES,WGS	Matched	0.366666666667
+cll_iuopa_2015_4	cll_iuopa_2015_4	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.05	IGHV5-10-1	SureSelect Human All Exon	WES,WGS	Matched	0.233333333333
+cll_iuopa_2015_5	cll_iuopa_2015_5	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.233333333333
+cll_iuopa_2015_6	cll_iuopa_2015_6	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.18	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.733333333333
+cll_iuopa_2015_7	cll_iuopa_2015_7	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.52	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.733333333333
+cll_iuopa_2015_8	cll_iuopa_2015_8	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_9	cll_iuopa_2015_9	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.26	IGHV1-24	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.3
+cll_iuopa_2015_10	cll_iuopa_2015_10	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.6	IGHV3-21	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.766666666667
+cll_iuopa_2015_11	cll_iuopa_2015_11	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_12	cll_iuopa_2015_12	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect Human All Exon	WES,WGS	Matched	0.666666666667
+cll_iuopa_2015_13	cll_iuopa_2015_13	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-39	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.6
+cll_iuopa_2015_15	cll_iuopa_2015_15	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.19	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.5
+cll_iuopa_2015_16	cll_iuopa_2015_16	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV2-70	SureSelect Human All Exon	WES,WGS	Matched	0.866666666667
+cll_iuopa_2015_17	cll_iuopa_2015_17	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_18	cll_iuopa_2015_18	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.97	IGHV1-3	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.166666666667
+cll_iuopa_2015_19	cll_iuopa_2015_19	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.52	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.866666666667
+cll_iuopa_2015_20	cll_iuopa_2015_20	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.6
+cll_iuopa_2015_22	cll_iuopa_2015_22	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_23	cll_iuopa_2015_23	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.333333333333
+cll_iuopa_2015_25	cll_iuopa_2015_25	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-31	0	WGS	Matched	0.1
+cll_iuopa_2015_26	cll_iuopa_2015_26	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	0	WGS	Matched	0.333333333333
+cll_iuopa_2015_27	cll_iuopa_2015_27	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.533333333333
+cll_iuopa_2015_29	cll_iuopa_2015_29	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.18	IGHV3-9	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.666666666667
+cll_iuopa_2015_30	cll_iuopa_2015_30	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.8
+cll_iuopa_2015_32	cll_iuopa_2015_32	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.66	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.566666666667
+cll_iuopa_2015_33	cll_iuopa_2015_33	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.2	IGHV3-53	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	1.03333333333
+cll_iuopa_2015_34	cll_iuopa_2015_34	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.69	IGHV3-48	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.3
+cll_iuopa_2015_38	cll_iuopa_2015_38	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-30-4	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.233333333333
+cll_iuopa_2015_39	cll_iuopa_2015_39	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.44	IGHV1-8	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.6
+cll_iuopa_2015_40	cll_iuopa_2015_40	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.33	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_41	cll_iuopa_2015_41	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.2
+cll_iuopa_2015_44	cll_iuopa_2015_44	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.48	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.666666666667
+cll_iuopa_2015_45	cll_iuopa_2015_45	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.58	IGHV2-70	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.2
+cll_iuopa_2015_47	cll_iuopa_2015_47	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.09	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_48	cll_iuopa_2015_48	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-18	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.466666666667
+cll_iuopa_2015_49	cll_iuopa_2015_49	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.65	 IGHV3-48	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_51	cll_iuopa_2015_51	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.69	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_52	cll_iuopa_2015_52	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-8	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_53	cll_iuopa_2015_53	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-53	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_54	cll_iuopa_2015_54	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.566666666667
+cll_iuopa_2015_55	cll_iuopa_2015_55	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	Undetermined	0		SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_56	cll_iuopa_2015_56	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-39	0	WGS	Matched	0.7
+cll_iuopa_2015_57	cll_iuopa_2015_57	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.95	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.633333333333
+cll_iuopa_2015_58	cll_iuopa_2015_58	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon v4+UTRs	WES,WGS	Matched	0.4
+cll_iuopa_2015_60	cll_iuopa_2015_60	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	85.48	IGHV3-7	SureSelect XT Human All Exon v4+UTRs	WES,WGS	Matched	1.53333333333
+cll_iuopa_2015_63	cll_iuopa_2015_63	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-9	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.366666666667
+cll_iuopa_2015_64	cll_iuopa_2015_64	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	85.98	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.833333333333
+cll_iuopa_2015_70	cll_iuopa_2015_70	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.31	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.666666666667
+cll_iuopa_2015_82	cll_iuopa_2015_82	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-39	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.466666666667
+cll_iuopa_2015_83	cll_iuopa_2015_83	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-74	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.5
+cll_iuopa_2015_84	cll_iuopa_2015_84	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.36	IGHV1-2	0	WGS	Matched	0.633333333333
+cll_iuopa_2015_90	cll_iuopa_2015_90	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.41	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.966666666667
+cll_iuopa_2015_91	cll_iuopa_2015_91	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.7	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.266666666667
+cll_iuopa_2015_100	cll_iuopa_2015_100	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.233333333333
+cll_iuopa_2015_110	cll_iuopa_2015_110	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.91	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_111	cll_iuopa_2015_111	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96	IGHV4-39	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_114	cll_iuopa_2015_114	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.65	IGHV3-15	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_115	cll_iuopa_2015_115	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	88.19	IGHV3-74	SureSelect XT Human All Exon v4+UTRs	WES,WGS	Matched	0.7
+cll_iuopa_2015_116	cll_iuopa_2015_116	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.2
+cll_iuopa_2015_117	cll_iuopa_2015_117	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.52	IGHV1-18	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_122	cll_iuopa_2015_122	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	87.84	IGHV1-18	0	WGS	Matched	0.7
+cll_iuopa_2015_124	cll_iuopa_2015_124	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.4	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_125	cll_iuopa_2015_125	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.58	IGHV3-30	0	WGS	Matched	0.366666666667
+cll_iuopa_2015_127	cll_iuopa_2015_127	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.73	IGHV4-4	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.2
+cll_iuopa_2015_128	cll_iuopa_2015_128	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.61	IGHV3-30	0	WGS	Matched	0.3
+cll_iuopa_2015_131	cll_iuopa_2015_131	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.7	IGHV4-4	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.733333333333
+cll_iuopa_2015_134	cll_iuopa_2015_134	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV5-10-1	0	WGS	Matched	0.533333333333
+cll_iuopa_2015_135	cll_iuopa_2015_135	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_136	cll_iuopa_2015_136	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.83	IGHV3-33	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_137	cll_iuopa_2015_137	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.68	IGHV4-34	0	WGS	Matched	0.3
+cll_iuopa_2015_138	cll_iuopa_2015_138	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-9	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.633333333333
+cll_iuopa_2015_139	cll_iuopa_2015_139	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.433333333333
+cll_iuopa_2015_141	cll_iuopa_2015_141	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.966666666667
+cll_iuopa_2015_142	cll_iuopa_2015_142	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.23	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_144	cll_iuopa_2015_144	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	91.23	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.266666666667
+cll_iuopa_2015_145	cll_iuopa_2015_145	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-59	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.633333333333
+cll_iuopa_2015_146	cll_iuopa_2015_146	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.7	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.233333333333
+cll_iuopa_2015_147	cll_iuopa_2015_147	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.62	IGHV1-3	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_148	cll_iuopa_2015_148	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.65	IGHV5-10-1	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.366666666667
+cll_iuopa_2015_149	cll_iuopa_2015_149	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.22	IGHV3-7	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_150	cll_iuopa_2015_150	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.18	IGHV3-33	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_151	cll_iuopa_2015_151	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.27	IGHV3-66	0	WGS	Matched	0.433333333333
+cll_iuopa_2015_152	cll_iuopa_2015_152	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	97.94	IGHV3-74	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.133333333333
+cll_iuopa_2015_155	cll_iuopa_2015_155	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.566666666667
+cll_iuopa_2015_156	cll_iuopa_2015_156	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.48	IGHV3-64	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_157	cll_iuopa_2015_157	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV5-10-1	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.666666666667
+cll_iuopa_2015_158	cll_iuopa_2015_158	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.633333333333
+cll_iuopa_2015_159	cll_iuopa_2015_159	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.52	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.866666666667
+cll_iuopa_2015_160	cll_iuopa_2015_160	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	Undetermined	0		SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_165	cll_iuopa_2015_165	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.41	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_166	cll_iuopa_2015_166	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-3	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.2
+cll_iuopa_2015_168	cll_iuopa_2015_168	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.23	IGHV4-39	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.266666666667
+cll_iuopa_2015_170	cll_iuopa_2015_170	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	88.13	IGHV3-73	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_171	cll_iuopa_2015_171	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.01	IGHV4-59	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.233333333333
+cll_iuopa_2015_172	cll_iuopa_2015_172	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.09	IGHV1-8	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_173	cll_iuopa_2015_173	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.02	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.133333333333
+cll_iuopa_2015_174	cll_iuopa_2015_174	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.59	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.633333333333
+cll_iuopa_2015_175	cll_iuopa_2015_175	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	88.76	IGHV4-59	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_176	cll_iuopa_2015_176	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-33	0	WGS	Matched	0.466666666667
+cll_iuopa_2015_177	cll_iuopa_2015_177	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.43	IGHV4-34	0	WGS	Matched	0.966666666667
+cll_iuopa_2015_179	cll_iuopa_2015_179	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.62	IGHV3-11	0	WGS	Matched	0.466666666667
+cll_iuopa_2015_180	cll_iuopa_2015_180	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.81	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_181	cll_iuopa_2015_181	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	88.7	IGHV1-18	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.533333333333
+cll_iuopa_2015_182	cll_iuopa_2015_182	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.08	IGHV3-74	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.833333333333
+cll_iuopa_2015_184	cll_iuopa_2015_184	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.6
+cll_iuopa_2015_185	cll_iuopa_2015_185	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.51	IGHV3-21	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_186	cll_iuopa_2015_186	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.59	IGHV4-39	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_188	cll_iuopa_2015_188	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.6
+cll_iuopa_2015_189	cll_iuopa_2015_189	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.06	IGHV4-38-2	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.633333333333
+cll_iuopa_2015_190	cll_iuopa_2015_190	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	98.05	IGHV4-59	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_191	cll_iuopa_2015_191	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.87	IGHV3-49	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_192	cll_iuopa_2015_192	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.28	IGHV3-72	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.533333333333
+cll_iuopa_2015_193	cll_iuopa_2015_193	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.79	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_194	cll_iuopa_2015_194	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.26	IGHV4-4	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.866666666667
+cll_iuopa_2015_195	cll_iuopa_2015_195	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.766666666667
+cll_iuopa_2015_197	cll_iuopa_2015_197	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.27	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.866666666667
+cll_iuopa_2015_199	cll_iuopa_2015_199	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.56	IGHV3-11	SureSelect XT Human All Exon v4+UTRs	WES,WGS	Matched	1.06666666667
+cll_iuopa_2015_244	cll_iuopa_2015_244	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.8	IGHV4-34	0	WGS	Matched	0.533333333333
+cll_iuopa_2015_264	cll_iuopa_2015_264	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.19	IGHV3-53	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.6
+cll_iuopa_2015_266	cll_iuopa_2015_266	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.58	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.266666666667
+cll_iuopa_2015_267	cll_iuopa_2015_267	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.06	IGHV5-51	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_270	cll_iuopa_2015_270	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-48	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.866666666667
+cll_iuopa_2015_272	cll_iuopa_2015_272	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.83	IGHV4-59	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_273	cll_iuopa_2015_273	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	86.94	IGHV4-39	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_274	cll_iuopa_2015_274	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	88.19	IGHV1-18	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.633333333333
+cll_iuopa_2015_275	cll_iuopa_2015_275	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.3	IGHV1-18	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_276	cll_iuopa_2015_276	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.87	IGHV4-4	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_277	cll_iuopa_2015_277	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV7-4-1	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.266666666667
+cll_iuopa_2015_278	cll_iuopa_2015_278	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.8	IGHV3-21	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.4
+cll_iuopa_2015_279	cll_iuopa_2015_279	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_280	cll_iuopa_2015_280	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.81	IGHV3-49	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.766666666667
+cll_iuopa_2015_282	cll_iuopa_2015_282	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.5
+cll_iuopa_2015_283	cll_iuopa_2015_283	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.18	IGHV3-30	0	WGS	Matched	0.1
+cll_iuopa_2015_284	cll_iuopa_2015_284	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	96.49	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_287	cll_iuopa_2015_287	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.54	IGHV3-72	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_288	cll_iuopa_2015_288	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.01	IGHV4-39	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.266666666667
+cll_iuopa_2015_289	cll_iuopa_2015_289	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.33	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_290	cll_iuopa_2015_290	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-11	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.666666666667
+cll_iuopa_2015_291	cll_iuopa_2015_291	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	88.88	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.933333333333
+cll_iuopa_2015_294	cll_iuopa_2015_294	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-39	0	WGS	Matched	0.5
+cll_iuopa_2015_296	cll_iuopa_2015_296	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-45	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	1.13333333333
+cll_iuopa_2015_297	cll_iuopa_2015_297	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	88.19	IGHV1-46	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_298	cll_iuopa_2015_298	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.4	IGHV1-8	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_302	cll_iuopa_2015_302	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.36	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_305	cll_iuopa_2015_305	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	84.91	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_306	cll_iuopa_2015_306	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV2-5	0	WGS	Matched	0.2
+cll_iuopa_2015_307	cll_iuopa_2015_307	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	94.79	IGHV3-7	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.233333333333
+cll_iuopa_2015_308	cll_iuopa_2015_308	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	92.27	IGHV4-4	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.466666666667
+cll_iuopa_2015_312	cll_iuopa_2015_312	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.2
+cll_iuopa_2015_313	cll_iuopa_2015_313	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.44	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.2
+cll_iuopa_2015_314	cll_iuopa_2015_314	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	91.43	IGHV1-46	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.533333333333
+cll_iuopa_2015_315	cll_iuopa_2015_315	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.36	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.633333333333
+cll_iuopa_2015_316	cll_iuopa_2015_316	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.733333333333
+cll_iuopa_2015_317	cll_iuopa_2015_317	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_318	cll_iuopa_2015_318	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	0	WGS	Matched	0.4
+cll_iuopa_2015_319	cll_iuopa_2015_319	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.73	IGHV6-1	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.233333333333
+cll_iuopa_2015_321	cll_iuopa_2015_321	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_322	cll_iuopa_2015_322	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.44	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_323	cll_iuopa_2015_323	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.37	IGHV3-21	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.266666666667
+cll_iuopa_2015_324	cll_iuopa_2015_324	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.91	IGHV3-72	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_325	cll_iuopa_2015_325	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-11	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_326	cll_iuopa_2015_326	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.633333333333
+cll_iuopa_2015_328	cll_iuopa_2015_328	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-11	SureSelect XT Human All Exon 50 Mb	WES	Matched	1.03333333333
+cll_iuopa_2015_329	cll_iuopa_2015_329	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-59	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	1.43333333333
+cll_iuopa_2015_330	cll_iuopa_2015_330	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.133333333333
+cll_iuopa_2015_331	cll_iuopa_2015_331	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.25	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_333	cll_iuopa_2015_333	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.2	IGHV4 34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_338	cll_iuopa_2015_338	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	88.41	IGHV4-59	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.766666666667
+cll_iuopa_2015_339	cll_iuopa_2015_339	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	Undetermined	0		SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.533333333333
+cll_iuopa_2015_341	cll_iuopa_2015_341	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.95	IGHV3-20	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_342	cll_iuopa_2015_342	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.4	IGHV3-11	0	WGS	Matched	0.4
+cll_iuopa_2015_343	cll_iuopa_2015_343	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.79	IGHV1-18	0	WGS	Matched	0.3
+cll_iuopa_2015_344	cll_iuopa_2015_344	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.62	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_345	cll_iuopa_2015_345	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	88.76	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.7
+cll_iuopa_2015_350	cll_iuopa_2015_350	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_351	cll_iuopa_2015_351	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.23	IGHV3-72	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_352	cll_iuopa_2015_352	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.83	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_353	cll_iuopa_2015_353	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.48	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.166666666667
+cll_iuopa_2015_356	cll_iuopa_2015_356	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	0	WGS	Matched	0.366666666667
+cll_iuopa_2015_358	cll_iuopa_2015_358	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.3	IGHV3-48	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.6
+cll_iuopa_2015_361	cll_iuopa_2015_361	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.68	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_362	cll_iuopa_2015_362	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	88.88	IGHV4-4	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_365	cll_iuopa_2015_365	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.13	IGHV3-48	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.9
+cll_iuopa_2015_366	cll_iuopa_2015_366	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.98	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_367	cll_iuopa_2015_367	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.83	IGHV3-48	0	WGS	Matched	0.4
+cll_iuopa_2015_371	cll_iuopa_2015_371	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-33	0	WGS	Matched	0.433333333333
+cll_iuopa_2015_372	cll_iuopa_2015_372	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.52	IGHV3-7	0	WGS	Matched	0.4
+cll_iuopa_2015_373	cll_iuopa_2015_373	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	87.84	IGHV3-23	0	WGS	Matched	0.466666666667
+cll_iuopa_2015_375	cll_iuopa_2015_375	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.68	IGHV3-66	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_376	cll_iuopa_2015_376	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	95.87	IGHV2-5	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.166666666667
+cll_iuopa_2015_380	cll_iuopa_2015_380	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	91.66	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_381	cll_iuopa_2015_381	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	87.85	IGHV3-33	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.666666666667
+cll_iuopa_2015_382	cll_iuopa_2015_382	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.67	IGHV4-61	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_383	cll_iuopa_2015_383	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	94.39	IGHV4-60	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_384	cll_iuopa_2015_384	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-59	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.633333333333
+cll_iuopa_2015_385	cll_iuopa_2015_385	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	Undetermined	0		SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_386	cll_iuopa_2015_386	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.666666666667
+cll_iuopa_2015_387	cll_iuopa_2015_387	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.266666666667
+cll_iuopa_2015_393	cll_iuopa_2015_393	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	94.64	IGHV3-74	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.366666666667
+cll_iuopa_2015_395	cll_iuopa_2015_395	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.51	IGHV3-73	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.2
+cll_iuopa_2015_396	cll_iuopa_2015_396	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	89.58	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.8
+cll_iuopa_2015_397	cll_iuopa_2015_397	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	91.31	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_398	cll_iuopa_2015_398	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.66	IGHV2-70	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.233333333333
+cll_iuopa_2015_422	cll_iuopa_2015_422	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.64	IGHV3-21	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_435	cll_iuopa_2015_435	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.733333333333
+cll_iuopa_2015_442	cll_iuopa_2015_442	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.4
+cll_iuopa_2015_447	cll_iuopa_2015_447	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	85.98	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_464	cll_iuopa_2015_464	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.82	IGHV4-4	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.733333333333
+cll_iuopa_2015_466	cll_iuopa_2015_466	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.58	IGHV3-15	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.266666666667
+cll_iuopa_2015_467	cll_iuopa_2015_467	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.2	IGHV4-34	0	WGS	Matched	0.6
+cll_iuopa_2015_472	cll_iuopa_2015_472	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.83	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_473	cll_iuopa_2015_473	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.62	IGHV3-23	0	WGS	Matched	0.466666666667
+cll_iuopa_2015_474	cll_iuopa_2015_474	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.93	IGHV4-59	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_475	cll_iuopa_2015_475	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.62	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_477	cll_iuopa_2015_477	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.7	IGHV3-23	0	WGS	Matched	0.6
+cll_iuopa_2015_504	cll_iuopa_2015_504	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.26	IGHV3-48	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.233333333333
+cll_iuopa_2015_505	cll_iuopa_2015_505	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.18	IGHV3-30	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_509	cll_iuopa_2015_509	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.73	IGHV3-30-3	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_510	cll_iuopa_2015_510	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.23	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.8
+cll_iuopa_2015_519	cll_iuopa_2015_519	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	94.16	IGHV4-61	0	WGS	Matched	0.3
+cll_iuopa_2015_523	cll_iuopa_2015_523	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.52	IGHV3-53	0	WGS	Matched	0.966666666667
+cll_iuopa_2015_535	cll_iuopa_2015_535	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.01	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.6
+cll_iuopa_2015_544	cll_iuopa_2015_544	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.01	IGHV1-46	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.666666666667
+cll_iuopa_2015_558	cll_iuopa_2015_558	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.18	IGHV3-33	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.2
+cll_iuopa_2015_560	cll_iuopa_2015_560	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	93.3	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.866666666667
+cll_iuopa_2015_561	cll_iuopa_2015_561	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.29	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.866666666667
+cll_iuopa_2015_564	cll_iuopa_2015_564	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.08	IGHV4-34	0	WGS	Matched	0.2
+cll_iuopa_2015_565	cll_iuopa_2015_565	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.27	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_566	cll_iuopa_2015_566	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV1-3	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_567	cll_iuopa_2015_567	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.77	IGHV3-21	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.666666666667
+cll_iuopa_2015_569	cll_iuopa_2015_569	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.09	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.8
+cll_iuopa_2015_571	cll_iuopa_2015_571	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.79	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.233333333333
+cll_iuopa_2015_575	cll_iuopa_2015_575	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.7	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_577	cll_iuopa_2015_577	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.3	IGHV1-18	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.666666666667
+cll_iuopa_2015_578	cll_iuopa_2015_578	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.48	IGHV3-33	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_580	cll_iuopa_2015_580	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.79	IGHV4-59	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.166666666667
+cll_iuopa_2015_583	cll_iuopa_2015_583	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	88.54	IGHV1-3	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_584	cll_iuopa_2015_584	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.56	IGHV1-18	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_585	cll_iuopa_2015_585	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.62	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_586	cll_iuopa_2015_586	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.52	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_588	cll_iuopa_2015_588	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.69	IGHV4-30-4	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_591	cll_iuopa_2015_591	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.27	IGHV4-59	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_593	cll_iuopa_2015_593	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.05	IGHV3-48	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_594	cll_iuopa_2015_594	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.62	IGHV3-30	0	WGS	Matched	0.966666666667
+cll_iuopa_2015_595	cll_iuopa_2015_595	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-3	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_596	cll_iuopa_2015_596	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.62	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.7
+cll_iuopa_2015_598	cll_iuopa_2015_598	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV5-51	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.166666666667
+cll_iuopa_2015_599	cll_iuopa_2015_599	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.54	IGHV3-21	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.633333333333
+cll_iuopa_2015_618	cll_iuopa_2015_618	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.1	IGHV3-9	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.433333333333
+cll_iuopa_2015_621	cll_iuopa_2015_621	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.18	IGHV5-51	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.166666666667
+cll_iuopa_2015_626	cll_iuopa_2015_626	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.23	IGHV3-73	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_628	cll_iuopa_2015_628	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.97	IGHV3-7	0	WGS	Matched	0.4
+cll_iuopa_2015_629	cll_iuopa_2015_629	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.58	IGHV4-30-4	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_642	cll_iuopa_2015_642	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.47	IGHV3-20	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_654	cll_iuopa_2015_654	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.05	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.6
+cll_iuopa_2015_658	cll_iuopa_2015_658	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.13	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.366666666667
+cll_iuopa_2015_661	cll_iuopa_2015_661	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.26	IGHV3-15	SureSelect XT2 Human All Exon v4+UTRs	WES,WGS	Matched	0.4
+cll_iuopa_2015_663	cll_iuopa_2015_663	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.97	IGHV3-9	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.233333333333
+cll_iuopa_2015_664	cll_iuopa_2015_664	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.66	IGHV5-51	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.2
+cll_iuopa_2015_669	cll_iuopa_2015_669	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.93	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_676	cll_iuopa_2015_676	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	95.48	IGHV3-30-3	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_677	cll_iuopa_2015_677	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.95	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES,WGS	Matched	0.6
+cll_iuopa_2015_680	cll_iuopa_2015_680	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.9	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES	Matched	1.0
+cll_iuopa_2015_684	cll_iuopa_2015_684	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.27	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.4
+cll_iuopa_2015_689	cll_iuopa_2015_689	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.91	IGHV2-70D	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_709	cll_iuopa_2015_709	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.18	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_715	cll_iuopa_2015_715	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-33	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.833333333333
+cll_iuopa_2015_721	cll_iuopa_2015_721	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.8
+cll_iuopa_2015_722	cll_iuopa_2015_722	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.66	IGHV3-15	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_723	cll_iuopa_2015_723	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.733333333333
+cll_iuopa_2015_725	cll_iuopa_2015_725	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-46	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.8
+cll_iuopa_2015_727	cll_iuopa_2015_727	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	94.84	IGHV2-5	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_732	cll_iuopa_2015_732	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	Undetermined	0		SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_733	cll_iuopa_2015_733	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.27	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.733333333333
+cll_iuopa_2015_745	cll_iuopa_2015_745	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.08	IGHV4-34	0	WGS	Matched	0.233333333333
+cll_iuopa_2015_749	cll_iuopa_2015_749	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-48	0	WGS	Matched	0.3
+cll_iuopa_2015_751	cll_iuopa_2015_751	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.31	IGHV3-11	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.266666666667
+cll_iuopa_2015_753	cll_iuopa_2015_753	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.41	IGHV3-21	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.733333333333
+cll_iuopa_2015_754	cll_iuopa_2015_754	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.7	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_756	cll_iuopa_2015_756	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	95.91	IGHV3-15	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_757	cll_iuopa_2015_757	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	Undetermined	0		SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_758	cll_iuopa_2015_758	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.74	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.666666666667
+cll_iuopa_2015_760	cll_iuopa_2015_760	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.01	IGHV3-7	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_761	cll_iuopa_2015_761	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV5-51	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.6
+cll_iuopa_2015_762	cll_iuopa_2015_762	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.94	IGHV3-72	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_763	cll_iuopa_2015_763	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.75	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_764	cll_iuopa_2015_764	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.75	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_765	cll_iuopa_2015_765	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.3	IGHV4-59	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.7
+cll_iuopa_2015_766	cll_iuopa_2015_766	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.13	IGHV3-23	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_767	cll_iuopa_2015_767	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.93	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_769	cll_iuopa_2015_769	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.58	IGHV6-1	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.2
+cll_iuopa_2015_770	cll_iuopa_2015_770	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.33	IGHV3-53	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_772	cll_iuopa_2015_772	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.19	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.666666666667
+cll_iuopa_2015_773	cll_iuopa_2015_773	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.4	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_775	cll_iuopa_2015_775	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.56	IGHV1-18	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.2
+cll_iuopa_2015_776	cll_iuopa_2015_776	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.93	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.533333333333
+cll_iuopa_2015_777	cll_iuopa_2015_777	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.65	IGHV3-11	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.166666666667
+cll_iuopa_2015_778	cll_iuopa_2015_778	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.31	IGHV1-3	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.7
+cll_iuopa_2015_780	cll_iuopa_2015_780	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.26	IGHV6-1	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_783	cll_iuopa_2015_783	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.95	IGHV4-39	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.366666666667
+cll_iuopa_2015_784	cll_iuopa_2015_784	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.9	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_785	cll_iuopa_2015_785	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.62	IGHV6-1	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.533333333333
+cll_iuopa_2015_788	cll_iuopa_2015_788	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.83	IGHV4-4	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_794	cll_iuopa_2015_794	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.31	IGHV3-74	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_795	cll_iuopa_2015_795	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	95.83	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.166666666667
+cll_iuopa_2015_797	cll_iuopa_2015_797	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.04	IGHV4-34	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.166666666667
+cll_iuopa_2015_800	cll_iuopa_2015_800	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.75	IGHV5-51	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.366666666667
+cll_iuopa_2015_801	cll_iuopa_2015_801	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.01	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_802	cll_iuopa_2015_802	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.65	IGHV3-11	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.8
+cll_iuopa_2015_804	cll_iuopa_2015_804	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.83	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.533333333333
+cll_iuopa_2015_805	cll_iuopa_2015_805	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.54	IGHV3-72	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_809	cll_iuopa_2015_809	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.91	IGHV3-72	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_811	cll_iuopa_2015_811	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.45	IGHV1-3	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_812	cll_iuopa_2015_812	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30-3	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.633333333333
+cll_iuopa_2015_813	cll_iuopa_2015_813	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_814	cll_iuopa_2015_814	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.13	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_815	cll_iuopa_2015_815	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.56	IGHV5-51	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_820	cll_iuopa_2015_820	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.37	IGHV3-21	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_821	cll_iuopa_2015_821	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.62	IGHV3-53	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_824	cll_iuopa_2015_824	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	Undetermined	0		0	WGS	Matched	0.833333333333
+cll_iuopa_2015_826	cll_iuopa_2015_826	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.65	IGHV5-51	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.6
+cll_iuopa_2015_829	cll_iuopa_2015_829	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.54	IGHV3-53	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_830	cll_iuopa_2015_830	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.25	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.266666666667
+cll_iuopa_2015_831	cll_iuopa_2015_831	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.08	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.6
+cll_iuopa_2015_832	cll_iuopa_2015_832	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	94.19	IGHV2-5	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.666666666667
+cll_iuopa_2015_841	cll_iuopa_2015_841	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.44	IGHV3-74	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_842	cll_iuopa_2015_842	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.81	IGHV3-48	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_850	cll_iuopa_2015_850	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.62	IGHV4-4	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.7
+cll_iuopa_2015_852	cll_iuopa_2015_852	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	88.89	IGHV1-8	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_853	cll_iuopa_2015_853	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	0	WGS	Matched	0.3
+cll_iuopa_2015_854	cll_iuopa_2015_854	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	1.0
+cll_iuopa_2015_855	cll_iuopa_2015_855	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.48	IGHV3-7	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.233333333333
+cll_iuopa_2015_857	cll_iuopa_2015_857	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.09	IGHV4-31	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_859	cll_iuopa_2015_859	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.97	IGHV3-33	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.333333333333
+cll_iuopa_2015_860	cll_iuopa_2015_860	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.95	IGHV3-49	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.166666666667
+cll_iuopa_2015_861	cll_iuopa_2015_861	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.5	IGHV2-70D	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_862	cll_iuopa_2015_862	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	91.31	IGHV1-8	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.633333333333
+cll_iuopa_2015_868	cll_iuopa_2015_868	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-46	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.566666666667
+cll_iuopa_2015_869	cll_iuopa_2015_869	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_873	cll_iuopa_2015_873	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.13	IGHV4-59	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_874	cll_iuopa_2015_874	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	90.18	IGHV3-53	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.733333333333
+cll_iuopa_2015_875	cll_iuopa_2015_875	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.866666666667
+cll_iuopa_2015_878	cll_iuopa_2015_878	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.75	IGHV3-48	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_880	cll_iuopa_2015_880	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.91	IGHV4-61	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.633333333333
+cll_iuopa_2015_881	cll_iuopa_2015_881	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	93.4	IGHV3-33	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_882	cll_iuopa_2015_882	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	94.74	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.933333333333
+cll_iuopa_2015_884	cll_iuopa_2015_884	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	85.76	IGHV1-3	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.933333333333
+cll_iuopa_2015_885	cll_iuopa_2015_885	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.75	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.4
+cll_iuopa_2015_886	cll_iuopa_2015_886	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.733333333333
+cll_iuopa_2015_887	cll_iuopa_2015_887	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	Undetermined	0		SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.466666666667
+cll_iuopa_2015_898	cll_iuopa_2015_898	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.233333333333
+cll_iuopa_2015_1047	cll_iuopa_2015_1047	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.19	IGHV4-59	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_1050	cll_iuopa_2015_1050	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_1052	cll_iuopa_2015_1052	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.933333333333
+cll_iuopa_2015_1053	cll_iuopa_2015_1053	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.48	IGHV3-48	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.566666666667
+cll_iuopa_2015_1054	cll_iuopa_2015_1054	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30-3	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_1056	cll_iuopa_2015_1056	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	91.31	IGHV3-7	0	WGS	Matched	0.7
+cll_iuopa_2015_1059	cll_iuopa_2015_1059	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-38-2	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.666666666667
+cll_iuopa_2015_1062	cll_iuopa_2015_1062	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.65	IGHV1-69	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.633333333333
+cll_iuopa_2015_1063	cll_iuopa_2015_1063	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-39	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_1066	cll_iuopa_2015_1066	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.05	IGHV3-74	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.533333333333
+cll_iuopa_2015_1075	cll_iuopa_2015_1075	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.27	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1076	cll_iuopa_2015_1076	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30	SureSelect XT Human All Exon v4+UTRs	WES,WGS	Matched	0.533333333333
+cll_iuopa_2015_1078	cll_iuopa_2015_1078	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.3	IGHV3-72	0	WGS	Matched	0.533333333333
+cll_iuopa_2015_1079	cll_iuopa_2015_1079	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.366666666667
+cll_iuopa_2015_1080	cll_iuopa_2015_1080	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.88	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.2
+cll_iuopa_2015_1096	cll_iuopa_2015_1096	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.31	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_1098	cll_iuopa_2015_1098	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.27	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.433333333333
+cll_iuopa_2015_1100	cll_iuopa_2015_1100	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.53	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.8
+cll_iuopa_2015_1101	cll_iuopa_2015_1101	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	0	WGS	Matched	0.566666666667
+cll_iuopa_2015_1103	cll_iuopa_2015_1103	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.44	IGHV4-61	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_1141	cll_iuopa_2015_1141	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.3	IGHV1-3	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_1161	cll_iuopa_2015_1161	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.9	IGHV4-30-2	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_1162	cll_iuopa_2015_1162	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.09	IGHV3-30	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.2
+cll_iuopa_2015_1163	cll_iuopa_2015_1163	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.18	IGHV3-15	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.766666666667
+cll_iuopa_2015_1164	cll_iuopa_2015_1164	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.06	IGHV3-72	0	WGS	Matched	0.466666666667
+cll_iuopa_2015_1165	cll_iuopa_2015_1165	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.26	IGHV1-18	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.133333333333
+cll_iuopa_2015_1166	cll_iuopa_2015_1166	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.47	IGHV7-4-1	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.466666666667
+cll_iuopa_2015_1167	cll_iuopa_2015_1167	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.69	IGHV4-39	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.233333333333
+cll_iuopa_2015_1168	cll_iuopa_2015_1168	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.61	IGHV3-21	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.366666666667
+cll_iuopa_2015_1169	cll_iuopa_2015_1169	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-34	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.4
+cll_iuopa_2015_1175	cll_iuopa_2015_1175	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.36	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.233333333333
+cll_iuopa_2015_1177	cll_iuopa_2015_1177	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.44	IGHV4-61	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.3
+cll_iuopa_2015_1178	cll_iuopa_2015_1178	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.62	IGHV3-53	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_1179	cll_iuopa_2015_1179	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	95.13	IGHV3-11	SureSelect XT Human All Exon 50 Mb	WES,WGS	Matched	0.533333333333
+cll_iuopa_2015_1181	cll_iuopa_2015_1181	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-2	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1183	cll_iuopa_2015_1183	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-73	SureSelect XT Human All Exon v4+UTRs	WES,WGS	Matched	0.3
+cll_iuopa_2015_1184	cll_iuopa_2015_1184	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.22	IGHV4-31	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_1185	cll_iuopa_2015_1185	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.47	IGHV4-30-4	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_1187	cll_iuopa_2015_1187	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.133333333333
+cll_iuopa_2015_1188	cll_iuopa_2015_1188	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.3
+cll_iuopa_2015_1191	cll_iuopa_2015_1191	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.58	IGHV1-69	0	WGS	Matched	0.866666666667
+cll_iuopa_2015_1192	cll_iuopa_2015_1192	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-46	0	WGS	Matched	0.966666666667
+cll_iuopa_2015_1193	cll_iuopa_2015_1193	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-15	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_1195	cll_iuopa_2015_1195	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV3-9	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.5
+cll_iuopa_2015_1196	cll_iuopa_2015_1196	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	91.66	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.533333333333
+cll_iuopa_2015_1198	cll_iuopa_2015_1198	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.66	IGHV1-2	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_1203	cll_iuopa_2015_1203	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	95.48	IGHV3-7	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.0333333333333
+cll_iuopa_2015_1220	cll_iuopa_2015_1220	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.59	IGHV3-49	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_1221	cll_iuopa_2015_1221	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	94.61	IGHV6-1	SureSelect XT Human All Exon 50 Mb	WES	Matched	0.3
+cll_iuopa_2015_1222	cll_iuopa_2015_1222	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.79	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_1223	cll_iuopa_2015_1223	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.44	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_1224	cll_iuopa_2015_1224	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	90.48	IGHV3-49	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_1226	cll_iuopa_2015_1226	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-46	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_1228	cll_iuopa_2015_1228	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.41	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_1229	cll_iuopa_2015_1229	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.09	IGHV4-31	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1236	cll_iuopa_2015_1236	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.07	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.366666666667
+cll_iuopa_2015_1237	cll_iuopa_2015_1237	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.55	IGHV4-61	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.3
+cll_iuopa_2015_1238	cll_iuopa_2015_1238	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.58	IGHV3-33	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_1239	cll_iuopa_2015_1239	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.95	IGHV3-48	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.3
+cll_iuopa_2015_1254	cll_iuopa_2015_1254	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-49	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1256	cll_iuopa_2015_1256	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.62	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.533333333333
+cll_iuopa_2015_1257	cll_iuopa_2015_1257	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	Undetermined	0		SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_1260	cll_iuopa_2015_1260	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.93	IGHV3-53	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_1262	cll_iuopa_2015_1262	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	88.88	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_1263	cll_iuopa_2015_1263	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.366666666667
+cll_iuopa_2015_1266	cll_iuopa_2015_1266	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.66	IGHV3-11	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.7
+cll_iuopa_2015_1267	cll_iuopa_2015_1267	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.3	IGHV3-23	0	WGS	Matched	0.3
+cll_iuopa_2015_1268	cll_iuopa_2015_1268	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	95.58	IGHV3-72	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1270	cll_iuopa_2015_1270	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-39	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_1271	cll_iuopa_2015_1271	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	87.5	IGHV3-48	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_1276	cll_iuopa_2015_1276	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.28	 IGHV4-59	0	WGS	Matched	0.5
+cll_iuopa_2015_1277	cll_iuopa_2015_1277	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	99.66	IGHV3-15	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.233333333333
+cll_iuopa_2015_1290	cll_iuopa_2015_1290	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.65	IGHV1-69	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.666666666667
+cll_iuopa_2015_1291	cll_iuopa_2015_1291	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.84	IGHV3-21	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_1292	cll_iuopa_2015_1292	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	86.46	IGHV3-23	0	WGS	Matched	1.1
+cll_iuopa_2015_1294	cll_iuopa_2015_1294	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.44	IGHV3-11	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.166666666667
+cll_iuopa_2015_1295	cll_iuopa_2015_1295	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-7	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.2
+cll_iuopa_2015_1297	cll_iuopa_2015_1297	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon v4+UTRs	WES,WGS	Matched	0.366666666667
+cll_iuopa_2015_1298	cll_iuopa_2015_1298	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	93.8	IGHV4-39	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.3
+cll_iuopa_2015_1307	cll_iuopa_2015_1307	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_1309	cll_iuopa_2015_1309	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.366666666667
+cll_iuopa_2015_1311	cll_iuopa_2015_1311	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_1312	cll_iuopa_2015_1312	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.83	IGHV3-11	SureSelect XT Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1313	cll_iuopa_2015_1313	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.62	IGHV3-21	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1317	cll_iuopa_2015_1317	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	87.72	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_1319	cll_iuopa_2015_1319	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	96.22	IGHV2-5	SureSelect XT Human All Exon v4+UTRs	WES,WGS	Matched	0.5
+cll_iuopa_2015_1323	cll_iuopa_2015_1323	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.43	IGHV3-23	SureSelect XT Human All Exon v4+UTRs	WES,WGS	Matched	0.533333333333
+cll_iuopa_2015_1326	cll_iuopa_2015_1326	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.01	IGHV1-2	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_1327	cll_iuopa_2015_1327	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.75	IGHV5-51	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.366666666667
+cll_iuopa_2015_1328	cll_iuopa_2015_1328	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV2-5	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1338	cll_iuopa_2015_1338	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.44	IGHV1-8	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.233333333333
+cll_iuopa_2015_1339	cll_iuopa_2015_1339	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	Undetermined	0		0	WGS	Matched	0.566666666667
+cll_iuopa_2015_1343	cll_iuopa_2015_1343	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.13	IGHV3-48	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.6
+cll_iuopa_2015_1344	cll_iuopa_2015_1344	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES,WGS	Matched	0.366666666667
+cll_iuopa_2015_1345	cll_iuopa_2015_1345	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-24	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_1346	cll_iuopa_2015_1346	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.66	IGHV3-48	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.7
+cll_iuopa_2015_1353	cll_iuopa_2015_1353	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.05	IGHV1-8	0	WGS	Matched	0.833333333333
+cll_iuopa_2015_1360	cll_iuopa_2015_1360	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.75	IGHV5-51	0	WGS	Matched	0.7
+cll_iuopa_2015_1364	cll_iuopa_2015_1364	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-39	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_1365	cll_iuopa_2015_1365	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-9	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.366666666667
+cll_iuopa_2015_1371	cll_iuopa_2015_1371	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-11	0	WGS	Matched	0.566666666667
+cll_iuopa_2015_1380	cll_iuopa_2015_1380	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89		SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.766666666667
+cll_iuopa_2015_1384	cll_iuopa_2015_1384	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	0	WGS	Matched	0.9
+cll_iuopa_2015_1386	cll_iuopa_2015_1386	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_1403	cll_iuopa_2015_1403	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-39	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.3
+cll_iuopa_2015_1407	cll_iuopa_2015_1407	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.13	IGHV3-30	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.3
+cll_iuopa_2015_1413	cll_iuopa_2015_1413	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.95	IGHV3-15	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.3
+cll_iuopa_2015_1416	cll_iuopa_2015_1416	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.6	IGHV3-21	0	WGS	Matched	0.1
+cll_iuopa_2015_1418	cll_iuopa_2015_1418	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.04	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.866666666667
+cll_iuopa_2015_1423	cll_iuopa_2015_1423	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.87	IGHV3-23	0	WGS	Matched	0.5
+cll_iuopa_2015_1424	cll_iuopa_2015_1424	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.55	IGHV3-20	0	WGS	Matched	0.4
+cll_iuopa_2015_1425	cll_iuopa_2015_1425	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.7	IGHV3-23	0	WGS	Matched	0.866666666667
+cll_iuopa_2015_1426	cll_iuopa_2015_1426	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	92.88	IGHV3-33	0	WGS	Matched	0.5
+cll_iuopa_2015_1427	cll_iuopa_2015_1427	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	92.5	IGHV3-23	0	WGS	Matched	0.133333333333
+cll_iuopa_2015_1430	cll_iuopa_2015_1430	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.58	IGHV1-3	0	WGS	Matched	0.433333333333
+cll_iuopa_2015_1431	cll_iuopa_2015_1431	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	0	IGHV4-34	0	WGS	Matched	0.266666666667
+cll_iuopa_2015_1432	cll_iuopa_2015_1432	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.65	IGHV1-69	0	WGS	Matched	0.7
+cll_iuopa_2015_1437	cll_iuopa_2015_1437	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.52	IGHV5-51	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_1441	cll_iuopa_2015_1441	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.76	IGHV3-7	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.2
+cll_iuopa_2015_1442	cll_iuopa_2015_1442	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	99.61	IGHV2-5	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.1
+cll_iuopa_2015_1444	cll_iuopa_2015_1444	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV3-11	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.3
+cll_iuopa_2015_1446	cll_iuopa_2015_1446	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	96.87	IGHV3-23	0	WGS	Matched	0.333333333333
+cll_iuopa_2015_1447	cll_iuopa_2015_1447	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.97	IGHV1-2	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_1448	cll_iuopa_2015_1448	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-18	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_1452	cll_iuopa_2015_1452	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.71	IGHV3-7	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.333333333333
+cll_iuopa_2015_1459	cll_iuopa_2015_1459	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV1-3	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_1462	cll_iuopa_2015_1462	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	87.4	IGHV3	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.633333333333
+cll_iuopa_2015_1464	cll_iuopa_2015_1464	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	BICLONAL	89.51	IGHV3-7	0	WGS	Matched	0.2
+cll_iuopa_2015_1465	cll_iuopa_2015_1465	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	97.19	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_1468	cll_iuopa_2015_1468	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	MUT	95.48	IGHV3-7	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_1471	cll_iuopa_2015_1471	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.75	IGHV2-5	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	1.1
+cll_iuopa_2015_1472	cll_iuopa_2015_1472	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	92.62	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.633333333333
+cll_iuopa_2015_1477	cll_iuopa_2015_1477	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.18	IGHV4-34	0	WGS	Matched	0.366666666667
+cll_iuopa_2015_1479	cll_iuopa_2015_1479	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV4-39	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.533333333333
+cll_iuopa_2015_1481	cll_iuopa_2015_1481	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	89.81	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1484	cll_iuopa_2015_1484	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	91.31	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_1489	cll_iuopa_2015_1489	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_1491	cll_iuopa_2015_1491	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV4-39	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1507	cll_iuopa_2015_1507	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV3-33	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_1512	cll_iuopa_2015_1512	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV3-43	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.266666666667
+cll_iuopa_2015_1525	cll_iuopa_2015_1525	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.09	IGHV1-8	0	WGS	Matched	0.233333333333
+cll_iuopa_2015_1533	cll_iuopa_2015_1533	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_1534	cll_iuopa_2015_1534	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	94.73	IGHV4-34	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.466666666667
+cll_iuopa_2015_1535	cll_iuopa_2015_1535	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	86.45	IGHV3-23	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_1543	cll_iuopa_2015_1543	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	95.08	IGHV3-15	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.433333333333
+cll_iuopa_2015_1545	cll_iuopa_2015_1545	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	90.62	IGHV3-7	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_1564	cll_iuopa_2015_1564	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV1-69	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_1565	cll_iuopa_2015_1565	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	MUT	93.75	IGHV1-18	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_1566	cll_iuopa_2015_1566	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	98.61	IGHV3-48	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.4
+cll_iuopa_2015_1567	cll_iuopa_2015_1567	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV7-4	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.233333333333
+cll_iuopa_2015_1568	cll_iuopa_2015_1568	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV3-30	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.566666666667
+cll_iuopa_2015_1581	cll_iuopa_2015_1581	Mature B-Cell Neoplasms	Monoclonal B-Cell Lymphocytosis	MCBCL	UNMUT	100	IGHV3-33	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.5
+cll_iuopa_2015_1587	cll_iuopa_2015_1587	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	CLLSLL	UNMUT	100	IGHV2-26	SureSelect XT2 Human All Exon v4+UTRs	WES	Matched	0.3

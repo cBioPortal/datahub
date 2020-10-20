@@ -1,0 +1,15 @@
+#Patient Identifier	Sample Identifier	Cancer Type	Cancer Type Detailed	Sample Type	Platform	Genomic Alterations	Oncotree Code	Fusion Status	Sample Class	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Disease type	Cancer Type Detailed	The type of sample (i.e., normal, primary, met, recurrence).	Platform.	Number of genomic alterations	Oncotree Code	Fusion Status	The sample classification (i.e., tumor, cellline, xenograph).	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	SAMPLE_TYPE	PLATFORM	GENOMIC_ALTERATIONS	ONCOTREE_CODE	FUSION_STATUS	SAMPLE_CLASS	TMB_NONSYNONYMOUS
+ACCX12	ACCX12	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	WGS	138	ACYC	NO	PDX	4.5
+ACCX11	ACCX11	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	WES	136	ACYC	NO	PDX	4.46666666667
+ACCX16	ACCX16	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	WGS	135	ACYC	NO	PDX	4.3
+ACCX14	ACCX14	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	WES	128	ACYC	NO	PDX	4.2
+ACCX19	ACCX19	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	WGS	47	ACYC	NO	PDX	1.56666666667
+ACCX9	ACCX9	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	WGS	167	ACYC	NO	PDX	5.4
+ACCX5M1	ACCX5M1	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	WES	144	ACYC	NO	PDX	4.66666666667
+ACCX22	ACCX22	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	WGS	300	ACYC	NO	PDX	9.86666666667
+ACCX2	ACCX2	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	WGS	139	ACYC	NO	PDX	4.6
+ACCX6	ACCX6	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	WES	124	ACYC	NO	PDX	4.06666666667

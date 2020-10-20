@@ -1,0 +1,245 @@
+#Sample Identifier	Patient Identifier	Sample Class	Sample Type	Radical Prostatectomy Gleason Score for Prostate Cancer	Radical Prostatectomy Gleason Score for Prostate Cancer	Radical Prostatectomy Gleason Score for Prostate Cancer	ERG Fusion ACGH	ERG Fusion GEX	Sequenced	Complete Data	Cancer Type	Cancer Type Detailed	Oncotree Code	Sequencing	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	The sample classification (i.e., tumor, cellline, xenograph).	The type of sample (i.e., normal, primary, met, recurrence).	The score derived from universally embraced prostate cancer grading system developed by Dr. Donald F. Gleason in 1977. The system provides a reproducible description of the glandular architecture of prostate tissue to which a pathologist assigns a score depending primarily on the microscopic patterns of cancerous glands and cell morphology. The system correlates well with behavior at the extremes: Gleason 1+1 tumors are the most well differentiated, slowly growing and rarely spread; Gleason 4+5 tumors are the most poorly differentiated, often widely metastatic at the time of diagnosis. In the commoner intermediate grade tumors, however, behavior is extremely variable.	The score derived from universally embraced prostate cancer grading system developed by Dr. Donald F. Gleason in 1977. The system provides a reproducible description of the glandular architecture of prostate tissue to which a pathologist assigns a score depending primarily on the microscopic patterns of cancerous glands and cell morphology. The system correlates well with behavior at the extremes: Gleason 1+1 tumors are the most well differentiated, slowly growing and rarely spread; Gleason 4+5 tumors are the most poorly differentiated, often widely metastatic at the time of diagnosis. In the commoner intermediate grade tumors, however, behavior is extremely variable.	The score derived from universally embraced prostate cancer grading system developed by Dr. Donald F. Gleason in 1977. The system provides a reproducible description of the glandular architecture of prostate tissue to which a pathologist assigns a score depending primarily on the microscopic patterns of cancerous glands and cell morphology. The system correlates well with behavior at the extremes: Gleason 1+1 tumors are the most well differentiated, slowly growing and rarely spread; Gleason 4+5 tumors are the most poorly differentiated, often widely metastatic at the time of diagnosis. In the commoner intermediate grade tumors, however, behavior is extremely variable.	ERG fusion acgh.	ERG fusion gex.	Sequenced.	Complete data.	Disease type	Cancer Type Detailed	Oncotree Code	Sequencing	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	9	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	SAMPLE_CLASS	SAMPLE_TYPE	GLEASON_SCORE_1	GLEASON_SCORE_2	GLEASON_SCORE	ERG_FUSION_ACGH	ERG_FUSION_GEX	SEQUENCED	COMPLETE_DATA	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	SEQUENCING	TMB_NONSYNONYMOUS
+CWR22Rv1	CWR22Rv1	Cell line		NA	NA	NA	Not_Assessed	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	26.0922203436
+DU145	DU145	Cell line		NA	NA	NA	Not_Assessed	Not_Assessed	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	26.0922203436
+DU145T	DU145	Cell line		NA	NA	NA	Not_Assessed	Not_Assessed	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD		0.0333333333333
+LAPC3-1	LAPC3-1	Xenograft		NA	NA	NA	Not_Assessed	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+LAPC3-2	LAPC3-2	Xenograft		NA	NA	NA	Not_Assessed	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+LAPC4-1	LAPC4-1	Xenograft		NA	NA	NA	Not_Assessed	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	75.6674389964
+LAPC4-2	LAPC4-2	Xenograft		NA	NA	NA	Not_Assessed	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+LAPC9	LAPC9	Xenograft		NA	NA	NA	Not_Assessed	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	31.3106644123
+LNCaP	LNCaP	Cell line		NA	NA	NA	Not_Assessed	Not_Assessed	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	96.5412152713
+LNCaP104R	LNCaP104R	Cell line		NA	NA	NA	NA	Not_Assessed	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+LNCaP104S	LNCaP104S	Cell line		NA	NA	NA	Not_Assessed	Not_Assessed	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	133.070323752
+LNM971	LNM971	Xenograft		NA	NA	NA	Not_Assessed	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	127.851879684
+LuCAP35	LuCAP35	Xenograft		NA	NA	NA	Not_Assessed	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+LuCAP35T	LuCAP35	Xenograft		NA	NA	NA	Not_Assessed	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD		0.0333333333333
+PC3	PC3	Cell line		NA	NA	NA	Not_Assessed	Not_Assessed	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0001	PCA0001	Tumor	Primary	4	3	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0002	PCA0002	Tumor	Primary	5	3	8	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	15.6553322061
+PCA0003	PCA0003	Tumor	Primary	3	4	7	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0004	PCA0004	Tumor	Primary	3	4	7	Negative	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	17.6432188288
+PCA0005	PCA0005	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0006	PCA0006	Tumor	Primary	3	3	6	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0007	PCA0007	Tumor	Primary	3	4	7	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0008	PCA0008	Tumor	Primary	3	3	6	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0009	PCA0009	Tumor	Primary	3	4	7	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0010	PCA0010	Tumor	Primary	3	3	6	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0011	PCA0011	Tumor	Primary	3	3	6	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0012	PCA0012	Tumor	Primary	3	3	6	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0013	PCA0013	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0014	PCA0014	Tumor	Primary	3	4	7	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0015	PCA0015	Tumor	Primary	3	4	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0016	PCA0016	Tumor	Primary	4	4	8	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0017	PCA0017	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0018	PCA0018	Tumor	Primary	4	3	7	Negative	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0019	PCA0019	Tumor	Primary	3	3	6	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0020	PCA0020	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0021	PCA0021	Tumor	Primary	3	4	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0022	PCA0022	Tumor	Primary	3	3	6	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0023	PCA0023	Tumor	Primary	4	5	9	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0024	PCA0024	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0025	PCA0025	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0026	PCA0026	Tumor	Primary	3	4	7	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0027	PCA0027	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	5.21844406872
+PCA0028	PCA0028	Tumor	Primary	5	3	8	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0029	PCA0029	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0030	PCA0030	Tumor	Primary	3	4	7	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0031	PCA0031	Tumor	Primary	4	3	7	Negative	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0032	PCA0032	Tumor	Primary	4	5	9	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0033	PCA0033	Tumor	Primary	3	3	6	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0034	PCA0034	Tumor	Primary	3	3	6	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0035	PCA0035	Tumor	Primary	3	3	6	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0036	PCA0036	Tumor	Primary	4	3	7	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0037	PCA0037	Tumor	Primary	3	4	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0038	PCA0038	Tumor	Primary	4	3	7	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0039	PCA0039	Tumor	Primary	3	3	6	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0040	PCA0040	Tumor	Primary	3	4	7	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0041	PCA0041	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0042	PCA0042	Tumor	Primary	4	5	9	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0043	PCA0043	Tumor	Primary	3	4	7	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0044	PCA0044	Tumor	Primary	3	4	7	Negative	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	17.6432188288
+PCA0045	PCA0045	Tumor	Primary	4	3	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0046	PCA0046	Tumor	Primary	NA	NA	Tx_Effects	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0047	PCA0047	Tumor	Primary	3	4	7	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0048	PCA0048	Tumor	Primary	4	5	9	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0049	PCA0049	Tumor	Primary	3	4	7	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0050	PCA0050	Tumor	Primary	3	4	7	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0051	PCA0051	Tumor	Primary	4	3	7	Flat	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0052	PCA0052	Tumor	Primary	3	4	7	Negative	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0053	PCA0053	Tumor	Primary	3	3	6	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0054	PCA0054	Tumor	Primary	3	5	8	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0055	PCA0055	Tumor	Primary	4	3	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0056	PCA0056	Tumor	Primary	3	3	6	Flat	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	17.6432188288
+PCA0057	PCA0057	Tumor	Primary	3	4	7	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0058	PCA0058	Tumor	Primary	3	3	6	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0059	PCA0059	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0060	PCA0060	Tumor	Primary	4	5	9	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0061	PCA0061	Tumor	Primary	4	3	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0062	PCA0062	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0063	PCA0063	Tumor	Primary	4	4	8	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0064	PCA0064	Tumor	Primary	3	3	6	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0065	PCA0065	Tumor	Primary	3	4	7	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0066	PCA0066	Tumor	Primary	3	4	7	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0067	PCA0067	Tumor	Primary	3	4	7	Flat	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0068	PCA0068	Tumor	Primary	4	3	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0069	PCA0069	Tumor	Primary	3	3	6	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0070	PCA0070	Tumor	Primary	3	3	6	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0071	PCA0071	Tumor	Primary	3	3	6	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0072	PCA0072	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0073	PCA0073	Tumor	Primary	4	3	7	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0074	PCA0074	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0075	PCA0075	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0076	PCA0076	Tumor	Primary	3	3	6	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0077	PCA0077	Tumor	Primary	3	3	6	Flat	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0078	PCA0078	Tumor	Primary	3	3	6	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0079	PCA0079	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0080	PCA0080	Tumor	Primary	4	3	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0081	PCA0081	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0082	PCA0082	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0083	PCA0083	Tumor	Primary	4	3	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	7.82766610307
+PCA0084	PCA0084	Tumor	Primary	3	3	6	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0085	PCA0085	Tumor	Primary	3	3	6	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0086	PCA0086	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0087	PCA0087	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0088	PCA0088	Tumor	Primary	4	3	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0089	PCA0089	Tumor	Primary	3	3	6	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0090	PCA0090	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0091	PCA0091	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0092	PCA0092	Tumor	Primary	4	4	8	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	5.21844406872
+PCA0093	PCA0093	Tumor	Primary	3	4	7	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0094	PCA0094	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0095	PCA0095	Tumor	Primary	3	3	6	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0096	PCA0096	Tumor	Primary	4	5	9	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0097	PCA0097	Tumor	Primary	3	3	6	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0098	PCA0098	Tumor	Primary	4	4	8	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0099	PCA0099	Tumor	Primary	4	3	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0100	PCA0100	Tumor	Primary	3	4	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0101	PCA0101	Tumor	Primary	3	3	6	Flat	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0102	PCA0102	Tumor	Primary	4	3	7	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0103	PCA0103	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0104	PCA0104	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0105	PCA0105	Tumor	Primary	4	3	7	Flat	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0106	PCA0106	Tumor	Primary	4	3	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0107	PCA0107	Tumor	Primary	3	3	6	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0108	PCA0108	Tumor	Primary	3	3	6	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0109	PCA0109	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0110	PCA0110	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0111	PCA0111	Tumor	Primary	3	4	7	Flat	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0112	PCA0112	Tumor	Primary	4	4	8	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	10.4368881374
+PCA0113	PCA0113	Tumor	Primary	3	4	7	Flat	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0114	PCA0114	Tumor	Primary	4	3	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0115	PCA0115	Tumor	Primary	3	4	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0116	PCA0116	Tumor	Primary	3	4	7	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0117	PCA0117	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0118	PCA0118	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0119	PCA0119	Tumor	Primary	4	3	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0120	PCA0120	Tumor	Primary	3	3	6	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0121	PCA0121	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0122	PCA0122	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	13.0461101718
+PCA0123	PCA0123	Tumor	Primary	3	3	6	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0124	PCA0124	Tumor	Primary	3	4	7	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0125	PCA0125	Tumor	Primary	3	4	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0126	PCA0126	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	5.21844406872
+PCA0127	PCA0127	Tumor	Primary	4	3	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	31.3106644123
+PCA0128	PCA0128	Tumor	Primary	4	3	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	5.21844406872
+PCA0129	PCA0129	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	10.4368881374
+PCA0130	PCA0130	Tumor	Primary	4	4	8	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	10.4368881374
+PCA0131	PCA0131	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0132	PCA0132	Tumor	Primary	3	3	6	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	5.21844406872
+PCA0133	PCA0133	Tumor	Primary	3	4	7	Negative	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0134	PCA0134	Tumor	Primary	4	3	7	Flat	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0135	PCA0135	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0136	PCA0136	Tumor	Primary	4	3	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	5.21844406872
+PCA0137	PCA0137	Tumor	Primary	3	3	6	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0138	PCA0138	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0139	PCA0139	Tumor	Primary	4	4	8	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0140	PCA0140	Tumor	Primary	4	5	9	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0141	PCA0141	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0142	PCA0142	Tumor	Primary	3	3	6	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0143	PCA0143	Tumor	Primary	4	3	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0144	PCA0144	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0145	PCA0145	Tumor	Primary	3	4	7	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0146	PCA0146	Tumor	Primary	3	3	6	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0147	PCA0147	Tumor	Primary	3	3	6	Flat	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0148	PCA0148	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0149	PCA0149	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0150	PCA0150	Tumor	Primary	4	3	7	Negative	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0151	PCA0151	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0152	PCA0152	Tumor	Primary	4	3	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0153	PCA0153	Tumor	Primary	4	3	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0154	PCA0154	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0155	PCA0155	Tumor	Primary	4	3	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0156	PCA0156	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0157	PCA0157	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0158	PCA0158	Tumor	Primary	3	3	6	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0159	PCA0159	Tumor	Primary	4	4	8	Flat	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0160	PCA0160	Tumor	Primary	3	3	6	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0161	PCA0161	Tumor	Primary	3	4	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0162	PCA0162	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0163	PCA0163	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0164	PCA0164	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0165	PCA0165	Tumor	Primary	3	3	6	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0166	PCA0166	Tumor	Primary	3	4	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0167	PCA0167	Tumor	Primary	3	4	7	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0168	PCA0168	Tumor	Primary	3	4	7	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0169	PCA0169	Tumor	Primary	3	3	6	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0170	PCA0170	Tumor	Primary	4	3	7	Flat	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0171	PCA0171	Tumor	Primary	NA	NA	NA	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0172	PCA0172	Tumor	Primary	4	5	9	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0173	PCA0173	Tumor	Primary	3	3	6	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	5.21844406872
+PCA0174	PCA0174	Tumor	Primary	4	3	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0175	PCA0175	Tumor	Primary	3	3	6	Flat	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0176	PCA0176	Tumor	Primary	4	5	9	Flat	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0177	PCA0177	Tumor	Primary	4	4	8	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0178	PCA0178	Tumor	Primary	3	3	6	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0179	PCA0179	Tumor	Primary	4	5	9	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0180	PCA0180	Tumor	Primary	4	5	9	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0181	PCA0181	Tumor	Primary	4	5	9	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0182	PCA0182	Tumor	Metastasis	NA	NA	NA	Negative	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0183	PCA0183	Tumor	Metastasis	NA	NA	NA	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0184	PCA0184	Tumor	Metastasis	NA	NA	NA	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0185	PCA0185	Tumor	Metastasis	NA	NA	NA	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0186	PCA0186	Tumor	Metastasis	NA	NA	NA	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0187	PCA0187	Tumor	Metastasis	4	3	7	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0188	PCA0188	Tumor	Metastasis	NA	NA	NA	Negative	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	35.2864376577
+PCA0189	PCA0189	Tumor	Metastasis	NA	NA	NA	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0190	PCA0190	Tumor	Metastasis	NA	NA	NA	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0191	PCA0191	Tumor	Metastasis	NA	NA	NA	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0192	PCA0192	Tumor	Metastasis	NA	NA	NA	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0193	PCA0193	Tumor	Metastasis	NA	NA	NA	Positive	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0194	PCA0194	Tumor	Metastasis	NA	NA	NA	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	5.21844406872
+PCA0195	PCA0195	Tumor	Metastasis	4	5	9	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0196	PCA0196	Tumor	Metastasis	4	4	8	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0197	PCA0197	Tumor	Metastasis	4	5	9	Negative	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	17.6432188288
+PCA0198	PCA0198	Tumor	Metastasis	3	4	7	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0199	PCA0199	Tumor	Metastasis	4	5	9	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	17.6432188288
+PCA0200	PCA0200	Tumor	Metastasis	4	5	9	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0201	PCA0201	Tumor	Metastasis	4	4	8	Negative	Positive	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0202	PCA0202	Tumor	Metastasis	4	3	7	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0203	PCA0203	Tumor	Metastasis	3	5	8	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0204	PCA0204	Tumor	Metastasis	3	4	7	Negative	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0205	PCA0205	Tumor	Metastasis	NA	NA	NA	Positive	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0206	PCA0206	Tumor	Metastasis	4	4	8	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0207	PCA0207	Tumor	Metastasis	4	5	9	Negative	Negative	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sequenom	0.0
+PCA0208	PCA0208	Tumor	Metastasis	NA	NA	NA	Positive	Positive	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0209	PCA0209	Tumor	Metastasis	NA	NA	NA	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0210	PCA0210	Tumor	Metastasis	4	3	7	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0211	PCA0211	Tumor	Metastasis	NA	NA	NA	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0212	PCA0212	Tumor	Metastasis	NA	NA	NA	Negative	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0213	PCA0213	Tumor	Metastasis	4	5	9	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	5.21844406872
+PCA0214	PCA0214	Tumor	Metastasis	4	4	8	Negative	NA	No	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	No	NA
+PCA0215	PCA0215	Tumor	Metastasis	4	4	8	Negative	Negative	Yes	Yes	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+PCA0216	PCA0216	Tumor	Metastasis	4	5	9	Negative	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	13.0461101718
+PCA0217	PCA0217	Tumor	Metastasis	NA	NA	NA	Positive	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	0.0
+PCA0218	PCA0218	Tumor	Metastasis	NA	NA	NA	Positive	NA	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD	Sanger and Sequenom	2.60922203436
+Vcap	Vcap	Cell line		NA	NA	NA	Negative	Negative	Yes	No	Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD		0.0666666666667
+LAPC14-5748	LAPC14-5748										Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD		0.1
+LAPC14-5749	LAPC14-5749										Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD		0.133333333333
+LAPC17	LAPC17										Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD		0.2
+LAPC23	LAPC23										Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD		0.0333333333333
+LAPC25	LAPC25										Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD		0.0333333333333
+LAPC4-1T	LAPC4-1T										Prostate Adenocarcinoma	Prostate Adenocarcinoma	PRAD		0.0333333333333

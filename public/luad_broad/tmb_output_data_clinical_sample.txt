@@ -1,0 +1,188 @@
+#Patient Identifier	Sample Identifier	Sample Collection Source	Tumor cellularity dominant pathology review	Censored	Oncotree Code	Cancer Type	Cancer Type Detailed	Platform	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Sample Collection Source	Tumor cellularity dominant pathology review	Survival Time Censored; True or False	Oncotree Code	Cancer Type	Cancer Type Detailed	Platform.	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_COLLECTION_SOURCE	TUMOR_CELLULARITY_PATHOLOGY_REVIEW	CENSORED	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	PLATFORM	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+LU-A08-43	LU-A08-43	MSKCC	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WGS	Matched	1.76666666667
+LUAD-D02326	LUAD-D02326	OICR	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	2.33333333333
+LUAD-S01341	LUAD-S01341	CLCGP / MPI	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	3.4
+LUAD-U6SJ7	LUAD-U6SJ7	Bioserve	Lung adenocarcinoma, acir predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	5.73333333333
+LUAD-E01014	LUAD-E01014	OICR	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	5.33333333333
+LUAD-S01404	LUAD-S01404	CLCGP / MPI	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	6.53333333333
+LUAD-S01381	LUAD-S01381	CLCGP / MPI	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	6.8
+LUAD-QY22Z	LUAD-QY22Z	Bioserve	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	6.96666666667
+LUAD-AEIUF	LUAD-AEIUF	Bioserve	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	6.73333333333
+LUAD-FH5PJ	LUAD-FH5PJ	Bioserve	Lung adenocarcinoma, invasive mucinous		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	7.56666666667
+LUAD-E01317	LUAD-E01317	OICR	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	7.43333333333
+LUAD-2GUGK	LUAD-2GUGK	Bioserve	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	8.0
+LUAD-S01331	LUAD-S01331	CLCGP / MPI	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	8.13333333333
+LUAD-E01278	LUAD-E01278	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	9.03333333333
+LUAD-S01467	LUAD-S01467	CLCGP / MPI	NSCLC, NOS versus mixed adenocarcinoma/LCNEC	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	9.33333333333
+LUAD-S01405	LUAD-S01405	CLCGP / MPI	NSCLC, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	9.56666666667
+LUAD-S01356	LUAD-S01356	CLCGP / MPI	NSCLC, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	14.2666666667
+LUAD-S01346	LUAD-S01346	CLCGP / MPI	Lung adenocarcinoma, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	13.6666666667
+LUAD-S01345	LUAD-S01345	CLCGP / MPI	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	13.2666666667
+LUAD-S00488	LUAD-S00488	CLCGP / MPI	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	14.2666666667
+LUAD-S01478	LUAD-S01478	CLCGP / MPI	NSCLC, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	15.8666666667
+LUAD-E00934	LUAD-E00934	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	20.7666666667
+LUAD-S01302	LUAD-S01302	CLCGP / MPI	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	24.0333333333
+LUAD-5V8LT	LUAD-5V8LT	Bioserve	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES+WGS	Matched	57.5333333333
+LUAD-NYU346	LUAD-NYU346	NYU	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.0333333333333
+LUAD-NYU279	LUAD-NYU279	NYU	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	NA
+LUAD-NYU605	LUAD-NYU605	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.133333333333
+LUAD-NYU1128	LUAD-NYU1128	NYU	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.133333333333
+LUAD-NYU129	LUAD-NYU129	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.0666666666667
+LUAD-NYU735	LUAD-NYU735	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.133333333333
+LUAD-NYU994	LUAD-NYU994	NYU	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.2
+LUAD-NYU1124	LUAD-NYU1124	NYU	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.2
+LUAD-NYU287	LUAD-NYU287	NYU	Lung adenocarcinoma, solid predomint	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.266666666667
+LUAD-NYU846	LUAD-NYU846	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.4
+LUAD-NYU689	LUAD-NYU689	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.533333333333
+LUAD-NYU796	LUAD-NYU796	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.433333333333
+LUAD-NYU848	LUAD-NYU848	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.7
+LUAD-NYU1027	LUAD-NYU1027	NYU	Lung adenocarcinoma, invasive mucinous	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.933333333333
+LUAD-NYU213	LUAD-NYU213	NYU	Lung adenocarcinoma, invasive mucinous	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.0
+LUAD-NYU252	LUAD-NYU252	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.866666666667
+LUAD-NYU574S	LUAD-NYU574S	NYU	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.933333333333
+LUAD-NYU803	LUAD-NYU803	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	0.7
+LUAD-NYU1093	LUAD-NYU1093	NYU	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.03333333333
+LUAD_E01319	LUAD_E01319	OICR	Lung adenocarcinoma, invasive mucinous	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.13333333333
+LUAD-E00163	LUAD-E00163	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.1
+LUAD-S01320	LUAD-S01320	CLCGP / MPI	Lung adenocarcinoma, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.06666666667
+LUAD-5O6B5	LUAD-5O6B5	Bioserve	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.13333333333
+LUAD-B01102	LUAD-B01102	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.36666666667
+LUAD-RT-S01771	LUAD-RT-S01771	CLCGP / MPI	Lung adenocarcinoma, papillary predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.13333333333
+LUAD-RT-S01770	LUAD-RT-S01770	CLCGP / MPI	Lung adenocarcinoma, papillary predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.3
+LUAD-NYU1177	LUAD-NYU1177	NYU	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.33333333333
+LUAD-GU4I3	LUAD-GU4I3	Bioserve	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.3
+LUAD-NYU704	LUAD-NYU704	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.6
+LUAD-NYU802	LUAD-NYU802	NYU	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.46666666667
+LUAD-NYU608	LUAD-NYU608	NYU	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.76666666667
+LUAD-NYU1142	LUAD-NYU1142	NYU	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.66666666667
+LUAD-NYU947	LUAD-NYU947	NYU	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.7
+LUAD_E00703	LUAD_E00703	OICR	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.56666666667
+LUAD_E00945	LUAD_E00945	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.8
+LUAD-NYU1195	LUAD-NYU1195	NYU	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.93333333333
+LUAD-S01373	LUAD-S01373	CLCGP / MPI	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.76666666667
+LUAD-NYU1026	LUAD-NYU1026	NYU	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.86666666667
+LUAD-D00147	LUAD-D00147	OICR	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.96666666667
+LUAD-S01362	LUAD-S01362	CLCGP / MPI	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.43333333333
+LUAD-RT-S01856	LUAD-RT-S01856	CLCGP / MPI	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	1.86666666667
+LUAD-NYU1210	LUAD-NYU1210	NYU	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.03333333333
+LUAD-RT-S01808	LUAD-RT-S01808	CLCGP / MPI	Lung adenocarcinoma, papillary predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.2
+LUAD_E01419	LUAD_E01419	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.33333333333
+LUAD-S00499	LUAD-S00499	CLCGP / MPI	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.13333333333
+LUAD-F00134	LUAD-F00134	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.2
+LUAD-NYU739	LUAD-NYU739	NYU	Lung adenocarcinoma, MIA	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.36666666667
+LUAD-NYU584S	LUAD-NYU584S	NYU	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.46666666667
+LUAD-NYU1096	LUAD-NYU1096	NYU	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.43333333333
+LUAD-UF7HM	LUAD-UF7HM	Bioserve	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.43333333333
+LUAD-CHTN-4090680	LUAD-CHTN-4090680	CHTN	Lung adenocarcinoma, micropapillary predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.56666666667
+LUAD-F00170	LUAD-F00170	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.5
+LUAD-QJN9L	LUAD-QJN9L	Bioserve	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.4
+LUAD-NYU508	LUAD-NYU508	NYU	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.6
+LUAD-CHTN-MAD04-00674	LUAD-CHTN-MAD04-00674	CHTN	Lung adenocarcinoma, acir predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.06666666667
+LUAD-NYU282	LUAD-NYU282	NYU	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.8
+LUAD-RT-S01832	LUAD-RT-S01832	CLCGP / MPI	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.06666666667
+LUAD-CHTN-MAD06-00490	LUAD-CHTN-MAD06-00490	CHTN	Lung adenocarcinoma, micropapillary predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.06666666667
+LUAD-RT-S01852	LUAD-RT-S01852	CLCGP / MPI	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	2.9
+LUAD-RT-S01866	LUAD-RT-S01866	CLCGP / MPI	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.63333333333
+LUAD-S01304	LUAD-S01304	CLCGP / MPI	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.66666666667
+LUAD_E01086	LUAD_E01086	OICR	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.5
+LUAD-NYU696	LUAD-NYU696	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.6
+LUAD-NYU330	LUAD-NYU330	NYU	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.66666666667
+LUAD-NYU1101	LUAD-NYU1101	NYU	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.96666666667
+LUAD-NYU627	LUAD-NYU627	NYU	Lung adenocarcinoma, papillary predomint	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.96666666667
+LUAD-RT-S01840	LUAD-RT-S01840	CLCGP / MPI	NSCLC, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	4.2
+LUAD-S01482	LUAD-S01482	CLCGP / MPI	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	3.83333333333
+LUAD-RT-S01711	LUAD-RT-S01711	CLCGP / MPI	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	4.26666666667
+LUAD_E01166	LUAD_E01166	OICR	Lung adenocarcinoma, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	4.5
+LUAD-B02477	LUAD-B02477	OICR	Lung adenocarcinoma, solid predomint	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	4.6
+LUAD-TLLGS	LUAD-TLLGS	Bioserve	Lung adenocarcinoma, papillary predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	4.53333333333
+LUAD-D01278	LUAD-D01278	OICR	Lung adenocarcinoma, colloid adenocarcinoma	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	4.6
+LUAD-RT-S01487	LUAD-RT-S01487	CLCGP / MPI	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	5.23333333333
+LUAD-RT-S01810	LUAD-RT-S01810	CLCGP / MPI	NSCLC, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	5.2
+LUAD-S01354	LUAD-S01354	CLCGP / MPI	Lung adenocarcinoma, invasive mucinous	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	4.86666666667
+LUAD-CHTN-MAD08-00104	LUAD-CHTN-MAD08-00104	CHTN	Lung adenocarcinoma, acir predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	5.7
+LUAD-QCHM7	LUAD-QCHM7	Bioserve	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	5.3
+LUAD-CHTN-3090416	LUAD-CHTN-3090416	CHTN	Lung adenocarcinoma, papillary predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	4.9
+LUAD-NYU575	LUAD-NYU575	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	5.23333333333
+LUAD-NYU195	LUAD-NYU195	NYU	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	5.4
+LUAD-B01169	LUAD-B01169	OICR	Lung adenocarcinoma, lepidic predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	5.76666666667
+LUAD-RT-S01703	LUAD-RT-S01703	CLCGP / MPI	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	6.0
+LUAD-NYU315	LUAD-NYU315	NYU	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	5.63333333333
+LUAD-S00486	LUAD-S00486	CLCGP / MPI	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	5.73333333333
+LUAD-D01382	LUAD-D01382	OICR	NSCLC, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	6.06666666667
+LUAD-RT-S01700	LUAD-RT-S01700	CLCGP / MPI	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	6.36666666667
+LUAD-NYU263	LUAD-NYU263	NYU	Lung adenocarcinoma, AIS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	6.4
+LUAD-F00057	LUAD-F00057	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	6.96666666667
+LUAD-NYU1021	LUAD-NYU1021	NYU	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	6.66666666667
+LUAD-RT-S01709	LUAD-RT-S01709	CLCGP / MPI	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	6.23333333333
+LUAD-D01751	LUAD-D01751	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	7.26666666667
+LUAD-CHTN-3090415	LUAD-CHTN-3090415	CHTN	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	7.2
+LUAD-NYU201	LUAD-NYU201	NYU	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	7.2
+LUAD-NYU184	LUAD-NYU184	NYU	Lung adenocarcinoma, papillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	7.66666666667
+LUAD-B01145	LUAD-B01145	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	7.46666666667
+LUAD_E01147	LUAD_E01147	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	7.83333333333
+LUAD-NYU160	LUAD-NYU160	NYU	Lung adenocarcinoma, micropapillary predomint	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	7.66666666667
+LUAD-F00257	LUAD-F00257	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	8.23333333333
+LUAD-B02077	LUAD-B02077	OICR	NSCLC, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	8.6
+LUAD-D02085	LUAD-D02085	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	9.23333333333
+LUAD-F00121	LUAD-F00121	OICR	Lung adenocarcinoma, mixed histology	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	8.53333333333
+LUAD-B01970	LUAD-B01970	OICR	Lung adenocarcinoma, solid predomint	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	7.8
+LUAD-YKER9	LUAD-YKER9	Bioserve	Lung adenocarcinoma, acir predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	7.93333333333
+LUAD-F00018	LUAD-F00018	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	8.16666666667
+LUAD-B02515	LUAD-B02515	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	8.9
+LUAD-F00089	LUAD-F00089	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	9.6
+LUAD-RT-S01831	LUAD-RT-S01831	CLCGP / MPI	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	8.93333333333
+LUAD_E01047	LUAD_E01047	OICR	NSCLC, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	9.5
+LUAD-B00859	LUAD-B00859	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	9.6
+LUAD-CHTN-MAD06-00678	LUAD-CHTN-MAD06-00678	CHTN	NSCLC, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	9.13333333333
+LUAD-VUMN6	LUAD-VUMN6	Bioserve	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	9.96666666667
+LUAD-RT-S01769	LUAD-RT-S01769	CLCGP / MPI	NSCLC, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	9.53333333333
+LUAD-74TBW	LUAD-74TBW	Bioserve	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	10.0333333333
+LUAD-NYU669	LUAD-NYU669	NYU	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	10.6
+LUAD-RT-S01477	LUAD-RT-S01477	CLCGP / MPI	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	9.73333333333
+LUAD-S00484	LUAD-S00484	CLCGP / MPI	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	11.2666666667
+LUAD-RT-S01774	LUAD-RT-S01774	CLCGP / MPI	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	11.4
+LUAD-NYU259	LUAD-NYU259	NYU	Lung adenocarcinoma, acir predomint	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	11.1333333333
+LUAD-RT-S01818	LUAD-RT-S01818	CLCGP / MPI	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	10.7666666667
+LUAD-LC15C	LUAD-LC15C	Bioserve	Lung adenocarcinoma, micropapillary predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	11.3333333333
+LUAD-RT-S01721	LUAD-RT-S01721	CLCGP / MPI	NSCLC, favor adeno	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	11.9333333333
+LUAD-S01306	LUAD-S01306	CLCGP / MPI	NSCLC, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	12.2
+LUAD-D02185	LUAD-D02185	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	11.5333333333
+LUAD-S01413	LUAD-S01413	CLCGP / MPI	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	11.6333333333
+LUAD-NYU847	LUAD-NYU847	NYU	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	12.2
+LUAD-B02216	LUAD-B02216	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	12.6333333333
+LUAD-CHTN-3090346	LUAD-CHTN-3090346	CHTN	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	13.2
+LUAD-RT-S01699	LUAD-RT-S01699	CLCGP / MPI	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	13.1
+LUAD-E00443	LUAD-E00443	OICR	Lung adenocarcinoma, NOS	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	14.1
+LUAD-E00918	LUAD-E00918	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	13.6
+LUAD-F00282	LUAD-F00282	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	14.2
+LUAD-B00523	LUAD-B00523	OICR	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	14.5666666667
+LUAD-F00365	LUAD-F00365	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	13.7666666667
+LUAD-B00915	LUAD-B00915	OICR	Lung adenocarcinoma, solid predomint	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	14.6666666667
+LUAD-LIP77	LUAD-LIP77	Bioserve	Lung adenocarcinoma, acir predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	15.0666666667
+LUAD-NYU1051S	LUAD-NYU1051S	NYU	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	15.9666666667
+LUAD-NYU1219	LUAD-NYU1219	NYU	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	15.2
+LUAD-E00897	LUAD-E00897	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	16.2
+LUAD-RT-S01813	LUAD-RT-S01813	CLCGP / MPI	Lung adenocarcinoma, NOS		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	17.2333333333
+LUAD-RT-S01702	LUAD-RT-S01702	CLCGP / MPI	NSCLC, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	15.7333333333
+LUAD-S01409	LUAD-S01409	CLCGP / MPI	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	18.7666666667
+LUAD-F00162	LUAD-F00162	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	19.5
+LUAD-NYU408	LUAD-NYU408	NYU	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	20.1333333333
+LUAD-B02594	LUAD-B02594	OICR	Lung adenocarcinoma, micropapillary predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	21.3666666667
+LUAD-F00368	LUAD-F00368	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	22.1333333333
+LUAD-RT-S01777	LUAD-RT-S01777	CLCGP / MPI	Lung adenocarcinoma, acir predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	21.0
+LUAD_E00565	LUAD_E00565	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	21.8333333333
+LUAD-NYU284	LUAD-NYU284	NYU	Lung adenocarcinoma, solid predomint	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	22.6
+LUAD-D01603	LUAD-D01603	OICR	Lung adenocarcinoma, solid predomint	TRUE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	23.0
+LUAD_E00623	LUAD_E00623	OICR	Lung adenocarcinoma, acir predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	24.7
+LUAD-B00416	LUAD-B00416	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	25.9666666667
+LUAD-B01811	LUAD-B01811	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	31.0333333333
+LUAD-CHTN-Z4716A	LUAD-CHTN-Z4716A	CHTN	Lung adenocarcinoma, acir predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	32.4333333333
+LUAD_E00522	LUAD_E00522	OICR	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	34.2
+LUAD-S01357	LUAD-S01357	CLCGP / MPI	Lung adenocarcinoma, solid predomint	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	48.3333333333
+LUAD-S01315	LUAD-S01315	CLCGP / MPI	NSCLC, NOS	FALSE	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	58.1
+LUAD-CHTN-MAD06-00668	LUAD-CHTN-MAD06-00668	CHTN	Lung adenocarcinoma, micropapillary predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	60.2666666667
+LUAD-YINHD	LUAD-YINHD	Bioserve	Lung adenocarcinoma, solid predomint		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	WES	Matched	90.3666666667

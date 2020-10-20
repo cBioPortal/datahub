@@ -1,0 +1,20 @@
+#Patient Identifier	Sample Identifier	Anatomical Subtype	anti_O_viverrini_IgG	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Anatomical Subtype	anti_O_viverrini_IgG	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ANATOMICAL_SUBTYPE	ANTI_O_VIVERRINI_IGG	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+990196	990196	Extrahepatic		CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.3
+2000123	2000123	Intrahepatic		CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	2.06666666667
+2000861	2000861	Intrahepatic	Negative	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.466666666667
+17231203	17231203	Intrahepatic		CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.0333333333333
+21914187	21914187	Intrahepatic		CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.166666666667
+23474504	23474504	Intrahepatic		CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.333333333333
+29150572	29150572	Intrahepatic		CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.433333333333
+33587479	33587479	Intrahepatic		CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.366666666667
+72600277	72600277	Intrahepatic		CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.466666666667
+77071507	77071507	Intrahepatic		CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.433333333333
+715	715	Extrahepatic	Negative	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.133333333333
+824	824	Extrahepatic	Negative	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	1.26666666667
+930	930	Extrahepatic	Negative	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.2
+1202	1202	Extrahepatic	Negative	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	1.03333333333
+3001	3001	Intrahepatic	Negative	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.366666666667

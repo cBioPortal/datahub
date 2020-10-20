@@ -1,0 +1,1030 @@
+#Patient Identifier	Sample Identifier	t(6;9)	t(8;21)	t(3;5)(q25;q34)	t(6;11)(q27;q23)	t(9;11)(p22;q23)	t(10;11)(p11.2;q23)	t(11:19)(q23:p13.1)	inv(16)	5Q Deletion	7Q Deletion	9Q Deletion	Monosomy 5	Monosomy 7	Trisomy 8	Trisomy 21	MLL	Minus-Y	Minus-X	FLT3-ITD Postive	FLT3-ITD Allelic Ratio.	FLT3-PM	NPM Mutation	CEBPA Mutation	WT1 Mutation	NUP98-NSD1	CBFT2A3-GLIS	Bone Marrow Site of Relapse	CNS Site of Relapse	Other Site of Relapse	Oncotree Code	Analysis Cohort	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	t(6;9) gene fusion status	t(8;21) gene fusion status	t(3;5)(q25;q34) gene fusion status	t(6;11)(q27;q23) gene fusion status	t(9;11)(p22;q23) gene fusion status	t(10;11)(p11.2;q23) gene fusion status	t(11:19)(q23:p13.1) gene fusion status	inv(16) gene fusion status	5Q deletion.	7Q deletion.	9Q deletion.	Monosomy 5.	Monosomy 7.	Trisomy 8.	Trisomy 21.	MLL.	Minus-Y.	Minus-X.	FLT3-ITD positive.	FLT3-ITD allelic ratio.	FLT3-PM.	NPM mutation.	CEBPA mutation.	WT1 mutation.	NUP98 NSD1 gene fusion	CBFT2A3 GLIS gene fusion	Bone Marrow Site of Relapse	CNS Site of Relapse	Other Site of Relapse	Oncotree Code	Analysis Cohort	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	T_6_9	T_8_21	T_3_5_Q25_Q34	T_6_11_Q27_Q23	T_9_11_P22_Q23	T_10_11_P11_2_Q23	T_11_19_Q23_P13_1	INV_16	DEL_5Q	DEL_7Q	DEL_9Q	MONOSOMY_5	MONOSOMY_7	TRISOMY_8	TRISOMY_21	MLL	MINUS_Y	MINUS_X	FLT3_ITD_POSITIVE	FLT3_ITD_ALLELIC_RATIO	FLT3_PM	NPM_MUTATION	CEBPA_MUTATION	WT1_MUTATION	NUP98_NSD1	CBFT2A3_GLIS	BONE_MARROW_SITE_OF_RELAPSE	CNS_SITE_OF_RELAPSE	OTHER_SITE_OF_RELAPSE	ONCOTREE_CODE	ANALYSIS_COHORT	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+TARGET-20-PABLDZ	TARGET-20-PABLDZ-04	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.82	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PABLDZ	TARGET-20-PABLDZ-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.82	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PADYIR	TARGET-20-PADYIR-04	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PADYIR	TARGET-20-PADYIR-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PADZCG	TARGET-20-PADZCG-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PADZCG	TARGET-20-PADZCG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PADZKD	TARGET-20-PADZKD-09	No	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	Yes	Not Done	Not Done	Yes	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PADZYC	TARGET-20-PADZYC-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEABM	TARGET-20-PAEABM-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEAKL	TARGET-20-PAEAKL-09	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	Not Done	No	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PAECBZ	TARGET-20-PAECBZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAECCE	TARGET-20-PAECCE-04	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAECCE	TARGET-20-PAECCE-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PAECRF	TARGET-20-PAECRF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEDKB	TARGET-20-PAEDKB-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Unknown	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEDKB	TARGET-20-PAEDKB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Unknown	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEERJ	TARGET-20-PAEERJ-04	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.55	No	No	No	Yes	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEERJ	TARGET-20-PAEERJ-09	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.55	No	No	No	Yes	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PAEEYP	TARGET-20-PAEEYP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PAEFGR	TARGET-20-PAEFGR-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PAEFGT	TARGET-20-PAEFGT-04	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.83	No	Unknown	No	Yes	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEFGT	TARGET-20-PAEFGT-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.83	No	Unknown	No	Yes	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PAEFHC	TARGET-20-PAEFHC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.76	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEGNK	TARGET-20-PAEGNK-04	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	Yes	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEGRE	TARGET-20-PAEGRE-09	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	Yes	No	No	No	No	No	NA	Yes	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEGRI	TARGET-20-PAEGRI-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEIKD	TARGET-20-PAEIKD-04	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEIKD	TARGET-20-PAEIKD-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAERAH	TARGET-20-PAERAH-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.366666666667
+TARGET-20-PAERXF	TARGET-20-PAERXF-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKERZ	TARGET-20-PAKERZ-04	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKERZ	TARGET-20-PAKERZ-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PAKGXN	TARGET-20-PAKGXN-03	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	Unknown	NA	Unknown	Unknown	Unknown	Unknown	Not Done	Not Done	Yes	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKHLK	TARGET-20-PAKHLK-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Unknown	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKHZW	TARGET-20-PAKHZW-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	Unknown	No	Unknown	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKIWK	TARGET-20-PAKIWK-04	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	Unknown	No	Unknown	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKIWK	TARGET-20-PAKIWK-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	Unknown	No	Unknown	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.266666666667
+TARGET-20-PAKIYW	TARGET-20-PAKIYW-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	Unknown	No	Unknown	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PAKKBK	TARGET-20-PAKKBK-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.54	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKKBK	TARGET-20-PAKKBK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.54	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PAKKIM	TARGET-20-PAKKIM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.4	No	Yes	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKLPD	TARGET-20-PAKLPD-09	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKRZG	TARGET-20-PAKRZG-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	No	Not Done	Not Done	Yes	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKRZG	TARGET-20-PAKRZG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	No	Not Done	Not Done	Yes	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKSMZ	TARGET-20-PAKSMZ-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.65	No	Yes	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PAKTCX	TARGET-20-PAKTCX-04	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	Unknown	No	Unknown	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKTCX	TARGET-20-PAKTCX-09	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	Unknown	No	Unknown	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PAKVGI	TARGET-20-PAKVGI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PAKXJR	TARGET-20-PAKXJR-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKXVC	TARGET-20-PAKXVC-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PALGKX	TARGET-20-PALGKX-04	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PALGKX	TARGET-20-PALGKX-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PAMVKZ	TARGET-20-PAMVKZ-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	Yes	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PAMVVP	TARGET-20-PAMVVP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAMYAS	TARGET-20-PAMYAS-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.15	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAMYAS	TARGET-20-PAMYAS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.15	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.3
+TARGET-20-PAMYGX	TARGET-20-PAMYGX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PAMYJX	TARGET-20-PAMYJX-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAMYVU	TARGET-20-PAMYVU-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANAEV	TARGET-20-PANAEV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANASY	TARGET-20-PANASY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANBYS	TARGET-20-PANBYS-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	NA	Unknown	Unknown	Unknown	Unknown	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANBZH	TARGET-20-PANBZH-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes	Not Done	NO	No	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANCSC	TARGET-20-PANCSC-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANCSC	TARGET-20-PANCSC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PANDDC	TARGET-20-PANDDC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANDER	TARGET-20-PANDER-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANDIX	TARGET-20-PANDIX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANFMG	TARGET-20-PANFMG-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PANGCM	TARGET-20-PANGCM-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	No	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANGDN	TARGET-20-PANGDN-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PANGFV	TARGET-20-PANGFV-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANGJY	TARGET-20-PANGJY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANGTF	TARGET-20-PANGTF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PANHWD	TARGET-20-PANHWD-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANHYK	TARGET-20-PANHYK-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.2
+TARGET-20-PANILV	TARGET-20-PANILV-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANINI	TARGET-20-PANINI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PANJGR	TARGET-20-PANJGR-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANJVI	TARGET-20-PANJVI-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Unknown	Unknown	Unknown	Unknown	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANKFG	TARGET-20-PANKFG-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PANKFZ	TARGET-20-PANKFZ-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	Yes	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PANKKE	TARGET-20-PANKKE-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PANKNB	TARGET-20-PANKNB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.2
+TARGET-20-PANLIR	TARGET-20-PANLIR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PANLIZ	TARGET-20-PANLIZ-04	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NO	NA	NO	NO	NO	NO	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANLIZ	TARGET-20-PANLIZ-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NO	NA	NO	NO	NO	NO	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.633333333333
+TARGET-20-PANLJK	TARGET-20-PANLJK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANLJN	TARGET-20-PANLJN-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANLKB	TARGET-20-PANLKB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANLLX	TARGET-20-PANLLX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANLRE	TARGET-20-PANLRE-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PANLXK	TARGET-20-PANLXK-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANLXM	TARGET-20-PANLXM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.22	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANMEM	TARGET-20-PANMEM-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANNBM	TARGET-20-PANNBM-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	Yes	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANNHB	TARGET-20-PANNHB-09	No	Yes	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	Yes	NO	NA	No	NO	NO	NO	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PANNJI	TARGET-20-PANNJI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	Yes	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PANPKN	TARGET-20-PANPKN-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PANPLS	TARGET-20-PANPLS-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANPMY	TARGET-20-PANPMY-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	Yes	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANPSF	TARGET-20-PANPSF-09	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANPSV	TARGET-20-PANPSV-03	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANPTM	TARGET-20-PANPTM-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANSBH	TARGET-20-PANSBH-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANSBH	TARGET-20-PANSBH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PANSJB	TARGET-20-PANSJB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.74	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PANTNA	TARGET-20-PANTNA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANTPW	TARGET-20-PANTPW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	YES	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PANTRL	TARGET-20-PANTRL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANTWV	TARGET-20-PANTWV-04	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANTWV	TARGET-20-PANTWV-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANUTB	TARGET-20-PANUTB-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PANUUA	TARGET-20-PANUUA-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PANVBP	TARGET-20-PANVBP-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANVGE	TARGET-20-PANVGE-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	Yes	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PANVGP	TARGET-20-PANVGP-03	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANVGP	TARGET-20-PANVGP-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.533333333333
+TARGET-20-PANVUF	TARGET-20-PANVUF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANWHP	TARGET-20-PANWHP-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANXAF	TARGET-20-PANXAF-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANYCG	TARGET-20-PANYCG-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANYGP	TARGET-20-PANYGP-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PANYNR	TARGET-20-PANYNR-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	MAYBE	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PANYSN	TARGET-20-PANYSN-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANZCU	TARGET-20-PANZCU-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANZKA	TARGET-20-PANZKA-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PANZWB	TARGET-20-PANZWB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PAPAJE	TARGET-20-PAPAJE-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPAWN	TARGET-20-PAPAWN-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	NO	NO	NO	NO	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PAPBEJ	TARGET-20-PAPBEJ-09	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PAPVCN	TARGET-20-PAPVCN-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PAPVDV	TARGET-20-PAPVDV-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PAPVGE	TARGET-20-PAPVGE-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPVKG	TARGET-20-PAPVKG-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPVZK	TARGET-20-PAPVZK-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PAPWHS	TARGET-20-PAPWHS-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PAPWIU	TARGET-20-PAPWIU-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPWYK	TARGET-20-PAPWYK-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PAPXRJ	TARGET-20-PAPXRJ-04	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPXRJ	TARGET-20-PAPXRJ-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.2
+TARGET-20-PAPXWI	TARGET-20-PAPXWI-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PAPYFJ	TARGET-20-PAPYFJ-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.05	No	No	No	No			Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZIZ	TARGET-20-PAPZIZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZLT	TARGET-20-PAPZLT-09	No	No	No	No	Yes	No	No	No	No	No	No	No	Yes	No	No	Yes	No	No	No	NA	No	No	No	No	No	NO	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARAHF	TARGET-20-PARAHF-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARAJX	TARGET-20-PARAJX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PARANT	TARGET-20-PARANT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARASV	TARGET-20-PARASV-03	No	No	No	No	No	Yes	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PARBFJ	TARGET-20-PARBFJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PARBFZ	TARGET-20-PARBFZ-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBIU	TARGET-20-PARBIU-04	No	No	No	No	Unknown	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBIU	TARGET-20-PARBIU-09	No	No	No	No	Unknown	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.233333333333
+TARGET-20-PARBRA	TARGET-20-PARBRA-04	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBRA	TARGET-20-PARBRA-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PARBTC	TARGET-20-PARBTC-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBVE	TARGET-20-PARBVE-09	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBXE	TARGET-20-PARBXE-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PARCCH	TARGET-20-PARCCH-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NO	NA	NO	NO	NO	NO	No	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PARCEC	TARGET-20-PARCEC-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCEV	TARGET-20-PARCEV-04	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.69	No	No	No	Yes	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCEV	TARGET-20-PARCEV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.69	No	No	No	Yes	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCUK	TARGET-20-PARCUK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PARCVP	TARGET-20-PARCVP-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCVS	TARGET-20-PARCVS-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCVS	TARGET-20-PARCVS-04	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCVS	TARGET-20-PARCVS-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCZL	TARGET-20-PARCZL-04	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCZL	TARGET-20-PARCZL-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.2
+TARGET-20-PARDDY	TARGET-20-PARDDY-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARDDY	TARGET-20-PARDDY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PARDEV	TARGET-20-PARDEV-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARDMG	TARGET-20-PARDMG-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	0.15	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PARDZW	TARGET-20-PARDZW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.69	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAREFM	TARGET-20-PAREFM-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARENB	TARGET-20-PARENB-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.233333333333
+TARGET-20-PARERV	TARGET-20-PARERV-09	No	No	No	No	No	No	No	No	Yes	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFAL	TARGET-20-PARFAL-04	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFAL	TARGET-20-PARFAL-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.266666666667
+TARGET-20-PARFGK	TARGET-20-PARFGK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Yes	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFIW	TARGET-20-PARFIW-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFRN	TARGET-20-PARFRN-09	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No	Not Done	Not Done	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFXF	TARGET-20-PARFXF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARGDB	TARGET-20-PARGDB-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARGDB	TARGET-20-PARGDB-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARGTL	TARGET-20-PARGTL-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARGTR	TARGET-20-PARGTR-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	Yes	0.61	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARGVC	TARGET-20-PARGVC-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.366666666667
+TARGET-20-PARGXP	TARGET-20-PARGXP-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.21	No	No	No	Yes			Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHBA	TARGET-20-PARHBA-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.23	Yes	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHJV	TARGET-20-PARHJV-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHVI	TARGET-20-PARHVI-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHVK	TARGET-20-PARHVK-04	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHVK	TARGET-20-PARHVK-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PARIEG	TARGET-20-PARIEG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARIHK	TARGET-20-PARIHK-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.62	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARIHK	TARGET-20-PARIHK-04	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.62	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARIHK	TARGET-20-PARIHK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.62	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PARIMT	TARGET-20-PARIMT-09	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PARINM	TARGET-20-PARINM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	YES	0.69	NO	YES	NO	NO	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARIZR	TARGET-20-PARIZR-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PARJCR	TARGET-20-PARJCR-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJCR	TARGET-20-PARJCR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PARJVI	TARGET-20-PARJVI-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJYP	TARGET-20-PARJYP-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.2
+TARGET-20-PARJYP	TARGET-20-PARJYP-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARKCX	TARGET-20-PARKCX-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PARKFB	TARGET-20-PARKFB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARKSH	TARGET-20-PARKSH-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.62	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARLFE	TARGET-20-PARLFE-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARLSW	TARGET-20-PARLSW-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARLVL	TARGET-20-PARLVL-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARLVL	TARGET-20-PARLVL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PARMGX	TARGET-20-PARMGX-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	0.25	No	No	No	No	No	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMIX	TARGET-20-PARMIX-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMME	TARGET-20-PARMME-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.49	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMMN	TARGET-20-PARMMN-09	No	Yes	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMZC	TARGET-20-PARMZC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.09	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMZF	TARGET-20-PARMZF-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PARNIA	TARGET-20-PARNIA-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NO	NA	NO	NO	NO	NO	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNNT	TARGET-20-PARNNT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNZW	TARGET-20-PARNZW-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPBF	TARGET-20-PARPBF-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPDS	TARGET-20-PARPDS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PARPPY	TARGET-20-PARPPY-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.63	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPVZ	TARGET-20-PARPVZ-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.44	No	No	No	No	No	NO	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPWL	TARGET-20-PARPWL-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.2
+TARGET-20-PARSAN	TARGET-20-PARSAN-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PARSHM	TARGET-20-PARSHM-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PARTAL	TARGET-20-PARTAL-04	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARTAL	TARGET-20-PARTAL-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PARTST	TARGET-20-PARTST-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARTXH	TARGET-20-PARTXH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARTYK	TARGET-20-PARTYK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARTYV	TARGET-20-PARTYV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.75	No	No	Yes	Yes	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUBT	TARGET-20-PARUBT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PARUBT	TARGET-20-PARUBT-40	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUCB	TARGET-20-PARUCB-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	Yes	0.09	No	No	Yes	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUCB	TARGET-20-PARUCB-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	Yes	0.09	No	No	Yes	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUCB	TARGET-20-PARUCB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	Yes	0.09	No	No	Yes	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUDL	TARGET-20-PARUDL-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PARUNX	TARGET-20-PARUNX-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUNX	TARGET-20-PARUNX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.333333333333
+TARGET-20-PARURW	TARGET-20-PARURW-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUTH	TARGET-20-PARUTH-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUTH	TARGET-20-PARUTH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PARUUB	TARGET-20-PARUUB-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PARUWX	TARGET-20-PARUWX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.54	No	No	No	Yes	No	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PARVAI	TARGET-20-PARVAI-09	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.22	No	No	No	Yes	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PARVUA	TARGET-20-PARVUA-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	2.67	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PARWAS	TARGET-20-PARWAS-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NO	NA	NO	NO	NO	NO	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARWAS	TARGET-20-PARWAS-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NO	NA	NO	NO	NO	NO	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARWDZ	TARGET-20-PARWDZ-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PARWXU	TARGET-20-PARWXU-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARWXU	TARGET-20-PARWXU-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.266666666667
+TARGET-20-PARXBT	TARGET-20-PARXBT-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARXCG	TARGET-20-PARXCG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.14	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARXEC	TARGET-20-PARXEC-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	Yes	0.49	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARXMP	TARGET-20-PARXMP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PARXNG	TARGET-20-PARXNG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PARXVI	TARGET-20-PARXVI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.71	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARYCG	TARGET-20-PARYCG-03	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.15	No	No	No	No			Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARYEB	TARGET-20-PARYEB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARYFN	TARGET-20-PARYFN-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PARYFN	TARGET-20-PARYFN-04	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARYFN	TARGET-20-PARYFN-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARYGA	TARGET-20-PARYGA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PARYVW	TARGET-20-PARYVW-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARYVW	TARGET-20-PARYVW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PARYXV	TARGET-20-PARYXV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZMZ	TARGET-20-PARZMZ-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZUU	TARGET-20-PARZUU-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PARZWH	TARGET-20-PARZWH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PARZYL	TARGET-20-PARZYL-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	0.63	No	Yes	No	No	Yes	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASADG	TARGET-20-PASADG-04	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASADG	TARGET-20-PASADG-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASAFM	TARGET-20-PASAFM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASARK	TARGET-20-PASARK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.39	No	No	No	No	No	NO	No	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASAUT	TARGET-20-PASAUT-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBBE	TARGET-20-PASBBE-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.34	No	No	Yes	No	No	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBBE	TARGET-20-PASBBE-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.34	No	No	Yes	No	No	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBGE	TARGET-20-PASBGE-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.56	No	No	No	Yes	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBHI	TARGET-20-PASBHI-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PASBPK	TARGET-20-PASBPK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	Yes	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PASBPW	TARGET-20-PASBPW-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBSB	TARGET-20-PASBSB-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	2.2	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASCCS	TARGET-20-PASCCS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASCFW	TARGET-20-PASCFW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	Unknown	Unknown	Unknown	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASCGC	TARGET-20-PASCGC-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.03	No	No	No	Yes	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASCGR	TARGET-20-PASCGR-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PASCGR	TARGET-20-PASCGR-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASCIG	TARGET-20-PASCIG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.3	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASCRZ	TARGET-20-PASCRZ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASCRZ	TARGET-20-PASCRZ-04	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDFK	TARGET-20-PASDFK-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	Yes	0.13	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDGX	TARGET-20-PASDGX-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDJY	TARGET-20-PASDJY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	1.3	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDUD	TARGET-20-PASDUD-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.3	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDVA	TARGET-20-PASDVA-09	No	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASECW	TARGET-20-PASECW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NO	NA	NO	NO	NO	NO	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASEFD	TARGET-20-PASEFD-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASEFD	TARGET-20-PASEFD-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASEGC	TARGET-20-PASEGC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.35	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASELF	TARGET-20-PASELF-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASENE	TARGET-20-PASENE-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASEYM	TARGET-20-PASEYM-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	Yes	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFEW	TARGET-20-PASFEW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASFIT	TARGET-20-PASFIT-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	Yes	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFJB	TARGET-20-PASFJB-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	NO	NA	NO	NO	NO	NO	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASFLG	TARGET-20-PASFLG-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	1.43	No	No	No	Yes	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFLM	TARGET-20-PASFLM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.81	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PASFNP	TARGET-20-PASFNP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFVP	TARGET-20-PASFVP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.67	No	Unknown	Unknown	Unknown			Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFYF	TARGET-20-PASFYF-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFZN	TARGET-20-PASFZN-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	Yes	Not Done	Not Done	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGCE	TARGET-20-PASGCE-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	No	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGGK	TARGET-20-PASGGK-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASGMZ	TARGET-20-PASGMZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PASGWE	TARGET-20-PASGWE-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.03	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGWH	TARGET-20-PASGWH-04	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGWH	TARGET-20-PASGWH-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PASGZS	TARGET-20-PASGZS-04	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGZS	TARGET-20-PASGZS-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASHBI	TARGET-20-PASHBI-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	Yes	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.2
+TARGET-20-PASHHH	TARGET-20-PASHHH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	Yes	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASHLE	TARGET-20-PASHLE-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASHYZ	TARGET-20-PASHYZ-04	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASHYZ	TARGET-20-PASHYZ-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PASHZX	TARGET-20-PASHZX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.18	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASIBG	TARGET-20-PASIBG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASIEJ	TARGET-20-PASIEJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.54	No	No	No	No	No	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASIEP	TARGET-20-PASIEP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.4	No	No	Yes	No	No	NO	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASINN	TARGET-20-PASINN-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	Yes	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASINN	TARGET-20-PASINN-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	Yes	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASIZX	TARGET-20-PASIZX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.21	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJEJ	TARGET-20-PASJEJ-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJGZ	TARGET-20-PASJGZ-04	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJGZ	TARGET-20-PASJGZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJIM	TARGET-20-PASJIM-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJTM	TARGET-20-PASJTM-09	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PASKIH	TARGET-20-PASKIH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.26	No	Yes	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASKUA	TARGET-20-PASKUA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.46	No	No	No	Yes	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLDL	TARGET-20-PASLDL-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	Yes	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLSD	TARGET-20-PASLSD-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PASLTF	TARGET-20-PASLTF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLYX	TARGET-20-PASLYX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.96	No	Yes	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASMGW	TARGET-20-PASMGW-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	No	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PASMHY	TARGET-20-PASMHY-03	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PASMYS	TARGET-20-PASMYS-04	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	Yes	No	Yes	Not Done	Not Done	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASMYS	TARGET-20-PASMYS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	Yes	No	Yes	Not Done	Not Done	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASNIY	TARGET-20-PASNIY-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPGA	TARGET-20-PASPGA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PASPKE	TARGET-20-PASPKE-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PASPLU	TARGET-20-PASPLU-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.52	No	No	No	Yes	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPLU	TARGET-20-PASPLU-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.52	No	No	No	Yes	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASPSV	TARGET-20-PASPSV-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPTM	TARGET-20-PASPTM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PASPTW	TARGET-20-PASPTW-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	Yes	NO	NA	NO	NO	NO	NO	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASREH	TARGET-20-PASREH-09	No	Yes	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRLS	TARGET-20-PASRLS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	YES	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRRB	TARGET-20-PASRRB-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.63	No	No	No	No	Yes	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRTP	TARGET-20-PASRTP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.73	No	Yes	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PASSSI	TARGET-20-PASSSI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.133333333333
+TARGET-20-PASTPU	TARGET-20-PASTPU-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTTW	TARGET-20-PASTTW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PASTUH	TARGET-20-PASTUH-03	No	No	No	No	No	No	Yes	No	No	No	No	No	No	Yes	No	Yes	No	Yes	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.2
+TARGET-20-PASTUH	TARGET-20-PASTUH-04	No	No	No	No	No	No	Yes	No	No	No	No	No	No	Yes	No	Yes	No	Yes	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVPJ	TARGET-20-PASVPJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVVS	TARGET-20-PASVVS-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	No	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVVS	TARGET-20-PASVVS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	No	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PASVYA	TARGET-20-PASVYA-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVYA	TARGET-20-PASVYA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVYL	TARGET-20-PASVYL-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	No	NO	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASWAJ	TARGET-20-PASWAJ-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWAJ	TARGET-20-PASWAJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASWAT	TARGET-20-PASWAT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWLN	TARGET-20-PASWLN-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASWPD	TARGET-20-PASWPD-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWPT	TARGET-20-PASWPT-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	NO	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.1
+TARGET-20-PASXEA	TARGET-20-PASXEA-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXNR	TARGET-20-PASXNR-04	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXNR	TARGET-20-PASXNR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXYG	TARGET-20-PASXYG-04	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	Yes	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXYG	TARGET-20-PASXYG-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	Yes	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PASYJI	TARGET-20-PASYJI-04	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYJI	TARGET-20-PASYJI-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZLJ	TARGET-20-PASZLJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	No	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PASZZE	TARGET-20-PASZZE-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATABB	TARGET-20-PATABB-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	NO	NA	NO	NO	YES	NO	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAST	TARGET-20-PATAST-04	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	Yes	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAST	TARGET-20-PATAST-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	Yes	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.166666666667
+TARGET-20-PATDHA	TARGET-20-PATDHA-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PATDNN	TARGET-20-PATDNN-04	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	No	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDNN	TARGET-20-PATDNN-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	No	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PATELT	TARGET-20-PATELT-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PATIAK	TARGET-20-PATIAK-04	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATIAK	TARGET-20-PATIAK-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0666666666667
+TARGET-20-PATJHJ	TARGET-20-PATJHJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	0.0333333333333
+TARGET-20-PATJHJ	TARGET-20-PATJHJ-40	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKJB	TARGET-20-PATKJB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANGTF	TARGET-20-PANGTF-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATELT	TARGET-20-PATELT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAKIYW	TARGET-20-PAKIYW-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	Unknown	No	Unknown	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PANYNR	TARGET-20-PANYNR-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	MAYBE	Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARIZR	TARGET-20-PARIZR-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARVAI	TARGET-20-PARVAI-03	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.22	No	No	No	Yes	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARYGA	TARGET-20-PARYGA-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFJB	TARGET-20-PASFJB-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	NO	NA	NO	NO	NO	NO	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PADYIR	TARGET-20-PADYIR-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEERJ	TARGET-20-PAEERJ-03	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.55	No	No	No	Yes	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAEFGT	TARGET-20-PAEFGT-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.83	No	Unknown	No	Yes	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARIMT	TARGET-20-PARIMT-03	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUDL	TARGET-20-PARUDL-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTUH	TARGET-20-PASTUH-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	Yes	No	Yes	No	Yes	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGMZ	TARGET-20-PASGMZ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFRN	TARGET-20-PARFRN-03	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No	Not Done	Not Done	No	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARGDB	TARGET-20-PARGDB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJGZ	TARGET-20-PASJGZ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARXBT	TARGET-20-PARXBT-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARTYK	TARGET-20-PARTYK-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No	No	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARKFB	TARGET-20-PARKFB-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASEFD	TARGET-20-PASEFD-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	YES	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNZW	TARGET-20-PARNZW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPPY	TARGET-20-PARPPY-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.63	No	No	No	No	No	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMIX	TARGET-20-PARMIX-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASADG	TARGET-20-PASADG-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZMZ	TARGET-20-PARZMZ-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No	Not Done	NO	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFYF	TARGET-20-PASFYF-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No	Not Done	Not Done	Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPXUF	TARGET-20-PAPXUF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.34	No	No	No	Yes			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBTV	TARGET-20-PARBTV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARDDA	TARGET-20-PARDDA-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHPP	TARGET-20-PARHPP-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.84	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASILA	TARGET-20-PASILA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYDC	TARGET-20-PASYDC-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPUNR	TARGET-20-PAPUNR-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPWZR	TARGET-20-PAPWZR-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCHW	TARGET-20-PARCHW-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	0.07	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJWH	TARGET-20-PARJWH-09	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARLMY	TARGET-20-PARLMY-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARVSF	TARGET-20-PARVSF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASHWN	TARGET-20-PASHWN-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.14	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASKGH	TARGET-20-PASKGH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.47	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPFE	TARGET-20-PASPFE-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No			Yes	Yes	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPWZ	TARGET-20-PASPWZ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASSWG	TARGET-20-PASSWG-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASUHK	TARGET-20-PASUHK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWTY	TARGET-20-PASWTY-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXVC	TARGET-20-PASXVC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.37	No	Yes	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBFL	TARGET-20-PATBFL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.4	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATFDF	TARGET-20-PATFDF-09	No	No	No	No	Unknown	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGAN	TARGET-20-PATGAN-03	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPLC	TARGET-20-PARPLC-03	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.6	No	Yes	No	No			No	No	Yes	AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFKI	TARGET-20-PASFKI-09																														AML	DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PAMXZY	TARGET-21-PAMXZY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PAMYMA	TARGET-21-PAMYMA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PAMYMA	TARGET-21-PAMYMA-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PANVPB	TARGET-21-PANVPB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PANZLR	TARGET-21-PANZLR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PANZLR	TARGET-21-PANZLR-41	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARBTV	TARGET-21-PARBTV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARBTV	TARGET-21-PARBTV-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARHRS	TARGET-21-PARHRS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARHRS	TARGET-21-PARHRS-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARLSL	TARGET-21-PARLSL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARLSL	TARGET-21-PARLSL-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARNAW	TARGET-21-PARNAW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARNAW	TARGET-21-PARNAW-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARXYR	TARGET-21-PARXYR-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.03	No	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARXYR	TARGET-21-PARXYR-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.03	No	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARZIA	TARGET-21-PARZIA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PARZIA	TARGET-21-PARZIA-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASDKZ	TARGET-21-PASDKZ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.61	No	No	No	Yes			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASDKZ	TARGET-21-PASDKZ-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.61	No	No	No	Yes			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASDXR	TARGET-21-PASDXR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.8	No	No	No	No			No	Yes	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASDXR	TARGET-21-PASDXR-41	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.8	No	No	No	No			No	Yes	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASFHK	TARGET-21-PASFHK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASFHK	TARGET-21-PASFHK-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASFJJ	TARGET-21-PASFJJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.85	No	No	No	Yes			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASFJJ	TARGET-21-PASFJJ-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.85	No	No	No	Yes			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASFLG	TARGET-21-PASFLG-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	1.43	No	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASFLG	TARGET-21-PASFLG-41	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	1.43	No	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASHMK	TARGET-21-PASHMK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.99	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASIGA	TARGET-21-PASIGA-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASIGA	TARGET-21-PASIGA-41	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASLZE	TARGET-21-PASLZE-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASLZE	TARGET-21-PASLZE-41	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASNKZ	TARGET-21-PASNKZ-09	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASNKZ	TARGET-21-PASNKZ-41	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASSLT	TARGET-21-PASSLT-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			No	Yes	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASSLT	TARGET-21-PASSLT-41	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			No	Yes	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASTZK	TARGET-21-PASTZK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASTZK	TARGET-21-PASTZK-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASVJS	TARGET-21-PASVJS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.04	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASVJS	TARGET-21-PASVJS-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.04	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASYEJ	TARGET-21-PASYEJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASYEJ	TARGET-21-PASYEJ-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASYWA	TARGET-21-PASYWA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.93	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PASYWA	TARGET-21-PASYWA-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.93	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATAIJ	TARGET-21-PATAIJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATAIJ	TARGET-21-PATAIJ-42	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATHIU	TARGET-21-PATHIU-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			No	No	Yes	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATHIU	TARGET-21-PATHIU-41	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			No	No	Yes	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATISD	TARGET-21-PATISD-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATISD	TARGET-21-PATISD-41	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATJMY	TARGET-21-PATJMY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATJMY	TARGET-21-PATJMY-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATKBK	TARGET-21-PATKBK-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATKBK	TARGET-21-PATKBK-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATKKJ	TARGET-21-PATKKJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	Yes			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATKKJ	TARGET-21-PATKKJ-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	Yes			Not done	Not done	Not done	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATKWH	TARGET-21-PATKWH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.05	No	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-21-PATKWH	TARGET-21-PATKWH-41	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.05	No	No	No	Yes			Yes	No	No	AML	INDUCTION FAILURE - DISCOVERY	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPRND	TARGET-20-PAPRND-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPSCM	TARGET-20-PAPSCM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.46	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPUEM	TARGET-20-PAPUEM-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPUPC	TARGET-20-PAPUPC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPUSR	TARGET-20-PAPUSR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	YES	1.25	NO	NO	NO	NO			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPVBS	TARGET-20-PAPVBS-09																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPVET	TARGET-20-PAPVET-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPVWB	TARGET-20-PAPVWB-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPWFN	TARGET-20-PAPWFN-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPXAZ	TARGET-20-PAPXAZ-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			No	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPXJT	TARGET-20-PAPXJT-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPYUI	TARGET-20-PAPYUI-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZCL	TARGET-20-PAPZCL-09	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZCZ	TARGET-20-PAPZCZ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZFV	TARGET-20-PAPZFV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZJT	TARGET-20-PAPZJT-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZTC	TARGET-20-PAPZTC-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			No	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZTU	TARGET-20-PAPZTU-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	Yes	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZXN	TARGET-20-PAPZXN-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZYJ	TARGET-20-PAPZYJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZYS	TARGET-20-PAPZYS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAPZZE	TARGET-20-PAPZZE-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARAEF	TARGET-20-PARAEF-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	Unknown	NA	NO	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARAEG	TARGET-20-PARAEG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARAFA	TARGET-20-PARAFA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.05	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARAIC	TARGET-20-PARAIC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARAUM	TARGET-20-PARAUM-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBCV	TARGET-20-PARBCV-09	No	No	No	No	No	No	No	No	No	Yes	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBEL	TARGET-20-PARBEL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBGF	TARGET-20-PARBGF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBLP	TARGET-20-PARBLP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBLV	TARGET-20-PARBLV-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARBZJ	TARGET-20-PARBZJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCAU	TARGET-20-PARCAU-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.71	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCEA	TARGET-20-PARCEA-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCIN	TARGET-20-PARCIN-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.48	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCRW	TARGET-20-PARCRW-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.9	No	No	No	Yes			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCTW	TARGET-20-PARCTW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARCZP	TARGET-20-PARCZP-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARDFM	TARGET-20-PARDFM-03	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARDKT	TARGET-20-PARDKT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARDLW	TARGET-20-PARDLW-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Yes	Yes	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARDPM	TARGET-20-PARDPM-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARDRM	TARGET-20-PARDRM-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARDYL	TARGET-20-PARDYL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARDYW	TARGET-20-PARDYW-09																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAREEC	TARGET-20-PAREEC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NO	NA	NO	NO	NO	NO			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAREHK	TARGET-20-PAREHK-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAREHP	TARGET-20-PAREHP-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PAREWJ	TARGET-20-PAREWJ-09																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFJN	TARGET-20-PARFJN-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFKS	TARGET-20-PARFKS-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFLB	TARGET-20-PARFLB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.48	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFMY	TARGET-20-PARFMY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFPI	TARGET-20-PARFPI-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFUZ	TARGET-20-PARFUZ-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFWM	TARGET-20-PARFWM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARFZP	TARGET-20-PARFZP-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARGMH	TARGET-20-PARGMH-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARGSY	TARGET-20-PARGSY-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARGTF	TARGET-20-PARGTF-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARGYS	TARGET-20-PARGYS-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHJA	TARGET-20-PARHJA-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHJL	TARGET-20-PARHJL-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHKJ	TARGET-20-PARHKJ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHKX	TARGET-20-PARHKX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHKY	TARGET-20-PARHKY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHKZ	TARGET-20-PARHKZ-09	No	Unknown	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHRS	TARGET-20-PARHRS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	Yes			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHSA	TARGET-20-PARHSA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHUP	TARGET-20-PARHUP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHXT	TARGET-20-PARHXT-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARHYP	TARGET-20-PARHYP-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARIFD	TARGET-20-PARIFD-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARILH	TARGET-20-PARILH-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	Yes	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARIYP	TARGET-20-PARIYP-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJET	TARGET-20-PARJET-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJGD	TARGET-20-PARJGD-03	No	No	No	No	No	No	No	No	No	No	No	No	Yes	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJHP	TARGET-20-PARJHP-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJKM	TARGET-20-PARJKM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			No	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJLW	TARGET-20-PARJLW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.07	Yes	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJRG	TARGET-20-PARJRG-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJUJ	TARGET-20-PARJUJ-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARJVU	TARGET-20-PARJVU-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARKGB	TARGET-20-PARKGB-03	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARKHV	TARGET-20-PARKHV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARKJZ	TARGET-20-PARKJZ-03	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARKLC	TARGET-20-PARKLC-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARKSY	TARGET-20-PARKSY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARLGT	TARGET-20-PARLGT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARLHW	TARGET-20-PARLHW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARLSL	TARGET-20-PARLSL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARLUS	TARGET-20-PARLUS-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARLXL	TARGET-20-PARLXL-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMGH	TARGET-20-PARMGH-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMHD	TARGET-20-PARMHD-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMIZ	TARGET-20-PARMIZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMLW	TARGET-20-PARMLW-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMMZ	TARGET-20-PARMMZ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARMPM	TARGET-20-PARMPM-03	No	No	No	No	No	No	No	No	No	Yes	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Yes	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNAW	TARGET-20-PARNAW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNFR	TARGET-20-PARNFR-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNFZ	TARGET-20-PARNFZ-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNIH	TARGET-20-PARNIH-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NO	NA	NO	NO	NO	NO			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNIL	TARGET-20-PARNIL-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNIN	TARGET-20-PARNIN-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNJC	TARGET-20-PARNJC-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNNX	TARGET-20-PARNNX-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNPC	TARGET-20-PARNPC-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNPF	TARGET-20-PARNPF-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNRS	TARGET-20-PARNRS-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.37	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNTM	TARGET-20-PARNTM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARNXW	TARGET-20-PARNXW-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPBA	TARGET-20-PARPBA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPCT	TARGET-20-PARPCT-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPEK	TARGET-20-PARPEK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPHH	TARGET-20-PARPHH-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARPZP	TARGET-20-PARPZP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARRAD	TARGET-20-PARRAD-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.52	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARRBK	TARGET-20-PARRBK-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARRDD	TARGET-20-PARRDD-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NO	NA	NO	NO	NO	NO			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARRFC	TARGET-20-PARRFC-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARRHB	TARGET-20-PARRHB-03	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARRMF	TARGET-20-PARRMF-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARRTH	TARGET-20-PARRTH-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARRYL	TARGET-20-PARRYL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.68	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARSAA	TARGET-20-PARSAA-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARSFK	TARGET-20-PARSFK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARSGE	TARGET-20-PARSGE-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARSGS	TARGET-20-PARSGS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.65	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARSIN	TARGET-20-PARSIN-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	Yes	No	Yes	No	No	NA	No	No	No	No			No	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARSRR	TARGET-20-PARSRR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARSXZ	TARGET-20-PARSXZ-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARTBN	TARGET-20-PARTBN-03	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARTVG	TARGET-20-PARTVG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARTWN	TARGET-20-PARTWN-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUAD	TARGET-20-PARUAD-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUBE	TARGET-20-PARUBE-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUEX	TARGET-20-PARUEX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.18	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARURX	TARGET-20-PARURX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUSN	TARGET-20-PARUSN-09	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUXJ	TARGET-20-PARUXJ-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARUZS	TARGET-20-PARUZS-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARVAF	TARGET-20-PARVAF-09	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARVLH	TARGET-20-PARVLH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARVSX	TARGET-20-PARVSX-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			No	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARVTI	TARGET-20-PARVTI-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARVUC	TARGET-20-PARVUC-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARVXT	TARGET-20-PARVXT-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	Yes	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARVZU	TARGET-20-PARVZU-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARWCG	TARGET-20-PARWCG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARWNS	TARGET-20-PARWNS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARWWW	TARGET-20-PARWWW-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARXDI	TARGET-20-PARXDI-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARXJW	TARGET-20-PARXJW-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARXNP	TARGET-20-PARXNP-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARXYC	TARGET-20-PARXYC-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARYHL	TARGET-20-PARYHL-09																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARYHR	TARGET-20-PARYHR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARYTI	TARGET-20-PARYTI-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	Unknown	Unknown	Unknown			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZGM	TARGET-20-PARZGM-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZHI	TARGET-20-PARZHI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZHT	TARGET-20-PARZHT-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZIA	TARGET-20-PARZIA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZPD	TARGET-20-PARZPD-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZVA	TARGET-20-PARZVA-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZVE	TARGET-20-PARZVE-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZYF	TARGET-20-PARZYF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.7	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PARZYN	TARGET-20-PARZYN-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASAFH	TARGET-20-PASAFH-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASAMY	TARGET-20-PASAMY-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASANH	TARGET-20-PASANH-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASANW	TARGET-20-PASANW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.72	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASARF	TARGET-20-PASARF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASARM	TARGET-20-PASARM-03	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	Yes	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASASN	TARGET-20-PASASN-03	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASAUN	TARGET-20-PASAUN-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASAWH	TARGET-20-PASAWH-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	Yes	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASAXB	TARGET-20-PASAXB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASAYA	TARGET-20-PASAYA-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.51	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBAX	TARGET-20-PASBAX-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			No	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBBF	TARGET-20-PASBBF-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	1	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBCT	TARGET-20-PASBCT-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBDC	TARGET-20-PASBDC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBGZ	TARGET-20-PASBGZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBII	TARGET-20-PASBII-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBNA	TARGET-20-PASBNA-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBST	TARGET-20-PASBST-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASBYL	TARGET-20-PASBYL-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASCAF	TARGET-20-PASCAF-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.88	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASCBW	TARGET-20-PASCBW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NO	NA	NO	YES	NO	NO			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASCDM	TARGET-20-PASCDM-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASCFS	TARGET-20-PASCFS-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASCRP	TARGET-20-PASCRP-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	Yes	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDET	TARGET-20-PASDET-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.74	No	Yes	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDIR	TARGET-20-PASDIR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDMF	TARGET-20-PASDMF-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDNU	TARGET-20-PASDNU-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDSN	TARGET-20-PASDSN-09	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDTY	TARGET-20-PASDTY-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDXF	TARGET-20-PASDXF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDXR	TARGET-20-PASDXR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.8	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASDZT	TARGET-20-PASDZT-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASELK	TARGET-20-PASELK-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFFS	TARGET-20-PASFFS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFFX	TARGET-20-PASFFX-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFIE	TARGET-20-PASFIE-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFJJ	TARGET-20-PASFJJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.85	No	No	No	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFLW	TARGET-20-PASFLW-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFMX	TARGET-20-PASFMX-09	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFRD	TARGET-20-PASFRD-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFTR	TARGET-20-PASFTR-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFWI	TARGET-20-PASFWI-03	No	No	No	No	Unknown	No	No	No	No	Unknown	No	No	No	Unknown	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFXF	TARGET-20-PASFXF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASFZB	TARGET-20-PASFZB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGAE	TARGET-20-PASGAE-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGCJ	TARGET-20-PASGCJ-03																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGEM	TARGET-20-PASGEM-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGFI	TARGET-20-PASGFI-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGHD	TARGET-20-PASGHD-09																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGKA	TARGET-20-PASGKA-09	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGML	TARGET-20-PASGML-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGZK	TARGET-20-PASGZK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASGZV	TARGET-20-PASGZV-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASHMK	TARGET-20-PASHMK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.99	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASHUS	TARGET-20-PASHUS-09																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASHWV	TARGET-20-PASHWV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASIAI	TARGET-20-PASIAI-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASICM	TARGET-20-PASICM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASIGA	TARGET-20-PASIGA-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASINA	TARGET-20-PASINA-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJCL	TARGET-20-PASJCL-03	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	Yes			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJNM	TARGET-20-PASJNM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJPW	TARGET-20-PASJPW-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJRD	TARGET-20-PASJRD-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJXN	TARGET-20-PASJXN-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJYX	TARGET-20-PASJYX-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASJZX	TARGET-20-PASJZX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASKAS	TARGET-20-PASKAS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASKFN	TARGET-20-PASKFN-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASKGD	TARGET-20-PASKGD-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASKMZ	TARGET-20-PASKMZ-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	NO	NA	NO	NO	NO	NO			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASKNV	TARGET-20-PASKNV-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASKPI	TARGET-20-PASKPI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASKRJ	TARGET-20-PASKRJ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASKRM	TARGET-20-PASKRM-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLGD	TARGET-20-PASLGD-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLHH	TARGET-20-PASLHH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.38	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLPE	TARGET-20-PASLPE-09	No	No	No	Yes	No	No	No	No	Yes	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLPU	TARGET-20-PASLPU-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLSE	TARGET-20-PASLSE-03																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLSI	TARGET-20-PASLSI-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	Yes	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLTS	TARGET-20-PASLTS-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASLZE	TARGET-20-PASLZE-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASMPC	TARGET-20-PASMPC-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASMRU	TARGET-20-PASMRU-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASMTB	TARGET-20-PASMTB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASMTK	TARGET-20-PASMTK-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASMYP	TARGET-20-PASMYP-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASNAL	TARGET-20-PASNAL-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASNDA	TARGET-20-PASNDA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASNDH	TARGET-20-PASNDH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASNKC	TARGET-20-PASNKC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASNLR	TARGET-20-PASNLR-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASNYB	TARGET-20-PASNYB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.79	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPIN	TARGET-20-PASPIN-09																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPIX	TARGET-20-PASPIX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPLH	TARGET-20-PASPLH-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPWC	TARGET-20-PASPWC-03	No	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPXN	TARGET-20-PASPXN-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASPYR	TARGET-20-PASPYR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRAT	TARGET-20-PASRAT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.92	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRCW	TARGET-20-PASRCW-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRIN	TARGET-20-PASRIN-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRJL	TARGET-20-PASRJL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRRL	TARGET-20-PASRRL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRSS	TARGET-20-PASRSS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRSY	TARGET-20-PASRSY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.14	No	No	No	No			No	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRUJ	TARGET-20-PASRUJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.79	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASRZX	TARGET-20-PASRZX-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NO	NA	NO	NO	NO	NO			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASSBI	TARGET-20-PASSBI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASSDX	TARGET-20-PASSDX-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASSGX	TARGET-20-PASSGX-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	1.1	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASSHZ	TARGET-20-PASSHZ-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASSNX	TARGET-20-PASSNX-09	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASSUW	TARGET-20-PASSUW-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.87	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASSVI	TARGET-20-PASSVI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASSYV	TARGET-20-PASSYV-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	Yes	Yes	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTBK	TARGET-20-PASTBK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	2.95	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTEI	TARGET-20-PASTEI-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTHA	TARGET-20-PASTHA-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	Yes	0.79	No	No	No	Yes			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTIE	TARGET-20-PASTIE-03	No	No	No	No	No	Yes	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			No	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTJT	TARGET-20-PASTJT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTSH	TARGET-20-PASTSH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTTJ	TARGET-20-PASTTJ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTVM	TARGET-20-PASTVM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTWE	TARGET-20-PASTWE-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTXM	TARGET-20-PASTXM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.25	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTZD	TARGET-20-PASTZD-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTZK	TARGET-20-PASTZK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASTZU	TARGET-20-PASTZU-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.23	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASUAF	TARGET-20-PASUAF-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASUCA	TARGET-20-PASUCA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASUGU	TARGET-20-PASUGU-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASULX	TARGET-20-PASULX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASUMD	TARGET-20-PASUMD-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			No	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASURM	TARGET-20-PASURM-03	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASURR	TARGET-20-PASURR-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASUUD	TARGET-20-PASUUD-09	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASUUP	TARGET-20-PASUUP-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASUVD	TARGET-20-PASUVD-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	Yes	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVAN	TARGET-20-PASVAN-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVFG	TARGET-20-PASVFG-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVMU	TARGET-20-PASVMU-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVPC	TARGET-20-PASVPC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	7.7	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVSS	TARGET-20-PASVSS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	Yes	Yes			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVTP	TARGET-20-PASVTP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVVM	TARGET-20-PASVVM-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVWE	TARGET-20-PASVWE-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVWW	TARGET-20-PASVWW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASVZC	TARGET-20-PASVZC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWER	TARGET-20-PASWER-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.81	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWGL	TARGET-20-PASWGL-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWGS	TARGET-20-PASWGS-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			No	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWIM	TARGET-20-PASWIM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWMP	TARGET-20-PASWMP-03	No	No	No	No	Unknown	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWNZ	TARGET-20-PASWNZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.09	No	No	No	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWVH	TARGET-20-PASWVH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASWWD	TARGET-20-PASWWD-03	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXAH	TARGET-20-PASXAH-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXAP	TARGET-20-PASXAP-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXDS	TARGET-20-PASXDS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXGT	TARGET-20-PASXGT-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXIS	TARGET-20-PASXIS-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXJY	TARGET-20-PASXJY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.77	Yes	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXKT	TARGET-20-PASXKT-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXLJ	TARGET-20-PASXLJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.07	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXSF	TARGET-20-PASXSF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXSS	TARGET-20-PASXSS-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASXWN	TARGET-20-PASXWN-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYCJ	TARGET-20-PASYCJ-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYDA	TARGET-20-PASYDA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.19	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYEJ	TARGET-20-PASYEJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYJL	TARGET-20-PASYJL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYRE	TARGET-20-PASYRE-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYRR	TARGET-20-PASYRR-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYTG	TARGET-20-PASYTG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYTW	TARGET-20-PASYTW-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYVX	TARGET-20-PASYVX-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYWA	TARGET-20-PASYWA-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.93	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYWV	TARGET-20-PASYWV-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASYYW	TARGET-20-PASYYW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZAF	TARGET-20-PASZAF-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.48	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZAI	TARGET-20-PASZAI-09																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZBM	TARGET-20-PASZBM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZEB	TARGET-20-PASZEB-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZER	TARGET-20-PASZER-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZJC	TARGET-20-PASZJC-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZJR	TARGET-20-PASZJR-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZJT	TARGET-20-PASZJT-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZNB	TARGET-20-PASZNB-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	NO	NA	NO	NO	NO	NO			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZUT	TARGET-20-PASZUT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZYU	TARGET-20-PASZYU-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PASZZL	TARGET-20-PASZZL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			No	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATABK	TARGET-20-PATABK-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAEA	TARGET-20-PATAEA-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAER	TARGET-20-PATAER-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.78	No	No	No	Yes			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAIJ	TARGET-20-PATAIJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAIY	TARGET-20-PATAIY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAKC	TARGET-20-PATAKC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.1	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAKZ	TARGET-20-PATAKZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NO	NA	NO	NO	YES	NO			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATALD	TARGET-20-PATALD-09																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATANY	TARGET-20-PATANY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAUU	TARGET-20-PATAUU-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAVF	TARGET-20-PATAVF-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATAWB	TARGET-20-PATAWB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBHG	TARGET-20-PATBHG-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.37	No	No	No	Yes			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBIP	TARGET-20-PATBIP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.57	No	No	Yes	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBIR	TARGET-20-PATBIR-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBIZ	TARGET-20-PATBIZ-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBJK	TARGET-20-PATBJK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.02	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBNP	TARGET-20-PATBNP-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	2.92	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBPW	TARGET-20-PATBPW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBRA	TARGET-20-PATBRA-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBUR	TARGET-20-PATBUR-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBVJ	TARGET-20-PATBVJ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	1.4	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBVX	TARGET-20-PATBVX-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBWH	TARGET-20-PATBWH-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.5	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBXU	TARGET-20-PATBXU-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATBYV	TARGET-20-PATBYV-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATCBV	TARGET-20-PATCBV-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	Yes	1	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATCLR	TARGET-20-PATCLR-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATCPY	TARGET-20-PATCPY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATCTM	TARGET-20-PATCTM-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.03	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATCVL	TARGET-20-PATCVL-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	9.5	No	Yes	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATCWP	TARGET-20-PATCWP-03	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATCXL	TARGET-20-PATCXL-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATCYP	TARGET-20-PATCYP-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATCYY	TARGET-20-PATCYY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.71	No	No	No	Yes			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDFZ	TARGET-20-PATDFZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.99	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDIC	TARGET-20-PATDIC-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDLH	TARGET-20-PATDLH-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDLI	TARGET-20-PATDLI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDLZ	TARGET-20-PATDLZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDMY	TARGET-20-PATDMY-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDRB	TARGET-20-PATDRB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDRL	TARGET-20-PATDRL-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDRZ	TARGET-20-PATDRZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDVM	TARGET-20-PATDVM-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.21	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATDYY	TARGET-20-PATDYY-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATEEA	TARGET-20-PATEEA-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATEFH	TARGET-20-PATEFH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	Yes	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATEIA	TARGET-20-PATEIA-03	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	Yes	No	NA	Yes	No	No	Yes			Yes	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATEID	TARGET-20-PATEID-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATELV	TARGET-20-PATELV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATEMK	TARGET-20-PATEMK-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATEMV	TARGET-20-PATEMV-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATENX	TARGET-20-PATENX-09	No	No	No	No	No	No	No	Yes	No	Yes	No	No	No	Yes	No	No	No	No	No	NA	Yes	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATESK	TARGET-20-PATESK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	No	Yes	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATESX	TARGET-20-PATESX-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATETC	TARGET-20-PATETC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATEUF	TARGET-20-PATEUF-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATEWX	TARGET-20-PATEWX-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATFBW	TARGET-20-PATFBW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATFCZ	TARGET-20-PATFCZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.19	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATFGK	TARGET-20-PATFGK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATFGL	TARGET-20-PATFGL-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATFMR	TARGET-20-PATFMR-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	Yes	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATFNK	TARGET-20-PATFNK-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATFRY	TARGET-20-PATFRY-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATFYN	TARGET-20-PATFYN-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATFZR	TARGET-20-PATFZR-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGAY	TARGET-20-PATGAY-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGBX	TARGET-20-PATGBX-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.15	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGDZ	TARGET-20-PATGDZ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGGI	TARGET-20-PATGGI-03	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGGY	TARGET-20-PATGGY-03	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGHV	TARGET-20-PATGHV-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGIG	TARGET-20-PATGIG-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGIY	TARGET-20-PATGIY-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGRP	TARGET-20-PATGRP-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGTF	TARGET-20-PATGTF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGUB	TARGET-20-PATGUB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			No	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGXE	TARGET-20-PATGXE-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATGXW	TARGET-20-PATGXW-09	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATHAE	TARGET-20-PATHAE-09	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATHIW	TARGET-20-PATHIW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATHMB	TARGET-20-PATHMB-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATHVG	TARGET-20-PATHVG-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATHWS	TARGET-20-PATHWS-09	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATHZC	TARGET-20-PATHZC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	1.11	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATHZL	TARGET-20-PATHZL-09	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	Yes	0.04	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATIAB	TARGET-20-PATIAB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.19	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATIDY	TARGET-20-PATIDY-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATIGE	TARGET-20-PATIGE-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATIHH	TARGET-20-PATIHH-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATIII	TARGET-20-PATIII-03	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATIIM	TARGET-20-PATIIM-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATILU	TARGET-20-PATILU-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATIRW	TARGET-20-PATIRW-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATISD	TARGET-20-PATISD-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATISV	TARGET-20-PATISV-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATIVW	TARGET-20-PATIVW-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJES	TARGET-20-PATJES-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJIC	TARGET-20-PATJIC-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJKC	TARGET-20-PATJKC-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJLP	TARGET-20-PATJLP-09	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJMY	TARGET-20-PATJMY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJNI	TARGET-20-PATJNI-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJPY	TARGET-20-PATJPY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJUT	TARGET-20-PATJUT-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJWG	TARGET-20-PATJWG-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.7	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJWN	TARGET-20-PATJWN-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJXZ	TARGET-20-PATJXZ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATJYT	TARGET-20-PATJYT-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKAH	TARGET-20-PATKAH-09	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	Yes	0.05	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKBK	TARGET-20-PATKBK-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKBT	TARGET-20-PATKBT-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKEA	TARGET-20-PATKEA-09	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKGM	TARGET-20-PATKGM-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKKI	TARGET-20-PATKKI-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.12	No	No	No	Yes			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKKJ	TARGET-20-PATKKJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKLS	TARGET-20-PATKLS-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Yes	0.48	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKMB	TARGET-20-PATKMB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	5.18	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKPC	TARGET-20-PATKPC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKUG	TARGET-20-PATKUG-09	No	No	No	No	No	No	No	No	No	No	Yes	No	No	Yes	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKWH	TARGET-20-PATKWH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.05	No	No	No	Yes			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKYC	TARGET-20-PATKYC-09	No	Yes	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	Yes	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATKYT	TARGET-20-PATKYT-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLBC	TARGET-20-PATLBC-03	No	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLDB	TARGET-20-PATLDB-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLDZ	TARGET-20-PATLDZ-09																														AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLFJ	TARGET-20-PATLFJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLHB	TARGET-20-PATLHB-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	Yes	Yes	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLIG	TARGET-20-PATLIG-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLJF	TARGET-20-PATLJF-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLKU	TARGET-20-PATLKU-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	Yes	No	Yes			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLLK	TARGET-20-PATLLK-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLMH	TARGET-20-PATLMH-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLVC	TARGET-20-PATLVC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.14	Yes	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLVK	TARGET-20-PATLVK-09	Yes	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	No	Yes	0.15	No	No	No	No			No	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLZB	TARGET-20-PATLZB-09	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	Yes	No	No	No			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATLZC	TARGET-20-PATLZC-03	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	Yes	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATMCW	TARGET-20-PATMCW-09	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	Yes	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATMDJ	TARGET-20-PATMDJ-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATMDZ	TARGET-20-PATMDZ-03	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATMEU	TARGET-20-PATMEU-09	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	NA	No	No	Yes	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATMFM	TARGET-20-PATMFM-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	Yes			Yes	Yes	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATMFW	TARGET-20-PATMFW-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATMIK	TARGET-20-PATMIK-09	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATMMC	TARGET-20-PATMMC-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	NA	No	Yes	No	No			Not done	Not done	Not done	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATMNT	TARGET-20-PATMNT-09	No	No	No	No	No	No	No	No	No	Yes	No	No	No	No	No	No	No	No	No	NA	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA
+TARGET-20-PATMNY	TARGET-20-PATMNY-09	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	No	Yes	0.45	No	No	No	No			Yes	No	No	AML	VALIDATION	Leukemia	Acute Myeloid Leukemia	NA

@@ -1,0 +1,101 @@
+#Sample Identifier	Patient Identifier	Tumor Location	Radicality Of Surgery	Braf Status	KRAS Mutation	NF1 Mutation	FGFR1 Mutation	PTPN11 Mutation	MAPK Pathway Alteration	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Tumor Location	Radicality of Surgery: GTR = Gross Total Resection, STR = Sub-Total Resection	Braf Status	KRAS mutation is present.	NF1 Mutation	FGFR1 Mutation	PTPN1 Mutation	MAPK Pathway Alteration	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	TUMOR_LOCATION	RADICALITY	BRAF_STATUS	KRAS_MUTATION	NF1_MUTATION	FGFR1_MUTATION	PTPN11_MUTATION	MAPK_PATHWAY_ALTERATION	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+ICGC_PA3	ICGC_PA3	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA4	ICGC_PA4	Optic chiasm	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA5	ICGC_PA5	Optic chiasm	STR	-	-	Large deletion (germline); p.E291fs (somatic)	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA8	ICGC_PA8	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA9	ICGC_PA9	4th ventricle	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA10	ICGC_PA10	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA11	ICGC_PA11	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA12	ICGC_PA12	4th ventricle	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA14	ICGC_PA14	3rd ventricle	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA17	ICGC_PA17	Brainstem	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA20	ICGC_PA20	Thalamus	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA21	ICGC_PA21	Optic chiasm	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA22	ICGC_PA22	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA24	ICGC_PA24	Optic chiasm	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA25	ICGC_PA25	4th ventricle	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA27	ICGC_PA27	Optic nerve	NA	p.V600E	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.166666666667
+ICGC_PA28	ICGC_PA28	Cerebellum	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA29	ICGC_PA29	Hypothalamus	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA30	ICGC_PA30	Cerebellum	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA33	ICGC_PA33	Cerebellum	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA34	ICGC_PA34	3rd ventricle	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA36	ICGC_PA36	Cerebellum	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.133333333333
+ICGC_PA37	ICGC_PA37	Cerebellum	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA39	ICGC_PA39	Cerebellum	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA41	ICGC_PA41	Brainstem	STR	-	-	-	p.K655I, p.K656E	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA42	ICGC_PA42	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA43	ICGC_PA43	Brainstem	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA46	ICGC_PA46	Thalamus	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA48	ICGC_PA48	3rd ventricle	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA50	ICGC_PA50	Brainstem	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA53	ICGC_PA53	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA55	ICGC_PA55	Cerebellum	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA56	ICGC_PA56	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA58	ICGC_PA58	Brainstem	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA59	ICGC_PA59	Cerebellum	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA62	ICGC_PA62	Cerebellum	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA63	ICGC_PA63	Brainstem	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA64	ICGC_PA64	Brainstem	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA65	ICGC_PA65	Thalamus	GTR	p.R506_insVLR	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.266666666667
+ICGC_PA69	ICGC_PA69	Thalamus	STR	-	-	Large deletion (somatic); p.Q1174fs (somatic)	p.N546K	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.2
+ICGC_PA70	ICGC_PA70	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA71	ICGC_PA71	Optic chiasm	STR	-	-	p.Q959X (germline); large deletion (somatic)	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA73	ICGC_PA73	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA75	ICGC_PA75	Thalamus	GTR	p.V600E	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA79	ICGC_PA79	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA81	ICGC_PA81	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA82	ICGC_PA82	3rd ventricle	NA	-	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA83	ICGC_PA83	Brainstem	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA84	ICGC_PA84	3rd ventricle	STR	-	-	-	p.K656E	p.E76A	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.166666666667
+ICGC_PA85	ICGC_PA85	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA86	ICGC_PA86	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA87	ICGC_PA87	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA88	ICGC_PA88	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA89	ICGC_PA89	Brainstem	STR	-	-	-	ITD Kinase Domain	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA91	ICGC_PA91	Brainstem	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA92	ICGC_PA92	4th ventricle	GTR	-	-	-	p.N546K	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.2
+ICGC_PA93	ICGC_PA93	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.166666666667
+ICGC_PA94	ICGC_PA94	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA95	ICGC_PA95	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA96	ICGC_PA96	Brainstem	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA97	ICGC_PA97	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA99	ICGC_PA99	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA100	ICGC_PA100	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA102	ICGC_PA102	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA103	ICGC_PA103	3rd ventricle	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA105	ICGC_PA105	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA107	ICGC_PA107	3rd ventricle	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA108	ICGC_PA108	Brainstem	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA109	ICGC_PA109	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA110	ICGC_PA110	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA112	ICGC_PA112	Parietal Lobe	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA116	ICGC_PA116	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA117	ICGC_PA117	4th ventricle	STR	-	p.E63K, p.R73M	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.333333333333
+ICGC_PA126	ICGC_PA126	4th ventricle	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.166666666667
+ICGC_PA129	ICGC_PA129	Cerebellum	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA131	ICGC_PA131	Cerebellum	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA134	ICGC_PA134	Brainstem	STR	-	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA135	ICGC_PA135	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA136	ICGC_PA136	Cerebellum	NA	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.133333333333
+ICGC_PA138	ICGC_PA138	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA140	ICGC_PA140	3rd ventricle	GTR	p.T599_insT	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA142	ICGC_PA142	Cerebellum	GTR	-	p.L19F, p.Q22K	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.1
+ICGC_PA143	ICGC_PA143	4th ventricle	STR	-	-	p.R13912fs (germline); p.Q2245X (somatic)	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA144	ICGC_PA144	Optic chiasm	STR	Fusion; p.E451D	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.166666666667
+ICGC_PA145	ICGC_PA145	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA147	ICGC_PA147	Cerebellum	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA148	ICGC_PA148	3rd ventricle	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA150	ICGC_PA150	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA157	ICGC_PA157	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA158	ICGC_PA158	Brainstem	STR	p.V600E	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA159	ICGC_PA159	Optic chiasm	STR	-	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA161	ICGC_PA161	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	NA
+ICGC_PA162	ICGC_PA162	Cerebellum	GTR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0333333333333
+ICGC_PA163	ICGC_PA163	Brainstem	STR	p.V600E	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA165	ICGC_PA165	Brainstem	STR	Fusion	-	-	-	-	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.0666666666667
+ICGC_PA166	ICGC_PA166	Hypothalamus	STR	-	-	-	p.N546K	p.E69K	Yes	PAST	Glioma	Pilocytic Astrocytoma	0.133333333333

@@ -1,0 +1,37 @@
+#Patient Identifier	Sample Identifier	Lymph Nodes Metastasis	TNM Stage	Neoplasm Histologic Grade	Perineural Invasion	Tumor Disease Anatomic Site	ErbB Pathway Mutation	Gene Panel	Gallbladder Stone	Margin Status	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Lymph nodes metastasis.	TNM stage.	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Perineural invasion.	Text term that describes the anatomic site of the tumor or disease.	ErbB Pathway Mutation	Gene panel.	Gallbladder Stone	Margin Status	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	LYMPH_NODE_METASTASIS	TNMSTAGE	GRADE	PERINEURAL_INVASION	TUMOR_TISSUE_SITE	ERBB_PATHWAY_MUTATION	GENE_PANEL	GALLBLADDER_STONES	MARGIN_STATUS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+XHDG01C	XHDG01	NO	IIIA	moderate	NO	neck	NO	WXS, TDS	NO	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.533333333333
+XHDG02C	XHDG02	NO	IIIA	moderate	NO	Fundus/body	NO	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.0
+XHDG03C	XHDG03	YES	IIIB	low	NO	Fundus/body	YES	WXS, TDS	YES	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.73333333333
+XHDG04C	XHDG04	NO	IIIA	low	NO	Fundus/body	YES	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	8.93333333333
+XHDG05C	XHDG05	YES	IIIB	moderate	NO	Fundus/body	NO	WXS, TDS	YES	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.366666666667
+XHDG06C	XHDG06	NO	IIIA	low	NO	Fundus/body	YES	WXS, TDS	NO	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.03333333333
+XHDG07C	XHDG07	NO	IIIA	high	NO	neck	NO	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.666666666667
+XHDG08C	XHDG08	YES	IIIB	moderate	NO	Fundus/body	NO	WXS, TDS	YES	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.03333333333
+XHDG09C	XHDG09	NO	IIIA	low	NO	Fundus/body	NO	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.7
+XHDG10C	XHDG10	NO	II	moderate	NO	Fundus/body	YES	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.03333333333
+XHDG16C	XHDG16	YES	IVB	moderate	NO	Fundus/body	NO	WXS	YES	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.566666666667
+XHDG17C	XHDG17	YES	IIIB	low	NO	Fundus/body	NO	WXS, TDS	NO	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	2.56666666667
+XHDG18C	XHDG18	YES	IIIB	low	NO	Fundus/body	NO	WXS	YES	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.53333333333
+XHDG20C	XHDG20	NO	IIIA	moderate	NO	Fundus/body	YES	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	2.5
+XHDG21C	XHDG21	YES	IIIB	moderate	NO	neck	NO	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.16666666667
+XHDG22C	XHDG22	NO	IIIA	high	NO	neck	NO	WXS, TDS	NO	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	2.7
+XHDG23C	XHDG23	NO	IIIA	moderate	YES	Fundus/body	NO	WXS, TDS	YES	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.266666666667
+XHDG25C	XHDG25	NO	II	high	NO	Fundus/body	YES	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.5
+XHDG27C	XHDG27	NO	IIIA	low	NO	Fundus/body	YES	WXS, TDS	NO	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	3.06666666667
+XHDG29C	XHDG29	NO	IIIA	moderate	NO	Fundus/body	YES	WXS, TDS	NO	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.166666666667
+XHDG30C	XHDG30	NO	IIIA	moderate	YES	neck	YES	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.933333333333
+XHDG31C	XHDG31	NO	IIIA	moderate	NO	Fundus/body	NO	WXS, TDS	NO	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.633333333333
+XHDG32C	XHDG32	NO	IIIA	low	YES	Fundus/body	YES	WXS, TDS	NO	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.66666666667
+XHDG33C	XHDG33	NO	IIIA	moderate	NO	Fundus/body	NO	WXS, TDS	NO	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.5
+XHDG34C	XHDG34	NO	IIIA	moderate	NO	Fundus/body	NO	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.13333333333
+XHDG35C	XHDG35	NO	IIIA	moderate	NO	Fundus/body	YES	WXS, TDS	NO	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	3.53333333333
+XHDG37C	XHDG37	NO	IIIA	moderate	YES	neck	NO	WXS, TDS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.566666666667
+XHDG38C	XHDG38	NO	IIIA	low	NO	Fundus/body	YES	WXS, TDS	NO	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	6.4
+XHDG39C	XHDG39	NO	IIIA	moderate	NO	Fundus/body	YES	WXS	NO	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.7
+XHDG40C	XHDG40	YES	IIIB	low	YES	neck	NO	WXS	NO	R1	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	1.8
+XHDG41C	XHDG41	NO	IIIA	moderate	NO	Fundus/body	NO	WXS	YES	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.433333333333
+XHDG42C	XHDG42	NO	IIIA	moderate	NO	Fundus/body	NO	WXS	NO	R0	GBC	Hepatobiliary Cancer	Gallbladder Cancer	Matched	0.466666666667

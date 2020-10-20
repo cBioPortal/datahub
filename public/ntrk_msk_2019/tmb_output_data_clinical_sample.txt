@@ -1,0 +1,111 @@
+#Patient Identifier	Sample Identifier	Localized or Metastaic at Diagnosis	Stage	Cancer Type	Cancer Type Detailed	Oncotree Code	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Localized or Metastaic at Diagnosis	Stage	Cancer Type	Cancer Type Detailed	Oncotree Code	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	LOCALIZED_VS_METS_AT_DX	STAGE	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	TMB_NONSYNONYMOUS
+P-0000104	P-0000104-T02-IM6	Localized	Unknown	Breast Cancer	Breast Invasive Lobular Carcinoma	ILC	0.366666666667
+P-0002671	P-0002671-T01-IM3	Metastatic	Stage IV	Colorectal Cancer	Colon Adenocarcinoma	COAD	2.3
+P-0002978	P-0002978-T02-IM5	Localized	Stage III	Salivary Gland Cancer	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin	HNMASC	0.0666666666667
+P-0003329	P-0003329-T01-IM5	Localized	Stage I	Hepatobiliary Cancer	Gallbladder Cancer	GBC	0.0333333333333
+P-0003705	P-0003705-T01-IM5	Metastatic	Stage IV	Appendiceal Cancer	Mucinous Adenocarcinoma of the Appendix	MAAP	0.1
+P-0004737	P-0004737-T01-IM5	Metastatic	Stage IV	Pancreatic Cancer	Pancreatic Adenocarcinoma	PAAD	0.1
+P-0006480	P-0006480-T01-IM5	Localized	Stage III	Salivary Gland Cancer	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin	HNMASC	0.133333333333
+P-0007050	P-0007050-T01-IM5	Localized	Stage III	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	LUAD	NA
+P-0007739	P-0007739-T01-IM5	Metastatic	Stage IV	Colorectal Cancer	Colon Adenocarcinoma	COAD	1.2
+P-0007772	P-0007772-T01-IM5	Localized	Unknown	Salivary Gland Cancer	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin	HNMASC	NA
+P-0007911	P-0007911-T02-IM5	Localized	Stage III	Thyroid Cancer	Poorly Differentiated Thyroid Cancer	THPD	0.1
+P-0009855	P-0009855-T01-IM5	Localized	Stage III	Melanoma	Cutaneous Melanoma	SKCM	0.1
+P-0010086	P-0010086-T01-IM5	Localized	Stage III	Soft Tissue Sarcoma	Sarcoma, NOS	SARCNOS	0.0666666666667
+P-0010264	P-0010264-T01-IM5	Metastatic	Stage IV	Pancreatic Cancer	Pancreatic Adenocarcinoma	PAAD	0.2
+P-0010562	P-0010562-T01-IM5	Localized	Stage I	Salivary Gland Cancer	Salivary Duct Carcinoma	SDCA	NA
+P-0010581	P-0010581-T01-IM5	Localized	Stage III	Colorectal Cancer	Colon Adenocarcinoma	COAD	2.26666666667
+P-0010628	P-0010628-T01-IM5	Metastatic	Stage IV	Cancer of Unknown Primary	Poorly Differentiated Carcinoma, NOS	PDC	NA
+P-0010668	P-0010668-T01-IM5	Localized	Unknown	Salivary Gland Cancer	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin	HNMASC	0.0666666666667
+P-0013121	P-0013121-T02-IM5	Localized	Stage III	Colorectal Cancer	Colon Adenocarcinoma	COAD	0.3
+P-0013196	P-0013196-T02-IM6	Unknown	Unknown	Breast Cancer	Breast Invasive Carcinoma, NOS	BRCNOS	NA
+P-0013559	P-0013559-T01-IM5	NA	Stage IV	Glioma	High-Grade Glioma, NOS	HGGNOS	0.0666666666667
+P-0013664	P-0013664-T02-IM5	Unknown	Unknown	Soft Tissue Sarcoma	Fibrosarcoma	FIBS	0.2
+P-0014143	P-0014143-T01-IM5	Localized	Stage II	Colorectal Cancer	Colon Adenocarcinoma	COAD	1.76666666667
+P-0014859	P-0014859-T01-IM6	Metastatic	Stage IV	Pancreatic Cancer	Pancreatic Adenocarcinoma	PAAD	0.0333333333333
+P-0014872	P-0014872-T02-IM6	Localized	Unknown	Soft Tissue Sarcoma	Inflammatory Myofibroblastic Tumor	IMT	NA
+P-0016347	P-0016347-T01-IM6	Localized	Stage II	Melanoma	Cutaneous Melanoma	SKCM	0.966666666667
+P-0016507	P-0016507-T01-IM6	Localized	Unknown	Salivary Gland Cancer	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin	HNMASC	0.166666666667
+P-0018060	P-0018060-T01-IM6	Localized	Stage III	Salivary Gland Cancer	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin	HNMASC	NA
+P-0018082	P-0018082-T01-IM6	Localized	Unknown	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	LUAD	0.0333333333333
+P-0021170	P-0021170-T02-IM6	Localized	Unknown	Soft Tissue Sarcoma	Sarcoma, NOS	SARCNOS	0.0666666666667
+P-0021262	P-0021262-T01-IM6	Metastatic	Stage IV	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	LUAD	0.0333333333333
+P-0021467	P-0021467-T01-IM6	NA	Stage IV	Glioma	Glioblastoma	GB	0.0666666666667
+P-0021974	P-0021974-T01-IM6	Localized	Stage III	Salivary Gland Cancer	Salivary Adenocarcinoma	SAAD	0.133333333333
+P-0022467	P-0022467-T01-IM6	Localized	Stage III	Thyroid Cancer	Anaplastic Thyroid Cancer	THAP	0.0666666666667
+P-0022925	P-0022925-T01-IM6	Unknown	Unknown	Soft Tissue Sarcoma	Sarcoma, NOS	SARCNOS	0.0333333333333
+P-0023215	P-0023215-T01-IM6	Metastatic	Stage IV	Pancreatic Cancer	Pancreatic Adenocarcinoma	PAAD	0.233333333333
+P-0023257	P-0023257-T01-IM6	Localized	Stage III	Salivary Gland Cancer	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin	HNMASC	0.0666666666667
+P-0023987	P-0023987-T01-IM6	Localized	Stage II	Soft Tissue Sarcoma	Sarcoma, NOS	SARCNOS	0.1
+P-0023994	P-0023994-T01-IM6	Localized	Stage III	Breast Cancer	Breast Invasive Carcinoma, NOS	BRCNOS	0.3
+P-0024549	P-0024549-T03-IM6	Metastatic	Stage IV	Thyroid Cancer	Papillary Thyroid Cancer	THPA	NA
+P-0025507	P-0025507-T01-IM6	Localized	Stage I	Breast Cancer	Breast Invasive Ductal Carcinoma	IDC	0.0333333333333
+P-0025815	P-0025815-T02-IM6	Localized	Stage I	Soft Tissue Sarcoma	Sarcoma, NOS	SARCNOS	NA
+P-0025987	P-0025987-T01-IM6	NA	Stage IV	Miscellaneous Brain Tumor	Primary Neuroepithelial Tumor	PRNET	NA
+P-0026286	P-0026286-T01-IM6	Unknown	Unknown	Salivary Gland Cancer	Salivary Carcinoma	SACA	0.0333333333333
+P-0026375	P-0026375-T01-IM6	Localized	Stage I	Thyroid Cancer	Papillary Thyroid Cancer	THPA	0.0666666666667
+P-0026390	P-0026390-T01-IM6	Localized	Stage I	Thyroid Cancer	Papillary Thyroid Cancer	THPA	0.0333333333333
+P-0027006	P-0027006-T01-IM6	Metastatic	Stage IV	Soft Tissue Sarcoma	Sarcoma, NOS	SARCNOS	0.2
+P-0029326	P-0029326-T01-IM6	Metastatic	Stage IV	Thyroid Cancer	Papillary Thyroid Cancer	THPA	NA
+P-0029892	P-0029892-T03-IM6	Localized	Stage III	Hepatobiliary Cancer	Intrahepatic Cholangiocarcinoma	IHCH	NA
+P-0000104	P-0000104-T03-AS1	Localized	Unknown	Breast Cancer	Breast Invasive Lobular Carcinoma	ILC	NA
+P-0003670	P-0003670-T03-AS1	Metastatic	Stage IV	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	LUAD	NA
+P-0005935	P-0005935-T02-AS1	Localized	Stage II	Thyroid Cancer	Papillary Thyroid Cancer	THPA	NA
+P-0007552	P-0007552-T03-AS1	Metastatic	Stage IV	Soft Tissue Sarcoma	Sarcoma, NOS	SARCNOS	NA
+P-0008457	P-0008457-T03-AS1	NA	Stage IV	Glioma	Glioblastoma Multiforme	GBM	NA
+P-0008951	P-0008951-T02-AS1	Localized	Unknown	Non-Small Cell Lung Cancer	Inflammatory Myofibroblastic Lung Tumor	IMTL	NA
+P-0010668	P-0010668-T02-AS1	Localized	Unknown	Salivary Gland Cancer	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin	HNMASC	NA
+P-0013121	P-0013121-T01-AS1	Localized	Stage III	Colorectal Cancer	Colon Adenocarcinoma	COAD	NA
+P-0013196	P-0013196-T01-AS1	Unknown	Unknown	Breast Cancer	Breast Invasive Carcinoma, NOS	BRCNOS	NA
+P-0013321	P-0013321-T01-AS1	Localized	Stage I	Soft Tissue Sarcoma	Sarcoma, NOS	SARCNOS	NA
+P-0013559	P-0013559-T02-AS1	NA	Stage IV	Glioma	High-Grade Glioma, NOS	HGGNOS	NA
+P-0013664	P-0013664-T01-AS1	Unknown	Unknown	NA	NA	NOT	NA
+P-0013859	P-0013859-T02-AS1	Localized	Stage I	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	LUAD	NA
+P-0014859	P-0014859-T02-AS1	Metastatic	Stage IV	Pancreatic Cancer	Pancreatic Adenocarcinoma	PAAD	NA
+P-0014872	P-0014872-T01-AS1	Localized	Unknown	Soft Tissue Sarcoma	Inflammatory Myofibroblastic Tumor	IMT	NA
+P-0016347	P-0016347-T02-AS1	Localized	Stage II	Melanoma	Cutaneous Melanoma	SKCM	NA
+P-0017925	P-0017925-T02-AS1	Localized	Stage III	Colorectal Cancer	Colon Adenocarcinoma	COAD	NA
+P-0019247	P-0019247-T02-AS1	Localized	Stage III	Melanoma	Anorectal Mucosal Melanoma	ARMM	NA
+P-0019359	P-0019359-T01-AS1	Localized	Stage II	Uterine Sarcoma	Uterine Leiomyosarcoma	ULMS	NA
+P-0021124	P-0021124-T02-AS1	Localized	Stage III	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	LUAD	NA
+P-0021170	P-0021170-T01-AS1	Localized	Unknown	Soft Tissue Sarcoma	Sarcoma, NOS	SARCNOS	NA
+P-0021262	P-0021262-T02-AS1	Metastatic	Stage IV	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	LUAD	NA
+P-0021467	P-0021467-T02-AS1	NA	Stage IV	Glioma	Glioblastoma Multiforme	GBM	NA
+P-0021795	P-0021795-T02-AS1	Metastatic	Stage IV	Thyroid Cancer	Papillary Thyroid Cancer	THPA	NA
+P-0022467	P-0022467-T02-AS1	Localized	Stage III	Thyroid Cancer	Anaplastic Thyroid Cancer	THAP	NA
+P-0023215	P-0023215-T02-AS1	Metastatic	Stage IV	Cancer of Unknown Primary	Adenocarcinoma, NOS	ADNOS	NA
+P-0023257	P-0023257-T02-AS1	Localized	Stage III	Salivary Gland Cancer	Salivary Adenocarcinoma	SAAD	NA
+P-0023987	P-0023987-T02-AS1	Localized	Stage II	Uterine Sarcoma	Undifferentiated Uterine Sarcoma	UUS	NA
+P-0023994	P-0023994-T03-AS1	Localized	Stage III	Breast Cancer	Invasive Breast Carcinoma	BRCA	NA
+P-0024549	P-0024549-T02-AS1	Metastatic	Stage IV	Thyroid Cancer	Papillary Thyroid Cancer	THPA	NA
+P-0025507	P-0025507-T02-AS1	Localized	Stage I	Breast Cancer	Invasive Breast Carcinoma	BRCA	NA
+P-0025987	P-0025987-T02-AS1	NA	Stage IV	Miscellaneous Brain Tumor	Primary Neuroepithelial Tumor	PRNET	NA
+P-0026177	P-0026177-T01-AS1	Unknown	Unknown	NA	NA	NOT	NA
+P-0026286	P-0026286-T02-AS1	Unknown	Unknown	Salivary Gland Cancer	Salivary Carcinoma	SACA	NA
+P-0026354	P-0026354-T03-AS1	Metastatic	Stage IV	Melanoma	Melanoma of Unknown Primary	MUP	NA
+P-0026357	P-0026357-T02-AS1	Localized	Stage II	Thyroid Cancer	Poorly Differentiated Thyroid Cancer	THPD	NA
+P-0026375	P-0026375-T02-AS1	Localized	Stage I	Thyroid Cancer	Papillary Thyroid Cancer	THPA	NA
+P-0026390	P-0026390-T02-AS1	Localized	Stage I	Thyroid Cancer	Papillary Thyroid Cancer	THPA	NA
+P-0026696	P-0026696-T02-AS1	Localized	Stage I	Thyroid Cancer	Papillary Thyroid Cancer	THPA	NA
+P-0027006	P-0027006-T02-AS1	Metastatic	Stage IV	Soft Tissue Sarcoma	Sarcoma, NOS	SARCNOS	NA
+P-0027277	P-0027277-T03-AS1	Unknown	Unknown	Breast Sarcoma	Breast Angiosarcoma	BA	NA
+P-0027278	P-0027278-T02-AS1	NA	Stage IV	Miscellaneous Brain Tumor	Primary Neuroepithelial Tumor	PRNET	NA
+P-0027671	P-0027671-T01-AS1	Unknown	Unknown	Melanoma	Spitzoid Melanoma	SPZM	NA
+P-0029326	P-0029326-T02-AS1	Metastatic	Stage IV	Thyroid Cancer	Papillary Thyroid Cancer	THPA	NA
+P-0029496	P-0029496-T02-AS1	Localized	Stage II	Colorectal Cancer	Medullary Carcinoma of the Colon	CMC	NA
+P-0029892	P-0029892-T02-AS1	Localized	Stage III	Hepatobiliary Cancer	Intrahepatic Cholangiocarcinoma	IHCH	NA
+P-0031128	P-0031128-T01-AS1	Localized	Stage I	Uterine Sarcoma	Uterine Sarcoma, Other	OUSARC	NA
+P-0032222	P-0032222-T01-AS1	Unknown	Stage IV	Miscellaneous Brain Tumor	Low-Grade Neuroepithelial Tumor	LGNET	NA
+P-0026354	P-0026354-T01-IM6	Metastatic	Stage IV	Melanoma	Melanoma of Unknown Primary	MUP	0.7
+P-0026696	P-0026696-T01-IM6	Localized	Stage I	Thyroid Cancer	Papillary Thyroid Cancer	THPA	0.0333333333333
+P-0027277	P-0027277-T01-IM6	Unknown	Unknown	Soft Tissue Sarcoma	Angiosarcoma	ANGS	0.166666666667
+P-0027278	P-0027278-T01-IM6	NA	Stage IV	Miscellaneous Brain Tumor	Primary Neuroepithelial Tumor	PRNET	NA
+P-0012463	P-0012463-T03-IM6	NA	Stage IV	Glioma	Glioblastoma	GB	1.26666666667
+P-0003368	P-0003368-T02-AS1	Localized	Unknown	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	LUAD	NA
+P-0012465	P-0012465-T01-AS1	Metastatic	Stage IV				NA
+P-C1	P-C1	Localized	Unknown				NA
+P-C2	P-C2	Localized	Unknown				NA

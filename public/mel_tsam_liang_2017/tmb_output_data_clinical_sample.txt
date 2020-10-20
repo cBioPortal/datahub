@@ -1,0 +1,43 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Stage at Presentation	Primary Tumor Site	Sample Type	Metastatic Site	Sub-site	Primary Depth	Primary Mitoses	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Stage at Presentation	Text term to describe the organ sub-division in an individual with cancer.	 The type of sample (i.e., normal, primary, met, recurrence).	The anatomic location to which the cancer has spread.	Sub-site.	Primary Depth	Primary Mitoses	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	STAGE_AT_PRESENTATION	PRIMARY_SITE	SAMPLE_TYPE	METASTATIC_SITE	SUB_SITE	PRIMARY_DEPTH	PRIMARY_MITOSES	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+P-1	VU1-1	ACRM	IIIB	Plantar Foot	Metastasis		Inguninal( LN Regional)	0.5	<1	Melanoma	Acral Melanoma	Matched	4.1
+P-2	VU2-2	ACRM	IIIA	Plantar Foot	Primary		Foot	5.5	6	Melanoma	Acral Melanoma	Matched	2.46666666667
+P-3	VU4-3	ACRM	IIIB	Plantar Foot	Metastasis		Leg( In-Transit)	4	4	Melanoma	Acral Melanoma	Matched	2.6
+P-4	VU5-4	ACRM	M1c	Plantar Foot	Metastasis		Mesentery (Distant Met)	1	2	Melanoma	Acral Melanoma	Matched	5.46666666667
+P-5	VU6-5	ACRM	M1a	Thumb	Metastasis		Arm (In-Transit)	5.5	Unknown	Melanoma	Acral Melanoma	Matched	6.8
+P-6	VU7-6	ACRM	IIIC	Plantar Foot	Metastasis		Pelvic LN (Deep Regional)	2.6	1	Melanoma	Acral Melanoma	Matched	1.26666666667
+P-7	VU8-7	ACRM	IIIB	Subungual Toe	Metastasis		Chest Wall (Distant Met)	5.5	3	Melanoma	Acral Melanoma	Matched	38.9
+P-8	VU9-8	ACRM	IIIB	Subungual Thumb	Primary		Thumb	6	10	Melanoma	Acral Melanoma	Matched	2.8
+P-9	VU10-9	ACRM	IIC	Subungual Thumb	Primary		Thumb	8	4	Melanoma	Acral Melanoma	Matched	2.66666666667
+P-10	VU11-10	ACRM	IIC	Plantar Foot	Primary		Heel	7	13	Melanoma	Acral Melanoma	Matched	2.76666666667
+P-11	VU12-11	ACRM	IIIC	Plantar Toe	Metastasis		Inguninal LN (Regional LN)	2.6	4	Melanoma	Acral Melanoma	Matched	2.6
+P-12	VU13-12	ACRM	IIIC	Plantar Foot	Primary		Foot	4	15	Melanoma	Acral Melanoma	Matched	1.5
+P-13	VU14-13	ACRM	IIIB	Subungual Toe	Primary		Foot	8	0	Melanoma	Acral Melanoma	Matched	1.96666666667
+P-14	VU15-14	ACRM	M1a	Subungual Toe	Metastasis		Ankle (In-Transit)	25	6	Melanoma	Acral Melanoma	Matched	1.9
+P-15	VU16-15	ACRM	IIIc	Plantar Foot	Primary		Foot/Ankle	3	3	Melanoma	Acral Melanoma	Matched	8.26666666667
+P-16	VU17-16	ACRM	IIC	Plantar Foot	Metastasis		Obturator LN (Regional LN)	4.2	5	Melanoma	Acral Melanoma	Matched	0.533333333333
+P-17	101984-1T-17	ACRM	IIA	Plantar Foot	Primary		Foot	2.5	2	Melanoma	Acral Melanoma	Matched	1.23333333333
+P-18	103340-1T-18	ACRM	IIB	Subungual	Primary		Greater Right Toe	2.1	14	Melanoma	Acral Melanoma	Matched	0.733333333333
+P-19	121441-2T-19	ACRM	IIIB	Foot	Primary		Great Toe Skin	4.3	5	Melanoma	Acral Melanoma	Matched	3.36666666667
+P-20	129988T-20	ACRM	IIIB	Plantar Foot	Metastasis	Lymph Node	Lymph Node	3.2	4	Melanoma	Acral Melanoma	Matched	2.23333333333
+P-21	136374-1T-21	ACRM	IIIC	Plantar Foot	Primary		Left Toe Tumor	12	3	Melanoma	Acral Melanoma	Matched	1.56666666667
+P-22	140122-1T-22	ACRM	IIIA	Platar Foot	Metastasis	Lymph Node	Inguinal	1.9	1	Melanoma	Acral Melanoma	Matched	0.6
+P-23	142883-1T-23	ACRM	IIIB	Plantar Foot	Primary		Foot	4.2	2	Melanoma	Acral Melanoma	Matched	1.3
+P-24	143455-1T-24	ACRM	IIA	Plantar Foot	Metastasis	Skin-Distant	Upper Extremities	1.5	6	Melanoma	Acral Melanoma	Matched	8.36666666667
+P-25	145041-1T-25a	ACRM	IIIB	Plantar Foot	Metastasis	Superficial Groin	Lymph Node	0.9	0	Melanoma	Acral Melanoma	Matched	14.5333333333
+P-25	148336T-25b	ACRM	IIIB	Plantar Foot	Metastasis		Na	NA	NA	Melanoma	Acral Melanoma	Matched	11.9333333333
+P-26	145604-1T-26	ACRM	IIC	Plantar Foot	Primary		Foot	5.5	28	Melanoma	Acral Melanoma	Matched	3.36666666667
+P-27	150199-1T-27	ACRM	IB	Plantar Foot	Primary		Foot	1.8	0	Melanoma	Acral Melanoma	Matched	1.63333333333
+P-28	148034-1T-28	ACRM	IIIB	Subungual Toe	Metastasis	Small Bowel	Toe	4	7	Melanoma	Acral Melanoma	Matched	2.2
+P-29	150449-2T-29a	ACRM	IIIC	Subungual Toe	Metastasis	Lymph Node	Lymph Node	3.5	1	Melanoma	Acral Melanoma	Matched	2.96666666667
+P-29	150449-14T-29b	ACRM	IIIC	Subungual Toe	Primary		Toe	NA	NA	Melanoma	Acral Melanoma	Matched	1.5
+P-29	152063-10T-29c	ACRM	IIIC	Subungual Toe	Metastasis	Lymph Node	Lymph Node	NA	NA	Melanoma	Acral Melanoma	Matched	2.9
+P-30	150756-1T-30	ACRM	IIIa	Plantar Foot	Metastasis	Skin	Lower Extremity	2.5	1	Melanoma	Acral Melanoma	Matched	0.966666666667
+P-31	157471-1T-31	ACRM	IIIC	Toe	Primary		Toe	8	8	Melanoma	Acral Melanoma	Matched	1.73333333333
+P-32	142162-1T-32	ACRM	IIC	Subungual Thumb	Metastasis	Lung	Lung	4.5	6	Melanoma	Acral Melanoma	Matched	14.7333333333
+P-33	143739-33	ACRM	IV	NA	Metastasis	Lymph Node	Toe	15	3	Melanoma	Acral Melanoma	Matched	84.8
+P-34	169894a-34a	ACRM	IIC	Plantar Foot	Metastasis	In Transit	Leg	4	7	Melanoma	Acral Melanoma	Matched	1.8
+P-34	169894b-34b	ACRM	NA	NA	Primary					Melanoma	Acral Melanoma	Matched	16.0666666667

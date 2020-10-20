@@ -1,0 +1,113 @@
+#Sample Identifier	Patient Identifier	Cancer Type Detailed Code	Neoplasm Histologic Grade	Initial FIGO Stage	Current Stage	Metastasis Site Code	WGD	Cancer Type	Sample Type	Sample Class	Metastatic Site	Cancer Type Detailed	Gene Panel	Oncotree Code	MSI Score	Somatic Status	Impact TMB Score	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Cancer Type Detailed Code	Value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Initial FIGO Stage	Stage of the most current treatment	Metastasis Site Code	WGD	Cancer Type	The type of sample (i.e., normal, primary, met, recurrence).	The sample classification (i.e., tumor, cellline, xenograph).	The anatomic location to which the cancer has spread.	Cancer Type Detailed	Gene panel.	Oncotree Code	MSI Score	Somatic Status	Calculated TMB score	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	NUMBER	STRING
+#0	0	1	1	1	1	1	1	1	1	0	0	1	1	0	1	1	1	1
+SAMPLE_ID	PATIENT_ID	CANCER_TYPE_DETAILED_CODE	GRADE	INITIAL_FIGO_STAGE	CURRENT_STAGE	METASTASIS_SITE_CODE	WGD	CANCER_TYPE	SAMPLE_TYPE	SAMPLE_CLASS	METASTATIC_SITE	CANCER_TYPE_DETAILED	GENE_PANEL	ONCOTREE_CODE	MSI_SCORE	SOMATIC_STATUS	CVR_TMB_SCORE	TMB_NONSYNONYMOUS
+P-0000092-T01-IM3	P-0000092	LMS	High	IIIA	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.55	Matched	5.6	5.60774496873
+P-0000116-T01-IM3	P-0000116	LMS	High	I	IVB	Others	FALSE	Uterine Sarcoma	Metastasis	Tumor	Diaphragm	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.78	Matched	NA	0.0
+P-0000271-T01-IM3	P-0000271	LMS	High	IB	IVB	Lung	FALSE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.3	Matched	4.5	4.48619597498
+P-0000355-T01-IM3	P-0000355	LMS	High	IB	IVB	Others	TRUE	Uterine Sarcoma	Metastasis	Tumor	Chest wall	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.46	Matched	4.5	4.48619597498
+P-0000382-T01-IM3	P-0000382	LMS	High	IB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.74	Matched	6.7	6.72929396248
+P-0000451-T01-IM3	P-0000451	LMS	High	IVA	IVA	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.93	Unmatched	4.5	4.48619597498
+P-0000482-T01-IM3	P-0000482	LMS	High	IVB	IVB	Lung	FALSE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.09	Matched	3.3	3.36464698124
+P-0000499-T01-IM3	P-0000499	LMS	High	IVB	IVB	Abdomen	FALSE	Uterine Sarcoma	Metastasis	Tumor	Abdomen	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.73	Matched	2.2	2.24309798749
+P-0000576-T01-IM3	P-0000576	LMS	High	I	IVB	Others	FALSE	Uterine Sarcoma	Metastasis	Tumor	Bowels	Uterine Leiomyosarcoma	IMPACT341	ULMS	2.13	Matched	3.3	3.36464698124
+P-0000711-T01-IM3	P-0000711	LMS	High	IVA	IVA	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.74	Matched	2.2	2.24309798749
+P-0001046-T01-IM3	P-0001046	LMS	High	IVB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.66	Matched	2.2	2.24309798749
+P-0001095-T01-IM3	P-0001095	USTUMP	Low	IB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Smooth Muscle Tumor of Uncertain Malignant Potential	IMPACT341	USTUMP	1.27	Matched	2.2	2.24309798749
+P-0001164-T01-IM3	P-0001164	HGNonLMS	High	IB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	High-Grade Endometrial Stromal Sarcoma	IMPACT341	HGESS	0.16	Matched	1.1	1.12154899375
+P-0001211-T01-IM3	P-0001211	LMS	High	IVB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.64	Matched	6.7	6.72929396248
+P-0001439-T01-IM3	P-0001439	LMS	High	IVB	IVB	Others	TRUE	Uterine Sarcoma	Metastasis	Tumor	Brain	Uterine Leiomyosarcoma	IMPACT341	ULMS	2.97	Matched	3.3	3.36464698124
+P-0001464-T01-IM3	P-0001464	LMS	High	IVB	IVB	Others	TRUE	Uterine Sarcoma	Metastasis	Tumor	Rectosigmoid Colon	Uterine Leiomyosarcoma	IMPACT341	ULMS	2.05	Matched	4.5	4.48619597498
+P-0001513-T01-IM3	P-0001513	LMS	High	IB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.47	Matched	1.1	1.12154899375
+P-0001515-T01-IM3	P-0001515	LMS	High	IB	IIB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.51	Matched	2.2	2.24309798749
+P-0001549-T01-IM3	P-0001549	LMS	High	IB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.62	Matched	1.1	1.12154899375
+P-0001564-T01-IM3	P-0001564	LMS	High	IA	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.08	Matched	3.3	3.36464698124
+P-0001572-T01-IM3	P-0001572	LMS	High	IA	IVB	Others	TRUE	Uterine Sarcoma	Metastasis	Tumor	Bone	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.03	Matched	1.1	1.12154899375
+P-0001604-T01-IM3	P-0001604	LMS	High	IB	IB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.61	Matched	NA	0.0
+P-0001606-T01-IM3	P-0001606	LMS	High	IB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.17	Matched	NA	0.0
+P-0001615-T01-IM3	P-0001615	LMS	High	IVB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Myxoid Leiomyosarcoma	IMPACT341	UMLMS	0	Matched	2.2	2.24309798749
+P-0001701-T01-IM3	P-0001701	LMS	High	IVB	IVB	Omentum	TRUE	Uterine Sarcoma	Metastasis	Tumor	Omentum	Uterine Leiomyosarcoma	IMPACT341	ULMS	2.81	Matched	3.3	3.36464698124
+P-0001780-T01-IM3	P-0001780	LMS	High	I	IVB	Others	NA	Uterine Sarcoma	Metastasis	Tumor	Muscle	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.07	Matched	6.7	6.72929396248
+P-0001781-T01-IM3	P-0001781	LMS	High	IIB	IVB	Pelvis	NA	Uterine Sarcoma	Metastasis	Tumor	Pelvis	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.79	Matched	6.7	6.72929396248
+P-0001814-T01-IM3	P-0001814	LMS	High	IB	IVB	Others	TRUE	Uterine Sarcoma	Metastasis	Tumor	Sigmoid Colon	Uterine Myxoid Leiomyosarcoma	IMPACT341	UMLMS	1.11	Matched	2.2	2.24309798749
+P-0001821-T01-IM3	P-0001821	LMS	High	IB	IVB	Lung	FALSE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Epithelioid Leiomyosarcoma	IMPACT341	UELMS	25.08	Matched	72.5	74.0222335873
+P-0001825-T01-IM3	P-0001825	LMS	High	IVB	IVB	Others	FALSE	Uterine Sarcoma	Metastasis	Tumor	Stomach	Uterine Epithelioid Leiomyosarcoma	IMPACT341	UELMS	0.08	Matched	3.3	3.36464698124
+P-0001838-T01-IM3	P-0001838	HGNonLMS	High	IB	IVB	Liver	TRUE	Uterine Sarcoma	Metastasis	Tumor	Liver	Undifferentiated Uterine Sarcoma	IMPACT341	UUS	0	Matched	NA	0.0
+P-0001989-T01-IM3	P-0001989	LMS	High	IVB	IVB	Liver	TRUE	Uterine Sarcoma	Metastasis	Tumor	Liver	Uterine Leiomyosarcoma	IMPACT341	ULMS	3.51	Matched	4.5	4.48619597498
+P-0002100-T01-IM3	P-0002100	LMS	High	IB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT341	ULMS	1.58	Matched	1.1	1.12154899375
+P-0002226-T01-IM3	P-0002226	HGNonLMS	High	IA	IVB	Abdomen	FALSE	Uterine Sarcoma	Metastasis	Tumor	Abdomen	Uterine Sarcoma, Other	IMPACT341	OUSARC	1.63	Matched	6.7	5.60774496873
+P-0002226-T02-IM5	P-0002226	HGNonLMS	High	IA	IVB	Pelvis	FALSE	Uterine Sarcoma	Metastasis	Tumor	Pelvis	Uterine Sarcoma, Other	IMPACT410	OUSARC	1.48	Matched	3.9	2.98069700619
+P-0002256-T02-IM5	P-0002256	HGNonLMS	High	IVB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Sarcoma, Other	IMPACT410	OUSARC	0.62	Matched	3.9	3.97426267492
+P-0002272-T01-IM3	P-0002272	LMS	High	IB	IVB	Pelvis	FALSE	Uterine Sarcoma	Metastasis	Tumor	Pelvis	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.75	Matched	1.1	1.12154899375
+P-0002356-T01-IM3	P-0002356	LMS	High	IVB	IVB	Liver	FALSE	Uterine Sarcoma	Metastasis	Tumor	Liver	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.81	Matched	4.5	4.48619597498
+P-0002430-T01-IM3	P-0002430	LMS	High	IB	IB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	0	Matched	2.2	2.24309798749
+P-0002479-T01-IM3	P-0002479	LMS	High	IB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.37	Matched	3.3	3.36464698124
+P-0002513-T02-IM5	P-0002513	LMS	High	IB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT410	ULMS	2.33	Matched	3.9	3.97426267492
+P-0002679-T01-IM3	P-0002679	LMS	High	IVB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	0.43	Matched	2.2	2.24309798749
+P-0002807-T01-IM3	P-0002807	LMS	High	IVA	IVB	Pelvis	FALSE	Uterine Sarcoma	Metastasis	Tumor	Pelvic mass	Uterine Epithelioid Leiomyosarcoma	IMPACT341	UELMS	0.28	Matched	NA	0.0
+P-0002812-T01-IM3	P-0002812	LMS	High	IIIC	IVB	Others	TRUE	Uterine Sarcoma	Metastasis	Tumor	Para-aortic mass	Uterine Epithelioid Leiomyosarcoma	IMPACT341	UELMS	18.48	Matched	21.2	21.3094308812
+P-0002817-T01-IM3	P-0002817	LMS	High	IA	IVB	Liver	FALSE	Uterine Sarcoma	Metastasis	Tumor	Liver	Uterine Leiomyosarcoma	IMPACT341	ULMS	2.03	Matched	1.1	1.12154899375
+P-0002885-T01-IM3	P-0002885	LMS	High	IB	IIB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT341	ULMS	3.24	Matched	2.2	2.24309798749
+P-0003032-T01-IM5	P-0003032	LMS	High	IIIA	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	pelvis	Uterine Leiomyosarcoma	IMPACT410	ULMS	0	Matched	1	0.993565668729
+P-0003109-T01-IM5	P-0003109	LMS	High	IIIA	IVB	Others	NA	Uterine Sarcoma	Metastasis	Tumor	Scalp	Uterine Leiomyosarcoma	IMPACT410	ULMS	NA	Unmatched	6.9	6.95495968111
+P-0003113-T01-IM5	P-0003113	HGNonLMS	High	IA	IVB	Lung	FALSE	Uterine Sarcoma	Metastasis	Tumor	Lung	Endometrial Stromal Sarcoma	IMPACT410	ESS	0.74	Matched	1	0.993565668729
+P-0003138-T01-IM5	P-0003138	HGNonLMS	High	IVB	IVB	Omentum	FALSE	Uterine Sarcoma	Metastasis	Tumor	Omentum	Uterine Adenosarcoma	IMPACT410	UAS	0.34	Matched	1	0.993565668729
+P-0003267-T01-IM5	P-0003267	HGNonLMS	High	IB	IVB	Pelvis	FALSE	Uterine Sarcoma	Metastasis	Tumor	Pelvic wall	High-Grade Endometrial Stromal Sarcoma	IMPACT410	HGESS	1.41	Matched	1	0.993565668729
+P-0003476-T01-IM5	P-0003476	LMS	High	IVB	IVB	Pelvis	FALSE	Uterine Sarcoma	Metastasis	Tumor	Pelvic wall	Uterine Leiomyosarcoma	IMPACT410	ULMS	2.14	Matched	3.9	3.97426267492
+P-0003754-T01-IM5	P-0003754	LMS	High	IB	IVB	Others	FALSE	Uterine Sarcoma	Metastasis	Tumor	Upper urinary tract	Uterine Leiomyosarcoma	IMPACT410	ULMS	2.46	Matched	3	2.98069700619
+P-0003806-T01-IM5	P-0003806	LMS	High	IB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung, liver	Uterine Leiomyosarcoma	IMPACT410	ULMS	1.51	Matched	NA	0.0
+P-0003867-T01-IM5	P-0003867	LMS	High	IB	IVB	Pelvis	FALSE	Uterine Sarcoma	Metastasis	Tumor	Pelvis	Uterine Leiomyosarcoma	IMPACT410	ULMS	0.94	Matched	1	0.993565668729
+P-0003980-T01-IM3	P-0003980	HGNonLMS	High	IVB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Undifferentiated Uterine Sarcoma	IMPACT341	UUS	0.33	Matched	2.2	2.24309798749
+P-0003998-T01-IM5	P-0003998	LMS	High	IB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT410	ULMS	1.88	Matched	3	2.98069700619
+P-0004070-T02-IM5	P-0004070	LMS	High	IIIA	IIIB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT410	ULMS	0.7	Matched	3	2.98069700619
+P-0004164-T01-IM5	P-0004164	HGNonLMS	High	IA	IVB	Lung	FALSE	Uterine Sarcoma	Metastasis	Tumor	Lung	High-Grade Endometrial Stromal Sarcoma	IMPACT410	HGESS	0.07	Matched	1	0.993565668729
+P-0004269-T01-IM5	P-0004269	LMS	High	IIIB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	lung	Uterine Leiomyosarcoma	IMPACT410	ULMS	1.38	Matched	2	1.98713133746
+P-0004467-T01-IM5	P-0004467	LMS	High	IB	IB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	uterus	Uterine Leiomyosarcoma	IMPACT410	ULMS	0.31	Matched	NA	0.0
+P-0004596-T01-IM5	P-0004596	HGNonLMS	High	IB	IVB	Lung	FALSE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Sarcoma, Other	IMPACT410	OUSARC	0.16	Matched	1	0.993565668729
+P-0004603-T01-IM5	P-0004603	LMS	High	IB	IVB	Abdomen	TRUE	Uterine Sarcoma	Metastasis	Tumor	Abdomen	Uterine Leiomyosarcoma	IMPACT410	ULMS	4.95	Matched	3	2.98069700619
+P-0004717-T01-IM5	P-0004717	HGNonLMS	High	IVB	IVB	Pelvis	FALSE	Uterine Sarcoma	Metastasis	Tumor	Pelvis	Endometrial Stromal Sarcoma	IMPACT410	ESS	0.95	Matched	NA	0.0
+P-0004731-T01-IM5	P-0004731	LMS	High	IA	IVB	Others	TRUE	Uterine Sarcoma	Metastasis	Tumor	Soft Tissue	Uterine Leiomyosarcoma	IMPACT410	ULMS	0.69	Matched	3.9	3.97426267492
+P-0004804-T01-IM5	P-0004804	LMS	High	IVB	IVB	Pelvis	TRUE	Uterine Sarcoma	Metastasis	Tumor	Pelvis	Uterine Leiomyosarcoma	IMPACT410	ULMS	1.95	Matched	2	1.98713133746
+P-0004973-T01-IM5	P-0004973	LMS	High	IVB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT410	ULMS	1.06	Matched	1	0.993565668729
+P-0004976-T01-IM5	P-0004976	LGESS	Low	IA	IVB	Abdomen	FALSE	Uterine Sarcoma	Metastasis	Tumor	Abdomen	Low-Grade Endometrial Stromal Sarcoma	IMPACT410	LGESS	0.67	Matched	NA	0.0
+P-0005108-T01-IM5	P-0005108	HGNonLMS	High	IB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	High-Grade Endometrial Stromal Sarcoma	IMPACT410	HGESS	0	Matched	NA	0.0
+P-0005149-T01-IM5	P-0005149	LMS	High	IB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT410	ULMS	2.13	Matched	2	1.98713133746
+P-0005156-T01-IM5	P-0005156	LGESS	Low	IVB	IVB	Others	FALSE	Uterine Sarcoma	Metastasis	Tumor	Soft Tissue	Endometrial Stromal Sarcoma	IMPACT410	ESS	1.42	Matched	1	0.993565668729
+P-0005331-T01-IM5	P-0005331	LMS	High	IB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT410	ULMS	0.76	Matched	1	0.993565668729
+P-0005582-T01-IM5	P-0005582	LMS	High	IB	IVA	Pelvis	FALSE	Uterine Sarcoma	Metastasis	Tumor	Pelvis	Uterine Leiomyosarcoma	IMPACT410	ULMS	0.93	Matched	3.9	3.97426267492
+P-0006042-T01-IM5	P-0006042	LMS	High	IVB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT410	ULMS	2.27	Matched	3	2.98069700619
+P-0006297-T01-IM5	P-0006297	LMS	High	IB	IVB	Abdomen	FALSE	Uterine Sarcoma	Metastasis	Tumor	Abdomen	Uterine Leiomyosarcoma	IMPACT410	ULMS	2.11	Matched	2	1.98713133746
+P-0007516-T01-IM5	P-0007516	HGNonLMS	High	IA	IA	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Adenosarcoma	IMPACT410	UAS	0.25	Matched	2	0.993565668729
+P-0007891-T01-IM5	P-0007891	LMS	High	IVB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT410	ULMS	1.34	Matched	3.9	3.97426267492
+P-0008269-T01-IM5	P-0008269	LMS	High	IVB	IVB	Lung	FALSE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT410	ULMS	0.52	Matched	2	1.98713133746
+P-0008713-T01-IM5	P-0008713	USTUMP	Low	IB	IVB	Others	FALSE	Uterine Sarcoma	Metastasis	Tumor	Retroperitoneum	Uterine Smooth Muscle Tumor of Uncertain Malignant Potential	IMPACT410	USTUMP	2.6	Matched	1	0.993565668729
+P-0009314-T01-IM5	P-0009314	LMS	High	IVB	IVB	Others	FALSE	Uterine Sarcoma	Metastasis	Tumor	Muscle	Uterine Leiomyosarcoma	IMPACT410	ULMS	1.45	Matched	2	1.98713133746
+P-0011112-T01-IM5	P-0011112	LMS	High	IVB	IVB	Omentum	FALSE	Uterine Sarcoma	Metastasis	Tumor	Omentum	Uterine Leiomyosarcoma	IMPACT410	ULMS	1.1	Matched	2	1.98713133746
+P-0011562-T01-IM5	P-0011562	LMS	High	IB	IB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Epithelioid Leiomyosarcoma	IMPACT410	UELMS	2.05	Matched	4.9	4.96782834365
+P-0012390-T01-IM5	P-0012390	HGNonLMS	High	IVB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Sarcoma, Other	IMPACT410	OUSARC	0.8	Matched	3.9	3.97426267492
+P-0012473-T02-IM6	P-0012473	LMS	High	IB	IB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	hx NSCLC 2006	Uterine Leiomyosarcoma	IMPACT468	ULMS	NA	Matched	2.6	2.64844536257
+P-0013445-T01-IM5	P-0013445	LMS	High	IB	IVB	Abdomen	TRUE	Uterine Sarcoma	Metastasis	Tumor	Abdomen	Uterine Leiomyosarcoma	IMPACT410	ULMS	2.91	Matched	6.9	6.95495968111
+P-0013616-T01-IM5	P-0013616	LMS	High	IB	IB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT410	ULMS	0.21	Matched	NA	0.0
+P-0013724-T01-IM5	P-0013724	LMS	High	IB	IVB	Lung	TRUE	Uterine Sarcoma	Metastasis	Tumor	Lung	Uterine Leiomyosarcoma	IMPACT410	ULMS	1.23	Matched	3	2.98069700619
+P-0013980-T01-IM5	P-0013980	LMS	High	IB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT410	ULMS	1.36	Matched	4.9	4.96782834365
+P-0014134-T01-IM5	P-0014134	LMS	High	IB	IVB	Pelvis	TRUE	Uterine Sarcoma	Metastasis	Tumor	Pelvis	Uterine Leiomyosarcoma	IMPACT410	ULMS	4.55	Matched	1	0.993565668729
+P-0014679-T01-IM6	P-0014679	LMS	High	IB	IB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT468	ULMS	0.45	Matched	1.8	1.76563024171
+P-0014873-T01-IM6	P-0014873	HGNonLMS	High	IVA	IVB	Others	TRUE	Uterine Sarcoma	Metastasis	Tumor	Rectovaginal septum	Uterine Adenosarcoma	IMPACT468	UAS	1.76	Matched	2.6	2.64844536257
+P-0014999-T01-IM6	P-0014999	LGESS	Low	IB	IVB	Pelvis	FALSE	Uterine Sarcoma	Metastasis	Tumor	Pelvis	Low-Grade Endometrial Stromal Sarcoma	IMPACT468	LGESS	NA	Matched	2.6	2.64844536257
+P-0015013-T01-IM6	P-0015013	HGNonLMS	High	IVB	IVB	Others	TRUE	Uterine Sarcoma	Metastasis	Tumor	Brain	Undifferentiated Uterine Sarcoma	IMPACT468	UUS	NA	Matched	4.4	5.29689072514
+P-0015053-T01-IM6	P-0015053	LMS	High	IB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT468	ULMS	NA	Matched	NA	0.0
+P-0015124-T01-IM6	P-0015124	HGNonLMS	High	IB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Sarcoma, Other	IMPACT468	OUSARC	NA	Matched	1.8	1.76563024171
+P-0015258-T01-IM6	P-0015258	LMS	High	IB	IVB	Liver	FALSE	Uterine Sarcoma	Metastasis	Tumor	Liver	Uterine Leiomyosarcoma	IMPACT468	ULMS	NA	Matched	3.5	3.53126048343
+P-0015609-T01-IM6	P-0015609	LMS	High	IVB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT468	ULMS	NA	Matched	2.6	2.64844536257
+P-0015611-T01-IM6	P-0015611	LMS	High	IB	IVB	Pelvis	TRUE	Uterine Sarcoma	Metastasis	Tumor	Pelvis	Uterine Leiomyosarcoma	IMPACT468	ULMS	NA	Matched	2.6	2.64844536257
+P-0016598-T01-IM6	P-0016598	HGNonLMS	High	IIIC	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Undifferentiated Uterine Sarcoma	IMPACT468	UUS	NA	Matched	0.9	0.882815120857
+P-0016672-T03-IM6	P-0016672	HGNonLMS	High	IVB	IVB	Lung	FALSE	Uterine Sarcoma	Metastasis	Tumor	lung	Uterine Sarcoma, Other	IMPACT468	OUSARC	NA	Matched	NA	0.0
+P-0017242-T01-IM6	P-0017242	LMS	High	IVB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT468	ULMS	NA	Matched	1.8	1.76563024171
+P-0017377-T01-IM6	P-0017377	LGESS	Low	IB	IVB	Lung	FALSE	Uterine Sarcoma	Metastasis	Tumor	Lung	Low-Grade Endometrial Stromal Sarcoma	IMPACT468	LGESS	NA	Matched	NA	0.0
+P-0017785-T01-IM6	P-0017785	LMS	High	IVB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT468	ULMS	NA	Matched	1.8	1.76563024171
+P-0017888-T01-IM6	P-0017888	LMS	High	IVB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Myxoid Leiomyosarcoma	IMPACT468	UMLMS	NA	Matched	NA	0.0
+P-0017998-T01-IM6	P-0017998	LMS	High	IVB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Leiomyosarcoma	IMPACT468	ULMS	NA	Matched	2.6	2.64844536257
+P-0018223-T01-IM6	P-0018223	LMS	High	IVB	IVB	NA	TRUE	Uterine Sarcoma	Primary	Tumor	NA	Uterine Epithelioid Leiomyosarcoma	IMPACT468	UELMS	NA	Matched	2.6	2.64844536257
+P-0018539-T01-IM6	P-0018539	HGNonLMS	High	IIC	IVB	Pelvis	FALSE	Uterine Sarcoma	Metastasis	Tumor	pelvic tumor	Uterine Adenosarcoma	IMPACT468	UAS	NA	Matched	8.8	8.82815120857
+P-0018937-T01-IM6	P-0018937	HGNonLMS	High	IB	IVB	NA	FALSE	Uterine Sarcoma	Primary	Tumor	NA	High-Grade Endometrial Stromal Sarcoma	IMPACT468	HGESS	NA	Matched	NA	0.0

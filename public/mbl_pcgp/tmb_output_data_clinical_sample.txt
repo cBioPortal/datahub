@@ -1,0 +1,42 @@
+#Patient Identifier	Sample Identifier	Tumor cellularity dominant pathology review	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Tumor cellularity dominant pathology review	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR_CELLULARITY_PATHOLOGY_REVIEW	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+WNT-02	SJMB041	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.366666666667
+WNT-07	SJMB001	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.366666666667
+WNT-08	SJMB028	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.4
+WNT-09	SJMB040	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.366666666667
+WNT-11	SJMB002	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.4
+SHH-03	SJMB012	MB-DN	MBL	Embryonal Tumor	Medulloblastoma	0.666666666667
+SHH-04	SJMB003	MB-DN	MBL	Embryonal Tumor	Medulloblastoma	0.233333333333
+SHH-05	SJMB013	MB-DN	MBL	Embryonal Tumor	Medulloblastoma	0.1
+SHH-09	SJMB004	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.333333333333
+SHH-12	SJMB033	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.533333333333
+G3-02	SJMB017	MB-AN	MBL	Embryonal Tumor	Medulloblastoma	1.26666666667
+G3-03	SJMB025	MB-AN	MBL	Embryonal Tumor	Medulloblastoma	0.4
+G3-04	SJMB030	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.466666666667
+G3-13	SJMB031	MB-AN	MBL	Embryonal Tumor	Medulloblastoma	1.06666666667
+G3-14	SJMB006	MB-AN	MBL	Embryonal Tumor	Medulloblastoma	0.0333333333333
+G3-16	SJMB008	MB-AN	MBL	Embryonal Tumor	Medulloblastoma	2.76666666667
+G4-03	SJMB038	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.2
+G4-04	SJMB027	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.166666666667
+G4-05	SJMB032	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.266666666667
+G4-06	SJMB016	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.666666666667
+G4-07	SJMB019	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.166666666667
+G4-08	SJMB039	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.4
+G4-09	SJMB034	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.2
+G4-10	SJMB020	MB-AN	MBL	Embryonal Tumor	Medulloblastoma	0.366666666667
+G4-11	SJMB010	MB-AN	MBL	Embryonal Tumor	Medulloblastoma	0.166666666667
+G4-12	SJMB023	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.166666666667
+G4-13	SJMB035	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.0333333333333
+G4-20	SJMB009	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.4
+G4-21	SJMB011	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.266666666667
+G4-23	SJMB014	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.333333333333
+G4-26	SJMB018	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.166666666667
+G4-29	SJMB036	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.1
+G4-32	SJMB037	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.0666666666667
+G4-35	SJMB024	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.133333333333
+G4-36	SJMB015	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.266666666667
+U-01	SJMB026	MB-CL	MBL	Embryonal Tumor	Medulloblastoma	0.2
+U-02	SJMB029	MB-AN	MBL	Embryonal Tumor	Medulloblastoma	0.266666666667

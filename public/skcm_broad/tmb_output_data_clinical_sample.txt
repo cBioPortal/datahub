@@ -1,0 +1,126 @@
+#Patient Identifier	Sample Identifier	Primary Tumor Site	breslow depth	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Text term to describe the organ sub-division in an individual with cancer.	breslow depth	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	PRIMARY_SITE	BRESLOW_DEPTH	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+MEL-JWCI-WGS-1	MEL-JWCI-WGS-1	Face (Except Nose)	0.76	SKCM	Melanoma	Cutaneous Melanoma	162.7
+MEL-JWCI-WGS-11	MEL-JWCI-WGS-11			SKCM	Melanoma	Cutaneous Melanoma	18.0333333333
+MEL-JWCI-WGS-12	MEL-JWCI-WGS-12	Arm, Upper Dorsal	9	SKCM	Melanoma	Cutaneous Melanoma	90.4333333333
+MEL-JWCI-WGS-13	MEL-JWCI-WGS-13	Back, Trunk Posterior Upper (Except Midline)		SKCM	Melanoma	Cutaneous Melanoma	19.4
+MEL-JWCI-WGS-14	MEL-JWCI-14	Neck, Posterior Midline	2.3	SKCM	Melanoma	Cutaneous Melanoma	50.9666666667
+MEL-JWCI-WGS-15	MEL-JWCI-WGS-15	Leg, Lower Anterior		SKCM	Melanoma	Cutaneous Melanoma	5.0
+MEL-JWCI-WGS-18	MEL-JWCI-WGS-18	Leg, Lower Posterior	2.3	SKCM	Melanoma	Cutaneous Melanoma	10.8666666667
+MEL-JWCI-WGS-19	MEL-JWCI-WGS-19	Back, Trunk Posterior Upper (Except Midline)	1.3	SKCM	Melanoma	Cutaneous Melanoma	6.73333333333
+MEL-JWCI-WGS-2	MEL-JWCI-WGS-2	Plantar Foot (Except Toes)	1.46	SKCM	Melanoma	Cutaneous Melanoma	1.53333333333
+MEL-JWCI-WGS-20	MEL-JWCI-WGS-20	Subungual, Fingers		SKCM	Melanoma	Cutaneous Melanoma	6.36666666667
+MEL-JWCI-WGS-21	MEL-JWCI-WGS-21	Thigh, Anterior	1.1	SKCM	Melanoma	Cutaneous Melanoma	23.8666666667
+MEL-JWCI-WGS-22	MEL-JWCI-WGS-22	Neck, Anterior (Except Midline)	1.5	SKCM	Melanoma	Cutaneous Melanoma	35.0
+MEL-JWCI-WGS-23	MEL-JWCI-WGS-23			SKCM	Melanoma	Cutaneous Melanoma	9.43333333333
+MEL-JWCI-WGS-24	MEL-JWCI-WGS-24	Thigh, Anterior	10	SKCM	Melanoma	Cutaneous Melanoma	6.5
+MEL-JWCI-WGS-25	MEL-JWCI-WGS-25	Neck, Anterior (Except Midline)	1.63	SKCM	Melanoma	Cutaneous Melanoma	55.7
+MEL-JWCI-WGS-26	MEL-JWCI-WGS-26	Eye, Iris & Sclera, Choroid, Ocular		SKCM	Melanoma	Cutaneous Melanoma	4.86666666667
+MEL-JWCI-WGS-27	MEL-JWCI-27	Scalp, Posterior (Behind Anterior Part Of Helix)	0.7	SKCM	Melanoma	Cutaneous Melanoma	60.3
+MEL-JWCI-WGS-29	MEL-JWCI-WGS-29	Back, Trunk Posterior Upper (Except Midline)	2.4	SKCM	Melanoma	Cutaneous Melanoma	15.7666666667
+MEL-JWCI-WGS-3	MEL-JWCI-WGS-3	Chest, Trunk Anterior Upper (Except Nipple & Midline)	2.7	SKCM	Melanoma	Cutaneous Melanoma	19.4666666667
+MEL-JWCI-WGS-31	MEL-JWCI-WGS-31			SKCM	Melanoma	Cutaneous Melanoma	8.3
+MEL-JWCI-WGS-32	MEL-JWCI-WGS-32	Forearm, Volar	1.9	SKCM	Melanoma	Cutaneous Melanoma	20.3666666667
+MEL-JWCI-WGS-33	MEL-JWCI-WGS-33	Leg, Lower Posterior	1.1	SKCM	Melanoma	Cutaneous Melanoma	11.6666666667
+MEL-JWCI-WGS-34	MEL-JWCI-WGS-34	Leg & Hip	0.5	SKCM	Melanoma	Cutaneous Melanoma	33.8
+MEL-JWCI-WGS-35	MEL-JWCI-WGS-35	Neck, Anterior (Except Midline)	6	SKCM	Melanoma	Cutaneous Melanoma	16.0
+MEL-JWCI-WGS-36	MEL-JWCI-WGS-36	Back, Trunk Posterior Upper (Except Midline)	3	SKCM	Melanoma	Cutaneous Melanoma	12.8666666667
+MEL-JWCI-WGS-37	MEL-JWCI-WGS-37	Chest, Trunk Anterior Upper (Except Nipple & Midline)	1.6	SKCM	Melanoma	Cutaneous Melanoma	3.06666666667
+MEL-JWCI-WGS-38	MEL-JWCI-WGS-38			SKCM	Melanoma	Cutaneous Melanoma	11.1666666667
+MEL-JWCI-WGS-39	MEL-JWCI-WGS-39	Back, Trunk Upper Midline	0.8	SKCM	Melanoma	Cutaneous Melanoma	25.6333333333
+MEL-JWCI-WGS-4	MEL-JWCI-WGS-4	Back, Trunk Posterior Upper (Except Midline)	2.7	SKCM	Melanoma	Cutaneous Melanoma	16.9
+MEL-JWCI-WGS-42	MEL-JWCI-WGS-42	Chest, Trunk Anterior Upper (Except Nipple & Midline)	2	SKCM	Melanoma	Cutaneous Melanoma	10.0
+MEL-JWCI-WGS-43	MEL-JWCI-WGS-43	Back, Trunk Posterior Upper (Except Midline)	0.75	SKCM	Melanoma	Cutaneous Melanoma	14.1333333333
+MEL-JWCI-WGS-5	MEL-JWCI-WGS-5			SKCM	Melanoma	Cutaneous Melanoma	13.2333333333
+MEL-JWCI-WGS-6	MEL-JWCI-WGS-6			SKCM	Melanoma	Cutaneous Melanoma	23.1
+MEL-JWCI-WGS-7	MEL-JWCI-WGS-7	Scalp, Posterior (Behind Anterior Part Of Helix)	2	SKCM	Melanoma	Cutaneous Melanoma	70.6333333333
+MEL-JWCI-WGS-8	MEL-JWCI-WGS-8			SKCM	Melanoma	Cutaneous Melanoma	12.9333333333
+MEL-Ma-Mel-04	MEL-Ma-Mel-04	Thigh		SKCM	Melanoma	Cutaneous Melanoma	6.16666666667
+MEL-Ma-Mel-05	MEL-Ma-Mel-05	Lower Leg	2.3	SKCM	Melanoma	Cutaneous Melanoma	17.0333333333
+MEL-Ma-Mel-08a	MEL-Ma-Mel-08a	Abdomen	2	SKCM	Melanoma	Cutaneous Melanoma	18.4
+MEL-Ma-Mel-102	MEL-Ma-Mel-102	Back	1.5	SKCM	Melanoma	Cutaneous Melanoma	47.1
+MEL-Ma-Mel-103b	MEL-Ma-Mel-103b	Back	4.5	SKCM	Melanoma	Cutaneous Melanoma	40.6333333333
+MEL-Ma-Mel-105	MEL-Ma-Mel-105	Upper Arm		SKCM	Melanoma	Cutaneous Melanoma	18.6666666667
+MEL-Ma-Mel-107	MEL-Ma-Mel-107	Finger/Toe	2.8	SKCM	Melanoma	Cutaneous Melanoma	3.1
+MEL-Ma-Mel-108	MEL-Ma-Mel-108			SKCM	Melanoma	Cutaneous Melanoma	3.83333333333
+MEL-Ma-Mel-114	MEL-Ma-Mel-114	Breast	2	SKCM	Melanoma	Cutaneous Melanoma	73.9666666667
+MEL-Ma-Mel-119	MEL-Ma-Mel-119	Back	1.5	SKCM	Melanoma	Cutaneous Melanoma	29.4
+MEL-Ma-Mel-120	MEL-Ma-Mel-120	Back		SKCM	Melanoma	Cutaneous Melanoma	8.23333333333
+MEL-Ma-Mel-122	MEL-Ma-Mel-122			SKCM	Melanoma	Cutaneous Melanoma	8.0
+MEL-Ma-Mel-123	MEL-Ma-Mel-123	Nose		SKCM	Melanoma	Cutaneous Melanoma	1.7
+MEL-Ma-Mel-15	MEL-Ma-Mel-15			SKCM	Melanoma	Cutaneous Melanoma	2.36666666667
+MEL-Ma-Mel-16	MEL-Ma-Mel-16	Thigh	1.1	SKCM	Melanoma	Cutaneous Melanoma	3.83333333333
+MEL-Ma-Mel-19	MEL-Ma-Mel-19	Thigh	2	SKCM	Melanoma	Cutaneous Melanoma	8.16666666667
+MEL-Ma-Mel-27	MEL-Ma-Mel-27	Palmar/Plantar	7	SKCM	Melanoma	Cutaneous Melanoma	2.33333333333
+MEL-Ma-Mel-28	MEL-Ma-Mel-28			SKCM	Melanoma	Cutaneous Melanoma	3.26666666667
+MEL-Ma-Mel-35	MEL-Ma-Mel-35	Lower Leg	0.6	SKCM	Melanoma	Cutaneous Melanoma	31.5666666667
+MEL-Ma-Mel-36	MEL-Ma-Mel-36	Back	8.5	SKCM	Melanoma	Cutaneous Melanoma	16.3666666667
+MEL-Ma-Mel-37	MEL-Ma-Mel-37	Lower Leg	7.8	SKCM	Melanoma	Cutaneous Melanoma	20.8666666667
+MEL-Ma-Mel-48	MEL-Ma-Mel-48	Face	2	SKCM	Melanoma	Cutaneous Melanoma	53.7333333333
+MEL-Ma-Mel-53	MEL-Ma-Mel-53	Back	4.5	SKCM	Melanoma	Cutaneous Melanoma	6.3
+MEL-Ma-Mel-54a	MEL-Ma-Mel-54a	Lower Leg	2.5	SKCM	Melanoma	Cutaneous Melanoma	8.7
+MEL-Ma-Mel-55	MEL-Ma-Mel-55	Abdomen	2.6	SKCM	Melanoma	Cutaneous Melanoma	25.5333333333
+MEL-Ma-Mel-59	MEL-Ma-Mel-59	Thigh	1.2	SKCM	Melanoma	Cutaneous Melanoma	4.0
+MEL-Ma-Mel-62	MEL-Ma-Mel-62	Thigh	16	SKCM	Melanoma	Cutaneous Melanoma	6.5
+MEL-Ma-Mel-63	MEL-Ma-Mel-63			SKCM	Melanoma	Cutaneous Melanoma	14.8666666667
+MEL-Ma-Mel-65	MEL-Ma-Mel-65	Back	1.32	SKCM	Melanoma	Cutaneous Melanoma	65.2
+MEL-Ma-Mel-67	MEL-Ma-Mel-67	Lower Leg	0.3	SKCM	Melanoma	Cutaneous Melanoma	74.4
+MEL-Ma-Mel-71	MEL-Ma-Mel-71	Back The Hand/Food		SKCM	Melanoma	Cutaneous Melanoma	1.66666666667
+MEL-Ma-Mel-76	MEL-Ma-Mel-76	Breast	0.45	SKCM	Melanoma	Cutaneous Melanoma	3.4
+MEL-Ma-Mel-79	MEL-Ma-Mel-79	Lower Leg	3.03	SKCM	Melanoma	Cutaneous Melanoma	14.5666666667
+MEL-Ma-Mel-85	MEL-Ma-Mel-85			SKCM	Melanoma	Cutaneous Melanoma	25.0333333333
+MEL-Ma-Mel-86	MEL-Ma-Mel-86	Back	4.5	SKCM	Melanoma	Cutaneous Melanoma	9.76666666667
+MEL-Ma-Mel-91	MEL-Ma-Mel-91	Breast	1	SKCM	Melanoma	Cutaneous Melanoma	5.5
+MEL-Ma-Mel-92	MEL-Ma-Mel-92	Lower Leg		SKCM	Melanoma	Cutaneous Melanoma	6.1
+MEL-Ma-Mel-94	MEL-Ma-Mel-94	Back	2.4	SKCM	Melanoma	Cutaneous Melanoma	27.1333333333
+ME001	ME001	Extremities	2.75	SKCM	Melanoma	Cutaneous Melanoma	9.0
+ME002	ME002	Extremities	2.7	SKCM	Melanoma	Cutaneous Melanoma	18.0333333333
+ME009	ME009	Trunk	4.6	SKCM	Melanoma	Cutaneous Melanoma	78.3666666667
+ME010	ME010	Extremities	0.9	SKCM	Melanoma	Cutaneous Melanoma	11.3
+ME011	ME011	Extremities	2.4	SKCM	Melanoma	Cutaneous Melanoma	14.1333333333
+ME012	ME012	Trunk	2.6	SKCM	Melanoma	Cutaneous Melanoma	9.0
+ME014	ME014	Extremities	6	SKCM	Melanoma	Cutaneous Melanoma	12.1
+ME015	ME015	Extremities	3.5	SKCM	Melanoma	Cutaneous Melanoma	2.9
+ME016	ME016	Trunk	0.75	SKCM	Melanoma	Cutaneous Melanoma	9.53333333333
+ME017	ME017	Trunk	4	SKCM	Melanoma	Cutaneous Melanoma	16.0
+ME018	ME018			SKCM	Melanoma	Cutaneous Melanoma	10.6
+ME020	ME020			SKCM	Melanoma	Cutaneous Melanoma	11.8333333333
+ME021	ME021	Trunk	3.7	SKCM	Melanoma	Cutaneous Melanoma	4.8
+ME024	ME024			SKCM	Melanoma	Cutaneous Melanoma	14.9333333333
+ME029	ME029	Trunk	2.4	SKCM	Melanoma	Cutaneous Melanoma	11.3
+ME030	ME030	Extremities	2.5	SKCM	Melanoma	Cutaneous Melanoma	8.46666666667
+ME032	ME032	Extremities	7	SKCM	Melanoma	Cutaneous Melanoma	19.4666666667
+ME033	ME033			SKCM	Melanoma	Cutaneous Melanoma	9.3
+ME034	ME034	Trunk	3.75	SKCM	Melanoma	Cutaneous Melanoma	3.5
+ME035	ME035	Extremities	3.5	SKCM	Melanoma	Cutaneous Melanoma	7.36666666667
+ME037	ME037			SKCM	Melanoma	Cutaneous Melanoma	9.2
+ME041	ME041	Trunk	3.3	SKCM	Melanoma	Cutaneous Melanoma	9.73333333333
+ME043	ME043	Extremities	1	SKCM	Melanoma	Cutaneous Melanoma	18.2
+ME044	ME044	Trunk	0.95	SKCM	Melanoma	Cutaneous Melanoma	19.7
+ME045	ME045	Trunk	4	SKCM	Melanoma	Cutaneous Melanoma	11.1666666667
+ME048	ME048	Extremities	4	SKCM	Melanoma	Cutaneous Melanoma	12.0
+ME049	ME049			SKCM	Melanoma	Cutaneous Melanoma	17.1333333333
+ME050	ME050	Trunk	1.7	SKCM	Melanoma	Cutaneous Melanoma	12.9333333333
+Mel_BRAFi_02_PRE	Mel_BRAFi_02_PRE			SKCM	Melanoma	Cutaneous Melanoma	19.0666666667
+Mel-BRAFi-03	Mel-BRAFi-03			SKCM	Melanoma	Cutaneous Melanoma	6.4
+MEL-13447	MEL-13447		11	SKCM	Melanoma	Cutaneous Melanoma	15.3
+MEL-13456	MEL-13456		30	SKCM	Melanoma	Cutaneous Melanoma	3.83333333333
+MEL-13463	MEL-13463		32	SKCM	Melanoma	Cutaneous Melanoma	6.3
+MEL-13468	MEL-13468		5	SKCM	Melanoma	Cutaneous Melanoma	1.16666666667
+MEL-13473	MEL-13473		21	SKCM	Melanoma	Cutaneous Melanoma	7.16666666667
+MEL-13531	MEL-13531		8	SKCM	Melanoma	Cutaneous Melanoma	4.03333333333
+MEL-13537	MEL-13537		10	SKCM	Melanoma	Cutaneous Melanoma	3.63333333333
+MEL-13543	MEL-13543		6	SKCM	Melanoma	Cutaneous Melanoma	2.26666666667
+MEL-13549	MEL-13549		3	SKCM	Melanoma	Cutaneous Melanoma	4.4
+MEL-13560	MEL-13560		25	SKCM	Melanoma	Cutaneous Melanoma	2.13333333333
+MEL-13561	MEL-13561		6	SKCM	Melanoma	Cutaneous Melanoma	7.83333333333
+MEL-13567	MEL-13567		7	SKCM	Melanoma	Cutaneous Melanoma	11.1333333333
+MEL-13575	MEL-13575		7.5	SKCM	Melanoma	Cutaneous Melanoma	13.5
+MEL-13591	MEL-13591		26	SKCM	Melanoma	Cutaneous Melanoma	3.86666666667
+MEL-13600	MEL-13600		25	SKCM	Melanoma	Cutaneous Melanoma	11.5333333333
+MEL-UKRV-Mel-20	MEL-UKRV-Mel-20	Neck		SKCM	Melanoma	Cutaneous Melanoma	18.6333333333
+MEL-UKRV-Mel-24	MEL-UKRV-Mel-24			SKCM	Melanoma	Cutaneous Melanoma	10.8666666667
+MEL-UKRV-Mel-6	MEL-UKRV-Mel-6	Shoulder	4.6	SKCM	Melanoma	Cutaneous Melanoma	10.0666666667

@@ -1,0 +1,765 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Sample Type	Institute Source	Molecular Subtype	Specimen Preservation Type	Cancer type	Cancer type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	The type of sample (i.e., normal, Primary, met, recurrence).	Institute Source	Molecular subtype.	The method used for preparing the tissue for examination and study.	Cancer type	Cancer type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	0	1	0	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	SAMPLE_TYPE	INSTITUTE	MOLECULAR_SUBTYPE	SPECIMEN_PRESERVATION_TYPE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+BL_001	BL_001	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_002	BL_002	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.8
+BL_003	BL_003	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.433333333333
+BL_004	BL_004	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.433333333333
+BL_005	BL_005	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_006	BL_006	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.466666666667
+BL_007	BL_007	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.6
+BL_008	BL_008	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.466666666667
+BL_009	BL_009	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.333333333333
+BL_010	BL_010	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.333333333333
+BL_011	BL_011	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.366666666667
+BL_012	BL_012	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.7
+BL_013	BL_013	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.266666666667
+BL_014	BL_014	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.133333333333
+BL_015	BL_015	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.5
+BL_016	BL_016	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.366666666667
+BL_017	BL_017	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.2
+BL_018	BL_018	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.466666666667
+BL_019	BL_019	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_020	BL_020	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.333333333333
+BL_021	BL_021	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.0333333333333
+BL_022	BL_022	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_023	BL_023	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.233333333333
+BL_024	BL_024	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.566666666667
+BL_025	BL_025	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.466666666667
+BL_026	BL_026	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.6
+BL_027	BL_027	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.266666666667
+BL_028	BL_028	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_029	BL_029	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.533333333333
+BL_030	BL_030	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.333333333333
+BL_031	BL_031	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.3
+BL_032	BL_032	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.5
+BL_033	BL_033	BL	Primary	UNMC	Unclassified(mBL)	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.833333333333
+BL_034	BL_034	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.633333333333
+BL_035	BL_035	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.2
+BL_036	BL_036	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.433333333333
+BL_037	BL_037	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.0666666666667
+BL_038	BL_038	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.166666666667
+BL_039	BL_039	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.433333333333
+BL_040	BL_040	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.266666666667
+BL_041	BL_041	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.9
+BL_042	BL_042	BL	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.366666666667
+BL_043	BL_043	BL	Primary	UNMC	Unclassified(mBL)	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	1.0
+BL_044	BL_044	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.466666666667
+BL_045	BL_045	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.566666666667
+BL_046	BL_046	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.233333333333
+BL_047	BL_047	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.466666666667
+BL_048	BL_048	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.533333333333
+BL_049	BL_049	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.7
+BL_050	BL_050	BL	Primary	UNMC	Unclassified(mBL)	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	1.03333333333
+BL_051	BL_051	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.9
+BL_052	BL_052	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.366666666667
+BL_053	BL_053	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.9
+BL_054	BL_054	BL	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.866666666667
+BL_055	BL_055	BL	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.566666666667
+BL_056	BL_056	BL	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.366666666667
+BL_057	BL_057	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.766666666667
+BL_058	BL_058	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	1.43333333333
+BL_059	BL_059	BL	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.733333333333
+BL_060	BL_060	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.733333333333
+BL_061	BL_061	BL	Primary	UNMC	unknown	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.333333333333
+BL_062	BL_062	BL	Primary	UNMC	unknown	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.333333333333
+BL_063	BL_063	BL	Primary	UNMC	unknown	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.5
+BL_064	BL_064	BL	Primary	UNMC	unknown	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.133333333333
+BL_065	BL_065	BL	Primary	UNMC	unknown	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.666666666667
+BL_066	BL_066	BL	Primary	UNMC	unknown	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.5
+BL_067	BL_067	BL	Primary	UNMC	unknown	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.533333333333
+BL_068	BL_068	BL	Primary	UNMC	unknown	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.133333333333
+BL_069	BL_069	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.1
+BL_070	BL_070	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	2.1
+BL_071	BL_071	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.366666666667
+BL_072	BL_072	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.433333333333
+BL_073	BL_073	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.1
+BL_074	BL_074	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_075	BL_075	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.466666666667
+BL_076	BL_076	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.1
+BL_077	BL_077	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_078	BL_078	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.433333333333
+BL_079	BL_079	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.366666666667
+BL_080	BL_080	BL	Primary	UNMC	mBL	FFPE	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_081	BL_081	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	1.1
+BL_082	BL_082	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.333333333333
+BL_083	BL_083	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.566666666667
+BL_084	BL_084	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_085	BL_085	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.233333333333
+BL_086	BL_086	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.233333333333
+BL_087	BL_087	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.533333333333
+BL_088	BL_088	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.166666666667
+BL_089	BL_089	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.466666666667
+BL_090	BL_090	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.166666666667
+BL_091	BL_091	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	NA
+BL_092	BL_092	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.466666666667
+BL_093	BL_093	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.233333333333
+BL_094	BL_094	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.566666666667
+BL_095	BL_095	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.466666666667
+BL_096	BL_096	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_097	BL_097	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.4
+BL_098	BL_098	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.2
+BL_099	BL_099	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.7
+BL_100	BL_100	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.133333333333
+BL_101	BL_101	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.233333333333
+BL_102	BL_102	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.2
+BL_103	BL_103	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.366666666667
+BL_104	BL_104	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.233333333333
+BL_105	BL_105	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.566666666667
+BL_106	BL_106	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.3
+BL_107	BL_107	BL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.3
+DHL_001	DHL_001	BL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.333333333333
+CLL_001	CLL_001	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.333333333333
+CLL_002	CLL_002	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	NA
+CLL_003	CLL_003	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.133333333333
+CLL_004	CLL_004	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.233333333333
+CLL_005	CLL_005	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.166666666667
+CLL_006	CLL_006	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.3
+CLL_007	CLL_007	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.366666666667
+CLL_008	CLL_008	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.133333333333
+CLL_009	CLL_009	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.4
+CLL_010	CLL_010	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.133333333333
+CLL_011	CLL_011	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.2
+CLL_012	CLL_012	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.133333333333
+CLL_013	CLL_013	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.266666666667
+CLL_014	CLL_014	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.333333333333
+CLL_015	CLL_015	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.0666666666667
+CLL_016	CLL_016	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.266666666667
+CLL_017	CLL_017	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.166666666667
+CLL_018	CLL_018	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.233333333333
+CLL_019	CLL_019	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.2
+CLL_020	CLL_020	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.2
+CLL_021	CLL_021	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.3
+CLL_022	CLL_022	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.233333333333
+CLL_023	CLL_023	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.133333333333
+CLL_024	CLL_024	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.166666666667
+CLL_025	CLL_025	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.133333333333
+CLL_026	CLL_026	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.2
+CLL_027	CLL_027	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.133333333333
+CLL_028	CLL_028	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.366666666667
+CLL_029	CLL_029	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.233333333333
+CLL_030	CLL_030	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.166666666667
+CLL_031	CLL_031	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.4
+CLL_032	CLL_032	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.366666666667
+CLL_033	CLL_033	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.1
+CLL_034	CLL_034	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.3
+DHL_002	DHL_002	HGBCLMYCBCL2	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.466666666667
+DHL_003	DHL_003	HGBCLMYCBCL2	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.366666666667
+DHL_004	DHL_004	HGBCLMYCBCL2	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.333333333333
+DHL_005	DHL_005	HGBCLMYCBCL2	Primary	BWH	Unclassified	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.666666666667
+DHL_006	DHL_006	HGBCLMYCBCL2	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.833333333333
+DHL_007	DHL_007	HGBCLMYCBCL2	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.633333333333
+DHL_008	DHL_008	HGBCLMYCBCL2	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.766666666667
+DHL_009	DHL_009	HGBCLMYCBCL2	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.866666666667
+DHL_010	DHL_010	HGBCLMYCBCL2	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.566666666667
+DHL_011	DHL_011	HGBCLMYCBCL2	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.266666666667
+DHL_012	DHL_012	HGBCLMYCBCL2	Primary	BWH	Unclassified	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	1.4
+DHL_013	DHL_013	HGBCLMYCBCL2	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	0.633333333333
+DHL_014	DHL_014	HGBCLMYCBCL2	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, with MYC and BCL2 and/or BCL6 Rearrangements	1.06666666667
+DLBCL_001	DLBCL_001	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_002	DLBCL_002	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_003	DLBCL_003	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_004	DLBCL_004	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_005	DLBCL_005	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.766666666667
+DLBCL_006	DLBCL_006	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.46666666667
+DLBCL_007	DLBCL_007	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.7
+DLBCL_008	DLBCL_008	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_009	DLBCL_009	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.666666666667
+DLBCL_010	DLBCL_010	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_011	DLBCL_011	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.766666666667
+DLBCL_012	DLBCL_012	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_013	DLBCL_013	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_014	DLBCL_014	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.733333333333
+DLBCL_015	DLBCL_015	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_016	DLBCL_016	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_017	DLBCL_017	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_018	DLBCL_018	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.5
+DLBCL_019	DLBCL_019	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_020	DLBCL_020	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_021	DLBCL_021	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.66666666667
+DLBCL_022	DLBCL_022	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_023	DLBCL_023	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_024	DLBCL_024	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_025	DLBCL_025	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_026	DLBCL_026	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	2.06666666667
+DLBCL_027	DLBCL_027	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_028	DLBCL_028	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_029	DLBCL_029	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.1
+DLBCL_030	DLBCL_030	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_031	DLBCL_031	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.2
+DLBCL_032	DLBCL_032	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_033	DLBCL_033	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_034	DLBCL_034	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.8
+DLBCL_035	DLBCL_035	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_036	DLBCL_036	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_037	DLBCL_037	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_038	DLBCL_038	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.4
+DLBCL_039	DLBCL_039	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_040	DLBCL_040	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.36666666667
+DLBCL_041	DLBCL_041	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_042	DLBCL_042	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.96666666667
+DLBCL_043	DLBCL_043	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_044	DLBCL_044	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_045	DLBCL_045	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_046	DLBCL_046	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_047	DLBCL_047	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.733333333333
+DLBCL_048	DLBCL_048	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.7
+DLBCL_049	DLBCL_049	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.7
+DLBCL_050	DLBCL_050	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.933333333333
+DLBCL_051	DLBCL_051	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.9
+DLBCL_052	DLBCL_052	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_053	DLBCL_053	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	2.53333333333
+DLBCL_054	DLBCL_054	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_055	DLBCL_055	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_056	DLBCL_056	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.56666666667
+DLBCL_057	DLBCL_057	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.733333333333
+DLBCL_058	DLBCL_058	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_059	DLBCL_059	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_060	DLBCL_060	DLBCLNOS	Primary	UNMC	Unclassified(mBL)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.833333333333
+DLBCL_061	DLBCL_061	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.666666666667
+DLBCL_062	DLBCL_062	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_063	DLBCL_063	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_064	DLBCL_064	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_065	DLBCL_065	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.03333333333
+DLBCL_066	DLBCL_066	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.733333333333
+DLBCL_067	DLBCL_067	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_068	DLBCL_068	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_069	DLBCL_069	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_070	DLBCL_070	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_071	DLBCL_071	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.46666666667
+DLBCL_072	DLBCL_072	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.0
+DLBCL_073	DLBCL_073	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_074	DLBCL_074	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_075	DLBCL_075	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.833333333333
+DLBCL_076	DLBCL_076	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_077	DLBCL_077	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_078	DLBCL_078	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_079	DLBCL_079	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_080	DLBCL_080	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.666666666667
+DLBCL_081	DLBCL_081	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.0
+DLBCL_082	DLBCL_082	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.13333333333
+DLBCL_083	DLBCL_083	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_084	DLBCL_084	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.56666666667
+DLBCL_085	DLBCL_085	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.2
+DLBCL_086	DLBCL_086	DLBCLNOS	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_087	DLBCL_087	DLBCLNOS	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_088	DLBCL_088	DLBCLNOS	Primary	UNMC	Unclassified(COO)	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_089	DLBCL_089	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_090	DLBCL_090	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_091	DLBCL_091	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_092	DLBCL_092	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_093	DLBCL_093	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.866666666667
+DLBCL_094	DLBCL_094	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_095	DLBCL_095	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_096	DLBCL_096	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.666666666667
+DLBCL_097	DLBCL_097	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_098	DLBCL_098	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_099	DLBCL_099	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_100	DLBCL_100	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.7
+DLBCL_101	DLBCL_101	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_102	DLBCL_102	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_103	DLBCL_103	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_104	DLBCL_104	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_105	DLBCL_105	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_106	DLBCL_106	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.46666666667
+DLBCL_107	DLBCL_107	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	3.1
+DLBCL_108	DLBCL_108	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_109	DLBCL_109	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_110	DLBCL_110	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.23333333333
+DLBCL_111	DLBCL_111	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.7
+DLBCL_112	DLBCL_112	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_113	DLBCL_113	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_114	DLBCL_114	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_115	DLBCL_115	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_116	DLBCL_116	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.33333333333
+DLBCL_117	DLBCL_117	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.833333333333
+DLBCL_118	DLBCL_118	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_119	DLBCL_119	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_120	DLBCL_120	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.733333333333
+DLBCL_121	DLBCL_121	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_122	DLBCL_122	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.933333333333
+DLBCL_123	DLBCL_123	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_124	DLBCL_124	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.43333333333
+DLBCL_125	DLBCL_125	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_126	DLBCL_126	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_127	DLBCL_127	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_128	DLBCL_128	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_129	DLBCL_129	DLBCLNOS	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_130	DLBCL_130	DLBCLNOS	Primary	BWH	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_131	DLBCL_131	DLBCLNOS	Primary	BWH	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.43333333333
+DLBCL_132	DLBCL_132	DLBCLNOS	Primary	BWH	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.966666666667
+DLBCL_133	DLBCL_133	DLBCLNOS	Primary	BWH	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_134	DLBCL_134	DLBCLNOS	Primary	BWH	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.666666666667
+DLBCL_135	DLBCL_135	DLBCLNOS	Primary	BWH	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_136	DLBCL_136	DLBCLNOS	Primary	BWH	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.16666666667
+DLBCL_137	DLBCL_137	DLBCLNOS	Primary	BWH	Unclassified	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.733333333333
+DLBCL_138	DLBCL_138	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_139	DLBCL_139	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	2.46666666667
+DLBCL_140	DLBCL_140	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_141	DLBCL_141	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.13333333333
+DLBCL_142	DLBCL_142	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.866666666667
+DLBCL_143	DLBCL_143	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.833333333333
+DLBCL_144	DLBCL_144	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.3
+DLBCL_145	DLBCL_145	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.3
+DLBCL_146	DLBCL_146	DLBCLNOS	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_147	DLBCL_147	DLBCLNOS	Primary	UNMC	NA	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.23333333333
+DLBCL_148	DLBCL_148	DLBCLNOS	Primary	UNMC	NA	Fresh/Frozen	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.73333333333
+FL_001	FL_001	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_002	FL_002	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.566666666667
+FL_003	FL_003	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.8
+FL_004	FL_004	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.933333333333
+FL_005	FL_005	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_006	FL_006	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_007	FL_007	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.433333333333
+FL_008	FL_008	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.833333333333
+FL_009	FL_009	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.3
+FL_010	FL_010	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.633333333333
+FL_011	FL_011	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.9
+FL_012	FL_012	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.166666666667
+FL_013	FL_013	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_014	FL_014	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.3
+FL_015	FL_015	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.566666666667
+FL_016	FL_016	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.533333333333
+FL_017	FL_017	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.166666666667
+FL_018	FL_018	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_019	FL_019	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.866666666667
+FL_020	FL_020	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.0
+FL_021	FL_021	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.233333333333
+FL_022	FL_022	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.6
+FL_023	FL_023	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.433333333333
+FL_024	FL_024	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.0666666666667
+FL_025	FL_025	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.533333333333
+FL_026	FL_026	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.133333333333
+FL_027	FL_027	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.6
+FL_028	FL_028	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.2
+FL_029	FL_029	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.2
+FL_030	FL_030	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.233333333333
+FL_031	FL_031	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.866666666667
+FL_032	FL_032	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.3
+FL_033	FL_033	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.133333333333
+FL_034	FL_034	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_035	FL_035	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_036	FL_036	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_037	FL_037	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_038	FL_038	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.266666666667
+FL_039	FL_039	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_040	FL_040	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.333333333333
+FL_041	FL_041	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.233333333333
+FL_042	FL_042	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.533333333333
+FL_043	FL_043	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.6
+FL_044	FL_044	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.03333333333
+FL_045	FL_045	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.633333333333
+FL_046	FL_046	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.833333333333
+FL_047	FL_047	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.833333333333
+FL_048	FL_048	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_049	FL_049	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.5
+FL_050	FL_050	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	NA
+FL_051	FL_051	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_052	FL_052	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_053	FL_053	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.133333333333
+FL_054	FL_054	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.166666666667
+FL_055	FL_055	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.3
+FL_056	FL_056	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_057	FL_057	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.633333333333
+FL_058	FL_058	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_059	FL_059	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.766666666667
+FL_060	FL_060	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_061	FL_061	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.433333333333
+FL_062	FL_062	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_063	FL_063	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.1
+FL_064	FL_064	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.433333333333
+FL_065	FL_065	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.933333333333
+FL_066	FL_066	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.333333333333
+FL_067	FL_067	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.433333333333
+FL_068	FL_068	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.333333333333
+FL_069	FL_069	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.8
+FL_070	FL_070	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.6
+FL_071	FL_071	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.533333333333
+FL_072	FL_072	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.566666666667
+FL_073	FL_073	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.333333333333
+FL_074	FL_074	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_075	FL_075	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.266666666667
+FL_076	FL_076	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.766666666667
+FL_077	FL_077	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_078	FL_078	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.433333333333
+FL_079	FL_079	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.3
+FL_080	FL_080	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.533333333333
+FL_081	FL_081	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.666666666667
+FL_082	FL_082	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_083	FL_083	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_084	FL_084	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.3
+FL_085	FL_085	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.6
+FL_086	FL_086	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_087	FL_087	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.566666666667
+FL_088	FL_088	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_089	FL_089	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.133333333333
+FL_090	FL_090	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.1
+FL_091	FL_091	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_092	FL_092	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.766666666667
+FL_093	FL_093	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.433333333333
+FL_094	FL_094	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.566666666667
+FL_095	FL_095	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.866666666667
+FL_096	FL_096	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.5
+FL_097	FL_097	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_098	FL_098	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.3
+FL_099	FL_099	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_100	FL_100	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.333333333333
+FL_101	FL_101	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.666666666667
+FL_102	FL_102	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_103	FL_103	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.633333333333
+FL_104	FL_104	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.833333333333
+FL_105	FL_105	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_106	FL_106	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_107	FL_107	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.5
+FL_108	FL_108	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_109	FL_109	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.866666666667
+FL_110	FL_110	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.633333333333
+FL_111	FL_111	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_112	FL_112	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.433333333333
+FL_113	FL_113	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.733333333333
+FL_114	FL_114	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.2
+FL_115	FL_115	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_116	FL_116	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.333333333333
+FL_117	FL_117	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_118	FL_118	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_119	FL_119	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_120	FL_120	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.333333333333
+FL_121	FL_121	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_122	FL_122	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_123	FL_123	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.333333333333
+FL_124	FL_124	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.266666666667
+FL_125	FL_125	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_126	FL_126	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.5
+FL_127	FL_127	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_128	FL_128	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.566666666667
+FL_129	FL_129	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.633333333333
+FL_130	FL_130	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.4
+FL_131	FL_131	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.1
+FL_132	FL_132	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.2
+FL_133	FL_133	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.63333333333
+FL_134	FL_134	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_135	FL_135	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.23333333333
+FL_136	FL_136	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.8
+FL_137	FL_137	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.03333333333
+FL_138	FL_138	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.5
+FL_139	FL_139	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.766666666667
+FL_140	FL_140	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.766666666667
+FL_141	FL_141	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.43333333333
+FL_142	FL_142	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.633333333333
+FL_143	FL_143	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.36666666667
+FL_144	FL_144	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.36666666667
+FL_145	FL_145	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.16666666667
+FL_146	FL_146	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.9
+FL_147	FL_147	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.8
+FL_148	FL_148	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.633333333333
+FL_149	FL_149	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.4
+FL_150	FL_150	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.13333333333
+FL_151	FL_151	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.766666666667
+FL_152	FL_152	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.366666666667
+FL_153	FL_153	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.733333333333
+FL_154	FL_154	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.03333333333
+FL_155	FL_155	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	2.43333333333
+FL_156	FL_156	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.2
+FL_157	FL_157	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.4
+FL_158	FL_158	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.0
+FL_159	FL_159	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.8
+FL_160	FL_160	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.866666666667
+FL_161	FL_161	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.8
+FL_162	FL_162	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.13333333333
+FL_163	FL_163	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.8
+FL_164	FL_164	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.7
+FL_165	FL_165	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.63333333333
+FL_166	FL_166	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.866666666667
+FL_167	FL_167	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.06666666667
+FL_168	FL_168	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.966666666667
+FL_169	FL_169	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.8
+FL_170	FL_170	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.06666666667
+FL_171	FL_171	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.633333333333
+FL_172	FL_172	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.866666666667
+FL_173	FL_173	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.7
+FL_174	FL_174	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.7
+FL_175	FL_175	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.26666666667
+FL_176	FL_176	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.1
+FL_177	FL_177	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.36666666667
+FL_178	FL_178	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.766666666667
+FL_179	FL_179	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.466666666667
+FL_180	FL_180	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.566666666667
+FL_181	FL_181	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.03333333333
+FL_182	FL_182	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.0
+FL_183	FL_183	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.633333333333
+FL_184	FL_184	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.36666666667
+FL_185	FL_185	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.733333333333
+FL_186	FL_186	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.8
+FL_187	FL_187	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.03333333333
+FL_188	FL_188	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.733333333333
+FL_189	FL_189	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.566666666667
+FL_190	FL_190	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.9
+FL_191	FL_191	FL	Primary	MDACC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.43333333333
+FL_192	FL_192	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.833333333333
+FL_193	FL_193	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.2
+FL_194	FL_194	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	2.0
+FL_195	FL_195	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.9
+FL_196	FL_196	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.0
+FL_197	FL_197	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.56666666667
+FL_198	FL_198	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	1.06666666667
+FL_199	FL_199	FL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Follicular Lymphoma	0.933333333333
+HGBL-NOS_001	HGBL-NOS_001	HGBCL	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.233333333333
+HGBL-NOS_002	HGBL-NOS_002	HGBCL	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.233333333333
+HGBL-NOS_003	HGBL-NOS_003	HGBCL	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.733333333333
+HGBL-NOS_004	HGBL-NOS_004	HGBCL	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.4
+HGBL-NOS_005	HGBL-NOS_005	HGBCL	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.3
+HGBL-NOS_006	HGBL-NOS_006	HGBCL	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	1.03333333333
+HGBL-NOS_007	HGBL-NOS_007	HGBCL	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.366666666667
+HGBL-NOS_008	HGBL-NOS_008	HGBCL	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.766666666667
+HGBL-NOS_009	HGBL-NOS_009	HGBCL	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.733333333333
+HGBL-NOS_010	HGBL-NOS_010	HGBCL	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.266666666667
+HGBL-NOS_011	HGBL-NOS_011	HGBCL	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.366666666667
+HGBL-NOS_012	HGBL-NOS_012	HGBCL	Primary	BWH	Unclassified	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.233333333333
+HGBL-NOS_013	HGBL-NOS_013	HGBCL	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.4
+HGBL-NOS_014	HGBL-NOS_014	HGBCL	Primary	BWH	mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.466666666667
+HGBL-NOS_015	HGBL-NOS_015	HGBCL	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.2
+HGBL-NOS_016	HGBL-NOS_016	HGBCL	Primary	UNMC	GCB	Fresh/Frozen	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.433333333333
+HGBL-NOS_017	HGBL-NOS_017	HGBCL	Primary	UNMC	ABC	Fresh/Frozen	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.6
+HGBL-NOS_018	HGBL-NOS_018	HGBCL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.533333333333
+HGBL-NOS_019	HGBL-NOS_019	HGBCL	Primary	UNMC	mBL	Fresh/Frozen	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.3
+HGBL-NOS_020	HGBL-NOS_020	HGBCL	Primary	BWH	Unclassified	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.2
+HGBL-NOS_021	HGBL-NOS_021	HGBCL	Primary	BWH	non-mBL	FFPE	Mature B-Cell Neoplasms	High-Grade B-Cell Lymphoma, NOS	0.466666666667
+MCL_001	MCL_001	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_002	MCL_002	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_003	MCL_003	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_004	MCL_004	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_005	MCL_005	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_006	MCL_006	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_007	MCL_007	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_008	MCL_008	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+MCL_009	MCL_009	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.533333333333
+MCL_010	MCL_010	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_011	MCL_011	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_012	MCL_012	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.0666666666667
+MCL_013	MCL_013	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.6
+MCL_014	MCL_014	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.1
+MCL_015	MCL_015	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_016	MCL_016	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_017	MCL_017	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_018	MCL_018	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_019	MCL_019	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.666666666667
+MCL_020	MCL_020	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_021	MCL_021	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_022	MCL_022	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_023	MCL_023	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_024	MCL_024	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_025	MCL_025	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.466666666667
+MCL_026	MCL_026	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_027	MCL_027	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_028	MCL_028	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_029	MCL_029	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_030	MCL_030	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_031	MCL_031	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_032	MCL_032	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_033	MCL_033	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_034	MCL_034	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_035	MCL_035	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_036	MCL_036	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.4
+MCL_037	MCL_037	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_038	MCL_038	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_039	MCL_039	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.466666666667
+MCL_040	MCL_040	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.4
+MCL_041	MCL_041	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_042	MCL_042	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.366666666667
+MCL_043	MCL_043	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.466666666667
+MCL_044	MCL_044	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.0666666666667
+MCL_045	MCL_045	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_046	MCL_046	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_047	MCL_047	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_048	MCL_048	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_049	MCL_049	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_050	MCL_050	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_051	MCL_051	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_052	MCL_052	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_053	MCL_053	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_054	MCL_054	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_055	MCL_055	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_056	MCL_056	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.366666666667
+MCL_057	MCL_057	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_058	MCL_058	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.4
+MCL_059	MCL_059	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+MCL_060	MCL_060	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_061	MCL_061	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_062	MCL_062	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_063	MCL_063	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_064	MCL_064	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_065	MCL_065	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.433333333333
+MCL_066	MCL_066	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_067	MCL_067	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_068	MCL_068	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_069	MCL_069	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	NA
+MCL_070	MCL_070	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_071	MCL_071	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_072	MCL_072	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.1
+MCL_073	MCL_073	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.366666666667
+MCL_074	MCL_074	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+MCL_075	MCL_075	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.1
+MCL_076	MCL_076	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.4
+MCL_077	MCL_077	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_078	MCL_078	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_079	MCL_079	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_080	MCL_080	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_081	MCL_081	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.366666666667
+MCL_082	MCL_082	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_083	MCL_083	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.366666666667
+MCL_084	MCL_084	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_085	MCL_085	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_086	MCL_086	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_087	MCL_087	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_088	MCL_088	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_089	MCL_089	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_090	MCL_090	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_091	MCL_091	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_092	MCL_092	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_093	MCL_093	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.0666666666667
+MCL_094	MCL_094	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.1
+MCL_095	MCL_095	MCL	Primary	PAH	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_096	MCL_096	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.366666666667
+MCL_097	MCL_097	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_098	MCL_098	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+MCL_099	MCL_099	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_100	MCL_100	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.5
+MCL_101	MCL_101	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_102	MCL_102	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_103	MCL_103	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_104	MCL_104	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_105	MCL_105	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_106	MCL_106	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_107	MCL_107	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_108	MCL_108	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_109	MCL_109	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_110	MCL_110	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_111	MCL_111	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_112	MCL_112	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_113	MCL_113	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_114	MCL_114	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_115	MCL_115	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.5
+MCL_116	MCL_116	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+MCL_117	MCL_117	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.4
+MCL_118	MCL_118	MCL	Primary	MtSinai	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.4
+MCL_119	MCL_119	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.466666666667
+MCL_120	MCL_120	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.0333333333333
+MCL_121	MCL_121	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.4
+MCL_122	MCL_122	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+MCL_123	MCL_123	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_124	MCL_124	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_125	MCL_125	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_126	MCL_126	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_127	MCL_127	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_128	MCL_128	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_129	MCL_129	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_130	MCL_130	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_131	MCL_131	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_132	MCL_132	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.1
+MCL_133	MCL_133	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_134	MCL_134	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_135	MCL_135	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_136	MCL_136	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_137	MCL_137	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.633333333333
+MCL_138	MCL_138	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_139	MCL_139	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+MCL_140	MCL_140	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.5
+MCL_141	MCL_141	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_142	MCL_142	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_143	MCL_143	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_144	MCL_144	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.6
+MCL_145	MCL_145	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.633333333333
+MCL_146	MCL_146	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_147	MCL_147	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_148	MCL_148	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.7
+MCL_149	MCL_149	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+MCL_150	MCL_150	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_151	MCL_151	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.5
+MCL_152	MCL_152	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+MCL_153	MCL_153	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_154	MCL_154	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+MCL_155	MCL_155	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.1
+MCL_156	MCL_156	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_157	MCL_157	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_158	MCL_158	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_159	MCL_159	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_160	MCL_160	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.366666666667
+MCL_161	MCL_161	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.366666666667
+MCL_162	MCL_162	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_163	MCL_163	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_164	MCL_164	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_165	MCL_165	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.7
+MCL_166	MCL_166	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_167	MCL_167	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.366666666667
+MCL_168	MCL_168	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.1
+MCL_169	MCL_169	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.633333333333
+MCL_170	MCL_170	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.433333333333
+MCL_171	MCL_171	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_172	MCL_172	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_173	MCL_173	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.366666666667
+MCL_174	MCL_174	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_175	MCL_175	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_176	MCL_176	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_177	MCL_177	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_178	MCL_178	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_179	MCL_179	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_180	MCL_180	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+MCL_181	MCL_181	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_182	MCL_182	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.2
+MCL_183	MCL_183	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_184	MCL_184	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.433333333333
+MCL_185	MCL_185	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_186	MCL_186	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_187	MCL_187	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.1
+MCL_188	MCL_188	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_189	MCL_189	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_190	MCL_190	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.166666666667
+MCL_191	MCL_191	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MCL_192	MCL_192	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.466666666667
+MCL_193	MCL_193	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.1
+MCL_194	MCL_194	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+MCL_195	MCL_195	MCL	Primary	Calgary	unknown	FFPE	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+MCL_196	MCL_196	MCL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.266666666667
+MZL_001	MZL_001	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.1
+MZL_002	MZL_002	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.4
+MZL_003	MZL_003	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.5
+MZL_004	MZL_004	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.266666666667
+MZL_005	MZL_005	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.433333333333
+MZL_006	MZL_006	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.2
+MZL_007	MZL_007	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.333333333333
+MZL_008	MZL_008	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.166666666667
+MZL_009	MZL_009	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.0666666666667
+MZL_010	MZL_010	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.2
+MZL_011	MZL_011	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.533333333333
+MZL_012	MZL_012	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.266666666667
+MZL_013	MZL_013	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.733333333333
+MZL_014	MZL_014	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.166666666667
+MZL_015	MZL_015	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.1
+MZL_016	MZL_016	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.266666666667
+MZL_017	MZL_017	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.233333333333
+MZL_018	MZL_018	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.2
+MZL_019	MZL_019	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.333333333333
+MZL_020	MZL_020	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.4
+MZL_021	MZL_021	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	NA
+MZL_022	MZL_022	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.133333333333
+MZL_023	MZL_023	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.4
+MZL_024	MZL_024	MZL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Marginal Zone Lymphoma	0.3
+SLL_001	SLL_001	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.0666666666667
+SLL_002	SLL_002	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.166666666667
+SLL_003	SLL_003	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.166666666667
+SLL_004	SLL_004	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.133333333333
+SLL_005	SLL_005	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.233333333333
+SLL_006	SLL_006	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.3
+SLL_007	SLL_007	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.0666666666667
+SLL_008	SLL_008	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.2
+SLL_009	SLL_009	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.2
+SLL_010	SLL_010	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.1
+SLL_011	SLL_011	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.266666666667
+SLL_012	SLL_012	CLLSLL	Primary	UNMC	unknown	Fresh/Frozen	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	NA
+HGBL.NOS_016	HGBL.NOS_016	MBN					Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	NA
+HGBL.NOS_017	HGBL.NOS_017	MBN					Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	NA
+HGBL.NOS_018	HGBL.NOS_018	MBN					Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	NA
+HGBL.NOS_019	HGBL.NOS_019	MBN					Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	NA
+MCL_197	MCL_197	MBN					Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	0.833333333333

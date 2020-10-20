@@ -1,0 +1,183 @@
+#Sample Identifier	Patient Identifier	Sample Type	Pheochromocytoma or Paraganglioma	Tumor Location	Specific Tumor Location	Biochemical Testing Performed	Normetanephrine secreting	Norepinephrine Secreting	Epinephrine Secreting	Metanephrine Secreting	Methoxytyramine Secreting	Dopamine Secreting	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	Ploidy	Purity	Total Number of Somatic Mutations	Methylation Cluster	Leukocyte Index Methylation	RPPA Cluster	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	The type of sample (i.e., normal, primary, met, recurrence).	Pheochromocytoma or Paraganglioma	Tumor Location	Specific Tumor Location	Biochemical Testing Performed	Normetanephrine secreting	Norepinephrine Secreting	Epinephrine Secreting	Metanephrine Secreting	Methoxytyramine Secreting	Dopamine Secreting	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	Ploidy	Purity	Total Number of Somatic Mutations	Methylation Cluster	Leukocyte Index Methylation	RPPA Cluster	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	STRING	NUMBER	STRING	STRING
+#1	1	9	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	SAMPLE_TYPE	PHEOCHROMOCYTOMA_OR_PARAGANGLIOMA	TUMOR_LOCATION	SPECIFIC_TUMOR_LOCATION	BIOCHEMICAL_TESTING	NORMETANEPHRINE	NOREPINEPHRINE	EPINEPHRINE	METANEPHRINE	METHOXYTYRAMINE	DOPAMINE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	PLOIDY	PURITY	NUM_SOMATIC_MUTATION	METHYLATION_CLUSTER	LEUKOCYTE_INDEX_METHYLATION	RPPA_CLUSTER	TMB_NONSYNONYMOUS
+TCGA-P7-A5NY-01	TCGA-P7-A5NY	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	2	0.82	14	low-methylated	0.063507213	NA	0.4
+TCGA-P7-A5NY-05	TCGA-P7-A5NY	Primary	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	Matched	NA	NA	9	NA	0.149280741	NA	0.166666666667
+TCGA-P8-A5KC-01	TCGA-P8-A5KC	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	2	0.49	43	intermediate	0.166017186	1	1.1
+TCGA-P8-A5KD-01	TCGA-P8-A5KD	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.95	0.78	26	low-methylated	0.134070872	3	0.466666666667
+TCGA-P8-A6RX-01	TCGA-P8-A6RX	Primary	paraganglioma	extra adrenal abdomen/pelvis	retrocaval retroperitoneum extra adrenal PGL	Yes	Yes						PGNG	Paraganglioma	Paraganglioma	Matched	1.89	0.73	25	hyper-methylated	0.11073316	2	0.733333333333
+TCGA-P8-A6RY-01	TCGA-P8-A6RY	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.94	0.89	11	hyper-methylated	0.047788116	1	0.133333333333
+TCGA-PR-A5PF-01	TCGA-PR-A5PF	Primary	pheochromocytoma	adrenal	Adrenal	Yes							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.81	0.82	33	low-methylated	0.073169894	1	0.766666666667
+TCGA-PR-A5PG-01	TCGA-PR-A5PG	Primary	pheochromocytoma	adrenal	Adrenal	No							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.95	0.83	30	low-methylated	0.078381684	3	0.633333333333
+TCGA-PR-A5PH-01	TCGA-PR-A5PH	Primary	pheochromocytoma	adrenal	Adrenal	No							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.71	18	intermediate	0.06593326	1	0.4
+TCGA-QR-A6GO-01	TCGA-QR-A6GO	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.79	19	low-methylated	0.114810597	2	0.533333333333
+TCGA-QR-A6GR-01	TCGA-QR-A6GR	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.69	24	low-methylated	0.12898097	NA	0.533333333333
+TCGA-QR-A6GS-01	TCGA-QR-A6GS	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.92	0.78	19	low-methylated	0.107375481	NA	0.433333333333
+TCGA-QR-A6GT-01	TCGA-QR-A6GT	Primary	paraganglioma	extra adrenal abdomen/pelvis	peri-renal extra adrenal PGL	Yes	Yes	Yes			Yes	Yes	PGNG	Paraganglioma	Paraganglioma	Matched	1.85	0.6	38	hyper-methylated	0.176773262	1	0.9
+TCGA-QR-A6GU-01	TCGA-QR-A6GU	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes				Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.82	0.67	28	hyper-methylated	0.062080894	1	0.733333333333
+TCGA-QR-A6GW-01	TCGA-QR-A6GW	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes		Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.83	0.85	26	low-methylated	0.086247892	NA	0.633333333333
+TCGA-QR-A6GX-01	TCGA-QR-A6GX	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes				Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.35	0.68	21	low-methylated	0.060535734	NA	0.533333333333
+TCGA-QR-A6GY-01	TCGA-QR-A6GY	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes		Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.82	33	low-methylated	0.049006049	NA	0.666666666667
+TCGA-QR-A6GZ-01	TCGA-QR-A6GZ	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.32	0.47	11	intermediate	0.095561638	3	0.266666666667
+TCGA-QR-A6GZ-05	TCGA-QR-A6GZ	Primary	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	Matched	NA	NA	9	NA	0.070872697	3	0.166666666667
+TCGA-QR-A6H0-01	TCGA-QR-A6H0	Primary	paraganglioma	extra adrenal thoracic	thoracic paraspinal extra adrenal PGL 	Yes						Yes	PGNG	Paraganglioma	Paraganglioma	Matched	1.93	0.44	15	hyper-methylated	0.077701264	NA	0.433333333333
+TCGA-QR-A6H1-01	TCGA-QR-A6H1	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.96	0.79	22	low-methylated	0.117229486	NA	0.6
+TCGA-QR-A6H2-01	TCGA-QR-A6H2	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.95	0.82	19	low-methylated	0.082447897	2	0.5
+TCGA-QR-A6H3-01	TCGA-QR-A6H3	Primary	paraganglioma	extra adrenal thoracic	intrapericardial para-aortic extra adrenal PGL 	Yes					Yes	Yes	PGNG	Paraganglioma	Paraganglioma	Matched	1.91	0.47	11	hyper-methylated	0.072864879	NA	0.233333333333
+TCGA-QR-A6H5-01	TCGA-QR-A6H5	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.88	0.53	14	intermediate	0.136801628	NA	0.333333333333
+TCGA-QR-A6H6-01	TCGA-QR-A6H6	Primary	paraganglioma	extra adrenal thoracic	thoracic paraspinal extra adrenal PGL	Yes	Yes	Yes					PGNG	Paraganglioma	Paraganglioma	Matched	1.86	0.75	18	hyper-methylated	0.057716799	NA	0.333333333333
+TCGA-QR-A6ZZ-01	TCGA-QR-A6ZZ	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.92	0.59	26	intermediate	0.079952063	NA	0.633333333333
+TCGA-QR-A700-01	TCGA-QR-A700	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes				Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.93	0.74	46	low-methylated	0.082337452	NA	1.33333333333
+TCGA-QR-A702-01	TCGA-QR-A702	Primary	paraganglioma	extra adrenal abdomen/pelvis	retrocaval retroperitoneal extra adrenal PGL	Yes	Yes			Yes			PGNG	Paraganglioma	Paraganglioma	Matched	1.88	0.9	15	low-methylated	0.050863241	NA	0.366666666667
+TCGA-QR-A703-01	TCGA-QR-A703	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes				Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.84	0.76	12	intermediate	0.098960288	NA	0.233333333333
+TCGA-QR-A705-01	TCGA-QR-A705	Primary	paraganglioma	extra adrenal thoracic	cardiac atrium extra adrenal PGL	Yes	Yes	Yes			Yes	Yes	PGNG	Paraganglioma	Paraganglioma	Matched	1.92	0.81	21	hyper-methylated	0.083447984	NA	0.433333333333
+TCGA-QR-A706-01	TCGA-QR-A706	Primary	paraganglioma	extra adrenal thoracic	thoracic extra adrenal PGL	Yes	Yes	Yes					PGNG	Paraganglioma	Paraganglioma	Matched	1.96	0.55	25	intermediate	0.103225109	NA	0.533333333333
+TCGA-QR-A707-01	TCGA-QR-A707	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.99	0.89	15	low-methylated	0.059168235	NA	0.366666666667
+TCGA-QR-A708-01	TCGA-QR-A708	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes				Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.84	0.57	28	intermediate	0.064184072	NA	0.633333333333
+TCGA-QR-A70A-01	TCGA-QR-A70A	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.81	0.77	24	intermediate	0.06048959	NA	0.533333333333
+TCGA-QR-A70C-01	TCGA-QR-A70C	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	2	1	22	low-methylated	0.087795745	NA	0.333333333333
+TCGA-QR-A70D-01	TCGA-QR-A70D	Primary	paraganglioma	extra adrenal abdomen/pelvis	aorto-caval peripancreatic presacral extra adrenal PGL 	Yes	Yes	Yes					PGNG	Paraganglioma	Paraganglioma	Matched	1.93	0.75	21	hyper-methylated	0.084222579	NA	0.366666666667
+TCGA-QR-A70E-01	TCGA-QR-A70E	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.9	0.86	18	intermediate	0.04842036	NA	0.433333333333
+TCGA-QR-A70G-01	TCGA-QR-A70G	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.99	0.5	26	low-methylated	0.160229105	NA	0.566666666667
+TCGA-QR-A70H-01	TCGA-QR-A70H	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.86	0.83	17	low-methylated	0.083478448	NA	0.433333333333
+TCGA-QR-A70I-01	TCGA-QR-A70I	Primary	paraganglioma	extra adrenal abdomen/pelvis	peri-aortic retroperitoneal extra adrenal PGL	Yes	Yes	Yes					PGNG	Paraganglioma	Paraganglioma	Matched	2	0.6	8	hyper-methylated	0.10656879	NA	0.2
+TCGA-QR-A70J-01	TCGA-QR-A70J	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.83	0.43	26	intermediate	0.221159714	NA	0.666666666667
+TCGA-QR-A70K-01	TCGA-QR-A70K	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes				PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.87	0.92	34	low-methylated	0.056380241	NA	0.933333333333
+TCGA-QR-A70M-01	TCGA-QR-A70M	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes				PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.92	0.89	11	low-methylated	0.071991182	NA	0.3
+TCGA-QR-A70N-01	TCGA-QR-A70N	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.27	0.52	22	intermediate	0.114195624	NA	0.633333333333
+TCGA-QR-A70O-01	TCGA-QR-A70O	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.86	0.9	21	low-methylated	0.055019857	NA	0.566666666667
+TCGA-QR-A70P-01	TCGA-QR-A70P	Primary	paraganglioma	extra adrenal abdomen/pelvis	aortocaval retroperitoneal extra adrenal PGL	Yes	Yes	Yes					PGNG	Paraganglioma	Paraganglioma	Matched	1.95	0.82	46	hyper-methylated	0.047793153	NA	1.03333333333
+TCGA-QR-A70R-01	TCGA-QR-A70R	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes				PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.82	0.77	22	low-methylated	0.071422483	NA	0.5
+TCGA-QR-A70T-01	TCGA-QR-A70T	Primary	paraganglioma	extra adrenal abdomen/pelvis	retroperitoneal extra adrenal PGL	Yes	Yes						PGNG	Paraganglioma	Paraganglioma	Matched	1.95	0.92	27	hyper-methylated	0.045149084	NA	0.533333333333
+TCGA-QR-A70U-01	TCGA-QR-A70U	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes				PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.9	0.84	34	low-methylated	0.062245562	NA	0.9
+TCGA-QR-A70V-01	TCGA-QR-A70V	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.86	0.94	22	low-methylated	0.037997153	NA	0.566666666667
+TCGA-QR-A70W-01	TCGA-QR-A70W	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes		Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.87	0.92	12	low-methylated	0.054125767	3	0.3
+TCGA-QR-A70X-01	TCGA-QR-A70X	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes		Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.96	0.56	19	low-methylated	0.253624327	NA	0.333333333333
+TCGA-QR-A7IN-01	TCGA-QR-A7IN	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.7	0.7	16	intermediate	0.06936545	NA	0.3
+TCGA-QR-A7IP-01	TCGA-QR-A7IP	Primary	paraganglioma	extra adrenal abdomen/pelvis	para-aortic extra adrenal PGL	Yes	Yes	Yes					PGNG	Paraganglioma	Paraganglioma	Matched	3.62	0.7	20	hyper-methylated	0.047796865	NA	0.433333333333
+TCGA-QT-A5XJ-01	TCGA-QT-A5XJ	Primary	pheochromocytoma	adrenal	Adrenal	Yes							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.85	0.91	39	hyper-methylated	0.049125731	1	0.966666666667
+TCGA-QT-A5XK-01	TCGA-QT-A5XK	Primary	pheochromocytoma	adrenal	Adrenal	Yes		Yes	Yes				PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.82	0.72	26	low-methylated	0.162921494	3	0.533333333333
+TCGA-QT-A5XL-01	TCGA-QT-A5XL	Primary	pheochromocytoma	adrenal	Adrenal	Yes		Yes				Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.82	0.43	15	intermediate	0.133836779	2	0.366666666667
+TCGA-QT-A5XM-01	TCGA-QT-A5XM	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes				PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.91	0.56	13	low-methylated	0.249603836	2	0.233333333333
+TCGA-QT-A5XN-01	TCGA-QT-A5XN	Primary	pheochromocytoma	adrenal	Adrenal	Yes							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.86	0.91	18	low-methylated	0.043974393	2	0.3
+TCGA-QT-A5XO-01	TCGA-QT-A5XO	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.9	0.78	31	low-methylated	0.076022386	2	0.733333333333
+TCGA-QT-A5XP-01	TCGA-QT-A5XP	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.96	0.64	27	low-methylated	0.234458422	2	0.6
+TCGA-QT-A69Q-01	TCGA-QT-A69Q	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.63	0.7	18	low-methylated	0.108193972	2	0.433333333333
+TCGA-QT-A7U0-01	TCGA-QT-A7U0	Primary	paraganglioma	extra adrenal abdomen/pelvis	retroperitoneal extra adrenal PGL	Yes	Yes						PGNG	Paraganglioma	Paraganglioma	Matched	2.03	0.69	21	intermediate	0.193440171	2	0.433333333333
+TCGA-RT-A6Y9-01	TCGA-RT-A6Y9	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.84	7	intermediate	0.087888465	1	0.133333333333
+TCGA-RT-A6YA-01	TCGA-RT-A6YA	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.61	0.75	29	low-methylated	0.067440162	2	0.8
+TCGA-RT-A6YC-01	TCGA-RT-A6YC	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes		Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	2	0.7	13	low-methylated	0.139778295	2	0.266666666667
+TCGA-RW-A67V-01	TCGA-RW-A67V	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.94	20	low-methylated	0.042584867	1	0.5
+TCGA-RW-A67W-01	TCGA-RW-A67W	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.9	0.77	18	low-methylated	0.123388216	NA	0.5
+TCGA-RW-A67X-01	TCGA-RW-A67X	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.66	0.3	28	intermediate	0.309773654	2	0.633333333333
+TCGA-RW-A67Y-01	TCGA-RW-A67Y	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.8	0.94	20	low-methylated	0.029305719	NA	0.366666666667
+TCGA-RW-A680-01	TCGA-RW-A680	Primary	paraganglioma	extra adrenal abdomen/pelvis	retroperitoneal extra adrenal PGL	Unknown							PGNG	Paraganglioma	Paraganglioma	Matched	1.92	0.74	40	hyper-methylated	0.078797294	1	0.9
+TCGA-RW-A681-01	TCGA-RW-A681	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.33	0.97	34	low-methylated	0.027778126	2	0.833333333333
+TCGA-RW-A684-01	TCGA-RW-A684	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.96	0.76	23	intermediate	0.198564937	NA	0.433333333333
+TCGA-RW-A685-01	TCGA-RW-A685	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.65	20	low-methylated	0.180584994	3	0.433333333333
+TCGA-RW-A686-01	TCGA-RW-A686	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.96	0.71	13	low-methylated	0.086587735	NA	0.4
+TCGA-RW-A686-06	TCGA-RW-A686	Metastasis	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	Matched	NA	NA	20	NA	0.097566167	NA	0.4
+TCGA-RW-A688-01	TCGA-RW-A688	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.99	0.87	24	low-methylated	0.048744082	3	0.5
+TCGA-RW-A689-01	TCGA-RW-A689	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.84	0.8	18	low-methylated	0.109516192	2	0.366666666667
+TCGA-RW-A68A-01	TCGA-RW-A68A	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.75	0.85	12	low-methylated	0.068356894	2	0.266666666667
+TCGA-RW-A68B-01	TCGA-RW-A68B	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.96	0.87	11	low-methylated	0.046688854	2	0.266666666667
+TCGA-RW-A68C-01	TCGA-RW-A68C	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.53	0.35	15	intermediate	0.10956879	1	0.4
+TCGA-RW-A68D-01	TCGA-RW-A68D	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.06	0.79	17	hyper-methylated	0.064827879	2	0.466666666667
+TCGA-RW-A68F-01	TCGA-RW-A68F	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.01	0.89	29	hyper-methylated	0.060440187	1	0.6
+TCGA-RW-A68G-01	TCGA-RW-A68G	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.97	0.7	15	low-methylated	0.07224372	1	0.4
+TCGA-RW-A7CZ-01	TCGA-RW-A7CZ	Primary	paraganglioma	extra adrenal abdomen/pelvis	peri-adrenal extra adrenal PGL	Yes	Yes						PGNG	Paraganglioma	Paraganglioma	Matched	3.88	0.4	27	hyper-methylated	0.082019534	NA	0.533333333333
+TCGA-RW-A7D0-01	TCGA-RW-A7D0	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.92	0.66	22	low-methylated	0.253044867	NA	0.433333333333
+TCGA-RW-A8AZ-01	TCGA-RW-A8AZ	Primary	pheochromocytoma	adrenal	adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.95	0.86	35	low-methylated	0.078872636	1	0.8
+TCGA-RX-A8JQ-01	TCGA-RX-A8JQ	Primary	paraganglioma	extra adrenal abdomen/pelvis	peri-adrenal retroperitoneal extra adrenal PGL	No							PGNG	Paraganglioma	Paraganglioma	Matched	2.03	0.76	16	low-methylated	0.098258145	3	0.466666666667
+TCGA-S7-A7WL-01	TCGA-S7-A7WL	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.96	0.89	20	low-methylated	0.094848301	2	0.466666666667
+TCGA-S7-A7WM-01	TCGA-S7-A7WM	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes		Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.77	20	low-methylated	0.115783773	2	0.5
+TCGA-S7-A7WN-01	TCGA-S7-A7WN	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.98	0.73	15	low-methylated	0.163736609	2	0.266666666667
+TCGA-S7-A7WO-01	TCGA-S7-A7WO	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	2	1	8	intermediate	0.167259388	NA	0.2
+TCGA-S7-A7WP-01	TCGA-S7-A7WP	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.88	0.59	7	intermediate	0.129616699	2	0.166666666667
+TCGA-S7-A7WQ-01	TCGA-S7-A7WQ	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.62	0.53	18	intermediate	0.159405991	2	0.4
+TCGA-S7-A7WR-01	TCGA-S7-A7WR	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes		Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.75	0.81	10	low-methylated	0.129234076	3	0.266666666667
+TCGA-S7-A7WT-01	TCGA-S7-A7WT	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.92	0.63	30	low-methylated	0.309869577	NA	0.766666666667
+TCGA-S7-A7WU-01	TCGA-S7-A7WU	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.95	0.85	6	intermediate	0.054734885	1	0.1
+TCGA-S7-A7WV-01	TCGA-S7-A7WV	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	2	0.5	14	intermediate	0.570035691	2	0.333333333333
+TCGA-S7-A7WW-01	TCGA-S7-A7WW	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.16	0.66	15	intermediate	0.092262061	1	0.333333333333
+TCGA-S7-A7WX-01	TCGA-S7-A7WX	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.89	0.76	11	low-methylated	0.167726309	1	0.266666666667
+TCGA-S7-A7X0-01	TCGA-S7-A7X0	Primary	paraganglioma	extra adrenal abdomen/pelvis	minor pelvis extra adrenal PGL	Yes	Yes						PGNG	Paraganglioma	Paraganglioma	Matched	3.74	0.38	31	intermediate	0.082293945	1	0.766666666667
+TCGA-S7-A7X1-01	TCGA-S7-A7X1	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.85	0.64	13	intermediate	0.112331112	2	0.366666666667
+TCGA-S7-A7X2-01	TCGA-S7-A7X2	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.89	0.74	22	low-methylated	0.164101689	3	0.466666666667
+TCGA-SA-A6C2-01	TCGA-SA-A6C2	Primary	paraganglioma	extra adrenal abdomen/pelvis	peri-aortic retroperitoneal extra adrenal PGL	No							PGNG	Paraganglioma	Paraganglioma	Matched	2	0.98	37	hyper-methylated	0.046785097	1	0.933333333333
+TCGA-SP-A6QC-01	TCGA-SP-A6QC	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.96	0.65	14	low-methylated	0.220244694	NA	0.333333333333
+TCGA-SP-A6QD-01	TCGA-SP-A6QD	Primary	pheochromocytoma	adrenal	Adrenal	Yes		Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	2	0.79	10	hyper-methylated	0.065173177	NA	0.266666666667
+TCGA-SP-A6QF-01	TCGA-SP-A6QF	Primary	pheochromocytoma	adrenal	Adrenal	Yes		Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.89	0.7	27	low-methylated	0.181296087	NA	0.666666666667
+TCGA-SP-A6QG-01	TCGA-SP-A6QG	Primary	paraganglioma	extra adrenal abdomen/pelvis	para-adrenal soft tissue extra adrenal PGL	Yes		Yes		Yes			PGNG	Paraganglioma	Paraganglioma	Matched	1.81	0.79	16	hyper-methylated	0.058505056	NA	0.266666666667
+TCGA-SP-A6QH-01	TCGA-SP-A6QH	Primary	pheochromocytoma	adrenal	Adrenal	Yes		Yes				Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.89	0.19	22	intermediate	0.065224999	1	0.466666666667
+TCGA-SP-A6QI-01	TCGA-SP-A6QI	Primary	pheochromocytoma	adrenal	Adrenal	Yes			Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.92	0.87	14	low-methylated	0.070251514	NA	0.366666666667
+TCGA-SP-A6QJ-01	TCGA-SP-A6QJ	Primary	pheochromocytoma	adrenal	Adrenal	Yes		Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.89	0.78	22	low-methylated	0.115670778	2	0.566666666667
+TCGA-SP-A6QK-01	TCGA-SP-A6QK	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.91	0.62	20	low-methylated	0.103734722	NA	0.466666666667
+TCGA-SQ-A6I4-01	TCGA-SQ-A6I4	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.91	0.55	24	low-methylated	0.378436196	NA	0.666666666667
+TCGA-SQ-A6I6-01	TCGA-SQ-A6I6	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.85	0.84	29	low-methylated	0.067650153	NA	0.633333333333
+TCGA-SR-A6MP-01	TCGA-SR-A6MP	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes				PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.87	0.77	28	low-methylated	0.121535251	NA	0.766666666667
+TCGA-SR-A6MQ-01	TCGA-SR-A6MQ	Primary	paraganglioma	extra adrenal abdomen/pelvis	peri-aortic extra adrenal PGL above left renal vein	Yes	Yes			Yes			PGNG	Paraganglioma	Paraganglioma	Matched	1.81	0.77	23	intermediate	0.106002168	3	0.466666666667
+TCGA-SR-A6MR-01	TCGA-SR-A6MR	Primary	paraganglioma	extra adrenal abdomen/pelvis	porto-caval extra adrenal PGL	Yes							PGNG	Paraganglioma	Paraganglioma	Matched	1.93	0.69	14	intermediate	0.115774153	NA	0.4
+TCGA-SR-A6MS-01	TCGA-SR-A6MS	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes		Yes		Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.01	0.81	17	low-methylated	0.090415842	NA	0.333333333333
+TCGA-SR-A6MT-01	TCGA-SR-A6MT	Primary	pheochromocytoma	adrenal	Adrenal	Unknown							PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.5	0.87	14	hyper-methylated	0.037917639	NA	0.333333333333
+TCGA-SR-A6MU-01	TCGA-SR-A6MU	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes		Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.98	0.77	19	low-methylated	0.084719609	NA	0.4
+TCGA-SR-A6MV-01	TCGA-SR-A6MV	Primary	paraganglioma	extra adrenal abdomen/pelvis	retroperitoneal extra adrenal PGL	Unknown							PGNG	Paraganglioma	Paraganglioma	Matched	3.76	0.62	16	intermediate	0.072357725	NA	0.433333333333
+TCGA-SR-A6MX-01	TCGA-SR-A6MX	Primary	paraganglioma	extra adrenal thoracic	throacic eipdural paraganglioma	Yes	Yes	Yes				Yes	PGNG	Paraganglioma	Paraganglioma	Matched	1.77	0.8	31	hyper-methylated	0.059756751	1	0.566666666667
+TCGA-SR-A6MX-05	TCGA-SR-A6MX	Primary	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	Matched	NA	NA	32	NA	0.063577816	1	0.733333333333
+TCGA-SR-A6MX-06	TCGA-SR-A6MX	Metastasis	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	Matched	NA	NA	30	NA	0.068670319	1	0.733333333333
+TCGA-SR-A6MY-01	TCGA-SR-A6MY	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes		Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.86	0.74	15	low-methylated	0.146599573	1	0.266666666667
+TCGA-SR-A6MZ-01	TCGA-SR-A6MZ	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes		Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.1	0.57	14	intermediate	0.226403825	3	0.2
+TCGA-SR-A6N0-01	TCGA-SR-A6N0	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.18	0.5	15	low-methylated	0.090865153	NA	0.366666666667
+TCGA-TT-A6YJ-01	TCGA-TT-A6YJ	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.84	0.91	13	low-methylated	0.040145574	NA	0.333333333333
+TCGA-TT-A6YK-01	TCGA-TT-A6YK	Primary	paraganglioma	extra adrenal abdomen/pelvis	para-aortic/celiac artery extra adrenal PGL 	Yes	Yes						PGNG	Paraganglioma	Paraganglioma	Matched	3.8	0.54	17	intermediate	0.070305145	NA	0.3
+TCGA-TT-A6YN-01	TCGA-TT-A6YN	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.91	0.84	13	low-methylated	0.078358756	3	0.233333333333
+TCGA-TT-A6YO-01	TCGA-TT-A6YO	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	2	0.66	10	intermediate	0.199100204	NA	0.233333333333
+TCGA-TT-A6YP-01	TCGA-TT-A6YP	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.81	0.53	20	intermediate	0.120320018	NA	0.333333333333
+TCGA-W2-A7H5-01	TCGA-W2-A7H5	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.96	0.76	8	low-methylated	0.063117374	NA	0.133333333333
+TCGA-W2-A7H7-01	TCGA-W2-A7H7	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.83	0.71	22	hyper-methylated	0.103056367	NA	0.466666666667
+TCGA-W2-A7HA-01	TCGA-W2-A7HA	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.85	0.76	32	low-methylated	0.140157732	NA	0.633333333333
+TCGA-W2-A7HB-01	TCGA-W2-A7HB	Primary	pheochromocytoma	adrenal	Adrenal	Yes				Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.52	0.32	18	low-methylated	0.059552275	NA	0.4
+TCGA-W2-A7HC-01	TCGA-W2-A7HC	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.85	0.68	29	low-methylated	0.237181464	3	0.733333333333
+TCGA-W2-A7HD-01	TCGA-W2-A7HD	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes		Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.9	0.93	23	low-methylated	0.059000922	NA	0.533333333333
+TCGA-W2-A7HE-01	TCGA-W2-A7HE	Primary	pheochromocytoma	adrenal	Adrenal	Yes				Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.01	0.47	10	low-methylated	0.197181635	NA	0.166666666667
+TCGA-W2-A7HF-01	TCGA-W2-A7HF	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.79	0.86	12	low-methylated	0.043896898	2	0.366666666667
+TCGA-W2-A7HH-01	TCGA-W2-A7HH	Primary	paraganglioma	extra adrenal abdomen/pelvis	peri-adrenal extra adrenal PGL 	Yes	Yes			Yes			PGNG	Paraganglioma	Paraganglioma	Matched	2	0.67	20	intermediate	0.064024507	NA	0.566666666667
+TCGA-W2-A7UY-01	TCGA-W2-A7UY	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.76	0.83	30	intermediate	0.104672424	NA	0.733333333333
+TCGA-WB-A80K-01	TCGA-WB-A80K	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.09	0.67	21	low-methylated	0.160184172	NA	0.5
+TCGA-WB-A80L-01	TCGA-WB-A80L	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.28	0.8	7	low-methylated	0.07532094	NA	0.166666666667
+TCGA-WB-A80M-01	TCGA-WB-A80M	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes	Yes		PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.86	0.91	18	low-methylated	0.039387645	NA	0.433333333333
+TCGA-WB-A80N-01	TCGA-WB-A80N	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.91	0.77	22	low-methylated	0.127108219	NA	0.566666666667
+TCGA-WB-A80O-01	TCGA-WB-A80O	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.64	20	low-methylated	0.188615913	NA	0.5
+TCGA-WB-A80P-01	TCGA-WB-A80P	Primary	paraganglioma	extra adrenal abdomen/pelvis	para-aortic /peri-caval retroperitoneal extra adrenal PGL	Yes	Yes						PGNG	Paraganglioma	Paraganglioma	Matched	1.95	0.77	11	hyper-methylated	0.078850246	NA	0.233333333333
+TCGA-WB-A80Q-01	TCGA-WB-A80Q	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	2	0.75	19	low-methylated	0.063781286	1	0.5
+TCGA-WB-A80V-01	TCGA-WB-A80V	Primary	pheochromocytoma	adrenal	Adrenal	Yes			Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.77	0.9	24	low-methylated	0.059595233	NA	0.7
+TCGA-WB-A80Y-01	TCGA-WB-A80Y	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.82	15	low-methylated	0.074754149	NA	0.333333333333
+TCGA-WB-A814-01	TCGA-WB-A814	Primary	paraganglioma	extra adrenal abdomen/pelvis	para-aortic /peri-caval extra adrenal PGL	Yes	Yes	Yes					PGNG	Paraganglioma	Paraganglioma	Matched	1.9	0.58	16	intermediate	0.080013912	1	0.5
+TCGA-WB-A815-01	TCGA-WB-A815	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.9	0.72	32	low-methylated	0.079232066	1	0.766666666667
+TCGA-WB-A816-01	TCGA-WB-A816	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.88	0.57	20	low-methylated	0.122065275	NA	0.533333333333
+TCGA-WB-A817-01	TCGA-WB-A817	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	2	0.53	14	low-methylated	0.123402278	1	0.4
+TCGA-WB-A818-01	TCGA-WB-A818	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes		Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.9	0.74	15	low-methylated	0.13008261	3	0.4
+TCGA-WB-A819-01	TCGA-WB-A819	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.84	0.65	14	low-methylated	0.240124057	2	0.3
+TCGA-WB-A81A-01	TCGA-WB-A81A	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.18	0.9	17	intermediate	0.031640896	NA	0.4
+TCGA-WB-A81D-01	TCGA-WB-A81D	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.97	0.75	25	low-methylated	0.151232619	NA	0.666666666667
+TCGA-WB-A81E-01	TCGA-WB-A81E	Primary	paraganglioma	extra adrenal thoracic	thoracic mediastinal extra adrenal PGL 	Yes	Yes	Yes					PGNG	Paraganglioma	Paraganglioma	Matched	1.88	0.78	34	hyper-methylated	0.101736901	NA	0.833333333333
+TCGA-WB-A81F-01	TCGA-WB-A81F	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes		Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.89	0.74	12	low-methylated	0.126445976	NA	0.3
+TCGA-WB-A81G-01	TCGA-WB-A81G	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.96	0.64	16	hyper-methylated	0.083384154	1	0.366666666667
+TCGA-WB-A81H-01	TCGA-WB-A81H	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.44	25	low-methylated	0.187977182	NA	0.5
+TCGA-WB-A81I-01	TCGA-WB-A81I	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.97	0.9	23	low-methylated	0.04952206	NA	0.533333333333
+TCGA-WB-A81J-01	TCGA-WB-A81J	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	2.02	0.91	18	low-methylated	0.04606692	NA	0.533333333333
+TCGA-WB-A81K-01	TCGA-WB-A81K	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes				Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.84	0.72	12	low-methylated	0.157383858	NA	0.3
+TCGA-WB-A81M-01	TCGA-WB-A81M	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.93	0.93	21	low-methylated	0.037768205	1	0.433333333333
+TCGA-WB-A81N-01	TCGA-WB-A81N	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.95	0.78	11	low-methylated	0.104521	NA	0.2
+TCGA-WB-A81P-01	TCGA-WB-A81P	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.91	0.76	29	low-methylated	0.108707013	2	0.8
+TCGA-WB-A81Q-01	TCGA-WB-A81Q	Primary	pheochromocytoma	adrenal	Adrenal	Yes		Yes	Yes			Yes	PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.94	0.88	26	intermediate	0.077509902	NA	0.7
+TCGA-WB-A81R-01	TCGA-WB-A81R	Primary	pheochromocytoma	adrenal	Adrenal	Yes				Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.84	0.85	22	low-methylated	0.089362098	NA	0.5
+TCGA-WB-A81S-01	TCGA-WB-A81S	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.5	0.67	22	low-methylated	0.100524164	1	0.466666666667
+TCGA-WB-A81T-01	TCGA-WB-A81T	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes			Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.86	0.68	27	low-methylated	0.140349295	3	0.666666666667
+TCGA-WB-A81V-01	TCGA-WB-A81V	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes				PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.9	0.71	22	low-methylated	0.11614946	3	0.433333333333
+TCGA-WB-A81W-01	TCGA-WB-A81W	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes	Yes	Yes			PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.87	0.8	27	low-methylated	0.102260746	3	0.6
+TCGA-WB-A821-01	TCGA-WB-A821	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	3.8	0.55	36	intermediate	0.07275252	NA	0.833333333333
+TCGA-WB-A822-01	TCGA-WB-A822	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes						PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.89	0.56	11	hyper-methylated	0.199041128	NA	0.266666666667
+TCGA-XG-A823-01	TCGA-XG-A823	Primary	pheochromocytoma	adrenal	Adrenal	Yes	Yes	Yes					PHC	Pheochromocytoma	Pheochromocytoma	Matched	1.95	0.54	17	hyper-methylated	0.113887765	NA	0.266666666667

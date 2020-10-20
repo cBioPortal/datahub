@@ -1,0 +1,19 @@
+#Sample Identifier	Patient Identifier	Sample Class	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	The sample classification (i.e., tumor, cellline, xenograph).	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	SAMPLE_CLASS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+RB-001-cf-IGO-05500-CT-40	RB-001-cf-IGO-05500-CT-40	cfDNA	RBL	Retinoblastoma	Retinoblastoma	299090.038314
+RB-001-cf-R2-IGO-07220-C-18	RB-001-cf-R2-IGO-07220-C-18	cfDNA	RBL	Retinoblastoma	Retinoblastoma	290948.275862
+RB-003-cf-IGO-05500-CT-41	RB-003-cf-IGO-05500-CT-41	cfDNA	RBL	Retinoblastoma	Retinoblastoma	322318.007663
+RB-003-cf-R2-IGO-07220-C-19	RB-003-cf-R2-IGO-07220-C-19	cfDNA	RBL	Retinoblastoma	Retinoblastoma	324712.643678
+RB-011-cf-IGO-05500-CT-42	RB-011-cf-IGO-05500-CT-42	cfDNA	RBL	Retinoblastoma	Retinoblastoma	292145.59387
+RB-016-cf-IGO-05500-CT-39	RB-016-cf-IGO-05500-CT-39	cfDNA	RBL	Retinoblastoma	Retinoblastoma	313697.318008
+RB-016-cf-R2-IGO-07220-C-21	RB-016-cf-R2-IGO-07220-C-21	cfDNA	RBL	Retinoblastoma	Retinoblastoma	317528.735632
+RB-019-cf-IGO-05500-CT-38	RB-019-cf-IGO-05500-CT-38	cfDNA	RBL	Retinoblastoma	Retinoblastoma	320881.226054
+RB-019-cf-R2-IGO-07220-C-22	RB-019-cf-R2-IGO-07220-C-22	cfDNA	RBL	Retinoblastoma	Retinoblastoma	339080.45977
+RB-021-cf-IGO-07220-C-7	RB-021-cf-IGO-07220-C-7	cfDNA	RBL	Retinoblastoma	Retinoblastoma	191091.954023
+RB-022-cf-IGO-07220-C-8	RB-022-cf-IGO-07220-C-8	cfDNA	RBL	Retinoblastoma	Retinoblastoma	96743.2950192
+RB-023-cf1-IGO-07220-C-9	RB-023-cf1-IGO-07220-C-9	cfDNA	RBL	Retinoblastoma	Retinoblastoma	87404.2145594
+RB-024-cf-IGO-07220-C-11	RB-024-cf-IGO-07220-C-11	cfDNA	RBL	Retinoblastoma	Retinoblastoma	154214.559387
+RB-026-cf-IGO-07220-C-13	RB-026-cf-IGO-07220-C-13	cfDNA	RBL	Retinoblastoma	Retinoblastoma	134578.544061

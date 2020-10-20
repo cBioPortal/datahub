@@ -1,0 +1,146 @@
+#Sample Identifier	Patient Identifier	Sample Class	Tumor Sequencing Platform	Sample Collection Time	Oncotree Code	Cancer Type	Cancer Type Detailed	Sample Type	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	The sample classification (i.e., tumor, cellline, xenograph).	Tumor Sequencing Platform	Sample Collection Time	Oncotree Code	Cancer Type	Cancer Type Detailed	The type of sample (i.e., normal, primary, met, recurrence).	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	0	0	0	0	1	1	0	1
+SAMPLE_ID	PATIENT_ID	SAMPLE_CLASS	SEQUENCING_PLATFORM	SAMPLE_COLLECTION_TIMEPOINT	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SAMPLE_TYPE	TMB_NONSYNONYMOUS
+P001-01-Pre-Tumor	P001	Tumor	Sequenom	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		NA
+P002-01-Pre-Tumor	P002	Tumor	Sequenom	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		NA
+P002-02-Pre-cfDNA	P002	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		132.771607302
+P002-04-Post-cfDNA	P002	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		45.9594025278
+P003-01-Pre-Tumor	P003	Tumor	Sequenom	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		NA
+P004-01-Pre-Tumor	P004	Tumor	Sequenom	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		NA
+P004-02-Pre-cfDNA	P004	cfDNA	GUARDANT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		5.10660028086
+P004-04-Post-cfDNA	P004	cfDNA	GUARDANT	post-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		15.3198008426
+P005-01-Pre-Tumor	P005	Tumor	Failed	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		NA
+P-0003922-T01-IM3	P-0003922	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	0.0
+P006-02-Pre-cfDNA	P-0003922	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P006-04-Post-cfDNA	P-0003922	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+SC-her2-073-M	SC-her2-073-M	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	2.98069700619
+P007-02-Pre-cfDNA	SC-her2-073-M	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P007-03-On-cfDNA	SC-her2-073-M	cfDNA	GUARDANT	on-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P007-04-Post-cfDNA	SC-her2-073-M	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P008-01-Pre-Tumor	P008	Tumor	Foundation	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		1.71354056893
+P008-02-Pre1-cfDNA	P008	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P008-02-Pre2-cfDNA	P008	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P008-04-Post-cfDNA	P008	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P-0000138-T02-IM3	P-0000138	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	15.7016859124
+P009-02-Pre-cfDNA	P-0000138	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		153.198008426
+P009-04-Post-cfDNA	P-0000138	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		311.502617133
+P012-01-Pre-Tumor	P012	Tumor	Sequenom	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		NA
+P-0000414-T01-IM3	P-0000414	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Primary	2.24309798749
+P-0004668-T01-IM5	P-0004668	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Primary	2.98069700619
+P-0000129-T01-IM3	P-0000129	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Primary	1.12154899375
+P016-02-Pre-cfDNA	P-0000129	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P016-04-Post-cfDNA	P-0000129	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		25.5330014043
+s_SC_adbrca_002_T	p_SC_adbrca_002	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		1.12154899375
+P017-04-Post-cfDNA	p_SC_adbrca_002	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		45.9594025278
+P-0000153-T02-IM3	P-0000153	Tumor	MSK-IMPACT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	Primary	1.12154899375
+P019-01-Pre-Tumor	P019	Tumor	Sequenom	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		NA
+P019-02-Pre-cfDNA	P019	cfDNA	GUARDANT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		15.3198008426
+P-0001952-T01-IM3	P-0001952	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	6.72929396248
+P021-02-Pre-cfDNA	P-0001952	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P021-04-Post-cfDNA	P-0001952	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P-0004187-T01-IM5	P-0004187	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	4.96782834365
+P022-02-Pre-cfDNA	P-0004187	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P022-04-Post-cfDNA	P-0004187	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P-0000786-T01-IM3	P-0000786	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	6.72929396248
+P023-02-Pre-cfDNA	P-0000786	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		20.4264011235
+P023-04-Post-cfDNA	P-0000786	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P-0005666-T01-IM5	P-0005666	Tumor	MSK-IMPACT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	Metastasis	8.94209101856
+P025-02-Pre-cfDNA	P-0005666	cfDNA	GUARDANT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		20.4264011235
+P025-04-Post-cfDNA	P-0005666	cfDNA	GUARDANT	post-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		45.9594025278
+P-0000216-T02-IM3	P-0000216	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	10.0939409437
+P026-02-Pre-cfDNA	P-0000216	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		35.746201966
+P026-04-Post-cfDNA	P-0000216	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		25.5330014043
+P-0008469-T01-IM5	P-0008469	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	3.97426267492
+P028-04-Post-cfDNA	P-0008469	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P-0000234-T01-IM3	P-0000234	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	4.48619597498
+P029-02-Pre-cfDNA	P-0000234	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		20.4264011235
+P029-04-Post-cfDNA	P-0000234	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		20.4264011235
+P-0002232-T01-IM3	P-0002232	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	6.72929396248
+P030-02-Pre-cfDNA	P-0002232	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		20.4264011235
+P030-03-On-cfDNA	P-0002232	cfDNA	GUARDANT	on-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P-0001516-T01-IM3	P-0001516	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	5.60774496873
+P031-02-Pre-cfDNA	P-0001516	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		20.4264011235
+P031-03-On-cfDNA	P-0001516	cfDNA	GUARDANT	on-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P031-04-Post-cfDNA	P-0001516	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P-0000422-T02-IM3	P-0000422	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	7.85084295622
+P032-02-Pre-cfDNA	P-0000422	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		40.8528022469
+P032-04-Post-cfDNA	P-0000422	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		45.9594025278
+P-0000204-T02-IM3	P-0000204	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	6.72929396248
+P033-02-Pre-cfDNA	P-0000204	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P033-04-Post-cfDNA	P-0000204	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P-0000690-T03-IM5	P-0000690	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	2.98069700619
+P034-02-Pre-cfDNA	P-0000690	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P034-04-Post-cfDNA	P-0000690	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P-0000624-T01-IM3	P-0000624	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Primary	5.60774496873
+P035-02-Pre-cfDNA	P-0000624	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		25.5330014043
+P035-04-Post-cfDNA	P-0000624	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P-0005131-T01-IM5	P-0005131	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	1.98713133746
+P036-04-Post-cfDNA	P-0005131	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P037-01-Pre-Tumor	P037	Tumor	Foundation	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		8.56770284465
+P037-02-Pre1-cfDNA	P037	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		20.4264011235
+P037-02-Pre2-cfDNA	P037	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		25.5330014043
+P037-03-On-cfDNA	P037	cfDNA	GUARDANT	on-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		40.8528022469
+P-0002591-T01-IM3	P-0002591	Tumor	MSK-IMPACT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	Metastasis	4.48619597498
+P038-02-Pre-cfDNA	P-0002591	cfDNA	GUARDANT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		30.6396016852
+P038-04-Post-cfDNA	P-0002591	cfDNA	GUARDANT	post-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		35.746201966
+P039-01-Pre-Tumor	P039	Tumor	Sequenom	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		NA
+P039-02-Pre-cfDNA	P039	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P039-04-Post-cfDNA	P039	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		25.5330014043
+P040-01-Pre-Tumor	P040	Tumor	Sequenom	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		NA
+P040-02-Pre-cfDNA	P040	cfDNA	GUARDANT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		306.396016852
+P040-04-Post-cfDNA	P040	cfDNA	GUARDANT	post-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		352.35541938
+P-0001396-T01-IM3	P-0001396	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	4.48619597498
+P042-02-Pre-cfDNA	P-0001396	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P042-03-On1-cfDNA	P-0001396	cfDNA	GUARDANT	on-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P042-03-On2-cfDNA	P-0001396	cfDNA	GUARDANT	on-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P042-04-Post-cfDNA	P-0001396	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P-0004314-T01-IM5	P-0004314	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	6.95495968111
+P043-02-Pre-cfDNA	P-0004314	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P043-03-On-cfDNA	P-0004314	cfDNA	GUARDANT	on-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P043-04-Post-cfDNA	P-0004314	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		20.4264011235
+P-0001631-T02-IM5	P-0001631	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	4.96782834365
+P044-02-Pre-cfDNA	P-0001631	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P044-03-On-cfDNA	P-0001631	cfDNA	GUARDANT	on-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P-0000081-T01-IM3	P-0000081	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	6.72929396248
+P045-02-Pre-cfDNA	P-0000081	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P045-04-Post-cfDNA	P-0000081	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P-0002756-T02-IM5	P-0002756	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Primary	3.97426267492
+P046-02-Pre-cfDNA	P-0002756	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		25.5330014043
+P046-04-Post-cfDNA	P-0002756	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		91.9188050555
+P-0001990-T01-IM3	P-0001990	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	5.60774496873
+P047-02-Pre1-cfDNA	P-0001990	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P047-02-Pre2-cfDNA	P-0001990	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		5.10660028086
+P047-03-On-cfDNA	P-0001990	cfDNA	GUARDANT	on-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		20.4264011235
+P047-04-Post-cfDNA	P-0001990	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		40.8528022469
+P048-01-Pre-Tumor	P048	Tumor	Sequenom	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		NA
+P048-02-Pre-cfDNA	P048	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		20.4264011235
+P048-04-Post-cfDNA	P048	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		15.3198008426
+P-0001114-T03-IM5	P-0001114	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	1.98713133746
+P049-04-Post-cfDNA	P-0001114	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P-0003179-T02-IM5	P-0003179	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Primary	7.94852534983
+P050-02-Pre-cfDNA	P-0003179	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		20.4264011235
+P050-04-Post-cfDNA	P-0003179	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		30.6396016852
+P-0003866-T02-IM5	P-0003866	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	1.98713133746
+P-0000514-T02-IM5	P-0000514	Tumor	MSK-IMPACT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	Metastasis	1.98713133746
+P052-04-Post-cfDNA	P-0000514	cfDNA	GUARDANT	post-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		20.4264011235
+P-0006650-T01-IM5	P-0006650	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	5.96139401238
+P053-02-Pre-cfDNA	P-0006650	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		35.746201966
+P053-04-Post-cfDNA	P-0006650	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		25.5330014043
+P-0001351-T02-IM5	P-0001351	Tumor	MSK-IMPACT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	Metastasis	7.94852534983
+P054-02-Pre-cfDNA	P-0001351	cfDNA	GUARDANT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		20.4264011235
+P054-04-Post-cfDNA	P-0001351	cfDNA	GUARDANT	post-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		81.7056044938
+P-0004702-T03-IM5	P-0004702	Tumor	MSK-IMPACT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	Metastasis	3.97426267492
+P057-02-Pre-cfDNA	P-0004702	cfDNA	GUARDANT	pre-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		15.3198008426
+P057-03-On-cfDNA	P-0004702	cfDNA	GUARDANT	on-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		10.2132005617
+P057-04-Post-cfDNA	P-0004702	cfDNA	GUARDANT	post-treatment	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma		10.2132005617
+P-0000247-T02-IM5	P-0000247	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	19.8713133746
+P059-03-On-cfDNA	P-0000247	cfDNA	GUARDANT	on-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617
+P059-02-Pre-cfDNA	P-0000247	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		25.5330014043
+P059-04-Post-cfDNA	P-0000247	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		30.6396016852
+P-0006866-T01-IM5	P-0006866	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Metastasis	4.96782834365
+P060-02-Pre-cfDNA	P-0006866	cfDNA	GUARDANT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		30.6396016852
+P060-04-Post-cfDNA	P-0006866	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		30.6396016852
+P-0005009-T02-IM5	P-0005009	Tumor	MSK-IMPACT	pre-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	Primary	1.98713133746
+P061-04-Post-cfDNA	P-0005009	cfDNA	GUARDANT	post-treatment	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma		10.2132005617

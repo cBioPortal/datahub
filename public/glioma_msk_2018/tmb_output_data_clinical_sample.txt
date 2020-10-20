@@ -1,0 +1,96 @@
+#Patient Identifier	Sample Identifier	Sample Type	Gene Panel	Oncotree Code	Sample Collection Method	Specimen Preservation Type	Tissue Site	Somatic Status	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The type of sample (i.e., normal, primary, met, recurrence).	Gene panel.	Oncotree Code	Sample Collection Method	The method used for preparing the tissue for examination and study.	Tissue Site	Somatic Status	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	9	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_TYPE	GENE_PANEL	ONCOTREE_CODE	SAMPLE_COLLECTION_METHOD	SPECIMEN_PRESERVATION_TYPE	TISSUE_SITE	SOMATIC_STATUS	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+IM-GBM-12	Patient-12-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	1.98713133746
+IM-GBM-12	Patient-12-T	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	1.98713133746
+IM-GBM-39	Patient-39-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA		Glioma	Glioblastoma Multiforme	4.96782834365
+IM-GBM-13	Patient-13-CSF	Unknown_Tumor	IMPACT410	HGGNOS	cfDNA	CFDNA	NA	Matched	Glioma	High-Grade Glioma, NOS	1.98713133746
+IM-GBM-13	Patient-13-T	Primary	IMPACT410	HGGNOS	Resection	FFPE	NA	Matched	Glioma	High-Grade Glioma, NOS	0.993565668729
+IM-GBM-14	Patient-14-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	3.97426267492
+IM-GBM-14	Patient-14-T	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	3.97426267492
+IM-GBM-15	Patient-15-CSF-LP	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	7.94852534983
+IM-GBM-15	Patient-15-CSF-VP	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	7.94852534983
+IM-GBM-15	Patient-15-T	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	6.95495968111
+IM-GBM-4	Patient-04-CSF	Unknown_Tumor	IMPACT410	AASTR	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Astrocytoma	3.97426267492
+IM-GBM-4	Patient-04-T	Recurrent	IMPACT410	AASTR	Resection	FFPE	NA	Matched	Glioma	Anaplastic Astrocytoma	3.97426267492
+IM-GBM-17	Patient-17-CSF-LP	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	4.96782834365
+IM-GBM-17	Patient-17-CSF-VP	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	4.96782834365
+IM-GBM-17	Patient-17-T	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	4.96782834365
+IM-GBM-35	Patient-35-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA		Glioma	Glioblastoma Multiforme	66.5688998049
+IM-GBM-35	Patient-35-T	Recurrent	IMPACT410	GB	Resection	FFPE	NA		Glioma	Glioblastoma	71.5367281485
+IM-GBM-36	Patient-36-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	163.93833534
+IM-GBM-36	Patient-36-T1	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	123.202142922
+IM-GBM-36	Patient-36-T2	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	155.989809991
+IM-GBM-18	Patient-18-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	3.97426267492
+IM-GBM-18	Patient-18-T	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	3.97426267492
+IM-GBM-16	Patient-16-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	2.98069700619
+IM-GBM-16	Patient-16-T	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	2.98069700619
+IM-GBM-8	Patient-08-CSF	Unknown_Tumor	IMPACT410	AASTR	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Astrocytoma	5.96139401238
+IM-GBM-8	Patient-08-T	Primary	IMPACT410	AASTR	Resection	FFPE	NA	Matched	Glioma	Anaplastic Astrocytoma	5.96139401238
+IM-GBM-19	Patient-19-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	3.97426267492
+IM-GBM-19	Patient-19-T	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	3.97426267492
+IM-GBM-9	Patient-09-CSF	Unknown_Tumor	IMPACT410	AASTR	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Astrocytoma	3.97426267492
+IM-GBM-9	Patient-09-T	Recurrent	IMPACT410	AASTR	Resection	FFPE	NA	Matched	Glioma	Anaplastic Astrocytoma	3.97426267492
+IM-GBM-11	Patient-11-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	6.95495968111
+IM-GBM-11	Patient-11-T	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	7.94852534983
+IM-GBM-31	Patient-31-CSF	Unknown_Tumor	IMPACT410	AODG	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Oligodendroglioma	56.6332431176
+IM-GBM-31	Patient-31-T	Recurrent	IMPACT410	AODG	Resection	FFPE	NA	Matched	Glioma	Anaplastic Oligodendroglioma	48.6847177677
+IM-GBM-5	Patient-05-CSF	Unknown_Tumor	IMPACT410	AASTR	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Astrocytoma	16.8906163684
+IM-GBM-5	Patient-05-T	Primary	IMPACT410	AASTR	Resection	FFPE	NA	Matched	Glioma	Anaplastic Astrocytoma	16.8906163684
+IM-GBM-41	Patient-41-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	0.0
+IM-GBM-1	Patient-01-CSF	Unknown_Tumor	IMPACT410	ODG	cfDNA	CFDNA	NA	Matched	Glioma	Oligodendroglioma	11.9227880248
+IM-GBM-1	Patient-01-T	Recurrent	IMPACT410	AODG	Resection	FFPE	NA	Matched	Glioma	Anaplastic Oligodendroglioma	11.9227880248
+IM-GBM-28	Patient-28-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	6.95495968111
+IM-GBM-28	Patient-28-T1	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	6.95495968111
+IM-GBM-28	Patient-28-T2	Recurrent	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma	6.95495968111
+IM-GBM-28	Patient-28-T3	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	6.95495968111
+IM-GBM-20	Patient-20-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	5.96139401238
+IM-GBM-20	Patient-20-T	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	5.96139401238
+IM-GBM-37	Patient-37-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	3.97426267492
+IM-GBM-2	Patient-02-CSF	Unknown_Tumor	IMPACT410	AODG	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Oligodendroglioma	4.96782834365
+IM-GBM-2	Patient-02-T	Recurrent	IMPACT410	AODG	Resection	FFPE	NA	Matched	Glioma	Anaplastic Oligodendroglioma	4.96782834365
+IM-GBM-3	Patient-03-CSF	Unknown_Tumor	IMPACT410	AODG	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Oligodendroglioma	5.96139401238
+IM-GBM-3	Patient-03-T	Recurrent	IMPACT410	AODG	Resection	FFPE	NA	Matched	Glioma	Anaplastic Oligodendroglioma	5.96139401238
+IM-GBM-40	Patient-40-CSF	Unknown_Tumor	IMPACT410	HGGNOS	cfDNA	CFDNA	NA		Glioma	High-Grade Glioma, NOS	8.94209101856
+IM-GBM-21	Patient-21-CSF-LP	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	6.95495968111
+IM-GBM-21	Patient-21-CSF-VP	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	8.94209101856
+IM-GBM-21	Patient-21-T	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	7.94852534983
+IM-GBM-22	Patient-22-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	7.94852534983
+IM-GBM-22	Patient-22-T	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	7.94852534983
+IM-GBM-24	Patient-24-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	2.98069700619
+IM-GBM-24	Patient-24-T	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	2.98069700619
+IM-GBM-23	Patient-23-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	5.96139401238
+IM-GBM-23	Patient-23-T	Recurrent	IMPACT410	HGGNOS	Biopsy	FFPE	NA	Matched	Glioma	High-Grade Glioma, NOS	5.96139401238
+IM-GBM-42	Patient-42-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA		Glioma	Glioblastoma Multiforme	3.97426267492
+IM-GBM-33	Patient-33-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	153.009112984
+IM-GBM-33	Patient-33-T	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	138.105627953
+IM-GBM-25	Patient-25-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	4.96782834365
+IM-GBM-25	Patient-25-T	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	5.96139401238
+IM-GBM-38	Patient-38-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	2.98069700619
+IM-GBM-34	Patient-34-CSF-LP	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	262.301336545
+IM-GBM-34	Patient-34-CSF-VP	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	260.314205207
+IM-GBM-34	Patient-34-T	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	211.629487439
+IM-GBM-6	Patient-06-CSF	Unknown_Tumor	IMPACT410	AASTR	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Astrocytoma	7.94852534983
+IM-GBM-6	Patient-06-T	Recurrent	IMPACT410	AASTR	Resection	FFPE	NA	Matched	Glioma	Anaplastic Astrocytoma	7.94852534983
+IM-GBM-10	Patient-10-CSF-LP	Unknown_Tumor	IMPACT410	AASTR	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Astrocytoma	6.95495968111
+IM-GBM-10	Patient-10-CSF-VP	Unknown_Tumor	IMPACT410	AASTR	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Astrocytoma	6.95495968111
+IM-GBM-10	Patient-10-T	Primary	IMPACT410	AASTR	Resection	FFPE	NA	Matched	Glioma	Anaplastic Astrocytoma	6.95495968111
+IM-GBM-26	Patient-26-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	2.98069700619
+IM-GBM-26	Patient-26-T	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	2.98069700619
+IM-GBM-27	Patient-27-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	1.98713133746
+IM-GBM-27	Patient-27-T	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	1.98713133746
+IM-GBM-7	Patient-07-CSF1	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	15.8970506997
+IM-GBM-7	Patient-07-CSF2	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	16.8906163684
+IM-GBM-7	Patient-07-T1	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	15.8970506997
+IM-GBM-7	Patient-07-T4	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	13.9099193622
+IM-GBM-7	Patient-07-T2	Recurrent	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	15.8970506997
+IM-GBM-7	Patient-07-T3	Recurrent	IMPACT410	GBM	Biopsy	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	16.8906163684
+IM-GBM-29	Patient-29-CSF	Unknown_Tumor	IMPACT410	GBM	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma Multiforme	2.98069700619
+IM-GBM-29	Patient-29-T	Primary	IMPACT410	GBM	Resection	FFPE	NA	Matched	Glioma	Glioblastoma Multiforme	2.98069700619
+IM-GBM-30	Patient-30-CSF-LP	Unknown_Tumor	IMPACT410	GSARC	cfDNA	CFDNA	NA	Matched	Glioma	Gliosarcoma	3.97426267492
+IM-GBM-30	Patient-30-CSF-VP	Unknown_Tumor	IMPACT410	GSARC	cfDNA	CFDNA	NA	Matched	Glioma	Gliosarcoma	3.97426267492
+IM-GBM-30	Patient-30-T	Recurrent	IMPACT410	GSARC	Resection	FFPE	NA	Matched	Glioma	Gliosarcoma	3.97426267492
+IM-GBM-32	Patient-32-CSF	Unknown_Tumor	IMPACT410	AODG	cfDNA	CFDNA	NA	Matched	Glioma	Anaplastic Oligodendroglioma	58.620374455
+IM-GBM-32	Patient-32-T	Recurrent	IMPACT410	AODG	Resection	FFPE	NA	Matched	Glioma	Anaplastic Oligodendroglioma	45.7040207615

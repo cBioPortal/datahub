@@ -1,0 +1,205 @@
+#Sample Identifier	Patient Identifier	Subclones	Inferred Genomic Rearrangement	Structural Variants	Cancer Type Detailed	Cancer Type	Oncotree Code	Sample Type	Somatic Status	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Subclones detected by WGS.	Inferred genomic rearrangement (from RNA-Seq fusion).	Structural variants from WGS.	Cancer Type Detailed	Cancer Type	Oncotree Code	The type of sample (i.e., normal, primary, met, recurrence).	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	9	1	1
+SAMPLE_ID	PATIENT_ID	SUB_CLONES	INFERRED_GENOMIC_REARRANGEMENT	STRUCTURAL_VARIANTS	CANCER_TYPE_DETAILED	CANCER_TYPE	ONCOTREE_CODE	SAMPLE_TYPE	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+TCGA-AB-2803-03	TCGA-AB-2803	n.d.	t(15;17)(q22;q21)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.433333333333
+TCGA-AB-2804-03	TCGA-AB-2804	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.233333333333
+TCGA-AB-2806-03	TCGA-AB-2806	n.d.	t(21;8)(q22.3;q22), dup1p36.33		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.566666666667
+TCGA-AB-2815-03	TCGA-AB-2815	n.d.	t(16;16)(p13.11;q22.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	NA
+TCGA-AB-2819-03	TCGA-AB-2819	n.d.	t(21;8)(q22.3;q22)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2823-03	TCGA-AB-2823	n.d.	t(15;17)(q22;q21)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2828-03	TCGA-AB-2828	n.d.	t(16;16)(p13.11;q22.1), dup3q12.2, inv16q21-16q12.1		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2840-03	TCGA-AB-2840	n.d.	t(15;17)(q22;q21), dup12q24.12-13, dup13q34		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2841-03	TCGA-AB-2841	n.d.	t(15;17)(q22;q21)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2846-03	TCGA-AB-2846	n.d.	t(16;16)(p13.11;q22.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2858-03	TCGA-AB-2858	n.d.	dup1q21.3, t(21;8)(q22.3;q22)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2862-03	TCGA-AB-2862	n.d.	t(15;17)(q22;q21)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2870-03	TCGA-AB-2870	n.d.	t(16;16)(p13.11;q22.1), dup17q25.3		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2872-03	TCGA-AB-2872	n.d.	t(15;17)(q22;q21)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2875-03	TCGA-AB-2875	n.d.	t(21;8)(q22.3;q22)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2881-03	TCGA-AB-2881	n.d.	t(16;16)(p13.11;q22.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.233333333333
+TCGA-AB-2886-03	TCGA-AB-2886	n.d.	t(21;8)(q22.3;q22)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.433333333333
+TCGA-AB-2888-03	TCGA-AB-2888	n.d.	t(16;16)(p13.11;q22.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.233333333333
+TCGA-AB-2889-03	TCGA-AB-2889	n.d.	t(16;16)(p13.11;q22.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2892-03	TCGA-AB-2892	n.d.	t(16;16)(p13.11;q22.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2897-03	TCGA-AB-2897	n.d.	t(15;17)(q22;q21)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2905-03	TCGA-AB-2905	0		15:72113342-17:35755293(CTX),15:72113343-17:35755292(CTX)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.566666666667
+TCGA-AB-2906-03	TCGA-AB-2906	1		15:72113381-17:35749505(CTX),15:72113386-17:35749588(CTX),15:72113410-17:35749505(CTX)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2914-03	TCGA-AB-2914	n.d.	t(16;16)(p13.11;q22.1), t(3;3)(p14.1;q29)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2937-03	TCGA-AB-2937	n.d.	t(21;8)(q22.3;q22)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2942-03	TCGA-AB-2942	n.d.	t(16;16)(p13.11;q22.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2950-03	TCGA-AB-2950	n.d.	t(21;8)(q22.3;q22)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2954-03	TCGA-AB-2954	n.d.	t(16;16)(p13.11;q22.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2957-03	TCGA-AB-2957	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2980-03	TCGA-AB-2980	1	t(15;17)(q22;q21)	15:72103063-17:35756005(CTX),7:56712048-7:57544681(INV)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.166666666667
+TCGA-AB-2982-03	TCGA-AB-2982	0	t(15;17)(q22;q21), inv7q36.1-36.2	15:72113496-17:35750399(CTX),15:72113490-17:35750402(CTX)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2991-03	TCGA-AB-2991	2	t(15;17)(q22;q21)	15:72102828-17:35748107(CTX),15:72102815-17:35748106(CTX),15:72102829-17:35748106(CTX)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2994-03	TCGA-AB-2994	1	t(15;17)(q22;q21)	15:72113514-17:35752358(CTX),15:72113524-17:35752347(CTX)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2997-03	TCGA-AB-2997	0		15:72113429-17:35756719(CTX),15:72052994-17:35833384(CTX)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2998-03	TCGA-AB-2998	0	t(15;17)(q22;q21)	15:72104255-17:35741663(CTX),15:72104247-17:35741661(CTX),15:72104257-17:35741661(CTX)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.166666666667
+TCGA-AB-2999-03	TCGA-AB-2999	1	t(15;17)(q22;q21)	15:72113191-17:35756597(CTX),15:72129457-17:35756833(CTX),3:46994998-3:46995128(DEL)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-3001-03	TCGA-AB-3001	1	t(15;17)(q22;q21)	15:72103872-17:35752513(CTX),15:72103870-17:35752514(CTX)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.366666666667
+TCGA-AB-3007-03	TCGA-AB-3007	1	t(15;17)(q22;q21),  inv19q13.1-q13.32	15:72103777-17:35744690(CTX)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.166666666667
+TCGA-AB-3012-03	TCGA-AB-3012	3	t(15;17)(q22;q21)	15:72112749-17:35755472(CTX),15:72112751-17:35755469(CTX)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2802-03	TCGA-AB-2802	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2805-03	TCGA-AB-2805	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2807-03	TCGA-AB-2807	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.866666666667
+TCGA-AB-2808-03	TCGA-AB-2808	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2809-03	TCGA-AB-2809	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.133333333333
+TCGA-AB-2811-03	TCGA-AB-2811	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2812-03	TCGA-AB-2812	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.233333333333
+TCGA-AB-2816-03	TCGA-AB-2816	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2818-03	TCGA-AB-2818	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2821-03	TCGA-AB-2821	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2822-03	TCGA-AB-2822	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.566666666667
+TCGA-AB-2824-03	TCGA-AB-2824	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.166666666667
+TCGA-AB-2825-03	TCGA-AB-2825	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.1
+TCGA-AB-2826-03	TCGA-AB-2826	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.166666666667
+TCGA-AB-2827-03	TCGA-AB-2827	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2830-03	TCGA-AB-2830	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2831-03	TCGA-AB-2831	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2833-03	TCGA-AB-2833	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2835-03	TCGA-AB-2835	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.1
+TCGA-AB-2837-03	TCGA-AB-2837	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2839-03	TCGA-AB-2839	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.6
+TCGA-AB-2843-03	TCGA-AB-2843	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2845-03	TCGA-AB-2845	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2848-03	TCGA-AB-2848	n.d.	dup12q24.1-31		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2851-03	TCGA-AB-2851	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.233333333333
+TCGA-AB-2853-03	TCGA-AB-2853	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.233333333333
+TCGA-AB-2854-03	TCGA-AB-2854	n.d.	t(21;5)(q22.3;q23.3), t(21;5)(q22.3;q23.2)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2859-03	TCGA-AB-2859	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2864-03	TCGA-AB-2864	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.433333333333
+TCGA-AB-2865-03	TCGA-AB-2865	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.533333333333
+TCGA-AB-2866-03	TCGA-AB-2866	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2867-03	TCGA-AB-2867	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2869-03	TCGA-AB-2869	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2871-03	TCGA-AB-2871	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.5
+TCGA-AB-2873-03	TCGA-AB-2873	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2877-03	TCGA-AB-2877	n.d.	dup3q12.2		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.7
+TCGA-AB-2879-03	TCGA-AB-2879	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.166666666667
+TCGA-AB-2880-03	TCGA-AB-2880	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2884-03	TCGA-AB-2884	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2890-03	TCGA-AB-2890	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.233333333333
+TCGA-AB-2894-03	TCGA-AB-2894	n.d.	t(11;9)(q23;p22)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.1
+TCGA-AB-2896-03	TCGA-AB-2896	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.1
+TCGA-AB-2898-03	TCGA-AB-2898	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2899-03	TCGA-AB-2899	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.433333333333
+TCGA-AB-2900-03	TCGA-AB-2900	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.533333333333
+TCGA-AB-2903-03	TCGA-AB-2903	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2907-03	TCGA-AB-2907	1		1:166453112-3:53150925(CTX),12:128688979-12:128689118(DEL),14:84366862-14:84371916(DEL),15:32718038-15:32718374(DEL),15:66836622-15:66836965(DEL),15:70173020-15:70175225(DEL),19:21508936-19:21509184(DEL),21:10155090-21:10156148(DEL),3:61450089-3:61450426(DEL),4:181278197-4:181280919(DEL),7:40845599-7:40846995(INV),9:88345663-9:88345767(INV)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2909-03	TCGA-AB-2909	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2912-03	TCGA-AB-2912	n.d.	dup19q13.3		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.633333333333
+TCGA-AB-2913-03	TCGA-AB-2913	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2916-03	TCGA-AB-2916	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2919-03	TCGA-AB-2919	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2921-03	TCGA-AB-2921	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2922-03	TCGA-AB-2922	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.366666666667
+TCGA-AB-2923-03	TCGA-AB-2923	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.666666666667
+TCGA-AB-2924-03	TCGA-AB-2924	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2925-03	TCGA-AB-2925	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.533333333333
+TCGA-AB-2926-03	TCGA-AB-2926	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2927-03	TCGA-AB-2927	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.6
+TCGA-AB-2931-03	TCGA-AB-2931	n.d.	dup2p22.3		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.366666666667
+TCGA-AB-2932-03	TCGA-AB-2932	n.d.	dup7q36.1		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2933-03	TCGA-AB-2933	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2934-03	TCGA-AB-2934	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2936-03	TCGA-AB-2936	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.166666666667
+TCGA-AB-2938-03	TCGA-AB-2938	n.d.	t(17;19)(p13.1;p13.3), t(17;19)(p13.1;p13), dup1q41-q43		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.566666666667
+TCGA-AB-2940-03	TCGA-AB-2940	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.1
+TCGA-AB-2947-03	TCGA-AB-2947	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.1
+TCGA-AB-2948-03	TCGA-AB-2948	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2955-03	TCGA-AB-2955	n.d.	t(1;9)(p36.13;q32)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2956-03	TCGA-AB-2956	n.d.	t(11;9)(q23;p22), dup14q24.1		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.1
+TCGA-AB-2959-03	TCGA-AB-2959	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.766666666667
+TCGA-AB-2963-03	TCGA-AB-2963	1		6:104234249-6:104234390(DEL)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.5
+TCGA-AB-2964-03	TCGA-AB-2964	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2965-03	TCGA-AB-2965	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2966-03	TCGA-AB-2966	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2967-03	TCGA-AB-2967	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2968-03	TCGA-AB-2968	2			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2969-03	TCGA-AB-2969	2			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2970-03	TCGA-AB-2970	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2971-03	TCGA-AB-2971	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2972-03	TCGA-AB-2972	2			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.7
+TCGA-AB-2973-03	TCGA-AB-2973	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.166666666667
+TCGA-AB-2974-03	TCGA-AB-2974	1		3:140959414-3:140959497(DEL)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2975-03	TCGA-AB-2975	0	t(2;3)(p16.1; p24-p23)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	NA
+TCGA-AB-2976-03	TCGA-AB-2976	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.533333333333
+TCGA-AB-2977-03	TCGA-AB-2977	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.166666666667
+TCGA-AB-2978-03	TCGA-AB-2978	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.5
+TCGA-AB-2979-03	TCGA-AB-2979	0	dup4q31.3		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.233333333333
+TCGA-AB-2981-03	TCGA-AB-2981	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.133333333333
+TCGA-AB-2983-03	TCGA-AB-2983	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2984-03	TCGA-AB-2984	1			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2986-03	TCGA-AB-2986	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2987-03	TCGA-AB-2987	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.233333333333
+TCGA-AB-2988-03	TCGA-AB-2988	1			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2989-03	TCGA-AB-2989	4			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.366666666667
+TCGA-AB-2990-03	TCGA-AB-2990	1			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2992-03	TCGA-AB-2992	1			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2993-03	TCGA-AB-2993	0		2:88210954-2:88211270(DEL),20:61859659-20:61859782(DEL),3:8697749-3:8697853(DEL)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2995-03	TCGA-AB-2995	1		20:23051193-20:23051633(DEL)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.166666666667
+TCGA-AB-2996-03	TCGA-AB-2996	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-3000-03	TCGA-AB-3000	1			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.1
+TCGA-AB-3002-03	TCGA-AB-3002	1			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.766666666667
+TCGA-AB-3006-03	TCGA-AB-3006	0			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-3008-03	TCGA-AB-3008	2			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.1
+TCGA-AB-3009-03	TCGA-AB-3009	1			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	1.13333333333
+TCGA-AB-3011-03	TCGA-AB-3011	1			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2810-03	TCGA-AB-2810	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2850-03	TCGA-AB-2850	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2895-03	TCGA-AB-2895	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2946-03	TCGA-AB-2946	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2813-03	TCGA-AB-2813	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.5
+TCGA-AB-2814-03	TCGA-AB-2814	n.d.	dup13q34		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2817-03	TCGA-AB-2817	n.d.	t(22;9)(q11.23;q34.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2820-03	TCGA-AB-2820	n.d.	del17q11.2		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2829-03	TCGA-AB-2829	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2832-03	TCGA-AB-2832	n.d.	t(10;11)(p12;q23.2), t(10;11)(p12;q23), inv11q23.1, inv11q23.2		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2834-03	TCGA-AB-2834	n.d.	t(11;19)(q23;p13.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2836-03	TCGA-AB-2836	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.133333333333
+TCGA-AB-2838-03	TCGA-AB-2838	n.d.	t(16;17)(q22;p11.2), t(16;17)(q22.1;p11.2)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.5
+TCGA-AB-2842-03	TCGA-AB-2842	n.d.	t(10;11)(p12;q23)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2844-03	TCGA-AB-2844	n.d.	t(11;19)(q23;p13.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.433333333333
+TCGA-AB-2847-03	TCGA-AB-2847	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2849-03	TCGA-AB-2849	n.d.	t(10;11)(p12;q14)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.733333333333
+TCGA-AB-2855-03	TCGA-AB-2855	n.d.	t(10;11)(p12;q14), dup13q34		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.133333333333
+TCGA-AB-2856-03	TCGA-AB-2856	n.d.	t(11;5)(p15.5;q35)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	NA
+TCGA-AB-2857-03	TCGA-AB-2857	n.d.	t(11;19)(q23.3;p13.3), inv1p21.1-p11.1, t(19;11)(q13.12;q23.3)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2860-03	TCGA-AB-2860	n.d.	inv21q11.2-q22.3		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2861-03	TCGA-AB-2861	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.533333333333
+TCGA-AB-2863-03	TCGA-AB-2863	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.533333333333
+TCGA-AB-2868-03	TCGA-AB-2868	n.d.	dup4q33, inv9q31.3-33.3, inv9q33.3-34		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.5
+TCGA-AB-2874-03	TCGA-AB-2874	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2876-03	TCGA-AB-2876	n.d.	inv8q24.21, inv8q24.1-q24.2		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2878-03	TCGA-AB-2878	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.433333333333
+TCGA-AB-2882-03	TCGA-AB-2882	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.5
+TCGA-AB-2883-03	TCGA-AB-2883	n.d.	t(11;6)(q23;q27)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2885-03	TCGA-AB-2885	n.d.	t(12;3)(q24.22-23;p26.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.433333333333
+TCGA-AB-2887-03	TCGA-AB-2887	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2891-03	TCGA-AB-2891	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2893-03	TCGA-AB-2893	n.d.	t(11;6)(q23;q27)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	NA
+TCGA-AB-2901-03	TCGA-AB-2901	n.d.	t(22;9)(q11.23;q34.1), inv6q21		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.2
+TCGA-AB-2904-03	TCGA-AB-2904	n.d.	t(1;20)(q32;q11.2)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.533333333333
+TCGA-AB-2908-03	TCGA-AB-2908	n.d.	inv21q22.11		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.566666666667
+TCGA-AB-2910-03	TCGA-AB-2910	n.d.	t(16;8)(p13.3;p11)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2911-03	TCGA-AB-2911	n.d.	t(11;19)(q23;p13.1)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0666666666667
+TCGA-AB-2915-03	TCGA-AB-2915	n.d.	t(10;20)(q22;q13.13), t(21;3)(q22.3;q26)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2917-03	TCGA-AB-2917	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.5
+TCGA-AB-2918-03	TCGA-AB-2918	n.d.	dup3q12.2, t(11;5)(p15.5;q35), t(11;5)(p15.5;q35)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.0333333333333
+TCGA-AB-2920-03	TCGA-AB-2920	n.d.	t(12;X)(p13.2;q25), t(12;X)(q?;q24), del17q21.3-23.3, t(17;X)(q11.1-q11.2;q25), t(12;X)(p13.2-p12.3;q25), t(18;5)(p11.3-p11.2;q33.3), del17q11.1-q21.31		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2928-03	TCGA-AB-2928	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.333333333333
+TCGA-AB-2929-03	TCGA-AB-2929	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2930-03	TCGA-AB-2930	n.d.	t(11;5)(p15.5;q35)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.266666666667
+TCGA-AB-2935-03	TCGA-AB-2935	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.3
+TCGA-AB-2939-03	TCGA-AB-2939	n.d.	t(1;5)(p36.2;q15-q21), t(1;5)(q25;q15), t(5;7)(q14;q32)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2941-03	TCGA-AB-2941	n.d.	t(22;9)(q11.23;q34.1),  inv19p13.2		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.1
+TCGA-AB-2943-03	TCGA-AB-2943	n.d.	inv2p25.2-p11.2		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.366666666667
+TCGA-AB-2944-03	TCGA-AB-2944	n.d.	del3q21.3-q26		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	NA
+TCGA-AB-2945-03	TCGA-AB-2945	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.4
+TCGA-AB-2949-03	TCGA-AB-2949	n.d.			Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.5
+TCGA-AB-2952-03	TCGA-AB-2952	n.d.	del17q11.2		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667
+TCGA-AB-2985-03	TCGA-AB-2985	0	t(10;11)(p12;q23.3), t(10;11)(p12;q23)		Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.133333333333
+TCGA-AB-3005-03	TCGA-AB-3005	1	t(10;11)(p12;q23)	5:168977114-5:168977145(DEL),5:585454-5:585654(DEL),6:150735535-6:150735635(DEL),9:36352882-9:36354094(DEL)	Acute Myeloid Leukemia	Leukemia	AML	Primary	Matched	0.466666666667

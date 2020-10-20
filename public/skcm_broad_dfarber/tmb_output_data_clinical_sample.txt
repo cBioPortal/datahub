@@ -1,0 +1,31 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Primary Tumor Site	Tumor Stage	Tumor Purity	Average Ploidy 	survival after biopsy months	Specimen Type	treatment prior to resection	pathologic primary tumor stage	breslow depth	Braf Status	nras status	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Text term to describe the organ sub-division in an individual with cancer.	Tumor stage.	Tumor Purity	Average ploidy 	survival after biopsy months	The broad cancer phenotype and site information values for a sample to be processed.	treatment prior to resection	pathologic primary tumor stage	breslow depth	Braf Status	nras status	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	PRIMARY_SITE	TUMOR_STAGE	TUMOR_PURITY	AVE_PLOIDY	SURVIVAL_AFTER_BIOPSY_MONTHS	SPECIMEN_TYPE	TREATMENT_PRIOR_TO_RESECTION	PATHOLOGIC_PRIMARY_TUMOR_STAGE	BRESLOW_DEPTH	BRAF_STATUS	NRAS_STATUS	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+ME001	ME001	MEL	Extremities	II, NOS	0.8	2.92	86	Regional cutaneous or subcutaneous metastasis	Interferon therapy, Chemotherapy	T3, NOS	2.75 mm	wild type	Q61K	Melanoma	Melanoma	8.83333333333
+ME002	ME002	MEL	Extremities	II, NOS	0.82	1.99	58	Distant metastasis: s.c.	Interferon therapy, Chemotherapy, Immunotherapy, Vaccine	T3, NOS	2.7 mm	wild type	Q61K	Melanoma	Melanoma	16.8
+ME007	ME007	MEL	Trunk	II, NOS			82	Regional cutaneous or subcutaneous metastasis	Interferon therapy, Chemotherapy, Immunotherapy, Vaccine, Radiation	T3, NOS	2.4 mm	V600E	wild type	Melanoma	Melanoma	1.73333333333
+ME009	ME009	MEL	Trunk	IIC	0.71	1.84	82	Distant metastasis	Interferon therapy, Chemotherapy, Immunotherapy, Vaccine	T4b	4.6 mm	V600E	T50I	Melanoma	Melanoma	51.0333333333
+ME011	ME011	MEL	Extremities	IIIC	0.36	1.93	13	Regional cutaneous or subcutaneous metastasis	Interferon therapy, Chemotherapy	T3, NOS	2.4 mm	wild type	Q61R	Melanoma	Melanoma	15.3
+ME012	ME012	MEL	Trunk	Unknown	0.95	1.89	6	Regional cutaneous or subcutaneous metastasis	Interferon therapy, Chemotherapy	T3, NOS	2.6 mm	V600E	wild type	Melanoma	Melanoma	4.36666666667
+ME015	ME015	MEL	Extremities	Unknown	0.92	3.5	13	Regional cutaneous or subcutaneous metastasis	Interferon therapy, Chemotherapy, Immunotherapy, Vaccine	T3, NOS	3.5 mm	V600E	wild type	Melanoma	Melanoma	0.666666666667
+ME016	ME016	MEL	Trunk	I, NOS	0.29	2.96	15	Regional lymph node metastasis	None	T1, NOS	0.75 mm	V600E	wild type	Melanoma	Melanoma	9.66666666667
+ME018	ME018	MEL	Unknown		0.76	2.06	50	Distant metastasis	Interferon therapy, Immunotherapy	T0*	Unknown	wild type	Q61R	Melanoma	Melanoma	9.4
+ME020	ME020	MEL	Unknown		0.37	3.41	48	Regional lymph node metastasis	None	T0*	Unknown	V600E	wild type	Melanoma	Melanoma	12.0666666667
+ME021	ME021	MEL	Trunk	II, NOS	0.24	2.55	8	Regional lymph node metastasis	Interferon therapy	T3, NOS	3.7 mm	V600E	wild type	Melanoma	Melanoma	3.86666666667
+ME024	ME024	MEL	Unknown		0.4	3.77	12		Interferon therapy, Chemotherapy	T0*	Unknown	V600E	wild type	Melanoma	Melanoma	14.7666666667
+ME029	ME029	MEL	Trunk	IIIA	0.66	1.37	3	Regional cutaneous or subcutaneous metastasis	Interferon therapy, Chemotherapy, Immunotherapy, Vaccine	T3, NOS	2.4 mm	V600E	wild type	Melanoma	Melanoma	14.3666666667
+ME030	ME030	MEL	Extremities	II, NOS			69	unknown	None	T3, NOS	2.5 mm	wild type	Q61R	Melanoma	Melanoma	9.1
+ME032	ME032	MEL	Extremities	IV	0.97	1.98	1	Regional lymph node metastasis	Interferon therapy, Chemotherapy, Immunotherapy, Vaccine	T4b	7.0 mm	wild type	wild type	Melanoma	Melanoma	7.13333333333
+ME035	ME035	MEL	Extremities	II, NOS	0.32	2.19	7	Distant metastasis: s.c.	Immunotherapy, Vaccine	T3, NOS	3.5 mm	wild type	Q61R	Melanoma	Melanoma	8.0
+ME037	ME037	MEL	Unknown		0.31	1.98	17		None	T0*	Unknown	V600E	wild type	Melanoma	Melanoma	9.36666666667
+ME041	ME041	MEL	Trunk	II, NOS	0.56	3.33	4	Distant metastasis: s.c.	None	T3, NOS	3.3 mm	V600E	wild type	Melanoma	Melanoma	8.46666666667
+ME043	ME043	MEL	Extremities	I, NOS	0.56	3.34	0	Distant metastasis: s.c.	Interferon therapy, Chemotherapy, Immunotherapy, Vaccine	T1, NOS	1 mm	V600E	wild type	Melanoma	Melanoma	16.5333333333
+ME044	ME044	MEL	Trunk	I, NOS	0.47	2.73	8	Regional lymph node metastasis	None	T1, NOS	0.95 mm	wild type	Q61K	Melanoma	Melanoma	19.6
+ME045	ME045	MEL	Trunk	Unknown	0.73	1.96	14	Distant metastasis: s.c.	Chemotherapy	T3, NOS	4 mm	V600E	wild type	Melanoma	Melanoma	7.43333333333
+ME048	ME048	MEL	Extremities	IIB	0.7	1.96	2	Regional lymph node metastasis	Interferon therapy, Chemotherapy, Immunotherapy, Vaccine	T3b	4 mm	V600E	wild type	Melanoma	Melanoma	6.63333333333
+ME049	ME049	MEL	Unknown		0.48	3.05	3		Chemotherapy	T0*	Unknown	wild type	Q61R	Melanoma	Melanoma	17.4666666667
+ME050	ME050	MEL	Trunk	I, NOS	0.81	2.04	10	Distant metastasis: lung	Interferon therapy, Immunotherapy, Vaccine	T2, NOS	1.7 mm	V600E	wild type	Melanoma	Melanoma	12.2
+ME100	ME100	MEL	Unknown				NA	Regional lymph node metastasis	None		Unknown	V600E	wild type	Melanoma	Melanoma	NA
+ME100	ME100L	MEL	Unknown				NA	Regional lymph node metastasis	None		Unknown	V600E	wild type	Melanoma	Melanoma	19.2666666667

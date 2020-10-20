@@ -1,0 +1,1025 @@
+#Patient Identifier	Sample Identifier	Primary Tumor Site	Tumor Type	Sample Origin	Gene Panel	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Text term to describe the organ sub-division in an individual with cancer.	Tumor Type	Sample Origin	Gene panel.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	PRIMARY_SITE	TUMOR_TYPE	SAMPLE_ORIGIN	GENE_PANEL	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+1321N1	1321N1_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+143B	143B_BONE	Bone	Osteosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+22Rv1	22RV1_PROSTATE	Prostate	Prostate	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	28.7112552461
+23132_87	2313287_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	27.5984158954
+42-MG-BA	42MGBA_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+5637	5637_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.01088790892
+59M	59M_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+639-V	639V_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	28.9338231162
+647-V	647V_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.34473971411
+697	697_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Leukemia_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+769-P	769P_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.11439476618
+786-O	786O_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+8305C	8305C_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+8505C	8505C_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+8-MG-BA	8MGBA_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+A101D	A101D_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+A172	A172_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+A-204	A204_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+A2058	A2058_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+A-253	A253_SALIVARY_GLAND	Salivary Gland	Other	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+A2780	A2780_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+A-375	A375_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.56419675311
+A3_KAW	A3KAW_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.01088790892
+A-498	A498_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+A4_Fuk	A4FUK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+A549	A549_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+A-673	A673_BONE	Bone	Ewings_Sarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.780542961
+A-704	A704_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+ABC-1	ABC1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.00933249336
+ACC-MESO-1	ACCMESO1_PLEURA	Pleura	Mesothelioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+ACHN	ACHN_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.44669115581
+AGS	AGS_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	13.1315043373
+Alexander_cells	ALEXANDERCELLS_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.1283935062
+AM-38	AM38_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+AML-193	AML193_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+AMO-1	AMO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+AN3_CA	AN3CA_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	27.8209837656
+AsPC-1	ASPC1_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+AU565	AU565_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+AZ-521	AZ521_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+BC-3C	BC3C_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+BCP-1	BCP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	16.136170584
+B-CPAP	BCPAP_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+BDCM	BDCM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+Becker	BECKER_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+BEN	BEN_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+BFTC-905	BFTC905_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+BFTC-909	BFTC909_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+BHT-101	BHT101_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+BHY	BHY_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+BICR_16	BICR16_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+BICR_18	BICR18_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	14.0217758178
+BICR_22	BICR22_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+BICR_31	BICR31_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+BICR_56	BICR56_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+BICR_6	BICR6_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+BL-41	BL41_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+BL-70	BL70_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+BT-20	BT20_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.34318429855
+BT-474	BT474_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.7960971166
+BT-483	BT483_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+BT-549	BT549_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+BV-173	BV173_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+BxPC-3	BXPC3_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+C2BBe1	C2BBE1_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+C32	C32_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+C3A	C3A_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+CA46	CA46_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+CADO-ES1	CADOES1_BONE	Bone	Ewings_Sarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+Caki-1	CAKI1_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+Caki-2	CAKI2_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+CAL-120	CAL120_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+CAL-12T	CAL12T_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.79298628548
+CAL-148	CAL148_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.6785915193
+CAL_27	CAL27_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+CAL-29	CAL29_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+CAL-33	CAL33_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+CAL-51	CAL51_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.90115938942
+CAL-54	CAL54_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+CAL-62	CAL62_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+CAL-78	CAL78_BONE	Bone	Chondrosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+CAL-85-1	CAL851_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+Calu-1	CALU1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+Calu-3	CALU3_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+Calu-6	CALU6_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+CAMA-1	CAMA1_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.45291281805
+Caov-3	CAOV3_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+Caov-4	CAOV4_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+Capan-1	CAPAN1_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+Capan-2	CAPAN2_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+CAS-1	CAS1_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+CCF-STTG1	CCFSTTG1_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.89182689606
+CCK-81	CCK81_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	40.7299202328
+CFPAC-1	CFPAC1_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+CGTH-W-1	CGTHW1_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+ChaGo-K-1	CHAGOK1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.90115938942
+CHL-1	CHL1_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.4622453114
+CHP-126	CHP126_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+CHP-212	CHP212_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+CI-1	CI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.34318429855
+CJM	CJM_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+CL-11	CL11_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+CL-14	CL14_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+CL-34	CL34_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	18.6957010905
+CL-40	CL40_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+CMK-11-5	CMK115_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+CMK-86	CMK86_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+CMK	CMK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+CML-T1	CMLT1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	18.4731332203
+COLO_205	COLO205_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+COLO-320	COLO320_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+COLO_668	COLO668_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.12217184398
+COLO-678	COLO678_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+COLO-679	COLO679_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.56886299979
+COLO-680N	COLO680N_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+COLO_684	COLO684_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.5735292465
+COLO-699	COLO699_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+COLO-704	COLO704_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.5735292465
+COLO_741	COLO741_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+COLO-783	COLO783_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.34629512967
+COLO_792	COLO792_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	22.4793548826
+COLO-800	COLO800_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+COLO-818	COLO818_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+COLO_829	COLO829_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+COLO-849	COLO849_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+COR-L105	CORL105_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+COR-L23	CORL23_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+COR-L24	CORL24_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.45291281805
+COR-L279	CORL279_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+COR-L311	CORL311_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+COR-L47	CORL47_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.56419675311
+COR-L88	CORL88_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.67703610374
+COR-L95	CORL95_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+COV318	COV318_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+COV362	COV362_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+COV434	COV434_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+COV504	COV504_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.66925902593
+COV644	COV644_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+CPC-N	CPCN_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+CW-2	CW2_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	95.8154680886
+D283_Med	D283MED_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Medulloblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+D341_Med	D341MED_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Medulloblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+DAN-G	DANG_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+Daoy	DAOY_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Medulloblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+Daudi	DAUDI_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.67703610374
+DBTRG-05MG	DBTRG05MG_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+DB	DB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+DEL	DEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+Detroit_562	DETROIT562_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+DK-MG	DKMG_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+DLD-1	DLD1_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+DMS_114	DMS114_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+DMS_153	DMS153_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+DMS_273	DMS273_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+DMS_454	DMS454_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.68170235042
+DMS_53	DMS53_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.56419675311
+DMS_79	DMS79_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.6785915193
+DND-41	DND41_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	25.038885389
+DOHH-2	DOHH2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+DU_145	DU145_PROSTATE	Prostate	Prostate	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	28.7112552461
+DU4475	DU4475_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+DV-90	DV90_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	23.258342428
+EB1	EB1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+EB2	EB2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.78676462324
+EBC-1	EBC1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.78676462324
+ECC10	ECC10_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.00933249336
+ECC12	ECC12_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+EC-GI-10	ECGI10_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+EFE-184	EFE184_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+EFM-192A	EFM192A_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+EFM-19	EFM19_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+EFO-21	EFO21_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+EFO-27	EFO27_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	22.3680709475
+EHEB	EHEB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.44669115581
+EJM	EJM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+EM-2	EM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+EN	EN_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	70.8878666347
+EOL-1	EOL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+EPLC-272H	EPLC272H_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.00933249336
+ES-2	ES2_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.56575216867
+ESS-1	ESS1_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	15.8023187788
+F-36P	F36P_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+FaDu	FADU_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.78987545436
+FTC-133	FTC133_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.45757906473
+FU97	FU97_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.45291281805
+FU-OV-1	FUOV1_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+G-292__clone_A141B1	G292CLONEA141B1_BONE	Bone	Osteosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+G-361	G361_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+G-401	G401_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+G-402	G402_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+GA-10	GA10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+GAMG	GAMG_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+GB-1	GB1_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+GCIY	GCIY_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+GCT	GCT_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.45913448029
+GDM-1	GDM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+GI-1	GI1_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+GMS-10	GMS10_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+GOS-3	GOS3_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+GP2d	GP2D_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	64.6559662712
+GRANTA-519	GRANTA519_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+GSS	GSS_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+GSU	GSU_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+H4	H4_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+HARA	HARA_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.12528267511
+HCC1143	HCC1143_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+HCC-1171	HCC1171_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+HCC1187	HCC1187_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+HCC-1195	HCC1195_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.12217184398
+HCC1395	HCC1395_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.12061642842
+HCC1419	HCC1419_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+HCC1428	HCC1428_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+HCC1500	HCC1500_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+HCC1569	HCC1569_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	17.4715778048
+HCC1599	HCC1599_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+HCC-15	HCC15_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.57041841535
+HCC1806	HCC1806_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+HCC1937	HCC1937_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HCC1954	HCC1954_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+HCC202	HCC202_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.7883200388
+HCC2157	HCC2157_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+HCC2218	HCC2218_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+HCC-2279	HCC2279_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+HCC2935	HCC2935_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+HCC-33	HCC33_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+HCC-366	HCC366_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.34629512967
+HCC38	HCC38_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+HCC4006	HCC4006_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+HCC-44	HCC44_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+HCC-56	HCC56_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.45291281805
+HCC70	HCC70_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+HCC-78	HCC78_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+HCC827	HCC827_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+HCC-95	HCC95_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+HCT_116	HCT116_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	30.7143660772
+HCT-15	HCT15_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	82.0162601409
+HDLM-2	HDLM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+HD-MY-Z	HDMYZ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+HDQ-P1	HDQP1_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HEC-108	HEC108_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	117.515835426
+HEC-151	HEC151_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	41.8427595834
+HEC-1-A	HEC1A_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	40.1735005575
+HEC-1-B	HEC1B_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	35.83342709
+HEC-251	HEC251_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	129.868352218
+HEC-265	HEC265_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	31.0482178824
+HEC-50B	HEC50B_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.6785915193
+HEC-59	HEC59_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	79.0115938942
+HEC-6	HEC6_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	55.9758193363
+HEL_92_1_7	HEL9217_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+HEL	HEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+Hep_3B2_1-7	HEP3B217_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+Hep_G2	HEPG2_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+Hey-A8	HEYA8_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+HGC-27	HGC27_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.56730758423
+HH	HH_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+HL-60	HL60_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HLE	HLE_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HLF-a	HLFA_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+HLF	HLF_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+HMCB	HMCB_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HN	HN_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HOS	HOS_BONE	Bone	Osteosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+HPAC	HPAC_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HPAF-II	HPAFII_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+HPB-ALL	HPBALL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	17.3602938697
+Hs_172_T	HS172T_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+Hs_229_T	HS229T_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+Hs_274_T	HS274T_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+Hs_281_T	HS281T_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.66925902593
+Hs_294T	HS294T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+Hs_343_T	HS343T_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.22412328568
+Hs_578T	HS578T_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+Hs_600_T	HS600T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.11439476618
+Hs_604_T	HS604T_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.66925902593
+Hs_606_T	HS606T_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+Hs_611_T	HS611T_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+Hs_616_T	HS616T_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+Hs_618_T	HS618T_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+Hs_675_T	HS675T_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+Hs_683	HS683_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.89182689606
+Hs_688A_T	HS688AT_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.66925902593
+Hs_695T	HS695T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+Hs_698_T	HS698T_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+Hs_706_T	HS706T_BONE	Bone	Other	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.66925902593
+Hs_729	HS729_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+Hs_737_T	HS737T_BONE	Bone	Other	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+Hs_739_T	HS739T_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+Hs_742_T	HS742T_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+Hs_746T	HS746T_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+Hs_751_T	HS751T_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.66925902593
+Hs_766T	HS766T_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+Hs_819_T	HS819T_BONE	Bone	Chondrosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+Hs_821_T	HS821T_BONE	Bone	Other	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+Hs_822_T	HS822T_BONE	Bone	Ewings_Sarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.33540722075
+Hs_839_T	HS839T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+Hs_840_T	HS840T_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+Hs_852_T	HS852T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+Hs_863_T	HS863T_BONE	Bone	Ewings_Sarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.780542961
+Hs_870_T	HS870T_BONE	Bone	Osteosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+Hs_888_T	HS888T_BONE	Bone	Osteosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+Hs_895_T	HS895T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.22412328568
+Hs_934_T	HS934T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.11439476618
+Hs_936_T	HS936T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+Hs_939_T	HS939T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+Hs_940_T	HS940T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.66925902593
+Hs_944_T	HS944T_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+HSC-2	HSC2_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+HSC-3	HSC3_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+HSC-4	HSC4_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.56419675311
+HT-1080	HT1080_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+HT115	HT115_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	71.2217184398
+HT-1197	HT1197_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HT-1376	HT1376_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.45291281805
+HT-144	HT144_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+HT-29	HT29_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.01088790892
+HT55	HT55_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	14.1330597529
+HTK-	HTK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+HT	HT_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	21.0326637268
+HuCCT1	HUCCT1_BILIARY_TRACT	Biliary Tract	Bile_Duct	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+HuG1-N	HUG1N_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+huH-1	HUH1_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HuH28	HUH28_BILIARY_TRACT	Biliary Tract	Bile_Duct	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.67548068818
+HuH-6	HUH6_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+HuH-7	HUH7_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.00933249336
+HuNS1	HUNS1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.7883200388
+HUP-T3	HUPT3_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+HUP-T4	HUPT4_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+HuT_102	HUT102_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+HuT_78	HUT78_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+HuTu_80	HUTU80_SMALL_INTESTINE	Small Intestine	Other	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+IA-LM	IALM_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.67703610374
+IGR-1	IGR1_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+IGR-37	IGR37_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.34318429855
+IGR-39	IGR39_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+IGROV1	IGROV1_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	30.2692303369
+IM95	IM95_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	22.0342191423
+IMR-32	IMR32_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+IPC-298	IPC298_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	14.4669115581
+Ishikawa_Heraklio_02_ER-	ISHIKAWAHERAKLIO02ER_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	34.2754519992
+IST-MES1	ISTMES1_PLEURA	Pleura	Mesothelioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+IST-MES2	ISTMES2_PLEURA	Pleura	Mesothelioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+J82	J82_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+JeKo-1	JEKO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+JHH-1	JHH1_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+JHH-2	JHH2_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+JHH-4	JHH4_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+JHH-5	JHH5_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.34473971411
+JHH-6	JHH6_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+JHH-7	JHH7_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.12528267511
+JHOC-5	JHOC5_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+JHOM-1	JHOM1_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+JHOM-2B	JHOM2B_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+JHOS-2	JHOS2_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+JHOS-4	JHOS4_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+JHUEM-1	JHUEM1_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	22.8132066878
+JHUEM-2	JHUEM2_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	15.6910348438
+JHUEM-3	JHUEM3_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+JHUEM-7	JHUEM7_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	91.141542816
+JIMT-1	JIMT1_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+JK-1	JK1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+JL-1	JL1_PLEURA	Pleura	Mesothelioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.55797509087
+JM1	JM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+JMSU-1	JMSU1_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+JURKAT	JURKAT_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+JURL-MK1	JURLMK1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+JVM-2	JVM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.89182689606
+JVM-3	JVM3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+K029AX	K029AX_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+K-562	K562_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+KALS-1	KALS1_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+KARPAS-299	KARPAS299_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+KARPAS-620	KARPAS620_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+KASUMI-1	KASUMI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+KASUMI-2	KASUMI2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Leukemia_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.90271480498
+Kasumi-6	KASUMI6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+KATO_III	KATOIII_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.34473971411
+KCI-MOH1	KCIMOH1_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+KCL-22	KCL22_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	27.7096998305
+KE-37	KE37_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Leukemia_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+KE-39	KE39_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+KE-97	KE97_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+KELLY	KELLY_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+KG-1-C	KG1C_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+KG-1	KG1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+KHM-1B	KHM1B_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.00933249336
+Ki-JK	KIJK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.34473971411
+KLE	KLE_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+KLM-1	KLM1_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+KM12	KM12_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	35.722143155
+KMBC-2	KMBC2_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.23501119461
+KM-H2	KMH2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.6785915193
+KMM-1	KMM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	12.575084662
+KMRC-1	KMRC1_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+KMRC-20	KMRC20_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+KMRC-2	KMRC2_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+KMRC-3	KMRC3_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+KMS-11	KMS11_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+KMS-12-BM	KMS12BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+KMS-18	KMS18_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+KMS-20	KMS20_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+KMS-21BM	KMS21BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.34318429855
+KMS-26	KMS26_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+KMS-27	KMS27_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.01088790892
+KMS-28BM	KMS28BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+KMS-34	KMS34_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.78676462324
+KNS-42	KNS42_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+KNS-60	KNS60_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.67548068818
+KNS-62	KNS62_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.01088790892
+KNS-81	KNS81_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+KO52	KO52_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+KOPN-8	KOPN8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+KP-2	KP2_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+KP-3	KP3_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+KP4	KP4_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+KPL-1	KPL1_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+KP-N-RT-BM-1	KPNRTBM1_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+KP-N-SI9s	KPNSI9S_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+KP-N-YN	KPNYN_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+KS-1	KS1_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.00933249336
+KU-19-19	KU1919_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.56419675311
+KU812	KU812_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+KURAMOCHI	KURAMOCHI_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+KYM-1	KYM1_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.56575216867
+KYO-1	KYO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+KYSE-140	KYSE140_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.45602364917
+KYSE-150	KYSE150_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.01399874004
+KYSE-180	KYSE180_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.34318429855
+KYSE-270	KYSE270_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.90115938942
+KYSE-30	KYSE30_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.45757906473
+KYSE-410	KYSE410_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.56730758423
+KYSE-450	KYSE450_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.90271480498
+KYSE-510	KYSE510_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.23501119461
+KYSE-520	KYSE520_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+KYSE-70	KYSE70_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.01088790892
+L-1236	L1236_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.01088790892
+L3_3	L33_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+L-363	L363_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+L-428	L428_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.89960397386
+L-540	L540_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.56886299979
+LAMA-84	LAMA84_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+LC-1_sq-SF	LC1SQSF_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.12061642842
+LCLC-103H	LCLC103H_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+LCLC-97TM1	LCLC97TM1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+Li-7	LI7_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+LK-2	LK2_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+LMSU	LMSU_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+LN-18	LN18_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.90115938942
+LN-229	LN229_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.7883200388
+LNCaP_clone_FGC	LNCAPCLONEFGC_PROSTATE	Prostate	Prostate	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	39.6170808822
+Loucy	LOUCY_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+LOU-NH91	LOUNH91_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+LoVo	LOVO_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	29.7128106616
+LOX_IMVI	LOXIMVI_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.78676462324
+LP-1	LP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+LS1034	LS1034_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+LS123	LS123_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+LS_180	LS180_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	25.3727371942
+LS411N	LS411N_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	52.7485852195
+LS513	LS513_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.67548068818
+LU65	LU65_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+LU99	LU99_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+LUDLU-1	LUDLU1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+LXF-289	LXF289_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.12061642842
+M059K	M059K_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+M-07e	M07E_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+Malme-3M	MALME3M_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+MC116	MC116_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+MCAS	MCAS_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+MCF7	MCF7_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.11439476618
+MDA-MB-134-VI	MDAMB134VI_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.780542961
+MDA-MB-157	MDAMB157_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+MDA-MB-175-VII	MDAMB175VII_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+MDA-MB-231	MDAMB231_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+MDA-MB-361	MDAMB361_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	12.463800727
+MDA-MB-415	MDAMB415_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+MDA-MB-435S	MDAMB435S_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	15.1346151685
+MDA-MB-436	MDAMB436_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+MDA-MB-453	MDAMB453_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	10.0155541556
+MDA-MB-468	MDAMB468_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+MDA_PCa_2b	MDAPCA2B_PROSTATE	Prostate	Prostate	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	24.5937496488
+MDST8	MDST8_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.57041841535
+ME-1	ME1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+MEC-1	MEC1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+MEC-2	MEC2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+MEG-01	MEG01_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+MEL-HO	MELHO_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+MEL-JUSO	MELJUSO_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	10.0155541556
+MeWo	MEWO_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	56.0871032714
+MFE-280	MFE280_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.89182689606
+MFE-296	MFE296_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	13.3540722075
+MFE-319	MFE319_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	56.7548068818
+MG-63	MG63_BONE	Bone	Osteosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+MHH-CALL-2	MHHCALL2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.890271480498
+MHH-CALL-3	MHHCALL3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+MHH-CALL-4	MHHCALL4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+MHH-ES-1	MHHES1_BONE	Bone	Ewings_Sarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+MHH-NB-11	MHHNB11_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+MIA_PaCa-2	MIAPACA2_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+Mino	MINO_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+MJ	MJ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+MKN1	MKN1_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+MKN-45	MKN45_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+MKN74	MKN74_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.34473971411
+MKN7	MKN7_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.67548068818
+ML-1	ML1_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+MM1-S	MM1S_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+MOLM-13	MOLM13_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+MOLM-16	MOLM16_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+MOLM-6	MOLM6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+MOLP-2	MOLP2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.78676462324
+MOLP-8	MOLP8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+MOLT-13	MOLT13_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.45913448029
+MOLT-16	MOLT16_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	13.3540722075
+MOLT-4	MOLT4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+MONO-MAC-1	MONOMAC1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+MONO-MAC-6	MONOMAC6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+MOR_CPR	MORCPR_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.34629512967
+MOTN-1	MOTN1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+MPP_89	MPP89_PLEURA	Pleura	Mesothelioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+MSTO-211H	MSTO211H_PLEURA	Pleura	Mesothelioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+MUTZ-5	MUTZ5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+MV-4-11	MV411_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.44669115581
+NALM-19	NALM19_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+NALM-1	NALM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+NALM-6	NALM6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	20.1423922463
+NAMALWA	NAMALWA_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+NB-1	NB1_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.89960397386
+NB-4	NB4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+NCC-StC-K140	NCCSTCK140_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+NCI-H1048	NCIH1048_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.78987545436
+NCI-H1092	NCIH1092_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.45291281805
+NCI-H1105	NCIH1105_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.90427022054
+NCI-H1155	NCIH1155_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+NCI-H1184	NCIH1184_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+NCI-H1299	NCIH1299_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+NCI-H1339	NCIH1339_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	19.697256506
+NCI-H1341	NCIH1341_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+NCI-H1355	NCIH1355_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+NCI-H1373	NCIH1373_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.0171095712
+NCI-H1385	NCIH1385_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.7883200388
+NCI-H1395	NCIH1395_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+NCI-H1435	NCIH1435_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.3509613764
+NCI-H1436	NCIH1436_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	10.0155541556
+NCI-H1437	NCIH1437_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+NCI-H146	NCIH146_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+NCI-H1563	NCIH1563_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.45757906473
+NCI-H1568	NCIH1568_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	12.463800727
+NCI-H1573	NCIH1573_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	19.2521207658
+NCI-H1581	NCIH1581_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+NCI-H1618	NCIH1618_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+NCI-H1623	NCIH1623_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.90271480498
+NCI-H1648	NCIH1648_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.68014693486
+NCI-H1650	NCIH1650_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+NCI-H1651	NCIH1651_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	10.3494059608
+NCI-H1666	NCIH1666_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+NCI-H1693	NCIH1693_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+NCI-H1694	NCIH1694_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+NCI-H1703	NCIH1703_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.78987545436
+NCI-H1734	NCIH1734_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.78987545436
+NCI-H1755	NCIH1755_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.89182689606
+NCI-H1781	NCIH1781_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+NCI-H1792	NCIH1792_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+NCI-H1793	NCIH1793_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	16.024886649
+NCI-H1836	NCIH1836_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.67703610374
+NCI-H1838	NCIH1838_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.34629512967
+NCI-H1869	NCIH1869_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+NCI-H1876	NCIH1876_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.45602364917
+NCI-H1915	NCIH1915_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+NCI-H1930	NCIH1930_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	12.6863685971
+NCI-H1944	NCIH1944_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.23345577905
+NCI-H1963	NCIH1963_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.34318429855
+NCI-H196	NCIH196_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+NCI-H1975	NCIH1975_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+NCI-H2009	NCIH2009_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.1283935062
+NCI-H2023	NCIH2023_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.01244332448
+NCI-H2029	NCIH2029_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+NCI-H2030	NCIH2030_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+NCI-H2052	NCIH2052_PLEURA	Pleura	Mesothelioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.11283935062
+NCI-H2066	NCIH2066_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.56730758423
+NCI-H2073	NCIH2073_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.00933249336
+NCI-H2081	NCIH2081_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+NCI-H2085	NCIH2085_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+NCI-H2087	NCIH2087_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.34629512967
+NCI-H209	NCIH209_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+NCI-H2106	NCIH2106_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	15.8023187788
+NCI-H2110	NCIH2110_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	21.7003673371
+NCI-H211	NCIH211_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.01088790892
+NCI-H2122	NCIH2122_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+NCI-H2126	NCIH2126_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.79298628548
+NCI-H2141	NCIH2141_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+NCI-H2170	NCIH2170_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.67548068818
+NCI-H2171	NCIH2171_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+NCI-H2172	NCIH2172_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	19.4746886359
+NCI-H2196	NCIH2196_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+NCI-H2227	NCIH2227_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.45446823361
+NCI-H2228	NCIH2228_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+NCI-H226	NCIH226_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+NCI-H2286	NCIH2286_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	17.3602938697
+NCI-H2291	NCIH2291_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.23501119461
+NCI-H2342	NCIH2342_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	25.3727371942
+NCI-H2347	NCIH2347_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	12.0186649867
+NCI-H23	NCIH23_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	14.9120472983
+NCI-H2405	NCIH2405_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+NCI-H2444	NCIH2444_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+NCI-H2452	NCIH2452_PLEURA	Pleura	Mesothelioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.55797509087
+NCI-H28	NCIH28_PLEURA	Pleura	Mesothelioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+NCI-H292	NCIH292_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+NCI-H322	NCIH322_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+NCI-H358	NCIH358_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	13.7992079477
+NCI-H441	NCIH441_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.56730758423
+NCI-H446	NCIH446_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.2396774413
+NCI-H460	NCIH460_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.56419675311
+NCI-H508	NCIH508_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+NCI-H510	NCIH510_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	13.7992079477
+NCI-H520	NCIH520_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+NCI-H522	NCIH522_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+NCI-H524	NCIH524_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.12061642842
+NCI-H526	NCIH526_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.56419675311
+NCI-H596	NCIH596_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+NCI-H647	NCIH647_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+NCI-H650	NCIH650_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	30.8256500122
+NCI-H660	NCIH660_PROSTATE	Prostate	Prostate	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+NCI-H661	NCIH661_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.7960971166
+NCI-H69	NCIH69_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+NCI-H716	NCIH716_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+NCI-H727	NCIH727_LUNG	Lung	Other	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.12372725955
+NCI-H747	NCIH747_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+NCI-H810	NCIH810_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.68170235042
+NCI-H82	NCIH82_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+NCI-H838	NCIH838_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.78987545436
+NCI-H841	NCIH841_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+NCI-H854	NCIH854_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.45446823361
+NCI-H889	NCIH889_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+NCI-H929	NCIH929_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+NCI-N87	NCIN87_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+NCO2	NCO2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Cml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+NH-6	NH6_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+NIH_OVCAR-3	NIHOVCAR3_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+NMC-G1	NMCG1_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+NOMO-1	NOMO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+NU-DHL-1	NUDHL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+NU-DUL-1	NUDUL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+NUGC-2	NUGC2_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+NUGC-3	NUGC3_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	15.1346151685
+NUGC-4	NUGC4_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+OAW28	OAW28_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+OAW42	OAW42_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+OC_314	OC314_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+OC_316	OC316_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	29.0451070513
+OCI-AML2	OCIAML2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+OCI-AML3	OCIAML3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+OCI-AML5	OCIAML5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+OCI-LY-19	OCILY19_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+OCI-LY3	OCILY3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+OCI-M1	OCIM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+OCUM-1	OCUM1_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+OE19	OE19_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+OE21	OE21_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+OE33	OE33_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+ONS-76	ONS76_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Medulloblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.34473971411
+OPM-2	OPM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+OUMS-23	OUMS23_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+OUMS-27	OUMS27_BONE	Bone	Chondrosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.66925902593
+OV56	OV56_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+OV7	OV7_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+OV-90	OV90_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+OVCAR-4	OVCAR4_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+OVCAR-8	OVCAR8_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+OVISE	OVISE_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+OVK18	OVK18_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	21.7003673371
+OVKATE	OVKATE_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+OVMANA	OVMANA_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.67703610374
+OVSAHO	OVSAHO_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+OVTOKO	OVTOKO_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+P12-ICHIKAWA	P12ICHIKAWA_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.00933249336
+P31_FUJ	P31FUJ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.56886299979
+P3HR-1	P3HR1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+Panc_02_03	PANC0203_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+Panc_02_13	PANC0213_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+Panc_03_27	PANC0327_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+Panc_04_03	PANC0403_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+Panc_05_04	PANC0504_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+Panc_08_13	PANC0813_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+Panc_10_05	PANC1005_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+PANC-1	PANC1_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+PA-TU-8902	PATU8902_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+PA-TU-8988S	PATU8988S_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+PA-TU-8988T	PATU8988T_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+PC-14	PC14_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+PC-3	PC3_PROSTATE	Prostate	Prostate	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+PCM6	PCM6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.89960397386
+PE_CA-PJ15	PECAPJ15_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+PE_CA-PJ34_clone_C12	PECAPJ34CLONEC12_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+PE_CA-PJ41_clone_D2	PECAPJ41CLONED2_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+PE_CA-PJ49	PECAPJ49_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+PEER	PEER_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+PF-382	PF382_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	25.3727371942
+Pfeiffer	PFEIFFER_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+PK-1	PK1_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+PK-45H	PK45H_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+PK-59	PK59_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+PL-21	PL21_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+PL45	PL45_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+PLC_PRF_5	PLCPRF5_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+PSN1	PSN1_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+QGP-1	QGP1_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+Raji	RAJI_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.67703610374
+RCC10RGB	RCC10RGB_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+RCH-ACV	RCHACV_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Leukemia_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	12.6863685971
+RCM-1	RCM1_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+RD-ES	RDES_BONE	Bone	Ewings_Sarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+RD	RD_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+REC-1	REC1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+Reh	REH_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	23.5921942332
+RERF-GC-1B	RERFGC1B_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+RERF-LC-Ad1	RERFLCAD1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.12372725955
+RERF-LC-Ad2	RERFLCAD2_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.12372725955
+RERF-LC-AI	RERFLCAI_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+RERF-LC-KJ	RERFLCKJ_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+RERF-LC-MS	RERFLCMS_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+RERF-LC-Sq1	RERFLCSQ1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+RH-30	RH30_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+RH-41	RH41_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+RI-1	RI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+RKN	RKN_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+RKO	RKO_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	42.0653274535
+RL95-2	RL952_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	32.7174769083
+RL	RL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+RMG-I	RMGI_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+RMUG-S	RMUGS_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+RPMI_6666	RPMI6666_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+RPMI-7951	RPMI7951_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.11439476618
+RPMI_8226	RPMI8226_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+RPMI-8402	RPMI8402_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+RS4-11	RS411_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	12.9089364672
+RT112_84	RT11284_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+RT-112	RT112_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+RT4	RT4_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+RVH-421	RVH421_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+S-117	S117_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+SBC-5	SBC5_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+SCaBER	SCABER_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+SCC-15	SCC15_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+SCC-25	SCC25_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.66925902593
+SCC-4	SCC4_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+SCC-9	SCC9_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+SCLC-21H	SCLC21H_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.01088790892
+SEM	SEM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.90115938942
+Set-2	SET2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Leukemia_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+SF126	SF126_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+SF-295	SF295_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+SH-10-TC	SH10TC_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.23345577905
+SH-4	SH4_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+SHP-77	SHP77_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.12372725955
+SH-SY5Y	SHSY5Y_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+SIG-M5	SIGM5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+SIMA	SIMA_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+SJRH30	SJRH30_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+SJSA-1	SJSA1_BONE	Bone	Osteosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+SK-BR-3	SKBR3_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+SK-CO-1	SKCO1_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.12061642842
+SK-ES-1	SKES1_BONE	Bone	Ewings_Sarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+SK-HEP-1	SKHEP1_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+SK-LMS-1	SKLMS1_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+SK-LU-1	SKLU1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.01088790892
+SKM-1	SKM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+SK-MEL-1	SKMEL1_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+SK-MEL-24	SKMEL24_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+SK-MEL-28	SKMEL28_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+SK-MEL-2	SKMEL2_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	10.1268380907
+SK-MEL-30	SKMEL30_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+SK-MEL-31	SKMEL31_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SK-MEL-3	SKMEL3_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+SK-MEL-5	SKMEL5_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.7883200388
+SK-MES-1	SKMES1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+SK-MM-2	SKMM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SK-N-AS	SKNAS_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+SK-N-BE2	SKNBE2_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SK-N-DZ	SKNDZ_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+SK-N-FI	SKNFI_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+SK-N-MC	SKNMC_BONE	Bone	Ewings_Sarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+SK-N-SH	SKNSH_AUTONOMIC_GANGLIA	Autonomic Ganglia	Neuroblastoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.11439476618
+SK-OV-3	SKOV3_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.45602364917
+SK-UT-1	SKUT1_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	21.477799467
+SNB-19	SNB19_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SNG-M	SNGM_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	29.6015267266
+SNU-1040	SNU1040_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	145.670670997
+SNU-1076	SNU1076_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+SNU-1077	SNU1077_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+SNU-1079	SNU1079_BILIARY_TRACT	Biliary Tract	Bile_Duct	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+SNU-1105	SNU1105_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+SNU-1196	SNU1196_BILIARY_TRACT	Biliary Tract	Bile_Duct	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+SNU-119	SNU119_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+SNU-1214	SNU1214_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.45291281805
+SNU-1272	SNU1272_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+SNU-16	SNU16_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SNU-175	SNU175_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	66.4365092322
+SNU-182	SNU182_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+SNU-1	SNU1_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	24.0373299734
+SNU-201	SNU201_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.67081444149
+SNU-213	SNU213_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+SNU-216	SNU216_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+SNU-245	SNU245_BILIARY_TRACT	Biliary Tract	Bile_Duct	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+SNU-283	SNU283_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+SNU-308	SNU308_BILIARY_TRACT	Biliary Tract	Bile_Duct	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+SNU-324	SNU324_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	17.2490099347
+SNU-349	SNU349_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	12.1299489218
+SNU-387	SNU387_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+SNU-398	SNU398_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+SNU-407	SNU407_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	30.8256500122
+SNU-410	SNU410_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.67548068818
+SNU-423	SNU423_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+SNU-449	SNU449_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+SNU-466	SNU466_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+SNU-46	SNU46_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.12061642842
+SNU-475	SNU475_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+SNU-478	SNU478_BILIARY_TRACT	Biliary Tract	Bile_Duct	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+SNU-489	SNU489_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+SNU-503	SNU503_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+SNU-520	SNU520_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	21.9229352073
+SNU-5	SNU5_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+SNU-601	SNU601_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.45446823361
+SNU-61	SNU61_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SNU-620	SNU620_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+SNU-626	SNU626_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+SNU-668	SNU668_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+SNU-685	SNU685_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+SNU-719	SNU719_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	15.5797509087
+SNU-738	SNU738_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.12061642842
+SNU-761	SNU761_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+SNU-81	SNU81_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	100.711961231
+SNU-840	SNU840_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+SNU-878	SNU878_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+SNU-886	SNU886_LIVER	Liver	Liver	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.78676462324
+SNU-899	SNU899_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.78676462324
+SNU-C1	SNUC1_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SNU-C2A	SNUC2A_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	41.2863399081
+SNU-C4	SNUC4_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	30.4917982071
+SNU-C5	SNUC5_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	40.5073523627
+Sq-1	SQ1_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.45446823361
+SR-786	SR786_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+ST486	ST486_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Burkitt	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+SU_86_86	SU8686_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.89182689606
+SU-DHL-10	SUDHL10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+SU-DHL-1	SUDHL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+SU-DHL-4	SUDHL4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+SU-DHL-5	SUDHL5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+SU-DHL-6	SUDHL6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+SU-DHL-8	SUDHL8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.56419675311
+SUIT-2	SUIT2_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SUP-B15	SUPB15_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	B-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.11439476618
+SUP-HD1	SUPHD1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	18.5844171554
+SUP-M2	SUPM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.11439476618
+SUP-T11	SUPT11_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Other	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+SUP-T1	SUPT1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SW_1088	SW1088_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+SW1116	SW1116_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+SW_1271	SW1271_LUNG	Lung	Lung_Small_Cell	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	15.2458991035
+SW_1353	SW1353_BONE	Bone	Chondrosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+SW1417	SW1417_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+SW1463	SW1463_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+SW_1573	SW1573_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.1175055973
+SW-1710	SW1710_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+SW_1783	SW1783_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.56730758423
+SW_1990	SW1990_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.44669115581
+SW403	SW403_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.45757906473
+SW480	SW480_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.12217184398
+SW48	SW48_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	35.722143155
+SW579	SW579_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+SW620	SW620_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.67703610374
+SW_780	SW780_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+SW837	SW837_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+SW_900	SW900_LUNG	Lung	Lung_Nsc	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.78676462324
+SW948	SW948_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+T1-73	T173_BONE	Bone	Osteosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.89182689606
+T24	T24_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+T3M-4	T3M4_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+T-47D	T47D_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.22567870125
+T84	T84_LARGE_INTESTINE	Large Intestine	Colorectal	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+T98G	T98G_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.45135740249
+TALL-1	TALL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	T-Cell_All	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+TC-71	TC71_BONE	Bone	Ewings_Sarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.33540722075
+TCC-PAN2	TCCPAN2_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+TCCSUP	TCCSUP_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+TE-10	TE10_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+TE-11	TE11_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.56108592199
+TE-14	TE14_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+TE-15	TE15_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+TE-1	TE1_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.67548068818
+TE_441_T	TE441T_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.89338231162
+TE-4	TE4_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	13.7992079477
+TE-5	TE5_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+TE_617_T	TE617T_SOFT_TISSUE	Soft Tissue	Soft_Tissue	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.55797509087
+TE-6	TE6_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.8980485583
+TE-8	TE8_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+TE-9	TE9_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+TEN	TEN_ENDOMETRIUM	Endometrium	Endometrium	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	12.575084662
+TF-1	TF1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.12061642842
+TGBC11TKB	TGBC11TKB_STOMACH	Stomach	Stomach	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	24.0373299734
+THP-1	THP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+TM-31	TM31_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.78209837656
+TO_175_T	TO175T_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Hodgkin	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.22412328568
+Toledo	TOLEDO_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.22878953237
+TOV-112D	TOV112D_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+TOV-21G	TOV21G_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	17.1377259996
+TT2609-C02	TT2609C02_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+T_T	TT_OESOPHAGUS	Oesophagus	Esophagus	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.12061642842
+TT	TT_THYROID	Thyroid	Thyroid	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+TUHR10TKB	TUHR10TKB_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+TUHR14TKB	TUHR14TKB_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+TUHR4TKB	TUHR4TKB_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+TYK-nu	TYKNU_OVARY	Ovary	Ovary	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+U-118_MG	U118MG_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+U-138_MG	U138MG_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+U-251_MG	U251MG_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+U266B1	U266B1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Multiple_Myeloma	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+U-2_OS	U2OS_BONE	Bone	Osteosarcoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+U-87_MG	U87MG_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+U-937	U937_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+UACC-257	UACC257_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+UACC-62	UACC62_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.78365379212
+UACC-812	UACC812_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.78676462324
+UACC-893	UACC893_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+UM-UC-1	UMUC1_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.34007346743
+UM-UC-3	UMUC3_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.11906101286
+UT-7	UT7_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Aml	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+VCaP	VCAP_PROSTATE	Prostate	Prostate	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+VM-CUB1	VMCUB1_URINARY_TRACT	Urinary Tract	Urinary_Tract	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	8.79143086992
+VMRC-RCW	VMRCRCW_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.44980198693
+VMRC-RCZ	VMRCRCZ_KIDNEY	Kidney	Kidney	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+WM-115	WM115_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+WM1799	WM1799_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+WM-266-4	WM2664_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+WM-793	WM793_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.67703610374
+WM-88	WM88_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.9073810517
+WM-983B	WM983B_SKIN	Skin	Melanoma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+WSU-DLCL2	WSUDLCL2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Haematopoietic And Lymphoid Tissue	Lymphoma_Dlbcl	Haematopoietic	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+YAPC	YAPC_PANCREAS	Pancreas	Pancreas	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.11595018174
+YD-10B	YD10B_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+YD-15	YD15_SALIVARY_GLAND	Salivary Gland	Other	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.45602364917
+YD-38	YD38_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+YD-8	YD8_UPPER_AERODIGESTIVE_TRACT	Upper Aerodigestive Tract	Upper_Aerodigestive	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+YH-13	YH13_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+YKG1	YKG1_CENTRAL_NERVOUS_SYSTEM	Central Nervous System	Glioma	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.0077770778
+YMB-1	YMB1_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+ZR-75-1	ZR751_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.33540722075
+ZR-75-30	ZR7530_BREAST	Breast	Breast	Solid	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.00933249336
+253J_URINARY_TRACT	253J_URINARY_TRACT	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+253JBV_URINARY_TRACT	253JBV_URINARY_TRACT	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.78676462324
+ACCS_URINARY_TRACT	ACCS_URINARY_TRACT	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.45446823361
+ALLSIL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	ALLSIL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+COLO201_LARGE_INTESTINE	COLO201_LARGE_INTESTINE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+COLO775_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	COLO775_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.45602364917
+CORL51_LUNG	CORL51_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+DM3_PLEURA	DM3_PLEURA	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+EVSAT_BREAST	EVSAT_BREAST	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.90115938942
+FTC238_THYROID	FTC238_THYROID	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.5735292465
+HCC1359_LUNG	HCC1359_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	11.1283935062
+HCC1438_LUNG	HCC1438_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	7.6785915193
+HCC1588_LUNG	HCC1588_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.56419675311
+HCC1833_LUNG	HCC1833_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+HCC2108_LUNG	HCC2108_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.00466624668
+HMC18_BREAST	HMC18_BREAST	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.23034494793
+HRT18_LARGE_INTESTINE	HRT18_LARGE_INTESTINE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	66.5477931672
+HS571T_OVARY	HS571T_OVARY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.780542961
+HS834T_SKIN	HS834T_SKIN	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.55953050643
+JJN3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	JJN3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+KP1N_PANCREAS	KP1N_PANCREAS	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.67236985705
+KP1NL_PANCREAS	KP1NL_PANCREAS	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.33851805187
+LC1F_LUNG	LC1F_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	6.23190036349
+MOGGCCM_CENTRAL_NERVOUS_SYSTEM	MOGGCCM_CENTRAL_NERVOUS_SYSTEM	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.780542961
+MOGGUVW_CENTRAL_NERVOUS_SYSTEM	MOGGUVW_CENTRAL_NERVOUS_SYSTEM	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+MUTZ3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	MUTZ3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.44669115581
+NCIH3255_LUNG	NCIH3255_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+NCIH684_LIVER	NCIH684_LIVER	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+OCILY10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	OCILY10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.45291281805
+ONCODG1_OVARY	ONCODG1_OVARY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.33696263631
+OSRC2_KIDNEY	OSRC2_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+RS5_PLEURA	RS5_PLEURA	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+SAOS2_BONE	SAOS2_BONE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.22723411681
+SNU1033_LARGE_INTESTINE	SNU1033_LARGE_INTESTINE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.67392527262
+SNU1041_UPPER_AERODIGESTIVE_TRACT	SNU1041_UPPER_AERODIGESTIVE_TRACT	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	3.89493772718
+SNU1066_UPPER_AERODIGESTIVE_TRACT	SNU1066_UPPER_AERODIGESTIVE_TRACT	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.34162888299
+SNU1197_LARGE_INTESTINE	SNU1197_LARGE_INTESTINE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.89649314274
+SNU8_OVARY	SNU8_OVARY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.00311083112
+SNU869_BILIARY_TRACT	SNU869_BILIARY_TRACT	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.00622166224
+T3M10_LUNG	T3M10_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	5.67548068818
+TE125T_SOFT_TISSUE	TE125T_SOFT_TISSUE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	2.44824657137
+TE159T_SOFT_TISSUE	TE159T_SOFT_TISSUE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	1.89182689606
+UBLC1_URINARY_TRACT	UBLC1_URINARY_TRACT	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.56264133755
+VMRCLCD_LUNG	VMRCLCD_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	9.12528267511
+VMRCLCP_LUNG	VMRCLCP_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	4.78520920768
+BJHTERT_SKIN	BJHTERT_SKIN	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+EW8_BONE	EW8_BONE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+EWS502_BONE	EWS502_BONE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+F5_CENTRAL_NERVOUS_SYSTEM	F5_CENTRAL_NERVOUS_SYSTEM	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+GRM_SKIN	GRM_SKIN	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HCC1897_LUNG	HCC1897_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HEKTE_KIDNEY	HEKTE_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HK2_KIDNEY	HK2_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HLC1_LUNG	HLC1_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+HMEL_BREAST	HMEL_BREAST	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+KARPAS422_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	KARPAS422_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+MESSA_SOFT_TISSUE	MESSA_SOFT_TISSUE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+OELE_OVARY	OELE_OVARY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+PRECLH_PROSTATE	PRECLH_PROSTATE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+RCC4_KIDNEY	RCC4_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SALE_LUNG	SALE_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SF172_CENTRAL_NERVOUS_SYSTEM	SF172_CENTRAL_NERVOUS_SYSTEM	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SLR20_KIDNEY	SLR20_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SLR21_KIDNEY	SLR21_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SLR23_KIDNEY	SLR23_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SLR25_KIDNEY	SLR25_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+SLR26_KIDNEY	SLR26_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+TC32_BONE	TC32_BONE	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+TIG3TD_LUNG	TIG3TD_LUNG	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+U178_CENTRAL_NERVOUS_SYSTEM	U178_CENTRAL_NERVOUS_SYSTEM	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+UMRC2_KIDNEY	UMRC2_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+UMRC6_KIDNEY	UMRC6_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0
+UOK101_KIDNEY	UOK101_KIDNEY	Na	Na	NA	NOVARTIS_BROAD_1651	MIXED	Cancer of Unknown Primary	Mixed Cancer Types	0.0

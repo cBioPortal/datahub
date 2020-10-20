@@ -1,0 +1,61 @@
+#Patient Identifier	Sample Identifier	Primary Tumor Size	Regional Lymph Node	Tumor cellularity dominant clone vaf	Tumor cellularity dominant pathology review	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Primary Tumor Size	Regional Lymph Node	Tumor cellularity dominant clone vaf	Tumor cellularity dominant pathology review	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	PRIMARY_TUMOR_SIZE	REGIONAL_LYMPH_NODE	TUMOR_CELLULARITY_DOMINANT_CLONE_VAF	TUMOR_CELLULARITY_PATHOLOGY_REVIEW	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+NPC15F	NPC15F	3	0	84.21%	85%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	11.3
+NPC29F	NPC29F	4	2	92.31%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	2.23333333333
+NPC10F	NPC10F	4	2	92.68%	75%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	1.0
+NPC34F	NPC34F	4	2	81.25%	80%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.666666666667
+NPC37F	NPC37F	1	1	81.82%	80%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	1.83333333333
+NPC5D	NPC5D	4	3	73.33%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.666666666667
+NPC115D	NPC115D	4	0	89.66%	90%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.9
+NPC38F	NPC38F	3	2	82.76%	80%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	1.56666666667
+NPC7D	NPC7D	4	0	78.79%	90%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	2.53333333333
+NPC26F	NPC26F	4	2	75.00%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.766666666667
+NPC30F	NPC30F	2	2	77.11%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.4
+NPC4F	NPC4F	4	3	72.00%	75%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.5
+NPC8F	NPC8F	1	2	88.89%	70%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.2
+NPC23F	NPC23F	2	3	87.18%	80%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.766666666667
+NPC16F	NPC16F	2	3	63.16%	30%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.7
+NPC4D	NPC4D	4	2	66.67%	90%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.6
+NPC2F	NPC2F	1	1	69.57%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	2.63333333333
+NPC1F	NPC1F	1	2	65.31%	75%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	1.03333333333
+NPC9D	NPC9D	2	3	85.71%	90%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.4
+NPC36F	NPC36F	4	2	52.17%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.0666666666667
+NPC3D	NPC3D	4	3	98.40%	90%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	1.5
+NPC051D	NPC051D	4	0	66.67%	50%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.466666666667
+NPC32F	NPC32F			83.33%	50%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.766666666667
+NPC6F	NPC6F	3	0	83.33%	70%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	2.33333333333
+NPC22F	NPC22F	4	3	87.27%	10%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.833333333333
+NPC5F	NPC5F	3	2	92.11%	75%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	2.46666666667
+NPC28F	NPC28F	1	2	77.92%	50%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.8
+NPC8D	NPC8D	4	0	83.58%	90%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.433333333333
+NPC25F	NPC25F	1	2	46.43%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.366666666667
+NPC27F	NPC27F	2	2	45.76%	80%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.5
+NPC41F	NPC41F	3	2	69.77%	35%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	1.73333333333
+NPC18F	NPC18F	2	2	73.17%	75%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.633333333333
+NPC21F	NPC21F	2	1	66.67%	80%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.6
+NPC40F	NPC40F	1	2	52.38%	55%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.466666666667
+NPC19F	NPC19F	3	0	62.07%	75%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.433333333333
+NPC20F	NPC20F	4	1	38.71%	10%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.0333333333333
+NPC42F	NPC42F	1	2	63.38%	80%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.533333333333
+NPC33F	NPC33F	3	0	89.41%	90%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.7
+NPC14F	NPC14F	1	0	84.85%	70%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.9
+NPC24F	NPC24F			46.15%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.2
+NPC31F	NPC31F	4	1	40.00%	40%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.1
+NPC35F	NPC35F	3	1	62.34%	90%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.633333333333
+NPC7F	NPC7F	4	1	29.79%	70%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.166666666667
+NPC39F	NPC39F	1	1	48.78%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.233333333333
+NPC12F	NPC12F	2	0	20.31%	90%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.0333333333333
+NPC13F	NPC13F	2	0	51.85%	40%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.333333333333
+NPC17F	NPC17F	2	0	63.33%	70%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.3
+NPC9F	NPC9F	1	2	22.22%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.0333333333333
+NPC11F	NPC11F	2	1	59.38%	65%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.0666666666667
+NPC3F	NPC3F			75.56%	85%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.5
+NPC10D	NPC10D	3	2	68.70%	30%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.566666666667
+NPC105D	NPC105D	1	3	41.38%	N.A.	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.166666666667
+NPC11D	NPC11D	1	1	92.31%	70%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.533333333333
+NPC088D	NPC088D	1	3	37.50%	10%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.0666666666667
+NPC015D	NPC015D	1	3b	70.00%	50%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.2
+NPC025D	NPC025D	2a	0	19.61%	10%	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.0666666666667

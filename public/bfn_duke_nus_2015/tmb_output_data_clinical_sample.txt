@@ -1,0 +1,27 @@
+#Patient Identifier	Sample Identifier	Somatic Status	Tumor Size	Mean Coverage (x)	Total Number of Somatic Mutations	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Somatic Status	Tumor size.	Mean Coverage (x)	Total Number of Somatic Mutations	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SOMATIC_STATUS	TUMOR_SIZE	MEAN_COVERAGE	NUM_SOMATIC_MUTATION	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+BFN_DUKE_NUS_1001	BFN_DUKE_NUS_1001	Matched	180	50	16	BPT	Breast Sarcoma	Benign Phyllodes Tumor of the Breast	0.533333333333
+BFN_DUKE_NUS_1002	BFN_DUKE_NUS_1002	Matched	140	64	7	BPT	Breast Sarcoma	Benign Phyllodes Tumor of the Breast	0.233333333333
+BFN_DUKE_NUS_1003	BFN_DUKE_NUS_1003	Matched	120	68	14	BPT	Breast Sarcoma	Benign Phyllodes Tumor of the Breast	0.466666666667
+BFN_DUKE_NUS_1004	BFN_DUKE_NUS_1004	Matched	63	69	19	BPT	Breast Sarcoma	Benign Phyllodes Tumor of the Breast	0.6
+BFN_DUKE_NUS_1005	BFN_DUKE_NUS_1005	Matched	35	61	4	BPT	Breast Sarcoma	Benign Phyllodes Tumor of the Breast	0.133333333333
+BFN_DUKE_NUS_1006	BFN_DUKE_NUS_1006	Matched	650	64	11	BPT	Breast Sarcoma	Benign Phyllodes Tumor of the Breast	0.366666666667
+BFN_DUKE_NUS_1007	BFN_DUKE_NUS_1007	Matched	90	58	11	BPT	Breast Sarcoma	Benign Phyllodes Tumor of the Breast	0.333333333333
+BFN_DUKE_NUS_1008	BFN_DUKE_NUS_1008	Matched	45	64	7	BPT	Breast Sarcoma	Benign Phyllodes Tumor of the Breast	0.2
+BFN_DUKE_NUS_1009	BFN_DUKE_NUS_1009	Matched	67	74	12	BPT	Breast Sarcoma	Benign Phyllodes Tumor of the Breast	0.4
+BFN_DUKE_NUS_1010	BFN_DUKE_NUS_1010	Matched	80	60	12	BPT	Breast Sarcoma	Benign Phyllodes Tumor of the Breast	0.366666666667
+BFN_DUKE_NUS_1011	BFN_DUKE_NUS_1011	Matched	95	79	68	BLPT	Breast Sarcoma	Borderline Phyllodes Tumor of the Breast	2.26666666667
+BFN_DUKE_NUS_1012	BFN_DUKE_NUS_1012	Matched	28	52	10	BLPT	Breast Sarcoma	Borderline Phyllodes Tumor of the Breast	0.333333333333
+BFN_DUKE_NUS_1013	BFN_DUKE_NUS_1013	Matched	20	79	8	BLPT	Breast Sarcoma	Borderline Phyllodes Tumor of the Breast	0.266666666667
+BFN_DUKE_NUS_1014	BFN_DUKE_NUS_1014	Matched	48	73	3	BLPT	Breast Sarcoma	Borderline Phyllodes Tumor of the Breast	0.1
+BFN_DUKE_NUS_1015	BFN_DUKE_NUS_1015	Matched	190	57	22	BLPT	Breast Sarcoma	Borderline Phyllodes Tumor of the Breast	0.7
+BFN_DUKE_NUS_1016	BFN_DUKE_NUS_1016	Matched	50	71	19	BLPT	Breast Sarcoma	Borderline Phyllodes Tumor of the Breast	0.6
+BFN_DUKE_NUS_1017	BFN_DUKE_NUS_1017	Matched	44	72	14	BLPT	Breast Sarcoma	Borderline Phyllodes Tumor of the Breast	0.466666666667
+BFN_DUKE_NUS_1018	BFN_DUKE_NUS_1018	Matched	32	54	18	BLPT	Breast Sarcoma	Borderline Phyllodes Tumor of the Breast	0.6
+BFN_DUKE_NUS_1019	BFN_DUKE_NUS_1019	Matched	63	71	25	MPT	Breast Sarcoma	Malignant Phyllodes Tumor of the Breast	0.833333333333
+BFN_DUKE_NUS_1020	BFN_DUKE_NUS_1020	Matched	220	68	18	MPT	Breast Sarcoma	Malignant Phyllodes Tumor of the Breast	0.6
+BFN_DUKE_NUS_1021	BFN_DUKE_NUS_1021	Matched	80	89	1	MPT	Breast Sarcoma	Malignant Phyllodes Tumor of the Breast	0.0333333333333
+BFN_DUKE_NUS_1022	BFN_DUKE_NUS_1022	Matched	200	75	14	MPT	Breast Sarcoma	Malignant Phyllodes Tumor of the Breast	0.4

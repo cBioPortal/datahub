@@ -1,0 +1,75 @@
+#Patient Identifier	Sample Identifier	Sample Class	Gene Panel	Oncotree Code	Sample origin	Sample Type	snapshot mutations	PIK3CA Mutation	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The sample classification (i.e., tumor, cellline, xenograph).	Gene panel.	Oncotree Code	Sample origin	The type of sample (i.e., normal, primary, met, recurrence).	snapshot mutations	PIK3CA mutation is present.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	9	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_CLASS	GENE_PANEL	ONCOTREE_CODE	SAMPLE_ORIGIN	SAMPLE_TYPE	SNAPSHOT_MUTATIONS	PIK3CA_MUTATION	TMB_NONSYNONYMOUS
+p_DS_bkm_001	s_DS_bkm_001_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.233333333333
+p_DS_bkm_002	s_DS_bkm_002_T	Tumor	IMPACT341	BRCA	FFPE	Primary	NE		0.3
+p_DS_bkm_003	s_DS_bkm_003_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	PTEN loss/p110a gain (unconfirmed)		0.233333333333
+p_DS_bkm_004	s_DS_bkm_004_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	Not detected		0.333333333333
+p_DS_bkm_005	s_DS_bkm_005_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	Not detected		0.166666666667
+p_DS_bkm_006	s_DS_bkm_006_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.266666666667
+p_DS_bkm_007	s_DS_bkm_007_T	Tumor	IMPACT341	BRCA	FFPE	Primary	PIK3CA_pE545K		0.166666666667
+p_DS_bkm_008	s_DS_bkm_008_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	PIK3CA_pE542K		0.166666666667
+p_DS_bkm_009	s_DS_bkm_009_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	Not detected		0.2
+p_DS_bkm_010	s_DS_bkm_010_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	Not detected		0.233333333333
+p_DS_bkm_013	s_DS_bkm_013_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.233333333333
+p_DS_bkm_017	s_DS_bkm_017_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	Not detected		0.333333333333
+p_DS_bkm_018	s_DS_bkm_018_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.233333333333
+p_DS_bkm_020	s_DS_bkm_020_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	Not detected		0.533333333333
+p_DS_bkm_021	s_DS_bkm_021_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.233333333333
+p_DS_bkm_022	s_DS_bkm_022_T	Tumor	IMPACT341	BRCA	FFPE	Primary	PIK3CA_pH1047R		0.133333333333
+p_DS_bkm_023	s_DS_bkm_023_T	Tumor	IMPACT341	BRCA	FFPE	Primary	PIK3CA_pH1047R		0.433333333333
+p_DS_bkm_024	s_DS_bkm_024_T	Tumor	IMPACT341	BRCA	FFPE	Primary	PIK3CA_pH1047R		0.133333333333
+p_DS_bkm_025	s_DS_bkm_025_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.233333333333
+p_DS_bkm_026	s_DS_bkm_026_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	Not detected		0.3
+p_DS_bkm_027	s_DS_bkm_027_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.166666666667
+p_DS_bkm_028	s_DS_bkm_028_T	Tumor	IMPACT341	BRCA	FFPE	Primary	PIK3CA_pE545K		0.133333333333
+p_DS_bkm_029	s_DS_bkm_029_T	Tumor	IMPACT341	BRCA	FFPE	Primary	PIK3CA_pE545K		0.266666666667
+p_DS_bkm_030	s_DS_bkm_030_T	Tumor	IMPACT341	BRCA	FFPE	Primary	PIK3CA_pH1047R		0.166666666667
+p_DS_bkm_031	s_DS_bkm_031_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.2
+p_DS_bkm_032	s_DS_bkm_032_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	PIK3CA_pE545K		0.166666666667
+p_DS_bkm_034	s_DS_bkm_034_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.2
+p_DS_bkm_035	s_DS_bkm_035_T	Tumor	IMPACT341	BRCA	FFPE	Metastasis	Not detected		0.466666666667
+p_DS_bkm_036	s_DS_bkm_036_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.0666666666667
+p_DS_bkm_038	s_DS_bkm_038_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.133333333333
+p_DS_bkm_039	s_DS_bkm_039_T	Tumor	IMPACT341	BRCA	FFPE	Primary	Not detected		0.266666666667
+p_DS_bkm_042	s_DS_bkm_042_T	Tumor	IMPACT341	BRCA	FFPE	Primary	PIK3CA_pE545K		0.3
+p_DS_bkm_043	s_DS_bkm_043_T	Tumor	IMPACT341	BRCA	FFPE	Primary	PIK3CA_pH1047R		0.2
+p_DS_bkm_045	s_DS_bkm_045_T	Tumor	IMPACT341	BRCA	FFPE				0.3
+p_DS_bkm_047	s_DS_bkm_047_T	Tumor	IMPACT341	BRCA	FFPE				0.166666666667
+p_DS_bkm_048	s_DS_bkm_048_T	Tumor	IMPACT341	BRCA	FFPE				0.133333333333
+p_DS_bkm_050	s_DS_bkm_050_T	Tumor	IMPACT341	BRCA	FFPE				0.1
+p_DS_bkm_051	s_DS_bkm_051_T	Tumor	IMPACT341	BRCA	FFPE				0.233333333333
+p_DS_bkm_052	s_DS_bkm_052_T	Tumor	IMPACT341	BRCA	FFPE				0.133333333333
+p_DS_bkm_055	s_DS_bkm_055_T	Tumor	IMPACT341	BRCA	FFPE				0.133333333333
+p_DS_bkm_056	s_DS_bkm_056_T	Tumor	IMPACT341	BRCA	FFPE				0.2
+p_DS_bkm_057	s_DS_bkm_057_T	Tumor	IMPACT341	BRCA	FFPE				0.8
+p_DS_bkm_058	s_DS_bkm_058_T	Tumor	IMPACT341	BRCA	FFPE				0.133333333333
+p_DS_bkm_059	s_DS_bkm_059_T	Tumor	IMPACT341	BRCA	FFPE				0.1
+p_DS_bkm_061	s_DS_bkm_061_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.5
+p_DS_bkm_062	s_DS_bkm_062_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.4
+p_DS_bkm_063	s_DS_bkm_063_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.433333333333
+p_DS_bkm_064	s_DS_bkm_064_T1	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.433333333333
+p_DS_bkm_064	s_DS_bkm_064_T2	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.433333333333
+p_DS_bkm_065	s_DS_bkm_065_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.566666666667
+p_DS_bkm_066	s_DS_bkm_066_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.166666666667
+p_DS_bkm_067	s_DS_bkm_067_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.7
+p_DS_bkm_068	s_DS_bkm_068_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.366666666667
+p_DS_bkm_069	s_DS_bkm_069_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.233333333333
+p_DS_bkm_070	s_DS_bkm_070_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.466666666667
+p_DS_bkm_071	s_DS_bkm_071_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.433333333333
+p_DS_bkm_072	s_DS_bkm_072_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.4
+p_DS_bkm_073	s_DS_bkm_073_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.533333333333
+p_DS_bkm_074	s_DS_bkm_074_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.366666666667
+p_DS_bkm_075	s_DS_bkm_075_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.4
+p_DS_bkm_076	s_DS_bkm_076_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.5
+p_DS_bkm_077	s_DS_bkm_077_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.433333333333
+p_DS_bkm_078	s_DS_bkm_078_T1	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.633333333333
+p_DS_bkm_078	s_DS_bkm_078_T2	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.633333333333
+p_DS_bkm_079	s_DS_bkm_079_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.233333333333
+p_DS_bkm_080	s_DS_bkm_080_T	Tumor	IMPACT341	BRCA	FFPE	Unknown			0.366666666667
+p_DS_bkm_081	s_DS_bkm_081_T	Tumor	IMPACT341	BRCA	FFPE	Unknown			0.8
+p_DS_bkm_082	s_DS_bkm_082_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		NO	0.466666666667
+p_DS_bkm_083	s_DS_bkm_083_T	Tumor	IMPACT341	BRCA	FFPE	Unknown		YES	0.333333333333
+p_DS_bkm_084	s_DS_bkm_084_T	Tumor	IMPACT341	BRCA	FFPE	Unknown			0.3

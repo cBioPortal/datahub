@@ -1,0 +1,13 @@
+#Patient Identifier	Sample Identifier	TNM Stage	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	TNM stage.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TNMSTAGE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+B085	B085	T3N0M0	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.733333333333
+B099	B099	T3N0M0	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.7
+R104	R104	T3N0M0	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	1.1
+T026	T026	T3N1M0	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.733333333333
+U044	U044	T3N1M0	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	1.1
+W012	W012	T3N0M0	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.633333333333
+W039	W039	T3N0M0	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.833333333333
+W040	W040	T4N1M0	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.9

@@ -1,0 +1,108 @@
+#Patient Identifier	Sample Identifier	Cancer Type Detailed	Oncotree Code	HER2 Status	HER2 Amplification Status	ER Status	Neoplasm Histologic Grade	PR Status	Purity	Ploidy	Silent Mutation Rate	Nonsilent Mutation Rate	Cancer Type	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Cancer Type Detailed	Oncotree Code	HER2 Status	HER2 Amplification Status	ER Status	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	PR Status	Purity	Ploidy.	Silent Mutation Rate	Nonsilent Mutation Rate	Cancer Type	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE_DETAILED	ONCOTREE_CODE	HER2_STATUS	HER2_AMPLIFICATION_STATUS	ER_STATUS	GRADE	PR_STATUS	PURITY	PLOIDY	SILENT_RATE	NONSILENT_RATE	CANCER_TYPE	TMB_NONSYNONYMOUS
+BR-V-002	BR-V-002	Infiltrating Ductal Carcinoma	IDC		Yes	Negative	III	Negative	0.27	1.95	0.72	2.62	Breast Cancer	2.53333333333
+BR-V-003	BR-V-003	Infiltrating Ductal Carcinoma	IDC		No		III		NA		0.21	0.44	Breast Cancer	0.433333333333
+BR-V-007	BR-V-007	Infiltrating Ductal Carcinoma	IDC		No		III		0.23	2.16	0.17	0.61	Breast Cancer	0.6
+BR-V-008	BR-V-008	Infiltrating Ductal Carcinoma	IDC		Yes		III		0.27	2.01	0.14	1	Breast Cancer	0.966666666667
+BR-V-009	BR-V-009	Infiltrating Ductal Carcinoma	IDC		No	Positive	III	Positive	0.52	1.99	0.54	2.07	Breast Cancer	1.96666666667
+BR-V-011	BR-V-011	Ductal Carcinoma In Situ (DCIS)	DCIS		No				0.7	1.88	0.17	0.72	Breast Cancer	0.833333333333
+BR-V-012	BR-V-012	Ductal Carcinoma In Situ (DCIS)	DCIS		Yes	Negative		Negative	0.28	3.24	0.13	0.87	Breast Cancer	0.833333333333
+BR-V-013	BR-V-013	Ductal Carcinoma In Situ (DCIS)	DCIS		No	Positive		Positive	0.43	3.87	0.24	0.68	Breast Cancer	0.833333333333
+BR-V-014	BR-V-014	Infiltrating Ductal Carcinoma	IDC		Yes	Negative		Negative	0.73	3.98	0.68	1.56	Breast Cancer	1.6
+BR-V-015	BR-V-015	Ductal Carcinoma In Situ (DCIS)	DCIS		Yes				0.22	2.04	0.1	0.37	Breast Cancer	0.333333333333
+BR-V-016	BR-V-016	Infiltrating Ductal Carcinoma	IDC		No	Negative		Negative	0.6	1.97	0.1	0.51	Breast Cancer	0.666666666667
+BR-V-017	BR-V-017	Infiltrating Ductal Carcinoma	IDC		No				0.33	3.83	0.035	0.67	Breast Cancer	0.566666666667
+BR-V-018	BR-V-018	Infiltrating Ductal Carcinoma	IDC		Yes				0.36	2.12	0.067	0.44	Breast Cancer	0.433333333333
+BR-V-019	BR-V-019	Mucinous Carcinoma	IMMC		No				0.8	1.97	0.1	1.05	Breast Cancer	1.03333333333
+BR-V-020	BR-V-020	Infiltrating Ductal Carcinoma	IDC		No				0.76	2.04	0.1	0.54	Breast Cancer	0.5
+BR-V-021	BR-V-021	Infiltrating Ductal Carcinoma	IDC		No				0.61	2.28	0.1	0.51	Breast Cancer	0.466666666667
+BR-V-022	BR-V-022	Infiltrating Ductal Carcinoma	IDC		No				0.43	1.75	0.34	1.64	Breast Cancer	1.7
+BR-V-023	BR-V-023	Ductal Carcinoma In Situ (DCIS)	DCIS		No				0.28	1.92	0.38	1.47	Breast Cancer	1.46666666667
+BR-V-024	BR-V-024	Infiltrating Ductal Carcinoma	IDC		Yes	Negative		Negative	NA		0.14	1	Breast Cancer	0.9
+BR-V-026	BR-V-026	Ductal Carcinoma In Situ (DCIS)	DCIS		No	Positive		Positive	0.72	3.59	0.28	0.35	Breast Cancer	0.3
+BR-V-027	BR-V-027	Infiltrating Ductal Carcinoma	IDC		Yes	Negative		Negative	0.29	1.92	1.09	4	Breast Cancer	3.8
+BR-V-028	BR-V-028	Infiltrating Ductal Carcinoma	IDC		No				0.3	3.25	0.43	1.32	Breast Cancer	1.26666666667
+BR-V-030	BR-V-030	Infiltrating Ductal Carcinoma	IDC		Yes				0.82	1.92	0.34	0.85	Breast Cancer	0.966666666667
+BR-V-031	BR-V-031	Infiltrating Ductal Carcinoma	IDC		No				0.28	2.09	0.24	0.62	Breast Cancer	0.766666666667
+BR-V-032	BR-V-032	Infiltrating Ductal Carcinoma	IDC		No				0.28	4.05	0.34	0.72	Breast Cancer	0.666666666667
+BR-V-033	BR-V-033	Infiltrating Ductal Carcinoma	IDC		Yes				0.2	3.21	0.76	2.24	Breast Cancer	1.86666666667
+BR-V-034	BR-V-034	Infiltrating Ductal Carcinoma	IDC		No				NA		0.59	1.54	Breast Cancer	1.46666666667
+BR-V-036	BR-V-036	Infiltrating Ductal Carcinoma	IDC		No				0.34	3.81	0.38	2.02	Breast Cancer	1.93333333333
+BR-V-037	BR-V-037	Infiltrating Ductal Carcinoma	IDC		No				0.79	2.08	0.73	2.61	Breast Cancer	2.5
+BR-V-038	BR-V-038	Infiltrating Ductal Carcinoma	IDC		No	Negative		Negative	0.79	2.28	0.034	0.44	Breast Cancer	0.4
+BR-V-039	BR-V-039	Infiltrating Ductal Carcinoma	IDC		No				0.54	2.03	0.14	0.55	Breast Cancer	0.466666666667
+BR-V-040	BR-V-040	Mucinous Carcinoma	IMMC		No				0.28	3.96	0.21	0.72	Breast Cancer	0.666666666667
+BR-V-042	BR-V-042	Infiltrating Ductal Carcinoma	IDC		Yes				0.22	1.66	0.31	0.94	Breast Cancer	0.833333333333
+BR-V-043	BR-V-043	Infiltrating Ductal Carcinoma	IDC		No				0.71	1.85	1.15	4.46	Breast Cancer	4.26666666667
+BR-V-044	BR-V-044	Ductal Carcinoma In Situ (DCIS)	DCIS		No	Positive		Positive	NA		0.27	0.79	Breast Cancer	0.666666666667
+BR-V-045	BR-V-045	Ductal Carcinoma In Situ (DCIS)	DCIS		Yes	Negative		Negative	0.25	2.1	0.14	0.49	Breast Cancer	0.5
+BR-V-047	BR-V-047	Infiltrating Ductal Carcinoma	IDC	Negative	Yes	Negative		Positive	NA		0.1	0.47	Breast Cancer	0.366666666667
+BR-V-048	BR-V-048	Infiltrating Ductal Carcinoma	IDC		No	Positive		Positive	0.19	2.13	0.34	0.98	Breast Cancer	0.9
+BR-V-049	BR-V-049	Infiltrating Ductal Carcinoma	IDC		No	Negative		Negative	0.34	2.21	0.14	0.44	Breast Cancer	0.4
+BR-V-050	BR-V-050	Ductal Carcinoma In Situ (DCIS)	DCIS		Yes				0.47	2.05	0.34	1.85	Breast Cancer	1.7
+BR-V-051	BR-V-051	Infiltrating Ductal Carcinoma	IDC		No				0.62	1.63	0.17	0.34	Breast Cancer	0.333333333333
+BR-V-052	BR-V-052	Infiltrating Ductal Carcinoma	IDC		No		III		0.19	2.08	0.38	0.96	Breast Cancer	0.933333333333
+BR-V-054	BR-V-054	Infiltrating Ductal Carcinoma	IDC		No		III		0.67	1.94	0.31	0.31	Breast Cancer	0.266666666667
+BR-V-060	BR-V-060	Infiltrating Ductal Carcinoma	IDC		Yes		III		0.34	2.27	0.82	1.64	Breast Cancer	1.83333333333
+BR-V-064	BR-V-064	Infiltrating Ductal Carcinoma	IDC		No		III		0.34	2.07	0.07	0.67	Breast Cancer	0.6
+BR-V-067	BR-V-067	Infiltrating Ductal Carcinoma	IDC		Yes		III		0.59	3.25	1.41	3.63	Breast Cancer	3.5
+BR-V-069	BR-V-069	Infiltrating Ductal Carcinoma	IDC		No	Negative	III	Negative	NA		0.11	0.43	Breast Cancer	0.4
+BR-V-070	BR-V-070	Infiltrating Ductal Carcinoma	IDC		Yes	Negative	III	Negative	0.28	2.31	0.17	0.82	Breast Cancer	0.766666666667
+BR-V-071	BR-V-071	Infiltrating Ductal Carcinoma	IDC		No	Negative	III	Negative	0.3	1.99	0.34	1.41	Breast Cancer	1.3
+BR-M-005	BR-M-005	Infiltrating Ductal Carcinoma	IDC	Positive	Yes	Negative	II	Negative	0.59	2.08	0.17	0.68	Breast Cancer	0.666666666667
+BR-M-026	BR-M-026	Infiltrating Tubular Carcinoma	BRCA	Negative	No	Positive	I	Positive	0.44	2.01	0.51	0.95	Breast Cancer	0.933333333333
+BR-M-027	BR-M-027	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Negative	0.31	3.12	0.45	1.85	Breast Cancer	1.73333333333
+BR-M-028	BR-M-028	Mixed Carcinoma	BRCA	Negative	No	Positive	I	Positive	0.58	2.18	0.2	0.85	Breast Cancer	0.866666666667
+BR-M-030	BR-M-030	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Negative	0.5	2.04	0.24	0.8	Breast Cancer	0.7
+BR-M-034	BR-M-034	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	I	Positive	NA		0.34	0.62	Breast Cancer	0.6
+BR-M-036	BR-M-036	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	I	Positive	0.26	2.06	0.1	0.41	Breast Cancer	0.366666666667
+BR-M-037	BR-M-037	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	NA		1.85	5.25	Breast Cancer	5.06666666667
+BR-M-038	BR-M-038	Infiltrating Ductal Carcinoma	IDC	Negative	No	Negative	II	Positive	0.42	1.9	0.21	0.51	Breast Cancer	0.433333333333
+BR-M-041	BR-M-041	Infiltrating Ductal Carcinoma	IDC	Negative	No	Negative	II	Positive	0.34	2.03	0.66	2.19	Breast Cancer	2.06666666667
+BR-M-045	BR-M-045	Infiltrating Ductal Carcinoma	IDC	Negative	No	Negative	III	Negative	0.56	2.67	1.27	3.57	Breast Cancer	3.33333333333
+BR-M-047	BR-M-047	Infiltrating Ductal Carcinoma	IDC	Positive	Yes	Negative	II	Negative	0.71	1.91	0.48	2.27	Breast Cancer	2.1
+BR-M-048	BR-M-048	Infiltrating Ductal Carcinoma	IDC	Positive	Yes	Positive	II	Negative	0.14	2.03	0.068	0.41	Breast Cancer	0.366666666667
+BR-M-050	BR-M-050	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	0.63	2.13	0.24	0.85	Breast Cancer	0.8
+BR-M-055	BR-M-055	Infiltrating Ductal Carcinoma	IDC	Positive	Yes	Positive	III	Negative	0.62	3.44	0.9	2.35	Breast Cancer	2.2
+BR-M-059	BR-M-059	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	0.68	1.98	0.34	0.58	Breast Cancer	0.566666666667
+BR-M-073	BR-M-073	Infiltrating Ductal Carcinoma	IDC	Negative	Yes	Positive	II	Positive	0.82	3.44	0.24	1.52	Breast Cancer	1.4
+BR-M-074	BR-M-074	Mucinous Carcinoma	IMMC	Negative	No	Negative		Positive	0.25	3.88	0.34	1.06	Breast Cancer	0.966666666667
+BR-M-076	BR-M-076	Infiltrating Ductal Carcinoma	IDC	Positive	Yes	Negative	III	Negative	0.35	1.79	0.41	0.99	Breast Cancer	1.0
+BR-M-079	BR-M-079	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Negative	0.29	2.12	0.41	1.26	Breast Cancer	1.7
+BR-M-080	BR-M-080	Infiltrating Ductal Carcinoma	IDC	Negative	No	Negative	III	Negative	NA		0.17	0.52	Breast Cancer	0.466666666667
+BR-M-083	BR-M-083	Infiltrating Lobular Carcinoma	ILC	Negative	No	Positive		Positive	0.3	2	0.2	0.65	Breast Cancer	0.6
+BR-M-085	BR-M-085	Infiltrating Ductal Carcinoma	IDC	Positive	Yes	Negative	II	Positive	0.2	1.75	0.034	0.75	Breast Cancer	1.46666666667
+BR-M-094	BR-M-094	Mixed Carcinoma	BRCA	Negative	No	Negative		Negative	0.35	1.89	0.14	0.65	Breast Cancer	1.26666666667
+BR-M-095	BR-M-095	Infiltrating Lobular Carcinoma	ILC	Negative	No	Positive		Negative	0.54	3.08	0.62	1.89	Breast Cancer	1.76666666667
+BR-M-098	BR-M-098	Infiltrating Ductal Carcinoma	IDC	Negative	Yes	Positive	II	Negative	0.54	2.05	0.2	0.94	Breast Cancer	0.966666666667
+BR-M-105	BR-M-105	Infiltrating Ductal Carcinoma	IDC	Negative	Yes	Positive	III	Positive	0.37	3.78	0.34	0.78	Breast Cancer	0.733333333333
+BR-M-106	BR-M-106	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	0.89	1.94	0.2	0.84	Breast Cancer	0.8
+BR-M-110	BR-M-110	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Negative	0.39	3.59	0.62	1.62	Breast Cancer	1.56666666667
+BR-M-116	BR-M-116	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	III	Negative	0.66	4.17	1.47	3.45	Breast Cancer	3.36666666667
+BR-M-120	BR-M-120	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	0.61	3.75	0.27	0.96	Breast Cancer	0.966666666667
+BR-M-121	BR-M-121	Infiltrating Ductal Carcinoma	IDC	Negative	Yes	Positive	III	Positive	0.27	1.94	0.31	0.38	Breast Cancer	0.933333333333
+BR-M-122	BR-M-122	Infiltrating Ductal Carcinoma	IDC	Negative	No	Negative	III	Negative	NA		0.39	1.22	Breast Cancer	1.03333333333
+BR-M-123	BR-M-123	Infiltrating Ductal Carcinoma	IDC	Negative	Yes	Positive	III	Positive	0.65	3.53	0.57	1.42	Breast Cancer	1.36666666667
+BR-M-126	BR-M-126	Infiltrating Lobular Carcinoma	ILC	Negative	No	Positive		Positive	0.64	1.96	0.14	1	Breast Cancer	0.966666666667
+BR-M-129	BR-M-129	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	0.4	1.01	0.14	0.54	Breast Cancer	0.466666666667
+BR-M-150	BR-M-150	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	NA		0.58	0.92	Breast Cancer	0.866666666667
+BR-M-154	BR-M-154	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	III	Positive	0.7	1.92	0.3	0.78	Breast Cancer	0.766666666667
+BR-M-155	BR-M-155	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	III	Positive	0.67	2.13	0.24	1.28	Breast Cancer	1.2
+BR-M-158	BR-M-158	Infiltrating Ductal Carcinoma	IDC	Negative		Positive	II	Positive	NA		0.3	0.54	Breast Cancer	0.5
+BR-M-165	BR-M-165	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	0.68	2.06	0.17	0.6	Breast Cancer	0.533333333333
+BR-M-166	BR-M-166	Mixed Carcinoma	BRCA	Negative	No	Positive		Positive	0.4	3.04	0.24	1.41	Breast Cancer	1.23333333333
+BR-M-167	BR-M-167	Infiltrating Lobular Carcinoma	ILC	Negative		Positive		Positive	NA		0.2	0.61	Breast Cancer	0.466666666667
+BR-M-169	BR-M-169	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	0.25	2	0.068	0.61	Breast Cancer	0.566666666667
+BR-M-172	BR-M-172	Infiltrating Ductal Carcinoma	IDC	Negative	Yes	Positive	II	Positive	0.36	3.56	0.2	0.71	Breast Cancer	0.733333333333
+BR-M-174	BR-M-174	Infiltrating Ductal Carcinoma	IDC	Negative	No	Negative	III	Negative	NA		0.72	1.74	Breast Cancer	1.73333333333
+BR-M-184	BR-M-184	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	NA		0.24	0.38	Breast Cancer	0.333333333333
+BR-M-186	BR-M-186	Infiltrating Ductal Carcinoma	IDC	Negative	Yes	Positive	II	Positive	0.54	2.1	0.069	0.55	Breast Cancer	0.466666666667
+BR-M-189	BR-M-189	Medullary Breast Carcinoma	BRCA	Negative	No	Negative		Negative	0.29	2.93	0.58	1.73	Breast Cancer	1.56666666667
+BR-M-191	BR-M-191	Infiltrating Ductal Carcinoma	IDC	Positive	Yes	Negative	II	Negative	0.7	3.69	2.43	8.05	Breast Cancer	7.8
+BR-M-192	BR-M-192	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	0.5	3.79	0.2	0.91	Breast Cancer	0.9
+BR-M-193	BR-M-193	Infiltrating Ductal Carcinoma	IDC	Positive	Yes	Negative	III	Negative	0.53	1.86	0.68	1.92	Breast Cancer	1.8
+BR-M-198	BR-M-198	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	0.64	2.12	0.24	0.65	Breast Cancer	0.566666666667
+BR-M-200	BR-M-200	Infiltrating Ductal Carcinoma	IDC	Negative	No	Positive	II	Positive	0.55	2.04	0.1	0.51	Breast Cancer	0.433333333333

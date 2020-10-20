@@ -1,0 +1,165 @@
+#Sample Identifier	Patient Identifier	Note	TNM Stage	Morphology Other Features	Neoplasm Histologic Grade	% Intestinal	Morphology Subtype	Immunohistochemistry Subtype	Tumor cellularity dominant pathology review	Cllularity based on allele frequency	Primary Tumor Site	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Note.	TNM stage.	Morphology Other Features	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	% Intestinal	Morphology Subtype	Immunohistochemistry Subtype	Tumor cellularity dominant pathology review	Cllularity based on allele frequency	Text term to describe the organ sub-division in an individual with cancer.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	NOTE	TNMSTAGE	MORPHOLOGY_OTHER_FEATURES	GRADE	INTESTINAL_PERCENTAGE	MORPHOLOGY_SUBTYPE	IHC_SUBTYPE	TUMOR_CELLULARITY_PATHOLOGY_REVIEW	ALLELE_FREQUENCY_CELLULARITY	PRIMARY_SITE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+AMPAC_3	AMPAC_3		IIA		Poor Diff	100	Intestinal	Intestinal	NA	14	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.466666666667
+AMPAC_22	AMPAC_22	Low cellularity	IB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	<1	5	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.233333333333
+AMPAC_25	AMPAC_25		III		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	80	61	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.33333333333
+AMPAC_29	AMPAC_29		III		Mod Diff	90	Intestinal	Pancreatobiliary	50	17	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.5
+AMPAC_30	AMPAC_30		IB		Mod Diff	100	Intestinal	Pancreatobiliary	50	69	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.7
+AMPAC_51	AMPAC_51		IIB		Well Diff	90	Intestinal	Intestinal	NA	67	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	8.2
+AMPAC_61	AMPAC_61		IIB		Poor Diff	10	Pancreatobiliary	Mixed	NA	23	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.533333333333
+AMPAC_62	AMPAC_62	Low cellularity	IIB		Mod Diff	100	Intestinal	Pancreatobiliary	NA	5	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.233333333333
+AMPAC_69	AMPAC_69		III		Well Diff	100	Intestinal	Pancreatobiliary	NA	17	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.433333333333
+AMPAC_76	AMPAC_76		IIA		Mod Diff	100	Intestinal	Intestinal	90	69	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.76666666667
+AMPAC_95	AMPAC_95	MSI tumor	III		Poor Diff	100	Intestinal	Pancreatobiliary	NA	26	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	12.9666666667
+AMPAC_120	AMPAC_120		III		Poor Diff	0	Pancreatobiliary	Intestinal	60	11	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.466666666667
+AMPAC_121	AMPAC_121	Targeted custom design sequenced	III		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	50-70	54	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	NA
+AMPAC_122	AMPAC_122		IA		Poor Diff	100	Intestinal	Mixed	70	93	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.63333333333
+AMPAC_123	AMPAC_123		III		Poor Diff	0	Pancreatobiliary	Intestinal	100	73	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.13333333333
+AMPAC_124	AMPAC_124		IA		Mod Diff	100	Intestinal	Mixed	80	68	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.5
+AMPAC_125	AMPAC_125		III		Poor Diff	100	Intestinal	Pancreatobiliary	60	26	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.6
+AMPAC_601	AMPAC_601	Targeted custom design sequenced	III		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	4	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	NA
+AMPAC_604	AMPAC_604		III		Mod Diff	90	Intestinal	Intestinal	NA	28	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	4.23333333333
+AMPAC_606	AMPAC_606	Targeted custom design sequenced	IA		Mod Diff	100	Intestinal	Mixed	0	53	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	NA
+AMPAC_607	AMPAC_607	Targeted custom design sequenced	IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	80	22	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	NA
+AMPAC_608	AMPAC_608		IIB		Mod Diff	40	Mixed	Mixed	NA	32	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	5.6
+AMPAC_609	AMPAC_609		IIB		Mod Diff	100	Intestinal	Pancreatobiliary	60	51	MIXED	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.866666666667
+AMPAC_610	AMPAC_610		IIB		Mod Diff	100	Intestinal	Intestinal	70	83	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.23333333333
+AMPAC_612	AMPAC_612		IIB		Poor Diff	100	Intestinal	Pancreatobiliary	NA	71	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.833333333333
+AMPAC_613	AMPAC_613		III		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	50	22	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.333333333333
+AMPAC_614	AMPAC_614		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	60	36	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.3
+AMPAC_615	AMPAC_615		IIB		Mod Diff	100	Intestinal	Intestinal	NA	71	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	5.46666666667
+AMPAC_616	AMPAC_616	Targeted custom design sequenced	IIA		Mod Diff	100	Intestinal	Intestinal	80	64	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	NA
+AMPAC_617	AMPAC_617		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	21	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.666666666667
+AMPAC_618	AMPAC_618		III		Poor Diff	0	Pancreatobiliary	Mixed	70	50	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.666666666667
+AMPAC_619	AMPAC_619		III	Mucinous	Poor Diff	100	Intestinal	Mixed	50	21	PERI-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.733333333333
+AMPAC_701	AMPAC_701		III		Mod Diff	100	Intestinal	Mixed	NA	60	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.1
+AMPAC_702	AMPAC_702		IB		Mod Diff	100	Intestinal	Pancreatobiliary	NA	75	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.53333333333
+AMPAC_704	AMPAC_704		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	24	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.9
+AMPAC_705	AMPAC_705		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	69	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.26666666667
+AMPAC_706	AMPAC_706		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	54	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.9
+AMPAC_708	AMPAC_708		III		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	55	NA	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.3
+AMPAC_709	AMPAC_709		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	45	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.833333333333
+AMPAC_710	AMPAC_710		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	70	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.13333333333
+AMPAC_711	AMPAC_711		IIA		Poor Diff	100	Intestinal	Intestinal	NA	70	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.0
+AMPAC_713	AMPAC_713		III		Mod Diff	30	Mixed	Intestinal	NA	34	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.833333333333
+AMPAC_714	AMPAC_714		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	73	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.7
+AMPAC_716	AMPAC_716		IB		Mod Diff	10	Pancreatobiliary	Pancreatobiliary	NA	6	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.1
+AMPAC_717	AMPAC_717		IIB		Mod Diff	5	Pancreatobiliary	Pancreatobiliary	NA	19	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.433333333333
+AMPAC_718	AMPAC_718		IB		Mod Diff	20	Mixed	Pancreatobiliary	NA	42	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.8
+AMPAC_719	AMPAC_719	MSI tumor	IB		Poor Diff	100	Intestinal	Intestinal	NA	31	INTESTINAL	AMPCA	Ampullary Cancer	Ampullary Carcinoma	11.3666666667
+AMPAC_721	AMPAC_721		IA		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	45	NA	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.1
+AMPAC_722	AMPAC_722		IB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	60	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.1
+AMPAC_723	AMPAC_723		IIA		Poor Diff	50	Mixed	Intestinal	NA	64	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	7.26666666667
+AMPAC_724	AMPAC_724		IIB	Partly Mucinous	Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	72	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.63333333333
+AMPAC_726	AMPAC_726		IA		Mod Diff	100	Intestinal	Mixed	NA	79	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.16666666667
+AMPAC_727	AMPAC_727		IB		Poor Diff	100	Intestinal	Intestinal	NA	68	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.9
+AMPAC_729	AMPAC_729		IA		Mod Diff	100	Intestinal	Mixed	NA	59	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.53333333333
+AMPAC_1474	AMPAC_1474		III		Poor Diff	100	Intestinal	Intestinal	50	37	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.3
+AMPAC_1967	AMPAC_1967		IIB	Squamous	Poor Diff	70	Mixed	Mixed	90	65	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.43333333333
+AMPAC_1999	AMPAC_1999		IB		Mod Diff	100	Intestinal	Intestinal	70	50	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.83333333333
+AMPAC_2115	AMPAC_2115		III		Mod Diff	100	Intestinal	Intestinal	80	70	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.46666666667
+AMPAC_2117	AMPAC_2117		IIB	Mucinous	Poor Diff	50	Mixed	Pancreatobiliary	85	49	PERI-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.56666666667
+AMPAC_2148	AMPAC_2148		III		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	40	22	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.666666666667
+AMPAC_2209	AMPAC_2209		IIA		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	90	75	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.1
+AMPAC_2216	AMPAC_2216		IIB		Mod Diff	30	Mixed	Pancreatobiliary	80	65	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.26666666667
+AMPAC_2252	AMPAC_2252		IIB		Undifferentiated	0	Pancreatobiliary	Pancreatobiliary	80	24	PERI-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.633333333333
+AMPAC_2253	AMPAC_2253		IIB		Mod Diff	0	Pancreatobiliary	Mixed	80	58	PERI-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.13333333333
+AMPAC_2264	AMPAC_2264	MSI tumor	III		Mod Diff	100	Intestinal	Intestinal	80	62	PERI-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	50.4666666667
+AMPAC_2292	AMPAC_2292		III		Mod Diff	80	Mixed	Pancreatobiliary	80	14	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.4
+AMPAC_2307	AMPAC_2307		IIB		NA	0	Pancreatobiliary	Pancreatobiliary	75	52	PERI-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.96666666667
+AMPAC_2354	AMPAC_2354	Low cellularity	IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	30	4	PERI-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.1
+AMPAC_2618	AMPAC_2618		IB		Mod Diff	100	Intestinal	Intestinal	50	64	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	5.1
+AMPAC_2677	AMPAC_2677		IB		Mod Diff	100	Intestinal	Intestinal	70	46	PERI-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.36666666667
+AMPAC_2694	AMPAC_2694		IIA		Mod Diff	100	Intestinal	Intestinal	70	67	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.26666666667
+AMPAC_2713	AMPAC_2713	MSI tumor	IIB	Lynch Syndrome	Mod Diff	100	Intestinal	Intestinal	80	36	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	61.6333333333
+AMPAC_2742	AMPAC_2742		IIB		Poor Diff	100	Intestinal	Intestinal	80	54	PERI-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.23333333333
+AMPAC_2761	AMPAC_2761		III		Mod Diff	20	Mixed	Pancreatobiliary	70	53	PERI-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.23333333333
+AMPAC_2763	AMPAC_2763	Low cellularity	IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	80	6	PERI-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.2
+AMPAC_2768	AMPAC_2768		III		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	60	54	PERI-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.33333333333
+AMPAC_2812	AMPAC_2812		IIB		Mod Diff	100	Intestinal	Pancreatobiliary	60	53	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.66666666667
+AMPAC_2826	AMPAC_2826		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	50	25	PERI-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.03333333333
+AMPAC_2889	AMPAC_2889		IB		Poor Diff	40	Mixed	Pancreatobiliary	35	72	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.9
+AMPAC_2890	AMPAC_2890	MSI tumor	IB		Mod Diff	50	Mixed	Intestinal	30	46	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	24.3333333333
+AMPAC_2922	AMPAC_2922		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	85	51	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.46666666667
+AMPAC_2937	AMPAC_2937		IIB		Mod Diff	80	Mixed	Intestinal	10	12	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.633333333333
+AMPAC_2951	AMPAC_2951		IIB		Mod Diff	100	Intestinal	Intestinal	80	65	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.13333333333
+AMPAC_2981	AMPAC_2981		III		Mod Diff	100	Intestinal	Pancreatobiliary	60	59	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.23333333333
+AMPAC_3013	AMPAC_3013		IA		Poor Diff	100	Intestinal	Intestinal	40	70	INTRA-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.53333333333
+AMPAC_3015	AMPAC_3015		IIB		Poor Diff	80	Mixed	Pancreatobiliary	85	62	PERI-AMP 	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.8
+AMPAC_3022	AMPAC_3022		IIB		Mod Diff	100	Intestinal	Intestinal	90	26	PERI-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.866666666667
+AMPAC_3134	AMPAC_3134		IIB		Mod Diff	80	Mixed	Mixed	40	44	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.06666666667
+AMPAC_3212	AMPAC_3212		IIB		Mod Diff	100	Intestinal	Intestinal	80	80	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.03333333333
+AMPAC_3240	AMPAC_3240		IB		Poor Diff	100	Intestinal	Mixed	80	85	AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.2
+AMPAC_3704	AMPAC_3704		IIB		Mod Diff	100	Intestinal	Intestinal	NA	84	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.53333333333
+AMPAC_3731	AMPAC_3731		IIA		Mod Diff	20	Mixed	Intestinal	NA	83	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.9
+AMPAC_3734	AMPAC_3734		IIB		Mod Diff	90	Intestinal	Mixed	NA	84	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.1
+AMPAC_3735	AMPAC_3735		IIA		Poor Diff	100	Intestinal	Intestinal	NA	60	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.56666666667
+AMPAC_3736	AMPAC_3736		III		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	92	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.1
+AMPAC_3739	AMPAC_3739		IA		Mod Diff	10	Pancreatobiliary	Intestinal	NA	58	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.86666666667
+AMPAC_3741	AMPAC_3741		III		Mod Diff	20	Mixed	Pancreatobiliary	NA	31	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.4
+AMPAC_3813	AMPAC_3813	MSI tumor	III		Poor Diff	100	Pancreatobiliary	Pancreatobiliary	NA	30	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	24.7333333333
+DUOAC_501	DUOAC_501		IIA		Mod Diff	100	Intestinal	Intestinal	30	72	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.1
+DUOAC_504	DUOAC_504	MSI tumor; targeted custom design sequenced	III		Mod Diff	100	Intestinal	Mixed	NA	49	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	NA
+DUOAC_506	DUOAC_506	Targeted custom design sequenced	III		Poor Diff	30	Mixed	Pancreatobiliary	0	18	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	NA
+DUOAC_507	DUOAC_507	MSI tumor; targeted custom design sequenced	IIA		Mod Diff	100	Intestinal	Mixed	NA	71	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	NA
+DUOAC_508	DUOAC_508	MSI tumor	III	Mucinous	Mod Diff	100	Intestinal	Mixed	10	41	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	26.8
+DUOAC_510	DUOAC_510		III	Signet Ring	Poor Diff	100	Intestinal	Mixed	70	52	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.56666666667
+DUOAC_707	DUOAC_707		0	Adenoma With Intraepithelial Neoplasia And Dysplasia Components	NA	100	Intestinal	Intestinal	NA	67	NA	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.36666666667
+DUOAC_781	DUOAC_781	MSI tumor	III		Poor Diff	100	Intestinal	Mixed	NA	69	NA	AMPCA	Ampullary Cancer	Ampullary Carcinoma	58.4666666667
+DUOAC_782	DUOAC_782	MSI tumor	III	Medullary	Undifferentiated	100	Intestinal	Pancreatobiliary	NA	43	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	39.6333333333
+DUOAC_785	DUOAC_785	MSI tumor	III		Poor Diff	100	Intestinal	Intestinal	NA	50	NA	AMPCA	Ampullary Cancer	Ampullary Carcinoma	28.6333333333
+DUOAC_2112	DUOAC_2112		III		Mod Diff	100	Intestinal	Intestinal	NA	74	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.96666666667
+DUOAC_2138	DUOAC_2138		IIA		Mod Diff	100	Intestinal	Intestinal	70	69	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.13333333333
+DUOAC_2277	DUOAC_2277		IV		Mod Diff	NA	NA	Pancreatobiliary	50	36	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.833333333333
+DUOAC_3191	DUOAC_3191		IIA		Mod Diff	100	Intestinal	Intestinal	NA	40	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.36666666667
+DUOAC_3714	DUOAC_3714		IIIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	77	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	4.3
+DUOAC_3724	DUOAC_3724		IIIB		Mod Diff	75	Mixed	Mixed	NA	63	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.26666666667
+DUOAC_3812	DUOAC_3812		IIIB		Mod Diff	80	Mixed	Intestinal	NA	84	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.66666666667
+DUOAC_25850	DUOAC_25850		III		Mod Diff	100	Intestinal	Intestinal	60	35	DUODENUM	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.56666666667
+CAC_751	CAC_751		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	57	INTRA-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.566666666667
+CAC_752	CAC_752	Low cellularity	IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	8	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.0666666666667
+CAC_753	CAC_753	Low cellularity	IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	3	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.166666666667
+CAC_755	CAC_755		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	67	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.36666666667
+CAC_756	CAC_756		IA		Mod Diff	90	Intestinal	Intestinal	NA	67	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	3.66666666667
+CAC_757	CAC_757		IV		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	62	PERI-AMP	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.833333333333
+CAC_758	CAC_758		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	51	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	5.23333333333
+CAC_759	CAC_759		IIA		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	29	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.666666666667
+CAC_760	CAC_760		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	46	NA	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.9
+CAC_761	CAC_761		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	33	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.933333333333
+CAC_1601	CAC_1601		IIB		Mod Diff	20	Mixed	Pancreatobiliary	60	41	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.53333333333
+CAC_1815	CAC_1815	undiff.% Intestinal	IIB		Poor Diff		Pancreatobiliary	Pancreatobiliary	80	46	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.966666666667
+CAC_2055	CAC_2055		IIA		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	50	47	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	7.5
+CAC_2159	CAC_2159		IIB		Mod Diff	10	Pancreatobiliary	Pancreatobiliary	25	32	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.6
+CAC_2289	CAC_2289		IIA		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	70	24	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.9
+CAC_2293	CAC_2293	Low cellularity	IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	30	6	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.2
+CAC_2640	CAC_2640		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	50	36	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.933333333333
+CAC_2710	CAC_2710		IIB		Mod Diff	20	Mixed	Pancreatobiliary	65	29	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.63333333333
+CAC_2800	CAC_2800		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	60	34	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.433333333333
+CAC_2825	CAC_2825		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	85	28	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.666666666667
+CAC_2914	CAC_2914		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	45	22	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.933333333333
+CAC_2932	CAC_2932		IIB		Well Diff	0	Pancreatobiliary	Pancreatobiliary	50	18	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.933333333333
+CAC_2987	CAC_2987	MSI tumor	III			100	Intestinal	Intestinal	NA	68	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	41.5
+CAC_3010	CAC_3010	Low cellularity	IIA		Poor Diff	20	Mixed	Pancreatobiliary	50	9	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.233333333333
+CAC_3052	CAC_3052		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	80	19	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.7
+CAC_3065	CAC_3065		IIB			NA	NA	Pancreatobiliary	NA	20	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.833333333333
+CAC_3117	CAC_3117	MSI tumor	IIA		Mod Diff	20	Mixed	Pancreatobiliary	70	58	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	87.5
+CAC_3118	CAC_3118		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	80	25	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.966666666667
+CAC_3273	CAC_3273		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	15	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.866666666667
+CAC_3344	CAC_3344		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	28	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.36666666667
+CAC_3366	CAC_3366		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	18	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.933333333333
+CAC_3516	CAC_3516		IIB		Well Diff	60	Mixed	Mixed	NA	26	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.06666666667
+CAC_3589	CAC_3589		IIB		Poor Diff	80	Mixed	Intestinal	NA	54	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.7
+CAC_3700	CAC_3700		IIIA		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	74	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	4.5
+CAC_3705	CAC_3705		IIIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	87	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.26666666667
+CAC_3709	CAC_3709		IA		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	61	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.866666666667
+CAC_3713	CAC_3713		IIIB		Mod Diff	100	Intestinal	Intestinal	NA	46	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	2.13333333333
+CAC_3718	CAC_3718	Low cellularity	IIIA		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	8	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.4
+CAC_3721	CAC_3721		IIIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	NA	44	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.23333333333
+CAC_3810	CAC_3810		IIIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	NA	24	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.13333333333
+CAC_8410	CAC_8410		IIB		Mod Diff	0	Pancreatobiliary	Pancreatobiliary	10	39	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.3
+CAC_8411	CAC_8411	Low cellularity	IIB		Well Diff	0	Pancreatobiliary	Pancreatobiliary	15	5	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.3
+CAC_8412	CAC_8412		IIB		Poor Diff	0	Pancreatobiliary	Pancreatobiliary	50	30	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	0.733333333333
+CAC_8413	CAC_8413		IA		Mod Diff	100	Intestinal	Intestinal	80	73	DISTAL BD	AMPCA	Ampullary Cancer	Ampullary Carcinoma	1.76666666667

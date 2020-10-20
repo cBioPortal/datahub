@@ -1,0 +1,70 @@
+#Patient Identifier	Sample Identifier	PAM50 subtype	IHC_BASAL	Neoplasm Histologic Grade	Estimated Tumor Cellularity	Tumor Size	ER Status	PR Status	IHC-HER2	IHC_CK5/6	IHC_EGFR	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	PAM50 subtype	Basal carcinoma by immunohistochemistry for EGFR and CK5/6	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Estimated tumor cellularity.	Tumor size.	ER Status	PR Status	IHC-HER2	IHC_CK5/6	IHC_EGFR	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	PAM50_SUBTYPE	IHC_BASAL	GRADE	EST_TUMOR_CELLULARITY	TUMOR_SIZE	ER_STATUS	PR_STATUS	IHC_HER2	IHC_CK5_6	IHC_EGFR	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+SA018	SA018	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	Moderate	3.2	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.16666666667
+SA029	SA029	Other	EGFR+ve and/or CK5/6+ve	3	Moderate	2.7	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.433333333333
+SA030	SA030	Other	EGFR+ve and/or CK5/6+ve	3	Moderate	7	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.733333333333
+SA031	SA031	Basal	EGFR+ve and/or CK5/6+ve	1	Moderate	0.7	Negative	Negative	Negative	Positive	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	2.16666666667
+SA051	SA051	Basal	EGFR+ve and/or CK5/6+ve	3	High	9	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.16666666667
+SA052	SA052	Basal	EGFR+ve and/or CK5/6+ve	3	High	2.5	Negative	Negative	Negative	Positive	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.933333333333
+SA053	SA053	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	1.8	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.2
+SA054	SA054	Basal	EGFR+ve and/or CK5/6+ve	3	High	2.7	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	2.46666666667
+SA055	SA055	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	1.4	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.1
+SA056	SA056	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	3.5	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.466666666667
+SA063	SA063		EGFR+ve and/or CK5/6+ve	3	Moderate	2.3	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.0333333333333
+SA065	SA065	Basal	EGFR+ve and/or CK5/6+ve	3	High	4	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.86666666667
+SA067	SA067	Basal	EGFR+ve and/or CK5/6+ve	3	High	2.3	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.7
+SA068	SA068	Basal	EGFR+ve and/or CK5/6+ve	3	High	1.9	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.233333333333
+SA069	SA069	Basal	EGFR+ve and/or CK5/6+ve	3	Low	3.2	Negative	Negative	Negative	Positive	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.86666666667
+SA071	SA071	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	Moderate	3.5	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.06666666667
+SA072	SA072	Basal	EGFR+ve and/or CK5/6+ve	3	High	1.1	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.7
+SA073	SA073	Basal	EGFR+ve and/or CK5/6+ve	3	High	1.9	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.466666666667
+SA074	SA074	Other	EGFR+ve and/or CK5/6+ve	3	High	5	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.733333333333
+SA075	SA075	Other	EGFR+ve and/or CK5/6+ve	3	High	3.5	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.13333333333
+SA076	SA076	Other	EGFR+ve and/or CK5/6+ve	3	High	1.8	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.5
+SA077	SA077	Other	EGFR+ve and/or CK5/6+ve	2	High	4	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	2.33333333333
+SA080	SA080	Other	EGFR-ve/low and/or CK5/6-ve/low	3	High	4.5	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.166666666667
+SA083	SA083	Basal	EGFR+ve and/or CK5/6+ve	3	High		Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.86666666667
+SA084	SA084	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	2.7	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	2.1
+SA085	SA085	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	2.5	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.0333333333333
+SA089	SA089	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	4.5	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.73333333333
+SA090	SA090	Other	EGFR+ve and/or CK5/6+ve	3	High	4	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.13333333333
+SA092	SA092	Other	EGFR-ve/low and/or CK5/6-ve/low	3	Low	1.3	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.96666666667
+SA093	SA093	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	1.9	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.7
+SA094	SA094	Other	EGFR-ve/low and/or CK5/6-ve/low	2	Moderate	6	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.866666666667
+SA096	SA096	Other	EGFR-ve/low and/or CK5/6-ve/low	2	High	1.2	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.366666666667
+SA097	SA097	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	Moderate	2.5	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.53333333333
+SA098	SA098	Other	EGFR+ve and/or CK5/6+ve		High	2.8	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.8
+SA099	SA099	Other	EGFR-ve/low and/or CK5/6-ve/low	3	Moderate	2.2	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.333333333333
+SA101	SA101	Other	EGFR+ve and/or CK5/6+ve	3	High	2.7	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.533333333333
+SA102	SA102				Moderate							BRCA	Breast Cancer	Invasive Breast Carcinoma	0.8
+SA103	SA103	Other	EGFR-ve/low and/or CK5/6-ve/low	3	Moderate		Negative	Positive	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.466666666667
+SA106	SA106	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	8.4	Negative	Negative	Negative	Positive low	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	4.43333333333
+SA208	SA208	Basal	EGFR+ve and/or CK5/6+ve	3	High	1.8	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.933333333333
+SA210	SA210	Other	EGFR+ve and/or CK5/6+ve	3	High	4.1	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	2.03333333333
+SA212	SA212	Basal	EGFR+ve and/or CK5/6+ve	3	High	1.2	Positive low	Negative	Negative	Positive	Positive low	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.6
+SA213	SA213	Basal	EGFR+ve and/or CK5/6+ve	3	High	1.1	Negative	Negative	Negative	Positive	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.56666666667
+SA214	SA214	Other	EGFR+ve and/or CK5/6+ve	1	High	2.2	Negative	Negative	Negative	Positive	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	6.43333333333
+SA215	SA215	Other	EGFR-ve/low and/or CK5/6-ve/low	1	Moderate	1.3	Negative	Negative	Negative	Positive low	Positive low	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.4
+SA216	SA216	Other	EGFR-ve/low and/or CK5/6-ve/low	1	High	1.1	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.433333333333
+SA217	SA217	Other	EGFR+ve and/or CK5/6+ve	3	High	1.7	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.566666666667
+SA218	SA218	Other	EGFR+ve and/or CK5/6+ve	3	High	1.7	Negative	Negative	Negative	Positive	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	4.2
+SA219	SA219	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	Moderate	4.5	Negative	Negative	Negative	Positive low	Positive low	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.26666666667
+SA220	SA220	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	2.5	Negative	Negative	Negative	Positive low	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.533333333333
+SA222	SA222	Other	EGFR-ve/low and/or CK5/6-ve/low	3	High	1.4	Negative	Negative	Negative	Negative	Positive low	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.466666666667
+SA223	SA223	Other	EGFR-ve/low and/or CK5/6-ve/low	3	High	6	Positive low	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.5
+SA224	SA224	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	1.7	Negative	Negative	Negative	Positive low	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.4
+SA225	SA225	Basal	EGFR+ve and/or CK5/6+ve	3	High	2	Positive low	Negative	Negative	Positive	Positive low	BRCA	Breast Cancer	Invasive Breast Carcinoma	2.1
+SA226	SA226	Basal	EGFR+ve and/or CK5/6+ve	3	High	3.5	Negative	Negative	Negative	Positive	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.733333333333
+SA227	SA227	Basal	EGFR+ve and/or CK5/6+ve	3	High	2.7	Negative	Negative	equivocal	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.566666666667
+SA228	SA228	Basal	EGFR+ve and/or CK5/6+ve	3	High	1.5	Negative	Negative	Negative	Positive	Positive low	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.6
+SA229	SA229	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	1.8	Negative	Negative	Negative	Positive low	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.03333333333
+SA230	SA230	Other	EGFR+ve and/or CK5/6+ve	3	High	2.1	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.433333333333
+SA231	SA231	Basal	EGFR+ve and/or CK5/6+ve	3	High	0	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.833333333333
+SA233	SA233	Basal	EGFR+ve and/or CK5/6+ve	3	High	1.7	Negative	Negative	Negative	Positive	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.266666666667
+SA234	SA234	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	2.3	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.8
+SA235	SA235	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	2	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.666666666667
+SA236	SA236	Basal	EGFR-ve/low and/or CK5/6-ve/low	3	High	1.9	Negative	Negative	Negative	Negative	Negative	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.4
+SA237	SA237	Other	EGFR+ve and/or CK5/6+ve	3	High	3.8	Negative	Negative	Negative	Negative	Positive	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.86666666667

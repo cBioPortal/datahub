@@ -1,0 +1,77 @@
+#Patient ID	Sample ID	Body site	Sample Type	Chemotherapy or intravesical therapy received prior to sample acquisition	Specimen Collection Pre or Post Chemo	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#De-identified patient ID	Sample Identifier	Body site where sample was collected	The type of sample (i.e., normal, primary, met, recurrence).	Chemotherapy or intravesical therapy received prior to sample acquisition: None , Gemcitabine and Cisplati=Gemcitabine and Cisplatin , Bacillus Calmette-Guerin=Bacillus Calmette-Guerin , DR=Docetaxel and Ramucirumab , D=Docetaxel , MVAC , Gemcitabine and Carboplatin=Gemcitabine and Carboplatin , Mitomycin	Specimen Collection Pre or Post Chemo	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	BODY_SITE	SAMPLE_TYPE	CHEMOTHERAPY_PRIOR_SAMPLE_ACQUIRED	SPECIMEN_COLLECTION_PRE_OR_POST_CHEMO	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+WCM057	WCM057_1	Renal pelvis primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.96666666667
+WCM057	WCM057_2	Lung nodule	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	4.16666666667
+WCM060	WCM060_1	Renal pelvis primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	2.43333333333
+WCM060	WCM060_2	Renal pelvis primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	2.9
+WCM077	WCM077_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	16.6
+WCM077	WCM077_2	LN from cystetcomy LND	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	15.0333333333
+WCM077	WCM077_3	Lung nodule	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	12.2666666667
+WCM088	WCM088_1	Bladder primary	Primary	Bacillus Calmette-Guerin	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	21.2333333333
+WCM088	WCM088_2	Retroperitoneal LN	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	7.06666666667
+WCM088	WCM088_3	Peritoneal mass	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	6.7
+WCM117	WCM117_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	9.3
+WCM117	WCM117_2	Bladder primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.8
+WCM117	WCM117_3	Bladder primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	4.63333333333
+WCM117	WCM117_4	Bladder primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	4.1
+WCM117	WCM117_5	Bladder primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	4.46666666667
+WCM117	WCM117_6	LN from cystetcomy LND	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	0.666666666667
+WCM117	WCM117_7	Liver metasatsis	Metastasis	Docetaxel and Ramucirumab	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	5.26666666667
+WCM117	WCM117_8	Liver metasatsis	Metastasis	Docetaxel and Ramucirumab	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	5.4
+WCM117	WCM117_9	Left Inguinal LN	Metastasis	Docetaxel and Ramucirumab	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	5.33333333333
+WCM117	WCM117_10	Right para-aortic LN	Metastasis	Docetaxel and Ramucirumab	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	6.1
+WCM117	WCM117_11	Right supra-clavicular LN	Metastasis	Docetaxel and Ramucirumab	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	6.4
+WCM117	WCM117_12	Left supra-clavicular LN	Metastasis	Docetaxel and Ramucirumab	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	6.76666666667
+WCM118	WCM118_1	Bladder primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	8.43333333333
+WCM118	WCM118_2	Lung nodule	Metastasis	Docetaxel	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	7.66666666667
+WCM137	WCM137_1	Bladder primary	Primary	Bacillus Calmette-Guerin	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	17.6666666667
+WCM137	WCM137_2	Inguinal LN	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	15.2666666667
+WCM141	WCM141_1	Renal pelvis primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	4.3
+WCM168	WCM168_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	2.46666666667
+WCM168	WCM168_2	LN from cystetcomy LND	Metastasis	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.76666666667
+WCM168	WCM168_3	Prostate bed	Metastasis	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.23333333333
+WCM175	WCM175_1	Renal pelvis primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.26666666667
+WCM175	WCM175_2	Para-aortic LN	Metastasis	Docetaxel	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	12.6333333333
+WCM193	WCM193_1	Bladder primary	Primary	Bacillus Calmette-Guerin	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.96666666667
+WCM193	WCM193_2	Presacral mass	Metastasis	MVAC, Docetaxel	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	1.26666666667
+WCM196	WCM196_1	Bladder primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	2.56666666667
+WCM196	WCM196_2	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	1.73333333333
+WCM231	WCM231_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.76666666667
+WCM231	WCM231_2	Bladder primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	4.93333333333
+WCM233	WCM233_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	2.53333333333
+WCM233	WCM233_2	Bladder primary	Primary	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	0.6
+WCM233	WCM233_3	Bladder primary	Primary	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	1.86666666667
+WCM233	WCM233_4	LN from cystetcomy LND	Metastasis	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	0.8
+WCM244	WCM244_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	5.03333333333
+WCM244	WCM244_2	Bladder primary	Primary	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	4.26666666667
+WCM249	WCM249_1	Renal pelvis primary	Primary	Bacillus Calmette-Guerin, Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	12.4333333333
+WCM249	WCM249_2	Liver metasatsis	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	14.9
+WCM249	WCM249_3	Liver metasatsis	Metastasis	Docetaxel	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	16.3333333333
+WCM259	WCM259_1	Bladder primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	6.26666666667
+WCM259	WCM259_2	Omental Metastasis	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	8.1
+WCM259	WCM259_3	Pelvic LN	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	6.03333333333
+WCM259	WCM259_4	Para-esophageal LN	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	6.96666666667
+WCM260	WCM260_1	Bladder primary	Primary	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	1.16666666667
+WCM260	WCM260_2	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	2.43333333333
+WCM262	WCM262_1	Inguinal LN	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	9.03333333333
+WCM263	WCM263_1	Spinal mass	Metastasis	Gemcitabine and Carboplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	5.1
+WCM264	WCM264_1	Bladder primary	Primary	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	6.26666666667
+WCM264	WCM264_2	Retroperitoneal LN	Metastasis	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	5.2
+WCM325	WCM325_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.36666666667
+WCM325	WCM325_2	Bladder primary	Primary	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	2.53333333333
+WCM329	WCM329_1	Bladder primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	9.43333333333
+WCM329	WCM329_2	Right pelvic mass	Metastasis	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.66666666667
+WCM344	WCM344_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	4.43333333333
+WCM344	WCM344_2	Ureter and kideny	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	4.36666666667
+WCM345	WCM345_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	7.0
+WCM355	WCM355_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	5.5
+WCM386	WCM386_1	Lung nodule	Metastasis	Bacillus Calmette-Guerin,Mitomycin ,Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	1.46666666667
+WCM407	WCM407_1	Bladder primary	Primary	Gemcitabine and Cisplatin	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	11.7666666667
+WCM407	WCM407_2	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	11.1333333333
+WCM416	WCM416_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.66666666667
+WCM525	WCM525_1	Lung nodule	Metastasis	MVAC	post-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	4.16666666667
+WCM550	WCM550_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	5.4
+WCM561	WCM561_1	Bladder primary	Primary	None	pre-chemotherapy	BLADDER	Bladder/Urinary Tract Cancer, NOS	Bladder/Urinary Tract	3.4

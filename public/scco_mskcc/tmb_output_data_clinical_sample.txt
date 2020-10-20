@@ -1,0 +1,17 @@
+#Patient Identifier	Sample Identifier	Gene Panel	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Gene panel.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	GENE_PANEL	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+scco_mskcc_101	scco_mskcc_101	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	1.27175495825
+scco_mskcc_102	scco_mskcc_102	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	1.27175495825
+scco_mskcc_103	scco_mskcc_103	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	0.0
+scco_mskcc_104	scco_mskcc_104	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	2.54350991651
+scco_mskcc_105	scco_mskcc_105	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	2.54350991651
+scco_mskcc_106	scco_mskcc_106	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	2.54350991651
+scco_mskcc_107	scco_mskcc_107	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	1.27175495825
+scco_mskcc_108	scco_mskcc_108	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	1.27175495825
+scco_mskcc_109	scco_mskcc_109	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	5.08701983302
+scco_mskcc_110	scco_mskcc_110	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	2.54350991651
+scco_mskcc_111	scco_mskcc_111	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	1.27175495825
+scco_mskcc_112	scco_mskcc_112	IMPACTv4	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	2.54350991651

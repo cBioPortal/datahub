@@ -1,0 +1,17 @@
+#Patient Identifier	Sample Identifier	Tissue Site	Doubling Time (hrs)	Platform	HGB (g/dl)	ALB (g/dl)	ALP (u/l)	LDH (u/l)	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Tissue Site	Doubling time  (hrs)	Platform.	hgb (g/dl)	alb (g/dl)	alp (u/l)	ldh (u/l)	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	NUMBER	STRING	NUMBER	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TISSUE_SITE	DOUBLING_TIME	PLATFORM	HGB_G_DL	ALB_G_DL	ALP_U_L	LDH_U_L	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+MSK-PCa1	MSK-PCa1.o	L2 Vetebral Body	72	WES, RNA-Seq, array-CGH	13.1	4.8	56	190	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.0
+MSK-PCa1	MSK-PCa1.m	Retroperitoneal Lymph node 1 year prior (not matching biopsy)		WES of FFPE					PRAD	Prostate Cancer	Prostate Adenocarcinoma	5.13333333333
+MSK-PCa2	MSK-PCa2.o	Acetabulum	72	WES, RNA-Seq, array-CGH	10.4	4	134	175	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.7
+MSK-PCa2	MSK-PCa2.m	Matching tissue		WES, RNA-Seq of Frozen					PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.8
+MSK-PCa3	MSK-PCa3.o	Retroperitoneal lymph node	168	WES, RNA-Seq, array-CGH	10.7	4.5	112	154	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.06666666667
+MSK-PCa4	MSK-PCa4.o	Pleural Effusion	336	WES, RNA-Seq, array-CGH	9.4	2.8	69	222	PRAD	Prostate Cancer	Prostate Adenocarcinoma	2.56666666667
+MSK-PCa5	MSK-PCa5.o	Circulating tumor cells	168	WES, RNA-Seq, array-CGH	8.4	3.9	2402	452	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.06666666667
+MSK-PCa5	MSK-PCa5.m	Retroperitoneal Lymph node 1 year prior (not matching biopsy)		WES of FFPE					PRAD	Prostate Cancer	Prostate Adenocarcinoma	10.4666666667
+MSK-PCa6	MSK-PCa6.o	Salvage prostatectomy	120	WES, RNA-Seq, array-CGH	12.3	4	67	249	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.8
+MSK-PCa6	MSK-PCa6.m	Matching tissue		RNA-Seq frozen					PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+MSK-PCa7	MSK-PCa7.o	Retroperitoneal lymph node	504	WES, RNA-Seq, array-CGH	16.2	4.7	199	114	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.966666666667
+MSK-PCa7	MSK-PCa7.m	Matching tissue		WES, RNA-Seq frozen					PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.0

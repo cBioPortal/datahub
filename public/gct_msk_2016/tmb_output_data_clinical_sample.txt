@@ -1,0 +1,185 @@
+#Sample Identifier	Patient Identifier	Oncotree Code	Detailed Sample Histology Category	Sample Detailed Subhistologies	Sample Type	Primary Tumor Site	Metastatic Site	Specimen Collection Pre or Post Chemo	Stage at Presentation	S Stage	Primary RPLND	RPLND	RPLND Path	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Oncotree Code	Detailed Sample Histology Category	Sample Detailed Subhistologies	 The type of sample (i.e., normal, primary, met, recurrence). 	Text term to describe the organ sub-division in an individual with cancer.	The anatomic location to which the cancer has spread.	Specimen Collection Pre or Post Chemo	Stage at Presentation	S indicates the serum (blood) levels of tumor markers that are made by some testicular cancers	Primary RPLND	RPLND	RPLND Path	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	ONCOTREE_CODE	DETAILED_SAMPLE_HISTOLOGY_CATEGORY	SAMPLE_DETAILED_SUBHISTOLOGIES	SAMPLE_TYPE	PRIMARY_SITE	METASTATIC_SITE	SPECIMEN_COLLECTION_PRE_OR_POST_CHEMO	STAGE_AT_PRESENTATION	S_STAGE	PRIMARY_RPLND	PC_RPLND	RPLND_PATH	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+P-0006648-T01-IM5	P-0006648	NSGCT	Mixed NSGCT	 CC, S 	Primary	Testis	NA	pre	IB	S0	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0002457-T01-IM3	P-0002457	NSGCT	YST	NA	Primary	Mediastinum	NA	pre	Distant	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0000650-T01-IM3	P-0000650	NSGCT	Mixed NSGCT	 IT, YST, EC 	Metastasis	Testis	Brain	pre	IIIC	S3	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.133333333333
+P-0006111-T01-IM5	P-0006111	SEM	S	NA	Primary	Testis	NA	pre	IIIB	S2	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0006858-T01-IM5	P-0006858	SEM	S	NA	Metastasis	Testis	Pelvis	post	IIIC	S3	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0007053-T01-IM5	P-0007053	SEM	S	NA	Primary	Testis	NA	pre	IA	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0004840-T01-IM5	P-0004840	NSGCT	EC	NA	Metastasis	Testis	Neck	pre	IIIB	S2	0	1	 necrosis, fibrosis 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.1
+P-0007058-T01-IM5	P-0007058	NSGCT	Mixed NSGCT	 EC(80%), MT 	Primary	Testis	NA	pre	IIIC	S2	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0004563-T01-IM5	P-0004563	NSGCT	EC	NA	Metastasis	Testis	RP	pre	IIA	S0	1	0	 EC, YST 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0003576-T01-IM5	P-0003576	NSGCT	EC	NA	Primary	Testis	NA	pre	IIIB	S2	0	1	treatment effect	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.1
+P-0004273-T01-IM5	P-0004273	SEM	S	NA	Primary	Testis	NA	pre	IIIB	S2	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0005889-T01-IM5	P-0005889	SEM	S	NA	Metastasis	Testis	RP	post	IIIB	S2	0	0	NA	Germ Cell Tumor	Seminoma	0.433333333333
+P-0001435-T01-IM3	P-0001435	NSGCT	Mixed NSGCT	YS and T	Metastasis	Testis	Bone Soft tissue T6-T7	pre	IIIC	S3	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0003564-T01-IM5	P-0003564	NSGCT	Mixed NSGCT	 T, S, YST 	Primary	Mediastinum	NA	post	Distant	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0006413-T01-IM5	P-0006413	NSGCT	YST	NA	Metastasis	Testis	Pelvis	post	IIIC	S3	0	1	YST	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0004880-T02-IM5	P-0004880	SEM			Metastasis	Testis	Retroperitoneum							Germ Cell Tumor	Seminoma	0.2
+P-0001430-T01-IM3	P-0001430	SEM	S	NA	Primary	Testis	NA	pre	IB	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0002203-T02-IM3	P-0002203	NSGCT	CC	NA	Metastasis	Testis	Lung	post	IIIC	S3	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0007056-T01-IM5	P-0007056	SEM	S	NA	Primary	Testis	NA	pre	IIC	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0666666666667
+P-0000961-T01-IM3	P-0000961	NSGCT	GCT w/ trophoblastic differentiation	NA	Metastasis	Testis	Lung	post	IIIC	S3	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0003517-T01-IM5	P-0003517	SEM	S	NA	Metastasis	Testis	RP	pre	IA	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.133333333333
+P-0005182-T01-IM5	P-0005182	NSGCT	S	NA	Metastasis	Testis	RP	pre	IA	S0	1	0	S	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0003533-T01-IM5	P-0003533	NSGCT	Mixed NSGCT	T and YST	Primary	Mediastinum	NA	post	Regional	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0003015-T01-IM3	P-0003015	NSGCT	CC	NA	Primary	Testis	NA	pre	IIIC	S3	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+DS-test-012-M2	DS-test-012	NSGCT	CC	NA	Metastasis	Testis	Brain	post	IIIC	S3	0	1	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0001058-T01-IM3	P-0001058	NSGCT	CC	NA	Primary	Mediastinum	NA	post	Distant	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.4
+P-0001844-T01-IM3	P-0001844	NSGCT	Mixed NSGCT	 EC, MT, YST 	Primary	Mediastinum	NA	post	Localized	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.233333333333
+P-0000663-T01-IM3	P-0000663	NSGCT	NSGCT unspecified	NA	Metastasis	Testis	Liver	pre	IIIC	S3	0	1	 MT, cystic trophoblastic tumor 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0003018-T01-IM3	P-0003018	NSGCT	CC	NA	Metastasis	Testis	Liver	post	IIIC	S3	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.166666666667
+P-0003044-T01-IM3	P-0003044	NSGCT	Mixed NSGCT	NSGCT	Primary	Testis	NA	pre	IA	S0	0	1	fibrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0000598-T01-IM3	P-0000598	NSGCT	Mixed NSGCT	 YST (50%), IT (45%), EC 	Primary	Mediastinum	NA	pre	Localized	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0003153-T01-IM5	P-0003153	SEM	S	NA	Metastasis	Testis	Liver	post	IIB	Sx	0	0	NA	Germ Cell Tumor	Seminoma	0.133333333333
+P-0000664-T01-IM3	P-0000664	NSGCT	Mixed NSGCT	EC (predominant)	Metastasis	Testis	RP	pre	IIIB	S2	0	1	 necrosis, fibrosis 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0001542-T01-IM3	P-0001542	SEM	S	NA	Primary	Testis	NA	pre	IA	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0002966-T01-IM3	P-0002966	NSGCT	Mixed NSGCT	 EC(65%), S, YST 	Primary	Testis	NA	pre	IIB	S0	0	1	necrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0003315-T01-IM5	P-0003315	NSGCT	YST	NA	Metastasis	Testis	Left Neck LN	post	IA	S0	0	1	YST	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0001897-T01-IM3	P-0001897	NSGCT	Mixed NSGCT	 S, EC, YST, MT 	Primary	Testis	NA	pre	IIIC	S3	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0002822-T01-IM3	P-0002822	SEM	S	NA	Primary	Testis	NA	pre	IA	S0	0	1	NA	Germ Cell Tumor	Seminoma	NA
+P-0003963-T01-IM3	P-0003963	SEM	S	NA	Metastasis	Testis	Pleura	pre	IIA	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0003313-T01-IM5	P-0003313	SEM	S	NA	Metastasis	Testis	RP	post	IIIB	S2	0	1	necrosis	Germ Cell Tumor	Seminoma	0.0666666666667
+P-0003022-T01-IM3	P-0003022	SEM	S	NA	Primary	Testis	NA	pre	IA	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+DS-test-007-P	DS-test-007	NSGCT	Mixed NSGCT	 T, YST, TMT to spindle cell sarcoma NOS 	Primary	Mediastinum	NA	pre	Distant	NA	1	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.133333333333
+P-0000162-T01-IM3	P-0000162	SEM	S	NA	Metastasis	Testis	Gastric fundus	pre	IA	S0	0	0	NA	Germ Cell Tumor	Seminoma	NA
+P-0002579-T01-IM3	P-0002579	NSGCT	EC	NA	Primary	Testis	NA	pre	IIIA	S0	0	1	benign	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0000108-T01-IM3	P-0000108	SEM	S	NA	Primary	Testis	NA	pre	IIIC	S3	0	0	NA	Germ Cell Tumor	Seminoma	0.1
+P-0003019-T01-IM3	P-0003019	SEM	S	NA	Primary	Testis	NA	pre	IIIC	S3	0	0	NA	Germ Cell Tumor	Seminoma	0.1
+P-0001299-T01-IM3	P-0001299	NSGCT	Mixed NSGCT	 CC (85%), MT 	Primary	Testis	NA	pre	IIIC	S3	0	1	benign	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0002688-T02-IM3	P-0002688	SEM	S	NA	Primary	Testis	NA	pre	IIA	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0666666666667
+P-0003410-T02-IM5	P-0003410	NSGCT	Mixed NSGCT	 S (45%), EC (25%), T (20%), YST (10%) 	Primary	Testis	NA	pre	IA	S0	0	1	MT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0002947-T01-IM3	P-0002947	NSGCT	Mixed NSGCT	 EC, YST 	Primary	Testis	NA	pre	IIB	S1	0	1	MT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0001918-T01-IM3	P-0001918	SEM	S	NA	Primary	Testis	NA	pre	IA	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.1
+P-0002308-T02-IM3	P-0002308	NSGCT	Mixed NSGCT	 S (>98%), EC 	Primary	Testis	NA	pre	IIIB	S2	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0000181-T01-IM3	P-0000181	NSGCT	CC	NA	Metastasis	Testis	RP	pre	IIIC	S3	0	1	 necrosis, fibrosis 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.1
+P-0000123-T01-IM3	P-0000123	NSGCT	YST	NA	Metastasis	Testis	Bone (rib)	post	IB	S0	1	0	benign	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0002086-T01-IM3	P-0002086	NSGCT	YST	NA	Metastasis	Mediastinum	Liver	post	Distant	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.166666666667
+P-0000799-T01-IM3	P-0000799	SEM	S	NA	Primary	Testis	NA	pre	IIC	S1	0	1	necrosis	Germ Cell Tumor	Seminoma	0.1
+P-0002732-T01-IM3	P-0002732	NSGCT	Mixed NSGCT	 EC (55%), YST, MT, IT 	Primary	Testis	NA	pre	IIIC	S3	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0000784-T01-IM3	P-0000784	NSGCT	YST	NA	Primary	Mediastinum	NA	post	Localized	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.166666666667
+P-0004002-T01-IM3	P-0004002	NSGCT	YST	NA	Primary	Mediastinum	NA	post	Localized	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.133333333333
+DS-test-004-M	DS-test-004	NSGCT	YST	NA	Metastasis	Testis	RP	post	IIIC	S2	0	1	 YST, T 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0002889-T01-IM3	P-0002889	NSGCT	CC	NA	Metastasis	Testis	Mediastinum	post	IIIC	S3	0	1	 T, trophoblastic tumor 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0001854-T01-IM3	P-0001854	SEM	S	NA	Metastasis	Testis	Pelvis	pre	IA	S0	0	0	NA	Germ Cell Tumor	Seminoma	NA
+P-0002892-T01-IM3	P-0002892	NSGCT	Mixed NSGCT	 EC (75%), S, YST, IT 	Primary	Testis	NA	pre	IB	S0	0	1	MT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0005055-T01-IM5	P-0005055	NSGCT	Mixed NSGCT	 EC (80%), YST, MT, CC 	Primary	Testis	NA	pre	IIIB	S2	0	1	MT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0001657-T01-IM3	P-0001657	SEM	S	NA	Primary	Testis	NA	pre	IA	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0002358-T01-IM3	P-0002358	NSGCT	Mixed NSGCT	 IT, S, EC, YST, MT 	Primary	Testis	NA	pre	IA	S0	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0000654-T01-IM3	P-0000654	SEM	S	NA	Primary	Testis	NA	pre	IIIC	S3	0	0	NA	Germ Cell Tumor	Seminoma	0.1
+P-0001749-T01-IM3	P-0001749	SEM	S	NA	Metastasis	Testis	Liver	post	IIIB	S2	0	0	NA	Germ Cell Tumor	Seminoma	0.0666666666667
+DS-test-008-M	DS-test-008	NSGCT	YST	NA	Metastasis	Mediastinum	Lung	post	Distant	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.133333333333
+P-0004019-T01-IM3	P-0004019	NSGCT	Mixed NSGCT	 EC, T 	Metastasis	Testis	RP	pre	IIIB	S2	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0000287-T01-IM3	P-0000287	NSGCT	EC	NA	Metastasis	Testis	Brain	post	IIIA	S1	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0002849-T01-IM3	P-0002849	NSGCT	Mixed NSGCT	 S, EC, YST, MT 	Primary	Testis	NA	pre	IB	S0	1	0	benign	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.1
+P-0002973-T01-IM3	P-0002973	NSGCT	Mixed NSGCT	 EC (65%), YST 	Primary	Testis	NA	pre	IB	S0	1	0	EC transitioning to T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0004084-T01-IM5	P-0004084	NSGCT	YST	NA	Metastasis	Testis	Lung	post	IIIB	S2	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0000707-T01-IM3	P-0000707	NSGCT	EC	NA	Metastasis	Testis	Adrenal Gland	post	IIIC	S3	0	1	necrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0000279-T01-IM3	P-0000279	NSGCT	EC	NA	Metastasis	Testis	RP	post	IIA	S1	0	1	EC	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0003105-T01-IM5	P-0003105	SEM	S	NA	Primary	Mediastinum	NA	pre	Localized	S1	0	0	NA	Germ Cell Tumor	Seminoma	0.0666666666667
+P-0001106-T01-IM3	P-0001106	NSGCT	Mixed NSGCT	 EC (predominant), YS, MT 	Metastasis	Testis	RP	post	IA	S0	0	1	 EC, YST, T 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.2
+P-0001922-T01-IM3	P-0001922	NSGCT	Mixed NSGCT	 S (60%), EC (20%), YST (5%), MT, IT, CC (10%) 	Primary	Testis	NA	pre	IIIB	S2	0	1	MT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0004149-T01-IM5	P-0004149	NSGCT	Mixed NSGCT	 EC (70%), S, YST 	Primary	Testis	NA	pre	IB	S0	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0004034-T01-IM5	P-0004034	SEM	S	NA	Primary	Testis	NA	pre	IIC	S1	0	0	NA	Germ Cell Tumor	Seminoma	0.133333333333
+P-0000685-T01-IM3	P-0000685	NSGCT	EC	NA	Metastasis	Testis	RP (gastrohepatic LN)	post	IIA	S0	1	0	EC	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0000261-T01-IM3	P-0000261	SEM	S	NA	Metastasis	Testis	Left Neck LN	post	IIIB	S2	0	0	NA	Germ Cell Tumor	Seminoma	NA
+P-0005515-T01-IM5	P-0005515	NSGCT	EC	NA	Primary	Testis	NA	pre	IIA	S1	0	1	fibrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0001048-T01-IM3	P-0001048	NSGCT	Mixed NSGCT	 CC, S (10%) 	Primary	Testis	NA	pre	IIIB	S2	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+DS-test-029-P	DS-test-029	NSGCT	EC	NA	Primary	Testis	NA	pre	IIIC	S3	0	1	 necrosis, fibrosis 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0004868-T01-IM5	P-0004868	NSGCT	Mixed NSGCT	 CC (85%), S (5%), T, EC, YST 	Primary	Testis	NA	pre	IIIB	S2	0	1	necrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0000095-T01-IM3	P-0000095	NSGCT	YST	NA	Primary	Mediastinum	NA	post	Regional	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.133333333333
+P-0000992-T01-IM3	P-0000992	NSGCT	Mixed NSGCT	 S (60%), EC, YST, T 	Primary	Testis	NA	pre	IIIA	S1	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0004785-T01-IM5	P-0004785	NSGCT	Mixed NSGCT	 EC (85%), S, YST, IT 	Primary	Testis	NA	pre	IIA	S1	0	1	fibrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0001004-T01-IM3	P-0001004	NSGCT	Mixed NSGCT	 CC (85%), MT 	Primary	Testis	NA	pre	IIIC	S3	0	1	necrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0004398-T01-IM5	P-0004398	NSGCT	Mixed NSGCT	 EC (90%), S 	Primary	Testis	NA	pre	IIIA	S0	0	1	treatment effect	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0001856-T01-IM3	P-0001856	NSGCT	Mixed NSGCT	 S, EC (>80%), MT, YST 	Primary	Testis	NA	pre	IIIC	Sx	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+DS-test-028-P	DS-test-028	NSGCT	Mixed NSGCT	 YST, S, MT (90%) 	Primary	Testis	NA	pre	IS	S1	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0000161-T01-IM3	P-0000161	NSGCT	CC	NA	Metastasis	Testis	Lung	post	IIIC	S3	0	1	MT with cystic trophoblastic tumor	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0003067-T01-IM3	P-0003067	NSGCT	Mixed NSGCT	 EC, T, YST 	Primary	Mediastinum	NA	pre	Regional	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0003608-T01-IM5	P-0003608	NSGCT	Mixed NSGCT	 EC (90%), YST, MT 	Primary	Testis	NA	pre	IIA	S1	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0004632-T01-IM5	P-0004632	NSGCT	Mixed NSGCT	 EC, YST 	Primary	Testis	NA	pre	IIB	S1	0	1	MT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0003929-T01-IM3	P-0003929	NSGCT	CC	NA	Metastasis	Testis	Brain	post	IIIC	S3	0	1	MT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.1
+P-0000771-T01-IM3	P-0000771	SEM	S	NA	Primary	Testis	NA	pre	IIC	S0	0	1	 necrosis, fibrosis 	Germ Cell Tumor	Seminoma	0.1
+P-0001014-T01-IM3	P-0001014	SEM	S	NA	Metastasis	Testis	RP	post	IIIB	S2	0	0	NA	Germ Cell Tumor	Seminoma	0.0666666666667
+P-0000450-T01-IM3	P-0000450	NSGCT	YST	NA	Metastasis	Testis	Liver	post	IIIC	S3	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0002634-T01-IM3	P-0002634	SEM	S	NA	Primary	Testis	NA	pre	IIC	S1	0	0	NA	Germ Cell Tumor	Seminoma	0.0666666666667
+P-0002169-T01-IM3	P-0002169	NSGCT	EC	NA	Primary	Testis	NA	pre	IIB	S0	0	1	fibrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0003230-T01-IM5	P-0003230	NSGCT	Mixed NSGCT	 S, EC, YST, MT 	Primary	Testis	NA	pre	IIC	S1	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0002569-T01-IM3	P-0002569	NSGCT	Mixed NSGCT	 S, EC, YST, MT, IT 	Primary	Testis	NA	pre	IIIB	S2	0	1	fibrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.166666666667
+P-0000665-T01-IM3	P-0000665	SEM	S	NA	Metastasis	Testis	RP	post	IIIB	S2	0	0	NA	Germ Cell Tumor	Seminoma	NA
+P-0002896-T01-IM3	P-0002896	SEM	S	NA	Primary	Testis	NA	pre	IIIA	S1	0	0	NA	Germ Cell Tumor	Seminoma	0.1
+P-0002601-T01-IM3	P-0002601	NSGCT	Chorionic-type intermediate trophoblastic differentiation	NA	Metastasis	Testis	Mediastinum	post	IS	S1	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.133333333333
+P-0002121-T01-IM3	P-0002121	NSGCT	EC	NA	Primary	Testis	NA	pre	IB	S0	0	1	fibrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0002636-T01-IM3	P-0002636	NSGCT	Mixed NSGCT	 EC (65%), YST, MT 	Primary	Testis	NA	pre	IIIB	S2	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0003263-T01-IM5	P-0003263	SEM	S	NA	Primary	Testis	NA	pre	IA	S0	0	0	NA	Germ Cell Tumor	Seminoma	NA
+P-0003445-T01-IM5	P-0003445	NSGCT	Mixed NSGCT	 S (90%), EC 	Primary	Testis	NA	pre	IIIB	S2	0	1	necrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0003227-T01-IM5	P-0003227	SEM	S	NA	Primary	Testis	NA	pre	IIC	S0	0	1	 fibrosis, necrosis 	Germ Cell Tumor	Seminoma	NA
+P-0002533-T01-IM3	P-0002533	NSGCT	Mixed NSGCT	 YST, IT 	Metastasis	Testis	Diaphragm	post	IS	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0002401-T01-IM3	P-0002401	NSGCT	YST	NA	Metastasis	Testis	RP	post	IS	S1	0	1	 YST, T 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0001339-T01-IM3	P-0001339	SEM	S	NA	Metastasis	Testis	Mediastinum (Subcarinal LN)	post	IIA	S1	0	1	fibrosis	Germ Cell Tumor	Seminoma	0.1
+P-0000503-T01-IM3	P-0000503	NSGCT	Mixed NSGCT	T and YST	Metastasis	Testis	RP	post	IIIB	S2	0	1	 YST, T 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0000456-T01-IM3	P-0000456	NSGCT	CC	NA	Metastasis	Testis	Lung	post	IIIA	S1	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.166666666667
+P-0001012-T01-IM3	P-0001012	NSGCT	Mixed NSGCT	 MT (60%), EC, YST 	Primary	Testis	NA	pre	IIIC	S3	0	1	incomplete	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+DS-test-014-M	DS-test-014	NSGCT	Mixed NSGCT	 S (predominant) w/ marked atypia, EC (focal) 	Metastasis	Testis	RP	post	IIB	S0	0	1	 S, EC 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0003834-T01-IM5	P-0003834	NSGCT	Mixed NSGCT	 MT, YST 	Primary	Mediastinum	NA	post	Localized	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+DS-test-001-M2	DS-test-001	NSGCT	EC	NA	Metastasis	Testis	Lung	post	IIIA	S0	0	1	 necrosis, fibrosis 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0001842-T01-IM3	P-0001842	NSGCT	Mixed NSGCT	 S (predominant, EC 	Metastasis	Testis	Vas Deferens	post	IA	S0	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.1
+P-0004621-T01-IM5	P-0004621	SEM	S	NA	Metastasis	Testis	Lung	post	IB	S0	1	0	negative	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0007283-T01-IM5	P-0007283	NSGCT	Mixed NSGCT	 EC, YST, MT 	Primary	Testis	NA	pre	IB	S0	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0002624-T01-IM3	P-0002624	NSGCT	Mixed NSGCT	 EC (>95%), YST 	Primary	Testis	NA	pre	IIIB	S2	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+DS-test-027-P	DS-test-027	NSGCT	Mixed NSGCT	 EC, YST, MT, IT 	Primary	Testis	NA	pre	IIA	S1	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0003349-T01-IM5	P-0003349	NSGCT	YST	NA	Primary	Mediastinum	NA	pre	Localized	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.133333333333
+P-0000823-T01-IM3	P-0000823	SEM	S	NA	Metastasis	Testis	Liver	post	IIIB	S2	0	0	NA	Germ Cell Tumor	Seminoma	NA
+P-0002596-T01-IM3	P-0002596	NSGCT	Mixed NSGCT	YS and T	Metastasis	Testis	RP	post	IIB	S1	0	1	YST and T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0001869-T01-IM3	P-0001869	NSGCT	EC	NA	Metastasis	Testis	RP	pre	IIA	S0	1	0	EC	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+DS-test-003-P	DS-test-003	NSGCT	YST	NA	Metastasis	Testis	Pelvis	post	IIIC	S2	0	1	benign	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.333333333333
+P-0000791-T01-IM3	P-0000791	SEM	S	NA	Metastasis	Testis	RP	pre	IIC	S1	0	1	 fibrosis, necrosis 	Germ Cell Tumor	Seminoma	0.166666666667
+P-0007011-T01-IM5	P-0007011	SEM	S	NA	Primary	Testis	NA	pre	IA	S0	0	0	NA	Germ Cell Tumor	Seminoma	NA
+DS-test-025-P	DS-test-025	NSGCT	Mixed NSGCT	 EC (80%), YST, MT 	Primary	Testis	NA	pre	IIIA	S1	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0004014-T01-IM5	P-0004014	SEM	S	NA	Primary	Testis	NA	pre	IIB	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0005450-T01-IM5	P-0005450	NSGCT	CC	NA	Metastasis	Testis	Brain	post	IIIC	S3	0	1	 necrosis, fibrosis 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0006427-T01-IM5	P-0006427	NSGCT	EC	NA	Primary	Testis	NA	pre	IIA	S1	0	1	treatment effect	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+DS-test-024-P	DS-test-024	NSGCT	EC	NA	Primary	Testis	NA	pre	IIA	S0	1	0	EC	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0003463-T02-IM5	P-0003463	SEM	S	NA	Primary	Testis	NA	pre	IIB	S0	0	1	T	Germ Cell Tumor	Seminoma	0.133333333333
+P-0001210-T01-IM3	P-0001210	SEM	S	NA	Metastasis	Testis	Liver	post	IB	S0	0	0	NA	Germ Cell Tumor	Seminoma	NA
+P-0006552-T01-IM5	P-0006552	NSGCT	Mixed NSGCT	 EC, MT, CC 	Primary	Testis	NA	pre	IIIC	S3	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0005444-T01-IM5	P-0005444	SEM	S	NA	Metastasis	RP	Jugular LN	pre	IIIC	S2	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0000443-T01-IM3	P-0000443	NSGCT	EC	NA	Metastasis	Testis	Brain	post	IIIC	S3	0	1	 EC, T 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.133333333333
+DS-test-026-P	DS-test-026	NSGCT	Mixed NSGCT	 80% YST, 10% EC, 10% IT 	Primary	Testis	NA	pre	IIIA	S1	0	1	negative	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0000461-T01-IM3	P-0000461	NSGCT	Mixed NSGCT	 CC, YST 	Primary	Mediastinum	NA	post	Distant	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.166666666667
+P-0006338-T01-IM5	P-0006338	NSGCT	Mixed NSGCT	 EC (80%), S, YST 	Primary	Testis	NA	pre	IB	S0	1	0	negative	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0004184-T01-IM5	P-0004184	NSGCT	Mixed NSGCT	 EC, S, YST 	Primary	Testis	NA	pre	IB	S0	1	0	benign	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+DS-test-023-P	DS-test-023	NSGCT	Mixed NSGCT	 EC, YST, MT 	Primary	Testis	NA	pre	IIA	S1	0	1	MT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0000429-T01-IM3	P-0000429	SEM	S	NA	Primary	Testis	NA	pre	IIIC	S2	0	0	NA	Germ Cell Tumor	Seminoma	0.0666666666667
+P-0004763-T01-IM5	P-0004763	SEM	S	NA	Primary	Mediastinum	NA	pre	Localized	NA	0	0	NA	Germ Cell Tumor	Seminoma	0.133333333333
+P-0006017-T01-IM5	P-0006017	SEM	S	NA	Primary	Mediastinum	NA	pre	Localized	NA	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0005276-T01-IM5	P-0005276	NSGCT	Mixed NSGCT	 T (65%), EC, YST 	Primary	Testis	NA	pre	IIC	S1	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0003246-T01-IM5	P-0003246	SEM	S	NA	Primary	Testis	NA	pre	IIIC	S2	0	1	MT	Germ Cell Tumor	Seminoma	NA
+P-0000151-T01-IM3	P-0000151	NSGCT	Mixed NSGCT	MT and YST	Metastasis	Testis	RP (renal vein thrombus)	post	IIIB	S2	0	1	1st RPLND T 2nd RPLND T and YST	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0003245-T01-IM5	P-0003245	SEM	S	NA	Primary	Testis	NA	pre	IIIB	S2	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+DS-test-022-P	DS-test-022	NSGCT	YST	NA	Primary	Testis	NA	pre	IIIC	S3	0	1	necrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0003830-T01-IM5	P-0003830	NSGCT	Mixed NSGCT	 EC, YST, CC, MT 	Primary	Testis	NA	pre	IIIC	S3	0	1	fibrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.1
+P-0004592-T01-IM5	P-0004592	NSGCT	Mixed NSGCT	 EC (75%), MT, IT 	Primary	Testis	NA	pre	IIB	S1	0	1	MT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0004577-T01-IM5	P-0004577	SEM	S	NA	Primary	Testis	NA	pre	IIA	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0005425-T01-IM5	P-0005425	SEM	S	NA	Primary	Testis	NA	pre	IIIA	S0	0	0	NA	Germ Cell Tumor	Seminoma	0.0666666666667
+P-0005973-T01-IM5	P-0005973	NSGCT	S	NA	Primary	Testis	NA	pre	IIIC	S2	0	1	no viable tumor	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.1
+P-0006187-T01-IM5	P-0006187	NSGCT	Mixed NSGCT	 S (90%), EC 	Primary	Testis	NA	pre	IIIC	S3	0	1	 necrosis, fibrosis 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0003451-T01-IM5	P-0003451	SEM	S	NA	Primary	Testis	NA	post	IIIB	S2	0	1	MT	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0003589-T02-IM5	P-0003589	NSGCT	CC	NA	Metastasis	Testis	Lung	post	IIIC	S3	0	1	 necrosis, fibrosis 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.1
+P-0004978-T01-IM5	P-0004978	SEM	S	NA	Metastasis	Testis	RP	post	IIC	S0	0	1	SEM	Germ Cell Tumor	Seminoma	0.0666666666667
+DS-test-021-P	DS-test-021	NSGCT	EC	NA	Primary	Testis	NA	pre	IIA	S1	0	1	fibrosis	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0005878-T01-IM5	P-0005878	NSGCT	CC	NA	Metastasis	Testis	Lung	post	IS	S1	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.166666666667
+P-0004732-T01-IM5	P-0004732	NSGCT	Mixed NSGCT	 YST, MT 	Metastasis	Testis	Paraspinal	post	IIIB	S2	0	1	MT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0000170-T01-IM3	P-0000170	NSGCT	YST	NA	Metastasis	Testis	Mediastinum(Right hilar LN	post	IA	S0	1	1	 primary RPLND:YST, EC 2nd RPLND - YST, S 3rd RPLND (msk) YST, T 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0333333333333
+P-0006229-T01-IM5	P-0006229	NSGCT	YST	NA	Primary	Mediastinum	NA	post	Localized	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.2
+P-0004820-T01-IM5	P-0004820	SEM	S	NA	Metastasis	Testis	Mediastinum	pre	IIA	S0	0	0	NA	Germ Cell Tumor	Seminoma	NA
+DS-test-013-M	DS-test-013	NSGCT	YST	NA	Metastasis	Testis	Lung	post	IIIB	S2	0	1	T	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.333333333333
+P-0000941-T01-IM3	P-0000941	NSGCT	Mixed NSGCT	YS and MT	Metastasis	Testis	RP	post	IIIC	S3	0	1	 YST, MT, IT 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NA
+P-0001181-T01-IM3	P-0001181	NSGCT	Mixed NSGCT	 YST (predominant), MT (Focal) 	Metastasis	Testis	Left Neck LN	post	IIIC	S2	0	1	 MT, fibrosis, necrosis 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.133333333333
+P-0007110-T01-IM5	P-0007110	NSGCT	YST	NA	Metastasis	Testis	Kidney	post	NA	NA	0	1	 T, YST 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.0666666666667
+P-0003798-T01-IM5	P-0003798	NSGCT	Mixed NSGCT	 EC (90%), S, YST 	Primary	Testis	NA	pre	IIIB	S2	0	1	 necrosis, fibrosis 	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.233333333333
+P-0002094-T01-IM3	P-0002094	SEM	S	NA	Primary	Mediastinum	NA	pre	Localized	NA	0	0	NA	Germ Cell Tumor	Seminoma	0.0333333333333
+P-0003994-T01-IM3	P-0003994	NSGCT	Mixed NSGCT	 TMT (sarcoma), S, YST, EC, T 	Primary	Mediastinum	NA	post	Regional	NA	0	0	NA	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	0.1

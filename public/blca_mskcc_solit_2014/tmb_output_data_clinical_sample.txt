@@ -1,0 +1,114 @@
+#Patient Identifier	Sample Identifier	Sample Type	Concomitant Carcinoma in situ	Lymph Node Status	Tissue Sequenced	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The type of sample (i.e., normal, primary, met, recurrence).	Concomitant Carcinoma in situ	Lymph Node Status	Tissue Sequnced	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	9	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_TYPE	CONCOMITANT_CIS	LYMPH_NODE_STATUS	TISSUE_SEQUENCED	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+DS-bla-001	DS-bla-001	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	1.16182476197
+DS-bla-002	DS-bla-002	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	11.6182476197
+DS-bla-003	DS-bla-003	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-004	DS-bla-004	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	15.1037219056
+DS-bla-005	DS-bla-005	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	1.16182476197
+DS-bla-006	DS-bla-006	Primary	Yes	Positive	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.64729904788
+DS-bla-007	DS-bla-007	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-008	DS-bla-008	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-009	DS-bla-009	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	11.6182476197
+DS-bla-010	DS-bla-010	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	10.4564228577
+DS-bla-011	DS-bla-011	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-012	DS-bla-012	Primary	No	Negative	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	2.32364952394
+DS-bla-014	DS-bla-014	Primary	No	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.97094857183
+DS-bla-015	DS-bla-015	Primary	No	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-016	DS-bla-016	Primary	No	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	47.6348152408
+DS-bla-017	DS-bla-017	Primary	No	Negative	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-018	DS-bla-018	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-019	DS-bla-019	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	11.6182476197
+DS-bla-020	DS-bla-020	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-022	DS-bla-022	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	1.16182476197
+DS-bla-023	DS-bla-023	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-024	DS-bla-024	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-025	DS-bla-025	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-029	DS-bla-029	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-030	DS-bla-030	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.64729904788
+DS-bla-031	DS-bla-031	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.97094857183
+DS-bla-034	DS-bla-034	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	3.48547428591
+DS-bla-036	DS-bla-036	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.64729904788
+DS-bla-037	DS-bla-037	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-038	DS-bla-038	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	3.48547428591
+DS-bla-039	DS-bla-039	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-040	DS-bla-040	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	19.7510209535
+DS-bla-041	DS-bla-041	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	5.80912380986
+DS-bla-042	DS-bla-042	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-044	DS-bla-044	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	40.663866669
+DS-bla-045	DS-bla-045	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	15.1037219056
+DS-bla-046	DS-bla-046	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-047	DS-bla-047	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.97094857183
+DS-bla-048	DS-bla-048	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-049	DS-bla-049	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	17.4273714296
+DS-bla-050	DS-bla-050	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	15.1037219056
+DS-bla-051	DS-bla-051	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	10.4564228577
+DS-bla-052	DS-bla-052	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-053	DS-bla-053	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	5.80912380986
+DS-bla-054	DS-bla-054	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	38.340217145
+DS-bla-055	DS-bla-055	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	17.4273714296
+DS-bla-056	DS-bla-056	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-057	DS-bla-057	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-058	DS-bla-058	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-059	DS-bla-059	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-060	DS-bla-060	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-061	DS-bla-061	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	17.4273714296
+DS-bla-062	DS-bla-062	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	26.7219695253
+DS-bla-063	DS-bla-063	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	22.0746704775
+DS-bla-064	DS-bla-064	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.97094857183
+DS-bla-065	DS-bla-065	Primary	No	Negative	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	10.4564228577
+DS-bla-066	DS-bla-066	Primary	No	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	3.48547428591
+DS-bla-067	DS-bla-067	Primary	Yes	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-068	DS-bla-068	Primary	No	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-071	DS-bla-071	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.64729904788
+DS-bla-075	DS-bla-075	Primary	No	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.64729904788
+DS-bla-076	DS-bla-076	Primary	Yes	Negative	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.97094857183
+DS-bla-077	DS-bla-077	Primary	No	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-078	DS-bla-078	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	17.4273714296
+DS-bla-079	DS-bla-079	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-080	DS-bla-080	Primary	No	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	38.340217145
+DS-bla-081	DS-bla-081	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	24.3983200014
+DS-bla-082	DS-bla-082	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-083	DS-bla-083	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	53.4439390507
+DS-bla-084	DS-bla-084	Primary	Yes	Negative	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	26.7219695253
+DS-bla-086	DS-bla-086	Primary	Yes	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-087	DS-bla-087	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	5.80912380986
+DS-bla-088	DS-bla-088	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-089	DS-bla-089	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.97094857183
+DS-bla-090	DS-bla-090	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	11.6182476197
+DS-bla-091	DS-bla-091	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	10.4564228577
+DS-bla-092	DS-bla-092	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.97094857183
+DS-bla-093	DS-bla-093	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	17.4273714296
+DS-bla-094	DS-bla-094	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.64729904788
+DS-bla-095	DS-bla-095	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	49.9584647648
+DS-bla-096	DS-bla-096	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.64729904788
+DS-bla-097	DS-bla-097	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	16.2655466676
+DS-bla-098	DS-bla-098	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	10.4564228577
+DS-bla-099	DS-bla-099	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-100	DS-bla-100	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	20.9128457155
+DS-bla-101	DS-bla-101	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	32.5310933352
+DS-bla-102	DS-bla-102	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.97094857183
+DS-bla-103	DS-bla-103	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-104	DS-bla-104	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-105	DS-bla-105	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	18.5891961915
+DS-bla-106	DS-bla-106	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	2.32364952394
+DS-bla-107	DS-bla-107	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.97094857183
+DS-bla-108	DS-bla-108	Primary	No	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	13.9418971437
+DS-bla-109	DS-bla-109	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-111	DS-bla-111	Primary	Yes	NA	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	33.6929180972
+DS-bla-112	DS-bla-112	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.64729904788
+DS-bla-113	DS-bla-113	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	18.5891961915
+DS-bla-114	DS-bla-114	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	17.4273714296
+DS-bla-115	DS-bla-115	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	3.48547428591
+DS-bla-116	DS-bla-116	Primary	No	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	10.4564228577
+DS-bla-117	DS-bla-117	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.29459809577
+DS-bla-120	DS-bla-120	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	3.48547428591
+DS-bla-121	DS-bla-121	Primary	No	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	1.16182476197
+DS-bla-122	DS-bla-122	Primary	Yes	NA	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	11.6182476197
+DS-bla-123	DS-bla-123	Primary	Yes	Positive	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.97094857183
+DS-bla-124	DS-bla-124	Primary	No	Negative	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.7800723817
+DS-bla-125	DS-bla-125	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	5.80912380986
+DS-bla-126	DS-bla-126	Primary	Yes	Negative	Radical Cystectomy	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	8.1327733338
+DS-bla-127	DS-bla-127	Primary	Yes	Negative	TUR	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	3.48547428591

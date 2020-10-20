@@ -1,0 +1,24 @@
+#Patient Identifier	Sample Identifier	Specimen Site	Specimen Preservation Type	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Specimen Site	The method used for preparing the tissue for examination and study.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	2	3	1
+PATIENT_ID	SAMPLE_ID	SPECIMEN_SITE	SPECIMEN_PRESERVATION_TYPE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+PCNSL_1	PCNSL_1	L frontal	Frozen tissue	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	4.73333333333
+PCNSL_2	PCNSL_2	R cerebellum 	Frozen tissue	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	6.96666666667
+PCNSL_3	PCNSL_3	R frontal 	Frozen tissue	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	9.63333333333
+PCNSL_4	PCNSL_4	R parietal-occipital	Frozen tissue	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	2.63333333333
+PCNSL_5	PCNSL_5	R tempero-parietal 	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	4.2
+PCNSL_7	PCNSL_7	Suprasellar 	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+PCNSL_8	PCNSL_8	L frontal	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	3.7
+PCNSL_10	PCNSL_10	Corpus callosum	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+PCNSL_12	PCNSL_12	R cerebellar tonsil	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+PCNSL_19	PCNSL_19	L cerebellum	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+PCNSL_20	PCNSL_20	R frontal 	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+PCNSL_28	PCNSL_28	R pons	Frozen tissue	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	8.2
+PCNSL_29	PCNSL_29	L fronto-temporal	Frozen tissue	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	5.93333333333
+PCNSL_30	PCNSL_30	R frontal and eye	Frozen tissue	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	3.63333333333
+PCNSL_31	PCNSL_31	Midbrain	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+PCNSL_32	PCNSL_32	R parietal and eye	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+PCNSL_33	PCNSL_33	R parietal-occipital	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+PCNSL_34	PCNSL_34	L parietal	FFPE	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+PCNSL_6	PCNSL_6	NA	NA	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.36666666667

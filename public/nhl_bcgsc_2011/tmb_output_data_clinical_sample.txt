@@ -1,0 +1,19 @@
+#Patient Identifier	Sample Identifier	Disease Stage	Laboratory Procedure Lactate Dehydrogenase Result	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Disease Stage	Information related to the result of the medical procedure that involves testing a sample of blood for lactic dehydrogenase, a family of homotetrameric cytoplasmic enzymes involved in the conversion of L-lactate and NAD to pyruvate and NADH in the final step of anaerobic glycolysis.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	DISEASE_STAGE	LDH_LEVEL	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+DLBCL-PatientA	DLBCL-PatientA	IIIB	Normal	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.73333333333
+DLBCL-PatientB	DLBCL-PatientB	IIIA	Greater than the upper level of normal	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	2.0
+DLBCL-PatientC	DLBCL-PatientC	IVB	Greater than the upper level of normal	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	4.2
+DLBCL-PatientD	DLBCL-PatientD	IIIA	Normal	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.2
+DLBCL-PatientE	DLBCL-PatientE	IIA	Normal	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.33333333333
+DLBCL-PatientF	DLBCL-PatientF	IIA	Normal	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.53333333333
+DLBCL-PatientG	DLBCL-PatientG	IAE	Normal	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.76666666667
+DLBCL-PatientH	DLBCL-PatientH	IA	Normal	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.63333333333
+DLBCL-PatientI	DLBCL-PatientI	IIIA	Normal	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	0.666666666667
+DLBCL-PatientJ	DLBCL-PatientJ	IA		NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	0.633333333333
+DLBCL-PatientK	DLBCL-PatientK	IAE	Normal	ABC	Mature B-Cell Neoplasms	Activated B-cell Type	1.93333333333
+DLBCL-PatientL	DLBCL-PatientL	IVB	Greater than the upper level of normal	GCB	Mature B-Cell Neoplasms	Germinal Center B-Cell Type	1.53333333333
+DLBCL-PatientM	DLBCL-PatientM	IIIBE	Greater than the upper level of normal	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	1.33333333333
+FL-PatientA	FL-PatientA			FL	Mature B-Cell Neoplasms	Follicular Lymphoma	1.13333333333

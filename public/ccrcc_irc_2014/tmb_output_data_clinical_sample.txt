@@ -1,0 +1,84 @@
+#Sample Identifier	Patient Identifier	Fuhrman Grade	TNM Stage	Tumor Disease Anatomic Site	Cancer Type	Cancer Type Detailed	Oncotree Code	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Fuhrman Grade	TNM stage.	Text term that describes the anatomic site of the tumor or disease.	Cancer Type	Cancer Type Detailed	Oncotree Code	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	FUHRMAN_GRADE	TNMSTAGE	TUMOR_TISSUE_SITE	CANCER_TYPE	CANER_TYPE_DETAILED	ONCOTREE_CODE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+EV001_M1	EV001	1-4	T3N2M1	Perinephric Metastasis	Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.23333333333
+EV001_M2a	EV001	1-4		Chest Wall Metastasis	Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.2
+EV001_M2b	EV001	1-4		Chest Wall Metastasis	Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.96666666667
+EV001_R1	EV001	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.3
+EV001_R2	EV001	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.33333333333
+EV001_R3	EV001	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.26666666667
+EV001_R4	EV001	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.06666666667
+EV001_R5	EV001	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.2
+EV001_R8	EV001	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.23333333333
+EV001_R9	EV001	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.43333333333
+EV002_M	EV002	1	T3N0M1	Metastasis	Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.4
+EV002_R1	EV002	1			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.33333333333
+EV002_R3	EV002	1			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.7
+EV002_R4	EV002	1			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.43333333333
+EV002_R6	EV002	1			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.5
+EV002_R7	EV002	1			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.53333333333
+EV002_R9	EV002	1			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.7
+EV003_R1	EV003	1-4	T3N0M1		Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.1
+EV003_R2	EV003	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.23333333333
+EV003_R3	EV003	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.06666666667
+EV003_R4	EV003	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.16666666667
+EV003_R5	EV003	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.26666666667
+EV003_R6	EV003	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.46666666667
+EV003_R7	EV003	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.16666666667
+EV003_R9	EV003	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.46666666667
+EV005_R1	EV005	1-3	T3N0M1		Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.46666666667
+EV005_R2	EV005	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.53333333333
+EV005_R3	EV005	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.46666666667
+EV005_R4	EV005	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.36666666667
+EV005_R5	EV005	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.4
+EV005_R6	EV005	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.03333333333
+EV005_R7	EV005	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.6
+EV006_LN1a	EV006	1-3	T3N0M1	Lymph Node Metastasis	Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.9
+EV006_LN1b	EV006	1-3		Lymph Node Metastasis	Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.9
+EV006_R1	EV006	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.96666666667
+EV006_R15	EV006	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.0
+EV006_R2	EV006	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.0
+EV006_R3	EV006	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.93333333333
+EV006_R4	EV006	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.96666666667
+EV006_R6	EV006	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.93333333333
+EV006_R7	EV006	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.1
+EV006_R9	EV006	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	NA
+EV007_R1	EV007	1-3	T2N0M1		Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.06666666667
+EV007_R2	EV007	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.13333333333
+EV007_R3	EV007	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.43333333333
+EV007_R4	EV007	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.06666666667
+EV007_R5	EV007	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.9
+EV007_R6	EV007	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.43333333333
+EV007_R7	EV007	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.9
+EV007_R9	EV007	1-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.43333333333
+RMH002_R1	RMH002	1-4	T3N0M1		Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.8
+RMH002_R2	RMH002	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.966666666667
+RMH002_R3	RMH002	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.0
+RMH002_R7	RMH002	1-4			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.16666666667
+RMH004_R10	RMH004	1-2	T4N0M1		Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.2
+RMH004_R2	RMH004	1-2			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.3
+RMH004_R3	RMH004	1-2			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.36666666667
+RMH004_R4	RMH004	1-2			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	2.0
+RMH004_R8	RMH004	1-2			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.8
+RMH004_VT	RMH004	1-2		Renal Vein	Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.4
+RMH008_R1	RMH008	2-3	T3N0M0		Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.2
+RMH008_R2	RMH008	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.43333333333
+RMH008_R3	RMH008	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.23333333333
+RMH008_R4	RMH008	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.83333333333
+RMH008_R5	RMH008	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.23333333333
+RMH008_R6	RMH008	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.83333333333
+RMH008_R7	RMH008	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.23333333333
+RMH008_R8	RMH008	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.23333333333
+RK26_R1	RK26	2-3	T2N0M0		Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.03333333333
+RK26_R10	RK26	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.566666666667
+RK26_R11	RK26	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.633333333333
+RK26_R2	RK26	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.13333333333
+RK26_R3	RK26	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.0
+RK26_R4	RK26	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	1.0
+RK26_R5	RK26	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.6
+RK26_R6	RK26	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.3
+RK26_R7	RK26	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.3
+RK26_R8	RK26	2-3			Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.566666666667
+RK26_R9	RK26				Renal Cell Carcinoma	Renal Clear Cell Carcinoma	CCRCC	Renal Clear Cell Carcinoma	0.6

@@ -1,0 +1,87 @@
+#Patient Identifier	Sample Identifier	Sample Type	Radical Prostatectomy Gleason Score for Prostate Cancer	ERG FISH Result	ETS Fusion SEQ	Absolute Purity	WGS Based Purity Estimation	Exome Sequenced in Barbieri et al.	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The type of sample (i.e., normal, primary, met, recurrence).	The score derived from universally embraced prostate cancer grading system developed by Dr. Donald F. Gleason in 1977. The system provides a reproducible description of the glandular architecture of prostate tissue to which a pathologist assigns a score depending primarily on the microscopic patterns of cancerous glands and cell morphology. The system correlates well with behavior at the extremes: Gleason 1+1 tumors are the most well differentiated, slowly growing and rarely spread; Gleason 4+5 tumors are the most poorly differentiated, often widely metastatic at the time of diagnosis. In the commoner intermediate grade tumors, however, behavior is extremely variable.	ERG Fish result.	ETS fusion seq	Absolute purity.	WGS based purity estimation	Exome sequenced in Barbieri et al.	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	9	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_TYPE	GLEASON_SCORE	ERG_FISH_RESULT	ETS_FUSION_SEQ	PURITY_ABSOLUTE	WGS_BASED_PURITY_ESTIMATION	EXOME_SEQUENCED_IN_BARBIERI_ET_AL_2012	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+P05-620	P05-620	Primary	4+3	NA	NA	0.81	0.82	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.63333333333
+P07-144	P07-144	Primary	3+4	NA	NA	0.7	0.68	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.53333333333
+P07-5021	P07-5021	Primary	3+3	NA	NA	0.71	0.71	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.733333333333
+P07-5318	P07-5318	Primary	3+4	NA	NA	0.56	0.55	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.36666666667
+P07-837	P07-837	Primary	4+3	NA	NA	NA	0.59	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.966666666667
+P08-1541	P08-1541	Primary	4+3	NA	NA	0.52	0.52	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.03333333333
+P08-217	P08-217	Primary	3+4	NA	NA	0.8	0.81	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.633333333333
+P08-5852	P08-5852	Primary	3+3	NA	NA	NA	0.47	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.766666666667
+P08-688	P08-688	Primary	3+3	NA	NA	0.55	0.58	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.7
+P08-716	P08-716	Primary	3+4;5	NA	NA	NA	0.66	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.1
+P09-396	P09-396	Primary	3+4;5	NA	NA	non-aneuploid	0.21	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.666666666667
+P09-628	P09-628	Primary	3+3	NA	NA	0.58	0.57	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.23333333333
+P09-730	P09-730	Primary	4+4	NA	NA	NA	0.56	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.933333333333
+PR-02-1431	PR-02-1431	Primary	4+4	NA	NA	0.18	0.22	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.16666666667
+PR-03-3125	PR-03-3125	Primary	3+3	NA	NA	0.71	0.72	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.4
+PR-03-728	PR-03-728	Primary	3+4	NA	NA	non-aneuploid	NA	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.166666666667
+PR-0410	PR-0410	Primary	3+3	NA	NA	NA	0.21	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.03333333333
+PR-05-3595	PR-05-3595	Primary	3+4	NA	NA	0.61	0.63	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.966666666667
+PR-06-1749	PR-06-1749	Primary	4+3	NA	NA	0.74	0.71	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.53333333333
+PR-07-3258	PR-07-3258	Primary	4+5	NA	NA	0.85	0.85	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.4
+PR-07-360	PR-07-360	Primary	4+4	NA	NA	1	0.66	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.933333333333
+PR-08-4154	PR-08-4154	Primary	3+4	NA	NA	0.72	0.71	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.866666666667
+PR-08-556	PR-08-556	Primary	4+3	NA	NA	0.57	0.55	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.23333333333
+PR-09-601	PR-09-601	Primary	4+5;3	NA	NA	0.67	0.66	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.966666666667
+PR-2525	PR-2525	Primary	3+4	NA	NA	0.75	0.77	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.833333333333
+PR-2741	PR-2741	Primary	4+4	NA	NA	0.71	0.72	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.1
+PR-3042	PR-3042	Primary	3+4	NA	NA	NA	0.74	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.3
+PR-STID0000002682	PR-STID0000002682	Primary	4+3	NA	NA	1	0.76	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.966666666667
+PR-STID0000003127	PR-STID0000003127	Primary	3+4	NA	NA	0.62	0.61	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.2
+PR-07-4814	PR-07-4814	Primary	4+5	NA	Intergenic fusion: ETV1, 736bp after exon 7	NA	0.2	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.666666666667
+P04-1084	P04-1084	Primary	3+4	NA	Protein fusion: in frame (TMPRSS2-ERG)	0.74	0.75	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.73333333333
+P07-4941	P07-4941	Primary	3+3	Translocation	Protein fusion: in frame (TMPRSS2-ERG)	0.48	0.49	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.9
+P08-492	P08-492	Primary	3+4	Translocation	Protein fusion: in frame (TMPRSS2-ERG)	NA	0.77	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.1
+PR-08-2153	PR-08-2153	Primary	4+3	Translocation	Protein fusion: in frame (TMPRSS2-ERG)	0.55	0.52	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.566666666667
+PR-08-2455	PR-08-2455	Primary	4+4	Translocation	Protein fusion: in frame (TMPRSS2-ERG)	0.53	0.53	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.833333333333
+PR-4240	PR-4240	Metastasis	N/A	NA	Protein fusion: mid-exon (NRF1-BRAF)	NA	0.81	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	4.16666666667
+P07-5037	P07-5037	Primary	4+3	Translocation	Protein fusion: out of frame (ERG-TMPRSS2)	NA	0.5	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.9
+P01-28	P01-28	Primary	4+4	NA	Protein fusion: out of frame (TMPRSS2-ERG)	NA	0.69	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.43333333333
+P03-1426	P03-1426	Primary	4+3	Translocation	Protein fusion: out of frame (TMPRSS2-ERG)	0.78	0.78	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.03333333333
+P03-2345	P03-2345	Primary	3+4	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	0.55	0.56	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.13333333333
+P05-2709	P05-2709	Primary	3+5	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	0.53	0.52	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.966666666667
+P05-3852	P05-3852	Primary	4+3;5	NA	Protein fusion: out of frame (TMPRSS2-ERG)	0.75	0.71	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.966666666667
+P08-1042	P08-1042	Primary	3+4	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	0.57	0.6	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.46666666667
+P08-501	P08-501	Primary	3+3	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	0.72	0.73	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.7
+P09-37	P09-37	Primary	3+4	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	NA	0.23	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.43333333333
+PR-04-1243	PR-04-1243	Primary	3+4	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	0.9	0.87	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.36666666667
+PR-07-4610	PR-07-4610	Primary	3+4	Translocation	Protein fusion: out of frame (TMPRSS2-ERG)	0.81	0.81	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.966666666667
+PR-08-784	PR-08-784	Primary	4+3	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	0.77	0.78	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.13333333333
+PR-09-146	PR-09-146	Primary	3+4	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	0.46	0.47	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.666666666667
+PR-09-3983	PR-09-3983	Primary	4+5	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	0.94	0.91	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.4
+PR-STID0000000415	PR-STID0000000415	Primary	4+4	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	0.94	0.91	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.46666666667
+PR-STID0000002872	PR-STID0000002872	Primary	3+4	Translocation with deletion	Protein fusion: out of frame (TMPRSS2-ERG)	0.59	0.57	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.766666666667
+PR-7520	PR-7520	Metastasis	N/A	Translocation	TMPRSS2-ERG Antisense fusion	NA	0.93	YES	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	4.8
+PR-06-3199	PR-06-3199	Primary	4+3	Translocation	Transcript fusion (SLC45A3-ERG)	0.75	0.75	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	1.0
+PR-2621	PR-2621	Primary	3+4	Translocation	Transcript fusion (SLC45A3-ERG)	0.59	0.6	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.766666666667
+P05-1657	P05-1657	Primary	3+4	Translocation with deletion	Transcript fusion (TMPRSS2-ERG)	0.61	0.6	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.766666666667
+P09-1042	P09-1042	Primary	3+4	Translocation	Transcript fusion (TMPRSS2-ERG)	0.64	0.63	NO	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	0.866666666667
+PR-05-2709	PR-05-2709								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-07-360-Normal	PR-07-360-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-07-837	PR-07-837								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-09-146-Normal	PR-09-146-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-06-1749-Normal	PR-06-1749-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-04-1084	PR-04-1084								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-04-1243-Normal	PR-04-1243-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-01-28-Normal	PR-01-28-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-03-1426-Normal	PR-03-1426-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-03-728-Normal	PR-03-728-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-05-3852-Normal	PR-05-3852-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-04-1084-Normal	PR-04-1084-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-05-2709-Normal	PR-05-2709-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-02-1431-Normal	PR-02-1431-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-05-1657-Normal	PR-05-1657-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-07-144-Normal	PR-07-144-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-01-28	PR-01-28								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-03-1426	PR-03-1426								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-03-2345	PR-03-2345								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-05-3852	PR-05-3852								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-07-837-Normal	PR-07-837-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-05-1657	PR-05-1657								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-03-2345-Normal	PR-03-2345-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-05-3595-Normal	PR-05-3595-Normal								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA
+PR-07-144	PR-07-144								PRAD	Prostate Cancer	Prostate Adenocarcinoma	Matched	NA

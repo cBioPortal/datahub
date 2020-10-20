@@ -1,0 +1,143 @@
+#Patient Identifier	Sample Identifier	Sample Type	Primary Tumor Site	Metastatic Site	Tumor Size	Resection timing	Tumor treated	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The type of sample (i.e., normal, primary, met, recurrence).	Text term to describe the organ sub-division in an individual with cancer.	The anatomic location to which the cancer has spread.	Tumor size.	Resection timing	Tumor treated	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	9	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_TYPE	PRIMARY_SITE	METASTATIC_SITE	TUMOR_SIZE	RESECTION_TIMING	TUMOR_TREATED	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+EV-001	EV-001-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-001	EV-001-P	Primary	Right		4	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-002	EV-002-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-002	EV-002-P	Primary	Left		5.3	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-003	EV-003-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-003	EV-003-P	Primary	Left		5.4	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	3.10226139344
+EV-004	EV-004-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-004	EV-004-P	Primary	Left		4.5	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-005	EV-005-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-005	EV-005-P	Primary	Right		4.5	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	3.10226139344
+EV-006	EV-006-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-006	EV-006-P	Primary	Left		3.5	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-007	EV-007-M	Metastasis		Liver		Subsequent	Before_both_resections	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-007	EV-007-P	Primary	Left		4	Subsequent	Before_both_resections	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-008	EV-008-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-008	EV-008-P	Primary	Left		4.8	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-009	EV-009-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-009	EV-009-P	Primary	Left		5	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-010	EV-010-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-010	EV-010-P	Primary	Right		5.5	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-011	EV-011-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-011	EV-011-P	Primary	Left		1.5	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-012	EV-012-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-012	EV-012-P	Primary	Left		10	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-013	EV-013-M	Metastasis		Ovary		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	15.5113069672
+EV-013	EV-013-P	Primary	Right		4.5	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	15.5113069672
+EV-014	EV-014-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-014	EV-014-P	Primary	Left		5.5	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-015	EV-015-M	Metastasis		Liver		Subsequent	Before_both_resections	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-015	EV-015-P	Primary	Right		2.8	Subsequent	Before_both_resections	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-016	EV-016-M	Metastasis		Liver		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-016	EV-016-P	Primary	Right		4	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-017	EV-017-M	Metastasis		Liver		Subsequent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-017	EV-017-P	Primary	Right		4.2	Subsequent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-018	EV-018-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-018	EV-018-P	Primary	Left		5.7	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-019	EV-019-M	Metastasis		Lung		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-019	EV-019-P	Primary	Left		4.5	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-020	EV-020-M	Metastasis		Liver		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-020	EV-020-P	Primary	Left		7.5	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-021	EV-021-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-021	EV-021-P	Primary	Left		4.2	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-022	EV-022-M	Metastasis		Liver		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-022	EV-022-P	Primary	Rectum		4	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-023	EV-023-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	15.5113069672
+EV-023	EV-023-P	Primary	Right		5.5	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	18.6135683607
+EV-026	EV-026-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-026	EV-026-P	Primary	Right		3.2	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	13.9601762705
+EV-027	EV-027-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-027	EV-027-P	Primary	Right		2.5	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-028	EV-028-M	Metastasis		Liver		Subsequent	Primary_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	3.10226139344
+EV-028	EV-028-P	Primary	Rectum		4	Subsequent	Primary_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-029	EV-029-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-029	EV-029-P	Primary	Right		2.5	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-030	EV-030-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-030	EV-030-P	Primary	Rectum		NA	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-032	EV-032-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-032	EV-032-P	Primary	Rectum		NA	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-033	EV-033-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-033	EV-033-P	Primary	Rectum		5.5	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-034	EV-034-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-034	EV-034-P	Primary	Left		4.5	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-035	EV-035-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-035	EV-035-P	Primary	Rectum		4.2	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-036	EV-036-M	Metastasis		Liver		Subsequent	Before_both_resections	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-036	EV-036-P	Primary	Right		3.5	Subsequent	Before_both_resections	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-037	EV-037-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-037	EV-037-P	Primary	Left		3.5	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-038	EV-038-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-038	EV-038-P	Primary	Right		2.6	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-040	EV-040-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-040	EV-040-P	Primary	Right		2	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-041	EV-041-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	3.10226139344
+EV-041	EV-041-P	Primary	Left		7.2	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-042	EV-042-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-042	EV-042-P	Primary	Right		4.8	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-043	EV-043-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-043	EV-043-P	Primary	Right		4.2	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-044	EV-044-M	Metastasis		Liver		Subsequent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-044	EV-044-P	Primary	Right		5.5	Subsequent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-045	EV-045-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-045	EV-045-P	Primary	Left		5.8	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-046	EV-046-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-046	EV-046-P	Primary	Left		5.2	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-047	EV-047-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-047	EV-047-P	Primary	Right		8	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-048	EV-048-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-048	EV-048-P	Primary	Left		7	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	13.9601762705
+EV-049	EV-049-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-049	EV-049-P	Primary	Left		4.2	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-050	EV-050-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-050	EV-050-P	Primary	Rectum		4.2	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-051	EV-051-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	13.9601762705
+EV-051	EV-051-P	Primary	Right		10	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	18.6135683607
+EV-052	EV-052-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-052	EV-052-P	Primary	Rectum		4	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-053	EV-053-M	Metastasis		Ovary		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-053	EV-053-P	Primary	Right		3.5	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-054	EV-054-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-054	EV-054-P	Primary	Right		6	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-055	EV-055-M	Metastasis		Liver		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-055	EV-055-P	Primary	Left		4.5	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-056	EV-056-M	Metastasis		Liver		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-056	EV-056-P	Primary	Left		2.9	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-058	EV-058-M	Metastasis		Liver		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-058	EV-058-P	Primary	Left		5.2	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-060	EV-060-M	Metastasis		Liver		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-060	EV-060-P	Primary	Right		2.7	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-061	EV-061-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	13.9601762705
+EV-061	EV-061-P	Primary	Right		3.9	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	15.5113069672
+EV-062	EV-062-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-062	EV-062-P	Primary	Left		3.4	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-063	EV-063-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-063	EV-063-P	Primary	Left		2.7	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-064	EV-064-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-064	EV-064-P	Primary	Rectum		2.8	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-066	EV-066-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-066	EV-066-P	Primary	Right		5	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-067	EV-067-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-067	EV-067-P	Primary	Left		5.4	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-068	EV-068-M	Metastasis		Liver		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-068	EV-068-P	Primary	Left		4	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-069	EV-069-M	Metastasis		Liver		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-069	EV-069-P	Primary	Left		6	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	4.65339209016
+EV-070	EV-070-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-070	EV-070-P	Primary	Left		4.5	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	12.4090455738
+EV-071	EV-071-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-071	EV-071-P	Primary	Rectum		7.5	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-072	EV-072-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	10.857914877
+EV-072	EV-072-P	Primary	Right		3.8	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-073	EV-073-M	Metastasis		Liver		Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-073	EV-073-P	Primary	Rectum		5.7	Concurrent	Both_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-074	EV-074-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	15.5113069672
+EV-074	EV-074-P	Primary	Right		4.1	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	13.9601762705
+EV-075	EV-075-M	Metastasis		Liver		Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361
+EV-075	EV-075-P	Primary	Right		3.5	Concurrent	Chemonaive	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	9.30678418033
+EV-076	EV-076-M	Metastasis		Liver		Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	6.20452278689
+EV-076	EV-076-P	Primary	Left		3	Subsequent	Metastasis_treated	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	7.75565348361

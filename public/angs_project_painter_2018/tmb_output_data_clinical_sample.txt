@@ -1,0 +1,53 @@
+#Patient Identifier	Sample Timepoint	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	PATH Sample Collection Time	PATH Procedure Location	PATH Procedure Type 	PATH Vasoformative	PATH Epithelioid	PATH Spindle Cell	PATH Nuclear Grade	Tumor Mutation Burdenn	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	Sample sequential timepoint (T1 = timepoint 1, T2 = timepoint 2, etc.)	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	Sample collection time in days from primary diagnosis	For each sample, the anatomical location where the biopsy or surgery was performed as listed in the pathology report (Note: some patients in this dataset have more than one sample)	The procedure performed to obtain the sample	Sample has vasoformative characteristics	Sample has epithelioid characteristics	Sample has spindle cell characteristics	Nuclear grade of the sample	Total number of mutations divided by the length of the total genomic target region captured (mutations/Mbs)	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING
+#1	1	1	1	1	1	1	28	1	19	18	17	16	1	1
+PATIENT_ID	SAMPLE_TIMEPOINT	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	BX_TIME_DAYS	BX_LOCATION	BX_TYPE	BX_VASOFORMATIVE	BX_EPITHELIOID	BX_SPINDLE_CELL	BX_NUCLEAR_GRADE	TMB	TMB_NONSYNONYMOUS
+Angio-ASCProject_EAuOu4uD	ASCProject_EAuOu4uD_T1	Angio-ASCProject_EAuOu4uD-Tumor-SM-DADQD	ANGS	Soft Tissue Sarcoma	Angiosarcoma	13	BREAST	RESECTION	YES	NO	NO	LOW	2.850485825	3.0
+Angio-ASCProject_RvtOtjtj	ASCProject_RvtOtjtj_T3	Angio-ASCProject_RvtOtjtj-Tumor-SM-DACL5	ANGS	Soft Tissue Sarcoma	Angiosarcoma	3848	BACK	RESECTION	YES	NO	NO	LOW	1.787315289	1.53333333333
+Angio-ASCProject_RvtOtjtj	ASCProject_RvtOtjtj_T2	Angio-ASCProject_RvtOtjtj-Tumor-SM-DACOW	ANGS	Soft Tissue Sarcoma	Angiosarcoma	3615	BACK	BIOPSY	YES	NO	NO	LOW	3.480264993	3.4
+Angio-ASCProject_zQtVt5tr	ASCProject_zQtVt5tr_T2	Angio-ASCProject_zQtVt5tr-Tumor-SM-DADUR	ANGS	Soft Tissue Sarcoma	Angiosarcoma	387	OVARY	BILATERAL SALPINGO-OOPHORECTOMY	YES	NO	YES	LOW	3.357263586	3.2
+Angio-ASCProject_zQtVt5tr	ASCProject_zQtVt5tr_BLOOD	Angio-ASCProject_zQtVt5tr-Tumor-SM-E76O4	ANGS	Soft Tissue Sarcoma	Angiosarcoma	313	BLOOD BIOPSY	BLOOD BIOPSY					1.65767414	1.86666666667
+Angio-ASCProject_03IpIBIR	ASCProject_03IpIBIR_T1	Angio-ASCProject_03IpIBIR-Tumor-SM-DAE1F	ANGS	Soft Tissue Sarcoma	Angiosarcoma	181	BLADDER WALL	RESECTION	YES	YES	YES	HIGH	2.973428035	3.13333333333
+Angio-ASCProject_xdigi2t7	ASCProject_xdigi2t7_T1	Angio-ASCProject_xdigi2t7-Tumor-SM-DADLY	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	BIOPSY	YES	NO	YES	HIGH	1.50444111	0.6
+Angio-ASCProject_bRSGSlCG	ASCProject_bRSGSlCG_T2	Angio-ASCProject_bRSGSlCG-Tumor-SM-DACJV	ANGS	Soft Tissue Sarcoma	Angiosarcoma	1258	LUNG	PNEUMONECTOMY	YES	NO	YES	HIGH	0.402897751	0.2
+Angio-ASCProject_nvfdfZCz	ASCProject_nvfdfZCz_T1	Angio-ASCProject_nvfdfZCz-Tumor-SM-DADGX	ANGS	Soft Tissue Sarcoma	Angiosarcoma	27	BREAST	MASTECTOMY	YES	NO	NO	LOW	3.039733962	2.53333333333
+Angio-ASCProject_Y4SjSnIg	ASCProject_Y4SjSnIg_T1	Angio-ASCProject_Y4SjSnIg-Tumor-SM-DADSQ	ANGS	Soft Tissue Sarcoma	Angiosarcoma	15	BREAST	MASTECTOMY	YES	NO	YES; FOCAL	LOW	0.461162805	0.4
+Angio-ASCProject_bJi9iyCb	ASCProject_bJi9iyCb_T1	Angio-ASCProject_bJi9iyCb-Tumor-SM-DAE73	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	SCALP	EXCISION	YES	NO	NO	LOW	6.017560795	5.46666666667
+Angio-ASCProject_3NflfGHo	ASCProject_3NflfGHo_T1	Angio-ASCProject_3NflfGHo-Tumor-SM-DADBW	ANGS	Soft Tissue Sarcoma	Angiosarcoma	14	BREAST	MASTECTOMY	YES	NO	YES	HIGH	0.92083941	0.866666666667
+Angio-ASCProject_EdCVC0um	ASCProject_EdCVC0um_T1	Angio-ASCProject_EdCVC0um-Tumor-SM-DADA1	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	EXCISION	YES	NO	NO	LOW	26.73035084	22.6
+Angio-ASCProject_QYsAsrTO	ASCProject_QYsAsrTO_T2	Angio-ASCProject_QYsAsrTO-Tumor-SM-DACQ6	ANGS	Soft Tissue Sarcoma	Angiosarcoma	511	PECTORALIS MINOR	RESECTION	YES	NO	YES	HIGH	3.3151733	3.13333333333
+Angio-ASCProject_QYsAsrTO	ASCProject_QYsAsrTO_T1	Angio-ASCProject_QYsAsrTO-Tumor-SM-DAE3X	ANGS	Soft Tissue Sarcoma	Angiosarcoma	18	BREAST	MASTECTOMY	YES	YES	NO	HIGH	4.679392695	4.93333333333
+Angio-ASCProject_XbieiohK	ASCProject_XbieiohK_T1	Angio-ASCProject_XbieiohK-Tumor-SM-DADIT	ANGS	Soft Tissue Sarcoma	Angiosarcoma	12	BREAST	MASTECTOMY	NO	YES	NO	HIGH	3.310402374	2.86666666667
+Angio-ASCProject_oQi7i3U5	ASCProject_oQi7i3U5_T2	Angio-ASCProject_oQi7i3U5-Tumor-SM-DADHK	ANGS	Soft Tissue Sarcoma	Angiosarcoma	108	SCALP	RESECTION	YES	NO	YES	HIGH	23.08213715	17.8666666667
+Angio-ASCProject_YzTlTytj	ASCProject_YzTlTytj_T1	Angio-ASCProject_YzTlTytj-Tumor-SM-DAD69	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	FOREHEAD	EXCISION	YES	YES	YES	HIGH	4.309464824	1.6
+Angio-ASCProject_YzTlTytj	ASCProject_YzTlTytj_T2	Angio-ASCProject_YzTlTytj-Tumor-SM-DADML	ANGS	Soft Tissue Sarcoma	Angiosarcoma	4380	LUNG	RESECTION	YES; FOCAL	YES	NO	HIGH	0.915040864	1.0
+Angio-ASCProject_5NsKslTb	ASCProject_5NsKslTb_T1	Angio-ASCProject_5NsKslTb-Tumor-SM-DACSO	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	ABDOMEN	EXCISION	YES; FOCAL	YES	YES	HIGH	2.832724347	2.66666666667
+Angio-ASCProject_5DFyF0HA	ASCProject_5DFyF0HA_T1	Angio-ASCProject_5DFyF0HA-Tumor-SM-DAD34	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	LUMPECTOMY	YES	NO	YES	LOW	1.379019664	1.2
+Angio-ASCProject_5Ph4hetv	ASCProject_5Ph4hetv_T1	Angio-ASCProject_5Ph4hetv-Tumor-SM-DAE5T	ANGS	Soft Tissue Sarcoma	Angiosarcoma	42	BREAST	MASTECTOMY	YES	NO	NO	LOW	1.421368591	1.4
+Angio-ASCProject_GXTMTxU7	ASCProject_GXTMTxU7_T1	Angio-ASCProject_GXTMTxU7-Tumor-SM-DACLR	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	EXCISION	YES	NO	YES	HIGH	3.269932833	3.26666666667
+Angio-ASCProject_7bt2t8IJ	ASCProject_7bt2t8IJ_T3	Angio-ASCProject_7bt2t8IJ-Tumor-SM-DACTX	ANGS	Soft Tissue Sarcoma	Angiosarcoma	2394	NECK	RESECTION	YES	NO	YES	HIGH	5.519764283	4.8
+Angio-ASCProject_7bt2t8IJ	ASCProject_7bt2t8IJ_T2	Angio-ASCProject_7bt2t8IJ-Tumor-SM-DAD18	ANGS	Soft Tissue Sarcoma	Angiosarcoma	1092	NECK	EXCISION	YES	NO	YES	HIGH	6.540506551	5.86666666667
+Angio-ASCProject_7bt2t8IJ	ASCProject_7bt2t8IJ_T4	Angio-ASCProject_7bt2t8IJ-Tumor-SM-DADQZ	ANGS	Soft Tissue Sarcoma	Angiosarcoma	2837	CHIN,NECK	RESECTION	YES	NO	YES	HIGH	4.153887547	4.13333333333
+Angio-ASCProject_NdUxUwCM	ASCProject_NdUxUwCM_T1	Angio-ASCProject_NdUxUwCM-Tumor-SM-DAE57	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	BROW	EXCISION	YES; FOCAL	YES	NO	HIGH	62.39310975	43.7333333333
+Angio-ASCProject_blh1uyhK	ASCProject_blh1uyhK_T1	Angio-ASCProject_blh1uyhK-Tumor-SM-DACPJ	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	BIOPSY	YES	NO	YES	LOW	1.736475996	1.26666666667
+Angio-ASCProject_blh1uyhK	ASCProject_blh1uyhK_T2	Angio-ASCProject_blh1uyhK-Tumor-SM-DADU5	ANGS	Soft Tissue Sarcoma	Angiosarcoma	187	BREAST	MASTECTOMY	YES	NO	YES	LOW	1.508689334	1.33333333333
+Angio-ASCProject_ZXi6FXFo	ASCProject_ZXi6FXFo_T1	Angio-ASCProject_ZXi6FXFo-Tumor-SM-DADXW	ANGS	Soft Tissue Sarcoma	Angiosarcoma	4	FACE	EXCISION	YES	NO	NO	LOW	18.29839342	16.6666666667
+Angio-ASCProject_JkivIBSV	ASCProject_JkivIBSV_T1	Angio-ASCProject_JkivIBSV-Tumor-SM-DACIM	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	SCALP	BIOPSY	NO	NO	YES	HIGH	11.53771809	10.3333333333
+Angio-ASCProject_JkivIBSV	ASCProject_JkivIBSV_T2	Angio-ASCProject_JkivIBSV-Tumor-SM-DAE6G	ANGS	Soft Tissue Sarcoma	Angiosarcoma	233	FOREHEAD	PUNCH BIOPSY	YES	NO	NO	HIGH	14.65721171	13.9333333333
+Angio-ASCProject_YzTxcouV	ASCProject_YzTxcouV_T2	Angio-ASCProject_YzTxcouV-Tumor-SM-DAD9E	ANGS	Soft Tissue Sarcoma	Angiosarcoma	11	BREAST	EXCISION	YES	NO	YES	HIGH	1.11998048	1.26666666667
+Angio-ASCProject_KxFGsofW	ASCProject_KxFGsofW_T2	Angio-ASCProject_KxFGsofW-Tumor-SM-DAD4D	ANGS	Soft Tissue Sarcoma	Angiosarcoma	450	SCALP	EXCISION	YES	YES	YES	HIGH	78.46118263	63.2
+Angio-ASCProject_dyhLT8sG	ASCProject_dyhLT8sG_T1	Angio-ASCProject_dyhLT8sG-Tumor-SM-DACWG	ANGS	Soft Tissue Sarcoma	Angiosarcoma	414	MANDIBULAR NODE	BIOPSY	YES	YES	NO	LOW	138.8970951	122.733333333
+Angio-ASCProject_kJFaIXcN	ASCProject_kJFaIXcN_T3	Angio-ASCProject_kJFaIXcN-Tumor-SM-DADTI	ANGS	Soft Tissue Sarcoma	Angiosarcoma	438	CHEST WALL	EXCISION	YES	YES	YES	HIGH	2.020714447	1.8
+Angio-ASCProject_kJFaIXcN	ASCProject_kJFaIXcN_T2	Angio-ASCProject_kJFaIXcN-Tumor-SM-DAE4K	ANGS	Soft Tissue Sarcoma	Angiosarcoma	73	BREAST	MASTECTOMY	YES	NO	NO	HIGH	2.352589736	2.13333333333
+Angio-ASCProject_XjHAU9uR	ASCProject_XjHAU9uR_T2	Angio-ASCProject_XjHAU9uR-Tumor-SM-DADEF	ANGS	Soft Tissue Sarcoma	Angiosarcoma	304	RIGHT ATRIUM	RESECTION	YES	YES	YES	HIGH	1.461360389	1.33333333333
+Angio-ASCProject_eVIAsEIy	ASCProject_eVIAsEIy_T2	Angio-ASCProject_eVIAsEIy-Tumor-SM-DADLC	ANGS	Soft Tissue Sarcoma	Angiosarcoma	1415	BREAST	MASTECTOMY	YES	YES	YES	HIGH	2.468979553	2.46666666667
+Angio-ASCProject_YLCRINC8	ASCProject_YLCRINC8_T1	Angio-ASCProject_YLCRINC8-Tumor-SM-DACNN	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	EXCISION	YES	NO	YES	HIGH	3.703801832	3.33333333333
+Angio-ASCProject_lYIMuWu5	ASCProject_lYIMuWu5_T3	Angio-ASCProject_lYIMuWu5-Tumor-SM-DACJ9	ANGS	Soft Tissue Sarcoma	Angiosarcoma	1322	FACE	EXCISION	YES; FOCAL	YES	YES	HIGH	67.99224993	58.1333333333
+Angio-ASCProject_loC8UQUk	ASCProject_loC8UQUk_T2	Angio-ASCProject_loC8UQUk-Tumor-SM-DACX3	ANGS	Soft Tissue Sarcoma	Angiosarcoma	191	BREAST	MASTECTOMY	YES	NO	YES; FOCAL	LOW	1.835873933	2.13333333333
+Angio-ASCProject_loC8UQUk	ASCProject_loC8UQUk_T1	Angio-ASCProject_loC8UQUk-Tumor-SM-DADBA	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	BREAST	BIOPSY	YES	NO	YES; FOCAL	LOW	1.624233325	1.93333333333
+Angio-ASCProject_09iyC6Cp	ASCProject_09iyC6Cp_T2	Angio-ASCProject_09iyC6Cp-Tumor-SM-DACME	ANGS	Soft Tissue Sarcoma	Angiosarcoma	28	FACE	EXCISION	YES	YES	NO	HIGH	76.95713775	68.6666666667
+Angio-ASCProject_mpUNibFx	ASCProject_mpUNibFx_T1	Angio-ASCProject_mpUNibFx-Tumor-SM-DAD3Q	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0	SPLEEN	SPLENECTOMY	NO	YES	NO	HIGH	3.869069607	4.0
+Angio-ASCProject_aPskieIL	ASCProject_aPskieIL_T2	Angio-ASCProject_aPskieIL-Tumor-SM-DACOA	ANGS	Soft Tissue Sarcoma	Angiosarcoma	1950	CHEST WALL	EXCISION	YES	YES	NO	HIGH	5.448771571	3.2
+Angio-ASCProject_aPskieIL	ASCProject_aPskieIL_T3	Angio-ASCProject_aPskieIL-Tumor-SM-DACTB	ANGS	Soft Tissue Sarcoma	Angiosarcoma	2154	CHEST WALL	RESECTION	YES	YES	NO	HIGH	3.74467036	3.53333333333
+Angio-ASCProject_aPskieIL	ASCProject_aPskieIL_T1	Angio-ASCProject_aPskieIL-Tumor-SM-DAD5M	ANGS	Soft Tissue Sarcoma	Angiosarcoma	1838	CHEST WALL	EXCISION	YES	YES	NO	HIGH	2.788620199	1.93333333333

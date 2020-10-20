@@ -1,0 +1,122 @@
+#Patient Identifier	Sample Identifier	Other Sample ID	Sample Class	Cancer Type	Cancer Type Detailed	Oncotree Code	Sample Type	Site of Recurrence	Sample Type Detail	Metastatic Site	Specimen Preservation Type	Somatic Status	Tumor Purity	Cytological Phenotype	Growth Pattern	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Other sample identifier	The sample classification (i.e., tumor, cellline, xenograph).	Cancer Type	Cancer Type Detailed	Oncotree Code	The type of sample (i.e., normal, primary, met, recurrence).	Site of Recurrence	Detailed Description of Sample Type	The anatomic location to which the cancer has spread.	The method used for preparing the tissue for examination and study.	Somatic Status	Tumor Purity	Cytological Phenotype	Growth Pattern	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING
+#1	1	1	1	1	1	1	9	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	OTHER_SAMPLE_ID	SAMPLE_CLASS	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	SAMPLE_TYPE	SITE_OF_RECURRENCE	SAMPLE_TYPE_DETAIL	METASTATIC_SITE	SPECIMEN_PRESERVATION_TYPE	SOMATIC_STATUS	TUMOR_PURITY	CYTOLOGICAL_PHENOTYPE	GROWTH_PATTERN	TMB_NONSYNONYMOUS
+p_105028	s_JF_thy_001_P	105028T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	Frozen	Matched	0.33	tall cell variant	NA	0.166666666667
+p_110036	s_JF_thy_002_P	110036T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs, ribs	Frozen	Unmatched	0.22	NA	NA	0.233333333333
+p_110335	s_JF_thy_003_P	110335T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	Frozen	Matched	0.23	tall cell variant	NA	0.2
+p_112841	s_JF_thy_004_P	112841T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs	Frozen	Matched	NA	Hurthle	solid	0.166666666667
+p_112920	s_JF_thy_005_P	112920T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	Frozen	Matched	0.97	follicular	solid	0.0666666666667
+p_113093	s_JF_thy_006_P	113093T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	Frozen	Matched	NA	follicular	solid	0.0333333333333
+p_113531	s_JF_thy_007_P	113531T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	Frozen	Matched	0.81	papillary	solid	NA
+p_113694	s_JF_thy_008_P	113694T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs	Frozen	Unmatched	0.36	NA	NA	0.833333333333
+p_115473	s_JF_thy_009_P	115473T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	Frozen	Matched	0.77	papillary	solid	0.0666666666667
+p_116236	s_JF_thy_010_P	116236T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Recurrent	Neck	NA	NA	Frozen	Unmatched	0.88	papillary	solid	0.466666666667
+p_117108	s_JF_thy_011_P	117108T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs	Frozen	Matched	0.33	NA	NA	0.2
+p_117649	s_JF_thy_012_P	117649T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Recurrent	NA	Recurrent/persistent metastasic tumor to lymph node	NA	Frozen	Matched	0.87	papillary	solid	0.0333333333333
+p_120338	s_JF_thy_013_P	120338T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs, C3	Frozen	Matched	1	NA	NA	0.266666666667
+p_120517	s_JF_thy_014_P	120517T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Metastasis	NA	NA	femur	Frozen	Matched	0.5	papillary	NA	0.0333333333333
+p_121457	s_JF_thy_015_P	121457T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	scalp	Frozen	Unmatched	0.3	NA	NA	0.666666666667
+p_121707	s_JF_thy_016_P	121707T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	Frozen	Matched	0.26	papillary	NA	0.1
+p_15934	s_JF_thy_017_P	15934T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs	Frozen	Unmatched	0.5	NA	NA	0.333333333333
+p_7207	s_JF_thy_018_P	7207T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Recurrent	NA	NA	NA	Frozen	Matched	0.77	follicular	solid	0.0333333333333
+p_791	s_JF_thy_019_P	791T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs	Frozen	Unmatched	0.98	papillary	solid	0.366666666667
+p_3396	s_JF_thy_020_P	3396T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Recurrent	Neck	NA	NA	Frozen	Matched	NA	papillary	solid	0.0666666666667
+p_4057	s_JF_thy_021_P	4057T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	bone	Frozen	Unmatched	0.88	Hurthle	solid	0.4
+p_6294	s_JF_thy_022_P	6294T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs	Frozen	Matched	0.62	papillary	NA	0.1
+p_6580	s_JF_thy_023_P	6580T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	Frozen	Matched	0.12	mixed	NA	0.1
+p_8866	s_JF_thy_024_P	8866T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs	Frozen	Matched	0.47	NA	NA	0.1
+p_9209	s_JF_thy_025_P	9209T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	Frozen	Matched	0.35	papillary	NA	0.333333333333
+p_11742	s_JF_thy_026_P	11742T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	Frozen	Matched	0.46	papillary	solid	0.166666666667
+p_104673	s_JF_thy_027_P	104673T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs	Frozen	Matched	0.89	follicular	solid	0.133333333333
+p_109121	s_JF_thy_028_P	109121T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	Frozen	Unmatched	0.8	papillary	NA	1.13333333333
+p_112186	s_JF_thy_029_P	112186T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	Frozen	Matched	0.34	mixed	NA	0.0333333333333
+p_114123	s_JF_thy_030_P	114123T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs	Frozen	Matched	0.93	tall cell variant	NA	0.266666666667
+p_115599	s_JF_thy_031_P	115599T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs,bone	Frozen	Matched	0.84	papillary	solid	0.1
+p_115718	s_JF_thy_032_P	115718T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	Frozen	Matched	NA	papillary	solid 5% and remainder follicular	NA
+p_116111	s_JF_thy_033_P	116111T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	Primary (residual)	NA	Frozen	Matched	NA	Hurthle	solid	0.133333333333
+p_116621	s_JF_thy_034_P	116621T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	Frozen	Matched	0.43	NA	NA	0.466666666667
+p_122113	s_JF_thy_035_P	122113T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Recurrent	Neck	NA	NA	Frozen	Matched	0.31	tall cell variant	NA	0.1
+p_122474	s_JF_thy_036_P	122474T	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs,bone	Frozen	Unmatched	0.98	follicular	solid	0.366666666667
+p_122964	s_JF_thy_037_P	122964T	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Recurrent	Neck	NA	lungs	Frozen	Matched	0.49	tall cell variant	NA	0.233333333333
+PC_03	s_JJ_thy_003_P	PC_03	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	NA	papillary	solid	0.0333333333333
+PC_04	s_JJ_thy_004_P	PC_04	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs	FFPE	Matched	0.75	papillary	solid 5% and remainder follicular	0.133333333333
+PC_07	s_JJ_thy_007_P	PC_07	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.84	follicular	solid 5% and remainder follicular	0.0666666666667
+PC_08	s_JJ_thy_008_P	PC_08	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	NA	papillary	solid	0.0666666666667
+PC_09	s_JJ_thy_009_P	PC_09	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.64	follicular	solid	0.0666666666667
+PC_10	s_JJ_thy_010_P	PC_10	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	NA	follicular	solid	NA
+PC_11	s_JJ_thy_011_P	PC_11	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	NA	Hurthle	solid	0.0333333333333
+PC_12	s_JJ_thy_012_P	PC_12	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.53	papillary, tall cell variant	papillary	0.1
+PC_16	s_JJ_thy_016_P	PC_16	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs	FFPE	Matched	0.42	tall cell variant  phenotype (changed after consensus) upstaged T	papillary	0.0666666666667
+PC_17	s_JJ_thy_017_P	PC_17	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	1	follicular, Hurthle	solid	0.0666666666667
+PC_18	s_JJ_thy_018_P	PC_18	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	NA	papillary	solid 5% and remainder papillary	0.0333333333333
+PC_19	s_JJ_thy_019_P	PC_19	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.56	tall cell variant	papillary	0.1
+PC_23	s_JJ_thy_023_P	PC_23	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Unmatched	0.89	tall cell variant	papillary	0.466666666667
+PC_26	s_JJ_thy_026_P	PC_26	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs	FFPE	Matched	0.83	papillary	solid	NA
+PC_27	s_JJ_thy_027_P	PC_27	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.86	papillary	solid	0.0333333333333
+PC_28	s_JJ_thy_028_P	PC_28	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.62	tall cell variant	papillary	0.166666666667
+PC_29	s_JJ_thy_029_P	PC_29	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	NA	Hurthle	solid	0.0333333333333
+PC_30	s_JJ_thy_030_P	PC_30	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs	FFPE	Matched	0.54	tall cell variant	papillary	0.0333333333333
+PC_32	s_JJ_thy_032_P	PC_32	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs,bone	FFPE	Matched	0.78	papillary	solid	0.0666666666667
+PC_33	s_JJ_thy_033_P	PC_33	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.9	follicular, papillary	solid	0.0666666666667
+PC_34	s_JJ_thy_034_P	PC_34	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.47	papillary	papillary	0.0333333333333
+PC_35	s_JJ_thy_035_P	PC_35	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.64	tall cell variant	papillary	0.0333333333333
+PC_36	s_JJ_thy_036_P	PC_36	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.87	papillary	solid	0.0333333333333
+PC_37	s_JJ_thy_037_P	PC_37	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.37	tall cell variant	papillary	0.2
+PC_38	s_JJ_thy_038_P	PC_38	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.44	tall cell variant	papillary	0.0333333333333
+PC_39	s_JJ_thy_039_P	PC_39	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.51	tall cell variant	papillary	0.0333333333333
+PC_41	s_JJ_thy_041_P	PC_41	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	1	follicular	solid	0.1
+PC_42	s_JJ_thy_042_P	PC_42	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.67	papillary	solid	NA
+PC_43	s_JJ_thy_043_P	PC_43	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.49	tall cell variant	papillary	0.0333333333333
+PC_44	s_JJ_thy_044_P	PC_44	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs	FFPE	Matched	0.7	papillary	solid	0.0666666666667
+PC_45	s_JJ_thy_045_P	PC_45	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	NA	papillary	solid	NA
+PC_46	s_JJ_thy_046_P	PC_46	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs	FFPE	Matched	0.68	tall cell variant	papillary	0.433333333333
+PC_47	s_JJ_thy_047_P	PC_47	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.57	tall cell variant	papillary	0.0333333333333
+PC_48	s_JJ_thy_048_P	PC_48	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.3	tall cell variant	papillary	0.0666666666667
+PC_49	s_JJ_thy_049_P	PC_49	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.42	tall cell variant	papillary	0.0333333333333
+PC_50	s_JJ_thy_050_P	PC_50	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.63	tall cell variant	papillary	0.166666666667
+PC_51	s_JJ_thy_051_P	PC_51	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.43	tall cell variant	papillary	0.0333333333333
+PC_52	s_JJ_thy_052_P	PC_52	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.29	papillary	papillary	0.0333333333333
+PC_53	s_JJ_thy_053_P	PC_53	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs,bone	FFPE	Unmatched	0.64	papillary, follicular	solid	0.533333333333
+PC_54	s_JJ_thy_054_P	PC_54	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	NA	papillary	cribriform growth wit PTC nuclei photo	0.0333333333333
+PC_55	s_JJ_thy_055_P	PC_55	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.07	tall cell variant	papillary	0.0333333333333
+PC_56	s_JJ_thy_056_P	PC_56	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	NA	papillary	solid	NA
+PC_57	s_JJ_thy_057_P	PC_57	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.2	papillary	solid and papillary	0.0333333333333
+PC_58	s_JJ_thy_058_P	PC_58	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.57	tall cell variant	papillary	0.0333333333333
+PC_59	s_JJ_thy_059_P	PC_59	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	No	FFPE	Matched	0.4	tall cell variant	papillary	0.0333333333333
+P-0000174	P-0000174-T01-IM3	DMP0156	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	NA	FFPE	Matched	NA	follicular	solid	1.12154899375
+P-0000285	P-0000285-T01-IM3	DMP0261	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	FFPE	Matched	0.87	NA	NA	23.5525288687
+P-0000320	P-0000320-T01-IM3	DMP0279	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs	FFPE	Matched	0.84	papillary	NA	1.12154899375
+P-0000333	P-0000333-T01-IM3	DMP0296	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	lungs	FFPE	Matched	0.74	papillary	solid	1.12154899375
+P-0000415	P-0000415-T01-IM3	DMP0381	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	spine	FFPE	Matched	1	papillary	solid	3.36464698124
+P-0000425	P-0000425-T01-IM3	DMP0372	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	lungs	FFPE	Matched	NA	Hurthle	solid	1.12154899375
+P-0000460	P-0000460-T01-IM3	DMP0416	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	axillary LN	FFPE	Matched	0.68	papillary	solid	1.12154899375
+P-0000506	P-0000506-T01-IM3	DMP0456	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	lungs	FFPE	Matched	0.91	follicular	solid	3.36464698124
+P-0004012	P-0004012-T01-IM3	DMP0468	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	NA	FFPE	Matched	0.3	NA	NA	1.12154899375
+P-0000555	P-0000555-T01-IM3	DMP0510	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	NA	FFPE	Matched	NA	follicular	solid	2.24309798749
+P-0000800	P-0000800-T01-IM3	DMP0743	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Metastasis	NA	NA	mediastinum, supraclavicular, adrenal	FFPE	Matched	0.58	NA	NA	21.3094308812
+P-0000876	P-0000876-T01-IM3	DMP0818	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	NA	FFPE	Matched	NA	follicular	solid	1.12154899375
+P-0000889	P-0000889-T01-IM3	DMP0826	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	NA	FFPE	Matched	1	papillary	solid and papillary	0.0
+P-0000890	P-0000890-T01-IM3	DMP0825	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs	FFPE	Matched	0.82	follicular	solid	3.36464698124
+P-0000902	P-0000902-T01-IM3	DMP0829	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	NA	FFPE	Matched	0.75	papillary	solid	2.24309798749
+P-0000904	P-0000904-T01-IM3	DMP0846	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	bone	FFPE	Matched	NA	Hurthle	solid	2.24309798749
+P-0000954	P-0000954-T01-IM3	DMP0891	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	FFPE	Matched	0.4	NA	NA	4.48619597498
+P-0001006	P-0001006-T01-IM3	DMP0930	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Metastasis	NA	NA	NA	FFPE	Matched	0.85	NA	NA	7.85084295622
+P-0001007	P-0001007-T01-IM3	DMP0928	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	lungs	FFPE	Matched	NA	follicular	solid	4.48619597498
+P-0001041	P-0001041-T01-IM3	DMP0966	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	scalp, femur	FFPE	Matched	0.37	follicular in met	solid	1.12154899375
+P-0004015	P-0004015-T01-IM3	DMP1054	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	FFPE	Matched	0.21	NA	NA	6.72929396248
+P-0001280	P-0001280-T01-IM3	DMP1176	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs, LN, pelvis	FFPE	Matched	0.66	NA	NA	2.24309798749
+P-0001358	P-0001358-T02-IM3	DMP1545	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	Lungs, LN, bones	FFPE	Matched	0.88	papillary	solid	2.24309798749
+P-0001384	P-0001384-T01-IM3	DMP1268	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	lungs	FFPE	Matched	NA	Hurthle	solid	4.48619597498
+P-0001418	P-0001418-T01-IM3	DMP1295	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	FFPE	Matched	NA	Hurthle	NA	6.72929396248
+P-0001671	P-0001671-T01-IM3	DMP1555	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	FFPE	Matched	0.66	NA	NA	4.48619597498
+P-0001866	P-0001866-T01-IM3	DMP1747	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	LN	FFPE	Matched	0.34	columnar	papillary	4.48619597498
+P-0002058	P-0002058-T01-IM3	DMP1818	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	LN, bone	FFPE	Matched	0.84	follicular	solid	1.12154899375
+P-0002076	P-0002076-T01-IM3	DMP1833	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs, bones	FFPE	Matched	0.94	follicular	solid	4.48619597498
+P-0002204	P-0002204-T01-IM3	DMP2081	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	lungs, LN, adrenal	FFPE	Matched	0.31	NA	NA	11.2154899375
+P-0002210	P-0002210-T01-IM3	DMP2085	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	FFPE	Matched	0.62	NA	NA	4.48619597498
+P-0002212	P-0002212-T01-IM3	DMP2090	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Primary	NA	NA	lungs, LN, bones	FFPE	Matched	1	papillary	solid	1.12154899375
+P-0002220	P-0002220-T01-IM3	DMP2086	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	FFPE	Matched	0.32	NA	NA	4.48619597498
+P-0002233	P-0002233-T01-IM3	DMP2159	Tumor	Thyroid Cancer	Poorly Differentiated Thyroid Carcinoma	THPD	Metastasis	NA	NA	lungs	FFPE	Matched	NA	Hurthle	solid	2.24309798749
+P-0002263	P-0002263-T01-IM3	DMP2174	Tumor	Thyroid Cancer	Anaplastic Thyroid Carcinoma	THAP	Primary	NA	NA	NA	FFPE	Matched	0.4	papillary	NA	3.36464698124

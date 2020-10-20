@@ -1,0 +1,284 @@
+#Sample Identifier	Patient Identifier	Primary Tumor Site	Cancer Type	Cancer Type Detailed	Oncotree Code	Sample Type	Somatic Status	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Text term to describe the organ sub-division in an individual with cancer.	Cancer Type	Cancer Type Detailed	Oncotree Code	The type of sample (i.e., normal, primary, met, recurrence).	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	9	1	1
+SAMPLE_ID	PATIENT_ID	PRIMARY_SITE	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	SAMPLE_TYPE	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+TCGA-BA-4074-01	TCGA-BA-4074-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.43333333333
+TCGA-BA-4076-01	TCGA-BA-4076-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	9.8
+TCGA-BA-4078-01	TCGA-BA-4078-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	12.5666666667
+TCGA-BA-5149-01	TCGA-BA-5149-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.96666666667
+TCGA-BA-5151-01	TCGA-BA-5151-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.5
+TCGA-BA-5152-01	TCGA-BA-5152-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	14.8
+TCGA-BA-5555-01	TCGA-BA-5555-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.26666666667
+TCGA-BA-5556-01	TCGA-BA-5556-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.33333333333
+TCGA-BA-5557-01	TCGA-BA-5557-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.33333333333
+TCGA-BA-5558-01	TCGA-BA-5558-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.23333333333
+TCGA-BA-6868-01	TCGA-BA-6868-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.73333333333
+TCGA-BA-6869-01	TCGA-BA-6869-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	13.7666666667
+TCGA-BA-6870-01	TCGA-BA-6870-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.83333333333
+TCGA-BA-6871-01	TCGA-BA-6871-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.3
+TCGA-BA-6872-01	TCGA-BA-6872-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.4
+TCGA-BA-6873-01	TCGA-BA-6873-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.13333333333
+TCGA-BA-7269-01	TCGA-BA-7269-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.83333333333
+TCGA-BB-4217-01	TCGA-BB-4217-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	0.8
+TCGA-BB-4224-01	TCGA-BB-4224-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.46666666667
+TCGA-CN-4723-01	TCGA-CN-4723-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	25.4
+TCGA-CN-4725-01	TCGA-CN-4725-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.76666666667
+TCGA-CN-4726-01	TCGA-CN-4726-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.4
+TCGA-CN-4727-01	TCGA-CN-4727-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	12.3333333333
+TCGA-CN-4728-01	TCGA-CN-4728-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.96666666667
+TCGA-CN-4729-01	TCGA-CN-4729-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.13333333333
+TCGA-CN-4730-01	TCGA-CN-4730-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.13333333333
+TCGA-CN-4731-01	TCGA-CN-4731-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.33333333333
+TCGA-CN-4733-01	TCGA-CN-4733-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.13333333333
+TCGA-CN-4735-01	TCGA-CN-4735-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.23333333333
+TCGA-CN-4736-01	TCGA-CN-4736-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.93333333333
+TCGA-CN-4737-01	TCGA-CN-4737-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.46666666667
+TCGA-CN-4738-01	TCGA-CN-4738-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.33333333333
+TCGA-CN-4739-01	TCGA-CN-4739-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.26666666667
+TCGA-CN-4740-01	TCGA-CN-4740-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.43333333333
+TCGA-CN-4742-01	TCGA-CN-4742-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.5
+TCGA-CN-5355-01	TCGA-CN-5355-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.2
+TCGA-CN-5356-01	TCGA-CN-5356-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	10.6333333333
+TCGA-CN-5358-01	TCGA-CN-5358-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.76666666667
+TCGA-CN-5359-01	TCGA-CN-5359-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.5
+TCGA-CN-5360-01	TCGA-CN-5360-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	14.7
+TCGA-CN-5363-01	TCGA-CN-5363-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.43333333333
+TCGA-CN-5364-01	TCGA-CN-5364-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.46666666667
+TCGA-CN-5365-01	TCGA-CN-5365-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.7
+TCGA-CN-5366-01	TCGA-CN-5366-01	Hypopharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.23333333333
+TCGA-CN-5367-01	TCGA-CN-5367-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.23333333333
+TCGA-CN-5369-01	TCGA-CN-5369-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	17.0333333333
+TCGA-CN-5370-01	TCGA-CN-5370-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.3
+TCGA-CN-5373-01	TCGA-CN-5373-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.4
+TCGA-CN-6010-01	TCGA-CN-6010-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.9
+TCGA-CN-6011-01	TCGA-CN-6011-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	10.3333333333
+TCGA-CN-6012-01	TCGA-CN-6012-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.9
+TCGA-CN-6013-01	TCGA-CN-6013-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.63333333333
+TCGA-CN-6016-01	TCGA-CN-6016-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.5
+TCGA-CN-6017-01	TCGA-CN-6017-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	0.3
+TCGA-CN-6018-01	TCGA-CN-6018-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.96666666667
+TCGA-CN-6019-01	TCGA-CN-6019-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.13333333333
+TCGA-CN-6020-01	TCGA-CN-6020-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.3
+TCGA-CN-6021-01	TCGA-CN-6021-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	8.3
+TCGA-CN-6022-01	TCGA-CN-6022-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.23333333333
+TCGA-CN-6023-01	TCGA-CN-6023-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.46666666667
+TCGA-CN-6024-01	TCGA-CN-6024-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.4
+TCGA-CN-6988-01	TCGA-CN-6988-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.63333333333
+TCGA-CN-6989-01	TCGA-CN-6989-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.1
+TCGA-CN-6992-01	TCGA-CN-6992-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	9.9
+TCGA-CN-6994-01	TCGA-CN-6994-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.46666666667
+TCGA-CN-6995-01	TCGA-CN-6995-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.93333333333
+TCGA-CN-6997-01	TCGA-CN-6997-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.46666666667
+TCGA-CN-6998-01	TCGA-CN-6998-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.2
+TCGA-CQ-5324-01	TCGA-CQ-5324-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.23333333333
+TCGA-CQ-5325-01	TCGA-CQ-5325-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.66666666667
+TCGA-CQ-5326-01	TCGA-CQ-5326-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.1
+TCGA-CQ-5329-01	TCGA-CQ-5329-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.06666666667
+TCGA-CQ-5330-01	TCGA-CQ-5330-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.96666666667
+TCGA-CQ-5331-01	TCGA-CQ-5331-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.5
+TCGA-CQ-5332-01	TCGA-CQ-5332-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.1
+TCGA-CQ-5334-01	TCGA-CQ-5334-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.4
+TCGA-CQ-6218-01	TCGA-CQ-6218-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.63333333333
+TCGA-CQ-6220-01	TCGA-CQ-6220-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.53333333333
+TCGA-CQ-6221-01	TCGA-CQ-6221-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.66666666667
+TCGA-CQ-6223-01	TCGA-CQ-6223-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.66666666667
+TCGA-CQ-6224-01	TCGA-CQ-6224-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.06666666667
+TCGA-CQ-6225-01	TCGA-CQ-6225-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.66666666667
+TCGA-CQ-6227-01	TCGA-CQ-6227-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.26666666667
+TCGA-CQ-6228-01	TCGA-CQ-6228-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.46666666667
+TCGA-CQ-6229-01	TCGA-CQ-6229-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	0.933333333333
+TCGA-CQ-7065-01	TCGA-CQ-7065-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	0.933333333333
+TCGA-CQ-7068-01	TCGA-CQ-7068-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.96666666667
+TCGA-CR-5247-01	TCGA-CR-5247-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.36666666667
+TCGA-CR-6474-01	TCGA-CR-6474-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.3
+TCGA-CR-6477-01	TCGA-CR-6477-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.6
+TCGA-CR-6478-01	TCGA-CR-6478-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.5
+TCGA-CR-6484-01	TCGA-CR-6484-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	8.0
+TCGA-CR-6488-01	TCGA-CR-6488-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.16666666667
+TCGA-CR-6491-01	TCGA-CR-6491-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.1
+TCGA-CR-6492-01	TCGA-CR-6492-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.0
+TCGA-CR-6493-01	TCGA-CR-6493-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.3
+TCGA-CR-7364-01	TCGA-CR-7364-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	13.3666666667
+TCGA-CR-7365-01	TCGA-CR-7365-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.03333333333
+TCGA-CR-7367-01	TCGA-CR-7367-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.23333333333
+TCGA-CR-7370-01	TCGA-CR-7370-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	14.9
+TCGA-CR-7371-01	TCGA-CR-7371-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	8.83333333333
+TCGA-CR-7372-01	TCGA-CR-7372-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.63333333333
+TCGA-CR-7373-01	TCGA-CR-7373-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.23333333333
+TCGA-CR-7374-01	TCGA-CR-7374-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	10.8
+TCGA-CR-7376-01	TCGA-CR-7376-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.96666666667
+TCGA-CR-7377-01	TCGA-CR-7377-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.83333333333
+TCGA-CR-7379-01	TCGA-CR-7379-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.03333333333
+TCGA-CR-7380-01	TCGA-CR-7380-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.03333333333
+TCGA-CR-7382-01	TCGA-CR-7382-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.63333333333
+TCGA-CR-7383-01	TCGA-CR-7383-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.2
+TCGA-CR-7386-01	TCGA-CR-7386-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.43333333333
+TCGA-CR-7388-01	TCGA-CR-7388-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	21.6333333333
+TCGA-CR-7389-01	TCGA-CR-7389-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.2
+TCGA-CR-7390-01	TCGA-CR-7390-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.6
+TCGA-CR-7391-01	TCGA-CR-7391-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	0.366666666667
+TCGA-CR-7392-01	TCGA-CR-7392-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.1
+TCGA-CR-7393-01	TCGA-CR-7393-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	0.1
+TCGA-CR-7394-01	TCGA-CR-7394-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.03333333333
+TCGA-CR-7395-01	TCGA-CR-7395-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.83333333333
+TCGA-CR-7397-01	TCGA-CR-7397-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.36666666667
+TCGA-CR-7398-01	TCGA-CR-7398-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	10.1666666667
+TCGA-CR-7399-01	TCGA-CR-7399-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	8.53333333333
+TCGA-CR-7401-01	TCGA-CR-7401-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.43333333333
+TCGA-CR-7402-01	TCGA-CR-7402-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	28.3666666667
+TCGA-CV-5430-01	TCGA-CV-5430-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.33333333333
+TCGA-CV-5431-01	TCGA-CV-5431-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.56666666667
+TCGA-CV-5432-01	TCGA-CV-5432-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	7.7
+TCGA-CV-5434-01	TCGA-CV-5434-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.43333333333
+TCGA-CV-5435-01	TCGA-CV-5435-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.2
+TCGA-CV-5436-01	TCGA-CV-5436-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.26666666667
+TCGA-CV-5439-01	TCGA-CV-5439-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.1
+TCGA-CV-5440-01	TCGA-CV-5440-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.4
+TCGA-CV-5441-01	TCGA-CV-5441-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	10.9
+TCGA-CV-5444-01	TCGA-CV-5444-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.63333333333
+TCGA-CV-5966-01	TCGA-CV-5966-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.26666666667
+TCGA-CV-5970-01	TCGA-CV-5970-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.56666666667
+TCGA-CV-5973-01	TCGA-CV-5973-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.66666666667
+TCGA-CV-5976-01	TCGA-CV-5976-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.26666666667
+TCGA-CV-5977-01	TCGA-CV-5977-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.36666666667
+TCGA-CV-5978-01	TCGA-CV-5978-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.36666666667
+TCGA-CV-5979-01	TCGA-CV-5979-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.2
+TCGA-CV-6003-01	TCGA-CV-6003-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.03333333333
+TCGA-CV-6436-01	TCGA-CV-6436-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.36666666667
+TCGA-CV-6441-01	TCGA-CV-6441-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.53333333333
+TCGA-CV-6933-01	TCGA-CV-6933-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.26666666667
+TCGA-CV-6934-01	TCGA-CV-6934-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.83333333333
+TCGA-CV-6935-01	TCGA-CV-6935-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.53333333333
+TCGA-CV-6936-01	TCGA-CV-6936-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	7.6
+TCGA-CV-6937-01	TCGA-CV-6937-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.96666666667
+TCGA-CV-6938-01	TCGA-CV-6938-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.46666666667
+TCGA-CV-6940-01	TCGA-CV-6940-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.96666666667
+TCGA-CV-6941-01	TCGA-CV-6941-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.2
+TCGA-CV-6942-01	TCGA-CV-6942-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.66666666667
+TCGA-CV-6943-01	TCGA-CV-6943-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.7
+TCGA-CV-6945-01	TCGA-CV-6945-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.83333333333
+TCGA-CV-6948-01	TCGA-CV-6948-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.83333333333
+TCGA-CV-6950-01	TCGA-CV-6950-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.76666666667
+TCGA-CV-6951-01	TCGA-CV-6951-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.7
+TCGA-CV-6952-01	TCGA-CV-6952-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.8
+TCGA-CV-6953-01	TCGA-CV-6953-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.03333333333
+TCGA-CV-6954-01	TCGA-CV-6954-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.13333333333
+TCGA-CV-6955-01	TCGA-CV-6955-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.33333333333
+TCGA-CV-6956-01	TCGA-CV-6956-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.03333333333
+TCGA-CV-6959-01	TCGA-CV-6959-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.86666666667
+TCGA-CV-6960-01	TCGA-CV-6960-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.1
+TCGA-CV-6962-01	TCGA-CV-6962-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.5
+TCGA-CV-7089-01	TCGA-CV-7089-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.63333333333
+TCGA-CV-7090-01	TCGA-CV-7090-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.5
+TCGA-CV-7091-01	TCGA-CV-7091-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.03333333333
+TCGA-CV-7095-01	TCGA-CV-7095-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.7
+TCGA-CV-7097-01	TCGA-CV-7097-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.36666666667
+TCGA-CV-7099-01	TCGA-CV-7099-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	8.46666666667
+TCGA-CV-7101-01	TCGA-CV-7101-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.7
+TCGA-CV-7102-01	TCGA-CV-7102-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.3
+TCGA-CV-7103-01	TCGA-CV-7103-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.3
+TCGA-CV-7104-01	TCGA-CV-7104-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.33333333333
+TCGA-CV-7177-01	TCGA-CV-7177-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.3
+TCGA-CV-7178-01	TCGA-CV-7178-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.3
+TCGA-CV-7180-01	TCGA-CV-7180-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.96666666667
+TCGA-CV-7183-01	TCGA-CV-7183-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.93333333333
+TCGA-CV-7235-01	TCGA-CV-7235-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.66666666667
+TCGA-CV-7236-01	TCGA-CV-7236-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.53333333333
+TCGA-CV-7238-01	TCGA-CV-7238-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.8
+TCGA-CV-7242-01	TCGA-CV-7242-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	9.0
+TCGA-CV-7243-01	TCGA-CV-7243-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.23333333333
+TCGA-CV-7245-01	TCGA-CV-7245-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	14.0666666667
+TCGA-CV-7247-01	TCGA-CV-7247-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.1
+TCGA-CV-7248-01	TCGA-CV-7248-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	8.23333333333
+TCGA-CV-7250-01	TCGA-CV-7250-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.86666666667
+TCGA-CV-7252-01	TCGA-CV-7252-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.46666666667
+TCGA-CV-7253-01	TCGA-CV-7253-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.83333333333
+TCGA-CV-7254-01	TCGA-CV-7254-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	7.7
+TCGA-CV-7255-01	TCGA-CV-7255-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.3
+TCGA-CV-7261-01	TCGA-CV-7261-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.43333333333
+TCGA-CV-7263-01	TCGA-CV-7263-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.4
+TCGA-CV-7407-01	TCGA-CV-7407-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.7
+TCGA-CV-7410-01	TCGA-CV-7410-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.36666666667
+TCGA-CV-7411-01	TCGA-CV-7411-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.53333333333
+TCGA-CV-7413-01	TCGA-CV-7413-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.06666666667
+TCGA-CV-7414-01	TCGA-CV-7414-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	7.63333333333
+TCGA-CV-7415-01	TCGA-CV-7415-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.26666666667
+TCGA-CV-7416-01	TCGA-CV-7416-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.13333333333
+TCGA-CV-7418-01	TCGA-CV-7418-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.76666666667
+TCGA-CV-7421-01	TCGA-CV-7421-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.9
+TCGA-CV-7422-01	TCGA-CV-7422-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.06666666667
+TCGA-CV-7423-01	TCGA-CV-7423-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.3
+TCGA-CV-7424-01	TCGA-CV-7424-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.36666666667
+TCGA-CV-7427-01	TCGA-CV-7427-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	12.9
+TCGA-CV-7429-01	TCGA-CV-7429-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.66666666667
+TCGA-CV-7430-01	TCGA-CV-7430-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.96666666667
+TCGA-CV-7432-01	TCGA-CV-7432-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.5
+TCGA-CV-7433-01	TCGA-CV-7433-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.33333333333
+TCGA-CV-7434-01	TCGA-CV-7434-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.73333333333
+TCGA-CV-7435-01	TCGA-CV-7435-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.56666666667
+TCGA-CV-7437-01	TCGA-CV-7437-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.9
+TCGA-CV-7438-01	TCGA-CV-7438-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.23333333333
+TCGA-CV-7440-01	TCGA-CV-7440-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.6
+TCGA-CX-7082-01	TCGA-CX-7082-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.93333333333
+TCGA-CX-7085-01	TCGA-CX-7085-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.73333333333
+TCGA-CX-7086-01	TCGA-CX-7086-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.7
+TCGA-CX-7219-01	TCGA-CX-7219-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.76666666667
+TCGA-D6-6515-01	TCGA-D6-6515-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.76666666667
+TCGA-D6-6516-01	TCGA-D6-6516-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	48.1666666667
+TCGA-D6-6517-01	TCGA-D6-6517-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.16666666667
+TCGA-D6-6823-01	TCGA-D6-6823-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.36666666667
+TCGA-D6-6824-01	TCGA-D6-6824-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.13333333333
+TCGA-D6-6825-01	TCGA-D6-6825-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.1
+TCGA-D6-6826-01	TCGA-D6-6826-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.96666666667
+TCGA-DQ-5624-01	TCGA-DQ-5624-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.13333333333
+TCGA-DQ-5625-01	TCGA-DQ-5625-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.93333333333
+TCGA-DQ-5629-01	TCGA-DQ-5629-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	9.43333333333
+TCGA-DQ-5630-01	TCGA-DQ-5630-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.43333333333
+TCGA-DQ-5631-01	TCGA-DQ-5631-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.73333333333
+TCGA-DQ-7588-01	TCGA-DQ-7588-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.03333333333
+TCGA-DQ-7592-01	TCGA-DQ-7592-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.2
+TCGA-F7-7848-01	TCGA-F7-7848-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	9.33333333333
+TCGA-H7-7774-01	TCGA-H7-7774-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.53333333333
+TCGA-HD-7229-01	TCGA-HD-7229-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.96666666667
+TCGA-HD-7753-01	TCGA-HD-7753-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.93333333333
+TCGA-HD-7831-01	TCGA-HD-7831-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.06666666667
+TCGA-IQ-7630-01	TCGA-IQ-7630-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.66666666667
+TCGA-IQ-7631-01	TCGA-IQ-7631-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	0.833333333333
+TCGA-IQ-7632-01	TCGA-IQ-7632-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.73333333333
+TCGA-BA-4077-01	TCGA-BA-4077-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	9.36666666667
+TCGA-BA-5153-01	TCGA-BA-5153-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.7
+TCGA-BA-5559-01	TCGA-BA-5559-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.43333333333
+TCGA-BB-4223-01	TCGA-BB-4223-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	8.66666666667
+TCGA-BB-4225-01	TCGA-BB-4225-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.13333333333
+TCGA-BB-4228-01	TCGA-BB-4228-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.3
+TCGA-CN-4741-01	TCGA-CN-4741-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.96666666667
+TCGA-CN-5374-01	TCGA-CN-5374-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.0
+TCGA-CQ-5323-01	TCGA-CQ-5323-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.03333333333
+TCGA-CR-5243-01	TCGA-CR-5243-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.06666666667
+TCGA-CR-5248-01	TCGA-CR-5248-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	10.1666666667
+TCGA-CR-5249-01	TCGA-CR-5249-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.2
+TCGA-CR-5250-01	TCGA-CR-5250-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.06666666667
+TCGA-CR-6467-01	TCGA-CR-6467-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.26666666667
+TCGA-CR-6470-01	TCGA-CR-6470-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.33333333333
+TCGA-CR-6471-01	TCGA-CR-6471-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.06666666667
+TCGA-CR-6472-01	TCGA-CR-6472-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	13.8
+TCGA-CR-6473-01	TCGA-CR-6473-01	Hypopharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.93333333333
+TCGA-CR-6481-01	TCGA-CR-6481-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	14.3
+TCGA-CR-6482-01	TCGA-CR-6482-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.4
+TCGA-CR-6487-01	TCGA-CR-6487-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	4.06666666667
+TCGA-CR-7368-01	TCGA-CR-7368-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	6.1
+TCGA-CR-7369-01	TCGA-CR-7369-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.33333333333
+TCGA-CR-7385-01	TCGA-CR-7385-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.53333333333
+TCGA-CR-7404-01	TCGA-CR-7404-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	3.6
+TCGA-CV-5442-01	TCGA-CV-5442-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	7.9
+TCGA-CV-5443-01	TCGA-CV-5443-01	Larynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.6
+TCGA-CV-5971-01	TCGA-CV-5971-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	0.733333333333
+TCGA-CV-6433-01	TCGA-CV-6433-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.73333333333
+TCGA-CV-6939-01	TCGA-CV-6939-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.2
+TCGA-CV-6961-01	TCGA-CV-6961-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	16.2
+TCGA-CV-7100-01	TCGA-CV-7100-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	0.6
+TCGA-CV-7406-01	TCGA-CV-7406-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	5.66666666667
+TCGA-DQ-7591-01	TCGA-DQ-7591-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.16666666667
+TCGA-HD-7754-01	TCGA-HD-7754-01	Oropharynx	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	1.8
+TCGA-HD-7832-01	TCGA-HD-7832-01	Oral Cavity	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	HNSC	Primary	Matched	2.8

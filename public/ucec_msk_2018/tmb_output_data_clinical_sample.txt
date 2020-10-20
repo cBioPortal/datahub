@@ -1,0 +1,202 @@
+#Patient Identifier	Sample Identifier	MMR-D by IHC	MSI Status	Neoplasm Histologic Grade	SCNA Cluster	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	MMR-D by IHC	MSI status.	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	SCNA Cluster	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	0	1	1	1
+PATIENT_ID	SAMPLE_ID	MMRD_IHC	MSI_STATUS	GRADE	SCNA_CLUSTER	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+P-0000024	P-0000024-T01-IM3	N	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.72929396248
+P-0000025	P-0000025-T01-IM3	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	1.12154899375
+P-0000025	P-0000025-T02-IM5	NA	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	1.98713133746
+P-0000026	P-0000026-T01-IM3	not done	MSS	3	A	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	4.48619597498
+P-0000055	P-0000055-T01-IM3	not done	MSS	3	A	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	6.72929396248
+P-0000060	P-0000060-T01-IM3	not done	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	6.72929396248
+P-0000061	P-0000061-T01-IM3	N	MSS	3	C	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	3.36464698124
+P-0000064	P-0000064-T02-IM3	N	MSS	3	C	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	6.72929396248
+P-0000069	P-0000069-T01-IM3	not done	MSI-H	2	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	21.3094308812
+P-0000080	P-0000080-T01-IM3	not done	MSS	3	A	UUC	Endometrial Cancer	Uterine Undifferentiated Carcinoma	4.48619597498
+P-0000105	P-0000105-T01-IM3	not done	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	6.72929396248
+P-0000135	P-0000135-T01-IM3	not done	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	6.72929396248
+P-0000145	P-0000145-T01-IM3	N	MSS	3	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	2.24309798749
+P-0000156	P-0000156-T01-IM3	not done	MSS	3	C	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	3.36464698124
+P-0000157	P-0000157-T01-IM3	Y	MSI-indeterminate	3	B	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	39.2542147811
+P-0000193	P-0000193-T01-IM3	N	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	7.85084295622
+P-0000230	P-0000230-T01-IM3	not done	MSS	3	C	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	4.48619597498
+P-0000321	P-0000321-T02-IM3	N	MSS	3	A	UUC	Endometrial Cancer	Uterine Undifferentiated Carcinoma	6.72929396248
+P-0000343	P-0000343-T01-IM3	not done	MSS	3	NA	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	4.48619597498
+P-0000367	P-0000367-T01-IM3	not done	MSS	3	A	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	3.36464698124
+P-0000404	P-0000404-T01-IM3	not done	MSS	2	A	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	7.85084295622
+P-0000416	P-0000416-T01-IM3	not done	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	3.36464698124
+P-0000448	P-0000448-T01-IM3	Y	MSI-H	2	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	85.2377235247
+P-0000465	P-0000465-T01-IM3	N	MSS	2	A	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	2.24309798749
+P-0000558	P-0000558-T01-IM3	Y	MSI-H	1	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	29.1602738374
+P-0000566	P-0000566-T01-IM3	N	MSS	3	NA	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	4.48619597498
+P-0000578	P-0000578-T01-IM3	not done	MSS	3	NA	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	1.12154899375
+P-0000614	P-0000614-T01-IM3	not done	MSI-H	3	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	37.0111167936
+P-0000698	P-0000698-T01-IM3	not done	MSS	3	B	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	4.48619597498
+P-0000780	P-0000780-T01-IM3	not done	MSI-indeterminate	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	2.24309798749
+P-0000839	P-0000839-T01-IM3	not done	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	3.36464698124
+P-0000839	P-0000839-T02-IM5	NA	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	1.98713133746
+P-0000878	P-0000878-T01-IM3	not done	MSS	3	A	UNEC	Endometrial Cancer	Uterine Neuroendocrine Carcinoma	3.36464698124
+P-0000952	P-0000952-T01-IM3	not done	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.72929396248
+P-0000952	P-0000952-T02-IM5	NA	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	5.96139401238
+P-0000952	P-0000952-T03-IM5	NA	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	4.96782834365
+P-0001005	P-0001005-T01-IM3	not done	MSS	3	C	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	6.72929396248
+P-0001038	P-0001038-T01-IM3	not done	MSI-indeterminate	3	C	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	2.24309798749
+P-0001044	P-0001044-T01-IM3	not done	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	6.72929396248
+P-0001073	P-0001073-T01-IM3	not done	MSI-indeterminate	2	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	11.2154899375
+P-0001085	P-0001085-T01-IM3	not done	MSI-indeterminate	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	3.36464698124
+P-0001094	P-0001094-T01-IM3	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	4.48619597498
+P-0001115	P-0001115-T01-IM3	Y	MSI-H	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	66.171390631
+P-0001240	P-0001240-T01-IM3	not done	NA	3	NA	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	13.458587925
+P-0001248	P-0001248-T01-IM3	Y	MSI-H	1	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	34.7680188061
+P-0001286	P-0001286-T01-IM3	not done	MSS	1	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	10.0939409437
+P-0001456	P-0001456-T01-IM3	not done	MSS	3	NA	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	4.48619597498
+P-0001460	P-0001460-T01-IM3	not done	MSS	3	B	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	3.36464698124
+P-0001468	P-0001468-T01-IM3	N	MSS	3	NA	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	2.24309798749
+P-0001565	P-0001565-T01-IM3	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	6.72929396248
+P-0001629	P-0001629-T01-IM3	not done	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	5.60774496873
+P-0001653	P-0001653-T01-IM3	not done	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	2.24309798749
+P-0001791	P-0001791-T01-IM3	Y	MSI-H	3	A	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	25.7956268562
+P-0001798	P-0001798-T01-IM3	N	MSS	2	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	2.24309798749
+P-0001820	P-0001820-T01-IM3	not done	MSS	3	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	2.24309798749
+P-0001936	P-0001936-T01-IM3	not done	MSS	3	A	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	2.24309798749
+P-0001994	P-0001994-T01-IM3	not done	MSS	3	NA	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	2.24309798749
+P-0002004	P-0002004-T01-IM3	N	MSS	3	NA	UDDC	Endometrial Cancer	Uterine Dedifferentiated Carcinoma	11.2154899375
+P-0002142	P-0002142-T01-IM3	not done	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	6.72929396248
+P-0002174	P-0002174-T01-IM3	not done	MSS	3	C	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	3.36464698124
+P-0002249	P-0002249-T01-IM3	not done	MSI-indeterminate	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.24309798749
+P-0002280	P-0002280-T01-IM3	Y	MSI-H	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	33.6464698124
+P-0002315	P-0002315-T01-IM3	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	10.0939409437
+P-0002337	P-0002337-T01-IM3	N	MSS	3	B	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	4.48619597498
+P-0002357	P-0002357-T01-IM3	not done	MSS	3	NA	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	4.48619597498
+P-0002577	P-0002577-T01-IM3	N	MSS	3	A	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	5.60774496873
+P-0002708	P-0002708-T01-IM3	not done	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	4.48619597498
+P-0002717	P-0002717-T01-IM3	N	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	8.97239194997
+P-0002784	P-0002784-T01-IM3	N	MSS	3	B	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	4.48619597498
+P-0002829	P-0002829-T01-IM3	not done	MSS	3	C	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	4.48619597498
+P-0002945	P-0002945-T01-IM3	not done	MSS	3	C	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	6.72929396248
+P-0003014	P-0003014-T01-IM3	Y	MSI-H	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	42.6188617624
+P-0003038	P-0003038-T01-IM5	not done	MSS	3	B	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	5.96139401238
+P-0003045	P-0003045-T01-IM5	not done	MSI-H	3	B	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	22.8520103808
+P-0003204	P-0003204-T01-IM5	not done	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.98069700619
+P-0003219	P-0003219-T01-IM5	not done	MSS	3	NA	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.98069700619
+P-0003221	P-0003221-T01-IM5	N	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	2.98069700619
+P-0003244	P-0003244-T01-IM5	not done	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	4.96782834365
+P-0003453	P-0003453-T01-IM5	N	MSS	3	C	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	12.9163536935
+P-0003544	P-0003544-T01-IM5	N	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	0.993565668729
+P-0003599	P-0003599-T01-IM5	not done	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	3.97426267492
+P-0003687	P-0003687-T01-IM5	not done	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	3.97426267492
+P-0003764	P-0003764-T01-IM5	N	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.98713133746
+P-0003767	P-0003767-T01-IM5	Y	MSI-indeterminate	1	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	26.8262730557
+P-0003794	P-0003794-T01-IM5	N	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	3.97426267492
+P-0003802	P-0003802-T01-IM5	N	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.95495968111
+P-0003876	P-0003876-T01-IM5	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	3.97426267492
+P-0003982	P-0003982-T01-IM3	N	MSS	1	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	7.85084295622
+P-0004017	P-0004017-T01-IM5	not done	MSS	3	B	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	9.93565668729
+P-0004040	P-0004040-T02-IM5	N	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	5.96139401238
+P-0004075	P-0004075-T01-IM5	not done	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	2.98069700619
+P-0004088	P-0004088-T01-IM5	N	MSS	3	NA	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	1.98713133746
+P-0004136	P-0004136-T01-IM5	Y	MSI-H	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	27.8198387244
+P-0004173	P-0004173-T01-IM5	not done	MSS	1	A	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.95495968111
+P-0004204	P-0004204-T01-IM5	N	MSS	3	B	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	5.96139401238
+P-0004255	P-0004255-T01-IM5	N	MSI-H	3	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	27.8198387244
+P-0004261	P-0004261-T01-IM5	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.98069700619
+P-0004300	P-0004300-T01-IM5	N	MSS	3	NA	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	0.993565668729
+P-0004379	P-0004379-T01-IM5	inconclusive	MSI-H	3	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	434.188197235
+P-0004521	P-0004521-T01-IM5	N	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	4.96782834365
+P-0004528	P-0004528-T01-IM5	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	6.95495968111
+P-0004544	P-0004544-T01-IM5	N	MSI-indeterminate	3	C	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	5.96139401238
+P-0004620	P-0004620-T01-IM5	not done	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	2.98069700619
+P-0004787	P-0004787-T01-IM5	N	MSI-indeterminate	3	B	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	10.929222356
+P-0004793	P-0004793-T01-IM5	N	MSS	3	B	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	6.95495968111
+P-0004818	P-0004818-T01-IM5	N	MSS	3	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	3.97426267492
+P-0004902	P-0004902-T01-IM5	N	MSS	3	C	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	3.97426267492
+P-0004911	P-0004911-T01-IM5	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	1.98713133746
+P-0004929	P-0004929-T01-IM5	N	MSS	3	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.95495968111
+P-0004929	P-0004929-T02-IM5	NA	MSS	3	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	5.96139401238
+P-0004942	P-0004942-T01-IM5	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	3.97426267492
+P-0005046	P-0005046-T01-IM5	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	5.96139401238
+P-0005061	P-0005061-T01-IM5	N	MSI-indeterminate	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	5.96139401238
+P-0005067	P-0005067-T01-IM5	N	MSS	3	B	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.98069700619
+P-0005085	P-0005085-T01-IM5	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	7.94852534983
+P-0005181	P-0005181-T01-IM5	not done	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.95495968111
+P-0005285	P-0005285-T01-IM5	not done	MSI-H	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	33.7812327368
+P-0005285	P-0005285-T02-IM5	NA	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.95495968111
+P-0005375	P-0005375-T01-IM5	N	MSS	3	NA	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	0.0
+P-0005501	P-0005501-T01-IM5	N	MSS	3	C	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.98069700619
+P-0005532	P-0005532-T01-IM5	not done	MSS	3	B	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	1.98713133746
+P-0005564	P-0005564-T01-IM5	Y	MSI-H	3	A	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	112.272920566
+P-0005577	P-0005577-T01-IM5	N	MSS	3	A	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	3.97426267492
+P-0005695	P-0005695-T01-IM5	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	3.97426267492
+P-0005883	P-0005883-T01-IM5	not done	MSS	3	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	7.94852534983
+P-0006014	P-0006014-T01-IM5	N	MSS	3	NA	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	4.96782834365
+P-0006103	P-0006103-T01-IM5	not done	MSS	3	A	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	2.98069700619
+P-0006167	P-0006167-T01-IM5	N	MSS	3	NA	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	7.94852534983
+P-0006201	P-0006201-T01-IM5	Y	MSI-H	2	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	51.6654147739
+P-0006203	P-0006203-T01-IM5	not done	MSI-indeterminate	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	0.993565668729
+P-0006269	P-0006269-T01-IM5	Y	MSI-H	3	C	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	74.5174251547
+P-0006344	P-0006344-T01-IM5	not done	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	7.94852534983
+P-0006418	P-0006418-T01-IM5	not done	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	7.94852534983
+P-0006431	P-0006431-T01-IM5	N	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	4.96782834365
+P-0006482	P-0006482-T01-IM5	N	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	3.97426267492
+P-0006756	P-0006756-T01-IM5	N	MSS	3	C	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	2.98069700619
+P-0006805	P-0006805-T01-IM5	N	MSS	3	B	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.98713133746
+P-0006805	P-0006805-T02-IM5	NA	MSS	3	B	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	4.96782834365
+P-0006830	P-0006830-T01-IM5	not done	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.95495968111
+P-0006849	P-0006849-T01-IM5	Y	MSI-H	3	B	UUC	Endometrial Cancer	Uterine Undifferentiated Carcinoma	35.7683640743
+P-0007001	P-0007001-T01-IM5	N	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	2.98069700619
+P-0007155	P-0007155-T01-IM5	N	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.95495968111
+P-0007178	P-0007178-T01-IM5	N	MSS	3	NA	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	6.95495968111
+P-0007371	P-0007371-T01-IM5	not done	MSS	3	B	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	6.95495968111
+P-0007398	P-0007398-T01-IM5	not done	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	5.96139401238
+P-0007398	P-0007398-T02-IM5	NA	MSI-indeterminate	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	4.96782834365
+P-0007608	P-0007608-T01-IM5	not done	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.98069700619
+P-0007628	P-0007628-T01-IM5	not done	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	5.96139401238
+P-0007675	P-0007675-T01-IM5	Y	MSI-H	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	20.8648790433
+P-0007680	P-0007680-T01-IM5	not done	MSI-indeterminate	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	8.94209101856
+P-0007850	P-0007850-T01-IM5	not done	MSS	3	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	2.98069700619
+P-0007872	P-0007872-T01-IM5	not done	MSS	3	C	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	1.98713133746
+P-0007932	P-0007932-T01-IM5	not done	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	2.98069700619
+P-0007973	P-0007973-T01-IM5	not done	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	4.96782834365
+P-0008011	P-0008011-T01-IM5	not done	MSS	3	B	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	4.96782834365
+P-0008040	P-0008040-T01-IM5	not done	MSS	3	B	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.98713133746
+P-0008207	P-0008207-T01-IM5	N	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	5.96139401238
+P-0008233	P-0008233-T01-IM5	not done	MSS	3	B	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	6.95495968111
+P-0008313	P-0008313-T01-IM5	not done	MSS	3	B	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	2.98069700619
+P-0008394	P-0008394-T01-IM5	N	MSS	3	C	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	3.97426267492
+P-0008444	P-0008444-T01-IM5	Y	MSI-H	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	25.832707387
+P-0008516	P-0008516-T01-IM5	not done	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.98069700619
+P-0008646	P-0008646-T01-IM5	Y	MSI-H	2	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	22.8520103808
+P-0008685	P-0008685-T01-IM5	not done	MSS	3	B	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.98069700619
+P-0008717	P-0008717-T01-IM5	not done	MSS	3	B	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	3.97426267492
+P-0008732	P-0008732-T01-IM5	not done	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	3.97426267492
+P-0008864	P-0008864-T01-IM5	N	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	8.94209101856
+P-0008936	P-0008936-T01-IM5	not done	MSS	3	NA	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	4.96782834365
+P-0009143	P-0009143-T01-IM5	N	MSS	3	A	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	9.93565668729
+P-0009267	P-0009267-T01-IM5	N	MSS	3	NA	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	4.96782834365
+P-0009316	P-0009316-T01-IM5	N	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	10.929222356
+P-0009518	P-0009518-T01-IM5	N	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.95495968111
+P-0009585	P-0009585-T01-IM5	Y	MSI-H	3	A	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	34.7747984055
+P-0009595	P-0009595-T01-IM5	not done	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	3.97426267492
+P-0009651	P-0009651-T01-IM5	not done	MSS	3	NA	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	6.95495968111
+P-0009709	P-0009709-T01-IM5	N	MSS	3	NA	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	3.97426267492
+P-0009835	P-0009835-T01-IM5	not done	MSS	3	C	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.98069700619
+P-0010182	P-0010182-T01-IM5	N	MSI-indeterminate	3	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	0.0
+P-0010217	P-0010217-T01-IM5	N	MSS	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	5.96139401238
+P-0010221	P-0010221-T01-IM5	not done	MSS	3	A	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	3.97426267492
+P-0010283	P-0010283-T01-IM5	N	MSS	3	A	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	5.96139401238
+P-0010310	P-0010310-T01-IM5	N	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	8.94209101856
+P-0010660	P-0010660-T01-IM5	not done	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	10.929222356
+P-0010671	P-0010671-T01-IM5	not done	MSI-H	2	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	25.832707387
+P-0010782	P-0010782-T01-IM5	not done	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	3.97426267492
+P-0010828	P-0010828-T01-IM5	Y	MSI-H	2	C	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	28.8134043931
+P-0010967	P-0010967-T01-IM5	Y	MSS	3	NA	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	160.957638334
+P-0011013	P-0011013-T01-IM5	Y	MSI-H	1	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	31.7941013993
+P-0011101	P-0011101-T01-IM5	not done	MSS	3	C	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	6.95495968111
+P-0011145	P-0011145-T01-IM5	not done	MSS	3	A	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	2.98069700619
+P-0011174	P-0011174-T01-IM5	N	MSS	2	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	4.96782834365
+P-0011222	P-0011222-T01-IM5	Y	MSI-H	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	28.8134043931
+P-0011224	P-0011224-T01-IM5	N	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	6.95495968111
+P-0011262	P-0011262-T01-IM5	Y	MSI-H	3	NA	UMEC	Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	51.6654147739
+P-0011330	P-0011330-T01-IM5	N	MSS	3	B	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	10.929222356
+P-0011344	P-0011344-T01-IM5	not done	MSS	3	B	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	5.96139401238
+P-0011385	P-0011385-T01-IM5	Y	MSI-H	3	NA	UCCC	Endometrial Cancer	Uterine Clear Cell Carcinoma	53.6525461114

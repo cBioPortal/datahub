@@ -1,0 +1,108 @@
+#Patient Identifier	Sample Identifier	DIAGNOSTIC_CATEGORY	CANCER_TYPE	CANCER_TYPE_DETAILED	Neoplasm Histologic Grade	Oncotree Code	Primary Tumor Site	Tissue Sequenced	Sample Timepoint	Sample Tested Category	Specimen Preservation Type	Sample Class	NGS Test	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	DIAGNOSTIC_CATEGORY	CANCER_TYPE	CANCER_TYPE_DETAILED	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Oncotree Code	Text term to describe the organ sub-division in an individual with cancer.	Tissue Sequenced	Sample sequential timepoint (T1 = timepoint 1, T2 = timepoint 2, etc.)	Sample Tested Category	The method used for preparing the tissue for examination and study.	The sample classification (i.e., tumor, cellline, xenograph).	Sample was NGS tested	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	DIAGNOSTIC_CATEGORY	CANCER_TYPE	CANCER_TYPE_DETAILED	GRADE	ONCOTREE_CODE	PRIMARY_SITE	TISSUE_SEQUENCED	SAMPLE_TIMEPOINT	SAMPLE_TESTED_CATEGORY	SPECIMEN_PRESERVATION_TYPE	SAMPLE_CLASS	NGS_TEST	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+PIP13-21968	PIP13-21968-T1	Sarcoma	Fibrosarcoma	Congenital Fibrosarcoma	NA	FIBS	Forearm	Lung	Metastatic	Primary disease	FFPE	Tumor	RNA-seq	Unmatched	NA
+PIP13-42350	PIP13-42350-T1	Renal	Renal cancer	Wilms Tumor	NA	WT	Kidney	Lung	Metastatic	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.9
+PIP13-45348	PIP13-45348-T1	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Diagnostic	Primary disease	Bone marrow	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.63333333333
+PIP13-45348	PIP13-45348-T2	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Relapse	Relapse/refractory	Bone marrow	Tumor	Tumor-normal  WES	Matched	NA
+PIP13-50662	PIP13-50662-T1	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Refractory	Relapse/refractory	Bone marrow	Tumor	Tumor-normal  WES	Matched	NA
+PIP13-65217	PIP13-65217-T1	Sarcoma	Bone Cancer	Ewing Sarcoma	NA	ES	Illium	Rib	Metastatic	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.8
+PIP13-72282	PIP13-72282-T1	Lymphoid	Mature T and NK Neoplasms	Peripheral T-Cell lymphoma, NOS	NA	PTCL	Abdomen	Spleen	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	33.3666666667
+PIP13-72750	PIP13-72750-T1	Germ cell	Non-Seminomatous Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor, predominantly yolk sac type	NA	TYST	Mediastinum	Sternum	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.63333333333
+PIP13-77086	PIP13-77086-T1	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Relapse	Relapse/refractory	Bone marrow	Tumor	Tumor-normal  WES	Matched	1.2
+PIP13-81192	PIP13-81192-T1	Sarcoma	Soft Tissue Sarcoma	Alveolar Soft Part Sarcoma	NA	ASPS	Lung	Lung	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.36666666667
+PIP13-92847	PIP13-92847-T1	Germ cell	Ovarian Germ Cell Tumor	Immature Teratoma	NA	OIMT	Ovary	Peritoneum	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.96666666667
+PIP13-95124	PIP13-95124-T1	Lymphoid	Lymphoid Neoplasm	B-Lymphoblastic Leukemia/Lymphoma	NA	BLL	Bone marrow	Bone marrow	Refractory	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	87.1666666667
+PIP13-95124	PIP13-95124-T2	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Refractory	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	101.1
+PIP14-10141	PIP14-10141-T1	Other- Solid Tumor	Lung Cancer	Pleuropulmonary blastoma	NA	PPB	Lung	Lung	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.83333333333
+PIP14-13487	PIP14-13487-T1	Sarcoma	Bone Cancer	Chondroblastic Osteosarcoma	High grade; ypT2, ypNX	CHOS	Femur	Femur	Diagnostic	Primary disease	FFPE	Tumor	467 cancer gene panel	Unmatched	7.96666666667
+PIP14-14630	PIP14-14630-T1	Brain	Choroid Plexus Tumor	Choroid Plexus Papilloma	WHO Grade I	CPP	Brain	Brain	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES	Matched	2.56666666667
+PIP14-15491	PIP14-15491-T1	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Relapse	Relapse/refractory	Bone marrow	Tumor	Tumor-normal  WES	Matched	0.866666666667
+PIP14-15491	PIP14-15491-T2	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Relapse	Relapse/refractory	Bone marrow	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.83333333333
+PIP14-15491	PIP14-15491-T3	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Relapse	Relapse/refractory	Bone marrow	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.5
+PIP14-18369	PIP14-18369-T1	Lymphoid	Non-Hodgkin Lymphoma	Anaplastic Large Cell Lymphoma	NA	ALCL	Lymph node	Lymph node	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES	Matched	0.733333333333
+PIP14-20062	PIP14-20062-T1	Lymphoid	Lymphoid Neoplasm	B-Lymphoblastic Leukemia/Lymphoma	NA	BLL	Bone marrow	Bone marrow	Diagnostic	Primary disease	Bone marrow	Tumor	Tumor-normal  WES	Matched	1.7
+PIP14-20062	PIP14-20062-T2	Lymphoid	Lymphoid Neoplasm	B-Lymphoblastic Leukemia/Lymphoma	NA	BLL	Bone marrow	Bone marrow	Relapse	Relapse/refractory	Bone marrow	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.03333333333
+PIP14-24794	PIP14-24794-T1	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Diagnostic	Primary disease	Bone marrow	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.3
+PIP14-27243	PIP14-27243-T1	Adrenal	Embryonal Tumor	Neuroblastoma	High risk, Stage IV	NBL	Suprarenal	Portal vein	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.06666666667
+PIP14-30162	PIP14-30162-T1	Hepatic	Liver Tumor	Hepatoblastoma	NA	LIHB	Liver	Liver	Post chemotherapy	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.73333333333
+PIP14-30740	PIP14-30740-T1	Other- Solid Tumor	Nerve Sheath Tumor	Plexiform Schwannoma	NA	SCHW	Penis/scrotum	Penis/scrotum	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES	Matched	2.23333333333
+PIP14-35585	PIP14-35585-T1	Renal	Renal cancer	Renal Cell Carcinoma	NA	RCC	Kidney	Kidney	Diagnostic	Primary disease	FFPE	Tumor	467 cancer gene panel	Unmatched	9.06666666667
+PIP14-37237	PIP14-37237-T1	Brain	Glioblastoma	Glioblastoma multiforme	WHO Grade IV	GBM	Brain	Brain- vermis	Relapse	Relapse/refractory	FFPE	Tumor	Tumor-normal  WES	Matched	2.36666666667
+PIP14-41978	PIP14-41978-T1	Renal	Renal cancer	Wilms Tumor	NA	WT	Kidney	Kidney	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.833333333333
+PIP14-42817	PIP14-42817-T1	Adrenal	Embryonal Tumor	Neuroblastoma	Intermediate risk, Stage III, Favorable histology	NBL	Retroperitoneal mass with multi-compartmental extent	Lower back mass	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.6
+PIP14-44070	PIP14-44070-T1	Adrenal	Embryonal Tumor	Neuroblastoma	High risk, Stage III, Unfavorable histology	NBL	Kidney	Kidney	Post-chemo	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.66666666667
+PIP14-45760	PIP14-45760-T1	Myeloid	Leukemia	Acute Myeloid Leukemia	Intermediate risk	AML	Bone marrow	Myeloid Sarcoma-epidural tumor	Relapse	Relapse/refractory	FFPE	Tumor	Tumor-normal  WES	Matched	3.6
+PIP14-47205	PIP14-47205-T1	Renal	Renal cancer	Nephroblastomatosis	NA	WT	Kidney	Kidney	Post-chemo	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.9
+PIP14-56374	PIP14-56374-T1	Hepatic	Liver Tumor	Hepatoblastoma	NA	LIHB	Liver	Liver	Post-chemo	Primary disease	FFPE	Tumor	Tumor-normal  WES	Matched	2.86666666667
+PIP14-57679	PIP14-57679-T1	Lymphoid	Non-Hodgkin Lymphoma	Anaplastic Large Cell Lymphoma	NA	ALCL	Lymph node	Liver	Post-mortem	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES	Matched	0.733333333333
+PIP14-59462	PIP14-59462-T1	Other- Solid Tumor	Nested stromal epithelial tumor of the liver	Nested stromal epithelial tumor of the liver	NA	LIVER	Liver	Diaphragmatic mass	Relapse	Relapse/refractory	FFPE	Tumor	Tumor-normal  WES	Matched	2.26666666667
+PIP14-70449	PIP14-70449-T1	Sarcoma	Soft Tissue Sarcoma	Rhabdomyosarcoma, Alveolar subtype	Stage 4, group 4	ARMS	Thigh	Anterior thigh	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.866666666667
+PIP14-71727	PIP14-71727-T1	Sarcoma	Bone Cancer	Osteosarcoma	High grade	OS	Rib	Bone-rib	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES	Matched	4.0
+PIP14-75899	PIP14-75899-T1	Adrenal	Embryonal Tumor	Neuroblastoma	High risk, Stage IV, Poorly differentiated	NBL	Suprarenal	Brain- frontal lobe	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	3.3
+PIP14-78154	PIP14-78154-T1	Brain	Brain Cancer	Medulloblastoma	WHO Grade IV	MBL	Brain	Brain- midline mass	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.63333333333
+PIP14-80864	PIP14-80864-T1	Lymphoid	Hodgkin Lymphoma-like PTLD	Hodgkin Lymphoma-like PTLD	Stage IVB with refractory disease	PTLD	Lymph node	Lymph node	Refractory	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES	Matched	1.4
+PIP14-82072	PIP14-82072-T1	Adrenal	Embryonal Tumor	Neuroblastoma	High risk, Unfavorable histology	NBL	Abdomen	Peri pancreatic lymph node	Refractory	Relapse/refractory	FFPE	Tumor	467 cancer gene panel	Unmatched	8.66666666667
+PIP14-84044	PIP14-84044-T1	Other- Solid Tumor	Soft Tissue Tumor	Inflammatory myofibroblastic tumor	NA	IMT	Liver	Hepatic artery	Refractory	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.7
+PIP14-84044	PIP14-84044-T2	Other- Solid Tumor	Soft Tissue Tumor	Inflammatory myofibroblastic tumor	NA	IMT	Liver	Abdominal wall soft tissue mass	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.766666666667
+PIP14-84044	PIP14-84044-T3	Other- Solid Tumor	Soft Tissue Tumor	Inflammatory myofibroblastic tumor	NA	IMT	Liver	Pelvic lesion	Relapse	Relapse/refractory	Fresh frozen	Tumor	RNA-seq	Unmatched	2.36666666667
+PIP14-84044	PIP14-84044-T4	Other- Solid Tumor	Soft Tissue Tumor	Inflammatory myofibroblastic tumor	NA	IMT	Liver	Multiple abdominal tumors, nos	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	NA
+PIP14-85546	PIP14-85546-T1	Myeloid	Leukemia	Chronic Myelogenous Leukemia	NA	CML	Bone marrow	Peripheral blood	Relapse	Relapse/refractory	Peripheral blood	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.433333333333
+PIP15-10488	PIP15-10488-T1	Other- Solid Tumor	Soft Tissue Tumor	Plexiform fibrohistiocytic tumor	NA	MFH	Chest wall	Anterior chest wall	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.66666666667
+PIP15-10597	PIP15-10597-T1	Germ Cell	Non-Seminomatous Germ Cell Tumor	Non-seminomatous Mixed Germ Cell Tumor	NA	MGCT	Testis	Testis	Diagnostic	Primary disease	FFPE	Tumor	467 cancer gene panel	Unmatched	9.33333333333
+PIP15-10838	PIP15-10838-T1	Brain	Brain Cancer	Glioma	Low grade	GNOS	Brain	Brain- thalamus (biopsy)	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES	Matched	2.2
+PIP15-10838	PIP15-10838-T2	Brain	Brain Cancer	Glioma	Low grade	GNOS	Brain	Brain- thalamus (excision)	Mid-chemo	Primary disease	FFPE	Tumor	Tumor-normal  WES	Matched	1.43333333333
+PIP15-11925	PIP15-11925-T1	Sarcoma	Bone Cancer	Osteosarcoma	High grade	OS	Femur	Soft tissue, left thigh	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.26666666667
+PIP15-11925	PIP15-11925-T3	Sarcoma	Bone Cancer	Osteosarcoma	High grade	OS	Femur	Leg, left above the knee amputation	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.33333333333
+PIP15-11925	PIP15-11925-T4	Sarcoma	Bone Cancer	Osteosarcoma	High grade	OS	Femur	Main pelvic mass	Relapse	Relapse/refractory	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.4
+PIP15-11925	PIP15-11925-T5	Sarcoma	Bone Cancer	Osteosarcoma	High grade	OS	Femur	Groin mass, left	Relapse	Relapse/refractory	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	3.1
+PIP15-16072	PIP15-16072-T1	Lymphoid	Lymphoid Neoplasm	B-Lymphoblastic Leukemia/Lymphoma	NA	BLL	Bone marrow	Bone marrow	Diagnostic	Primary disease	BM	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.4
+PIP15-17264	PIP15-17264-T1	Hepatic	Liver Tumor	Hepatocellular Carcinoma	NA	HCC	Liver	Liver	Mid-chemo	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.7
+PIP15-18739	PIP15-18739-T1	Sarcoma	Bone Cancer	Ewing Sarcoma	NA	ES	Tibia	Bone- tibia	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	78.0
+PIP15-18928	PIP15-18928-T1	Hepatic	Liver Tumor	Hepatoblastoma	NA	LIHB	Liver	Liver	Diagnostic	Primary disease	FFPE	Tumor	467 cancer gene panel	Unmatched	9.9
+PIP15-23518	PIP15-23518-T1	Sarcoma	Soft Tissue Sarcoma	Rhabdomyosarcoma, Alveolar subtype	NA	ARMS	Nasopharynx	Tumor not specified (nasopharyngeal/ sinus)	Relapse	Relapse/refractory	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.9
+PIP15-24625	PIP15-24625-T1	Brain	Diffuse Glioma	Diffuse Intrinsic Pontine Glioma	WHO Grade III	DIPG	Brain	Brain- pontine mass	Diagnostic	Primary disease	Fresh frozen (RNA); FFPE (DNA)	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.73333333333
+PIP15-26188	PIP15-26188-T1	Lymphoid	Lymphoid Neoplasm	B-Lymphoblastic Leukemia/Lymphoma	High risk	BLL	Bone marrow	Bone marrow	Relapse	Relapse/refractory	BM	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.833333333333
+PIP15-27992	PIP15-27992-T1	Hepatic	Liver Tumor	Hepatoblastoma	NA	LIHB	Liver	Liver	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.866666666667
+PIP15-29224	PIP15-29224-T1	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Diagnostic	Primary disease	BM	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.13333333333
+PIP15-33544	PIP15-33544-T1	Other- Solid Tumor	Cutaneous malignancy of hair matrix cells	Pilomatrix carcinoma	NA	NA	Scalp	Scalp	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.933333333333
+PIP15-34296	PIP15-34296-T1	Brain	Ependymomal Tumor	Anaplastic ependymoma	WHO Grade III	APE	Brain	Brain	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.46666666667
+PIP15-35162	PIP15-35162-T1	Sarcoma	Bone Cancer	Osteosarcoma	High grade	OS	Femur	Pulmonary nodules	Relapse	Relapse/refractory	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.0
+PIP15-36388	PIP15-36388-T1	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Relapse	Relapse/refractory	BM	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.36666666667
+PIP15-39486	PIP15-39486-T1	Adrenal	Embryonal Tumor	Neuroblastoma	High risk, Stage IV (M), Favorable histology	NBL	Liver	Gallbladder	Post-chemo	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.76666666667
+PIP15-40141	PIP15-40141-T1	Brain	Encapsulated Glioma	Anaplastic pleomorphic xanthoastrocytoma	WHO Grade III	APXA	Brain	Brain- mesial left temporal brain tumor	Relapse	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.13333333333
+PIP15-44470	PIP15-44470-T1	Brain	Brain Cancer	Medulloblastoma	WHO Grade IV	MBL	Brain	Brain- 4th ventricle	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.26666666667
+PIP15-46387	PIP15-46387-T1	Sarcoma	Soft Tissue Sarcoma	Rhabdomyosarcoma, Alveolar subtype	NA	ARMS	Thigh	Thigh	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.43333333333
+PIP15-47087	PIP15-47087-T1	Sarcoma	Bone Cancer	Ewing Sarcoma	NA	ES	Pelvis	Bone- pelvis	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.833333333333
+PIP15-49177	PIP15-49177-T1	Brain	Brain Cancer	Anaplastic medulloblastoma	NA	AMBL	Brain	Brain	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.566666666667
+PIP15-49209	PIP15-49209-T1	Adrenal	Embryonal Tumor	Neuroblastoma	NA	NBL	Liver	Liver	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	3.1
+PIP15-49209	PIP15-49209-T2	Adrenal	Embryonal Tumor	Neuroblastoma	NA	NBL	Liver	Placenta	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.366666666667
+PIP15-51609	PIP15-51609-T1	Lymphoid	Lymphoid Neoplasm	B-Lymphoblastic Leukemia/Lymphoma	NA	BLL	Bone marrow	Bone marrow	Relapse	Relapse/refractory	BM	Tumor	467 cancer gene panel; RNA-seq	Unmatched	9.13333333333
+PIP15-54215	PIP15-54215-T1	Adrenal	Embryonal Tumor	Neuroblastoma	High risk, refractory Stage IV	NBL	NA	Soft tissue mass, unspecified site	Mid-chemo	Primary disease	FFPE	Tumor	467 cancer gene panel	Unmatched	8.93333333333
+PIP15-57784	PIP15-57784-T1	Other- Solid Tumor	Salivary Gland-Type Tumor of the Lung	Mucoepidermoid carcinoma of the lung	NA	LUMEC	Lung	Lung	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.7
+PIP15-63375	PIP15-63375-T1	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone marrow	Bone marrow	Post chemotherapy	Primary disease	BM	Tumor	467 cancer gene panel	Unmatched	7.86666666667
+PIP15-64793	PIP15-64793-T1	Lymphoid	Lymphoid Neoplasm	B-Lymphoblastic Leukemia/Lymphoma	NA	BLL	Bone marrow	Bone marrow	Diagnostic	Primary disease	BM	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.3
+PIP15-66870	PIP15-66870-T1	Adrenal	Adrenal Tumor	Adrenocortical carcinoma	NA	ACC	Adrenal	Liver	Metastatic	Relapse/refractory	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.6
+PIP15-68033	PIP15-68033-T1	Lymphoid	Lymphoid Neoplasm	B-Lymphoblastic Leukemia/Lymphoma	NA	BLL	Bone marrow	Bone marrow	Diagnostic	Primary disease	BM	Tumor	467 cancer gene panel	Unmatched	8.03333333333
+PIP15-68909	PIP15-68909-T1	Brain	Brain Cancer	Optic nerve glioma	WHO Grade I	GNOS	Brain	Brain- soft tissue mass-orbital excision	Diagnostic	Primary disease	FFPE	Tumor	467 cancer gene panel	Unmatched	9.16666666667
+PIP15-68909	PIP15-68909-T2	Brain	Brain Cancer	Optic nerve glioma	WHO Grade I	GNOS	Brain	Brain- optic nerve tumor	Diagnostic	Primary disease	FFPE	Tumor	467 cancer gene panel	Unmatched	9.16666666667
+PIP15-70532	PIP15-70532-T1	Brain	Ependymomal Tumor	Ependymoma	WHO Grade II	EPM	Brain	Brain- cerebellopontine angle mass	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES	Matched	4.4
+PIP15-70532	PIP15-70532-T2	Brain	Ependymomal Tumor	Anaplastic ependymoma	WHO Grade III	APE	Brain	Brain- cerebellopontine angle mass	Relapse	Relapse/refractory	FFPE	Tumor	Tumor-normal  WES	Matched	303.333333333
+PIP15-74192	PIP15-74192-T1	Renal	Renal cancer	Wilms Tumor	NA	WT	Kidney	Kidney	Mid-chemo	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.6
+PIP15-78886	PIP15-78886-T1	Brain	Pineal Tumor	Pineoblastoma	WHO Grade IV	PBL	Brain	Brain- region of the pineal gland	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.03333333333
+PIP15-79265	PIP15-79265-T1	Sarcoma	Bone Cancer	Chondroblastic Osteosarcoma	ypT2	CHOS	Femur	Lung	Metastatic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.13333333333
+PIP15-79700	PIP15-79700-T1	Lymphoid	Lymphoid Neoplasm	B-Lymphoblastic Leukemia/Lymphoma	NA	BLL	Bone marrow	Bone marrow	Diagnostic	Primary disease	BM	Tumor	Tumor-normal  WES	Matched	0.933333333333
+PIP15-80972	PIP15-80972-T1	Brain	Brain Cancer	Atypical Teratoid/Rhabdoid Tumor	WHO Grade IV	ATRT	Brain	Brain- posterior fossa	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.93333333333
+PIP15-81199	PIP15-81199-T1	Brain	Brain Cancer	Glioma	High grade	HGGNOS	Brain	Brain- pons	Relapse	Relapse/refractory	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	3.1
+PIP15-83665	PIP15-83665-T1	Hepatic	Liver Tumor	Hepatocellular Carcinoma	NA	HCC	Liver	Liver	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	14.7
+PIP15-83826	PIP15-83826-T1	Sarcoma	Bone Cancer	Telangiectatic Osteosarcoma	High grade	TEOS	Tibia	Bone- tibia	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.666666666667
+PIP15-84578	PIP15-84578-T1	Myeloid	Leukemia	Acute Myeloid Leukemia	NA	AML	Bone	Bone marrow	Diagnostic	Primary disease	BM	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.5
+PIP15-88980	PIP15-88980-T1	Hepatic	Liver Tumor	Hepatoblastoma	NA	LIHB	Liver	Liver	Mid-chemo	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	0.766666666667
+PIP15-89172	PIP15-89172-T1	Germ Cell	Non-Germinomatous Germ Cell Tumor	Pineal Germ Cell Tumor	NA	BGCT	Brain	Brain	Diagnostic	Primary disease	FFPE	Tumor	467 cancer gene panel	Unmatched	7.33333333333
+PIP15-93881	PIP15-93881-T1	Sarcoma	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	NA	ERMS	Pelvis	Pelvic soft tissue mass	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	2.8
+PIP15-97336	PIP15-97336-T1	Brain	Soft Tissue Sarcoma	Small round blue cell tumor/ Ewing Sarcoma	Intermediate grade	ES	Brain	Brain- Broca's area	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.4
+PIP16-22729	PIP16-22729-T1	Brain	Encapsulated Glioma	Pilomyxoid astrocytoma	WHO Grade II	PMA	Brain	Brain- suprasellar/ 3rdventricle region	Diagnostic	Primary disease	FFPE	Tumor	Tumor-normal  WES; RNA-seq	Matched	1.53333333333
+PIP16-74654	PIP16-74654-T1	Sarcoma	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	Stage III, clinical group 3	ERMS	Pelvis	Pelvic mass	Diagnostic	Primary disease	FFPE	Tumor	467 cancer gene panel	Unmatched	8.13333333333
+PIP16-88073	PIP16-88073-T1	Brain	Ependymomal Tumor	Ependymoma	WHO Grade not specified	EPM	Brain	Brain- frontal	Diagnostic	Primary disease	Fresh frozen	Tumor	Tumor-normal  WES; RNA-seq	Matched	3.83333333333

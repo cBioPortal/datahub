@@ -1,0 +1,27 @@
+#Sample Identifier	Patient Identifier	Cancer Type	Cancer Type Detailed	IDH-1P10Q Subtype	1p/19q status based on IMPACT	Oncotree Code	Institute Source	Gene Panel	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Disease type	Cancer Type Detailed	IDH-1P10Q subtype.	1p/19q status based on IMPACT	Oncotree Code	Institute Source	Gene panel.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	5	5	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	IDH_1P19Q_SUBTYPE	IMPACT_1P19Q	ONCOTREE_CODE	INSTITUTE	GENE_PANEL	TMB_NONSYNONYMOUS
+s_AO_odg_001_T	p_AO_odg_001	Glioma	Anaplastic Oligodendroglioma	1p deleted	Not deleted	AODG	MSKCC	IMPACT410	37.7554954117
+s_AO_odg_002_T	p_AO_odg_002	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	MSKCC	IMPACT410	20.8648790433
+s_AO_odg_003_T	p_AO_odg_003	Glioma	Anaplastic Oligoastrocytoma	Not deleted	Not deleted	AOAST	MSKCC	IMPACT410	11.9227880248
+s_AO_odg_004_T	p_AO_odg_004	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	MSKCC	IMPACT410	11.9227880248
+s_AO_odg_005_T	p_AO_odg_005	Glioma	Anaplastic Oligodendroglioma	Not deleted	Not deleted	AODG	MSKCC	IMPACT410	7.94852534983
+s_AO_odg_006_T	p_AO_odg_006	Glioma	Anaplastic Oligodendroglioma	Not deleted	Not deleted	AODG	MSKCC	IMPACT410	1.98713133746
+s_AO_odg_007_T	p_AO_odg_007	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	MSKCC	IMPACT410	7.94852534983
+s_AO_odg_008_T	p_AO_odg_008	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Not deleted	AODG	MSKCC	IMPACT410	10.929222356
+s_AO_odg_009_T	p_AO_odg_009	Glioma	Anaplastic Oligoastrocytoma	Co-deleted	Co-deleted	AOAST	MSKCC	IMPACT410	12.9163536935
+s_AO_odg_010_T	p_AO_odg_010	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	Non-MSK	IMPACT410	5.96139401238
+s_AO_odg_011_T	p_AO_odg_011	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	Non-MSK	IMPACT410	3.97426267492
+P-0005939-T01-IM5	P-0005939	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	MSKCC	IMPACT410	5.96139401238
+P-0001412-T01-IM3	P-0001412	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	MSKCC	IMPACT341	6.72929396248
+P-0000896-T01-IM3	P-0000896	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	MSKCC	IMPACT341	4.48619597498
+P-0002224-T01-IM3	P-0002224	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	MSKCC	IMPACT341	4.48619597498
+P-0004578-T01-IM5	P-0004578	Glioma	Anaplastic Oligoastrocytoma	Co-deleted	Co-deleted	AOAST	MSKCC	IMPACT410	1.98713133746
+P-0001420-T01-IM3	P-0001420	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	MSKCC	IMPACT341	39.2542147811
+P-0004812-T01-IM5	P-0004812	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	MSKCC	IMPACT410	2.98069700619
+P-0008244-T01-IM5	P-0008244	Glioma	Anaplastic Oligodendroglioma	Co-deleted	Co-deleted	AODG	MSKCC	IMPACT410	1.98713133746
+P-0001420-T02-IM5	P-0001420	Glioma	Anaplastic Oligodendroglioma	NA	NA	AODG	MSKCC	IMPACT410	53.6525461114
+P-0004812-T02-IM6	P-0004812	Glioma	Anaplastic Oligodendroglioma	NA	NA	AODG	MSKCC	IMPACT468	3.53126048343
+P-0008244-T02-IM5	P-0008244	Glioma	Anaplastic Oligodendroglioma	NA	NA	AODG	MSKCC	IMPACT410	4.96782834365

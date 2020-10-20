@@ -1,0 +1,34 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	Tumor Disease Anatomic Site	Germline Control	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	Text term that describes the anatomic site of the tumor or disease.	Germline Control	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TUMOR_TISSUE_SITE	GERMLINE_CONTROL	TMB_NONSYNONYMOUS
+MDS-03	MDS-03	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.166666666667
+MDS-04	MDS-04	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.133333333333
+MDS-06	MDS-06	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.266666666667
+MDS-07	MDS-07	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.466666666667
+MDS-08	MDS-08	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.333333333333
+MDS-09	MDS-09	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.3
+MDS-10	MDS-10	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	Buccal mucosa	0.0333333333333
+MDS-11	MDS-11	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.366666666667
+MDS-12	MDS-12	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.6
+MDS-13	MDS-13	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	NA
+MDS-14	MDS-14	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.0333333333333
+MDS-15	MDS-15	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.333333333333
+MDS-16	MDS-16	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.233333333333
+MDS-17	MDS-17	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.0333333333333
+MDS-18	MDS-18	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.366666666667
+MDS-19	MDS-19	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.6
+MDS-20	MDS-20	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.266666666667
+MDS-21	MDS-21	MDS	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Bone marrow	CD3+ T cell	0.0666666666667
+tAML-01	tAML-01	AML	Leukemia	Acute Myeloid Leukemia	Bone marrow	CD3+ T cell	0.5
+tAML-02	tAML-02	AML	Leukemia	Acute Myeloid Leukemia	Peripheral blood(CD3-)	CD3+ T cell	0.666666666667
+tAML-03	tAML-03	AML	Leukemia	Acute Myeloid Leukemia	Bone marrow	CD3+ T cell	0.166666666667
+tAML-04	tAML-04	AML	Leukemia	Acute Myeloid Leukemia	Bone marrow	CD3+ T cell	0.2
+tAML-05	tAML-05	AML	Leukemia	Acute Myeloid Leukemia	Bone marrow	CD3+ T cell	0.3
+tAML-06	tAML-06	AML	Leukemia	Acute Myeloid Leukemia	Bone marrow	CD3+ T cell	0.133333333333
+tAML-07	tAML-07	AML	Leukemia	Acute Myeloid Leukemia	Bone marrow	Buccal mucosa	0.5
+CMML-01	CMML-01	CMML	Myelodysplastic/Myeloproliferative Neoplasms	Chronic Myelomonocytic Leukemia	Peripheral blood(CD3-)	CD3+ T cell	0.466666666667
+CMML-02	CMML-02	CMML	Myelodysplastic/Myeloproliferative Neoplasms	Chronic Myelomonocytic Leukemia	Bone marrow	CD3+ T cell	0.433333333333
+CMML-03	CMML-03	CMML	Myelodysplastic/Myeloproliferative Neoplasms	Chronic Myelomonocytic Leukemia	Bone marrow	CD3+ T cell	0.333333333333
+CMML-04	CMML-04	CMML	Myelodysplastic/Myeloproliferative Neoplasms	Chronic Myelomonocytic Leukemia	Bone marrow	CD3+ T cell	0.4

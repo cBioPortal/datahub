@@ -1,0 +1,107 @@
+#Patient Identifier	Sample Identifier	Tumor Disease Anatomic Site	Tumor Size	Perineural Invasion	MYB-NFIB FISH	Sample Type	Primary Tumor Site	Cancer Type	Cancer Type Detailed	Platform	Genomic Alterations	Oncotree Code	Fusion Status	MYB or MYBL1 Fusion	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Text term that describes the anatomic site of the tumor or disease.	Tumor size.	Perineural invasion.	MYB-NFIB FISH.	The type of sample (i.e., normal, primary, met, recurrence).	Text term to describe the organ sub-division in an individual with cancer.	Cancer Type	Cancer Type Detailed	Platform.	Number of genomic alterations	Oncotree Code	Yes/No indicator of fusion status	Description of MYB or MYBL1 fusions identified.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	9	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR_TISSUE_SITE	TUMOR_SIZE	PERINEURAL_INVASION	MYB_NFIB_FISH	SAMPLE_TYPE	PRIMARY_SITE	CANCER_TYPE	CANCER_TYPE_DETAILED	PLATFORM	GENOMIC_ALTERATIONS	ONCOTREE_CODE	FUSION_STATUS	MYB_MYBL1_FUSION	TMB_NONSYNONYMOUS
+ACYC-MDA_AC47	ACYC-MDA_AC47	Base of tongue	5	Yes	Positive	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC46	ACYC-MDA_AC46	Nasal cavity	12	NA	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC45	ACYC-MDA_AC45	Submandibular gland	0.8	Yes	Positive	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC44	ACYC-MDA_AC44	Maxilla	3.5	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC43	ACYC-MDA_AC43	Maxilla	1.5	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC42	ACYC-MDA_AC42	Maxilla	NA	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC41	ACYC-MDA_AC41	Maxilla	2.5	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC40	ACYC-MDA_AC40	Maxilla	4.6	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC49	ACYC-MDA_AC49	Tongue	3	Yes	Positive	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC48	ACYC-MDA_AC48	Nasal cavity	7	NA	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC101	ACYC-MDA_AC101	Floor of mouth	4	Yes	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC100	ACYC-MDA_AC100	Parotid gland	3	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC102	ACYC-MDA_AC102	Floor of mouth	NA	NA	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC50	ACYC-MDA_AC50	Maxilla	3	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC51	ACYC-MDA_AC51	Maxilla	4	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC52	ACYC-MDA_AC52	Tongue	2.5	NA	Positive	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC53	ACYC-MDA_AC53	Maxilla	2	NA	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC54	ACYC-MDA_AC54	Maxilla	2.2	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC55	ACYC-MDA_AC55	Maxilla	2	Yes	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC56	ACYC-MDA_AC56	Laryngopharynx	0.2	Yes	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC57	ACYC-MDA_AC57	Submandibular gland	3.2	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC58	ACYC-MDA_AC58	Orbital cavity	3.5	Yes	Negative	Primary	Orbital cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC59	ACYC-MDA_AC59	Orbital cavity	2	Yes	Negative	Primary	Orbital cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC25	ACYC-MDA_AC25	Parotid gland	7	Yes	Positive	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC24	ACYC-MDA_AC24	Maxilla	4.5	NA	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC27	ACYC-MDA_AC27	Orbital cavity	3	Yes	Positive	Primary	Orbital cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC26	ACYC-MDA_AC26	Maxilla	3	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC21	ACYC-MDA_AC21	Maxilla	3.5	Yes	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	40	ACYC	YES	Negative	0.8
+ACYC-MDA_AC20	ACYC-MDA_AC20	Floor of mouth	4.5	Yes	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	31	ACYC	YES	Negative	0.7
+ACYC-MDA_AC23	ACYC-MDA_AC23	Base of tongue	1	NA	Positive	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC22	ACYC-MDA_AC22	Base of tongue	2.5	Yes	Positive	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC29	ACYC-MDA_AC29	Mandible	7	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC28	ACYC-MDA_AC28	Maxilla	3.5	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC36	ACYC-MDA_AC36	Parotid gland	4	Yes	Positive	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC37	ACYC-MDA_AC37	Sublingual gland	4	Yes	Positive	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC34	ACYC-MDA_AC34	Submandibular gland	2.5	No	Positive	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC35	ACYC-MDA_AC35	Palate	4	Yes	Positive	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC32	ACYC-MDA_AC32	Orbital cavity	3	Yes	Positive	Primary	Orbital cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC33	ACYC-MDA_AC33	Floor of mouth	3	Yes	Positive	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC30	ACYC-MDA_AC30	Maxilla	3.5	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC31	ACYC-MDA_AC31	Parotid gland	4	Yes	Positive	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC38	ACYC-MDA_AC38	Maxilla	4.5	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC39	ACYC-MDA_AC39	Floor of mouth	1.5	Yes	Positive	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYB-NFIB	NA
+ACYC-MDA_AC03	ACYC-MDA_AC03	Oropharynx	6	No	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	28	ACYC	YES	MYB-NFIB	0.733333333333
+ACYC-MDA_AC02	ACYC-MDA_AC02	Tongue	5	Yes	Positive	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	47	ACYC	YES	MYB-NFIB	1.33333333333
+ACYC-MDA_AC01	ACYC-MDA_AC01	Maxilla	7.5	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	23	ACYC	YES	MYB-NFIB	0.633333333333
+ACYC-MDA_AC07	ACYC-MDA_AC07	Parotid gland	3.5	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	32	ACYC	YES	Negative	0.9
+ACYC-MDA_AC06	ACYC-MDA_AC06	Floor of mouth	4	Yes	Positive	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	36	ACYC	YES	MYB-NFIB	0.866666666667
+ACYC-MDA_AC05	ACYC-MDA_AC05	Maxilla	2	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	55	ACYC	YES	MYB-NFIB	1.33333333333
+ACYC-MDA_AC04	ACYC-MDA_AC04	Laryngopharynx	4.5	Yes	Positive	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	39	ACYC	YES	MYB-NFIB	0.966666666667
+ACYC-MDA_AC09	ACYC-MDA_AC09	Maxilla	3	Yes	NA	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	25	ACYC	YES	MYB-PDCD1LG2	0.766666666667
+ACYC-MDA_AC08	ACYC-MDA_AC08	Parotid gland	5.5	NA	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	35	ACYC	YES	Negative	0.8
+ACYC-MDA_AC89	ACYC-MDA_AC89	Maxilla	4	NA	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC88	ACYC-MDA_AC88	Submandibular gland	2	No	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC83	ACYC-MDA_AC83	Maxilla	2	Yes	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC82	ACYC-MDA_AC82	Parotid gland	3.5	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC81	ACYC-MDA_AC81	Parotid gland	6	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC80	ACYC-MDA_AC80	Parotid gland	3.7	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC87	ACYC-MDA_AC87	Maxilla	4	Yes	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC86	ACYC-MDA_AC86	Orbital cavity	3	No	Negative	Primary	Orbital cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC85	ACYC-MDA_AC85	Parotid gland	15	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC84	ACYC-MDA_AC84	Parotid gland	2.5	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC18	ACYC-MDA_AC18	Orbital cavity	3.5	Yes	Negative	Primary	Orbital cavity	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	42	ACYC	YES	Negative	1.2
+ACYC-MDA_AC19	ACYC-MDA_AC19	Pharynx	3.5	Yes	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	27	ACYC	YES	Negative	0.633333333333
+ACYC-MDA_AC14	ACYC-MDA_AC14	Trachea	1.7	NA	NA	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	34	ACYC	YES	MYBL1-YTHDF3	0.833333333333
+ACYC-MDA_AC15	ACYC-MDA_AC15	Maxilla	2.5	Yes	NA	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	36	ACYC	YES	MYBL1-YTHDF3	0.9
+ACYC-MDA_AC16	ACYC-MDA_AC16	Base of tongue	5	Yes	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	50	ACYC	YES	Negative	1.23333333333
+ACYC-MDA_AC17	ACYC-MDA_AC17	Maxilla	3	Yes	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	50	ACYC	YES	Negative	1.3
+ACYC-MDA_AC10	ACYC-MDA_AC10	Floor of mouth	2.5	Yes	Positive (MYBL1-NFIB)	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	54	ACYC	YES	MYBL1-NFIB	1.3
+ACYC-MDA_AC11	ACYC-MDA_AC11	Floor of mouth	5.5	Yes	Positive (MYBL1-NFIB)	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	27	ACYC	YES	MYBL1-NFIB	0.733333333333
+ACYC-MDA_AC12	ACYC-MDA_AC12	Submandibular gland	6	No	Positive (MYBL1-NFIB)	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	58	ACYC	YES	MYBL1-NFIB	1.56666666667
+ACYC-MDA_AC13	ACYC-MDA_AC13	Parotid gland	3.5	Yes	Positive (MYBL1-NFIB)	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	WGS	46	ACYC	YES	MYBL1-NFIB	1.2
+ACYC-MDA_AC94	ACYC-MDA_AC94	Tongue	3.5	Yes	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC95	ACYC-MDA_AC95	Tongue	1.4	Yes	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC96	ACYC-MDA_AC96	Parotid gland	3	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC97	ACYC-MDA_AC97	Tongue	1	Yes	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC90	ACYC-MDA_AC90	Buccal mucosa	1.1	Yes	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC91	ACYC-MDA_AC91	Maxilla	2	NA	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC92	ACYC-MDA_AC92	Submandibular gland	4.5	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC93	ACYC-MDA_AC93	Parotid gland	2	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC98	ACYC-MDA_AC98	Base of tongue	NA	NA	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC99	ACYC-MDA_AC99	Maxilla	2.7	No	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC69	ACYC-MDA_AC69	Floor of mouth	2.2	No	Positive (MYBL1-NFIB)	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1-NFIB	NA
+ACYC-MDA_AC68	ACYC-MDA_AC68	Tongue	2.5	NA	Positive (MYBL1-NFIB)	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1-NFIB	NA
+ACYC-MDA_AC61	ACYC-MDA_AC61	Submandibular gland	6.5	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC60	ACYC-MDA_AC60	Parotid gland	3.8	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC63	ACYC-MDA_AC63	Orbital cavity	3	Yes	Negative	Primary	Orbital cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC62	ACYC-MDA_AC62	Trachea	3.5	NA	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC65	ACYC-MDA_AC65	Base of tongue	4	Yes	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC64	ACYC-MDA_AC64	Submandibular gland	6.5	Yes	Negative	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC67	ACYC-MDA_AC67	Sublingual gland	3.5	Yes	Positive (MYBL1-NFIB)	Primary	Salivary gland	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1-NFIB	NA
+ACYC-MDA_AC66	ACYC-MDA_AC66	Lip	NA	NA	Negative	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC78	ACYC-MDA_AC78	Maxilla	3	Yes	NA	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1 Truncation	NA
+ACYC-MDA_AC79	ACYC-MDA_AC79	Trachea	2.5	Yes	NA	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1 Truncation	NA
+ACYC-MDA_AC72	ACYC-MDA_AC72	Floor of mouth	3.5	Yes	Positive (MYBL1-NFIB)	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1-NFIB	NA
+ACYC-MDA_AC73	ACYC-MDA_AC73	Trachea	3	Yes	Positive (MYBL1-NFIB)	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1-NFIB	NA
+ACYC-MDA_AC70	ACYC-MDA_AC70	Mandible	4	Yes	Positive (MYBL1-NFIB)	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1-NFIB	NA
+ACYC-MDA_AC71	ACYC-MDA_AC71	Floor of mouth	3.6	Yes	Positive (MYBL1-NFIB)	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1-NFIB	NA
+ACYC-MDA_AC76	ACYC-MDA_AC76	Nasal cavity	2	NA	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA
+ACYC-MDA_AC77	ACYC-MDA_AC77	Tongue	4.5	Yes	NA	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1 Truncation	NA
+ACYC-MDA_AC74	ACYC-MDA_AC74	Floor of mouth	3.5	Yes	Positive (MYBL1-NFIB)	Primary	Oral cavity	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	MYBL1-NFIB	NA
+ACYC-MDA_AC75	ACYC-MDA_AC75	Ethmoid sinus	3	NA	Negative	Primary	Head and Neck	Salivary Cancer	Adenoid Cystic Carcinoma	VALIDATION	0	ACYC	YES	Negative	NA

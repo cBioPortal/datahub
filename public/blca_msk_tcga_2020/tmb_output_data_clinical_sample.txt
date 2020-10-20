@@ -1,0 +1,481 @@
+#Patient Identifier	Sample Identifier	Analysis Cohort	Platform	Primary Vs Secondary	Prior Intravesical Chemotherapy	Tumor Stage	Neoplasm Histologic Grade	Lymph Node Status	Distant Metastasis	Oncotree Code	Cancer Type	Cancer Type Detailed	Aneuploidy Score	Sample Type	MSI MANTIS Score	MSIsensor Score	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Analysis Cohort	Platform.	Primary Vs Secondary	Prior Intravesical Chemotherapy	Tumor stage.	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Lymph Node Status	Distant Metastasis	Oncotree Code	Cancer Type	Cancer Type Detailed	Aneuploidy Score	The type of sample (i.e., normal, primary, met, recurrence).	MSI Score reported by MANTIS. The suggested thresholds are MSI: >0.6, Indeterminate: 0.4-0.6 and MSS: <0.4.	MSI Score reported by MSIsensor. The suggested thresholds are MSI: >10, Indeterminate: 4-10 and MSS: <10.	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	NUMBER	NUMBER	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	9	9	9	1	1
+PATIENT_ID	SAMPLE_ID	ANALYSIS_COHORT	PLATFORM	PRIMARY_VS_SECONDARY	PRIOR_INTRAVESICAL_CHEMOTHERAPY	TUMOR_STAGE	GRADE	LYMPH_NODE_STATUS	DISTANT_METS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	ANEUPLOIDY_SCORE	SAMPLE_TYPE	MSI_SCORE_MANTIS	MSI_SENSOR_SCORE	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+TCGA-2F-A9KP	TCGA-2F-A9KP-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3234	0.17	Matched	4.43333333333
+TCGA-2F-A9KQ	TCGA-2F-A9KQ-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.3181	0.12	Matched	2.1
+TCGA-2F-A9KR	TCGA-2F-A9KR-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	11	Primary	0.3282	0.14	Matched	7.03333333333
+TCGA-2F-A9KT	TCGA-2F-A9KT-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	11	Primary	0.3309	0	Matched	11.3
+TCGA-2F-A9KW	TCGA-2F-A9KW-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.3256	0.09	Matched	3.13333333333
+TCGA-4Z-AA7O	TCGA-4Z-AA7O-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	4	Primary	0.3371	0	Matched	5.5
+TCGA-4Z-AA7Q	TCGA-4Z-AA7Q-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3387	0	Matched	7.5
+TCGA-4Z-AA7S	TCGA-4Z-AA7S-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	13	Primary	0.3217	0.12	Matched	1.96666666667
+TCGA-4Z-AA7Y	TCGA-4Z-AA7Y-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	2	Primary	0.3253	0.01	Matched	8.76666666667
+TCGA-4Z-AA80	TCGA-4Z-AA80-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3335	0.06	Matched	12.6
+TCGA-4Z-AA81	TCGA-4Z-AA81-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.3349	0.05	Matched	6.5
+TCGA-4Z-AA82	TCGA-4Z-AA82-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.3367	0.02	Matched	3.16666666667
+TCGA-4Z-AA83	TCGA-4Z-AA83-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3215	0	Matched	2.5
+TCGA-4Z-AA84	TCGA-4Z-AA84-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.3257	0	Matched	14.0666666667
+TCGA-4Z-AA86	TCGA-4Z-AA86-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3293	0	Matched	6.53333333333
+TCGA-5N-A9KI	TCGA-5N-A9KI-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.3453	0.02	Matched	5.06666666667
+TCGA-5N-A9KM	TCGA-5N-A9KM-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.341	0.03	Matched	6.26666666667
+TCGA-BL-A5ZZ	TCGA-BL-A5ZZ-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3018	0.01	Matched	7.8
+TCGA-BT-A3PH	TCGA-BT-A3PH-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3362	0.14	Matched	13.9
+TCGA-BT-A3PJ	TCGA-BT-A3PJ-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3298	0	Matched	14.7666666667
+TCGA-BT-A3PK	TCGA-BT-A3PK-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3436	0	Matched	11.4
+TCGA-BT-A42B	TCGA-BT-A42B-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.3184	0.19	Matched	1.76666666667
+TCGA-BT-A42C	TCGA-BT-A42C-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3324	0.2	Matched	11.4333333333
+TCGA-BT-A42E	TCGA-BT-A42E-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	17	Primary	0.324	0	Matched	5.26666666667
+TCGA-BT-A42F	TCGA-BT-A42F-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	25	Primary	0.3106	0	Matched	5.53333333333
+TCGA-CF-A47S	TCGA-CF-A47S-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.296	0.05	Matched	0.9
+TCGA-CF-A47T	TCGA-CF-A47T-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	3	Primary	0.3	0.07	Matched	0.9
+TCGA-CF-A47W	TCGA-CF-A47W-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3304	0	Matched	0.9
+TCGA-CF-A47X	TCGA-CF-A47X-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3251	0.02	Matched	9.63333333333
+TCGA-CF-A47Y	TCGA-CF-A47Y-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3205	0	Matched	2.0
+TCGA-CF-A5U8	TCGA-CF-A5U8-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	2	Primary	0.3098	0.03	Matched	1.53333333333
+TCGA-CF-A5UA	TCGA-CF-A5UA-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3096	0.09	Matched	2.2
+TCGA-CF-A7I0	TCGA-CF-A7I0-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	3	Primary	0.3211	0.01	Matched	1.23333333333
+TCGA-CF-A8HX	TCGA-CF-A8HX-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3363	0.03	Matched	1.76666666667
+TCGA-CF-A8HY	TCGA-CF-A8HY-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	25	Primary	0.3352	0.16	Matched	2.96666666667
+TCGA-CF-A9FF	TCGA-CF-A9FF-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3177	0.01	Matched	4.4
+TCGA-CF-A9FH	TCGA-CF-A9FH-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.328	0.33	Matched	1.26666666667
+TCGA-CF-A9FL	TCGA-CF-A9FL-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	4	Primary	0.3227	0	Matched	1.93333333333
+TCGA-CU-A3QU	TCGA-CU-A3QU-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3389	0.47	Matched	2.83333333333
+TCGA-CU-A3YL	TCGA-CU-A3YL-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3192	0	Matched	7.06666666667
+TCGA-CU-A5W6	TCGA-CU-A5W6-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3127	0.05	Matched	6.66666666667
+TCGA-CU-A72E	TCGA-CU-A72E-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.322	0.02	Matched	3.03333333333
+TCGA-DK-A1A3	TCGA-DK-A1A3-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.2939	0	Matched	18.9333333333
+TCGA-DK-A1A5	TCGA-DK-A1A5-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	17	Primary	0.3039	1.02	Matched	7.93333333333
+TCGA-DK-A1A6	TCGA-DK-A1A6-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary	0.3055	0.56	Matched	NA
+TCGA-DK-A1A7	TCGA-DK-A1A7-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	13	Primary	0.3021	0.96	Matched	7.26666666667
+TCGA-DK-A1AA	TCGA-DK-A1AA-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	2	Primary	0.2842	1.25	Matched	2.53333333333
+TCGA-DK-A1AB	TCGA-DK-A1AB-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	11	Primary	0.2863	0	Matched	5.9
+TCGA-DK-A1AC	TCGA-DK-A1AC-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	12	Primary	0.3059	0.25	Matched	43.0666666667
+TCGA-DK-A1AD	TCGA-DK-A1AD-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.2888	0.5	Matched	7.46666666667
+TCGA-DK-A1AE	TCGA-DK-A1AE-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.2916	0	Matched	3.56666666667
+TCGA-DK-A1AF	TCGA-DK-A1AF-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	4	Primary	0.2754	0	Matched	3.4
+TCGA-DK-A1AG	TCGA-DK-A1AG-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	2	Primary	0.2822	0.1	Matched	3.7
+TCGA-DK-A2HX	TCGA-DK-A2HX-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.3002	0.03	Matched	3.26666666667
+TCGA-DK-A2I1	TCGA-DK-A2I1-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.2833	0.25	Matched	23.6666666667
+TCGA-DK-A2I2	TCGA-DK-A2I2-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.307	0.01	Matched	13.6
+TCGA-DK-A2I4	TCGA-DK-A2I4-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.2236	0.19	Matched	26.8
+TCGA-DK-A2I6	TCGA-DK-A2I6-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.312	0.04	Matched	8.23333333333
+TCGA-DK-A3IK	TCGA-DK-A3IK-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3076	0.13	Matched	6.53333333333
+TCGA-DK-A3IL	TCGA-DK-A3IL-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3623	0.11	Matched	5.7
+TCGA-DK-A3IM	TCGA-DK-A3IM-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3511	0.47	Matched	2.56666666667
+TCGA-DK-A3IN	TCGA-DK-A3IN-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3319	0	Matched	11.9
+TCGA-DK-A3IQ	TCGA-DK-A3IQ-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3002	0.03	Matched	5.6
+TCGA-DK-A3IS	TCGA-DK-A3IS-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	22	Primary	0.2659	0.82	Matched	10.2666666667
+TCGA-DK-A3IT	TCGA-DK-A3IT-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3182	0	Matched	13.3
+TCGA-DK-A3IU	TCGA-DK-A3IU-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3433	0	Matched	11.9
+TCGA-DK-A3IV	TCGA-DK-A3IV-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.337	0.09	Matched	2.53333333333
+TCGA-DK-A3WW	TCGA-DK-A3WW-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3282	0.22	Matched	36.1
+TCGA-DK-A3WX	TCGA-DK-A3WX-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	12	Primary	0.3191	0	Matched	1.1
+TCGA-DK-A3WY	TCGA-DK-A3WY-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary	0.3199	0	Matched	0.633333333333
+TCGA-DK-A3X1	TCGA-DK-A3X1-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	17	Primary	0.3336	0.02	Matched	26.0
+TCGA-DK-A3X2	TCGA-DK-A3X2-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3177	0.77	Matched	4.06666666667
+TCGA-DK-A6AV	TCGA-DK-A6AV-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	27	Primary	0.3242	0.03	Matched	3.46666666667
+TCGA-DK-A6AW	TCGA-DK-A6AW-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3077	0.18	Matched	118.633333333
+TCGA-DK-A6B0	TCGA-DK-A6B0-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3166	0.01	Matched	0.8
+TCGA-DK-A6B2	TCGA-DK-A6B2-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.3143	0.16	Matched	5.7
+TCGA-DK-A6B5	TCGA-DK-A6B5-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3449	0.06	Matched	3.86666666667
+TCGA-DK-A6B6	TCGA-DK-A6B6-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3121	0.05	Matched	26.5
+TCGA-DK-AA6M	TCGA-DK-AA6M-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3293	0.03	Matched	2.0
+TCGA-DK-AA6P	TCGA-DK-AA6P-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3319	0.48	Matched	5.73333333333
+TCGA-DK-AA6Q	TCGA-DK-AA6Q-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.3192	0.05	Matched	3.8
+TCGA-DK-AA6R	TCGA-DK-AA6R-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.3337	0.05	Matched	11.0666666667
+TCGA-DK-AA6S	TCGA-DK-AA6S-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3274	0	Matched	17.5666666667
+TCGA-DK-AA6T	TCGA-DK-AA6T-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	4	Primary	0.3211	0	Matched	2.86666666667
+TCGA-DK-AA6U	TCGA-DK-AA6U-01	Discovery	WES	Primary MIBC	None	T2	NA	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3194	0.03	Matched	13.8
+TCGA-DK-AA6W	TCGA-DK-AA6W-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	13	Primary	0.33	0.13	Matched	7.63333333333
+TCGA-DK-AA6X	TCGA-DK-AA6X-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3316	0	Matched	3.63333333333
+TCGA-DK-AA74	TCGA-DK-AA74-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3308	0	Matched	7.33333333333
+TCGA-DK-AA75	TCGA-DK-AA75-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary	0.3282	0.16	Matched	13.9333333333
+TCGA-DK-AA76	TCGA-DK-AA76-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.3349	0.13	Matched	7.66666666667
+TCGA-DK-AA77	TCGA-DK-AA77-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	7	Primary	0.3357	0.13	Matched	10.7333333333
+TCGA-E5-A4TZ	TCGA-E5-A4TZ-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	25	Primary	0.3413	1.01	Matched	13.9333333333
+TCGA-E5-A4U1	TCGA-E5-A4U1-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3324	0.28	Matched	18.4666666667
+TCGA-E7-A3X6	TCGA-E7-A3X6-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3159	0	Matched	3.6
+TCGA-E7-A3Y1	TCGA-E7-A3Y1-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	1	Primary	0.3125	0.07	Matched	5.06666666667
+TCGA-E7-A4IJ	TCGA-E7-A4IJ-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3251	0.05	Matched	10.1666666667
+TCGA-E7-A4XJ	TCGA-E7-A4XJ-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3217	0.05	Matched	1.3
+TCGA-E7-A519	TCGA-E7-A519-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3046	0	Matched	2.2
+TCGA-E7-A541	TCGA-E7-A541-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	26	Primary	0.3155	0.02	Matched	14.0666666667
+TCGA-E7-A5KE	TCGA-E7-A5KE-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.328	0.5	Matched	5.7
+TCGA-E7-A5KF	TCGA-E7-A5KF-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	3	Primary	0.3095	0.03	Matched	5.76666666667
+TCGA-E7-A677	TCGA-E7-A677-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	3	Primary	0.3003	0.06	Matched	7.13333333333
+TCGA-E7-A678	TCGA-E7-A678-01	Discovery	WES	Primary MIBC	None	T3	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3072	0.04	Matched	1.53333333333
+TCGA-E7-A6MD	TCGA-E7-A6MD-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.3281	0.01	Matched	13.6
+TCGA-E7-A6ME	TCGA-E7-A6ME-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.3346	0.18	Matched	4.03333333333
+TCGA-E7-A6MF	TCGA-E7-A6MF-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3302	0	Matched	1.33333333333
+TCGA-E7-A7PW	TCGA-E7-A7PW-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.3332	0.16	Matched	2.53333333333
+TCGA-E7-A7XN	TCGA-E7-A7XN-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3247	0	Matched	28.7666666667
+TCGA-E7-A85H	TCGA-E7-A85H-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3438	0.32	Matched	12.8666666667
+TCGA-E7-A8O7	TCGA-E7-A8O7-01	Discovery	WES	Primary MIBC	None	T2	Low Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3141	0.02	Matched	0.833333333333
+TCGA-E7-A97P	TCGA-E7-A97P-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	2	Primary	0.3186	0	Matched	6.43333333333
+TCGA-E7-A97Q	TCGA-E7-A97Q-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	25	Primary	0.3288	0.01	Matched	2.1
+TCGA-FD-A3SJ	TCGA-FD-A3SJ-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.3309	0.01	Matched	7.26666666667
+TCGA-FD-A3SL	TCGA-FD-A3SL-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4	High Grade	Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3359	0.02	Matched	6.76666666667
+TCGA-FD-A3SN	TCGA-FD-A3SN-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3376	0.15	Matched	11.1666666667
+TCGA-FD-A3SO	TCGA-FD-A3SO-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	12	Primary	0.331	0	Matched	10.7666666667
+TCGA-FD-A3SP	TCGA-FD-A3SP-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.3293	0	Matched	3.56666666667
+TCGA-FD-A3SQ	TCGA-FD-A3SQ-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.3375	0	Matched	2.23333333333
+TCGA-FD-A3SS	TCGA-FD-A3SS-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3313	0	Matched	14.7
+TCGA-FD-A43N	TCGA-FD-A43N-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.2928	0.05	Matched	5.5
+TCGA-FD-A43S	TCGA-FD-A43S-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3095	0	Matched	NA
+TCGA-FD-A43U	TCGA-FD-A43U-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	27	Primary	0.3	0.05	Matched	2.1
+TCGA-FD-A43Y	TCGA-FD-A43Y-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3318	0	Matched	1.9
+TCGA-FD-A5BR	TCGA-FD-A5BR-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.2946	0	Matched	2.86666666667
+TCGA-FD-A5BS	TCGA-FD-A5BS-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3319	0	Matched	0.766666666667
+TCGA-FD-A5BT	TCGA-FD-A5BT-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	27	Primary	0.2999	0.03	Matched	3.63333333333
+TCGA-FD-A5BU	TCGA-FD-A5BU-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3213	0.05	Matched	2.33333333333
+TCGA-FD-A5BV	TCGA-FD-A5BV-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	7	Primary	0.3158	0.16	Matched	3.7
+TCGA-FD-A5BY	TCGA-FD-A5BY-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	28	Primary	0.3094	0.14	Matched	1.53333333333
+TCGA-FD-A5BZ	TCGA-FD-A5BZ-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3006	0.01	Matched	3.66666666667
+TCGA-FD-A5C0	TCGA-FD-A5C0-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	22	Primary	0.3211	0.06	Matched	3.7
+TCGA-FD-A5C1	TCGA-FD-A5C1-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.32	0	Matched	4.43333333333
+TCGA-FD-A62N	TCGA-FD-A62N-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	13	Primary	0.3062	0	Matched	2.76666666667
+TCGA-FD-A62O	TCGA-FD-A62O-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3186	0.2	Matched	5.53333333333
+TCGA-FD-A62P	TCGA-FD-A62P-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	25	Primary	0.3055	0	Matched	12.0
+TCGA-FD-A62S	TCGA-FD-A62S-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.3156	0.05	Matched	2.36666666667
+TCGA-FD-A6TA	TCGA-FD-A6TA-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3124	0	Matched	8.4
+TCGA-FD-A6TB	TCGA-FD-A6TB-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.3075	0.01	Matched	6.13333333333
+TCGA-FD-A6TC	TCGA-FD-A6TC-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3311	0.29	Matched	28.9666666667
+TCGA-FD-A6TE	TCGA-FD-A6TE-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	26	Primary	0.3385	0.34	Matched	8.46666666667
+TCGA-FD-A6TF	TCGA-FD-A6TF-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.3282	0	Matched	4.3
+TCGA-FD-A6TG	TCGA-FD-A6TG-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3202	0.02	Matched	12.0
+TCGA-FD-A6TH	TCGA-FD-A6TH-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	17	Primary	0.3428	0.24	Matched	4.9
+TCGA-FD-A6TI	TCGA-FD-A6TI-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	27	Primary	0.3203	0	Matched	3.9
+TCGA-FD-A6TK	TCGA-FD-A6TK-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3159	0	Matched	3.76666666667
+TCGA-FJ-A3Z7	TCGA-FJ-A3Z7-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3483	0.25	Matched	9.9
+TCGA-FJ-A3Z9	TCGA-FJ-A3Z9-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	1	Primary	0.2779	0.09	Matched	2.2
+TCGA-FJ-A3ZE	TCGA-FJ-A3ZE-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.356	0.25	Matched	12.5
+TCGA-FJ-A3ZF	TCGA-FJ-A3ZF-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.334	0.33	Matched	7.63333333333
+TCGA-FJ-A871	TCGA-FJ-A871-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3077	0.09	Matched	1.5
+TCGA-FT-A61P	TCGA-FT-A61P-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.308	0	Matched	4.86666666667
+TCGA-G2-AA3B	TCGA-G2-AA3B-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3217	0.31	Matched	21.9666666667
+TCGA-G2-AA3C	TCGA-G2-AA3C-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	2	Primary	0.3241	0	Matched	7.36666666667
+TCGA-G2-AA3D	TCGA-G2-AA3D-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.3279	0	Matched	8.0
+TCGA-G2-AA3F	TCGA-G2-AA3F-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	13	Primary	0.327	0.07	Matched	4.4
+TCGA-GC-A3BM	TCGA-GC-A3BM-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	29	Primary	0.3198	0.21	Matched	6.76666666667
+TCGA-GC-A3OO	TCGA-GC-A3OO-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	13	Primary	0.3191	0	Matched	3.93333333333
+TCGA-GC-A3RB	TCGA-GC-A3RB-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.323	0.07	Matched	5.13333333333
+TCGA-GC-A3RC	TCGA-GC-A3RC-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3332	0	Matched	10.3
+TCGA-GC-A3RD	TCGA-GC-A3RD-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.3513	0.33	Matched	2.5
+TCGA-GC-A3WC	TCGA-GC-A3WC-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	7	Primary	0.3029	0.02	Matched	9.03333333333
+TCGA-GC-A3YS	TCGA-GC-A3YS-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	22	Primary	0.3571	0.23	Matched	7.3
+TCGA-GC-A4ZW	TCGA-GC-A4ZW-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	17	Primary	0.2993	0.05	Matched	20.7
+TCGA-GC-A6I1	TCGA-GC-A6I1-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	13	Primary	0.3267	0	Matched	7.06666666667
+TCGA-GC-A6I3	TCGA-GC-A6I3-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3265	0	Matched	11.7333333333
+TCGA-GD-A3OP	TCGA-GD-A3OP-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3359	0	Matched	22.0666666667
+TCGA-GD-A3OQ	TCGA-GD-A3OQ-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3291	0.08	Matched	7.26666666667
+TCGA-GD-A3OS	TCGA-GD-A3OS-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	22	Primary	0.3603	0.09	Matched	2.8
+TCGA-GD-A6C6	TCGA-GD-A6C6-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3525	1.24	Matched	7.56666666667
+TCGA-GD-A76B	TCGA-GD-A76B-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.329	0	Matched	6.03333333333
+TCGA-GU-A42P	TCGA-GU-A42P-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	24	Primary	0.3554	0.33	Matched	7.23333333333
+TCGA-GU-A42Q	TCGA-GU-A42Q-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3256	0	Matched	5.56666666667
+TCGA-GU-A42R	TCGA-GU-A42R-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.3418	0.31	Matched	4.36666666667
+TCGA-GU-A762	TCGA-GU-A762-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3248	0	Matched	3.6
+TCGA-GU-A763	TCGA-GU-A763-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	1	Primary	0.3114	0	Matched	1.93333333333
+TCGA-GU-A764	TCGA-GU-A764-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3302	0	Matched	3.86666666667
+TCGA-GU-A766	TCGA-GU-A766-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3425	0.02	Matched	5.6
+TCGA-GU-A767	TCGA-GU-A767-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	13	Primary	0.3258	0	Matched	12.2
+TCGA-GU-AATO	TCGA-GU-AATO-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	24	Primary	0.3243	0.05	Matched	9.73333333333
+TCGA-GU-AATP	TCGA-GU-AATP-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.3245	0.1	Matched	9.96666666667
+TCGA-GU-AATQ	TCGA-GU-AATQ-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	17	Primary	0.339	0.1	Matched	4.93333333333
+TCGA-GV-A3QF	TCGA-GV-A3QF-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.332	0	Matched	4.23333333333
+TCGA-GV-A3QH	TCGA-GV-A3QH-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	26	Primary	0.3291	0.04	Matched	5.26666666667
+TCGA-GV-A3QI	TCGA-GV-A3QI-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.2822	0.27	Matched	13.9666666667
+TCGA-GV-A3QK	TCGA-GV-A3QK-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	11	Primary	0.329	0.19	Matched	4.1
+TCGA-GV-A6ZA	TCGA-GV-A6ZA-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3131	0.04	Matched	9.73333333333
+TCGA-HQ-A2OF	TCGA-HQ-A2OF-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.3243	0.3	Matched	3.2
+TCGA-HQ-A5ND	TCGA-HQ-A5ND-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.3046	0.11	Matched	2.63333333333
+TCGA-HQ-A5NE	TCGA-HQ-A5NE-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	30	Primary	0.3097	0	Matched	11.1666666667
+TCGA-K4-A3WS	TCGA-K4-A3WS-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.3383	0	Matched	8.8
+TCGA-K4-A3WU	TCGA-K4-A3WU-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	1	Primary	0.3345	0.07	Matched	6.0
+TCGA-K4-A3WV	TCGA-K4-A3WV-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.3383	0.17	Matched	3.83333333333
+TCGA-K4-A4AB	TCGA-K4-A4AB-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	12	Primary	0.3107	0.19	Matched	2.93333333333
+TCGA-K4-A4AC	TCGA-K4-A4AC-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.303	0	Matched	4.6
+TCGA-K4-A54R	TCGA-K4-A54R-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3101	0	Matched	55.5
+TCGA-K4-A5RH	TCGA-K4-A5RH-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	13	Primary	0.3108	0.09	Matched	11.3333333333
+TCGA-K4-A5RI	TCGA-K4-A5RI-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3098	0.29	Matched	8.06666666667
+TCGA-K4-A5RJ	TCGA-K4-A5RJ-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3069	0.01	Matched	10.7
+TCGA-K4-A6FZ	TCGA-K4-A6FZ-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3253	0	Matched	23.7
+TCGA-K4-A6MB	TCGA-K4-A6MB-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	12	Primary	0.336	0.3	Matched	10.1333333333
+TCGA-K4-A83P	TCGA-K4-A83P-01	Discovery	WES	Primary MIBC	None	T4	NA	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	29	Primary	0.3253	0	Matched	15.5333333333
+TCGA-K4-AAQO	TCGA-K4-AAQO-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3306	0	Matched	7.73333333333
+TCGA-KQ-A41N	TCGA-KQ-A41N-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	4	Primary	0.2975	0	Matched	84.2333333333
+TCGA-KQ-A41O	TCGA-KQ-A41O-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.3385	0.17	Matched	7.1
+TCGA-KQ-A41P	TCGA-KQ-A41P-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.3389	0.37	Matched	9.23333333333
+TCGA-KQ-A41Q	TCGA-KQ-A41Q-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.32	0.15	Matched	7.7
+TCGA-KQ-A41R	TCGA-KQ-A41R-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3252	0.06	Matched	22.7666666667
+TCGA-KQ-A41S	TCGA-KQ-A41S-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	34	Primary	0.3092	0.03	Matched	7.93333333333
+TCGA-LC-A66R	TCGA-LC-A66R-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3111	0.04	Matched	4.16666666667
+TCGA-LT-A5Z6	TCGA-LT-A5Z6-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.312	0.23	Matched	15.3333333333
+TCGA-LT-A8JT	TCGA-LT-A8JT-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3335	0	Matched	2.4
+TCGA-MV-A51V	TCGA-MV-A51V-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	24	Primary	0.2968	0	Matched	47.4666666667
+TCGA-PQ-A6FI	TCGA-PQ-A6FI-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	17	Primary	0.345	0.6	Matched	4.73333333333
+TCGA-PQ-A6FN	TCGA-PQ-A6FN-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.3259	0	Matched	2.53333333333
+TCGA-R3-A69X	TCGA-R3-A69X-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	32	Primary	0.3088	0	Matched	6.66666666667
+TCGA-S5-A6DX	TCGA-S5-A6DX-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	22	Primary	0.3246	0.06	Matched	19.9333333333
+TCGA-S5-AA26	TCGA-S5-AA26-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.3358	0.35	Matched	7.1
+TCGA-SY-A9G0	TCGA-SY-A9G0-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	31	Primary	0.3251	0	Matched	1.53333333333
+TCGA-SY-A9G5	TCGA-SY-A9G5-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.3296	0	Matched	30.9
+TCGA-UY-A78K	TCGA-UY-A78K-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	27	Primary	0.3262	0.08	Matched	25.7666666667
+TCGA-UY-A78L	TCGA-UY-A78L-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.3174	0.03	Matched	6.23333333333
+TCGA-UY-A78M	TCGA-UY-A78M-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.3309	0.03	Matched	4.86666666667
+TCGA-UY-A78N	TCGA-UY-A78N-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.3186	0.15	Matched	8.86666666667
+TCGA-UY-A78O	TCGA-UY-A78O-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.3287	0.05	Matched	5.9
+TCGA-UY-A78P	TCGA-UY-A78P-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.3317	0	Matched	8.53333333333
+TCGA-UY-A8OC	TCGA-UY-A8OC-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.3411	0	Matched	2.93333333333
+TCGA-UY-A9PH	TCGA-UY-A9PH-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3177	0.05	Matched	10.9333333333
+TCGA-XF-A8HB	TCGA-XF-A8HB-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.325	0	Matched	2.33333333333
+TCGA-XF-A8HC	TCGA-XF-A8HC-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.3205	0.16	Matched	3.93333333333
+TCGA-XF-A8HD	TCGA-XF-A8HD-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3243	0.01	Matched	14.2666666667
+TCGA-XF-A8HE	TCGA-XF-A8HE-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3143	0	Matched	12.6666666667
+TCGA-XF-A8HF	TCGA-XF-A8HF-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	25	Primary	0.3266	0	Matched	4.86666666667
+TCGA-XF-A8HG	TCGA-XF-A8HG-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	28	Primary	0.4143	1.05	Matched	9.13333333333
+TCGA-XF-A8HH	TCGA-XF-A8HH-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3185	0.03	Matched	2.8
+TCGA-XF-A8HI	TCGA-XF-A8HI-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	3	Primary	0.3107	0	Matched	2.2
+TCGA-XF-A9SG	TCGA-XF-A9SG-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	22	Primary	0.3373	0	Matched	5.86666666667
+TCGA-XF-A9SH	TCGA-XF-A9SH-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	4	Primary	0.3284	0	Matched	1.23333333333
+TCGA-XF-A9SI	TCGA-XF-A9SI-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.3327	0	Matched	10.6333333333
+TCGA-XF-A9SK	TCGA-XF-A9SK-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.3411	0	Matched	4.56666666667
+TCGA-XF-A9SL	TCGA-XF-A9SL-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary	0.3304	0	Matched	2.96666666667
+TCGA-XF-A9SM	TCGA-XF-A9SM-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.3449	0	Matched	7.26666666667
+TCGA-XF-A9SP	TCGA-XF-A9SP-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	25	Primary	0.3304	0.05	Matched	9.6
+TCGA-XF-A9SU	TCGA-XF-A9SU-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3239	0	Matched	1.83333333333
+TCGA-XF-A9SV	TCGA-XF-A9SV-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4	High Grade	Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3499	0.13	Matched	2.06666666667
+TCGA-XF-A9SX	TCGA-XF-A9SX-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3302	0.01	Matched	3.3
+TCGA-XF-A9SY	TCGA-XF-A9SY-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.3446	0	Matched	13.4666666667
+TCGA-XF-A9SZ	TCGA-XF-A9SZ-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3208	0.03	Matched	6.76666666667
+TCGA-XF-A9T0	TCGA-XF-A9T0-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	12	Primary	0.3307	0.12	Matched	22.8
+TCGA-XF-A9T4	TCGA-XF-A9T4-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	2	Primary	0.3207	0	Matched	1.13333333333
+TCGA-XF-A9T8	TCGA-XF-A9T8-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	3	Primary	0.3155	0	Matched	21.5333333333
+TCGA-XF-AAME	TCGA-XF-AAME-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.3473	0.05	Matched	0.733333333333
+TCGA-XF-AAMF	TCGA-XF-AAMF-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3395	0.12	Matched	2.36666666667
+TCGA-XF-AAMG	TCGA-XF-AAMG-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3446	0.26	Matched	29.8333333333
+TCGA-XF-AAMJ	TCGA-XF-AAMJ-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	17	Primary	0.3403	0	Matched	1.33333333333
+TCGA-XF-AAMR	TCGA-XF-AAMR-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	15	Primary	0.3313	0	Matched	3.06666666667
+TCGA-XF-AAMT	TCGA-XF-AAMT-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	11	Primary	0.3377	0.02	Matched	3.33333333333
+TCGA-XF-AAMW	TCGA-XF-AAMW-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3357	0	Matched	0.8
+TCGA-XF-AAMX	TCGA-XF-AAMX-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3598	0.97	Matched	10.0
+TCGA-XF-AAMY	TCGA-XF-AAMY-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	25	Primary	0.3472	0	Matched	3.56666666667
+TCGA-XF-AAMZ	TCGA-XF-AAMZ-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	24	Primary	0.3312	0.04	Matched	8.93333333333
+TCGA-XF-AAN0	TCGA-XF-AAN0-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3361	0.01	Matched	12.9
+TCGA-XF-AAN1	TCGA-XF-AAN1-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	5	Primary	0.3411	0.06	Matched	2.36666666667
+TCGA-XF-AAN2	TCGA-XF-AAN2-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	12	Primary	0.3328	0.17	Matched	13.7333333333
+TCGA-XF-AAN4	TCGA-XF-AAN4-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	1	Primary	0.3224	0.01	Matched	1.4
+TCGA-XF-AAN5	TCGA-XF-AAN5-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	6	Primary	0.3505	0	Matched	9.83333333333
+TCGA-XF-AAN8	TCGA-XF-AAN8-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3303	0	Matched	0.0333333333333
+TCGA-YC-A89H	TCGA-YC-A89H-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	4	Primary	0.3228	0	Matched	45.6
+TCGA-YC-A9TC	TCGA-YC-A9TC-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	1	Primary	0.3269	0	Matched	3.7
+TCGA-YF-AA3L	TCGA-YF-AA3L-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.3276	0.26	Matched	9.33333333333
+TCGA-YF-AA3M	TCGA-YF-AA3M-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3537	0.31	Matched	4.6
+TCGA-ZF-A9R0	TCGA-ZF-A9R0-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.324	0.09	Matched	5.93333333333
+TCGA-ZF-A9R1	TCGA-ZF-A9R1-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	11	Primary	0.3169	0	Matched	2.86666666667
+TCGA-ZF-A9R3	TCGA-ZF-A9R3-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	12	Primary	0.3303	0	Matched	2.66666666667
+TCGA-ZF-A9R4	TCGA-ZF-A9R4-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.3277	0.04	Matched	7.7
+TCGA-ZF-A9R5	TCGA-ZF-A9R5-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	0	Primary	0.3446	0	Matched	3.16666666667
+TCGA-ZF-A9R7	TCGA-ZF-A9R7-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	13	Primary	0.3149	0.01	Matched	21.2666666667
+TCGA-ZF-A9R9	TCGA-ZF-A9R9-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	17	Primary	0.3215	0.04	Matched	5.93333333333
+TCGA-ZF-A9RC	TCGA-ZF-A9RC-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	25	Primary	0.3184	0.01	Matched	28.2666666667
+TCGA-ZF-A9RD	TCGA-ZF-A9RD-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3238	0.01	Matched	5.26666666667
+TCGA-ZF-A9RE	TCGA-ZF-A9RE-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3249	0.04	Matched	2.06666666667
+TCGA-ZF-A9RF	TCGA-ZF-A9RF-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.3261	0.01	Matched	7.66666666667
+TCGA-ZF-A9RG	TCGA-ZF-A9RG-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	19	Primary	0.331	0	Matched	7.3
+TCGA-ZF-A9RL	TCGA-ZF-A9RL-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	18	Primary	0.3199	0.03	Matched	10.5333333333
+TCGA-ZF-A9RM	TCGA-ZF-A9RM-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3234	0.01	Matched	2.76666666667
+TCGA-ZF-AA4N	TCGA-ZF-AA4N-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	9	Primary	0.3301	0.01	Matched	5.03333333333
+TCGA-ZF-AA4R	TCGA-ZF-AA4R-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	8	Primary	0.3355	0	Matched	2.06666666667
+TCGA-ZF-AA4T	TCGA-ZF-AA4T-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.3218	0.05	Matched	2.93333333333
+TCGA-ZF-AA4U	TCGA-ZF-AA4U-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	16	Primary	0.3297	0.01	Matched	1.8
+TCGA-ZF-AA4V	TCGA-ZF-AA4V-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	22	Primary	0.3277	0.06	Matched	19.3333333333
+TCGA-ZF-AA4W	TCGA-ZF-AA4W-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	12	Primary	0.4141	1.31	Matched	16.7333333333
+TCGA-ZF-AA4X	TCGA-ZF-AA4X-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	14	Primary	0.3141	0	Matched	19.4666666667
+TCGA-ZF-AA51	TCGA-ZF-AA51-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	23	Primary	0.3215	0.02	Matched	20.9
+TCGA-ZF-AA52	TCGA-ZF-AA52-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	24	Primary	0.3286	0.03	Matched	3.53333333333
+TCGA-ZF-AA53	TCGA-ZF-AA53-01	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2	High Grade	Unknown	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.3233	0	Matched	5.53333333333
+TCGA-ZF-AA54	TCGA-ZF-AA54-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Unknown	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	21	Primary	0.3286	0.01	Matched	5.93333333333
+TCGA-ZF-AA56	TCGA-ZF-AA56-01	Discovery	WES	Primary MIBC	None	T4	High Grade	Node Negative	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	12	Primary	0.3257	0.01	Matched	3.43333333333
+TCGA-ZF-AA58	TCGA-ZF-AA58-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	Mx	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	10	Primary	0.3394	0	Matched	6.86666666667
+TCGA-ZF-AA5H	TCGA-ZF-AA5H-01	Discovery	WES	Primary MIBC	None	T3	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	20	Primary	0.3208	0.07	Matched	1.86666666667
+TCGA-ZF-AA5N	TCGA-ZF-AA5N-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Unknown	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma	3	Primary	0.3314	0	Matched	1.7
+TCGA-ZF-AA5P	TCGA-ZF-AA5P-01	Discovery	WES	Primary MIBC	None	T2	High Grade	Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary	0.3325	0.05	Matched	1.66666666667
+DS-bla-112	DS-bla-112	Discovery	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	4.64729904788
+DS-bla-113	DS-bla-113	Discovery	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	18.5891961915
+DS-bla-125	DS-bla-125	Discovery	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	5.80912380986
+DS-bla-126	DS-bla-126	Discovery	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	8.1327733338
+s_OL_CytoBla_031	s_OL_CytoBla_031_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.333333333333
+s_OL_CytoBla_028	s_OL_CytoBla_028_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.266666666667
+DS-tur-003	DS-tur-003-P1	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.333333333333
+DS-tur-004	DS-tur-004-P1	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.933333333333
+s_DS_blarad_002	s_DS_blarad_002_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.433333333333
+s_DS_blarad_004	s_DS_blarad_004_P	Discovery	IMPACT	Primary MIBC	None	T4		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.1
+s_DS_blarad_005	s_DS_blarad_005_P1a	Discovery	IMPACT	Primary MIBC	None	T4		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	1.0
+s_DS_blarad_007	s_DS_blarad_007_P1b	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.233333333333
+s_DS_blarad_008	s_DS_blarad_008_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.4
+s_DS_blarad_013	s_DS_blarad_013_P1a	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	1.3
+s_DS_blarad_016	s_DS_blarad_016_P1a	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.533333333333
+s_DS_blarad_017	s_DS_blarad_017_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.166666666667
+s_DS_blarad_018	s_DS_blarad_018_P1a	Discovery	IMPACT	Primary MIBC	None	T4		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.733333333333
+s_DS_blarad_019	s_DS_blarad_019_P1	Discovery	IMPACT	Primary MIBC	None	T4		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.166666666667
+s_DS_blarad_023	s_DS_blarad_023_P1	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.4
+s_DS_blarad_024	s_DS_blarad_024_P1	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.7
+s_DS_blarad_025	s_DS_blarad_025_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.2
+s_DS_blarad_027	s_DS_blarad_027_P	Discovery	IMPACT	Primary MIBC	None	T4		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.333333333333
+s_DS_blarad_029	s_DS_blarad_029_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.233333333333
+s_DS_blarad_036	s_DS_blarad_036_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.733333333333
+s_DS_blarad_037	s_DS_blarad_037_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.266666666667
+s_DS_blarad_038	s_DS_blarad_038_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.3
+s_DS_blarad_039	s_DS_blarad_039_P	Discovery	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.766666666667
+s_DS_blarad_042	s_DS_blarad_042_P	Discovery	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.333333333333
+s_DS_blarad_043	s_DS_blarad_043_P	Discovery	IMPACT	Primary MIBC	None	T4		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	NA
+s_DS_blarad_050	s_DS_blarad_050_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.4
+s_DS_blarad_051	s_DS_blarad_051_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.7
+s_DS_blarad_052	s_DS_blarad_052_P1	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	1.36666666667
+s_DS_blarad_053	s_DS_blarad_053_P	Discovery	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	1.43333333333
+s_DS_blarad_054	s_DS_blarad_054_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.333333333333
+s_DS_blarad_055	s_DS_blarad_055_P1	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.1
+s_DS_blarad_060	s_DS_blarad_060_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.0333333333333
+s_DS_blarad_072	s_DS_blarad_072_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.233333333333
+s_DS_blarad_076	s_DS_blarad_076_P	Discovery	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.3
+s_DS_blarad_059	s_DS_blarad_059_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.633333333333
+s_DS_blarad_028	s_DS_blarad_028_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.533333333333
+s_DS_blarad_065	s_DS_blarad_065_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.433333333333
+s_DS_blarad_058	s_DS_blarad_058_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.2
+s_DS_blarad_064	s_DS_blarad_064_P1	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.166666666667
+s_DS_blarad_049	s_DS_blarad_049_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.9
+s_DS_blarad_030	s_DS_blarad_030_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.166666666667
+s_DS_blarad_031	s_DS_blarad_031_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.6
+s_DS_blarad_021	s_DS_blarad_021_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.4
+s_DS_blarad_009	s_DS_blarad_009_P1b	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.1
+s_DS_blarad_048	s_DS_blarad_048_P	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	0.3
+s_DS_blarad_010	s_DS_blarad_010_P1	Discovery	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	1.03333333333
+MSKCC-0007_NR	MSKCC-0007_NR	Discovery	WES	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	5.23333333333
+MSKCC-0100_R	MSKCC-0100_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	22.7666666667
+MSKCC-0101_NR	MSKCC-0101_NR	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	9.1
+MSKCC-0231_R	MSKCC-0231_R	Discovery	WES	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	5.06666666667
+MSKCC-0234_NR	MSKCC-0234_NR	Discovery	WES	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	4.16666666667
+MSKCC-0243_NR	MSKCC-0243_NR	Discovery	WES	Primary MIBC	None	T4		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	2.13333333333
+MSKCC-0255_NR	MSKCC-0255_NR	Discovery	WES	Primary MIBC	None	T4		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	8.56666666667
+MSKCC-0279_NR	MSKCC-0279_NR	Discovery	WES	Primary MIBC	None	T4		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	5.8
+MSKCC-0296_R	MSKCC-0296_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	24.4666666667
+MSKCC-0301_NR	MSKCC-0301_NR	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	7.53333333333
+MSKCC-0331_NR	MSKCC-0331_NR	Discovery	WES	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	2.53333333333
+MSKCC-0343_R	MSKCC-0343_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	10.8333333333
+MSKCC-0373_NR	MSKCC-0373_NR	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	6.4
+MSKCC-0389_R	MSKCC-0389_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	16.5666666667
+MSKCC-0411_R	MSKCC-0411_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	13.8666666667
+MSKCC-0425_R	MSKCC-0425_R	Discovery	WES	Primary MIBC	None	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	8.4
+MSKCC-0439_NR	MSKCC-0439_NR	Discovery	WES	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	6.26666666667
+MSKCC-0445_R	MSKCC-0445_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	3.86666666667
+MSKCC-0446_R	MSKCC-0446_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	10.2333333333
+MSKCC-0450_NR	MSKCC-0450_NR	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	2.03333333333
+MSKCC-0464_R	MSKCC-0464_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	7.13333333333
+MSKCC-0500_R	MSKCC-0500_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	22.9666666667
+MSKCC-0547_R	MSKCC-0547_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	7.6
+MSKCC-0567_NR	MSKCC-0567_NR	Discovery	WES	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	4.66666666667
+MSKCC-0620_R	MSKCC-0620_R	Discovery	WES	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	7.76666666667
+MSKCC-0651_NR	MSKCC-0651_NR	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	4.66666666667
+MSKCC-0677_R	MSKCC-0677_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	12.9333333333
+MSKCC-0730_NR	MSKCC-0730_NR	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	3.83333333333
+MSKCC-0741_R	MSKCC-0741_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	13.3666666667
+MSKCC-0754_NR	MSKCC-0754_NR	Discovery	WES	Primary MIBC	None	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	3.46666666667
+MSKCC-0760_NR	MSKCC-0760_NR	Discovery	WES	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	2.8
+MSKCC-0820_NR	MSKCC-0820_NR	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	2.66666666667
+MSKCC-0821_R	MSKCC-0821_R	Discovery	WES	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	6.66666666667
+MSKCC-0745_NR	MSKCC-0745_NR	Discovery	WES	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma					Matched	4.96666666667
+P-0000290	P-0000290-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.17	Matched	22.4309798749
+P-0000083	P-0000083-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		5.88	Matched	135.707428243
+P-0000307	P-0000307-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.09	Matched	7.85084295622
+P-0000410	P-0000410-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.25	Matched	7.85084295622
+P-0000423	P-0000423-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.42	Matched	19.0663328937
+P-0000877	P-0000877-T01-IM3	Validation	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.71	Matched	8.97239194997
+P-0000908	P-0000908-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		1.05	Matched	31.4033718249
+P-0000916	P-0000916-T01-IM3	Validation	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.91	Matched	8.97239194997
+P-0001074	P-0001074-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.54	Matched	21.3094308812
+P-0002186	P-0002186-T01-IM3	Validation	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		1.10	Matched	51.5912537123
+P-0002599	P-0002599-T01-IM3	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.69	Matched	10.0939409437
+P-0002607	P-0002607-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.10	Matched	7.85084295622
+P-0002991	P-0002991-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.87	Matched	13.458587925
+P-0003140	P-0003140-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.56	Matched	2.98069700619
+P-0003279	P-0003279-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		1.05	Matched	11.9227880248
+P-0003377	P-0003377-T01-IM5	Validation	IMPACT	Primary MIBC	None	T4		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.26	Matched	12.9163536935
+P-0003788	P-0003788-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.82	Matched	19.8713133746
+P-0004137	P-0004137-T01-IM5	Validation	IMPACT	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.08	Matched	25.832707387
+P-0004176	P-0004176-T01-IM5	Validation	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.12	Matched	5.96139401238
+P-0004920	P-0004920-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.83	Matched	10.929222356
+P-0005076	P-0005076-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.00	Matched	7.94852534983
+P-0004953	P-0004953-T02-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.83	Matched	21.858444712
+P-0002586	P-0002586-T01-IM3	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		1.93	Matched	7.85084295622
+P-0006129	P-0006129-T01-IM5	Validation	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.08	Matched	6.95495968111
+P-0004008	P-0004008-T01-IM3	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.45	Matched	5.60774496873
+P-0000068	P-0000068-T01-IM3	Validation	IMPACT	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.00	Matched	3.36464698124
+P-0000079	P-0000079-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		4.15	Matched	3.36464698124
+P-0000268	P-0000268-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.00	Matched	5.60774496873
+P-0000308	P-0000308-T01-IM3	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.65	Matched	19.0663328937
+P-0000535	P-0000535-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.43	Matched	26.9171758499
+P-0001100	P-0001100-T01-IM3	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.44	Matched	5.60774496873
+P-0001578	P-0001578-T01-IM3	Validation	IMPACT	Primary MIBC	None	T3		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.50	Matched	11.2154899375
+P-0001610	P-0001610-T01-IM3	Validation	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.16	Matched	6.72929396248
+P-0001704	P-0001704-T01-IM3	Validation	IMPACT	Primary MIBC	None	T4		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.22	Matched	6.72929396248
+P-0001805	P-0001805-T01-IM3	Validation	IMPACT	Primary MIBC	None	T4		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		2.70	Matched	20.1878818874
+P-0002576	P-0002576-T02-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.44	Matched	2.98069700619
+P-0002584	P-0002584-T01-IM3	Validation	IMPACT	Primary MIBC	None	T3		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.99	Matched	7.85084295622
+P-0002610	P-0002610-T01-IM3	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.00	Matched	4.48619597498
+P-0002777	P-0002777-T01-IM3	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		1.91	Matched	16.8232349062
+P-0002824	P-0002824-T01-IM3	Validation	IMPACT	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.16	Matched	4.48619597498
+P-0003029	P-0003029-T01-IM3	Validation	IMPACT	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.49	Matched	19.0663328937
+P-0003071	P-0003071-T01-IM5	Validation	IMPACT	Primary MIBC	None	T4		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.99	Matched	4.96782834365
+P-0003131	P-0003131-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.00	Matched	6.95495968111
+P-0003373	P-0003373-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.33	Matched	6.95495968111
+P-0003409	P-0003409-T01-IM5	Validation	IMPACT	Primary MIBC	None	T3		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.55	Matched	4.96782834365
+P-0003507	P-0003507-T01-IM5	Validation	IMPACT	Primary MIBC	None	T3		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		2.77	Matched	3.97426267492
+P-0003555	P-0003555-T01-IM5	Validation	IMPACT	Primary MIBC	None	T3		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		22.70	Matched	70.5431624798
+P-0003698	P-0003698-T02-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.32	Matched	7.94852534983
+P-0003719	P-0003719-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		1.26	Matched	48.6847177677
+P-0003790	P-0003790-T02-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.35	Matched	9.93565668729
+P-0003809	P-0003809-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.08	Matched	10.929222356
+P-0003848	P-0003848-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.07	Matched	9.93565668729
+P-0004056	P-0004056-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.35	Matched	13.9099193622
+P-0004064	P-0004064-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		1.13	Matched	7.94852534983
+P-0004085	P-0004085-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.08	Matched	22.8520103808
+P-0004366	P-0004366-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.00	Matched	4.96782834365
+P-0004618	P-0004618-T02-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.71	Matched	18.8777477059
+P-0005266	P-0005266-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.07	Matched	5.96139401238
+P-0005308	P-0005308-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.15	Matched	26.8262730557
+P-0005372	P-0005372-T01-IM5	Validation	IMPACT	Primary MIBC	None	T4		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		1.18	Matched	28.8134043931
+P-0005373	P-0005373-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.00	Matched	7.94852534983
+P-0005385	P-0005385-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.00	Matched	17.8841820371
+P-0005449	P-0005449-T01-IM5	Validation	IMPACT	Primary MIBC	None	T3		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.16	Matched	34.7747984055
+P-0005497	P-0005497-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.08	Matched	6.95495968111
+P-0005600	P-0005600-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.34	Matched	21.858444712
+P-0005627	P-0005627-T02-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.0	Matched	26.8262730557
+P-0005718	P-0005718-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.08	Matched	8.94209101856
+P-0005511	P-0005511-T02-IM5	Validation	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.28	Matched	27.8198387244
+P-0006277	P-0006277-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.59	Matched	2.98069700619
+P-0006257	P-0006257-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.15	Matched	6.95495968111
+P-0006697	P-0006697-T01-IM5	Validation	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.08	Matched	5.96139401238
+P-0006725	P-0006725-T01-IM5	Validation	IMPACT	Primary MIBC	None	T4		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.36	Matched	27.8198387244
+P-0006843	P-0006843-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		1.50	Matched	16.8906163684
+P-0006926	P-0006926-T02-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.43	Matched	51.6654147739
+P-0006934	P-0006934-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T4		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.31	Matched	4.96782834365
+P-0007017	P-0007017-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.37	Matched	6.95495968111
+P-0007312	P-0007312-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.16	Matched	5.96139401238
+P-0007682	P-0007682-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T3		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		1.41	Matched	8.94209101856
+P-0007805	P-0007805-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		2.07	Matched	12.9163536935
+P-0007656	P-0007656-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		1.14	Matched	13.9099193622
+P-0007658	P-0007658-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		2.13	Matched	18.8777477059
+P-0007661	P-0007661-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.54	Matched	4.96782834365
+P-0008336	P-0008336-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.45	Matched	3.97426267492
+P-0008425	P-0008425-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.16	Matched	5.96139401238
+P-0008439	P-0008439-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.64	Matched	18.8777477059
+P-0008718	P-0008718-T01-IM5	Validation	IMPACT	Primary MIBC	None	T3		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.00	Matched	11.9227880248
+P-0009005	P-0009005-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		1.58	Matched	10.929222356
+P-0009101	P-0009101-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.00	Matched	8.94209101856
+P-0009618	P-0009618-T01-IM5	Validation	IMPACT	Primary MIBC	None	T2		Node Negative	None	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		0.00	Matched	1.98713133746
+P-0009743	P-0009743-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.26	Matched	0.0
+P-0009846	P-0009846-T01-IM5	Validation	IMPACT	Primary MIBC	None	T4		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Primary		1.10	Matched	11.9227880248
+P-0010079	P-0010079-T01-IM5	Validation	IMPACT	Secondary MIBC	Bacillus Calmette-Guerin (BCG)	T2		Node Positive	Yes	BLCA	Bladder Urothelial Carcinoma	Bladder Urothelial Carcinoma		Metastasis		0.00	Matched	2.98069700619

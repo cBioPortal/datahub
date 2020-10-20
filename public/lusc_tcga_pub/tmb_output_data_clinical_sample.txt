@@ -1,0 +1,183 @@
+#Patient Identifier	Sample Identifier	Nonsense Mutations	Non Silent per Mb	snapshot mutations	Oncotree Code	Cancer Type	Cancer Type Detailed	Sample Type	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Nonsense Mutations	Non Silent per Mb	snapshot mutations	Oncotree Code	Disease type	Cancer Type Detailed	The type of sample (i.e., normal, primary, met, recurrence).	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	NUMBER	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	9	1	1
+PATIENT_ID	SAMPLE_ID	NONSENSE_MUTATION	NONSILENT_PER_MB	SNAPSHOT_MUTATIONS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SAMPLE_TYPE	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+TCGA-18-3406	TCGA-18-3406-01	275	8.07	TP53 p.V216E; FAM123B p.G82V; FBXW7 p.S585T	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	14.5
+TCGA-18-3407	TCGA-18-3407-01	224	6.77	TP53 p.F212fs; KEAP1 p.V155F; CREBBP p.C1408Y; PIK3CA p.C420R; CDKN2A p.W110*; TSC1 p.P366Q	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	15.0666666667
+TCGA-18-3408	TCGA-18-3408-01	98	2.97	TP53 p.C242F; CREBBP p.R1140Q; FOXP1 p.G433fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.9
+TCGA-18-3409	TCGA-18-3409-01	2335	69.6	TP53 p.N210fs; KEAP1 p.P318L; NOTCH2 p.C442S; FBXW7 p.R179C; SMARCA4 p.P12F; TNFAIP3 p.P467H; AKT3 p.E131K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	82.4
+TCGA-18-3410	TCGA-18-3410-01	351	10.45	TP53 p.R213G; PIK3CA p.E545K; NF1 p.G984W	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	19.5333333333
+TCGA-18-3411	TCGA-18-3411-01	353	10.56	TP53 p.E298*; MLL2 p.G4272D; NFE2L2 p.R34G; NOTCH2 p.G1336_splice; CREBBP p.G57V; CDKN2A p.L113fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	15.1666666667
+TCGA-18-3412	TCGA-18-3412-01	245	7.42	APC p.L1393I; CREBBP p.H2384Q; CDKN2A p.D108G; NF1 p.D2632V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	13.0666666667
+TCGA-18-3414	TCGA-18-3414-01	383	11.37	TP53 p.R273L; MLL2 p.L5050R; PIK3CA p.G118D; HRAS p.G13C	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	15.9333333333
+TCGA-18-3415	TCGA-18-3415-01	171	5	TP53 p.R282H; NFE2L2 p.G31A	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.36666666667
+TCGA-18-3416	TCGA-18-3416-01	528	16.02	TP53 p.G244fs; MLL2 p.G1320*; CDKN2A p.E119*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	29.5666666667
+TCGA-18-3417	TCGA-18-3417-01	241	6.76	PTEN p.K128Q	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.73333333333
+TCGA-18-3419	TCGA-18-3419-01	479	13.99	TP53 p.D259F; HLA-A p.S129*; CREBBP p.L2330R; FGFR1 p.W471L	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	24.5666666667
+TCGA-18-3421	TCGA-18-3421-01	454	13.5	TP53 p.V172G; PTEN p.E235*; RASA1 p.P636Q	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	26.9666666667
+TCGA-18-4083	TCGA-18-4083-01	279	7.72	TP53 p.T155P; MLL2 p.E5507D; FBXW7 p.R505G	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.63333333333
+TCGA-18-4086	TCGA-18-4086-01	136	3.9	TP53 p.V225_splice; RB1 p.D68G	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.86666666667
+TCGA-18-4721	TCGA-18-4721-01	133	3.71	NFE2L2 p.R34Q; CUL3 p.E238*; NF1 p.Q181H	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.73333333333
+TCGA-18-5592	TCGA-18-5592-01	254	7.02	TP53 p.H179L; NFE2L2 p.D77G; NOTCH1 p.G977*; CUL3 p.T460_splice	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.43333333333
+TCGA-18-5595	TCGA-18-5595-01	192	5.34	KEAP1 p.E493D, p.R260Q; FBXW7 p.R505S; PIK3CA p.E545K, p.E726K; CUL3 p.S255*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.4
+TCGA-21-1070	TCGA-21-1070-01	448	12.41	TP53 p.G245C; NOTCH2 p.G329C; PDYN p.K224N; FAM123B p.R696S; RASA1 p.W317*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	15.0
+TCGA-21-1071	TCGA-21-1071-01	163	4.56	NFE2L2 p.T80K; PIK3CA p.E545K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.4
+TCGA-21-1076	TCGA-21-1076-01	265	7.38	TP53 p.Y163C; SMARCA4 p.D694Y; RASA1 p.M802I	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.16666666667
+TCGA-21-1077	TCGA-21-1077-01	182	5	KEAP1 p.D422N	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.16666666667
+TCGA-21-1078	TCGA-21-1078-01	62	1.71	MLL2 p.Q3745*; FBXW7 p.R465H; CREBBP p.R1446C; FGFR3 p.R248C; PIK3CA p.D538N, p.E542K; KRAS p.C118S	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	2.36666666667
+TCGA-21-1081	TCGA-21-1081-01	162	4.48	CREBBP p.Y1298C, p.Q943*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.66666666667
+TCGA-21-5782	TCGA-21-5782-01	332	9.79	TP53 p.I195S; HLA-A p.D207_splice; NOTCH1 p.V2038L; FGFR2 p.T786K; PIK3CA p.H1047R	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	11.1
+TCGA-21-5784	TCGA-21-5784-01	182	5.35	TP53 p.W91*; NOTCH2 p.V1664L	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.06666666667
+TCGA-21-5786	TCGA-21-5786-01	333	9.94	TP53 p.V157F; SMARCA4 p.R521P; PDGFRA p.D836E; CDKN2A p.A20E; HRAS p.Q61R	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	11.2
+TCGA-21-5787	TCGA-21-5787-01	359	10.72	TP53 p.C176Y; PDYN p.A164P; PDGFRA p.E225D; CDKN2A p.G106_splice; AKT3 p.W22C; BRAF p.G469R; STK11 p.M51fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	12.2
+TCGA-22-0944	TCGA-22-0944-01	103	2.84	TP53 p.Y234C	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	3.23333333333
+TCGA-22-1002	TCGA-22-1002-01	199	5.51	MLL2 p.R5179L, p.S1385I; PDGFRA p.R500L	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.73333333333
+TCGA-22-1011	TCGA-22-1011-01	91	2.52	TP53 p.E271K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	3.13333333333
+TCGA-22-1012	TCGA-22-1012-01	229	6.35	TP53 p.E224D; FBXW7 p.E655*; CDKN2A p.S12*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.26666666667
+TCGA-22-1016	TCGA-22-1016-01	281	7.79	TP53 p.Y220C; MLL2 p.Q3333*; NOTCH1 p.K428*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.6
+TCGA-22-4591	TCGA-22-4591-01	189	5.43		LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.93333333333
+TCGA-22-4593	TCGA-22-4593-01	157	4.36	TP53 p.D49fs; FBXW7 p.G667fs; CDKN2A p.P114L	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.23333333333
+TCGA-22-4595	TCGA-22-4595-01	275	7.59	TP53 p.P250L	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.43333333333
+TCGA-22-4599	TCGA-22-4599-01	317	8.89	TP53 p.G245C; KEAP1 p.V155F; MLL2 p.A3219fs; PTEN p.K327fs; CDKN2A p.D108Y	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	11.0
+TCGA-22-4601	TCGA-22-4601-01	168	4.72	TP53 p.R273C; EGFR p.P1019L; RB1 p.K228fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.9
+TCGA-22-4604	TCGA-22-4604-01	228	6.2	TP53 p.R196*; FBXW7 p.G517E; NF1 p.M1981V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.83333333333
+TCGA-22-4607	TCGA-22-4607-01	84	2.37	TP53 p.C176F; RB1 p.V70fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	2.83333333333
+TCGA-22-4613	TCGA-22-4613-01	535	15.03	TP53 p.Y236C; SOX2 p.M45L; PIK3CA p.E545K; ASCL4 p.C47*; NF1 p.C904*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	18.9666666667
+TCGA-22-5471	TCGA-22-5471-01	210	6.27	TP53 p.R248W; NF1 p.S82C; TSC2 p.S1095_splice	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.86666666667
+TCGA-22-5472	TCGA-22-5472-01	320	9.54	NF1 p.S2355_splice; RASA1 p.R709*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	10.8666666667
+TCGA-22-5473	TCGA-22-5473-01	654	18.16	TP53 p.E298*; MLL2 p.V1561L, p.G1387V; NFE2L2 p.Q26P; PIK3CA p.E542K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	21.4333333333
+TCGA-22-5474	TCGA-22-5474-01	92	2.7	TP53 p.Y234S; NFE2L2 p.E79Q	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	2.73333333333
+TCGA-22-5477	TCGA-22-5477-01	133	4.01	TP53 p.V157F; MLL2 p.E2393*; NFE2L2 p.R34Q; PDYN p.R215C; CDKN2A p.D108Y	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.66666666667
+TCGA-22-5478	TCGA-22-5478-01	151	4.46	TP53 p.R280I; TSC1 p.P419fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.23333333333
+TCGA-22-5480	TCGA-22-5480-01	127	3.81	TP53 p.R110L; NOTCH1 p.N390S	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.73333333333
+TCGA-22-5482	TCGA-22-5482-01	135	4	TP53 p.Y126_splice; MLL2 p.H2315Q; NFE2L2 p.F37del; FGFR2 p.E470Q; RASA1 p.I905N	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.76666666667
+TCGA-22-5485	TCGA-22-5485-01	176	5.22	TP53 p.162_163insI; NOTCH1 p.Y550N; ERBB2 p.G1057V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.13333333333
+TCGA-22-5489	TCGA-22-5489-01	206	6.03	TP53 p.R306*; PIK3CA p.E65K; PTEN p.L320*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.06666666667
+TCGA-22-5491	TCGA-22-5491-01	308	8.62	TP53 p.P151R; NOTCH1 p.S2471*, p.P2469S; PIK3CA p.E545K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.66666666667
+TCGA-22-5492	TCGA-22-5492-01	184	5.56	TP53 p.E221*; NOTCH1 p.R1784L; SMAD4 p.D537E; APC p.S320*; CDKN2A p.Y44fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.43333333333
+TCGA-33-4532	TCGA-33-4532-01	322	8.77	TP53 p.M237I; KEAP1 p.N469fs; CREBBP p.Y1450D; FGFR1 p.R445W	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	11.3
+TCGA-33-4533	TCGA-33-4533-01	255	6.98	TP53 p.E298*; RB1 p.G89_splice; FOXP1 p.Q140H; NF1 p.E2231*; TSC1 p.R968S	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.8
+TCGA-33-4538	TCGA-33-4538-01	160	4.55	TP53 p.H214R; KEAP1 p.L310P; MLL2 p.Q1302_splice; NOTCH2 p.Q1348H; CDKN2A p.V82fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.63333333333
+TCGA-33-4547	TCGA-33-4547-01	185	5.25	TP53 p.E271K; SMAD4 p.E526*; PIK3CA p.E726K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.4
+TCGA-33-4566	TCGA-33-4566-01	1080	30.33	TP53 p.K164E; PDGFRA p.G72V; ASCL4 p.Q132*; NF1 p.L2668Q	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	37.7333333333
+TCGA-33-4582	TCGA-33-4582-01	161	4.63	TP53 p.P278S	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.63333333333
+TCGA-33-4583	TCGA-33-4583-01	453	12.62	TP53 p.R249W, p.R158L; NOTCH1 p.G1215_splice; PIK3CA p.E545K; PTEN p.Y346*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	15.6666666667
+TCGA-33-4586	TCGA-33-4586-01	299	8.42	TP53 p.R248Q; NFE2L2 p.D29Y; PDGFRA p.L593I	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	10.1333333333
+TCGA-33-6737	TCGA-33-6737-01	375	10.45	TP53 p.T284P, p.L111Q; SMARCA4 p.E861K; SMAD4 p.Q289*; BRAF p.G466V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	12.5666666667
+TCGA-34-2596	TCGA-34-2596-01	212	5.93	TP53 p.K305*; MLL2 p.Y5443*; NFE2L2 p.D29G; CDKN2A p.D108Y; BRAF p.D380H	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.86666666667
+TCGA-34-2600	TCGA-34-2600-01	434	12.15	TP53 p.G266V; CREBBP p.Q503*; FGFR3 p.S249C; ERBB2 p.E1021Q; PDGFRA p.D842H; HRAS p.Q61K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	13.2666666667
+TCGA-34-2608	TCGA-34-2608-01	127	3.53	TP53 p.R158L; NFE2L2 p.D27H, p.W24C; CCND1 p.E162K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	3.93333333333
+TCGA-34-5231	TCGA-34-5231-01	546	15.14	NOTCH2 p.A7P; CDKN2A p.A118P; BRAF p.A621_splice	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	18.7666666667
+TCGA-34-5232	TCGA-34-5232-01	151	4.2	TP53 p.D281Y; PIK3CA p.R38L	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.23333333333
+TCGA-34-5234	TCGA-34-5234-01	162	4.82		LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.26666666667
+TCGA-34-5236	TCGA-34-5236-01	189	5.29	TP53 p.K132R; NFE2L2 p.R34P; NOTCH1 p.G957W	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.16666666667
+TCGA-34-5239	TCGA-34-5239-01	201	5.61	TP53 p.T125_splice; PDYN p.82_83LG>FW	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.93333333333
+TCGA-34-5240	TCGA-34-5240-01	136	3.81	TP53 p.G245S; NFE2L2 p.D29H; PDGFRA p.D388E; RB1 p.S127_splice; HRAS p.G13R	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.83333333333
+TCGA-34-5241	TCGA-34-5241-01	1	0.03		LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	0.1
+TCGA-34-5927	TCGA-34-5927-01	238	6.65	TP53 p.S183*; MLL2 p.R2217H; NOTCH2 p.N1059K; FAM123B p.V147L	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.73333333333
+TCGA-34-5928	TCGA-34-5928-01	334	9.29	TP53 p.G262V; MLL2 p.D3560N; NOTCH2 p.E454D; PDYN p.R174H; CUL3 p.S53R; NF1 p.P566A	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	10.5666666667
+TCGA-34-5929	TCGA-34-5929-01	171	4.76	TP53 p.R282W; HLA-A p.Q78R; FAM123B p.C143F	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.76666666667
+TCGA-37-3783	TCGA-37-3783-01	315	8.61	TP53 p.R273H; PIK3CA p.H1047R; BRAF p.R95T	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	10.8333333333
+TCGA-37-3789	TCGA-37-3789-01	549	16.54	TP53 p.R65*; MLL2 p.C1408F, p.E1158*; EGFR p.R803M, p.W200C, p.G339*, p.R533M; ERBB2 p.G152V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	32.6333333333
+TCGA-37-4133	TCGA-37-4133-01	242	6.7	TP53 p.V218del; KEAP1 p.S243C; MLL2 p.E4970*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.3
+TCGA-37-4135	TCGA-37-4135-01	245	6.84	TP53 p.E68*; MLL2 p.P1084L; NFE2L2 p.Q26L; CDKN2A p.M53I	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.63333333333
+TCGA-37-4141	TCGA-37-4141-01	283	7.84	TP53 p.C242F; SMARCA4 p.E659*; CUL3 p.K731M; ASCL4 p.A56G; BRAF p.Q609H	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.96666666667
+TCGA-37-5819	TCGA-37-5819-01	639	19.06	TP53 p.C242F; KEAP1 p.G480W; HLA-A p.Y233*, p.W298*; PIK3CA p.G106V; STK11 p.G279fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	21.9333333333
+TCGA-39-5016	TCGA-39-5016-01	297	8.34	TP53 p.R175G; CUL3 p.V677F; TSC1 p.R1027Q	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	10.3
+TCGA-39-5019	TCGA-39-5019-01	150	4.16	TP53 p.E271*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.0
+TCGA-39-5021	TCGA-39-5021-01	123	3.46	TP53 p.C141W; RB1 p.L88F; CUL3 p.V677_splice, p.E243K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.23333333333
+TCGA-39-5022	TCGA-39-5022-01	250	6.93	NFE2L2 p.E79Q	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.36666666667
+TCGA-39-5024	TCGA-39-5024-01	181	5.04	TP53 p.A307_splice; HLA-A p.Q120H; PTEN p.G129E	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.9
+TCGA-39-5027	TCGA-39-5027-01	282	7.89	TP53 p.F270I; MLL2 p.C5035F, p.Q2166*; PTEN p.D92H, p.R130Q; CDKN2A p.W110*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.83333333333
+TCGA-39-5028	TCGA-39-5028-01	171	4.76	TP53 p.P278L; CDKN2A p.D108N	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.96666666667
+TCGA-39-5029	TCGA-39-5029-01	128	3.58	TP53 p.R213*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.56666666667
+TCGA-39-5030	TCGA-39-5030-01	232	6.45	MLL2 p.R4904*; APC p.P1381S; TNFAIP3 p.R136H	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.2
+TCGA-39-5031	TCGA-39-5031-01	526	14.67	TP53 p.Y103*; KEAP1 p.R15L; NOTCH2 p.Q1392*; CREBBP p.S2315C, p.S1767L; RB1 p.S127I; FOXP1 p.A645D; BRAF p.G464V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	18.3666666667
+TCGA-39-5035	TCGA-39-5035-01	130	3.66	TP53 p.R158H; ERBB2 p.P122L	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.53333333333
+TCGA-39-5036	TCGA-39-5036-01	259	7.23	TP53 p.V143fs; KEAP1 p.G423V; MLL2 p.G1928fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.8
+TCGA-39-5037	TCGA-39-5037-01	201	5.65	TP53 p.H179D; NOTCH1 p.D2020H; SMARCA4 p.P109L	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.2
+TCGA-39-5039	TCGA-39-5039-01	148	4.14		LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.33333333333
+TCGA-43-2578	TCGA-43-2578-01	264	7.38	KEAP1 p.V167F; PTEN p.Q171K; RB1 p.S634*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.76666666667
+TCGA-43-3394	TCGA-43-3394-01	186	5.57	MLL2 p.R3087L; APC p.S966G; CDKN2A p.P3fs; NF1 p.E1734V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.03333333333
+TCGA-43-3920	TCGA-43-3920-01	361	10.91	TP53 p.H193L; PTEN p.Q245*; RASA1 p.E126K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	16.0333333333
+TCGA-43-5668	TCGA-43-5668-01	542	16.07	TP53 p.R273L; FAM123B p.S93I; CREBBP p.T228A	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	18.7333333333
+TCGA-43-6143	TCGA-43-6143-01	282	7.92	TP53 p.H214R; KEAP1 p.I506V; RB1 p.A392fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.26666666667
+TCGA-43-6647	TCGA-43-6647-01	146	4.07	TP53 p.R248L; FAM123B p.T412P; SMAD4 p.S204Y; TSC2 p.E1113*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.6
+TCGA-43-6770	TCGA-43-6770-01	191	5.29	TP53 p.Y205C	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.23333333333
+TCGA-43-6771	TCGA-43-6771-01	170	4.74		LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.76666666667
+TCGA-46-3765	TCGA-46-3765-01	451	13.39	MLL2 p.R371_splice; NFE2L2 p.L30F; CDKN2A p.H98P	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	26.1
+TCGA-46-3766	TCGA-46-3766-01	1	0.03		LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	0.0666666666667
+TCGA-46-3767	TCGA-46-3767-01	275	8.16	TP53 p.H193R; PIK3CA p.G320V; AKT1 p.E17K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	13.7
+TCGA-46-3768	TCGA-46-3768-01	370	11.14	TP53 p.R248P; NFE2L2 p.D29H	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	19.1333333333
+TCGA-46-3769	TCGA-46-3769-01	741	21.93	TP53 p.D207fs; NOTCH2 p.E492G; PDYN p.Y162N; EGFR p.P589L; PDGFRA p.V982L; NF1 p.L2605F	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	27.1666666667
+TCGA-46-6025	TCGA-46-6025-01	165	4.6	TP53 p.V172F; KEAP1 p.Q75*; CREBBP p.P814L; TSC2 p.R901H	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.53333333333
+TCGA-46-6026	TCGA-46-6026-01	175	4.93	TP53 p.LTI252del	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.13333333333
+TCGA-51-4079	TCGA-51-4079-01	321	8.88	TP53 p.D48fs; NFE2L2 p.G81V; NOTCH1 p.Q2361*; FGFR3 p.K715M; PIK3CA p.E545K; TSC1 p.Q794*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	11.3
+TCGA-51-4080	TCGA-51-4080-01	245	6.79	TP53 p.R337L; CDKN2A p.E120*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.3
+TCGA-51-4081	TCGA-51-4081-01	172	4.75	TP53 p.R273L, p.G154V; KEAP1 p.V418L; NFE2L2 p.L30F; FBXW7 p.R479*; NF1 p.L923V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.43333333333
+TCGA-56-1622	TCGA-56-1622-01	164	4.59	TP53 p.R337L; RB1 p.R451C	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.93333333333
+TCGA-56-5897	TCGA-56-5897-01	90	2.66	TP53 p.R213*; MLL2 p.S1812*; NFE2L2 p.E79Q; PTEN p.S59*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	2.76666666667
+TCGA-56-5898	TCGA-56-5898-01	123	3.65	TP53 p.Y163C	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.3
+TCGA-56-6545	TCGA-56-6545-01	250	7.02	TP53 p.V157F; MLL2 p.E668*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.56666666667
+TCGA-56-6546	TCGA-56-6546-01	291	8.13	TP53 p.H179Y; PDYN p.G176W; ERBB3 p.G623E; PTEN p.L247F, p.P248H; RASA1 p.E734*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.8
+TCGA-60-2698	TCGA-60-2698-01	1040	28.87	TP53 p.R213*; MLL2 p.Q1377R; HLA-A p.E299_splice; FBXW7 p.S678*; APC p.Q2403H; EGFR p.L210_splice; CDKN2A p.G150S; CUL3 p.L321F; NF1 p.D1481H; RASA1 p.S897_splice	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	31.9
+TCGA-60-2707	TCGA-60-2707-01	106	2.95	TP53 p.P34fs; PTEN p.H61R; NF1 p.Q2492*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	2.7
+TCGA-60-2708	TCGA-60-2708-01	170	4.73	TP53 p.G154fs; EGFR p.S720C; NF1 p.Q2822H	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.76666666667
+TCGA-60-2709	TCGA-60-2709-01	159	4.44	TP53 p.G245C; NFE2L2 p.G81S	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.73333333333
+TCGA-60-2710	TCGA-60-2710-01	174	4.83	TP53 p.G244D; KEAP1 p.R470C; FGFR2 p.W290C	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.06666666667
+TCGA-60-2711	TCGA-60-2711-01	100	2.8	TP53 p.L264fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	3.2
+TCGA-60-2712	TCGA-60-2712-01	76	2.12	FOXP1 p.Q280*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	2.33333333333
+TCGA-60-2713	TCGA-60-2713-01	209	5.83	TP53 p.V73fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.9
+TCGA-60-2715	TCGA-60-2715-01	140	3.9	PDGFRA p.I323V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	3.9
+TCGA-60-2719	TCGA-60-2719-01	150	4.21	TP53 p.H193D	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.43333333333
+TCGA-60-2720	TCGA-60-2720-01	364	10.16	TP53 p.Y220C; FAM123B p.A133S; NF1 p.K248N	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	12.2333333333
+TCGA-60-2721	TCGA-60-2721-01	69	1.93	TP53 p.E204*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.96666666667
+TCGA-60-2722	TCGA-60-2722-01	270	7.54	TP53 p.H179R; KEAP1 p.G480W; FBXW7 p.R505G	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.03333333333
+TCGA-60-2723	TCGA-60-2723-01	236	6.56	TP53 p.E224_splice; KEAP1 p.L231V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.73333333333
+TCGA-60-2724	TCGA-60-2724-01	280	7.81	TP53 p.G244C; PDYN p.G176E; TNFAIP3 p.G622C; PIK3CA p.D1045V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.6
+TCGA-60-2725	TCGA-60-2725-01	125	3.48	CDKN2A p.D153N; TSC2 p.A1722P	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.6
+TCGA-60-2726	TCGA-60-2726-01	225	6.29	PIK3CA p.E542K; CDKN2A p.R58*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.63333333333
+TCGA-63-5128	TCGA-63-5128-01	255	7.17	TP53 p.K320fs; ASCL4 p.G30R; BRAF p.V639I	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.03333333333
+TCGA-63-5131	TCGA-63-5131-01	247	6.91	TP53 p.R158L; TSC2 p.Q200_splice	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.56666666667
+TCGA-63-6202	TCGA-63-6202-01	296	8.27	TP53 p.R158L; MLL2 p.G3205V; KRAS p.Q61H	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	10.3
+TCGA-66-2727	TCGA-66-2727-01	246	7.28	TP53 p.Y234C; MLL2 p.L3776fs; APC p.E868Q	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	13.9333333333
+TCGA-66-2734	TCGA-66-2734-01	369	10.91	TP53 p.R249S; PDGFRA p.L245I	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	24.6
+TCGA-66-2742	TCGA-66-2742-01	186	5.51	TP53 p.348_349LE>F*; NOTCH2 p.P6fs; EGFR p.L861Q; ERBB3 p.R1120G	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.63333333333
+TCGA-66-2744	TCGA-66-2744-01	306	9.09	TP53 p.R175G; MLL2 p.I1200M; RASA1 p.910_911LN>H	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	17.8666666667
+TCGA-66-2754	TCGA-66-2754-01	294	8.78	TP53 p.Q331H; KEAP1 p.W544C; NOTCH2 p.G1751C; RB1 p.K643*; STK11 p.G279fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	13.3333333333
+TCGA-66-2755	TCGA-66-2755-01	168	4.67	TP53 p.R273P; PIK3CA p.R108L; ASCL4 p.L28P	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.43333333333
+TCGA-66-2756	TCGA-66-2756-01	428	12.06	TP53 p.R175G; KEAP1 p.V369L; PDYN p.P113Q; NF1 p.T482A, p.L2439F	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	14.5
+TCGA-66-2757	TCGA-66-2757-01	227	6.42	TP53 p.L111R	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.0
+TCGA-66-2758	TCGA-66-2758-01	279	7.72	TP53 p.T125P; HRAS p.G13V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.86666666667
+TCGA-66-2759	TCGA-66-2759-01	362	10.14	TP53 p.R249G; NOTCH1 p.S2211*; FAM123B p.P730S; PIK3CA p.E545K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	12.2666666667
+TCGA-66-2763	TCGA-66-2763-01	332	9.25	TP53 p.P278A; MLL2 p.S920fs	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	11.1
+TCGA-66-2765	TCGA-66-2765-01	90	2.51	TP53 p.Q331_splice; MLL2 p.Q3360*, p.S1684T	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	2.6
+TCGA-66-2766	TCGA-66-2766-01	312	8.72	TP53 p.H193L; NFE2L2 p.G31A; PIK3CA p.E545K	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	10.4333333333
+TCGA-66-2767	TCGA-66-2767-01	295	8.18	TP53 p.S261_splice; MLL2 p.G134_splice	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.23333333333
+TCGA-66-2768	TCGA-66-2768-01	211	5.89	TP53 p.Y163C; MLL2 p.K4207R	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.0
+TCGA-66-2770	TCGA-66-2770-01	196	5.46	TP53 p.R267P; NFE2L2 p.E79Q; FGFR3 p.S249C	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.53333333333
+TCGA-66-2771	TCGA-66-2771-01	225	6.69	TNFAIP3 p.Y778C	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.66666666667
+TCGA-66-2773	TCGA-66-2773-01	487	13.31	KEAP1 p.R470C, p.R320Q; MLL2 p.G2232S; PIK3CA p.E453K; ERBB3 p.L642V	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	16.6666666667
+TCGA-66-2777	TCGA-66-2777-01	148	4.08	TP53 p.R248L; KEAP1 p.S224Y; NF1 p.K2372N	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	5.53333333333
+TCGA-66-2778	TCGA-66-2778-01	120	3.33		LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	3.43333333333
+TCGA-66-2780	TCGA-66-2780-01	110	3.08	SMAD4 p.Q183*; FGFR2 p.K659N; RASA1 p.S1006*; TSC2 p.R1529L	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	3.8
+TCGA-66-2781	TCGA-66-2781-01	122	3.41		LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	3.73333333333
+TCGA-66-2782	TCGA-66-2782-01	288	8.05	TP53 p.E287*; NF1 p.W336*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.33333333333
+TCGA-66-2783	TCGA-66-2783-01	211	5.79	TP53 p.I332_splice; NFE2L2 p.D29N; PTEN p.Q245*; RB1 p.R445_splice	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.63333333333
+TCGA-66-2785	TCGA-66-2785-01	1035	28.87	SMARCA4 p.E1212D; PIK3CA p.E545K; MYC p.Q321E; CUL3 p.R751T; TSC1 p.S16C	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	32.7333333333
+TCGA-66-2786	TCGA-66-2786-01	203	5.68	TP53 p.R158G; HLA-A p.W228*; CDKN2A p.E27*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.56666666667
+TCGA-66-2787	TCGA-66-2787-01	514	15.44	TP53 p.R158fs; NFE2L2 p.G81S; ERBB2 p.G1188W; CDKN2A p.Q50H	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	20.7
+TCGA-66-2788	TCGA-66-2788-01	178	5.17	TP53 p.T125_splice; PDYN p.L163F; PTEN p.L193fs; NF1 p.I2003_splice	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.1
+TCGA-66-2789	TCGA-66-2789-01	321	9.48	NOTCH1 p.C429S, p.R353C	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	11.2666666667
+TCGA-66-2791	TCGA-66-2791-01	326	9.65	TP53 p.G245V; ASCL4 p.P14T	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	14.1
+TCGA-66-2792	TCGA-66-2792-01	159	4.71	TP53 p.R306*, p.R267P; FGFR1 p.P25Q; CDKN2A p.R80*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	7.63333333333
+TCGA-66-2793	TCGA-66-2793-01	264	7.62	TP53 p.H179L; NOTCH1 p.G1165fs; PDYN p.R213C; CREBBP p.D1435Y	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	9.3
+TCGA-66-2794	TCGA-66-2794-01	134	3.72	TP53 p.P278R	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	4.66666666667
+TCGA-66-2795	TCGA-66-2795-01	403	11.95	TP53 p.R158L; NFE2L2 p.R34Q; NOTCH1 p.W1075*; CREBBP p.P616R	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	20.3
+TCGA-66-2800	TCGA-66-2800-01	191	5.27	TP53 p.G245V; APC p.K561N; CUL3 p.R180_splice	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	6.7
+TCGA-70-6722	TCGA-70-6722-01	242	6.75	MLL2 p.R1388W; PIK3CA p.H495L; EGFR p.V843L, p.L861Q	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	8.56666666667
+TCGA-70-6723	TCGA-70-6723-01	100	2.85	TP53 p.G187_splice	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	3.3
+TCGA-85-6175	TCGA-85-6175-01	52	1.46	NF1 p.Y2285*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	1.36666666667
+TCGA-85-6560	TCGA-85-6560-01	377	10.57	TP53 p.C135W; SMARCA4 p.G119_splice; APC p.E918*, p.Q1922H; PIK3CA p.E547D	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	12.8333333333
+TCGA-85-6561	TCGA-85-6561-01	798	24.26	TP53 p.R283P; CREBBP p.P383R; PIK3CA p.Q969K; CUL3 p.N49D; AKT3 p.D395E; NRAS p.Y40*	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Primary	Matched	20.7333333333

@@ -1,0 +1,103 @@
+#Sample Identifier	Patient Identifier	Functional	Extra-Panc Spread	WHO Grade	Perineural Invasion	Tumor Size	Vascular Invasion	ENETS Staging	T Stage	ENETS T-Staging	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Functional	Extra-Panc Spread	WHO Grade	Perineural invasion.	Tumor size.	Vascular invasion.	ENETS Staging	T Stage	ENETS T-Staging	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	FUNCTIONAL	EXTRA_PANC_SPREAD	WHO_GRADE	PERINEURAL_INVASION	TUMOR_SIZE	VASCULAR_INVASION	ENETS_STAGING	T_STAGE	ENETS_T_STAGING	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+QCMG-66-ICGC_0425-ICGC-ABMB-20120905-002	ICGC_0425	No	Absent	1	Absent	70	Absent	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.4
+QCMG-66-ICGC_0427-ICGC-ABMB-20120905-004	ICGC_0427	Yes	Absent	2	Absent	76	Absent	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.2
+QCMG-66-ICGC_0428-ICGC-ABMB-20120905-005	ICGC_0428	No	Absent	2	Absent	58	Absent	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.666666666667
+QCMG-66-ICGC_0431-ICGC-ABMB-20130711-001	ICGC_0431	Yes	Absent	1	Absent	40	Absent	IIIb	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.933333333333
+QCMG-66-ICGC_0432-ICGC-ABMB-20120905-010	ICGC_0432	No	Present	1	Absent	100	Present	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.633333333333
+QCMG-66-ICGC_0433-ICGC-ABMB-20120905-011	ICGC_0433	No	Present	2	Absent	105	Present	IIIa	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.4
+QCMG-66-ICGC_0434-ICGC-ABMB-20120905-012	ICGC_0434	No	Present	1	Absent	40	Absent	IIIa	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.633333333333
+QCMG-66-ICGC_0435-ICGC-ABMB-20120905-013	ICGC_0435	No	Present	2	Absent	40	Present	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.0
+QCMG-66-ICGC_0436-ICGC-ABMB-20120905-087	ICGC_0436	No	Present	1	Absent	25	Absent	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.23333333333
+QCMG-66-ICGC_0437-ICGC-ABMB-20120905-014	ICGC_0437	Yes	Absent	2	Absent	40	Absent	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.966666666667
+QCMG-66-ICGC_0438-ICGC-ABMB-20120905-015	ICGC_0438	No	Present	1	Absent	45	Present	IV	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.06666666667
+QCMG-66-ICGC_0439-ICGC-ABMB-20120905-016	ICGC_0439	No	Present	1	Absent	65	Present	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.4
+QCMG-66-ICGC_0440-ICGC-ABMB-20120905-018	ICGC_0440	Yes	Absent	1	Absent	27	Absent	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.333333333333
+QCMG-66-ICGC_0441-ICGC-ABMB-20120905-019	ICGC_0441	No	Absent	2	Absent	70	Present	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.3
+QCMG-66-ICGC_0443-ICGC-ABMB-20120905-021	ICGC_0443	No	Absent	1	Not documented	43	Present	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.733333333333
+QCMG-66-ICGC_0446-ICGC-ABMB-20120905-024	ICGC_0446	No	Absent	1	Absent	30	Absent	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.2
+QCMG-66-ICGC_0447-ICGC-ABMB-20120905-025	ICGC_0447	No	Absent	1	Absent	14	Absent	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.3
+QCMG-66-ICGC_0449-ICGC-ABMB-20120905-027	ICGC_0449	No	Absent	1	Absent	15	Absent	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.633333333333
+QCMG-66-ICGC_0452-ICGC-ABMB-20120905-031	ICGC_0452	No	Present	2	Not documented	20	Not documented	IIIa	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	2.1
+QCMG-66-ICGC_0453-ICGC-ABMB-20121220-059	ICGC_0453	No	Absent	1	Absent	45	Absent	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.2
+QCMG-66-ICGC_0455-ICGC-ABMB-20121220-065	ICGC_0455	No	Present	3	Present	12	Absent	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	3.03333333333
+QCMG-66-ICGC_0456-ICGC-ABMB-20121220-068	ICGC_0456	No	Absent	2	Absent	75	Present	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.766666666667
+QCMG-66-ICGC_0457-ICGC-ABMB-20131023-012	ICGC_0457	No	Present	3	Present	130	Present	IV	4	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.56666666667
+QCMG-66-ICGC_0489-ICGC-ABMB-20131107-095	ICGC_0459	Yes	Absent	1	Not documented	17	Not documented	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.566666666667
+QCMG-66-ICGC_0459-ICGC-ABMB-20131023-019	ICGC_0489	No	Absent	2	Absent	32	Absent	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.333333333333
+QCMG-66-ICGC_0491-ICGC-ABMB-20131107-105	ICGC_0491	No	Absent	1	Absent	15	Absent	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.3
+QCMG-66-ICGC_0492-ICGC-ABMB-20131107-108	ICGC_0492	No	Absent	2	Absent	88	Absent	IIIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.0666666666667
+QCMG-66-ICGC_0497-ICGC-ABMB-20131107-124	ICGC_0497	No	Present	2	Present	55	Present	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.866666666667
+QCMG-66-ICGC_0500-ICGC-ABMB-20131120-011	ICGC_0498	No	Absent	2	Present	49	Present	IIIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.366666666667
+QCMG-66-ICGC_0498-ICGC-ABMB-20131107-127	ICGC_0500	No	Absent	1	Not documented	15	Not documented	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.8
+QCMG-66-ICGC_0501-ICGC-ABMB-20131120-014	ICGC_0501	No	Present	2	Absent	35	Present	IIIa	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.46666666667
+QCMG-66-ITNET_0020-SMGres-ASRL-20131114-024	ITNET_0020	No	Present	2	Not documented	80	Present	IV	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.23333333333
+QCMG-66-ITNET_0026-SMGres-ASRL-20131114-022	ITNET_0026	No	Present	1	Present	30	Present	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.2
+QCMG-66-ITNET_0028-SMGres-ASRL-20131114-010	ITNET_0028	No	Present	2	Present	70	Present	IV	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.2
+QCMG-66-ITNET_0052-SMGres-ASRL-20131114-002	ITNET_0052	No	Present	2	Present	40	Present	IV	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	4.5
+QCMG-66-ITNET_0087-SMGres-ASRL-20131114-018	ITNET_0087	Yes	Present	1	Present	45	Present	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.8
+QCMG-66-ITNET_0100-SMGres-ASRL-20131114-020	ITNET_0100	No	Absent	2	Absent	70	Present	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	2.83333333333
+QCMG-66-ITNET_0107-SMGres-ASRL-20131114-008	ITNET_0107	No	Absent	2	Absent	55	Present	IIIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.266666666667
+QCMG-66-ITNET_0118-SMGres-ASRL-20131114-028	ITNET_0118	Yes	Absent	1	Present	15	Absent	IV	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.3
+QCMG-66-ITNET_0124-SMGres-ASRL-20131114-016	ITNET_0124	No	Present	2	Absent	40	Present	IIIa	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	2.7
+QCMG-66-ITNET_0128-SMGres-ASRL-20131114-004	ITNET_0128	No	Present	2	Present	30	Present	IV	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.566666666667
+QCMG-66-ITNET_0134-SMGres-ASRL-20131114-006	ITNET_0134	No	Present	3	Present	55	Present	IV	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.0
+QCMG-66-ITNET_0144-SMGres-ASRL-20131114-034	ITNET_0144	No	Absent	2	Present	110	Absent	IIIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.5
+QCMG-66-ITNET_0148-SMGres-ASRL-20131114-030	ITNET_0148	No	Present	1	Present	50	Present	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.566666666667
+QCMG-66-ITNET_0151-SMGres-ASRL-20131114-032	ITNET_0151	No	Present	2	Absent	40	Present	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.7
+QCMG-66-ITNET_0152-SMGres-ASRL-20131114-036	ITNET_0152	No	Present	2	Present	70	Present	IV	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.533333333333
+QCMG-66-ITNET_0673-SMGres-ASRL-20131114-070	ITNET_0673	No	Present	2	Absent	25	Absent	IIIb	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.6
+QCMG-66-ITNET_0681-SMGres-ASRL-20131114-056	ITNET_0681	No	Present	2	Present	2	Present	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.0666666666667
+QCMG-66-ITNET_0695-SMGres-ASRL-20131114-072	ITNET_0695	No	Absent	2	Absent	2	Absent	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.4
+QCMG-66-ITNET_0700-SMGres-ASRL-20131114-058	ITNET_0700	No	Absent	2	Absent	45	Absent	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.6
+QCMG-66-ITNET_0783-SMGres-ASRL-20131114-074	ITNET_0783	No	Absent	2	Absent	40	Present	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.16666666667
+QCMG-66-ITNET_0797-SMGres-ASRL-20131114-060	ITNET_0797	No	Absent	2	Absent	45	Present	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.566666666667
+QCMG-66-ITNET_0813-SMGres-ASRL-20131114-064	ITNET_0813	No	Present	2	Present	35	Present	IIIb	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.13333333333
+QCMG-66-ITNET_0833-SMGres-ASRL-20131114-066	ITNET_0833	No	Absent	2	Absent	30	Present	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.466666666667
+QCMG-66-ITNET_0850-SMGres-ASRL-20131114-068	ITNET_0850	No	Absent	1	Present	15	Absent	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	NA
+QCMG-66-ITNET_0900-SMGres-ASRL-20131114-076	ITNET_0900	No	Absent	2	Absent	50	Absent	IIIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.566666666667
+QCMG-66-ITNET_0935-SMGres-ASRL-20131114-080	ITNET_0935	No	Present	2	Present	30	Present	IV	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.933333333333
+QCMG-66-ITNET_0938-SMGres-ASRL-20131114-082	ITNET_0938	No	Present	2	Present	26	Present	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	4.1
+QCMG-66-ITNET_0941-SMGres-ASRL-20131114-088	ITNET_0941	Yes	Absent	2	Absent	13	Absent	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.433333333333
+QCMG-66-ITNET_0962-SMGres-ASRL-20131114-084	ITNET_0962	No	Absent	2	Absent	25	Absent	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.2
+QCMG-66-ITNET_0968-SMGres-ASRL-20131114-090	ITNET_0968	No	Absent	1	Absent	30	Absent	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.333333333333
+QCMG-66-ITNET_0993-SMGres-ASRL-20131114-092	ITNET_0993	Yes	Absent	3	Present	30	Present	IV	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.366666666667
+QCMG-66-ITNET_1000-SMGres-ASRL-20131114-094	ITNET_1000	No	Absent	2	Absent	70	Absent	IV	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.733333333333
+QCMG-66-ITNET_1001-SMGres-ASRL-20131114-096	ITNET_1001	Yes	Absent	1	Absent	12	Absent	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.2
+QCMG-66-ITNET_1027-SMGres-ASRL-20131114-098	ITNET_1027	No	Present	1	Present	65	Present	IIIa	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.433333333333
+QCMG-66-ITNET_1047-SMGres-ASRL-20131114-102	ITNET_1047	No	Present	3	Present	35	Present	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	2.3
+QCMG-66-ITNET_1050-SMGres-ASRL-20131114-104	ITNET_1050	No	Absent	2	Present	32	Present	IIIb	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.1
+QCMG-66-ITNET_1053-SMGres-ASRL-20131114-106	ITNET_1053	No	Present	2	Absent	90	Present	IIIa	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.933333333333
+QCMG-66-ITNET_1081-SMGRES-ASRL-20131106-002	ITNET_1081	No	Present	2	Present	25	Present	IV	3	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.166666666667
+QCMG-66-ITNET_1257-SMGRES-ASRL-20131106-004	ITNET_1257	No	Present	1	Present	80	Present	IIIb	3	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.9
+QCMG-66-ITNET_1265-SMGRES-ASRL-20131106-010	ITNET_1265	No	Present	2	Present	45	Present	IIIb	3	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.733333333333
+QCMG-66-ITNET_1266-SMGRES-ASRL-20131106-012	ITNET_1266	No	Present	2	Absent	15	Absent	IIIb	3	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.833333333333
+QCMG-66-ITNET_1270-SMGRES-ASRL-20131106-014	ITNET_1270	No	Absent	1	Absent	15	Absent	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.1
+QCMG-66-ITNET_1273-SMGRES-ASRL-20131106-016	ITNET_1273	No	Absent	1	Absent	60	Absent	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.166666666667
+QCMG-66-ITNET_1286-SMGRES-ASRL-20131106-020	ITNET_1286	No	Absent	1	Absent	14	Absent	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.6
+QCMG-66-ITNET_1288-SMGRES-ASRL-20131106-022	ITNET_1288	No	Absent	2	Present	50	Present	IV	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.533333333333
+QCMG-66-ITNET_1293-SMGRES-ASRL-20131106-024	ITNET_1293	No	Absent	2	Not documented	100	Not documented	IIIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.433333333333
+QCMG-66-ITNET_1301-SMGRES-ASRL-20131106-026	ITNET_1301	No	Present	1	Present	52	Present	IV	3	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.4
+QCMG-66-ITNET_1304-SMGRES-ASRL-20131106-028	ITNET_1304	No	Absent	1	Present	10	Absent	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.433333333333
+QCMG-66-ITNET_1308-SMGRES-ASRL-20131106-030	ITNET_1308	No	Present	2	Present	80	Present	IV	4	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.96666666667
+QCMG-66-ITNET_1309-SMGRES-ASRL-20131106-032	ITNET_1309	No	Absent	2	Not documented	20	Not documented	IV	1	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.133333333333
+QCMG-66-ITNET_1312-SMGRES-ASRL-20131106-036	ITNET_1312	No	Present	2	Not documented	90	Present	IV	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.2
+QCMG-66-ITNET_1314-SMGRES-ASRL-20131106-038	ITNET_1314	No	Absent	2	Not documented	90	Present	IIIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.466666666667
+QCMG-66-ITNET_1317-SMGRES-ASRL-20131106-040	ITNET_1317	Yes	Absent	1	Absent	33	Present	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.0666666666667
+QCMG-66-ITNET_1320-SMGRES-ASRL-20131106-042	ITNET_1320	No	Present	2	Present	70	Present	IIIa	4	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	1.0
+QCMG-66-NE_0010-ICGC-MGLP-20131004-004	NE_0010	Yes	Present	2	Absent	21	Absent	IIIa	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.133333333333
+QCMG-66-NE_0012-ICGC-MGLP-20131004-006	NE_0012	No	Absent	2	Not documented	100	Present	IIb	2	3	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.533333333333
+QCMG-66-NE_0017-ICGC-MGLP-20131004-008	NE_0017	No	Absent	1	Not documented	21	Present	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.4
+QCMG-66-NE_0018-ICGC-MGLP-20131004-010	NE_0018	No	Absent	2	Present	30	Present	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.4
+QCMG-66-NE_0020-ICGC-MGLP-20131004-012	NE_0020	No	Absent	1	Absent	38	Absent	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.7
+QCMG-66-NE_0021-ICGC-MGLP-20131004-014	NE_0021	No	Present	2	Absent	68	Present	IIIa	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.833333333333
+QCMG-66-NE_0025-ICGC-MGLP-20131004-018	NE_0025	No	Absent	1	Absent	35	Present	IIa	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.333333333333
+QCMG-66-NE_0026-ICGC-MGLP-20131004-020	NE_0026	No	Present	1	Present	55	Present	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.933333333333
+QCMG-66-NE_0027-ICGC-MGLP-20131004-022	NE_0027	No	Absent	1	Present	40	Absent	IIIb	2	2	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.366666666667
+QCMG-66-NE_0028-ICGC-MGLP-20131004-024	NE_0028	No	Present	2	Not documented	35	Not documented	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.166666666667
+QCMG-66-NE_0032-ICGC-MGLP-20131004-028	NE_0032	Yes	Absent	2	Absent	17	Absent	I	1	1	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.333333333333
+QCMG-66-NE_0033-ICGC-MGLP-20131004-030	NE_0033	No	Present	2	Present	43	Present	IIIb	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	3.03333333333
+QCMG-66-NE_0038-ICGC-MGLP-20131004-032	NE_0038	No	Present	2	Present	40	Present	IIIa	3	4	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	Matched	0.6

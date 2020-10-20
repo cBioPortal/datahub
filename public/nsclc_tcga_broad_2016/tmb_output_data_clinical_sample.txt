@@ -1,0 +1,1149 @@
+#Patient Identifier	Sample Identifier	T Stage	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	T Stage	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	T_STAGE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+LUAD-2GUGK	LUAD-2GUGK-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.93333333333
+LUAD-5O6B5	LUAD-5O6B5-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.03333333333
+LUAD-5V8LT	LUAD-5V8LT-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	49.4333333333
+LUAD-74TBW	LUAD-74TBW-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.8
+LUAD-AEIUF	LUAD-AEIUF-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.33333333333
+LUAD-B00390	LUAD-B00390-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.26666666667
+LUAD-B00416	LUAD-B00416-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	25.2666666667
+LUAD-B00523	LUAD-B00523-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.8
+LUAD-B00631	LUAD-B00631-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.53333333333
+LUAD-B00859	LUAD-B00859-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.63333333333
+LUAD-B00915	LUAD-B00915-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.8
+LUAD-B01024	LUAD-B01024-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.8
+LUAD-B01102	LUAD-B01102-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.4
+LUAD-B01145	LUAD-B01145-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.46666666667
+LUAD-B01246	LUAD-B01246-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	18.1666666667
+LUAD-B01811	LUAD-B01811-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	31.0
+LUAD-B01970	LUAD-B01970-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.63333333333
+LUAD-B02050	LUAD-B02050-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	16.7
+LUAD-B02077	LUAD-B02077-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.6
+LUAD-B02477	LUAD-B02477-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.6
+LUAD-B02515	LUAD-B02515-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.96666666667
+LUAD-B02594	LUAD-B02594-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	21.3
+LUAD-CHTN-3090346	LUAD-CHTN-3090346-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.6333333333
+LUAD-CHTN-3090415	LUAD-CHTN-3090415-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.1
+LUAD-CHTN-3090416	LUAD-CHTN-3090416-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.83333333333
+LUAD-CHTN-4090680	LUAD-CHTN-4090680-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.56666666667
+LUAD-CHTN-MAD04-00674	LUAD-CHTN-MAD04-00674-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.83333333333
+LUAD-CHTN-MAD06-00490	LUAD-CHTN-MAD06-00490-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.06666666667
+LUAD-CHTN-MAD06-00678	LUAD-CHTN-MAD06-00678-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.63333333333
+LUAD-CHTN-MAD08-00104	LUAD-CHTN-MAD08-00104-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.33333333333
+LUAD-CHTN-Z4716A	LUAD-CHTN-Z4716A-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	31.1333333333
+LUAD-D00147	LUAD-D00147-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.03333333333
+LUAD-D01278	LUAD-D01278-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.56666666667
+LUAD-D01603	LUAD-D01603-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	23.1666666667
+LUAD-D01751	LUAD-D01751-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.4
+LUAD-D02085	LUAD-D02085-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.26666666667
+LUAD-D02185	LUAD-D02185-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.6666666667
+LUAD-D02326	LUAD-D02326-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.8
+LUAD-E00163	LUAD-E00163-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.1
+LUAD-E00443	LUAD-E00443-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.0333333333
+LUAD-E00918	LUAD-E00918-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.7666666667
+LUAD-E00934	LUAD-E00934-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	17.6666666667
+LUAD-E01014	LUAD-E01014-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.5
+LUAD-E01217	LUAD-E01217-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.5
+LUAD-E01278	LUAD-E01278-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.93333333333
+LUAD-E01317	LUAD-E01317-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.6
+LUAD-E01563	LUAD-E01563-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.6
+LUAD-F00018	LUAD-F00018-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.56666666667
+LUAD-F00057	LUAD-F00057-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.33333333333
+LUAD-F00089	LUAD-F00089-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.63333333333
+LUAD-F00121	LUAD-F00121-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.83333333333
+LUAD-F00134	LUAD-F00134-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.16666666667
+LUAD-F00162	LUAD-F00162-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	19.3666666667
+LUAD-F00257	LUAD-F00257-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.23333333333
+LUAD-F00282	LUAD-F00282-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.6666666667
+LUAD-F00365	LUAD-F00365-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.7333333333
+LUAD-F00368	LUAD-F00368-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	19.9
+LUAD-FH5PJ	LUAD-FH5PJ-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.63333333333
+LUAD-GU4I3	LUAD-GU4I3-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.33333333333
+LUAD-LC15C	LUAD-LC15C-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.1333333333
+LUAD-LIP77	LUAD-LIP77-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.9333333333
+LUAD-NYU1021	LUAD-NYU1021-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.36666666667
+LUAD-NYU1027	LUAD-NYU1027-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.03333333333
+LUAD-NYU1124	LUAD-NYU1124-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.3
+LUAD-NYU1128	LUAD-NYU1128-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.1
+LUAD-NYU1142	LUAD-NYU1142-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.63333333333
+LUAD-NYU1177	LUAD-NYU1177-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.46666666667
+LUAD-NYU129	LUAD-NYU129-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.133333333333
+LUAD-NYU213	LUAD-NYU213-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.06666666667
+LUAD-NYU263	LUAD-NYU263-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.73333333333
+LUAD-NYU279	LUAD-NYU279-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.633333333333
+LUAD-NYU330	LUAD-NYU330-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.8
+LUAD-NYU575	LUAD-NYU575-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.33333333333
+LUAD-NYU592	LUAD-NYU592-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.13333333333
+LUAD-NYU605	LUAD-NYU605-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.1
+LUAD-NYU689	LUAD-NYU689-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.633333333333
+LUAD-NYU704	LUAD-NYU704-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.6
+LUAD-NYU739	LUAD-NYU739-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.73333333333
+LUAD-NYU776	LUAD-NYU776-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	16.7333333333
+LUAD-NYU796	LUAD-NYU796-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.4
+LUAD-NYU803	LUAD-NYU803-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.733333333333
+LUAD-NYU847	LUAD-NYU847-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.2333333333
+LUAD-NYU848	LUAD-NYU848-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.733333333333
+LUAD-NYU994	LUAD-NYU994-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.366666666667
+LUAD-QJN9L	LUAD-QJN9L-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.56666666667
+LUAD-QY22Z	LUAD-QY22Z-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.56666666667
+LUAD-RS5Q7	LUAD-RS5Q7-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.933333333333
+LUAD-RT-S01301	LUAD-RT-S01301-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.2
+LUAD-RT-S01477	LUAD-RT-S01477-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.46666666667
+LUAD-RT-S01699	LUAD-RT-S01699-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.6
+LUAD-RT-S01700	LUAD-RT-S01700-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.8
+LUAD-RT-S01702	LUAD-RT-S01702-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.5
+LUAD-RT-S01703	LUAD-RT-S01703-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.0
+LUAD-RT-S01707	LUAD-RT-S01707-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	28.9
+LUAD-RT-S01709	LUAD-RT-S01709-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.93333333333
+LUAD-RT-S01711	LUAD-RT-S01711-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.2
+LUAD-RT-S01721	LUAD-RT-S01721-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.8
+LUAD-RT-S01769	LUAD-RT-S01769-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.5
+LUAD-RT-S01770	LUAD-RT-S01770-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.3
+LUAD-RT-S01771	LUAD-RT-S01771-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.1
+LUAD-RT-S01774	LUAD-RT-S01774-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.3333333333
+LUAD-RT-S01777	LUAD-RT-S01777-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	21.2
+LUAD-RT-S01808	LUAD-RT-S01808-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.26666666667
+LUAD-RT-S01810	LUAD-RT-S01810-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.13333333333
+LUAD-RT-S01813	LUAD-RT-S01813-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	16.9
+LUAD-RT-S01818	LUAD-RT-S01818-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.8333333333
+LUAD-RT-S01831	LUAD-RT-S01831-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.83333333333
+LUAD-RT-S01832	LUAD-RT-S01832-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.83333333333
+LUAD-RT-S01840	LUAD-RT-S01840-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.23333333333
+LUAD-RT-S01852	LUAD-RT-S01852-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.03333333333
+LUAD-RT-S01856	LUAD-RT-S01856-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.9
+LUAD-RT-S01866	LUAD-RT-S01866-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.66666666667
+LUAD-S00484	LUAD-S00484-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.3333333333
+LUAD-S00486	LUAD-S00486-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.66666666667
+LUAD-S00488	LUAD-S00488-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.4666666667
+LUAD-S00499	LUAD-S00499-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.93333333333
+LUAD-S01302	LUAD-S01302-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	21.0
+LUAD-S01304	LUAD-S01304-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.4
+LUAD-S01306	LUAD-S01306-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.8333333333
+LUAD-S01315	LUAD-S01315-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	58.3333333333
+LUAD-S01320	LUAD-S01320-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.966666666667
+LUAD-S01331	LUAD-S01331-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.13333333333
+LUAD-S01341	LUAD-S01341-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.2
+LUAD-S01345	LUAD-S01345-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.7333333333
+LUAD-S01346	LUAD-S01346-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.7
+LUAD-S01354	LUAD-S01354-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.83333333333
+LUAD-S01356	LUAD-S01356-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.0
+LUAD-S01362	LUAD-S01362-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.6
+LUAD-S01373	LUAD-S01373-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.83333333333
+LUAD-S01381	LUAD-S01381-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.16666666667
+LUAD-S01404	LUAD-S01404-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.63333333333
+LUAD-S01405	LUAD-S01405-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.5
+LUAD-S01407	LUAD-S01407-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.4
+LUAD-S01409	LUAD-S01409-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	18.5
+LUAD-S01413	LUAD-S01413-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.6
+LUAD-S01467	LUAD-S01467-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.3
+LUAD-S01468	LUAD-S01468-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.9666666667
+LUAD-S01473	LUAD-S01473-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.23333333333
+LUAD-S01474	LUAD-S01474-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.33333333333
+LUAD-S01478	LUAD-S01478-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.5333333333
+LUAD-S01482	LUAD-S01482-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.63333333333
+LUAD-TJW61	LUAD-TJW61-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.66666666667
+LUAD-TLLGS	LUAD-TLLGS-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.13333333333
+LUAD-U6SJ7	LUAD-U6SJ7-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.2
+LUAD-UF7HM	LUAD-UF7HM-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.3
+LUAD-VUMN6	LUAD-VUMN6-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.0333333333
+LUAD-YINHD	LUAD-YINHD-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	89.1333333333
+LUAD-YKER9	LUAD-YKER9-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.16666666667
+LUAD_E00522	LUAD_E00522-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	34.4333333333
+LUAD_E00565	LUAD_E00565-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	22.1
+LUAD_E00623	LUAD_E00623-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	26.0
+LUAD_E00703	LUAD_E00703-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.73333333333
+LUAD_E00945	LUAD_E00945-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.06666666667
+LUAD_E01047	LUAD_E01047-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.86666666667
+LUAD_E01086	LUAD_E01086-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.73333333333
+LUAD_E01147	LUAD_E01147-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.66666666667
+LUAD_E01166	LUAD_E01166-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.5
+LUAD_E01319	LUAD_E01319-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.13333333333
+LUAD_E01419	LUAD_E01419-Tumor	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.36666666667
+TCGA-05-4244	TCGA-05-4244-01A-01D-1105-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.3
+TCGA-05-4249	TCGA-05-4249-01A-01D-1105-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.63333333333
+TCGA-05-4250	TCGA-05-4250-01A-01D-1105-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.83333333333
+TCGA-05-4382	TCGA-05-4382-01A-01D-1931-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	54.2333333333
+TCGA-05-4384	TCGA-05-4384-01A-01D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.06666666667
+TCGA-05-4389	TCGA-05-4389-01A-01D-1265-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.8
+TCGA-05-4390	TCGA-05-4390-01A-02D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	16.7
+TCGA-05-4395	TCGA-05-4395-01A-01D-1265-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.2
+TCGA-05-4396	TCGA-05-4396-01A-21D-1855-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.8333333333
+TCGA-05-4397	TCGA-05-4397-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	23.8333333333
+TCGA-05-4398	TCGA-05-4398-01A-01D-1265-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	22.5666666667
+TCGA-05-4402	TCGA-05-4402-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.03333333333
+TCGA-05-4403	TCGA-05-4403-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.03333333333
+TCGA-05-4405	TCGA-05-4405-01A-21D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.1333333333
+TCGA-05-4410	TCGA-05-4410-01A-21D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	32.8333333333
+TCGA-05-4415	TCGA-05-4415-01A-22D-1855-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.9
+TCGA-05-4417	TCGA-05-4417-01A-22D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.43333333333
+TCGA-05-4418	TCGA-05-4418-01A-01D-1265-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.9
+TCGA-05-4420	TCGA-05-4420-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.66666666667
+TCGA-05-4422	TCGA-05-4422-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.43333333333
+TCGA-05-4424	TCGA-05-4424-01A-22D-1855-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	22.4666666667
+TCGA-05-4426	TCGA-05-4426-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.43333333333
+TCGA-05-4427	TCGA-05-4427-01A-21D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	30.9666666667
+TCGA-05-4430	TCGA-05-4430-01A-02D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.93333333333
+TCGA-05-4432	TCGA-05-4432-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	19.5666666667
+TCGA-05-4433	TCGA-05-4433-01A-22D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.16666666667
+TCGA-05-4434	TCGA-05-4434-01A-01D-1265-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.56666666667
+TCGA-05-5420	TCGA-05-5420-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.96666666667
+TCGA-05-5423	TCGA-05-5423-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.46666666667
+TCGA-05-5428	TCGA-05-5428-01A-01D-1625-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.8666666667
+TCGA-05-5429	TCGA-05-5429-01A-01D-1625-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.1
+TCGA-05-5715	TCGA-05-5715-01A-01D-1625-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.46666666667
+TCGA-35-3615	TCGA-35-3615-01A-01D-1040-01	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.33333333333
+TCGA-35-4122	TCGA-35-4122-01A-01D-1105-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.6
+TCGA-35-4123	TCGA-35-4123-01A-01D-1105-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.86666666667
+TCGA-35-5375	TCGA-35-5375-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.3666666667
+TCGA-38-4625	TCGA-38-4625-01A-01D-1553-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	16.6666666667
+TCGA-38-4626	TCGA-38-4626-01A-01D-1553-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.8
+TCGA-38-4627	TCGA-38-4627-01A-01D-1553-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.0
+TCGA-38-4628	TCGA-38-4628-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.23333333333
+TCGA-38-4629	TCGA-38-4629-01A-02D-1265-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.2
+TCGA-38-4630	TCGA-38-4630-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.63333333333
+TCGA-38-4631	TCGA-38-4631-01A-01D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	22.0333333333
+TCGA-38-4632	TCGA-38-4632-01A-01D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.9333333333
+TCGA-38-6178	TCGA-38-6178-01A-11D-1753-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.66666666667
+TCGA-38-7271	TCGA-38-7271-01A-11D-2036-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.1
+TCGA-38-A44F	TCGA-38-A44F-01A-11D-A24D-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.466666666667
+TCGA-44-2655	TCGA-44-2655-01A-01D-1553-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.96666666667
+TCGA-44-2656	TCGA-44-2656-01A-02D-0969-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	26.2333333333
+TCGA-44-2657	TCGA-44-2657-01A-01D-1105-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.7333333333
+TCGA-44-2659	TCGA-44-2659-01A-01D-0969-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.6333333333
+TCGA-44-2661	TCGA-44-2661-01A-01D-1105-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.43333333333
+TCGA-44-2662	TCGA-44-2662-01A-01D-0969-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.2
+TCGA-44-2665	TCGA-44-2665-01A-01D-1040-01	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.1
+TCGA-44-2666	TCGA-44-2666-01A-01D-1489-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.46666666667
+TCGA-44-2668	TCGA-44-2668-01A-01D-0969-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.1
+TCGA-44-3396	TCGA-44-3396-01A-01D-1553-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.3
+TCGA-44-3398	TCGA-44-3398-01A-01D-1105-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.7
+TCGA-44-3918	TCGA-44-3918-01A-01D-1105-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	28.4666666667
+TCGA-44-3919	TCGA-44-3919-01A-02D-1458-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.5
+TCGA-44-4112	TCGA-44-4112-01A-01D-1458-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.7333333333
+TCGA-44-5643	TCGA-44-5643-01A-01D-1625-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.76666666667
+TCGA-44-5644	TCGA-44-5644-01A-21D-2036-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	27.8333333333
+TCGA-44-5645	TCGA-44-5645-01A-01D-1625-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.26666666667
+TCGA-44-6144	TCGA-44-6144-01A-11D-1753-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.16666666667
+TCGA-44-6145	TCGA-44-6145-01A-11D-1753-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.46666666667
+TCGA-44-6146	TCGA-44-6146-01A-11D-1753-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.23333333333
+TCGA-44-6147	TCGA-44-6147-01A-11D-1753-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.73333333333
+TCGA-44-6148	TCGA-44-6148-01A-11D-1753-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.266666666667
+TCGA-44-6774	TCGA-44-6774-01A-21D-1855-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.7
+TCGA-44-6775	TCGA-44-6775-01A-11D-1855-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.4
+TCGA-44-6776	TCGA-44-6776-01A-11D-1855-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.1
+TCGA-44-6777	TCGA-44-6777-01A-11D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.2333333333
+TCGA-44-6778	TCGA-44-6778-01A-11D-1855-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.1333333333
+TCGA-44-6779	TCGA-44-6779-01A-11D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.83333333333
+TCGA-44-7659	TCGA-44-7659-01A-11D-2063-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.3
+TCGA-44-7660	TCGA-44-7660-01A-11D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.1
+TCGA-44-7661	TCGA-44-7661-01A-11D-2063-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.3
+TCGA-44-7662	TCGA-44-7662-01A-11D-2063-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	17.1666666667
+TCGA-44-7667	TCGA-44-7667-01A-31D-2063-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.6
+TCGA-44-7669	TCGA-44-7669-01A-21D-2063-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.4666666667
+TCGA-44-7670	TCGA-44-7670-01A-11D-2063-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	31.2
+TCGA-44-7671	TCGA-44-7671-01A-11D-2063-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.5
+TCGA-44-7672	TCGA-44-7672-01A-11D-2063-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.0
+TCGA-44-8117	TCGA-44-8117-01A-11D-2238-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	21.7
+TCGA-44-8119	TCGA-44-8119-01A-11D-2238-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	18.3333333333
+TCGA-44-8120	TCGA-44-8120-01A-11D-2238-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	17.5333333333
+TCGA-44-A47A	TCGA-44-A47A-01A-21D-A24D-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.03333333333
+TCGA-44-A47B	TCGA-44-A47B-01A-11D-A24D-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.43333333333
+TCGA-44-A47F	TCGA-44-A47F-01A-11D-A24D-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.5
+TCGA-44-A47G	TCGA-44-A47G-01A-21D-A24D-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.53333333333
+TCGA-44-A4SS	TCGA-44-A4SS-01A-11D-A24P-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.3666666667
+TCGA-44-A4SU	TCGA-44-A4SU-01A-11D-A24P-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.26666666667
+TCGA-49-4486	TCGA-49-4486-01A-01D-1265-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.43333333333
+TCGA-49-4487	TCGA-49-4487-01A-21D-1855-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.6
+TCGA-49-4488	TCGA-49-4488-01A-01D-1753-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.43333333333
+TCGA-49-4490	TCGA-49-4490-01A-21D-1855-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.93333333333
+TCGA-49-4494	TCGA-49-4494-01A-01D-1265-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.63333333333
+TCGA-49-4501	TCGA-49-4501-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.1
+TCGA-49-4505	TCGA-49-4505-01A-01D-1931-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.16666666667
+TCGA-49-4506	TCGA-49-4506-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.16666666667
+TCGA-49-4507	TCGA-49-4507-01A-01D-1265-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.13333333333
+TCGA-49-4510	TCGA-49-4510-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.4
+TCGA-49-4512	TCGA-49-4512-01A-21D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.63333333333
+TCGA-49-4514	TCGA-49-4514-01A-21D-1855-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.3
+TCGA-49-6742	TCGA-49-6742-01A-11D-1855-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.06666666667
+TCGA-49-6743	TCGA-49-6743-01A-11D-1855-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	21.7
+TCGA-49-6744	TCGA-49-6744-01A-11D-1855-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.1
+TCGA-49-6745	TCGA-49-6745-01A-11D-1855-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.3
+TCGA-49-6761	TCGA-49-6761-01A-31D-1945-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.3
+TCGA-49-6767	TCGA-49-6767-01A-11D-1855-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.4333333333
+TCGA-49-AAQV	TCGA-49-AAQV-01A-11D-A397-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.5
+TCGA-49-AAR3	TCGA-49-AAR3-01A-11D-A410-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.6
+TCGA-49-AAR4	TCGA-49-AAR4-01A-12D-A410-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	20.1
+TCGA-49-AAR9	TCGA-49-AAR9-01A-21D-A410-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	18.5666666667
+TCGA-49-AARE	TCGA-49-AARE-01A-11D-A410-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	36.1666666667
+TCGA-49-AARN	TCGA-49-AARN-01A-21D-A410-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	33.2666666667
+TCGA-49-AARO	TCGA-49-AARO-01A-12D-A410-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	17.4333333333
+TCGA-49-AARQ	TCGA-49-AARQ-01A-11D-A410-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	20.5666666667
+TCGA-49-AARR	TCGA-49-AARR-01A-11D-A410-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.2
+TCGA-4B-A93V	TCGA-4B-A93V-01A-11D-A397-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.06666666667
+TCGA-50-5044	TCGA-50-5044-01A-21D-1855-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.0
+TCGA-50-5045	TCGA-50-5045-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.9
+TCGA-50-5049	TCGA-50-5049-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	26.2
+TCGA-50-5051	TCGA-50-5051-01A-21D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.46666666667
+TCGA-50-5055	TCGA-50-5055-01A-01D-1625-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.8
+TCGA-50-5066	TCGA-50-5066-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.93333333333
+TCGA-50-5068	TCGA-50-5068-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.93333333333
+TCGA-50-5072	TCGA-50-5072-01A-21D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.06666666667
+TCGA-50-5930	TCGA-50-5930-01A-11D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	31.3666666667
+TCGA-50-5931	TCGA-50-5931-01A-11D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.06666666667
+TCGA-50-5932	TCGA-50-5932-01A-11D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.26666666667
+TCGA-50-5933	TCGA-50-5933-01A-11D-1753-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.4666666667
+TCGA-50-5935	TCGA-50-5935-01A-11D-1753-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.5
+TCGA-50-5936	TCGA-50-5936-01A-11D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.83333333333
+TCGA-50-5939	TCGA-50-5939-01A-11D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.5
+TCGA-50-5941	TCGA-50-5941-01A-11D-1753-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.5333333333
+TCGA-50-5942	TCGA-50-5942-01A-21D-1753-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.13333333333
+TCGA-50-5944	TCGA-50-5944-01A-11D-1753-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.9
+TCGA-50-5946	TCGA-50-5946-01A-11D-1753-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	18.7666666667
+TCGA-50-6590	TCGA-50-6590-01A-12D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	27.6333333333
+TCGA-50-6591	TCGA-50-6591-01A-11D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.8
+TCGA-50-6592	TCGA-50-6592-01A-11D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.5
+TCGA-50-6593	TCGA-50-6593-01A-11D-1753-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.03333333333
+TCGA-50-6594	TCGA-50-6594-01A-11D-1753-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.2666666667
+TCGA-50-6595	TCGA-50-6595-01A-12D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.3
+TCGA-50-6597	TCGA-50-6597-01A-11D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.8
+TCGA-50-6673	TCGA-50-6673-01A-11D-1945-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.76666666667
+TCGA-50-7109	TCGA-50-7109-01A-11D-2036-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.33333333333
+TCGA-50-8457	TCGA-50-8457-01A-11D-2323-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.66666666667
+TCGA-50-8459	TCGA-50-8459-01A-11D-2323-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.4
+TCGA-50-8460	TCGA-50-8460-01A-11D-2323-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.966666666667
+TCGA-53-7624	TCGA-53-7624-01A-11D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	22.6333333333
+TCGA-53-7626	TCGA-53-7626-01A-12D-2063-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.3
+TCGA-53-7813	TCGA-53-7813-01A-11D-2167-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.76666666667
+TCGA-53-A4EZ	TCGA-53-A4EZ-01A-12D-A24P-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.3333333333
+TCGA-55-1592	TCGA-55-1592-01A-01D-0969-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.7666666667
+TCGA-55-1594	TCGA-55-1594-01A-01D-1040-01	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.66666666667
+TCGA-55-1595	TCGA-55-1595-01A-01D-0969-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.0
+TCGA-55-1596	TCGA-55-1596-01A-01D-1040-01	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.33333333333
+TCGA-55-5899	TCGA-55-5899-01A-11D-1625-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.4333333333
+TCGA-55-6543	TCGA-55-6543-01A-11D-1753-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.666666666667
+TCGA-55-6642	TCGA-55-6642-01A-11D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.66666666667
+TCGA-55-6712	TCGA-55-6712-01A-11D-1855-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.43333333333
+TCGA-55-6968	TCGA-55-6968-01A-11D-1945-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.6
+TCGA-55-6969	TCGA-55-6969-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.0
+TCGA-55-6970	TCGA-55-6970-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.33333333333
+TCGA-55-6971	TCGA-55-6971-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.6
+TCGA-55-6972	TCGA-55-6972-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.66666666667
+TCGA-55-6975	TCGA-55-6975-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.43333333333
+TCGA-55-6978	TCGA-55-6978-01A-11D-1945-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.06666666667
+TCGA-55-6979	TCGA-55-6979-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.63333333333
+TCGA-55-6980	TCGA-55-6980-01A-11D-1945-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.6
+TCGA-55-6981	TCGA-55-6981-01A-11D-1945-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.9
+TCGA-55-6982	TCGA-55-6982-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.93333333333
+TCGA-55-6983	TCGA-55-6983-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.5
+TCGA-55-6984	TCGA-55-6984-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.566666666667
+TCGA-55-6985	TCGA-55-6985-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.8666666667
+TCGA-55-6986	TCGA-55-6986-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.666666666667
+TCGA-55-6987	TCGA-55-6987-01A-11D-1945-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.4
+TCGA-55-7227	TCGA-55-7227-01A-11D-2036-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.5
+TCGA-55-7281	TCGA-55-7281-01A-11D-2036-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.3333333333
+TCGA-55-7283	TCGA-55-7283-01A-11D-2036-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.4
+TCGA-55-7284	TCGA-55-7284-01B-11D-2238-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.6
+TCGA-55-7570	TCGA-55-7570-01A-11D-2036-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.0333333333
+TCGA-55-7573	TCGA-55-7573-01A-11D-2036-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.7
+TCGA-55-7574	TCGA-55-7574-01A-11D-2036-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.96666666667
+TCGA-55-7576	TCGA-55-7576-01A-11D-2063-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.9333333333
+TCGA-55-7724	TCGA-55-7724-01A-11D-2167-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.4
+TCGA-55-7725	TCGA-55-7725-01A-11D-2167-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.83333333333
+TCGA-55-7726	TCGA-55-7726-01A-11D-2167-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.4
+TCGA-55-7727	TCGA-55-7727-01A-11D-2167-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.0
+TCGA-55-7728	TCGA-55-7728-01A-11D-2184-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.03333333333
+TCGA-55-7815	TCGA-55-7815-01A-11D-2167-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.1
+TCGA-55-7903	TCGA-55-7903-01A-11D-2167-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.7
+TCGA-55-7907	TCGA-55-7907-01A-11D-2167-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	33.2333333333
+TCGA-55-7910	TCGA-55-7910-01A-11D-2167-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.4
+TCGA-55-7911	TCGA-55-7911-01A-11D-2167-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.0
+TCGA-55-7913	TCGA-55-7913-01B-11D-2238-08	NA	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.0666666667
+TCGA-55-7914	TCGA-55-7914-01A-11D-2167-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.13333333333
+TCGA-55-7994	TCGA-55-7994-01A-11D-2184-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	44.2333333333
+TCGA-55-7995	TCGA-55-7995-01A-11D-2184-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	19.7
+TCGA-55-8085	TCGA-55-8085-01A-11D-2238-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.13333333333
+TCGA-55-8087	TCGA-55-8087-01A-11D-2238-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.1
+TCGA-55-8089	TCGA-55-8089-01A-11D-2238-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	36.4333333333
+TCGA-55-8090	TCGA-55-8090-01A-11D-2238-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.5
+TCGA-55-8091	TCGA-55-8091-01A-11D-2238-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.06666666667
+TCGA-55-8092	TCGA-55-8092-01A-11D-2238-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.7333333333
+TCGA-55-8094	TCGA-55-8094-01A-11D-2238-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.8
+TCGA-55-8096	TCGA-55-8096-01A-11D-2238-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.46666666667
+TCGA-55-8097	TCGA-55-8097-01A-11D-2238-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.63333333333
+TCGA-55-8203	TCGA-55-8203-01A-11D-2238-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.2333333333
+TCGA-55-8204	TCGA-55-8204-01A-11D-2238-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.3
+TCGA-55-8205	TCGA-55-8205-01A-11D-2238-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.0333333333
+TCGA-55-8206	TCGA-55-8206-01A-11D-2238-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.9
+TCGA-55-8207	TCGA-55-8207-01A-11D-2238-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.23333333333
+TCGA-55-8208	TCGA-55-8208-01A-11D-2238-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.0333333333
+TCGA-55-8299	TCGA-55-8299-01A-11D-2284-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.2
+TCGA-55-8301	TCGA-55-8301-01A-11D-2284-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.7
+TCGA-55-8505	TCGA-55-8505-01A-11D-2393-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.03333333333
+TCGA-55-8506	TCGA-55-8506-01A-11D-2393-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	52.0
+TCGA-55-8507	TCGA-55-8507-01A-11D-2393-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	27.7
+TCGA-55-8508	TCGA-55-8508-01A-11D-2393-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.26666666667
+TCGA-55-8510	TCGA-55-8510-01A-11D-2393-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.9
+TCGA-55-8511	TCGA-55-8511-01A-11D-2393-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	16.6333333333
+TCGA-55-8512	TCGA-55-8512-01A-11D-2393-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.13333333333
+TCGA-55-8513	TCGA-55-8513-01A-11D-2393-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.266666666667
+TCGA-55-8514	TCGA-55-8514-01A-11D-2393-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.3
+TCGA-55-8614	TCGA-55-8614-01A-11D-2393-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.7
+TCGA-55-8615	TCGA-55-8615-01A-11D-2393-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.3
+TCGA-55-8616	TCGA-55-8616-01A-11D-2393-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.9333333333
+TCGA-55-8619	TCGA-55-8619-01A-11D-2393-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.833333333333
+TCGA-55-8620	TCGA-55-8620-01A-11D-2393-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.9333333333
+TCGA-55-8621	TCGA-55-8621-01A-11D-2393-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.46666666667
+TCGA-55-A48X	TCGA-55-A48X-01A-11D-A24D-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.8666666667
+TCGA-55-A48Y	TCGA-55-A48Y-01A-11D-A24D-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.73333333333
+TCGA-55-A48Z	TCGA-55-A48Z-01A-12D-A24P-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.4
+TCGA-55-A490	TCGA-55-A490-01A-11D-A24D-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	38.1
+TCGA-55-A491	TCGA-55-A491-01A-11D-A24D-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.8333333333
+TCGA-55-A492	TCGA-55-A492-01A-11D-A24D-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.53333333333
+TCGA-55-A493	TCGA-55-A493-01A-11D-A24D-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.76666666667
+TCGA-55-A494	TCGA-55-A494-01A-11D-A24P-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.8
+TCGA-55-A4DF	TCGA-55-A4DF-01A-11D-A24D-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	21.0
+TCGA-55-A4DG	TCGA-55-A4DG-01A-11D-A24D-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	20.1
+TCGA-55-A57B	TCGA-55-A57B-01A-12D-A397-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.46666666667
+TCGA-62-8394	TCGA-62-8394-01A-11D-2323-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.23333333333
+TCGA-62-8395	TCGA-62-8395-01A-11D-2323-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.26666666667
+TCGA-62-8397	TCGA-62-8397-01A-11D-2323-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.966666666667
+TCGA-62-8399	TCGA-62-8399-01A-21D-2323-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.9333333333
+TCGA-62-8402	TCGA-62-8402-01A-11D-2323-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.33333333333
+TCGA-62-A46O	TCGA-62-A46O-01A-11D-A24D-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	25.6
+TCGA-62-A46P	TCGA-62-A46P-01A-11D-A24D-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.23333333333
+TCGA-62-A46R	TCGA-62-A46R-01A-11D-A24D-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.53333333333
+TCGA-62-A46S	TCGA-62-A46S-01A-11D-A24D-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.36666666667
+TCGA-62-A46U	TCGA-62-A46U-01A-11D-A24D-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.33333333333
+TCGA-62-A46V	TCGA-62-A46V-01A-11D-A24D-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.73333333333
+TCGA-62-A46Y	TCGA-62-A46Y-01A-11D-A24D-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.2
+TCGA-62-A470	TCGA-62-A470-01A-11D-A24D-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.33333333333
+TCGA-62-A471	TCGA-62-A471-01A-12D-A24D-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.96666666667
+TCGA-62-A472	TCGA-62-A472-01A-11D-A24D-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.73333333333
+TCGA-64-1676	TCGA-64-1676-01A-01D-0969-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	17.1333333333
+TCGA-64-1677	TCGA-64-1677-01A-01W-0928-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.76666666667
+TCGA-64-1678	TCGA-64-1678-01A-01W-0928-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.4333333333
+TCGA-64-1679	TCGA-64-1679-01A-21D-2063-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.1666666667
+TCGA-64-1680	TCGA-64-1680-01A-02D-0969-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.93333333333
+TCGA-64-1681	TCGA-64-1681-01A-11D-2063-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.46666666667
+TCGA-64-5774	TCGA-64-5774-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.2
+TCGA-64-5775	TCGA-64-5775-01A-01D-1625-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.5333333333
+TCGA-64-5778	TCGA-64-5778-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.1
+TCGA-64-5779	TCGA-64-5779-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.5
+TCGA-64-5781	TCGA-64-5781-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	32.8
+TCGA-64-5815	TCGA-64-5815-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.8
+TCGA-67-3770	TCGA-67-3770-01A-01D-0969-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.26666666667
+TCGA-67-3771	TCGA-67-3771-01A-01D-1040-01	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	30.4666666667
+TCGA-67-3772	TCGA-67-3772-01A-01W-0928-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.0
+TCGA-67-3773	TCGA-67-3773-01A-01D-1040-01	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.86666666667
+TCGA-67-3774	TCGA-67-3774-01A-01D-1040-01	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.06666666667
+TCGA-67-4679	TCGA-67-4679-01B-01D-1753-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.16666666667
+TCGA-67-6215	TCGA-67-6215-01A-11D-1753-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.53333333333
+TCGA-67-6216	TCGA-67-6216-01A-11D-1753-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.46666666667
+TCGA-67-6217	TCGA-67-6217-01A-11D-1753-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.6
+TCGA-69-7760	TCGA-69-7760-01A-11D-2167-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.16666666667
+TCGA-69-7761	TCGA-69-7761-01A-11D-2167-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.966666666667
+TCGA-69-7763	TCGA-69-7763-01A-11D-2167-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.13333333333
+TCGA-69-7764	TCGA-69-7764-01A-11D-2167-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.76666666667
+TCGA-69-7765	TCGA-69-7765-01A-11D-2167-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	18.5666666667
+TCGA-69-7973	TCGA-69-7973-01A-11D-2184-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.36666666667
+TCGA-69-7974	TCGA-69-7974-01A-11D-2184-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.2666666667
+TCGA-69-7978	TCGA-69-7978-01A-11D-2184-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	18.3666666667
+TCGA-69-7979	TCGA-69-7979-01A-11D-2184-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	41.8666666667
+TCGA-69-7980	TCGA-69-7980-01A-11D-2184-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	23.7333333333
+TCGA-69-8253	TCGA-69-8253-01A-11D-2284-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.26666666667
+TCGA-69-8254	TCGA-69-8254-01A-11D-2284-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.43333333333
+TCGA-69-8255	TCGA-69-8255-01A-11D-2284-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.46666666667
+TCGA-69-A59K	TCGA-69-A59K-01A-11D-A25L-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.9
+TCGA-71-6725	TCGA-71-6725-01A-11D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.7
+TCGA-73-4659	TCGA-73-4659-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.03333333333
+TCGA-73-4662	TCGA-73-4662-01A-01D-1265-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.76666666667
+TCGA-73-4666	TCGA-73-4666-01A-01D-1265-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.2333333333
+TCGA-73-4668	TCGA-73-4668-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.6
+TCGA-73-4670	TCGA-73-4670-01A-01D-1265-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.9
+TCGA-73-4675	TCGA-73-4675-01A-01D-1265-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.2
+TCGA-73-4676	TCGA-73-4676-01A-01D-1753-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.7
+TCGA-73-4677	TCGA-73-4677-01A-01D-1265-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.26666666667
+TCGA-73-7498	TCGA-73-7498-01A-12D-2184-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.26666666667
+TCGA-73-7499	TCGA-73-7499-01A-11D-2184-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.43333333333
+TCGA-73-A9RS	TCGA-73-A9RS-01A-11D-A410-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	27.0333333333
+TCGA-75-5122	TCGA-75-5122-01A-01D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.36666666667
+TCGA-75-5125	TCGA-75-5125-01A-01D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.06666666667
+TCGA-75-5126	TCGA-75-5126-01A-01D-1753-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	18.7
+TCGA-75-5146	TCGA-75-5146-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.7
+TCGA-75-5147	TCGA-75-5147-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.46666666667
+TCGA-75-6203	TCGA-75-6203-01A-11D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.5
+TCGA-75-6205	TCGA-75-6205-01A-11D-1753-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.56666666667
+TCGA-75-6206	TCGA-75-6206-01A-11D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.7
+TCGA-75-6207	TCGA-75-6207-01A-11D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.06666666667
+TCGA-75-6211	TCGA-75-6211-01A-11D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.4333333333
+TCGA-75-6212	TCGA-75-6212-01A-11D-1753-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.633333333333
+TCGA-75-6214	TCGA-75-6214-01A-41D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	21.1666666667
+TCGA-75-7025	TCGA-75-7025-01A-12D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.13333333333
+TCGA-75-7027	TCGA-75-7027-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.5
+TCGA-75-7030	TCGA-75-7030-01A-11D-1945-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.666666666667
+TCGA-75-7031	TCGA-75-7031-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.0
+TCGA-78-7145	TCGA-78-7145-01A-11D-2036-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.4
+TCGA-78-7146	TCGA-78-7146-01A-11D-2036-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.0666666667
+TCGA-78-7147	TCGA-78-7147-01A-11D-2036-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.43333333333
+TCGA-78-7148	TCGA-78-7148-01A-11D-2036-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.66666666667
+TCGA-78-7149	TCGA-78-7149-01A-11D-2036-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.46666666667
+TCGA-78-7150	TCGA-78-7150-01A-21D-2036-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.4666666667
+TCGA-78-7152	TCGA-78-7152-01A-11D-2036-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.8
+TCGA-78-7153	TCGA-78-7153-01A-11D-2036-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.53333333333
+TCGA-78-7154	TCGA-78-7154-01A-11D-2036-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.7
+TCGA-78-7155	TCGA-78-7155-01A-11D-2036-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	44.3333333333
+TCGA-78-7156	TCGA-78-7156-01A-11D-2036-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.76666666667
+TCGA-78-7158	TCGA-78-7158-01A-11D-2036-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.16666666667
+TCGA-78-7159	TCGA-78-7159-01A-11D-2036-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.43333333333
+TCGA-78-7160	TCGA-78-7160-01A-11D-2036-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.1
+TCGA-78-7161	TCGA-78-7161-01A-11D-2036-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.03333333333
+TCGA-78-7162	TCGA-78-7162-01A-21D-2063-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.53333333333
+TCGA-78-7163	TCGA-78-7163-01A-12D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.733333333333
+TCGA-78-7166	TCGA-78-7166-01A-12D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.2
+TCGA-78-7167	TCGA-78-7167-01A-11D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.83333333333
+TCGA-78-7220	TCGA-78-7220-01A-11D-2036-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	23.2333333333
+TCGA-78-7535	TCGA-78-7535-01A-11D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.73333333333
+TCGA-78-7536	TCGA-78-7536-01A-11D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	16.7666666667
+TCGA-78-7537	TCGA-78-7537-01A-11D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.36666666667
+TCGA-78-7539	TCGA-78-7539-01A-11D-2063-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.7
+TCGA-78-7540	TCGA-78-7540-01A-11D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.8
+TCGA-78-7542	TCGA-78-7542-01A-21D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.3
+TCGA-78-7633	TCGA-78-7633-01A-11D-2063-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.0
+TCGA-78-8640	TCGA-78-8640-01A-11D-2393-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	21.0666666667
+TCGA-78-8648	TCGA-78-8648-01A-11D-2393-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.466666666667
+TCGA-78-8655	TCGA-78-8655-01A-11D-2393-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.16666666667
+TCGA-78-8660	TCGA-78-8660-01A-11D-2393-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.06666666667
+TCGA-78-8662	TCGA-78-8662-01A-11D-2393-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	32.7
+TCGA-80-5607	TCGA-80-5607-01A-31D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.76666666667
+TCGA-80-5608	TCGA-80-5608-01A-31D-1945-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.83333333333
+TCGA-80-5611	TCGA-80-5611-01A-01D-1625-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.16666666667
+TCGA-83-5908	TCGA-83-5908-01A-21D-2284-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.06666666667
+TCGA-86-6562	TCGA-86-6562-01A-11D-1753-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.66666666667
+TCGA-86-6851	TCGA-86-6851-01A-11D-1945-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	27.0666666667
+TCGA-86-7701	TCGA-86-7701-01A-11D-2167-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.86666666667
+TCGA-86-7711	TCGA-86-7711-01A-11D-2063-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.23333333333
+TCGA-86-7713	TCGA-86-7713-01A-11D-2063-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.5
+TCGA-86-7714	TCGA-86-7714-01A-12D-2167-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.23333333333
+TCGA-86-7953	TCGA-86-7953-01A-11D-2184-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.7
+TCGA-86-7954	TCGA-86-7954-01A-11D-2184-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.26666666667
+TCGA-86-7955	TCGA-86-7955-01A-11D-2184-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.43333333333
+TCGA-86-8054	TCGA-86-8054-01A-11D-2238-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.73333333333
+TCGA-86-8055	TCGA-86-8055-01A-11D-2238-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.56666666667
+TCGA-86-8056	TCGA-86-8056-01A-11D-2238-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.93333333333
+TCGA-86-8073	TCGA-86-8073-01A-11D-2238-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	44.9666666667
+TCGA-86-8074	TCGA-86-8074-01A-11D-2238-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.06666666667
+TCGA-86-8075	TCGA-86-8075-01A-11D-2238-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.63333333333
+TCGA-86-8076	TCGA-86-8076-01A-31D-2238-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.2
+TCGA-86-8278	TCGA-86-8278-01A-11D-2284-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.06666666667
+TCGA-86-8279	TCGA-86-8279-01A-11D-2284-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.5333333333
+TCGA-86-8280	TCGA-86-8280-01A-11D-2284-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.56666666667
+TCGA-86-8281	TCGA-86-8281-01A-11D-2284-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.7
+TCGA-86-8358	TCGA-86-8358-01A-11D-2323-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	30.7333333333
+TCGA-86-8359	TCGA-86-8359-01A-11D-2323-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.76666666667
+TCGA-86-8585	TCGA-86-8585-01A-11D-2393-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	17.0333333333
+TCGA-86-8668	TCGA-86-8668-01A-11D-2393-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.06666666667
+TCGA-86-8669	TCGA-86-8669-01A-11D-2393-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.66666666667
+TCGA-86-8671	TCGA-86-8671-01A-11D-2393-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.7
+TCGA-86-8672	TCGA-86-8672-01A-21D-2393-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.66666666667
+TCGA-86-8673	TCGA-86-8673-01A-11D-2393-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.2666666667
+TCGA-86-8674	TCGA-86-8674-01A-21D-2393-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.53333333333
+TCGA-86-A456	TCGA-86-A456-01A-11D-A24D-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.7333333333
+TCGA-86-A4JF	TCGA-86-A4JF-01A-11D-A24P-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	40.1666666667
+TCGA-86-A4P7	TCGA-86-A4P7-01A-11D-A24P-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.4
+TCGA-86-A4P8	TCGA-86-A4P8-01A-11D-A24P-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.0333333333333
+TCGA-91-6828	TCGA-91-6828-01A-11D-1855-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.56666666667
+TCGA-91-6829	TCGA-91-6829-01A-21D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	18.7333333333
+TCGA-91-6830	TCGA-91-6830-01A-11D-1945-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.66666666667
+TCGA-91-6831	TCGA-91-6831-01A-11D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.53333333333
+TCGA-91-6835	TCGA-91-6835-01A-11D-1855-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.76666666667
+TCGA-91-6836	TCGA-91-6836-01A-21D-1855-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.4666666667
+TCGA-91-6840	TCGA-91-6840-01A-11D-1945-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.46666666667
+TCGA-91-6847	TCGA-91-6847-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.3
+TCGA-91-6848	TCGA-91-6848-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	16.5333333333
+TCGA-91-6849	TCGA-91-6849-01A-11D-1945-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.23333333333
+TCGA-91-7771	TCGA-91-7771-01A-11D-2167-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.73333333333
+TCGA-91-8496	TCGA-91-8496-01A-11D-2393-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.1
+TCGA-91-8497	TCGA-91-8497-01A-11D-2393-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.53333333333
+TCGA-91-8499	TCGA-91-8499-01A-11D-2393-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.86666666667
+TCGA-91-A4BC	TCGA-91-A4BC-01A-11D-A24D-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.2
+TCGA-91-A4BD	TCGA-91-A4BD-01A-11D-A24D-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.566666666667
+TCGA-93-7347	TCGA-93-7347-01A-11D-2184-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.7
+TCGA-93-7348	TCGA-93-7348-01A-21D-2036-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.33333333333
+TCGA-93-8067	TCGA-93-8067-01A-11D-2284-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.5333333333
+TCGA-93-A4JN	TCGA-93-A4JN-01A-11D-A24P-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.43333333333
+TCGA-93-A4JO	TCGA-93-A4JO-01A-21D-A24P-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.66666666667
+TCGA-93-A4JP	TCGA-93-A4JP-01A-11D-A24P-08	Tx	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.93333333333
+TCGA-93-A4JQ	TCGA-93-A4JQ-01A-11D-A24P-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.53333333333
+TCGA-95-7039	TCGA-95-7039-01A-11D-1945-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	36.6666666667
+TCGA-95-7043	TCGA-95-7043-01A-11D-1945-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	32.0333333333
+TCGA-95-7562	TCGA-95-7562-01A-11D-2238-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.4666666667
+TCGA-95-7567	TCGA-95-7567-01A-11D-2063-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	26.7333333333
+TCGA-95-7944	TCGA-95-7944-01A-11D-2184-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.06666666667
+TCGA-95-7947	TCGA-95-7947-01A-11D-2184-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.2333333333
+TCGA-95-7948	TCGA-95-7948-01A-11D-2184-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.83333333333
+TCGA-95-8039	TCGA-95-8039-01A-11D-2238-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.13333333333
+TCGA-95-8494	TCGA-95-8494-01A-11D-2323-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.9
+TCGA-95-A4VK	TCGA-95-A4VK-01A-11D-A25L-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.86666666667
+TCGA-95-A4VN	TCGA-95-A4VN-01A-11D-A25L-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.8
+TCGA-95-A4VP	TCGA-95-A4VP-01A-21D-A25L-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.73333333333
+TCGA-97-7546	TCGA-97-7546-01A-11D-2036-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.13333333333
+TCGA-97-7547	TCGA-97-7547-01A-11D-2036-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.0
+TCGA-97-7552	TCGA-97-7552-01A-11D-2036-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.9
+TCGA-97-7553	TCGA-97-7553-01A-21D-2036-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.6
+TCGA-97-7554	TCGA-97-7554-01A-11D-2036-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.1333333333
+TCGA-97-7937	TCGA-97-7937-01A-11D-2167-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.1333333333
+TCGA-97-7938	TCGA-97-7938-01A-11D-2167-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.4333333333
+TCGA-97-7941	TCGA-97-7941-01A-11D-2184-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.9
+TCGA-97-8171	TCGA-97-8171-01A-11D-2284-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.93333333333
+TCGA-97-8172	TCGA-97-8172-01A-11D-2284-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.93333333333
+TCGA-97-8174	TCGA-97-8174-01A-11D-2284-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.13333333333
+TCGA-97-8175	TCGA-97-8175-01A-11D-2284-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.16666666667
+TCGA-97-8176	TCGA-97-8176-01A-11D-2393-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.43333333333
+TCGA-97-8177	TCGA-97-8177-01A-11D-2284-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.73333333333
+TCGA-97-8179	TCGA-97-8179-01A-11D-2284-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.83333333333
+TCGA-97-8547	TCGA-97-8547-01A-11D-2393-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.96666666667
+TCGA-97-8552	TCGA-97-8552-01A-11D-2393-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.8
+TCGA-97-A4LX	TCGA-97-A4LX-01A-11D-A24P-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.06666666667
+TCGA-97-A4M0	TCGA-97-A4M0-01A-11D-A24P-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.0666666667
+TCGA-97-A4M1	TCGA-97-A4M1-01A-11D-A24P-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.33333333333
+TCGA-97-A4M2	TCGA-97-A4M2-01A-12D-A24P-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.03333333333
+TCGA-97-A4M3	TCGA-97-A4M3-01A-11D-A24P-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.13333333333
+TCGA-97-A4M5	TCGA-97-A4M5-01A-11D-A24P-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.66666666667
+TCGA-97-A4M6	TCGA-97-A4M6-01A-11D-A24P-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.9
+TCGA-97-A4M7	TCGA-97-A4M7-01A-11D-A24P-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.96666666667
+TCGA-99-7458	TCGA-99-7458-01A-11D-2036-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.8666666667
+TCGA-99-8025	TCGA-99-8025-01A-11D-2238-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	14.2
+TCGA-99-8028	TCGA-99-8028-01A-11D-2238-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.7
+TCGA-99-8032	TCGA-99-8032-01A-11D-2238-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.6666666667
+TCGA-99-8033	TCGA-99-8033-01A-11D-2238-08	Tx	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	5.33333333333
+TCGA-99-AA5R	TCGA-99-AA5R-01A-11D-A397-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.23333333333
+TCGA-J2-8192	TCGA-J2-8192-01A-11D-2238-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.2
+TCGA-J2-8194	TCGA-J2-8194-01A-11D-2238-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.7
+TCGA-J2-A4AD	TCGA-J2-A4AD-01A-11D-A24D-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.23333333333
+TCGA-J2-A4AE	TCGA-J2-A4AE-01A-21D-A24D-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.36666666667
+TCGA-J2-A4AG	TCGA-J2-A4AG-01A-11D-A24D-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.63333333333
+TCGA-L4-A4E5	TCGA-L4-A4E5-01A-11D-A24P-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	9.33333333333
+TCGA-L9-A443	TCGA-L9-A443-01A-12D-A24D-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.46666666667
+TCGA-L9-A444	TCGA-L9-A444-01A-21D-A24D-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.5333333333
+TCGA-L9-A50W	TCGA-L9-A50W-01A-12D-A397-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.13333333333
+TCGA-L9-A5IP	TCGA-L9-A5IP-01A-21D-A397-08	T3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	8.56666666667
+TCGA-L9-A7SV	TCGA-L9-A7SV-01A-11D-A397-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	44.5666666667
+TCGA-L9-A8F4	TCGA-L9-A8F4-01A-11D-A397-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	22.4666666667
+TCGA-MN-A4N1	TCGA-MN-A4N1-01A-11D-A24P-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	13.1666666667
+TCGA-MN-A4N4	TCGA-MN-A4N4-01A-12D-A24P-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	43.6666666667
+TCGA-MN-A4N5	TCGA-MN-A4N5-01A-11D-A24P-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.6666666667
+TCGA-MP-A4SW	TCGA-MP-A4SW-01A-21D-A24P-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.93333333333
+TCGA-MP-A4T2	TCGA-MP-A4T2-01A-11D-A24P-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.2
+TCGA-MP-A4T4	TCGA-MP-A4T4-01A-11D-A25L-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	11.6333333333
+TCGA-MP-A4T6	TCGA-MP-A4T6-01A-32D-A25L-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.03333333333
+TCGA-MP-A4T7	TCGA-MP-A4T7-01A-11D-A24P-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.13333333333
+TCGA-MP-A4T8	TCGA-MP-A4T8-01A-11D-A24P-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.36666666667
+TCGA-MP-A4T9	TCGA-MP-A4T9-01A-11D-A24P-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.03333333333
+TCGA-MP-A4TA	TCGA-MP-A4TA-01A-21D-A24P-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.2
+TCGA-MP-A4TC	TCGA-MP-A4TC-01A-11D-A24P-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.16666666667
+TCGA-MP-A4TD	TCGA-MP-A4TD-01A-32D-A25L-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.16666666667
+TCGA-MP-A4TE	TCGA-MP-A4TE-01A-22D-A25L-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.9
+TCGA-MP-A4TF	TCGA-MP-A4TF-01A-11D-A25L-08	T2b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.1333333333
+TCGA-MP-A4TH	TCGA-MP-A4TH-01A-31D-A25L-08	T1a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.5
+TCGA-MP-A4TI	TCGA-MP-A4TI-01A-21D-A24P-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	6.7
+TCGA-MP-A4TJ	TCGA-MP-A4TJ-01A-51D-A25L-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	2.66666666667
+TCGA-MP-A4TK	TCGA-MP-A4TK-01A-11D-A24P-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	10.2
+TCGA-MP-A5C7	TCGA-MP-A5C7-01A-11D-A25L-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	1.83333333333
+TCGA-NJ-A4YF	TCGA-NJ-A4YF-01A-12D-A25L-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	17.4
+TCGA-NJ-A4YG	TCGA-NJ-A4YG-01A-22D-A25L-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.26666666667
+TCGA-NJ-A4YI	TCGA-NJ-A4YI-01A-11D-A25L-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	12.4
+TCGA-NJ-A4YP	TCGA-NJ-A4YP-01A-11D-A25L-08	T2a	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	15.2333333333
+TCGA-NJ-A4YQ	TCGA-NJ-A4YQ-01A-11D-A25L-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	32.4666666667
+TCGA-NJ-A55A	TCGA-NJ-A55A-01A-11D-A25L-08	T2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.46666666667
+TCGA-NJ-A55O	TCGA-NJ-A55O-01A-11D-A25L-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.2
+TCGA-NJ-A55R	TCGA-NJ-A55R-01A-11D-A25L-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	7.4
+TCGA-NJ-A7XG	TCGA-NJ-A7XG-01A-12D-A397-08	T4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	0.933333333333
+TCGA-O1-A52J	TCGA-O1-A52J-01A-11D-A25L-08	T1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	4.83333333333
+TCGA-S2-AA1A	TCGA-S2-AA1A-01A-12D-A397-08	T1b	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	3.63333333333
+TCGA-18-3406	TCGA-18-3406-01A-01D-0983-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.1
+TCGA-18-3407	TCGA-18-3407-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	1.9
+TCGA-18-3408	TCGA-18-3408-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.4
+TCGA-18-3409	TCGA-18-3409-01A-01D-0983-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	78.8
+TCGA-18-3410	TCGA-18-3410-01A-01D-0983-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.06666666667
+TCGA-18-3411	TCGA-18-3411-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.7
+TCGA-18-3412	TCGA-18-3412-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.16666666667
+TCGA-18-3414	TCGA-18-3414-01A-01D-0983-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.46666666667
+TCGA-18-3415	TCGA-18-3415-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.06666666667
+TCGA-18-3416	TCGA-18-3416-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.86666666667
+TCGA-18-3417	TCGA-18-3417-01A-01D-1441-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.66666666667
+TCGA-18-3419	TCGA-18-3419-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.8
+TCGA-18-3421	TCGA-18-3421-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.96666666667
+TCGA-18-4083	TCGA-18-4083-01A-01D-1352-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.1
+TCGA-18-4086	TCGA-18-4086-01A-01D-1352-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.46666666667
+TCGA-18-4721	TCGA-18-4721-01A-01D-1441-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.76666666667
+TCGA-18-5592	TCGA-18-5592-01A-01D-1632-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.73333333333
+TCGA-18-5595	TCGA-18-5595-01A-01D-1632-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.4
+TCGA-21-1070	TCGA-21-1070-01A-01D-1521-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	15.3
+TCGA-21-1071	TCGA-21-1071-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.7
+TCGA-21-1075	TCGA-21-1075-01A-01W-0782-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.3
+TCGA-21-1076	TCGA-21-1076-01A-02D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.16666666667
+TCGA-21-1077	TCGA-21-1077-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.4
+TCGA-21-1078	TCGA-21-1078-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.46666666667
+TCGA-21-1079	TCGA-21-1079-01A-01W-0782-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	43.5
+TCGA-21-1081	TCGA-21-1081-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.53333333333
+TCGA-21-1082	TCGA-21-1082-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.8666666667
+TCGA-21-1083	TCGA-21-1083-01A-01D-1521-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	20.5333333333
+TCGA-21-5782	TCGA-21-5782-01A-01D-1632-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.5
+TCGA-21-5784	TCGA-21-5784-01A-01D-1632-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.1
+TCGA-21-5786	TCGA-21-5786-01A-01D-1632-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.5
+TCGA-21-5787	TCGA-21-5787-01A-01D-1632-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	12.4
+TCGA-21-A5DI	TCGA-21-A5DI-01A-31D-A26M-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.73333333333
+TCGA-22-0940	TCGA-22-0940-01A-01D-1521-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.16666666667
+TCGA-22-0944	TCGA-22-0944-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.46666666667
+TCGA-22-1000	TCGA-22-1000-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.1
+TCGA-22-1002	TCGA-22-1002-01A-01D-1521-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.06666666667
+TCGA-22-1005	TCGA-22-1005-01A-01D-1521-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.0
+TCGA-22-1011	TCGA-22-1011-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.06666666667
+TCGA-22-1012	TCGA-22-1012-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.8
+TCGA-22-1016	TCGA-22-1016-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.86666666667
+TCGA-22-4591	TCGA-22-4591-01A-01D-1267-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.76666666667
+TCGA-22-4593	TCGA-22-4593-01A-21D-1817-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.33333333333
+TCGA-22-4594	TCGA-22-4594-01A-01D-1267-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.3
+TCGA-22-4595	TCGA-22-4595-01A-01D-1267-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.13333333333
+TCGA-22-4596	TCGA-22-4596-01A-01D-1267-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.13333333333
+TCGA-22-4599	TCGA-22-4599-01A-01D-1441-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.7
+TCGA-22-4601	TCGA-22-4601-01A-01D-1441-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.5
+TCGA-22-4604	TCGA-22-4604-01A-01D-1267-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.8
+TCGA-22-4607	TCGA-22-4607-01A-01D-1267-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.66666666667
+TCGA-22-4613	TCGA-22-4613-01A-01D-1441-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	18.5
+TCGA-22-5471	TCGA-22-5471-01A-01D-1632-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.2
+TCGA-22-5472	TCGA-22-5472-01A-01D-1632-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.9333333333
+TCGA-22-5473	TCGA-22-5473-01A-01D-1632-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	22.8666666667
+TCGA-22-5474	TCGA-22-5474-01A-01D-1632-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.9
+TCGA-22-5477	TCGA-22-5477-01A-01D-1632-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.7
+TCGA-22-5478	TCGA-22-5478-01A-01D-1632-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.3
+TCGA-22-5479	TCGA-22-5479-01A-31D-1945-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	14.1
+TCGA-22-5480	TCGA-22-5480-01A-01D-1632-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.6
+TCGA-22-5481	TCGA-22-5481-01A-31D-1945-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.53333333333
+TCGA-22-5482	TCGA-22-5482-01A-01D-1632-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.8
+TCGA-22-5483	TCGA-22-5483-01A-01D-1817-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.3
+TCGA-22-5485	TCGA-22-5485-01A-01D-1632-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.26666666667
+TCGA-22-5489	TCGA-22-5489-01A-01D-1632-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.7
+TCGA-22-5491	TCGA-22-5491-01A-01D-1632-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.2
+TCGA-22-5492	TCGA-22-5492-01A-01D-1632-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.5
+TCGA-33-4532	TCGA-33-4532-01A-01D-1267-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.7
+TCGA-33-4533	TCGA-33-4533-01A-01D-1267-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.5
+TCGA-33-4538	TCGA-33-4538-01A-01D-1267-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.23333333333
+TCGA-33-4547	TCGA-33-4547-01A-01D-1267-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.96666666667
+TCGA-33-4566	TCGA-33-4566-01A-01D-1441-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	38.0333333333
+TCGA-33-4582	TCGA-33-4582-01A-01D-1441-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.56666666667
+TCGA-33-4583	TCGA-33-4583-01A-01D-1441-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	15.8
+TCGA-33-4586	TCGA-33-4586-01A-01D-1441-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.3
+TCGA-33-4589	TCGA-33-4589-01A-01D-1441-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.2
+TCGA-33-6737	TCGA-33-6737-01A-11D-1817-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	12.6666666667
+TCGA-33-6738	TCGA-33-6738-01A-11D-1945-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.0
+TCGA-33-A4WN	TCGA-33-A4WN-01A-11D-A25L-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.73333333333
+TCGA-33-A5GW	TCGA-33-A5GW-01A-11D-A27K-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.9
+TCGA-33-AAS8	TCGA-33-AAS8-01A-11D-A401-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.8
+TCGA-33-AASB	TCGA-33-AASB-01A-11D-A401-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.9333333333
+TCGA-33-AASD	TCGA-33-AASD-01A-11D-A401-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.3666666667
+TCGA-33-AASI	TCGA-33-AASI-01A-22D-A401-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.5
+TCGA-33-AASJ	TCGA-33-AASJ-01A-11D-A401-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.7
+TCGA-33-AASL	TCGA-33-AASL-01A-11D-A401-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.9
+TCGA-34-2596	TCGA-34-2596-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.13333333333
+TCGA-34-2600	TCGA-34-2600-01A-01D-1522-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	15.1333333333
+TCGA-34-2604	TCGA-34-2604-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	17.5
+TCGA-34-2605	TCGA-34-2605-01A-01D-1522-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.0
+TCGA-34-2608	TCGA-34-2608-01A-02D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.3
+TCGA-34-2609	TCGA-34-2609-01A-01W-0877-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.5666666667
+TCGA-34-5231	TCGA-34-5231-01A-21D-1817-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	18.9666666667
+TCGA-34-5232	TCGA-34-5232-01A-21D-1817-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.56666666667
+TCGA-34-5234	TCGA-34-5234-01A-01D-1632-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.63333333333
+TCGA-34-5236	TCGA-34-5236-01A-21D-1817-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.36666666667
+TCGA-34-5239	TCGA-34-5239-01A-21D-1817-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.96666666667
+TCGA-34-5240	TCGA-34-5240-01A-01D-1441-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.8
+TCGA-34-5927	TCGA-34-5927-01A-11D-1817-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.1
+TCGA-34-5928	TCGA-34-5928-01A-11D-1817-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.3333333333
+TCGA-34-5929	TCGA-34-5929-01A-11D-1817-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.86666666667
+TCGA-34-7107	TCGA-34-7107-01A-11D-1945-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.4
+TCGA-34-8454	TCGA-34-8454-01A-11D-2323-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	15.3
+TCGA-34-8455	TCGA-34-8455-01A-11D-2323-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	14.1333333333
+TCGA-34-8456	TCGA-34-8456-01A-21D-2323-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	0.966666666667
+TCGA-34-A5IX	TCGA-34-A5IX-01A-12D-A27K-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.3
+TCGA-37-3783	TCGA-37-3783-01A-01D-1267-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.4333333333
+TCGA-37-3789	TCGA-37-3789-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.7
+TCGA-37-3792	TCGA-37-3792-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	25.5333333333
+TCGA-37-4129	TCGA-37-4129-01A-01D-1352-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	0.466666666667
+TCGA-37-4132	TCGA-37-4132-01A-01D-1352-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.7
+TCGA-37-4133	TCGA-37-4133-01A-01D-1352-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.03333333333
+TCGA-37-4135	TCGA-37-4135-01A-01D-1352-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.66666666667
+TCGA-37-4141	TCGA-37-4141-01A-02D-1352-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.3
+TCGA-37-5819	TCGA-37-5819-01A-01D-1632-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	22.3333333333
+TCGA-37-A5EL	TCGA-37-A5EL-01A-11D-A26M-08	NA	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.8
+TCGA-37-A5EM	TCGA-37-A5EM-01A-21D-A27K-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.2
+TCGA-37-A5EN	TCGA-37-A5EN-01A-21D-A26M-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.66666666667
+TCGA-39-5011	TCGA-39-5011-01A-01D-1441-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	18.9
+TCGA-39-5016	TCGA-39-5016-01A-01D-1441-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.2
+TCGA-39-5019	TCGA-39-5019-01A-01D-1817-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.16666666667
+TCGA-39-5021	TCGA-39-5021-01A-01D-1441-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.96666666667
+TCGA-39-5022	TCGA-39-5022-01A-21D-1817-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.2
+TCGA-39-5024	TCGA-39-5024-01A-21D-1817-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.96666666667
+TCGA-39-5027	TCGA-39-5027-01A-21D-1817-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.83333333333
+TCGA-39-5028	TCGA-39-5028-01A-01D-1441-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.73333333333
+TCGA-39-5029	TCGA-39-5029-01A-01D-1441-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.3
+TCGA-39-5030	TCGA-39-5030-01A-01D-1441-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.36666666667
+TCGA-39-5031	TCGA-39-5031-01A-01D-1441-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	18.9666666667
+TCGA-39-5034	TCGA-39-5034-01A-01D-1441-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	16.1666666667
+TCGA-39-5035	TCGA-39-5035-01A-01D-1441-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.5
+TCGA-39-5036	TCGA-39-5036-01A-01D-1441-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.5
+TCGA-39-5037	TCGA-39-5037-01A-01D-1441-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.1
+TCGA-39-5039	TCGA-39-5039-01A-01D-1441-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.03333333333
+TCGA-43-2576	TCGA-43-2576-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	15.2
+TCGA-43-2578	TCGA-43-2578-01A-01D-1522-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.16666666667
+TCGA-43-2581	TCGA-43-2581-01A-01D-1522-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	22.2
+TCGA-43-3394	TCGA-43-3394-01A-01D-0983-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.36666666667
+TCGA-43-3920	TCGA-43-3920-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.13333333333
+TCGA-43-5668	TCGA-43-5668-01A-01D-1632-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	18.9333333333
+TCGA-43-6143	TCGA-43-6143-01A-11D-1817-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.56666666667
+TCGA-43-6647	TCGA-43-6647-01A-11D-1817-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.03333333333
+TCGA-43-6770	TCGA-43-6770-01A-11D-1817-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.9
+TCGA-43-6771	TCGA-43-6771-01A-11D-1817-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.06666666667
+TCGA-43-6773	TCGA-43-6773-01A-41D-1945-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.03333333333
+TCGA-43-8115	TCGA-43-8115-01A-11D-2244-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.23333333333
+TCGA-43-8116	TCGA-43-8116-01A-11D-2244-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.4333333333
+TCGA-43-8118	TCGA-43-8118-01A-11D-2395-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	17.8
+TCGA-43-A474	TCGA-43-A474-01A-11D-A24D-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.6333333333
+TCGA-43-A475	TCGA-43-A475-01A-11D-A24D-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.46666666667
+TCGA-43-A56U	TCGA-43-A56U-01A-11D-A26M-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.53333333333
+TCGA-43-A56V	TCGA-43-A56V-01A-11D-A26M-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.1
+TCGA-46-3765	TCGA-46-3765-01A-01D-0983-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.53333333333
+TCGA-46-3766	TCGA-46-3766-01A-01D-0983-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	1.3
+TCGA-46-3767	TCGA-46-3767-01A-01D-0983-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.03333333333
+TCGA-46-3768	TCGA-46-3768-01A-01D-0983-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.46666666667
+TCGA-46-3769	TCGA-46-3769-01A-01D-0983-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	24.5666666667
+TCGA-46-6025	TCGA-46-6025-01A-11D-1817-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.86666666667
+TCGA-46-6026	TCGA-46-6026-01A-11D-1817-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.36666666667
+TCGA-51-4079	TCGA-51-4079-01A-01D-1458-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.2
+TCGA-51-4080	TCGA-51-4080-01A-01D-1458-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.43333333333
+TCGA-51-4081	TCGA-51-4081-01A-01D-1458-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.93333333333
+TCGA-56-1622	TCGA-56-1622-01A-01D-1521-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.83333333333
+TCGA-56-5897	TCGA-56-5897-01A-11D-1632-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.2
+TCGA-56-5898	TCGA-56-5898-01A-11D-1632-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.2
+TCGA-56-6545	TCGA-56-6545-01A-11D-1817-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.56666666667
+TCGA-56-6546	TCGA-56-6546-01A-11D-1817-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.0333333333
+TCGA-56-7823	TCGA-56-7823-01B-11D-2244-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.16666666667
+TCGA-56-8082	TCGA-56-8082-01A-11D-2244-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.46666666667
+TCGA-56-8083	TCGA-56-8083-01A-11D-2244-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.76666666667
+TCGA-56-8201	TCGA-56-8201-01A-11D-2244-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.13333333333
+TCGA-56-8304	TCGA-56-8304-01A-11D-2323-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.3
+TCGA-56-8305	TCGA-56-8305-01A-11D-2293-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.3333333333
+TCGA-56-8307	TCGA-56-8307-01A-11D-2293-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	12.5666666667
+TCGA-56-8308	TCGA-56-8308-01A-11D-2293-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.2666666667
+TCGA-56-8309	TCGA-56-8309-01A-11D-2293-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.16666666667
+TCGA-56-8504	TCGA-56-8504-01A-11D-2395-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.13333333333
+TCGA-56-8622	TCGA-56-8622-01A-11D-2395-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.26666666667
+TCGA-56-8624	TCGA-56-8624-01A-11D-2395-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.36666666667
+TCGA-56-8625	TCGA-56-8625-01A-11D-2395-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	13.1333333333
+TCGA-56-8626	TCGA-56-8626-01A-11D-2395-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.96666666667
+TCGA-56-8628	TCGA-56-8628-01A-11D-2395-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	12.0
+TCGA-56-8629	TCGA-56-8629-01A-11D-2395-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.53333333333
+TCGA-56-A49D	TCGA-56-A49D-01A-11D-A24D-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.56666666667
+TCGA-56-A4BW	TCGA-56-A4BW-01A-11D-A24D-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.73333333333
+TCGA-56-A4BX	TCGA-56-A4BX-01A-11D-A24D-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.7
+TCGA-56-A4BY	TCGA-56-A4BY-01A-11D-A24D-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.16666666667
+TCGA-56-A4ZJ	TCGA-56-A4ZJ-01A-11D-A25L-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.1
+TCGA-56-A4ZK	TCGA-56-A4ZK-01A-11D-A25L-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.43333333333
+TCGA-56-A5DR	TCGA-56-A5DR-01A-11D-A27K-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	30.2
+TCGA-56-A5DS	TCGA-56-A5DS-01A-11D-A27K-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.93333333333
+TCGA-56-A62T	TCGA-56-A62T-01A-11D-A401-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	14.6333333333
+TCGA-58-8386	TCGA-58-8386-01A-11D-2293-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.13333333333
+TCGA-58-8387	TCGA-58-8387-01A-11D-2293-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.03333333333
+TCGA-58-8388	TCGA-58-8388-01A-11D-2323-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.36666666667
+TCGA-58-8390	TCGA-58-8390-01A-11D-2323-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.5
+TCGA-58-8391	TCGA-58-8391-01A-11D-2323-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.0666666667
+TCGA-58-8392	TCGA-58-8392-01A-11D-2323-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.96666666667
+TCGA-58-8393	TCGA-58-8393-01A-11D-2323-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.66666666667
+TCGA-58-A46J	TCGA-58-A46J-01A-11D-A24D-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.23333333333
+TCGA-58-A46K	TCGA-58-A46K-01A-11D-A24D-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.93333333333
+TCGA-58-A46L	TCGA-58-A46L-01A-11D-A24D-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.5
+TCGA-58-A46M	TCGA-58-A46M-01A-11D-A24D-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.2333333333
+TCGA-58-A46N	TCGA-58-A46N-01A-11D-A24D-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.96666666667
+TCGA-60-2695	TCGA-60-2695-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.8
+TCGA-60-2698	TCGA-60-2698-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	35.0666666667
+TCGA-60-2707	TCGA-60-2707-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.5
+TCGA-60-2708	TCGA-60-2708-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.06666666667
+TCGA-60-2709	TCGA-60-2709-01A-21D-1817-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.53333333333
+TCGA-60-2710	TCGA-60-2710-01A-01D-1522-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.6
+TCGA-60-2711	TCGA-60-2711-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.5
+TCGA-60-2712	TCGA-60-2712-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.4
+TCGA-60-2713	TCGA-60-2713-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.03333333333
+TCGA-60-2714	TCGA-60-2714-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	24.8333333333
+TCGA-60-2715	TCGA-60-2715-01A-01D-1522-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.7
+TCGA-60-2716	TCGA-60-2716-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	0.466666666667
+TCGA-60-2719	TCGA-60-2719-01A-01D-1522-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.53333333333
+TCGA-60-2720	TCGA-60-2720-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	12.7333333333
+TCGA-60-2721	TCGA-60-2721-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.13333333333
+TCGA-60-2722	TCGA-60-2722-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.13333333333
+TCGA-60-2723	TCGA-60-2723-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.26666666667
+TCGA-60-2724	TCGA-60-2724-01A-01D-1522-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.76666666667
+TCGA-60-2725	TCGA-60-2725-01A-01D-1267-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.46666666667
+TCGA-60-2726	TCGA-60-2726-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.06666666667
+TCGA-63-5128	TCGA-63-5128-01A-01D-1441-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.73333333333
+TCGA-63-5131	TCGA-63-5131-01A-01D-1441-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.9
+TCGA-63-6202	TCGA-63-6202-01A-11D-1817-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.2333333333
+TCGA-63-7020	TCGA-63-7020-01A-11D-1945-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.43333333333
+TCGA-63-7021	TCGA-63-7021-01A-11D-1945-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.36666666667
+TCGA-63-7022	TCGA-63-7022-01A-11D-1945-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.53333333333
+TCGA-63-7023	TCGA-63-7023-01A-11D-1945-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.23333333333
+TCGA-63-A5M9	TCGA-63-A5M9-01A-11D-A26M-08	NA	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.86666666667
+TCGA-63-A5MB	TCGA-63-A5MB-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.73333333333
+TCGA-63-A5MG	TCGA-63-A5MG-01A-12D-A27K-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.13333333333
+TCGA-63-A5MH	TCGA-63-A5MH-01A-12D-A27K-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.73333333333
+TCGA-63-A5MI	TCGA-63-A5MI-01A-12D-A27K-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.46666666667
+TCGA-63-A5MJ	TCGA-63-A5MJ-01A-11D-A27K-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.5
+TCGA-63-A5ML	TCGA-63-A5ML-01A-31D-A27K-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.36666666667
+TCGA-63-A5MM	TCGA-63-A5MM-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	32.6333333333
+TCGA-63-A5MN	TCGA-63-A5MN-01A-22D-A27K-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	1.16666666667
+TCGA-63-A5MP	TCGA-63-A5MP-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.56666666667
+TCGA-63-A5MR	TCGA-63-A5MR-01A-31D-A27K-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.13333333333
+TCGA-63-A5MS	TCGA-63-A5MS-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.8666666667
+TCGA-63-A5MT	TCGA-63-A5MT-01A-21D-A26M-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.26666666667
+TCGA-63-A5MU	TCGA-63-A5MU-01A-11D-A26M-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.46666666667
+TCGA-63-A5MV	TCGA-63-A5MV-01A-21D-A26M-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.43333333333
+TCGA-63-A5MW	TCGA-63-A5MW-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	12.8666666667
+TCGA-63-A5MY	TCGA-63-A5MY-01A-11D-A26M-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.63333333333
+TCGA-66-2727	TCGA-66-2727-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.8
+TCGA-66-2734	TCGA-66-2734-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.83333333333
+TCGA-66-2742	TCGA-66-2742-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.16666666667
+TCGA-66-2744	TCGA-66-2744-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.93333333333
+TCGA-66-2754	TCGA-66-2754-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.66666666667
+TCGA-66-2755	TCGA-66-2755-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.86666666667
+TCGA-66-2756	TCGA-66-2756-01A-01D-1522-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	14.7
+TCGA-66-2757	TCGA-66-2757-01A-01D-1522-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.36666666667
+TCGA-66-2758	TCGA-66-2758-01A-02D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.63333333333
+TCGA-66-2759	TCGA-66-2759-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	12.5333333333
+TCGA-66-2763	TCGA-66-2763-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.5333333333
+TCGA-66-2765	TCGA-66-2765-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.06666666667
+TCGA-66-2766	TCGA-66-2766-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.8333333333
+TCGA-66-2767	TCGA-66-2767-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.0333333333
+TCGA-66-2769	TCGA-66-2769-01A-02D-1522-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.3
+TCGA-66-2770	TCGA-66-2770-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.53333333333
+TCGA-66-2771	TCGA-66-2771-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.5
+TCGA-66-2773	TCGA-66-2773-01A-01D-1267-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	17.0666666667
+TCGA-66-2777	TCGA-66-2777-01A-01D-1267-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.86666666667
+TCGA-66-2778	TCGA-66-2778-01A-02D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.03333333333
+TCGA-66-2780	TCGA-66-2780-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.83333333333
+TCGA-66-2781	TCGA-66-2781-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.43333333333
+TCGA-66-2782	TCGA-66-2782-01A-01D-1522-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.0
+TCGA-66-2783	TCGA-66-2783-01A-01D-1267-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.2
+TCGA-66-2785	TCGA-66-2785-01A-01D-1522-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	35.2666666667
+TCGA-66-2786	TCGA-66-2786-01A-01D-1522-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.06666666667
+TCGA-66-2787	TCGA-66-2787-01A-01D-0983-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	14.0666666667
+TCGA-66-2788	TCGA-66-2788-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.73333333333
+TCGA-66-2789	TCGA-66-2789-01A-01D-0983-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.73333333333
+TCGA-66-2791	TCGA-66-2791-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.83333333333
+TCGA-66-2792	TCGA-66-2792-01A-01D-0983-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.96666666667
+TCGA-66-2793	TCGA-66-2793-01A-01D-1267-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.2
+TCGA-66-2794	TCGA-66-2794-01A-01D-1267-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.63333333333
+TCGA-66-2795	TCGA-66-2795-01A-02D-0983-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.5
+TCGA-66-2800	TCGA-66-2800-01A-01D-1267-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.33333333333
+TCGA-68-7757	TCGA-68-7757-01B-11D-2293-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.4
+TCGA-68-8250	TCGA-68-8250-01A-11D-2293-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.16666666667
+TCGA-68-8251	TCGA-68-8251-01A-11D-2293-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.4
+TCGA-68-A59J	TCGA-68-A59J-01A-21D-A26M-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.4333333333
+TCGA-6A-AB49	TCGA-6A-AB49-01A-12D-A401-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.9333333333
+TCGA-70-6722	TCGA-70-6722-01A-11D-1817-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.83333333333
+TCGA-70-6723	TCGA-70-6723-01A-11D-1817-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.4
+TCGA-77-6842	TCGA-77-6842-01A-11D-1945-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.0333333333
+TCGA-77-6843	TCGA-77-6843-01A-11D-1945-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.9
+TCGA-77-6844	TCGA-77-6844-01A-11D-1945-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.53333333333
+TCGA-77-6845	TCGA-77-6845-01A-11D-1945-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.96666666667
+TCGA-77-8128	TCGA-77-8128-01A-11D-2244-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.56666666667
+TCGA-77-8130	TCGA-77-8130-01A-11D-2244-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.46666666667
+TCGA-77-8131	TCGA-77-8131-01A-11D-2244-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.2
+TCGA-77-8133	TCGA-77-8133-01A-12D-2244-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.1
+TCGA-77-8136	TCGA-77-8136-01A-11D-2244-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	13.5333333333
+TCGA-77-8138	TCGA-77-8138-01A-11D-2244-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.0
+TCGA-77-8139	TCGA-77-8139-01A-11D-2244-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.5
+TCGA-77-8140	TCGA-77-8140-01A-11D-2244-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.9
+TCGA-77-8143	TCGA-77-8143-01A-11D-2244-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.53333333333
+TCGA-77-8144	TCGA-77-8144-01A-11D-2244-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.7333333333
+TCGA-77-8145	TCGA-77-8145-01A-11D-2244-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.16666666667
+TCGA-77-8148	TCGA-77-8148-01A-11D-2244-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.56666666667
+TCGA-77-8150	TCGA-77-8150-01A-11D-2244-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.93333333333
+TCGA-77-8153	TCGA-77-8153-01A-11D-2395-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.73333333333
+TCGA-77-8154	TCGA-77-8154-01A-11D-2244-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.86666666667
+TCGA-77-8156	TCGA-77-8156-01A-11D-2244-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.23333333333
+TCGA-77-A5FZ	TCGA-77-A5FZ-01A-31D-A27K-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	0.2
+TCGA-77-A5G1	TCGA-77-A5G1-01A-11D-A27K-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.6
+TCGA-77-A5G3	TCGA-77-A5G3-01A-31D-A27K-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	17.3666666667
+TCGA-77-A5G6	TCGA-77-A5G6-01A-11D-A27K-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	13.8333333333
+TCGA-77-A5G7	TCGA-77-A5G7-01B-11D-A27K-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.43333333333
+TCGA-77-A5G8	TCGA-77-A5G8-01B-11D-A27K-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.2
+TCGA-77-A5GA	TCGA-77-A5GA-01A-11D-A27K-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.56666666667
+TCGA-77-A5GB	TCGA-77-A5GB-01B-11D-A27K-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.53333333333
+TCGA-77-A5GF	TCGA-77-A5GF-01A-21D-A27K-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.53333333333
+TCGA-77-A5GH	TCGA-77-A5GH-01A-11D-A27K-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.26666666667
+TCGA-79-5596	TCGA-79-5596-01A-31D-1945-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.23333333333
+TCGA-85-6175	TCGA-85-6175-01A-11D-1817-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	1.3
+TCGA-85-6560	TCGA-85-6560-01A-11D-1817-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	13.1333333333
+TCGA-85-6561	TCGA-85-6561-01A-11D-1817-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.36666666667
+TCGA-85-6798	TCGA-85-6798-01A-11D-1945-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.76666666667
+TCGA-85-8048	TCGA-85-8048-01A-11D-2244-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.73333333333
+TCGA-85-8049	TCGA-85-8049-01A-11D-2244-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.33333333333
+TCGA-85-8052	TCGA-85-8052-01A-11D-2244-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.93333333333
+TCGA-85-8070	TCGA-85-8070-01A-11D-2244-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.76666666667
+TCGA-85-8071	TCGA-85-8071-01A-11D-2244-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.2666666667
+TCGA-85-8072	TCGA-85-8072-01A-31D-2244-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.63333333333
+TCGA-85-8276	TCGA-85-8276-01A-11D-2293-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.53333333333
+TCGA-85-8277	TCGA-85-8277-01A-11D-2293-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.9
+TCGA-85-8287	TCGA-85-8287-01A-11D-2293-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.13333333333
+TCGA-85-8288	TCGA-85-8288-01A-11D-2293-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.1
+TCGA-85-8350	TCGA-85-8350-01A-11D-2293-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.9
+TCGA-85-8351	TCGA-85-8351-01A-11D-2293-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.43333333333
+TCGA-85-8352	TCGA-85-8352-01A-31D-2323-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.16666666667
+TCGA-85-8353	TCGA-85-8353-01A-21D-2293-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.3
+TCGA-85-8354	TCGA-85-8354-01A-31D-2323-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.93333333333
+TCGA-85-8355	TCGA-85-8355-01A-11D-2293-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.83333333333
+TCGA-85-8479	TCGA-85-8479-01A-11D-2323-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.3
+TCGA-85-8481	TCGA-85-8481-01A-11D-2323-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.03333333333
+TCGA-85-8580	TCGA-85-8580-01A-31D-2395-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.03333333333
+TCGA-85-8582	TCGA-85-8582-01A-21D-2395-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.4
+TCGA-85-8584	TCGA-85-8584-01A-11D-2395-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.1
+TCGA-85-8664	TCGA-85-8664-01A-11D-2395-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.26666666667
+TCGA-85-8666	TCGA-85-8666-01A-11D-2395-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.9
+TCGA-85-A4CL	TCGA-85-A4CL-01A-41D-A26M-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	21.4333333333
+TCGA-85-A4CN	TCGA-85-A4CN-01A-11D-A24D-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.9
+TCGA-85-A4JB	TCGA-85-A4JB-01A-51D-A25L-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	13.6333333333
+TCGA-85-A4JC	TCGA-85-A4JC-01A-11D-A257-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.26666666667
+TCGA-85-A4PA	TCGA-85-A4PA-01A-11D-A257-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	0.266666666667
+TCGA-85-A4QQ	TCGA-85-A4QQ-01A-41D-A25L-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.73333333333
+TCGA-85-A4QR	TCGA-85-A4QR-01A-11D-A257-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.73333333333
+TCGA-85-A50M	TCGA-85-A50M-01A-21D-A25L-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.13333333333
+TCGA-85-A50Z	TCGA-85-A50Z-01A-21D-A25L-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	12.4333333333
+TCGA-85-A510	TCGA-85-A510-01A-11D-A26M-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.96666666667
+TCGA-85-A511	TCGA-85-A511-01A-21D-A25L-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.1
+TCGA-85-A512	TCGA-85-A512-01A-11D-A26M-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.76666666667
+TCGA-85-A513	TCGA-85-A513-01A-12D-A26M-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	0.666666666667
+TCGA-85-A53L	TCGA-85-A53L-01A-21D-A26M-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.66666666667
+TCGA-85-A5B5	TCGA-85-A5B5-01A-21D-A26M-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.0333333333
+TCGA-90-6837	TCGA-90-6837-01A-11D-1945-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	0.0666666666667
+TCGA-90-A4ED	TCGA-90-A4ED-01A-31D-A257-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	50.0
+TCGA-90-A4EE	TCGA-90-A4EE-01A-11D-A257-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.6666666667
+TCGA-90-A59Q	TCGA-90-A59Q-01A-11D-A26M-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.13333333333
+TCGA-92-8063	TCGA-92-8063-01A-11D-2244-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.1333333333
+TCGA-92-8064	TCGA-92-8064-01A-11D-2244-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.5
+TCGA-92-8065	TCGA-92-8065-01A-11D-2244-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.36666666667
+TCGA-94-7033	TCGA-94-7033-01A-11D-1945-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.96666666667
+TCGA-94-8035	TCGA-94-8035-01A-11D-2244-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.7
+TCGA-94-8490	TCGA-94-8490-01A-11D-2323-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	26.4666666667
+TCGA-94-8491	TCGA-94-8491-01A-11D-2323-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	17.4
+TCGA-94-A4VJ	TCGA-94-A4VJ-01A-11D-A257-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.6666666667
+TCGA-94-A5I4	TCGA-94-A5I4-01A-11D-A26M-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.06666666667
+TCGA-94-A5I6	TCGA-94-A5I6-01A-21D-A27K-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.03333333333
+TCGA-96-8169	TCGA-96-8169-01A-11D-2293-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.7
+TCGA-96-8170	TCGA-96-8170-01A-11D-2293-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.9
+TCGA-96-A4JK	TCGA-96-A4JK-01A-11D-A257-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	14.0666666667
+TCGA-96-A4JL	TCGA-96-A4JL-01A-11D-A257-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.1
+TCGA-98-8020	TCGA-98-8020-01A-11D-2244-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.03333333333
+TCGA-98-8021	TCGA-98-8021-01A-11D-2244-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	31.7333333333
+TCGA-98-8022	TCGA-98-8022-01A-11D-2244-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.2
+TCGA-98-8023	TCGA-98-8023-01A-11D-2244-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.76666666667
+TCGA-98-A538	TCGA-98-A538-01A-11D-A25L-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	18.7666666667
+TCGA-98-A539	TCGA-98-A539-01A-31D-A25L-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.96666666667
+TCGA-98-A53A	TCGA-98-A53A-01A-11D-A25L-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.76666666667
+TCGA-98-A53B	TCGA-98-A53B-01A-11D-A25L-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.56666666667
+TCGA-98-A53C	TCGA-98-A53C-01A-11D-A25L-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	0.333333333333
+TCGA-98-A53I	TCGA-98-A53I-01A-31D-A25L-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.5666666667
+TCGA-98-A53J	TCGA-98-A53J-01A-11D-A26M-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.0
+TCGA-J1-A4AH	TCGA-J1-A4AH-01A-31D-A24D-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.6
+TCGA-L3-A4E7	TCGA-L3-A4E7-01A-11D-A257-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.9
+TCGA-L3-A524	TCGA-L3-A524-01A-11D-A25L-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.63333333333
+TCGA-LA-A446	TCGA-LA-A446-01A-21D-A257-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.5
+TCGA-LA-A7SW	TCGA-LA-A7SW-01A-11D-A401-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.76666666667
+TCGA-60-2697	TCGA-60-2697-01A-11D-2122-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	0.266666666667
+TCGA-60-2703	TCGA-60-2703-01A-11D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.33333333333
+TCGA-60-2704	TCGA-60-2704-01A-11D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.66666666667
+TCGA-33-4587	TCGA-33-4587-01A-11D-2122-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.5
+TCGA-22-4605	TCGA-22-4605-01A-21D-2122-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.76666666667
+TCGA-22-4609	TCGA-22-4609-01A-21D-2122-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.33333333333
+TCGA-39-5040	TCGA-39-5040-01A-21D-2122-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	13.7333333333
+TCGA-43-5670	TCGA-43-5670-01A-21D-2122-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.93333333333
+TCGA-21-5783	TCGA-21-5783-01A-41D-2184-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	12.1333333333
+TCGA-51-6867	TCGA-51-6867-01A-11D-2042-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	18.1
+TCGA-77-7138	TCGA-77-7138-01A-41D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	1.63333333333
+TCGA-77-7139	TCGA-77-7139-01A-11D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.3
+TCGA-77-7140	TCGA-77-7140-01A-41D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.63333333333
+TCGA-77-7141	TCGA-77-7141-01A-11D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	21.4333333333
+TCGA-77-7142	TCGA-77-7142-01A-11D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.43333333333
+TCGA-56-7221	TCGA-56-7221-01A-11D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.5
+TCGA-56-7222	TCGA-56-7222-01A-11D-2042-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.7333333333
+TCGA-56-7223	TCGA-56-7223-01A-11D-2042-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.4
+TCGA-77-7335	TCGA-77-7335-01A-11D-2042-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.46666666667
+TCGA-77-7337	TCGA-77-7337-01A-21D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.7
+TCGA-77-7338	TCGA-77-7338-01A-11D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.96666666667
+TCGA-92-7341	TCGA-92-7341-01A-31D-2042-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.93333333333
+TCGA-98-7454	TCGA-98-7454-01A-11D-2042-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.36666666667
+TCGA-77-7463	TCGA-77-7463-01A-11D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.4
+TCGA-77-7465	TCGA-77-7465-01A-11D-2042-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.1333333333
+TCGA-96-7544	TCGA-96-7544-01A-11D-2042-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.9333333333
+TCGA-96-7545	TCGA-96-7545-01A-21D-2042-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.7
+TCGA-94-7557	TCGA-94-7557-01A-11D-2122-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.8
+TCGA-56-7579	TCGA-56-7579-01A-11D-2042-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.16666666667
+TCGA-56-7580	TCGA-56-7580-01A-11D-2042-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.93333333333
+TCGA-56-7582	TCGA-56-7582-01A-11D-2042-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.96666666667
+TCGA-52-7622	TCGA-52-7622-01A-11D-2122-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.5
+TCGA-43-7656	TCGA-43-7656-01A-11D-2122-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.93333333333
+TCGA-43-7657	TCGA-43-7657-01A-31D-2122-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.03333333333
+TCGA-43-7658	TCGA-43-7658-01A-11D-2122-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.73333333333
+TCGA-85-7696	TCGA-85-7696-01A-11D-2122-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.86666666667
+TCGA-85-7697	TCGA-85-7697-01A-11D-2122-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.0
+TCGA-85-7698	TCGA-85-7698-01A-11D-2122-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.96666666667
+TCGA-85-7699	TCGA-85-7699-01A-11D-2122-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.36666666667
+TCGA-85-7710	TCGA-85-7710-01A-11D-2122-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.3
+TCGA-56-7730	TCGA-56-7730-01A-11D-2122-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.3333333333
+TCGA-56-7731	TCGA-56-7731-01A-11D-2122-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.2666666667
+TCGA-68-7755	TCGA-68-7755-01A-11D-2122-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.13333333333
+TCGA-68-7756	TCGA-68-7756-01A-11D-2122-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.53333333333
+TCGA-90-7766	TCGA-90-7766-01A-21D-2122-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.23333333333
+TCGA-90-7767	TCGA-90-7767-01A-11D-2122-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.06666666667
+TCGA-90-7769	TCGA-90-7769-01A-11D-2122-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	15.4
+TCGA-52-7809	TCGA-52-7809-01A-21D-2122-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.1
+TCGA-52-7810	TCGA-52-7810-01A-11D-2122-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	11.9
+TCGA-52-7812	TCGA-52-7812-01A-11D-2122-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.9
+TCGA-56-7822	TCGA-56-7822-01A-11D-2122-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.7
+TCGA-85-7843	TCGA-85-7843-01A-11D-2122-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.96666666667
+TCGA-85-7844	TCGA-85-7844-01A-11D-2122-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.13333333333
+TCGA-94-7943	TCGA-94-7943-01A-11D-2184-08	T1b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.36666666667
+TCGA-85-7950	TCGA-85-7950-01A-11D-2184-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.86666666667
+TCGA-90-7964	TCGA-90-7964-01A-21D-2184-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	13.7666666667
+TCGA-77-8007	TCGA-77-8007-01A-11D-2184-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	2.9
+TCGA-77-8008	TCGA-77-8008-01A-21D-2184-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.16666666667
+TCGA-77-8009	TCGA-77-8009-01A-11D-2184-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.23333333333
+TCGA-MF-A522	TCGA-MF-A522-01A-11D-A25L-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	16.2
+TCGA-NC-A5HD	TCGA-NC-A5HD-01A-11D-A26M-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	13.4333333333
+TCGA-NC-A5HE	TCGA-NC-A5HE-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.66666666667
+TCGA-NC-A5HF	TCGA-NC-A5HF-01A-11D-A26M-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.1
+TCGA-NC-A5HG	TCGA-NC-A5HG-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	16.8333333333
+TCGA-NC-A5HH	TCGA-NC-A5HH-01A-11D-A26M-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.2666666667
+TCGA-NC-A5HI	TCGA-NC-A5HI-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	12.0333333333
+TCGA-NC-A5HJ	TCGA-NC-A5HJ-01A-11D-A26M-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.8666666667
+TCGA-NC-A5HK	TCGA-NC-A5HK-01A-11D-A26M-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.56666666667
+TCGA-NC-A5HL	TCGA-NC-A5HL-01A-11D-A26M-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	5.33333333333
+TCGA-NC-A5HM	TCGA-NC-A5HM-01A-12D-A26M-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.66666666667
+TCGA-NC-A5HN	TCGA-NC-A5HN-01A-11D-A26M-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	15.9333333333
+TCGA-NC-A5HO	TCGA-NC-A5HO-01A-11D-A26M-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.3
+TCGA-NC-A5HP	TCGA-NC-A5HP-01A-11D-A26M-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.5666666667
+TCGA-NC-A5HQ	TCGA-NC-A5HQ-01A-11D-A26M-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.73333333333
+TCGA-NC-A5HR	TCGA-NC-A5HR-01A-21D-A26M-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.36666666667
+TCGA-NC-A5HT	TCGA-NC-A5HT-01A-11D-A26M-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.63333333333
+TCGA-NK-A5CR	TCGA-NK-A5CR-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	8.93333333333
+TCGA-NK-A5CT	TCGA-NK-A5CT-01A-31D-A26M-08	T1	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	9.36666666667
+TCGA-NK-A5CX	TCGA-NK-A5CX-01A-11D-A26M-08	T2b	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	4.6
+TCGA-NK-A5D1	TCGA-NK-A5D1-01A-11D-A26M-08	T2a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.13333333333
+TCGA-NK-A7XE	TCGA-NK-A7XE-01A-12D-A401-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.03333333333
+TCGA-O2-A52N	TCGA-O2-A52N-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	14.3333333333
+TCGA-O2-A52Q	TCGA-O2-A52Q-01A-11D-A26M-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	28.0333333333
+TCGA-O2-A52S	TCGA-O2-A52S-01A-11D-A25L-08	T4	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	10.5
+TCGA-O2-A52V	TCGA-O2-A52V-01A-31D-A25L-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.03333333333
+TCGA-O2-A52W	TCGA-O2-A52W-01A-11D-A26M-08	T2	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	3.4
+TCGA-O2-A5IB	TCGA-O2-A5IB-01A-11D-A27K-08	T3	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	7.2
+TCGA-XC-AA0X	TCGA-XC-AA0X-01A-32D-A401-08	T1a	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	6.16666666667

@@ -1,0 +1,34 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+M003	M003	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.7
+M028	M028	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.566666666667
+M022	M022	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.8
+M030	M030	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	1.26666666667
+M026	M026	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.566666666667
+M029	M029	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.7
+M023	M023	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.733333333333
+M031	M031	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	1.0
+M019	M019	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+M001	M001	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.533333333333
+M013	M013	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+M010	M010	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	1.13333333333
+M007	M007	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
+M021	M021	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.566666666667
+M024	M024	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.833333333333
+M012	M012	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.4
+M025	M025	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.4
+M015	M015	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.233333333333
+M027	M027	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+M018	M018	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	1.0
+M009	M009	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.9
+M014	M014	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.533333333333
+M002	M002	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.766666666667
+M006	M006	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	1.26666666667
+M016	M016	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.133333333333
+M020	M020	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+M011	M011	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.3
+M004	M004	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.466666666667
+M008	M008	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	0.333333333333
