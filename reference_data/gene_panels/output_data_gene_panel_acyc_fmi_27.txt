@@ -1,0 +1,5 @@
+cancer_study_identifier: acc_2019
+stable_id: ACYC_FMI_27
+description: Targeted (27 cancer genes) sequencing of adenoid cystic carcinomas on Illumina HiSeq sequencers.
+gene_list: PDGFRA	EGFR	CTNNB1	AKT1	BRCA2	MCL1	PIK3CA	RB1	KDM6A	MYC	KDR	FBXW7	CDKN2B	IGF1R	CDKN2A	LTK	MDM2	FGFR1	TP53	ARID1A	NOTCH1	KIT	SPEN	RUNX1	CDK4	PKHD1	BAP1
+number_of_profiled_coding_base_pairs: 97491

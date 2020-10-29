@@ -1,0 +1,5 @@
+cancer_study_identifier: blca_mskcc_solit_2012
+stable_id: MSKCC_BLCA_15
+description: Targeted sequencing of 15 oncogenes and tumor suppressor genes, selected for their potential as predictive biomarkers of response to targeted agents by Sanger sequencing.
+gene_list: FGFR3	KRAS	NRAS	HRAS	BRAF	PIK3CA	PIK3R1	AKT1	AKT2	AKT3	PTEN	TSC1	CDKN2A	TP53	RB1
+number_of_profiled_coding_base_pairs: 25245

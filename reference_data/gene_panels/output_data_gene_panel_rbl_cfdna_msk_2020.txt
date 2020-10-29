@@ -1,0 +1,5 @@
+cancer_study_identifier: rbl_cfdna_msk_2020
+stable_id: rbl_cfdna_msk_2020_panel
+description: Targeted panel for cfDNA sequencing (2 genes)
+gene_list: RB1	MYCN
+number_of_profiled_coding_base_pairs: 4176
