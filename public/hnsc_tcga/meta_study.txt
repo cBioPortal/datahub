@@ -2,5 +2,5 @@ type_of_cancer: hnsc
 cancer_study_identifier: hnsc_tcga
 name: Head and Neck Squamous Cell Carcinoma (TCGA, Firehose Legacy)
 short_name: Head & neck (TCGA)
-description: TCGA Head and Neck Squamous Cell Carcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/HNSC/20160128/gdac.broadinstitute.org_HNSC.Mutation_Packager_Raw_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Head and Neck Squamous Cell Carcinoma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/HNSC/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC

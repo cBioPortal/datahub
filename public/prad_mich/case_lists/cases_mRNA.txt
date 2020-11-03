@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_mich
-stable_id: prad_mich_mrna
-case_list_category: all_cases_with_mrna_array_data
-case_list_name: Samples with mRNA data (Agilent microarray)
-case_list_description: Samples with mRNA expression data (94 samples)
-case_list_ids: T1	T10	T11	T12	T17	T19	T20	T21	T24	T25	T26	T27	T29	T3	T31	T32	T37	T39	T40	T41	T42	T43	T44	T45	T46	T47	T48	T49	T5	T50	T51	T52	T53	T54	T55	T56	T57	T58	T59	T6	T60	T61	T62	T63	T64	T65	T66	T67	T68	T69	T7	T70	T73	T75	T8	T82	T83	T85	T9a	WA10	WA11	WA13	WA14	WA16	WA18	WA19	WA2	WA20	WA22	WA23	WA24	WA25	WA26	WA28	WA29	WA3	WA30	WA31	WA32	WA33	WA35	WA37	WA39	WA4	WA40	WA42	WA46	WA47	WA5	WA53	WA54	WA55	WA6	WA7

@@ -1,0 +1,6 @@
+type_of_cancer: testis
+cancer_study_identifier: gct_msk_2020
+name: Germ Cell Tumors and Shared Leukemias (MSK, 2020)
+short_name: GCT(MSK 2020)
+description: Targeted and WES sequencing of germ cell tumor and shared leukemia samples.
+groups: DONOGHUM;ABDELWAO2;JTMED11;PUBLIC

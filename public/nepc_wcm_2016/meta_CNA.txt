@@ -1,8 +1,0 @@
-cancer_study_identifier: nepc_wcm_2016
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: DISCRETE
-stable_id: cna
-show_profile_in_analysis_tab: true
-profile_description: Putative copy-number alterations adjusted by ploidy and purity with CLONET. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
-profile_name: Putative copy-number alterations adjusted by ploidy and purity with CLONET
-data_filename: data_CNA.txt

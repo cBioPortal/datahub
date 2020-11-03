@@ -1,0 +1,6 @@
+cancer_study_identifier: gct_msk_2020
+stable_id: gct_msk_2020_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (21 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: GCT_HM_2_NSGCT_WES	GCT_HM_7_NSGCT_WES	GCT_HM_3_HS_WES	GCT_HM_5_NSGCT_HP4	GCT_HM_2_MDS_WES	GCT_HM_15_NSGCT_WES	GCT_HM_10_HS_HP4	GCT_HM_3_NSGCT_WES	GCT_HM_12_HLH_HP4	GCT_HM_7_MDS_WES	GCT_HM_3_HS_IM5	GCT_HM_2_HS_WES	GCT_HM_6_MDS_WES	GCT_HM_1_NSGCT_HP4	GCT_HM_3_CMML_WES	GCT_HM_14_NSGCT_HP4	GCT_HM_4_AML_IH3	GCT_HM_14_MTNN_HP4	GCT_HM_15_CMML_WES	GCT_HM_3_AML_WES	GCT_HM_6_NSGCT_WES
