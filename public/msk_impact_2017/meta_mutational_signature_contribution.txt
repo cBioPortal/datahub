@@ -1,0 +1,10 @@
+cancer_study_identifier: msk_impact_2017
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: MUTATIONAL_SIGNATURE
+datatype: LIMIT-VALUE
+stable_id: mutational_signature_contribution
+profile_name: mutational signature contribution
+profile_description: profile for contribution value of mutational signatures
+data_filename: data_mutational_signature_contribution.txt
+show_profile_in_analysis_tab: true
+generic_entity_meta_properties: NAME,DESCRIPTION,URL,CONFIDENCE_STATEMENT

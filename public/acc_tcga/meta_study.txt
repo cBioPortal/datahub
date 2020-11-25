@@ -2,5 +2,5 @@ type_of_cancer: acc
 cancer_study_identifier: acc_tcga
 name: Adrenocortical Carcinoma (TCGA, Firehose Legacy)
 short_name: ACC (TCGA)
-description: TCGA Adrenocortical Carcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ACC/20160128/gdac.broadinstitute.org_ACC.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Adrenocortical Carcinoma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ACC/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC

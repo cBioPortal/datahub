@@ -2,5 +2,5 @@ type_of_cancer: esca
 cancer_study_identifier: esca_tcga
 name: Esophageal Carcinoma (TCGA, Firehose Legacy)
 short_name: Esophagus (TCGA)
-description: TCGA Esophageal Carcinoma ; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ESCA/20160128/gdac.broadinstitute.org_ESCA.Mutation_Packager_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Esophageal Carcinoma . Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/ESCA/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC

@@ -3,6 +3,6 @@ genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: CONTINUOUS
 stable_id: linear_CNA
 show_profile_in_analysis_tab: false
-profile_description: Relative linear copy-number values for each gene (from Affymetrix SNP6).
-profile_name: Relative linear copy-number values
+profile_description: Capped relative linear copy-number values for each gene (from Affymetrix SNP6).
+profile_name: Capped relative linear copy-number values
 data_filename: data_linear_CNA.txt
