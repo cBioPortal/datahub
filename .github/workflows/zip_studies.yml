@@ -25,12 +25,14 @@ jobs:
         exit 0
     - run: |
         pwd
-        cd ./public
+        ls -l
+        cd public
         pwd
+        ls -l
         for changed_study in ${{ steps.unique_studies.outputs.unique_studies_list }}; do
           echo "Compressing this study: ${changed_study}."
           tar -czvf ${changed_study}.tar.gz ${changed_study}
         done
-        ls -l .
-        cd ../
+        ls -l
+        cd ..
         pwd
