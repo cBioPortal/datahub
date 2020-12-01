@@ -24,6 +24,8 @@ jobs:
         echo ${{ steps.unique_studies.outputs.unique_studies_list }}
         exit 0
     - uses: actions/checkout@master
+      with:
+        lfs: 'true'
     - run: |
         mkdir studies_to_upload
         pwd
