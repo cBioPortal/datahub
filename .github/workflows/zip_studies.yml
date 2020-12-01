@@ -8,13 +8,22 @@ on:
     paths:
       - 'public/**'
 jobs:
-  say_hello:
+  zip_studies:
     runs-on: ubuntu-latest
     steps:
     - id: files
       uses: jitterbit/get-changed-files@v1
     - run: |
-        echo "Starting to loop through files"
         for changed_file in ${{ steps.files.outputs.all }}; do
           echo "Do something with this ${changed_file}."
         done
+        - uses: actions/checkout@master
+    - name: Compress action step
+      uses: master-atul/tar-action@v1.0.2
+      id: compress
+      with:
+        command: c
+        cwd: ./public
+        files: |
+          ./acbc_mskcc_2015
+        outPath: acbc_mskcc_2015.tar.gz
