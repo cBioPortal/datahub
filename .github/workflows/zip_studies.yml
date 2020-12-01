@@ -18,7 +18,7 @@ jobs:
         exit 0
     - run: |
         echo ##[set-output name=unique_study_list;]$(echo ${{ steps.files.outputs.all }} | awk 'BEGIN { RS=" "; FS="/" } { set[$2]++ } END { for (dir in set) { print dir } }')
-        exit 0
+        exit 1
       id: unique_studies
     - run: |
         echo ${{ steps.unique_studies.outputs.unique_studies_list }}
