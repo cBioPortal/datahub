@@ -25,6 +25,7 @@ jobs:
         exit 0
     - uses: actions/checkout@master
     - run: |
+        mkdir studies_to_upload
         pwd
         ls -l
         cd public
@@ -32,8 +33,17 @@ jobs:
         ls -l
         for changed_study in ${{ steps.unique_studies.outputs.unique_studies_list }}; do
           echo "Compressing this study: ${changed_study}."
-          tar -czvf ${changed_study}.tar.gz ${changed_study}
+          tar -czvf ../studies_to_upload/${changed_study}.tar.gz ${changed_study}
         done
         ls -l
         cd ..
         pwd
+    - uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl public-read --follow-symlinks --delete
+      env:
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
+        SOURCE_DIR: 'studies_to_upload'      # optional: defaults to entire repository
