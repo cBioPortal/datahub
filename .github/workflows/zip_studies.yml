@@ -5,8 +5,8 @@ on:
   push:
     branches:
       - zip-study-on-push-github-action
-    #TODO add back paths:
-    #  - 'public/**'
+    paths:
+      - 'public/**'
 jobs:
   zip_studies:
     runs-on: ubuntu-latest
@@ -23,6 +23,7 @@ jobs:
     - run: | # TODO remove step
         echo ${{ steps.unique_studies.outputs.unique_studies_list }}
         exit 0
+    - uses: actions/checkout@master
     - run: |
         pwd
         ls -l
