@@ -24,16 +24,13 @@ jobs:
         echo ${{ steps.unique_studies.outputs.unique_studies_list }}
         exit 0
     - run: |
+        pwd
+        cd ./public
+        pwd
         for changed_study in ${{ steps.unique_studies.outputs.unique_studies_list }}; do
-          echo "Do something with this ${changed_study}."
+          echo "Compressing this study: ${changed_study}."
+          tar -czvf ${changed_study}.tar.gz ${changed_study}
         done
-    - uses: actions/checkout@master
-    - name: Compress action step
-      uses: master-atul/tar-action@v1.0.2
-      id: compress
-      with:
-        command: c
-        cwd: ./public
-        files: |
-          ./acbc_mskcc_2015
-        outPath: acbc_mskcc_2015.tar.gz
+        ls -l .
+        cd ../
+        pwd
