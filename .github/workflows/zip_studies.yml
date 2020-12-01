@@ -17,8 +17,8 @@ jobs:
         echo ${{ steps.files.outputs.all }}
         exit 0
     - run: |
-        echo $(echo "${{ steps.files.outputs.all }}" | awk 'BEGIN { RS=" "; FS="/"; ORS=" " } { set[$2]++ } END { for (dir in set) { print dir } }')
-        #echo "##[set-output name=unique_study_list;]$(echo "${{ steps.files.outputs.all }}" | awk 'BEGIN { RS=" "; FS="/"; ORS=" " } { set[$2]++ } END { for (dir in set) { print dir } }')"
+        #echo $(echo "${{ steps.files.outputs.all }}" | awk 'BEGIN { RS=" "; FS="/"; ORS=" " } { set[$2]++ } END { for (dir in set) { print dir } }')
+        echo ##[set-output name=unique_study_list;]$(echo "${{ steps.files.outputs.all }}" | awk 'BEGIN { RS=" "; FS="/"; ORS=" " } { set[$2]++ } END { for (dir in set) { print dir } }')
         exit 0
       id: unique_studies
     - run: |
