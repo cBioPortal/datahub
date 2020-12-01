@@ -9,6 +9,9 @@ jobs:
   say_hello:
     runs-on: ubuntu-latest
     steps:
+    - id: files
+      uses: jitterbit/get-changed-files@v1
     - run: |
-        echo "Hello ${{ github.event.inputs.name }}!"
-        echo "- in ${{ github.event.inputs.home }}!"
+        for changed_file in ${{ steps.files.outputs.all }}; do
+          echo "Do something with this ${changed_file}."
+        done
