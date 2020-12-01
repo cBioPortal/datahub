@@ -18,8 +18,8 @@ jobs:
       id: unique_studies
     - run: echo ${{ steps.unique_studies.outputs.unique_studies_list }}
     - run: |
-        for changed_file in ${{ steps.files.outputs.all }}; do
-          echo "Do something with this ${changed_file}."
+        for changed_study in ${{ steps.unique_studies.outputs.unique_studies_list }}; do
+          echo "Do something with this ${changed_study}."
         done
     - uses: actions/checkout@master
     - name: Compress action step
