@@ -17,7 +17,7 @@ jobs:
         for changed_file in ${{ steps.files.outputs.all }}; do
           echo "Do something with this ${changed_file}."
         done
-        - uses: actions/checkout@master
+    - uses: actions/checkout@master
     - name: Compress action step
       uses: master-atul/tar-action@v1.0.2
       id: compress
