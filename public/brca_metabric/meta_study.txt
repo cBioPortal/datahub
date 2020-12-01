@@ -3,5 +3,5 @@ cancer_study_identifier: brca_metabric
 name: Breast Cancer (METABRIC, Nature 2012 & Nat Commun 2016)
 short_name: Breast (METABRIC 2016)
 description: Targeted sequencing of 2509 primary breast tumors with 548 matched normals.
-citation: Pereira et al. Nat Commun 2016
-pmid: 27161491
+citation: Pereira et al. Nat Commun 2016, Rueda et al. Nature 2019, Curtis et al. Nature 2012
+pmid: 27161491,30867590,22522925
