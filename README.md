@@ -26,7 +26,7 @@ git clone https://github.com/cBioPortal/datahub.git
 cd datahub
 git lfs install --local --skip-smudge
 ```
- 
+
 Download the data files for a study folder, for example brca_tcga:
 ```
 git lfs pull -I public/brca_tcga
