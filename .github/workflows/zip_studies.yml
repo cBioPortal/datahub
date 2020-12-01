@@ -5,8 +5,8 @@ on:
   push:
     branches:
       - zip-study-on-push-github-action
-    paths:
-      - 'public/**'
+    #TODO add back paths:
+    #  - 'public/**'
 jobs:
   zip_studies:
     runs-on: ubuntu-latest
@@ -17,6 +17,7 @@ jobs:
         echo ${{ steps.files.outputs.all }}
         exit 0
     - run: |
+        echo "$(echo "${{ steps.files.outputs.all }}" | awk '{ set[$1]++ } END { for (dir in set) { print dir } }')"
         echo "##[set-output name=unique_study_list;]$(echo "${{ steps.files.outputs.all }}" | awk 'BEGIN { RS=" "; FS="/"; ORS=" " } { set[$2]++ } END { for (dir in set) { print dir } }')"
         exit 1
       id: unique_studies
