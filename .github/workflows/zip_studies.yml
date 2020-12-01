@@ -14,6 +14,7 @@ jobs:
     - id: files
       uses: jitterbit/get-changed-files@v1
     - run: echo ${{ steps.files.outputs.all }}
+    - run: echo $all_files | awk 'BEGIN { RS=" "; FS="/" } { set[$2]++ } END { for (dir in set) { print dir } }'
     - run: |
         for changed_file in ${{ steps.files.outputs.all }}; do
           echo "Do something with this ${changed_file}."
