@@ -38,7 +38,7 @@ jobs:
         cd public
         pwd
         ls -l
-        for changed_study in ./*/; do
+        for changed_study in *; do
           echo "Pulling study: ${changed_study}."
           git lfs pull --include="${changed_study}"
           echo "Compressing this study: ${changed_study}."
