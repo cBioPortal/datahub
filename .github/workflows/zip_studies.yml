@@ -47,6 +47,8 @@ jobs:
           #cd ..
           echo "Remove this directory: ${changed_study}."
           rm -rf "${changed_study}"
+          du -h | tail -1
+          ls -l
         done
         ls -l
         cd ..
