@@ -1,7 +1,7 @@
 cancer_study_identifier: ov_tcga_pub
 stable_id: gistic
 show_profile_in_analysis_tab: true
-profile_name: Putative copy-number alterations (GISTIC)
+profile_name: Putative copy-number alterations from GISTIC
 profile_description: Putative copy-number calls determined using Gistic2 on the MSKCC Agilent 1M data. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: DISCRETE

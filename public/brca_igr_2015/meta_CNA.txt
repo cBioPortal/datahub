@@ -1,6 +1,6 @@
 cancer_study_identifier: brca_igr_2015
 stable_id: cna
-profile_name: Copy number alterations
+profile_name: Copy Number Alterations
 profile_description: Copy number calls.Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: DISCRETE
