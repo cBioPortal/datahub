@@ -32,6 +32,9 @@ jobs:
     #  with:
     #    lfs: 'true'
     - run: |
+        # first save .git
+        tar -cvf ../savegit.tar .git
+        
         mkdir studies_to_upload
         cd public
         for changed_study in *; do
@@ -45,17 +48,13 @@ jobs:
           rm -rf "${changed_study}"
           echo "Remove this file: ../studies_to_upload/${changed_study}.tar.gz."
           rm ../studies_to_upload/${changed_study}.tar.gz
-          #echo "Remove anything in /tmp"
-          #rm -rf /tmp/*
-          #echo "Remove anything in .git/objects/pack"
-          #rm -f .git/objects/pack/*
+          echo "Remove rm -rf .git"
+          rm -rf .git
+          # add original .git back
+          tar -xf ../savegit.tar
           echo "Size of cwd"; du -h | tail -1
-          echo "BEFORE Size of .git"; du -h /home/runner/work/datahub/datahub/.git/ | tail -1
-          git reflog expire --expire-unreachable=now --all
-          git gc --prune=now
-          echo "AFTER Size of .git"; du -h /home/runner/work/datahub/datahub/.git/ | tail -1
+          echo "Size of .git"; du -h /home/runner/work/datahub/datahub/.git/ | tail -1
           echo "Size of studies_to_upload"; du -h ../studies_to_upload | tail -1
-          #echo "Size of /tmp/"; du -h /tmp/
           echo "Size of machine"; df -h
         done
         cd ..
