@@ -45,8 +45,8 @@ jobs:
           #cd public
           tar -czvf ../studies_to_upload/${changed_study}.tar.gz ${changed_study}
           #cd ..
-          echo "Switch back to object file: ${changed_study}."
-          git lfs pointer --file="${changed_study}"
+          echo "Remove this directory: ${changed_study}."
+          rm -rf "${changed_study}"
         done
         ls -l
         cd ..
