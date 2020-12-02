@@ -33,8 +33,7 @@ jobs:
     #    lfs: 'true'
     - run: |
         # first save .git
-        tar -cvf ../savegit.tar .git
-        
+        tar -cvf savegit.tar .git
         mkdir studies_to_upload
         cd public
         for changed_study in *; do
@@ -49,9 +48,11 @@ jobs:
           echo "Remove this file: ../studies_to_upload/${changed_study}.tar.gz."
           rm ../studies_to_upload/${changed_study}.tar.gz
           echo "Remove rm -rf .git"
+          cd ..
           rm -rf .git
           # add original .git back
-          tar -xf ../savegit.tar
+          tar -xf savegit.tar
+          cd public
           echo "Size of cwd"; du -h | tail -1
           echo "Size of .git"; du -h /home/runner/work/datahub/datahub/.git/ | tail -1
           echo "Size of studies_to_upload"; du -h ../studies_to_upload | tail -1
