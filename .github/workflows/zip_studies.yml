@@ -51,11 +51,12 @@ jobs:
           rm -rf "${changed_study}"
           echo "Remove this file: ../studies_to_upload/${changed_study}.tar.gz."
           rm ../studies_to_upload/${changed_study}.tar.gz
-          echo "Remove anything in /tmp"
-          rm -rf /tmp/*
+          #echo "Remove anything in /tmp"
+          #rm -rf /tmp/*
           echo "Size of cwd"; du -h | tail -1
           echo "Size of .git"; du -h /home/runner/work/datahub/datahub/.git/ | tail -1
           echo "Size of studies_to_upload"; du -h ../studies_to_upload | tail -1
+          echo "Size of /tmp/"; du -h /tmp/
           echo "Size of machine"; df -h
         done
         ls -l
