@@ -44,24 +44,49 @@ jobs:
           echo "Compressing this study: ${changed_study}."
           #cd public
           tar -czvf ../studies_to_upload/${changed_study}.tar.gz ${changed_study}
+          echo "Copy file to S3: ../studies_to_upload/${changed_study}.tar.gz"
+          aws s3 cp ../studies_to_upload/${changed_study}.tar.gz s3://${AWS_S3_BUCKET}/
           #cd ..
           echo "Remove this directory: ${changed_study}."
           rm -rf "${changed_study}"
+          echo "Remove this file: ../studies_to_upload/${changed_study}.tar.gz."
+          rm ../studies_to_upload/${changed_study}.tar.gz
           echo "Size of cwd"; du -h | tail -1
           echo "Size of .git"; du -h /home/runner/work/datahub/datahub/.git/ | tail -1
           echo "Size of studies_to_upload"; du -h ../studies_to_upload | tail -1
           echo "Size of machine"; df -h
+          aws s3 ls
           ls -l
         done
         ls -l
         cd ..
         pwd
-    - uses: jakejarvis/s3-sync-action@master
-      with:
-        args: --acl public-read --follow-symlinks
       env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
-        SOURCE_DIR: 'studies_to_upload'      # optional: defaults to entire repository
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+Stars
+
+Star 52
+Contributors
+
+ @chrislennon
+Categories
+
+Utilities
+Links
+
+chrislennon/action-aws-cli
+Open issues 0
+Pull requests 5
+Report abuse
+AWS cli install action is not certified by GitHub. It is provided by a third-party and is governed by separate terms of service, privacy policy, and support documentation.
+    #- uses: jakejarvis/s3-sync-action@master
+    #  with:
+    #    args: --acl public-read --follow-symlinks
+    #  env:
+    #    AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+    #    AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+    #    AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    #    AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
+    #    SOURCE_DIR: 'studies_to_upload'      # optional: defaults to entire repository
