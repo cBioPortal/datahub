@@ -11,6 +11,7 @@ on:
 jobs:
   zip_studies:
     runs-on: ubuntu-latest
+    timeout-minutes: 1440
     steps:
     - id: files
       uses: jitterbit/get-changed-files@v1
@@ -34,20 +35,22 @@ jobs:
         mkdir studies_to_upload
         pwd
         ls -l
-        #cd public
-        #pwd
-        #ls -l
-        for changed_study in ${{ steps.unique_studies.outputs.unique_studies_list }}; do
+        cd public
+        pwd
+        ls -l
+        for changed_study in ./*/; do
           echo "Pulling study: ${changed_study}."
-          git lfs pull --include="public/${changed_study}"
+          git lfs pull --include="${changed_study}"
           echo "Compressing this study: ${changed_study}."
-          cd public
+          #cd public
           tar -czvf ../studies_to_upload/${changed_study}.tar.gz ${changed_study}
-          cd ..
+          #cd ..
+          echo "Switch back to object file: ${changed_study}."
+          git lfs pointer --file="${changed_study}"
         done
         ls -l
-        #cd ..
-        #pwd
+        cd ..
+        pwd
     - uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read --follow-symlinks
