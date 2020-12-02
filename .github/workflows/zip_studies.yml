@@ -45,7 +45,7 @@ jobs:
           #cd public
           tar -czvf ../studies_to_upload/${changed_study}.tar.gz ${changed_study}
           echo "Copy file to S3: ../studies_to_upload/${changed_study}.tar.gz"
-          aws s3 cp ../studies_to_upload/${changed_study}.tar.gz s3://${AWS_S3_BUCKET}/
+          aws s3 cp --acl public-read ../studies_to_upload/${changed_study}.tar.gz s3://${AWS_S3_BUCKET}/
           #cd ..
           echo "Remove this directory: ${changed_study}."
           rm -rf "${changed_study}"
