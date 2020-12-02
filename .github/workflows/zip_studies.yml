@@ -47,7 +47,10 @@ jobs:
           #cd ..
           echo "Remove this directory: ${changed_study}."
           rm -rf "${changed_study}"
-          du -h | tail -1
+          echo "Size of cwd"; du -h | tail -1
+          echo "Size of .git"; du -h /home/runner/work/datahub/datahub/.git/ | tail -1
+          echo "Size of studies_to_upload"; du -h ../studies_to_upload | tail -1
+          echo "Size of machine"; df -h
           ls -l
         done
         ls -l
