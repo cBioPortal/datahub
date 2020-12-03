@@ -36,7 +36,7 @@ jobs:
         tar -cvf savegit.tar .git
         mkdir studies_to_upload
         cd public
-        for changed_study in *; do
+        for changed_study in ${{ steps.unique_studies.outputs.unique_studies_list }}; do
           echo "Pulling study: ${changed_study}."
           git lfs pull --include="${changed_study}"
           echo "Compressing this study: ${changed_study}."
@@ -53,10 +53,6 @@ jobs:
           # add original .git back
           tar -xf savegit.tar
           cd public
-          echo "Size of cwd"; du -h | tail -1
-          echo "Size of .git"; du -h /home/runner/work/datahub/datahub/.git/ | tail -1
-          echo "Size of studies_to_upload"; du -h ../studies_to_upload | tail -1
-          echo "Size of machine"; df -h
         done
         cd ..
       env:
