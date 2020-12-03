@@ -3,6 +3,6 @@ genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
 stable_id: mutations
 show_profile_in_analysis_tab: TRUE
-profile_name: Mutation data from MSK-IMPACT sequencing of 86 patients with HER2- and HER3-mutant cancers
-profile_description: Mutations
+profile_name: Mutations
+profile_description: Mutation data from MSK-IMPACT sequencing of 86 patients with HER2- and HER3-mutant cancers.
 data_filename: data_mutations_extended.txt

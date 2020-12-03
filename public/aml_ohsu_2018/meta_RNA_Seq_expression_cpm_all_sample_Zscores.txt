@@ -4,5 +4,5 @@ datatype: Z-SCORE
 stable_id: mrna_seq_cpm_all_sample_Zscores
 show_profile_in_analysis_tab: true
 profile_description: Log-transformed mRNA z-Scores compared to the expression distribution of all samples (RNA Seq CPM).
-profile_name: mRNA expression z-Scores relative to all samples (log RNA Seq CPM)
+profile_name: mRNA expression z-scores relative to all samples (log RNA Seq CPM)
 data_filename: data_RNA_Seq_expression_cpm_all_sample_Zscores.txt

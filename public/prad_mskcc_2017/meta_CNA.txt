@@ -4,5 +4,5 @@ datatype: DISCRETE
 stable_id: cna
 show_profile_in_analysis_tab: true
 profile_description: Targeted sequencing of clinical cases via MSK-IMPACT for prostate cancer.Values: -2 = homozygous deletion; 2 = high level amplification.
-profile_name: MSK-IMPACT Clinical Sequencing Cohort (MSKCC)
+profile_name: Copy Number Alterations (MSK-IMPACT)
 data_filename: data_CNA.txt

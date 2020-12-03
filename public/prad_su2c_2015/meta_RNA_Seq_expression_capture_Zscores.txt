@@ -3,6 +3,6 @@ genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 stable_id: rna_seq_mrna_capture_Zscores
 show_profile_in_analysis_tab: true 
-profile_name: mRNA Expression / capture z-Scores relative to diploid samples (RNA Seq capture)
+profile_name: mRNA Expression / capture z-scores relative to diploid samples (RNA Seq capture)
 profile_description: mRNA expression from capture Z-Scores (RNA Seq RPKM) compared to the expression distribution of each gene tumors that are diploid for this gene.
 data_filename: data_RNA_Seq_expression_capture_Zscores.txt
