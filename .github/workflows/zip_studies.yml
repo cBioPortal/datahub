@@ -15,25 +15,27 @@ jobs:
     steps:
     - id: files
       uses: jitterbit/get-changed-files@v1
-    - run: | # TODO remove step
-        echo ${{ steps.files.outputs.all }}
-        exit 0
     - run: |
         echo "##[set-output name=unique_studies_list;]$(echo "${{ steps.files.outputs.all }}" | awk 'BEGIN { RS=" "; FS="/"; ORS=" " } { set[$2]++ } END { for (dir in set) { print dir } }')"
         exit 0
       id: unique_studies
-    - run: | # TODO remove step
-        echo ${{ steps.unique_studies.outputs.unique_studies_list }}
-        exit 0
     - run: |
         git --version
         exit 0
     - uses: actions/checkout@v2
-    #  with:
-    #    lfs: 'true'
     - run: |
+        # create a list of all studies under 'public'
+        echo "[" > ${STUDY_LIST_FILENAME}
+        for studypath in `find public -type d -depth 1`; do
+          studyname=${studypath:7}
+          echo "\"$studyname\"," >> ${STUDY_LIST_FILENAME}
+        done
+        echo "]" > ${STUDY_LIST_FILENAME}
+        # copy study list file to S3
+        aws s3 cp --acl public-read ${STUDY_LIST_FILENAME} s3://${AWS_S3_BUCKET}/
+        echo study_list.json
         # first save .git
-        tar -cvf savegit.tar .git
+        tar -cvf ${SAVED_GIT_REPO_FILENAME} .git
         mkdir studies_to_upload
         cd public
         for changed_study in ${{ steps.unique_studies.outputs.unique_studies_list }}; do
@@ -51,11 +53,13 @@ jobs:
           cd ..
           rm -rf .git
           # add original .git back
-          tar -xf savegit.tar
+          tar -xf ${SAVED_GIT_REPO_FILENAME}
           cd public
         done
         cd ..
       env:
+        STUDY_LIST_FILENAME: study_list.json
+        SAVED_GIT_REPO_FILENAME: save_git.tar
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
