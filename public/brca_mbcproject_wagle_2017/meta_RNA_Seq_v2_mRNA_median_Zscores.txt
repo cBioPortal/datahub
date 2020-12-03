@@ -3,6 +3,6 @@ genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 stable_id: rna_seq_mrna_median_Zscores
 show_profile_in_analysis_tab: true
-profile_name: mRNA Expression z-Scores (RNA Seq V2 RSEM)
+profile_name: mRNA expression z-scores (RNA Seq V2 RSEM)
 profile_description: mRNA z-Scores log2 transformed (RNA Seq V2 RSEM)
 data_filename: data_RNA_Seq_v2_mRNA_median_Zscores.txt
