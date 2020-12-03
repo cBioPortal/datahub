@@ -3,6 +3,6 @@ genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 stable_id: mrna_seq_tpm_all_sample_Zscores
 show_profile_in_analysis_tab: true
-profile_description: Log-transformed mRNA z-Scores compared to the expression distribution of all samples (RNA-Seq TPM).
-profile_name: mRNA expression z-Scores relative to all samples (log RNA-Seq TPM)
+profile_description: Log-transformed mRNA z-scores compared to the expression distribution of all samples (RNA-Seq TPM).
+profile_name: mRNA expression z-scores relative to all samples (log RNA Seq TPM)
 data_filename: data_RNA_Seq_expression_tpm_all_sample_Zscores.txt
