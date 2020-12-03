@@ -10,7 +10,7 @@ on:
       - 'public/**'
 jobs:
   zip_studies:
-    if: github.repository == 'mandawilson/datahub'
+    if: github.repository == 'cbioportal/datahub'
     runs-on: ubuntu-latest
     timeout-minutes: 1440
     steps:
