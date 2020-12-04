@@ -1,0 +1,8 @@
+cancer_study_identifier: mel_dfci_2019
+stable_id: mutations
+profile_name: Mutations
+profile_description: Whole-exome sequencing of 144 tumor/normal samples
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+data_filename: data_mutations_extended.txt
+show_profile_in_analysis_tab: true
