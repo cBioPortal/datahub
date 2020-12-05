@@ -4,5 +4,5 @@ datatype: CONTINUOUS
 stable_id: rna_seq_mrna
 show_profile_in_analysis_tab: false
 profile_description: Expression levels for CCLE cases.
-profile_name: mRNA expression (RNA-Seq RPKM)
+profile_name: mRNA expression (RNA Seq RPKM)
 data_filename:data_RNA_Seq_expression_median.txt

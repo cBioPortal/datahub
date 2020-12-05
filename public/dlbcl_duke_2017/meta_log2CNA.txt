@@ -3,6 +3,6 @@ genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: LOG2-VALUE
 stable_id: log2CNA
 show_profile_in_analysis_tab: false
-profile_name: copy-number values
+profile_name: Log2 copy-number values
 profile_description: copy number alterations from whole-exome sequencing data of 1,001 DLBCL patients
 data_filename: data_log2CNA.txt
