@@ -1,0 +1,1 @@
+type_of_cancer:	brcacancer_study_identifier: brca_jup_msk_2020name: Juvenile Papillomatosis and Breast Cancer (MSK, 2020)short_name: Juvenile papillomatosis (MSK, 2020)description: Whole-exome sequencing analysis of juvenile papillomatosis and coexisting breast carcinoma.groups: PUBLIC

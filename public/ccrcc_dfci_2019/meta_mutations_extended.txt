@@ -1,6 +1,6 @@
 cancer_study_identifier: ccrcc_dfci_2019
 stable_id: mutations
-profile_name: Somatic Mutations
+profile_name: Somatic mutations
 profile_description: Somatic mutations status from whole-exome and targeted sequencing of 98 tumor/normal samples. (*Only PBRM1 is sequenced in validation cohort.)
 genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF

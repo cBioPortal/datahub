@@ -2,5 +2,5 @@ type_of_cancer: prcc
 cancer_study_identifier: kirp_tcga
 name: Kidney Renal Papillary Cell Carcinoma (TCGA, Firehose Legacy)
 short_name: pRCC (TCGA)
-description: TCGA Kidney Renal Papillary Cell Carcinoma; raw data at the <A HREF="https://tcga-data.nci.nih.gov/">NCI</A>; source mutation data from <a HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/KIRP/20160128/gdac.broadinstitute.org_KIRP.Mutation_Packager_Raw_Calls.Level_3.2016012800.0.0.tar.gz">GDAC Firehose</A>.
+description: TCGA Kidney Renal Papillary Cell Carcinoma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/KIRP/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
 groups: PUBLIC
