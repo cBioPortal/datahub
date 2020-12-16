@@ -15,6 +15,7 @@ Update listed are also applied to all data files.*
 
 4. Genes symbols mapping to multiple entrez IDs are now updated to mapping to single entrez IDs.
 - The list of eliminated symbol <> entrez_ID mapping can be found [here](#duplicate_mapping_removal) 
+- The removals listed are also applied to all data files
 - Some of the duplicate mappings were removed because updates. This list excludes those mappings, which are already included by lists above. 
 
 # <a name="gene_supp"></a>Supplemental Gene Lists 
