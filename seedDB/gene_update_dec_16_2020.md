@@ -1,4 +1,4 @@
-1. New seed database gene info table is constructed based on Original Gene Tables are based on HGNC `Nov 2, 2020` Release. 
+1. New seed database gene info table is constructed based on Original Gene Tables are based on HGNC `Nov 2, 2020` Release. (miRNA genes excluded)
 https://www.genenames.org/download/statistics-and-files/
 
 2. To reduce loss in data avaiability, we add some genes to the original HGNC table as [supplemental lists](#gene_supp)
