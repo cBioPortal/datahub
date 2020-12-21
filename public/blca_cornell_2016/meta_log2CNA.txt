@@ -4,5 +4,5 @@ datatype: LOG2-VALUE
 stable_id: log2CNA
 show_profile_in_analysis_tab: false
 profile_description: Log2 copy-number values for each gene adjusted by ploidy and purity with CLONET. 
-profile_name: Log2 copy-number values adjusted by ploidy and purity with CLONET 
+profile_name: Log2 copy-number values
 data_filename: data_log2CNA.txt

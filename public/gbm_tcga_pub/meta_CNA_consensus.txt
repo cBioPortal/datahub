@@ -1,6 +1,6 @@
 cancer_study_identifier: gbm_tcga_pub
 stable_id: cna_consensus
-profile_name: Putative copy-number alterations (Consensus, GBM Pathways, 206 cases)
+profile_name: Putative copy-number alterations (Consensus)
 profile_description: Putative copy-number calls for genes implicated in glioblastoma (206 cases). These calls were used for the pathway analysis in the initial TCGA manuscript, and they are the consensus of a combination of the Agilent 244k and Affymetrix SNP6 platforms and three different methods (RAE, GISTIC, GTS). Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: DISCRETE

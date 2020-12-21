@@ -4,5 +4,5 @@ datatype: Z-SCORE
 stable_id: rna_seq_mrna_capture_all_sample_Zscores
 show_profile_in_analysis_tab: true
 profile_description: Log-transformed mRNA z-Scores compared to the expression distribution across all samples (RNA Seq RPKM capture).
-profile_name: mRNA expression / capture z-Scores relative to all samples (log RNA Seq capture)
+profile_name: mRNA expression / capture z-scores relative to all samples (log RNA Seq capture)
 data_filename: data_RNA_Seq_expression_capture_all_sample_Zscores.txt

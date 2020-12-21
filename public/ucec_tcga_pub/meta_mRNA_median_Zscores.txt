@@ -4,5 +4,5 @@ datatype: Z-SCORE
 stable_id: mrna_median_Zscores
 show_profile_in_analysis_tab: true
 profile_description: mRNA z-Scores (Agilent microarray) compared to the expression distribution of each gene tumors that are diploid for this gene.
-profile_name: mRNA Expression z-Scores (microarray)
+profile_name: mRNA expression z-scores relative to diploid samples (microarray)
 data_filename: data_mRNA_median_Zscores.txt

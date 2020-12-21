@@ -4,5 +4,5 @@ datatype: Z-SCORE
 stable_id: rna_seq_mrna_median_Zscores
 profile_description: mRNA z-Scores (RNA-Seq RPKM) compared to the expression distribution of each gene tumors that are diploid for this gene.
 show_profile_in_analysis_tab: true
-profile_name: mRNA Expression z-Scores relative to diploid samples (RNA-Seq RPKM)
+profile_name: mRNA expression z-scores relative to diploid samples (RNA Seq RPKM)
 data_filename: data_RNA_Seq_mRNA_median_Zscores.txt

@@ -1,6 +1,6 @@
 cancer_study_identifier: blca_mskcc_solit_2012
 stable_id: mrna
-profile_name: mRNA expression (Illumina)
+profile_name: mRNA expression
 profile_description: mRNA expression values on 60 samples (Illumina microarrays)
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: CONTINUOUS
