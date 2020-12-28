@@ -1,6 +1,6 @@
 cancer_study_identifier: brca_igr_2015
 stable_id: mutations
-profile_name: Whole exome sequencing
+profile_name: Mutations
 profile_description: Whole exome sequencing of 216 metastatic breast tumor/normal pairs.
 genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF

@@ -1,0 +1,8 @@
+cancer_study_identifier: msk_ch_2020
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Mutation data identified in blood samples from cancer patients whose tumor-blood pairs were analyzed using MSK-IMPACT targeted panel.
+profile_name: Mutations
+data_filename: data_mutations_extended.txt

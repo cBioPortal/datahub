@@ -3,6 +3,6 @@ genetic_alteration_type: MRNA_EXPRESSION
 datatype: CONTINUOUS
 stable_id: rna_seq_mrna
 show_profile_in_analysis_tab: false
-profile_name: mRNA expression (RNA-Seq)
-profile_description: Expression levels (RNA-Seq FPKM)
+profile_name: mRNA expression (RNA Seq read counts)
+profile_description: Expression levels (RNA Seq read counts)
 data_filename: data_RNA_Seq_expression_median.txt

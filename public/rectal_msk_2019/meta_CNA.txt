@@ -3,6 +3,6 @@ data_filename: data_CNA.txt
 datatype: DISCRETE
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 profile_description: Discrete Copy Number Data
-profile_name: Discrete Copy Number Data
+profile_name: Copy Number Alterations
 show_profile_in_analysis_tab: true
 stable_id: cna

@@ -1,6 +1,6 @@
 cancer_study_identifier: egc_tmucih_2015
 stable_id: mutations
-profile_name: Whole-exome sequencing 
+profile_name: Mutations 
 profile_description: Mutations from whole-exome sequencing of 78 Gastric Adencocarcinomas and their matched normal samples.
 genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF

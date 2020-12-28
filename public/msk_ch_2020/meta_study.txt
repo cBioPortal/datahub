@@ -1,0 +1,8 @@
+type_of_cancer: mixed
+cancer_study_identifier: msk_ch_2020
+name: Cancer Therapy and Clonal Hematopoiesis (MSK, Nat Genet 2020)
+description: Clonal hematopoiesis mutations identified in blood samples from 24,146 patients whose tumor-blood pairs were analyzed using MSK-IMPACT.
+short_name: CH (MSK, 2020)
+citation: Kelly et al. Nat Genet 2020
+pmid: 33106634
+groups: PUBLIC

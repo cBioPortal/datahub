@@ -3,6 +3,6 @@ genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: DISCRETE 
 stable_id: cna
 show_profile_in_analysis_tab: true
-profile_description: Putative copy-number calls in 60 samples: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification. Putative copy-number calls in 972 samples determined by GISTIC2: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification. GISTIC2 was run using the GenePattern website.
+profile_description: Putative copy-number calls in 60 samples: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification. 
 profile_name: Putative copy-number alterations from discretization
 data_filename: data_CNA.txt

@@ -3,6 +3,6 @@ genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 stable_id: rna_seq_mrna_median_Zscores
 show_profile_in_analysis_tab: true
-profile_name: mRNA expression z-Scores relative to diploid samples (RNA-Seq FPKM)
-profile_description: mRNA z-Scores (RNA Seq FPKM) compared to the expression distribution of each gene tumors that are diploid for this gene.
+profile_name: mRNA expression z-scores (RNA Seq read counts)
+profile_description: mRNA z-Scores (RNA Seq read counts) compared to the expression distribution of each gene tumors that are diploid for this gene.
 data_filename: data_RNA_Seq_mRNA_median_Zscores.txt

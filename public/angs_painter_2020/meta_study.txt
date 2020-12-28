@@ -1,0 +1,6 @@
+type_of_cancer: angs
+cancer_study_identifier: angs_painter_2020
+name: The Angiosarcoma Project (Provisional, July 2020)
+short_name: The Angiosarcoma Project
+description: The Angiosarcoma Project (www.ascproject.org) is an ongoing patient-driven initiative. This provisional dataset is currently derived from 83 samples, including tumor specimens (FFPE and cfDNA) from 62 angiosarcoma patients subjected to WES (along with matched germline WES). This study includes genomic data, patient-reported data (pre-pended as PRD), medical record data (MedR), and pathology report data (PATH). As these data were generated in a research laboratory, not a clinical laboratory, they are for research purposes only and cannot be used to inform clinical decision-making. For questions about these data, including how to cite, please visit www.ascproject.org/data-release or direct questions to data@ascproject.org.
+groups: PUBLIC
