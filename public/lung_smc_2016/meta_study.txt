@@ -1,0 +1,8 @@
+type_of_cancer: lung
+cancer_study_identifier: lung_smc_2016  
+name: Lung Cancer (SMC, Cancer Research 2016)
+description: Whole exome and whole transcriptome sequencing of primary and multiple metastatic lymph node samples from 6 lung cancer patients with their matched normals.
+citation : Sang-Won et al. Cancer Research 2016
+pmid  : 27634761
+short_name: lung (SMC 2016)
+groups: PUBLIC
