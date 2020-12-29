@@ -1,6 +1,0 @@
-cancer_study_identifier: ov_tcga
-stable_id: ov_tcga_methylation_hm450
-case_list_name: Samples with methylation data (HM450)
-case_list_description: Samples with methylation data (HM450) (10 samples)
-case_list_category: all_cases_with_methylation_data
-case_list_ids:   TCGA-VG-A8LO-01	TCGA-WR-A838-01	TCGA-OY-A56P-01	TCGA-29-A5NZ-01	TCGA-59-A5PD-01	TCGA-13-A5FT-01	TCGA-OY-A56Q-01	TCGA-3P-A9WA-01	TCGA-13-A5FU-01	TCGA-5X-AA5U-01	
