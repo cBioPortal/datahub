@@ -5,3 +5,4 @@ genetic_alteration_type: FUSION
 show_profile_in_analysis_tab: true
 profile_description: Fusions.
 profile_name: Fusions
+data_filename: data_fusions.txt
