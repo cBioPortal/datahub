@@ -1,0 +1,6 @@
+cancer_study_identifier: lung_smc_2016
+stable_id: lung_smc_2016_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (22 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: TH1_N2_4R	TH1_N2_2_7	TH1_N3_4L	TH3_N2_4R	TH1_Primary_RML	TH6_Primary_LUL	TH5_N2_7	TH6_N2_4L	TH3_N1_11R	TH2_N2_4L	TH5_N1_11L	TH5_N3_4R	TH6_N3_2R	TH2_Liver_M1b	TH4_N1_11Rs	TH4_Primary_RBI	TH5_Primary_LUL	TH4_N3_4L	TH3_Primary_LUL	TH2_Primary_LLL	TH4_N2_7	TH6_N2_7
