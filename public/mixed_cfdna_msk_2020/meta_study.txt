@@ -1,0 +1,6 @@
+type_of_cancer: mixed
+cancer_study_identifier: mixed_cfdna_msk_2020
+name: Mixed cfDNA (MSKCC, 2020)
+short_name: Mixed cfDNA (MSKCC 2020)
+description: IMPACT sequencing of 229 cell-free DNA (cfDNA) and associated tumor samples with matched normal
+groups:TSUIW;DANALHE3

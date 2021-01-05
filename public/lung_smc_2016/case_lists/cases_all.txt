@@ -1,0 +1,6 @@
+cancer_study_identifier: lung_smc_2016
+stable_id: lung_smc_2016_all
+case_list_name: All samples
+case_list_description: All samples (22 samples)
+case_list_category: all_cases_in_study
+case_list_ids: TH1_N2_4R	TH1_N3_4L	TH3_N2_4R	TH1_Primary_RML	TH6_Primary_LUL	TH5_N2_7	TH6_N2_4L	TH3_N1_11R	TH2_N2_4L	TH5_N1_11L	TH2_Primary_LLL	TH5_N3_4R	TH6_N3_2R	TH1_N2_2_7	TH4_Primary_RBI	TH2_Liver_M1b	TH5_Primary_LUL	TH4_N3_4L	TH3_Primary_LUL	TH4_N1_11Rs	TH4_N2_7	TH6_N2_7
