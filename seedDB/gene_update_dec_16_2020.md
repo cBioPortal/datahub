@@ -3,9 +3,9 @@ Gene Table Updates Jan 2021
 1. New seed database gene info tables are constructed based on [HGNC](https://www.genenames.org/download/statistics-and-files/) 
 "Complete dataset download links" -> "Complete HGNC approved dataset" (miRNA genes excluded)
 
-2. To reduce loss in data avaiability, some extra [genes](#gene_supp) are attached. 
+2. To reduce loss in data availability, some extra [genes](#gene_supp) are attached. 
 
-3. Some gene entries are updated in NCBI and HGNC. Complete list can be found [here](#gene_update).
+3. Some gene entries are updated, in accordance to latest NCBI and/or HGNC. Complete list can be found [here](#gene_update).
 
 *These genes may appear "missing" in certain queries.
 Update listed are also applied to all data files.*
@@ -960,6 +960,11 @@ Update listed are also applied to all data files.*
 - CYTB	6775065	->  MT-CYB	4519
 - ATP6	8923188	->  MT-ATP6	4508
 - ATP8	8923211	->  MT-ATP8	4509
+- TRNA	6775093 -> MT-TA	4553
+- TRNA	8923217 -> MT-TA	4553
+- TRNC	55447-> MT-TC	4511
+- TRNC	55448 -> MT-TC	4511
+
 ##### LOC genes
 - LOC285299	285299	->  FRG2C	100288801
 - LOC286052	286052	->  TMEM65	157378
@@ -1016,7 +1021,7 @@ Update listed are also applied to all data files.*
 - 28301 IGHV3OR16-15  ->  IGHV3OR16-16
 - 28300 IGHV3OR16-16  ->  IGHV3OR16-15
 - 100049076 GUSBP9  ->  GUSBP17
-- 	100506388	LOC100506388  ->  RPH3AL-AS1
+- 100506388	LOC100506388  ->  RPH3AL-AS1
 
 ## <a name="entrez_id_update"></a>Entrez ID Update
 - TXNRD3	645840	->	114112
@@ -1073,6 +1078,12 @@ Update listed are also applied to all data files.*
 - FAM197Y3	100132506	->	107987341
 - FAM85B	619431	->	105379219
 - FAM27E4	100132439	->	107987001
+- WDR7-OT1	107985140 -> 105601840
+- FSIP2-AS1	102724349 -> 107985781
+- KCNJ6-AS1	100874329 -> 105372799
+- LINC01218	107986233 -> 100874277
+- LINC01562	105378716 -> 104054213
+- SMG1P6 101928094 -> 100422558
 
 # <a name="duplicate_mapping_removal"></a>Removed mapping
 - TTLL11-IT1	401550
