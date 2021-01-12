@@ -1,21 +1,20 @@
-Gene Table Updates Jan 2021
+# Gene Table Updates Jan 2021
 
-1. New seed database gene info tables are constructed based on [HGNC](https://www.genenames.org/download/statistics-and-files/) 
-"Complete dataset download links" -> "Complete HGNC approved dataset" (miRNA genes excluded)
+We recently updated our gene tables (main and alias) in cBioPortal public database, and seed database (Download here "put link to new seed DB"), based on the latest [HGNC](https://www.genenames.org/download/statistics-and-files/) with small modifications (see details below). The step-by-step process for constructing the tables, along with the scripts for automating the process can be find here (link to scripts / readme in importer). 
 
-2. To reduce loss in data availability, some extra [genes](#gene_supp) are attached. 
+1. HGNC table used: "Complete dataset download links" -> "Complete HGNC approved dataset" (miRNA genes excluded)
 
-3. Some gene entries are updated, in accordance to latest NCBI and/or HGNC. Complete list can be found [here](#gene_update).
+2. To reduce loss in data availability, some extra genes are attached. Complete lists [here](#gene_supp).
 
+3. All data files are updated accordingly
+  - gene entries updated: complete lists [here](#gene_update).
+  - eliminate duplciate symbol <> entrez_ID mapping: complete lists [here](#duplicate_mapping_removal)
+  - For local instances, the process for updating data files can be automated by running this script: https://github.com/cBioPortal/datahub-study-curation-tools/pull/29
 *These genes may appear "missing" in certain queries.
 Update listed are also applied to all data files.*
 
-4. Genes symbols mapping to multiple entrez IDs are now updated to mapping to single entrez IDs.
-- The list of eliminated symbol <> entrez_ID mapping can be found [here](#duplicate_mapping_removal)
-- The removals listed are also applied to all data files
-
-# <a name="gene_supp"></a>Supplemental Gene Lists 
-## <a name="main_gene_supp"></a>Main (427 genes)
+## <a name="gene_supp"></a>Supplemental Gene Lists 
+### <a name="main_gene_supp"></a>Main (427 genes)
 - IGLV@	3546	other
 - LINC00417	100874164	ncRNA
 - MMVP1	50951	unknown
@@ -442,7 +441,8 @@ Update listed are also applied to all data files.*
 - LOC100288908	protein-coding	100288908
 - LOC100128795	protein-coding	100128795
 - EGFRVIII	protein-coding	-3
-## <a name="alias_gene_supp"></a>Alias (469 genes)
+
+### <a name="alias_gene_supp"></a>Alias (469 genes)
 - 100507557	LOC100507557	ncRNA
 - 400684	LOC400684	ncRNA
 - 728095	LOC728095	ncRNA
@@ -913,11 +913,10 @@ Update listed are also applied to all data files.*
 - 644093	HCG2040054	ncRNA
 - 101928235	CTB-41I6.1	ncRNA
 
-# <a name="gene_update"></a>Gene Update
-## <a name="combo_update"></a> Combo Update
+## <a name="gene_update"></a>Gene Update
+### <a name="combo_update"></a> Combo Update
 - LINC00610 399879  ->  COMMD9  29099 
 - NARR	100861437 ->  RAB34	83871
-
 - PALM2	114299	->  PALM2AKAP2	445815
 - AKAP2	11217	->  PALM2AKAP2	445815
 ##### open reading frame
@@ -964,7 +963,6 @@ Update listed are also applied to all data files.*
 - TRNA	8923217 -> MT-TA	4553
 - TRNC	55447-> MT-TC	4511
 - TRNC	55448 -> MT-TC	4511
-
 ##### LOC genes
 - LOC285299	285299	->  FRG2C	100288801
 - LOC286052	286052	->  TMEM65	157378
@@ -1012,7 +1010,7 @@ Update listed are also applied to all data files.*
 - LOC100996741	100996741	->  LINC01145	103091866
 - LOC102724385	102724385	->  LINC01669	102724354
 
-## <a name="symbol_update"></a>Hugo Symbol Update
+### <a name="symbol_update"></a>Hugo Symbol Update
 - 132332  TMEM155 ->  SMIM43
 - 100189486	TRG-CCC4-1  ->  TRV-CAC11-1
 - 106146148	LINC01297 ->  PSLNR
@@ -1023,7 +1021,7 @@ Update listed are also applied to all data files.*
 - 100049076 GUSBP9  ->  GUSBP17
 - 100506388	LOC100506388  ->  RPH3AL-AS1
 
-## <a name="entrez_id_update"></a>Entrez ID Update
+### <a name="entrez_id_update"></a>Entrez ID Update
 - LRRC53	100144878	-> 105378803
 - TXNRD3	645840	->	114112
 - SUCLA2	107984570	->	8803
@@ -1086,7 +1084,7 @@ Update listed are also applied to all data files.*
 - LINC01562	105378716 -> 104054213
 - SMG1P6 101928094 -> 100422558
 
-# <a name="duplicate_mapping_removal"></a>Removed mapping
+## <a name="duplicate_mapping_removal"></a>Removed mapping
 - TTLL11-IT1	401550
 - TUBB8P8	728247
 - UPK3B	80761
