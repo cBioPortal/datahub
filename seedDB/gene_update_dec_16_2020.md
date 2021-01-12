@@ -1,12 +1,12 @@
 Gene Table Updates Jan 2021
 
-1. New seed database gene info tables are constructed based on [HGNC](https://www.genenames.org/download/statistics-and-files/) "Complete dataset download links" -> "Complete HGNC approved dataset" (miRNA genes excluded)
+1. New seed database gene info tables are constructed based on [HGNC](https://www.genenames.org/download/statistics-and-files/) 
+"Complete dataset download links" -> "Complete HGNC approved dataset" (miRNA genes excluded)
 
-2. To reduce loss in data avaiability, we supplement some genes to the original HGNC table mentioned above
-- [Main genes](#main_gene_supp)
-- [Alias genes](#alias_gene_supp)
+2. To reduce loss in data avaiability, some extra [genes](#gene_supp) are attached. 
 
 3. Some gene entries are updated in NCBI and HGNC. Complete list can be found [here](#gene_update).
+
 *These genes may appear "missing" in certain queries.
 Update listed are also applied to all data files.*
 
