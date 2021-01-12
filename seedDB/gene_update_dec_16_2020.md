@@ -1035,7 +1035,7 @@ Update listed are also applied to all data files.*
 - FAM27E4	100132439	->	107987001
 
 # <a name="duplicate_mapping_removal"></a>Removed mapping
-TTLL11-IT1	401550
+- TTLL11-IT1	401550
 - TUBB8P8	728247
 - UPK3B	80761
 - ZNF840P	100130863
