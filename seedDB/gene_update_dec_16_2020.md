@@ -917,7 +917,7 @@ Update listed are also applied to all data files.*
 ## <a name="combo_update"></a> Combo Update
 - LINC00610 399879  ->  COMMD9  29099 
 - NARR	100861437 ->  RAB34	83871
-- LRRC53	100144878	-> LRRC53	105378803
+
 - PALM2	114299	->  PALM2AKAP2	445815
 - AKAP2	11217	->  PALM2AKAP2	445815
 ##### open reading frame
@@ -1024,6 +1024,7 @@ Update listed are also applied to all data files.*
 - 100506388	LOC100506388  ->  RPH3AL-AS1
 
 ## <a name="entrez_id_update"></a>Entrez ID Update
+- LRRC53	100144878	-> 105378803
 - TXNRD3	645840	->	114112
 - SUCLA2	107984570	->	8803
 - DGCR5	26222	->	26220
