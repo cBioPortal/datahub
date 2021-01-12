@@ -1,7 +1,9 @@
+Gene Table Updates Jan 2021
+
 1. New seed database gene info table is constructed based on Original Gene Tables are based on HGNC `Nov 2, 2020` Release. (miRNA genes excluded)
 https://www.genenames.org/download/statistics-and-files/
 
-2. To reduce loss in data avaiability, we add some genes to the original HGNC table as [supplemental lists](#gene_supp)
+2. To reduce loss in data avaiability, we add some genes to the original HGNC table mentioned above as [supplemental lists](#gene_supp)
 - [Supplemental main genes](#main_gene_supp)
 - [Supplemental alias genes](#alias_gene_supp)
 
@@ -14,9 +16,8 @@ https://www.genenames.org/download/statistics-and-files/
 Update listed are also applied to all data files.*
 
 4. Genes symbols mapping to multiple entrez IDs are now updated to mapping to single entrez IDs.
-- The list of eliminated symbol <> entrez_ID mapping can be found [here](#duplicate_mapping_removal) 
+- The list of eliminated symbol <> entrez_ID mapping can be found [here](#duplicate_mapping_removal)
 - The removals listed are also applied to all data files
-- Some of our duplicate mappings were removed because updates, for example MIA2. This list excluded those mappings, which are already included by lists above. 
 
 # <a name="gene_supp"></a>Supplemental Gene Lists 
 ## <a name="main_gene_supp"></a>Main (427 genes)
