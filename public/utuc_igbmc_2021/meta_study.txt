@@ -1,0 +1,8 @@
+type_of_cancer: utuc
+cancer_study_identifier: utuc_igbmc_2021
+name: Upper Tract Urothelial Carcinoma (IGBMC, Genome Biology 2021)
+description: Whole-exome sequencing of 30 upper-tract urothelial carcinoma patients and their matched normals.
+short_name: (UTUC, 2021)
+groups: PUBLIC
+citation: Xiaoping et al. Genome Biology 2021
+pmid: 33397444
