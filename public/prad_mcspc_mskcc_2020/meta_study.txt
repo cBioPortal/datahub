@@ -1,7 +1,7 @@
 type_of_cancer: prad
 cancer_study_identifier: prad_mcspc_mskcc_2020
 name: Metastatic castration-sensitive prostate cancer (MSK, Clin Cancer Res 2020)
-description: MSK-IMPACT sequencing of 424 matched tumor-normal samples from patients with metastatic castration-sensitive prostate cancer
+description: MSK-IMPACT sequencing of 424 matched tumor-normal samples from patients with metastatic castration-sensitive prostate cancer. Germline alterations are not shown here.
 groups: PUBLIC
 pmid: 32220891
 citation: Stopsack et al. Clin Cancer Res 2020
