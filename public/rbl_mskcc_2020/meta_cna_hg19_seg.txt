@@ -1,0 +1,6 @@
+cancer_study_identifier: rbl_mskcc_2020
+reference_genome_id: hg19
+description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals). (ver v_2.0.2-2-g3c5ad5c; BATCHES: B,,5_total)
+data_filename: data_cna_hg19.seg
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: SEG

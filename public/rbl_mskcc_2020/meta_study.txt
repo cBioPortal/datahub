@@ -1,0 +1,8 @@
+type_of_cancer: rbl
+cancer_study_identifier: rbl_mskcc_2020
+name: Retinoblastoma (MSK, Cancers 2021)
+description: Targeted sequencing of 83 Retinoblastoma tumor-normal pairs via MSK-IMPACT. Genomic data provided is limited to somatic alterations.
+groups: PUBLIC
+short_name: RBL (MSK, Cancers 2021)
+pmid: 33466343
+citation: Francis et al. Cancers 2021
