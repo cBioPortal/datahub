@@ -1,0 +1,7 @@
+type_of_cancer: chol
+cancer_study_identifier: chol_pku_2019
+name: Cholangiocarcinoma (Peking U, 2019)
+short_name: CHOL (PKU 2019)
+description: Whole-exome sequencing of 121 combined hepatocellular and intrahepatic cholangiocarcinoma (cHCC-ICC) patients.
+citation: Xue et al. Cancer Cell 2019
+pmid: 31130341
