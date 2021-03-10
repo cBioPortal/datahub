@@ -7,3 +7,6 @@ The database schema and cBioPortal release follows different numbering cycles si
 
 ## For developers
 Updating the seed database for Datahub is described [here](Update-Seed-Database.md).
+
+## Release Notes
+Release history and detailed notes for each release is described  [here](Release-Notes.md).
