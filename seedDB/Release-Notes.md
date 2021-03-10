@@ -1,5 +1,5 @@
 ## Latest seed database
-## We recently updated our gene tables based on the latest HGNC with small modifications (see details below).
+We recently updated our gene tables based on the latest HGNC with small modifications (see details below).
 - HGNC table used: "Complete dataset download links" -> "Complete HGNC approved dataset" (miRNA genes excluded)
 - To reduce loss in data availability, some extra genes are attached. Complete lists here.
 - All data files are updated accordingly
@@ -8,6 +8,7 @@
 
 For local instances, the process for updating data files can be automated by running this script: https://github.com/cBioPortal/datahub-study-curation-tools/pull/29 These genes may appear "missing" in certain queries. Update listed are also applied to all data files.
 Supplemental Gene Lists
+
 Main (427 genes)
 IGLV@ 3546 other
 LINC00417 100874164 ncRNA
