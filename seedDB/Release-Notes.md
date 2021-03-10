@@ -1,13 +1,14 @@
 ## Latest seed database
+#### Gene Table 2.0
 We recently updated our gene tables based on the latest HGNC with small modifications (see details below).
-- HGNC table used: "Complete dataset download links" -> "Complete HGNC approved dataset" (miRNA genes excluded)
-- To reduce loss in data availability, some extra genes are attached. Complete lists here.
-- All data files are updated accordingly
-- gene entries updated: complete lists here.
-- eliminate duplciate symbol <> entrez_ID mapping: complete lists here
+- Based on latest Feb 20, 2021 download at: https://www.genenames.org/download/statistics-and-files/
+- To minimize loss of data availability, we maintained certain gene entires that become unavailable in current HGNC as supplment- complete lists [HERE] (https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-supp.md)
+- Gene entries lost with update - complete list [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-removed.md)
+- Updated outdated gene entries - complete list [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-update.md).
+- Removed duplciate symbol <> entrez_ID mapping: complete lists here
 
-For local instances, the process for updating data files can be automated by running this script: https://github.com/cBioPortal/datahub-study-curation-tools/pull/29 These genes may appear "missing" in certain queries. Update listed are also applied to all data files.
-Supplemental Gene Lists
+> For local instances, the process for updating data files can be automated by running this script: https://github.com/cBioPortal/datahub-study-curation->tools/pull/29 These genes may appear "missing" in certain queries. Update listed are also applied to all data files.
+> Supplemental Gene Lists
 
 #### Seed database schema 2.7.3
 
