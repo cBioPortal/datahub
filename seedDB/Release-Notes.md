@@ -1,14 +1,11 @@
 ## Latest seed database
 #### Gene Table 2.0
-We recently updated our gene tables based on the latest HGNC with small modifications (see details below).
-- Based on latest Feb 20, 2021 download at: https://www.genenames.org/download/statistics-and-files/
-- To minimize loss of data availability, we maintained certain gene entires that become unavailable in current HGNC as supplment- complete lists [HERE] (https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-supp.md)
-- Gene entries lost with update - complete list [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-removed.md)
+We recently updated our gene tables based on the HGNC (Feb 20, 2021 download at: https://www.genenames.org/download/statistics-and-files/) with small modifications (see details below).
+- To minimize loss of data availability, we maintained certain gene entires that become unavailable in current HGNC as supplment- complete lists [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-supp.md)
 - Updated outdated gene entries - complete list [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-update.md).
-- Removed duplciate symbol <> entrez_ID mapping: complete lists here
+- Removed duplciate symbol <> entrez_ID mapping - complete list [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-removed.md)
 
-> For local instances, the process for updating data files can be automated by running this script: https://github.com/cBioPortal/datahub-study-curation->tools/pull/29 These genes may appear "missing" in certain queries. Update listed are also applied to all data files.
-> Supplemental Gene Lists
+> All data files in DATAHUB are also updated accordingly with the gene entries updates. The script/process is described [HERE](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/data-file-migration)
 
 #### Seed database schema 2.7.3
 
