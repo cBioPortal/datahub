@@ -1,5 +1,5 @@
-cancer_study_identifier: chol_pku_2019
-stable_id: chol_pku_2019_all
+cancer_study_identifier: hccihch_pku_2019
+stable_id: hccihch_pku_2019_all
 case_list_name: All samples
 case_list_description: All samples (173 samples)
 case_list_category: all_cases_in_study

@@ -1,5 +1,5 @@
-cancer_study_identifier: chol_pku_2019
-stable_id: chol_pku_2019_sequenced
+cancer_study_identifier: hccihch_pku_2019
+stable_id: hccihch_pku_2019_sequenced
 case_list_name: Samples with mutation data
 case_list_description: Samples with mutation data (173 samples)
 case_list_category: all_cases_with_mutation_data

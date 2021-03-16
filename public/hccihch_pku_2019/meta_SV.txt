@@ -1,4 +1,4 @@
-cancer_study_identifier: chol_pku_2019
+cancer_study_identifier: hccihch_pku_2019
 genetic_alteration_type: STRUCTURAL_VARIANT
 datatype: SV
 stable_id: structural_variants
