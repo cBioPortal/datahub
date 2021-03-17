@@ -1,0 +1,8 @@
+cancer_study_identifier: hccihch_pku_2019
+genetic_alteration_type: STRUCTURAL_VARIANT
+datatype: SV
+stable_id: structural_variants
+show_profile_in_analysis_tab: true
+profile_name: SV data
+profile_description: Struvtural variant data sequenced with whole-exome sequencing.
+data_filename: data_SV.txt
