@@ -1,0 +1,7 @@
+type_of_cancer: hccihch
+cancer_study_identifier: hccihch_pku_2019
+name: Combined Hepatocellular and Intrahepatic Cholangiocarcinoma (Peking University, Cancer Cell 2019)
+short_name: HCCIHCH (PKU 2019)
+description: Whole-exome sequencing of 121 combined hepatocellular and intrahepatic cholangiocarcinoma (cHCC-ICC) patients with matched normal pairs (whole-genome sequenced samples are not included here).
+citation: Xue et al. Cancer Cell 2019
+pmid: 31130341
