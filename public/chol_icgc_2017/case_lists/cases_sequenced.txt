@@ -1,5 +1,5 @@
-cancer_study_identifier: chol_icgc_2021
-stable_id: chol_icgc_2021_sequenced
+cancer_study_identifier: chol_icgc_2017
+stable_id: chol_icgc_2017_sequenced
 case_list_name: Samples with mutation data
 case_list_description: Samples with mutation data (417 samples)
 case_list_category: all_cases_with_mutation_data
