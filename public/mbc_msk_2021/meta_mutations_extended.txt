@@ -1,0 +1,8 @@
+cancer_study_identifier: mbc_msk_2021
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+profile_name: Mutations
+profile_description: Targeted sequencing of 19 Metaplastic Breast Cancer tumor/normal pairs.
+show_profile_in_analysis_tab: true
+data_filename: data_mutations_extended.txt

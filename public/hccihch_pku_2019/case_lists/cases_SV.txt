@@ -1,0 +1,6 @@
+cancer_study_identifier: hccihch_pku_2019
+stable_id: hccihch_pku_2019_sv
+case_list_name: Samples with SV data
+case_list_description: Samples with SV data (28 samples)
+case_list_category: all_cases_with_sv_data
+case_list_ids: Mix_51T	Com_31I	Com_31H	Mix_55T	Mix_20T	Mix_53T	Mix_36T	Mix_24T	Com_42I	Com_42H	Mix_19T	Mix_31T	Mix_48T	Mix_21T	Com_36H	Com_36I	Mix_40T	Mix_54T	Com_34H	Com_34I	Mix_33T	Mix_35T	Mix_42T	Mix_44T	Mix_52T	Mix_22T	Mix_38T	Mix_28T
