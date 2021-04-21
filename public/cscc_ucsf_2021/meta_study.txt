@@ -1,0 +1,5 @@
+type_of_cancer: cscc
+cancer_study_identifier: cscc_ucsf_2021
+name: Cutaneous Squamous Cell Carcinoma (UCSF, 2021)
+short_name: cSCC (Chang, Shain Lab)
+description: Catalogue of driver genes in cutaneous squamous cell carcinoma. Meta-analysis of 105 normal/tumor pairs.
