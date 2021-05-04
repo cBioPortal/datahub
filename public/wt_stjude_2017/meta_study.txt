@@ -1,0 +1,8 @@
+type_of_cancer: wt
+cancer_study_identifier: wt_stjude_2017
+name: Pediatric Wilm's Tumor (St Jude, Nat Genet 2017)
+description: Genome-wide sequencing and analysis of mRNA and miRNA expression, DNA copy number, and DNA methylation in 117 Wilm's tumors, followed by targeted sequencing of 651 Wilm's tumors using NWTS-5 protocol.
+citation: Agrawal et al. Science 2011
+pmid: 21798897
+short_name: WT (St.Jude 2017)
+groups: PUBLIC
