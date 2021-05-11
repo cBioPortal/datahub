@@ -1,0 +1,6 @@
+type_of_cancer: mixed
+cancer_study_identifier: msk_access_2021
+name: MSK-IMPACT and MSK-ACCESS Mixed Cohort (MSK, 2021)
+description: Targeted sequencing of 1446 Tumor and cfDNA samples (1440 with matched normals) from MSK-IMPACT and MSK-ACCESS. 
+groups: IMPACT_ACCESS;PUBLIC
+short_name: MSK (IMPACT ACCESS)

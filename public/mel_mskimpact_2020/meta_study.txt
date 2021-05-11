@@ -1,0 +1,5 @@
+type_of_cancer: mel
+cancer_study_identifier: mel_mskimpact_2020
+name: Melanoma (MSKCC, 2018)
+short_name: MEL (MSKCC 2018)
+description: MSK-IMPACT sequencing of 720 Melanoma tumor samples with matched normals.

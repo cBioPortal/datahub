@@ -1,0 +1,8 @@
+type_of_cancer: chol
+cancer_study_identifier: chol_icgc_2017
+name: Cholangiocarcinoma (ICGC, Cancer Discov 2017)
+short_name: CHOL(ICGC 2021)
+description: Whole-exome sequencing and Targeted/Exome sequencing of 489 Cholangiocarcinoma samples from 10 countries.
+pmid: 28667006
+citation: Jusakul et al. Cancer Discov 2017
+groups: PUBLIC
