@@ -22,7 +22,7 @@ md5sum 85444ce645104dbc00610fc1f15e8c7a
 
 Contents of seed database:
 - Entrez Gene IDs, HGNC symbols and gene aliases updated based on HGNC [Feb 20, 2021 Download](https://www.genenames.org/download/statistics-and-files/) with small modifications listed below.  
-  - To minimize loss of data availability, we maintained certain gene entires that become unavailable in current HGNC as supplment - Complete lists [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-supp.md)
+  - To minimize loss of data we preserved certain gene entries that are unavailable in the current HGNC in a supplemental file - Complete lists [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-supp.md)
   - Updated outdated gene entries - Complete list [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-update.md).
   - Removed duplicate `symbol <> entrez_ID` mapping - Complete list [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-removed.md)
   - 7 genes dropped from gene panels - Complete list [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/panel-gene-removed.md) 
