@@ -12,7 +12,7 @@ Instructions for building and updating seedDBs [HERE](#for-developers)
 #### Seed database schema 2.12.8
 
 This schema is required for cBioPortal release versions:
-- **3.6.0**
+- **3.6.0** or higher
 
 When using a release version **> 2.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
 
