@@ -17,7 +17,7 @@ This schema is required for cBioPortal release versions:
 When using a release version **> 2.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
 
 **Schema 2.12.8**: [SQL file with create table statements](https://raw.githubusercontent.com/cBioPortal/cbioportal/v3.6.10/db-scripts/src/main/resources/cgds.sql)<br>
-**Seed database**: [seed-cbioportal_hg19_v2.12.8.sql.gz](https://github.com/cBioPortal/datahub/raw/master/seedDB/seed-cbioportal_hg19_v2.7.3.sql.gz)<br>
+**Seed database**: [seed-cbioportal_hg19_v2.12.8.sql.gz](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/seed-cbioportal_hg19_v2.12.8.sql.gz)<br>
 md5sum f8d2c65f8d9db795da47ed5cf6f592a9
 
 Contents of seed database:
