@@ -1,0 +1,8 @@
+cancer_study_identifier: glioma_msk_2018
+genetic_alteration_type: MUTATION_UNCALLED
+datatype: MAF
+stable_id: mutations_uncalled
+show_profile_in_analysis_tab: false
+profile_description: Mutation data from whole exome sequencing. (Uncalled)
+profile_name: Mutations Uncalled
+data_filename: data_mutations_uncalled.txt
