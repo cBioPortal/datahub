@@ -1,0 +1,1006 @@
+#Patient Identifier	Sample Identifier	Censored	Tumor Purity	BCL2 Fish Status	MYC Fish Status	BCL6 Fish Status	Prognostic Model	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Survival Time Censored; True or False	Tumor Purity	BCL2 Fish Status	MYC Fish Status	BCL6 Fish Status	Genomic Risk Model Classification	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CENSORED	TUMOR_PURITY	BCL2_FISH_STATUS	MYC_FISH	BCL6_FISH_STATUS	PROGNOSTIC_MODEL	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+DLBCL_DUKE_648	DLBCL_DUKE_648	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_658	DLBCL_DUKE_658		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_683	DLBCL_DUKE_683	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_684	DLBCL_DUKE_684	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_689	DLBCL_DUKE_689	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_690	DLBCL_DUKE_690	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_695	DLBCL_DUKE_695		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_702	DLBCL_DUKE_702	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_704	DLBCL_DUKE_704	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_705	DLBCL_DUKE_705	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_707	DLBCL_DUKE_707	DECEASED	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_759	DLBCL_DUKE_759	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_787	DLBCL_DUKE_787	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_790	DLBCL_DUKE_790	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_793	DLBCL_DUKE_793	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_799	DLBCL_DUKE_799	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_800	DLBCL_DUKE_800	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_813	DLBCL_DUKE_813	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_816	DLBCL_DUKE_816	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_823	DLBCL_DUKE_823	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_829	DLBCL_DUKE_829	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_830	DLBCL_DUKE_830	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_831	DLBCL_DUKE_831	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_832	DLBCL_DUKE_832	DECEASED	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_1008	DLBCL_DUKE_1008	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_1016	DLBCL_DUKE_1016	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2043	DLBCL_DUKE_2043	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2044	DLBCL_DUKE_2044	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2045	DLBCL_DUKE_2045	DECEASED	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2046	DLBCL_DUKE_2046	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2047	DLBCL_DUKE_2047	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2048	DLBCL_DUKE_2048	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2057	DLBCL_DUKE_2057	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2060	DLBCL_DUKE_2060	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2072	DLBCL_DUKE_2072	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2073	DLBCL_DUKE_2073	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2074	DLBCL_DUKE_2074	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2075	DLBCL_DUKE_2075	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2076	DLBCL_DUKE_2076	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2077	DLBCL_DUKE_2077	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2078	DLBCL_DUKE_2078	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2079	DLBCL_DUKE_2079	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2080	DLBCL_DUKE_2080	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2081	DLBCL_DUKE_2081	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_DUKE_2083	DLBCL_DUKE_2083	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2084	DLBCL_DUKE_2084	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2085	DLBCL_DUKE_2085	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2087	DLBCL_DUKE_2087	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2088	DLBCL_DUKE_2088	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2089	DLBCL_DUKE_2089	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2091	DLBCL_DUKE_2091	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2092	DLBCL_DUKE_2092		30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2093	DLBCL_DUKE_2093	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2095	DLBCL_DUKE_2095	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_2097	DLBCL_DUKE_2097	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_2100	DLBCL_DUKE_2100	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2101	DLBCL_DUKE_2101	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2102	DLBCL_DUKE_2102	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2103	DLBCL_DUKE_2103	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2106	DLBCL_DUKE_2106	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2107	DLBCL_DUKE_2107	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2109	DLBCL_DUKE_2109	DECEASED	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2110	DLBCL_DUKE_2110	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2111	DLBCL_DUKE_2111	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2112	DLBCL_DUKE_2112	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2113	DLBCL_DUKE_2113	DECEASED	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2114	DLBCL_DUKE_2114	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2115	DLBCL_DUKE_2115	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2120	DLBCL_DUKE_2120	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2121	DLBCL_DUKE_2121	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2122	DLBCL_DUKE_2122	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2123	DLBCL_DUKE_2123	LIVING	< 30%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2124	DLBCL_DUKE_2124	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2125	DLBCL_DUKE_2125	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_DUKE_2126	DLBCL_DUKE_2126	DECEASED	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2127	DLBCL_DUKE_2127	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2128	DLBCL_DUKE_2128	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2130	DLBCL_DUKE_2130	DECEASED	< 30%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2133	DLBCL_DUKE_2133	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_2134	DLBCL_DUKE_2134	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2135	DLBCL_DUKE_2135	DECEASED	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2136	DLBCL_DUKE_2136	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2137	DLBCL_DUKE_2137	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2138	DLBCL_DUKE_2138	LIVING	< 30%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2140	DLBCL_DUKE_2140	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2141	DLBCL_DUKE_2141	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2142	DLBCL_DUKE_2142	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2143	DLBCL_DUKE_2143	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2144	DLBCL_DUKE_2144	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2145	DLBCL_DUKE_2145	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2146	DLBCL_DUKE_2146	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2147	DLBCL_DUKE_2147	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2148	DLBCL_DUKE_2148	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2149	DLBCL_DUKE_2149	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2150	DLBCL_DUKE_2150	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_2151	DLBCL_DUKE_2151	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2152	DLBCL_DUKE_2152	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2153	DLBCL_DUKE_2153	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2154	DLBCL_DUKE_2154	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2155	DLBCL_DUKE_2155	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2156	DLBCL_DUKE_2156	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2157	DLBCL_DUKE_2157	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2158	DLBCL_DUKE_2158	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2159	DLBCL_DUKE_2159	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2160	DLBCL_DUKE_2160	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2161	DLBCL_DUKE_2161	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2162	DLBCL_DUKE_2162	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2163	DLBCL_DUKE_2163	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.866666666667
+DLBCL_DUKE_2164	DLBCL_DUKE_2164	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2165	DLBCL_DUKE_2165	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2166	DLBCL_DUKE_2166	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2190	DLBCL_DUKE_2190	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_2191	DLBCL_DUKE_2191	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2192	DLBCL_DUKE_2192	DECEASED	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2193	DLBCL_DUKE_2193	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2194	DLBCL_DUKE_2194	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2195	DLBCL_DUKE_2195	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2196	DLBCL_DUKE_2196	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2198	DLBCL_DUKE_2198	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2199	DLBCL_DUKE_2199	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2200	DLBCL_DUKE_2200	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2201	DLBCL_DUKE_2201	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2203	DLBCL_DUKE_2203	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2204	DLBCL_DUKE_2204	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2205	DLBCL_DUKE_2205	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2206	DLBCL_DUKE_2206	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2207	DLBCL_DUKE_2207	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2208	DLBCL_DUKE_2208	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2209	DLBCL_DUKE_2209	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2210	DLBCL_DUKE_2210	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2211	DLBCL_DUKE_2211	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_DUKE_2212	DLBCL_DUKE_2212	DECEASED	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2213	DLBCL_DUKE_2213	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2214	DLBCL_DUKE_2214	DECEASED	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2215	DLBCL_DUKE_2215	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2216	DLBCL_DUKE_2216	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2217	DLBCL_DUKE_2217	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2219	DLBCL_DUKE_2219	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2220	DLBCL_DUKE_2220	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2221	DLBCL_DUKE_2221	DECEASED	< 30%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2222	DLBCL_DUKE_2222	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2223	DLBCL_DUKE_2223	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2224	DLBCL_DUKE_2224	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2225	DLBCL_DUKE_2225	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2226	DLBCL_DUKE_2226	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_2227	DLBCL_DUKE_2227	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2228	DLBCL_DUKE_2228	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2229	DLBCL_DUKE_2229	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2230	DLBCL_DUKE_2230	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2231	DLBCL_DUKE_2231	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2232	DLBCL_DUKE_2232	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2233	DLBCL_DUKE_2233	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2234	DLBCL_DUKE_2234	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2235	DLBCL_DUKE_2235	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2236	DLBCL_DUKE_2236	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2237	DLBCL_DUKE_2237	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2238	DLBCL_DUKE_2238	LIVING	< 30%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2239	DLBCL_DUKE_2239	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2240	DLBCL_DUKE_2240	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2241	DLBCL_DUKE_2241	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2242	DLBCL_DUKE_2242	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2243	DLBCL_DUKE_2243	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2244	DLBCL_DUKE_2244	DECEASED	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2246	DLBCL_DUKE_2246	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2247	DLBCL_DUKE_2247	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2248	DLBCL_DUKE_2248	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2249	DLBCL_DUKE_2249	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2250	DLBCL_DUKE_2250	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2251	DLBCL_DUKE_2251	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2252	DLBCL_DUKE_2252	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2253	DLBCL_DUKE_2253	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2254	DLBCL_DUKE_2254	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2255	DLBCL_DUKE_2255	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2256	DLBCL_DUKE_2256	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2257	DLBCL_DUKE_2257	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2259	DLBCL_DUKE_2259	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2260	DLBCL_DUKE_2260	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2261	DLBCL_DUKE_2261	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2262	DLBCL_DUKE_2262	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_DUKE_2263	DLBCL_DUKE_2263	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2269	DLBCL_DUKE_2269	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2270	DLBCL_DUKE_2270	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2271	DLBCL_DUKE_2271	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2272	DLBCL_DUKE_2272	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2273	DLBCL_DUKE_2273	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2274	DLBCL_DUKE_2274	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2278	DLBCL_DUKE_2278	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_2279	DLBCL_DUKE_2279	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2281	DLBCL_DUKE_2281	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2286	DLBCL_DUKE_2286	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2290	DLBCL_DUKE_2290	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2291	DLBCL_DUKE_2291	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2293	DLBCL_DUKE_2293	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2297	DLBCL_DUKE_2297	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_2298	DLBCL_DUKE_2298	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2300	DLBCL_DUKE_2300	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2302	DLBCL_DUKE_2302	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2303	DLBCL_DUKE_2303	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2306	DLBCL_DUKE_2306	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2307	DLBCL_DUKE_2307	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2448	DLBCL_DUKE_2448		30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2449	DLBCL_DUKE_2449	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2450	DLBCL_DUKE_2450	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2451	DLBCL_DUKE_2451	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2453	DLBCL_DUKE_2453	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2455	DLBCL_DUKE_2455	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2459	DLBCL_DUKE_2459	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2461	DLBCL_DUKE_2461	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2462	DLBCL_DUKE_2462	DECEASED	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2463	DLBCL_DUKE_2463	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2464	DLBCL_DUKE_2464	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2466	DLBCL_DUKE_2466	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2467	DLBCL_DUKE_2467	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2468	DLBCL_DUKE_2468	DECEASED	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2469	DLBCL_DUKE_2469	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2470	DLBCL_DUKE_2470	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2471	DLBCL_DUKE_2471	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2472	DLBCL_DUKE_2472	DECEASED	< 30%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2473	DLBCL_DUKE_2473	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2474	DLBCL_DUKE_2474	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2475	DLBCL_DUKE_2475	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_DUKE_2476	DLBCL_DUKE_2476	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2477	DLBCL_DUKE_2477	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2478	DLBCL_DUKE_2478	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2479	DLBCL_DUKE_2479	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2480	DLBCL_DUKE_2480	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2481	DLBCL_DUKE_2481	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2482	DLBCL_DUKE_2482	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2483	DLBCL_DUKE_2483	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2485	DLBCL_DUKE_2485	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2487	DLBCL_DUKE_2487	DECEASED	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_DUKE_2488	DLBCL_DUKE_2488	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2522	DLBCL_DUKE_2522	DECEASED	70% or more	Positive	Positive	Positive	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.666666666667
+DLBCL_DUKE_2523	DLBCL_DUKE_2523	LIVING	30 to 70%	Negative	Negative	Positive	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2524	DLBCL_DUKE_2524	DECEASED	30 to 70%	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2525	DLBCL_DUKE_2525	LIVING	30 to 70%	Negative	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2527	DLBCL_DUKE_2527	DECEASED	30 to 70%	Negative	Negative	Positive	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2528	DLBCL_DUKE_2528	DECEASED	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2529	DLBCL_DUKE_2529	LIVING	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2530	DLBCL_DUKE_2530	LIVING	70% or more	Positive	Positive	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2532	DLBCL_DUKE_2532	LIVING	70% or more	Positive	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2533	DLBCL_DUKE_2533	LIVING	70% or more	Positive	Negative	Positive	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_2534	DLBCL_DUKE_2534	DECEASED	30 to 70%	Negative	Negative	Positive	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2538	DLBCL_DUKE_2538	DECEASED	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2539	DLBCL_DUKE_2539	DECEASED	70% or more	Negative	Negative	Positive	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2540	DLBCL_DUKE_2540	DECEASED	30 to 70%	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2541	DLBCL_DUKE_2541	LIVING	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2542	DLBCL_DUKE_2542	DECEASED	70% or more	Negative	Negative	Positive	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2543	DLBCL_DUKE_2543	LIVING	30 to 70%	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2544	DLBCL_DUKE_2544	LIVING	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2545	DLBCL_DUKE_2545	LIVING	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2547	DLBCL_DUKE_2547	LIVING	30 to 70%	Negative	Negative	Positive		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2548	DLBCL_DUKE_2548	LIVING	< 30%	Negative	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2549	DLBCL_DUKE_2549	DECEASED	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2550	DLBCL_DUKE_2550	DECEASED	30 to 70%	Negative	Negative	Positive	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2551	DLBCL_DUKE_2551	DECEASED	70% or more	Positive	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2552	DLBCL_DUKE_2552	DECEASED	70% or more	Positive	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2553	DLBCL_DUKE_2553	LIVING	70% or more	Positive	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2554	DLBCL_DUKE_2554	LIVING	70% or more	Positive	Positive	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2555	DLBCL_DUKE_2555	DECEASED	70% or more	Positive	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2556	DLBCL_DUKE_2556	LIVING	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2559	DLBCL_DUKE_2559	DECEASED	30 to 70%	Positive	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2560	DLBCL_DUKE_2560	LIVING	30 to 70%	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2561	DLBCL_DUKE_2561	DECEASED	70% or more	Positive	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2562	DLBCL_DUKE_2562	DECEASED	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_2565	DLBCL_DUKE_2565	LIVING	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2566	DLBCL_DUKE_2566	DECEASED	30 to 70%	Positive	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2567	DLBCL_DUKE_2567	LIVING	70% or more	Positive	Negative	Positive		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2570	DLBCL_DUKE_2570	LIVING	70% or more	Positive	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2571	DLBCL_DUKE_2571	LIVING	< 30%	Positive	Negative	Positive	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2573	DLBCL_DUKE_2573	LIVING	30 to 70%	Negative	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2575	DLBCL_DUKE_2575	DECEASED	70% or more	Negative	Negative	Positive	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2576	DLBCL_DUKE_2576	DECEASED	70% or more	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2577	DLBCL_DUKE_2577	DECEASED	70% or more	Positive	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2578	DLBCL_DUKE_2578	LIVING	30 to 70%	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2580	DLBCL_DUKE_2580	LIVING	70% or more	Negative	Negative	Positive		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2581	DLBCL_DUKE_2581	LIVING	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2582	DLBCL_DUKE_2582	LIVING	70% or more	Positive	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2585	DLBCL_DUKE_2585	DECEASED	70% or more	Positive	Negative	Positive	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2588	DLBCL_DUKE_2588	DECEASED	< 30%	Positive	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2591	DLBCL_DUKE_2591	DECEASED	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2593	DLBCL_DUKE_2593	LIVING	< 30%	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2594	DLBCL_DUKE_2594	DECEASED	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2596	DLBCL_DUKE_2596	LIVING	< 30%	Positive	Positive	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2597	DLBCL_DUKE_2597	DECEASED	30 to 70%	Positive	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2599	DLBCL_DUKE_2599	DECEASED	30 to 70%	Negative	Negative	Positive		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2600	DLBCL_DUKE_2600	DECEASED	30 to 70%	Positive	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2602	DLBCL_DUKE_2602	LIVING	< 30%	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2603	DLBCL_DUKE_2603	LIVING	70% or more	Positive	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2604	DLBCL_DUKE_2604	LIVING	70% or more	Negative	Negative	Positive	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2605	DLBCL_DUKE_2605	LIVING	70% or more	Positive	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2606	DLBCL_DUKE_2606	LIVING	70% or more	Positive	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2608	DLBCL_DUKE_2608	DECEASED	70% or more	Positive	Positive	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2609	DLBCL_DUKE_2609	LIVING	70% or more	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2611	DLBCL_DUKE_2611	LIVING	30 to 70%	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2612	DLBCL_DUKE_2612	DECEASED	< 30%	Negative	Positive	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2613	DLBCL_DUKE_2613	DECEASED	70% or more	Positive	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.633333333333
+DLBCL_DUKE_2614	DLBCL_DUKE_2614	DECEASED	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2616	DLBCL_DUKE_2616	DECEASED	70% or more	Positive	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2617	DLBCL_DUKE_2617	DECEASED	30 to 70%	Positive	Positive	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2619	DLBCL_DUKE_2619	LIVING	30 to 70%	Negative	Negative	Positive	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2620	DLBCL_DUKE_2620	DECEASED	70% or more	Positive	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2621	DLBCL_DUKE_2621	LIVING	30 to 70%	Positive	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2622	DLBCL_DUKE_2622	DECEASED	70% or more	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2624	DLBCL_DUKE_2624	LIVING	30 to 70%	Positive	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2626	DLBCL_DUKE_2626	LIVING	70% or more	Positive	Positive	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2628	DLBCL_DUKE_2628	LIVING	30 to 70%	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2629	DLBCL_DUKE_2629	LIVING	30 to 70%	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2630	DLBCL_DUKE_2630	LIVING	30 to 70%	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2632	DLBCL_DUKE_2632	DECEASED	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2634	DLBCL_DUKE_2634	DECEASED	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2635	DLBCL_DUKE_2635	LIVING	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2636	DLBCL_DUKE_2636	DECEASED	70% or more	Positive	Positive	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2637	DLBCL_DUKE_2637	LIVING	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2639	DLBCL_DUKE_2639	LIVING	70% or more	Negative	Negative	Positive	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_2640	DLBCL_DUKE_2640	LIVING	70% or more	Positive	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2642	DLBCL_DUKE_2642	LIVING	70% or more	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2643	DLBCL_DUKE_2643	LIVING	70% or more	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2644	DLBCL_DUKE_2644	DECEASED	70% or more	Negative	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2646	DLBCL_DUKE_2646	DECEASED	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2647	DLBCL_DUKE_2647	LIVING	30 to 70%	Negative	Negative	Positive	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2649	DLBCL_DUKE_2649	LIVING	30 to 70%	Negative	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2650	DLBCL_DUKE_2650	LIVING	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2651	DLBCL_DUKE_2651	LIVING	70% or more	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2652	DLBCL_DUKE_2652	DECEASED	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2654	DLBCL_DUKE_2654	LIVING	70% or more	Positive	Negative	Positive	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2655	DLBCL_DUKE_2655	DECEASED	30 to 70%	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2656	DLBCL_DUKE_2656	DECEASED	70% or more	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2657	DLBCL_DUKE_2657	LIVING	30 to 70%	Negative	Negative	Positive	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2658	DLBCL_DUKE_2658	DECEASED	30 to 70%	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2659	DLBCL_DUKE_2659	LIVING	30 to 70%	Negative	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2660	DLBCL_DUKE_2660	LIVING	< 30%	Negative	Positive	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2662	DLBCL_DUKE_2662	LIVING	70% or more	Positive	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_2663	DLBCL_DUKE_2663	LIVING	< 30%	Negative	Negative	Positive	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2664	DLBCL_DUKE_2664	DECEASED	70% or more	Positive	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2666	DLBCL_DUKE_2666	DECEASED	70% or more	Negative	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2667	DLBCL_DUKE_2667	LIVING	30 to 70%	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2669	DLBCL_DUKE_2669	LIVING	70% or more	Negative	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2671	DLBCL_DUKE_2671	DECEASED	70% or more	Negative	Positive	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2673	DLBCL_DUKE_2673	LIVING	< 30%	Negative	Positive	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2675	DLBCL_DUKE_2675	DECEASED	70% or more	Positive	Negative	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2676	DLBCL_DUKE_2676	LIVING	70% or more	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2677	DLBCL_DUKE_2677	LIVING	70% or more	Negative	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2678	DLBCL_DUKE_2678	LIVING	70% or more	Positive	Positive	Positive	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2680	DLBCL_DUKE_2680	LIVING	70% or more	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2681	DLBCL_DUKE_2681	LIVING	70% or more	Negative	Negative	Positive	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2684	DLBCL_DUKE_2684	LIVING	30 to 70%	Positive	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2685	DLBCL_DUKE_2685	DECEASED	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2687	DLBCL_DUKE_2687	LIVING	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_2688	DLBCL_DUKE_2688	DECEASED	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2689	DLBCL_DUKE_2689	LIVING	70% or more	Negative	Negative	Positive	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2690	DLBCL_DUKE_2690	LIVING	70% or more	Negative	Negative	Negative	Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_2691	DLBCL_DUKE_2691	LIVING	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2692	DLBCL_DUKE_2692	DECEASED	70% or more	Positive	Negative	Positive		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2696	DLBCL_DUKE_2696	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2697	DLBCL_DUKE_2697	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2698	DLBCL_DUKE_2698	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2699	DLBCL_DUKE_2699	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2700	DLBCL_DUKE_2700	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2704	DLBCL_DUKE_2704	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2705	DLBCL_DUKE_2705	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2706	DLBCL_DUKE_2706	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2707	DLBCL_DUKE_2707	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2709	DLBCL_DUKE_2709	DECEASED	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_DUKE_2713	DLBCL_DUKE_2713	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2714	DLBCL_DUKE_2714	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2715	DLBCL_DUKE_2715	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2716	DLBCL_DUKE_2716	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2718	DLBCL_DUKE_2718	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2719	DLBCL_DUKE_2719	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2720	DLBCL_DUKE_2720	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2725	DLBCL_DUKE_2725	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2727	DLBCL_DUKE_2727	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2728	DLBCL_DUKE_2728	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2758	DLBCL_DUKE_2758	DECEASED	70% or more	Negative	Negative	Negative	High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2761	DLBCL_DUKE_2761	DECEASED	70% or more	Negative	Negative	Negative	Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2762	DLBCL_DUKE_2762	LIVING	70% or more	Negative	Positive	Negative		DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2763	DLBCL_DUKE_2763	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2764	DLBCL_DUKE_2764	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_2765	DLBCL_DUKE_2765	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2766	DLBCL_DUKE_2766	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_2767	DLBCL_DUKE_2767	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2768	DLBCL_DUKE_2768	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2769	DLBCL_DUKE_2769	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2770	DLBCL_DUKE_2770	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2771	DLBCL_DUKE_2771	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2772	DLBCL_DUKE_2772	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2773	DLBCL_DUKE_2773	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2775	DLBCL_DUKE_2775	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2776	DLBCL_DUKE_2776	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2777	DLBCL_DUKE_2777	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2778	DLBCL_DUKE_2778	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2779	DLBCL_DUKE_2779	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_2781	DLBCL_DUKE_2781	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.7
+DLBCL_DUKE_2783	DLBCL_DUKE_2783	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2784	DLBCL_DUKE_2784	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2785	DLBCL_DUKE_2785	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2786	DLBCL_DUKE_2786	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2788	DLBCL_DUKE_2788	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2789	DLBCL_DUKE_2789	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2790	DLBCL_DUKE_2790	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2791	DLBCL_DUKE_2791	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2792	DLBCL_DUKE_2792	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2793	DLBCL_DUKE_2793	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2794	DLBCL_DUKE_2794	LIVING	< 30%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2805	DLBCL_DUKE_2805	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2806	DLBCL_DUKE_2806	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2808	DLBCL_DUKE_2808	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_2809	DLBCL_DUKE_2809	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2810	DLBCL_DUKE_2810	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2812	DLBCL_DUKE_2812	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2813	DLBCL_DUKE_2813	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2814	DLBCL_DUKE_2814	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2815	DLBCL_DUKE_2815	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2816	DLBCL_DUKE_2816	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2818	DLBCL_DUKE_2818	DECEASED	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2819	DLBCL_DUKE_2819	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2820	DLBCL_DUKE_2820	DECEASED	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_2821	DLBCL_DUKE_2821	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2823	DLBCL_DUKE_2823	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2824	DLBCL_DUKE_2824	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2826	DLBCL_DUKE_2826	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2827	DLBCL_DUKE_2827	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_2828	DLBCL_DUKE_2828	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2829	DLBCL_DUKE_2829	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2830	DLBCL_DUKE_2830	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2831	DLBCL_DUKE_2831	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2832	DLBCL_DUKE_2832	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.866666666667
+DLBCL_DUKE_2833	DLBCL_DUKE_2833	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2834	DLBCL_DUKE_2834	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2836	DLBCL_DUKE_2836	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_2837	DLBCL_DUKE_2837	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2838	DLBCL_DUKE_2838	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.33333333333
+DLBCL_DUKE_2839	DLBCL_DUKE_2839	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2840	DLBCL_DUKE_2840	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2841	DLBCL_DUKE_2841	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2843	DLBCL_DUKE_2843	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_2844	DLBCL_DUKE_2844	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2865	DLBCL_DUKE_2865	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2867	DLBCL_DUKE_2867	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2871	DLBCL_DUKE_2871	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2872	DLBCL_DUKE_2872	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2873	DLBCL_DUKE_2873	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2874	DLBCL_DUKE_2874	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2877	DLBCL_DUKE_2877	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2878	DLBCL_DUKE_2878	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2879	DLBCL_DUKE_2879	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_2881	DLBCL_DUKE_2881	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2882	DLBCL_DUKE_2882	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2884	DLBCL_DUKE_2884	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2886	DLBCL_DUKE_2886	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2887	DLBCL_DUKE_2887	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2888	DLBCL_DUKE_2888	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2889	DLBCL_DUKE_2889	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2891	DLBCL_DUKE_2891	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2892	DLBCL_DUKE_2892	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2893	DLBCL_DUKE_2893	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2894	DLBCL_DUKE_2894	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_2895	DLBCL_DUKE_2895	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2897	DLBCL_DUKE_2897	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2898	DLBCL_DUKE_2898	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2899	DLBCL_DUKE_2899	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2900	DLBCL_DUKE_2900	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2901	DLBCL_DUKE_2901	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_2902	DLBCL_DUKE_2902	DECEASED	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2903	DLBCL_DUKE_2903	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2904	DLBCL_DUKE_2904	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2905	DLBCL_DUKE_2905	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_2908	DLBCL_DUKE_2908	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2909	DLBCL_DUKE_2909	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2910	DLBCL_DUKE_2910	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2912	DLBCL_DUKE_2912	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2915	DLBCL_DUKE_2915	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2917	DLBCL_DUKE_2917	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2918	DLBCL_DUKE_2918	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_DUKE_2919	DLBCL_DUKE_2919	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2921	DLBCL_DUKE_2921	DECEASED	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2922	DLBCL_DUKE_2922	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2923	DLBCL_DUKE_2923	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2925	DLBCL_DUKE_2925	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_2928	DLBCL_DUKE_2928	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2931	DLBCL_DUKE_2931	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_2933	DLBCL_DUKE_2933	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.733333333333
+DLBCL_DUKE_2934	DLBCL_DUKE_2934	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_2935	DLBCL_DUKE_2935	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2936	DLBCL_DUKE_2936	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_2939	DLBCL_DUKE_2939	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_2940	DLBCL_DUKE_2940	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2941	DLBCL_DUKE_2941	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2944	DLBCL_DUKE_2944	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2945	DLBCL_DUKE_2945	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_2946	DLBCL_DUKE_2946	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_2947	DLBCL_DUKE_2947	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2948	DLBCL_DUKE_2948	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.766666666667
+DLBCL_DUKE_2949	DLBCL_DUKE_2949	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_2950	DLBCL_DUKE_2950	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.833333333333
+DLBCL_DUKE_2951	DLBCL_DUKE_2951	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_2952	DLBCL_DUKE_2952	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	1.03333333333
+DLBCL_DUKE_2953	DLBCL_DUKE_2953	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2954	DLBCL_DUKE_2954	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2955	DLBCL_DUKE_2955	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_2956	DLBCL_DUKE_2956	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_2957	DLBCL_DUKE_2957	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_2958	DLBCL_DUKE_2958	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_2995	DLBCL_DUKE_2995		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2996	DLBCL_DUKE_2996	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_2998	DLBCL_DUKE_2998		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_2999	DLBCL_DUKE_2999	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3382	DLBCL_DUKE_3382	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3384	DLBCL_DUKE_3384	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3385	DLBCL_DUKE_3385	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_DUKE_3386	DLBCL_DUKE_3386	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3387	DLBCL_DUKE_3387	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3388	DLBCL_DUKE_3388	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3389	DLBCL_DUKE_3389	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3390	DLBCL_DUKE_3390	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3394	DLBCL_DUKE_3394	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3396	DLBCL_DUKE_3396	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3397	DLBCL_DUKE_3397	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3398	DLBCL_DUKE_3398	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3399	DLBCL_DUKE_3399	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3400	DLBCL_DUKE_3400	LIVING	< 30%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3401	DLBCL_DUKE_3401	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.766666666667
+DLBCL_DUKE_3403	DLBCL_DUKE_3403	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3404	DLBCL_DUKE_3404	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3405	DLBCL_DUKE_3405	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3406	DLBCL_DUKE_3406	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3407	DLBCL_DUKE_3407	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3408	DLBCL_DUKE_3408	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3409	DLBCL_DUKE_3409	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3411	DLBCL_DUKE_3411	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3412	DLBCL_DUKE_3412	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3413	DLBCL_DUKE_3413	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3417	DLBCL_DUKE_3417	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3418	DLBCL_DUKE_3418	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3419	DLBCL_DUKE_3419	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3422	DLBCL_DUKE_3422	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3423	DLBCL_DUKE_3423	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3424	DLBCL_DUKE_3424	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3428	DLBCL_DUKE_3428	LIVING	< 30%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3429	DLBCL_DUKE_3429	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3430	DLBCL_DUKE_3430	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3431	DLBCL_DUKE_3431	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3432	DLBCL_DUKE_3432	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3433	DLBCL_DUKE_3433	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3434	DLBCL_DUKE_3434	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3435	DLBCL_DUKE_3435	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3438	DLBCL_DUKE_3438	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3439	DLBCL_DUKE_3439	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3440	DLBCL_DUKE_3440	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3441	DLBCL_DUKE_3441	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3444	DLBCL_DUKE_3444	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3446	DLBCL_DUKE_3446	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3447	DLBCL_DUKE_3447	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3448	DLBCL_DUKE_3448	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3449	DLBCL_DUKE_3449	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3450	DLBCL_DUKE_3450	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3451	DLBCL_DUKE_3451	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_3452	DLBCL_DUKE_3452	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3453	DLBCL_DUKE_3453	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3454	DLBCL_DUKE_3454	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3455	DLBCL_DUKE_3455	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3456	DLBCL_DUKE_3456	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3457	DLBCL_DUKE_3457	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3458	DLBCL_DUKE_3458	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3459	DLBCL_DUKE_3459	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3460	DLBCL_DUKE_3460	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3461	DLBCL_DUKE_3461	DECEASED	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3462	DLBCL_DUKE_3462	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3463	DLBCL_DUKE_3463	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3464	DLBCL_DUKE_3464	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3465	DLBCL_DUKE_3465	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3467	DLBCL_DUKE_3467	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3468	DLBCL_DUKE_3468	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3470	DLBCL_DUKE_3470	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3471	DLBCL_DUKE_3471	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3472	DLBCL_DUKE_3472	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3473	DLBCL_DUKE_3473	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3474	DLBCL_DUKE_3474	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3475	DLBCL_DUKE_3475	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3476	DLBCL_DUKE_3476	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3477	DLBCL_DUKE_3477	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3478	DLBCL_DUKE_3478	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3479	DLBCL_DUKE_3479	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3480	DLBCL_DUKE_3480	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3481	DLBCL_DUKE_3481	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3482	DLBCL_DUKE_3482	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3483	DLBCL_DUKE_3483	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3484	DLBCL_DUKE_3484	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3485	DLBCL_DUKE_3485	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3486	DLBCL_DUKE_3486	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3487	DLBCL_DUKE_3487	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3488	DLBCL_DUKE_3488	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3489	DLBCL_DUKE_3489	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3490	DLBCL_DUKE_3490	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3493	DLBCL_DUKE_3493	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3495	DLBCL_DUKE_3495	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3496	DLBCL_DUKE_3496	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_3497	DLBCL_DUKE_3497	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3498	DLBCL_DUKE_3498	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3500	DLBCL_DUKE_3500	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3502	DLBCL_DUKE_3502	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3503	DLBCL_DUKE_3503	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3504	DLBCL_DUKE_3504	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3505	DLBCL_DUKE_3505	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3506	DLBCL_DUKE_3506	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3507	DLBCL_DUKE_3507	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3508	DLBCL_DUKE_3508		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3510	DLBCL_DUKE_3510	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3511	DLBCL_DUKE_3511	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3512	DLBCL_DUKE_3512	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3513	DLBCL_DUKE_3513	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3514	DLBCL_DUKE_3514	LIVING	< 30%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3515	DLBCL_DUKE_3515	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3517	DLBCL_DUKE_3517	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3519	DLBCL_DUKE_3519	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3520	DLBCL_DUKE_3520		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3521	DLBCL_DUKE_3521	DECEASED	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3522	DLBCL_DUKE_3522	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3523	DLBCL_DUKE_3523	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3525	DLBCL_DUKE_3525	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3527	DLBCL_DUKE_3527	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3528	DLBCL_DUKE_3528	DECEASED	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3529	DLBCL_DUKE_3529	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3531	DLBCL_DUKE_3531		30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3532	DLBCL_DUKE_3532	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3535	DLBCL_DUKE_3535	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3536	DLBCL_DUKE_3536	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3537	DLBCL_DUKE_3537	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3538	DLBCL_DUKE_3538	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3539	DLBCL_DUKE_3539		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3540	DLBCL_DUKE_3540	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3542	DLBCL_DUKE_3542	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3545	DLBCL_DUKE_3545	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3546	DLBCL_DUKE_3546	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3547	DLBCL_DUKE_3547	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3548	DLBCL_DUKE_3548	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.666666666667
+DLBCL_DUKE_3549	DLBCL_DUKE_3549	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3551	DLBCL_DUKE_3551	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3552	DLBCL_DUKE_3552	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3553	DLBCL_DUKE_3553	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3555	DLBCL_DUKE_3555	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3556	DLBCL_DUKE_3556	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3557	DLBCL_DUKE_3557	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3558	DLBCL_DUKE_3558	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3559	DLBCL_DUKE_3559	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3560	DLBCL_DUKE_3560	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3561	DLBCL_DUKE_3561	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3562	DLBCL_DUKE_3562	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3563	DLBCL_DUKE_3563	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3565	DLBCL_DUKE_3565	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3566	DLBCL_DUKE_3566	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3579	DLBCL_DUKE_3579	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3580	DLBCL_DUKE_3580	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3582	DLBCL_DUKE_3582	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_3584	DLBCL_DUKE_3584	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3585	DLBCL_DUKE_3585	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3586	DLBCL_DUKE_3586	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_3587	DLBCL_DUKE_3587	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3589	DLBCL_DUKE_3589	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3590	DLBCL_DUKE_3590	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3591	DLBCL_DUKE_3591	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3592	DLBCL_DUKE_3592	LIVING	< 30%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3593	DLBCL_DUKE_3593	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3594	DLBCL_DUKE_3594	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3595	DLBCL_DUKE_3595	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3596	DLBCL_DUKE_3596	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3597	DLBCL_DUKE_3597	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3598	DLBCL_DUKE_3598	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3600	DLBCL_DUKE_3600	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3601	DLBCL_DUKE_3601	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3602	DLBCL_DUKE_3602	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.7
+DLBCL_DUKE_3603	DLBCL_DUKE_3603	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3604	DLBCL_DUKE_3604	LIVING	< 30%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3605	DLBCL_DUKE_3605	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3606	DLBCL_DUKE_3606	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3607	DLBCL_DUKE_3607	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3608	DLBCL_DUKE_3608	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3609	DLBCL_DUKE_3609	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_DUKE_3610	DLBCL_DUKE_3610	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3611	DLBCL_DUKE_3611	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3612	DLBCL_DUKE_3612	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3613	DLBCL_DUKE_3613	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3614	DLBCL_DUKE_3614	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3615	DLBCL_DUKE_3615	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3616	DLBCL_DUKE_3616	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3617	DLBCL_DUKE_3617	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3618	DLBCL_DUKE_3618	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3620	DLBCL_DUKE_3620	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.933333333333
+DLBCL_DUKE_3622	DLBCL_DUKE_3622	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.766666666667
+DLBCL_DUKE_3623	DLBCL_DUKE_3623	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3624	DLBCL_DUKE_3624	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3625	DLBCL_DUKE_3625	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.7
+DLBCL_DUKE_3627	DLBCL_DUKE_3627	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_DUKE_3628	DLBCL_DUKE_3628	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_3629	DLBCL_DUKE_3629	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3630	DLBCL_DUKE_3630	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3631	DLBCL_DUKE_3631	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3632	DLBCL_DUKE_3632	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3634	DLBCL_DUKE_3634	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3635	DLBCL_DUKE_3635	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3636	DLBCL_DUKE_3636	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3637	DLBCL_DUKE_3637	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3638	DLBCL_DUKE_3638	DECEASED	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3639	DLBCL_DUKE_3639	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3640	DLBCL_DUKE_3640	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3642	DLBCL_DUKE_3642	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3643	DLBCL_DUKE_3643	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3644	DLBCL_DUKE_3644	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3645	DLBCL_DUKE_3645	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3646	DLBCL_DUKE_3646	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3647	DLBCL_DUKE_3647	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3648	DLBCL_DUKE_3648	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3649	DLBCL_DUKE_3649	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3651	DLBCL_DUKE_3651	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3652	DLBCL_DUKE_3652	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3653	DLBCL_DUKE_3653	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_3654	DLBCL_DUKE_3654	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_3655	DLBCL_DUKE_3655	DECEASED	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_3656	DLBCL_DUKE_3656	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3657	DLBCL_DUKE_3657	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3659	DLBCL_DUKE_3659	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3660	DLBCL_DUKE_3660	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3661	DLBCL_DUKE_3661	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3662	DLBCL_DUKE_3662	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3663	DLBCL_DUKE_3663	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3664	DLBCL_DUKE_3664	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3665	DLBCL_DUKE_3665	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3666	DLBCL_DUKE_3666	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3667	DLBCL_DUKE_3667	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_3668	DLBCL_DUKE_3668	DECEASED	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3669	DLBCL_DUKE_3669	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.566666666667
+DLBCL_DUKE_3671	DLBCL_DUKE_3671	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3672	DLBCL_DUKE_3672	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3673	DLBCL_DUKE_3673	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3674	DLBCL_DUKE_3674	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_DUKE_3675	DLBCL_DUKE_3675	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3677	DLBCL_DUKE_3677	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3679	DLBCL_DUKE_3679	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3680	DLBCL_DUKE_3680	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3681	DLBCL_DUKE_3681	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3682	DLBCL_DUKE_3682	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_3683	DLBCL_DUKE_3683	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3684	DLBCL_DUKE_3684	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_3685	DLBCL_DUKE_3685	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3686	DLBCL_DUKE_3686	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3687	DLBCL_DUKE_3687	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3688	DLBCL_DUKE_3688	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3689	DLBCL_DUKE_3689	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3691	DLBCL_DUKE_3691	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3692	DLBCL_DUKE_3692	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3693	DLBCL_DUKE_3693	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3694	DLBCL_DUKE_3694	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3696	DLBCL_DUKE_3696	DECEASED	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3697	DLBCL_DUKE_3697	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3698	DLBCL_DUKE_3698	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3699	DLBCL_DUKE_3699	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_DUKE_3700	DLBCL_DUKE_3700	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3701	DLBCL_DUKE_3701	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3703	DLBCL_DUKE_3703	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3704	DLBCL_DUKE_3704	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3705	DLBCL_DUKE_3705	DECEASED	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3706	DLBCL_DUKE_3706	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3707	DLBCL_DUKE_3707	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3708	DLBCL_DUKE_3708	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3709	DLBCL_DUKE_3709	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3711	DLBCL_DUKE_3711	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3712	DLBCL_DUKE_3712	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_3713	DLBCL_DUKE_3713	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3715	DLBCL_DUKE_3715	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3716	DLBCL_DUKE_3716	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3717	DLBCL_DUKE_3717	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3718	DLBCL_DUKE_3718	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3719	DLBCL_DUKE_3719	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3721	DLBCL_DUKE_3721	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3722	DLBCL_DUKE_3722	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3724	DLBCL_DUKE_3724	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3725	DLBCL_DUKE_3725	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3726	DLBCL_DUKE_3726	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3727	DLBCL_DUKE_3727	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3728	DLBCL_DUKE_3728	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3729	DLBCL_DUKE_3729	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3730	DLBCL_DUKE_3730	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3731	DLBCL_DUKE_3731	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3732	DLBCL_DUKE_3732	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3733	DLBCL_DUKE_3733	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3734	DLBCL_DUKE_3734	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3735	DLBCL_DUKE_3735	LIVING	< 30%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3736	DLBCL_DUKE_3736	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3737	DLBCL_DUKE_3737	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3739	DLBCL_DUKE_3739	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3740	DLBCL_DUKE_3740	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3741	DLBCL_DUKE_3741	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3742	DLBCL_DUKE_3742	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3743	DLBCL_DUKE_3743	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3744	DLBCL_DUKE_3744	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3745	DLBCL_DUKE_3745	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.666666666667
+DLBCL_DUKE_3746	DLBCL_DUKE_3746	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3747	DLBCL_DUKE_3747	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3748	DLBCL_DUKE_3748	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3749	DLBCL_DUKE_3749	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3750	DLBCL_DUKE_3750	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3751	DLBCL_DUKE_3751	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3753	DLBCL_DUKE_3753	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3754	DLBCL_DUKE_3754	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3755	DLBCL_DUKE_3755	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3756	DLBCL_DUKE_3756	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3757	DLBCL_DUKE_3757	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3758	DLBCL_DUKE_3758	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3759	DLBCL_DUKE_3759	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3760	DLBCL_DUKE_3760	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3761	DLBCL_DUKE_3761	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3762	DLBCL_DUKE_3762	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3763	DLBCL_DUKE_3763	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3764	DLBCL_DUKE_3764	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3765	DLBCL_DUKE_3765	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3766	DLBCL_DUKE_3766	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3767	DLBCL_DUKE_3767	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3770	DLBCL_DUKE_3770	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3771	DLBCL_DUKE_3771	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3775	DLBCL_DUKE_3775	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3776	DLBCL_DUKE_3776	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3777	DLBCL_DUKE_3777	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3778	DLBCL_DUKE_3778	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3779	DLBCL_DUKE_3779	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3780	DLBCL_DUKE_3780	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3781	DLBCL_DUKE_3781	LIVING	< 30%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3782	DLBCL_DUKE_3782	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3783	DLBCL_DUKE_3783	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3784	DLBCL_DUKE_3784	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3785	DLBCL_DUKE_3785	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3786	DLBCL_DUKE_3786	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3787	DLBCL_DUKE_3787	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3810	DLBCL_DUKE_3810		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3811	DLBCL_DUKE_3811	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3812	DLBCL_DUKE_3812	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_DUKE_3813	DLBCL_DUKE_3813	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3814	DLBCL_DUKE_3814	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3815	DLBCL_DUKE_3815	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3816	DLBCL_DUKE_3816	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_DUKE_3817	DLBCL_DUKE_3817	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3819	DLBCL_DUKE_3819	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3820	DLBCL_DUKE_3820	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3821	DLBCL_DUKE_3821	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3822	DLBCL_DUKE_3822	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3823	DLBCL_DUKE_3823	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3824	DLBCL_DUKE_3824	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3825	DLBCL_DUKE_3825	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3826	DLBCL_DUKE_3826	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_DUKE_3827	DLBCL_DUKE_3827	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3828	DLBCL_DUKE_3828	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3829	DLBCL_DUKE_3829	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3830	DLBCL_DUKE_3830	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3831	DLBCL_DUKE_3831	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3832	DLBCL_DUKE_3832	DECEASED	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3833	DLBCL_DUKE_3833	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_3834	DLBCL_DUKE_3834	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.833333333333
+DLBCL_DUKE_3835	DLBCL_DUKE_3835	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3836	DLBCL_DUKE_3836	DECEASED	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3837	DLBCL_DUKE_3837	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.8
+DLBCL_DUKE_3838	DLBCL_DUKE_3838	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3839	DLBCL_DUKE_3839	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3840	DLBCL_DUKE_3840	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3842	DLBCL_DUKE_3842	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3843	DLBCL_DUKE_3843	DECEASED	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3845	DLBCL_DUKE_3845		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3846	DLBCL_DUKE_3846	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3847	DLBCL_DUKE_3847	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3848	DLBCL_DUKE_3848	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3849	DLBCL_DUKE_3849	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3851	DLBCL_DUKE_3851	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3852	DLBCL_DUKE_3852	DECEASED	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3854	DLBCL_DUKE_3854	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3856	DLBCL_DUKE_3856	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_3857	DLBCL_DUKE_3857	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3859	DLBCL_DUKE_3859	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3861	DLBCL_DUKE_3861	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3865	DLBCL_DUKE_3865	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3867	DLBCL_DUKE_3867	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3871	DLBCL_DUKE_3871	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3872	DLBCL_DUKE_3872	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_DUKE_3873	DLBCL_DUKE_3873	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3875	DLBCL_DUKE_3875	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3876	DLBCL_DUKE_3876	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3879	DLBCL_DUKE_3879	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3880	DLBCL_DUKE_3880	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3881	DLBCL_DUKE_3881	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3882	DLBCL_DUKE_3882	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3883	DLBCL_DUKE_3883	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3885	DLBCL_DUKE_3885		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3886	DLBCL_DUKE_3886	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3887	DLBCL_DUKE_3887	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_3888	DLBCL_DUKE_3888	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3889	DLBCL_DUKE_3889	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3891	DLBCL_DUKE_3891	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3892	DLBCL_DUKE_3892	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3893	DLBCL_DUKE_3893	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3894	DLBCL_DUKE_3894	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3895	DLBCL_DUKE_3895	LIVING	< 30%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3896	DLBCL_DUKE_3896		70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_3898	DLBCL_DUKE_3898	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3899	DLBCL_DUKE_3899	LIVING	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3900	DLBCL_DUKE_3900	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3901	DLBCL_DUKE_3901	DECEASED	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_3902	DLBCL_DUKE_3902	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3903	DLBCL_DUKE_3903	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3904	DLBCL_DUKE_3904	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3905	DLBCL_DUKE_3905	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3906	DLBCL_DUKE_3906	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3907	DLBCL_DUKE_3907	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3908	DLBCL_DUKE_3908	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3909	DLBCL_DUKE_3909	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3910	DLBCL_DUKE_3910	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3911	DLBCL_DUKE_3911	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3912	DLBCL_DUKE_3912	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3913	DLBCL_DUKE_3913	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3914	DLBCL_DUKE_3914	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3915	DLBCL_DUKE_3915	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3916	DLBCL_DUKE_3916	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_3917	DLBCL_DUKE_3917	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3918	DLBCL_DUKE_3918	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3919	DLBCL_DUKE_3919	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3920	DLBCL_DUKE_3920	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3921	DLBCL_DUKE_3921	DECEASED	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3922	DLBCL_DUKE_3922	DECEASED	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3923	DLBCL_DUKE_3923	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.533333333333
+DLBCL_DUKE_3924	DLBCL_DUKE_3924	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.433333333333
+DLBCL_DUKE_3925	DLBCL_DUKE_3925	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3926	DLBCL_DUKE_3926	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3927	DLBCL_DUKE_3927	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3928	DLBCL_DUKE_3928	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3929	DLBCL_DUKE_3929	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3930	DLBCL_DUKE_3930	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3931	DLBCL_DUKE_3931	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3932	DLBCL_DUKE_3932	DECEASED	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.466666666667
+DLBCL_DUKE_3933	DLBCL_DUKE_3933	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.6
+DLBCL_DUKE_3934	DLBCL_DUKE_3934	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3935	DLBCL_DUKE_3935	DECEASED	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3936	DLBCL_DUKE_3936	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3937	DLBCL_DUKE_3937	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3938	DLBCL_DUKE_3938	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3939	DLBCL_DUKE_3939	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3940	DLBCL_DUKE_3940	LIVING	30 to 70%				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3941	DLBCL_DUKE_3941	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3942	DLBCL_DUKE_3942	DECEASED	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3943	DLBCL_DUKE_3943	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3944	DLBCL_DUKE_3944	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.5
+DLBCL_DUKE_3945	DLBCL_DUKE_3945	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3946	DLBCL_DUKE_3946	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3948	DLBCL_DUKE_3948	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3949	DLBCL_DUKE_3949	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3950	DLBCL_DUKE_3950	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3951	DLBCL_DUKE_3951	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3952	DLBCL_DUKE_3952	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3953	DLBCL_DUKE_3953	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3954	DLBCL_DUKE_3954	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3955	DLBCL_DUKE_3955	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3956	DLBCL_DUKE_3956	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3957	DLBCL_DUKE_3957	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3958	DLBCL_DUKE_3958	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3959	DLBCL_DUKE_3959	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3960	DLBCL_DUKE_3960	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3961	DLBCL_DUKE_3961	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3962	DLBCL_DUKE_3962	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA
+DLBCL_DUKE_3963	DLBCL_DUKE_3963	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3964	DLBCL_DUKE_3964	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3965	DLBCL_DUKE_3965	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3966	DLBCL_DUKE_3966	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3967	DLBCL_DUKE_3967	DECEASED	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3968	DLBCL_DUKE_3968	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3969	DLBCL_DUKE_3969	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3971	DLBCL_DUKE_3971	DECEASED	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3972	DLBCL_DUKE_3972	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3973	DLBCL_DUKE_3973	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3974	DLBCL_DUKE_3974	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3975	DLBCL_DUKE_3975	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0666666666667
+DLBCL_DUKE_3976	DLBCL_DUKE_3976	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3977	DLBCL_DUKE_3977	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.4
+DLBCL_DUKE_3978	DLBCL_DUKE_3978	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3979	DLBCL_DUKE_3979	DECEASED	< 30%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3980	DLBCL_DUKE_3980	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3981	DLBCL_DUKE_3981	LIVING	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3982	DLBCL_DUKE_3982	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.0333333333333
+DLBCL_DUKE_3983	DLBCL_DUKE_3983	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3984	DLBCL_DUKE_3984	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3985	DLBCL_DUKE_3985	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3986	DLBCL_DUKE_3986	LIVING	30 to 70%				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3987	DLBCL_DUKE_3987	LIVING	70% or more				Low risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.3
+DLBCL_DUKE_3988	DLBCL_DUKE_3988	LIVING	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3989	DLBCL_DUKE_3989	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_3990	DLBCL_DUKE_3990	DECEASED	< 30%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.333333333333
+DLBCL_DUKE_3991	DLBCL_DUKE_3991	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3992	DLBCL_DUKE_3992	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.233333333333
+DLBCL_DUKE_3993	DLBCL_DUKE_3993	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.166666666667
+DLBCL_DUKE_3994	DLBCL_DUKE_3994	DECEASED	70% or more				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3995	DLBCL_DUKE_3995	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.133333333333
+DLBCL_DUKE_3996	DLBCL_DUKE_3996	LIVING	30 to 70%					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.2
+DLBCL_DUKE_3997	DLBCL_DUKE_3997	LIVING	70% or more				Medium risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.1
+DLBCL_DUKE_3998	DLBCL_DUKE_3998	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.266666666667
+DLBCL_DUKE_3999	DLBCL_DUKE_3999	DECEASED	30 to 70%				High risk	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	0.366666666667
+DLBCL_DUKE_4000	DLBCL_DUKE_4000	LIVING	70% or more					DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	NA

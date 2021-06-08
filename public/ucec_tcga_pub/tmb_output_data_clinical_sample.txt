@@ -1,0 +1,378 @@
+#Sample Identifier	Patient Identifier	Tumor Stage 2009	Oncotree Code	Cancer Type	Cancer Type Detailed	Neoplasm Histologic Grade	MSI Status 7 Marker Call	MSI Status 5 Marker Call	MAF Data	CNA Data	RNA-SEQ Data	Data Core Sample	MRNA Expression Cluster	Methylation Cluster	MLH1 Silencing	CNA Cluster K4	Mutation Rate Cluster	MicroRNA Cluster	MicroRNA Score	Sample Type	Somatic Status	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Tumor stage 2009.	Oncotree Code	Cancer Type	Cancer Type Detailed	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	MSI status 7 marker call.	MSI status 5 marker call.	MAF Data.	CNA data.	RNA-SEQ data.	Data core sample.	MRNA expression cluster.	Methylation cluster.	Epigenetic silencing status of MLH1.	CNA cluster K4.	Mutation rate cluster	MicroRNA cluster.	MicroRNA score.	The type of sample (i.e., normal, primary, met, recurrence).	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	9	1	1
+SAMPLE_ID	PATIENT_ID	TUMOR_STAGE_2009	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	GRADE	MSI_STATUS_7_MARKER_CALL	MSI_STATUS_5_MARKER_CALL	MAF_DATA	CNA_DATA	RNASEQ_DATA	DATA_CORE_SAMPLE	MRNA_EXPRESSION_CLUSTER	METHYLATION_CLUSTER	MLH1_SILENCING	CNA_CLUSTER_K4	MUTATION_RATE_CLUSTER	MICRO_RNA_CLUSTER	MICRO_RNA_SCORE	SAMPLE_TYPE	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+TCGA-A5-A0G9-01	TCGA-A5-A0G9	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	3	2_HIGH	6	0.936182815	Primary	Matched	6.8
+TCGA-A5-A0GA-01	TCGA-A5-A0GA	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	1	2	1	3	2_HIGH	4	0.923555802	Primary	Matched	7.36666666667
+TCGA-A5-A0GB-01	TCGA-A5-A0GB	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	2_HIGH	NA	NA	Primary	Matched	16.9666666667
+TCGA-A5-A0GD-01	TCGA-A5-A0GD	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	N	Y	N	2	1	1	NA	NA	1	0.795833159	Primary	Matched	0.1
+TCGA-A5-A0GE-01	TCGA-A5-A0GE	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	2	0	2	1_LOW	4	0.8681518	Primary	Matched	0.833333333333
+TCGA-A5-A0GG-01	TCGA-A5-A0GG	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	N	Y	Y	N	1	3	1	2	NA	2	0.953263868	Primary	Matched	NA
+TCGA-A5-A0GH-01	TCGA-A5-A0GH	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	1	2	1	1	2_HIGH	4	0.923555802	Primary	Matched	10.1333333333
+TCGA-A5-A0GI-01	TCGA-A5-A0GI	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	2	2_HIGH	5	0.869799717	Primary	Matched	6.6
+TCGA-A5-A0GJ-01	TCGA-A5-A0GJ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	1	0	4	1_LOW	3	0.888897494	Primary	Matched	2.16666666667
+TCGA-A5-A0GM-01	TCGA-A5-A0GM	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	2	0	1	1_LOW	6	0.769037046	Primary	Matched	1.1
+TCGA-A5-A0GN-01	TCGA-A5-A0GN	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	1	0	4	1_LOW	NA	NA	Primary	Matched	1.5
+TCGA-A5-A0GP-01	TCGA-A5-A0GP	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	1	2	0	1	3_HIGHEST	6	0.751790929	Primary	Matched	41.4666666667
+TCGA-A5-A0GQ-01	TCGA-A5-A0GQ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	4	0	1	1_LOW	6	0.936182815	Primary	Matched	1.73333333333
+TCGA-A5-A0GR-01	TCGA-A5-A0GR	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	Y	N	3	4	0	4	NA	1	0.86844934	Primary	Matched	NA
+TCGA-A5-A0GU-01	TCGA-A5-A0GU	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	2	0	3	1_LOW	6	0.936182815	Primary	Matched	1.36666666667
+TCGA-A5-A0GV-01	TCGA-A5-A0GV	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	2	0	3	1_LOW	5	0.932869329	Primary	Matched	1.4
+TCGA-A5-A0GW-01	TCGA-A5-A0GW	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	1	2	1	2	2_HIGH	2	0.79763473	Primary	Matched	6.86666666667
+TCGA-A5-A0GX-01	TCGA-A5-A0GX	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	2	1_LOW	2	0.953263868	Primary	Matched	1.06666666667
+TCGA-A5-A0R7-01	TCGA-A5-A0R7	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	2	0	4	1_LOW	4	0.877287726	Primary	Matched	1.33333333333
+TCGA-A5-A0R8-01	TCGA-A5-A0R8	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	1	1_LOW	1	0.71082576	Primary	Matched	2.4
+TCGA-A5-A0R9-01	TCGA-A5-A0R9	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	2	1_LOW	6	0.936182815	Primary	Matched	1.16666666667
+TCGA-A5-A0RA-01	TCGA-A5-A0RA	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	2	0	1	1_LOW	4	0.923555802	Primary	Matched	2.36666666667
+TCGA-A5-A0VO-01	TCGA-A5-A0VO	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	N	N	N	NA	1	1	NA	1_LOW	4	0.70262485	Primary	Matched	1.8
+TCGA-A5-A0VP-01	TCGA-A5-A0VP	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	2	1	0	2	3_HIGHEST	1	0.874537804	Primary	Matched	38.2
+TCGA-A5-A0VQ-01	TCGA-A5-A0VQ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	1	2_HIGH	5	0.932869329	Primary	Matched	9.76666666667
+TCGA-A5-A1OJ-01	TCGA-A5-A1OJ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	N	N	NA	2	1	2	NA	5	0.890025216	Primary	Matched	NA
+TCGA-A5-A1OK-01	TCGA-A5-A1OK	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	2	2	0	3	NA	2	0.953263868	Primary	Matched	NA
+TCGA-AJ-A23O-01	TCGA-AJ-A23O	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	3	2	1	3	NA	2	0.908260689	Primary	Matched	NA
+TCGA-AP-A051-01	TCGA-AP-A051	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	3	3_HIGHEST	5	0.932869329	Primary	Matched	225.866666667
+TCGA-AP-A053-01	TCGA-AP-A053	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.877287726	Primary	Matched	1.53333333333
+TCGA-AP-A054-01	TCGA-AP-A054	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	1	1	1	2	3_HIGHEST	3	0.897648505	Primary	Matched	27.8666666667
+TCGA-AP-A056-01	TCGA-AP-A056	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-L	MSI-L	Y	Y	Y	Y	1	1	0	1	3_HIGHEST	NA	NA	Primary	Matched	240.966666667
+TCGA-AP-A059-01	TCGA-AP-A059	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	1	4	0	2	3_HIGHEST	2	0.953263868	Primary	Matched	308.433333333
+TCGA-AP-A05N-01	TCGA-AP-A05N	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	1	2_HIGH	NA	NA	Primary	Matched	5.46666666667
+TCGA-AP-A05O-01	TCGA-AP-A05O	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	2	2	1	2	NA	2	0.953263868	Primary	Matched	NA
+TCGA-AP-A05P-01	TCGA-AP-A05P	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	3	1_LOW	1	0.918650794	Primary	Matched	1.0
+TCGA-AP-A0LD-01	TCGA-AP-A0LD	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	2	1	2	2_HIGH	2	0.790575691	Primary	Matched	11.9
+TCGA-AP-A0LE-01	TCGA-AP-A0LE	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	2	2_HIGH	5	0.932869329	Primary	Matched	12.4333333333
+TCGA-AP-A0LF-01	TCGA-AP-A0LF	Stage IV	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	4	0	4	2_HIGH	4	0.877755907	Primary	Matched	5.93333333333
+TCGA-AP-A0LG-01	TCGA-AP-A0LG	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	1	2_HIGH	5	0.932869329	Primary	Matched	9.83333333333
+TCGA-AP-A0LJ-01	TCGA-AP-A0LJ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	4	0	2	1_LOW	4	0.923555802	Primary	Matched	1.3
+TCGA-AP-A0LL-01	TCGA-AP-A0LL	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	2	0	3	1_LOW	5	0.932869329	Primary	Matched	1.4
+TCGA-AP-A0LM-01	TCGA-AP-A0LM	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	3	4	0	1	3_HIGHEST	2	0.953263868	Primary	Matched	350.466666667
+TCGA-AP-A0LN-01	TCGA-AP-A0LN	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	2	0	2	1_LOW	6	0.460983716	Primary	Matched	1.46666666667
+TCGA-AP-A0LO-01	TCGA-AP-A0LO	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	2	1	3	1_LOW	NA	NA	Primary	Matched	0.9
+TCGA-AP-A0LP-01	TCGA-AP-A0LP	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	2	1	1	2_HIGH	6	0.936182815	Primary	Matched	6.86666666667
+TCGA-AP-A0LQ-01	TCGA-AP-A0LQ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	N	N	NA	4	0	2	1_LOW	4	0.923555802	Primary	Matched	1.4
+TCGA-AP-A0LS-01	TCGA-AP-A0LS	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	N	N	NA	1	1	1	NA	6	0.936182815	Primary	Matched	NA
+TCGA-AP-A0LT-01	TCGA-AP-A0LT	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	1	2_HIGH	5	0.932869329	Primary	Matched	15.8
+TCGA-AP-A0LV-01	TCGA-AP-A0LV	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	4	0	1	1_LOW	4	0.923555802	Primary	Matched	0.633333333333
+TCGA-AP-A1DH-01	TCGA-AP-A1DH	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	1	1	1	NA	3	0.897648505	Primary	Matched	NA
+TCGA-AP-A1DK-01	TCGA-AP-A1DK	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	3	0	1	NA	2	0.953263868	Primary	Matched	NA
+TCGA-AP-A1DM-01	TCGA-AP-A1DM	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	N	Y	Y	N	2	1	1	2	NA	5	0.932869329	Primary	Matched	NA
+TCGA-AP-A1DO-01	TCGA-AP-A1DO	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	Y	N	2	1	1	3	NA	5	0.932869329	Primary	Matched	NA
+TCGA-AP-A1DP-01	TCGA-AP-A1DP	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	N	N	NA	1	1	3	NA	5	0.932869329	Primary	Matched	NA
+TCGA-AP-A1DR-01	TCGA-AP-A1DR	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	Y	N	2	1	1	1	NA	5	0.80219575	Primary	Matched	NA
+TCGA-AP-A1DV-01	TCGA-AP-A1DV	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSI-L	N	Y	Y	N	2	1	0	2	NA	6	0.898513296	Primary	Matched	NA
+TCGA-AP-A1E0-01	TCGA-AP-A1E0	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSI-L	N	Y	Y	N	1	1	0	1	NA	1	0.918650794	Primary	Matched	NA
+TCGA-AP-A1E1-01	TCGA-AP-A1E1	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	Y	N	2	1	1	3	NA	5	0.932869329	Primary	Matched	NA
+TCGA-AP-A1E3-01	TCGA-AP-A1E3	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	2	0	2	NA	2	0.953263868	Primary	Matched	NA
+TCGA-AP-A1E4-01	TCGA-AP-A1E4	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	Y	N	1	3	0	3	NA	1	0.918650794	Primary	Matched	NA
+TCGA-AW-A1PO-01	TCGA-AW-A1PO	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	3	0.897648505	Primary	Matched	NA
+TCGA-AX-A05S-01	TCGA-AX-A05S	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	2	2_HIGH	4	0.909932648	Primary	Matched	12.6
+TCGA-AX-A05T-01	TCGA-AX-A05T	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	2	0	2	1_LOW	5	0.890025216	Primary	Matched	1.36666666667
+TCGA-AX-A05U-01	TCGA-AX-A05U	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	6	0.936182815	Primary	Matched	0.966666666667
+TCGA-AX-A05W-01	TCGA-AX-A05W	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	N	N	NA	1	0	2	1_LOW	4	0.923555802	Primary	Matched	1.5
+TCGA-AX-A05Y-01	TCGA-AX-A05Y	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	2	1	2	2_HIGH	6	0.936182815	Primary	Matched	4.33333333333
+TCGA-AX-A05Z-01	TCGA-AX-A05Z	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	1	0	2	3_HIGHEST	4	0.842435138	Primary	Matched	190.266666667
+TCGA-AX-A060-01	TCGA-AX-A060	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	3	2_HIGH	5	0.932869329	Primary	Matched	17.1333333333
+TCGA-AX-A062-01	TCGA-AX-A062	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	1	1_LOW	4	0.923555802	Primary	Matched	0.933333333333
+TCGA-AX-A063-01	TCGA-AX-A063	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	3_HIGHEST	5	0.932869329	Primary	Matched	23.9333333333
+TCGA-AX-A064-01	TCGA-AX-A064	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	2	1	3	2_HIGH	NA	NA	Primary	Matched	6.43333333333
+TCGA-AX-A06B-01	TCGA-AX-A06B	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	4	0	4	1_LOW	2	0.953263868	Primary	Matched	1.06666666667
+TCGA-AX-A06D-01	TCGA-AX-A06D	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	Y	N	3	2	0	2	NA	1	0.918650794	Primary	Matched	NA
+TCGA-AX-A06F-01	TCGA-AX-A06F	Stage IV	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-L	MSI-L	N	Y	Y	N	1	2	0	2	NA	4	0.914765853	Primary	Matched	NA
+TCGA-AX-A06H-01	TCGA-AX-A06H	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	1	2_HIGH	2	0.953263868	Primary	Matched	9.43333333333
+TCGA-AX-A06J-01	TCGA-AX-A06J	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	3	1	0	2	NA	4	0.828806248	Primary	Matched	NA
+TCGA-AX-A06L-01	TCGA-AX-A06L	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	N	N	NA	3	0	1	1_LOW	6	0.936182815	Primary	Matched	1.0
+TCGA-AX-A0IS-01	TCGA-AX-A0IS	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	2	0	3	1_LOW	5	0.843520432	Primary	Matched	1.7
+TCGA-AX-A0IZ-01	TCGA-AX-A0IZ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	3	2	0	1	NA	2	0.912165907	Primary	Matched	NA
+TCGA-AX-A0J0-01	TCGA-AX-A0J0	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSI-L	Y	Y	Y	Y	1	4	0	1	3_HIGHEST	4	0.877287726	Primary	Matched	232.633333333
+TCGA-AX-A0J1-01	TCGA-AX-A0J1	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	3	3_HIGHEST	4	0.876855817	Primary	Matched	129.033333333
+TCGA-AX-A1C4-01	TCGA-AX-A1C4	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	Y	N	1	1	1	2	NA	5	0.932869329	Primary	Matched	NA
+TCGA-AX-A1C5-01	TCGA-AX-A1C5	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	2	0	2	NA	3	0.390770931	Primary	Matched	NA
+TCGA-AX-A1C9-01	TCGA-AX-A1C9	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	Y	N	1	2	0	2	NA	1	0.911154351	Primary	Matched	NA
+TCGA-AX-A1CE-01	TCGA-AX-A1CE	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	2	1	0	1	NA	6	0.802482844	Primary	Matched	NA
+TCGA-AX-A1CF-01	TCGA-AX-A1CF	Stage IV	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	4	0.596528	Primary	Matched	NA
+TCGA-AX-A1CI-01	TCGA-AX-A1CI	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	N	Y	Y	N	2	2	0	2	NA	1	0.894790354	Primary	Matched	NA
+TCGA-AX-A1CJ-01	TCGA-AX-A1CJ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	Indeterminant	Indeterminant	N	Y	Y	N	3	4	0	2	NA	6	0.936182815	Primary	Matched	NA
+TCGA-AX-A1CK-01	TCGA-AX-A1CK	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	Y	N	2	1	0	3	NA	3	0.829517277	Primary	Matched	NA
+TCGA-AX-A1CN-01	TCGA-AX-A1CN	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-L	MSI-L	N	Y	Y	N	1	3	0	2	NA	3	0.897648505	Primary	Matched	NA
+TCGA-AX-A2H8-01	TCGA-AX-A2H8	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-L	MSI-L	N	Y	N	N	NA	3	0	4	NA	4	0.877287726	Primary	Matched	NA
+TCGA-AX-A2HC-01	TCGA-AX-A2HC	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	1	0	2	NA	3	0.897648505	Primary	Matched	NA
+TCGA-AX-A2HD-01	TCGA-AX-A2HD	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	2	1	2	NA	5	0.842998833	Primary	Matched	NA
+TCGA-AX-A2HG-01	TCGA-AX-A2HG	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	2	1	2	NA	1	0.918650794	Primary	Matched	NA
+TCGA-AX-A2HH-01	TCGA-AX-A2HH	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	N	N	NA	2	0	3	NA	1	0.918650794	Primary	Matched	NA
+TCGA-AX-A2HJ-01	TCGA-AX-A2HJ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	2	2	1	2	NA	3	0.897648505	Primary	Matched	NA
+TCGA-AX-A2HK-01	TCGA-AX-A2HK	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	6	0.936182815	Primary	Matched	NA
+TCGA-B5-A0JR-01	TCGA-B5-A0JR	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	N	N	NA	1	1	3	2_HIGH	NA	NA	Primary	Matched	14.6666666667
+TCGA-B5-A0JS-01	TCGA-B5-A0JS	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	6	0.936182815	Primary	Matched	0.9
+TCGA-B5-A0JT-01	TCGA-B5-A0JT	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	2	0.953263868	Primary	Matched	1.6
+TCGA-B5-A0JU-01	TCGA-B5-A0JU	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	N	N	NA	1	1	1	NA	5	0.932869329	Primary	Matched	NA
+TCGA-B5-A0JV-01	TCGA-B5-A0JV	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	2_HIGH	1	0.918650794	Primary	Matched	6.93333333333
+TCGA-B5-A0JX-01	TCGA-B5-A0JX	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	2	2	0	2	NA	2	0.953263868	Primary	Matched	NA
+TCGA-B5-A0JY-01	TCGA-B5-A0JY	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	2	0	1	3_HIGHEST	4	0.923555802	Primary	Matched	299.133333333
+TCGA-B5-A0JZ-01	TCGA-B5-A0JZ	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	2	2	1	1	2_HIGH	5	0.930343034	Primary	Matched	11.7666666667
+TCGA-B5-A0K0-01	TCGA-B5-A0K0	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	3	0	3	1_LOW	5	0.890025216	Primary	Matched	0.7
+TCGA-B5-A0K1-01	TCGA-B5-A0K1	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	1	1_LOW	6	0.936182815	Primary	Matched	1.3
+TCGA-B5-A0K2-01	TCGA-B5-A0K2	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	2	1	2	2_HIGH	4	0.78035969	Primary	Matched	6.53333333333
+TCGA-B5-A0K3-01	TCGA-B5-A0K3	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.923555802	Primary	Matched	1.16666666667
+TCGA-B5-A0K4-01	TCGA-B5-A0K4	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	2	1_LOW	6	0.936182815	Primary	Matched	1.66666666667
+TCGA-B5-A0K6-01	TCGA-B5-A0K6	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	2	2_HIGH	5	0.932869329	Primary	Matched	6.06666666667
+TCGA-B5-A0K7-01	TCGA-B5-A0K7	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	4	0	3	1_LOW	5	0.756697585	Primary	Matched	1.3
+TCGA-B5-A0K9-01	TCGA-B5-A0K9	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	N	N	NA	1	1	3	2_HIGH	1	0.913841183	Primary	Matched	17.5333333333
+TCGA-B5-A0KB-01	TCGA-B5-A0KB	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	4	0	4	NA	4	0.923555802	Primary	Matched	NA
+TCGA-B5-A11E-01	TCGA-B5-A11E	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSI-L	Y	Y	Y	Y	1	2	1	2	3_HIGHEST	3	0.897648505	Primary	Matched	274.433333333
+TCGA-B5-A11F-01	TCGA-B5-A11F	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	2	0	2	1_LOW	6	0.936182815	Primary	Matched	1.23333333333
+TCGA-B5-A11G-01	TCGA-B5-A11G	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	2	0	2	2_HIGH	5	0.480973374	Primary	Matched	12.9333333333
+TCGA-B5-A11H-01	TCGA-B5-A11H	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	2	0	2	3_HIGHEST	6	0.936182815	Primary	Matched	24.2333333333
+TCGA-B5-A11I-01	TCGA-B5-A11I	Stage IV	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.923555802	Primary	Matched	1.23333333333
+TCGA-B5-A11J-01	TCGA-B5-A11J	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	2	1	1	2_HIGH	6	0.936182815	Primary	Matched	10.5666666667
+TCGA-B5-A11L-01	TCGA-B5-A11L	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	Y	N	3	2	0	2	NA	2	0.953263868	Primary	Matched	NA
+TCGA-B5-A11M-01	TCGA-B5-A11M	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	N	Y	N	2	3	0	NA	1_LOW	1	0.820773525	Primary	Matched	1.0
+TCGA-B5-A11N-01	TCGA-B5-A11N	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSI-L	Y	Y	Y	Y	3	2	NA	2	3_HIGHEST	5	0.932869329	Primary	Matched	52.3666666667
+TCGA-B5-A11O-01	TCGA-B5-A11O	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSI-L	Y	Y	Y	Y	3	4	1	1	1_LOW	4	0.879877208	Primary	Matched	1.8
+TCGA-B5-A11P-01	TCGA-B5-A11P	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSI-L	N	Y	Y	N	2	2	0	4	NA	6	0.936182815	Primary	Matched	NA
+TCGA-B5-A11Q-01	TCGA-B5-A11Q	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	1	0	3	1_LOW	6	0.936182815	Primary	Matched	1.4
+TCGA-B5-A11R-01	TCGA-B5-A11R	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	N	N	NA	2	1	3	2_HIGH	3	0.366698565	Primary	Matched	17.8666666667
+TCGA-B5-A11S-01	TCGA-B5-A11S	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	2	0	3	1_LOW	6	0.936182815	Primary	Matched	1.43333333333
+TCGA-B5-A11U-01	TCGA-B5-A11U	Stage IV	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	1	3	1	1	2_HIGH	2	0.953263868	Primary	Matched	7.63333333333
+TCGA-B5-A11V-01	TCGA-B5-A11V	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	5	0.762721706	Primary	Matched	1.66666666667
+TCGA-B5-A11W-01	TCGA-B5-A11W	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	2	0	2	1_LOW	6	0.936182815	Primary	Matched	2.16666666667
+TCGA-B5-A11X-01	TCGA-B5-A11X	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-L	MSI-L	Y	N	Y	N	1	4	0	NA	1_LOW	3	0.888897494	Primary	Matched	1.73333333333
+TCGA-B5-A11Y-01	TCGA-B5-A11Y	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-L	MSI-L	Y	Y	Y	Y	3	4	0	1	3_HIGHEST	4	0.921320947	Primary	Matched	27.1666666667
+TCGA-B5-A11Z-01	TCGA-B5-A11Z	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	1	0	3	1_LOW	5	0.932869329	Primary	Matched	1.56666666667
+TCGA-B5-A121-01	TCGA-B5-A121	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	1	1_LOW	2	0.953263868	Primary	Matched	0.833333333333
+TCGA-B5-A1MR-01	TCGA-B5-A1MR	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	2	0	2	NA	4	0.886489497	Primary	Matched	NA
+TCGA-B5-A1MV-01	TCGA-B5-A1MV	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-L	MSI-L	N	Y	N	N	NA	2	0	2	NA	2	0.953263868	Primary	Matched	NA
+TCGA-B5-A1MW-01	TCGA-B5-A1MW	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	N	N	NA	2	0	2	NA	5	0.932869329	Primary	Matched	NA
+TCGA-B5-A1MX-01	TCGA-B5-A1MX	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	2	1	1	1	NA	3	0.897648505	Primary	Matched	NA
+TCGA-B5-A1MZ-01	TCGA-B5-A1MZ	Unknown	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-L	MSI-L	N	Y	N	N	NA	4	0	3	NA	5	0.932869329	Primary	Matched	NA
+TCGA-BG-A0LW-01	TCGA-BG-A0LW	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	4	0	1	1_LOW	5	0.932869329	Primary	Matched	0.9
+TCGA-BG-A0LX-01	TCGA-BG-A0LX	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	2_HIGH	3	0.897648505	Primary	Matched	10.7666666667
+TCGA-BG-A0M0-01	TCGA-BG-A0M0	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	2	2_HIGH	6	0.936182815	Primary	Matched	3.66666666667
+TCGA-BG-A0M2-01	TCGA-BG-A0M2	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	6	0.936182815	Primary	Matched	0.8
+TCGA-BG-A0M3-01	TCGA-BG-A0M3	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	1	0	3	1_LOW	5	0.396873131	Primary	Matched	1.96666666667
+TCGA-BG-A0M4-01	TCGA-BG-A0M4	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	2	1	2	2_HIGH	4	0.923555802	Primary	Matched	11.1333333333
+TCGA-BG-A0M7-01	TCGA-BG-A0M7	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	2	0	1	1_LOW	4	0.190161319	Primary	Matched	1.5
+TCGA-BG-A0M8-01	TCGA-BG-A0M8	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	3	3	0	4	1_LOW	5	0.900667706	Primary	Matched	1.5
+TCGA-BG-A0M9-01	TCGA-BG-A0M9	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	2	0	2	1_LOW	6	0.576051552	Primary	Matched	1.53333333333
+TCGA-BG-A0MA-01	TCGA-BG-A0MA	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	2	4	0	2	NA	6	0.936182815	Primary	Matched	NA
+TCGA-BG-A0MC-01	TCGA-BG-A0MC	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	2	0	2	1_LOW	4	0.739984154	Primary	Matched	1.46666666667
+TCGA-BG-A0MG-01	TCGA-BG-A0MG	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	1	2	0	2	1_LOW	4	0.798974359	Primary	Matched	2.83333333333
+TCGA-BG-A0MH-01	TCGA-BG-A0MH	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	N	Y	N	3	4	0	NA	NA	5	0.867965161	Primary	Matched	NA
+TCGA-BG-A0MI-01	TCGA-BG-A0MI	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	2	0	1	1_LOW	5	0.932869329	Primary	Matched	1.66666666667
+TCGA-BG-A0MO-01	TCGA-BG-A0MO	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	2	0	2	1_LOW	5	0.900509523	Primary	Matched	1.2
+TCGA-BG-A0MQ-01	TCGA-BG-A0MQ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	2_HIGH	3	0.897648505	Primary	Matched	14.0666666667
+TCGA-BG-A0MS-01	TCGA-BG-A0MS	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	2	2	0	3	1_LOW	5	0.932869329	Primary	Matched	1.3
+TCGA-BG-A0MT-01	TCGA-BG-A0MT	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	4	0	3	1_LOW	6	0.936182815	Primary	Matched	1.36666666667
+TCGA-BG-A0MU-01	TCGA-BG-A0MU	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	1	0	2	1_LOW	5	0.932869329	Primary	Matched	1.7
+TCGA-BG-A0RY-01	TCGA-BG-A0RY	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	2	0	3	1_LOW	5	0.875250932	Primary	Matched	1.46666666667
+TCGA-BG-A0VT-01	TCGA-BG-A0VT	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	5	0.930343034	Primary	Matched	0.866666666667
+TCGA-BG-A0VV-01	TCGA-BG-A0VV	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	6	0.936182815	Primary	Matched	1.16666666667
+TCGA-BG-A0VW-01	TCGA-BG-A0VW	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	2	1	2	2_HIGH	6	0.936182815	Primary	Matched	7.2
+TCGA-BG-A0VX-01	TCGA-BG-A0VX	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	4	0	1	2_HIGH	4	0.918013002	Primary	Matched	5.4
+TCGA-BG-A0VZ-01	TCGA-BG-A0VZ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	2_HIGH	6	0.936182815	Primary	Matched	7.73333333333
+TCGA-BG-A0W1-01	TCGA-BG-A0W1	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	1	0	3	1_LOW	6	0.936182815	Primary	Matched	2.1
+TCGA-BG-A0W2-01	TCGA-BG-A0W2	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	6	0.936182815	Primary	Matched	1.1
+TCGA-BG-A0YU-01	TCGA-BG-A0YU	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	3	0	2	1_LOW	3	0.897648505	Primary	Matched	0.5
+TCGA-BG-A186-01	TCGA-BG-A186	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	5	0.932869329	Primary	Matched	0.9
+TCGA-BG-A187-01	TCGA-BG-A187	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-L	MSI-L	Y	Y	Y	Y	3	1	0	2	1_LOW	6	0.936182815	Primary	Matched	2.6
+TCGA-BG-A18A-01	TCGA-BG-A18A	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	2	0	2	1_LOW	2	0.953263868	Primary	Matched	1.7
+TCGA-BG-A18B-01	TCGA-BG-A18B	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	1	2_HIGH	1	0.807377395	Primary	Matched	8.8
+TCGA-BG-A18C-01	TCGA-BG-A18C	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	3	0.45957569	Primary	Matched	1.3
+TCGA-BG-A220-01	TCGA-BG-A220	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	4	1	1	NA	NA	NA	Primary	Matched	NA
+TCGA-BG-A221-01	TCGA-BG-A221	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	4	0	2	NA	4	0.923555802	Primary	Matched	NA
+TCGA-BG-A222-01	TCGA-BG-A222	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	1	0	2	NA	5	0.932869329	Primary	Matched	NA
+TCGA-BG-A2AD-01	TCGA-BG-A2AD	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	1	0	1	NA	1	0.918650794	Primary	Matched	NA
+TCGA-BG-A2AE-01	TCGA-BG-A2AE	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	2	0	2	1_LOW	3	0.822827613	Primary	Matched	1.56666666667
+TCGA-BK-A0C9-01	TCGA-BK-A0C9	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	2	2_HIGH	6	0.936182815	Primary	Matched	11.3666666667
+TCGA-BK-A0CB-01	TCGA-BK-A0CB	Unknown	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	2	1_LOW	NA	NA	Primary	Matched	1.83333333333
+TCGA-BK-A139-01	TCGA-BK-A139	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	2	0	4	1_LOW	4	0.877287726	Primary	Matched	2.6
+TCGA-BK-A13C-01	TCGA-BK-A13C	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	2	0	3	1_LOW	6	0.936182815	Primary	Matched	1.23333333333
+TCGA-BS-A0T9-01	TCGA-BS-A0T9	Stage IV	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	3	4	0	2	1_LOW	4	0.877287726	Primary	Matched	1.73333333333
+TCGA-BS-A0TA-01	TCGA-BS-A0TA	Stage IV	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	4	1	2	2_HIGH	4	0.923555802	Primary	Matched	9.7
+TCGA-BS-A0TC-01	TCGA-BS-A0TC	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	1	0	1	3_HIGHEST	5	0.932869329	Primary	Matched	40.0333333333
+TCGA-BS-A0TD-01	TCGA-BS-A0TD	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	4	0	1	1_LOW	4	0.923555802	Primary	Matched	0.933333333333
+TCGA-BS-A0TE-01	TCGA-BS-A0TE	Unknown	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	1	3	1	4	2_HIGH	5	0.930343034	Primary	Matched	7.66666666667
+TCGA-BS-A0TG-01	TCGA-BS-A0TG	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	2	1_LOW	4	0.923555802	Primary	Matched	1.16666666667
+TCGA-BS-A0TI-01	TCGA-BS-A0TI	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	3	4	0	4	1_LOW	5	0.909680147	Primary	Matched	2.5
+TCGA-BS-A0TJ-01	TCGA-BS-A0TJ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	1	1	1	1	2_HIGH	3	0.840372671	Primary	Matched	15.2
+TCGA-BS-A0U5-01	TCGA-BS-A0U5	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	4	0.869465256	Primary	Matched	1.93333333333
+TCGA-BS-A0U7-01	TCGA-BS-A0U7	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-L	Y	Y	Y	Y	2	1	1	3	2_HIGH	4	0.920652251	Primary	Matched	4.0
+TCGA-BS-A0U8-01	TCGA-BS-A0U8	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	2_HIGH	5	0.932869329	Primary	Matched	9.36666666667
+TCGA-BS-A0U9-01	TCGA-BS-A0U9	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	3	0.897648505	Primary	Matched	1.26666666667
+TCGA-BS-A0UA-01	TCGA-BS-A0UA	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	2	2	1	1	2_HIGH	5	0.932869329	Primary	Matched	7.96666666667
+TCGA-BS-A0UF-01	TCGA-BS-A0UF	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	4	0	1	3_HIGHEST	5	-0.14185334	Primary	Matched	246.966666667
+TCGA-BS-A0UJ-01	TCGA-BS-A0UJ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	4	0	1	3_HIGHEST	6	0.936182815	Primary	Matched	48.1
+TCGA-BS-A0UL-01	TCGA-BS-A0UL	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	2	1	1	2_HIGH	2	0.953263868	Primary	Matched	9.8
+TCGA-BS-A0UM-01	TCGA-BS-A0UM	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	N	Y	N	2	1	1	NA	2_HIGH	5	0.928732873	Primary	Matched	9.23333333333
+TCGA-BS-A0UT-01	TCGA-BS-A0UT	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	3	1_LOW	5	0.81473312	Primary	Matched	1.36666666667
+TCGA-BS-A0UV-01	TCGA-BS-A0UV	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSI-L	Y	Y	Y	Y	1	4	0	2	3_HIGHEST	4	0.923555802	Primary	Matched	260.733333333
+TCGA-BS-A0V4-01	TCGA-BS-A0V4	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	N	Y	N	N	NA	1	1	2	NA	5	0.930343034	Primary	Matched	NA
+TCGA-BS-A0V6-01	TCGA-BS-A0V6	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	2	0	2	1_LOW	2	0.936305291	Primary	Matched	1.43333333333
+TCGA-BS-A0V7-01	TCGA-BS-A0V7	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	N	N	NA	4	0	2	1_LOW	2	0.953263868	Primary	Matched	1.2
+TCGA-BS-A0V8-01	TCGA-BS-A0V8	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	3	0	4	1_LOW	2	0.953263868	Primary	Matched	2.2
+TCGA-BS-A0VI-01	TCGA-BS-A0VI	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	3	1	1	2	NA	5	0.890025216	Primary	Matched	NA
+TCGA-BS-A0WQ-01	TCGA-BS-A0WQ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	2	1_LOW	6	0.936182815	Primary	Matched	1.36666666667
+TCGA-D1-A0ZN-01	TCGA-D1-A0ZN	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	1	0	2	1_LOW	5	0.677581832	Primary	Matched	1.26666666667
+TCGA-D1-A0ZO-01	TCGA-D1-A0ZO	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	2_HIGH	2	0.953263868	Primary	Matched	13.9666666667
+TCGA-D1-A0ZQ-01	TCGA-D1-A0ZQ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	2	0	3	1_LOW	2	0.953263868	Primary	Matched	2.43333333333
+TCGA-D1-A0ZR-01	TCGA-D1-A0ZR	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	4	0	3	1_LOW	6	0.770817643	Primary	Matched	1.5
+TCGA-D1-A0ZS-01	TCGA-D1-A0ZS	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	1	2	1	1	2_HIGH	2	0.9151894	Primary	Matched	9.6
+TCGA-D1-A0ZU-01	TCGA-D1-A0ZU	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	2	0.953263868	Primary	Matched	1.03333333333
+TCGA-D1-A0ZV-01	TCGA-D1-A0ZV	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	1	1_LOW	4	0.923555802	Primary	Matched	1.16666666667
+TCGA-D1-A101-01	TCGA-D1-A101	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	3	2	1	1	2_HIGH	2	0.953263868	Primary	Matched	6.4
+TCGA-D1-A102-01	TCGA-D1-A102	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	4	NA	2	1_LOW	5	0.887382298	Primary	Matched	1.23333333333
+TCGA-D1-A103-01	TCGA-D1-A103	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-L	Y	Y	Y	Y	2	4	1	1	3_HIGHEST	6	0.877018213	Primary	Matched	199.533333333
+TCGA-D1-A15W-01	TCGA-D1-A15W	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	2	0	1	1_LOW	2	0.953263868	Primary	Matched	2.03333333333
+TCGA-D1-A15Z-01	TCGA-D1-A15Z	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-L	MSI-L	Y	Y	Y	Y	2	4	0	2	1_LOW	6	0.936182815	Primary	Matched	2.26666666667
+TCGA-D1-A160-01	TCGA-D1-A160	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	2	1	3	2_HIGH	6	0.936182815	Primary	Matched	12.0666666667
+TCGA-D1-A161-01	TCGA-D1-A161	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	2	0.953263868	Primary	Matched	2.36666666667
+TCGA-D1-A162-01	TCGA-D1-A162	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	N	N	Y	N	2	4	0	NA	NA	6	0.88209171	Primary	Matched	NA
+TCGA-D1-A163-01	TCGA-D1-A163	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	1	2_HIGH	5	0.932869329	Primary	Matched	12.7333333333
+TCGA-D1-A165-01	TCGA-D1-A165	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	2	0	2	1_LOW	2	0.953263868	Primary	Matched	1.7
+TCGA-D1-A167-01	TCGA-D1-A167	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	1	1	1	1	3_HIGHEST	6	0.93181747	Primary	Matched	45.3333333333
+TCGA-D1-A168-01	TCGA-D1-A168	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	3	4	0	2	1_LOW	2	0.788513777	Primary	Matched	1.56666666667
+TCGA-D1-A169-01	TCGA-D1-A169	Stage IV	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	2	0	4	1_LOW	5	0.905982296	Primary	Matched	1.33333333333
+TCGA-D1-A16B-01	TCGA-D1-A16B	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	2	4	0	1	1_LOW	4	0.877287726	Primary	Matched	1.56666666667
+TCGA-D1-A16D-01	TCGA-D1-A16D	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	1	1_LOW	1	0.918650794	Primary	Matched	1.26666666667
+TCGA-D1-A16E-01	TCGA-D1-A16E	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	2	0	1	1_LOW	2	0.953263868	Primary	Matched	1.6
+TCGA-D1-A16F-01	TCGA-D1-A16F	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	N	Y	N	3	2	1	NA	2_HIGH	1	0.519368529	Primary	Matched	9.06666666667
+TCGA-D1-A16J-01	TCGA-D1-A16J	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	1	0	2	2_HIGH	4	0.891829399	Primary	Matched	5.53333333333
+TCGA-D1-A16N-01	TCGA-D1-A16N	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	1	4	1	4	1_LOW	6	0.819387387	Primary	Matched	3.13333333333
+TCGA-D1-A16O-01	TCGA-D1-A16O	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	2	4	0	2	1_LOW	5	0.667510536	Primary	Matched	1.06666666667
+TCGA-D1-A16Q-01	TCGA-D1-A16Q	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	1	1_LOW	1	0.837571802	Primary	Matched	0.933333333333
+TCGA-D1-A16R-01	TCGA-D1-A16R	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	N	Y	N	3	4	0	NA	1_LOW	5	0.932869329	Primary	Matched	1.26666666667
+TCGA-D1-A16V-01	TCGA-D1-A16V	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	2	2	0	4	NA	6	-0.102733132	Primary	Matched	NA
+TCGA-D1-A16X-01	TCGA-D1-A16X	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	1	3_HIGHEST	5	0.890025216	Primary	Matched	58.9666666667
+TCGA-D1-A16Y-01	TCGA-D1-A16Y	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-L	MSI-L	Y	Y	Y	Y	3	2	0	1	3_HIGHEST	4	0.877287726	Primary	Matched	32.0333333333
+TCGA-D1-A174-01	TCGA-D1-A174	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	1	0	1	2_HIGH	5	0.887382298	Primary	Matched	17.5
+TCGA-D1-A175-01	TCGA-D1-A175	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	2	4	0	1	NA	5	0.932869329	Primary	Matched	NA
+TCGA-D1-A176-01	TCGA-D1-A176	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	3	2_HIGH	5	0.594277483	Primary	Matched	9.26666666667
+TCGA-D1-A177-01	TCGA-D1-A177	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	2_HIGH	5	0.930343034	Primary	Matched	18.5666666667
+TCGA-D1-A17A-01	TCGA-D1-A17A	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	3	2_HIGH	1	0.918650794	Primary	Matched	5.7
+TCGA-D1-A17B-01	TCGA-D1-A17B	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	3	2	1	2	2_HIGH	4	0.923555802	Primary	Matched	6.76666666667
+TCGA-D1-A17C-01	TCGA-D1-A17C	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	2	0	1	1_LOW	2	0.953263868	Primary	Matched	1.43333333333
+TCGA-D1-A17D-01	TCGA-D1-A17D	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	1	2_HIGH	3	0.85566506	Primary	Matched	11.8666666667
+TCGA-D1-A17F-01	TCGA-D1-A17F	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	3	4	1	1	2_HIGH	6	0.936182815	Primary	Matched	5.3
+TCGA-D1-A17H-01	TCGA-D1-A17H	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	3	2	1	2	2_HIGH	2	0.953263868	Primary	Matched	14.5333333333
+TCGA-D1-A17K-01	TCGA-D1-A17K	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	3	0.888897494	Primary	Matched	1.46666666667
+TCGA-D1-A17L-01	TCGA-D1-A17L	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	2	1	3	1_LOW	6	0.936182815	Primary	Matched	1.86666666667
+TCGA-D1-A17M-01	TCGA-D1-A17M	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	2_HIGH	5	0.932869329	Primary	Matched	10.1666666667
+TCGA-D1-A17N-01	TCGA-D1-A17N	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	4	0	2	1_LOW	2	0.837730267	Primary	Matched	0.866666666667
+TCGA-D1-A17Q-01	TCGA-D1-A17Q	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-L	MSI-L	Y	Y	Y	Y	3	2	0	1	3_HIGHEST	3	0.888581036	Primary	Matched	171.966666667
+TCGA-D1-A17R-01	TCGA-D1-A17R	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	3	1	1	2	2_HIGH	5	0.932869329	Primary	Matched	4.5
+TCGA-D1-A17S-01	TCGA-D1-A17S	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	Y	Y	Y	Y	3	4	0	1	1_LOW	6	0.936182815	Primary	Matched	1.2
+TCGA-D1-A17T-01	TCGA-D1-A17T	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	Y	Y	Y	Y	3	1	0	2	1_LOW	6	0.807152783	Primary	Matched	1.66666666667
+TCGA-D1-A17U-01	TCGA-D1-A17U	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	Y	Y	Y	Y	2	1	1	2	2_HIGH	2	0.908260689	Primary	Matched	8.3
+TCGA-D1-A1NS-01	TCGA-D1-A1NS	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	N	Y	N	N	NA	2	1	1	NA	4	0.923555802	Primary	Matched	NA
+TCGA-D1-A1NY-01	TCGA-D1-A1NY	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	1	1	2	NA	2	0.706422825	Primary	Matched	NA
+TCGA-D1-A1NZ-01	TCGA-D1-A1NZ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	N	Y	N	N	NA	1	1	3	NA	1	0.918650794	Primary	Matched	NA
+TCGA-D1-A1O0-01	TCGA-D1-A1O0	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	3	0.897648505	Primary	Matched	NA
+TCGA-D1-A1O5-01	TCGA-D1-A1O5	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	N	Y	N	N	NA	4	0	1	NA	3	0.897648505	Primary	Matched	NA
+TCGA-D1-A1O7-01	TCGA-D1-A1O7	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSI-H	MSI-H	N	Y	N	N	NA	2	1	1	NA	6	0.936182815	Primary	Matched	NA
+TCGA-D1-A1O8-01	TCGA-D1-A1O8	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	2	0	1	NA	5	0.883397264	Primary	Matched	NA
+TCGA-D1-A2G5-01	TCGA-D1-A2G5	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	N	N	NA	2	1	3	NA	6	0.936182815	Primary	Matched	NA
+TCGA-D1-A2G6-01	TCGA-D1-A2G6	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	3	2	1	3	NA	2	0.912165907	Primary	Matched	NA
+TCGA-DI-A0WH-01	TCGA-DI-A0WH	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	Y	Y	Y	Y	3	3	1	3	2_HIGH	5	0.900244534	Primary	Matched	11.8666666667
+TCGA-DI-A1BY-01	TCGA-DI-A1BY	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	Y	N	3	2	0	1	NA	2	0.934636502	Primary	Matched	NA
+TCGA-DI-A1C3-01	TCGA-DI-A1C3	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	N	N	NA	4	0	1	NA	2	0.953263868	Primary	Matched	NA
+TCGA-DI-A1NO-01	TCGA-DI-A1NO	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	3	0.840372671	Primary	Matched	NA
+TCGA-E6-A1LX-01	TCGA-E6-A1LX	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSI-L	N	Y	Y	N	2	2	0	1	NA	4	0.757451043	Primary	Matched	NA
+TCGA-E6-A1M0-01	TCGA-E6-A1M0	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	4	0	2	NA	3	0.811767884	Primary	Matched	NA
+TCGA-EC-A1NJ-01	TCGA-EC-A1NJ	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	N	N	NA	1	1	2	NA	6	0.936182815	Primary	Matched	NA
+TCGA-EC-A1QX-01	TCGA-EC-A1QX	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	2	1	2	NA	4	0.923555802	Primary	Matched	NA
+TCGA-EC-A24G-01	TCGA-EC-A24G	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	2	1	0	2	NA	2	0.953263868	Primary	Matched	NA
+TCGA-EO-A1Y7-01	TCGA-EO-A1Y7	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	N	N	NA	4	0	4	NA	3	0.897648505	Primary	Matched	NA
+TCGA-EY-A1G7-01	TCGA-EY-A1G7	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	Y	N	1	2	0	3	NA	1	0.872298235	Primary	Matched	NA
+TCGA-EY-A1G8-01	TCGA-EY-A1G8	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	2	0	2	NA	1	0.77520147	Primary	Matched	NA
+TCGA-EY-A1GC-01	TCGA-EY-A1GC	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	4	1	4	NA	6	0.858645969	Primary	Matched	NA
+TCGA-EY-A1GD-01	TCGA-EY-A1GD	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	N	Y	Y	N	2	2	0	3	NA	6	0.641019608	Primary	Matched	NA
+TCGA-EY-A1GE-01	TCGA-EY-A1GE	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	N	Y	Y	N	2	4	0	1	NA	5	0.930343034	Primary	Matched	NA
+TCGA-EY-A1GF-01	TCGA-EY-A1GF	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	N	N	NA	1	1	2	NA	6	0.694269048	Primary	Matched	NA
+TCGA-EY-A1GH-01	TCGA-EY-A1GH	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	N	N	NA	2	0	2	NA	6	0.435212832	Primary	Matched	NA
+TCGA-EY-A1GI-01	TCGA-EY-A1GI	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	N	N	NA	2	0	1	NA	2	0.953263868	Primary	Matched	NA
+TCGA-EY-A1GJ-01	TCGA-EY-A1GJ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	N	N	NA	3	0	4	NA	1	0.918650794	Primary	Matched	NA
+TCGA-EY-A1GK-01	TCGA-EY-A1GK	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	2	1	1	2	NA	2	0.32464941	Primary	Matched	NA
+TCGA-EY-A1GL-01	TCGA-EY-A1GL	Stage II	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	N	N	NA	1	0	2	NA	4	0.907347869	Primary	Matched	NA
+TCGA-EY-A1GO-01	TCGA-EY-A1GO	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	N	N	NA	4	1	3	NA	6	0.875629713	Primary	Matched	NA
+TCGA-EY-A1GP-01	TCGA-EY-A1GP	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	N	Y	N	N	NA	3	0	4	NA	1	0.918650794	Primary	Matched	NA
+TCGA-EY-A1GQ-01	TCGA-EY-A1GQ	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	2	1	1	3	NA	2	0.953263868	Primary	Matched	NA
+TCGA-EY-A1GR-01	TCGA-EY-A1GR	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	6	0.936182815	Primary	Matched	NA
+TCGA-EY-A1GT-01	TCGA-EY-A1GT	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 1	MSS	MSS	N	Y	Y	N	3	1	0	3	NA	4	0.877287726	Primary	Matched	NA
+TCGA-EY-A1GU-01	TCGA-EY-A1GU	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	Y	N	2	1	1	3	NA	5	0.910202499	Primary	Matched	NA
+TCGA-EY-A1GW-01	TCGA-EY-A1GW	Stage IV	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	2	2	0	4	NA	6	0.866569291	Primary	Matched	NA
+TCGA-EY-A1GX-01	TCGA-EY-A1GX	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSS	MSS	N	Y	N	N	NA	1	0	3	NA	5	-0.164556962	Primary	Matched	NA
+TCGA-EY-A1H0-01	TCGA-EY-A1H0	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 2	MSI-H	MSI-H	N	Y	Y	N	2	1	1	2	NA	3	0.897648505	Primary	Matched	NA
+TCGA-EY-A214-01	TCGA-EY-A214	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	N	N	NA	3	0	4	NA	6	0.936182815	Primary	Matched	NA
+TCGA-EY-A215-01	TCGA-EY-A215	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	N	N	NA	1	1	2	NA	6	0.936182815	Primary	Matched	NA
+TCGA-FI-A2CX-01	TCGA-FI-A2CX	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	2	NA	4	0.923555802	Primary	Matched	NA
+TCGA-FI-A2D0-01	TCGA-FI-A2D0	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	4	0	1	NA	4	0.923555802	Primary	Matched	NA
+TCGA-FI-A2D4-01	TCGA-FI-A2D4	Stage III	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	1	1	2	NA	3	0.897648505	Primary	Matched	NA
+TCGA-FI-A2D5-01	TCGA-FI-A2D5	Stage IV	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	4	0	1	NA	2	0.912165907	Primary	Matched	NA
+TCGA-FI-A2D6-01	TCGA-FI-A2D6	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	1	1	2	NA	1	0.739874405	Primary	Matched	NA
+TCGA-FI-A2F4-01	TCGA-FI-A2F4	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	2	1	1	3	NA	6	0.936182815	Primary	Matched	NA
+TCGA-FI-A2F9-01	TCGA-FI-A2F9	Stage I	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	6	-0.061109725	Primary	Matched	NA
+TCGA-A5-A1OF-01	TCGA-A5-A1OF	Stage I	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	1	2	0	1	NA	4	0.923555802	Primary	Matched	NA
+TCGA-AP-A0LH-01	TCGA-AP-A0LH	Stage I	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	2	4	0	4	1_LOW	4	0.886489497	Primary	Matched	3.53333333333
+TCGA-AX-A1CR-01	TCGA-AX-A1CR	Stage II	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	4	0.923555802	Primary	Matched	NA
+TCGA-BK-A0CA-01	TCGA-BK-A0CA	Stage III	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	2	4	0	1	1_LOW	2	0.953263868	Primary	Matched	1.23333333333
+TCGA-D1-A0ZZ-01	TCGA-D1-A0ZZ	Stage I	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	NA	4	1_LOW	4	0.877287726	Primary	Matched	1.86666666667
+TCGA-D1-A1NW-01	TCGA-D1-A1NW	Stage IV	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSS	MSI-L	N	Y	Y	N	1	3	0	4	NA	6	0.736696762	Primary	Matched	NA
+TCGA-D1-A2G0-01	TCGA-D1-A2G0	Stage I	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	N	N	NA	1	1	2	NA	6	0.936182815	Primary	Matched	NA
+TCGA-DI-A1BU-01	TCGA-DI-A1BU	Stage II	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	N	N	NA	2	0	1	NA	5	0.930343034	Primary	Matched	NA
+TCGA-EY-A1GM-01	TCGA-EY-A1GM	Stage III	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	3	0.888897494	Primary	Matched	NA
+TCGA-EY-A1GV-01	TCGA-EY-A1GV	Stage III	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	3	3	0	2	NA	4	0.886489497	Primary	Matched	NA
+TCGA-EY-A210-01	TCGA-EY-A210	Stage III	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSI-L	MSI-L	N	Y	N	N	NA	3	0	4	NA	3	0.888897494	Primary	Matched	NA
+TCGA-FI-A2CY-01	TCGA-FI-A2CY	Stage I	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	4	0.921856623	Primary	Matched	NA
+TCGA-FI-A2D2-01	TCGA-FI-A2D2	Stage I	UCEC	Endometrial Cancer	Endometrial Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.853878533	Primary	Matched	1.33333333333
+TCGA-A5-A0G1-01	TCGA-A5-A0G1	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSI-H	MSI-H	N	Y	Y	N	3	4	0	1	NA	4	0.891767554	Primary	Matched	NA
+TCGA-A5-A0G2-01	TCGA-A5-A0G2	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSI-L	MSI-L	N	Y	Y	N	1	1	1	4	NA	4	0.882469449	Primary	Matched	NA
+TCGA-A5-A0G3-01	TCGA-A5-A0G3	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	N	Y	N	1	3	0	NA	1_LOW	4	0.877287726	Primary	Matched	0.933333333333
+TCGA-A5-A0G5-01	TCGA-A5-A0G5	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSI-L	MSI-L	Y	Y	Y	Y	1	2	0	4	1_LOW	4	0.886489497	Primary	Matched	3.26666666667
+TCGA-A5-A0R6-01	TCGA-A5-A0R6	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	4	0	4	1_LOW	4	0.836740624	Primary	Matched	1.1
+TCGA-A5-A1OG-01	TCGA-A5-A1OG	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	4	0.877287726	Primary	Matched	NA
+TCGA-AJ-A23M-01	TCGA-AJ-A23M	Stage II	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	3	0.835714286	Primary	Matched	2.83333333333
+TCGA-AP-A052-01	TCGA-AP-A052	Stage IV	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	NA	NA	Primary	Matched	0.833333333333
+TCGA-AP-A05A-01	TCGA-AP-A05A	Stage II	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	NA	NA	Primary	Matched	2.1
+TCGA-AP-A05D-01	TCGA-AP-A05D	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	NA	NA	Primary	Matched	1.06666666667
+TCGA-AP-A05H-01	TCGA-AP-A05H	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	NA	NA	Primary	Matched	2.3
+TCGA-AP-A05J-01	TCGA-AP-A05J	Stage II	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	NA	NA	Primary	Matched	1.5
+TCGA-AP-A0L8-01	TCGA-AP-A0L8	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	4	0	4	1_LOW	1	0.918650794	Primary	Matched	1.8
+TCGA-AP-A0L9-01	TCGA-AP-A0L9	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	3	0.888897494	Primary	Matched	1.86666666667
+TCGA-AP-A0LI-01	TCGA-AP-A0LI	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	4	0	4	1_LOW	4	0.886489497	Primary	Matched	2.46666666667
+TCGA-AP-A1DQ-01	TCGA-AP-A1DQ	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.652238476	Primary	Matched	0.866666666667
+TCGA-AX-A0IU-01	TCGA-AX-A0IU	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	6	0.452596592	Primary	Matched	1.3
+TCGA-AX-A0IW-01	TCGA-AX-A0IW	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSI-L	MSI-L	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.877287726	Primary	Matched	1.36666666667
+TCGA-AX-A1C7-01	TCGA-AX-A1C7	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	3	0.840372671	Primary	Matched	1.33333333333
+TCGA-AX-A1C8-01	TCGA-AX-A1C8	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.886489497	Primary	Matched	1.76666666667
+TCGA-AX-A1CA-01	TCGA-AX-A1CA	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	Indeterminant	Indeterminant	N	Y	Y	N	1	3	0	4	NA	6	0.877057267	Primary	Matched	NA
+TCGA-AX-A1CC-01	TCGA-AX-A1CC	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSI-L	MSI-L	N	Y	Y	N	1	3	0	1	NA	1	0.891243726	Primary	Matched	NA
+TCGA-AX-A1CP-01	TCGA-AX-A1CP	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	1	0.918650794	Primary	Matched	0.766666666667
+TCGA-AX-A2H5-01	TCGA-AX-A2H5	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	NA	4	0.871917175	Primary	Matched	1.43333333333
+TCGA-AX-A2HF-01	TCGA-AX-A2HF	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	NA	3	0.840372671	Primary	Matched	0.966666666667
+TCGA-B5-A0JN-01	TCGA-B5-A0JN	Stage IV	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSI-L	MSI-L	Y	Y	N	N	NA	3	0	4	1_LOW	4	0.886489497	Primary	Matched	3.2
+TCGA-B5-A0K8-01	TCGA-B5-A0K8	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	6	0.936182815	Primary	Matched	1.33333333333
+TCGA-B5-A1MU-01	TCGA-B5-A1MU	Stage IV	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	2	0.912165907	Primary	Matched	0.866666666667
+TCGA-B5-A1MY-01	TCGA-B5-A1MY	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	1	0.86844934	Primary	Matched	1.43333333333
+TCGA-B5-A1N2-01	TCGA-B5-A1N2	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	2	0.953263868	Primary	Matched	NA
+TCGA-BG-A0M6-01	TCGA-BG-A0M6	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.757451043	Primary	Matched	1.26666666667
+TCGA-BG-A0YV-01	TCGA-BG-A0YV	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	4	0	4	1_LOW	4	0.877287726	Primary	Matched	2.26666666667
+TCGA-BK-A0CC-01	TCGA-BK-A0CC	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.886489497	Primary	Matched	1.1
+TCGA-BK-A26L-01	TCGA-BK-A26L	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	4	0.877287726	Primary	Matched	NA
+TCGA-D1-A0ZP-01	TCGA-D1-A0ZP	Stage IV	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSI-L	MSI-L	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.886489497	Primary	Matched	1.0
+TCGA-D1-A15V-01	TCGA-D1-A15V	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	1	0.918650794	Primary	Matched	1.2
+TCGA-D1-A15X-01	TCGA-D1-A15X	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSI-L	MSI-L	Y	Y	Y	Y	1	2	0	1	3_HIGHEST	4	0.921320947	Primary	Matched	44.4333333333
+TCGA-D1-A16G-01	TCGA-D1-A16G	Stage IV	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	4	0	4	1_LOW	4	0.886489497	Primary	Matched	0.933333333333
+TCGA-D1-A16I-01	TCGA-D1-A16I	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	2	0.953263868	Primary	Matched	1.03333333333
+TCGA-D1-A16S-01	TCGA-D1-A16S	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	3	3	0	4	1_LOW	4	0.784111389	Primary	Matched	1.43333333333
+TCGA-D1-A179-01	TCGA-D1-A179	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	1	0.469920802	Primary	Matched	NA
+TCGA-D1-A1NU-01	TCGA-D1-A1NU	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	6	0.936182815	Primary	Matched	2.23333333333
+TCGA-D1-A1NX-01	TCGA-D1-A1NX	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	6	0.936182815	Primary	Matched	1.46666666667
+TCGA-DI-A1NN-01	TCGA-DI-A1NN	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.923555802	Primary	Matched	1.3
+TCGA-E6-A1LZ-01	TCGA-E6-A1LZ	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	4	0	4	2_HIGH	4	0.886489497	Primary	Matched	5.66666666667
+TCGA-EO-A1Y5-01	TCGA-EO-A1Y5	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.877287726	Primary	Matched	2.06666666667
+TCGA-EO-A1Y8-01	TCGA-EO-A1Y8	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	1	0.777473716	Primary	Matched	1.56666666667
+TCGA-EY-A1GS-01	TCGA-EY-A1GS	Stage IV	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	2	0	4	2_HIGH	4	0.886489497	Primary	Matched	7.06666666667
+TCGA-EY-A212-01	TCGA-EY-A212	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.774263515	Primary	Matched	1.73333333333
+TCGA-FI-A2EU-01	TCGA-FI-A2EU	Stage I	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	N	Y	Y	N	1	3	0	4	NA	4	0.923555802	Primary	Matched	NA
+TCGA-FI-A2EW-01	TCGA-FI-A2EW	Stage II	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	Indeterminant	Indeterminant	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.886489497	Primary	Matched	2.9
+TCGA-FI-A2EX-01	TCGA-FI-A2EX	Stage III	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	4	0.886489497	Primary	Matched	1.8
+TCGA-FI-A2F8-01	TCGA-FI-A2F8	Stage II	USC	Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	Grade 3	MSS	MSS	Y	Y	Y	Y	1	3	0	4	1_LOW	6	0.936182815	Primary	Matched	1.9

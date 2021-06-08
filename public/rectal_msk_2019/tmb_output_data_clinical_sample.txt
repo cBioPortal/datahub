@@ -1,0 +1,344 @@
+#Sample Identifier	Patient Identifier	Age at derivation	Therapy Prior to derivation	Tissue site of derivation	Sample Type	Gene Panel	Oncotree Code	Sample Class	Specimen Preservation Type	Tissue Site	Metastatic Site	Primary Tumor Site	Sample coverage	Tumor Purity	MSI Comment	MSI Score	MSI Type	Institute Source	Somatic Status	Age at Which Sequencing was Reported (Days)	Archer Panel	Impact TMB Percentile (Across All Tumor Types)	Impact TMB Score	Impact TMB Percentile (Within Tumor Type)	MSK Pathology Slide Available	MSK Slide ID	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Age at derivation	Therapy Prior to derivation	Tissue site of derivation	The type of sample (i.e., normal, primary, met, recurrence).	Gene panel.	Oncotree Code	The sample classification (i.e., tumor, cellline, xenograph).	The method used for preparing the tissue for examination and study.	Tissue Site	The anatomic location to which the cancer has spread.	Text term to describe the organ sub-division in an individual with cancer.	Sample coverage	Tumor Purity	MSI Comment	MSI Score	MSI Type	Institute Source	Somatic Status	Age (in days) at which sequencing was reported	Archer Panel	Percentile for the TMB within the MSK-IMAPCT cohort	Calculated TMB score	Percentile for the TMB within the Tumor type cohort (at least 10 cases are needed in that tumor type to have a result for this)	Indicates the existence of a MSK Pathology slide. 	MSK Slide ID	TMB (nonsynonymous)
+#STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING	NUMBER	STRING	STRING	STRING	NUMBER	STRING	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING
+#1	1	1	1	1	1	1	0	0	1	1	0	0	1	1	0	1	1	1	1	0	0	0	1	0	0	0	1
+SAMPLE_ID	PATIENT_ID	AGE_AT_DERIVATION	THERAPY_PRIOR_TO_DERIVATION	TISSUE_SITE_OF_DERIVATION	SAMPLE_TYPE	GENE_PANEL	ONCOTREE_CODE	SAMPLE_CLASS	SPECIMEN_PRESERVATION_TYPE	TISSUE_SITE	METASTATIC_SITE	PRIMARY_SITE	SAMPLE_COVERAGE	TUMOR_PURITY	MSI_COMMENT	MSI_SCORE	MSI_TYPE	INSTITUTE	SOMATIC_STATUS	AGE_AT_SEQ_REPORT	ARCHER	CVR_TMB_COHORT_PERCENTILE	CVR_TMB_SCORE	CVR_TMB_TT_COHORT_PERCENTILE	PATH_SLIDE_EXISTS	MSK_SLIDE_ID	TMB_NONSYNONYMOUS
+RC-MSK-001-pt	RC-MSK-001	55	FOLFOX, FOLFIRI, SCRT and FUDR	distal rectum	Primary	IMPACT410	READ	Resection	FFPE	Rectum																	11.9227880248
+RC-MSK-001-tm	RC-MSK-001	55	FOLFOX, FOLFIRI, SCRT and FUDR	distal rectum	Unknown_Tumor	IMPACT410	READ	Organoid	Fresh	na																	11.9227880248
+RC-MSK-001PR-pt	RC-MSK-001	56	FOLFOX, FOLFIRI, SCRT and FUDR	very distal rectum (recurrence)	Recurrence	IMPACT410	READ	Resection	FFPE	Rectum																	11.9227880248
+RC-MSK-001PR-tm	RC-MSK-001	56	FOLFOX, FOLFIRI, SCRT and FUDR	very distal rectum (recurrence)	Recurrence	IMPACT410	READ	Organoid	Fresh	Pelvis																	12.9163536935
+RC-MSK-002-pt	RC-MSK-002	41	none	Upper rectum/distal sigmoid	Primary	IMPACT410	READ	Resection	Fresh	na																	7.94852534983
+RC-MSK-002-tm	RC-MSK-002	41	none	Upper rectum/distal sigmoid	Unknown_Tumor	IMPACT410	READ	Organoid	Fresh	na																	7.94852534983
+RC-MSK-003-pt	RC-MSK-003	70	FOLFOX and SCRT	Distal rectum	Primary	IMPACT410	READ	Resection	FFPE	Rectum																	4.96782834365
+RC-MSK-003-tm	RC-MSK-003	70	FOLFOX and SCRT	Distal rectum	Unknown_Tumor	IMPACT410	READ	Organoid	Fresh	na																	4.96782834365
+RC-MSK-004-pt	RC-MSK-004	42	FOLFOX	mid-distal rectum	Primary	IMPACT410	READ	Resection	FFPE	na																	3.97426267492
+RC-MSK-004-tm	RC-MSK-004	42	FOLFOX	mid-distal rectum	Unknown_Tumor	IMPACT410	READ	Organoid	Fresh	na																	5.96139401238
+RC-MSK-006-pt	RC-MSK-006	59	FOLFOX, CRT	Mid rectum	Primary	IMPACT410	READ	Tumor	FFPE	Colorectal Cancer																	10.929222356
+RC-MSK-006-tm	RC-MSK-006	59	FOLFOX, CRT	Mid rectum	Primary	IMPACT410	READ	Organoid	Fresh	na																	14.9034850309
+RC-MSK-007-pt	RC-MSK-007	65	FOLFOX, CRT	mid-rectum	Primary	IMPACT410	READ	Resection	FFPE	na																	3.97426267492
+RC-MSK-007-tm	RC-MSK-007	65	FOLFOX, CRT	mid-rectum	Unknown_Tumor	IMPACT410	READ	Organoid	Fresh	na																	6.95495968111
+RC-MSK-008-pt	RC-MSK-008	69	none	Distal rectum	Primary	IMPACT410	READ	Tumor	FFPE	Colorectal Cancer																	6.95495968111
+RC-MSK-008-tm	RC-MSK-008	69	none	Distal rectum	Primary	IMPACT410	READ	Organoid	Fresh																		16.8906163684
+RC-MSK-009-pt	RC-MSK-009	43	FOLFOX only (Prospect trial)	Upper rectum	Primary	IMPACT410	READ	Resection	FFPE	Rectum																	5.96139401238
+RC-MSK-009-tm	RC-MSK-009	43	FOLFOX only (Prospect trial)	Upper rectum	Unknown_Tumor	IMPACT410	READ	Organoid	Fresh	na																	4.96782834365
+RC-MSK-012-pt	RC-MSK-012	45	FOLFOX, CRT then FOLFIRI	mid-to-distal rectum	Primary	IMPACT410	READ	Biopsy	FFPE	Rectum																	5.96139401238
+RC-MSK-012-tm	RC-MSK-012	45	FOLFOX, CRT then FOLFIRI	mid-to-distal rectum	Primary	IMPACT410	READ	Organoid	Fresh	na																	6.95495968111
+RC-MSK-012RC-pt	RC-MSK-012	45	FOLFOX, CRT then FOLFIRI	pelvic recurrence	Primary	IMPACT468	READ	Tumor	FFPE	Colorectal Cancer																	4.41407560429
+RC-MSK-012RC-tm	RC-MSK-012	45	FOLFOX, CRT then FOLFIRI	pelvic recurrence	Recurrence	IMPACT410	READ	Organoid	Fresh																		6.95495968111
+RC-MSK-012SP-pt	RC-MSK-012	45	FOLFOX, CRT then FOLFIRI	Splenic metastasis	Metastasis	IMPACT410	READ	Biopsy	FFPE	Spleen																	5.96139401238
+RC-MSK-012SP-tm	RC-MSK-012	45	FOLFOX, CRT then FOLFIRI	Splenic metastasis	Metastasis	IMPACT410	READ	Organoid	Fresh	na																	5.96139401238
+RC-MSK-012VR-tm	RC-MSK-012	45	FOLFOX, CRT then FOLFIRI	pelvic recurrence	Metastasis	IMPACT410	READ	Organoid	Fresh	na																	6.95495968111
+RC-MSK-013-pt	RC-MSK-013	84	None	distal rectum	Primary	IMPACT468	READ	Tumor	FFPE	Colorectal Cancer																	7.94533608772
+RC-MSK-013-tm	RC-MSK-013	84	None	distal rectum	Primary	IMPACT410	READ	Organoid	Fresh																		11.9227880248
+RC-MSK-022-pt	RC-MSK-022	56	none	mid to distal rectum	Primary	IMPACT468	READ	Tumor	FFPE	Colorectal Cancer																	8.82815120857
+RC-MSK-022-tm	RC-MSK-022	56	none	mid to distal rectum	Primary	IMPACT468	READ	Organoid	Fresh																		7.06252096686
+RC-MSK-022MC-tm	RC-MSK-022	57	FOLFOX	mid to distal rectum	Primary	IMPACT468	READ	Organoid	Fresh																		8.82815120857
+RC-MSK-022PC-tm	RC-MSK-022	57	FOLFOX	mid to distal rectum	Primary	IMPACT468	READ	Organoid	Fresh																		9.71096632943
+RC-MSK-022TNT-tm	RC-MSK-022	57	FOLFOX + CRT	mid to distal rectum	Primary	IMPACT468	READ	Organoid	Fresh	na																	9.71096632943
+RC-MSK-023-pt	RC-MSK-023	44	FOLFOX, then CRT then combo resection	distal rectal recurrence post LAR	Primary	IMPACT468	READ	Tumor	FFPE	Colorectal Cancer																	6.179705846
+RC-MSK-023-tm	RC-MSK-023	44	FOLFOX, then CRT then combo resection	distal rectal recurrence post LAR	Primary	IMPACT410	READ	Organoid	Fresh																		3.97426267492
+RC-MSK-025-pt	RC-MSK-025	51	CRT	mid-rectum	Primary	IMPACT468	READ	Tumor	FFPE	Colorectal Cancer																	7.06252096686
+RC-MSK-025-tm	RC-MSK-025	51	CRT	mid-rectum	Primary	IMPACT468	READ	Organoid	Fresh																		8.82815120857
+RC-MSK-025TNT-P2m-tm	RC-MSK-025	52	CRT + FOLFOX	mid-rectum	Primary	IMPACT468	READ	Organoid	Fresh	na																	6.179705846
+RC-MSK-025TNT-P7m-tm	RC-MSK-025	52	CRT + FOLFOX	mid-rectum	Primary	IMPACT468	READ	Organoid	Fresh	na																	7.06252096686
+RC-MSK-025TNT-P9m-tm	RC-MSK-025	52	CRT + FOLFOX	mid-rectum	Primary	IMPACT468	READ	Organoid	Fresh	na																	7.06252096686
+RC-MSK-027-pt	RC-MSK-027	69	None	mid rectal tumor	Primary	IMPACT468	READ	Tumor	FFPE	Colorectal Cancer																	9.71096632943
+RC-MSK-027-tm	RC-MSK-027	69	None	mid rectal tumor	Primary	IMPACT410	READ	Organoid	Fresh																		11.9227880248
+RC-MSK-028-pt	RC-MSK-028	76	None	distal rectum, tumor recurrence	Primary	IMPACT468	READ	Tumor	FFPE	Colorectal Cancer																	9.71096632943
+RC-MSK-028-tm	RC-MSK-028	76	None	distal rectum, tumor recurrence	Primary	IMPACT410	READ	Organoid	Fresh																		9.93565668729
+RC-MSK-029-pt	RC-MSK-029	85	none	mid rectal tumor	Primary	IMPACT468	READ	Tumor	FFPE	Colorectal Cancer																	1.76563024171
+RC-MSK-029-tm	RC-MSK-029	85	none	mid rectal tumor	Primary	IMPACT410	READ	Organoid	Fresh																		1.98713133746
+RC-MSK-031-pt	RC-MSK-031	73	none	distal rectal tumor	Primary	IMPACT468	READ	Tumor	FFPE	Colorectal Cancer																	155.375461271
+RC-MSK-031-tm	RC-MSK-031	73	none	distal rectal tumor	Primary	IMPACT468	READ	Organoid	Fresh	na																	122.711301799
+RC-MSK-034-tm	RC-MSK-034	43	none	distal rectal tumor	Primary	IMPACT468	READ	Organoid	Fresh	na																	48.5548316472
+RC-MSK-034MP-tm	RC-MSK-034	44	pembrolizumab	distal rectal tumor	Primary	IMPACT468	READ	Organoid	Fresh	na																	45.9063862846
+RC-MSK-037-pt	RC-MSK-037	61	FOLFOX + CRT	distal rectum, tumor recurrence	Primary	IMPACT468	READ	Tumor	FFPE	Colorectal Cancer																	7.94533608772
+RC-MSK-037-tm	RC-MSK-037	61	FOLFOX + CRT	distal rectum, tumor recurrence	Primary	IMPACT468	READ	Organoid	Fresh	na																	11.4765965711
+RC-MSK-038-tm	RC-MSK-038	43	none	distal rectal tumor	Primary	IMPACT468	READ	Organoid	Fresh	na																	16.7734872963
+P-0000674-T01-IM3	P-0000674			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	664	65	Not Available	1.23	Stable	MSKCC	Matched	65	NO	74.4	6.7	52.1	YES	471200	6.72929396248
+P-0000757-T01-IM3	P-0000757			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	983	35	Not Available	0.68	Stable	MSKCC	Matched	68	NO	68	5.6	39.2	YES	470665	5.60774496873
+P-0000772-T01-IM3	P-0000772			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectum	669	15	Not Available	0.09	Stable	MSKCC	Matched	42	NO	86.8	10	81.5	YES	478779	10.0939409437
+P-0000827-T01-IM3	P-0000827			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectum	511	15	Not Available	0.86	Stable	MSKCC	Matched	51	NO	58.6	4.5	26.3	YES	478944	4.48619597498
+P-0000860-T01-IM3	P-0000860			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectosigmoid Colon	401	15	MICROSATELLITE STABLE (MSS). See MSI note below.	0.48	Stable	MSKCC	Matched	57	NO	44.1	3.3	13	YES	479523	3.36464698124
+P-0000869-T01-IM3	P-0000869			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectum	587	50	Not Available	2.03	Stable	MSKCC	Matched	53	NO	68	5.6	39.2	YES	479511	5.60774496873
+P-0000915-T01-IM3	P-0000915			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectum	155	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0.8	Stable	MSKCC	Matched	68	NO				YES	479506	0.0
+P-0000982-T01-IM3	P-0000982			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	665	15	Not Available	0.88	Stable	MSKCC	Matched	58	NO	86.8	10	81.5	YES	478662	10.0939409437
+P-0000982-T02-IM5	P-0000982			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	856	60	Not Available	1.24	Stable	MSKCC	Matched	59	NO	85.9	9.8	79.4	NO		9.93565668729
+P-0001017-T01-IM3	P-0001017			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectum	728	35	Not Available	1.24	Stable	MSKCC	Matched	54	NO	58.6	4.5	26.3	YES	478814	4.48619597498
+P-0001079-T01-IM3	P-0001079			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	957	25	Not Available	0.47	Stable	MSKCC	Matched	76	NO	88.7	11.2	85.1	YES	471373	11.2154899375
+P-0001200-T01-IM3	P-0001200			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectum	704	15	MICROSATELLITE STABLE (MSS). See MSI note below.	0.08	Stable	MSKCC	Matched	47	NO	44.1	3.3	13	YES	745763	3.36464698124
+P-0001287-T01-IM3	P-0001287			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	710	25	Not Available	0.36	Stable	MSKCC	Matched	67	NO	78.6	7.8	61.6	YES	745435	7.85084295622
+P-0001318-T01-IM3	P-0001318			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	722	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.34	Stable	MSKCC	Unmatched	52	NO	78.6	7.8	61.6	NO		7.85084295622
+P-0001499-T01-IM3	P-0001499			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	747	15	Not Available	0.18	Stable	MSKCC	Matched	37	NO	44.1	3.3	13	YES	472165	3.36464698124
+P-0001500-T02-IM5	P-0001500			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	804	30	Not Available	0.62	Stable	MSKCC	Matched	56	NO	89.2	11.8	85.5	NO		11.9227880248
+P-0001500-T03-IM5	P-0001500			Rectum	Metastasis	IMPACT410	READ	Tumor			Brain	Rectum	833	80	Not Available	2.51	Stable	MSKCC	Matched	57	NO	93.8	18.7	89.7	YES	449632	18.8777477059
+P-0001500-T04-IM5	P-0001500			Rectum	Metastasis	IMPACT410	READ	Tumor			Not Applicable	Rectum	797	60	Not Available	0.07	Stable	MSKCC	Matched	57	NO	87.8	10.8	83.5	YES	451582	10.929222356
+P-0001525-T01-IM3	P-0001525			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectum	971	40	Not Available	3.35	Indeterminate	MSKCC	Matched	64	NO	44.1	3.3	13	YES	755200	3.36464698124
+P-0001577-T01-IM3	P-0001577			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	535	20	Not Available	2.48	Stable	MSKCC	Matched	77	NO	44.1	3.3	13	YES	754774	3.36464698124
+P-0001647-T01-IM3	P-0001647			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectum	965	50	MICROSATELLITE STABLE (MSS). See MSI note below.	0.49	Stable	MSKCC	Matched	43	NO	58.6	4.5	26.3	YES	754331	4.48619597498
+P-0001662-T01-IM3	P-0001662			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	654	30	Not Available	0	Stable	MSKCC	Matched	66	NO	29.9	2.2	5.9	YES	754364	2.24309798749
+P-0001685-T01-IM3	P-0001685			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectosigmoid Colon	812	40	Not Available	42.76	Instable	MSKCC	Matched	42	NO	99.7	109.3	98.9	YES	761027	109.911801387
+P-0001690-T01-IM3	P-0001690			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	715	40	Not Available	0.39	Stable	MSKCC	Matched	46	NO	74.4	6.7	52.1	YES	760996	6.72929396248
+P-0001742-T01-IM3	P-0001742			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectosigmoid Colon	56	30	Not Available	3.13	Indeterminate	MSKCC	Matched	67	NO	29.9	2.2	5.9	YES	760822	2.24309798749
+P-0001807-T01-IM3	P-0001807			Rectum	Metastasis	IMPACT341	READ	Tumor			Lymph Node	Rectum	397	50	Not Available	2.02	Stable	MSKCC	Matched	71	NO	68	5.6	39.2	YES	760718	5.60774496873
+P-0001864-T01-IM3	P-0001864			Rectum	Metastasis	IMPACT341	READ	Tumor			Lung	Rectum	861	20	Not Available	1.24	Stable	MSKCC	Matched	69	NO	89.7	12.3	86.4	YES	760948	12.3370389312
+P-0001913-T01-IM3	P-0001913			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	781	15	Not Available	16.68	Instable	MSKCC	Unmatched	48	NO	85	8.9	77.2	YES	744943	8.97239194997
+P-0001949-T01-IM3	P-0001949			Rectum	Metastasis	IMPACT341	READ	Tumor			Pelvis	Rectum	653	40	MICROSATELLITE STABLE (MSS). See MSI note below.	1.3	Stable	MSKCC	Matched	47	NO	89.7	12.3	86.4	YES	747771	12.3370389312
+P-0002155-T01-IM3	P-0002155			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	503	30	Not Available	0.12	Stable	MSKCC	Matched	58	NO	44.1	3.3	13	YES	748024	3.36464698124
+P-0002251-T01-IM3	P-0002251			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	294	40	Not Available	0.81	Stable	MSKCC	Matched	52	NO	58.6	4.5	26.3	YES	739439	4.48619597498
+P-0002488-T01-IM3	P-0002488			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	719		MICROSATELLITE INSTABILITY-INDETERMINATE. See MSI note below.	3.04	Indeterminate	MSKCC	Matched	72	NO	86.6	10	81.8	NO		8.97239194997
+P-0002512-T02-IM5	P-0002512			Rectum	Metastasis	IMPACT410	READ	Tumor			Chest Wall	Rectum	901	80	Not Available	1.16	Stable	MSKCC	Matched	58	NO	37.9	3	8.7	NO		2.98069700619
+P-0002540-T01-IM3	P-0002540			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	1053		MICROSATELLITE STABLE (MSS). See MSI note below.	0.08	Stable	MSKCC	Matched	66	NO	84.8	8.9	77.4	YES	736321	7.85084295622
+P-0002563-T01-IM3	P-0002563			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	516	20	MICROSATELLITE INSTABILITY-HIGH (MSI-H). See MSI note below.	16.61	Instable	MSKCC	Unmatched	72	NO	74.4	6.7	52.1	YES	735643	6.72929396248
+P-0002565-T01-IM3	P-0002565			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectum	586	60	Not Available	0.42	Stable	MSKCC	Matched	58	NO	68	5.6	39.2	YES	741502	5.60774496873
+P-0002670-T01-IM3	P-0002670			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	423	20	Not Available	0.35	Stable	MSKCC	Matched	61	NO	85	8.9	77.2	YES	736552	8.97239194997
+P-0002721-T01-IM3	P-0002721			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	233	20	Not Available	0.76	Stable	MSKCC	Matched	68	NO	58.6	4.5	26.3	YES	735062	4.48619597498
+P-0002770-T01-IM3	P-0002770			Rectum	Metastasis	IMPACT341	READ	Tumor			Lymph Node	Rectum	171	20	Not Available	0.52	Stable	MSKCC	Matched	37	NO	44.1	3.3	13	YES	734952	3.36464698124
+P-0002814-T01-IM3	P-0002814			Rectum	Metastasis	IMPACT341	READ	Tumor			Liver	Rectum	328	30	Not Available	0.72	Stable	MSKCC	Matched	63	NO	44.1	3.3	13	YES	732581	3.36464698124
+P-0002852-T01-IM3	P-0002852			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	568	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.08	Stable	MSKCC	Matched	68	NO	86.8	10	81.5	YES	734934	10.0939409437
+P-0002960-T01-IM3	P-0002960			Rectum	Metastasis	IMPACT341	READ	Tumor			Lung	Rectum	578	20	Not Available	0.17	Stable	MSKCC	Matched	52	NO	74.4	6.7	52.1	NO		6.72929396248
+P-0002994-T01-IM3	P-0002994			Rectum	Metastasis	IMPACT341	READ	Tumor			Pelvis	Rectum	570	20	Not Available	1.39	Stable	MSKCC	Matched	36	NO	58.6	4.5	26.3	NO		4.48619597498
+P-0003077-T01-IM5	P-0003077			Rectum	Metastasis	IMPACT410	READ	Tumor			Brain	Rectum	881	60	Not Available	1.34	Stable	MSKCC	Matched	36	NO	85	8.9	77.2	NO		8.94209101856
+P-0003130-T01-IM5	P-0003130			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	576	20	Not Available	0.35	Stable	MSKCC	Matched	33	NO	74.4	6.9	52.2	NO		6.95495968111
+P-0003154-T01-IM5	P-0003154			Rectum	Metastasis	IMPACT410	READ	Tumor			Lymph Node	Rectum	617	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	53	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0003184-T01-IM5	P-0003184			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	225	20	MICROSATELLITE STABLE (MSS). See MSI note below.	0.35	Stable	MSKCC	Matched	49	NO	25.2	2	4.3	NO		1.98713133746
+P-0003258-T01-IM5	P-0003258			Rectum	Metastasis	IMPACT410	READ	Tumor			Ovary	Rectum	530	20	Not Available	0.22	Stable	MSKCC	Matched	38	NO	74.4	6.9	52.2	NO		6.95495968111
+P-0003285-T01-IM5	P-0003285			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	703	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.08	Stable	MSKCC	Matched	37	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0003301-T01-IM5	P-0003301			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	738	10	Not Available	0	Stable	MSKCC	Matched	52	NO	59.8	4.9	27.5	NO		5.96139401238
+P-0003365-T01-IM5	P-0003365			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	576	30	Not Available	0.19	Stable	MSKCC	Matched	47	NO	25.2	2	4.3	NO		1.98713133746
+P-0003397-T01-IM5	P-0003397			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	530	10	Not Available	0	Stable	MSKCC	Matched	52	NO	37.9	3	8.7	NO		1.98713133746
+P-0003475-T01-IM5	P-0003475			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	462	60	Not Available	1.24	Stable	MSKCC	Matched	64	NO	74.4	6.9	52.2	NO		6.95495968111
+P-0003483-T01-IM5	P-0003483			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	571	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	55	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0003513-T01-IM5	P-0003513			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	369	20	MICROSATELLITE STABLE (MSS). See MSI note below.	0.08	Stable	MSKCC	Matched	55	NO	90.3	12.8	87.2	NO		12.9163536935
+P-0003710-T01-IM5	P-0003710			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	481	60	Not Available	1.15	Stable	MSKCC	Matched	46	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0003753-T01-IM5	P-0003753			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	588	10	Not Available	0.08	Stable	MSKCC	Matched	74	NO	68	5.9	39.2	NO		5.96139401238
+P-0003755-T01-IM5	P-0003755			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	484	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0.76	Stable	MSKCC	Matched	44	NO	25.2	2	4.3	NO		1.98713133746
+P-0003756-T01-IM5	P-0003756			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	385	10	Not Available	0.8	Stable	MSKCC	Matched	63	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0003791-T01-IM5	P-0003791			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	785	20	Not Available	0.37	Stable	MSKCC	Matched	58	NO	85.9	9.8	79.4	NO		9.93565668729
+P-0003886-T01-IM5	P-0003886			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	692	20	MICROSATELLITE STABLE (MSS). See MSI note below.	0.49	Stable	MSKCC	Matched	74	NO	68	5.9	39.2	NO		5.96139401238
+P-0004018-T01-IM3	P-0004018			Rectum	Primary	IMPACT341	READ	Tumor			Not Applicable	Rectum	644		MICROSATELLITE STABLE (MSS). See MSI note below.	1.24	Stable	MSKCC	Matched	62	NO	91.1	13.4	88.3	YES	471401	13.458587925
+P-0004072-T01-IM5	P-0004072			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	807		MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	59	NO	78.9	7.9	63.3	NO		7.94852534983
+P-0004081-T01-IM5	P-0004081			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	645	30	Not Available	0.09	Stable	MSKCC	Matched	53	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0004159-T01-IM5	P-0004159			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	744	10	Not Available	0	Stable	MSKCC	Matched	36	NO	85	8.9	77.2	NO		8.94209101856
+P-0004322-T01-IM5	P-0004322			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	568	20	Not Available	0	Stable	MSKCC	Matched	44	NO	25.2	2	4.3	NO		1.98713133746
+P-0004401-T02-IM6	P-0004401			Rectum	Metastasis	IMPACT468	READ	Tumor			Small Bowel	Rectum	927	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0.95	Stable	MSKCC	Matched	51	NO	91	13.2	87.9	YES	527687	13.2422268129
+P-0004403-T01-IM5	P-0004403			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	368	10	Not Available	0.36	Stable	MSKCC	Matched	70	NO	68	5.9	39.2	NO		5.96139401238
+P-0004431-T01-IM5	P-0004431			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	693	50	Not Available	0.9	Stable	MSKCC	Matched	65	NO	74.4	6.9	52.2	NO		6.95495968111
+P-0004486-T01-IM5	P-0004486			Rectum	Metastasis	IMPACT410	READ	Tumor			Lymph Node	Rectum	798	60	Not Available	16.21	Instable	MSKCC	Unmatched	50	NO	90.3	12.8	87.2	NO		12.9163536935
+P-0004652-T01-IM5	P-0004652			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	678	20	MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	67	NO	68	5.9	39.2	NO		5.96139401238
+P-0004679-T01-IM5	P-0004679			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	785	20	MICROSATELLITE STABLE (MSS). See MSI note below.	0.97	Stable	MSKCC	Matched	67	NO	59.6	4.9	27.8	NO		3.97426267492
+P-0004783-T01-IM5	P-0004783			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	587	40	Not Available	23.53	Instable	MSKCC	Matched	43	NO	98.1	47.2	92.9	NO		47.691152099
+P-0004844-T01-IM5	P-0004844			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	850	40	Not Available	0.42	Stable	MSKCC	Matched	63	NO	79.1	7.9	62.6	NO		7.94852534983
+P-0004904-T01-IM5	P-0004904			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	496	60	Not Available	0.09	Stable	MSKCC	Matched	68	NO	74.4	6.9	52.2	NO		6.95495968111
+P-0004928-T01-IM5	P-0004928			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	651	30	MICROSATELLITE STABLE (MSS). See MSI note below.	1.53	Stable	MSKCC	Matched	53	NO	79.1	7.9	62.6	NO		7.94852534983
+P-0004960-T01-IM5	P-0004960			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	1393	20	Not Available	1.6	Stable	MSKCC	Matched	50	NO	87.8	10.8	83.5	NO		10.929222356
+P-0005029-T01-IM5	P-0005029			Rectum	Metastasis	IMPACT410	READ	Tumor			Ovary	Rectum	962	60	MICROSATELLITE STABLE (MSS). See MSI note below.	1.69	Stable	MSKCC	Matched	34	NO	37.9	3	8.7	NO		2.98069700619
+P-0005091-T01-IM5	P-0005091			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	1043	30	MICROSATELLITE STABLE (MSS). See MSI note below.	1.47	Stable	MSKCC	Matched	72	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0005124-T01-IM5	P-0005124			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	968	50	Not Available	1.51	Stable	MSKCC	Matched	53	NO	74.4	6.9	52.2	NO		6.95495968111
+P-0005207-T01-IM5	P-0005207			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	526	60	MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	76	NO	68	5.9	39.2	NO		5.96139401238
+P-0005210-T01-IM5	P-0005210			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	516	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.58	Stable	MSKCC	Matched	67	NO	85.9	9.8	79.4	NO		9.93565668729
+P-0005327-T01-IM5	P-0005327			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	1148	20	MICROSATELLITE STABLE (MSS). See MSI note below.	1.12	Stable	MSKCC	Matched	32	NO	68	5.9	39.2	NO		5.96139401238
+P-0005343-T01-IM5	P-0005343			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	797	20	Not Available	0.24	Stable	MSKCC	Matched	64	NO	25.2	2	4.3	YES	744042	1.98713133746
+P-0005381-T01-IM5	P-0005381			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	378	20	Not Available	1.03	Stable	MSKCC	Matched	37	NO	74.4	6.9	52.2	NO		6.95495968111
+P-0005522-T01-IM5	P-0005522			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	656	40	Not Available	0.74	Stable	MSKCC	Matched	73	NO	74.4	6.9	52.2	NO		6.95495968111
+P-0005589-T01-IM5	P-0005589			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	751	30	Not Available	0.5	Stable	MSKCC	Matched	42	NO	79.1	7.9	62.6	NO		6.95495968111
+P-0005591-T01-IM5	P-0005591			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	771	20	Not Available	0	Stable	MSKCC	Matched	64	NO	25.2	2	4.3	NO		1.98713133746
+P-0005739-T02-IM5	P-0005739			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	525	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0.28	Stable	MSKCC	Matched	72	NO	67.7	5.9	39.5	NO		5.96139401238
+P-0005824-T01-IM5	P-0005824			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	964	60	Not Available	0.67	Stable	MSKCC	Matched	24	NO	100	342.4	99.9	NO		344.767287049
+P-0006075-T01-IM5	P-0006075			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectosigmoid Colon	766	40	Not Available	0.24	Stable	MSKCC	Matched	41	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0006136-T01-IM5	P-0006136			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	900	20	Not Available	0	Stable	MSKCC	Matched	77	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0006181-T01-IM5	P-0006181			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	849	30	Not Available	0.34	Stable	MSKCC	Matched	64	NO	79.1	7.9	62.6	NO		6.95495968111
+P-0006184-T01-IM5	P-0006184			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	985	20	Not Available	0	Stable	MSKCC	Matched	57	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0006225-T01-IM5	P-0006225			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	786	50	Not Available	0.67	Stable	MSKCC	Matched	64	NO	68	5.9	39.2	NO		5.96139401238
+P-0006230-T01-IM5	P-0006230			Rectum	Metastasis	IMPACT410	READ	Tumor			Lymph Node	Rectum	776	20	Not Available	0.61	Stable	MSKCC	Matched	43	NO	79.1	7.9	62.6	NO		7.94852534983
+P-0006261-T01-IM5	P-0006261			Rectum	Metastasis	IMPACT410	READ	Tumor			Retroperitoneum	Rectum	918		MICROSATELLITE STABLE (MSS). See MSI note below.	0.16	Stable	MSKCC	Matched	59	NO	49.6	3.9	17.2	NO		3.97426267492
+P-0006287-T01-IM5	P-0006287			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	123	20	MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	62	NO	79.1	7.9	62.6	NO		6.95495968111
+P-0006329-T01-IM5	P-0006329			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	918	20	Not Available	0.16	Stable	MSKCC	Matched	57	NO	89.2	11.8	85.5	NO		11.9227880248
+P-0006394-T01-IM5	P-0006394			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	741	40	MICROSATELLITE STABLE (MSS). See MSI note below.	2.01	Stable	MSKCC	Matched	51	NO	68	5.9	39.2	NO		5.96139401238
+P-0006460-T01-IM5	P-0006460			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	1101	20	Not Available	0	Stable	MSKCC	Matched	61	NO	68	5.9	39.2	NO		5.96139401238
+P-0006512-T01-IM5	P-0006512			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	827	10	Not Available	0.34	Stable	MSKCC	Matched	62	NO	79.1	7.9	62.6	NO		7.94852534983
+P-0006548-T01-IM5	P-0006548			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	682	20	Not Available	0.42	Stable	MSKCC	Matched	50	NO	87.8	10.8	83.5	NO		10.929222356
+P-0006636-T01-IM5	P-0006636			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	1000	10	Not Available	0.16	Stable	MSKCC	Matched	79	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0006669-T01-IM5	P-0006669			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	887	40	Not Available	0.3	Stable	MSKCC	Matched	44	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0006685-T01-IM5	P-0006685			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	1054		MICROSATELLITE STABLE (MSS). See MSI note below.	0.14	Stable	MSKCC	Matched	61	NO	59.6	4.9	27.8	NO		4.96782834365
+P-0006701-T01-IM5	P-0006701			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	694	20	Not Available	0.08	Stable	MSKCC	Matched	58	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0006721-T01-IM5	P-0006721			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	767	20	Not Available	0.22	Stable	MSKCC	Matched	51	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0006737-T01-IM5	P-0006737			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	807	20	Not Available	0.27	Stable	MSKCC	Matched	43	NO	37.9	3	8.7	NO		2.98069700619
+P-0006763-T01-IM5	P-0006763			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	224	50	Not Available	1.99	Stable	MSKCC	Matched	73	NO	68	5.9	39.2	NO		5.96139401238
+P-0006816-T01-IM5	P-0006816			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	669	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.18	Stable	MSKCC	Matched	58	NO	89.2	11.8	85.5	NO		11.9227880248
+P-0006853-T01-IM5	P-0006853			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	792	20	Not Available	0	Stable	MSKCC	Matched	65	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0006860-T01-IM5	P-0006860			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	763	40	Not Available	1.16	Stable	MSKCC	Matched	65	NO	79.1	7.9	62.6	NO		7.94852534983
+P-0006983-T01-IM5	P-0006983			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	843	20	MICROSATELLITE STABLE (MSS). See MSI note below.	0.52	Stable	MSKCC	Matched	67	NO	49.6	3.9	17.2	NO		4.96782834365
+P-0007036-T01-IM5	P-0007036			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	795	30	Not Available	1.14	Stable	MSKCC	Matched	64	NO	68	5.9	39.2	NO		5.96139401238
+P-0007079-T01-IM5	P-0007079			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	952		MICROSATELLITE STABLE (MSS). See MSI note below.	0.15	Stable	MSKCC	Matched	70	NO	74.2	6.9	52.7	NO		6.95495968111
+P-0007085-T02-IM5	P-0007085			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	1173		MICROSATELLITE STABLE (MSS). See MSI note below.	0.18	Stable	MSKCC	Matched	77	NO	67.7	5.9	39.5	NO		5.96139401238
+P-0007092-T01-IM5	P-0007092			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	876	35	Not Available	2.34	Stable	MSKCC	Matched	51	NO	68	5.9	39.2	NO		5.96139401238
+P-0007112-T01-IM5	P-0007112			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	1077	15	Not Available	0	Stable	MSKCC	Matched	48	NO	68	5.9	39.2	NO		5.96139401238
+P-0007162-T01-IM5	P-0007162			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	897	20	Not Available	0.63	Stable	MSKCC	Matched	71	NO	68	5.9	39.2	NO		5.96139401238
+P-0007168-T01-IM5	P-0007168			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	1079	30	Not Available	1.15	Stable	MSKCC	Matched	69	NO	79.1	7.9	62.6	NO		8.94209101856
+P-0007171-T01-IM5	P-0007171			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	862	10	Not Available	0	Stable	MSKCC	Matched	50	NO	13.1	1	2.2	NO		0.993565668729
+P-0007315-T01-IM5	P-0007315			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	720	30	Not Available	0.3	Stable	MSKCC	Matched	58	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0007334-T01-IM5	P-0007334			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	658		MICROSATELLITE STABLE (MSS). See MSI note below.	0.17	Stable	MSKCC	Matched	65	NO	59.6	4.9	27.8	NO		4.96782834365
+P-0007357-T01-IM5	P-0007357			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	720	30	Not Available	0.77	Stable	MSKCC	Matched	58	NO	79.1	7.9	62.6	NO		7.94852534983
+P-0007365-T01-IM5	P-0007365			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	390	30	Not Available	2.09	Stable	MSKCC	Matched	54	NO	79.1	7.9	62.6	NO		6.95495968111
+P-0007377-T02-IM5	P-0007377			Rectum	Metastasis	IMPACT410	READ	Tumor			Bladder	Rectum	793	90	MICROSATELLITE STABLE (MSS). See MSI note below.	2.43	Stable	MSKCC	Matched	55	NO	85.9	9.8	80.2	NO		9.93565668729
+P-0007410-T01-IM5	P-0007410			Rectum	Metastasis	IMPACT410	READ	Tumor			Lymph Node	Rectum	565	25	MICROSATELLITE STABLE (MSS). See MSI note below.	1.89	Stable	MSKCC	Matched	38	NO	25.2	2	4.3	NO		1.98713133746
+P-0007414-T01-IM5	P-0007414			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	582	15	Not Available	0	Stable	MSKCC	Matched	51	NO	25.2	2	4.3	NO		1.98713133746
+P-0007495-T01-IM5	P-0007495			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	793	25	Not Available	0	Stable	MSKCC	Matched	81	NO	91.1	13.8	88	YES	438107	13.9099193622
+P-0007555-T01-IM5	P-0007555			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	1011	20	Not Available	0.08	Stable	MSKCC	Matched	63	NO	37.9	3	8.7	NO		2.98069700619
+P-0007590-T01-IM5	P-0007590			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	669		MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	64	NO	84.8	8.9	77.4	NO		8.94209101856
+P-0007637-T01-IM5	P-0007637			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	857	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.26	Stable	MSKCC	Matched	50	NO	13.8	1	2.2	NO		0.993565668729
+P-0007645-T01-IM5	P-0007645			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	378	50	Not Available	2.33	Stable	MSKCC	Matched	85	NO	68	5.9	39.2	NO		5.96139401238
+P-0007657-T01-IM5	P-0007657			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	709	60	Not Available	0.36	Stable	MSKCC	Matched	57	NO	68	5.9	39.2	NO		5.96139401238
+P-0007664-T01-IM5	P-0007664			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	1089		MICROSATELLITE STABLE (MSS). See MSI note below.	0.31	Stable	MSKCC	Matched	53	NO	78.9	7.9	63.3	NO		7.94852534983
+P-0007746-T01-IM5	P-0007746			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	921	30	Not Available	1.21	Stable	MSKCC	Matched	66	NO	74.4	6.9	52.2	NO		6.95495968111
+P-0007869-T01-IM5	P-0007869			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	622		Not Available	1.04	Stable	MSKCC	Matched	55	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0007975-T01-IM5	P-0007975			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	941	25	Not Available	0	Stable	MSKCC	Matched	73	NO	37.9	3	8.7	NO		2.98069700619
+P-0007979-T01-IM5	P-0007979			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	700	10	Not Available	0	Stable	MSKCC	Matched	58	NO	37.9	3	8.7	NO		2.98069700619
+P-0007996-T01-IM5	P-0007996			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	113	30	Not Available	3.88	Indeterminate	MSKCC	Matched	60	NO	59.8	4.9	27.5	YES	760944	4.96782834365
+P-0008031-T01-IM5	P-0008031			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	799	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.17	Stable	MSKCC	Matched	45	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0008068-T01-IM5	P-0008068			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	1327	50	Not Available	1.7	Stable	MSKCC	Matched	49	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0008095-T01-IM5	P-0008095			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	246	70	Not Available	5.06	Indeterminate	MSKCC	Matched	88	NO	68	5.9	39.2	NO		5.96139401238
+P-0008141-T01-IM5	P-0008141			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	814	75	Not Available	0.55	Stable	MSKCC	Matched	53	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0008159-T01-IM5	P-0008159			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	140	35	Not Available	0.89	Stable	MSKCC	Matched	59	NO	68	5.9	39.2	NO		5.96139401238
+P-0008173-T01-IM5	P-0008173			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	1015	50	Not Available	0.73	Stable	MSKCC	Matched	65	NO	49.7	3.9	16.8	NO		4.96782834365
+P-0008226-T02-IM5	P-0008226			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	854	40	Not Available	27.25	Instable	MSKCC	Matched	29	NO	98.7	57.1	94.7	YES	418326	57.6268087863
+P-0008259-T01-IM5	P-0008259			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	926	20	Not Available	0	Stable	MSKCC	Matched	56	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0008267-T01-IM5	P-0008267			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	796	60	Not Available	0.75	Stable	MSKCC	Matched	41	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0008288-T01-IM5	P-0008288			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	1240	70	Not Available	2.07	Stable	MSKCC	Matched	60	NO	37.9	3	8.7	NO		2.98069700619
+P-0008308-T01-IM5	P-0008308			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	837		MICROSATELLITE STABLE (MSS). See MSI note below.	0.35	Stable	MSKCC	Matched	61	NO	78.9	7.9	63.3	NO		7.94852534983
+P-0008317-T01-IM5	P-0008317			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	373	60	Not Available	23.97	Instable	MSKCC	Matched	36	NO	98.3	51.2	93.6	NO		51.6654147739
+P-0008357-T01-IM5	P-0008357			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	647	30	Not Available	0.42	Stable	MSKCC	Matched	58	NO	37.9	3	8.7	NO		2.98069700619
+P-0008521-T01-IM5	P-0008521			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectosigmoid Colon	895	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.25	Stable	MSKCC	Matched	67	NO	85	8.9	77.2	NO		8.94209101856
+P-0008541-T01-IM5	P-0008541			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	858	60	MICROSATELLITE STABLE (MSS). See MSI note below.	0.74	Stable	MSKCC	Matched	43	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0008565-T01-IM5	P-0008565			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	689	70	Not Available	0.98	Stable	MSKCC	Matched	62	NO	90.3	12.8	87.2	NO		12.9163536935
+P-0008579-T01-IM5	P-0008579			Rectum	Metastasis	IMPACT410	READ	Tumor			Omentum	Rectum	755	20	Not Available	0.08	Stable	MSKCC	Matched	76	NO	68	5.9	39.2	NO		5.96139401238
+P-0008588-T01-IM5	P-0008588			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	1030	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	70	NO	68	5.9	39.2	NO		5.96139401238
+P-0008652-T01-IM5	P-0008652			Rectum	Metastasis	IMPACT410	READ	Tumor			Lymph Node	Rectum	426	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.45	Stable	MSKCC	Matched	51	NO	59.8	4.9	27.5	NO		4.96782834365
+P-0008662-T01-IM5	P-0008662			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	680	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0.17	Stable	MSKCC	Matched	72	NO	25.2	2	4.3	YES	595478	1.98713133746
+P-0008671-T01-IM5	P-0008671			Rectum	Metastasis	IMPACT410	READ	Tumor			Soft Tissue	Rectum	200	10	Not Available	1.32	Stable	MSKCC	Matched	59	NO	37.9	3	8.7	NO		2.98069700619
+P-0008727-T01-IM5	P-0008727			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	325	30	Not Available	0.91	Stable	MSKCC	Matched	69	NO	85	8.9	77.2	NO		8.94209101856
+P-0008782-T01-IM5	P-0008782			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	913	30	Not Available	0.42	Stable	MSKCC	Matched	63	NO	87.8	10.8	83.5	NO		10.929222356
+P-0008819-T01-IM5	P-0008819			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	77	10	Not Available	3.1	Indeterminate	MSKCC	Matched	67	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0008841-T01-IM5	P-0008841			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	1205	10	Not Available	0.08	Stable	MSKCC	Matched	68	NO	49.7	3.9	16.8	NO		3.97426267492
+P-0008941-T01-IM5	P-0008941			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	905	30	MICROSATELLITE STABLE (MSS). See MSI note below.	1.36	Stable	MSKCC	Matched	70	NO	68	5.9	39.2	NO		5.96139401238
+P-0009000-T01-IM5	P-0009000			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	1139	80	Not Available	0.47	Stable	MSKCC	Matched	63	NO	68	5.9	39.2	NO		5.96139401238
+P-0009012-T01-IM5	P-0009012			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	891	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.08	Stable	MSKCC	Matched	76	NO	79.1	7.9	62.6	NO		7.94852534983
+P-0009013-T01-IM5	P-0009013			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	791	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	45	NO				NO		0.0
+P-0009013-T02-IM5	P-0009013			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	697	80	Not Available	0.25	Stable	MSKCC	Matched	45	NO	37.9	3	8.7	YES	427331	2.98069700619
+P-0009062-T01-IM5	P-0009062			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	826	50	Not Available	0.35	Stable	MSKCC	Matched	43	NO	49.7	3.9	16.8	YES	398303	3.97426267492
+P-0009139-T01-IM5	P-0009139			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	629	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	33	NO	37.9	3	8.7	YES	397781	2.98069700619
+P-0009170-T01-IM5	P-0009170			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	481	90	Not Available	0.46	Stable	MSKCC	Matched	53	NO	25.2	2	4.3	YES	396687	1.98713133746
+P-0009185-T01-IM5	P-0009185			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	967	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.47	Stable	MSKCC	Matched	71	NO	59.8	4.9	27.5	YES	397840	4.96782834365
+P-0009362-T01-IM5	P-0009362			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	762	30	Not Available	0	Stable	MSKCC	Matched	71	NO	85	8.9	77.2	YES	397970	8.94209101856
+P-0009445-T01-IM5	P-0009445			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectosigmoid Colon	970	20	Not Available	0.19	Stable	MSKCC	Matched	54	NO	59.8	4.9	27.5	YES	400364	4.96782834365
+P-0009488-T01-IM5	P-0009488			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	713	40	Not Available	0.17	Stable	MSKCC	Matched	47	NO	74.4	6.9	52.2	YES	399054	6.95495968111
+P-0009488-T02-IM6	P-0009488			Rectum	Metastasis	IMPACT468	READ	Tumor			Liver	Rectum	461	80	MICROSATELLITE STABLE (MSS). See MSI note below.	0.73	Stable	MSKCC	Matched	48	NO	73.7	6.1	51	YES	520051	6.179705846
+P-0009690-T01-IM5	P-0009690			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	1085	70	Not Available	1.33	Stable	MSKCC	Matched	37	NO	85.9	9.8	79.4	YES	401907	9.93565668729
+P-0009703-T01-IM5	P-0009703			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	1260	30	Not Available	0.15	Stable	MSKCC	Matched	72	NO	37.9	3	8.7	YES	404097	2.98069700619
+P-0009826-T01-IM5	P-0009826			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	943	10	Not Available	0	Stable	MSKCC	Matched	60	NO	25.2	2	4.3	NO		1.98713133746
+P-0009850-T01-IM5	P-0009850			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	766	70	Not Available	2.77	Stable	MSKCC	Matched	55	NO	79.1	7.9	62.6	YES	404921	7.94852534983
+P-0009971-T01-IM5	P-0009971			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	337	40	Not Available	0.08	Stable	MSKCC	Matched	46	NO	91.8	14.8	88.8	YES	405987	13.9099193622
+P-0010044-T01-IM5	P-0010044			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	685	40	Not Available	0.38	Stable	MSKCC	Matched	60	NO	74.4	6.9	52.2	YES	407304	6.95495968111
+P-0010138-T01-IM5	P-0010138			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	834	40	Not Available	0	Stable	MSKCC	Matched	45	NO	49.7	3.9	16.8	YES	408424	3.97426267492
+P-0010203-T01-IM5	P-0010203			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	848	60	Not Available	2.07	Stable	MSKCC	Matched	34	NO	79.1	7.9	62.6	YES	409681	7.94852534983
+P-0010275-T01-IM5	P-0010275			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	751	30	Not Available	35.18	Instable	MSKCC	Matched	32	YES	99	63.9	95.7	YES	409776	64.5817684674
+P-0010330-T01-IM5	P-0010330			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	818	40	Not Available	0	Stable	MSKCC	Matched	75	NO	85.9	9.8	79.4	YES	412993	9.93565668729
+P-0010364-T01-IM5	P-0010364			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	919	60	MICROSATELLITE STABLE (MSS). See MSI note below.	1.61	Stable	MSKCC	Matched	52	NO	59.8	4.9	27.5	YES	409785	4.96782834365
+P-0010365-T01-IM5	P-0010365			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectosigmoid Colon	1102	50	Not Available	0.26	Stable	MSKCC	Matched	32	NO	74.4	6.9	52.2	YES	409767	6.95495968111
+P-0010407-T01-IM5	P-0010407			Rectum	Metastasis	IMPACT410	READ	Tumor			Spine	Rectosigmoid Colon	495	20	Not Available	1.1	Stable	MSKCC	Matched	51	NO	91.1	13.8	88	YES	413002	13.9099193622
+P-0010425-T01-IM5	P-0010425			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	808	30	Not Available	0.08	Stable	MSKCC	Matched	67	NO	59.8	4.9	27.5	YES	414488	4.96782834365
+P-0010432-T01-IM5	P-0010432			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	822	10	Not Available	0	Stable	MSKCC	Matched	49	NO	68	5.9	39.2	YES	408387	6.95495968111
+P-0010506-T01-IM5	P-0010506			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	778	30	Not Available	0.41	Stable	MSKCC	Matched	69	NO	74.4	6.9	52.2	YES	414512	6.95495968111
+P-0010513-T01-IM5	P-0010513			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	667	50	Not Available	1.34	Stable	MSKCC	Matched	58	NO	68	5.9	39.2	YES	415110	5.96139401238
+P-0010535-T01-IM5	P-0010535			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectosigmoid Colon	851	30	Not Available	0.24	Stable	MSKCC	Matched	50	NO	85	8.9	77.2	YES	415202	8.94209101856
+P-0010555-T02-IM5	P-0010555			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	968	70	Not Available	0.17	Stable	MSKCC	Matched	65	NO	74.4	6.9	52.2	YES	416601	6.95495968111
+P-0010751-T01-IM5	P-0010751			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectosigmoid Colon	727	20	Not Available	0	Stable	MSKCC	Matched	70	NO	68	5.9	39.2	YES	418275	5.96139401238
+P-0010832-T01-IM5	P-0010832			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectosigmoid Colon	440	35	Not Available	0.08	Stable	MSKCC	Matched	27	NO	68	5.9	39.2	YES	420363	5.96139401238
+P-0010861-T01-IM5	P-0010861			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	991	30	MICROSATELLITE INSTABILITY-INDETERMINATE. See MSI note below.	3.47	Indeterminate	MSKCC	Matched	39	NO	87.8	10.8	83.5	YES	418768	10.929222356
+P-0010932-T01-IM5	P-0010932			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	879	15	MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	59	NO	37.9	3	8.7	YES	420383	2.98069700619
+P-0010965-T01-IM5	P-0010965			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	957	50	Not Available	0.08	Stable	MSKCC	Matched	66	NO	49.7	3.9	16.8	YES	422683	3.97426267492
+P-0011074-T01-IM5	P-0011074			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	810	80	Not Available	1.35	Stable	MSKCC	Matched	82	NO	79.1	7.9	62.6	YES	424040	7.94852534983
+P-0011195-T01-IM5	P-0011195			Rectum	Metastasis	IMPACT410	READ	Tumor			Paraspinal Mass	Rectum	883	10	Not Available	0	Stable	MSKCC	Matched	38	NO	37.9	3	8.7	YES	427142	2.98069700619
+P-0011235-T01-IM5	P-0011235			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	1064	65	Not Available	23.55	Instable	MSKCC	Matched	64	NO	94.9	22.6	90	YES	427068	22.8520103808
+P-0011258-T01-IM5	P-0011258			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	534	60	Not Available	0.41	Stable	MSKCC	Matched	59	NO	85.9	9.8	79.4	YES	428251	9.93565668729
+P-0011282-T01-IM5	P-0011282			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	1028	30	Not Available	0.25	Stable	MSKCC	Matched	73	NO	25.2	2	4.3	YES	427039	1.98713133746
+P-0011283-T01-IM5	P-0011283			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	731	45	MICROSATELLITE STABLE (MSS). See MSI note below.	0.83	Stable	MSKCC	Matched	46	NO	49.6	3.9	17.2	YES	427117	3.97426267492
+P-0011291-T01-IM5	P-0011291			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	618	10	Not Available	0	Stable	MSKCC	Matched	81	NO	13.1	1	2.2	YES	427857	0.993565668729
+P-0011306-T01-IM5	P-0011306			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	874	70	MICROSATELLITE STABLE (MSS). See MSI note below.	0.53	Stable	MSKCC	Matched	50	NO	67.7	5.9	39.5	YES	427041	5.96139401238
+P-0011347-T01-IM5	P-0011347			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	749	50	Not Available	0.49	Stable	MSKCC	Matched	44	NO	68	5.9	39.2	YES	424020	6.95495968111
+P-0011353-T01-IM5	P-0011353			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	525	50	MICROSATELLITE STABLE (MSS). See MSI note below.	1.71	Stable	MSKCC	Matched	59	NO				YES	428495	0.0
+P-0011374-T01-IM5	P-0011374			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	878	70	Not Available	0.84	Stable	MSKCC	Matched	34	NO	49.7	3.9	16.8	YES	428242	3.97426267492
+P-0011396-T01-IM5	P-0011396			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	977	20	Not Available	0.6	Stable	MSKCC	Matched	55	NO	68	5.9	39.2	YES	427837	5.96139401238
+P-0011445-T01-IM5	P-0011445			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	906	10	Not Available	0	Stable	MSKCC	Matched	44	NO	68	5.9	39.2	YES	429476	5.96139401238
+P-0011455-T01-IM5	P-0011455			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	1027	40	Not Available	0.31	Stable	MSKCC	Matched	58	NO	68	5.9	39.2	YES	429383	6.95495968111
+P-0011510-T01-IM5	P-0011510			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	937	25	Not Available	0	Stable	MSKCC	Matched	58	NO	68	5.9	39.2	YES	430472	5.96139401238
+P-0011512-T01-IM5	P-0011512			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	964	20	Not Available	1.19	Stable	MSKCC	Matched	71	NO	25.2	2	4.3	YES	430394	1.98713133746
+P-0011520-T01-IM5	P-0011520			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectosigmoid Colon	732	30	Not Available	1.09	Stable	MSKCC	Matched	35	NO	85	8.9	77.2	YES	430478	8.94209101856
+P-0011563-T01-IM5	P-0011563			Rectum	Metastasis	IMPACT410	READ	Tumor			Omentum	Rectum	927	30	Not Available	0.15	Stable	MSKCC	Matched	39	NO	68	5.9	39.2	YES	432243	5.96139401238
+P-0012032-T01-IM5	P-0012032			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	891	40	Not Available	0	Stable	MSKCC	Matched	47	NO	74.4	6.9	52.2	YES	432286	5.96139401238
+P-0012074-T01-IM5	P-0012074			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectosigmoid Colon	887	40	Not Available	0.43	Stable	MSKCC	Matched	64	NO	68	5.9	39.2	YES	433577	5.96139401238
+P-0012110-T01-IM5	P-0012110			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	991	30	Not Available	0.39	Stable	MSKCC	Matched	36	NO	37.9	3	8.7	YES	433521	2.98069700619
+P-0012147-T01-IM5	P-0012147			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	964	60	MICROSATELLITE STABLE (MSS). See MSI note below.	0.86	Stable	MSKCC	Matched	63	NO	79.1	7.9	62.6	YES	434476	7.94852534983
+P-0012266-T01-IM5	P-0012266			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	759	10	Not Available	0	Stable	MSKCC	Matched	73	NO	74.4	6.9	52.2	YES	437446	6.95495968111
+P-0012277-T01-IM5	P-0012277			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	560	30	Not Available	0.09	Stable	MSKCC	Matched	84	NO	74.4	6.9	52.2	YES	441034	6.95495968111
+P-0012389-T01-IM5	P-0012389			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	899	60	Not Available	0.44	Stable	MSKCC	Matched	41	NO	13.1	1	2.2	YES	438504	0.993565668729
+P-0012419-T01-IM5	P-0012419			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	800	20	Not Available	0	Stable	MSKCC	Matched	47	NO	25.2	2	4.3	YES	438494	1.98713133746
+P-0012447-T01-IM5	P-0012447			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	812	40	Not Available	1.17	Stable	MSKCC	Matched	49	NO	68	5.9	39.2	YES	441832	5.96139401238
+P-0012653-T01-IM5	P-0012653			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	843	40	Not Available	4.57	Indeterminate	MSKCC	Matched	62	NO	49.7	3.9	16.8	YES	438315	3.97426267492
+P-0012653-T02-IM5	P-0012653			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	1030	50	MICROSATELLITE STABLE (MSS). See MSI note below.	3	Stable	MSKCC	Matched	62	NO	49.6	3.9	17.2	YES	459944	3.97426267492
+P-0012685-T01-IM5	P-0012685			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	995	10	Not Available	0	Stable	MSKCC	Matched	60	NO	37.9	3	8.7	YES	447888	2.98069700619
+P-0012708-T01-IM5	P-0012708			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	852	20	Not Available	0	Stable	MSKCC	Matched	52	NO	59.8	4.9	27.5	YES	449054	4.96782834365
+P-0012779-T01-IM5	P-0012779			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	552	30	Not Available	0.85	Stable	MSKCC	Matched	61	NO	68	5.9	39.2	NO		5.96139401238
+P-0012823-T01-IM5	P-0012823			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	1035	60	MICROSATELLITE STABLE (MSS). See MSI note below.	0.07	Stable	MSKCC	Matched	48	NO	79.1	7.9	62.6	YES	448053	7.94852534983
+P-0012823-T02-IM5	P-0012823			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	880	40	Not Available	0	Stable	MSKCC	Matched	48	NO	68	5.9	39.2	YES	447987	5.96139401238
+P-0012847-T01-IM5	P-0012847			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	1068	30	Not Available	0.62	Stable	MSKCC	Matched	66	NO	37.9	3	8.7	YES	449113	2.98069700619
+P-0012859-T01-IM5	P-0012859			Rectum	Metastasis	IMPACT410	READ	Tumor			Lung	Rectum	981	50	Not Available	2.26	Stable	MSKCC	Matched	62	NO	85	8.9	77.2	YES	410761	8.94209101856
+P-0012878-T01-IM5	P-0012878			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	1159	20	Not Available	0.61	Stable	MSKCC	Matched	38	NO	68	5.9	39.2	YES	449645	5.96139401238
+P-0012965-T01-IM5	P-0012965			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	477	40	Not Available	0.31	Stable	MSKCC	Matched	77	NO	68	5.9	39.2	YES	449841	5.96139401238
+P-0013088-T01-IM5	P-0013088			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	813	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.82	Stable	MSKCC	Matched	47	NO	67.7	5.9	39.5	YES	451591	5.96139401238
+P-0013144-T01-IM5	P-0013144			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	699	50	MICROSATELLITE STABLE (MSS). See MSI note below.	2.82	Stable	MSKCC	Matched	55	NO	67.7	5.9	39.5	YES	453187	5.96139401238
+P-0013156-T01-IM5	P-0013156			Rectum	Metastasis	IMPACT410	READ	Tumor			Lymph Node	Rectum	1211	40	Not Available	5.31	Indeterminate	MSKCC	Matched	48	NO	68	5.9	39.2	YES	453174	5.96139401238
+P-0013159-T01-IM5	P-0013159			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	186	10	Not Available	6.96	Indeterminate	MSKCC	Matched	85	NO	37.9	3	8.7	YES	453163	2.98069700619
+P-0013277-T01-IM5	P-0013277			Rectum	Metastasis	IMPACT410	READ	Tumor			Brain	Rectum	993	30	Not Available	2.99	Stable	MSKCC	Matched	50	NO	85	8.9	77.2	YES	454774	8.94209101856
+P-0013354-T01-IM5	P-0013354			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	1017	50	Not Available	1.22	Stable	MSKCC	Matched	53	NO	59.8	4.9	27.5	YES	458131	4.96782834365
+P-0013375-T01-IM5	P-0013375			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	1042	40	Not Available	2.2	Stable	MSKCC	Matched	62	NO	37.9	3	8.7	YES	458646	2.98069700619
+P-0013397-T01-IM5	P-0013397			Rectum	Metastasis	IMPACT410	READ	Tumor			Sacral Mass	Rectum	822	20	Not Available	0	Stable	MSKCC	Matched	59	NO	91.1	13.8	88	YES	458666	13.9099193622
+P-0013404-T01-IM5	P-0013404			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	790	60	MICROSATELLITE STABLE (MSS). See MSI note below.	1.02	Stable	MSKCC	Matched	57	NO	85	8.9	77.2	YES	458740	8.94209101856
+P-0013501-T01-IM5	P-0013501			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	887	10	MICROSATELLITE STABLE (MSS). See MSI note below.	0.07	Stable	MSKCC	Matched	76	NO				YES	460426	0.0
+P-0013594-T01-IM5	P-0013594			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectosigmoid Colon	856	60	MICROSATELLITE STABLE (MSS). See MSI note below.	0.24	Stable	MSKCC	Matched	54	NO	79.1	7.9	62.6	NO		7.94852534983
+P-0013648-T01-IM5	P-0013648			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	770	40	Not Available	3.39	Indeterminate	MSKCC	Matched	41	NO	59.8	4.9	27.5	YES	461047	4.96782834365
+P-0013788-T01-IM5	P-0013788			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectosigmoid Colon	694	40	MICROSATELLITE STABLE (MSS). See note.	0.58	Stable	MSKCC	Matched	46	NO	59.8	4.9	27.5	YES	465570	4.96782834365
+P-0013820-T01-IM5	P-0013820			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	819	30	MICROSATELLITE STABLE (MSS). See note.	4.25	Stable	MSKCC	Matched	61	NO	37.9	3	8.7	YES	467729	2.98069700619
+P-0013828-T01-IM5	P-0013828			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	788	40	MICROSATELLITE STABLE (MSS). See note.	1.77	Stable	MSKCC	Matched	58	NO	87.8	10.8	83.5	YES	468011	10.929222356
+P-0013894-T01-IM5	P-0013894			Rectum	Metastasis	IMPACT410	READ	Tumor			Anus	Rectum	615	20	MICROSATELLITE STABLE (MSS). See note.	0	Stable	MSKCC	Matched	52	NO	74.4	6.9	52.2	YES	468013	6.95495968111
+P-0013907-T01-IM5	P-0013907			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	875	20	MICROSATELLITE STABLE (MSS). See note.	0.2	Stable	MSKCC	Matched	67	NO	74.4	6.9	52.2	YES	471334	6.95495968111
+P-0013955-T01-IM5	P-0013955			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	490	50	MICROSATELLITE STABLE (MSS). See note.	0.16	Stable	MSKCC	Matched	52	NO	87.8	10.8	83.5	YES	471069	11.9227880248
+P-0013963-T01-IM5	P-0013963			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	802	20	MICROSATELLITE STABLE (MSS). See note.	0.07	Stable	MSKCC	Matched	62	NO	79.1	7.9	62.6	YES	471444	7.94852534983
+P-0014021-T01-IM5	P-0014021			Rectum	Metastasis	IMPACT410	READ	Tumor			Vagina	Rectum	917	30	MICROSATELLITE STABLE (MSS). See note.	2.74	Stable	MSKCC	Matched	60	NO	84.8	8.9	77.4	YES	472878	9.93565668729
+P-0014026-T01-IM5	P-0014026			Rectum	Primary	IMPACT410	READ	Tumor			Not Applicable	Rectum	874	50	MICROSATELLITE STABLE (MSS). See note.	0.78	Stable	MSKCC	Matched	51	NO	37.9	3	8.7	YES	472935	2.98069700619
+P-0014133-T01-IM5	P-0014133			Rectum	Metastasis	IMPACT410	READ	Tumor			Liver	Rectum	700	60	MICROSATELLITE STABLE (MSS). See note.	1.82	Stable	MSKCC	Matched	55	NO	68	5.9	39.2	YES	475856	5.96139401238
+P-0014456-T01-IM6	P-0014456			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	988	10	MICROSATELLITE STABLE (MSS). See note.	0.14	Stable	MSKCC	Matched	65	NO	63.5	5.3	32.5	YES	484459	5.29689072514
+P-0014499-T01-IM6	P-0014499			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	549	20	MICROSATELLITE STABLE (MSS). See note.	0	Stable	MSKCC	Matched	58	NO	25.2	1.8	4.2	YES	484563	1.76563024171
+P-0014543-T01-IM6	P-0014543			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	875	40	MICROSATELLITE STABLE (MSS). See note.	0.34	Stable	Queens Cancer Center	Matched	64	NO	54.1	4.4	20.5	NO		4.41407560429
+P-0014553-T01-IM6	P-0014553			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	864	50	MICROSATELLITE STABLE (MSS). See note.	2.53	Stable	MSKCC	Matched	67	NO	76.6	7	57.4	YES	485033	7.06252096686
+P-0014768-T01-IM6	P-0014768			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	1223	30	MICROSATELLITE STABLE (MSS). See note.	0.14	Stable	MSKCC	Matched	47	NO	73.7	6.1	51	YES	491058	6.179705846
+P-0014858-T01-IM6	P-0014858			Rectum	Metastasis	IMPACT468	READ	Tumor			Lung	Rectum	835	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.06	Stable	MSKCC	Matched	57	NO	73.7	6.1	51	YES	490642	6.179705846
+P-0014874-T01-IM6	P-0014874			Rectum	Metastasis	IMPACT468	READ	Tumor			Lung	Rectum	326	10	MICROSATELLITE STABLE (MSS). See MSI note below.	1.16	Stable	MSKCC	Matched	44	NO	73.7	6.1	51	YES	493537	6.179705846
+P-0014899-T01-IM6	P-0014899			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	895	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.31	Stable	MSKCC	Matched	46	NO	63.5	5.3	32.5	YES	492896	5.29689072514
+P-0014971-T01-IM6	P-0014971			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	572	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.28	Stable	MSKCC	Matched	49	NO	54.1	4.4	20.5	YES	496122	4.41407560429
+P-0015149-T01-IM6	P-0015149			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Colon	929	20	MICROSATELLITE STABLE (MSS). See MSI note below.	0	Stable	MSKCC	Matched	42	NO	25.2	1.8	4.2	YES	497681	1.76563024171
+P-0015276-T01-IM6	P-0015276			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	716	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.16	Stable	MSKCC	Matched	65	NO	54.1	4.4	20.5	YES	449431	4.41407560429
+P-0015711-T01-IM6	P-0015711			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	855	60		1.83	Stable	MSKCC	Matched	76	YES	54.1	4.4	20.5	YES	511260	4.41407560429
+P-0015730-T01-IM6	P-0015730			Rectum	Metastasis	IMPACT468	READ	Tumor			Bone	Rectum	655	50	MICROSATELLITE STABLE (MSS). See MSI note below.	0.19	Stable	MSKCC	Matched	56	NO	82.2	8.8	70.2	YES	514288	8.82815120857
+P-0015884-T01-IM6	P-0015884			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	745	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.97	Stable	MSKCC	Matched	58	NO	79.1	7.9	62.6	YES	516450	7.94533608772
+P-0016044-T01-IM6	P-0016044			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	679	20	MICROSATELLITE STABLE (MSS). See MSI note below.	0.31	Stable	MSKCC	Matched	55	NO	54.1	4.4	20.5	YES	523167	4.41407560429
+P-0016487-T01-IM6	P-0016487			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	834	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.49	Stable	MSKCC	Matched	59	NO	76.6	7	57.4	YES	528645	7.06252096686
+P-0016850-T01-IM6	P-0016850			Rectum	Metastasis	IMPACT468	READ	Tumor			Lung	Rectum	826	10		0	Do not report	MSKCC	Matched	52	NO	79.1	7.9	62.6	YES	540887	7.94533608772
+P-0016967-T01-IM6	P-0016967			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	566	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.42	Stable	MSKCC	Matched	43	NO	76.6	7	57.4	YES	543256	7.06252096686
+P-0016984-T01-IM6	P-0016984			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	831	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.13	Stable	MSKCC	Matched	53	YES	76.6	7	57.4	YES	543676	7.06252096686
+P-0017008-T01-IM6	P-0017008			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	910	10		0.12	Do not report	MSKCC	Matched	60	NO	13.1	0.9	2.1	YES	543745	0.882815120857
+P-0017039-T01-IM6	P-0017039			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	983	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.55	Stable	MSKCC	Matched	70	NO	54.1	4.4	20.5	YES	544926	4.41407560429
+P-0017263-T01-IM6	P-0017263			Rectum	Metastasis	IMPACT468	READ	Tumor			Not Applicable	Rectum	731	40	MICROSATELLITE STABLE (MSS). See MSI note below.	0.27	Stable	MSKCC	Matched	74	NO	44.1	3.5	13.1	YES	556749	3.53126048343
+P-0017419-T01-IM6	P-0017419			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	963	10		0	Do not report	MSKCC	Matched	42	NO				YES	554139	0.0
+P-0018084-T01-IM6	P-0018084			Rectum	Primary	IMPACT468	READ	Tumor			Not Applicable	Rectum	202	30	MICROSATELLITE STABLE (MSS). See MSI note below.	0.51	Stable	MSKCC	Matched	63	NO	73.7	6.1	51	YES	566190	6.179705846

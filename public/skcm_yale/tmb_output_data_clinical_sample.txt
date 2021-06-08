@@ -1,0 +1,152 @@
+#Patient Identifier	Sample Identifier	Somatic Status	Sample Class	Mutation Status	Sample Type	Type	Primary Tumor Site	Specimen Site	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Somatic Status	The sample classification (i.e., tumor, cellline, xenograph).	Mutation Status	The type of sample (i.e., normal, Primary, met, recurrence).	Type	Text term to describe the organ sub-division in an individual with cancer.	Specimen Site	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	9	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SOMATIC_STATUS	SAMPLE_CLASS	MUTATION_STATUS	SAMPLE_TYPE	TYPE	PRIMARY_SITE	SPECIMEN_SITE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+YUAKER	YUAKER	Matched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	36.0333333333
+YUAVEY	YUAVEY	Matched	Cell line	NRAS-Q61R	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	9.63333333333
+YUBAN	YUBAN	Matched	Tumor	BRAF-V600K	Metastasis	sun-exposed	head/neck	trunk	SKCM	Melanoma	Cutaneous Melanoma	5.16666666667
+YUBARON	YUBARON	Matched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	0.0333333333333
+YUBATIK	YUBATIK	Unmatched	Tumor	BRAF-V600K	Metastasis	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUBEM	YUBEM	Matched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	0.0666666666667
+YUBER	YUBER	Matched	Tumor	WT	Metastasis	sun-exposed	head/neck	lung	SKCM	Melanoma	Cutaneous Melanoma	32.8666666667
+YUBOO	YUBOO	Matched	Tumor	WT	Metastasis	uveal	choroid	head/neck	SKCM	Melanoma	Cutaneous Melanoma	3.06666666667
+YUBOT	YUBOT	Matched	Tumor	NRAS-Q61R	Primary	acral	heel	sole	SKCM	Melanoma	Cutaneous Melanoma	0.566666666667
+YUBRA	YUBRA	Unmatched	Tumor	BRAF-V600E	Metastasis	unknown	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUBRO	YUBRO	Unmatched	Tumor	WT	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUBRUSE	YUBRUSE	Matched	Cell line	KIT-L576P	Metastasis	acral	sole	lymph node	SKCM	Melanoma	Cutaneous Melanoma	0.3
+YUCHIME	YUCHIME	Matched	Tumor	BRAF-V600K	Primary	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	11.8333333333
+YUCHUFA	YUCHUFA	Matched	Cell line	NRAS-Q61R	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	0.933333333333
+YUCINJ	YUCINJ	Unmatched	Cell line	BRAF-V600E	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUCIR	YUCIR	Unmatched	Tumor	WT	Metastasis	unknown	unknown	lymph	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUCLAT	YUCLAT	Matched	Cell line	BRAF-V600K	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	8.36666666667
+YUCOMO	YUCOMO	Unmatched	Tumor	WT	Primary	sun-exposed	head/neck	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUCOT	YUCOT	Unmatched	Cell line	BRAF-V600E	Metastasis	sun-exposed	head/neck	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUCRATE	YUCRATE	Matched	Tumor	WT	Primary	acral	sole	sole	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUCRENA	YUCRENA	Matched	Cell line	WT	Primary	uveal	choroid	choroid	SKCM	Melanoma	Cutaneous Melanoma	0.366666666667
+YUCROFT	YUCROFT	Matched	Tumor	BRAF-V600E	Primary	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	1.86666666667
+YUDAB	YUDAB	Matched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	19.4666666667
+YUDARE	YUDARE	Matched	Tumor	BRAF-V600E	Metastasis	sun-exposed	trunk	lymph	SKCM	Melanoma	Cutaneous Melanoma	1.76666666667
+YUDATE	YUDATE	Matched	Cell line	WT	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	1.06666666667
+YUDEDE	YUDEDE	Matched	Cell line	NRAS-Q61H	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	10.9666666667
+YUDEXA	YUDEXA	Matched	Tumor	BRAF-V600E	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	14.6
+YUDIALE	YUDIALE	Matched	Tumor	BRAF-V600E	Metastasis	unknown	unknown	lymph	SKCM	Melanoma	Cutaneous Melanoma	7.23333333333
+YUDUTY	YUDUTY	Matched	Cell line	NRAS-Q61H	Metastasis	unknown	unknown	trunk	SKCM	Melanoma	Cutaneous Melanoma	22.0
+YUEGO	YUEGO	Unmatched	Tumor	NRAS-Q61K	Metastasis	sun-exposed	head/neck	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUESTA	YUESTA	Unmatched	Tumor	WT	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUFARCI	YUFARCI	Matched	Tumor	NRAS-Q61K	Metastasis	unknown	unknown	head/neck	SKCM	Melanoma	Cutaneous Melanoma	5.56666666667
+YUFAR	YUFAR	Unmatched	Tumor	BRAF-V600E	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUFISO	YUFISO	Matched	Tumor	HRAS-Q61H	Primary	acral	subungual	subungual	SKCM	Melanoma	Cutaneous Melanoma	0.0333333333333
+YUFLA	YUFLA	Matched	Tumor	NRAS-Q61K	Metastasis	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	7.96666666667
+YUFOLD	YUFOLD	Matched	Tumor	NRAS-Q61L	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	7.43333333333
+YUFOR	YUFOR	Unmatched	Tumor	NRAS-Q61L	Metastasis	sun-exposed	extremity	lymph	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUFUZZ	YUFUZZ	Matched	Tumor	WT	Metastasis	unknown	unknown	lymph	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUGADID	YUGADID	Matched	Tumor	WT	Metastasis	uveal	choroid	extremity	SKCM	Melanoma	Cutaneous Melanoma	0.3
+YUGAFFE	YUGAFFE	Matched	Cell line	BRAF-V600K	Metastasis	sun-exposed	head/neck	lymph	SKCM	Melanoma	Cutaneous Melanoma	20.5
+YUGAL	YUGAL	Unmatched	Tumor	WT	Metastasis	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUGANK	YUGANK	Unmatched	Cell line	NRAS-Q61K	Metastasis	sun-exposed	head/neck	brain	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUGASP	YUGASP	Matched	Tumor	NRAS-Q61L	Metastasis	sun-exposed	extremity	lymph	SKCM	Melanoma	Cutaneous Melanoma	5.6
+YUGELU	YUGELU	Unmatched	Tumor	NRAS-Q61L	Metastasis	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUGISMO	YUGISMO	Matched	Tumor	NRAS-Q61K, KIT-L160V	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	3.5
+YUGLAUD	YUGLAUD	Unmatched	Tumor	NRAS-Q61K	Primary	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUGLIDE	YUGLIDE	Matched	Cell line	WT	Primary	uveal	choroid	choroid	SKCM	Melanoma	Cutaneous Melanoma	0.166666666667
+YUGOE	YUGOE	Matched	Cell line	NRAS-G12V	Metastasis	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	24.3333333333
+YUGONZO	YUGONZO	Matched	Tumor	WT	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUHAY	YUHAY	Unmatched	Tumor	BRAF-V600E	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUHEF	YUHEF	Matched	Cell line	WT	Metastasis	sun-exposed	head/neck	trunk	SKCM	Melanoma	Cutaneous Melanoma	19.2666666667
+YUHIMO	YUHIMO	Matched	Tumor	WT	Metastasis	acral	heel	extremity	SKCM	Melanoma	Cutaneous Melanoma	0.0333333333333
+YUHOIN	YUHOIN	Matched	Cell line	WT	Metastasis	mucosal	nasal cavity	lymph	SKCM	Melanoma	Cutaneous Melanoma	0.866666666667
+YUHOOD	YUHOOD	Matched	Tumor	WT	Metastasis	mucosal	gingiva	trunk	SKCM	Melanoma	Cutaneous Melanoma	0.466666666667
+YUHUY	YUHUY	Matched	Tumor	BRAF-V600E	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	0.1
+YUIRI	YUIRI	Matched	Tumor	WT	Metastasis	acral	sole	sole	SKCM	Melanoma	Cutaneous Melanoma	0.266666666667
+YUISKIA	YUISKIA	Matched	Tumor	WT	Metastasis	acral	toe	trunk	SKCM	Melanoma	Cutaneous Melanoma	0.533333333333
+YUJUMP	YUJUMP	Matched	Tumor	WT	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUKADI	YUKADI	Matched	Cell line	BRAF-V600E	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	4.26666666667
+YUKARN	YUKARN	Unmatched	Cell line	BRAF-V600K, NRAS-G13D	Metastasis	sun-exposed	trunk	lymph	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUKAY	YUKAY	Unmatched	Tumor	WT	Metastasis	unknown	unknown	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUKERE	YUKERE	Unmatched	Tumor	WT	Primary	mucosal	vulva	vulva	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUKIL	YUKIL	Matched	Tumor	BRAF-V600E	Metastasis	sun-exposed	head/neck	extremity	SKCM	Melanoma	Cutaneous Melanoma	13.6
+YUKLAB	YUKLAB	Matched	Tumor	WT	Metastasis	sun-exposed	unknown	trunk	SKCM	Melanoma	Cutaneous Melanoma	121.833333333
+YUKNOLL	YUKNOLL	Unmatched	Tumor	WT	Metastasis	unknown	unknown	liver	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUKOLI	YUKOLI	Unmatched	Cell line	BRAF-V600E	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUKOS	YUKOS	Unmatched	Tumor	WT	Primary	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUKRIN	YUKRIN	Matched	Tumor	WT	Metastasis	sun-exposed	trunk	brain	SKCM	Melanoma	Cutaneous Melanoma	5.9
+YULAC	YULAC	Unmatched	Cell line	BRAF-V600K	Metastasis	sun-exposed	trunk	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YULAN	YULAN	Matched	Tumor	WT	Metastasis	sun-exposed	head/neck	lymph	SKCM	Melanoma	Cutaneous Melanoma	64.5666666667
+YULAPE	YULAPE	Matched	Cell line	NRAS-Q61H	Metastasis	unknown	unknown	trunk	SKCM	Melanoma	Cutaneous Melanoma	13.3
+YULAXER	YULAXER	Matched	Cell line	NRAS-Q61K	Metastasis	sun-exposed	trunk	lymph	SKCM	Melanoma	Cutaneous Melanoma	1.6
+YULLON	YULLON	Matched	Tumor	NRAS-Q61H	Metastasis	unknown	unknown	brain	SKCM	Melanoma	Cutaneous Melanoma	6.16666666667
+YULOMA	YULOMA	Matched	Cell line	NRAS-Q61R	Metastasis	sun-exposed	extremity	trunk	SKCM	Melanoma	Cutaneous Melanoma	1.3
+YULOVY	YULOVY	Unmatched	Cell line	NRAS-Q61L	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YULVER	YULVER	Matched	Tumor	WT	Metastasis	sun-exposed	head/neck	lung	SKCM	Melanoma	Cutaneous Melanoma	0.0333333333333
+YUMAC	YUMAC	Unmatched	Cell line	BRAF-V600K	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUMAN	YUMAN	Unmatched	Tumor	NRAS-G13R	Metastasis	sun-exposed	trunk	lymph	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUMER	YUMER	Matched	Tumor	WT	Metastasis	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	30.6
+YUMINE	YUMINE	Unmatched	Cell line	BRAF-V600E	Metastasis	unknown	unknown	liver	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUMOOK	YUMOOK	Matched	Tumor	BRAF-V600E	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	5.56666666667
+YUMOYA	YUMOYA	Matched	Tumor	BRAF-V600E	Primary	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	1.46666666667
+YUMUDE	YUMUDE	Matched	Tumor	KIT-V559D	Primary	acral	sole	sole	SKCM	Melanoma	Cutaneous Melanoma	0.266666666667
+YUMUT	YUMUT	Matched	Cell line	BRAF-V600E	Metastasis	sun-exposed	extremity	trunk	SKCM	Melanoma	Cutaneous Melanoma	0.933333333333
+YUNACK	YUNACK	Matched	Tumor	BRAF-V600E	Primary	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	3.53333333333
+YUNELU	YUNELU	Unmatched	Tumor	NRAS-Q61R	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUNEON	YUNEON	Matched	Tumor	WT	Primary	acral	sole	sole	SKCM	Melanoma	Cutaneous Melanoma	0.333333333333
+YUNICA	YUNICA	Matched	Tumor	WT	Metastasis	mucosal	vulva	liver	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUNOCA	YUNOCA	Matched	Tumor	WT	Primary	mucosal	nasal cavity	mucosal	SKCM	Melanoma	Cutaneous Melanoma	0.933333333333
+YUNUFF	YUNUFF	Matched	Cell line	BRAF-V600E	Metastasis	sun-exposed	trunk	pleural cavity	SKCM	Melanoma	Cutaneous Melanoma	1.53333333333
+YUNUVO	YUNUVO	Matched	Tumor	WT	Primary	acral	sole	sole	SKCM	Melanoma	Cutaneous Melanoma	0.633333333333
+YUPADI	YUPADI	Unmatched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUPAF	YUPAF	Unmatched	Tumor	BRAF-V600K	Metastasis	unknown	unknown	chest wall	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUPAL	YUPAL	Matched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	0.433333333333
+YUPANG	YUPANG	Unmatched	Tumor	WT	Metastasis	acral	sole	sole	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUPAT	YUPAT	Matched	Tumor	WT	Metastasis	sun-exposed	trunk	lung	SKCM	Melanoma	Cutaneous Melanoma	33.9333333333
+YUPEET	YUPEET	Matched	Cell line	BRAF-V600E	Primary	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	5.86666666667
+YUPER	YUPER	Matched	Tumor	BRAF-V600E	Metastasis	sun-exposed	trunk	extremity	SKCM	Melanoma	Cutaneous Melanoma	1.33333333333
+YUPORCH	YUPORCH	Matched	Tumor	WT	Metastasis	unknown	unknown	intestine	SKCM	Melanoma	Cutaneous Melanoma	1.03333333333
+YUPROST	YUPROST	Matched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	31.3666666667
+YUPRO	YUPRO	Matched	Tumor	BRAF-V600K	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	5.0
+YUPYKO	YUPYKO	Matched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YURDE	YURDE	Matched	Cell line	BRAF-V600E	Metastasis	sun-exposed	sun-exposed	trunk	SKCM	Melanoma	Cutaneous Melanoma	4.93333333333
+YURED	YURED	Matched	Cell line	BRAF-V600E	Metastasis	sun-exposed	extremity	trunk	SKCM	Melanoma	Cutaneous Melanoma	9.53333333333
+YURIDA	YURIDA	Matched	Tumor	NRAS-Q61R	Metastasis	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	4.56666666667
+YURIF	YURIF	Matched	Cell line	BRAF-V600K	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	9.4
+YURIMO	YURIMO	Unmatched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YURKEN	YURKEN	Matched	Cell line	BRAF-V600E	Metastasis	sun-exposed	trunk	lymph	SKCM	Melanoma	Cutaneous Melanoma	1.5
+YUROO	YUROO	Unmatched	Tumor	WT	Metastasis	sun-exposed	unknown	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YURTHE	YURTHE	Matched	Tumor	WT	Metastasis	unknown	unknown	lymph	SKCM	Melanoma	Cutaneous Melanoma	22.0
+YURUB	YURUB	Matched	Tumor	KIT-N822Y	Metastasis	acral	toe	lymph	SKCM	Melanoma	Cutaneous Melanoma	1.03333333333
+YURUS	YURUS	Matched	Tumor	WT	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	27.0
+YUSAG	YUSAG	Matched	Tumor	KIT-K642E	Metastasis	acral	finger	finger	SKCM	Melanoma	Cutaneous Melanoma	1.03333333333
+YUSAN	YUSAN	Matched	Cell line	NRAS-G12D	Metastasis	mucosal	vulva	trunk	SKCM	Melanoma	Cutaneous Melanoma	0.933333333333
+YUSARI	YUSARI	Matched	Cell line	BRAF-V600E	Metastasis	sun-exposed	head/neck	pleural fluid	SKCM	Melanoma	Cutaneous Melanoma	0.9
+YUSAT	YUSAT	Unmatched	Tumor	BRAF-V600E	Metastasis	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUSCH	YUSCH	Unmatched	Tumor	KIT-L576P	Metastasis	acral	thumb	thumb	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUSCO	YUSCO	Matched	Tumor	BRAF-V600E	Primary	sun-exposed	trunk	lymph	SKCM	Melanoma	Cutaneous Melanoma	6.0
+YUSEL	YUSEL	Matched	Tumor	BRAF-V600K	Metastasis	unknown	unknown	lymph	SKCM	Melanoma	Cutaneous Melanoma	3.9
+YUSIK	YUSIK	Unmatched	Cell line	BRAF-V600E	Metastasis	sun-exposed	extremity	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUSOT	YUSOT	Matched	Tumor	WT	Metastasis	mucosal	nasal cavity	gall bladder	SKCM	Melanoma	Cutaneous Melanoma	0.0666666666667
+YUSTE	YUSTE	Unmatched	Cell line	BRAF-V600E	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUSUBA	YUSUBA	Matched	Cell line	BRAF-V600E	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	3.73333333333
+YUSWI	YUSWI	Matched	Cell line	BRAF-V600E	Metastasis	sun-exposed	trunk	small intestine	SKCM	Melanoma	Cutaneous Melanoma	11.7
+YUTALO	YUTALO	Unmatched	Tumor	BRAF-V600E	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUTAZI	YUTAZI	Unmatched	Tumor	WT	Metastasis	unknown	unknown	brain	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUTEL	YUTEL	Unmatched	Tumor	WT	Primary	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUTEPA	YUTEPA	Matched	Tumor	NRAS-Q61R	Primary	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	7.13333333333
+YUTER	YUTER	Unmatched	Cell line	NRAS-Q61L	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUTOGS	YUTOGS	Unmatched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUTOLL	YUTOLL	Unmatched	Tumor	BRAF-V600K	Metastasis	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUTRE	YUTRE	Matched	Tumor	WT	Metastasis	acral	thumb	thumb	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUTRIP	YUTRIP	Matched	Tumor	WT	Primary	acral	sole	sole	SKCM	Melanoma	Cutaneous Melanoma	0.0666666666667
+YUVAIL	YUVAIL	Matched	Tumor	BRAF-V600K	Primary	sun-exposed	trunk	trunk	SKCM	Melanoma	Cutaneous Melanoma	5.0
+YUVAN	YUVAN	Unmatched	Tumor	WT	Metastasis	uveal	choroid	trunk	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUVEDO	YUVEDO	Matched	Tumor	WT	Primary	uveal	choroid	trunk	SKCM	Melanoma	Cutaneous Melanoma	0.0666666666667
+YUVIL	YUVIL	Unmatched	Tumor	WT	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUWAGE	YUWAGE	Matched	Cell line	WT	Primary	sun-exposed	head/neck	trunk	SKCM	Melanoma	Cutaneous Melanoma	0.8
+YUWALI	YUWALI	Matched	Cell line	BRAF-V600E	Metastasis	unknown	unknown	lymph	SKCM	Melanoma	Cutaneous Melanoma	4.16666666667
+YUWAND	YUWAND	Matched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	51.9
+YUWHIM	YUWHIM	Matched	Cell line	BRAF-V600E	Metastasis	unknown	unknown	trunk	SKCM	Melanoma	Cutaneous Melanoma	3.3
+YUWIC	YUWIC	Unmatched	Tumor	WT	Primary	acral	thumb	thumb	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUWISE	YUWISE	Matched	Tumor	WT	Metastasis	mucosal	anus	pleural fluid	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUXALT	YUXALT	Unmatched	Tumor	WT	Primary	sun-exposed	head/neck	head/neck	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUZEAL	YUZEAL	Unmatched	Cell line	BRAF-V600R	Metastasis	sun-exposed	trunk	pleural fluid	SKCM	Melanoma	Cutaneous Melanoma	NA
+YUZEST	YUZEST	Matched	Tumor	BRAF-V600E	Metastasis	unknown	unknown	trunk	SKCM	Melanoma	Cutaneous Melanoma	4.53333333333
+YUZINO	YUZINO	Matched	Tumor	NRAS-Q61L	Metastasis	sun-exposed	extremity	extremity	SKCM	Melanoma	Cutaneous Melanoma	34.9

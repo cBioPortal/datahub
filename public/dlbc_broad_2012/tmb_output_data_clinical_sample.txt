@@ -1,0 +1,63 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+DFCI_DLBCL_Goe01	DFCI_DLBCL_Goe01	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	NA
+DFCI_DLBCL_Goe05	DFCI_DLBCL_Goe05	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.1
+DFCI_DLBCL_Goe16	DFCI_DLBCL_Goe16	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.43333333333
+DLBCL-LS3271	DLBCL-LS3271	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	0.566666666667
+DLBCL-LS4054	DLBCL-LS4054	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.03333333333
+DLBCL-LS4323	DLBCL-LS4323	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	0.533333333333
+DLBCL-LS4394	DLBCL-LS4394	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.5
+DLBCL-LS4592	DLBCL-LS4592	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	3.2
+DLBCL-LS4593	DLBCL-LS4593	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.93333333333
+DLBCL-LS4616	DLBCL-LS4616	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	4.63333333333
+DLBCL-LS4618	DLBCL-LS4618	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.4
+DLBCL-LS4619	DLBCL-LS4619	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	3.7
+DLBCL-Ls1065	DLBCL-Ls1065	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.73333333333
+DLBCL-Ls1098	DLBCL-Ls1098	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	4.6
+DLBCL-Ls1395	DLBCL-Ls1395	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.43333333333
+DLBCL-Ls148	DLBCL-Ls148	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.6
+DLBCL-Ls1546	DLBCL-Ls1546	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.3
+DLBCL-Ls1583	DLBCL-Ls1583	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.4
+DLBCL-Ls1620	DLBCL-Ls1620	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	6.1
+DLBCL-Ls1668	DLBCL-Ls1668	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	3.1
+DLBCL-Ls1683	DLBCL-Ls1683	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.83333333333
+DLBCL-Ls1757	DLBCL-Ls1757	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	3.13333333333
+DLBCL-Ls1899	DLBCL-Ls1899	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	7.63333333333
+DLBCL-Ls1921	DLBCL-Ls1921	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	4.5
+DLBCL-Ls2089	DLBCL-Ls2089	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.1
+DLBCL-Ls2154	DLBCL-Ls2154	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	0.5
+DLBCL-Ls2245	DLBCL-Ls2245	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.23333333333
+DLBCL-Ls2258	DLBCL-Ls2258	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	0.4
+DLBCL-Ls2264	DLBCL-Ls2264	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	0.6
+DLBCL-Ls2305	DLBCL-Ls2305	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	3.4
+DLBCL-Ls2328	DLBCL-Ls2328	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.7
+DLBCL-Ls2357	DLBCL-Ls2357	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.63333333333
+DLBCL-Ls2367	DLBCL-Ls2367	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	4.86666666667
+DLBCL-Ls2590	DLBCL-Ls2590	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	4.2
+DLBCL-Ls2596	DLBCL-Ls2596	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.2
+DLBCL-Ls297	DLBCL-Ls297	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.66666666667
+DLBCL-Ls2978	DLBCL-Ls2978	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	4.43333333333
+DLBCL-Ls3200	DLBCL-Ls3200	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.5
+DLBCL-Ls3204	DLBCL-Ls3204	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	4.1
+DLBCL-Ls3245	DLBCL-Ls3245	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	3.1
+DLBCL-Ls3309	DLBCL-Ls3309	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	5.13333333333
+DLBCL-Ls3387	DLBCL-Ls3387	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	5.73333333333
+DLBCL-Ls3499	DLBCL-Ls3499	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	4.43333333333
+DLBCL-Ls3615	DLBCL-Ls3615	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.6
+DLBCL-Ls3749	DLBCL-Ls3749	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.2
+DLBCL-Ls378	DLBCL-Ls378	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.36666666667
+DLBCL-Ls3808	DLBCL-Ls3808	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.23333333333
+DLBCL-Ls3809	DLBCL-Ls3809	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.83333333333
+DLBCL-Ls3820	DLBCL-Ls3820	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.33333333333
+DLBCL-Ls3866	DLBCL-Ls3866	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	6.1
+DLBCL-Ls4085	DLBCL-Ls4085	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	1.63333333333
+DLBCL-Ls420	DLBCL-Ls420	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	4.73333333333
+DLBCL-Ls762	DLBCL-Ls762	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	0.833333333333
+DLBCL-Ls843	DLBCL-Ls843	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	3.36666666667
+DLBCL-Ls951	DLBCL-Ls951	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	2.0
+DLBCL-MAYO_DLBCL_234	DLBCL-MAYO_DLBCL_234	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	129.833333333
+DLBCL-MAYO_DLBCL_5613	DLBCL-MAYO_DLBCL_5613	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	NA
+DLBCL-MAYO_DLBCL_7359	DLBCL-MAYO_DLBCL_7359	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	0.133333333333

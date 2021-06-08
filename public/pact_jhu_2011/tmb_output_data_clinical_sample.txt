@@ -1,0 +1,37 @@
+#Sample Identifier	Patient Identifier	Oncotree Code	Dysplasia	Main vs. Branch Duct	SCA Type	Cyst Size (cm)	Type of Surgery	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier	Identifier to uniquely specify a patient	Oncotree Code	Dysplasia	Main vs Branch Duct	Serous Cystadenomas (SCAs)	Cyst Size (cm)	Type of Surgery	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	ONCOTREE_CODE	DYSPLASIA	MAIN_VS_BRANCH_DUCT	SCA_TYPE	CYST_SIZE	TYPE_OF_SURGERY	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+SCA_14	SCA_14	PSC	NA	NA	Microcystic	5.5	Pylorus preserving pancreatoduodenectomy	Pancreatic Cancer	Serous Cystadenoma of the Pancreas	0.233333333333
+SCA_23	SCA_23	PSC	NA	NA	Microcystic	5.5	Pylorus preserving pancreatoduodenectomy	Pancreatic Cancer	Serous Cystadenoma of the Pancreas	0.533333333333
+SCA_27	SCA_27	PSC	NA	NA	Microcystic	12	Pylorus preserving pancreatoduodenectomy	Pancreatic Cancer	Serous Cystadenoma of the Pancreas	0.333333333333
+SCA_29	SCA_29	PSC	NA	NA	Microcystic	2	Distal pancreatectomy + splenectomy	Pancreatic Cancer	Serous Cystadenoma of the Pancreas	0.0333333333333
+SCA_35	SCA_35	PSC	NA	NA	Microcystic	3.9	pancreatoduodenectomy	Pancreatic Cancer	Serous Cystadenoma of the Pancreas	0.333333333333
+SCA_37	SCA_37	PSC	NA	NA	Solid variant	8	Distal pancreatectomy + splenectomy	Pancreatic Cancer	Serous Cystadenoma of the Pancreas	0.366666666667
+SCA_38	SCA_38	PSC	NA	NA	Microcystic	4.5	Pylorus preserving pancreatoduodenectomy	Pancreatic Cancer	Serous Cystadenoma of the Pancreas	0.166666666667
+SCA_40	SCA_40	PSC	NA	NA	Microcystic	3.4	Distal pancreatectomy + splenectomy	Pancreatic Cancer	Serous Cystadenoma of the Pancreas	0.366666666667
+IPMN_4	IPMN_4	IPMN	High grade	Main	NA	6.5	pancreatoduodenectomy	Pancreatic Cancer	Intraductal Papillary Mucinous Neoplasm	0.766666666667
+IPMN_11	IPMN_11	IPMN	High grade	Mixed-type	NA	8	Pylorus preserving pancreatoduodenectomy	Pancreatic Cancer	Intraductal Papillary Mucinous Neoplasm	1.06666666667
+IPMN_12	IPMN_12	IPMN	High grade	Main	NA	6	Pylorus preserving pancreatoduodenectomy	Pancreatic Cancer	Intraductal Papillary Mucinous Neoplasm	0.7
+IPMN_20	IPMN_20	IPMN	High grade	Branch	NA	5	Pylorus preserving pancreatoduodenectomy	Pancreatic Cancer	Intraductal Papillary Mucinous Neoplasm	0.466666666667
+IPMN_21	IPMN_21	IPMN	High grade	Main	NA	4	Pylorus preserving pancreatoduodenectomy	Pancreatic Cancer	Intraductal Papillary Mucinous Neoplasm	0.833333333333
+IPMN_26	IPMN_26	IPMN	High grade	Mixed-type	NA	3	Total pancreatectomy + splenectomy	Pancreatic Cancer	Intraductal Papillary Mucinous Neoplasm	0.2
+IPMN_36	IPMN_36	IPMN	High grade	Main	NA	5	Total pancreatectomy + splenectomy	Pancreatic Cancer	Intraductal Papillary Mucinous Neoplasm	1.3
+IPMN_41	IPMN_41	IPMN	High grade	Main	NA	6	Total pancreatectomy + splenectomy	Pancreatic Cancer	Intraductal Papillary Mucinous Neoplasm	1.23333333333
+MCN_158	MCN_158	MCN	Low grade	NA	NA	16	Distal pancreatectomy + splenectomy	Pancreatic Cancer	Mucinous Cystic Neoplasm	0.266666666667
+MCN_162	MCN_162	MCN	High grade	NA	NA	8	Distal pancreatectomy	Pancreatic Cancer	Mucinous Cystic Neoplasm	0.466666666667
+MCN_163	MCN_163	MCN	High grade	NA	NA	18	Distal pancreatectomy + splenectomy	Pancreatic Cancer	Mucinous Cystic Neoplasm	0.233333333333
+MCN_164	MCN_164	MCN	Low grade	NA	NA	13	Distal pancreatectomy + splenectomy	Pancreatic Cancer	Mucinous Cystic Neoplasm	0.7
+MCN_166	MCN_166	MCN	Low grade	NA	NA	14	Distal pancreatectomy + splenectomy	Pancreatic Cancer	Mucinous Cystic Neoplasm	0.9
+MCN_168	MCN_168	MCN	High grade	NA	NA	4.5	Distal pancreatectomy + splenectomy	Pancreatic Cancer	Mucinous Cystic Neoplasm	0.833333333333
+MCN_169	MCN_169	MCN	High grade	NA	NA	15	Distal pancreatectomy	Pancreatic Cancer	Mucinous Cystic Neoplasm	0.266666666667
+MCN_170	MCN_170	MCN	High grade	NA	NA	3.9	pancreatoduodenectomy	Pancreatic Cancer	Mucinous Cystic Neoplasm	0.4
+SPN_2	SPN_2	SPN	NA	NA	NA	3.5	Distal pancreatectomy	Pancreatic Cancer	Solid Pseudopapillary Neoplasm of the Pancreas	0.0666666666667
+SPN_4	SPN_4	SPN	NA	NA	NA	6.5	Distal pancreatectomy	Pancreatic Cancer	Solid Pseudopapillary Neoplasm of the Pancreas	0.166666666667
+SPN_5	SPN_5	SPN	NA	NA	NA	10.5	Distal pancreatectomy	Pancreatic Cancer	Solid Pseudopapillary Neoplasm of the Pancreas	0.0666666666667
+SPN_6	SPN_6	SPN	NA	NA	NA	2.8	Distal pancreatectomy	Pancreatic Cancer	Solid Pseudopapillary Neoplasm of the Pancreas	0.0333333333333
+SPN_8	SPN_8	SPN	NA	NA	NA	6	Uncinate process resection + enucleation in the pancretic tail	Pancreatic Cancer	Solid Pseudopapillary Neoplasm of the Pancreas	0.2
+SPN_12	SPN_12	SPN	NA	NA	NA	2.5	Distal pancreatectomy	Pancreatic Cancer	Solid Pseudopapillary Neoplasm of the Pancreas	0.1
+SPN_17	SPN_17	SPN	NA	NA	NA	9	Total pancreatectomy	Pancreatic Cancer	Solid Pseudopapillary Neoplasm of the Pancreas	0.0333333333333
+SPN_19	SPN_19	SPN	NA	NA	NA	2.8	Pylorus preserving pancreatoduodenectomy	Pancreatic Cancer	Solid Pseudopapillary Neoplasm of the Pancreas	0.0666666666667

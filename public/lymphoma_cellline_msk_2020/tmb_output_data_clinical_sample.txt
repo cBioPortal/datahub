@@ -1,0 +1,39 @@
+#Sample Identifier	Patient Identifier	Collaboration Id	Gene Panel	Oncotree Code	Sample Class	Specimen Preservation Type	Tissue Site	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Collaboration Id.	Gene Panel	Oncotree Code	The sample classification (i.e., tumor, cellline, xenograph).	The method used for preparing the tissue for examination and study.	Tissue Site	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	COLLAB_ID	GENE_PANEL	ONCOTREE_CODE	SAMPLE_CLASS	SPECIMEN_PRESERVATION_TYPE	TISSUE_SITE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+s_BJAB_05270B	p_C_000087	BJAB	HemePACT_v3	DLBCLNOS	Cell line	Frozen	NA	Diffuse Large B-Cell Lymphoma, NOS	Mature B-Cell Neoplasms	41.8273763607
+s_CA_46_05270B	p_C_000066	CA_46	HemePACT_v3	BL	Cell line	Frozen	NA	Burkitt Lymphoma	Burkitt Lymphoma	22.6279249164
+s_DAUDI_05270B	p_C_000067	DAUDI	HemePACT_v3	BL	Cell line	Frozen	NA	Burkitt Lymphoma	Burkitt Lymphoma	28.7991771664
+s_DB_05270B	p_C_000068	DB	HemePACT_v3	NHL	Cell line	Frozen	NA	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	19.1994514442
+s_EB_1_05270B	p_C_000095	EB_1	HemePACT_v3	BL	Cell line	Frozen	NA	Burkitt Lymphoma	Burkitt Lymphoma	38.3989028885
+s_HBL_1_05270B	p_C_000071	HBL_1	HemePACT_v3	DLBCLNOS	Cell line	Frozen	NA	Diffuse Large B-Cell Lymphoma, NOS	Mature B-Cell Neoplasms	22.6279249164
+s_HDLM_2_05270B	p_C_000073	HDLM_2	HemePACT_v3	HL	Cell line	Frozen	NA	Hodgkin Lymphoma	Hodgkin Lymphoma	19.1994514442
+s_JEKO_1_05270B	p_C_000074	JEKO_1	HemePACT_v3	MCL	Cell line	Frozen	peripheral blood, Mantle Cell Lymphoma	Mantle Cell Lymphoma	Mature B-Cell Neoplasms	24.6850089997
+s_KARPAS_299_05270B	p_C_000075	KARPAS_299	HemePACT_v3	ALCL	Cell line	Frozen	NA	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	22.6279249164
+s_KM_H2_05270B	p_C_000078	KM_H2	HemePACT_v3	HL	Cell line	Frozen	NA	Hodgkin Lymphoma	Hodgkin Lymphoma	34.9704294163
+s_L_428_05270B	p_C_000108	L_428	HemePACT_v3	HL	Cell line	Frozen	NA	Hodgkin Lymphoma	Hodgkin Lymphoma	28.7991771664
+s_L_540_05270B	p_C_000076	L_540	HemePACT_v3	HL	Cell line	Frozen	NA	Hodgkin Lymphoma	Hodgkin Lymphoma	21.2565355276
+s_MAVER_1_05270B	p_C_000079	MAVER_1	HemePACT_v3	MCL	Cell line	Frozen	peripheral blood / B-cell non-Hodgkin lymphoma (mantle cell lymphoma)	Mantle Cell Lymphoma	Mature B-Cell Neoplasms	8.91403102768
+s_MINO_05270B	p_C_000094	MINO	HemePACT_v3	MCL	Cell line	Frozen	peripheral blood/Mantle cell lymphoma (B cell non-Hodgkin's lymphoma)	Mantle Cell Lymphoma	Mature B-Cell Neoplasms	15.0852832776
+s_NU_DHL_1_05270B	p_C_000107	NU_DHL_1	HemePACT_v3	NHL	Cell line	Frozen	NA	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	19.1994514442
+s_OCI_LY19_05270B	p_C_000096	OCI_LY19	HemePACT_v3	DLBCLNOS	Cell line	Frozen	bone marrow/B-cell non-Hodgkin lymphoma (DLCL, stage 4B, at relapse)	Diffuse Large B-Cell Lymphoma, NOS	Mature B-Cell Neoplasms	15.7709779721
+s_RAJI_05270B	p_C_000097	RAJI	HemePACT_v3	BL	Cell line	Frozen	NA	Burkitt Lymphoma	Burkitt Lymphoma	40.4559869718
+s_RAMOS_05270B	p_C_000098	RAMOS	HemePACT_v3	BL	Cell line	Frozen	NA	Burkitt Lymphoma	Burkitt Lymphoma	11.6568098054
+s_REC_1_05270B	p_C_000099	REC_1	HemePACT_v3	MCL	Cell line	Frozen	lymph node	Mantle Cell Lymphoma	Mature B-Cell Neoplasms	12.3425044999
+s_SUP_M2_05270B	p_C_000105	SUP_M2	HemePACT_v3	ALCL	Cell line	Frozen	NA	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	13.0281991943
+s_SU_DHL_10_05270B	p_C_000077	SU_DHL_10	HemePACT_v3	NHL	Cell line	Frozen	NA	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	23.9993143053
+s_SU_DHL_1_05270B	p_C_000101	SU_DHL_1	HemePACT_v3	ALCL	Cell line	Frozen	NA	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	45.9415445273
+s_SU_DHL_4_05270B	p_C_000103	SU_DHL_4	HemePACT_v3	DLBCLNOS	Cell line	Frozen	peritoneal effusion/B-NHL (diffuse large cell)	Diffuse Large B-Cell Lymphoma, NOS	Mature B-Cell Neoplasms	18.5137567498
+s_SU_DHL_6_05270B	p_C_000104	SU_DHL_6	HemePACT_v3	DLBCLNOS	Cell line	Frozen	peritoneal effusion/B-cell non-Hodgkin lymphoma	Diffuse Large B-Cell Lymphoma, NOS	Mature B-Cell Neoplasms	28.7991771664
+s_SU_DHL_8_05270B	p_C_000069	SU_DHL_8	HemePACT_v3	NHL	Cell line	Frozen	pleural effusion/B-cell non-Hodgkin lymphoma (DLCL)	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	29.4848718608
+s_TMD8_05270B	p_C_000100	TMD8	HemePACT_v3	DLBCLNOS	Cell line	Frozen	NA	Diffuse Large B-Cell Lymphoma, NOS	Mature B-Cell Neoplasms	25.3707036942
+s_U_2932_05270B	p_C_000106	U_2932	HemePACT_v3	DLBCLNOS	Cell line	Frozen	ascites/diffuse large B cell lymphoma	Diffuse Large B-Cell Lymphoma, NOS	Mature B-Cell Neoplasms	11.6568098054
+s_JVM_13_05270J	p_C_000412	JVM_13	HemePACT_v3	MCL	Cell line	Frozen	NA	Mantle Cell Lymphoma	Mature B-Cell Neoplasms	15.7709779721
+s_JVM_2_05270J	p_C_000413	JVM_2	HemePACT_v3	MCL	Cell line	Frozen	NA	Mantle Cell Lymphoma	Mature B-Cell Neoplasms	10.971115111
+s_Z_138_05270J	p_C_000414	Z_138	HemePACT_v3	MCL	Cell line	Frozen	Mantle cell lymphoma (B cell non-Hodgkin's lymphoma)	Mantle Cell Lymphoma	Mature B-Cell Neoplasms	4.79986286106
+s_U_2973_05270H	p_C_000061	U_2973	HemePACT_v3	DLBCLNOS	Cell line	Frozen	peripheral blood	Diffuse Large B-Cell Lymphoma, NOS	Mature B-Cell Neoplasms	23.9993143053
+s_RI_1_05270F	p_C_000111	RI_1	HemePACT_v3	LYMPH	Cell line	Frozen	peripheral blood/B-cell non-Hodgkin lymphoma 	Lymphatic Cancer, NOS	Lymphoid	15.0852832776
+s_OCI_LY10_05270D	p_C_000110	OCI_LY10	HemePACT_v3	DLBCLNOS	Cell line	Fresh	NA	Diffuse Large B-Cell Lymphoma, NOS	Mature B-Cell Neoplasms	18.5137567498
+s_OCI_LY3_05270D	p_C_000109	OCI_LY3	HemePACT_v3	DLBCLNOS	Cell line	Fresh	NA	Diffuse Large B-Cell Lymphoma, NOS	Mature B-Cell Neoplasms	23.9993143053

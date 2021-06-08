@@ -1,0 +1,111 @@
+#Patient Identifier	Sample Identifier	Stage At Diagnosis 	Neoplasm Histologic Grade	Sarcomatoid Component	Metastatic Site	VHL Mutation (Codon)	VHL Mutation (AA)	Gene Expression Cluster	Gene Panel	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Stage At Diagnosis	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Sarcomatoid Component	The anatomic location to which the cancer has spread.	VHL Mutation (Codon)	VHL Mutation (AA)	Gene expression cluster.	Gene panel.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	STAGE_AT_DIAGNOSIS	GRADE	SARCOMATOID_COMPONENT	METASTATIC_SITE	VHL_MUTATION_CODON	VHL_MUTATION_AA	GENE_EXPRESSION_CLUSTER	GENE_PANEL	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+ccRCC_1	ccRCC_1	pT1bN0M0	3	NA	Lung	c.224_225delTC	p.F76fs	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.3
+ccRCC_2	ccRCC_2	pT1aN0M1	3	NA	Bone			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.56666666667
+ccRCC_3	ccRCC_3	pT3bN1M0	2	NA	Bone	c.433_442delCAGCCTATTT	p.Q145fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.86666666667
+ccRCC_4	ccRCC_4	pT1bN0M0	3	NA	Lung, Aderenal, Brain			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.96666666667
+ccRCC_5	ccRCC_5	pT1aN0M0	2	NA	Local Recurrence	c.234T>A	p.N78K	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.8
+ccRCC_6	ccRCC_6	pT1bN0M0	2	NA	NA	c.266T>C	p.L89P	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.73333333333
+ccRCC_7	ccRCC_7	pT2N0M0	4	NA	NA	c.322_323insGCATCCACAGCTACCGAG	p.R108_I109insIHSYRG	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.23333333333
+ccRCC_8	ccRCC_8	pT1bN0M0	1	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.26666666667
+ccRCC_9	ccRCC_9	pT2N1M1	4	present	Lung, Bone, Pleura	c.464-25_465delGAGGATTTGGTTTTTGCCCTTCCAGTG	p.V155fs	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.23333333333
+ccRCC_10	ccRCC_10	pT3aN2M1	4	present	Lung, Lymph Node, Bone	c341_342insT	p.H115fs	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.63333333333
+ccRCC_11	ccRCC_11	pT1aN0M0	2	NA	NA	c.343C>T	p.H115Y	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.23333333333
+ccRCC_12	ccRCC_12	pT1aN0M0	2	NA	NA	c.239G>A	p.S80N	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.7
+ccRCC_13	ccRCC_13	pT3aN2M0	3	NA	Lung	c.T266C	p.L89P	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.833333333333
+ccRCC_14	ccRCC_14	pT3cN0M0	2	NA	Lung	c.470C>T	p.T157I	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.53333333333
+ccRCC_15	ccRCC_15	pT2N0M0	2	NA	NA	c.173delG	p.P59fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.46666666667
+ccRCC_16	ccRCC_16	pT2N0M0	1	NA	NA	c.G208T	p.E70X	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.0
+ccRCC_17	ccRCC_17	pT1bN0M0	2	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.66666666667
+ccRCC_18	ccRCC_18	pT1aN0M0	1	NA	NA	c.233A>G	p.N78S	ccA	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.36666666667
+ccRCC_19	ccRCC_19	pT2N0M0	Undetermined	NA	NA	c.473delT	p.L158fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.73333333333
+ccRCC_20	ccRCC_20	pT3aN0M1	2	NA	Ovary, Lung	c.464-3_-2insA	p.V155splice	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.56666666667
+ccRCC_21	ccRCC_21	pT1bN0M0	1	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.4
+ccRCC_22	ccRCC_22	pT3bN0M0	3	NA	Bone	c.264G>T	p.W88C	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.9
+ccRCC_23	ccRCC_23	pT1bN0M0	2	NA	NA			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.9
+ccRCC_24	ccRCC_24	pT3bN0M0	2	NA	NA	c.208-210delGAGinsA	p.E70fs	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.13333333333
+ccRCC_25	ccRCC_25	pT1aN0M0	2	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.0
+ccRCC_26	ccRCC_26	pT1bN0M0	2	NA	NA	c.512_513delinsC	p.K171fs	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.8
+ccRCC_27	ccRCC_27	pT1aN0M0	1	NA	NA			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.53333333333
+ccRCC_28	ccRCC_28	pT1bN0M0	2	NA	NA	c.463+2_3TA>CC	p.V155splice	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.06666666667
+ccRCC_29	ccRCC_29	pT1aN0M0	2	NA	NA	c.401delA	p.E134fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.96666666667
+ccRCC_30	ccRCC_30	pT2N0M0	3	present	Lung, Bone	c.361_362GA>TT	p.D121F	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.63333333333
+ccRCC_31	ccRCC_31	pT1aN0M0	2	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.1
+ccRCC_32	ccRCC_32	pT2N0M0	2	NA	Lung			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.33333333333
+ccRCC_33	ccRCC_33	pT1bN0M0	1	NA	NA	c.529A>T	p.R177X	NA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.06666666667
+ccRCC_34	ccRCC_34	pT3bN0M1	2	NA	Lung	c.221T>A	p.V74D	ccB	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	3.46666666667
+ccRCC_35	ccRCC_35	pT1aN0M0	1	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.36666666667
+ccRCC_36	ccRCC_36	pT2N0M0	2	NA	NA	c.217_218insC	p.Q73fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.23333333333
+ccRCC_37	ccRCC_37	pT1aN0M0	1	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.2
+ccRCC_38	ccRCC_38	pT1aN0M0	2	NA	Contralateral Kidney			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.5
+ccRCC_39	ccRCC_39	pT2N0M0	Undetermined	NA	NA	c.362A>G	p.D121G	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.3
+ccRCC_40	ccRCC_40	pT1aN0M0	2	NA	NA	c.341G>C	p.G114A	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.83333333333
+ccRCC_41	ccRCC_41	pT3bN0M0	4	present	Bone			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	5.06666666667
+ccRCC_42	ccRCC_42	pT3aN0M0	2	NA	NA			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.7
+ccRCC_43	ccRCC_43	pT1bN0M0	2	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.7
+ccRCC_44	ccRCC_44	pT1bN0M0	1	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.2
+ccRCC_45	ccRCC_45	pT1aN0M0	4	NA	NA			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.86666666667
+ccRCC_46	ccRCC_46	pT1bN0M0	3	NA	NA	c.388G>C	p.V130L	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.5
+ccRCC_47	ccRCC_47	pT1aN0M0	1	NA	Bone	c.256C>T	p.P86S	NA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.76666666667
+ccRCC_48	ccRCC_48	pT1bN0M0	2	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.866666666667
+ccRCC_49	ccRCC_49	pT3bN0M0	3	NA	NA	c.569_577 delACCACCCAAinsT	p.D190fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.43333333333
+ccRCC_50	ccRCC_50	pT3bN0M0	2	NA	NA	c.391 A>T	p.N131Y	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.76666666667
+ccRCC_51	ccRCC_51	pT3aN0M0	2	NA	NA	c.355 delT	p.F119fs	ccA	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.1
+ccRCC_52	ccRCC_52	pT3bN0M1	3	NA	Pancreas	c.384_385 delTC	p.L129fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.33333333333
+ccRCC_53	ccRCC_53	pT1aN0M0	2	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.26666666667
+ccRCC_54	ccRCC_54	pT1bN0M0	2	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.36666666667
+ccRCC_55	ccRCC_55	pT3bN0M0	2	NA	Bone	c.203 C>A	p.S68X	ccB	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.13333333333
+ccRCC_56	ccRCC_56	pT1aN0M0	2	NA	NA	c.616_617insT	p.A207fs	ccB	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	3.13333333333
+ccRCC_57	ccRCC_57	pT3aN1M0	2	NA	NA			NA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.2
+ccRCC_58	ccRCC_58	pT1aN0M0	1	NA	NA	c.194 C>T	p.S65L	ccB	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.93333333333
+ccRCC_59	ccRCC_59	pT1bN0M0	2	NA	NA	c.440 delT	p.F148fs	ccA	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.73333333333
+ccRCC_60	ccRCC_60	pT1aN0M0	1	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.5
+ccRCC_61	ccRCC_61	pT1aN0M0	2	NA	NA	c.533 T>C	p.L178P	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.26666666667
+ccRCC_62	ccRCC_62	pT1bN0M0	2	NA	NA	c.353 T>C	p.L118P	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.33333333333
+ccRCC_63	ccRCC_63	pT1bN0M0	2	NA	NA	c.G500A	p.R167Q	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.9
+ccRCC_64	ccRCC_64	pT3aN0M0	3	NA	NA	c.472 C>G	p.L158V	ccB	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.56666666667
+ccRCC_65	ccRCC_65	pT3bN0M1	3	NA	Lung, Bone, Pleura	c.452_453 insCA	p.L153fs	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.233333333333
+ccRCC_66	ccRCC_66	pT3bN0M1	2	NA	Lung	c.256 C>A	p.P86T	ccA	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.56666666667
+ccRCC_67	ccRCC_67	pT1aN0M0	3	NA	Lung	c.554_555 insGCTCTA	p.Y185X	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.36666666667
+ccRCC_68	ccRCC_68	pT1bN0M0	2	NA	NA	c.345 C>A	p.H115Q	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.03333333333
+ccRCC_69	ccRCC_69	pT1aN0M0	3	NA	Lung	c.224_226 delTCT	p.F76 del	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.63333333333
+ccRCC_70	ccRCC_70	pT4N0M1	3	NA	Lung			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.16666666667
+ccRCC_71	ccRCC_71	pT1bN0M0	2	NA	NA	c.374 delAinsTT	p.H125fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.16666666667
+ccRCC_72	ccRCC_72	pT1bN0M0	3	NA	NA	c.254 T>C	p.L85P	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.733333333333
+ccRCC_73	ccRCC_73	pT1aN0M0	2	NA	NA	c.203_204 delCG	p.E70fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.36666666667
+ccRCC_74	ccRCC_74	pT1aN0M0	2	NA	NA			NA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.366666666667
+ccRCC_75	ccRCC_75	pT3aN1M1	2	NA	Lung, Pancreas	c.351 G>A	p.W117X	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.23333333333
+ccRCC_76	ccRCC_76	pT3aN0M1	2	NA	Lumg			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.46666666667
+ccRCC_77	ccRCC_77	pT1bN0M0	2	NA	NA	c.173_192 delGCGGCCGCGGCCCGTGCTGC	p.R58fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.3
+ccRCC_78	ccRCC_78	pT1aN0M0	2	NA	NA	c.263 G>A	p.W88X	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.26666666667
+ccRCC_79	ccRCC_79	pT1bN0M0	3	NA	NA			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.333333333333
+ccRCC_80	ccRCC_80	pT2N0M0	2	NA	Lung	c.510 delCinsAA	p.P172fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.8
+ccRCC_81	ccRCC_81	pT3aN2M0	3	NA	Lymph Node			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.566666666667
+ccRCC_82	ccRCC_82	pT1aN0M0	3	NA	NA	c194 C>A	p.S65X	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.4
+ccRCC_83	ccRCC_83	pT1aN0M0	2	NA	NA	c361 G>T	p.D121Y	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.8
+ccRCC_84	ccRCC_84	pT1bN0M0	3	NA	NA			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.3
+ccRCC_85	ccRCC_85	pT1bN0M0	3	NA	Lung	c.239G>A	p.S80N	ccA	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.26666666667
+ccRCC_86	ccRCC_86	pT1bN0M0	3	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.6
+ccRCC_87	ccRCC_87	pT1bN0M0	2	NA	NA	c.471delT	p.L158fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.8
+ccRCC_88	ccRCC_88	pT1aN0M0	2	NA	NA	c.257C>G	p.P86R	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.5
+ccRCC_89	ccRCC_89	pT1aN0M0	2	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.66666666667
+ccRCC_90	ccRCC_90	pT1aN0M0	2	NA	NA			ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.96666666667
+ccRCC_91	ccRCC_91	pT1aN0M0	2	NA	NA	c.305_310delCGCCTG	p.P102_G104R	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.76666666667
+ccRCC_92	ccRCC_92	pT1aN0M0	2	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.36666666667
+ccRCC_93	ccRCC_93	pT1bN0M0	2	NA	NA	c.474_475insA	p.E160fs	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.66666666667
+ccRCC_94	ccRCC_94	pT1bN0M0	2	NA	Bone	c.346_347insT	p.W117fs	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.86666666667
+ccRCC_95	ccRCC_95	pT1bN0M0	2	NA	Lung, Bone, Brain	c.254T>C	p.L85P	ccB	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.43333333333
+ccRCC_96	ccRCC_96	pT1aN0M0	1	NA	NA			ccB	WXS, WGS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.53333333333
+ccRCC_97	ccRCC_97	pT1aN2M1	2	NA	Lymph Node, Contralateral Kidney	c.463+3A>C	p.V155splice	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.03333333333
+ccRCC_98	ccRCC_98	pT1aN0M0	3	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.566666666667
+ccRCC_99	ccRCC_99	pT2N0M0	1	NA	NA	c.464-2A>C	p.V155splice	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.53333333333
+ccRCC_100	ccRCC_100	pT1aN0M0	2	NA	Pancreas	c.430G>T	p.G144X	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.0
+ccRCC_101	ccRCC_101	pT3cN0M0	2	NA	Lung	c.399delT	p.E134fs	NA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.56666666667
+ccRCC_102	ccRCC_102	pT1bN0M0	2	NA	NA	c.480delG	p.E160fs	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	2.7
+ccRCC_103	ccRCC_103	pT1aN0M0	2	NA	NA	c.466_472delTATACTC	p.Y156X	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.766666666667
+ccRCC_104	ccRCC_104	pT1aN0M0	2	NA	NA			ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	0.9
+ccRCC_105	ccRCC_105	pT1aN0M0	2	NA	NA	c.G485A	p.C162Y	ccA	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.53333333333
+ccRCC_106	ccRCC_106	pT1aN0M0	1	NA	NA	c.315delG	p.G106fs	ccB	WXS	SCCRCC	Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1.63333333333

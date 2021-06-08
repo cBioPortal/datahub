@@ -1,0 +1,105 @@
+#Patient Identifier	Sample Identifier	Tubule Score	Pleomorphism Score	Mitotic Score	Mitotic Count	Neoplasm Histologic Grade	ER Status	PR Status	HER2 Status	Aberrant Cell Fraction	Tumor Ploidy	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Tubule Score	Pleomorphism Score	Mitotic Score	Mitotic Count	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	ER Status	PR Status	HER2 Status	Aberrant Cell Fraction	Tumor Ploidy	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUBULE_SCORE	PLEOMORPHISM_SCORE	MITOTIC_SCORE	MITOTIC_COUNT	GRADE	ER_STATUS	PR_STATUS	HER2_STATUS	ABERRANT_CELL_FRACTION	TUMOR_PLOIDY	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+PD3849a	PD3849a	3	2	1	1	II	+ve	+ve	-ve	0.7	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.733333333333
+PD3852a	PD3852a	2	2	1	6	II	+ve	+ve	-ve	0.77	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.366666666667
+PD3854a	PD3854a	3	2	3	53	III	+ve	+ve	-ve	0.72	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.433333333333
+PD3856a	PD3856a	2	3	1	7	II	+ve	+ve	-ve		NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.03333333333
+PD3857a	PD3857a	3	3	3	40	III	+ve	+ve	-ve		NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.533333333333
+PD3858a	PD3858a	3	2	3	19	III	+ve	+ve	-ve	0.56	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.3
+PD3983a	PD3983a	2	3	1	2	II	+ve	+ve	+ve	0.5	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.333333333333
+PD3984a	PD3984a	3	2	1	2	II	+ve	+ve	+ve	0.71	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.433333333333
+PD3985a	PD3985a	3	3	3	18	III	+ve	+ve	-ve	0.48	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.866666666667
+PD3986a	PD3986a	3	3	3	21	III	+ve	+ve	-ve	0.56	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.533333333333
+PD3987a	PD3987a					III	-ve	-ve	-ve	0.72	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.933333333333
+PD3988a	PD3988a	2	3	3	27	III	+ve	-ve	+ve	0.6	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.06666666667
+PD3989a	PD3989a	3	3	2	13	III	+ve	+ve	-ve	0.43	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.633333333333
+PD3991a	PD3991a					III	+ve	+ve	+ve	0.36	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.1
+PD3992a	PD3992a	1	2	1	2	I	+ve	+ve	+ve		NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.566666666667
+PD3993a	PD3993a	2	3	1	3	II	+ve	+ve	-ve	0.7	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.466666666667
+PD3994a	PD3994a	3	2	1	5	II	+ve	+ve	-ve	0.84	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.466666666667
+PD3995a	PD3995a	3	3	3	20	III	+ve	+ve	-ve	0.61	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.06666666667
+PD3996a	PD3996a	3	3	1	3	II	+ve	+ve	-ve	0.59	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.366666666667
+PD3997a	PD3997a	3	2	1	2	II	+ve	+ve	-ve	0.81	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.233333333333
+PD3998a	PD3998a	3	3	2	14	III	+ve	-ve	+ve	0.54	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.766666666667
+PD3999a	PD3999a	3	2			II	+ve	+ve	-ve	0.7	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.7
+PD4000a	PD4000a	3	2	2	11	II	+ve	+ve	-ve	0.55	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.23333333333
+PD4001a	PD4001a	3	2	1	5	II	+ve	+ve	+ve	0.53	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.33333333333
+PD4002a	PD4002a	3	3	3	110	III	-ve	-ve	-ve	0.43	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.03333333333
+PD4003a	PD4003a	3	3	3	48	III	-ve	-ve	-ve	0.46	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.03333333333
+PD4004a	PD4004a	3	3	2	13	III	+ve	+ve	-ve	0.48	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.1
+PD4070a	PD4070a					III	+ve	+ve	-ve	0.54	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.933333333333
+PD4075a	PD4075a	3	2	1	3	II	+ve	+ve	-ve	0.57	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.5
+PD4076a	PD4076a	3	2	1	1	II	+ve	+ve	-ve	0.67	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.666666666667
+PD4082a	PD4082a	3	3	3	17	III	-ve	-ve	+ve		NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.3
+PD4084a	PD4084a	2	3	3	28	III	+ve	+ve	+ve	0.58	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.36666666667
+PD4087a	PD4087a	2	2	1	2	I	+ve	+ve	-ve	0.61	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.966666666667
+PD4091a	PD4091a	2	3	3	48	III	-ve	-ve	-ve	0.25	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.933333333333
+PD4092a	PD4092a	3	2	2	8	II	+ve	+ve	-ve	0.77	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.7
+PD4093a	PD4093a	3	3	3	21	III	+ve	-ve	-ve	0.43	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.93333333333
+PD4094a	PD4094a	2	3	2	13	III	+ve	+ve	-ve	0.61	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.9
+PD4098a	PD4098a	3	2	3	22	III	-ve	-ve	-ve	0.47	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	2.53333333333
+PD4099a	PD4099a	3	3	1	7	II	+ve	-ve	-ve	0.37	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.5
+PD4100a	PD4100a	3	3	2	13	III	-ve	-ve	+ve	0.59	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	6.63333333333
+PD4101a	PD4101a	2	2	1	2	I	+ve	-ve	-ve	0.73	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.466666666667
+PD4102a	PD4102a	3	3	3	46	III	-ve	+ve	-ve	0.62	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.76666666667
+PD4103a	PD4103a	3	2	1	1	II	+ve	+ve	-ve	0.54	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.23333333333
+PD4104a	PD4104a	3	3	1	6	II	+ve	+ve	-ve	0.63	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.833333333333
+PD4105a	PD4105a	3	3	2	9	III	+ve	+ve	-ve	0.46	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.06666666667
+PD4106a	PD4106a	3	3	2	13	III	+ve	+ve	+ve	0.56	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.46666666667
+PD4107a	PD4107a	3	3	3	72	III	-ve	-ve	-ve	0.56	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.93333333333
+PD4108a	PD4108a	2	2	1	5	I	+ve	+ve	-ve	0.7	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.633333333333
+PD4109a	PD4109a	3	3	3	32	III	-ve	-ve	-ve	0.5	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.1
+PD4110a	PD4110a	3	2	2	7	II	+ve	+ve	-ve	0.47	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.4
+PD4111a	PD4111a	2	2	1	1	I	+ve	+ve	-ve	0.75	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.433333333333
+PD4112a	PD4112a	3	3	2	14	III	+ve	+ve	-ve	0.48	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.16666666667
+PD4113a	PD4113a	3	2	1	2	II	-ve	-ve	-ve	0.63	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.933333333333
+PD4118a	PD4118a	3	3	3	28	III	+ve	-ve	-ve	0.64	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.866666666667
+PD4119a	PD4119a	3	3	3	33	III	+ve	-ve	+ve	0.3	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	5.13333333333
+PD4120a	PD4120a	3	2	1	2	II	+ve	+ve	-ve	0.73	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	15.4
+PD4121a	PD4121a	3	2	1	4	II	+ve	-ve	-ve	0.75	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.0
+PD4122a	PD4122a	3	2	1	3	II	+ve	+ve	+ve	0.67	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.566666666667
+PD4123a	PD4123a	3	3	3	31	III	+ve	-ve	-ve	0.68	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.83333333333
+PD4124a	PD4124a	2	2	2	13	II	+ve	+ve	-ve	0.74	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.9
+PD4125a	PD4125a	3	2	1		II	+ve	+ve	-ve	0.49	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.2
+PD4126a	PD4126a	3	1	3	26	II	+ve	-ve	-ve	0.8	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.06666666667
+PD4127a	PD4127a	3		3	30	III	+ve	+ve	-ve	0.71	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	7.93333333333
+PD4128a	PD4128a	3	2	1	4	II	+ve	+ve	-ve	0.65	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.833333333333
+PD4129a	PD4129a					II	+ve	+ve	-ve	0.42	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.133333333333
+PD4130a	PD4130a	3	3	3	36	III	-ve	-ve	-ve	0.42	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.966666666667
+PD4131a	PD4131a	3	3	3	24	III	+ve	-ve	-ve	0.51	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.6
+PD4132a	PD4132a					II	+ve	+ve	-ve	0.45	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.2
+PD4133a	PD4133a					III	-ve	-ve	-ve	0.83	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	2.03333333333
+PD4134a	PD4134a					III	+ve	+ve	-ve	0.63	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.26666666667
+PD4135a	PD4135a	3	3	2	8	III	+ve	-ve	+ve	0.32	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.633333333333
+PD4136a	PD4136a	2	1	1	1	I	+ve	+ve	-ve	0.41	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.333333333333
+PD4137a	PD4137a	3	2	1	2	II	+ve	-ve	-ve	0.68	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.43333333333
+PD4195a	PD4195a	3	3	2	8	III	+ve	-ve	+ve	0.55	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.966666666667
+PD4196a	PD4196a	3	2	2	9	II	+ve	+ve	+ve	0.58	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.4
+PD4197a	PD4197a	3	3	1	6	II	-ve	-ve	+ve	0.37	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.766666666667
+PD4200a	PD4200a	3	3	3	23	III	-ve	-ve	-ve	0.76	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.26666666667
+PD4201a	PD4201a	2	2	1	3	I	+ve	+ve	-ve	0.67	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.266666666667
+PD4202a	PD4202a	3	2	1	1	II	+ve	+ve	+ve	0.33	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.566666666667
+PD4203a	PD4203a	3	3	3	33	III	+ve	-ve	-ve	0.47	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	15.7
+PD4204a	PD4204a	2	3	1	5	II	+ve	+ve	-ve	0.73	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.433333333333
+PD4205a	PD4205a	2	3	1	6	II	+ve	+ve	+ve	0.58	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.833333333333
+PD4226a	PD4226a	2	3	3	19	II	+ve	-ve	+ve	0.59	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.8
+PD4252a	PD4252a	3	3	3	31	III	-ve	-ve	-ve	0.48	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.666666666667
+PD4594a	PD4594a					III	+ve	-ve	+ve	0.35	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.36666666667
+PD4595a	PD4595a	3	3	3	16	III	+ve	-ve	+ve	0.47	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.1
+PD4596a	PD4596a	3	3	3	30	III	-ve	-ve	+ve	0.35	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	4.43333333333
+PD4600a	PD4600a	3	3	1	6	II	+ve	+ve	+ve	0.49	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.333333333333
+PD4601a	PD4601a	2	2	3	19	II	-ve	-ve	-ve	0.52	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	5.3
+PD4602a	PD4602a	3	3	3	90	III	-ve	+ve	-ve	0.58	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.8
+PD4603a	PD4603a	3	3	1	6	II	+ve	+ve	-ve	0.46	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.0
+PD4842a	PD4842a	2	2	1	0	I	+ve	+ve	-ve	0.61	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.433333333333
+PD4843a	PD4843a	3	3	1	1	II	+ve	+ve	-ve	0.52	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.666666666667
+PD4844a	PD4844a	3	3	3	17	III	-ve	-ve	-ve	0.76	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	3.83333333333
+PD4934a	PD4934a	3	3	1	4	II	+ve	+ve	+ve	0.37	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.366666666667
+PD4935a	PD4935a	3	3	3	23	III	+ve	-ve	+ve	0.36	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.16666666667
+PD4936a	PD4936a	3	3	3	17	III	+ve	+ve	+ve		NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.433333333333
+PD4937a	PD4937a	3	3	3	58	III	+ve	-ve	+ve	0.52	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	11.6666666667
+PD4938a	PD4938a	3	3	2	10	III	+ve	-ve	+ve	0.46	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.3
+PD4939a	PD4939a					III	-ve	-ve	+ve	0.64	NA	BRCA	Breast Cancer	Invasive Breast Carcinoma	1.13333333333

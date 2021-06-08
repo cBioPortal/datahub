@@ -1,0 +1,21 @@
+#Patient Identifier	Sample Identifier	Sample Class	Sample Collection Source	Tissue Source Site	Sample Type	Mean Target Coverage Tumor	Mean Target Coverage Normal	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The sample classification (i.e., tumor, cellline, xenograph).	Sample Collection Source	A Tissue Source Site collects samples (tissue, cell, or blood) and clincal metadata which are then sent to tha Biospecimen Core Resource.	The type of sample (i.e., normal, primary, met, recurrence).	Mean Target Coverage Tumor	Mean Target Coverage Normal	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_CLASS	SAMPLE_COLLECTION_SOURCE	TISSUE_SOURCE_SITE	SAMPLE_TYPE	MEAN_TARGET_COVERAGE_TUMOR	MEAN_TARGET_COVERAGE_NORMAL	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+AU5884	AU5884	Tumor	Frozen	Lung	Primary	128.058385	70.843604	LUAD	Lung cancer	Lung Adenocarcinoma	1.13333333333
+BL3403	BL3403	Tumor	FFPE	Pleura	Met	178.814652	142.309651	LUAD	Lung cancer	Lung Adenocarcinoma	4.7
+CA9903	CA9903	Tumor	FFPE	Lung	Primary	118.675283	71.664856	LUAD	Lung cancer	Lung Adenocarcinoma	10.5333333333
+DI6359	DI6359	Tumor	FFPE	Lymph node	Met	154.345326	74.122135	LUAD	Lung cancer	Lung Adenocarcinoma	7.53333333333
+GR4788	GR4788	Tumor	Frozen	Bronchus	Met	128.244339	131.869851	LUSC	Lung cancer	Lung Squamous Cell Carcinoma	5.63333333333
+HE3202	HE3202	Tumor	FFPE	Lymph node	Met	189.705252	89.139081	LUAD	Lung cancer	Lung Adenocarcinoma	24.0333333333
+JB112852	JB112852	Tumor	FFPE	Lung	Primary	198.480088	131.38132	LUAD	Lung cancer	Lung Adenocarcinoma	6.06666666667
+KA3947	KA3947	Tumor	Frozen	Lymph node	Met	162.673575	81.930577	LUAD	Lung cancer	Lung Adenocarcinoma	9.8
+MA7027	MA7027	Tumor	FFPE	Lung	Primary	129.24121	83.373941	LUAD	Lung cancer	Lung Adenocarcinoma	9.36666666667
+RI1933	RI1933	Tumor	FFPE	Lymph node	Met	164.985052	68.188206	LUAD	Lung cancer	Lung Adenocarcinoma	15.5333333333
+RO3338	RO3338	Tumor	FFPE	Lung	Primary	126.57824	121.010249	LUAD	Lung cancer	Lung Adenocarcinoma	3.5
+SC0899	SC0899	Tumor	Frozen	Lung	Primary	134.579314	93.073728	LUAD	Lung cancer	Lung Adenocarcinoma	9.66666666667
+SC6470	SC6470	Tumor	Frozen	Lung	Met	144.26427	61.39547	LUAD	Lung cancer	Lung Adenocarcinoma	5.96666666667
+TU0428	TU0428	Tumor	FFPE	Lung	Primary	113.278032	130.048835	LUAD	Lung cancer	Lung Adenocarcinoma	20.2666666667
+VA1330	VA1330	Tumor	Frozen	Lung	Met	125.711679	71.166279	LUAD	Lung cancer	Lung Adenocarcinoma	1.33333333333
+VA7859	VA7859	Tumor	Frozen	Lung	Met	151.640293	70.285595	LUAD	Lung cancer	Lung Adenocarcinoma	0.3

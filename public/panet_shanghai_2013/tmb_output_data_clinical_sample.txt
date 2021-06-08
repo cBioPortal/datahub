@@ -1,0 +1,15 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+INS8	INS8	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.133333333333
+INS12	INS12	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.233333333333
+INS15	INS15	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.0666666666667
+INS19	INS19	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.466666666667
+INS20	INS20	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.366666666667
+INS24	INS24	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.2
+INS29	INS29	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.0333333333333
+INS31	INS31	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.2
+INS38	INS38	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.166666666667
+INS40	INS40	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.0333333333333

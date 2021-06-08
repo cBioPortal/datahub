@@ -1,0 +1,248 @@
+#Sample Identifier	Patient Identifier	Oncotree Code	Tumor Size	Vascular Invasion	Differentiation	Disease Stage	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Oncotree Code	Tumor size.	Vascular invasion.	Differentiation	Disease Stage	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	ONCOTREE_CODE	TUMOR_SIZE	VASCULAR_INVASION	DIFFERENTIATION	DISEASE_STAGE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+BCB109T	BCB109T	HCC	35	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.8
+BCB111T	BCB111T	HCC	30	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.13333333333
+BCB151T	BCB151T	HCC	60	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.93333333333
+BCB157T	BCB157T	HCC	40	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.96666666667
+BCB167T	BCB167T	HCC	12	Yes	III_IV	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.8
+BCB231T	BCB231T	HCC	30	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.4
+BCB301T	BCB301T	HCC	40	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.43333333333
+BCB307T	BCB307T	HCC	30	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.3
+BCB325T	BCB325T	HCC	30	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.13333333333
+BCM229T	BCM229T	HCC	35	No	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.166666666667
+BCM257T	BCM257T	HCC	30	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.0
+BCM265T	BCM265T	HCC	38	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.06666666667
+BCM269T	BCM269T	HCC	26	No	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.4
+BCM275T	BCM275T	HCC	70	Yes	I_II	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.33333333333
+BCM321T	BCM321T	HCC	20	No	III_IV	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.0
+BCM325T	BCM325T	HCC	20	No	III_IV	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.06666666667
+BCM329T	BCM329T	HCC	18	No	III_IV	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.0666666666667
+BCM337T	BCM337T	HCC	40	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.93333333333
+BCM339T	BCM339T	HCC	65	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.4
+BCM371T	BCM371T	HCC	15	No	I_II	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.2
+BCM375T	BCM375T	HCC	35	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.96666666667
+BCM397T	BCM397T	HCC	50	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.56666666667
+BCM399T	BCM399T	HCC	30	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.23333333333
+BCM423T	BCM423T	HCC	50	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.76666666667
+BCM439T	BCM439T	HCC	70	No	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.16666666667
+BCM455T	BCM455T	HCC	25	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.0333333333333
+BCM483T	BCM483T	HCC	80	No	I_II	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.2
+BCM489T	BCM489T	HCC	100	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.6
+BCM501T	BCM501T	HCC	130	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.46666666667
+BCM529T	BCM529T	HCC	22	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.8
+BCM531T	BCM531T	HCC	30	No	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.733333333333
+BCM543T	BCM543T	HCC	60	No	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.06666666667
+BCM545T	BCM545T	HCC	40	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.36666666667
+BCM565T	BCM565T	HCC	45	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.0333333333333
+BCM567T	BCM567T	HCC	15	No	III_IV	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.43333333333
+BCM617T	BCM617T	HCC	120	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.33333333333
+BCM643T	BCM643T	HCC	30	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.0333333333333
+BCM671T	BCM671T	HCC	35	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.833333333333
+BCM683T	BCM683T	HCC	65	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.83333333333
+BCM689T	BCM689T	HCC	50	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.6
+BCM695T	BCM695T	HCC	38	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.7
+BCM703T	BCM703T	HCC	50	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.76666666667
+BCM711T	BCM711T	HCC	32	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.9
+BCM723T	BCM723T	HCC	45	Yes		Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	16.6
+BCM735T	BCM735T	HCC	30	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.46666666667
+BCM739T	BCM739T	HCC	20	Yes	III_IV	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.6
+BCM759T	BCM759T	HCC	180	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.36666666667
+BCM769T	BCM769T	HCC	140	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.533333333333
+BCM783T	BCM783T	HCC	70	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.26666666667
+BCM791T	BCM791T	HCC	65	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.03333333333
+CHC051T	CHC051T	HCC	60	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.93333333333
+CHC059T	CHC059T	HCC	80	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.03333333333
+CHC060T	CHC060T	HCC	28	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	NA
+CHC097T	CHC097T	HCC	70	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.26666666667
+CHC1010T	CHC1010T	HCC	100	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.2
+CHC1028T	CHC1028T	HCC	80	Yes	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.4
+CHC1035T	CHC1035T	HCC	75	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.33333333333
+CHC1040T	CHC1040T	HCC	160	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.56666666667
+CHC1041T	CHC1041T	HCC	100	No	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.06666666667
+CHC1044T	CHC1044T	HCC	16	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.0
+CHC1052T	CHC1052T	HCC	130	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.4
+CHC1053T	CHC1053T	HCC	35	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.23333333333
+CHC1055T	CHC1055T	HCC	200	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.53333333333
+CHC1060T	CHC1060T	HCC	30	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.166666666667
+CHC1061T	CHC1061T	HCC	150	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.7
+CHC1062T	CHC1062T	HCC	30	Yes	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.2
+CHC1065T	CHC1065T	HCC	35	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.36666666667
+CHC1079T	CHC1079T	HCC	35	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.53333333333
+CHC1081T	CHC1081T	HCC	20	Yes	III_IV	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.36666666667
+CHC1085T	CHC1085T	HCC	17	Yes	I_II	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.13333333333
+CHC1137T	CHC1137T	HCC	60	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.13333333333
+CHC1148T	CHC1148T	HCC	90	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	5.13333333333
+CHC1152T	CHC1152T	HCC	140	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.6
+CHC1154T	CHC1154T	HCC	130	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	5.5
+CHC1162T	CHC1162T	HCC	55	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.0333333333333
+CHC1177T	CHC1177T	HCC	15	No	III_IV	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.133333333333
+CHC1180T	CHC1180T	HCC	30	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.13333333333
+CHC1182T	CHC1182T	HCC	90	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.56666666667
+CHC1183T	CHC1183T	HCC	180	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.23333333333
+CHC1185T	CHC1185T	HCC	30	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.6
+CHC1186T	CHC1186T	HCC	85	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.76666666667
+CHC1190T	CHC1190T	HCC	22	Yes	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.4
+CHC1191T	CHC1191T	HCC	22	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.63333333333
+CHC1192T	CHC1192T	HCC	70	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.06666666667
+CHC1201T	CHC1201T	HCC	60	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.8
+CHC1205T	CHC1205T	HCC	60	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.7
+CHC1207T	CHC1207T	HCC	210	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	5.03333333333
+CHC1209T	CHC1209T	HCC	140	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.5
+CHC1210T	CHC1210T	HCC	70	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.266666666667
+CHC1211T	CHC1211T	HCC	130	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.3
+CHC121T	CHC121T	HCC	120	No	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.93333333333
+CHC1530T	CHC1530T	HCC	75	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.433333333333
+CHC1531T	CHC1531T	HCC	60	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.4
+CHC1534T	CHC1534T	HCC	55	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.53333333333
+CHC1539T	CHC1539T	HCC	32	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.333333333333
+CHC1545T	CHC1545T	HCC	40	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.2
+CHC1556T	CHC1556T	HCC	100	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.36666666667
+CHC155T	CHC155T	HCC	35	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.4
+CHC1566T	CHC1566T	HCC	22	Yes	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.33333333333
+CHC1568T	CHC1568T	HCC	30	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.73333333333
+CHC1569T	CHC1569T	HCC	90	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.9
+CHC1591T	CHC1591T	HCC	120	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.6
+CHC1592T	CHC1592T	HCC	20	Yes	III_IV	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.13333333333
+CHC1594T	CHC1594T	HCC	100	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.6
+CHC1595T	CHC1595T	HCC	90	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.83333333333
+CHC1596T	CHC1596T	HCC	30	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.466666666667
+CHC1597T	CHC1597T	HCC	105	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.76666666667
+CHC1598T	CHC1598T	HCC	90	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.6
+CHC1600T	CHC1600T	HCC	80	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.13333333333
+CHC1601T	CHC1601T	HCC	40	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.4
+CHC1602T	CHC1602T	HCC	75	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.56666666667
+CHC1603T	CHC1603T	HCC	50	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.66666666667
+CHC1604T	CHC1604T	HCC	18	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.2
+CHC1611T	CHC1611T	HCC	150	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.6
+CHC1616T	CHC1616T	HCC	100	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.5
+CHC1624T	CHC1624T	HCC	12	No	I_II	Early HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.43333333333
+CHC1626T	CHC1626T	HCC	100	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.86666666667
+CHC1629T	CHC1629T	HCC	70	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.63333333333
+CHC1700T	CHC1700T	HCC	20	No	I_II	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.16666666667
+CHC1704T	CHC1704T	HCC	140	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	10.2
+CHC1708T	CHC1708T	HCC	70	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.56666666667
+CHC1712T	CHC1712T	HCC	36	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.66666666667
+CHC1714T	CHC1714T	HCC	26	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.966666666667
+CHC1715T	CHC1715T	HCC	60	No	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.86666666667
+CHC1717T	CHC1717T	HCC	55	Yes	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.23333333333
+CHC1719T	CHC1719T	HCC	12	No	I_II	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.3
+CHC1720T	CHC1720T	HCC	11	No	III_IV	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.2
+CHC1725T	CHC1725T	HCC	60	Yes	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.5
+CHC1731T	CHC1731T	HCC	110	No	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.63333333333
+CHC1732T	CHC1732T	HCC	58	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.03333333333
+CHC1734T	CHC1734T	HCC	40	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.433333333333
+CHC1736T	CHC1736T	HCC	45	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.4
+CHC1737T	CHC1737T	HCC	32	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.133333333333
+CHC1738T	CHC1738T	HCC	20	No	I_II	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.93333333333
+CHC1739T	CHC1739T	HCC	50	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.43333333333
+CHC1741T	CHC1741T	HCC	32	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.2
+CHC1742T	CHC1742T	HCC	33	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.56666666667
+CHC1743T	CHC1743T	HCC	28	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.73333333333
+CHC1744T	CHC1744T	HCC	70	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.6
+CHC1745T	CHC1745T	HCC	60	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.73333333333
+CHC1746T	CHC1746T	HCC	40	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.2
+CHC1747T	CHC1747T	HCC	40	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.1
+CHC1749T	CHC1749T	HCC	150	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.9
+CHC1750T	CHC1750T	HCC	24	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.766666666667
+CHC1751T	CHC1751T	HCC	80	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.33333333333
+CHC1753T	CHC1753T	HCC	25	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.566666666667
+CHC1754T	CHC1754T	HCC	170	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	6.43333333333
+CHC1756T	CHC1756T	HCC	45	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.96666666667
+CHC1757T	CHC1757T	HCC	12	No	I_II	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.633333333333
+CHC1763T	CHC1763T	HCC	60	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.93333333333
+CHC1774T	CHC1774T	HCC	10	No	I_II	Early HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.5
+CHC1775T	CHC1775T	HCC	15	No	I_II	Early HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.43333333333
+CHC1915T	CHC1915T	HCC	20	No	I_II	HCC in Adenoma	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.3
+CHC197T	CHC197T	HCC	130	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.36666666667
+CHC2029T	CHC2029T	HCC	70	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.5
+CHC2034T	CHC2034T	HCC	60	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.8
+CHC2039Tbis	CHC2039Tbis	HCC	28	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.1
+CHC2043T	CHC2043T	HCC	50	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.433333333333
+CHC2048T	CHC2048T	HCC	142	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.26666666667
+CHC2052T	CHC2052T	HCC	80	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.53333333333
+CHC205T	CHC205T	HCC	100	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.56666666667
+CHC2098T	CHC2098T	HCC	70	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.5
+CHC2099T	CHC2099T	HCC	130	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.33333333333
+CHC2103T	CHC2103T	HCC	28	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.6
+CHC2110Tbis	CHC2110Tbis	HCC	34	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.76666666667
+CHC2111T	CHC2111T	HCC	60	No	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.966666666667
+CHC2112T	CHC2112T	HCC	190	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.1
+CHC2113T	CHC2113T	HCC	80	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.76666666667
+CHC2115T	CHC2115T	HCC	100	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.06666666667
+CHC2127T	CHC2127T	HCC	100	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.43333333333
+CHC2128T	CHC2128T	HCC	150	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.8
+CHC2134T	CHC2134T	HCC	100	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	NA
+CHC2141T	CHC2141T	HCC	65	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.1
+CHC218T	CHC218T	HCC	130	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.0
+CHC2200T	CHC2200T	HCC	220	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.1
+CHC2202T	CHC2202T	HCC	100	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.4
+CHC2206T	CHC2206T	HCC	57	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.9
+CHC2208T	CHC2208T	HCC	20	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.26666666667
+CHC2211T	CHC2211T	HCC	120	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.633333333333
+CHC2213T	CHC2213T	HCC	40	No	I_II	HCC in Adenoma	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.5
+CHC2215T	CHC2215T	HCC	20	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.76666666667
+CHC2216T	CHC2216T	HCC	150	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.6
+CHC2321T	CHC2321T	HCC	40	No	I_II	HCC in Adenoma	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.63333333333
+CHC2351T	CHC2351T	HCC	35	Yes	III_IV	Early HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.36666666667
+CHC2358T	CHC2358T	HCC	75	Yes	I_II	Early HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.83333333333
+CHC2362T	CHC2362T	HCC	8	No	I_II	Early HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.36666666667
+CHC253T	CHC253T	HCC	80	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.366666666667
+CHC258T	CHC258T	HCC	100	No	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.53333333333
+CHC301T	CHC301T	HCC	45	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.96666666667
+CHC302T	CHC302T	HCC	45	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.36666666667
+CHC303T	CHC303T	HCC	90	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	6.06666666667
+CHC304T	CHC304T	HCC	180	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.76666666667
+CHC306T	CHC306T	HCC	20	No	I_II	Small HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.73333333333
+CHC307T	CHC307T	HCC	30	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.0
+CHC313T	CHC313T	HCC	130	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.1
+CHC314T	CHC314T	HCC	45	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.7
+CHC320T	CHC320T	HCC	35	No	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.83333333333
+CHC322T	CHC322T	HCC	40	No	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.833333333333
+CHC326T	CHC326T	HCC	18	No	I_II	Early HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.46666666667
+CHC327T	CHC327T	HCC	25	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.5
+CHC361TA	CHC361TA	HCC	40	No	I_II	HCC in Adenoma	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.63333333333
+CHC429T	CHC429T	HCC	45	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.33333333333
+CHC432T	CHC432T	HCC	70	Yes	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.73333333333
+CHC433T	CHC433T	HCC	180	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	6.63333333333
+CHC434T	CHC434T	HCC	80	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.76666666667
+CHC437T	CHC437T	HCC	50	No	I_II	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.63333333333
+CHC451T	CHC451T	HCC	30	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.26666666667
+CHC465T	CHC465T	HCC	100	No	I_II	HCC in Adenoma	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.96666666667
+CHC469T	CHC469T	HCC	135	Yes	III_IV	HCC in Adenoma	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.93333333333
+CHC510T	CHC510T	HCC	220	No	I_II	HCC in Adenoma	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.333333333333
+CHC609T	CHC609T	HCC	50	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.9
+CHC614T	CHC614T	HCC	30	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.06666666667
+CHC703T	CHC703T	HCC	26	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.46666666667
+CHC734T	CHC734T	HCC	80	No	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.3
+CHC736T	CHC736T	HCC	160	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.0
+CHC789T	CHC789T	HCC	120	Yes	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.4
+CHC793T	CHC793T	HCC	80	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.5
+CHC794T	CHC794T	HCC	160	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.8
+CHC796T	CHC796T	HCC	48	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.83333333333
+CHC798T	CHC798T	HCC	95	No	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	5.86666666667
+CHC799T	CHC799T	HCC	45	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.26666666667
+CHC801T	CHC801T	HCC	50	No	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.16666666667
+CHC805T	CHC805T	HCC	120	No	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.6
+CHC879T	CHC879T	HCC	45	Yes	III_IV	Classic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.8
+CHC884T	CHC884T	HCC	130	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.2
+CHC889T	CHC889T	HCC	85	Yes	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.4
+CHC891T	CHC891T	HCC	45	Yes	III_IV	Poor prognosis HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.83333333333
+CHC892T	CHC892T	HCC	55	No	I_II	Hypermutated HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	134.5
+CHC896T	CHC896T	HCC	110	Yes	I_II	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.9
+CHC898T	CHC898T	HCC	80	Yes	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.76666666667
+CHC902T	CHC902T	HCC	60	No	I_II	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.66666666667
+CHC909T	CHC909T	HCC	210	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.5
+CHC912T	CHC912T	HCC	60	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	4.6
+CHC917T	CHC917T	HCC	80	No	I_II	HCC in Adenoma	Hepatobiliary Cancer	Hepatocellular Carcinoma	3.1
+CHC923T	CHC923T	HCC	75	No	III_IV	F2_F3 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	2.13333333333
+CHC961T	CHC961T	HCC	190	Yes	III_IV	F0_F1 non cirrhotic HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.7
+CHC1082T	CHC1082T	HCC				Macronodule	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.633333333333
+CHC1083T	CHC1083T	HCC				Macronodule	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.733333333333
+CHC1089T	CHC1089T	HCC				Macronodule	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.133333333333
+CHC1091T	CHC1091T	HCC				Macronodule	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.3
+CHC1097T	CHC1097T	HCC				Macronodule	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.233333333333
+CHC1098T	CHC1098T	HCC				Macronodule	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.1
+CHC2352T	CHC2352T	HCC				Macronodule	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.866666666667

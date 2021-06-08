@@ -1,0 +1,45 @@
+#Patient Identifier	Sample Identifier	Cancer Type Detailed	Oncotree Code	Cancer Type	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Cancer Type Detailed	Oncotree Code	Cancer Type	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE_DETAILED	ONCOTREE_CODE	CANCER_TYPE	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+CHOL12	CHOL12	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	7.26666666667
+GB07	GB07	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	6.0
+CHOL52	CHOL52	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.633333333333
+CHOL49	CHOL49	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.8
+CHOL44	CHOL44	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.9
+CHOL09	CHOL09	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.733333333333
+CHOL08	CHOL08	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.333333333333
+CHOL27	CHOL27	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.766666666667
+GB16	GB16	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	1.26666666667
+CHOL40	CHOL40	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.7
+CHOL54	CHOL54	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.266666666667
+GB19	GB19	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	1.73333333333
+CHOL06	CHOL06	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	1.03333333333
+CHOL24	CHOL24	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.933333333333
+CHOL53	CHOL53	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.6
+CHOL48	CHOL48	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.933333333333
+CHOL02	CHOL02	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.966666666667
+GB18	GB18	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	3.23333333333
+CHOL35	CHOL35	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.566666666667
+CHOL28	CHOL28	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.7
+CHOL47	CHOL47	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.533333333333
+CHOL07	CHOL07	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.833333333333
+CHOL25	CHOL25	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.4
+GB10	GB10	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	1.2
+CHOL13	CHOL13	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.666666666667
+GB11	GB11	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	1.0
+CHOL11	CHOL11	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.866666666667
+CHOL50	CHOL50	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.466666666667
+GB02	GB02	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	1.66666666667
+GB23	GB23	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.933333333333
+CHOL04	CHOL04	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.6
+CHOL26	CHOL26	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	1.06666666667
+CHOL14	CHOL14	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	1.26666666667
+CHOL15	CHOL15	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.966666666667
+CHOL19	CHOL19	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.533333333333
+CHOL18	CHOL18	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.866666666667
+CHOL37	CHOL37	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.733333333333
+CHOL01	CHOL01	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.533333333333
+CHOL42	CHOL42	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.6
+CHOL20	CHOL20	Intrahepatic Cholangiocarcinoma	IHCH	Hepatobiliary Cancer	Matched	0.733333333333

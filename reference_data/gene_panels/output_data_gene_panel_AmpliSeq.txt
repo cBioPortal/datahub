@@ -1,0 +1,5 @@
+cancer_study_identifier: mnm_washu_2016
+stable_id: AmpliSeq
+description: Targeted panel of 8 genes.
+gene_list: TP53	IDH2	DNMT3A	IDH1	SF3B1	U2AF1	SRSF2	ASXL1
+number_of_profiled_coding_base_pairs: 16431

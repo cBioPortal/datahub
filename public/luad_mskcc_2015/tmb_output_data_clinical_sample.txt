@@ -1,0 +1,40 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	Note	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	Note.	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	NOTE	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+luad_mskcc_2015_1	SA9755	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	38.5
+luad_mskcc_2015_2	HE3202	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	24.0333333333
+luad_mskcc_2015_3	TU0428	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	20.2333333333
+luad_mskcc_2015_4	Y2087	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	16.3666666667
+luad_mskcc_2015_6	RI1933	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	15.5
+luad_mskcc_2015_5	M4945	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	13.8
+luad_mskcc_2015_7	ZA6505	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	12.0
+luad_mskcc_2015_8	CU9061	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	12.0
+luad_mskcc_2015_9	CA9903	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	10.5
+luad_mskcc_2015_12	KA3947	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	9.76666666667
+luad_mskcc_2015_10	SC0899	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	9.66666666667
+luad_mskcc_2015_13	MA7027	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	9.36666666667
+luad_mskcc_2015_11	FR9547	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	9.33333333333
+luad_mskcc_2015_15	AL4602	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	7.83333333333
+luad_mskcc_2015_18	DI6359	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	7.53333333333
+luad_mskcc_2015_14	ZA6965	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	7.33333333333
+luad_mskcc_2015_20	RH090935	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	6.53333333333
+luad_mskcc_2015_19	SB010944	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	6.26666666667
+luad_mskcc_2015_16	JB112852	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	6.06666666667
+luad_mskcc_2015_21	SC6470	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	5.96666666667
+luad_mskcc_2015_17	SR070761	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	5.86666666667
+luad_mskcc_2015_23	GR4788	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	5.6
+luad_mskcc_2015_22	BL3403	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	4.7
+luad_mskcc_2015_24	DM123062	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	4.3
+luad_mskcc_2015_26	WA7899	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	4.06666666667
+luad_mskcc_2015_25	R7495	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	NA
+luad_mskcc_2015_28	LO3793	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	3.63333333333
+luad_mskcc_2015_27	RO3338	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	3.5
+luad_mskcc_2015_29	LO5004	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	2.5
+luad_mskcc_2015_30	GR0134	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	1.8
+luad_mskcc_2015_32	NI9507	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	1.16666666667
+luad_mskcc_2015_33	AU5884	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	1.13333333333
+luad_mskcc_2015_31	VA1330	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	1.33333333333
+luad_mskcc_2015_34	VA7859	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Self reported self status	Matched	0.3
+R7495_2	R7495_2	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	NA		3.93333333333

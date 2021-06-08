@@ -1,0 +1,51 @@
+#Sample Identifier	Patient Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	Germline Control	Note	RNA-SEQ Data	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Oncotree Code	Cancer Type	Cancer Type Detailed	Germline Control	Note.	RNA-SEQ data.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	GERMLINE_CONTROL	NOTE	RNASEQ_DATA	TMB_NONSYNONYMOUS
+MB-REC-02	MB-REC-02	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	0.533333333333
+MB-REC-03	MB-REC-03	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	Yes, primary and recurrence	0.0666666666667
+MB-REC-04	MB-REC-04	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	0.733333333333
+MB-REC-05	MB-REC-05	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	0.6
+MB-REC-06	MB-REC-06	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	Yes, primary and recurrence	0.766666666667
+MB-REC-07	MB-REC-07	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	0.633333333333
+MB-REC-08	MB-REC-08	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	0.866666666667
+MB-REC-09	MB-REC-09	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	1.73333333333
+MB-REC-10	MB-REC-10	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	1.06666666667
+MB-REC-11	MB-REC-11	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	Yes, primary and recurrence	3.23333333333
+MB-REC-12	MB-REC-12	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	Yes, primary and recurrence	1.3
+MB-REC-13	MB-REC-13	AMBL	Embryonal Tumor	Large Cell/Anaplastic Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	1.53333333333
+MB-REC-14	MB-REC-14	AMBL	Embryonal Tumor	Large Cell/Anaplastic Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	1.66666666667
+MB-REC-15	MB-REC-15	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	1.7
+MB-REC-16	MB-REC-16	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, primary and recurrence 1	No	3.8
+MB-REC-17	MB-REC-17	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary and recurrence 1	No	1.36666666667
+MB-REC-18	MB-REC-18	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary and recurrence 1	No	0.8
+MB-REC-19	MB-REC-19	DMBL	Embryonal Tumor	Desmoplastic/Nodular Medulloblastoma	No	WGS for primary and recurrence 1	Yes, primary and recurrence	0.5
+MB-REC-20	MB-REC-20	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary and recurrence 1	Yes, primary and recurrence	2.03333333333
+MB-REC-21	MB-REC-21	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary and recurrence 1	No	0.9
+MB-REC-22	MB-REC-22	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary and recurrence 1	No	0.233333333333
+MB-REC-23	MB-REC-23	AMBL	Embryonal Tumor	Large Cell/Anaplastic Medulloblastoma	No	WGS for primary and recurrence 1	No	0.166666666667
+MB-REC-24	MB-REC-24	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary and recurrence 1	No	1.2
+MB-REC-26	MB-REC-26	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary and recurrence 1	No	71.4
+MB-REC-27	MB-REC-27	DMBL	Embryonal Tumor	Desmoplastic/Nodular Medulloblastoma	No	WGS for primary and recurrence 1	No	0.466666666667
+MB-REC-28	MB-REC-28	DMBL	Embryonal Tumor	Desmoplastic/Nodular Medulloblastoma	No	WGS for primary and recurrence 1	No	0.5
+MB-REC-29	MB-REC-29	DMBL	Embryonal Tumor	Desmoplastic/Nodular Medulloblastoma	No	WGS for primary and recurrence 1	No	0.833333333333
+MB-REC-30	MB-REC-30	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary and recurrence 1	No	0.133333333333
+MB-REC-31	MB-REC-31	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary, recurrence 1, and recurrence 2	Yes, primary and recurrence	2.23333333333
+MB-REC-32	MB-REC-32	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary, recurrence 1, and recurrence 2	No	1.4
+MB-REC-33	MB-REC-33	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary and recurrence 1	No	0.6
+MB-REC-34	MB-REC-34	DMBL	Embryonal Tumor	Desmoplastic/Nodular Medulloblastoma	No	WGS for primary and recurrence 1	No	1.5
+MB-REC-35	MB-REC-35	MBL	Embryonal Tumor	Medulloblastoma	No	WGS for primary and recurrence 1	No	0.166666666667
+MB-REC-36	MB-REC-36	AMBL	Embryonal Tumor	Large Cell/Anaplastic Medulloblastoma	No	WGS for primary and recurrence 1	No	0.0333333333333
+MB-REC-37	MB-REC-37	DMBL	Embryonal Tumor	Desmoplastic/Nodular Medulloblastoma	No	WGS for primary and recurrence 1	No	NA
+MB-REC-38	MB-REC-38	DMBL	Embryonal Tumor	Desmoplastic/Nodular Medulloblastoma	No	WGS for primary and recurrence 1	No	NA
+MB-REC-01	MB-REC-01	AMBL	Embryonal Tumor	Large Cell/Anaplastic Medulloblastoma	Yes	WGS for germline, and recurrence 1	No	0.933333333333
+MB-REC-39	MB-REC-39	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, and recurrence 1	No	1.0
+MB-REC-40	MB-REC-40	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, and recurrence 1	No	1.06666666667
+MB-REC-41	MB-REC-41	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, and recurrence 1	No	0.433333333333
+MB-REC-42	MB-REC-42	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, and recurrence 1	No	2.0
+MB-REC-43	MB-REC-43	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, and recurrence 1	No	0.433333333333
+MB-REC-44	MB-REC-44	DMBL	Embryonal Tumor	Desmoplastic/Nodular Medulloblastoma	Yes	WGS for germline, and recurrence 1	No	33.5666666667
+MB-REC-45	MB-REC-45	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, and recurrence 1	No	1.4
+MB-REC-46	MB-REC-46	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, and recurrence 1	No	0.866666666667
+MB-REC-47	MB-REC-47	MBL	Embryonal Tumor	Medulloblastoma	Yes	WGS for germline, and recurrence 1	No	1.23333333333

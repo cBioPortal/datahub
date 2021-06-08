@@ -1,0 +1,37 @@
+#Patient Identifier	Sample Identifier	Primary Tumor Site	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Text term to describe the organ sub-division in an individual with cancer.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	PRIMARY_SITE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+388	388	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	2.53333333333
+91	91	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.533333333333
+HN32PT	HN32PT	L	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.9
+HN33PT	HN33PT	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.6
+HN22PT	HN22PT	L	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	2.03333333333
+347	347	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.8
+HN24PT	HN24PT	H	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.266666666667
+HN09PT	HN09PT	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.2
+HN27PT	HN27PT	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.6
+578	578	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.966666666667
+391	391	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.333333333333
+266	266	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	1.06666666667
+478	478	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.6
+367	367	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.8
+HN11PT	HN11PT	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.766666666667
+325	325	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	1.26666666667
+HN12PT	HN12PT	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.6
+43	43	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.666666666667
+HN42PT	HN42PT	OP	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.0666666666667
+166	166	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.766666666667
+HN35PT	HN35PT	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.466666666667
+HN20PT	HN20PT	OP	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.1
+139	139	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.6
+HN16PT	HN16PT	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.366666666667
+385	385	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.466666666667
+447	447	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.333333333333
+HN14PT	HN14PT	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.333333333333
+HN07PT	HN07PT	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.2
+258	258	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.1
+HN19PT	HN19PT	OP	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.1
+HN41PT	HN41PT	OP	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.3
+HN01PT	HN01PT	OC	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	0.0666666666667

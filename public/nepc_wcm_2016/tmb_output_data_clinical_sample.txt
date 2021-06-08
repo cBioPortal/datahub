@@ -1,0 +1,119 @@
+#Patient Identifier	Sample Identifier	Disease code	Cancer Type	Cancer Type Detailed	Other Sample ID	Pathology Classification	CLONET Purity	Ploidy	Genomic Burden	Control Site	Tumor Disease Anatomic Site	Oncotree Code	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Disease code	Cancer Type	Cancer Type Detailed	Other sample identifier	Pathology Classification	CLONET Purity	Ploidy.	Genomic Burden	Control Site	Text term that describes the anatomic site of the tumor or disease.	Oncotree Code	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	DISEASE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	OTHER_SAMPLE_ID	PATHOLOGY_CLASSIFICATION	CLONET_PURITY	PLOIDY	GENOMIC_BURDEN	CONTROL_SITE	TUMOR_TISSUE_SITE	ONCOTREE_CODE	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+WCMC0	WCMC0_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC0_1_N	D	0.99	1.6	0.4463	Blood	Pelvic mass	PRNE	Matched	1.2
+WCMC1	WCMC1_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC1_1_C	A	0.43	1.98	0.0003	Blood	Bone	PROSTATE	Matched	0.633333333333
+WCMC2	WCMC2_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC2_1_C	A	0.45	2.3	0.0764	Blood	Lymph node	PROSTATE	Matched	1.43333333333
+WCMC3	WCMC3_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC3_1_C	A	0.5	2	0.0549	Blood	Bone	PROSTATE	Matched	2.23333333333
+WCMC4	WCMC4_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC4_1_C	A	0.44	1.96	0.0578	Blood	Bone	PROSTATE	Matched	2.8
+WCMC6	WCMC6_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC6_1_C	A	0.87	3.48	0.8227	Blood	Lymph node	PROSTATE	Matched	1.7
+WCMC7	WCMC7_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC7_1_C	A		2.78	0.754	Blood	Liver	PROSTATE	Matched	0.866666666667
+WCMC9	WCMC9_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC9_1_C	A	0.37	2.02	0.0376	Blood	Bone	PROSTATE	Matched	0.5
+WCMC9	WCMC9_2_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC9_2_C	A	0.55	2.48	0.0865	Blood	Prostate	PROSTATE	Matched	1.1
+WCMC10	WCMC10_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC10_1_N	B	0.67	1.98	0.0312	Blood	Lymph node	PRNE	Matched	25.1333333333
+WCMC11	WCMC11_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC11_1_C	A	0.51	2.13	0.1477	Blood	Prostate	PROSTATE	Matched	0.633333333333
+WCMC12	WCMC12_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC12_1_N	B	0.81	2	0.2339	Blood	Prostate	PRNE	Matched	2.8
+WCMC12	WCMC12_2_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC12_2_N	B	0.8	1.92	0.2853	Blood	Brain	PRNE	Matched	2.73333333333
+WCMC14	WCMC14_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC14_1_C	A	0.61	2.03	0.2369	Blood	Prostate	PROSTATE	Matched	1.16666666667
+WCMC15	WCMC15_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC15_1_N	B	0.94	1.94	0.387	Blood	Lymph node	PRNE	Matched	1.63333333333
+WCMC59	WCMC59_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC59_1_C	A	0.97	2.77	0.8097	Blood	Liver	PROSTATE	Matched	0.6
+WCMC63	WCMC63_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC63_1_C	A	0.94	1.88	0.2802	Blood	Prostate	PROSTATE	Matched	0.833333333333
+WCMC73	WCMC73_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC73_1_C	A	0.35	1.99	0.0003	Blood	Prostate	PROSTATE	Matched	0.933333333333
+WCMC78	WCMC78_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC78_1_C	A	0.7	2.18	0.0916	Blood	Lymph node	PROSTATE	Matched	1.73333333333
+WCMC79	WCMC79_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC79_1_N	B	0.87	2.06	0.1657	Blood	Prostate	PRNE	Matched	0.966666666667
+WCMC79	WCMC79_2_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC79_2_N	B	0.6	2.48	0.2058	Blood	Liver	PRNE	Matched	1.33333333333
+WCMC80	WCMC80_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC80_1_C	A	0.69	1.97	0.0958	Blood	Bone	PROSTATE	Matched	0.966666666667
+WCMC89	WCMC89_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC89_1_C	A	0.4	2.06	0.0117	Blood	Lymph node	PROSTATE	Matched	0.6
+WCMC89	WCMC89_2_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC89_2_C	A	0.2	2.07	0	Blood	Prostate	PROSTATE	Matched	1.26666666667
+WCMC89	WCMC89_3_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC89_3_C	A	0.47	2.11	0.0044	Blood	Prostate	PROSTATE	Matched	2.53333333333
+WCMC89	WCMC89_4_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC89_4_C	A	0.38	2.08	0.0008	Blood	Lymph node	PROSTATE	Matched	1.76666666667
+WCMC90	WCMC90_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC90_1_C	A	0.67	2.93	0.6292	Blood	Liver	PROSTATE	Matched	1.2
+WCMC90	WCMC90_2_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC90_2_C	A		2.04	0.0464	Blood	Lymph node	PROSTATE	Matched	0.866666666667
+WCMC90	WCMC90_3_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC90_3_C	A	0.84	2	0.1773	Blood	Liver	PROSTATE	Matched	1.2
+WCMC90	WCMC90_4_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC90_4_C	A		2.02	0.0196	Blood	Lymph node	PROSTATE	Matched	0.633333333333
+WCMC90	WCMC90_5_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC90_5_C	A	0.41	2.01	0.0485	Blood	Bone	PROSTATE	Matched	0.866666666667
+WCMC91	WCMC91_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC91_1_C	A	0.84	3.01	0.7859	Blood	Bone	PROSTATE	Matched	1.0
+WCMC119	WCMC119_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC119_1_C	A	0.73	3.18	0.8449	Blood	Lymph node	PROSTATE	Matched	1.1
+WCMC121	WCMC121_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC121_1_C	A	0.48	2.66	0.5194	Blood	Lymph node	PROSTATE	Matched	1.0
+WCMC124	WCMC124_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC124_1_C	A	0.64	2	0.1096	Blood	Bone	PROSTATE	Matched	1.4
+WCMC131	WCMC131_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC131_1_C	A				Blood	Bone	PROSTATE	Matched	14.5333333333
+WCMC139	WCMC139_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC139_1_C	A	0.82	2.36	0.3242	Blood	Bone	PROSTATE	Matched	1.73333333333
+WCMC154	WCMC154_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC154_1_N	B	0.82	3.39	0.7753	Blood	Bone	PRNE	Matched	1.0
+WCMC155	WCMC155_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC155_1_N	C	0.98	3.24	0.8151	Blood	Liver	PRNE	Matched	1.26666666667
+WCMC156	WCMC156_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC156_1_N	C	0.53	2.08	0.0933	Blood	Prostate	PRNE	Matched	2.53333333333
+WCMC158	WCMC158_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC158_1_C	A	0.41	2.68	0.4751	Blood	Bone	PROSTATE	Matched	1.63333333333
+WCMC159	WCMC159_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC159_1_C	A	0.8	1.97	0.1276	Cerebellum	Adrenal	PROSTATE	Matched	0.766666666667
+WCMC159	WCMC159_2_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC159_2_C	A	0.74	2.17	0.3698	Cerebellum	Lymph node	PROSTATE	Matched	0.666666666667
+WCMC159	WCMC159_3_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC159_3_C	A	0.62	2.13	0.1767	Cerebellum	Lung	PROSTATE	Matched	0.733333333333
+WCMC159	WCMC159_5_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC159_5_C	A	0.85	2.2	0.3066	Cerebellum	Lymph node	PROSTATE	Matched	0.533333333333
+WCMC159	WCMC159_6_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC159_6_C	A	0.43	1.99	0.0468	Cerebellum	Bone	PROSTATE	Matched	0.633333333333
+WCMC160	WCMC160_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC160_1_C	A		2.02	0	Blood	Bone	PROSTATE	Matched	0.0666666666667
+WCMC161	WCMC161_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC161_1_C	A	0.73	3.3	0.868	Blood	Lymph node	PROSTATE	Matched	1.6
+WCMC161	WCMC161_2_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC161_2_N	C	0.96	2.87	0.7718	Blood	Liver	PRNE	Matched	0.766666666667
+WCMC161	WCMC161_3_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC161_3_C	A	0.42	2.97	0.6868	Blood	Bone	PROSTATE	Matched	1.3
+WCMC162	WCMC162_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC162_1_C	A	0.82	2.47	0.3809	Blood	Lung	PROSTATE	Matched	2.1
+WCMC162	WCMC162_2_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC162_2_C	A	0.27	1.97	0.0037	Blood	Bone	PROSTATE	Matched	0.9
+WCMC163	WCMC163_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC163_1_N	C	0.92	3.03	0.7924	Blood	Liver	PRNE	Matched	1.33333333333
+WCMC164	WCMC164_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC164_1_C	A	0.63	1.98	0.226	Blood	Bone	PROSTATE	Matched	0.8
+WCMC169	WCMC169_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC169_1_C	A	0.76	2.76	0.665	Blood	Prostate	PROSTATE	Matched	1.26666666667
+WCMC170	WCMC170_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC170_1_C	A	0.38	2.12	0.1011	Blood	Bone	PROSTATE	Matched	1.2
+WCMC172	WCMC172_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC172_1_C	A	0.56	1.92	0.2293	Blood	Bone	PROSTATE	Matched	0.866666666667
+WCMC183	WCMC183_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC183_1_C	A	0.91	3.51	0.856	Blood	Liver	PROSTATE	Matched	4.9
+WCMC185	WCMC185_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC185_1_C	A	0.82	2	0.1346	Blood	Epidural	PROSTATE	Matched	0.633333333333
+WCMC187	WCMC187_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC187_1_C	A	0.43	2.01	0.0052	Blood	Prostate	PROSTATE	Matched	1.33333333333
+WCMC188	WCMC188_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC188_1_C	A	0.94	3.33	0.8239	Blood	Skull base	PROSTATE	Matched	1.9
+WCMC189	WCMC189_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC189_1_C	A	0.57	2.22	0.1576	Blood	Lymph node	PROSTATE	Matched	1.76666666667
+WCMC192	WCMC192_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC192_1_N	E	0.42	2.43	0.3649	Blood	Prostate	PRNE	Matched	0.866666666667
+WCMC195	WCMC195_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC195_1_C	A	0.9	3.12	0.9112	Blood	Prostate	PROSTATE	Matched	1.3
+WCMC198	WCMC198_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC198_1_N	C	0.98	2.39	0.343	Blood	Lymph node	PRNE	Matched	1.63333333333
+WCMC199	WCMC199_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC199_1_C	A	0.83	2.49	0.5027	Blood	Liver	PROSTATE	Matched	0.633333333333
+WCMC201	WCMC201_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC201_1_C	A	0.64	3.03	0.891	Blood	Lymph node	PROSTATE	Matched	1.13333333333
+WCMC207	WCMC207_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC207_1_N	B	0.98	3.25	0.6356	Blood	Liver	PRNE	Matched	1.16666666667
+WCMC210	WCMC210_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC210_1_N	C	0.79	3.84	0.9437	Blood	Lymph node	PRNE	Matched	1.36666666667
+WCMC212	WCMC212_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC212_1_N	C	0.9	3.19	0.7382	Blood	Soft tissue	PRNE	Matched	1.06666666667
+WCMC213	WCMC213_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC213_1_C	A		2.8	0.4979	Blood	Liver	PROSTATE	Matched	3.93333333333
+WCMC216	WCMC216_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC216_1_C	A	0.28	2.01	0.0003	Blood	Bone	PROSTATE	Matched	0.266666666667
+WCMC218	WCMC218_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC218_1_C	A	0.55	2.03	0.1159	Blood	Bone	PROSTATE	Matched	2.26666666667
+WCMC221	WCMC221_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC221_1_C	A	0.51	2.69	0.4296	Blood	Liver	PROSTATE	Matched	3.5
+WCMC243	WCMC243_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC243_1_C	A	0.63	2.69	0.3854	Blood	Bone	PROSTATE	Matched	1.2
+WCMC252	WCMC252_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC252_1_N	E	0.73	2.04	0.1871	Blood	Liver	PRNE	Matched	1.73333333333
+WCMC258	WCMC258_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC258_1_C	A	0.9	2	0.2628	Blood	Lymph node	PROSTATE	Matched	2.3
+WCMC261	WCMC261_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC261_1_C	A	0.48	2.62	0.3849	Blood	Bone	PROSTATE	Matched	1.9
+WCMC0	WCMC0_5_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC0_5_N	D	0.96	1.76	0.4237	Benign tissue	Liver	PRNE	Matched	1.46666666667
+WCMC0	WCMC0_6_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC0_6_N	D	0.97	1.76	0.445	Benign tissue	Liver	PRNE	Matched	1.46666666667
+WCMC0	WCMC0_7_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC0_7_N	D	0.9	1.89	0.3153	Benign tissue	Prostate	PRNE	Matched	0.8
+WCMC0	WCMC0_8_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC0_8_N	D	0.97	1.73	0.4081	Benign tissue	Pelvic mass	PRNE	Matched	0.933333333333
+WCMC0	WCMC0_9_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC0_9_N	D	0.92	1.78	0.3699	Benign tissue	Lymph node	PRNE	Matched	1.2
+WCMC0	WCMC0_10_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC0_10_N	D	1	1.73	0.4089	Benign tissue	Lymph node	PRNE	Matched	1.1
+WCMC10364	WCMC10364_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC10364_1_N	E	0.86	3.83	0.9471	Benign tissue	Bladder	PRNE	Matched	5.13333333333
+WCMC10362	WCMC10362_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC10362_1_C	A	0.48	2.01	0.0036	Benign tissue	Prostate	PROSTATE	Matched	0.7
+WCMC10362	WCMC10362_2_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC10362_2_C	A		1.84	0.0963	Benign tissue	Prostate	PROSTATE	Matched	9.76666666667
+WCMC21014	WCMC21014_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC21014_1_N	B	0.56	1.99	0.0466	Benign tissue	Prostate	PRNE	Matched	1.26666666667
+WCMC21014	WCMC21014_2_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC21014_2_N	B	0.59	2	0.0012	Benign tissue	Prostate	PRNE	Matched	9.1
+WCMC21016	WCMC21016_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC21016_1_C	A	0.61	2.01	0.2232	Benign tissue	Prostate	PROSTATE	Matched	1.8
+WCMC21016	WCMC21016_2_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC21016_2_C	A	0.75	3.9	0.8953	Benign tissue	Prostate	PROSTATE	Matched	4.86666666667
+WCMC11040	WCMC11040_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC11040_1_C	A	0.56	2	0.0002	Benign tissue	Lymph node	PROSTATE	Matched	0.1
+WCMC11040	WCMC11040_2_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC11040_2_C	A	0.9	2.03	0.2697	Benign tissue	Lymph node	PROSTATE	Matched	2.33333333333
+WCMC10680	WCMC10680_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC10680_1_C	A	0.54	2.66	0.4806	Benign tissue	Prostate	PROSTATE	Matched	1.23333333333
+WCMC20870	WCMC20870_2_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC20870_2_C	A	0.84	1.99	0.2085	Benign tissue	Lymph node	PROSTATE	Matched	1.5
+WCMC21010	WCMC21010_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC21010_1_N	B	0.58	1.98	0.0026	Benign tissue	Prostate	PRNE	Matched	9.86666666667
+WCMC12688	WCMC12688_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC12688_1_N	D	0.92	1.99	0.2964	Benign tissue	Prostate	PRNE	Matched	2.26666666667
+WCMC7951	WCMC7951_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC7951_1_N	D	0.79	1.93	0.1899	Benign tissue	Prostate	PRNE	Matched	2.46666666667
+WCMC24290	WCMC24290_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC24290_1_N	B	0.92	1.97	0.2676	Benign tissue	Prostate	PRNE	Matched	2.5
+WCMC21017	WCMC21017_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC21017_1_N	C	0.92	2	0.1946	Benign tissue	Prostate	PRNE	Matched	3.13333333333
+WCMC24854	WCMC24854_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC24854_1_N	B	0.67	2.01	0.0914	Benign tissue	Prostate	PRNE	Matched	0.233333333333
+WCMC12728	WCMC12728_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC12728_1_N	B	0.54	2.15	0.061	Benign tissue	Prostate	PRNE	Matched	1.93333333333
+WCMC12728	WCMC12728_2_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC12728_2_N	B	0.93	2.15	0.1614	Benign tissue	Prostate	PRNE	Matched	1.76666666667
+WCMC26731	WCMC26731_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC26731_1_N	B	0.64	2	0.1028	Benign tissue	Prostate	PRNE	Matched	1.3
+WCMC26731	WCMC26731_2_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC26731_2_N	B	0.86	1.97	0.2368	Benign tissue	Prostate	PRNE	Matched	1.36666666667
+WCMC4240	WCMC4240_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC4240_1_N	D	0.61	3.36	0.8791	Benign tissue	Lung	PRNE	Matched	3.06666666667
+WCMC10361	WCMC10361_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC10361_1_N	B	0.87	2.03	0.2576	Benign tissue	Retroperitoneal mass	PRNE	Matched	3.4
+WCMC10363	WCMC10363_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC10363_1_N	E	0.8	3.46	0.916	Benign tissue	Prostate	PRNE	Matched	2.23333333333
+WCMC18248	WCMC18248_1_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC18248_1_C	A	0.66	2.81	0.652	Benign tissue	Brain	PROSTATE	Matched	2.96666666667
+WCMC18248	WCMC18248_2_C	CRPC-Adeno	Prostate Cancer	Castration-Resistant Prostate Cancer	WCMC18248_2_C	A	0.65	2.87	0.6297	Benign tissue	Brain	PROSTATE	Matched	2.73333333333
+WCMC7520	WCMC7520_1_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC7520_1_N	B	0.55	2.01	0.0518	Benign tissue	Prostate	PRNE	Matched	2.43333333333
+WCMC7520	WCMC7520_2_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC7520_2_N	B	0.73	3.42	0.8337	Benign tissue	Lymph node	PRNE	Matched	3.03333333333
+WCMC7520	WCMC7520_3_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC7520_3_N	B	0.9	2.93	0.7374	Benign tissue	Pelvic mass	PRNE	Matched	3.43333333333
+WCMC7520	WCMC7520_4_N	CRPC-NE	Prostate Cancer	Prostate Neuroendocrine Carcinoma	WCMC7520_4_N	B	0.76	2.73	0.5794	Benign tissue	Pelvic mass	PRNE	Matched	3.13333333333

@@ -1,0 +1,281 @@
+#Patient Identifier	Sample Identifier	Sequenced	Copy Number	MRNA Data	MSI Status	Methylation Status	Methylation Subtype	iCluster	MLH1 Silencing	Gene Expression Subtype	Hyper-mutated	Cancer Type	Cancer Type Detailed	Oncotree Code	Primary Tumor Site	Tumor Stage 2009	Sample Type	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Sequenced.	Copy Number	MRNA data.	MSI status.	Yes/No indicator for methylation data	Methylation subtype.	ICluster.	Epigenetic silencing status of MLH1.	Gene Expression Subtype	Hyper-mutated.	Cancer Type	Cancer Type Detailed	Oncotree Code	Text term to describe the organ sub-division in an individual with cancer.	Tumor stage 2009.	The type of sample (i.e., normal, primary, met, recurrence).	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	9	1	1
+PATIENT_ID	SAMPLE_ID	SEQUENCED	COPY_NUMBER	MRNA_DATA	MSI_STATUS	METHYLATION_STATUS	METHYLATION_SUBTYPE	ICLUSTER	MLH1_SILENCING	EXPRESSION_SUBTYPE	HYPERMUTATED	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	PRIMARY_SITE	TUMOR_STAGE_2009	SAMPLE_TYPE	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+TCGA-A6-2670	TCGA-A6-2670-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	0.766666666667
+TCGA-A6-2677	TCGA-A6-2677-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIC	Primary	Matched	1.86666666667
+TCGA-AA-3524	TCGA-AA-3524-01	1	1	1	MSS	1	Cluster4	1	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	1.3
+TCGA-AA-3529	TCGA-AA-3529-01	1	1	1	MSI-L	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	1.53333333333
+TCGA-AA-3532	TCGA-AA-3532-01	1	1	1	MSS	1	Cluster4	1	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	1.2
+TCGA-AA-3538	TCGA-AA-3538-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	1.06666666667
+TCGA-AA-3544	TCGA-AA-3544-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	1.53333333333
+TCGA-AA-3552	TCGA-AA-3552-01	1	1	1	MSS	1	Cluster3	1	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIC	Primary	Matched	1.46666666667
+TCGA-AA-3553	TCGA-AA-3553-01	1	1	1	MSI-L	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	0.966666666667
+TCGA-AA-3562	TCGA-AA-3562-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	1.06666666667
+TCGA-AA-3667	TCGA-AA-3667-01	1	1	1	MSI-L	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	1.96666666667
+TCGA-AA-3673	TCGA-AA-3673-01	1	1	1	MSS	1	CIMP.L	1	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IIA	Primary	Matched	2.23333333333
+TCGA-AA-3678	TCGA-AA-3678-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIA	Primary	Matched	2.1
+TCGA-AA-3692	TCGA-AA-3692-01	1	1	1	MSI-L	1	Cluster4	1	0	Invasive	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	3 - left colon	Stage IV	Primary	Matched	1.86666666667
+TCGA-AA-3842	TCGA-AA-3842-01	1	1	1	MSS	1	CIMP.L	1	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIA	Primary	Matched	1.96666666667
+TCGA-AA-3851	TCGA-AA-3851-01	1	1	1	MSS	1	Cluster3	1	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	2.43333333333
+TCGA-AA-3856	TCGA-AA-3856-01	1	1	1	MSS	1	Cluster4	1	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	1.73333333333
+TCGA-AA-3858	TCGA-AA-3858-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	1.56666666667
+TCGA-AA-3869	TCGA-AA-3869-01	1	1	1	MSS	1	Cluster4	1	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IV	Primary	Matched	2.26666666667
+TCGA-AA-3872	TCGA-AA-3872-01	1	1	1	MSS	1	Cluster4	1	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	1.66666666667
+TCGA-AA-3956	TCGA-AA-3956-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	3.83333333333
+TCGA-AA-3971	TCGA-AA-3971-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIB	Primary	Matched	2.5
+TCGA-AA-3975	TCGA-AA-3975-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	3.46666666667
+TCGA-AA-3976	TCGA-AA-3976-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIA	Primary	Matched	2.33333333333
+TCGA-AA-3979	TCGA-AA-3979-01	1	1	1	MSS	1	CIMP.L	1	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	4.3
+TCGA-AA-A004	TCGA-AA-A004-01	1	1	1	MSI-L	1	CIMP.L	1	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	1.93333333333
+TCGA-AA-A00D	TCGA-AA-A00D-01	1	1	1	MSS	1	CIMP.H	1	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	1.86666666667
+TCGA-AA-A00U	TCGA-AA-A00U-01	1	1	1	MSS	1	CIMP.L	1	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIB	Primary	Matched	2.26666666667
+TCGA-AA-A017	TCGA-AA-A017-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	1.76666666667
+TCGA-AA-A01G	TCGA-AA-A01G-01	1	1	1	MSI-L	1	CIMP.L	1	0	Invasive	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIA	Primary	Matched	1.7
+TCGA-AA-A01K	TCGA-AA-A01K-01	1	1	1	MSS	1	Cluster3	1	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	4.9
+TCGA-AA-A02J	TCGA-AA-A02J-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	3.83333333333
+TCGA-AA-A02W	TCGA-AA-A02W-01	1	1	1	MSI-L	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	3.66666666667
+TCGA-AF-3913	TCGA-AF-3913-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	2.86666666667
+TCGA-AG-3582	TCGA-AG-3582-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	0.966666666667
+TCGA-AG-3584	TCGA-AG-3584-01	1	1	1	MSS	1	CIMP.L	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	0.966666666667
+TCGA-AG-3587	TCGA-AG-3587-01	1	1	1	MSS	1	Cluster4	1	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	1.73333333333
+TCGA-AG-3598	TCGA-AG-3598-01	1	1	1	MSS	1	CIMP.L	1	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	1.86666666667
+TCGA-AG-3600	TCGA-AG-3600-01	1	1	1	MSS	1	CIMP.H	1	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIC	Primary	Matched	2.53333333333
+TCGA-AG-3601	TCGA-AG-3601-01	1	1	1	MSI-L	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	2.6
+TCGA-AG-3612	TCGA-AG-3612-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	1.7
+TCGA-AG-3726	TCGA-AG-3726-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	4.26666666667
+TCGA-AG-3883	TCGA-AG-3883-01	1	1	1	MSS	1	Cluster3	1	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	3.2
+TCGA-AG-3887	TCGA-AG-3887-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage IIA	Primary	Matched	2.03333333333
+TCGA-AG-3999	TCGA-AG-3999-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIC	Primary	Matched	2.83333333333
+TCGA-AG-4005	TCGA-AG-4005-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	2.76666666667
+TCGA-AG-4008	TCGA-AG-4008-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	2.13333333333
+TCGA-AG-4015	TCGA-AG-4015-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	2.8
+TCGA-AG-A00H	TCGA-AG-A00H-01	1	1	1	MSS	1	Cluster4	1	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	1.86666666667
+TCGA-AG-A011	TCGA-AG-A011-01	1	1	1	MSS	1	CIMP.L	1	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	4.2
+TCGA-AG-A014	TCGA-AG-A014-01	1	1	1	MSS	1	Cluster4	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	5.56666666667
+TCGA-AG-A016	TCGA-AG-A016-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	1.33333333333
+TCGA-AY-4070	TCGA-AY-4070-01	1	1	1	MSS	1	Cluster3	1	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIC	Primary	Matched	3.56666666667
+TCGA-AA-A01S	TCGA-AA-A01S-01	1	1	0	MSI-L	1	Cluster4	1	1	NA	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIB	Primary	Matched	1.53333333333
+TCGA-AA-A01Z	TCGA-AA-A01Z-01	1	1	0	MSS	1	CIMP.L	1	0	NA	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	2.66666666667
+TCGA-AG-A026	TCGA-AG-A026-01	1	1	0	MSS	1	Cluster3	1	0	NA	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	NA	Primary	Matched	5.7
+TCGA-A6-2683	TCGA-A6-2683-01	1	1	1	MSI-L	1	CIMP.L	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IV	Primary	Matched	2.46666666667
+TCGA-A6-3807	TCGA-A6-3807-01	1	1	1	MSS	1	Cluster4	3	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	2.66666666667
+TCGA-AA-3517	TCGA-AA-3517-01	1	1	1	MSI-L	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	0.933333333333
+TCGA-AA-3519	TCGA-AA-3519-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	4 - rectum	Stage IIIB	Primary	Matched	1.23333333333
+TCGA-AA-3521	TCGA-AA-3521-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	1.43333333333
+TCGA-AA-3530	TCGA-AA-3530-01	1	1	1	MSS	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	2.53333333333
+TCGA-AA-3531	TCGA-AA-3531-01	1	1	1	MSI-L	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	1.93333333333
+TCGA-AA-3549	TCGA-AA-3549-01	1	1	1	MSS	1	CIMP.L	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	2.16666666667
+TCGA-AA-3560	TCGA-AA-3560-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	1.63333333333
+TCGA-AA-3561	TCGA-AA-3561-01	1	1	1	MSS	1	Cluster3	3	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	1.26666666667
+TCGA-AA-3666	TCGA-AA-3666-01	1	1	1	MSS	1	Cluster4	3	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIB	Primary	Matched	4.4
+TCGA-AA-3679	TCGA-AA-3679-01	1	1	1	MSS	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	1.86666666667
+TCGA-AA-3688	TCGA-AA-3688-01	1	1	1	MSI-L	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	1.76666666667
+TCGA-AA-3693	TCGA-AA-3693-01	1	1	1	MSS	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	3.73333333333
+TCGA-AA-3814	TCGA-AA-3814-01	1	1	1	MSS	1	Cluster3	3	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	2.66666666667
+TCGA-AA-3819	TCGA-AA-3819-01	1	1	1	MSI-L	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	4.6
+TCGA-AA-3846	TCGA-AA-3846-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	2.4
+TCGA-AA-3848	TCGA-AA-3848-01	1	1	1	MSS	1	CIMP.L	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	3.53333333333
+TCGA-AA-3855	TCGA-AA-3855-01	1	1	1	MSI-L	1	CIMP.L	3	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	3.7
+TCGA-AA-3860	TCGA-AA-3860-01	1	1	1	MSS	1	Cluster4	3	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIB	Primary	Matched	1.13333333333
+TCGA-AA-3866	TCGA-AA-3866-01	1	1	1	MSI-L	1	Cluster3	3	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	3.13333333333
+TCGA-AA-3955	TCGA-AA-3955-01	1	1	1	MSS	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIB	Primary	Matched	3.36666666667
+TCGA-AA-3972	TCGA-AA-3972-01	1	1	1	MSI-L	1	CIMP.L	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	2.8
+TCGA-AA-3973	TCGA-AA-3973-01	1	1	1	MSI-L	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	2.33333333333
+TCGA-AA-3989	TCGA-AA-3989-01	1	1	1	MSS	1	CIMP.L	3	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IV	Primary	Matched	3.43333333333
+TCGA-AA-A00F	TCGA-AA-A00F-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	1.03333333333
+TCGA-AA-A00L	TCGA-AA-A00L-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IIA	Primary	Matched	1.56666666667
+TCGA-AA-A00O	TCGA-AA-A00O-01	1	1	1	MSI-L	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	2.43333333333
+TCGA-AA-A00Q	TCGA-AA-A00Q-01	1	1	1	MSS	1	CIMP.L	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIB	Primary	Matched	0.833333333333
+TCGA-AA-A00W	TCGA-AA-A00W-01	1	1	1	MSS	1	Cluster3	3	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	0.766666666667
+TCGA-AA-A00Z	TCGA-AA-A00Z-01	1	1	1	MSS	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	1.0
+TCGA-AA-A01F	TCGA-AA-A01F-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIB	Primary	Matched	1.6
+TCGA-AA-A02F	TCGA-AA-A02F-01	1	1	1	MSS	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	1.63333333333
+TCGA-AA-A02H	TCGA-AA-A02H-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	2.1
+TCGA-AG-3581	TCGA-AG-3581-01	1	1	1	MSS	1	Cluster3	3	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	1.2
+TCGA-AG-3583	TCGA-AG-3583-01	1	1	1	MSI-L	1	Cluster4	3	0	Invasive	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage IV	Primary	Matched	1.76666666667
+TCGA-AG-3593	TCGA-AG-3593-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	2.0
+TCGA-AG-3602	TCGA-AG-3602-01	1	1	1	MSS	1	Cluster3	3	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIC	Primary	Matched	1.2
+TCGA-AG-3608	TCGA-AG-3608-01	1	1	1	Not Evaluable	1	CIMP.L	3	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	1.5
+TCGA-AG-3609	TCGA-AG-3609-01	1	1	1	MSS	1	Cluster4	3	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIC	Primary	Matched	2.23333333333
+TCGA-AG-3611	TCGA-AG-3611-01	1	1	1	MSS	1	Cluster3	3	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	1.3
+TCGA-AG-3727	TCGA-AG-3727-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	2.4
+TCGA-AG-3882	TCGA-AG-3882-01	1	1	1	MSS	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	1.8
+TCGA-AG-3890	TCGA-AG-3890-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	2.0
+TCGA-AG-3893	TCGA-AG-3893-01	1	1	1	MSS	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	2.9
+TCGA-AG-3896	TCGA-AG-3896-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	2.66666666667
+TCGA-AG-3898	TCGA-AG-3898-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	2.63333333333
+TCGA-AG-3909	TCGA-AG-3909-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	2.43333333333
+TCGA-AG-4001	TCGA-AG-4001-01	1	1	1	MSI-L	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	3.0
+TCGA-AG-A008	TCGA-AG-A008-01	1	1	1	MSS	1	Cluster4	3	0	Invasive	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage I	Primary	Matched	1.4
+TCGA-AG-A00C	TCGA-AG-A00C-01	1	1	1	MSS	1	Cluster3	3	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	1.73333333333
+TCGA-AG-A015	TCGA-AG-A015-01	1	1	1	MSS	1	Cluster3	3	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	1.8
+TCGA-AG-A01L	TCGA-AG-A01L-01	1	1	1	MSS	1	Cluster3	3	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	3.06666666667
+TCGA-AG-A02G	TCGA-AG-A02G-01	1	1	1	MSS	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	1.5
+TCGA-AG-A02X	TCGA-AG-A02X-01	1	1	1	MSS	1	CIMP.H	3	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	3.63333333333
+TCGA-AG-A032	TCGA-AG-A032-01	1	1	1	MSS	1	Cluster4	3	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	2.26666666667
+TCGA-AY-4071	TCGA-AY-4071-01	1	1	1	MSS	1	Cluster3	3	0	CIN	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	NA	Stage I	Primary	Matched	2.76666666667
+TCGA-AA-A01X	TCGA-AA-A01X-01	1	1	0	MSS	1	Cluster3	3	0	NA	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIA	Primary	Matched	1.63333333333
+TCGA-A6-2672	TCGA-A6-2672-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IIIB	Primary	Matched	14.0333333333
+TCGA-A6-2676	TCGA-A6-2676-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIB	Primary	Matched	20.5333333333
+TCGA-AA-3516	TCGA-AA-3516-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIIB	Primary	Matched	23.0666666667
+TCGA-AA-3518	TCGA-AA-3518-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	14.4333333333
+TCGA-AA-3525	TCGA-AA-3525-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIB	Primary	Matched	15.7666666667
+TCGA-AA-3554	TCGA-AA-3554-01	1	1	1	MSI-H	1	Cluster4	2a	0	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	8.3
+TCGA-AA-3555	TCGA-AA-3555-01	1	1	1	MSS	1	CIMP.L	2a	0	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIA	Primary	Matched	24.6666666667
+TCGA-AA-3672	TCGA-AA-3672-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IIIB	Primary	Matched	45.5333333333
+TCGA-AA-3710	TCGA-AA-3710-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	32.4
+TCGA-AA-3821	TCGA-AA-3821-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage I	Primary	Matched	21.1333333333
+TCGA-AA-3833	TCGA-AA-3833-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	12.9333333333
+TCGA-AA-3877	TCGA-AA-3877-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	2 - transverse colon	Stage I	Primary	Matched	26.1666666667
+TCGA-AA-3947	TCGA-AA-3947-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIB	Primary	Matched	43.5
+TCGA-AA-3949	TCGA-AA-3949-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIIB	Primary	Matched	23.0666666667
+TCGA-AA-A00A	TCGA-AA-A00A-01	1	1	1	MSI-H	1	CIMP.H	2a	0	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	11.2
+TCGA-AA-A00E	TCGA-AA-A00E-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	15.9333333333
+TCGA-AA-A00J	TCGA-AA-A00J-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIIB	Primary	Matched	29.3
+TCGA-AA-A010	TCGA-AA-A010-01	1	1	1	MSI-L	1	Cluster4	2a	0	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IIB	Primary	Matched	218.8
+TCGA-AA-A01Q	TCGA-AA-A01Q-01	1	1	1	MSI-H	1	CIMP.L	2a	0	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	20.1
+TCGA-AG-A002	TCGA-AG-A002-01	1	1	1	MSS	1	Cluster3	2a	0	MSI/CIMP	1	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	524.7
+TCGA-AA-A01P	TCGA-AA-A01P-01	1	1	0	MSI-H	1	CIMP.H	2a	1	NA	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIB	Primary	Matched	12.9666666667
+TCGA-AA-A01R	TCGA-AA-A01R-01	1	1	0	MSI-H	1	CIMP.L	2a	0	NA	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIIB	Primary	Matched	41.1666666667
+TCGA-AA-3527	TCGA-AA-3527-01	1	1	1	MSS	1	CIMP.L	2a	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	2.73333333333
+TCGA-AA-3680	TCGA-AA-3680-01	1	1	1	MSI-L	1	CIMP.L	2a	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IV	Primary	Matched	3.06666666667
+TCGA-AA-3684	TCGA-AA-3684-01	1	1	1	MSS	1	CIMP.L	2a	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IV	Primary	Matched	3.2
+TCGA-AA-3831	TCGA-AA-3831-01	1	1	1	MSS	1	CIMP.L	2a	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	3.13333333333
+TCGA-AA-3845	TCGA-AA-3845-01	1	1	1	MSI-H	1	CIMP.H	2a	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIA	Primary	Matched	22.3
+TCGA-AA-3864	TCGA-AA-3864-01	1	1	1	MSI-H	1	Cluster3	2a	0	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	64.9333333333
+TCGA-AA-3977	TCGA-AA-3977-01	1	1	1	MSS	1	Cluster3	2a	0	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	NA	Primary	Matched	97.9
+TCGA-AA-3994	TCGA-AA-3994-01	1	1	1	MSS	1	CIMP.H	2a	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	2 - transverse colon	Stage IIIB	Primary	Matched	4.86666666667
+TCGA-AA-A00N	TCGA-AA-A00N-01	1	1	1	MSI-L	1	Cluster4	2a	0	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIB	Primary	Matched	123.633333333
+TCGA-AA-A024	TCGA-AA-A024-01	1	1	1	MSI-L	1	Cluster3	2a	0	Invasive	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	3 - left colon	Stage IIA	Primary	Matched	2.16666666667
+TCGA-AG-3878	TCGA-AG-3878-01	1	1	1	MSS	1	CIMP.L	2a	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	2.46666666667
+TCGA-AG-3892	TCGA-AG-3892-01	1	1	1	MSS	1	Cluster4	2a	0	Invasive	1	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	62.0
+TCGA-AG-3901	TCGA-AG-3901-01	1	1	1	MSS	1	Cluster3	2a	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage IIIB	Primary	Matched	1.6
+TCGA-AG-A025	TCGA-AG-A025-01	1	1	1	MSS	1	Cluster3	2a	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	2.36666666667
+TCGA-AA-A01V	TCGA-AA-A01V-01	1	1	0	MSS	1	CIMP.L	2a	0	NA	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	3.2
+TCGA-A6-2674	TCGA-A6-2674-01	1	1	1	MSS	1	Cluster4	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	3 - left colon	Stage IV	Primary	Matched	0.666666666667
+TCGA-A6-2678	TCGA-A6-2678-01	1	1	1	MSS	1	Cluster3	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IIIB	Primary	Matched	2.06666666667
+TCGA-AA-3520	TCGA-AA-3520-01	1	1	1	MSI-L	1	Cluster3	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	1.8
+TCGA-AA-3522	TCGA-AA-3522-01	1	1	1	MSS	1	CIMP.L	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	1.43333333333
+TCGA-AA-3534	TCGA-AA-3534-01	1	1	1	MSS	1	Cluster3	2b	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	1.73333333333
+TCGA-AA-3681	TCGA-AA-3681-01	1	1	1	MSS	1	CIMP.L	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIB	Primary	Matched	3.3
+TCGA-AA-3696	TCGA-AA-3696-01	1	1	1	MSS	1	Cluster4	2b	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	2.6
+TCGA-AA-3812	TCGA-AA-3812-01	1	1	1	MSS	1	Cluster4	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	2.73333333333
+TCGA-AA-3818	TCGA-AA-3818-01	1	1	1	MSS	1	CIMP.L	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	3.4
+TCGA-AA-3837	TCGA-AA-3837-01	1	1	1	MSS	1	CIMP.H	2b	0	CIN	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIA	Primary	Matched	3.63333333333
+TCGA-AA-3875	TCGA-AA-3875-01	1	1	1	MSS	1	Cluster3	2b	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	3.4
+TCGA-AA-3930	TCGA-AA-3930-01	1	1	1	MSI-L	1	CIMP.L	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IV	Primary	Matched	4.1
+TCGA-AA-3939	TCGA-AA-3939-01	1	1	1	MSS	1	Cluster3	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	3.76666666667
+TCGA-AA-3952	TCGA-AA-3952-01	1	1	1	MSS	1	Cluster4	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	2.36666666667
+TCGA-AA-3986	TCGA-AA-3986-01	1	1	1	MSS	1	Cluster3	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage I	Primary	Matched	2.0
+TCGA-AA-A01I	TCGA-AA-A01I-01	1	1	1	MSS	1	CIMP.L	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	2.83333333333
+TCGA-AG-3599	TCGA-AG-3599-01	1	1	1	MSS	1	CIMP.L	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage I	Primary	Matched	1.8
+TCGA-AG-3605	TCGA-AG-3605-01	1	1	1	MSS	1	CIMP.L	2b	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	1.53333333333
+TCGA-AG-3894	TCGA-AG-3894-01	1	1	1	MSS	1	Cluster3	2b	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	2.56666666667
+TCGA-AA-3514	TCGA-AA-3514-01	1	1	1	MSS	1	Cluster3	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	2.7
+TCGA-AA-3543	TCGA-AA-3543-01	1	1	1	MSI-H	1	CIMP.H	2b	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage I	Primary	Matched	6.43333333333
+TCGA-AA-3556	TCGA-AA-3556-01	1	1	1	MSS	1	CIMP.L	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	3 - left colon	Stage I	Primary	Matched	1.0
+TCGA-AA-3558	TCGA-AA-3558-01	1	1	1	MSS	1	CIMP.L	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	NA	Primary	Matched	3.2
+TCGA-AA-3664	TCGA-AA-3664-01	1	1	1	MSS	1	CIMP.H	2b	1	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	4.23333333333
+TCGA-AA-3715	TCGA-AA-3715-01	1	1	1	MSI-H	1	CIMP.H	2b	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	50.0666666667
+TCGA-AA-3852	TCGA-AA-3852-01	1	1	1	MSI-L	1	CIMP.L	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	2 - transverse colon	Stage IIA	Primary	Matched	3.8
+TCGA-AA-3854	TCGA-AA-3854-01	1	1	1	MSI-L	1	CIMP.L	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	3 - left colon	Stage I	Primary	Matched	3.66666666667
+TCGA-AA-3870	TCGA-AA-3870-01	1	1	1	MSS	1	CIMP.H	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IV	Primary	Matched	3.26666666667
+TCGA-AA-3966	TCGA-AA-3966-01	1	1	1	MSI-H	1	CIMP.L	2b	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIA	Primary	Matched	30.3333333333
+TCGA-AA-3984	TCGA-AA-3984-01	1	1	1	MSS	1	Cluster4	2b	0	Invasive	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	107.9
+TCGA-AA-A00K	TCGA-AA-A00K-01	1	1	1	MSI-L	1	Cluster3	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	4.63333333333
+TCGA-AA-A00R	TCGA-AA-A00R-01	1	1	1	MSI-H	1	CIMP.L	2b	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	10.2
+TCGA-AA-A01D	TCGA-AA-A01D-01	1	1	1	MSS	1	CIMP.L	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	3 - left colon	Stage IIIC	Primary	Matched	5.1
+TCGA-AA-A029	TCGA-AA-A029-01	1	1	1	MSI-L	1	CIMP.H	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	2.96666666667
+TCGA-AG-3586	TCGA-AG-3586-01	1	1	1	MSS	1	Cluster3	2b	0	Invasive	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage IIIB	Primary	Matched	1.66666666667
+TCGA-AG-3594	TCGA-AG-3594-01	1	1	1	MSS	0	Cluster3	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage IIA	Primary	Matched	1.13333333333
+TCGA-AG-3881	TCGA-AG-3881-01	1	1	1	MSS	0	CIMP.L	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage IIA	Primary	Matched	2.56666666667
+TCGA-AG-3902	TCGA-AG-3902-01	1	1	1	MSS	0	CIMP.L	2b	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	3.4
+TCGA-AA-3526	TCGA-AA-3526-01	1	1	1	MSI-L	0	Cluster3	NA	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	1.53333333333
+TCGA-AA-3542	TCGA-AA-3542-01	1	1	1	MSS	0	Cluster4	NA	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	10.8666666667
+TCGA-AA-3548	TCGA-AA-3548-01	1	1	1	MSS	0	Cluster3	NA	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIC	Primary	Matched	1.03333333333
+TCGA-AA-3685	TCGA-AA-3685-01	1	1	1	MSS	0	Cluster4	NA	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	2.16666666667
+TCGA-AA-3695	TCGA-AA-3695-01	1	1	1	MSS	0	CIMP.L	NA	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IV	Primary	Matched	4.53333333333
+TCGA-AF-2689	TCGA-AF-2689-01	1	1	1	MSS	1	CIMP.L	NA	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	1.53333333333
+TCGA-AF-2691	TCGA-AF-2691-01	1	1	1	MSS	1	CIMP.L	NA	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	1.9
+TCGA-AF-2692	TCGA-AF-2692-01	1	1	1	MSS	1	Cluster4	NA	0	CIN	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage IIA	Primary	Matched	1.16666666667
+TCGA-AF-3400	TCGA-AF-3400-01	1	1	1	MSS	0	Cluster4	NA	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage IIA	Primary	Matched	0.8
+TCGA-AG-3574	TCGA-AG-3574-01	1	1	1	MSS	0	Cluster3	NA	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	1.06666666667
+TCGA-AG-3575	TCGA-AG-3575-01	1	1	1	MSS	0	CIMP.H	NA	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	1.4
+TCGA-AG-3578	TCGA-AG-3578-01	1	1	1	MSS	0	Cluster3	NA	0	Invasive	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage IIA	Primary	Matched	0.866666666667
+TCGA-AG-3580	TCGA-AG-3580-01	1	1	1	MSS	0	Cluster3	NA	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage I	Primary	Matched	1.06666666667
+TCGA-A6-2671	TCGA-A6-2671-01	0	1	0	MSS	0	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	NA
+TCGA-A6-2679	TCGA-A6-2679-01	0	1	0	MSS	0	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIB	Primary	Matched	NA
+TCGA-A6-2680	TCGA-A6-2680-01	0	1	0	MSS	0	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-A6-2681	TCGA-A6-2681-01	0	1	0	MSS	0	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-A6-2682	TCGA-A6-2682-01	0	1	0	MSS	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IV	Primary	Matched	NA
+TCGA-A6-2684	TCGA-A6-2684-01	0	1	0	MSI-L	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	NA
+TCGA-A6-2685	TCGA-A6-2685-01	0	1	0	MSS	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	NA
+TCGA-A6-2686	TCGA-A6-2686-01	0	1	0	MSI-H	0	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-A6-3808	TCGA-A6-3808-01	1	0	1	MSI-L	1	Cluster3	NA	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIA	Primary	Matched	3.36666666667
+TCGA-A6-3809	TCGA-A6-3809-01	0	0	1	MSI-H	1	CIMP.H	NA	1	MSI/CIMP	NA	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	2 - transverse colon	Stage IIB	Primary	Matched	NA
+TCGA-A6-3810	TCGA-A6-3810-01	1	0	1	MSS	1	Cluster4	NA	0	MSI/CIMP	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	3.23333333333
+TCGA-A6-4107	TCGA-A6-4107-01	0	1	0	MSS	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIB	Primary	Matched	NA
+TCGA-AA-3488	TCGA-AA-3488-01	0	1	0	MSS	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	NA
+TCGA-AA-3492	TCGA-AA-3492-01	0	1	0	MSI-H	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-3494	TCGA-AA-3494-01	0	1	0	MSS	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	NA
+TCGA-AA-3495	TCGA-AA-3495-01	0	1	0	MSS	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	NA
+TCGA-AA-3502	TCGA-AA-3502-01	0	1	0	MSI-L	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage I	Primary	Matched	NA
+TCGA-AA-3506	TCGA-AA-3506-01	0	1	0	MSS	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	NA
+TCGA-AA-3509	TCGA-AA-3509-01	0	0	0	MSS	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-3510	TCGA-AA-3510-01	0	1	0	MSS	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-3675	TCGA-AA-3675-01	0	1	0	MSS	1	CIMP.L	NA	0	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-3811	TCGA-AA-3811-01	1	0	1	MSI-H	1	Cluster4	NA	1	MSI/CIMP	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIB	Primary	Matched	28.6333333333
+TCGA-AA-3815	TCGA-AA-3815-01	0	0	1	MSI-H	1	CIMP.H	NA	1	MSI/CIMP	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-3841	TCGA-AA-3841-01	0	1	0	MSS	1	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-3844	TCGA-AA-3844-01	1	0	1	MSS	1	Cluster3	NA	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIC	Primary	Matched	2.93333333333
+TCGA-AA-3850	TCGA-AA-3850-01	1	0	1	MSS	1	CIMP.L	NA	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage I	Primary	Matched	2.63333333333
+TCGA-AA-3861	TCGA-AA-3861-01	0	0	1	MSI-L	1	CIMP.L	NA	0	Invasive	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-3862	TCGA-AA-3862-01	0	0	1	MSS	1	Cluster4	NA	0	Invasive	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-3867	TCGA-AA-3867-01	1	0	1	MSS	1	Cluster4	NA	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IV	Primary	Matched	2.83333333333
+TCGA-AA-3941	TCGA-AA-3941-01	1	0	1	MSI-L	1	CIMP.H	NA	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IVA	Primary	Matched	3.3
+TCGA-AA-3950	TCGA-AA-3950-01	0	1	1	MSI-H	1	CIMP.H	NA	1	MSI/CIMP	NA	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-3968	TCGA-AA-3968-01	0	1	1	MSS	1	Cluster3	NA	0	CIN	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	NA
+TCGA-AA-3970	TCGA-AA-3970-01	0	0	0	MSS	1	Cluster3	NA	0	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-3980	TCGA-AA-3980-01	1	0	1	MSS	1	Cluster3	NA	0	Invasive	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	3.1
+TCGA-AA-3982	TCGA-AA-3982-01	1	0	1	MSI-L	1	Cluster3	NA	0	CIN	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIB	Primary	Matched	3.03333333333
+TCGA-AA-A01C	TCGA-AA-A01C-01	0	1	1	MSS	0	Cluster4	NA	0	CIN	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIIA	Primary	Matched	NA
+TCGA-AA-A01T	TCGA-AA-A01T-01	1	1	0	MSS	0	Cluster3	NA	0	NA	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIB	Primary	Matched	2.56666666667
+TCGA-AA-A022	TCGA-AA-A022-01	1	1	0	MSI-H	0	CIMP.H	NA	1	NA	1	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	NA	Primary	Matched	30.3666666667
+TCGA-AA-A02E	TCGA-AA-A02E-01	0	1	1	MSI-L	1	Cluster3	NA	0	CIN	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IV	Primary	Matched	NA
+TCGA-AA-A02K	TCGA-AA-A02K-01	0	0	0	MSS	0	Cluster3	NA	0	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IV	Primary	Matched	NA
+TCGA-AA-A02O	TCGA-AA-A02O-01	1	1	0	MSS	0	CIMP.H	NA	0	NA	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IIA	Primary	Matched	4.56666666667
+TCGA-AA-A02R	TCGA-AA-A02R-01	0	1	1	MSI-H	0	CIMP.H	NA	1	MSI/CIMP	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-AA-A02Y	TCGA-AA-A02Y-01	1	1	0	MSS	0	CIMP.L	NA	0	NA	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	3.43333333333
+TCGA-AA-A03F	TCGA-AA-A03F-01	1	1	0	MSS	0	CIMP.H	NA	0	NA	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIIB	Primary	Matched	3.46666666667
+TCGA-AA-A03J	TCGA-AA-A03J-01	1	1	0	MSS	0	CIMP.L	NA	0	NA	0	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	2.2
+TCGA-AG-3728	TCGA-AG-3728-01	0	1	1	MSS	0	Cluster4	NA	0	MSI/CIMP	NA	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	NA
+TCGA-AG-3885	TCGA-AG-3885-01	0	1	1	MSS	0	CIMP.L	NA	0	Invasive	NA	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	NA
+TCGA-AG-4007	TCGA-AG-4007-01	1	0	1	MSI-L	0	CIMP.L	NA	0	CIN	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	4.26666666667
+TCGA-AG-A00Y	TCGA-AG-A00Y-01	1	0	1	MSS	0	Cluster3	NA	0	Invasive	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	6.5
+TCGA-AG-A01J	TCGA-AG-A01J-01	0	1	1	MSS	0	Cluster4	NA	0	CIN	NA	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	NA
+TCGA-AG-A01N	TCGA-AG-A01N-01	0	1	1	MSS	0	Cluster4	NA	0	CIN	NA	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	NA
+TCGA-AG-A01W	TCGA-AG-A01W-01	1	1	0	MSS	0	NA	NA	NA	NA	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	3.26666666667
+TCGA-AG-A01Y	TCGA-AG-A01Y-01	1	1	0	MSS	0	NA	NA	NA	NA	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	2.26666666667
+TCGA-AG-A020	TCGA-AG-A020-01	1	1	0	MSS	0	NA	NA	NA	NA	0	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	4 - rectum	Stage IIIB	Primary	Matched	2.03333333333
+TCGA-AG-A023	TCGA-AG-A023-01	0	1	1	MSS	0	Cluster4	NA	0	MSI/CIMP	NA	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IV	Primary	Matched	NA
+TCGA-AG-A02N	TCGA-AG-A02N-01	1	1	0	MSI-H	0	NA	NA	NA	NA	1	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIA	Primary	Matched	30.3333333333
+TCGA-AG-A036	TCGA-AG-A036-01	1	0	0	MSS	0	NA	NA	NA	NA	0	Colorectal Adenocarcinoma	Rectal Adenocarcinoma	READ	4 - rectum	Stage IIIB	Primary	Matched	3.73333333333
+TCGA-AZ-4308	TCGA-AZ-4308-01	0	1	0	MSS	0	NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIB	Primary	Matched	NA
+TCGA-AZ-4313	TCGA-AZ-4313-01	0	1	0	MSI-H		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	NA
+TCGA-AZ-4315	TCGA-AZ-4315-01	0	1	0	MSS		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-AZ-4614	TCGA-AZ-4614-01	0	1	0	MSI-L		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	NA	Stage IVA	Primary	Matched	NA
+TCGA-AZ-4615	TCGA-AZ-4615-01	0	1	0	MSI-H		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	NA	Stage IIIB	Primary	Matched	NA
+TCGA-AZ-4681	TCGA-AZ-4681-01	0	1	0	MSS		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-AZ-4682	TCGA-AZ-4682-01	0	1	0	MSS		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IVA	Primary	Matched	NA
+TCGA-AZ-4684	TCGA-AZ-4684-01	0	1	0	MSI-L		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	NA	Stage IVA	Primary	Matched	NA
+TCGA-CA-5256	TCGA-CA-5256-01	0	1	0	MSS		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-CK-4951	TCGA-CK-4951-01	0	1	0	MSI-H		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colorectal Adenocarcinoma	COADREAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-CM-4744	TCGA-CM-4744-01	0	1	0	MSS		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage I	Primary	Matched	NA
+TCGA-CM-4746	TCGA-CM-4746-01	0	1	0	MSI-H		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage I	Primary	Matched	NA
+TCGA-CM-4747	TCGA-CM-4747-01	0	1	0	MSI-L		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IVA	Primary	Matched	NA
+TCGA-CM-4748	TCGA-CM-4748-01	0	1	0	MSS		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	2 - transverse colon	Stage IIIB	Primary	Matched	NA
+TCGA-CM-4750	TCGA-CM-4750-01	0	1	0	MSI-L		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	NA	Stage IIIA	Primary	Matched	NA
+TCGA-CM-4752	TCGA-CM-4752-01	0	1	0	MSS		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	1 - right colon	Stage IIA	Primary	Matched	NA
+TCGA-CM-5341	TCGA-CM-5341-01	0	1	0	MSS		NA	NA	NA	NA	NA	Colorectal Adenocarcinoma	Colon Adenocarcinoma	COAD	3 - left colon	Stage IIIA	Primary	Matched	NA

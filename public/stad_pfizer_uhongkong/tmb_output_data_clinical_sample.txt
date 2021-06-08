@@ -1,0 +1,105 @@
+#Patient Identifier	Sample Identifier	tumor content	MSI Status	Tumor Differentiation 	T Stage	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	tumor content	MSI status.	Tumor Differentiation 	T Stage	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR_CONTENT	MSI_STATUS	TUMOR_DIFFERENTIATION	T_STAGE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+pfg005T	pfg005T	75	microsatellite stable or low-level microsatellite instability	poor	T2a	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.933333333333
+pfg008T	pfg008T	80	high-level microsatellite instabiliy	moderate	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	52.0666666667
+pfg022T	pfg022T	90	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.8
+pfg023T	pfg023T	95	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.966666666667
+pfg030T	pfg030T	80	microsatellite stable or low-level microsatellite instability	moderate	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.63333333333
+pfg031T	pfg031T	70	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.7
+pfg032T	pfg032T	90	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.23333333333
+pfg034T	pfg034T	85	microsatellite stable or low-level microsatellite instability	poor	T2a	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	5.66666666667
+pfg035T	pfg035T	70	microsatellite stable or low-level microsatellite instability	moderate	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.76666666667
+pfg036T	pfg036T	85	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.46666666667
+pfg038T	pfg038T	90	microsatellite stable or low-level microsatellite instability	moderate	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.0
+pfg039T	pfg039T	70	microsatellite stable or low-level microsatellite instability	poor	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.6
+pfg043T	pfg043T	80	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	36.9
+pfg050T	pfg050T	80	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.5
+pfg052T	pfg052T	80	microsatellite stable or low-level microsatellite instability	moderate	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.5
+pfg053T	pfg053T	90	microsatellite stable or low-level microsatellite instability	poor	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	11.7333333333
+pfg054T	pfg054T	90	microsatellite stable or low-level microsatellite instability	moderate	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	5.2
+pfg057T	pfg057T	90	high-level microsatellite instabiliy	poor	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	14.3333333333
+pfg058T	pfg058T	80	microsatellite stable or low-level microsatellite instability	moderate	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.26666666667
+pfg059T	pfg059T	70	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	5.73333333333
+pfg060T	pfg060T	90	microsatellite stable or low-level microsatellite instability	moderate	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.9
+pfg062T	pfg062T	90	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	5.73333333333
+pfg064T	pfg064T	70	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.53333333333
+pfg065T	pfg065T	60	microsatellite stable or low-level microsatellite instability	moderate	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	4.8
+pfg068T	pfg068T	95	high-level microsatellite instabiliy	poor	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	44.4666666667
+pfg069T	pfg069T	80	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.83333333333
+pfg072T	pfg072T	90	microsatellite stable or low-level microsatellite instability	moderate	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.9
+pfg073T	pfg073T	60	microsatellite stable or low-level microsatellite instability	poor	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.5
+pfg076T	pfg076T	80	microsatellite stable or low-level microsatellite instability	moderate	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	5.43333333333
+pfg081T	pfg081T	95	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.1
+pfg082T	pfg082T	90	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.7
+pfg088T	pfg088T	85	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.76666666667
+pfg089T	pfg089T	60	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.56666666667
+pfg092T	pfg092T	95	microsatellite stable or low-level microsatellite instability	moderate	T1	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	4.46666666667
+pfg094T	pfg094T	65	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.4
+pfg097T	pfg097T	50	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.83333333333
+pfg099T	pfg099T	98	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.93333333333
+pfg100T	pfg100T	80	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.86666666667
+pfg102T	pfg102T	70	microsatellite stable or low-level microsatellite instability	moderate	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.2
+pfg103T	pfg103T	80	high-level microsatellite instabiliy	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	7.9
+pfg104T	pfg104T	90	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.76666666667
+pfg105T	pfg105T	90	microsatellite stable or low-level microsatellite instability	moderate	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.46666666667
+pfg106T	pfg106T	90	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.66666666667
+pfg107T	pfg107T	90	microsatellite stable or low-level microsatellite instability	moderate	T1	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.43333333333
+pfg108T	pfg108T	90	microsatellite stable or low-level microsatellite instability	moderate	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.83333333333
+pfg115T	pfg115T	95	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.46666666667
+pfg116T	pfg116T	80	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	5.0
+pfg118T	pfg118T	80	microsatellite stable or low-level microsatellite instability	moderate	T2a	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.7
+pfg119T	pfg119T	70	microsatellite stable or low-level microsatellite instability	moderate	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.5
+pfg120T	pfg120T	100	microsatellite stable or low-level microsatellite instability	moderate	T2a	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	4.66666666667
+pfg121T	pfg121T	70	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.83333333333
+pfg122T	pfg122T	95	high-level microsatellite instabiliy	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	37.0
+pfg123T	pfg123T	95	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.06666666667
+pfg124T	pfg124T	95	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.7
+pfg125T	pfg125T	100	microsatellite stable or low-level microsatellite instability	poor	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.13333333333
+pfg127T	pfg127T	95	high-level microsatellite instabiliy	moderate	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	28.7333333333
+pfg129T	pfg129T	70	high-level microsatellite instabiliy	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	12.8333333333
+pfg130T	pfg130T	85	microsatellite stable or low-level microsatellite instability	moderate	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.16666666667
+pfg132T	pfg132T	80	microsatellite stable or low-level microsatellite instability	moderate	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.633333333333
+pfg135T	pfg135T	70	microsatellite stable or low-level microsatellite instability	moderate	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.4
+pfg136T	pfg136T	95	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.36666666667
+pfg138T	pfg138T	70	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.366666666667
+pfg142T	pfg142T	75	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.466666666667
+pfg143T	pfg143T	95	high-level microsatellite instabiliy	moderate	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	28.5333333333
+pfg144T	pfg144T	90	microsatellite stable or low-level microsatellite instability	moderate	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	5.86666666667
+pfg145T	pfg145T	70	microsatellite stable or low-level microsatellite instability	poor	T1	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	4.4
+pfg146T	pfg146T	90	microsatellite stable or low-level microsatellite instability	moderate	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	4.26666666667
+pfg151T	pfg151T	80	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.13333333333
+pfg156T	pfg156T	80	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.2
+pfg157T	pfg157T	60	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.63333333333
+pfg160T	pfg160T	99	microsatellite stable or low-level microsatellite instability	poor	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	6.83333333333
+pfg164T	pfg164T	80	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.4
+pfg166T	pfg166T	90	microsatellite stable or low-level microsatellite instability	well	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.73333333333
+pfg167T	pfg167T	90	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.26666666667
+pfg173T	pfg173T	90	microsatellite stable or low-level microsatellite instability	moderate	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.36666666667
+pfg180T	pfg180T	70	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	5.2
+pfg181T	pfg181T	95	high-level microsatellite instabiliy	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	54.7
+pfg182T	pfg182T	80	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.93333333333
+pfg205T	pfg205T	85	microsatellite stable or low-level microsatellite instability	moderate	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.1
+pfg212T	pfg212T	80	high-level microsatellite instabiliy	moderate	T1	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	22.0333333333
+pfg213T	pfg213T	70	microsatellite stable or low-level microsatellite instability	poor	T2a	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.46666666667
+pfg217T	pfg217T	80	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.26666666667
+pfg220T	pfg220T	90	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.4
+pfg222T	pfg222T	90	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	4.43333333333
+pfg228T	pfg228T	70	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.26666666667
+pfg258T	pfg258T	80	microsatellite stable or low-level microsatellite instability	poor	T1	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.26666666667
+pfg272T	pfg272T	80	microsatellite stable or low-level microsatellite instability	poor	T2b	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.8
+pfg277T	pfg277T	90	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.9
+pfg282T	pfg282T	70	microsatellite stable or low-level microsatellite instability	moderate	Tis	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.1
+pfg311T	pfg311T	75	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.36666666667
+pfg316T	pfg316T	85	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.2
+pfg317T	pfg317T	65	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.46666666667
+pfg344T	pfg344T	85	microsatellite stable or low-level microsatellite instability	poor	T4	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.03333333333
+pfg373T	pfg373T	70	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.9
+pfg375T	pfg375T	70	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.33333333333
+pfg378T	pfg378T	70	microsatellite stable or low-level microsatellite instability	moderate	T1	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.33333333333
+pfg398T	pfg398T	70	microsatellite stable or low-level microsatellite instability	poor	T1	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.733333333333
+pfg413T	pfg413T	70	microsatellite stable or low-level microsatellite instability	moderate	T1	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.8
+pfg416T	pfg416T	70	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.6
+pfg424T	pfg424T	80	microsatellite stable or low-level microsatellite instability	poor	T3	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.36666666667

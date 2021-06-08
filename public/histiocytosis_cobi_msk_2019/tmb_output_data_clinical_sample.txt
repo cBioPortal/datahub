@@ -1,0 +1,57 @@
+#Sample Identifier	Patient Identifier	Sample Type	Platform	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	The type of sample (i.e., normal, primary, met, recurrence).	Platform.	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	SAMPLE_TYPE	PLATFORM	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+NYU-WXS-SAMPLE-1	P-0000884		WXS	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.2
+P-0000884-T01-IM3	P-0000884	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+NYU-WXS-SAMPLE-10	P-0012544		WXS	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	1.33333333333
+P-0012544-T01-IM5	P-0012544	Metastasis	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0012544-T02-TS1	P-0012544	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0012544-T03-TS1	P-0012544	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0012544-T04-AS1	P-0012544	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0012544-T05-IH3	P-0012544	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+NYU-WXS-SAMPLE-11	P-0008055		WXS	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	1.7
+P-0008055-T01-IM5	P-0008055	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0008055-T02-IM5	P-0008055	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.266666666667
+P-0008055-T03-TS1	P-0008055	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0008055-T04-AS1	P-0008055	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0008055-T05-IH3	P-0008055	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.1
+NYU-WXS-SAMPLE-12	P-0021380		WXS	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	4.66666666667
+P-0021380-T01-AS1	P-0021380	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0021380-T02-IH3	P-0021380	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+NYU-WXS-SAMPLE-13	P-0002283		WXS	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.7
+P-0002283-T01-IM3	P-0002283	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+SAMPLE-14	P-0001219		MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.0333333333333
+NYU-WXS-SAMPLE-14	P-0001219		WXS	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.3
+P-0001219-T01-IM3	P-0001219	Metastasis	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0001219-T02-IM5	P-0001219	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.0333333333333
+P-0001219-T03-IM5	P-0001219	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+NYU-WXS-SAMPLE-15	P-0004770		WXS	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.4
+P-0004770-T01-IM5	P-0004770	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0004770-T02-IM5	P-0004770	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0004770-T03-IM5	P-0004770	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0004770-T04-TS1	P-0004770	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0004770-T05-IM5	P-0004770	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0023685-T01-IH3	P-0023685	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.133333333333
+P-0029904-T01-IH3	P-0029904	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.1
+P-0019478-T01-AH1	P-0019478	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0019478-T02-IH3	P-0019478	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+NYU-WXS-SAMPLE-3	P-0010200		WXS	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.433333333333
+P-0010200-T01-IM5	P-0010200	Metastasis	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0010200-T02-AS1	P-0010200	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0005192-T01-IM5	P-0005192	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.3
+P-0005192-T02-AS1	P-0005192	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+SAMPLE-PCR-5	P-0022627		PCR	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.0333333333333
+P-0022627-T01-IH3	P-0022627		MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.0333333333333
+P-0015144-T01-AH1	P-0015144	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0015144-T02-TS1	P-0015144	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0001360-T01-IM3	P-0001360		MSK-IMPACT with the LNA evidence	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.0333333333333
+NYU-WXS-SAMPLE-9	P-0010423		WXS	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.366666666667
+P-0010423-T01-IM5	P-0010423	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.1
+P-0010423-T02-AS1	P-0010423	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+P-0010423-T03-IH3	P-0010423	Primary	MSK-IMPACT	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.0666666666667
+PATIENT-COBI-2	PATIENT-COBI-2		None	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	NA
+SAMPLE-PCR-7	PATIENT-COBI-7		PCR	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.0333333333333
+NYU-WXS-SAMPLE-4	P-0005192		WXS: No driver mutations	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	2.1
+NYU-WXS-SAMPLE-18	P-0019478		WXS: No driver mutations	HDCN	Histiocytosis	Histiocytic and Dendritic Cell Neoplasms	Matched	0.166666666667

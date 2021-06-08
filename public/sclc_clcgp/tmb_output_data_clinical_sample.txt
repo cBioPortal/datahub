@@ -1,0 +1,34 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+H1672	H1672	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.8
+H2171	H2171	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.5
+S00022	S00022	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.0
+S00050	S00050	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.03333333333
+S00356	S00356	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.5
+S00472	S00472	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	10.1666666667
+S00501	S00501	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	14.7666666667
+S00539	S00539	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.73333333333
+S00827	S00827	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.7
+S00830	S00830	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.36666666667
+S00833	S00833	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.76666666667
+S00836	S00836	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	9.03333333333
+S00837	S00837	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.96666666667
+S00841	S00841	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.73333333333
+S00932	S00932	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.8
+S00933	S00933	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.9
+S00935	S00935	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.76666666667
+S00936	S00936	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	27.7333333333
+S00943	S00943	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.06666666667
+S00944	S00944	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.0666666667
+S00945	S00945	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.43333333333
+S00946	S00946	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.36666666667
+S00947	S00947	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	1.93333333333
+S01366	S01366	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	15.9
+S01453	S01453	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.5
+S01494	S01494	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	1.33333333333
+S01512	S01512	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.46666666667
+S01563	S01563	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.96666666667
+S01728	S01728	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.46666666667

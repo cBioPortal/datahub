@@ -1,0 +1,24 @@
+#Patient Identifier	Sample Identifier	Sample Class	Gene Panel	Sample origin	Collaboration Id	Oncotree Code	Sample Collection Method	Specimen Preservation Type	Tissue Site	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The sample classification (i.e., tumor, cellline, xenograph).	Gene panel.	Sample origin	Collaboration id.	Oncotree Code	Sample Collection Method	The method used for preparing the tissue for examination and study.	Tissue Site	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_CLASS	GENE_PANEL	SAMPLE_ORIGIN	COLLAB_ID	ONCOTREE_CODE	SAMPLE_COLLECTION_METHOD	SPECIMEN_PRESERVATION_TYPE	TISSUE_SITE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+p_AV_hcchca_001	s_AV_hcchca_001_T	Tumor	IMPACT341	Frozen		HCC				Hepatobiliary Cancer	Hepatocellular Carcinoma	4.48619597498
+p_AV_hcchca_002	s_AV_hcchca_002_T	Tumor	IMPACT341	Frozen		HCC				Hepatobiliary Cancer	Hepatocellular Carcinoma	4.48619597498
+p_AV_hcchca_003	s_AV_hcchca_003_T	Tumor	IMPACT341	Frozen		HCC				Hepatobiliary Cancer	Hepatocellular Carcinoma	3.36464698124
+p_AV_hcchca_004	s_AV_hcchca_004_T	Tumor	IMPACT341	Frozen		HCC				Hepatobiliary Cancer	Hepatocellular Carcinoma	3.36464698124
+p_AV_hcchca_005	s_AV_hcchca_005_T	Tumor	IMPACT341	Frozen		HCC				Hepatobiliary Cancer	Hepatocellular Carcinoma	3.36464698124
+p_AV_hcchca_006	s_AV_hcchca_006_T	Tumor	IMPACT341	Frozen		HCC				Hepatobiliary Cancer	Hepatocellular Carcinoma	12.3370389312
+p_AV_hcchca_007	s_AV_hcchca_007_T	Tumor	IMPACT341	Frozen		HCC				Hepatobiliary Cancer	Hepatocellular Carcinoma	4.48619597498
+p_AV_hcchca_008	s_AV_hcchca_008_T	Tumor	IMPACT341	Frozen		HCC				Hepatobiliary Cancer	Hepatocellular Carcinoma	4.48619597498
+p_AV_hcchca_009	s_AV_hcchca_009_T	Tumor	IMPACT341	Frozen		HCC				Hepatobiliary Cancer	Hepatocellular Carcinoma	6.72929396248
+p_AV_hcchca_010	s_AV_hcchca_010_T	Tumor	IMPACT341	Frozen		HCC				Hepatobiliary Cancer	Hepatocellular Carcinoma	8.97239194997
+p_AV_hcchca_011	s_AV_hcchca_011_T	Tumor	IMPACT341	Frozen		LIAD				Hepatobiliary Cancer	Hepatocellular Adenoma	1.12154899375
+p_AV_hcchca_012	s_AV_hcchca_012_T	Tumor	IMPACT341	Frozen		LIAD				Hepatobiliary Cancer	Hepatocellular Adenoma	1.12154899375
+p_AV_hcchca_013	s_AV_hcchca_013_T	Tumor	IMPACT341	Frozen		LIAD				Hepatobiliary Cancer	Hepatocellular Adenoma	2.24309798749
+p_AV_hcchca_014	s_AV_hcchca_014_T	Tumor	IMPACT341	Frozen		LIAD				Hepatobiliary Cancer	Hepatocellular Adenoma	2.24309798749
+p_AV_hcchca_015	s_AV_hcchca_015_T	Tumor	IMPACT341	Frozen		LIAD				Hepatobiliary Cancer	Hepatocellular Adenoma	0.0
+p_AV_hcchca_016	s_AV_hcchca_016_T	Tumor	IMPACT341	Frozen		LIAD				Hepatobiliary Cancer	Hepatocellular Adenoma	1.12154899375
+p_AV_hcchca_017	s_AV_hcchca_017_T	Tumor	IMPACT341	Frozen		LIAD				Hepatobiliary Cancer	Hepatocellular Adenoma	2.24309798749
+p_AV_hcchca_018	s_AV_hcchca_018_T	Tumor	IMPACT341	Frozen		LIAD				Hepatobiliary Cancer	Hepatocellular Adenoma	0.0
+p_AV_hcchca_019	s_AV_hcchca_019_T	Tumor	IMPACT410		9808_T	LIAD	Biopsy	Frozen	Liver	Hepatobiliary Cancer	Hepatocellular Adenoma	0.993565668729

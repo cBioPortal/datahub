@@ -1,0 +1,47 @@
+#Sample Identifier	Patient Identifier	SEQUENCED	Sample Class	Sample Type	Sequenced Center	Oncotree Code	Cancer Type	Cancer Type Detailed	Tumor Hemisphere	Tumor Location	Extent of Resection	Somatic Status	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Sequenced.	The sample classification (i.e., tumor, cellline, xenograph).	The type of sample (i.e., normal, primary, met, recurrence).	Sequenced Center	Oncotree Code	Cancer Type	Cancer Type Detailed	Tumor Hemisphere	Tumor Location	Extent of Resection	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	SEQUENCED	SAMPLE_CLASS	SAMPLE_TYPE	SEQUENCED_CENTER	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TUMOR_HEMISPHERE	TUMOR_LOCATION	EXTENT_OF_RESECTION	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+gbm_columbia_2019_3	gbm_columbia_2019_3	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Frontal	Gross Total Resection	Matched	1.26666666667
+gbm_columbia_2019_13	gbm_columbia_2019_13	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	frontoparietal	Subtotal Resection	Matched	2.36666666667
+gbm_columbia_2019_20	gbm_columbia_2019_20	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	temporal	Gross Total Resection	Matched	3.3
+gbm_columbia_2019_21	gbm_columbia_2019_21	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	parietal	Subtotal Resection	Matched	1.13333333333
+gbm_columbia_2019_24	gbm_columbia_2019_24	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Frontal	Subtotal Resection	Matched	1.23333333333
+gbm_columbia_2019_25	gbm_columbia_2019_25	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Parietal	Subtotal Resection	Matched	0.833333333333
+gbm_columbia_2019_46	gbm_columbia_2019_46	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	Parietal	Subtotal Resection	Matched	1.86666666667
+gbm_columbia_2019_53	gbm_columbia_2019_53	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	frontal	Gross Total Resection	Matched	2.6
+gbm_columbia_2019_55	gbm_columbia_2019_55	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	frontal	Subtotal Resection	Matched	2.93333333333
+gbm_columbia_2019_56	gbm_columbia_2019_56	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	Parietal	Subtotal Resection	Matched	2.76666666667
+gbm_columbia_2019_69	gbm_columbia_2019_69	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	frontal	Subtotal Resection	Matched	1.9
+gbm_columbia_2019_71	gbm_columbia_2019_71	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	frontal	Subtotal Resection	Matched	1.63333333333
+gbm_columbia_2019_100	gbm_columbia_2019_100	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Frontal - crosses midline	Subtotal Resection	Matched	0.8
+gbm_columbia_2019_101	gbm_columbia_2019_101	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	frontal	Gross Total Resection	Matched	2.3
+gbm_columbia_2019_102	gbm_columbia_2019_102	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	Temporal - anterior	Subtotal Resection	Matched	1.36666666667
+gbm_columbia_2019_103	gbm_columbia_2019_103	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Temporal	Subtotal Resection	Matched	NA
+gbm_columbia_2019_104	gbm_columbia_2019_104	Yes	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Frontal	Gross Total Resection	Matched	NA
+gbm_columbia_2019_105	gbm_columbia_2019_105	Yes	Tumor	Recurrence	Foundation	GBM	Glioblastoma	Glioblastoma Multiforme	Left	Parieto-occipital	Gross Total Resection	Matched	NA
+gbm_columbia_2019_106	gbm_columbia_2019_106	Yes	Tumor	Recurrence	Foundation	GBM	Glioblastoma	Glioblastoma Multiforme	Left	Patietal	Resection at OSH	Matched	NA
+gbm_columbia_2019_107	gbm_columbia_2019_107	Yes	Tumor	Recurrence	Foundation	GBM	Glioblastoma	Glioblastoma Multiforme	Left	Temporal - anterior	OSH (Gross Total Resection)	Matched	NA
+gbm_columbia_2019_108	gbm_columbia_2019_108	Yes	Tumor	Recurrence	Foundation	GBM	Glioblastoma	Glioblastoma Multiforme	Right	Temporal	Bx	Matched	NA
+gbm_columbia_2019_109	gbm_columbia_2019_109	Yes	Tumor	Recurrence	Foundation	GBM	Glioblastoma	Glioblastoma Multiforme	Right	Temporal	Gross Total Resection	Matched	NA
+gbm_columbia_2019_110	gbm_columbia_2019_110	Yes	Tumor	Recurrence	Foundation	GBM	Glioblastoma	Glioblastoma Multiforme	Left	Temporal	Gross Total Resection	Matched	NA
+gbm_columbia_2019_NU_1	gbm_columbia_2019_NU_1	No	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	Frontal		Matched	NA
+gbm_columbia_2019_NU_2	gbm_columbia_2019_NU_2	Yes	Tumor	Recurrence	FdnOne	GBM	Glioblastoma	Glioblastoma Multiforme	Right	Parietal		Matched	NA
+gbm_columbia_2019_NU_4	gbm_columbia_2019_NU_4	No	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	Temporal		Matched	NA
+gbm_columbia_2019_NU_5	gbm_columbia_2019_NU_5	No	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	Frontal		Matched	NA
+gbm_columbia_2019_NU_7	gbm_columbia_2019_NU_7	No	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Temporal		Matched	NA
+gbm_columbia_2019_NU_8	gbm_columbia_2019_NU_8	No	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Parietal		Matched	NA
+gbm_columbia_2019_NU_9	gbm_columbia_2019_NU_9	Yes	Tumor	Recurrence	FdnOne	GBM	Glioblastoma	Glioblastoma Multiforme	Right	Temporal		Matched	NA
+gbm_columbia_2019_NU_10	gbm_columbia_2019_NU_10	Yes	Tumor	Recurrence	FdnOne	GBM	Glioblastoma	Glioblastoma Multiforme	Right	Temporal		Matched	NA
+gbm_columbia_2019_NU_11	gbm_columbia_2019_NU_11	Yes	Tumor	Recurrence	GlioSeq	GBM	Glioblastoma	Glioblastoma Multiforme	Right	Frontal		Matched	NA
+gbm_columbia_2019_NU_12	gbm_columbia_2019_NU_12	No	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Temporal		Matched	NA
+gbm_columbia_2019_NU_13	gbm_columbia_2019_NU_13	No	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Right	Frontal		Matched	NA
+gbm_columbia_2019_NU_14	gbm_columbia_2019_NU_14	No	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Frontal		Matched	NA
+gbm_columbia_2019_NU_15	gbm_columbia_2019_NU_15	Yes	Tumor	Recurrence	GlioSeq	GBM	Glioblastoma	Glioblastoma Multiforme	Right	Temporal		Matched	NA
+gbm_columbia_2019_NU_16	gbm_columbia_2019_NU_16	No	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	Left	Thalamus		Matched	NA
+gbm_columbia_2019_NU_17	gbm_columbia_2019_NU_17	Yes	Tumor	Recurrence	Tempus	GBM	Glioblastoma	Glioblastoma Multiforme	Left	Frontal		Matched	NA
+gbm_columbia_2019_NU_18	gbm_columbia_2019_NU_18	Yes	Tumor	Recurrence	GlioSeq	GBM	Glioblastoma	Glioblastoma Multiforme	Left	Frontal		Matched	NA
+gbm_columbia_2019_NU_19	gbm_columbia_2019_NU_19	Yes	Tumor	Recurrence	FdnOne	GBM	Glioblastoma	Glioblastoma Multiforme	Left	Temporal		Matched	NA
+gbm_columbia_2019_NU_20	gbm_columbia_2019_NU_20	No	Tumor	Recurrence		GBM	Glioblastoma	Glioblastoma Multiforme	N/A	Cerebellopontine Angle		Matched	NA
+gbm_columbia_2019_NU_21	gbm_columbia_2019_NU_21	Yes	Tumor	Recurrence	GlioSeq	GBM	Glioblastoma	Glioblastoma Multiforme	Left	Frontal		Matched	NA

@@ -1,0 +1,65 @@
+#Patient Identifier	Sample Identifier	Sample Type	MYB-NFIB FISH	Cancer Type	Cancer Type Detailed	Tumor Stage	Primary Tumor Site	Tumor Disease Anatomic Site	Perineural Invasion	Metastatic tumor indicator	Metastatic Site	Platform	Genomic Alterations	Oncotree Code	Fusion Status	MYB or MYBL1 Fusion	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The type of sample (i.e., normal, primary, met, recurrence).	MYB-NFIB FISH.	Cancer Type	Cancer Type Detailed	Tumor stage.	Text term to describe the organ sub-division in an individual with cancer.	Text term that describes the anatomic site of the tumor or disease.	Perineural invasion.	Distant metastasis present ind2	The anatomic location to which the cancer has spread.	Platform.	Number of genomic alterations	Oncotree Code	Yes/No indicator of fusion status	Description of MYB or MYBL1 fusions identified.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	1	9	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_TYPE	MYB_NFIB_FISH	CANCER_TYPE	CANCER_TYPE_DETAILED	TUMOR_STAGE	PRIMARY_SITE	TUMOR_TISSUE_SITE	PERINEURAL_INVASION	METASTATIC_TUMOR_INDICATOR	METASTATIC_SITE	PLATFORM	GENOMIC_ALTERATIONS	ONCOTREE_CODE	FUSION_STATUS	MYB_MYBL1_FUSION	TMB_NONSYNONYMOUS
+ACYC-MSKCC_11_3318	ACYC-MSKCC_11_3318	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Oral cavity	Palate	Microscopic	No	NA	WGS/WES	10	ACYC	YES	MYB-NFIB Fusion	0.333333333333
+ACYC-MSKCC_10_5342	ACYC-MSKCC_10_5342	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Salivary gland	Parotid gland	Yes	Yes	Lung	WGS/WES	4	ACYC	YES	MYB-NFIB Fusion	0.133333333333
+ACYC-MSKCC_9534	ACYC-MSKCC_9534	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Floor of mouth	Yes	Yes	Lung	WGS/WES	16	ACYC	YES	Negative	0.5
+ACYC-MSKCC_11_17815	ACYC-MSKCC_11_17815	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Sinonasal cavity	Sinonasal cavity	No	No	NA	WGS/WES	18	ACYC	YES	MYB-NFIB Fusion	0.566666666667
+ACYC-MSKCC_002020	ACYC-MSKCC_002020	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Soft palate	Yes	No	NA	WGS/WES	5	ACYC	YES	MYB-NFIB Fusion	0.166666666667
+ACYC-MSKCC_002282	ACYC-MSKCC_002282	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Oral cavity	Hard palate	Yes	No	NA	WGS/WES	1	ACYC	YES	MYB-NFIB Fusion	0.0333333333333
+ACYC-MSKCC_11_3089	ACYC-MSKCC_11_3089	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Head and Neck	Trachea	Microscopic	No	NA	WGS/WES	5	ACYC	YES	Negative	0.166666666667
+ACYC-MSKCC_2000136	ACYC-MSKCC_2000136	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Hard palate	Yes	No	NA	WGS/WES	6	ACYC	YES	MYB-NFIB Fusion	0.166666666667
+ACYC-MSKCC_4332	ACYC-MSKCC_4332	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Buccal mucosa	Yes	No	NA	WGS/WES	3	ACYC	YES	MYB-NFIB Fusion	0.1
+ACYC-MSKCC_000479	ACYC-MSKCC_000479	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Head and Neck	Chin	Yes	No	NA	WGS/WES	4	ACYC	YES	MYB-NFIB Fusion	0.133333333333
+ACYC-MSKCC_4133	ACYC-MSKCC_4133	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Floor of mouth	Yes	Yes	NA	WGS/WES	15	ACYC	YES	Negative	0.5
+ACYC-MSKCC_000410	ACYC-MSKCC_000410	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Oral cavity	Base of tongue	Yes	No	NA	WGS/WES	5	ACYC	YES	MYB-NFIB Fusion	0.133333333333
+ACYC-MSKCC_007441	ACYC-MSKCC_007441	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Hard palate	Yes	No	NA	WGS/WES	19	ACYC	YES	MYB-NFIB Fusion	0.566666666667
+ACYC-MSKCC_352	ACYC-MSKCC_352	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Head and Neck	Maxilla	Yes	No	NA	WGS/WES	0	ACYC	YES	Negative	NA
+ACYC-MSKCC_111097	ACYC-MSKCC_111097	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Sublingual gland	No	No	NA	WGS/WES	5	ACYC	YES	MYB-NFIB Fusion	0.133333333333
+ACYC-MSKCC_05_6986	ACYC-MSKCC_05_6986	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Parotid gland	No	Yes	Lung	WGS/WES	19	ACYC	YES	MYB-NFIB Fusion	0.533333333333
+ACYC-MSKCC_000609	ACYC-MSKCC_000609	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Base of tongue	Yes	No	NA	WGS/WES	11	ACYC	YES	MYB-NFIB Fusion	0.366666666667
+ACYC-MSKCC_000705	ACYC-MSKCC_000705	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Tongue	Yes	No	NA	WGS/WES	15	ACYC	YES	MYB-NFIB Fusion	0.433333333333
+ACYC-MSKCC_122891	ACYC-MSKCC_122891	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Salivary gland	Parotid gland	Yes	Yes	Lung	WGS/WES	12	ACYC	YES	MYB-NFIB Fusion	0.4
+ACYC-MSKCC_131169	ACYC-MSKCC_131169	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Submandibular gland	Yes	Yes	Lung	WGS/WES	13	ACYC	YES	MYB-NFIB Fusion	0.4
+ACYC-MSKCC_002012	ACYC-MSKCC_002012	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Head and Neck	Maxilla	No	No	NA	WGS/WES	13	ACYC	YES	Negative	0.4
+ACYC-MSKCC_142990	ACYC-MSKCC_142990	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Head and Neck	Maxilla	Yes	No	NA	WGS/WES	17	ACYC	YES	MYB-NFIB Fusion	0.566666666667
+ACYC-MSKCC_6112	ACYC-MSKCC_6112	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Submandibular gland	Yes	No	NA	WGS/WES	4	ACYC	YES	MYB-NFIB Fusion	0.133333333333
+ACYC-MSKCC_09_4615	ACYC-MSKCC_09_4615	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Salivary gland	Parotid gland	Yes	No	NA	WGS/WES	12	ACYC	YES	MYB-NFIB Fusion	0.4
+ACYC-MSKCC_000236	ACYC-MSKCC_000236	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Head and Neck	Maxilla	Yes	No	NA	WGS/WES	5	ACYC	YES	MYB-NFIB Fusion	0.166666666667
+ACYC-MSKCC_065115	ACYC-MSKCC_065115	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Salivary gland	Parotid gland	Unknown	No	NA	WGS/WES	12	ACYC	YES	Negative	0.366666666667
+ACYC-MSKCC_10_5283	ACYC-MSKCC_10_5283	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Submandibular gland	Yes	No	NA	WGS/WES	14	ACYC	YES	Negative	0.466666666667
+ACYC-MSKCC_007097	ACYC-MSKCC_007097	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Base of tongue	Yes	No	NA	WGS/WES	10	ACYC	YES	MYB-NFIB Fusion	0.333333333333
+ACYC-MSKCC_001739	ACYC-MSKCC_001739	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Oral cavity	Base of tongue	Yes	Yes	Lung	WGS/WES	6	ACYC	YES	Negative	0.166666666667
+ACYC-MSKCC_990149	ACYC-MSKCC_990149	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Oral cavity	Floor of mouth	Yes	Yes	Lung	WGS/WES	7	ACYC	YES	MYB-NFIB Fusion	0.233333333333
+ACYC-MSKCC_002039	ACYC-MSKCC_002039	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Salivary gland	Submandibular gland	Yes	No	NA	WGS/WES	15	ACYC	YES	MYB-NFIB Fusion	0.5
+ACYC-MSKCC_118135	ACYC-MSKCC_118135	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Salivary gland	Submandibular gland	Yes	No	NA	WGS/WES	7	ACYC	YES	MYB-NFIB Fusion	0.233333333333
+ACYC-MSKCC_07_16582	ACYC-MSKCC_07_16582	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Parotid gland	Microscopic	No	NA	WGS/WES	25	ACYC	YES	Negative	0.833333333333
+ACYC-MSKCC_09_4178	ACYC-MSKCC_09_4178	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Base of tongue	Yes	No	NA	WGS/WES	17	ACYC	YES	Negative	0.566666666667
+ACYC-MSKCC_3492	ACYC-MSKCC_3492	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Salivary gland	Submandibular gland	Yes	Yes	NA	WGS/WES	27	ACYC	YES	MYB-NFIB Fusion	0.833333333333
+ACYC-MSKCC_007136	ACYC-MSKCC_007136	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Sublingual gland	Yes	No	NA	WGS/WES	12	ACYC	YES	Negative	0.4
+ACYC-MSKCC_11_6165	ACYC-MSKCC_11_6165	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Salivary gland	Parotid gland	No	No	NA	WGS/WES	18	ACYC	YES	Negative	0.6
+ACYC-MSKCC_148632	ACYC-MSKCC_148632	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Orbital cavity	Lacrimal gland	Yes	No	NA	WGS/WES	34	ACYC	YES	Negative	1.03333333333
+ACYC-MSKCC_06_2532	ACYC-MSKCC_06_2532	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Retromolar trigone	Yes	Yes	Lung	WGS/WES	11	ACYC	YES	MYB-NFIB Fusion	0.366666666667
+ACYC-MSKCC_980452	ACYC-MSKCC_980452	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Floor of mouth	Yes	No	NA	WGS/WES	10	ACYC	YES	Negative	0.3
+ACYC-MSKCC_001947	ACYC-MSKCC_001947	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Parotid gland	Yes	No	NA	WGS/WES	15	ACYC	YES	MYB-NFIB Fusion	0.466666666667
+ACYC-MSKCC_2000120	ACYC-MSKCC_2000120	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Sublingual gland	Yes	Yes	Lung	WGS/WES	21	ACYC	YES	Negative	0.7
+ACYC-MSKCC_80872	ACYC-MSKCC_80872	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Head and Neck	Thyroid	No	No	NA	WGS/WES	5	ACYC	YES	Negative	0.166666666667
+ACYC-MSKCC_2000756	ACYC-MSKCC_2000756	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Hard palate	Yes	Yes	Lung	WGS/WES	25	ACYC	YES	Negative	0.8
+ACYC-MSKCC_36773720	ACYC-MSKCC_36773720	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Buccal mucosa	Yes	No	NA	WGS/WES	24	ACYC	YES	MYB-NFIB Fusion	0.766666666667
+ACYC-MSKCC_000540	ACYC-MSKCC_000540	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Submandibular gland	Yes	No	NA	WGS/WES	9	ACYC	YES	MYB-NFIB Fusion	0.233333333333
+ACYC-MSKCC_001781	ACYC-MSKCC_001781	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Head and Neck	Maxilla	Yes	No	NA	WGS/WES	19	ACYC	YES	Negative	0.533333333333
+ACYC-MSKCC_671204	ACYC-MSKCC_671204	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Hard palate	Yes	Yes	Spine	WGS/WES	24	ACYC	YES	MYB-NFIB Fusion	0.7
+ACYC-MSKCC_001346	ACYC-MSKCC_001346	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Salivary gland	Parotid gland	Yes	Yes	Lung	WGS/WES	10	ACYC	YES	MYB-NFIB Fusion	0.333333333333
+ACYC-MSKCC_002238	ACYC-MSKCC_002238	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Submandibular gland	Yes	No	NA	WGS/WES	7	ACYC	YES	MYB-NFIB Fusion	0.233333333333
+ACYC-MSKCC_6277	ACYC-MSKCC_6277	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Hard palate	Yes	No	NA	WGS/WES	9	ACYC	YES	MYB-NFIB Fusion	0.266666666667
+ACYC-MSKCC_002237	ACYC-MSKCC_002237	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Head and Neck	Maxilla	Yes	No	NA	WGS/WES	36	ACYC	YES	Negative	1.16666666667
+ACYC-MSKCC_09_12352	ACYC-MSKCC_09_12352	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Salivary gland	Submandibular gland	Microscopic	Yes	Bone	WGS/WES	1	ACYC	YES	Negative	0.0333333333333
+ACYC-MSKCC_000505	ACYC-MSKCC_000505	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Head and Neck	Trachea	No	No	NA	WGS/WES	10	ACYC	YES	MYB-NFIB Fusion	0.3
+ACYC-MSKCC_128229	ACYC-MSKCC_128229	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Salivary gland	Submandibular gland	Yes	No	NA	WGS/WES	2	ACYC	YES	Negative	0.0666666666667
+ACYC-MSKCC_065103	ACYC-MSKCC_065103	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Buccal mucosa	Unknown	No	NA	WGS/WES	2	ACYC	YES	MYB-NFIB Fusion	0.0666666666667
+ACYC-MSKCC_2453	ACYC-MSKCC_2453	Primary	Positive	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Palate	Yes	No	NA	WGS/WES	3	ACYC	YES	MYB-NFIB Fusion	0.1
+ACYC-MSKCC_006536	ACYC-MSKCC_006536	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Oral cavity	Base of tongue	Yes	No	NA	WGS/WES	18	ACYC	YES	Negative	0.5
+ACYC-MSKCC_002128	ACYC-MSKCC_002128	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Advanced	Oral cavity	Base of tongue	Yes	Yes	Lung	WGS/WES	5	ACYC	YES	Negative	0.166666666667
+ACYC-MSKCC_000380	ACYC-MSKCC_000380	Primary	Negative	Salivary Cancer	Adenoid Cystic Carcinoma	Early	Oral cavity	Base of tongue	Yes	No	NA	WGS/WES	1	ACYC	YES	Negative	0.0333333333333

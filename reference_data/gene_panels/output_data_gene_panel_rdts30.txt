@@ -1,0 +1,4 @@
+stable_id: RDTS30
+description: Targeted sequencing of clinical cases via ThunderStorm NGS Target Enrichment System, RainDance Technologies.
+gene_list: ASXL1	CBL	CEBPA	DNMT3A	ETV6	EZH2	FLT3	IDH1	IDH2	JAK1	JAK2	JAK3	KIT	KRAS	MPL	NPM1	NRAS	PHF6	PTEN	RUNX1	SF3B1	SH2B3	SUZ12	TET1	TET2	TP53	TYK2	WT1
+number_of_profiled_coding_base_pairs: 67419

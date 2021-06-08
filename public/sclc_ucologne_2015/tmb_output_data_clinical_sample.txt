@@ -1,0 +1,125 @@
+#Patient Identifier	Sample Identifier	Specimen Preservation Type	T Stage	Sample Type	Metastatic Site	Gene Panel	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The method used for preparing the tissue for examination and study.	T Stage	"The type of sample (i.e., normal, primary, met, recurrence)."	The anatomic location to which the cancer has spread.	Gene panel.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	9	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SPECIMEN_PRESERVATION_TYPE	T_STAGE	SAMPLE_TYPE	METASTATIC_SITE	GENE_PANEL	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+sclc_ucologne_2015_S00022	sclc_ucologne_2015_S00022	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.06666666667
+sclc_ucologne_2015_S00035	sclc_ucologne_2015_S00035	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.73333333333
+sclc_ucologne_2015_S00050	sclc_ucologne_2015_S00050	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	10.6
+sclc_ucologne_2015_S00213	sclc_ucologne_2015_S00213	FF Tissue 	1	Primary		RNA-seq	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+sclc_ucologne_2015_S00339	sclc_ucologne_2015_S00339	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.93333333333
+sclc_ucologne_2015_S00356	sclc_ucologne_2015_S00356	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.53333333333
+sclc_ucologne_2015_S00472	sclc_ucologne_2015_S00472	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	16.2333333333
+sclc_ucologne_2015_S00501	sclc_ucologne_2015_S00501	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	23.4333333333
+sclc_ucologne_2015_S00539	sclc_ucologne_2015_S00539	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.2
+sclc_ucologne_2015_S00825	sclc_ucologne_2015_S00825	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.33333333333
+sclc_ucologne_2015_S00827	sclc_ucologne_2015_S00827	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	17.1
+sclc_ucologne_2015_S00829	sclc_ucologne_2015_S00829	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.13333333333
+sclc_ucologne_2015_S00830	sclc_ucologne_2015_S00830	FF Tissue 	2	Primary		"WGS (Peifer et al., 2012; Ref.No. 2)"	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.9
+sclc_ucologne_2015_S00831	sclc_ucologne_2015_S00831	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.53333333333
+sclc_ucologne_2015_S00832	sclc_ucologne_2015_S00832	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.2
+sclc_ucologne_2015_S00836	sclc_ucologne_2015_S00836	FF Tissue 	1	Primary		"RNA-seq (Peifer et al., 2012; Ref.No. 2)"	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+sclc_ucologne_2015_S00833	sclc_ucologne_2015_S00833	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.16666666667
+sclc_ucologne_2015_S00837	sclc_ucologne_2015_S00837	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.53333333333
+sclc_ucologne_2015_S00838	sclc_ucologne_2015_S00838	FF Tissue 	4	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.1
+sclc_ucologne_2015_S00841	sclc_ucologne_2015_S00841	FF Tissue 	2	Primary		"WGS (Peifer et al., 2012; Ref.No. 2)"	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.6333333333
+sclc_ucologne_2015_S00842	sclc_ucologne_2015_S00842	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.3
+sclc_ucologne_2015_S00932	sclc_ucologne_2015_S00932	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.16666666667
+sclc_ucologne_2015_S00933	sclc_ucologne_2015_S00933	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.3
+sclc_ucologne_2015_S00934	sclc_ucologne_2015_S00934	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.76666666667
+sclc_ucologne_2015_S00935	sclc_ucologne_2015_S00935	FF Tissue 	3	Primary		WGS (only T)	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.96666666667
+sclc_ucologne_2015_S00938	sclc_ucologne_2015_S00938	FF Tissue 	4	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.26666666667
+sclc_ucologne_2015_S00941	sclc_ucologne_2015_S00941	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.5
+sclc_ucologne_2015_S00944	sclc_ucologne_2015_S00944	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	16.6666666667
+sclc_ucologne_2015_S00945	sclc_ucologne_2015_S00945	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.93333333333
+sclc_ucologne_2015_S00947	sclc_ucologne_2015_S00947	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	3.53333333333
+sclc_ucologne_2015_S01020	sclc_ucologne_2015_S01020	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	16.2333333333
+sclc_ucologne_2015_S01022	sclc_ucologne_2015_S01022	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	13.4333333333
+sclc_ucologne_2015_S01023	sclc_ucologne_2015_S01023	FF Tissue 	4	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.9
+sclc_ucologne_2015_S01170	sclc_ucologne_2015_S01170	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.56666666667
+sclc_ucologne_2015_S01242	sclc_ucologne_2015_S01242	FF Tissue 	1	Primary		RNA-seq 	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+sclc_ucologne_2015_S01248	sclc_ucologne_2015_S01248	FF Tissue 	2	Primary		RNA-seq	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+sclc_ucologne_2015_S01297	sclc_ucologne_2015_S01297	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	11.8666666667
+sclc_ucologne_2015_S01366	sclc_ucologne_2015_S01366	FF Tissue 	4	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	20.6666666667
+sclc_ucologne_2015_S01453	sclc_ucologne_2015_S01453	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	11.2
+sclc_ucologne_2015_S01494	sclc_ucologne_2015_S01494	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.03333333333
+sclc_ucologne_2015_S01512	sclc_ucologne_2015_S01512	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	10.0
+sclc_ucologne_2015_S01516	sclc_ucologne_2015_S01516	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.0
+sclc_ucologne_2015_S01524	sclc_ucologne_2015_S01524	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	3.36666666667
+sclc_ucologne_2015_S01542	sclc_ucologne_2015_S01542	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.96666666667
+sclc_ucologne_2015_S01556	sclc_ucologne_2015_S01556	FF Tissue 		Primary		"RNA-seq (Peifer et al., 2012; Ref.No. 2)"	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+sclc_ucologne_2015_S01563	sclc_ucologne_2015_S01563	FF Tissue 		Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	9.7
+sclc_ucologne_2015_S01698	sclc_ucologne_2015_S01698	FF Tissue 	1	Primary		"RNA-seq (Seidel et al., 2013; Ref.No. 44)"	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+sclc_ucologne_2015_S01578	sclc_ucologne_2015_S01578	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.2333333333
+sclc_ucologne_2015_S01728	sclc_ucologne_2015_S01728	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	3.53333333333
+sclc_ucologne_2015_S01792	sclc_ucologne_2015_S01792	FF Tissue 	2	Primary		"RNA-seq (Peifer et al., 2012; Ref.No. 2)"	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+sclc_ucologne_2015_S01861	sclc_ucologne_2015_S01861	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.4333333333
+sclc_ucologne_2015_S01864	sclc_ucologne_2015_S01864	FF Tissue 	1b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.5
+sclc_ucologne_2015_S01873	sclc_ucologne_2015_S01873	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	9.66666666667
+sclc_ucologne_2015_S02065	sclc_ucologne_2015_S02065	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	11.8666666667
+sclc_ucologne_2015_S02093	sclc_ucologne_2015_S02093	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.83333333333
+sclc_ucologne_2015_S02120	sclc_ucologne_2015_S02120	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	10.8666666667
+sclc_ucologne_2015_S02139	sclc_ucologne_2015_S02139	FF Tissue 	1b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	16.4333333333
+sclc_ucologne_2015_S02163	sclc_ucologne_2015_S02163	FF Tissue 	3	Primary		RNA-seq	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+sclc_ucologne_2015_S02194	sclc_ucologne_2015_S02194	FF Tissue 	x	Metastasis	Pleura	WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.8
+sclc_ucologne_2015_S02209	sclc_ucologne_2015_S02209	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	10.5
+sclc_ucologne_2015_S02219	sclc_ucologne_2015_S02219	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.56666666667
+sclc_ucologne_2015_S02234	sclc_ucologne_2015_S02234	FF Tissue 	1a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.76666666667
+sclc_ucologne_2015_S02237	sclc_ucologne_2015_S02237	FF Tissue 	1b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.53333333333
+sclc_ucologne_2015_S02241	sclc_ucologne_2015_S02241	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.13333333333
+sclc_ucologne_2015_S02242	sclc_ucologne_2015_S02242	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.0
+sclc_ucologne_2015_S02243	sclc_ucologne_2015_S02243	FF Tissue 	1a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.53333333333
+sclc_ucologne_2015_S02244	sclc_ucologne_2015_S02244	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.76666666667
+sclc_ucologne_2015_S02245	sclc_ucologne_2015_S02245	FF Tissue 	1b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.53333333333
+sclc_ucologne_2015_S02246	sclc_ucologne_2015_S02246	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	11.7666666667
+sclc_ucologne_2015_S02248	sclc_ucologne_2015_S02248	FF Tissue 	1b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.3333333333
+sclc_ucologne_2015_S02249	sclc_ucologne_2015_S02249	FF Tissue 	2b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.3
+sclc_ucologne_2015_S02255	sclc_ucologne_2015_S02255	FF Tissue 	1b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	17.4666666667
+sclc_ucologne_2015_S02256	sclc_ucologne_2015_S02256	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.56666666667
+sclc_ucologne_2015_S02273	sclc_ucologne_2015_S02273	FF Tissue 		Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	17.8
+sclc_ucologne_2015_S02274	sclc_ucologne_2015_S02274	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.66666666667
+sclc_ucologne_2015_S02275	sclc_ucologne_2015_S02275	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.63333333333
+sclc_ucologne_2015_S02277	sclc_ucologne_2015_S02277	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	9.3
+sclc_ucologne_2015_S02279	sclc_ucologne_2015_S02279	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	11.2
+sclc_ucologne_2015_S02284	sclc_ucologne_2015_S02284	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.56666666667
+sclc_ucologne_2015_S02285	sclc_ucologne_2015_S02285	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	14.4333333333
+sclc_ucologne_2015_S02286	sclc_ucologne_2015_S02286	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	9.06666666667
+sclc_ucologne_2015_S02287	sclc_ucologne_2015_S02287	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.6
+sclc_ucologne_2015_S02288	sclc_ucologne_2015_S02288	FF Tissue 	1	Primary		RNA-seq	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+sclc_ucologne_2015_S02289	sclc_ucologne_2015_S02289	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	9.9
+sclc_ucologne_2015_S02290	sclc_ucologne_2015_S02290	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	10.5333333333
+sclc_ucologne_2015_S02291	sclc_ucologne_2015_S02291	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.5
+sclc_ucologne_2015_S02292	sclc_ucologne_2015_S02292	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	21.8333333333
+sclc_ucologne_2015_S02293	sclc_ucologne_2015_S02293	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.6
+sclc_ucologne_2015_S02294	sclc_ucologne_2015_S02294	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.26666666667
+sclc_ucologne_2015_S02295	sclc_ucologne_2015_S02295	FF Tissue 	4	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.96666666667
+sclc_ucologne_2015_S02296	sclc_ucologne_2015_S02296	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.03333333333
+sclc_ucologne_2015_S02297	sclc_ucologne_2015_S02297	FF Tissue 	1	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.4
+sclc_ucologne_2015_S02298	sclc_ucologne_2015_S02298	FF Tissue 	1	Primary		RNA-seq 	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	NA
+sclc_ucologne_2015_S02299	sclc_ucologne_2015_S02299	FF Tissue 	2	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	24.4333333333
+sclc_ucologne_2015_S02322	sclc_ucologne_2015_S02322	FF Tissue 	3	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	11.4666666667
+sclc_ucologne_2015_S02328	sclc_ucologne_2015_S02328	FF Tissue 	4	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.7666666667
+sclc_ucologne_2015_S02342	sclc_ucologne_2015_S02342	FF Tissue 		Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	17.4333333333
+sclc_ucologne_2015_S02344	sclc_ucologne_2015_S02344	FF Tissue 		Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	15.6333333333
+sclc_ucologne_2015_S02347	sclc_ucologne_2015_S02347	FF Tissue 		Metastasis	Lymph Node	WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.63333333333
+sclc_ucologne_2015_S02348	sclc_ucologne_2015_S02348	FF Tissue 		Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.4
+sclc_ucologne_2015_S02350	sclc_ucologne_2015_S02350	FF Tissue 		Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	7.86666666667
+sclc_ucologne_2015_S02351	sclc_ucologne_2015_S02351	FF Tissue 		Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.93333333333
+sclc_ucologne_2015_S02352	sclc_ucologne_2015_S02352	FF Tissue 		Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	3.3
+sclc_ucologne_2015_S02353	sclc_ucologne_2015_S02353	FF Tissue 		Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	1.16666666667
+sclc_ucologne_2015_S02354	sclc_ucologne_2015_S02354	FF Tissue 		Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	4.43333333333
+sclc_ucologne_2015_S02355	sclc_ucologne_2015_S02355	FF Tissue 	1a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.93333333333
+sclc_ucologne_2015_S02360	sclc_ucologne_2015_S02360	FF Tissue 	1a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.86666666667
+sclc_ucologne_2015_S02375	sclc_ucologne_2015_S02375	FF Tissue 	1a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.26666666667
+sclc_ucologne_2015_S02376	sclc_ucologne_2015_S02376	FF Tissue 	1a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.7666666667
+sclc_ucologne_2015_S02378	sclc_ucologne_2015_S02378	FF Tissue 	1b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.7
+sclc_ucologne_2015_S02382	sclc_ucologne_2015_S02382	FF Tissue 	4	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	8.83333333333
+sclc_ucologne_2015_S02384	sclc_ucologne_2015_S02384	FF Tissue 	4	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	12.4666666667
+sclc_ucologne_2015_S02385	sclc_ucologne_2015_S02385	FF Tissue 	2a	Metastasis	Lymph Node	WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	5.03333333333
+sclc_ucologne_2015_S02397	sclc_ucologne_2015_S02397	FF Tissue 	1b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	11.3666666667
+sclc_ucologne_2015_S02398	sclc_ucologne_2015_S02398	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.43333333333
+sclc_ucologne_2015_S02400	sclc_ucologne_2015_S02400	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.86666666667
+sclc_ucologne_2015_S02401	sclc_ucologne_2015_S02401	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	2.33333333333
+sclc_ucologne_2015_S02402	sclc_ucologne_2015_S02402	FF Tissue 	2a	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	3.53333333333
+sclc_ucologne_2015_S02403	sclc_ucologne_2015_S02403	FF Tissue 	2b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.06666666667
+sclc_ucologne_2015_S02404	sclc_ucologne_2015_S02404	FF Tissue 	2b	Primary		WGS	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	6.6

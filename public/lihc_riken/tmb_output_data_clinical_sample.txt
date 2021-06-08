@@ -1,0 +1,32 @@
+#Sample Identifier	Patient Identifier	Tumor Size	Edmondson tumor grading	Multiple Nodules	Cancer Type	Cancer Type Detailed	Oncotree Code	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Tumor size.	Edmondson tumor grading	Synchronous or metachronous nodules	Cancer Type	Cancer Type Detailed	Oncotree Code	TMB (nonsynonymous)
+#STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	TUMOR_SIZE	EDMONDSON_GRADE	MUTIPLE_NODULES	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	TMB_NONSYNONYMOUS
+HB1	HB1	33	II		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.166666666667
+HB2	HB2	24	II		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0666666666667
+HB3	HB3	60	III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	NA
+HB4	HB4	30	II-III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	NA
+HB5	HB5	18	II-III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0333333333333
+HB6	HB6	30	III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0333333333333
+HB7	HB7	22	II		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.1
+HB8	HB8	45	II-III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0666666666667
+HB9	HB9	80	II-III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.133333333333
+HB10	HB10	63	III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0333333333333
+HB11	HB11	30	II-III	synchronous	Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.133333333333
+HC1	HC1	87	II-III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0666666666667
+HC2	HC2	45	III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0666666666667
+HC3-1	HC3	20	II	synchronous	Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.133333333333
+HC3-2	HC3	20	II	synchronous	Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.1
+HC4	HC4	18	II	metachronous	Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	NA
+HC5	HC5	24	II		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0333333333333
+HC6	HC6	35	II		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0333333333333
+HC7-1	HC7	25	II	synchronous	Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.133333333333
+HC7-2	HC7	25	II	synchronous	Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	NA
+HC8	HC8	21	II		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	NA
+HC9	HC9	40	II-III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.1
+HC10	HC10	20	III	metachronous	Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0333333333333
+HC11	HC11	35	III		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.166666666667
+HC12	HC12	43	I		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	NA
+NBNC1	NBNC1	70	II		Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.0333333333333
+NBNC2	NBNC2	60	II	metachronous	Heptocellular Carcinoma	Heptocellular Carcinoma	HCC	0.1

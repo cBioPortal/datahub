@@ -1,0 +1,254 @@
+#Patient Identifier	Sample Identifier	Tumor Type	Censored	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Tumor Type	Survival Time Censored; True or False	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR_TYPE	CENSORED	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+AC_PD1-1	AC-DFCI_AC_PD1-1-Tumor-SM-9LRI9	Anal	LIVING	ANSC	Anal Cancer	Anal Squamous Cell Carcinoma	7.96666666667
+luad_mskcc_2015_15	AL4602	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	5.3
+luad_mskcc_2015_33	AU5884	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.23333333333
+luad_mskcc_2015_22	BL3403	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.66666666667
+BLADDER-15330_CCPM_0700629	BLADDER-15330_CCPM_0700629-Tumor-SM-AVI1C	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	10.7333333333
+BLADDER-15330_CCPM_0700691	BLADDER-15330_CCPM_0700691-Tumor-SM-AVI13	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	5.53333333333
+BLADDER-15330_CCPM_0700692	BLADDER-15330_CCPM_0700692-Tumor-SM-AVI11	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.8
+BLADDER-15330_CCPM_0700694	BLADDER-15330_CCPM_0700694-Tumor-SM-AVI16	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	16.0666666667
+BLCA_immunotherapy_responder-DFCI_11-104_011	DFCI_11-104_011-Tumor-SM-5PA3E	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	16.8666666667
+BLCA-001	BLCA-001-Tumor-SM-CUCGA	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.2
+BLCA-002	BLCA-002-Tumor-SM-CUCGB	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	6.1
+BLCA-003	BLCA-003-Tumor-SM-CUCGC	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.33333333333
+BLCA-005	BLCA-005-Tumor-SM-CUCGE	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	7.26666666667
+BLCA-006	BLCA-006-Tumor-SM-CUCGF	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	3.56666666667
+BLCA-007	BLCA-007-Tumor-SM-CUCGH	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	2.23333333333
+BLCA-008	BLCA-008-Tumor-SM-CUCGI	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	5.23333333333
+BLCA-009	BLCA-009-Tumor-SM-CUCGJ	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	10.5
+BLCA-010	BLCA-010-Tumor-SM-CUCGK	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	11.6666666667
+BLCA-011	BLCA-011-Tumor-SM-CUCGL	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	11.0
+BLCA-012	BLCA-012-Tumor-SM-CUCGM	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	34.8
+BLCA-014	BLCA-014-Tumor-SM-CUCGO	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	1.66666666667
+BLCA-015	BLCA-015-Tumor-SM-CUCGP	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.8
+BLCA-016	BLCA-016-Tumor-SM-CUCGQ	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.33333333333
+IM_01	BLCA-IM01-Tumor-SM-79XD9	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	4.53333333333
+IM_04	BLCA-IM04-Tumor-SM-79XDB	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	2.96666666667
+IM_06	BLCA-IM06-Tumor-SM-79XDL	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	3.46666666667
+IM_07	BLCA-IM07-Tumor-SM-79XDD	Bladder	LIVING	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.23333333333
+IM_09	BLCA-IM09-Tumor-SM-79XDF	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	9.86666666667
+IM_10	BLCA-IM10-Tumor-SM-79XDG	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	12.5
+IM_11	BLCA-IM11-Tumor-SM-79XDH	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	10.9
+IM_12	BLCA-IM12-Tumor-SM-9RN2L	Bladder	DECEASED	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	5.5
+luad_mskcc_2015_9	CA9903	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	10.9
+CANSEQU01-0100425	CANSEQU01-0100425-Tumor-SM-6ZL67	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	6.83333333333
+CR0095	CR0095_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	9.06666666667
+CR04885	CR04885_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	66.0
+CR06670	CR06670_T	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	21.0666666667
+CR1509	CR1509_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	19.1
+CR22640	CR22640_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	11.5
+CR3665	CR3665_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	5.16666666667
+CR6126	CR6126_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	19.1
+CR6161	CR6161_T	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	27.9333333333
+CR9306	CR9306_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	47.6
+CR9699	CR9699_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	43.1333333333
+luad_mskcc_2015_8	CU9061	Lung	LIVING	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	11.4666666667
+DFCI_MM_1	DFCI_MM_1-Tumor-SM-BZRJ8	Melanoma	LIVING	MEL	Melanoma	Melanoma	2.16666666667
+DFCI_MM_2	DFCI_MM_2-Tumor-SM-BZRJA	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	38.3666666667
+luad_mskcc_2015_18	DI6359	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	8.53333333333
+luad_mskcc_2015_24	DM123062	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.53333333333
+luad_mskcc_2015_11	FR9547	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	8.93333333333
+luad_mskcc_2015_23	GR4788	Lung	LIVING	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	3.16666666667
+luad_mskcc_2015_2	HE3202	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	22.7333333333
+HNSCC-186	HNSCC-186-Tumor-SM-AXGDN	HNSCC	DECEASED	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	2.03333333333
+HNSCC-215	HNSCC-215-Tumor-SM-CK9VX	HNSCC	DECEASED	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	3.26666666667
+HNSCC-238	HNSCC-238-Tumor-SM-AXGF5	HNSCC	LIVING	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	1.33333333333
+HNSCC-239	HNSCC-239-Tumor-SM-AXGCS	HNSCC	DECEASED	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	1.73333333333
+HNSCC-243	HNSCC-243-Tumor-SM-CLFNS	HNSCC	LIVING	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	1.83333333333
+HNSCC-258	HNSCC-258-Tumor-SM-AXGAI	HNSCC	LIVING	SNSC	Head and Neck Cancer	Sinonasal Squamous Cell Carcinoma	12.5
+HNSCC-266	HNSCC-266-Tumor-SM-CK9YG	HNSCC	DECEASED	OCSC	Head and Neck Cancer	Oral Cavity Squamous Cell Carcinoma	1.23333333333
+HNSCC-287	HNSCC-287-Tumor-SM-AXGEI	HNSCC	DECEASED	LXSC	Head and Neck Cancer	Larynx Squamous Cell Carcinoma	11.4
+HNSCC-296	HNSCC-296-Tumor-SM-CLFOB	HNSCC	DECEASED	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	14.1666666667
+HNSCC-305	HNSCC-305-Tumor-SM-CK9XQ	HNSCC	LIVING	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	4.06666666667
+HNSCC-306	HNSCC-306-Tumor-SM-CK9Y6	HNSCC	LIVING	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	2.2
+HNSCC-323	HNSCC-323-Tumor-SM-CK9WS	HNSCC	LIVING	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	7.46666666667
+luad_mskcc_2015_16	JB112852	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.16666666667
+luad_mskcc_2015_12	KA3947	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	10.4
+luad_mskcc_2015_28	LO3793	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.7
+luad_mskcc_2015_29	LO5004	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.5
+LSD0167	LSD0167_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	14.0333333333
+LSD2057	LSD2057_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	5.86666666667
+LSD3484	LSD3484_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	17.7
+LSD4744	LSD4744_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	37.6666666667
+LSD6819	LSD6819_T	Melanoma	LIVING	ACRM	Melanoma	Acral Melanoma	7.1
+SU2C-1026	LUAD-BS-08-013532-Tumor-SM-9J2Y1	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	5.1
+SU2C-1022	LUAD-BS-10-J11656-Tumor-SM-9J2Y7	Lung	DECEASED	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	7.66666666667
+SU2C-1037	LUAD-BS-10-R22401-Tumor-SM-9J2XK	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	5.4
+SU2C-1038	LUAD-BS-11-F1305-Tumor-SM-9J2XG	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.53333333333
+SU2C-1039	LUAD-BS-11-R21845-Tumor-SM-9J2YH	Lung	LIVING	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.9
+SU2C-1029	LUAD-BS-12-R10269-Tumor-SM-9J2XO	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	11.7
+SU2C-1027	LUAD-BS-12-X27523-Tumor-SM-9J2Y5	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.13333333333
+SU2C-1030	LUAD-BS-13-F33496-Tumor-SM-9J2XU	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	6.16666666667
+SU2C-1024	LUAD-BS-13-J60666-Tumor-SM-9J2YL	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	13.1666666667
+SU2C-1028	LUAD-BS-13-N35728-Tumor-SM-9J2XI	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.2
+SU2C-1034	LUAD-BS-13-X14864-Tumor-SM-9J2XQ	Lung	DECEASED	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	32.6
+SU2C-1025	LUAD-BS-14-G65174-Tumor-SM-9J2YF	Lung	DECEASED	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	9.26666666667
+SU2C-1021	LUAD-BS-14-J45174-Tumor-SM-9J2YJ	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	5.7
+SU2C-1035	LUAD-BS-14-N19784-Tumor-SM-9J2XW	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.56666666667
+LUNG-2630	LUNG-2630-Tumor-SM-CLFOY	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	18.4666666667
+DFCI-11-104	Lung-DFCI-11-104-009-Tumor-SM-5YS7O	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	47.7666666667
+luad_mskcc_2015_5	M4945	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	9.43333333333
+luad_mskcc_2015_13	MA7027	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	7.86666666667
+MEL-582186	MEL-582186-Tumor-SM-CN21Q	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	1.93333333333
+MEL-587761	MEL-587761-Tumor-SM-CN1ZV	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	6.26666666667
+MEL-650366	MEL-650366-Tumor-SM-CN221	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	7.33333333333
+MEL-682321	MEL-682321-Tumor-SM-CN21G	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	33.3666666667
+Pat02	MEL-IPI_Pat02-Tumor-SM-4DJZX	Melanoma	LIVING	MUP	Melanoma	Melanoma of Unknown Primary	7.0
+Pat03	MEL-IPI_Pat03-Tumor-SM-4DJZY	Melanoma	DECEASED	ACRM	Melanoma	Acral Melanoma	14.9
+Pat04	MEL-IPI_Pat04-Tumor-SM-4DJZZ	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	13.8333333333
+Pat06	MEL-IPI_Pat06-Tumor-SM-4DK12	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	5.06666666667
+Pat07	MEL-IPI_Pat07-Tumor-SM-4DK13	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	5.8
+Pat08	MEL-IPI_Pat08-Tumor-SM-4DK14	Melanoma	DECEASED	MEL	Melanoma	Melanoma	8.7
+Pat100	MEL-IPI_Pat100-Tumor-SM-53U2D	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	18.4
+Pat101	MEL-IPI_Pat101-Tumor-SM-4CU6O	Melanoma	DECEASED	ACRM	Melanoma	Acral Melanoma	2.46666666667
+Pat103	MEL-IPI_Pat103-Tumor-SM-4CU6Q	Melanoma	DECEASED	MUP	Melanoma	Melanoma of Unknown Primary	25.3
+Pat104	MEL-IPI_Pat104-Tumor-SM-4CU6R	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	1.23333333333
+Pat105	MEL-IPI_Pat105-Tumor-SM-4CU6S	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	4.8
+Pat106	MEL-IPI_Pat106-Tumor-SM-4CU6T	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	0.766666666667
+Pat11	MEL-IPI_Pat11-Tumor-SM-4DK17	Melanoma	LIVING	MUP	Melanoma	Melanoma of Unknown Primary	66.3
+Pat110	MEL-IPI_Pat110-Tumor-SM-4CU6X	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	216.733333333
+Pat111	MEL-IPI_Pat111-Tumor-SM-4CU6Y	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	46.2
+Pat113	MEL-IPI_Pat113-Tumor-SM-53U2Q	Melanoma	DECEASED	MUP	Melanoma	Melanoma of Unknown Primary	10.2
+Pat115	MEL-IPI_Pat115-Tumor-SM-5X2QS	Melanoma	DECEASED	ACRM	Melanoma	Acral Melanoma	2.4
+Pat117	MEL-IPI_Pat117-Tumor-SM-5X2QU	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	23.6333333333
+Pat118	MEL-IPI_Pat118-Tumor-SM-5X2QV	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	4.03333333333
+Pat119	MEL-IPI_Pat119-Tumor-SM-7459N	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	10.1
+Pat12	MEL-IPI_Pat12-Tumor-SM-7459O	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	3.36666666667
+Pat121	MEL-IPI_Pat121-Tumor-SM-7459K	Melanoma	DECEASED	MUP	Melanoma	Melanoma of Unknown Primary	3.7
+Pat123	MEL-IPI_Pat123-Tumor-SM-5X2R1	Melanoma	DECEASED	MUP	Melanoma	Melanoma of Unknown Primary	17.7
+Pat124	MEL-IPI_Pat124-Tumor-SM-7459L	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	13.3666666667
+Pat126	MEL-IPI_Pat126-Tumor-SM-5X2R4	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	14.2
+Pat127	MEL-IPI_Pat127-Tumor-SM-5X2R5	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	3.96666666667
+Pat128	MEL-IPI_Pat128-Tumor-SM-5X2R6	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	2.76666666667
+Pat129	MEL-IPI_Pat129-Tumor-SM-5X2R7	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	3.83333333333
+Pat13	MEL-IPI_Pat13-Tumor-SM-4DK19	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	4.3
+Pat132	MEL-IPI_Pat132-Tumor-SM-5VWJA	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	76.5
+Pat133	MEL-IPI_Pat133-Tumor-SM-7A14Z	Melanoma	DECEASED	MEL	Melanoma	Melanoma	9.1
+Pat134	MEL-IPI_Pat134-Tumor-SM-5VWJC	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	13.1666666667
+Pat135	MEL-IPI_Pat135-Tumor-SM-7A152	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	6.1
+Pat138	MEL-IPI_Pat138-Tumor-SM-7A155	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	196.633333333
+Pat139	MEL-IPI_Pat139-Tumor-SM-5VWJH	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	46.4666666667
+Pat14	MEL-IPI_Pat14-Tumor-SM-53U3C	Melanoma	DECEASED	ACRM	Melanoma	Acral Melanoma	1.7
+Pat140	MEL-IPI_Pat140-Tumor-SM-5VWJI	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	11.0666666667
+Pat143	MEL-IPI_Pat143-Tumor-SM-7A156	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	31.5666666667
+Pat144	MEL-IPI_Pat144-Tumor-SM-7A157	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	9.1
+Pat147	MEL-IPI_Pat147-Tumor-SM-7A158	Melanoma	DECEASED	MUP	Melanoma	Melanoma of Unknown Primary	19.4666666667
+Pat148	MEL-IPI_Pat148-Tumor-SM-5VWJQ	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	8.53333333333
+Pat15	MEL-IPI_Pat15-Tumor-SM-4DK1B	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	8.46666666667
+Pat151	MEL-IPI_Pat151-Tumor-SM-7A15A	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	86.2333333333
+Pat157	MEL-IPI_Pat157-Tumor-SM-7A15B	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	4.56666666667
+Pat159	MEL-IPI_Pat159-Tumor-SM-5VWK2	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	19.3333333333
+Pat16	MEL-IPI_Pat16-Tumor-SM-53U3E	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	63.0
+Pat160	MEL-IPI_Pat160-Tumor-SM-5VWK3	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	1.8
+Pat162	MEL-IPI_Pat162-Tumor-SM-7A15D	Melanoma	DECEASED	MEL	Melanoma	Melanoma	2.6
+Pat163	MEL-IPI_Pat163-Tumor-SM-5VWK6	Melanoma	LIVING	MUP	Melanoma	Melanoma of Unknown Primary	3.8
+Pat166	MEL-IPI_Pat166-Tumor-SM-7A15G	Melanoma	DECEASED	MUP	Melanoma	Melanoma of Unknown Primary	1.26666666667
+Pat167	MEL-IPI_Pat167-Tumor-SM-7A15H	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	2.03333333333
+Pat168	MEL-IPI_Pat168-Tumor-SM-5VOAX	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	8.96666666667
+Pat17	MEL-IPI_Pat17-Tumor-SM-4DK1D	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	7.16666666667
+Pat170	MEL-IPI_Pat170-Tumor-SM-5VOAZ	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	7.46666666667
+Pat171	MEL-IPI_Pat171-Tumor-SM-7A15J	Melanoma	DECEASED	ACRM	Melanoma	Acral Melanoma	2.96666666667
+Pat174	MEL-IPI_Pat174-Tumor-SM-5VOB4	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	22.1
+Pat175	MEL-IPI_Pat175-Tumor-SM-7A15L	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	3.66666666667
+Pat18	MEL-IPI_Pat18-Tumor-SM-4DK1E	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	1.3
+Pat21	MEL-IPI_Pat21-Tumor-SM-4DK1H	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	47.6666666667
+Pat24	MEL-IPI_Pat24-Tumor-SM-4DK1K	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	1.26666666667
+Pat27	MEL-IPI_Pat27-Tumor-SM-4DK1N	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	1.56666666667
+Pat32	MEL-IPI_Pat32-Tumor-SM-53U3T	Melanoma	DECEASED	MUP	Melanoma	Melanoma of Unknown Primary	24.0333333333
+Pat39	MEL-IPI_Pat39-Tumor-SM-4DK1Z	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	2.6
+Pat41	MEL-IPI_Pat41-Tumor-SM-4DK22	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	11.9333333333
+Pat43	MEL-IPI_Pat43-Tumor-SM-4DK24	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	7.36666666667
+Pat45	MEL-IPI_Pat45-Tumor-SM-4DK26	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	30.7333333333
+Pat46	MEL-IPI_Pat46-Tumor-SM-53U48	Melanoma	DECEASED	MUP	Melanoma	Melanoma of Unknown Primary	9.63333333333
+Pat47	MEL-IPI_Pat47-Tumor-SM-4DK28	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	5.1
+Pat49	MEL-IPI_Pat49-Tumor-SM-4DK2A	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	22.5333333333
+Pat50	MEL-IPI_Pat50-Tumor-SM-53U69	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	14.8
+Pat52	MEL-IPI_Pat52-Tumor-SM-4DK2D	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	13.1
+Pat54	MEL-IPI_Pat54-Tumor-SM-4DK2F	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	29.6
+Pat55	MEL-IPI_Pat55-Tumor-SM-4DK2G	Melanoma	DECEASED	SKLMM	Melanoma	Lentigo Maligna Melanoma	17.3
+Pat56	MEL-IPI_Pat56-Tumor-SM-4DK2H	Melanoma	DECEASED	ACRM	Melanoma	Acral Melanoma	1.83333333333
+Pat57	MEL-IPI_Pat57-Tumor-SM-4DK2I	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	2.16666666667
+Pat58	MEL-IPI_Pat58-Tumor-SM-4DK2J	Melanoma	DECEASED	ACRM	Melanoma	Acral Melanoma	91.0666666667
+Pat59	MEL-IPI_Pat59-Tumor-SM-4DK2K	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	9.06666666667
+Pat60	MEL-IPI_Pat60-Tumor-SM-4DK2L	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	25.9333333333
+Pat61	MEL-IPI_Pat61-Tumor-SM-4DK2M	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	0.433333333333
+Pat62	MEL-IPI_Pat62-Tumor-SM-4DK2N	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	56.7333333333
+Pat64	MEL-IPI_Pat64-Tumor-SM-4DK2P	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	22.4
+Pat66	MEL-IPI_Pat66-Tumor-SM-4DK2R	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	10.9
+Pat67	MEL-IPI_Pat67-Tumor-SM-4DK2S	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	1.0
+Pat71	MEL-IPI_Pat71-Tumor-SM-4DK2W	Melanoma	DECEASED	MUP	Melanoma	Melanoma of Unknown Primary	27.4333333333
+Pat73	MEL-IPI_Pat73-Tumor-SM-4DK2Y	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	7.73333333333
+Pat74	MEL-IPI_Pat74-Tumor-SM-4DK2Z	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	17.7
+Pat76	MEL-IPI_Pat76-Tumor-SM-4DK32	Melanoma	DECEASED	MUP	Melanoma	Melanoma of Unknown Primary	7.06666666667
+Pat77	MEL-IPI_Pat77-Tumor-SM-4DK33	Melanoma	LIVING	MUP	Melanoma	Melanoma of Unknown Primary	12.4666666667
+Pat79	MEL-IPI_Pat79-Tumor-SM-53U2S	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	10.2666666667
+Pat80	MEL-IPI_Pat80-Tumor-SM-4DK36	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	7.4
+Pat81	MEL-IPI_Pat81-Tumor-SM-4DK37	Melanoma	DECEASED	MEL	Melanoma	Melanoma	3.6
+Pat82	MEL-IPI_Pat82-Tumor-SM-4DK38	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	14.5666666667
+Pat83	MEL-IPI_Pat83-Tumor-SM-53U2W	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	1.9
+Pat85	MEL-IPI_Pat85-Tumor-SM-53U2Y	Melanoma	DECEASED	DESM	Melanoma	Desmoplastic Melanoma	17.7
+Pat86	MEL-IPI_Pat86-Tumor-SM-4DK3C	Melanoma	DECEASED	ACRM	Melanoma	Acral Melanoma	2.66666666667
+Pat87	MEL-IPI_Pat87-Tumor-SM-4DK3D	Melanoma	LIVING	ACRM	Melanoma	Acral Melanoma	1.33333333333
+Pat90	MEL-IPI_Pat90-Tumor-SM-4DK3G	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	7.5
+Pat98	MEL-IPI_Pat98-Tumor-SM-4CU6L	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	2.33333333333
+Pat99	MEL-IPI_Pat99-Tumor-SM-4CU6M	Melanoma	DECEASED	UM	Melanoma	Uveal Melanoma	0.866666666667
+luad_mskcc_2015_32	NI9507	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.5
+NR1867	NR1867_T	Melanoma	LIVING	ACRM	Melanoma	Acral Melanoma	2.93333333333
+NR2137	NR2137_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	21.2666666667
+NR3549	NR3549_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	13.4333333333
+NR4018	NR4018_T	Melanoma	LIVING	MEL	Melanoma	Melanoma	4.76666666667
+NR4045	NR4045_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	14.6333333333
+NR4083	NR4083_T	Melanoma	LIVING	MEL	Melanoma	Melanoma	11.0666666667
+NR4631	NR4631_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	38.6333333333
+NR4810	NR4810_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	12.6
+NR4949	NR4949_T	Melanoma	LIVING	MEL	Melanoma	Melanoma	19.8
+NR8815	NR8815_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	56.5666666667
+NR9445	NR9445_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	8.66666666667
+NR9449	NR9449_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	9.7
+NR9521	NR9521_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	36.1
+NR9705	NR9705_T	Melanoma	LIVING	ACRM	Melanoma	Acral Melanoma	0.9
+NR9765	NR9765_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	2.73333333333
+PR12117	PR12117_T	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	37.4
+PR4035	PR4035_T	Melanoma	LIVING	MEL	Melanoma	Melanoma	17.5666666667
+PR4046	PR4046_T	Melanoma	LIVING	MEL	Melanoma	Melanoma	4.46666666667
+PR4077	PR4077_T	Melanoma	LIVING	MEL	Melanoma	Melanoma	57.2333333333
+PR4091	PR4091_T	Melanoma	LIVING	MEL	Melanoma	Melanoma	9.06666666667
+PR4092	PR4092_T	Melanoma	LIVING	MEL	Melanoma	Melanoma	116.3
+luad_mskcc_2015_25	R7495	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.53333333333
+luad_mskcc_2015_20	RH090935	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.06666666667
+luad_mskcc_2015_6	RI1933	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	16.3333333333
+luad_mskcc_2015_27	RO3338	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.4
+luad_mskcc_2015_1	SA9755	Lung	LIVING	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	40.9333333333
+SARC-PD1	SARC-Sarcoma-PD1_responder-01-Tumor-SM-7KMQP	Sarcoma	LIVING	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	2.06666666667
+luad_mskcc_2015_19	SB010944	Lung	LIVING	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	8.66666666667
+luad_mskcc_2015_10	SC0899	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	13.1
+luad_mskcc_2015_21	SC6470	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	7.13333333333
+SD0346	SD0346_T	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	18.8333333333
+SD1494	SD1494_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	30.8
+SD2051	SD2051_T	Melanoma	DECEASED	ACRM	Melanoma	Acral Melanoma	1.13333333333
+SD2056	SD2056_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	5.0
+SD5038	SD5038_T	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	9.33333333333
+SD5118	SD5118_T	Melanoma	DECEASED	ACRM	Melanoma	Acral Melanoma	2.43333333333
+SD5934	SD5934_T	Melanoma	DECEASED	SKCM	Melanoma	Cutaneous Melanoma	5.56666666667
+SD6336	SD6336_T	Melanoma	LIVING	SKCM	Melanoma	Cutaneous Melanoma	11.4333333333
+SD6494	SD6494_T	Melanoma	DECEASED	MEL	Melanoma	Melanoma	20.8333333333
+SD7357	SD7357_T	Melanoma	DECEASED	MEL	Melanoma	Melanoma	40.5666666667
+luad_mskcc_2015_17	SR070761	Lung	LIVING	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	3.6
+SU2C-1002	SU2C_Lung-SU2C-DFCI-LUAD-1002-Tumor-SM-AOL41	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.8
+SU2C-1003	SU2C_Lung-SU2C-DFCI-LUAD-1003-Tumor-SM-AOL4D	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.1
+SU2C-1004	SU2C_Lung-SU2C-DFCI-LUAD-1004-Tumor-SM-AOL4P	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.83333333333
+SU2C-1005	SU2C_Lung-SU2C-DFCI-LUAD-1005-Tumor-SM-AOL52	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.06666666667
+SU2C-1006	SU2C_Lung-SU2C-DFCI-LUAD-1006-Tumor-SM-AOL5E	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.56666666667
+SU2C-1010	SU2C_Lung-SU2C-DFCI-LUAD-1010-Tumor-SM-AOL6S	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	5.73333333333
+SU2C-1011	SU2C_Lung-SU2C-DFCI-LUAD-1011-Tumor-SM-AOL75	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.73333333333
+SU2C-1013	SU2C_Lung-SU2C-DFCI-LUAD-1013-Tumor-SM-AOL7V	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.66666666667
+SU2C-1016	SU2C_Lung-SU2C-DFCI-LUAD-1016-Tumor-SM-AOL8W	Lung	LIVING	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.23333333333
+SU2C-1017	SU2C_Lung-SU2C-DFCI-LUAD-1017-Tumor-SM-AOL99	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	39.5333333333
+SU2C-1018	SU2C_Lung-SU2C-DFCI-LUAD-1018-Tumor-SM-AOL9H	Lung	DECEASED	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.96666666667
+SU2C-1020	SU2C_Lung-SU2C-DFCI-LUAD-1020-Tumor-SM-AOL3C	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.86666666667
+luad_mskcc_2015_26	WA7899	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.06666666667
+luad_mskcc_2015_4	Y2087	Lung	LIVING	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.56666666667

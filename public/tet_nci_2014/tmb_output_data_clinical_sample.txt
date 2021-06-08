@@ -1,0 +1,37 @@
+#Patient Identifier	Sample Identifier	Tissue Source Site	Tumor Stage	ACGH Data	Gene Panel	GTF2I Mutation Status	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	 A Tissue Source Site collects samples (tissue, cell, or blood) and cliincal metadata which are then sent to tha Biospecimen Core Resource. 	Tumor stage.	ACGH Data.	Gene panel.	GTF2I Mutation Status	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TISSUE_SOURCE_SITE	TUMOR_STAGE	ACGH_DATA	GENE_PANEL	GTF2I_MUTATION_STATUS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+P-Thy001	P-Thy001	Frozen	IIA	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.666666666667
+P-Thy003	P-Thy003	Frozen	III	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	1.13333333333
+P-Thy008	P-Thy008	Frozen	IIA	CGH	RNASeq	MUT	TET	Thymic Tumor	Thymic Epithelial Tumor	NA
+P-Thy015	P-Thy015	Frozen	IVA	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.633333333333
+P-Thy016	P-Thy016	Frozen	IIA	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.333333333333
+P-Thy018	P-Thy018	Frozen	IIA	CGH	 WXS, RNASeq 	MUT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.433333333333
+P-Thy019	P-Thy019	Frozen	IIB	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.4
+P-Thy021	P-Thy021	Frozen	IIB	CGH	 WXS, RNASeq 	MUT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.333333333333
+P-Thy025	P-Thy025	Frozen	IVA	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.8
+P-Thy026	P-Thy026	Frozen	IIB	CGH	WXS	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.1
+P-Thy027	P-Thy027	Frozen	IIB	CGH	 WXS, RNASeq 	MUT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.4
+P-Thy031	P-Thy031	Frozen	IIA	CGH	 WXS, RNASeq 	MUT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.266666666667
+P-Thy034	P-Thy034	Frozen	IIB	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.133333333333
+P-Thy037	P-Thy037	Frozen	IIA	CGH	 WXS, RNASeq 	MUT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.5
+P-Thy041	P-Thy041	Frozen	IVA	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.0333333333333
+P-Thy046	P-Thy046	Frozen	IIB	CGH	WXS	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.533333333333
+P-Thy047	P-Thy047	Frozen	IIB	CGH	WXS	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.1
+P-Thy051	P-Thy051	Frozen	IIA	CGH	WXS	MUT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.433333333333
+N-Thy002	N-Thy002	Frozen	IVB	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.5
+N-Thy004	N-Thy004	Frozen	IVB	CGH	WXS	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	2.4
+N-Thy008	N-Thy008	Frozen	IVB	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	1.56666666667
+N-Thy009	N-Thy009	Frozen	IVB	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.633333333333
+N-Thy011	N-Thy011	Frozen	IVB	CGH	 WXS, RNASeq 	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	1.0
+N-Thy015	N-Thy015	Frozen	IVB	CGH	WXS	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.833333333333
+N-Thy017	N-Thy017	Frozen	IVA	CGH	WXS	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.666666666667
+Padua001	Padua001	Frozen	uk	CGH	WXS	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	2.06666666667
+Padua002	Padua002	Frozen	uk	CGH	WXS	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.3
+CMPC11-3103	CMPC11-3103	FFPE	IVB	CGH	WXS	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	0.2
+CMPC11-3104	CMPC11-3104	FFPE	IVB	CGH	WXS	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	1.23333333333
+T1682	T1682	Cell Line	uk		RNASeq	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	NA
+TY82	TY82	Cell Line	uk		RNASeq	WT	TET	Thymic Tumor	Thymic Epithelial Tumor	NA
+P-Thy009	P-Thy009						TET	Thymic Tumor	Thymic Epithelial Tumor	NA

@@ -1,0 +1,966 @@
+#Patient Identifier	Sample Identifier	Sequencing Type	Sample Type	Relapse/Sequenced	Subtype Details	Ploidy	Oncotree Code 	Cancer Type	Cancer Type Detailed	Tumor Details	TMB (nonsynonymous)
+#Patient identifier	Sample identifier	Sequencing Type	The type of sample (i.e., normal, primary, met, recurrence).	Relapse/Sequenced	Subtype Details	Ploidy	Oncotree Code	Cancer Type	Cancer Type Detailed	Tumor Details	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SEQUENCING_TYPE	SAMPLE_TYPE	RELAPSE_SEQUENCED	SUBTYPE_DETAILS	PLOIDY	ONCOTREE_CODE_CANCER_TYPE	CANCER_TYPE	CANCER_TYPE_DETAILED	TUMOR_DETAILS	TMB_NONSYNONYMOUS
+ALL-B-1	ALL-B-1	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+ALL-B-10	ALL-B-10	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.233333333333
+ALL-B-10-R	ALL-B-10-R	WES	Relapse	Relapse_of_ALL-B-10	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.333333333333
+ALL-B-11	ALL-B-11	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.133333333333
+ALL-B-11-R	ALL-B-11-R	WES	Relapse	Relapse_of_ALL-B-11	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.733333333333
+ALL-B-12	ALL-B-12	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.6
+ALL-B-12-R	ALL-B-12-R	WES	Relapse	Relapse_of_ALL-B-12	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.233333333333
+ALL-B-13	ALL-B-13	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+ALL-B-13-R	ALL-B-13-R	WES	Relapse	Relapse_of_ALL-B-13	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	5.0
+ALL-B-14	ALL-B-14	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.666666666667
+ALL-B-14-R	ALL-B-14-R	WES	Relapse	Relapse_of_ALL-B-14	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	7.76666666667
+ALL-B-15	ALL-B-15	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.2
+ALL-B-15-R	ALL-B-15-R	WES	Relapse	Relapse_of_ALL-B-15	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.666666666667
+ALL-B-16	ALL-B-16	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.1
+ALL-B-16-R	ALL-B-16-R	WES	Relapse	Relapse_of_ALL-B-16	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.5
+ALL-B-17	ALL-B-17	WES	Primary		Hyperdiploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.166666666667
+ALL-B-17-R	ALL-B-17-R	WES	Relapse	Relapse_of_ALL-B-17	Hyperdiploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.166666666667
+ALL-B-18	ALL-B-18	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.1
+ALL-B-18-R	ALL-B-18-R	WES	Relapse	Relapse_of_ALL-B-18	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.1
+ALL-B-19	ALL-B-19	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.1
+ALL-B-19-R	ALL-B-19-R	WES	Relapse	Relapse_of_ALL-B-19	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.266666666667
+ALL-B-2	ALL-B-2	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.366666666667
+ALL-B-2-R	ALL-B-2-R	WES	Relapse	Relapse_of_ALL-B-2	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	1.46666666667
+ALL-B-20	ALL-B-20	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.133333333333
+ALL-B-20-R	ALL-B-20-R	WES	Relapse	Relapse_of_ALL-B-20	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	1.23333333333
+ALL-B-21	ALL-B-21	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.1
+ALL-B-21-R	ALL-B-21-R	WES	Relapse	Relapse_of_ALL-B-21	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.766666666667
+ALL-B-23	ALL-B-23	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.5
+ALL-B-23-R	ALL-B-23-R	WES	Relapse	Relapse_of_ALL-B-23	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.533333333333
+ALL-B-3	ALL-B-3	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.166666666667
+ALL-B-3-R	ALL-B-3-R	WES	Relapse	Relapse_of_ALL-B-3	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.533333333333
+ALL-B-4	ALL-B-4	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.266666666667
+ALL-B-4-R	ALL-B-4-R	WES	Relapse	Relapse_of_ALL-B-4	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.3
+ALL-B-5	ALL-B-5	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.166666666667
+ALL-B-5-R	ALL-B-5-R	WES	Relapse	Relapse_of_ALL-B-5	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	4.86666666667
+ALL-B-6	ALL-B-6	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.1
+ALL-B-6-R	ALL-B-6-R	WES	Relapse	Relapse_of_ALL-B-6	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	1.1
+ALL-B-8	ALL-B-8	WES	Primary		Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.333333333333
+ALL-B-8-R	ALL-B-8-R	WES	Relapse	Relapse_of_ALL-B-8	Diploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	4.43333333333
+ALL-B-22	ALL-B-22	WES	Primary		Hypodiploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.0333333333333
+ALL-B-22-R	ALL-B-22-R	WES	Relapse	Relapse_of_ALL-B-22	Hypodiploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	1.9
+ALL-B-7	ALL-B-7	WES	Primary		Near Haploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.6
+ALL-B-7-R	ALL-B-7-R	WES	Relapse	Relapse_of_ALL-B-7	Near Haploid	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	1.0
+INF_08	INF_08	WES	Primary			NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.233333333333
+T-ALL_H_E114-R	T-ALL_H_E114-R	WES	Relapse		Mature	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.0666666666667
+T-ALL_H_F110-R	T-ALL_H_F110-R	WES	Relapse		Pre-T	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.0333333333333
+T-ALL_H_KI17	T-ALL_H_KI17	WES	Primary		Mature	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.166666666667
+T-ALL_H_KI17-R	T-ALL_H_KI17-R	WES	Relapse	Relapse_of_T-ALL_H_KI17	Mature	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.0333333333333
+T-ALL_H_MD40	T-ALL_H_MD40	WES	Primary		Cortical	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.1
+T-ALL_H_MD40-R	T-ALL_H_MD40-R	WES	Relapse	Relapse_of_T-ALL_H_MD40	Cortical	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.1
+T-ALL_H_S-00169	T-ALL_H_S-00169	WES	Primary		Pre-T	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.133333333333
+T-ALL_H_S-00169-R	T-ALL_H_S-00169-R	WES	Relapse	Relapse_of_T-ALL_H_S-00169	Pre-T	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.133333333333
+T-ALL_H_S-00207	T-ALL_H_S-00207	WES	Primary		Mature	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.166666666667
+T-ALL_H_S-00207-R	T-ALL_H_S-00207-R	WES	Relapse	Relapse_of_T-ALL_H_S-00207	Mature	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.233333333333
+T-ALL_H_S-00285	T-ALL_H_S-00285	WES	Primary		Mature	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.0333333333333
+T-ALL_H_S-00285-R	T-ALL_H_S-00285-R	WES	Relapse	Relapse_of_T-ALL_H_S-00285	Mature	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.6
+T-ALL_H_S-00438	T-ALL_H_S-00438	WES	Primary		Cortical	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.1
+T-ALL_H_S-00438-R	T-ALL_H_S-00438-R	WES	Relapse	Relapse_of_T-ALL_H_S-00438	Cortical	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.166666666667
+T-ALL_H_T128	T-ALL_H_T128	WES	Primary		Cortical	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.0333333333333
+T-ALL_H_T128-R	T-ALL_H_T128-R	WES	Relapse	Relapse_of_T-ALL_H_T128	Cortical	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.0333333333333
+T-ALL_H_T92	T-ALL_H_T92	WES	Primary		Cortical	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.0666666666667
+T-ALL_H_T92-R	T-ALL_H_T92-R	WES	Relapse	Relapse_of_T-ALL_H_T92	Cortical	NA	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	T-cell acute lymphoblastic leukemia	0.0333333333333
+AML_m_14	AML_m_14	WES	Primary		M1Auer	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.0333333333333
+AML_w_12	AML_w_12	WES	Primary		M1Auer	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.466666666667
+AML_m_11	AML_m_11	WES	Primary		M2	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.0666666666667
+AML_m_17	AML_m_17	WES	Primary		M2	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.0666666666667
+AML_m_18	AML_m_18	WES	Primary		M2	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	NA
+AML_m_2	AML_m_2	WES	Primary		M2	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.166666666667
+AML_m_3	AML_m_3	WES	Primary		M2Auer	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.133333333333
+AML_m_6	AML_m_6	WES	Primary		M2	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.4
+AML_m_1	AML_m_1	WES	Primary		M3	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.1
+AML_m_9	AML_m_9	WES	Primary		M3	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.233333333333
+AML_w_16	AML_w_16	WES	Primary		M4Auer	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.0666666666667
+AML_w_5	AML_w_5	WES	Primary		M5	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	NA
+AML_m_15	AML_m_15	WES	Primary		M7	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	NA
+AML_w_13	AML_w_13	WES	Primary		M7Down	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.1
+AML_w_8	AML_w_8	WES	Primary		NA	NA	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.1
+INF_26	INF_26	WES	Relapse			NA	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypial teratoid/rhabdoid tumor	0.3
+SJHGG010324	SJHGG010324	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.633333333333
+SJHGG010325	SJHGG010325	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.633333333333
+SJHGG045	SJHGG045	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.866666666667
+SJHGG048	SJHGG048	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.9
+SJHGG049	SJHGG049	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.8
+SJHGG050	SJHGG050	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.633333333333
+SJHGG051	SJHGG051	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.733333333333
+SJHGG053	SJHGG053	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.766666666667
+SJHGG054	SJHGG054	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.2
+SJHGG055	SJHGG055	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.533333333333
+SJHGG058	SJHGG058	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.366666666667
+SJHGG060	SJHGG060	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.766666666667
+SJHGG061	SJHGG061	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.733333333333
+SJHGG062	SJHGG062	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	1.1
+SJHGG066	SJHGG066	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.766666666667
+SJHGG067	SJHGG067	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.166666666667
+SJHGG068	SJHGG068	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	1.0
+SJHGG071	SJHGG071	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.333333333333
+SJHGG073	SJHGG073	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.7
+SJHGG076	SJHGG076	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.533333333333
+SJHGG105	SJHGG105	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.966666666667
+SJHGG109	SJHGG109	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	NA
+INF_44	INF_44	WES	Relapse			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.6
+SJHGG008	SJHGG008	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.833333333333
+SJHGG047	SJHGG047	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.233333333333
+SJHGG056	SJHGG056	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.233333333333
+SJHGG057	SJHGG057	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.533333333333
+SJHGG063	SJHGG063	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.166666666667
+SJHGG065	SJHGG065	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.233333333333
+SJHGG070	SJHGG070	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.366666666667
+SJHGG074	SJHGG074	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.4
+SJHGG079	SJHGG079	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.4
+SJHGG106	SJHGG106	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	NA
+SJHGG117	SJHGG117	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	NA
+SJHGG118	SJHGG118	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.5
+NG-6166_E22954_95	NG-6166_E22954_95	WES	Primary			NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.166666666667
+10EP11	10EP11	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+10EP13	10EP13	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.1
+10EP15	10EP15	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.233333333333
+10EP17	10EP17	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0666666666667
+10EP3	10EP3	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.2
+10EP5	10EP5	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.2
+10EP7	10EP7	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0666666666667
+11EP32	11EP32	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.1
+11EP32-R	11EP32-R	WES	Relapse	Relapse_of_11EP32	PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+4EP10	4EP10	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.1
+7EP16	7EP16	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.333333333333
+7EP18	7EP18	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.433333333333
+7EP2	7EP2	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.266666666667
+7EP23	7EP23	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.3
+7EP3	7EP3	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.333333333333
+7EP31	7EP31	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.233333333333
+7EP32	7EP32	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.366666666667
+7EP4	7EP4	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.2
+7EP5	7EP5	WES	Primary		PFB	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.266666666667
+7EP6	7EP6	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.366666666667
+9EP7	9EP7	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+9EP8	9EP8	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.133333333333
+9EP9	9EP9	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+INF_43	INF_43	WES	Relapse		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.266666666667
+INF_35	INF_35	WES	Relapse		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.3
+NG-6166_2EP20	NG-6166_2EP20	WES	Primary		PFB	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.2
+NG-6166_2EP20-R	NG-6166_2EP20-R	WES	Relapse	Relapse_of_NG-6166_2EP20	PFB	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.533333333333
+NG-6166_3EP27	NG-6166_3EP27	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0666666666667
+NG-6166_4EP28	NG-6166_4EP28	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.4
+NG-6166_4EP28-R	NG-6166_4EP28-R	WES	Relapse	Relapse_of_NG-6166_4EP28	PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+NG-6166_5EP29	NG-6166_5EP29	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.2
+NG-6166_5EP29-R	NG-6166_5EP29-R	WES	Relapse	Relapse_of_NG-6166_5EP29	PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.466666666667
+NG-6166_7EP26	NG-6166_7EP26	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	NA
+NG-6166_7EP26-R	NG-6166_7EP26-R	WES	Relapse	Relapse_of_NG-6166_7EP26	PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0666666666667
+NG-6166_BT2008008	NG-6166_BT2008008	WES	Primary			NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.8
+NG-6166_BT2009070	NG-6166_BT2009070	WES	Primary			NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.3
+NG-6166_N1172_97	NG-6166_N1172_97	WES	Primary		PFB	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.4
+NG-6166_N1172_97-R	NG-6166_N1172_97-R	WES	Relapse	Relapse_of_NG-6166_N1172_97	PFB	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.333333333333
+NG-6166_N398_03	NG-6166_N398_03	WES	Primary		PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0666666666667
+NG-6166_N398_03-R	NG-6166_N398_03-R	WES	Relapse	Relapse_of_NG-6166_N398_03	PFA	NA	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.833333333333
+11EP8	11EP8	WES	Primary		St-Relpos	NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.666666666667
+11EP8-R	11EP8-R	WES	Relapse	Relapse_of_11EP8	St-Relpos	NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.3
+6EP11-R	6EP11-R	WES	Relapse		St-Relpos	NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.766666666667
+9EP2	9EP2	WES	Primary		St-Se	NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.0333333333333
+NG-6166_3EP68	NG-6166_3EP68	WES	Primary		St-Relpos	NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.466666666667
+NG-6166_3EP68-R	NG-6166_3EP68-R	WES	Relapse	Relapse_of_NG-6166_3EP68	St-Relpos	NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	1.66666666667
+NG-6166_4EP37	NG-6166_4EP37	WES	Primary		St-Relpos	NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.1
+NG-6166_4EP46	NG-6166_4EP46	WES	Primary		St-Yap	NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.0333333333333
+NG-6166_4EP46-R	NG-6166_4EP46-R	WES	Relapse	Relapse_of_NG-6166_4EP46	St-Yap	NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.0333333333333
+NG-6166_BT2009037	NG-6166_BT2009037	WES	Primary			NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.333333333333
+NG-6166_BT2009037-R	NG-6166_BT2009037-R	WES	Relapse	Relapse_of_NG-6166_BT2009037		NA	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.7
+ES_TUM_K0009	ES_TUM_K0009	WES	Primary		No_Fusion	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.0333333333333
+ES_TUM_K0011	ES_TUM_K0011	WES	Primary		No_Fusion	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.1
+INF_05	INF_05	WES	Relapse		No_Fusion	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.133333333333
+ES_FR_06	ES_FR_06	WES	Relapse		Ews-Erg	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.766666666667
+ES_TUM_K0002	ES_TUM_K0002	WES	Primary		Ews-Fli1	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.366666666667
+ES_TUM_K0003	ES_TUM_K0003	WES	Primary		Ews-Fli1	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.1
+ES_TUM_K0010	ES_TUM_K0010	WES	Primary		NA	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.3
+ES_TUM_K0014	ES_TUM_K0014	WES	Primary		Ews-Fli1	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.233333333333
+ES_TUM_K0014-R	ES_TUM_K0014-R	WES	Relapse	Relapse_of_ES_TUM_K0014	Ews-Fli1	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.5
+ES_TUM_K0016	ES_TUM_K0016	WES	Primary		Ews-Fli1	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.4
+ES_TUM_K0017	ES_TUM_K0017	WES	Primary		Ews-Fli1	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.166666666667
+ES_TUM_K0022	ES_TUM_K0022	WES	Primary		Ews-Fli1	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.2
+ES_TUM_K0023	ES_TUM_K0023	WES	Primary		Ews-Fli1	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.366666666667
+ES_TUM_K0024	ES_TUM_K0024	WES	Relapse		Ews-Fli1	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.233333333333
+INF_54	INF_54	WES	Relapse		NA	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.966666666667
+INF_29	INF_29	WES	Relapse			NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.966666666667
+INF_49	INF_49	WES	Relapse		NA	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.8
+INF_32	INF_32	WES	Relapse		NA	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	1.26666666667
+INF_24	INF_24	WES	Relapse		NA	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.2
+ES_FR_05	ES_FR_05	WES	Primary		NA	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.233333333333
+ES_FR_10	ES_FR_10	WES	Relapse		NA	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.2
+ES_FR_12	ES_FR_12	WES	Primary		NA	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.0666666666667
+ES_TUM_K0006	ES_TUM_K0006	WES	Primary		NA	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.933333333333
+ES_TUM_K0020	ES_TUM_K0020	WES	Primary		NA	NA	ES	Bone	Ewing's sarcoma	Ewing's sarcoma	0.166666666667
+SJHGG031	SJHGG031	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	4.06666666667
+SJHGG043	SJHGG043	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.6
+SJHGG030	SJHGG030	WES	Primary		NA	NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	NA
+INF_42	INF_42	WES	Relapse			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.433333333333
+SJHGG014	SJHGG014	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.9
+SJHGG094	SJHGG094	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.266666666667
+INF_10	INF_10	WES	Relapse			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	NA
+INF_10-R	INF_10-R	WES	Relapse	Relapse_of_INF_10		NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.266666666667
+INF_51	INF_51	WES	Relapse			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.366666666667
+SJHGG022	SJHGG022	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	1.86666666667
+SJHGG023	SJHGG023	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	1.33333333333
+SJHGG026	SJHGG026	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.0666666666667
+SJHGG034	SJHGG034	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	7.7
+SJHGG036	SJHGG036	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.4
+SJHGG037	SJHGG037	WES	Primary		GB	NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	1.23333333333
+SJHGG042	SJHGG042	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.566666666667
+SJHGG081	SJHGG081	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.2
+SJHGG082	SJHGG082	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.333333333333
+SJHGG084	SJHGG084	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.0333333333333
+SJHGG089	SJHGG089	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	1.0
+SJHGG093	SJHGG093	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.7
+SJHGG021	SJHGG021	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.366666666667
+SJHGG100	SJHGG100	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.4
+SJHGG104	SJHGG104	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.4
+SJHGG018	SJHGG018	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.333333333333
+SJHGG025	SJHGG025	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.2
+SJHGG035	SJHGG035	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.766666666667
+SJHGG085	SJHGG085	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	NA
+SJHGG086	SJHGG086	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.0333333333333
+SJHGG090	SJHGG090	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.133333333333
+SJHGG107	SJHGG107	WES	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.0666666666667
+HP_ES_LMU_KAP734	HP_ES_LMU_KAP734	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	0.0333333333333
+HP_ES_LMU_KAP744	HP_ES_LMU_KAP744	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	NA
+HP_LMU_KAP253	HP_LMU_KAP253	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	0.633333333333
+HP_LMU_KAP528	HP_LMU_KAP528	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	0.3
+HP_LMU_KAP577	HP_LMU_KAP577	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	NA
+HP_LMU_KAP612	HP_LMU_KAP612	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	0.0333333333333
+HP_LMU_KAP629	HP_LMU_KAP629	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	0.166666666667
+HP_LMU_KAP667	HP_LMU_KAP667	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	0.2
+HP_LMU_KAP678	HP_LMU_KAP678	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	NA
+HP_LMU_KAP690	HP_LMU_KAP690	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	NA
+HP_LMU_KAP794	HP_LMU_KAP794	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	NA
+HP_LMU_KAP802	HP_LMU_KAP802	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	0.766666666667
+HP_LMU_KAP804	HP_LMU_KAP804	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	NA
+HP_LMU_KAP843	HP_LMU_KAP843	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	0.0333333333333
+HP_ES_LMU_KAP175	HP_ES_LMU_KAP175	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	0.333333333333
+HP_ES_LMU_KAP227	HP_ES_LMU_KAP227	WES	Primary			NA	LIHB	Hepatobiliary Cancer	Hepatoblastoma	Hepatoblastoma	1.93333333333
+MB_Exm599	MB_Exm599	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	2.36666666667
+MB_Exm987	MB_Exm987	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	2.63333333333
+MB_Exm250	MB_Exm250	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.333333333333
+MB_Exm528	MB_Exm528	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.233333333333
+MB_Exm10	MB_Exm10	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.4
+MB_Exm557	MB_Exm557	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	2.23333333333
+MB_Exm564	MB_Exm564	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	1.73333333333
+MB_Exm702	MB_Exm702	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	1.96666666667
+INF_40	INF_40	WES	Relapse			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.566666666667
+INF_46	INF_46	WES	Relapse			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.133333333333
+INF_38	INF_38	WES	Relapse			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.466666666667
+MB_Exm1001	MB_Exm1001	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.6
+MB_Exm1017	MB_Exm1017	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.3
+MB_Exm17	MB_Exm17	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.533333333333
+MB_Exm23	MB_Exm23	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	2.93333333333
+MB_Exm516	MB_Exm516	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.466666666667
+MB_Exm575	MB_Exm575	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.466666666667
+MB_Exm645	MB_Exm645	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	1.7
+MB_Exm704	MB_Exm704	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.6
+MB_Exm879	MB_Exm879	WES	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	1.83333333333
+NB_E_009	NB_E_009	WES	Primary		NA	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.2
+NB-S-163	NB-S-163	WES	Primary		64	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.433333333333
+NB-S-190	NB-S-190	WES	Primary		100	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0333333333333
+NB-S-209	NB-S-209	WES	Primary		30	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.6
+NB-S-221	NB-S-221	WES	Primary		32	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.233333333333
+NB-S-224	NB-S-224	WES	Primary		50	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0666666666667
+NB-S-230	NB-S-230	WES	Primary		20	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	1.63333333333
+NB-S-413	NB-S-413	WES	Primary		20	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.433333333333
+NB-S-432	NB-S-432	WES	Primary		50	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.133333333333
+NB-S-435	NB-S-435	WES	Primary		40	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.266666666667
+NB-S-440	NB-S-440	WES	Primary		70	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.566666666667
+NB-S-446	NB-S-446	WES	Primary		30	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.1
+NB-S-485	NB-S-485	WES	Primary		20	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.5
+NB-S-493	NB-S-493	WES	Primary		15	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.266666666667
+NB-S-494	NB-S-494	WES	Primary		50	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.466666666667
+NB-S-497	NB-S-497	WES	Primary		20	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.566666666667
+NB-S-543	NB-S-543	WES	Primary		35	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.566666666667
+NB-S-546	NB-S-546	WES	Primary		60	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.366666666667
+NB-S-549	NB-S-549	WES	Primary		20	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.2
+NB-S-559	NB-S-559	WES	Primary		50	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.333333333333
+NB-S-571	NB-S-571	WES	Primary		15	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.266666666667
+NB-S-601	NB-S-601	WES	Primary		20	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.5
+INF_33	INF_33	WES	Relapse		NA	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	2.4
+INF_52	INF_52	WES	Relapse		NA	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.166666666667
+INF_55	INF_55	WES	Relapse		NA	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.166666666667
+NB-S-14	NB-S-14	WES	Primary		1	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.5
+NB-S-198	NB-S-198	WES	Primary		1.5	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	1.6
+NB-S-214	NB-S-214	WES	Primary		1	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.233333333333
+NB-S-419	NB-S-419	WES	Primary		1	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0333333333333
+NB-S-463	NB-S-463	WES	Primary		1.5	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.533333333333
+NB-S-475	NB-S-475	WES	Primary		1.5	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.1
+NB-S-495	NB-S-495	WES	Primary		1	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.4
+NB-S-516	NB-S-516	WES	Primary		1	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.866666666667
+NB-S-518	NB-S-518	WES	Primary		1	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.133333333333
+NB-S-588	NB-S-588	WES	Primary		1	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.166666666667
+NB-S-599	NB-S-599	WES	Primary		1	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.3
+NB-S-709	NB-S-709	WES	Primary		1	NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.766666666667
+NB-S-92	NB-S-92	WES	Primary			NA	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.433333333333
+INF_17	INF_17	WES	Relapse			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.633333333333
+INF_30	INF_30	WES	Relapse			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	1.33333333333
+INF_41	INF_41	WES	Relapse			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	2.7
+INF_15	INF_15	WES	Relapse			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	1.0
+NG-6166_HDOS1	NG-6166_HDOS1	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.366666666667
+NG-6166_HDOS2	NG-6166_HDOS2	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.5
+NG-6166_OS_HT_5	NG-6166_OS_HT_5	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.566666666667
+NG-6166_OS46	NG-6166_OS46	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.533333333333
+NG-6166_OS59	NG-6166_OS59	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.433333333333
+NG-6166_OS61	NG-6166_OS61	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.933333333333
+NG-6166_OS63	NG-6166_OS63	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.4
+NG-6166_OS65	NG-6166_OS65	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.566666666667
+OS_STU_001	OS_STU_001	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.366666666667
+OS_STU_002	OS_STU_002	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.533333333333
+OS_STU_003	OS_STU_003	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.533333333333
+OS_STU_004	OS_STU_004	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.233333333333
+OS_STU_005	OS_STU_005	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.133333333333
+OS_STU_007	OS_STU_007	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.633333333333
+OS_STU_008	OS_STU_008	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.2
+OS_STU_009	OS_STU_009	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	3.4
+OS_STU_011	OS_STU_011	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0333333333333
+OS_STU_012	OS_STU_012	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	NA
+OS_STU_013	OS_STU_013	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0333333333333
+OS_STU_014	OS_STU_014	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0666666666667
+OS_STU_015	OS_STU_015	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.166666666667
+OS_STU_016	OS_STU_016	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	NA
+OS_STU_017	OS_STU_017	WES	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	NA
+OS_STU_018	OS_STU_018	WES	Primary		Unilateral	NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0333333333333
+RB_E_021	RB_E_021	WES	Primary		Trilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0666666666667
+RB_E_030	RB_E_030	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0666666666667
+RB_E_033	RB_E_033	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0333333333333
+RB_E_040	RB_E_040	WES	Primary		Bilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0666666666667
+RB_E_044	RB_E_044	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0333333333333
+RB_E_001	RB_E_001	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	NA
+RB_E_008	RB_E_008	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	NA
+RB_E_010	RB_E_010	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0333333333333
+RB_E_011	RB_E_011	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.266666666667
+RB_E_012	RB_E_012	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.1
+RB_E_013	RB_E_013	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.233333333333
+RB_E_014	RB_E_014	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.233333333333
+RB_E_015	RB_E_015	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0333333333333
+RB_E_016	RB_E_016	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0666666666667
+RB_E_017	RB_E_017	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0666666666667
+RB_E_018	RB_E_018	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0666666666667
+RB_E_019	RB_E_019	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.1
+RB_E_020	RB_E_020	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.1
+RB_E_022	RB_E_022	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.166666666667
+RB_E_023	RB_E_023	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.133333333333
+RB_E_024	RB_E_024	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0333333333333
+RB_E_025	RB_E_025	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	NA
+RB_E_026	RB_E_026	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.1
+RB_E_027	RB_E_027	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0666666666667
+RB_E_029	RB_E_029	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.133333333333
+RB_E_032	RB_E_032	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.133333333333
+RB_E_034	RB_E_034	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.166666666667
+RB_E_035	RB_E_035	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.166666666667
+RB_E_036	RB_E_036	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.133333333333
+RB_E_037	RB_E_037	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.0333333333333
+RB_E_042	RB_E_042	WES	Primary		Unilateral	NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.166666666667
+RB_E_045	RB_E_045	WES	Primary			NA	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	0.233333333333
+INF_22	INF_22	WES	Relapse			NA	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.166666666667
+INF_28	INF_28	WES	Relapse			NA	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.533333333333
+INF_45	INF_45	WES	Relapse			NA	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	2.33333333333
+INF_27	INF_27	WES	Relapse		NA	NA	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	1.46666666667
+RH_HD_001	RH_HD_001	WES	Primary			NA	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.466666666667
+RH_HD_002	RH_HD_002	WES	Primary			NA	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.533333333333
+RH_HD_003	RH_HD_003	WES	Primary			NA	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.133333333333
+RH_HD_004	RH_HD_004	WES	Primary			NA	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.6
+RH_HD_005	RH_HD_005	WES	Primary			NA	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.7
+H025-3UQF	H025-3UQF	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.166666666667
+H025-4DQ1	H025-4DQ1	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.366666666667
+H025-672N	H025-672N	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	NA
+H025-9SVS	H025-9SVS	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.233333333333
+H025-9WWO	H025-9WWO	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.2
+H025-CR38	H025-CR38	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.233333333333
+H025-GJUB	H025-GJUB	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.233333333333
+H025-JNEY	H025-JNEY	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.1
+H025-K6YE	H025-K6YE	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.533333333333
+H025-M5VY	H025-M5VY	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.133333333333
+H025-W7QV	H025-W7QV	WES	Primary		Bilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.1
+H025-0FTA	H025-0FTA	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	NA
+H025-58VV	H025-58VV	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.266666666667
+H025-A7E5	H025-A7E5	WES	Primary		Bilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.133333333333
+H025-ASM8	H025-ASM8	WES	Primary		Bilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.5
+H025-E4Z6	H025-E4Z6	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.233333333333
+H025-FKH4	H025-FKH4	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.2
+H025-G4QA	H025-G4QA	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.3
+H025-NQKN	H025-NQKN	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.2
+H025-NYE6	H025-NYE6	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.133333333333
+H025-SVEV	H025-SVEV	WES	Primary		Bilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.0333333333333
+H025-WAFK	H025-WAFK	WES	Primary		Bilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.0666666666667
+H025-Z5BX	H025-Z5BX	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.2
+H025-ZVFT	H025-ZVFT	WES	Primary		Bilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.2
+H025-2INU	H025-2INU	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	NA
+H025-378L	H025-378L	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.166666666667
+H025-6IY8	H025-6IY8	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.133333333333
+H025-H141	H025-H141	WES	Primary		Bilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	NA
+H025-H2R3	H025-H2R3	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.466666666667
+H025-IW6I	H025-IW6I	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.166666666667
+H025-P6ZP	H025-P6ZP	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.5
+H025-SBDF	H025-SBDF	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.1
+H025-U2PS	H025-U2PS	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.0333333333333
+H025-UK1F	H025-UK1F	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.1
+H025-WC96	H025-WC96	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.233333333333
+H025-26XV	H025-26XV	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.566666666667
+H025-3ZPC	H025-3ZPC	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.0666666666667
+H025-49BJ	H025-49BJ	WES	Primary		Bilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	NA
+H025-5KEP	H025-5KEP	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.3
+H025-RGAC	H025-RGAC	WES	Primary		Bilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.0333333333333
+H025-SE46	H025-SE46	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.266666666667
+H025-SUSF	H025-SUSF	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	NA
+H025-3I0Z	H025-3I0Z	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.0666666666667
+H025-GYNY	H025-GYNY	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	NA
+H025-IMAE	H025-IMAE	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.166666666667
+H025-LFQP	H025-LFQP	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.333333333333
+H025-M02M	H025-M02M	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.466666666667
+H025-NL1L	H025-NL1L	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.133333333333
+H025-RJR4	H025-RJR4	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.266666666667
+H025-WPWB	H025-WPWB	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.166666666667
+H025-XOSK	H025-XOSK	WES	Primary		Unilateral	NA	WT	Wilms Tumor	Wilms' tumors	Wilms' tumors	0.133333333333
+SJACT004	SJACT004	WGS	Primary			2.51	ACC	Adrenocortical carcinoma	Adrenocortical carcinoma	Adrenocortical carcinoma	0.266666666667
+SJACT001	SJACT001	WGS	Primary		Kataegis	3.29	ACC	Adrenocortical carcinoma	Adrenocortical carcinoma	Adrenocortical carcinoma	0.766666666667
+SJACT002	SJACT002	WGS	Primary			5.29	ACC	Adrenocortical carcinoma	Adrenocortical carcinoma	Adrenocortical carcinoma	0.333333333333
+SJACT005	SJACT005	WGS	Primary		Chromothripsis	1.76	ACC	Adrenocortical carcinoma	Adrenocortical carcinoma	Adrenocortical carcinoma	2.3
+SJACT007	SJACT007	WGS	Primary			2.9	ACC	Adrenocortical carcinoma	Adrenocortical carcinoma	Adrenocortical carcinoma	0.5
+SJACT008	SJACT008	WGS	Primary		Kataegis	4.92	ACC	Adrenocortical carcinoma	Adrenocortical carcinoma	Adrenocortical carcinoma	1.1
+SJACT003	SJACT003	WGS	Primary		NA	1.95	ACC	Adrenocortical carcinoma	Adrenocortical carcinoma	Adrenocortical carcinoma	0.166666666667
+SJACT006	SJACT006	WGS	Primary			2	ACC	Adrenocortical carcinoma	Adrenocortical carcinoma	Adrenocortical carcinoma	0.1
+SJHYPO002	SJHYPO002	WGS	Primary		Near Haploid	1.17	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.233333333333
+SJHYPO004	SJHYPO004	WGS	Primary		Low Hypodiploid	1.51	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.266666666667
+SJHYPO006	SJHYPO006	WGS	Primary		Near Haploid	1.08	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	NA
+SJHYPO013	SJHYPO013	WGS	Primary		Low Hypodiploid	1.34	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.0333333333333
+SJHYPO021	SJHYPO021	WGS	Primary		Near Haploid	2.09	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.0333333333333
+SJHYPO022	SJHYPO022	WGS	Primary		Low Hypodiploid	1.58	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.133333333333
+SJHYPO026	SJHYPO026	WGS	Primary		Low Hypodiploid	1.49	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.0333333333333
+SJHYPO029	SJHYPO029	WGS	Primary		Masked Near Haploid	1.11	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.0666666666667
+SJHYPO042	SJHYPO042	WGS	Primary		Masked Near Haploid	1.18	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.0666666666667
+SJHYPO044	SJHYPO044	WGS	Primary		Masked Near Haploid	1.13	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.233333333333
+SJHYPO046	SJHYPO046	WGS	Primary		Near Haploid	1.1	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.0333333333333
+SJHYPO051	SJHYPO051	WGS	Primary		Low Hypodiploid	1.48	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	NA
+SJHYPO052	SJHYPO052	WGS	Primary		Low Hypodiploid	1.53	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	NA
+SJHYPO055	SJHYPO055	WGS	Primary		Masked Low Hypodiploid	1.49	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.1
+SJHYPO056	SJHYPO056	WGS	Primary		Near Haploid	1.06	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.1
+SJHYPO119	SJHYPO119	WGS	Primary		Low Hypodiploid	1.49	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.0666666666667
+SJHYPO120	SJHYPO120	WGS	Primary		Low Hypodiploid	1.7	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, hypodiploid	0.0333333333333
+SJINF003	SJINF003	WGS	Primary			2.02	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJINF004	SJINF004	WGS	Primary			2.01	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJINF005	SJINF005	WGS	Primary			2	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJINF006	SJINF006	WGS	Primary			2.03	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.0333333333333
+SJINF007	SJINF007	WGS	Primary			2.01	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJINF008	SJINF008	WGS	Primary			1.98	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJINF011	SJINF011	WGS	Primary			2.01	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJINF012	SJINF012	WGS	Primary			2.07	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJINF013	SJINF013	WGS	Primary			2.01	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.0666666666667
+SJINF014	SJINF014	WGS	Primary			2	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJINF015	SJINF015	WGS	Primary			1.95	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.0333333333333
+SJINF016	SJINF016	WGS	Primary			2.03	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.0333333333333
+SJINF017	SJINF017	WGS	Primary			1.98	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJINF022	SJINF022	WGS	Primary			1.97	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.0333333333333
+SJPHALL001	SJPHALL001	WGS	Primary		Bcr-Abl1	1.99	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.0666666666667
+SJPHALL002	SJPHALL002	WGS	Primary		Bcr-Abl1	1.99	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.0333333333333
+SJPHALL003	SJPHALL003	WGS	Primary		Bcr-Abl1	2.03	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJPHALL004	SJPHALL004	WGS	Primary		Bcr-Abl1	1.99	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.0333333333333
+SJPHALL005	SJPHALL005	WGS	Primary		Bcr-Abl1	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJPHALL006	SJPHALL006	WGS	Primary		Bcr-Abl1	1.99	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	NA
+SJPHALL009	SJPHALL009	WGS	Primary		Bcr-Abl1	NA	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	B-cell acute lymphoblastic leukemia, non-hypodiploid	0.1
+SJAMLM7005	SJAMLM7005	WGS	Primary		Amlm	2.02	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.2
+SJAMLM7006	SJAMLM7006	WGS	Primary		Amlm	2.03	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.1
+SJAMLM7012	SJAMLM7012	WGS	Primary		Amlm	2.01	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.0333333333333
+SJCBF001	SJCBF001	WGS	Primary			2.01	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.2
+SJCBF003	SJCBF003	WGS	Primary			2.02	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.333333333333
+SJCBF004	SJCBF004	WGS	Primary			2	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.6
+SJCBF008	SJCBF008	WGS	Primary			1.99	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.1
+SJCBF009	SJCBF009	WGS	Primary			2.04	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.133333333333
+SJCBF011	SJCBF011	WGS	Primary			1.99	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.3
+SJCBF013	SJCBF013	WGS	Primary			2.01	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.133333333333
+SJCBF021	SJCBF021	WGS	Primary			2.03	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.133333333333
+SJCBF022	SJCBF022	WGS	Primary			2	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.366666666667
+SJCBF023	SJCBF023	WGS	Primary			2.01	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.3
+SJCBF024	SJCBF024	WGS	Primary			1.95	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.233333333333
+SJCBF026	SJCBF026	WGS	Primary			2.05	AML	Leukemia	Acute myeloid leukemias	Acute myeloid leukemias	0.1
+H049-UV6K	H049-UV6K	WGS	Primary			3.99	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.333333333333
+H049-0CWK	H049-0CWK	WGS	Primary			1.96	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.166666666667
+H049-LPDZ	H049-LPDZ	WGS	Primary			NA	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.833333333333
+H049-9PNE	H049-9PNE	WGS	Primary			NA	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.2
+H049-AVEZ	H049-AVEZ	WGS	Primary			1.9	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	1.53333333333
+H049-CELK	H049-CELK	WGS	Primary			2	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	1.16666666667
+H049-FG38	H049-FG38	WGS	Primary			1.98	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.233333333333
+H049-GP41	H049-GP41	WGS	Primary			NA	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.1
+H049-GWNW	H049-GWNW	WGS	Primary			1.96	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.3
+H049-JVCT	H049-JVCT	WGS	Primary			1.97	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	1.4
+H049-WB9V	H049-WB9V	WGS	Primary			NA	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.133333333333
+H049-5XQV	H049-5XQV	WGS	Primary			NA	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	NA
+H049-72FV	H049-72FV	WGS	Primary			NA	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.0333333333333
+H049-7SD3	H049-7SD3	WGS	Primary			3.97	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.133333333333
+H049-DQGS	H049-DQGS	WGS	Primary			2	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.166666666667
+H049-PF1J	H049-PF1J	WGS	Primary			NA	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.133333333333
+H049-SPP6	H049-SPP6	WGS	Primary			NA	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.0333333333333
+H049-ZB97	H049-ZB97	WGS	Primary			NA	ATRT	Embryonal Tumor	Atypical teratoid/rhabdoid tumor	Atypical teratoid/rhabdoid tumor	0.166666666667
+4112512	4112512	WGS	Primary		Typical	NA	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.23333333333
+4119027	4119027	WGS	Primary		Typical	2.12	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.5
+4125240	4125240	WGS	Primary		Typical	2	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	0.833333333333
+4127766	4127766	WGS	Primary		Typical	2	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.1
+4130003	4130003	WGS	Primary		Typical	2.01	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.5
+4133511	4133511	WGS	Primary		Typical	1.99	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.23333333333
+4146289	4146289	WGS	Primary		Typical	4.03	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.23333333333
+4177434	4177434	WGS	Primary		Typical	2.02	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	0.633333333333
+4177856	4177856	WGS	Primary		Typical	2.03	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.63333333333
+4182393	4182393	WGS	Primary		Typical	2.02	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.6
+4189998	4189998	WGS	Primary		Typical	2	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.63333333333
+4190495	4190495	WGS	Primary		Typical	2.02	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.93333333333
+4193278	4193278	WGS	Primary		Typical	2.03	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	0.9
+4194218	4194218	WGS	Primary		Typical	2	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	1.23333333333
+4194891	4194891	WGS	Primary		Typical	1.99	NHL	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Burkitt's lymphoma	0.933333333333
+SJHGG001	SJHGG001	WGS	Primary			4.82	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.366666666667
+SJHGG004	SJHGG004	WGS	Primary			3.6	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.2
+SJHGG101	SJHGG101	WGS	Primary			1.86	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.633333333333
+SJHGG102	SJHGG102	WGS	Primary			1.92	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.9
+SJHGG003	SJHGG003	WGS	Primary			3.75	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	3.9
+SJHGG052	SJHGG052	WGS	Primary			2.1	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.866666666667
+SJHGG059	SJHGG059	WGS	Primary			2.14	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	1.16666666667
+SJHGG064	SJHGG064	WGS	Primary			2.27	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.6
+SJHGG075	SJHGG075	WGS	Primary			5.98	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.166666666667
+SJHGG077	SJHGG077	WGS	Primary			2.15	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.366666666667
+SJEPD001	SJEPD001	WGS	Primary			2.01	EPM	Glioma	Ependymoma	Ependymoma infratentorial	NA
+SJEPD002	SJEPD002	WGS	Primary			2	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+SJEPD004	SJEPD004	WGS	Primary			1.49	EPM	Glioma	Ependymoma	Ependymoma infratentorial	1.3
+SJEPD008	SJEPD008	WGS	Primary			2.89	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.133333333333
+SJEPD009	SJEPD009	WGS	Primary			2	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.1
+SJEPD010	SJEPD010	WGS	Primary			1.99	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+SJEPD012	SJEPD012	WGS	Primary			1.99	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.133333333333
+SJEPD013	SJEPD013	WGS	Primary			2.03	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+SJEPD014	SJEPD014	WGS	Primary			1.99	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.133333333333
+SJEPD015	SJEPD015	WGS	Primary			2	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.2
+SJEPD016	SJEPD016	WGS	Primary			1.98	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+SJEPD019	SJEPD019	WGS	Primary			2.01	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.133333333333
+SJEPD020	SJEPD020	WGS	Primary			1.98	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.233333333333
+SJEPD021	SJEPD021	WGS	Primary			1.98	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+SJEPD022	SJEPD022	WGS	Primary			1.99	EPM	Glioma	Ependymoma	Ependymoma infratentorial	0.0333333333333
+SJEPD006	SJEPD006	WGS	Primary		Rela-Fusion	3.65	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.133333333333
+SJEPD017	SJEPD017	WGS	Primary		Rela-Fusion	1.99	EPM	Glioma	Ependymoma	Ependymoma supratentorial	NA
+SJEPD018	SJEPD018	WGS	Primary		Rela-Fusion	1.92	EPM	Glioma	Ependymoma	Ependymoma supratentorial	0.0333333333333
+ICGC_ET1	ICGC_ET1	WGS	Primary			2.02	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	0.3
+ICGC_ET11	ICGC_ET11	WGS	Primary			5.46	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	0.433333333333
+ICGC_ET14	ICGC_ET14	WGS	Primary			2.09	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	0.433333333333
+ICGC_ET16	ICGC_ET16	WGS	Primary			2.07	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	1.13333333333
+ICGC_ET22	ICGC_ET22	WGS	Primary			2.19	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	0.0333333333333
+ICGC_ET23	ICGC_ET23	WGS	Primary			4.3	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	0.8
+ICGC_ET7	ICGC_ET7	WGS	Primary			2	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	0.333333333333
+ICGC_ET8	ICGC_ET8	WGS	Primary			2.1	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	0.533333333333
+ICGC_ET9	ICGC_ET9	WGS	Primary			1.45	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	0.5
+ICGC_ETSW	ICGC_ETSW	WGS	Primary			2.52	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	0.233333333333
+ICGC_MB173	ICGC_MB173	WGS	Primary			2.13	EMBT	Embryonal Tumor	Embryonal Tumor	Embryonal tumor with multilayered rosettes	0.166666666667
+ICGC_GBM22	ICGC_GBM22	WGS	Primary			1.96	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.766666666667
+ICGC_GBM42	ICGC_GBM42	WGS	Primary			2.02	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.633333333333
+ICGC_GBM43	ICGC_GBM43	WGS	Primary			3.84	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	1.03333333333
+ICGC_GBM5	ICGC_GBM5	WGS	Primary			2.07	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.833333333333
+ICGC_GBM63	ICGC_GBM63	WGS	Primary			5.49	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	1.16666666667
+SJHGG041	SJHGG041	WGS	Primary			1.86	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	1.36666666667
+ICGC_GBM15	ICGC_GBM15	WGS	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	14.8666666667
+ICGC_GBM25	ICGC_GBM25	WGS	Primary			3.95	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.166666666667
+ICGC_GBM6	ICGC_GBM6	WGS	Primary		NA	NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	NA
+ICGC_GBM67	ICGC_GBM67	WGS	Primary			3.63	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	31.7333333333
+ICGC_GBM12	ICGC_GBM12	WGS	Primary			3.67	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.966666666667
+ICGC_GBM16	ICGC_GBM16	WGS	Primary			1.9	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.433333333333
+ICGC_GBM17	ICGC_GBM17	WGS	Primary			1.87	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.966666666667
+ICGC_GBM18	ICGC_GBM18	WGS	Primary			3.95	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.3
+ICGC_GBM2	ICGC_GBM2	WGS	Primary			3.83	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	1.13333333333
+ICGC_GBM24	ICGC_GBM24	WGS	Primary			3.97	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.566666666667
+ICGC_GBM26	ICGC_GBM26	WGS	Primary			5.04	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.4
+ICGC_GBM27	ICGC_GBM27	WGS	Primary			5.49	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.333333333333
+ICGC_GBM48	ICGC_GBM48	WGS	Primary			1.85	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.633333333333
+ICGC_GBM53	ICGC_GBM53	WGS	Primary			3.15	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.3
+ICGC_GBM65	ICGC_GBM65	WGS	Primary			4.1	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.4
+ICGC_GBM66	ICGC_GBM66	WGS	Relapse	Relapse_of_ICGC_GBM53		3.09	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.3
+SJHGG044	SJHGG044	WGS	Primary			3.63	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.5
+ICGC_GBM1	ICGC_GBM1	WGS	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.566666666667
+ICGC_GBM19	ICGC_GBM19	WGS	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.433333333333
+ICGC_GBM28	ICGC_GBM28	WGS	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.466666666667
+ICGC_GBM32	ICGC_GBM32	WGS	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.4
+ICGC_GBM38	ICGC_GBM38	WGS	Primary			3.63	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.366666666667
+ICGC_GBM4	ICGC_GBM4	WGS	Primary			1.97	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.366666666667
+ICGC_GBM46	ICGC_GBM46	WGS	Primary			1.91	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.833333333333
+ICGC_GBM49	ICGC_GBM49	WGS	Relapse			2.03	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	1.2
+ICGC_GBM50	ICGC_GBM50	WGS	Relapse	Relapse_of_ICGC_GBM19		2.82	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	2.9
+ICGC_GBM52	ICGC_GBM52	WGS	Primary			1.82	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.0666666666667
+ICGC_GBM56	ICGC_GBM56	WGS	Primary			4.1	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	10.3
+ICGC_GBM57	ICGC_GBM57	WGS	Primary			NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.8
+ICGC_GBM58	ICGC_GBM58	WGS	Primary			1.47	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.3
+ICGC_GBM59	ICGC_GBM59	WGS	Primary			3.69	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.833333333333
+ICGC_GBM61	ICGC_GBM61	WGS	Relapse	Relapse_of_ICGC_GBM46		1.93	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.666666666667
+ICGC_GBM71	ICGC_GBM71	WGS	Relapse			1.99	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.3
+SJHGG024	SJHGG024	WGS	Primary			2.2	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.666666666667
+SJHGG024-R	SJHGG024-R	WGS	Relapse	Relapse_of_SJHGG024		NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.833333333333
+SJHGG028	SJHGG028	WGS	Primary			1.5	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.866666666667
+SJHGG033	SJHGG033	WGS	Primary			2.04	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.333333333333
+SJHGG033-R	SJHGG033-R	WGS	Relapse	Relapse_of_SJHGG033		NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.333333333333
+SJHGG017	SJHGG017	WGS	Primary			2.07	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.366666666667
+SJHGG111	SJHGG111	WGS	Primary		NA	NA	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	NA
+SJHGG040	SJHGG040	WGS	Primary			2.11	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mmut	0.666666666667
+SJHGG027	SJHGG027	WGS	Primary			1.67	HGGNOS	Glioma	High-Grade Glioma, NOS	High-grade glioma K27Mwt	0.3
+ICGC_MB107	ICGC_MB107	WGS	Primary			1.93	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.733333333333
+ICGC_MB112	ICGC_MB112	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.733333333333
+ICGC_MB113	ICGC_MB113	WGS	Primary			1.95	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.5
+ICGC_MB117	ICGC_MB117	WGS	Primary			1.93	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.4
+ICGC_MB122	ICGC_MB122	WGS	Primary			1.95	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.466666666667
+ICGC_MB124	ICGC_MB124	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.733333333333
+ICGC_MB130	ICGC_MB130	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.3
+ICGC_MB14	ICGC_MB14	WGS	Primary			2.55	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.766666666667
+ICGC_MB176	ICGC_MB176	WGS	Primary			2.05	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.233333333333
+ICGC_MB20	ICGC_MB20	WGS	Primary			3.93	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.5
+ICGC_MB23	ICGC_MB23	WGS	Primary			1.86	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.666666666667
+ICGC_MB242	ICGC_MB242	WGS	Primary			1.94	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.466666666667
+ICGC_MB46	ICGC_MB46	WGS	Primary			1.93	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.266666666667
+SJMB001	SJMB001	WGS	Primary			1.87	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.0333333333333
+SJMB002	SJMB002	WGS	Primary			1.92	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.0333333333333
+SJMB028	SJMB028	WGS	Primary			1.95	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.0666666666667
+SJMB040	SJMB040	WGS	Primary			1.91	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.1
+SJMB041	SJMB041	WGS	Primary			2.29	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.1
+ICGC_LFS_MB1	ICGC_LFS_MB1	WGS	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.9
+ICGC_LFS_MB2	ICGC_LFS_MB2	WGS	Primary			3.61	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.933333333333
+ICGC_MB1	ICGC_MB1	WGS	Primary			1.93	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.433333333333
+ICGC_MB102	ICGC_MB102	WGS	Primary			2.01	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.633333333333
+ICGC_MB12	ICGC_MB12	WGS	Primary			1.99	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.266666666667
+ICGC_MB125	ICGC_MB125	WGS	Primary			1.87	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	1.83333333333
+ICGC_MB132	ICGC_MB132	WGS	Primary			2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.166666666667
+ICGC_MB137	ICGC_MB137	WGS	Primary			3.89	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	1.2
+ICGC_MB142	ICGC_MB142	WGS	Primary			1.94	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.666666666667
+ICGC_MB143	ICGC_MB143	WGS	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.8
+ICGC_MB145	ICGC_MB145	WGS	Primary			4.51	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	1.06666666667
+ICGC_MB171	ICGC_MB171	WGS	Primary			2.02	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.833333333333
+ICGC_MB179	ICGC_MB179	WGS	Primary			2.02	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.966666666667
+ICGC_MB181	ICGC_MB181	WGS	Primary			2.03	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.5
+ICGC_MB193	ICGC_MB193	WGS	Primary			1.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	NA
+ICGC_MB204	ICGC_MB204	WGS	Primary			1.84	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.666666666667
+ICGC_MB206	ICGC_MB206	WGS	Primary			2.17	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.3
+ICGC_MB21	ICGC_MB21	WGS	Primary			2.01	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.233333333333
+ICGC_MB243	ICGC_MB243	WGS	Primary			3.9	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.866666666667
+ICGC_MB244	ICGC_MB244	WGS	Primary			1.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.166666666667
+ICGC_MB246	ICGC_MB246	WGS	Primary			2.02	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.766666666667
+ICGC_MB250	ICGC_MB250	WGS	Primary			2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.266666666667
+ICGC_MB28	ICGC_MB28	WGS	Primary			1.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.0666666666667
+ICGC_MB3	ICGC_MB3	WGS	Primary			2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.7
+ICGC_MB302	ICGC_MB302	WGS	Primary			2.09	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.4
+ICGC_MB31	ICGC_MB31	WGS	Primary			1.94	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma WNT	0.766666666667
+ICGC_MB34	ICGC_MB34	WGS	Primary			3.69	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	1.03333333333
+ICGC_MB35	ICGC_MB35	WGS	Primary			1.95	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.1
+ICGC_MB37	ICGC_MB37	WGS	Primary			1.9	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.0666666666667
+ICGC_MB53	ICGC_MB53	WGS	Primary			3.97	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.733333333333
+ICGC_MB60	ICGC_MB60	WGS	Primary			1.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.633333333333
+ICGC_MB66	ICGC_MB66	WGS	Primary			1.95	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	1.26666666667
+ICGC_MB67	ICGC_MB67	WGS	Primary			1.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.366666666667
+ICGC_MB68	ICGC_MB68	WGS	Primary			2.04	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.566666666667
+ICGC_MB74	ICGC_MB74	WGS	Primary			1.88	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	1.5
+ICGC_MB88	ICGC_MB88	WGS	Primary			2.01	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.233333333333
+SJMB003	SJMB003	WGS	Primary			2.05	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	NA
+SJMB004	SJMB004	WGS	Primary			2.14	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.0333333333333
+SJMB012	SJMB012	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.1
+SJMB013	SJMB013	WGS	Primary			1.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.1
+SJMB033	SJMB033	WGS	Primary			1.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma SHH	0.0666666666667
+ICGC_MB106	ICGC_MB106	WGS	Primary			3.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.166666666667
+ICGC_MB111	ICGC_MB111	WGS	Primary			2.37	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.266666666667
+ICGC_MB131	ICGC_MB131	WGS	Primary			4.51	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.233333333333
+ICGC_MB134	ICGC_MB134	WGS	Primary			2.64	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.233333333333
+ICGC_MB139	ICGC_MB139	WGS	Primary			2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.133333333333
+ICGC_MB141	ICGC_MB141	WGS	Primary			2.26	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.166666666667
+ICGC_MB144	ICGC_MB144	WGS	Primary			4.09	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.566666666667
+ICGC_MB146	ICGC_MB146	WGS	Primary			2.17	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.466666666667
+ICGC_MB151	ICGC_MB151	WGS	Primary			2.23	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.3
+ICGC_MB152	ICGC_MB152	WGS	Primary			2.18	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.466666666667
+ICGC_MB153	ICGC_MB153	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.333333333333
+ICGC_MB16	ICGC_MB16	WGS	Primary			1.99	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.166666666667
+ICGC_MB165	ICGC_MB165	WGS	Primary			3.9	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.266666666667
+ICGC_MB166	ICGC_MB166	WGS	Primary			2.69	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.233333333333
+ICGC_MB168	ICGC_MB168	WGS	Primary			2.21	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.4
+ICGC_MB170	ICGC_MB170	WGS	Primary			3.68	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	1.13333333333
+ICGC_MB18	ICGC_MB18	WGS	Primary			1.94	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.633333333333
+ICGC_MB188	ICGC_MB188	WGS	Primary			2.22	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.133333333333
+ICGC_MB198	ICGC_MB198	WGS	Primary			2.09	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.466666666667
+ICGC_MB205	ICGC_MB205	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.266666666667
+ICGC_MB225	ICGC_MB225	WGS	Primary			2.16	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.366666666667
+ICGC_MB226	ICGC_MB226	WGS	Primary			2.28	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.533333333333
+ICGC_MB235	ICGC_MB235	WGS	Primary			6.01	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.233333333333
+ICGC_MB247	ICGC_MB247	WGS	Primary			2.12	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.633333333333
+ICGC_MB248	ICGC_MB248	WGS	Primary			2.13	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.866666666667
+ICGC_MB260	ICGC_MB260	WGS	Primary			6.19	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.7
+ICGC_MB271	ICGC_MB271	WGS	Primary			2.23	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.2
+ICGC_MB272	ICGC_MB272	WGS	Primary			2.11	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.4
+ICGC_MB277	ICGC_MB277	WGS	Primary			2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.233333333333
+ICGC_MB278	ICGC_MB278	WGS	Primary			2.04	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.333333333333
+ICGC_MB292	ICGC_MB292	WGS	Primary			4.12	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.133333333333
+ICGC_MB297	ICGC_MB297	WGS	Primary			1.82	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.4
+ICGC_MB36	ICGC_MB36	WGS	Primary			2.64	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.5
+ICGC_MB39	ICGC_MB39	WGS	Primary			2.08	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.166666666667
+ICGC_MB45	ICGC_MB45	WGS	Primary			4.34	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.2
+ICGC_MB5	ICGC_MB5	WGS	Primary			3.94	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.3
+ICGC_MB50	ICGC_MB50	WGS	Primary			4.61	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.4
+ICGC_MB518	ICGC_MB518	WGS	Primary			5.79	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.333333333333
+ICGC_MB800	ICGC_MB800	WGS	Primary			3.19	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.466666666667
+ICGC_MB89	ICGC_MB89	WGS	Primary			2.06	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.266666666667
+ICGC_MB9	ICGC_MB9	WGS	Primary			4.32	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.5
+ICGC_MB90	ICGC_MB90	WGS	Primary			2.51	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.0666666666667
+ICGC_MB95	ICGC_MB95	WGS	Primary			4.51	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.166666666667
+ICGC_MB96	ICGC_MB96	WGS	Primary			2.02	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.1
+ICGC_MB98	ICGC_MB98	WGS	Primary			2.72	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.266666666667
+MBRep_T27	MBRep_T27	WGS	Primary			3.24	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	1.6
+MBRep_T54	MBRep_T54	WGS	Primary			2.39	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.4
+MBRep_T71	MBRep_T71	WGS	Primary			1.97	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.933333333333
+SJMB006	SJMB006	WGS	Primary			1.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	NA
+SJMB008	SJMB008	WGS	Primary			3.49	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.0666666666667
+SJMB010	SJMB010	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	NA
+SJMB017	SJMB017	WGS	Primary			2.37	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.166666666667
+SJMB025	SJMB025	WGS	Primary			2.03	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.0333333333333
+SJMB030	SJMB030	WGS	Primary			2.05	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.166666666667
+SJMB031	SJMB031	WGS	Primary			2.07	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.0666666666667
+SJMB039	SJMB039	WGS	Primary			2.73	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group3	0.0333333333333
+ICGC_MB108	ICGC_MB108	WGS	Primary			2.04	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.233333333333
+ICGC_MB110	ICGC_MB110	WGS	Primary			4.22	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.666666666667
+ICGC_MB114	ICGC_MB114	WGS	Primary			1.95	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.333333333333
+ICGC_MB115	ICGC_MB115	WGS	Primary			2.07	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.333333333333
+ICGC_MB118	ICGC_MB118	WGS	Primary			4.16	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.3
+ICGC_MB119	ICGC_MB119	WGS	Primary			1.99	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.1
+ICGC_MB121	ICGC_MB121	WGS	Primary			1.99	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.2
+ICGC_MB129	ICGC_MB129	WGS	Primary			4.18	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.6
+ICGC_MB15	ICGC_MB15	WGS	Primary			3.86	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.5
+ICGC_MB154	ICGC_MB154	WGS	Primary			2.03	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.166666666667
+ICGC_MB174	ICGC_MB174	WGS	Primary			1.99	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	2.13333333333
+ICGC_MB175	ICGC_MB175	WGS	Primary			3.79	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	1.03333333333
+ICGC_MB177	ICGC_MB177	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.433333333333
+ICGC_MB183	ICGC_MB183	WGS	Primary			4.03	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.166666666667
+ICGC_MB184	ICGC_MB184	WGS	Primary			2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.4
+ICGC_MB185	ICGC_MB185	WGS	Primary			2.04	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0666666666667
+ICGC_MB19	ICGC_MB19	WGS	Primary			2.03	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.233333333333
+ICGC_MB199	ICGC_MB199	WGS	Primary			2.08	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.3
+ICGC_MB2	ICGC_MB2	WGS	Primary			2.04	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.3
+ICGC_MB224	ICGC_MB224	WGS	Primary			2.14	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.266666666667
+ICGC_MB227	ICGC_MB227	WGS	Primary			2.17	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0666666666667
+ICGC_MB228	ICGC_MB228	WGS	Primary			5.91	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.566666666667
+ICGC_MB229	ICGC_MB229	WGS	Primary			4.01	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.133333333333
+ICGC_MB230	ICGC_MB230	WGS	Primary			2.05	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.366666666667
+ICGC_MB232	ICGC_MB232	WGS	Primary			1.99	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+ICGC_MB233	ICGC_MB233	WGS	Primary			1.99	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.266666666667
+ICGC_MB236	ICGC_MB236	WGS	Primary			2.07	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.6
+ICGC_MB237	ICGC_MB237	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.366666666667
+ICGC_MB24	ICGC_MB24	WGS	Primary			2.03	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.233333333333
+ICGC_MB240	ICGC_MB240	WGS	Primary			4.1	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.333333333333
+ICGC_MB241	ICGC_MB241	WGS	Primary			2.01	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.3
+ICGC_MB249	ICGC_MB249	WGS	Primary			2.12	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.4
+ICGC_MB26	ICGC_MB26	WGS	Primary			4.08	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.4
+ICGC_MB261	ICGC_MB261	WGS	Primary			1.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.366666666667
+ICGC_MB264	ICGC_MB264	WGS	Primary			2.01	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+ICGC_MB265	ICGC_MB265	WGS	Primary			2.05	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	4.43333333333
+ICGC_MB269	ICGC_MB269	WGS	Primary			1.97	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.2
+ICGC_MB270	ICGC_MB270	WGS	Primary			4.06	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.3
+ICGC_MB279	ICGC_MB279	WGS	Primary			2.03	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.233333333333
+ICGC_MB280	ICGC_MB280	WGS	Primary			3.82	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.6
+ICGC_MB281	ICGC_MB281	WGS	Primary			4.05	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.6
+ICGC_MB282	ICGC_MB282	WGS	Primary			3.91	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.166666666667
+ICGC_MB286	ICGC_MB286	WGS	Primary			2.06	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.166666666667
+ICGC_MB287	ICGC_MB287	WGS	Primary			1.99	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.2
+ICGC_MB289	ICGC_MB289	WGS	Primary			2.02	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	1.73333333333
+ICGC_MB294	ICGC_MB294	WGS	Primary			2.07	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0666666666667
+ICGC_MB295	ICGC_MB295	WGS	Primary			4.58	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+ICGC_MB299	ICGC_MB299	WGS	Primary			2.04	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	NA
+ICGC_MB303	ICGC_MB303	WGS	Primary			2.18	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.4
+ICGC_MB304	ICGC_MB304	WGS	Primary			NA	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.3
+ICGC_MB32	ICGC_MB32	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.333333333333
+ICGC_MB38	ICGC_MB38	WGS	Primary			2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.2
+ICGC_MB40	ICGC_MB40	WGS	Primary			2.02	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	NA
+ICGC_MB49	ICGC_MB49	WGS	Primary			2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.566666666667
+ICGC_MB51	ICGC_MB51	WGS	Primary			2.06	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.233333333333
+ICGC_MB57	ICGC_MB57	WGS	Primary			2.02	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.5
+ICGC_MB58	ICGC_MB58	WGS	Primary			3.88	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.8
+ICGC_MB6	ICGC_MB6	WGS	Primary			3.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.633333333333
+ICGC_MB612	ICGC_MB612	WGS	Primary			5.94	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.166666666667
+ICGC_MB64	ICGC_MB64	WGS	Primary			2.1	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.466666666667
+ICGC_MB65	ICGC_MB65	WGS	Primary			2.04	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.3
+ICGC_MB7	ICGC_MB7	WGS	Primary			4.02	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.333333333333
+ICGC_MB71	ICGC_MB71	WGS	Primary			2.18	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.666666666667
+ICGC_MB8	ICGC_MB8	WGS	Primary			1.91	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.266666666667
+ICGC_MB83	ICGC_MB83	WGS	Primary			4.51	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.433333333333
+ICGC_MB84	ICGC_MB84	WGS	Primary			3.2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.366666666667
+ICGC_MB85	ICGC_MB85	WGS	Primary			1.99	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.166666666667
+ICGC_MB86	ICGC_MB86	WGS	Primary			2.06	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.3
+ICGC_MB91	ICGC_MB91	WGS	Primary			2.04	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.333333333333
+ICGC_MB92	ICGC_MB92	WGS	Primary			4.74	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.7
+ICGC_MB94	ICGC_MB94	WGS	Primary			3.98	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.933333333333
+ICGC_MB99	ICGC_MB99	WGS	Primary			1.93	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.3
+MBRep_T36	MBRep_T36	WGS	Primary			2.01	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.333333333333
+MBRep_T38	MBRep_T38	WGS	Primary			2.31	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.233333333333
+MBRep_T40	MBRep_T40	WGS	Primary			2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.266666666667
+MBRep_T41	MBRep_T41	WGS	Primary			6.03	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.2
+MBRep_T70	MBRep_T70	WGS	Primary			4.04	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.433333333333
+MBRep_T72	MBRep_T72	WGS	Primary			2.1	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.233333333333
+SJMB009	SJMB009	WGS	Primary			3.73	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	NA
+SJMB011	SJMB011	WGS	Primary			1.96	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	NA
+SJMB014	SJMB014	WGS	Primary			4.11	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+SJMB016	SJMB016	WGS	Primary			2.36	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0666666666667
+SJMB018	SJMB018	WGS	Primary			2	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0666666666667
+SJMB020	SJMB020	WGS	Primary			3.22	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0666666666667
+SJMB023	SJMB023	WGS	Primary			2.04	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+SJMB024	SJMB024	WGS	Primary			4.05	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	NA
+SJMB026	SJMB026	WGS	Primary			1.99	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+SJMB027	SJMB027	WGS	Primary			2.19	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+SJMB029	SJMB029	WGS	Primary			2.02	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	NA
+SJMB032	SJMB032	WGS	Primary			1.83	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+SJMB034	SJMB034	WGS	Primary			4.03	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+SJMB035	SJMB035	WGS	Primary			1.7	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+SJMB036	SJMB036	WGS	Primary			3.01	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	0.0333333333333
+SJMB037	SJMB037	WGS	Primary			4.51	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	NA
+SJMB038	SJMB038	WGS	Primary			2.01	MBL	Embryonal Tumor	Medulloblastoma	Medulloblastoma Group4	NA
+SJNBL012	SJNBL012	WGS	Primary		160	2.57	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0333333333333
+SJNBL016	SJNBL016	WGS	Primary		290	2.22	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0333333333333
+SJNBL019	SJNBL019	WGS	Primary		260	2.05	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	NA
+SJNBL002	SJNBL002	WGS	Primary		Unchanged	1.96	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	NA
+SJNBL003	SJNBL003	WGS	Primary		1	2.84	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0333333333333
+SJNBL007	SJNBL007	WGS	Primary		1	2	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	NA
+SJNBL009	SJNBL009	WGS	Primary		0.5	3.75	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0333333333333
+SJNBL013	SJNBL013	WGS	Primary		0	2.05	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	NA
+SJNBL018	SJNBL018	WGS	Primary		Unchanged	2.14	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	NA
+SJNBL020	SJNBL020	WGS	Primary		1.5	2.03	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	NA
+SJNBL022	SJNBL022	WGS	Primary		0	2	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	NA
+SJNBL024	SJNBL024	WGS	Primary		1.5	2.15	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0666666666667
+SJNBL025	SJNBL025	WGS	Primary		0	2.38	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0333333333333
+SJNBL026	SJNBL026	WGS	Primary		1	1.85	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	NA
+SJNBL031	SJNBL031	WGS	Primary		0.5	2.54	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0666666666667
+SJNBL034	SJNBL034	WGS	Primary		Unchanged	3.86	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0666666666667
+SJNBL036	SJNBL036	WGS	Primary		1.5	2.02	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	NA
+SJNBL038	SJNBL038	WGS	Primary		Unchanged	1.95	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0333333333333
+SJNBL041	SJNBL041	WGS	Primary		Unchanged	1.92	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0333333333333
+SJNBL042	SJNBL042	WGS	Primary		Unchanged	1.99	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	NA
+SJNBL045	SJNBL045	WGS	Primary		1	2.04	NBL	Peripheral Nervous System	Neuroblastoma	Neuroblastoma	0.0333333333333
+SJOS002	SJOS002	WGS	Primary			2.02	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0666666666667
+SJOS003	SJOS003	WGS	Primary			3.7	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0333333333333
+SJOS004	SJOS004	WGS	Primary			3.91	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0333333333333
+SJOS007	SJOS007	WGS	Primary			NA	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0666666666667
+SJOS010	SJOS010	WGS	Primary			3.06	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0333333333333
+SJOS011	SJOS011	WGS	Primary			2.93	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0333333333333
+SJOS012	SJOS012	WGS	Primary			3.62	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	NA
+SJOS013	SJOS013	WGS	Primary			4.39	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0333333333333
+SJOS014	SJOS014	WGS	Primary			2.22	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0666666666667
+SJOS015	SJOS015	WGS	Primary			2.84	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0333333333333
+SJOS016	SJOS016	WGS	Primary			2.95	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	NA
+SJOS017	SJOS017	WGS	Primary			1.86	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0666666666667
+SJOS018	SJOS018	WGS	Primary			2.42	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	NA
+SJOS019	SJOS019	WGS	Primary			2.78	OS	Bone Cancer	Osteosarcoma	Osteosarcoma	0.0666666666667
+ICGC_PA10	ICGC_PA10	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA100	ICGC_PA100	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA102	ICGC_PA102	WGS	Primary			1.95	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA103	ICGC_PA103	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA107	ICGC_PA107	WGS	Primary			1.99	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA108	ICGC_PA108	WGS	Primary			1.98	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA109	ICGC_PA109	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA11	ICGC_PA11	WGS	Primary			2.05	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA110	ICGC_PA110	WGS	Primary			1.99	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA112	ICGC_PA112	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA113	ICGC_PA113	WGS	Primary			2.02	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA12	ICGC_PA12	WGS	Primary			2.32	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA126	ICGC_PA126	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA129	ICGC_PA129	WGS	Primary			2.3	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA131	ICGC_PA131	WGS	Primary			2.73	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA132_convey	ICGC_PA132_convey	WGS	Primary			1.38	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA134	ICGC_PA134	WGS	Primary			2.04	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA135	ICGC_PA135	WGS	Primary			1.94	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA136	ICGC_PA136	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA138	ICGC_PA138	WGS	Primary			2.03	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA14	ICGC_PA14	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA140	ICGC_PA140	WGS	Primary			2.61	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA143	ICGC_PA143	WGS	Primary			2.29	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA144	ICGC_PA144	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA145	ICGC_PA145	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA147	ICGC_PA147	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA148	ICGC_PA148	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA150	ICGC_PA150	WGS	Primary			1.98	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA157	ICGC_PA157	WGS	Primary			2.08	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA158	ICGC_PA158	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA159	ICGC_PA159	WGS	Primary			2.05	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA161	ICGC_PA161	WGS	Primary			2.04	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA162	ICGC_PA162	WGS	Primary			2.04	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA165	ICGC_PA165	WGS	Primary			2.13	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA166	ICGC_PA166	WGS	Primary			NA	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA17	ICGC_PA17	WGS	Primary			2.02	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA21	ICGC_PA21	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA22	ICGC_PA22	WGS	Primary			2.39	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA24	ICGC_PA24	WGS	Primary			2.05	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA25	ICGC_PA25	WGS	Primary			1.99	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA27	ICGC_PA27	WGS	Primary			2.02	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.233333333333
+ICGC_PA28	ICGC_PA28	WGS	Primary			2.03	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA29	ICGC_PA29	WGS	Primary			2.05	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA3	ICGC_PA3	WGS	Primary			2.08	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA30	ICGC_PA30	WGS	Primary			2.24	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA33	ICGC_PA33	WGS	Primary			2.02	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA34	ICGC_PA34	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA36	ICGC_PA36	WGS	Primary			2.11	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA37	ICGC_PA37	WGS	Primary			2.1	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA39	ICGC_PA39	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA4	ICGC_PA4	WGS	Primary			2.04	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.233333333333
+ICGC_PA41	ICGC_PA41	WGS	Primary			2.03	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.2
+ICGC_PA42	ICGC_PA42	WGS	Primary			2.08	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA43	ICGC_PA43	WGS	Primary			2.03	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA46	ICGC_PA46	WGS	Primary			2.05	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA48	ICGC_PA48	WGS	Primary			2.02	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA5	ICGC_PA5	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA50	ICGC_PA50	WGS	Primary			2.03	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA53	ICGC_PA53	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA54_convey	ICGC_PA54_convey	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA55	ICGC_PA55	WGS	Primary			2.07	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA56	ICGC_PA56	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA58	ICGC_PA58	WGS	Primary			2.69	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA59	ICGC_PA59	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA62	ICGC_PA62	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA63	ICGC_PA63	WGS	Primary			2.51	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA64	ICGC_PA64	WGS	Primary			2.04	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA65	ICGC_PA65	WGS	Primary			2.13	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.266666666667
+ICGC_PA69	ICGC_PA69	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.2
+ICGC_PA70	ICGC_PA70	WGS	Primary			2.03	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA71	ICGC_PA71	WGS	Primary			2.14	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA73	ICGC_PA73	WGS	Primary			2.32	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA75	ICGC_PA75	WGS	Primary			2.69	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA79	ICGC_PA79	WGS	Primary			2.06	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA8	ICGC_PA8	WGS	Primary			2.03	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA81	ICGC_PA81	WGS	Primary			1.99	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.1
+ICGC_PA82	ICGC_PA82	WGS	Primary			2.02	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA83	ICGC_PA83	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA84	ICGC_PA84	WGS	Primary			3.99	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA85	ICGC_PA85	WGS	Primary			2.03	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA86	ICGC_PA86	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.133333333333
+ICGC_PA87	ICGC_PA87	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0666666666667
+ICGC_PA88	ICGC_PA88	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA89	ICGC_PA89	WGS	Primary			1.99	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+ICGC_PA9	ICGC_PA9	WGS	Primary			2.06	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA91	ICGC_PA91	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.166666666667
+ICGC_PA92	ICGC_PA92	WGS	Primary			2.43	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.2
+ICGC_PA93	ICGC_PA93	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.233333333333
+ICGC_PA94	ICGC_PA94	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA95	ICGC_PA95	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA96	ICGC_PA96	WGS	Primary			2.04	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+ICGC_PA97	ICGC_PA97	WGS	Primary			2.02	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.6
+ICGC_PA99	ICGC_PA99	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+SJLGG001	SJLGG001	WGS	Primary			1.99	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+SJLGG002	SJLGG002	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+SJLGG003	SJLGG003	WGS	Primary			1.99	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+SJLGG004	SJLGG004	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+SJLGG008	SJLGG008	WGS	Primary			2.61	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+SJLGG009	SJLGG009	WGS	Primary			1.99	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+SJLGG010	SJLGG010	WGS	Primary			2.05	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+SJLGG011	SJLGG011	WGS	Primary			2.01	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+SJLGG012	SJLGG012	WGS	Primary			2.04	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	0.0333333333333
+SJLGG013	SJLGG013	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+SJLGG015	SJLGG015	WGS	Primary			NA	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+SJLGG016	SJLGG016	WGS	Primary			2	PAST	Glioma	Pilocytic astrocytoma	Pilocytic astrocytoma	NA
+SJRB004	SJRB004	WGS	Primary		Unilateral	4.59	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	NA
+SJRB001	SJRB001	WGS	Primary		Unilateral	2.1	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	NA
+SJRB002	SJRB002	WGS	Primary		Unilateral	1.99	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	NA
+SJRB003	SJRB003	WGS	Primary		Unilateral	2.1	RBL	Retinoblastoma	Retinoblastoma	Retinoblastoma	NA
+SJRHB007	SJRHB007	WGS	Primary		Pax3/Foxo1-Fusion	2.18	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	NA
+SJRHB008	SJRHB008	WGS	Primary		Pax3/Foxo1-Fusion	1.82	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	NA
+SJRHB009	SJRHB009	WGS	Primary		Pax3/Foxo1-Fusion	3.79	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.0333333333333
+SJRHB010	SJRHB010	WGS	Primary		Pax3/Foxo1-Fusion	2.04	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.0333333333333
+SJRHB001	SJRHB001	WGS	Primary		NA	5.08	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.0666666666667
+SJRHB002	SJRHB002	WGS	Primary		NA	2.61	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	NA
+SJRHB003	SJRHB003	WGS	Primary		NA	3.23	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.0333333333333
+SJRHB004	SJRHB004	WGS	Primary		NA	6.02	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.0333333333333
+SJRHB005	SJRHB005	WGS	Primary		Negative	2.51	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	NA
+SJRHB006	SJRHB006	WGS	Primary		Negative	1.93	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	NA
+SJRHB011	SJRHB011	WGS	Primary		NA	2.13	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.133333333333
+SJRHB012	SJRHB012	WGS	Primary		Negative	2.81	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	Rhabdomyosarcoma	0.1

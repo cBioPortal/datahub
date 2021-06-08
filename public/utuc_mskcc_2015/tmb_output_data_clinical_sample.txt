@@ -1,0 +1,90 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	Year of Surgery	Neoplasm Histologic Grade	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	Year of surgery.	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING
+#1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	YEAR_OF_SURGERY	GRADE	TMB_NONSYNONYMOUS
+DS-bla-021	DS-bla-021	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2007	HG	4.48619597498
+DS-bla-026	DS-bla-026	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	HG	52.7128027061
+DS-bla-027	DS-bla-027	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	HG	5.60774496873
+DS-bla-028	DS-bla-028	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2008	HG	7.85084295622
+DS-bla-032	DS-bla-032	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	HG	12.3370389312
+DS-bla-033	DS-bla-033	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2010	HG	6.72929396248
+DS-bla-035	DS-bla-035	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	HG	4.48619597498
+DS-uttcc-001	DS-uttcc-001-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2095	HG	5.60774496873
+DS-uttcc-002	DS-uttcc-002-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2099	HG	2.24309798749
+DS-uttcc-003	DS-uttcc-003-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2001	HG	6.72929396248
+DS-uttcc-004	DS-uttcc-004-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2001	LG	14.5801369187
+DS-uttcc-005	DS-uttcc-005-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2001	HG	11.2154899375
+DS-uttcc-006	DS-uttcc-006-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2002	HG	7.85084295622
+DS-uttcc-007	DS-uttcc-007-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2002	LG	12.3370389312
+DS-uttcc-008	DS-uttcc-008-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2002	HG	5.60774496873
+DS-uttcc-009	DS-uttcc-009-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2002	HG	2.24309798749
+DS-uttcc-010	DS-uttcc-010-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2003	HG	5.60774496873
+DS-uttcc-011	DS-uttcc-011-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2003	HG	4.48619597498
+DS-uttcc-012	DS-uttcc-012-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2004	HG	11.2154899375
+DS-uttcc-013	DS-uttcc-013-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2004	HG	2.24309798749
+DS-uttcc-014	DS-uttcc-014-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2004	HG	7.85084295622
+DS-uttcc-015	DS-uttcc-015-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2006	HG	5.60774496873
+DS-uttcc-016	DS-uttcc-016-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2006	HG	4.48619597498
+DS-uttcc-017	DS-uttcc-017-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2008	HG	2.24309798749
+DS-uttcc-018	DS-uttcc-018-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2008	HG	3.36464698124
+DS-uttcc-019	DS-uttcc-019-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2008	HG	3.36464698124
+DS-uttcc-020	DS-uttcc-020-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2009	HG	6.72929396248
+DS-uttcc-021	DS-uttcc-021-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2010	HG	5.60774496873
+DS-uttcc-022	DS-uttcc-022-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2010	HG	2.24309798749
+DS-uttcc-023	DS-uttcc-023-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2012	HG	17.9447838999
+DS-uttcc-024	DS-uttcc-024-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2013	HG	7.85084295622
+DS-uttcc-025	DS-uttcc-025-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2001	LG	20.1878818874
+DS-uttcc-026	DS-uttcc-026-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2001	LG	8.97239194997
+DS-uttcc-027	DS-uttcc-027-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2002	HG	1.12154899375
+DS-uttcc-028	DS-uttcc-028-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2002	HG	0.0
+DS-uttcc-029	DS-uttcc-029-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2003	HG	7.85084295622
+DS-uttcc-030	DS-uttcc-030-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2003	LG	5.60774496873
+DS-uttcc-031	DS-uttcc-031-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2005	HG	12.3370389312
+DS-uttcc-032	DS-uttcc-032-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2005	HG	8.97239194997
+DS-uttcc-033	DS-uttcc-033-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2007	HG	11.2154899375
+DS-uttcc-034	DS-uttcc-034-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2008	HG	5.60774496873
+DS-uttcc-035	DS-uttcc-035-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2008	HG	5.60774496873
+DS-uttcc-036	DS-uttcc-036-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2009	HG	5.60774496873
+DS-uttcc-037	DS-uttcc-037-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2009	HG	6.72929396248
+DS-uttcc-038	DS-uttcc-038-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2009	HG	3.36464698124
+DS-uttcc-039	DS-uttcc-039-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2009	LG	1.12154899375
+DS-uttcc-040	DS-uttcc-040-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2010	HG	3.36464698124
+DS-uttcc-041	DS-uttcc-041-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2010	HG	34.7680188061
+DS-uttcc-042	DS-uttcc-042-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	LG	11.2154899375
+DS-uttcc-043	DS-uttcc-043-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	HG	3.36464698124
+DS-uttcc-044	DS-uttcc-044-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	LG	5.60774496873
+DS-uttcc-045	DS-uttcc-045-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	HG	20.1878818874
+DS-uttcc-046	DS-uttcc-046-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	HG	12.3370389312
+DS-uttcc-047	DS-uttcc-047-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	HG	5.60774496873
+DS-uttcc-048	DS-uttcc-048-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2012	LG	4.48619597498
+DS-uttcc-049	DS-uttcc-049-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2012	HG	13.458587925
+DS-uttcc-050	DS-uttcc-050-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2012	HG	5.60774496873
+DS-uttcc-051	DS-uttcc-051-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2008	HG	16.8232349062
+DS-uttcc-052	DS-uttcc-052-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2002	LG	4.48619597498
+DS-uttcc-053	DS-uttcc-053-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2002	HG	3.36464698124
+DS-uttcc-054	DS-uttcc-054-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2002	HG	5.60774496873
+DS-uttcc-055	DS-uttcc-055-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2003	HG	4.48619597498
+DS-uttcc-056	DS-uttcc-056-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2005	LG	6.72929396248
+DS-uttcc-057	DS-uttcc-057-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2007	HG	5.60774496873
+DS-uttcc-058	DS-uttcc-058-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2007	HG	7.85084295622
+DS-uttcc-059	DS-uttcc-059-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2007	HG	5.60774496873
+DS-uttcc-060	DS-uttcc-060-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2008	HG	473.293675361
+DS-uttcc-061	DS-uttcc-061-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	LG	59.4420966686
+DS-uttcc-062	DS-uttcc-062-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	HG	3.36464698124
+DS-uttcc-062	DS-uttcc-062-M	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2011	HG	3.36464698124
+DS-uttcc-063	DS-uttcc-063-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2012	HG	7.85084295622
+DS-uttcc-063	DS-uttcc-063-M	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2012	HG	7.85084295622
+DS-uttcc-064	DS-uttcc-064-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2013	HG	10.0939409437
+DS-uttcc-069	DS-uttcc-069-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG	22.4309798749
+DS-uttcc-070	DS-uttcc-070-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG	8.97239194997
+DS-uttcc-071	DS-uttcc-071-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG	8.97239194997
+DS-uttcc-072	DS-uttcc-072-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG	2.24309798749
+DS-uttcc-073	DS-uttcc-073-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG	11.2154899375
+DS-uttcc-074	DS-uttcc-074-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG	10.0939409437
+DS-uttcc-075	DS-uttcc-075-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG	6.72929396248
+DS-uttcc-076	DS-uttcc-076-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG	8.97239194997
+DS-uttcc-077	DS-uttcc-077-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG 	21.3094308812
+DS-uttcc-078	DS-uttcc-078-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG	19.0663328937
+DS-uttcc-079	DS-uttcc-079-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma			1.12154899375
+DS-uttcc-081	DS-uttcc-081-P	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma		LG	5.60774496873

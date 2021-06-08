@@ -1,0 +1,48 @@
+#Patient Identifier	Sample Identifier	Primary Tumor Location	PAX Fusion	Oncotree Code	Tumor Sample Histology	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Primary Tumor Location	PAX Fusion	Oncotree Code	Tumor Sample Histology	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	PRIMARY_TUMOR_LOCATION	PAX_FUSION	ONCOTREE_CODE	TUMOR_SAMPLE_HISTOLOGY	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+NCI-0040	NCI-0040	Left Thigh	PAX7-FOX01	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.566666666667
+NCI-0082	NCI-0082	Left Gluteus	PAX7-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.333333333333
+RMS2001	RMS2001	Nasal Cavity	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.0666666666667
+RMS2015	RMS2015	Abdominal Wall	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.633333333333
+RMS2016	RMS2016	Perinea!	PAX7-FOXO1	RMS	Mixed Alveolar-Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.0666666666667
+RMS202	RMS202	Paratesticular	Fusion Negative (RNAseq)	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.5
+RMS2028	RMS2028	Pelvis	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.433333333333
+RMS2029	RMS2029	Right Thigh	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.333333333333
+RMS2030	RMS2030	Left Orbital	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	1.7
+RMS2032	RMS2032	Paratesticular	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.466666666667
+RMS2034	RMS2034	Testis-Paratestis	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.633333333333
+RMS2035	RMS2035	Nasopharynx		RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.0666666666667
+RMS2037	RMS2037	Extremity	Fusion Negative (RT-PCR)	RMS	Mixed Alveolar/Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.2
+RMS2038	RMS2038	Abdominal Wall	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.366666666667
+RMS2046	RMS2046	Left Chest, Diaphram	PAX3-IN080D	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.133333333333
+RMS2047	RMS2047	Infratemporal fossa	Fusion Negative (RT-PCR)	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.733333333333
+RMS2051	RMS2051	Mandible	Fusion Negative (RT-PCR)	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	1.16666666667
+RMS206	RMS206	Testis-Pa ratestis	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.833333333333
+RMS2076	RMS2076	Hand	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.2
+RMS2079	RMS2079	Vulva	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.0666666666667
+RMS2083	RMS2083	Testis-Pa ratestis	Fusion Negative (RT-PCR)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.866666666667
+RMS2104	RMS2104	Hand	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.3
+RMS2105	RMS2105	Perinea!	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.166666666667
+RMS2107	RMS2107	Paratesticular	Fusion Negative (RNAseq)	RMS	Mixed Alveolar/Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.633333333333
+RMS2110	RMS2110	Omentum	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.833333333333
+RMS2111	RMS2111	Renal	Fusion Negative (RNAseq)	RMS	RMS-NOS	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.866666666667
+RMS2114	RMS2114	Pelvis	PAX3-FOXO1	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.2
+RMS2117	RMS2117	Pelvis	Fusion Negative (RNAseq)	RMS	RMS-NOS	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.133333333333
+RMS212	RMS212	Pelvis, site indeterminate	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.133333333333
+RMS216	RMS216	Abdominal Wall	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.4
+RMS217	RMS217	retroperitoneal pelvis	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	1.0
+RMS221	RMS221	Pelvis	PAX3-FOXO1	RMS	RMS-NOS	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.266666666667
+RMS223	RMS223	Abdominal Wall	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.0666666666667
+RMS225	RMS225	Pelvis/Labia	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.233333333333
+RMS227	RMS227	Pelvis	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.0666666666667
+RMS232	RMS232	Extremity	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.0666666666667
+RMS235	RMS235	Pelvis/Perineal	PAX3-NCOA1 (RNAseq)	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.233333333333
+RMS237	RMS237	Pelvis		RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.233333333333
+RMS239	RMS239	Pelvis	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.3
+RMS240	RMS240	Abdomen/Diaphram	Fusion Negative (RNAseq)	RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.833333333333
+RMS246	RMS246	Pelvis/Buttock	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.0666666666667
+RMS247	RMS247	Pelvis	PAX3-FOXO1	RMS	Alveolar	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.0333333333333
+RMS249	RMS249	Paratesticular		RMS	Embryonal	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.266666666667

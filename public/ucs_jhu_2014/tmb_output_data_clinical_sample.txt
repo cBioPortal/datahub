@@ -1,0 +1,27 @@
+#Patient Identifier	Sample Identifier	Tumor Stage	Tissue Source Site	Percent Tumor Purity	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Tumor stage.	A Tissue Source Site collects samples (tissue, cell, or blood) and cliincal metadata which are then sent to tha Biospecimen Core Resource.	Percent tumor purity.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR_STAGE	TISSUE_SOURCE_SITE	PERCENTAGE_TUMOR_PURITY	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+MM01T	MM01T	IIIA	Frozen	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	0.9
+MM02T	MM02T	IA	Frozen	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.7
+MM03T	MM03T	NA	FFPE	70	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.0
+MM04T	MM04T	I	FFPE	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	188.133333333
+MM05T	MM05T	IIC	FFPE	80	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.2
+MM06T	MM06T	IV	Frozen	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	0.833333333333
+MM07T	MM07T	NA	FFPE	80	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	0.133333333333
+MM08T	MM08T	IB	FFPE	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.23333333333
+MM09T	MM09T	III	FFPE	80	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.2
+MM10T	MM10T	IIIC	Frozen	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	2.5
+MM11T	MM11T	IIIA	FFPE	80	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	0.966666666667
+MM12T	MM12T	IB	FFPE	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	184.166666667
+MM13T	MM13T	NA	FFPE	70	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	2.7
+MM14T	MM14T	IIIA	Frozen	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.43333333333
+MM15T	MM15T	NA	FFPE	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	0.666666666667
+MM16T	MM16T	IIIA	Frozen	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.2
+MM17T	MM17T	IIIA	Frozen	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	2.13333333333
+MM18T	MM18T	IB	FFPE	80	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	186.933333333
+MM19T	MM19T	II	Frozen	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.7
+MM20T	MM20T	IB	FFPE	80	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	28.8333333333
+MM21T	MM21T	IB	Frozen	90	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.53333333333
+MM22T	MM22T	IIC	Frozen	80	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.76666666667

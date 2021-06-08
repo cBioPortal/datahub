@@ -1,0 +1,461 @@
+#Patient Identifier	Sample Identifier	Sample Type	Sample Class	Tumor Grade	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The type of sample (i.e., normal, primary, met, recurrence).	The sample classification (i.e., tumor, cellline, xenograph).	Histologic grading criteria for adenoid cystic carcinoma (Szanto, et. al, 1984)	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_TYPE	SAMPLE_CLASS	TUMOR_GRADE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+3.014	3.014		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+A10.7	A10.7		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+A2.1	A2.1		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+A32-1	A32-1		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+A38-5	A38-5		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+A44.2	A44.2		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+A6L	A6L		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+GARV_0658	GARV_0658		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.53333333333
+GARV_0659	GARV_0659		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.66666666667
+GARV_0660	GARV_0660		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.3
+GARV_0661	GARV_0661		Cell line	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.7
+GARV_0662	GARV_0662		Cell line	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.06666666667
+GARV_0663	GARV_0663		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.76666666667
+GARV_0664	GARV_0664		Cell line	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.833333333333
+GARV_0665	GARV_0665		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.16666666667
+GARV_0666	GARV_0666		Cell line	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.96666666667
+GARV_0667	GARV_0667		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.06666666667
+GARV_0668	GARV_0668		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	3.0
+GARV_0669	GARV_0669		Cell line	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.9
+GARV_0670	GARV_0670		Cell line	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.7
+GARV_0671	GARV_0671		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.03333333333
+GARV_0672	GARV_0672		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.26666666667
+GARV_0673	GARV_0673		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.4
+GARV_0674	GARV_0674		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.533333333333
+ICGC_0002	ICGC_0002	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.13333333333
+ICGC_0003	ICGC_0003	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.166666666667
+ICGC_0004	ICGC_0004	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.3
+ICGC_0005	ICGC_0005		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	3.03333333333
+ICGC_0006	ICGC_0006	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	4.86666666667
+ICGC_0007	ICGC_0007	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.13333333333
+ICGC_0008	ICGC_0008		Cell line	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.56666666667
+ICGC_0009	ICGC_0009	Primary	Tumour	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0010	ICGC_0010	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.433333333333
+ICGC_0011	ICGC_0011	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.566666666667
+ICGC_0012	ICGC_0012	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.2
+ICGC_0013	ICGC_0013	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.33333333333
+ICGC_0015	ICGC_0015	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.8
+ICGC_0016	ICGC_0016		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.93333333333
+ICGC_0017	ICGC_0017	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0
+ICGC_0018	ICGC_0018	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.26666666667
+ICGC_0019	ICGC_0019	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.666666666667
+ICGC_0020	ICGC_0020	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.4
+ICGC_0021	ICGC_0021	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.3
+ICGC_0022	ICGC_0022	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.1
+ICGC_0023	ICGC_0023	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.766666666667
+ICGC_0024	ICGC_0024	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.366666666667
+ICGC_0025	ICGC_0025	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.13333333333
+ICGC_0026	ICGC_0026	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.33333333333
+ICGC_0027	ICGC_0027	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.7
+ICGC_0028	ICGC_0028	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.5
+ICGC_0029	ICGC_0029	Metastasis	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.03333333333
+ICGC_0030	ICGC_0030	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.03333333333
+ICGC_0031	ICGC_0031	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.43333333333
+ICGC_0032	ICGC_0032		Cell line	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.2
+ICGC_0033	ICGC_0033	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.6
+ICGC_0034	ICGC_0034		Cell line	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	5.8
+ICGC_0035	ICGC_0035	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.13333333333
+ICGC_0036	ICGC_0036	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.1
+ICGC_0037	ICGC_0037	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	3.16666666667
+ICGC_0038	ICGC_0038	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.1
+ICGC_0039	ICGC_0039	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.833333333333
+ICGC_0040	ICGC_0040		Cell line	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.2
+ICGC_0041	ICGC_0041	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.766666666667
+ICGC_0042	ICGC_0042		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.7
+ICGC_0043	ICGC_0043	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.03333333333
+ICGC_0044	ICGC_0044	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.83333333333
+ICGC_0045	ICGC_0045	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.533333333333
+ICGC_0046	ICGC_0046	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.8
+ICGC_0047	ICGC_0047	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0
+ICGC_0048	ICGC_0048	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.1
+ICGC_0049	ICGC_0049	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.866666666667
+ICGC_0050	ICGC_0050	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.8
+ICGC_0051	ICGC_0051	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.5
+ICGC_0052	ICGC_0052	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.53333333333
+ICGC_0053	ICGC_0053	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0054	ICGC_0054	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	5.93333333333
+ICGC_0055	ICGC_0055	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.2
+ICGC_0056	ICGC_0056	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.26666666667
+ICGC_0057	ICGC_0057	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0058	ICGC_0058	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.4
+ICGC_0059	ICGC_0059	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.8
+ICGC_0060	ICGC_0060	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.46666666667
+ICGC_0061	ICGC_0061	Primary	Tumour	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.23333333333
+ICGC_0062	ICGC_0062		Cell line	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.43333333333
+ICGC_0063	ICGC_0063	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.66666666667
+ICGC_0064	ICGC_0064	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.766666666667
+ICGC_0065	ICGC_0065	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.33333333333
+ICGC_0066	ICGC_0066	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.16666666667
+ICGC_0067	ICGC_0067	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.63333333333
+ICGC_0069	ICGC_0069	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.06666666667
+ICGC_0071	ICGC_0071	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333
+ICGC_0072	ICGC_0072		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.4
+ICGC_0075	ICGC_0075	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.7
+ICGC_0076	ICGC_0076		Cell line	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	36.6
+ICGC_0077	ICGC_0077		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.3
+ICGC_0079	ICGC_0079	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.233333333333
+ICGC_0082	ICGC_0082	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0084	ICGC_0084		Cell line	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	3.2
+ICGC_0085	ICGC_0085		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.06666666667
+ICGC_0086	ICGC_0086	Metastasis	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.2
+ICGC_0087	ICGC_0087	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.26666666667
+ICGC_0088	ICGC_0088	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	3.06666666667
+ICGC_0089	ICGC_0089		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	3.23333333333
+ICGC_0090	ICGC_0090	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	11.0
+ICGC_0092	ICGC_0092	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0
+ICGC_0093	ICGC_0093	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.4
+ICGC_0094	ICGC_0094	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333
+ICGC_0095	ICGC_0095	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333
+ICGC_0096	ICGC_0096	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0097	ICGC_0097	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.666666666667
+ICGC_0098	ICGC_0098		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.23333333333
+ICGC_0099	ICGC_0099	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.6
+ICGC_0101	ICGC_0101	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.666666666667
+ICGC_0102	ICGC_0102	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0103	ICGC_0103	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.73333333333
+ICGC_0104	ICGC_0104	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.8
+ICGC_0105	ICGC_0105	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.43333333333
+ICGC_0106	ICGC_0106	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.03333333333
+ICGC_0107	ICGC_0107	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.26666666667
+ICGC_0108	ICGC_0108	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0109	ICGC_0109	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.16666666667
+ICGC_0110	ICGC_0110	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.766666666667
+ICGC_0111	ICGC_0111	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.2
+ICGC_0112	ICGC_0112	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.8
+ICGC_0114	ICGC_0114	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.83333333333
+ICGC_0115	ICGC_0115	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.86666666667
+ICGC_0116	ICGC_0116	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.26666666667
+ICGC_0117	ICGC_0117	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0666666666667
+ICGC_0118	ICGC_0118		Cell line	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.33333333333
+ICGC_0119	ICGC_0119		Cell line	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.66666666667
+ICGC_0121	ICGC_0121	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.03333333333
+ICGC_0123	ICGC_0123	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.866666666667
+ICGC_0124	ICGC_0124	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0125	ICGC_0125	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0131	ICGC_0131	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	3.53333333333
+ICGC_0132	ICGC_0132	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.966666666667
+ICGC_0133	ICGC_0133	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333
+ICGC_0134	ICGC_0134	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.53333333333
+ICGC_0135	ICGC_0135	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.46666666667
+ICGC_0136	ICGC_0136	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.266666666667
+ICGC_0137	ICGC_0137		Cell line	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.8
+ICGC_0138	ICGC_0138	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.4
+ICGC_0139	ICGC_0139	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.8
+ICGC_0140	ICGC_0140	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.1
+ICGC_0141	ICGC_0141	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.3
+ICGC_0143	ICGC_0143	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.1
+ICGC_0144	ICGC_0144	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.833333333333
+ICGC_0146	ICGC_0146	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.566666666667
+ICGC_0147	ICGC_0147	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0
+ICGC_0148	ICGC_0148	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.7
+ICGC_0149	ICGC_0149	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	3.76666666667
+ICGC_0150	ICGC_0150	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.96666666667
+ICGC_0152	ICGC_0152	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.833333333333
+ICGC_0153	ICGC_0153	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.93333333333
+ICGC_0154	ICGC_0154	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0157	ICGC_0157	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.3
+ICGC_0159	ICGC_0159	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.666666666667
+ICGC_0162	ICGC_0162	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.9
+ICGC_0164	ICGC_0164	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.366666666667
+ICGC_0165	ICGC_0165	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.7
+ICGC_0169	ICGC_0169	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.6
+ICGC_0170	ICGC_0170	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.166666666667
+ICGC_0173	ICGC_0173	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.3
+ICGC_0174	ICGC_0174	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.5
+ICGC_0175	ICGC_0175	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.6
+ICGC_0178	ICGC_0178	Primary	Tumour	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.93333333333
+ICGC_0179	ICGC_0179	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.766666666667
+ICGC_0180	ICGC_0180	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0666666666667
+ICGC_0182	ICGC_0182	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0185	ICGC_0185	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.866666666667
+ICGC_0187	ICGC_0187	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.433333333333
+ICGC_0188	ICGC_0188	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.3
+ICGC_0190	ICGC_0190	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0191	ICGC_0191	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.566666666667
+ICGC_0192	ICGC_0192	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.73333333333
+ICGC_0194	ICGC_0194	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.83333333333
+ICGC_0195	ICGC_0195	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.133333333333
+ICGC_0197	ICGC_0197	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.9
+ICGC_0199	ICGC_0199	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.03333333333
+ICGC_0201	ICGC_0201	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.13333333333
+ICGC_0202	ICGC_0202	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.233333333333
+ICGC_0203	ICGC_0203	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.966666666667
+ICGC_0205	ICGC_0205	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.3
+ICGC_0206	ICGC_0206	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.5
+ICGC_0207	ICGC_0207	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.56666666667
+ICGC_0208	ICGC_0208	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.1
+ICGC_0209	ICGC_0209	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0210	ICGC_0210	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.366666666667
+ICGC_0212	ICGC_0212	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.4
+ICGC_0214	ICGC_0214	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.1
+ICGC_0215	ICGC_0215	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	4.46666666667
+ICGC_0216	ICGC_0216	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.6
+ICGC_0217	ICGC_0217	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.43333333333
+ICGC_0219	ICGC_0219	Primary	Tumour	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.4
+ICGC_0223	ICGC_0223	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0
+ICGC_0224	ICGC_0224	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.6
+ICGC_0225	ICGC_0225	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.3
+ICGC_0226	ICGC_0226	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.166666666667
+ICGC_0227	ICGC_0227	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.66666666667
+ICGC_0228	ICGC_0228	Primary	Tumour		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.6
+ICGC_0229	ICGC_0229	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.9
+ICGC_0230	ICGC_0230	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.966666666667
+ICGC_0234	ICGC_0234	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.733333333333
+ICGC_0235	ICGC_0235	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.36666666667
+ICGC_0236	ICGC_0236	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.33333333333
+ICGC_0238	ICGC_0238	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.333333333333
+ICGC_0239	ICGC_0239	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.1
+ICGC_0240	ICGC_0240	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.2
+ICGC_0241	ICGC_0241	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.533333333333
+ICGC_0242	ICGC_0242	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.13333333333
+ICGC_0243	ICGC_0243	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.2
+ICGC_0244	ICGC_0244	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.63333333333
+ICGC_0245	ICGC_0245	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.4
+ICGC_0246	ICGC_0246	Primary	Tumour		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.333333333333
+ICGC_0247	ICGC_0247	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.1
+ICGC_0251	ICGC_0251	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.366666666667
+ICGC_0252	ICGC_0252	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.16666666667
+ICGC_0253	ICGC_0253	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.666666666667
+ICGC_0254	ICGC_0254	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.133333333333
+ICGC_0255	ICGC_0255	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0256	ICGC_0256	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.56666666667
+ICGC_0257	ICGC_0257	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.9
+ICGC_0258	ICGC_0258	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.4
+ICGC_0259	ICGC_0259	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.833333333333
+ICGC_0260	ICGC_0260	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.733333333333
+ICGC_0263	ICGC_0263	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.1
+ICGC_0264	ICGC_0264	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0666666666667
+ICGC_0265	ICGC_0265	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.333333333333
+ICGC_0266	ICGC_0266	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.133333333333
+ICGC_0267	ICGC_0267	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.5
+ICGC_0269	ICGC_0269	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0270	ICGC_0270	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.866666666667
+ICGC_0271	ICGC_0271	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.7
+ICGC_0273	ICGC_0273	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.1
+ICGC_0274	ICGC_0274	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.3
+ICGC_0275	ICGC_0275	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.766666666667
+ICGC_0276	ICGC_0276	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.33333333333
+ICGC_0277	ICGC_0277	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.46666666667
+ICGC_0278	ICGC_0278	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0279	ICGC_0279	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.466666666667
+ICGC_0280	ICGC_0280	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.53333333333
+ICGC_0282	ICGC_0282	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.33333333333
+ICGC_0283	ICGC_0283	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.36666666667
+ICGC_0285	ICGC_0285	Primary	Tumour	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.7
+ICGC_0286	ICGC_0286	Primary	Tumour		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.8
+ICGC_0288	ICGC_0288	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0289	ICGC_0289	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.46666666667
+ICGC_0290	ICGC_0290	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	5.5
+ICGC_0291	ICGC_0291	Primary	Tumour		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.9
+ICGC_0292	ICGC_0292	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.2
+ICGC_0294	ICGC_0294	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.366666666667
+ICGC_0295	ICGC_0295	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.76666666667
+ICGC_0296	ICGC_0296	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.0
+ICGC_0300	ICGC_0300	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0301	ICGC_0301	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.833333333333
+ICGC_0302	ICGC_0302	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.633333333333
+ICGC_0303	ICGC_0303	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.9
+ICGC_0304	ICGC_0304	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.53333333333
+ICGC_0305	ICGC_0305	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.33333333333
+ICGC_0307	ICGC_0307	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.466666666667
+ICGC_0308	ICGC_0308	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333
+ICGC_0309	ICGC_0309	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.7
+ICGC_0310	ICGC_0310	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.866666666667
+ICGC_0311	ICGC_0311	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.266666666667
+ICGC_0312	ICGC_0312	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.3
+ICGC_0313	ICGC_0313	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.33333333333
+ICGC_0314	ICGC_0314	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.8
+ICGC_0315	ICGC_0315	Primary	Tumour		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.4
+ICGC_0316	ICGC_0316	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.56666666667
+ICGC_0317	ICGC_0317	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.1
+ICGC_0318	ICGC_0318	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0
+ICGC_0319	ICGC_0319	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.06666666667
+ICGC_0320	ICGC_0320	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.13333333333
+ICGC_0321	ICGC_0321	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	4.33333333333
+ICGC_0322	ICGC_0322	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.03333333333
+ICGC_0323	ICGC_0323	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.966666666667
+ICGC_0324	ICGC_0324	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	3.76666666667
+ICGC_0326	ICGC_0326	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.66666666667
+ICGC_0327	ICGC_0327		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.76666666667
+ICGC_0328	ICGC_0328		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	6.36666666667
+ICGC_0329	ICGC_0329		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.0
+ICGC_0336	ICGC_0336	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.766666666667
+ICGC_0337	ICGC_0337	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.766666666667
+ICGC_0338	ICGC_0338	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.8
+ICGC_0339	ICGC_0339	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0340	ICGC_0340	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0341	ICGC_0341	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.73333333333
+ICGC_0342	ICGC_0342	Metastasis	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.16666666667
+ICGC_0343	ICGC_0343	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.5
+ICGC_0345	ICGC_0345	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.9
+ICGC_0346	ICGC_0346	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.5
+ICGC_0347	ICGC_0347	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.133333333333
+ICGC_0349	ICGC_0349	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.56666666667
+ICGC_0350	ICGC_0350	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.8
+ICGC_0351	ICGC_0351	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.666666666667
+ICGC_0352	ICGC_0352	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.2
+ICGC_0354	ICGC_0354	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0358	ICGC_0358	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333
+ICGC_0360	ICGC_0360	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.566666666667
+ICGC_0361	ICGC_0361	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.266666666667
+ICGC_0362	ICGC_0362	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.333333333333
+ICGC_0363	ICGC_0363	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.9
+ICGC_0364	ICGC_0364	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.03333333333
+ICGC_0365	ICGC_0365	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667
+ICGC_0366	ICGC_0366	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.43333333333
+ICGC_0367	ICGC_0367	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.06666666667
+ICGC_0368	ICGC_0368	Primary	Tumour	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.16666666667
+ICGC_0369	ICGC_0369	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0
+ICGC_0370	ICGC_0370	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.633333333333
+ICGC_0371	ICGC_0371	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0
+ICGC_0372	ICGC_0372	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.433333333333
+ICGC_0373	ICGC_0373	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.6
+ICGC_0374	ICGC_0374	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.93333333333
+ICGC_0375	ICGC_0375	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.23333333333
+ICGC_0376	ICGC_0376	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.13333333333
+ICGC_0377	ICGC_0377	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.03333333333
+ICGC_0378	ICGC_0378	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0
+ICGC_0380	ICGC_0380	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.16666666667
+ICGC_0381	ICGC_0381	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.8
+ICGC_0382	ICGC_0382	Primary	Tumour		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.4
+ICGC_0383	ICGC_0383	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0384	ICGC_0384	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.66666666667
+ICGC_0385	ICGC_0385	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.6
+ICGC_0386	ICGC_0386	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.43333333333
+ICGC_0387	ICGC_0387	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.833333333333
+ICGC_0388	ICGC_0388	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.03333333333
+ICGC_0389	ICGC_0389	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.333333333333
+ICGC_0391	ICGC_0391	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.966666666667
+ICGC_0392	ICGC_0392	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.1
+ICGC_0393	ICGC_0393	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.0
+ICGC_0394	ICGC_0394	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.233333333333
+ICGC_0395	ICGC_0395	Primary	Tumour		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.2
+ICGC_0396	ICGC_0396	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.6
+ICGC_0398	ICGC_0398	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0666666666667
+ICGC_0399	ICGC_0399	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.1
+ICGC_0401	ICGC_0401	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333
+ICGC_0402	ICGC_0402	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.833333333333
+ICGC_0403	ICGC_0403	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.7
+ICGC_0404	ICGC_0404	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.166666666667
+ICGC_0405	ICGC_0405	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.266666666667
+ICGC_0406	ICGC_0406	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.6
+ICGC_0407	ICGC_0407	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.233333333333
+ICGC_0408	ICGC_0408	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.866666666667
+ICGC_0411	ICGC_0411	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333
+ICGC_0412	ICGC_0412	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.1
+ICGC_0414	ICGC_0414	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.3
+ICGC_0415	ICGC_0415	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.16666666667
+ICGC_0416	ICGC_0416	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.2
+ICGC_0417	ICGC_0417	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.56666666667
+ICGC_0418	ICGC_0418	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.96666666667
+ICGC_0419	ICGC_0419	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.8
+ICGC_0420	ICGC_0420	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	3.1
+ICGC_0422	ICGC_0422	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.56666666667
+ICGC_0423	ICGC_0423	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.23333333333
+ICGC_0462	ICGC_0462	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0464	ICGC_0464	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0465	ICGC_0465	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333
+ICGC_0467	ICGC_0467	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0468	ICGC_0468	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0469	ICGC_0469	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0470	ICGC_0470	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0472	ICGC_0472	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0474	ICGC_0474	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0476	ICGC_0476	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0477	ICGC_0477	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0478	ICGC_0478	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0479	ICGC_0479	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0480	ICGC_0480	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0481	ICGC_0481	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0482	ICGC_0482	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0483	ICGC_0483	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0484	ICGC_0484	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+ICGC_0485	ICGC_0485	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333
+ICGC_0486	ICGC_0486	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.3
+ICGC_0488	ICGC_0488	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.366666666667
+ICGC_0493	ICGC_0493	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.533333333333
+ICGC_0499	ICGC_0499	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.43333333333
+ICGC_0502	ICGC_0502	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.63333333333
+ICGC_0503	ICGC_0503	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.966666666667
+ICGC_0504	ICGC_0504	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.56666666667
+ICGC_0505	ICGC_0505	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.533333333333
+ICGC_0507	ICGC_0507	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.966666666667
+ICGC_0508	ICGC_0508	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.366666666667
+ICGC_0509	ICGC_0509	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.6
+ICGC_0510	ICGC_0510	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.46666666667
+ICGC_0511	ICGC_0511	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.46666666667
+ICGC_0512	ICGC_0512	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.46666666667
+ICGC_0513	ICGC_0513	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.4
+ICGC_0518	ICGC_0518	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.966666666667
+ICGC_0520	ICGC_0520	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.933333333333
+ICGC_0521	ICGC_0521	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.2
+ICGC_0522	ICGC_0522	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.53333333333
+ICGC_0523	ICGC_0523	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.66666666667
+ICGC_0524	ICGC_0524	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.26666666667
+ICGC_0526	ICGC_0526	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.7
+ICGC_0527	ICGC_0527	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.7
+ICGC_0528	ICGC_0528	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.56666666667
+ICGC_0529	ICGC_0529	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.5
+ICGC_0530	ICGC_0530	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.866666666667
+ICGC_0531	ICGC_0531	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.83333333333
+ICGC_0532	ICGC_0532		Cell line	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.36666666667
+ICGC_0535	ICGC_0535	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0
+ICGC_0536	ICGC_0536	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.1
+ICGC_0542	ICGC_0542	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.6
+ICGC_0543	ICGC_0543	Primary	Tumour		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.6
+ICGC_0548	ICGC_0548		Cell line	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	32.7333333333
+ICGC_0549	ICGC_0549		Cell line	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.83333333333
+JD13D	JD13D		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+JH011	JH011		Xenograft		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+JH024	JH024		Xenograft		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+JH029	JH029		Xenograft		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+JH033	JH033		Xenograft		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA018	PA018		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA028	PA028		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA055	PA055		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA086	PA086		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA090	PA090		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA107	PA107		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA122	PA122		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA167	PA167		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA182	PA182		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA195	PA195		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA202	PA202		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA215	PA215		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA254	PA254		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA285	PA285		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PA333	PA333		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PACA-2440-T	PACA-2440-T	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PACA-44-T	PACA-44-T	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PACA-55-T	PACA-55-T	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PACA-59-T	PACA-59-T	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PACA-73-T	PACA-73-T	Primary	Tumour		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PANC-253	PANC--253		Xenograft		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PANC-140	PANC-140		Xenograft		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PANC-185	PANC-185		Xenograft		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PANC-194	PANC-194		Xenograft		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PANC-198	PANC-198		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PANC-2.5	PANC-2.5		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PANC-215	PANC-215		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PANC-247	PANC-247		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0001	PCSI0001	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0002	PCSI0002	Primary	Tumour	4 - Undifferentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0007	PCSI0007	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0010	PCSI0010	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0018	PCSI0018	Primary	Tumour	1 - Well differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0019	PCSI0019	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0022	PCSI0022	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0023	PCSI0023	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0024	PCSI0024	Primary	Tumour	3 - Poorly differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0044	PCSI0044	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0046	PCSI0046	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0047	PCSI0047	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0048	PCSI0048	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0072	PCSI0072	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+PCSI0073	PCSI0073	Primary	Tumour	2 - Moderately differentiated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA
+TS-0111	TS-0111		Cell line		PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	NA

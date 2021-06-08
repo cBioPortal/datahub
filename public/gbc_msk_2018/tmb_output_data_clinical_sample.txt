@@ -1,0 +1,108 @@
+#Sample Identifier	Patient Identifier	Gallbladder Stone	Collaboration Id	Sample Type	Gene Panel	Oncotree Code	Sample Class	Sample Collection Method	Specimen Preservation Type	Tissue Site	Metastatic Site	Primary Tumor Site	Sample coverage	Tumor Purity	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Gallbladder Stone	Collaboration id.	The type of sample (i.e., normal, primary, met, recurrence).	Gene panel.	Oncotree Code	The sample classification (i.e., tumor, cellline, xenograph).	Sample Collection Method	The method used for preparing the tissue for examination and study.	Tissue Site	The anatomic location to which the cancer has spread.	Text term to describe the organ sub-division in an individual with cancer.	Sample coverage	Tumor Purity	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	GALLBLADDER_STONES	COLLAB_ID	SAMPLE_TYPE	GENE_PANEL	ONCOTREE_CODE	SAMPLE_CLASS	SAMPLE_COLLECTION_METHOD	SPECIMEN_PRESERVATION_TYPE	TISSUE_SITE	METASTATIC_SITE	PRIMARY_SITE	SAMPLE_COVERAGE	TUMOR_PURITY	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+P-0002200-T02-IM5	P-0002200	Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	629	10	Hepatobiliary Cancer	Gallbladder Cancer	0.1
+P-0003289-T03-IM5	P-0003289	Not Present		Metastasis	IMPACT410	GBC	Tumor			Liver	Liver	Gallbladder	893	60	Hepatobiliary Cancer	Gallbladder Cancer	0.233333333333
+s_WJ_gb_001_P	p_WJ_gb_001		GB001_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	8.94209101856
+s_WJ_gb_002_P	p_WJ_gb_002	Not Present	GB002_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	1.98713133746
+s_WJ_gb_003_P	p_WJ_gb_003	Present	GB003_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	43.7168894241
+s_WJ_gb_004_P	p_WJ_gb_004	Present	GB004_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	0.993565668729
+s_WJ_gb_005_P	p_WJ_gb_005	Present	GB005_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	6.95495968111
+s_WJ_gb_006_P	p_WJ_gb_006	Present	GB006_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	4.96782834365
+s_WJ_gb_007_P	p_WJ_gb_007	Not Present	GB007_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	9.93565668729
+s_WJ_gb_008_P	p_WJ_gb_008	Not Present	GB008_T_1	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	0.993565668729
+s_WJ_gb_009_P	p_WJ_gb_009	Not Present	GB009_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	4.96782834365
+s_WJ_gb_010_P	p_WJ_gb_010	Present	GB010_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	3.97426267492
+s_WJ_gb_011_P	p_WJ_gb_011	Not Present	GB011_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	7.94852534983
+s_WJ_gb_012_P	p_WJ_gb_012	Present	GB012_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	5.96139401238
+s_WJ_gb_013_P	p_WJ_gb_013	Not Present	GB013_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	13.9099193622
+s_WJ_gb_015_P	p_WJ_gb_015	Present	GB015_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	5.96139401238
+s_WJ_gb_017_P	p_WJ_gb_017	Not Present	GB017_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	5.96139401238
+s_WJ_gb_018_P	p_WJ_gb_018	Present	GB018_T_2	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	8.94209101856
+s_WJ_gb_019_P	p_WJ_gb_019	Present	GB019_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	11.9227880248
+s_WJ_gb_021_P	p_WJ_gb_021	Present	GB021_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+s_WJ_gb_022_P	p_WJ_gb_022	Present	GB022_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	7.94852534983
+s_WJ_gb_023_P	p_WJ_gb_023	Present	GB023_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	12.9163536935
+s_WJ_gb_024_P	p_WJ_gb_024	Present	GB024_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	8.94209101856
+s_WJ_gb_025_P	p_WJ_gb_025	Present	GB025_T_2	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	1.98713133746
+s_WJ_gb_026_P	p_WJ_gb_026	Present	GB026_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	14.9034850309
+s_WJ_gb_027_P	p_WJ_gb_027	Present	GB027_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	6.95495968111
+s_WJ_gb_028_P	p_WJ_gb_028	Present	GB028_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	1.98713133746
+s_WJ_gb_029_P	p_WJ_gb_029	Present	GB029_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	8.94209101856
+s_WJ_gb_030_P	p_WJ_gb_030	Not Present	GB030_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+s_WJ_gb_031_P	p_WJ_gb_031		GB031_T_2	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	18.8777477059
+s_WJ_gb_032_P	p_WJ_gb_032	Not Present	GB032_T_1	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	5.96139401238
+s_WJ_gb_033_P	p_WJ_gb_033	Present	GB033_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	0.0
+s_WJ_gb_034_P	p_WJ_gb_034	Present	GB034_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	6.95495968111
+s_WJ_gb_035_P	p_WJ_gb_035	Not Present	GB035_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Liver		Liver			Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+s_WJ_gb_036_P	p_WJ_gb_036	Present	GB036_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	6.95495968111
+s_WJ_gb_037_P	p_WJ_gb_037	Not Present	GB037_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	3.97426267492
+s_WJ_gb_038_P	p_WJ_gb_038	Not Present	GB038_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	5.96139401238
+s_WJ_gb_039_P	p_WJ_gb_039	Not Present	GB039_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	17.8841820371
+s_WJ_gb_040_P	p_WJ_gb_040	Not Present	GB040_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	6.95495968111
+s_WJ_gb_041_P	p_WJ_gb_041	Present	GB041_T	Primary	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder		Gallbladder			Hepatobiliary Cancer	Gallbladder Cancer	3.97426267492
+P-0009061-T02-IM5	P-0009061	Not Present		Primary	IMPACT410	CHOL	Tumor			Gallbladder	Not Applicable	Gallbladder	908	40	Hepatobiliary Cancer	Cholangiocarcinoma	5.96139401238
+P-0001804-T01-IM3	P-0001804			Metastasis	IMPACT341	GBC	Tumor			Liver	Liver	Gallbladder	185	40	Hepatobiliary Cancer	Gallbladder Cancer	3.36464698124
+P-0002200-T01-IM3	P-0002200			Metastasis	IMPACT341	GBC	Tumor			Liver	Liver	Gallbladder	795	20	Hepatobiliary Cancer	Gallbladder Cancer	0.0
+P-0004899-T01-IM5	P-0004899	Not Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	404	20	Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+P-0006430-T01-IM5	P-0006430	Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	684	10	Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+P-0003736-T01-IM5	P-0003736			Metastasis	IMPACT410	GBC	Tumor			Peritoneum	Peritoneum	Gallbladder	503	10	Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+P-0006250-T01-IM5	P-0006250			Metastasis	IMPACT410	GBC	Tumor			Peritoneum	Peritoneum	Gallbladder	111	10	Hepatobiliary Cancer	Gallbladder Cancer	6.95495968111
+P-0001675-T01-IM3	P-0001675			Metastasis	IMPACT341	GBC	Tumor			Liver	Liver	Gallbladder	400	15	Hepatobiliary Cancer	Gallbladder Cancer	3.36464698124
+P-0003363-T01-IM5	P-0003363			Metastasis	IMPACT410	GBC	Tumor			Liver	Liver	Gallbladder	328	30	Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+P-0003329-T01-IM5	P-0003329			Metastasis	IMPACT410	GBC	Tumor			Omentum	Omentum	Gallbladder	593	10	Hepatobiliary Cancer	Gallbladder Cancer	0.993565668729
+P-0005992-T01-IM5	P-0005992	Not Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	886	40	Hepatobiliary Cancer	Gallbladder Cancer	0.993565668729
+P-0005186-T01-IM5	P-0005186			Metastasis	IMPACT410	GBC	Tumor			Liver	Liver	Gallbladder	584	50	Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+P-0002361-T01-IM3	P-0002361	Present		Primary	IMPACT341	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	580	40	Hepatobiliary Cancer	Gallbladder Cancer	6.72929396248
+P-0001954-T01-IM3	P-0001954	Present		Primary	IMPACT341	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	416	30	Hepatobiliary Cancer	Gallbladder Cancer	1.12154899375
+P-0001255-T01-IM3	P-0001255			Metastasis	IMPACT341	GBC	Tumor			Liver	Liver	Gallbladder	380	15	Hepatobiliary Cancer	Gallbladder Cancer	13.458587925
+P-0000743-T01-IM3	P-0000743	Present		Primary	IMPACT341	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	430	40	Hepatobiliary Cancer	Gallbladder Cancer	3.36464698124
+P-0003461-T02-IM5	P-0003461			Metastasis	IMPACT410	GBC	Tumor			Pelvis	Pelvis	Gallbladder	354	40	Hepatobiliary Cancer	Gallbladder Cancer	6.95495968111
+P-0003612-T01-IM5	P-0003612	Not Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	469	60	Hepatobiliary Cancer	Gallbladder Cancer	1.98713133746
+P-0004513-T01-IM5	P-0004513	Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	677	60	Hepatobiliary Cancer	Gallbladder Cancer	5.96139401238
+P-0005457-T01-IM5	P-0005457			Metastasis	IMPACT410	GBC	Tumor			Liver	Liver	Gallbladder	1096	60	Hepatobiliary Cancer	Gallbladder Cancer	3.97426267492
+P-0005800-T01-IM5	P-0005800	Not Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	830	80	Hepatobiliary Cancer	Gallbladder Cancer	0.993565668729
+P-0005955-T01-IM5	P-0005955	Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	675	10	Hepatobiliary Cancer	Gallbladder Cancer	0.0
+P-0011391-T01-IM5	P-0011391			Metastasis	IMPACT410	GBC	Tumor			Soft Tissue	Soft Tissue	Gallbladder	1150	20	Hepatobiliary Cancer	Gallbladder Cancer	6.95495968111
+P-0007326-T01-IM5	P-0007326	Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	874	10	Hepatobiliary Cancer	Gallbladder Cancer	0.0
+P-0008494-T01-IM5	P-0008494	Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	886	60	Hepatobiliary Cancer	Gallbladder Cancer	7.94852534983
+P-0007360-T01-IM5	P-0007360			Metastasis	IMPACT410	GBC	Tumor			Pelvis	Pelvis	Gallbladder	916	30	Hepatobiliary Cancer	Gallbladder Cancer	5.96139401238
+P-0008519-T01-IM5	P-0008519	Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	1117	10	Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+P-0011103-T01-IM5	P-0011103			Metastasis	IMPACT410	GBC	Tumor			Pleural Fluid	Pleural Fluid	Gallbladder	890	60	Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+P-0007071-T01-IM5	P-0007071	Not Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	799	20	Hepatobiliary Cancer	Gallbladder Cancer	5.96139401238
+P-0012257-T01-IM5	P-0012257	Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	659	60	Hepatobiliary Cancer	Gallbladder Cancer	4.96782834365
+P-0012374-T01-IM5	P-0012374			Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	840	20	Hepatobiliary Cancer	Gallbladder Cancer	3.97426267492
+P-0008907-T01-IM5	P-0008907			Metastasis	IMPACT410	GBC	Tumor			Liver	Liver	Gallbladder	996	70	Hepatobiliary Cancer	Gallbladder Cancer	4.96782834365
+P-0008778-T01-IM5	P-0008778	Not Present		Metastasis	IMPACT410	GBC	Tumor			Liver	Liver	Gallbladder	860	80	Hepatobiliary Cancer	Gallbladder Cancer	1.98713133746
+P-0003012-T01-IM3	P-0003012			Metastasis	IMPACT341	GBC	Tumor			Liver	Liver	Gallbladder	725	20	Hepatobiliary Cancer	Gallbladder Cancer	0.0
+P-0010701-T01-IM5	P-0010701			Metastasis	IMPACT410	GBC	Tumor			Liver	Liver	Gallbladder	1056	60	Hepatobiliary Cancer	Gallbladder Cancer	6.95495968111
+P-0006812-T01-IM5	P-0006812	Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	802	30	Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+P-0010789-T01-IM5	P-0010789			Metastasis	IMPACT410	GBC	Tumor			Lymph node	Lymph node	Gallbladder	777	65	Hepatobiliary Cancer	Gallbladder Cancer	1.98713133746
+P-0003289-T02-IM5	P-0003289			Metastasis	IMPACT410	GBC	Tumor			Liver	Liver	Gallbladder	477	30	Hepatobiliary Cancer	Gallbladder Cancer	6.95495968111
+P-0009967-T01-IM5	P-0009967	Present		Metastasis	IMPACT410	GBC	Tumor			Liver	Liver	Gallbladder	1125	10	Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+P-0009913-T01-IM5	P-0009913	Not Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	660	30	Hepatobiliary Cancer	Gallbladder Cancer	15.8970506997
+P-0009713-T01-IM5	P-0009713	Present		Metastasis	IMPACT410	GBC	Tumor			Liver	Liver	Gallbladder	793	40	Hepatobiliary Cancer	Gallbladder Cancer	3.97426267492
+P-0005521-T01-IM5	P-0005521	Present		Primary	IMPACT410	GBC	Tumor			Gallbladder	Not Applicable	Gallbladder	714	30	Hepatobiliary Cancer	Gallbladder Cancer	0.0
+s_WJ_gb_042_T	p_WJ_gb_042	Not Present	GB042_T	NA	IMPACT410	GBC	Tumor	Biopsy	FFPE	Liver					Hepatobiliary Cancer	Gallbladder Cancer	14.9034850309
+s_WJ_gb_043_T	p_WJ_gb_043	Not Present	GB043T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder					Hepatobiliary Cancer	Gallbladder Cancer	11.9227880248
+s_WJ_gb_044_T	p_WJ_gb_044	Present	GB044_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder					Hepatobiliary Cancer	Gallbladder Cancer	13.9099193622
+s_WJ_gb_045_T	p_WJ_gb_045	Not Present	GB045_T	NA	IMPACT410	GBC	Tumor	Biopsy	FFPE	NA					Hepatobiliary Cancer	Gallbladder Cancer	12.9163536935
+s_WJ_gb_046_T	p_WJ_gb_046	Not Present	GB046_T	NA	IMPACT410	GBC	Tumor	Biopsy	FFPE	Liver					Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+s_WJ_gb_047_T	p_WJ_gb_047	Present	GB047_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder					Hepatobiliary Cancer	Gallbladder Cancer	14.9034850309
+s_WJ_gb_049_T	p_WJ_gb_049	Present	GB049_T	NA	IMPACT410	GBC	Tumor	Biopsy	FFPE	Liver					Hepatobiliary Cancer	Gallbladder Cancer	23.8455760495
+s_WJ_gb_051_T	p_WJ_gb_051	Present	GB051_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder					Hepatobiliary Cancer	Gallbladder Cancer	2.98069700619
+s_WJ_gb_052_T	p_WJ_gb_052	Present	GB052_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	NA					Hepatobiliary Cancer	Gallbladder Cancer	16.8906163684
+s_WJ_gb_053_T	p_WJ_gb_053	Present	GB053_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	NA					Hepatobiliary Cancer	Gallbladder Cancer	10.929222356
+s_WJ_gb_054_T	p_WJ_gb_054	Present	GB054_T	NA	IMPACT410	GBC	Tumor	Biopsy	FFPE	Liver					Hepatobiliary Cancer	Gallbladder Cancer	16.8906163684
+s_WJ_gb_055_T	p_WJ_gb_055	Not Present	GB055_T	NA	IMPACT410	GBC	Tumor	Biopsy	FFPE	NA					Hepatobiliary Cancer	Gallbladder Cancer	7.94852534983
+s_WJ_gb_056_T	p_WJ_gb_056	Not Present	GB056_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder					Hepatobiliary Cancer	Gallbladder Cancer	27.8198387244
+s_WJ_gb_058_T	p_WJ_gb_058	Present	GB058_T	NA	IMPACT410	GBC	Tumor	Biopsy	FFPE	Liver					Hepatobiliary Cancer	Gallbladder Cancer	11.9227880248
+s_WJ_gb_059_T	p_WJ_gb_059	Present	GB059_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	NA					Hepatobiliary Cancer	Gallbladder Cancer	21.858444712
+s_WJ_gb_060_T	p_WJ_gb_060	Present	GB060_T	NA	IMPACT410	GBC	Tumor	Biopsy	FFPE	NA					Hepatobiliary Cancer	Gallbladder Cancer	13.9099193622
+s_WJ_gb_061_T	p_WJ_gb_061	Not Present	GB061_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	NA					Hepatobiliary Cancer	Gallbladder Cancer	16.8906163684
+s_WJ_gb_062_T	p_WJ_gb_062	Present	GB062_T	NA	IMPACT410	GBC	Tumor	Biopsy	FFPE	NA					Hepatobiliary Cancer	Gallbladder Cancer	20.8648790433
+s_WJ_gb_063_T	p_WJ_gb_063	Present	GB063_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder					Hepatobiliary Cancer	Gallbladder Cancer	18.8777477059
+s_WJ_gb_064_T	p_WJ_gb_064	Present	GB064_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder					Hepatobiliary Cancer	Gallbladder Cancer	17.8841820371
+s_WJ_gb_065_T	p_WJ_gb_065	Present	GB065_T	NA	IMPACT410	GBC	Tumor	Resection	FFPE	Gallbladder					Hepatobiliary Cancer	Gallbladder Cancer	19.8713133746

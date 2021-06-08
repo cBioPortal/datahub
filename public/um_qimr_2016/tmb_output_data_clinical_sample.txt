@@ -1,0 +1,33 @@
+#Patient Identifier	Sample Identifier	Sample Type	Sample Class	Metastatic Site	Primary Tumor Site	Cell Type	Platform	Oncotree Code	Cancer Type	Cancer Type Detailed	Number of Protein Altering Mutations	Genomic Burden	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The type of sample (i.e., normal, primary, met, recurrence).	The sample classification (i.e., tumor, cellline, xenograph)	The anatomic location to which the cancer has spread.	Text term to describe the organ sub-division in an individual with cancer.	The type of specimen isolated from blood or bone marrow, ex: Plasma, PBMC, Granulocytes.	Platform.	Oncotree Code	Cancer Type	Cancer Type Detailed	Number of Protein Altering Mutations	Genomic Burden	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING
+#1	1	9	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_TYPE	SAMPLE_CLASS	METASTATIC_SITE	PRIMARY_SITE	CELL_TYPE	PLATFORM	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	NUM_PROTEIN_ALTERING_MUTATIONS	GENOMIC_BURDEN	TMB_NONSYNONYMOUS
+C0622943-T	C0622943-T	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid	WES	UM	Melanoma	Uveal Melanoma	5		0.166666666667
+141378RG-T	141378RG-T	Primary	Tumor		Cilary Body	Mixed Spindle and Epithelioid (Predominantly Spindle B)	WES	UM	Melanoma	Uveal Melanoma	6		0.2
+ETB-0002-T	ETB-0002-T	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid	WES	UM	Melanoma	Uveal Melanoma	8		0.266666666667
+J2217960PR-T	J2217960PR-T	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid (Predominantly Spindle)	WES	UM	Melanoma	Uveal Melanoma	14		0.466666666667
+K0111890AC-T	K0111890AC-T	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid	WES	UM	Melanoma	Uveal Melanoma	3		0.1
+um_qimr_553	um_qimr_553	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid	WGS	UM	Melanoma	Uveal Melanoma	6	0.49	0.2
+um_qimr_535	um_qimr_535	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid	WGS	UM	Melanoma	Uveal Melanoma	9	0.57	0.3
+um_qimr_556	um_qimr_556	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid	WGS	UM	Melanoma	Uveal Melanoma	13	0.57	0.433333333333
+um_qimr_552	um_qimr_552	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid/ and invasion in Sclerae	WGS	UM	Melanoma	Uveal Melanoma	12	0.46	0.4
+um_qimr_534	um_qimr_534	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid	WGS	UM	Melanoma	Uveal Melanoma	8	0.63	0.233333333333
+um_qimr_533	um_qimr_533	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid/ and invasion in Sclerae and Extrascleral invasion	WGS	UM	Melanoma	Uveal Melanoma	8	0.55	0.266666666667
+um_qimr_557	um_qimr_557	Primary	Tumor		Choroid	Spindle Type	WGS	UM	Melanoma	Uveal Melanoma	10	0.48	0.333333333333
+um_qimr_537	um_qimr_537	Primary	Tumor		Choroid	Spindle Type	WGS	UM	Melanoma	Uveal Melanoma	4		0.133333333333
+um_qimr_538	um_qimr_538	Primary	Tumor		Choroid	Spindle Type B, Pre-Existing Nevus	WGS	UM	Melanoma	Uveal Melanoma	7	0.35	0.233333333333
+um_qimr_531	um_qimr_531	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid	WGS	UM	Melanoma	Uveal Melanoma	11	0.66	0.366666666667
+um_qimr_258	um_qimr_258	Primary	Tumor		Choroid	Spindle Type	WGS	UM	Melanoma	Uveal Melanoma	11	0.66	0.366666666667
+um_qimr_550	um_qimr_550	Primary	Tumor		Choroid	Mixed Spindle and Epithelioid/ and invasion in Sclerae	WGS	UM	Melanoma	Uveal Melanoma	19	0.6	0.566666666667
+um_qimr_554	um_qimr_554	Primary	Tumor		Choroid	Spindle Type	WGS	UM	Melanoma	Uveal Melanoma	0	0.22	NA
+um_qimr_539	um_qimr_539	Primary	Tumor		Choroid	Spindle Type B	WGS	UM	Melanoma	Uveal Melanoma	13	0.37	0.433333333333
+MM1488	MM1488	Metastasis	Tumor	Liver Mets	NA	NA	WES	UM	Melanoma	Uveal Melanoma	0		NA
+MM1551	MM1551	NA	NA		NA	NA	WES	UM	Melanoma	Uveal Melanoma	5		0.266666666667
+MM1563	MM1563	Metastasis	Tumor	Liver Mets	NA	NA	WES	UM	Melanoma	Uveal Melanoma	0		NA
+MM639	MM639	Metastasis	Tumor	Illiac Crest Mets	Choroid	Mixed Spindle and Epithelioid	WES	UM	Melanoma	Uveal Melanoma	19		0.6
+00028-001-CL	00028-001-CL	Primary	Cell Line		Left eye choroid	Spindle type  A (40%) and spindle type B (60%)	WES	UM	Melanoma	Uveal Melanoma	53		1.7
+00038-001-CL	00038-001-CL	Primary	Cell Line		Left eye choroid	Spindle type B, small component of epitheliod cells	WES	UM	Melanoma	Uveal Melanoma	11		0.366666666667
+00061-001-CL	00061-001-CL	Primary	Cell Line		Left eye choroid	Spindle type B	WES	UM	Melanoma	Uveal Melanoma	13		0.433333333333
+00085-001-CL	00085-001-CL	Primary	Cell Line		Left eye choroid	Spindle type B (50%) and epitheliod cells (50%)	WES	UM	Melanoma	Uveal Melanoma	13		0.433333333333
+00099-001-CL	00099-001-CL	Primary	Cell Line		Right eye choroid	Spindle type  A (75%) and spindle type B (25%)	WES	UM	Melanoma	Uveal Melanoma	15		0.433333333333

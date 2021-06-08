@@ -1,0 +1,253 @@
+#Patient Identifier	Sample Identifier	MSI Score	Sample Class	Somatic Status	Sample Type	ctDNA Fraction	Oncotree Code	Cancer Type	Cancer Type Detailed	Tumor Type	Uncollapsed mean coverage	Collapsed mean coverage	Collapsed fragment mean coverage	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	MSI Score	The sample classification (i.e., tumor, cellline, xenograph).	Somatic Status	The type of sample (i.e., normal, primary, met, recurrence).	ctDNA Fraction	Oncotree Code	Cancer Type	Cancer Type Detailed	Tumor Type	The raw deduplicated mean coverage of all baits in the experiment	The mean coverage of all baits in the experiment after collapsing and stitching	The unique coverage across target regions of collapsed reads	TMB (nonsynonymous)
+#STRING	STRING	NUMBER	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	MSI_SCORE	SAMPLE_CLASS	SOMATIC_STATUS	SAMPLE_TYPE	CTDNA_FRACTION	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TUMOR_TYPE	UNCOLLAPSED_MEAN_COVERAGE	COLLAPSED_MEAN_COVERAGE	COLLAPSED_FRAGMENT_MEAN_COVERAGE	TMB_NONSYNONYMOUS
+MSK_VB_0001	MSK_VB_0001_cfdna	0.001474926	cfDNA	Matched	Metastasis	0.073732064	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	75238	5951	5950	7.10822990859
+MSK_VB_0004	MSK_VB_0004_cfdna	0	cfDNA	Matched	Metastasis	0.02764977	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	51684	1782	1781	3.15921329271
+MSK_VB_0005	MSK_VB_0005_cfdna	0	cfDNA	Matched	Metastasis	0.00347207	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	67098	3431	3429	7.10822990859
+MSK_VB_0006	MSK_VB_0006_cfdna	0	cfDNA	Matched	Metastasis	0.013192612	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	80489	4339	4337	5.52862326224
+MSK_VB_0008	MSK_VB_0008_cfdna	0.008344924	cfDNA	Matched	Metastasis	0.622256567	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	66254	5604	5602	12.6368531708
+MSK_VB_0012	MSK_VB_0012_cfdna	0.00798722	cfDNA	Matched	Metastasis	0.187706809	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	58802	4458	4457	10.2674432013
+MSK_VB_0013	MSK_VB_0013_cfdna	0	cfDNA	Matched	Metastasis	0.05182121	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	81690	4959	4957	7.89803323176
+MSK_VB_0016	MSK_VB_0016_cfdna	0	cfDNA	Matched	Metastasis	0.597333242	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	65071	5309	5309	15.0062631404
+MSK_VB_0023	MSK_VB_0023_cfdna	0.005457026	cfDNA	Matched	Metastasis	0.13143483	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	77760	6533	6528	512.582356742
+MSK_VB_0024	MSK_VB_0024_cfdna	0.014367816	cfDNA	Matched	Metastasis	0.287519766	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	75650	4582	4580	6.31842658541
+MSK_VB_0029	MSK_VB_0029_cfdna	0.001424501	cfDNA	Matched	Metastasis	0.781453453	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	78587	7243	7240	23.6940996953
+MSK_VB_0030	MSK_VB_0030_cfdna	0	cfDNA	Matched	Metastasis	0.013158296	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	77001	5240	5238	14.2164598172
+MSK_VB_0031	MSK_VB_0031_cfdna	0	cfDNA	Matched	Metastasis	0.108379888	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	81723	2894	2893	12.6368531708
+MSK_VB_0032	MSK_VB_0032_cfdna	0.001550388	cfDNA	Matched	Metastasis	0.023892395	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	79625	4665	4664	9.47763987812
+MSK_VB_0033	MSK_VB_0033_cfdna	0.006858711	cfDNA	Matched	Metastasis	0.019562526	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	88665	6428	6426	19.7450830794
+MSK_VB_0034	MSK_VB_0034_cfdna	0	cfDNA	Matched	Metastasis	0.052524851	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	59391	3683	3682	15.0062631404
+MSK_VB_0036	MSK_VB_0036_cfdna	0.004237288	cfDNA	Matched	Metastasis	0.018266397	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	54805	4593	4592	6.31842658541
+MSK_VB_0037	MSK_VB_0037_cfdna	0	cfDNA	Matched	Metastasis	0.924556827	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	82745	1925	1924	7.89803323176
+MSK_VB_0040	MSK_VB_0040_cfdna	0.002853067	cfDNA	Matched	Metastasis	0.889147406	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	74390	5739	5735	18.9552797562
+MSK_VB_0041	MSK_VB_0041_cfdna	0.002906977	cfDNA	Matched	Metastasis	0.306436978	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	69088	5912	5910	8.68783655494
+MSK_VB_0044	MSK_VB_0044_cfdna	0.001607717	cfDNA	Matched	Metastasis	0.113634007	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	76771	5318	5317	83.7191522567
+MSK_VB_0045	MSK_VB_0045_cfdna	NA	cfDNA	Matched	Metastasis	0.252579155	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	57978	5014	5013	11.8470498476
+MSK_VB_0046	MSK_VB_0046_cfdna	0	cfDNA	Matched	Metastasis	0.075780646	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	54224	4040	4038	93.1967921348
+MSK_VB_0050	MSK_VB_0050_cfdna	0.006973501	cfDNA	Matched	Metastasis	0.190455868	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	77831	6762	6761	67.13328247
+MSK_VB_0053	MSK_VB_0053_cfdna	0.00131406	cfDNA	Matched	Metastasis	0.018493493	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	57410	4720	4719	15.0062631404
+MSK_VB_0054	MSK_VB_0054_cfdna	0.002945508	cfDNA	Matched	Metastasis	0.001735525	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	63240	1778	1777	5.52862326224
+MSK_VB_0057	MSK_VB_0057_cfdna	0	cfDNA	Matched	Metastasis	0.225088908	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	79937	5435	5435	43.4391827747
+MSK_VB_0058	MSK_VB_0058_cfdna	0.001349528	cfDNA	Matched	Metastasis	0.449105515	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	67433	5621	5621	31.5921329271
+MSK_VB_0059	MSK_VB_0059_cfdna	0.002649007	cfDNA	Matched	Metastasis	0.122533636	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	50482	4670	4670	3.94901661588
+MSK_VB_0062	MSK_VB_0062_cfdna	0	cfDNA	Matched	Metastasis	0.017441781	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	91337	5805	5804	9.47763987812
+MSK_VB_0063	MSK_VB_0063_cfdna	0	cfDNA	Matched	Metastasis	0.095949802	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	86464	6287	6285	17.3756731099
+MSK_VB_0066	MSK_VB_0066_cfdna	0	cfDNA	Matched	Metastasis	0.324566225	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	64232	1966	1965	3.15921329271
+MSK_VB_0067	MSK_VB_0067_cfdna	0	cfDNA	Matched	Metastasis	0.045961473	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	91280	2312	2312	11.8470498476
+MSK_VB_0069	MSK_VB_0069_cfdna	0	cfDNA	Matched	Metastasis	0.016599309	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	71984	2676	2675	10.2674432013
+MSK_VB_0072	MSK_VB_0072_cfdna	0	cfDNA	Matched	Metastasis	0.055063405	BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	85181	1977	1976	3.94901661588
+MSK_VB_0073	MSK_VB_0073_cfdna	0	cfDNA	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	82969	4198	4197	11.0572465245
+MSK_VB_0076	MSK_VB_0076_cfdna	0.004672897	cfDNA	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	56879	2276	2276	1.57960664635
+MSK_VB_0077	MSK_VB_0077_cfdna	0	cfDNA	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	92269	4016	4015	8.68783655494
+MSK_VB_0084	MSK_VB_0084_cfdna	0	cfDNA	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer	85690	2817	2816	6.31842658541
+MSK_VL_0002	MSK_VL_0002_cfdna	0	cfDNA	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	73770	6199	6198	11.8470498476
+MSK_VL_0003	MSK_VL_0003_cfdna	0	cfDNA	Matched	Metastasis	0.02431869	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	45542	4774	4773	19.7450830794
+MSK_VL_0005	MSK_VL_0005_cfdna	0.002728513	cfDNA	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	74735	4571	4570	9.47763987812
+MSK_VL_0007	MSK_VL_0007_cfdna	0.00149925	cfDNA	Matched	Metastasis	0.000918	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	80793	4962	4961	12.6368531708
+MSK_VL_0008	MSK_VL_0008_cfdna	0.005979073	cfDNA	Matched	Metastasis	0.314781002	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	48839	3522	3520	19.7450830794
+MSK_VL_0009	MSK_VL_0009_cfdna	0.001457726	cfDNA	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	81361	1990	1989	1.57960664635
+MSK_VL_0010	MSK_VL_0010_cfdna	0.002877698	cfDNA	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	65899	2746	2746	1.57960664635
+MSK_VL_0012	MSK_VL_0012_cfdna	0.004524887	cfDNA	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	50102	2728	2728	19.7450830794
+MSK_VL_0013	MSK_VL_0013_cfdna	0	cfDNA	Matched	Metastasis	0.003653072	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	56340	2336	2335	7.10822990859
+MSK_VL_0015	MSK_VL_0015_cfdna	0.00260078	cfDNA	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	89060	3725	3724	3.15921329271
+MSK_VL_0017	MSK_VL_0017_cfdna	0.00280112	cfDNA	Matched	Metastasis	0.391929465	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	73289	6730	6728	26.853312988
+MSK_VL_0021	MSK_VL_0021_cfdna	0.002915452	cfDNA	Matched	Metastasis	0.013520117	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	61608	2627	2626	11.0572465245
+MSK_VL_0022	MSK_VL_0022_cfdna	0	cfDNA	Matched	Metastasis	0.014484789	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	59497	3771	3770	21.3246897258
+MSK_VL_0027	MSK_VL_0027_cfdna	0	cfDNA	Matched	Metastasis	0.009809664	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	80065	2284	2284	11.8470498476
+MSK_VL_0028	MSK_VL_0028_cfdna	0	cfDNA	Matched	Metastasis	0.007060667	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	56835	4937	4936	25.2737063416
+MSK_VL_0035	MSK_VL_0035_cfdna	0.001628664	cfDNA	Matched	Metastasis	0.196734694	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	76815	2758	2757	54.4964292992
+MSK_VL_0038	MSK_VL_0038_cfdna	0	cfDNA	Matched	Metastasis	0.002383105	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	49161	4340	4340	17.3756731099
+MSK_VL_0042	MSK_VL_0042_cfdna	0.001492537	cfDNA	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	85343	4805	4804	14.2164598172
+MSK_VL_0044	MSK_VL_0044_cfdna	0	cfDNA	Matched	Metastasis	0.018502768	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	90024	5047	5047	9.47763987812
+MSK_VL_0045	MSK_VL_0045_cfdna	0	cfDNA	Matched	Metastasis	0.001323491	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	43566	3182	3181	8.68783655494
+MSK_VL_0048	MSK_VL_0048_cfdna	0.001426534	cfDNA	Matched	Metastasis	0.048096192	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	83613	5132	5130	19.7450830794
+MSK_VL_0051	MSK_VL_0051_cfdna	0.001345895	cfDNA	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	91267	3355	3354	7.10822990859
+MSK_VL_0054	MSK_VL_0054_cfdna	0	cfDNA	Matched	Metastasis	0.222210484	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	59691	5324	5323	30.8023296039
+MSK_VL_0055	MSK_VL_0055_cfdna	0	cfDNA	Matched	Metastasis	0.121342354	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	55224	3412	3411	36.3309528661
+MSK_VL_0056	MSK_VL_0056_cfdna	0	cfDNA	Matched	Metastasis	0.065329124	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	87704	4426	4425	13.426656494
+MSK_VL_0057	MSK_VL_0057_cfdna	0.001436782	cfDNA	Matched	Metastasis	0.190320197	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	75623	5484	5481	15.7960664635
+MSK_VL_0060	MSK_VL_0060_cfdna	0	cfDNA	Matched	Metastasis	0.085638999	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	73651	2951	2950	18.9552797562
+MSK_VL_0061	MSK_VL_0061_cfdna	0	cfDNA	Matched	Metastasis	0.009685998	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	74686	4739	4739	12.6368531708
+MSK_VL_0064	MSK_VL_0064_cfdna	0	cfDNA	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	82812	5235	5234	16.5858697867
+MSK_VL_0065	MSK_VL_0065_cfdna	0	cfDNA	Matched	Metastasis	0.001941399	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	79667	3671	3669	22.9042963721
+MSK_VL_0067	MSK_VL_0067_cfdna	0.001639344	cfDNA	Matched	Metastasis	0.021325459	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	63275	4934	4933	7.10822990859
+MSK_VL_0069	MSK_VL_0069_cfdna	0.00152439	cfDNA	Matched	Metastasis	0.007520285	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	97053	4021	4021	8.68783655494
+MSK_VL_0071	MSK_VL_0071_cfdna	0	cfDNA	Matched	Metastasis	0.006653518	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	75410	2398	2398	3.94901661588
+MSK_VL_0073	MSK_VL_0073_cfdna	0	cfDNA	Matched	Metastasis	0.542084906	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	95512	3986	3985	3.94901661588
+MSK_VL_0074	MSK_VL_0074_cfdna	0	cfDNA	Matched	Metastasis	0.016348899	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	90864	4863	4862	22.9042963721
+MSK_VL_0075	MSK_VL_0075_cfdna	0	cfDNA	Matched	Metastasis	0.073435837	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	54155	3356	3356	18.9552797562
+MSK_VL_0076	MSK_VL_0076_cfdna	0.001669449	cfDNA	Matched	Metastasis	0.002104486	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	51291	2763	2762	15.0062631404
+MSK_VL_0077	MSK_VL_0077_cfdna	0.00154321	cfDNA	Matched	Metastasis	0.003705023	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	77077	2289	2289	6.31842658541
+MSK_VL_0080	MSK_VL_0080_cfdna	0	cfDNA	Matched	Metastasis	0.025405431	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	49571	833	833	13.426656494
+MSK_VL_0082	MSK_VL_0082_cfdna	0	cfDNA	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	80678	2252	2251	11.8470498476
+MSK_VL_0083	MSK_VL_0083_cfdna	0	cfDNA	Matched	Metastasis	0.000263	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	85627	2322	2322	7.10822990859
+MSK_VP_0001	MSK_VP_0001_cfdna	0	cfDNA	Matched	Metastasis	0.007363095	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	47786	3620	3620	17.3756731099
+MSK_VP_0002	MSK_VP_0002_cfdna	0	cfDNA	Matched	Metastasis	0.00298122	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	48453	4409	4408	4.73881993906
+MSK_VP_0003	MSK_VP_0003_cfdna	0.001375516	cfDNA	Matched	Metastasis	0.001583113	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	93514	1521	1520	3.94901661588
+MSK_VP_0004	MSK_VP_0004_cfdna	0.001321004	cfDNA	Matched	Metastasis	0.716128867	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	73787	5677	5675	15.7960664635
+MSK_VP_0005	MSK_VP_0005_cfdna	0	cfDNA	Matched	Metastasis	0.163392352	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	51121	4498	4496	21.3246897258
+MSK_VP_0006	MSK_VP_0006_cfdna	0.002902758	cfDNA	Matched	Metastasis	0.003926481	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	93933	2495	2494	10.2674432013
+MSK_VP_0007	MSK_VP_0007_cfdna	0.004065041	cfDNA	Matched	Metastasis	0.467587427	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	85783	5187	5185	4.73881993906
+MSK_VP_0008	MSK_VP_0008_cfdna	0.006925208	cfDNA	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	87022	4524	4522	3.15921329271
+MSK_VP_0009	MSK_VP_0009_cfdna	NA	cfDNA	Matched	Metastasis	0.001807047	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	45327	3768	3767	10.2674432013
+MSK_VP_0010	MSK_VP_0010_cfdna	0	cfDNA	Matched	Metastasis	0.000372	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	59892	3511	3510	11.0572465245
+MSK_VP_0014	MSK_VP_0014_cfdna	0.002739726	cfDNA	Matched	Metastasis	0.617760742	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	89799	5380	5378	17.3756731099
+MSK_VP_0015	MSK_VP_0015_cfdna	0	cfDNA	Matched	Metastasis	0.003736572	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	81284	5193	5192	3.15921329271
+MSK_VP_0016	MSK_VP_0016_cfdna	0	cfDNA	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	55207	2896	2895	3.94901661588
+MSK_VP_0018	MSK_VP_0018_cfdna	0.00135318	cfDNA	Matched	Metastasis	0.004269427	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	88334	3205	3204	7.10822990859
+MSK_VP_0019	MSK_VP_0019_cfdna	0	cfDNA	Matched	Metastasis	0.179817453	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	95460	4469	4468	30.8023296039
+MSK_VP_0021	MSK_VP_0021_cfdna	0.001375516	cfDNA	Matched	Metastasis	0.562287895	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	87450	5793	5789	9.47763987812
+MSK_VP_0023	MSK_VP_0023_cfdna	0	cfDNA	Matched	Metastasis	0.005005688	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	62606	4400	4399	22.9042963721
+MSK_VP_0024	MSK_VP_0024_cfdna	0	cfDNA	Matched	Metastasis	0.000895	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	86076	4734	4733	5.52862326224
+MSK_VP_0025	MSK_VP_0025_cfdna	0.003169572	cfDNA	Matched	Metastasis	0.59904785	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	48975	4698	4693	12.6368531708
+MSK_VP_0026	MSK_VP_0026_cfdna	0.001388889	cfDNA	Matched	Metastasis	0.293099471	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	91514	6074	6073	16.5858697867
+MSK_VP_0028	MSK_VP_0028_cfdna	0	cfDNA	Matched	Metastasis	0.258537703	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	31522	3947	3946	8.68783655494
+MSK_VP_0029	MSK_VP_0029_cfdna	0.001349528	cfDNA	Matched	Metastasis	0.276956221	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	83368	3116	3114	8.68783655494
+MSK_VP_0030	MSK_VP_0030_cfdna	0.004155125	cfDNA	Matched	Metastasis	0.087923729	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	52261	4796	4795	15.7960664635
+MSK_VP_0031	MSK_VP_0031_cfdna	0	cfDNA	Matched	Metastasis	0.148964762	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	84069	5447	5445	29.2227229575
+MSK_VP_0032	MSK_VP_0032_cfdna	0.001610306	cfDNA	Matched	Metastasis	0.420248193	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	86746	5327	5326	7.89803323176
+MSK_VP_0033	MSK_VP_0033_cfdna	0	cfDNA	Matched	Metastasis	0.438935765	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	89251	5314	5309	6.31842658541
+MSK_VP_0034	MSK_VP_0034_cfdna	0.001474926	cfDNA	Matched	Metastasis	0.102101125	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	51178	4636	4635	12.6368531708
+MSK_VP_0035	MSK_VP_0035_cfdna	0.001572327	cfDNA	Matched	Metastasis	0.422466478	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	54182	4758	4756	15.7960664635
+MSK_VP_0037	MSK_VP_0037_cfdna	0	cfDNA	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	97249	2056	2055	11.0572465245
+MSK_VP_0038	MSK_VP_0038_cfdna	0	cfDNA	Matched	Metastasis	0.623824934	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	89837	6251	6249	11.8470498476
+MSK_VP_0040	MSK_VP_0040_cfdna	0.002631579	cfDNA	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	61238	2500	2499	6.31842658541
+MSK_VP_0041	MSK_VP_0041_cfdna	0.160116448	cfDNA	Matched	Metastasis	0.390621845	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	77269	4054	4049	38.7003628356
+MSK_VP_0042	MSK_VP_0042_cfdna	0.001503759	cfDNA	Matched	Metastasis	0.333333333	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	61992	2049	2048	2.36940996953
+MSK_VP_0045	MSK_VP_0045_cfdna	0.001388889	cfDNA	Matched	Metastasis	0.409788194	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	45907	5037	5035	11.8470498476
+MSK_VP_0046	MSK_VP_0046_cfdna	0.004379562	cfDNA	Matched	Metastasis	0.252588275	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	41198	5117	5115	5.52862326224
+MSK_VP_0047	MSK_VP_0047_cfdna	0.004166667	cfDNA	Matched	Metastasis	0.476511394	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	59810	6205	6202	25.2737063416
+MSK_VP_0050	MSK_VP_0050_cfdna	NA	cfDNA	Matched	Metastasis	0.018505951	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	62779	2510	2509	15.7960664635
+MSK_VP_0051	MSK_VP_0051_cfdna	NA	cfDNA	Matched	Metastasis	0.000676	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	64760	4245	4244	11.0572465245
+MSK_VP_0054	MSK_VP_0054_cfdna	0.001430615	cfDNA	Matched	Metastasis	0.309865514	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	68046	4784	4783	31.5921329271
+MSK_VP_0056	MSK_VP_0056_cfdna	0	cfDNA	Matched	Metastasis	0.027164354	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	89460	4086	4085	5.52862326224
+MSK_VP_0057	MSK_VP_0057_cfdna	0.00304414	cfDNA	Matched	Metastasis	0.330582112	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	63890	5210	5208	10.2674432013
+MSK_VP_0058	MSK_VP_0058_cfdna	0.001317523	cfDNA	Matched	Metastasis	0.221051745	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	89863	3290	3289	15.7960664635
+MSK_VP_0059	MSK_VP_0059_cfdna	0	cfDNA	Matched	Metastasis	0.122148939	PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	90272	2373	2373	7.10822990859
+MSK_VP_0061	MSK_VP_0061_cfdna	0.001512859	cfDNA	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer	61017	3928	3927	7.89803323176
+MSK_VB_0001	MSK_VB_0001_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				1.98713133746
+MSK_VB_0004	MSK_VB_0004_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				2.98069700619
+MSK_VB_0005	MSK_VB_0005_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				1.98713133746
+MSK_VB_0006	MSK_VB_0006_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				0.993565668729
+MSK_VB_0008	MSK_VB_0008_tumor	0.003273322	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				0.993565668729
+MSK_VB_0012	MSK_VB_0012_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				7.94852534983
+MSK_VB_0013	MSK_VB_0013_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				2.98069700619
+MSK_VB_0016	MSK_VB_0016_tumor	0.001680672	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				3.97426267492
+MSK_VB_0023	MSK_VB_0023_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				73.523859486
+MSK_VB_0024	MSK_VB_0024_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				0.993565668729
+MSK_VB_0029	MSK_VB_0029_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				9.93565668729
+MSK_VB_0030	MSK_VB_0030_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				3.97426267492
+MSK_VB_0031	MSK_VB_0031_tumor	0.001760563	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				6.95495968111
+MSK_VB_0032	MSK_VB_0032_tumor	0.001766784	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				3.97426267492
+MSK_VB_0033	MSK_VB_0033_tumor	0.001730104	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				6.95495968111
+MSK_VB_0034	MSK_VB_0034_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				5.96139401238
+MSK_VB_0036	MSK_VB_0036_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				3.97426267492
+MSK_VB_0037	MSK_VB_0037_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				4.96782834365
+MSK_VB_0040	MSK_VB_0040_tumor	0.001633987	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				10.929222356
+MSK_VB_0041	MSK_VB_0041_tumor	0.001748252	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				7.94852534983
+MSK_VB_0044	MSK_VB_0044_tumor	0.001897533	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				8.94209101856
+MSK_VB_0045	MSK_VB_0045_tumor	NA	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				7.94852534983
+MSK_VB_0046	MSK_VB_0046_tumor	0.001686341	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				34.7747984055
+MSK_VB_0050	MSK_VB_0050_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				24.8391417182
+MSK_VB_0053	MSK_VB_0053_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				3.97426267492
+MSK_VB_0054	MSK_VB_0054_tumor	0.00154321	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				3.97426267492
+MSK_VB_0057	MSK_VB_0057_tumor	0.005025126	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				23.8455760495
+MSK_VB_0058	MSK_VB_0058_tumor	0.003558719	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				7.94852534983
+MSK_VB_0059	MSK_VB_0059_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				2.98069700619
+MSK_VB_0062	MSK_VB_0062_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				5.96139401238
+MSK_VB_0063	MSK_VB_0063_tumor	0.003558719	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				4.96782834365
+MSK_VB_0066	MSK_VB_0066_tumor	0.012173913	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				1.98713133746
+MSK_VB_0067	MSK_VB_0067_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				6.95495968111
+MSK_VB_0069	MSK_VB_0069_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				2.98069700619
+MSK_VB_0072	MSK_VB_0072_tumor	0.001658375	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				3.97426267492
+MSK_VB_0073	MSK_VB_0073_tumor	0.003372681	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				11.9227880248
+MSK_VB_0076	MSK_VB_0076_tumor	0	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				0.993565668729
+MSK_VB_0077	MSK_VB_0077_tumor	0.003710575	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				4.96782834365
+MSK_VB_0084	MSK_VB_0084_tumor	0.001694915	Tumor	Matched	Metastasis		BREAST	Breast Cancer, NOS	Breast	Advanced untreated or progressive metastatic breast cancer				2.98069700619
+MSK_VL_0002	MSK_VL_0002_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				3.97426267492
+MSK_VL_0003	MSK_VL_0003_tumor	0.001652893	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				5.96139401238
+MSK_VL_0005	MSK_VL_0005_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				3.97426267492
+MSK_VL_0007	MSK_VL_0007_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				4.96782834365
+MSK_VL_0008	MSK_VL_0008_tumor	0.005119454	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				17.8841820371
+MSK_VL_0009	MSK_VL_0009_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				2.98069700619
+MSK_VL_0010	MSK_VL_0010_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				1.98713133746
+MSK_VL_0012	MSK_VL_0012_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				15.8970506997
+MSK_VL_0013	MSK_VL_0013_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				3.97426267492
+MSK_VL_0015	MSK_VL_0015_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				1.98713133746
+MSK_VL_0017	MSK_VL_0017_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				10.929222356
+MSK_VL_0021	MSK_VL_0021_tumor	0.001930502	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				3.97426267492
+MSK_VL_0022	MSK_VL_0022_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				15.8970506997
+MSK_VL_0027	MSK_VL_0027_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				7.94852534983
+MSK_VL_0028	MSK_VL_0028_tumor	0.003460208	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				3.97426267492
+MSK_VL_0035	MSK_VL_0035_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				36.761929743
+MSK_VL_0038	MSK_VL_0038_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				8.94209101856
+MSK_VL_0042	MSK_VL_0042_tumor	0.003350084	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				7.94852534983
+MSK_VL_0044	MSK_VL_0044_tumor	0.003184713	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				3.97426267492
+MSK_VL_0045	MSK_VL_0045_tumor	0.003430532	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				8.94209101856
+MSK_VL_0048	MSK_VL_0048_tumor	0.001776199	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				15.8970506997
+MSK_VL_0051	MSK_VL_0051_tumor	0.00177305	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				1.98713133746
+MSK_VL_0054	MSK_VL_0054_tumor	0.00172117	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				9.93565668729
+MSK_VL_0055	MSK_VL_0055_tumor	0.00154321	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				17.8841820371
+MSK_VL_0056	MSK_VL_0056_tumor	0.001650165	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				4.96782834365
+MSK_VL_0057	MSK_VL_0057_tumor	0.003649635	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				6.95495968111
+MSK_VL_0060	MSK_VL_0060_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				20.8648790433
+MSK_VL_0061	MSK_VL_0061_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				5.96139401238
+MSK_VL_0064	MSK_VL_0064_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				2.98069700619
+MSK_VL_0065	MSK_VL_0065_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				28.8134043931
+MSK_VL_0067	MSK_VL_0067_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				2.98069700619
+MSK_VL_0069	MSK_VL_0069_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				1.98713133746
+MSK_VL_0071	MSK_VL_0071_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				2.98069700619
+MSK_VL_0073	MSK_VL_0073_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				1.98713133746
+MSK_VL_0074	MSK_VL_0074_tumor	0.005025126	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				11.9227880248
+MSK_VL_0075	MSK_VL_0075_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				12.9163536935
+MSK_VL_0076	MSK_VL_0076_tumor	0.004983389	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				5.96139401238
+MSK_VL_0077	MSK_VL_0077_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				4.96782834365
+MSK_VL_0080	MSK_VL_0080_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				12.9163536935
+MSK_VL_0082	MSK_VL_0082_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				3.97426267492
+MSK_VL_0083	MSK_VL_0083_tumor	0	Tumor	Matched	Metastasis		NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer				0.993565668729
+MSK_VP_0001	MSK_VP_0001_tumor	0.001757469	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0002	MSK_VP_0002_tumor	0.001733102	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0003	MSK_VP_0003_tumor	0.002227171	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0004	MSK_VP_0004_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				4.96782834365
+MSK_VP_0005	MSK_VP_0005_tumor	0.001639344	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				2.98069700619
+MSK_VP_0006	MSK_VP_0006_tumor	0.001639344	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				5.96139401238
+MSK_VP_0007	MSK_VP_0007_tumor	0.003466205	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0008	MSK_VP_0008_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0009	MSK_VP_0009_tumor	NA	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				3.97426267492
+MSK_VP_0010	MSK_VP_0010_tumor	0.00312989	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				4.96782834365
+MSK_VP_0014	MSK_VP_0014_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				5.96139401238
+MSK_VP_0015	MSK_VP_0015_tumor	0.011589404	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0016	MSK_VP_0016_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0018	MSK_VP_0018_tumor	0.001706485	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				2.98069700619
+MSK_VP_0019	MSK_VP_0019_tumor	0.003412969	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				4.96782834365
+MSK_VP_0021	MSK_VP_0021_tumor	0.001814882	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				4.96782834365
+MSK_VP_0023	MSK_VP_0023_tumor	0.094890511	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				18.8777477059
+MSK_VP_0024	MSK_VP_0024_tumor	0.001718213	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				3.97426267492
+MSK_VP_0025	MSK_VP_0025_tumor	0.001692047	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				6.95495968111
+MSK_VP_0026	MSK_VP_0026_tumor	0.004518072	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				2.98069700619
+MSK_VP_0028	MSK_VP_0028_tumor	0.003552398	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				0.993565668729
+MSK_VP_0029	MSK_VP_0029_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0030	MSK_VP_0030_tumor	0.001517451	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				0.993565668729
+MSK_VP_0031	MSK_VP_0031_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				3.97426267492
+MSK_VP_0032	MSK_VP_0032_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				3.97426267492
+MSK_VP_0033	MSK_VP_0033_tumor	0.003284072	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				3.97426267492
+MSK_VP_0034	MSK_VP_0034_tumor	0.001666667	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				4.96782834365
+MSK_VP_0035	MSK_VP_0035_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				2.98069700619
+MSK_VP_0037	MSK_VP_0037_tumor	0.001470588	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				2.98069700619
+MSK_VP_0038	MSK_VP_0038_tumor	0.001631321	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				6.95495968111
+MSK_VP_0040	MSK_VP_0040_tumor	0.001538462	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				0.993565668729
+MSK_VP_0041	MSK_VP_0041_tumor	0.210069444	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				25.832707387
+MSK_VP_0042	MSK_VP_0042_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0045	MSK_VP_0045_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				5.96139401238
+MSK_VP_0046	MSK_VP_0046_tumor	0.001814882	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				3.97426267492
+MSK_VP_0047	MSK_VP_0047_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				4.96782834365
+MSK_VP_0050	MSK_VP_0050_tumor	NA	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				4.96782834365
+MSK_VP_0051	MSK_VP_0051_tumor	NA	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				2.98069700619
+MSK_VP_0054	MSK_VP_0054_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				6.95495968111
+MSK_VP_0056	MSK_VP_0056_tumor	0.004279601	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0057	MSK_VP_0057_tumor	0.001470588	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				4.96782834365
+MSK_VP_0058	MSK_VP_0058_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				6.95495968111
+MSK_VP_0059	MSK_VP_0059_tumor	0	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				1.98713133746
+MSK_VP_0061	MSK_VP_0061_tumor	0.004424779	Tumor	Matched	Metastasis		PROSTATE	Prostate Cancer, NOS	Prostate	Castration-resistant prostate cancer				4.96782834365

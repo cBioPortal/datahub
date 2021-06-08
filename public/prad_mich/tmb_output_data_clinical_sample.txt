@@ -1,0 +1,126 @@
+#Patient Identifier	Sample Identifier	Sample Type	Primary Tumor Site	Normal location	ETS RAF-SPINK1 Status	Radical Prostatectomy Gleason Score for Prostate Cancer	Matched GE ACGH	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The type of sample (i.e., normal, primary, met, recurrence).	Text term to describe the organ sub-division in an individual with cancer.	Tissue where normal was derived.	ETS RAF-SPINK1 status.	The score derived from universally embraced prostate cancer grading system developed by Dr. Donald F. Gleason in 1977. The system provides a reproducible description of the glandular architecture of prostate tissue to which a pathologist assigns a score depending primarily on the microscopic patterns of cancerous glands and cell morphology. The system correlates well with behavior at the extremes: Gleason 1+1 tumors are the most well differentiated, slowly growing and rarely spread; Gleason 4+5 tumors are the most poorly differentiated, often widely metastatic at the time of diagnosis. In the commoner intermediate grade tumors, however, behavior is extremely variable.	Matched GE acgh.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	9	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_TYPE	PRIMARY_SITE	NORMAL_SITE	ETS_RAF_SPINK1_STATUS	GLEASON_SCORE	MATCHED_GE_ACGH	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+T8	T8	Primary	Prostate	Prostate	ERG+	7	Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.466666666667
+T12	T12	Primary	Prostate	Prostate	ERG+	8	Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.766666666667
+T32	T32	Primary	Prostate	Prostate	RAF1+	7	Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.5
+T90	T90	Primary	Prostate	Prostate	ERG+	8	No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.2
+T91	T91	Primary	Prostate	Prostate	ERG+	9	No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.533333333333
+T92	T92	Primary	Prostate	Prostate	ETV1+	8	No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.1
+T93	T93	Primary	Prostate	Prostate	No ETS	9	No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.733333333333
+T94	T94	Primary	Prostate	Prostate	ERG+	8	No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.466666666667
+T95	T95	Primary	Prostate	Prostate	No ETS	9	No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.06666666667
+T96	T96	Primary	Prostate	Prostate	ERG+	9	No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.26666666667
+T97	T97	Primary	Prostate	Prostate	ERG+	9	No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.23333333333
+WA3	WA3	Metastasis	Soft tissue	Liver	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.2
+WA7	WA7	Metastasis	Soft tissue	Pancreas	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.26666666667
+WA10	WA10	Metastasis	Liver	Spleen	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	2.33333333333
+WA11	WA11	Metastasis	Lung	Lung	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.83333333333
+WA12	WA12	Metastasis	Soft tissue	Liver	ERG+ (small cell)		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	2.63333333333
+WA13	WA13	Metastasis	Soft tissue	Bone marrow	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.33333333333
+WA14	WA14	Metastasis	Prostate	Dura	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.4
+WA15	WA15	Metastasis	Lymph node	Prostate	 (ERG+)		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.26666666667
+WA16	WA16	Metastasis	Diaphragm	Kidney	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	24.3333333333
+WA17	WA17	Metastasis	Liver	Liver	No ETS		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.2
+WA18	WA18	Metastasis	Liver	Kidney	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	2.03333333333
+WA19	WA19	Metastasis	Soft tissue	Adrenal gland	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.83333333333
+WA20	WA20	Metastasis	Liver	Spleen	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.0
+WA22	WA22	Metastasis	Prostate	Kidney	ERG+ (small cell)		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	2.33333333333
+WA23	WA23	Metastasis	Bone marrow	Cerebellum	ETV1+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.76666666667
+WA24	WA24	Metastasis	Liver	Brain	ERG+ (small cell)		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.933333333333
+WA25	WA25	Metastasis	Soft tissue	Kidney	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.46666666667
+WA26	WA26	Metastasis	Lung	Liver	ETV1+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	2.96666666667
+WA27	WA27	Metastasis	Soft tissue	Spleen	SPINK1+		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	2.06666666667
+WA28	WA28	Metastasis	Periaortic lymph node	Kidney	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.43333333333
+WA29	WA29	Metastasis	Soft tissue	Liver	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.2
+WA30	WA30	Metastasis	Soft tissue	Soft tissue	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.76666666667
+WA31	WA31	Metastasis	Liver	Spleen	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.73333333333
+WA32	WA32	Metastasis	Liver	Kidney	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.3
+WA33	WA33	Metastasis	Supraclavicular lymph node	Brain	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	2.56666666667
+WA35	WA35	Metastasis	Mesentery	Liver	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	3.03333333333
+WA37	WA37	Metastasis	Lung hilar lymph node	Kidney	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	3.13333333333
+WA38	WA38	Metastasis	Liver	Spleen	No ETS		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.26666666667
+WA39	WA39	Metastasis	Periaortic lymph node	Liver	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.666666666667
+WA40	WA40	Metastasis	Liver	Kidney	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	2.6
+WA41	WA41	Metastasis	Dura	Liver	No ETS		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.26666666667
+WA42	WA42	Metastasis	Adrenal	Kidney	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.86666666667
+WA43	WA43-44	Metastasis	Bladder	Pancreas	No ETS		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.96666666667
+WA43	WA43-27	Metastasis	Celiac lymph node	Pancreas	No ETS		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.7
+WA43	WA43-71	Metastasis	Lung	Pancreas	No ETS		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.36666666667
+WA46	WA46	Metastasis	Periaortic lymph node	Spleen	No ETS		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	2.63333333333
+WA47	WA47	Metastasis	Adrenal gland	Liver	SPINK1+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.766666666667
+WA48	WA48	Metastasis	Bone marrow	Liver	ERG+		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	7.83333333333
+WA49	WA49	Metastasis	Periaortic lymph node	Liver	ERG+		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.0
+WA50	WA50	Metastasis	Subcarinal lymph node	Liver	ERG+		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	3.03333333333
+WA51	WA51	Metastasis	Bone marrow	Liver	No ETS		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.43333333333
+WA52	WA52	Metastasis	Lung	Spleen	ERG+		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.933333333333
+WA53	WA53	Metastasis	Liver	Liver	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.13333333333
+WA54	WA54	Metastasis	Liver	Liver	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.1
+WA55	WA55	Metastasis	Liver	Liver	ERG+		Yes	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.36666666667
+WA56	WA56	Metastasis	Lymph node	Spleen	ERG+		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	5.7
+WA57	WA57	Metastasis	Liver	Spleen	ERG+ (small cell)		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	3.06666666667
+WA58	WA58	Metastasis	Lung	Spleen	No ETS		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.13333333333
+WA59	WA59	Metastasis	Iliac lymph node	Liver	No ETS		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.0
+WA60	WA60	Metastasis	Paratracheal lymph node	Liver	ERG+		No	PRAD	Prostate Cancer	Prostate Adenocarcinoma	0.9
+T66	T66							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T61	T61							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T75	T75							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T46	T46							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T73	T73							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T70	T70							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T17	T17							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T10	T10							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T11	T11							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T39	T39							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T37	T37							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T62	T62							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T19	T19							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T31	T31							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T58	T58							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T59	T59							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T50	T50							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T51	T51							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T52	T52							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T53	T53							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T54	T54							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T55	T55							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T56	T56							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T57	T57							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T63	T63							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+WA6	WA6							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+WA5	WA5							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+WA4	WA4							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+WA2	WA2							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T6	T6							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T7	T7							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T5	T5							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T3	T3							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T1	T1							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T29	T29							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T60	T60							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T21	T21							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T20	T20							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T25	T25							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T24	T24							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T27	T27							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T26	T26							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T67	T67							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T49	T49							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T48	T48							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T69	T69							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T68	T68							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T43	T43							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T42	T42							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T41	T41							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T40	T40							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T47	T47							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T9a	T9a							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T45	T45							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T44	T44							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T65	T65							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T64	T64							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T85	T85							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T83	T83							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA
+T82	T82							PRAD	Prostate Cancer	Prostate Adenocarcinoma	NA

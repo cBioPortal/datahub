@@ -1,0 +1,120 @@
+#Patient Identifier	Sample Identifier	Primary Tumor Site	Fusion	Oncotree Code	Cancer type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Text term to describe the organ sub-division in an individual with cancer.	Fusion	Oncotree Code	Cancer type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	PRIMARY_SITE	FUSION	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+IC009	IC009	Pelvis_No_Precise_Localization	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.266666666667
+IC015	IC015	Dorsal Vertebra	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0333333333333
+IC024	IC024	Lumbar Vertebra	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0333333333333
+IC034	IC034	Sacrum	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	1.16666666667
+IC044	IC044	Rib	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.166666666667
+IC046	IC046	Rib	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.266666666667
+IC049	IC049	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.633333333333
+IC053	IC053	Neck	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.4
+IC054	IC054	Rib	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.2
+IC057	IC057	Rib	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.1
+IC058	IC058	Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0333333333333
+IC066	IC066	Pelvic Soft Tissue	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0333333333333
+IC067	IC067	Hipbone	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+IC076	IC076	Skull	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+IC080	IC080	Cervical Intraspil	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.433333333333
+IC082	IC082	Skull	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.266666666667
+IC086	IC086	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.466666666667
+IC092	IC092	Thigh	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.366666666667
+IC093	IC093	Lumbar Vertebra	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.266666666667
+IC096	IC096	Pelvic Soft Tissue	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.233333333333
+IC105	IC105	Hipbone	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.4
+IC106	IC106	Hipbone	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.2
+IC111	IC111	Scapula	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.266666666667
+IC112	IC112	Kidney	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.5
+IC114	IC114	Rib	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0666666666667
+IC116	IC116	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.333333333333
+IC121	IC121	Hipbone	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.566666666667
+IC128	IC128	Hipbone	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.333333333333
+IC130	IC130	Ischium Pubis	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.166666666667
+IC147	IC147	Ischium Pubis	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.3
+IC149	IC149	Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.1
+IC151	IC151	Rib	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.1
+IC158	IC158	Humerus	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.3
+IC165	IC165	Scapula	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+IC168	IC168	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.2
+IC174	IC174	Dorsal Vertebra	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.433333333333
+IC193	IC193	Ischium Pubis	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0666666666667
+IC196	IC196	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.2
+IC197	IC197	Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.333333333333
+IC198	IC198	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.3
+IC224	IC224	Scapula	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.1
+IC242	IC242	Sacrum	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.166666666667
+IC248	IC248	Humerus	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.333333333333
+IC254	IC254	Shoulder	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.3
+IC262	IC262	Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.333333333333
+IC263	IC263	Buttocks	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0666666666667
+IC264	IC264	Fibula	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.366666666667
+IC267	IC267	Hipbone	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.5
+IC268	IC268	Rib	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+IC270	IC270	Buttocks	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+IC272	IC272	Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.333333333333
+IC273	IC273	Clavicle	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.566666666667
+IC274	IC274	Fibula	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.266666666667
+IC275	IC275	Fibula	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.233333333333
+IC277	IC277	Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.733333333333
+IC278	IC278	Head Or Neck No Precise Location	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.166666666667
+IC279	IC279	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.233333333333
+IC280	IC280		EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	1.13333333333
+IC282	IC282	Arm	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.433333333333
+IC283	IC283	Dorsal Vertebra	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.1
+IC284	IC284	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.2
+IC286	IC286	Intra-Abdomil	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.533333333333
+IC288	IC288	Ischium Pubis	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.166666666667
+IC294	IC294	Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0666666666667
+IC295	IC295	Skull	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+IC296	IC296	Ischium Pubis	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.466666666667
+IC297	IC297	Rib	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.5
+IC299	IC299	Hipbone	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0666666666667
+IC300	IC300	Scapula	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.3
+IC301	IC301	Rib	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.1
+IC302	IC302	Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.1
+IC303	IC303	Fibula	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0666666666667
+IC305	IC305	Hipbone	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.466666666667
+IC306	IC306	Hipbone	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.266666666667
+IC309	IC309	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.666666666667
+IC311	IC311	Hipbone	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.166666666667
+IC318	IC318	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0333333333333
+IC323	IC323	Intra-Abdomil	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.266666666667
+IC324	IC324	Scapula	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.466666666667
+IC325	IC325	Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.533333333333
+IC343	IC343	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.366666666667
+IC349	IC349	Ischium Pubis	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	NA
+IC831	IC831	Intra-Abdomil	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+IC929	IC929	Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.2
+IC973	IC973	Ul	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.366666666667
+SJEWS001301	SJEWS001301	Radius	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.233333333333
+SJEWS001302	SJEWS001302	Leg	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+SJEWS001303	SJEWS001303	Chestwall	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.333333333333
+SJEWS001304	SJEWS001304	Distal Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0666666666667
+SJEWS001305	SJEWS001305	Metacarpal	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+SJEWS001306	SJEWS001306	Proximal Tibia	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.466666666667
+SJEWS001307	SJEWS001307	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.2
+SJEWS001308	SJEWS001308	Orbit	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.266666666667
+SJEWS001309	SJEWS001309	Rib	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	1.06666666667
+SJEWS001311	SJEWS001311	Lumbar Vertebra	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.266666666667
+SJEWS001312	SJEWS001312	Thigh	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.3
+SJEWS001313	SJEWS001313	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+SJEWS001314	SJEWS001314	Thorax	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.3
+SJEWS001316	SJEWS001316	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.1
+SJEWS001317	SJEWS001317	Pelvis	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.2
+SJEWS001318	SJEWS001318	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.3
+SJEWS001319	SJEWS001319	Metatarsal	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.233333333333
+SJEWS001320	SJEWS001320	Femur	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.133333333333
+IC213	IC213	NA	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.2
+IC071	IC071	NA	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0666666666667
+IC077	IC077	NA	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0333333333333
+IC136	IC136	NA	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.733333333333
+IC204	IC204	NA	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0333333333333
+IC215	IC215	NA	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.3
+IC310	IC310	NA	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.1
+IC340	IC340	NA	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.0333333333333
+IC1057	IC1057	NA	EWSR1-ETS	ES	Bone Cancer	Ewing Sarcoma	Matched	0.966666666667
+IC315	IC315			ES	Bone Cancer	Ewing Sarcoma	Matched	NA
+IC316	IC316			ES	Bone Cancer	Ewing Sarcoma	Matched	NA
+IC319	IC319			ES	Bone Cancer	Ewing Sarcoma	Matched	NA

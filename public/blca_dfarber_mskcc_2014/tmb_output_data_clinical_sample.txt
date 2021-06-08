@@ -1,0 +1,55 @@
+#Patient Identifier	Sample Identifier	Germline Type	Silent Mutation Rate	Non-synonymous Mutation Rate	TOTAL PER Mb	Total Mutations	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Germline Type	Silent Mutation Rate	Non-synonymous Mutation Rate	TOTAL PER Mb	Total Mutations	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	GERMLINE_TYPE	SILENT_RATE	NONSYNONYMOUS_MUTATION_RATE	TOTAL_PER_MB	TOTAL_MUTATIONS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+DFCI-21	DFCI-21_NR	Whole Blood	2.87E-06	6.77E-06	9.64	399	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	7.86666666667
+DFCI-26	DFCI-26_R	Whole Blood	1.92E-06	6.14E-06	8.06	350	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	7.4
+DFCI-29	DFCI-29_R	Whole Blood	1.32E-06	2.84E-06	4.16	187	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	3.23333333333
+DFCI-31	DFCI-31_NR	Whole Blood	1.78E-06	5.00E-06	6.78	277	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	5.76666666667
+DFCI-32	DFCI-32_R	Whole Blood	4.93E-06	1.05E-05	15.43	1458	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	23.4666666667
+DFCI-33	DFCI-33_NR	Whole Blood	3.01E-06	8.15E-06	11.16	452	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	9.43333333333
+DFCI-34	DFCI-34_NR	Whole Blood	3.07E-06	6.69E-06	9.76	410	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	7.6
+DFCI-35	DFCI-35_R	Whole Blood	3.67E-06	1.03E-05	13.97	597	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	12.1666666667
+DFCI-37	DFCI-37_R	Whole Blood	1.00E-06	2.64E-06	3.64	164	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	3.23333333333
+DFCI-38	DFCI-38_NR	Whole Blood	1.61E-06	4.48E-06	6.09	284	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	5.2
+DFCI-43	DFCI-43_NR	Whole Blood	3.05E-08	1.22E-07	0.1525	37	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	0.266666666667
+DFCI-04	DFCI-04_R	Whole Blood	3.73E-06	9.16E-06	12.89	521	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	10.8333333333
+DFCI-05	DFCI-05_R	Whole Blood	2.44E-06	6.98E-06	9.42	399	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	8.1
+DFCI-06	DFCI-06_R	Whole Blood	6.03E-07	2.10E-06	2.703	119	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	2.36666666667
+DFCI-07	DFCI-07_R	Whole Blood	1.03E-06	3.79E-06	4.82	219	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	4.5
+DFCI-09	DFCI-09_NR	Whole Blood	1.29E-06	3.10E-06	4.39	192	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	3.76666666667
+MSKCC-0007	MSKCC-0007_NR	Whole Blood	1.00E-06	4.39E-06	5.39	258	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	5.23333333333
+MSKCC-0100	MSKCC-0100_R	Adjacent Normal Tissue	7.35E-06	1.93E-05	26.65	1049	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	22.7666666667
+MSKCC-0101	MSKCC-0101_NR	Whole Blood	1.53E-06	4.14E-06	5.67	559	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	9.1
+MSKCC-0231	MSKCC-0231_R	Whole Blood	1.64E-06	4.25E-06	5.89	273	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	5.06666666667
+MSKCC-0234	MSKCC-0234_NR	Whole Blood	6.41E-07	1.83E-06	2.471	316	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	4.16666666667
+MSKCC-0243	MSKCC-0243_NR	Adjacent Normal Tissue	7.46E-07	1.84E-06	2.586	116	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	2.13333333333
+MSKCC-0255	MSKCC-0255_NR	Whole Blood	2.99E-06	7.44E-06	10.43	427	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	8.56666666667
+MSKCC-0279	MSKCC-0279_NR	Whole Blood	5.95E-07	2.61E-06	3.205	377	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	5.8
+MSKCC-0296	MSKCC-0296_R	Whole Blood	1.06E-05	2.08E-05	31.4	1398	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	24.4666666667
+MSKCC-0301	MSKCC-0301_NR	Whole Blood	6.87E-07	3.34E-06	4.027	410	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	7.53333333333
+MSKCC-0331	MSKCC-0331_NR	Adjacent Normal Tissue	5.74E-07	2.10E-06	2.674	120	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	2.53333333333
+MSKCC-0343	MSKCC-0343_R	Whole Blood	3.73E-06	9.39E-06	13.12	605	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	10.8333333333
+MSKCC-0373	MSKCC-0373_NR	Whole Blood	1.22E-06	2.87E-06	4.09	384	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	6.4
+MSKCC-0389	MSKCC-0389_R	Whole Blood	5.89E-06	1.41E-05	19.99	912	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	16.5666666667
+MSKCC-0411	MSKCC-0411_R	Whole Blood	5.22E-06	1.18E-05	17.02	787	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	13.8666666667
+MSKCC-0425	MSKCC-0425_R	Adjacent Normal Tissue	2.55E-06	7.18E-06	9.73	420	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	8.4
+MSKCC-0439	MSKCC-0439_NR	Whole Blood	5.95E-07	2.76E-06	3.355	379	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	6.26666666667
+MSKCC-0445	MSKCC-0445_R	Whole Blood	4.43E-07	1.69E-06	2.133	266	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	3.86666666667
+MSKCC-0446	MSKCC-0446_R	Whole Blood	2.87E-06	8.47E-06	11.34	562	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	10.2333333333
+MSKCC-0450	MSKCC-0450_NR	Adjacent Normal Tissue	1.68E-07	8.85E-07	1.053	114	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	2.03333333333
+MSKCC-0464	MSKCC-0464_R	Whole Blood	2.47E-06	6.00E-06	8.47	390	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	7.13333333333
+MSKCC-0500	MSKCC-0500_R	Whole Blood	9.10E-06	1.96E-05	28.7	1257	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	22.9666666667
+MSKCC-0547	MSKCC-0547_R	Whole Blood	9.62E-07	3.34E-06	4.302	500	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	7.6
+MSKCC-0567	MSKCC-0567_NR	Adjacent Normal Tissue	1.23E-06	4.05E-06	5.28	235	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	4.66666666667
+MSKCC-0620	MSKCC-0620_R	Whole Blood	9.77E-07	3.53E-06	4.507	452	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	7.76666666667
+MSKCC-0651	MSKCC-0651_NR	Adjacent Normal Tissue	1.21E-06	3.88E-06	5.09	245	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	4.66666666667
+MSKCC-0677	MSKCC-0677_R	Whole Blood	3.67E-06	1.11E-05	14.77	653	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	12.9333333333
+MSKCC-0730	MSKCC-0730_NR	Adjacent Normal Tissue	1.06E-06	3.33E-06	4.39	198	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	3.83333333333
+MSKCC-0741	MSKCC-0741_R	Adjacent Normal Tissue	4.19E-06	1.13E-05	15.49	653	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	13.3666666667
+MSKCC-0745	MSKCC-0745_NR	Adjacent Normal Tissue	1.61E-06	4.19E-06	5.8	253	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	4.96666666667
+MSKCC-0754	MSKCC-0754_NR	Adjacent Normal Tissue	6.60E-07	2.84E-06	3.5	153	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	3.46666666667
+MSKCC-0760	MSKCC-0760_NR	Adjacent Normal Tissue	8.04E-07	2.33E-06	3.134	145	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	2.8
+MSKCC-0820	MSKCC-0820_NR	Adjacent Normal Tissue	5.45E-07	2.27E-06	2.815	123	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	2.66666666667
+MSKCC-0821	MSKCC-0821_R	Adjacent Normal Tissue	2.04E-06	5.60E-06	7.64	332	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	6.66666666667

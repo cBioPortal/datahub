@@ -1,0 +1,132 @@
+#Patient Identifier	Sample Identifier	Cancer Type	Cancer Type Detailed	Oncotree Code	Sample Type	Primary Tumor Site	Metastatic Site	Tumor Purity	Non Viral	IO Response	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Cancer Type	Cancer Type Detailed	Oncotree Code	The type of sample (i.e., normal, primary, met, recurrence).	Text term to describe the organ sub-division in an individual with cancer.	The anatomic location to which the cancer has spread.	Tumor Purity	If sample doesn't have HBV/HCV etc.	IO Response	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	9	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	SAMPLE_TYPE	PRIMARY_SITE	METASTATIC_SITE	TUMOR_PURITY	NON_VIRAL	IO_RESPONSE	TMB_NONSYNONYMOUS
+P-0022348	P-0022348-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	20	Yes	PD	1.76563024171
+P-0021780	P-0021780-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	No	NA	8.82815120857
+P-0021288	P-0021288-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	Yes	PD	1.76563024171
+P-0021059	P-0021059-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	No	NA	8.82815120857
+P-0021001	P-0021001-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Sacral Mass	60	Yes	SD	3.53126048343
+P-0020987	P-0020987-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	No	NA	5.29689072514
+P-0020910	P-0020910-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	No	NA	1.76563024171
+P-0020720	P-0020720-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	No	NA	5.29689072514
+P-0020428	P-0020428-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Abdomen	30	No	SD	2.64844536257
+P-0020304	P-0020304-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Rib	50	No	SD	7.06252096686
+P-0020359	P-0020359-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	No	NA	2.64844536257
+P-0019422	P-0019422-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	No	NA	11.4765965711
+P-0019614	P-0019614-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	Yes	NA	4.41407560429
+P-0019613	P-0019613-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	Yes	PR	2.64844536257
+P-0019616	P-0019616-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	No	NA	1.76563024171
+P-0019238	P-0019238-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Local Recurrence	Liver	NA	40	No	NA	10.5937814503
+P-0019058	P-0019058-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Rib	80	Yes	NA	4.41407560429
+P-0005038	P-0005038-T02-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	No	NA	3.53126048343
+P-0018788	P-0018788-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	Yes	NE	7.94533608772
+P-0018657	P-0018657-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	No	NA	0.882815120857
+P-0017908	P-0017908-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Duodenum	30	No	PD	2.64844536257
+P-0017698	P-0017698-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	Yes	PD	4.41407560429
+P-0017748	P-0017748-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	Yes	PD	2.64844536257
+P-0017520	P-0017520-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Local Recurrence	Liver	NA	80	Yes	NA	1.76563024171
+P-0017499	P-0017499-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	Yes	NA	6.179705846
+P-0017412	P-0017412-T02-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Local Recurrence	Liver	Liver	40	Yes	NA	10.5937814503
+P-0017415	P-0017415-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Local Recurrence	Liver	NA	20	Yes	PD	7.06252096686
+P-0017246	P-0017246-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	No	NA	5.29689072514
+P-0017119	P-0017119-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	10	No	NA	0.0
+P-0016245	P-0016245-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	No	PD	0.882815120857
+P-0016070	P-0016070-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	Yes	NA	7.06252096686
+P-0015853	P-0015853-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	No	NA	6.179705846
+P-0015687	P-0015687-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	No	SD	3.53126048343
+P-0015581	P-0015581-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	Yes	NA	0.882815120857
+P-0015203	P-0015203-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Bone	10	No	NA	7.94533608772
+P-0014668	P-0014668-T01-IM6	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	No	NA	1.76563024171
+P-0017630	P-0017630-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	No	NA	4.96782834365
+P-0014167	P-0014167-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Lymph Node	20	No	NA	7.94852534983
+P-0014151	P-0014151-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	Yes	NA	2.98069700619
+P-0013934	P-0013934-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Adrenal Gland	70	No	PR	6.95495968111
+P-0013553	P-0013553-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	30	No	NA	3.97426267492
+P-0013549	P-0013549-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	20	Yes	NA	2.98069700619
+P-0013464	P-0013464-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	Yes	PD	5.96139401238
+P-0013312	P-0013312-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	Yes	NA	5.96139401238
+P-0013161	P-0013161-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	Yes	NA	0.993565668729
+P-0013075	P-0013075-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	10	No	NA	0.993565668729
+P-0012941	P-0012941-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	No	NA	3.97426267492
+P-0012947	P-0012947-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	Yes	NA	9.93565668729
+P-0012628	P-0012628-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	No	NA	2.98069700619
+P-0012317	P-0012317-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	No	NA	3.97426267492
+P-0012276	P-0012276-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	30	No	NA	2.98069700619
+P-0012198	P-0012198-T02-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	Yes	NA	4.96782834365
+P-0012182	P-0012182-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	Yes	NA	4.96782834365
+P-0012150	P-0012150-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	10	Yes	NA	3.97426267492
+P-0012099	P-0012099-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	Yes	SD	0.993565668729
+P-0012068	P-0012068-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	20	No	NA	4.96782834365
+P-0011530	P-0011530-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Ectopic Embryonic Rest	NA	90	Yes	NA	0.993565668729
+P-0011128	P-0011128-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	Yes	NA	7.94852534983
+P-0010584	P-0010584-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	20	No	NA	0.993565668729
+P-0010346	P-0010346-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	No	NA	4.96782834365
+P-0010451	P-0010451-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	No	NA	0.0
+P-0010226	P-0010226-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	Yes	NA	2.98069700619
+P-0010148	P-0010148-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Abdomen	60	No	NA	0.993565668729
+P-0010119	P-0010119-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	20	No	NA	8.94209101856
+P-0008298	P-0008298-T02-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	30	No	NA	0.0
+P-0009664	P-0009664-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	No	PD	9.93565668729
+P-0009644	P-0009644-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	Yes	NA	4.96782834365
+P-0009540	P-0009540-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	Yes	PD	1.98713133746
+P-0009529	P-0009529-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	Yes	NE	0.0
+P-0009500	P-0009500-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	30	No	NA	0.993565668729
+P-0009255	P-0009255-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	Yes	NE	1.98713133746
+P-0008750	P-0008750-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Mediastinum	90	Yes	SD	3.97426267492
+P-0008564	P-0008564-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	No	NA	1.98713133746
+P-0008555	P-0008555-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	90	Yes	NA	0.993565668729
+P-0007905	P-0007905-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	No	NA	3.97426267492
+P-0007773	P-0007773-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Spine	70	Yes	NA	4.96782834365
+P-0007787	P-0007787-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	Yes	NA	3.97426267492
+P-0007505	P-0007505-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	30	No	PD	2.98069700619
+P-0007348	P-0007348-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	No	NA	2.98069700619
+P-0007353	P-0007353-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	Yes	NA	1.98713133746
+P-0007157	P-0007157-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	Yes	NA	5.96139401238
+P-0006245	P-0006245-T02-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	20	Yes	NA	9.93565668729
+P-0006199	P-0006199-T03-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	No	NA	6.95495968111
+P-0006662	P-0006662-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	No	PD	6.95495968111
+P-0006599	P-0006599-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	No	SD	4.96782834365
+P-0006633	P-0006633-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	No	PD	3.97426267492
+P-0006538	P-0006538-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	No	NA	3.97426267492
+P-0006403	P-0006403-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	10	No	NA	0.993565668729
+P-0006102	P-0006102-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	90	No	NA	1.98713133746
+P-0006082	P-0006082-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	Yes	NA	1.98713133746
+P-0000228	P-0000228-T03-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	20	No	NA	5.96139401238
+P-0005779	P-0005779-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	Yes	NA	3.97426267492
+P-0005782	P-0005782-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	Yes	NA	5.96139401238
+P-0005854	P-0005854-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	Yes	NA	4.96782834365
+P-0005757	P-0005757-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	90	No	NA	2.98069700619
+P-0005671	P-0005671-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	Yes	NA	5.96139401238
+P-0005357	P-0005357-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	20	No	NA	4.96782834365
+P-0005202	P-0005202-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	Yes	NA	3.97426267492
+P-0004930	P-0004930-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	Yes	PD	5.96139401238
+P-0004876	P-0004876-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	30	Yes	NA	10.929222356
+P-0004805	P-0004805-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	No	NA	2.98069700619
+P-0004836	P-0004836-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	Yes	NE	0.0
+P-0004574	P-0004574-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	No	NA	0.0
+P-0004247	P-0004247-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	30	No	NA	1.98713133746
+P-0003212	P-0003212-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Adrenal Gland	70	No	NA	1.98713133746
+P-0002753	P-0002753-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	30	No	NA	5.60774496873
+P-0002719	P-0002719-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	No	NA	5.60774496873
+P-0002697	P-0002697-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	No	NA	3.36464698124
+P-0002317	P-0002317-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	Yes	NA	1.12154899375
+P-0002299	P-0002299-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	Yes	SD	4.48619597498
+P-0002031	P-0002031-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	default	Yes	NA	0.0
+P-0001974	P-0001974-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	50	Yes	NA	1.12154899375
+P-0001852	P-0001852-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	Yes	NA	2.24309798749
+P-0001806	P-0001806-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Adrenal Gland	40	No	NA	4.48619597498
+P-0001409	P-0001409-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	Yes	NA	1.12154899375
+P-0001336	P-0001336-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	default	Yes	NA	4.48619597498
+P-0001307	P-0001307-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	20	No	NA	6.72929396248
+P-0001310	P-0001310-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	Yes	SD	2.24309798749
+P-0001321	P-0001321-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	30	No	NA	4.48619597498
+P-0001324	P-0001324-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	80	Yes	NA	8.97239194997
+P-0001188	P-0001188-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	60	No	NA	1.12154899375
+P-0000829	P-0000829-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	40	No	NA	6.72929396248
+P-0000587	P-0000587-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Bone	80	Yes	NA	5.60774496873
+P-0000218	P-0000218-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Liver	80	Yes	PD	2.24309798749
+P-0000182	P-0000182-T01-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Metastasis	Liver	Peritoneum	80	Yes	NA	2.24309798749
+P-0000037	P-0000037-T02-IM3	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	90	No	NA	3.36464698124
+P-0013882	P-0013882-T01-IM5	Hepatobiliary Cancer	Hepatocellular Carcinoma	HCC	Primary	Liver	NA	70	No	CR	1.98713133746

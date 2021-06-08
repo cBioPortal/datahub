@@ -1,0 +1,61 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	MYCN Amplification	Purity	Ploidy	mean target coverage tumor	mean target coverage normal	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	MYCN Amplification	Purity	Ploidy.	mean target coverage tumor	mean target coverage normal	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	MYCN_AMP	PURITY	PLOIDY	MEAN_TARGET_COVERAGE_TUMOR	MEAN_TARGET_COVERAGE_NORMAL	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+NBL01	NBL01	NBL	No	0.93	2.14	34.43	46.39	Peripheral Nervous System	Neuroblastoma	0.6
+NBL02	NBL02	NBL	No	0.73	1.99	44.07	30.17	Peripheral Nervous System	Neuroblastoma	0.133333333333
+NBL03	NBL03	NBL	No	0.94	2.23	35.37	42.27	Peripheral Nervous System	Neuroblastoma	0.3
+NBL04	NBL04	NBL	No	0.91	2.09	27.65	29	Peripheral Nervous System	Neuroblastoma	0.433333333333
+NBL05	NBL05	NBL	No	0.94	2.11	33.39	35.85	Peripheral Nervous System	Neuroblastoma	0.5
+NBL06	NBL06	NBL	No	0.89	2.11	30.96	31.32	Peripheral Nervous System	Neuroblastoma	0.433333333333
+NBL07	NBL07	NBL	No	0.88	2.08	41.78	44.85	Peripheral Nervous System	Neuroblastoma	0.733333333333
+NBL08	NBL08	NBL	No	0.88	2.98	31.39	33.79	Peripheral Nervous System	Neuroblastoma	1.86666666667
+NBL09	NBL09	NBL	No	0.97	2.11	39.22	44.96	Peripheral Nervous System	Neuroblastoma	0.6
+NBL10	NBL10	NBL	No	1	2.89	32.56	31.23	Peripheral Nervous System	Neuroblastoma	0.0666666666667
+NBL11	NBL11	NBL	No	0.49	2.83	31.32	29.58	Peripheral Nervous System	Neuroblastoma	0.0666666666667
+NBL12	NBL12	NBL	No	0.7	2.84	31.99	31.99	Peripheral Nervous System	Neuroblastoma	0.0333333333333
+NBL13	NBL13	NBL	No	0.91	2.33	28.25	27.9	Peripheral Nervous System	Neuroblastoma	0.0333333333333
+NBL14	NBL14	NBL	No	0.89	2.07	32.49	30.29	Peripheral Nervous System	Neuroblastoma	0.166666666667
+NBL15	NBL15	NBL	No	0.93	3.23	44.67	45.33	Peripheral Nervous System	Neuroblastoma	0.133333333333
+NBL16	NBL16	NBL	No	0.33	2.66	37.65	46.17	Peripheral Nervous System	Neuroblastoma	0.133333333333
+NBL17	NBL17	NBL	No	0.93	2.86	35.99	39.46	Peripheral Nervous System	Neuroblastoma	0.0333333333333
+NBL18	NBL18	NBL	No	0.57	2.16	31.05	34.8	Peripheral Nervous System	Neuroblastoma	0.2
+NBL19	NBL19	NBL	No	0.94	2.08	37.27	31.68	Peripheral Nervous System	Neuroblastoma	0.233333333333
+NBL20	NBL20	NBL	No	0.8	3.38	30.2	41.51	Peripheral Nervous System	Neuroblastoma	0.0333333333333
+NBL21	NBL21	NBL	No	0.93	2.73	40.12	47.61	Peripheral Nervous System	Neuroblastoma	0.533333333333
+NBL22	NBL22	NBL	No	0.61	3.32	37.21	32.61	Peripheral Nervous System	Neuroblastoma	0.133333333333
+NBL23	NBL23	NBL	No	0.79	2.02	29.88	49.19	Peripheral Nervous System	Neuroblastoma	0.466666666667
+NBL24	NBL24	NBL	No	0.86	3.04	37.3	27.41	Peripheral Nervous System	Neuroblastoma	0.0666666666667
+NBL25	NBL25	NBL	No	0.77	2.84	40.41	33.86	Peripheral Nervous System	Neuroblastoma	0.133333333333
+NBL26	NBL26	NBL	Yes	0.94	2.04	34.39	31.57	Peripheral Nervous System	Neuroblastoma	0.6
+NBL27	NBL27	NBL	Yes	0.86	2.18	40.13	27.36	Peripheral Nervous System	Neuroblastoma	0.533333333333
+NBL28	NBL28	NBL	Yes	0.94	1.99	41.33	29.45	Peripheral Nervous System	Neuroblastoma	0.2
+NBL29	NBL29	NBL	Yes	0.88	2.06	29.71	36.47	Peripheral Nervous System	Neuroblastoma	0.4
+NBL30	NBL30	NBL	Yes	1	1.99	30.53	33.58	Peripheral Nervous System	Neuroblastoma	0.3
+NBL31	NBL31	NBL	Yes	0.49	2	34.9	33.06	Peripheral Nervous System	Neuroblastoma	0.3
+NBL32	NBL32	NBL	Yes	0.91	1.98	38.82	43.41	Peripheral Nervous System	Neuroblastoma	0.333333333333
+NBL33	NBL33	NBL	Yes	0.96	2.18	35.96	45.07	Peripheral Nervous System	Neuroblastoma	0.533333333333
+NBL34	NBL34	NBL	Yes	0.73	2.02	37.38	44.21	Peripheral Nervous System	Neuroblastoma	0.5
+NBL35	NBL35	NBL	No	0.86	1.94	29.89	31.03	Peripheral Nervous System	Neuroblastoma	0.166666666667
+NBL36	NBL36	NBL	No	0.88	2.46	33.23	30.41	Peripheral Nervous System	Neuroblastoma	1.26666666667
+NBL37	NBL37	NBL	No	0.76	2.18	32.95	32.09	Peripheral Nervous System	Neuroblastoma	0.7
+NBL38	NBL38	NBL	No	0.87	2.35	27.56	27.17	Peripheral Nervous System	Neuroblastoma	0.6
+NBL39	NBL39	NBL	No	0.84	4.45	30.03	31.01	Peripheral Nervous System	Neuroblastoma	0.933333333333
+NBL40	NBL40	NBL	No	0.89	3.73	27.97	29.58	Peripheral Nervous System	Neuroblastoma	0.366666666667
+NBL41	NBL41	NBL	No	0.76	2.09	42.1	46.34	Peripheral Nervous System	Neuroblastoma	0.833333333333
+NBL42	NBL42	NBL	Yes	0.59	4.53	31.53	31.03	Peripheral Nervous System	Neuroblastoma	0.166666666667
+NBL43	NBL43	NBL	No	0.72	2.22	48.92	26.66	Peripheral Nervous System	Neuroblastoma	0.566666666667
+NBL44	NBL44	NBL	No	0.91	2.09	47.87	26.57	Peripheral Nervous System	Neuroblastoma	0.833333333333
+NBL45	NBL45	NBL	No	0.55	2.3	43.07	21.79	Peripheral Nervous System	Neuroblastoma	0.2
+NBL47	NBL47	NBL	No	0.9	2.06	29.76	26.61	Peripheral Nervous System	Neuroblastoma	0.366666666667
+NBL48	NBL48	NBL	No	0.87	2.36	39.37	24.3	Peripheral Nervous System	Neuroblastoma	0.733333333333
+NBL49	NBL49	NBL	No	0.75	2.74	41.25	24.76	Peripheral Nervous System	Neuroblastoma	0.566666666667
+NBL50	NBL50	NBL	No	0.68	2.14	40.67	25.4	Peripheral Nervous System	Neuroblastoma	0.4
+NBL51	NBL51	NBL	No	0.69	2.05	45.21	26.08	Peripheral Nervous System	Neuroblastoma	0.4
+NBL53	NBL53	NBL	No	0.97	4.15	38.99	24.54	Peripheral Nervous System	Neuroblastoma	0.366666666667
+NBL54	NBL54	NBL	No	0.84	1.88	40.79	25.06	Peripheral Nervous System	Neuroblastoma	0.166666666667
+NBL55	NBL55	NBL	No	0.88	2.09	46.74	28.78	Peripheral Nervous System	Neuroblastoma	0.433333333333
+NBL56	NBL56	NBL	No	0.94	2.04	42.21	24.37	Peripheral Nervous System	Neuroblastoma	0.633333333333
+NBL58	NBL58	NBL	No	0.81	2.03	44.07	25.08	Peripheral Nervous System	Neuroblastoma	0.233333333333
+NBL61	NBL61	NBL	No	0.82	2.87	47.2	29.32	Peripheral Nervous System	Neuroblastoma	0.633333333333

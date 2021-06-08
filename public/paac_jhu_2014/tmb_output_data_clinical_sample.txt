@@ -1,0 +1,28 @@
+#Patient Identifier	Sample Identifier	Immunohistochemistry	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Immunohistochemistry	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	IMMUNOHISTOCHEMISTRY	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+ACINAR01	ACINAR01	Chymotrypsin +, Trypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	21.7333333333
+ACINAR02	ACINAR02	Trypsin +, Lipase +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	2.0
+ACINAR03	ACINAR03	Trypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	12.7333333333
+ACINAR04	ACINAR04	Trypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	1.03333333333
+ACINAR05	ACINAR05	Lipase +, Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	1.03333333333
+ACINAR06	ACINAR06	Chymotrypsin +, Trypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	3.2
+ACINAR08	ACINAR08	Alpha-1-Antitrypsin +, Lipase +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	0.3
+ACINAR09	ACINAR09	Alpha-1-Antitrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	3.36666666667
+ACINAR10	ACINAR10	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	0.9
+ACINAR11	ACINAR11	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	3.5
+ACINAR13	ACINAR13	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	3.46666666667
+ACINAR14	ACINAR14	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	0.533333333333
+ACINAR15	ACINAR15	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	1.43333333333
+ACINAR17	ACINAR17	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	0.566666666667
+ACINAR18	ACINAR18	Trypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	1.36666666667
+ACINAR19	ACINAR19	Trypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	0.5
+ACINAR20	ACINAR20	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	1.76666666667
+ACINAR21	ACINAR21	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	0.7
+ACINAR25	ACINAR25	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	1.36666666667
+ACINAR26	ACINAR26	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	2.43333333333
+ACINAR27	ACINAR27	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	3.9
+ACINAR28	ACINAR28	Chymotrypsin +, Lipase +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	11.3666666667
+ACINAR29	ACINAR29	Trypsin +, Chymotrypsin +	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	5.73333333333

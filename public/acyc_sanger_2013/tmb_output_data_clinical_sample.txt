@@ -1,0 +1,29 @@
+#Patient Identifier	Sample Identifier	Cancer Type	Cancer Type Detailed	Platform	Primary Tumor Site	Tumor Disease Anatomic Site	Aberrant Cell Fraction	Sample Type	Genomic Alterations	Oncotree Code	Fusion Status	MYB or MYBL1 Fusion	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Cancer Type	Cancer Type Detailed	Platform.	Text term to describe the organ sub-division in an individual with cancer.	Text term that describes the anatomic site of the tumor or disease.	Aberrant Cell Fraction	The type of sample (i.e., normal, primary, met, recurrence).	Number of genomic alterations	Oncotree Code	Yes/No indicator of fusion status	Description of MYB or MYBL1 fusions identified.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	9	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	PLATFORM	PRIMARY_SITE	TUMOR_TISSUE_SITE	ABERRANT_CELL_FRACTION	SAMPLE_TYPE	GENOMIC_ALTERATIONS	ONCOTREE_CODE	FUSION_STATUS	MYB_MYBL1_FUSION	TMB_NONSYNONYMOUS
+PD3181a	PD3181a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Salivary gland	Parotid gland	0.75	Primary	35	ACYC	NO	Positive	0.866666666667
+PD3193a	PD3193a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Salivary gland	Submandibular gland	0.85	Primary	23	ACYC	NO	Negative	0.633333333333
+PD3197a	PD3197a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Head and Neck	Maxilla	0.84	Primary	9	ACYC	NO	Positive	0.233333333333
+PD3178a	PD3178a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Head and Neck	Oropharynx	0.83	Primary	7	ACYC	NO	Positive	0.133333333333
+PD3200a	PD3200a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Salivary gland	Parotid gland	0.69	Primary	13	ACYC	NO	Negative	0.366666666667
+PD3191a	PD3191a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Orbital cavity	Orbital mass	0.82	Primary	16	ACYC	NO	Positive	0.366666666667
+PD3195a	PD3195a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Head and Neck	Maxilla	0.76	Primary	13	ACYC	NO	Positive	0.366666666667
+PD3185a	PD3185a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Oral cavity	Palate	0.79	Primary	16	ACYC	NO	Positive	0.433333333333
+PD3189a	PD3189a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Orbital cavity	Orbital mass	0.4	Primary	13	ACYC	NO	Negative	0.433333333333
+PD3208a	PD3208a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Head and Neck	Maxilla	0.83	Primary	7	ACYC	NO	Positive	0.2
+PD3199a	PD3199a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Oral cavity	Floor of mouth	NA	Primary	13	ACYC	NO		0.366666666667
+PD3192a	PD3192a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Orbital cavity	Orbital mass	0.47	Primary	10	ACYC	NO	Positive	0.266666666667
+PD3180a	PD3180a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Salivary gland	Parotid gland	0.8	Primary	15	ACYC	NO	Positive	0.4
+PD3184a	PD3184a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Head and Neck	Maxilla	0.63	Primary	8	ACYC	NO	Positive	0.1
+PD3179a	PD3179a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Salivary gland	Parotid gland	0.83	Primary	11	ACYC	NO	Positive	0.3
+PD3190a	PD3190a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Salivary gland	Lymph node	NA	Primary	18	ACYC	NO		0.4
+PD3182a	PD3182a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Salivary gland	Parotid gland	0.82	Primary	9	ACYC	NO	Positive	0.233333333333
+PD3194a	PD3194a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Oral cavity	Floor of mouth	0.8	Primary	11	ACYC	NO	Negative	0.233333333333
+PD3186a	PD3186a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Oral cavity	Tongue	0.77	Primary	18	ACYC	NO	Positive	0.5
+PD3226a	PD3226a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Salivary gland	Parotid gland	0.82	Primary	11	ACYC	NO	Positive	0.266666666667
+PD3196a	PD3196a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Oral cavity	Base of tongue	0.81	Primary	14	ACYC	NO	Positive	0.4
+PD3188a	PD3188a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Head and Neck	Maxilla	0.81	Primary	15	ACYC	NO	Positive	0.366666666667
+PD3198a	PD3198a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Head and Neck	Maxilla	0.73	Primary	2	ACYC	NO	Positive	0.0333333333333
+PD3216a	PD3216a	Salivary Cancer	Adenoid Cystic Carcinoma	Exome	Head and Neck	Maxilla	0.78	Primary	5	ACYC	NO	Positive	0.1

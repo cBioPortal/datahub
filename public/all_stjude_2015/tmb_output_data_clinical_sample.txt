@@ -1,0 +1,98 @@
+#Sample Identifier	Patient Identifier	MLL Status	Leukemia Type	Mutation Rate	Gene Panel	Cancer Type	Cancer Type Detailed	Oncotree Code	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	MLL status.	Leukemia Type	Mutation Rate	Gene panel.	Disease type	Cancer Type Detailed	Oncotree Code	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	MLL_STATUS	LEUKEMIA_TYPE	MUTATION_RATE	GENE_PANEL	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	TMB_NONSYNONYMOUS
+SJINF001	SJINF001	INF_MLLr	Pre-B	3.97E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF001R	SJINF001	INF_MLLr	Pre-B		WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF002	SJINF002	INF_MLLr	Pre-B	7.38E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF002R	SJINF002	INF_MLLr	Pre-B		WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF003	SJINF003	INF_MLLr	Pre-B	3.96E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF004	SJINF004	INF_MLLr	Pre-B	1.55E-07	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF005	SJINF005	INF_MLLr	T-ALL	7.35E-08	WGS	Leukemia	T-Cell Acute Lymphoid Leukemia	AUL	NA
+SJINF006	SJINF006	INF_MLLr	Early Pre-B	0	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF007	SJINF007	INF_MLLr	Early Pre-B	1.05E-07	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF008	SJINF008	INF_MLLr	Pre-B	6.90E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF009	SJINF009	INF_MLLr	Early Pre-B	3.40E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF010	SJINF010	INF_MLLr	Early Pre-B	3.38E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF011	SJINF011	INF_MLLr	Pre-B	1.71E-07	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF012	SJINF012	INF_MLLr	Pre-B	6.93E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF013	SJINF013	INF_MLLr	Early Pre-B	2.03E-07	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF014	SJINF014	INF_MLLr	Early Pre-B	1.01E-07	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF015	SJINF015	INF_MLLr	Pre-B	6.74E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF016	SJINF016	INF_MLLr	Pre-B	3.33E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF017	SJINF017	INF_MLLr	Pre-B	2.29E-07	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF018	SJINF018	INF_MLLr	Early Pre-B	7.24E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF019	SJINF019	INF_MLLr	Early Pre-B	1.08E-07	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF020	SJINF020	INF_MLLr	Early Pre-B	1.66E-07	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF021	SJINF021	INF_MLLr	Pre-B	1.72E-07	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF022	SJINF022	INF_MLLr	Pre-B	6.86E-08	WGS	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJINF023	SJINF023	INF_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF024	SJINF024	INF_MLLr	MixedPreB-M5		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	3.35158270114
+SJINF025	SJINF025	INF_NON_MLLr	ALL		Targeted_Seq	Leukemia	Acute Lymphoblastic Leukemia	ALL	0.0
+SJINF026	SJINF026	INF_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	0.0
+SJINF027	SJINF027	INF_MLLr	ALL		Targeted_Seq	Leukemia	Acute Lymphoblastic Leukemia	ALL	0.0
+SJINF028	SJINF028	INF_NON_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF029	SJINF029	INF_NON_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	3.35158270114
+SJINF030	SJINF030	INF_NON_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF031	SJINF031	INF_NON_MLLr	AML/ALL		Targeted_Seq	Leukemia	Leukemia	LEUK	3.35158270114
+SJINF032	SJINF032	INF_MLLr	MATURE-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF033	SJINF033	INF_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	3.35158270114
+SJINF033R	SJINF033	INF_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF034	SJINF034	INF_MLLr	Pro-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	3.35158270114
+SJINF035	SJINF035	INF_NON_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF036	SJINF036	INF_MLLr	ALL		Targeted_Seq	Leukemia	Acute Lymphoblastic Leukemia	ALL	1.67579135057
+SJINF037	SJINF037	INF_NON_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF039	SJINF039	INF_NON_MLLr	T-ALL		Targeted_Seq	Leukemia	T-Cell Acute Lymphoid Leukemia	TALL	1.67579135057
+SJINF040	SJINF040	INF_NON_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	0.0
+SJINF041	SJINF041	INF_NON_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	0.0
+SJINF042	SJINF042	INF_MLLr	Pre-B 		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	6.70316540228
+SJINF042R	SJINF042	INF_MLLr	Pre-B 		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	5.02737405171
+SJINF043	SJINF043	INF_MLLr	Pre-B 		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	0.0
+SJINF045	SJINF045	INF_NON_MLLr	T-ALL		Targeted_Seq	Leukemia	T-Cell Acute Lymphoid Leukemia	TALL	8.37895675285
+SJINF046	SJINF046	INF_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF049	SJINF049	INF_NON_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	0.0
+SJINF053	SJINF053	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	5.02737405171
+SJINF055	SJINF055	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	5.02737405171
+SJINF056	SJINF056	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	23.461078908
+SJINF059	SJINF059	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	0.0
+SJINF060	SJINF060	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	0.0
+SJINF060R	SJINF060	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	3.35158270114
+SJINF061	SJINF061	INF_NON_MLLr	T-ALL		Targeted_Seq	Leukemia	T-Cell Acute Lymphoid Leukemia	TALL	0.0
+SJINF061R	SJINF061	INF_NON_MLLr	T-ALL		Targeted_Seq	Leukemia	T-Cell Acute Lymphoid Leukemia	TALL	3.35158270114
+SJINF062	SJINF062	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF063	SJINF063	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	3.35158270114
+SJINF064	SJINF064	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	0.0
+SJINF065	SJINF065	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	3.35158270114
+SJINF065R	SJINF065	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF066	SJINF066	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF067	SJINF067	INF_NON_MLLr	B-lin: NOS		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	0.0
+SJINF068	SJINF068	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	3.35158270114
+SJINF069	SJINF069	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	5.02737405171
+SJINF070	SJINF070	INF_NON_MLLr	T-ALL		Targeted_Seq	Leukemia	T-Cell Acute Lymphoid Leukemia	TALL	1.67579135057
+SJINF071	SJINF071	INF_NON_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	5.02737405171
+SJINF072	SJINF072	INF_NON_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF073	SJINF073	INF_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF073R	SJINF073	INF_MLLr	Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJINF074	SJINF074	INF_NON_MLLr	Transitional Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	3.35158270114
+SJINF075	SJINF075	INF_MLLr	Early Pre-B		Targeted_Seq	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	1.67579135057
+SJMLL001	SJMLL001	NON_INF_MLLr	AUL	7.63E-07	WES	Leukemia	Acute Undifferentiated Leukemia	AUL	NA
+SJMLL002	SJMLL002	NON_INF_MLLr	T-ALL	3.22E-07	WES	Leukemia	T-Cell Acute Lymphoid Leukemia	TALL	NA
+SJMLL003	SJMLL003	NON_INF_MLLr	Early Pre-B	2.72E-07	WES	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJMLL004	SJMLL004	NON_INF_MLLr	Pre-B	3.49E-07	WES	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJMLL005	SJMLL005	NON_INF_MLLr	Pre-B	1.38E-07	WES	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJMLL006	SJMLL006	NON_INF_MLLr	Pre-B	3.45E-07	WES	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJMLL008	SJMLL008	NON_INF_MLLr	T-ALL	9.86E-08	WES	Leukemia	T-Cell Acute Lymphoid Leukemia	TALL	NA
+SJMLL009	SJMLL009	NON_INF_MLLr	Transitional Pre-B	5.59E-07	WES	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJMLL010	SJMLL010	NON_INF_MLLr	Pre-B	4.14E-07	WES	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJMLL011	SJMLL011	NON_INF_MLLr	AML M0	1.99E-07	WES	Leukemia	Acute Myeloid Leukemia	AML	NA
+SJMLL012	SJMLL012	NON_INF_MLLr	AML M5	3.11E-07	WES	Leukemia	Acute Myeloid Leukemia	AML	NA
+SJMLL013	SJMLL013	NON_INF_MLLr	AML M5	0	WES	Leukemia	Acute Myeloid Leukemia	AML	NA
+SJMLL014	SJMLL014	NON_INF_MLLr	AML M1	0	WES	Leukemia	Acute Myeloid Leukemia	AML	NA
+SJMLL016	SJMLL016	NON_INF_MLLr	Mature-B	3.07E-07	WES	Leukemia	B-Cell Acute Lymphoid Leukemia	BALL	NA
+SJMLL017	SJMLL017	NON_INF_MLLr	AML M5	6.56E-07	WES	Leukemia	Acute Myeloid Leukemia	AML	NA
+SJMLL018	SJMLL018	NON_INF_MLLr	AML M5	1.04E-07	WES	Leukemia	Acute Myeloid Leukemia	AML	NA
+SJMLL019	SJMLL019	NON_INF_MLLr	AML M5	2.65E-07	WES	Leukemia	Acute Myeloid Leukemia	AML	NA
+SJMLL020	SJMLL020	NON_INF_MLLr	AML M5	1.04E-07	WES	Leukemia	Acute Myeloid Leukemia	AML	NA
+SJMLL021	SJMLL021	NON_INF_MLLr	AML M5	1.73E-07	WES	Leukemia	Acute Myeloid Leukemia	AML	NA
+SJMLL022	SJMLL022	NON_INF_MLLr	AML M5	3.31E-07	WES	Leukemia	Acute Myeloid Leukemia	AML	NA

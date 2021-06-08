@@ -1,0 +1,1054 @@
+#Patient Identifier	Sample Identifier	Cancer Type	Cancer Type Detailed	Sample Type	Oncotree Code	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Cancer Type	Cancer Type Detailed	The type of sample (i.e., normal, primary, met, recurrence).	Oncotree Code	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	9	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	SAMPLE_TYPE	ONCOTREE_CODE	TMB_NONSYNONYMOUS
+PD7296a	PD7296a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.933333333333
+PD7284a	PD7284a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.1
+PD7286a	PD7286a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.26666666667
+PD7143a	PD7143a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	2.03333333333
+PD7141a	PD7141a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.933333333333
+PD7298a	PD7298a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.7
+PD7288a	PD7288a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.733333333333
+PD7139a	PD7139a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.13333333333
+PD7129a	PD7129a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.433333333333
+PD7123a	PD7123a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	9.5
+PD7135a	PD7135a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.4
+PD7291a	PD7291a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.06666666667
+PD7131a	PD7131a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.333333333333
+PD7137a	PD7137a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.9
+PD7283a	PD7283a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.2
+PD7133a	PD7133a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.63333333333
+PD7125a	PD7125a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.866666666667
+PD7127a	PD7127a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.6
+PD7144a	PD7144a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	3.06666666667
+PD7293a	PD7293a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.966666666667
+PD7285a	PD7285a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.966666666667
+PD7140a	PD7140a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.966666666667
+PD7297a	PD7297a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.933333333333
+PD7295a	PD7295a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.933333333333
+PD7142a	PD7142a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.1
+PD7128a	PD7128a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.966666666667
+PD7138a	PD7138a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.866666666667
+PD7134a	PD7134a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.833333333333
+PD7282a	PD7282a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.3
+PD7126a	PD7126a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.43333333333
+PD7290a	PD7290a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.56666666667
+PD7136a	PD7136a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.0
+PD7124a	PD7124a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	6.53333333333
+PD7145a	PD7145a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.1
+PD7130a	PD7130a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.0
+ACYC-MSKCC_11_3318	ACYC-MSKCC_11_3318	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.333333333333
+ACYC-MSKCC_10_5342	ACYC-MSKCC_10_5342	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.133333333333
+ACYC-MSKCC_9534	ACYC-MSKCC_9534	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.533333333333
+ACYC-MSKCC_11_17815	ACYC-MSKCC_11_17815	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.566666666667
+ACYC-MSKCC_002020	ACYC-MSKCC_002020	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.166666666667
+ACYC-MSKCC_002282	ACYC-MSKCC_002282	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0333333333333
+ACYC-MSKCC_11_3089	ACYC-MSKCC_11_3089	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.166666666667
+ACYC-MSKCC_2000136	ACYC-MSKCC_2000136	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.2
+ACYC-MSKCC_4332	ACYC-MSKCC_4332	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.1
+ACYC-MSKCC_000479	ACYC-MSKCC_000479	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.133333333333
+ACYC-MSKCC_4133	ACYC-MSKCC_4133	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.5
+ACYC-MSKCC_000410	ACYC-MSKCC_000410	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.166666666667
+ACYC-MSKCC_007441	ACYC-MSKCC_007441	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.566666666667
+ACYC-MSKCC_352	ACYC-MSKCC_352	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	NA
+ACYC-MSKCC_111097	ACYC-MSKCC_111097	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.133333333333
+ACYC-MSKCC_05_6986	ACYC-MSKCC_05_6986	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.6
+ACYC-MSKCC_000609	ACYC-MSKCC_000609	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+ACYC-MSKCC_000705	ACYC-MSKCC_000705	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.466666666667
+ACYC-MSKCC_122891	ACYC-MSKCC_122891	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.4
+ACYC-MSKCC_131169	ACYC-MSKCC_131169	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.433333333333
+ACYC-MSKCC_002012	ACYC-MSKCC_002012	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.433333333333
+ACYC-MSKCC_142990	ACYC-MSKCC_142990	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.566666666667
+ACYC-MSKCC_6112	ACYC-MSKCC_6112	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.133333333333
+ACYC-MSKCC_09_4615	ACYC-MSKCC_09_4615	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.4
+ACYC-MSKCC_000236	ACYC-MSKCC_000236	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.166666666667
+ACYC-MSKCC_065115	ACYC-MSKCC_065115	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+ACYC-MSKCC_10_5283	ACYC-MSKCC_10_5283	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.466666666667
+ACYC-MSKCC_007097	ACYC-MSKCC_007097	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.333333333333
+ACYC-MSKCC_001739	ACYC-MSKCC_001739	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.166666666667
+ACYC-MSKCC_990149	ACYC-MSKCC_990149	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.2
+ACYC-MSKCC_002039	ACYC-MSKCC_002039	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.5
+ACYC-MSKCC_118135	ACYC-MSKCC_118135	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.233333333333
+ACYC-MSKCC_07_16582	ACYC-MSKCC_07_16582	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.833333333333
+ACYC-MSKCC_09_4178	ACYC-MSKCC_09_4178	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.566666666667
+ACYC-MSKCC_3492	ACYC-MSKCC_3492	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.9
+ACYC-MSKCC_007136	ACYC-MSKCC_007136	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.4
+ACYC-MSKCC_11_6165	ACYC-MSKCC_11_6165	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.6
+ACYC-MSKCC_148632	ACYC-MSKCC_148632	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.13333333333
+ACYC-MSKCC_06_2532	ACYC-MSKCC_06_2532	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+ACYC-MSKCC_980452	ACYC-MSKCC_980452	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.333333333333
+ACYC-MSKCC_001947	ACYC-MSKCC_001947	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.5
+ACYC-MSKCC_2000120	ACYC-MSKCC_2000120	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.7
+ACYC-MSKCC_80872	ACYC-MSKCC_80872	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.166666666667
+ACYC-MSKCC_2000756	ACYC-MSKCC_2000756	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.833333333333
+ACYC-MSKCC_36773720	ACYC-MSKCC_36773720	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.8
+ACYC-MSKCC_000540	ACYC-MSKCC_000540	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.266666666667
+ACYC-MSKCC_001781	ACYC-MSKCC_001781	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.6
+ACYC-MSKCC_671204	ACYC-MSKCC_671204	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.733333333333
+ACYC-MSKCC_001346	ACYC-MSKCC_001346	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.333333333333
+ACYC-MSKCC_002238	ACYC-MSKCC_002238	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.233333333333
+ACYC-MSKCC_6277	ACYC-MSKCC_6277	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.3
+ACYC-MSKCC_002237	ACYC-MSKCC_002237	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.2
+ACYC-MSKCC_09_12352	ACYC-MSKCC_09_12352	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0333333333333
+ACYC-MSKCC_000505	ACYC-MSKCC_000505	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.333333333333
+ACYC-MSKCC_128229	ACYC-MSKCC_128229	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0666666666667
+ACYC-MSKCC_065103	ACYC-MSKCC_065103	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0666666666667
+ACYC-MSKCC_2453	ACYC-MSKCC_2453	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.1
+ACYC-MSKCC_006536	ACYC-MSKCC_006536	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.566666666667
+ACYC-MSKCC_002128	ACYC-MSKCC_002128	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.166666666667
+ACYC-MSKCC_000380	ACYC-MSKCC_000380	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0333333333333
+ACYC-MDA_AC21	ACYC-MDA_AC21	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.9
+ACYC-MDA_AC20	ACYC-MDA_AC20	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.7
+ACYC-MDA_AC03	ACYC-MDA_AC03	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.733333333333
+ACYC-MDA_AC02	ACYC-MDA_AC02	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.33333333333
+ACYC-MDA_AC01	ACYC-MDA_AC01	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.633333333333
+ACYC-MDA_AC07	ACYC-MDA_AC07	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.866666666667
+ACYC-MDA_AC06	ACYC-MDA_AC06	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.866666666667
+ACYC-MDA_AC05	ACYC-MDA_AC05	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.36666666667
+ACYC-MDA_AC04	ACYC-MDA_AC04	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.0
+ACYC-MDA_AC09	ACYC-MDA_AC09	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.766666666667
+ACYC-MDA_AC08	ACYC-MDA_AC08	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.833333333333
+ACYC-MDA_AC18	ACYC-MDA_AC18	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.23333333333
+ACYC-MDA_AC19	ACYC-MDA_AC19	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.6
+ACYC-MDA_AC14	ACYC-MDA_AC14	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.833333333333
+ACYC-MDA_AC15	ACYC-MDA_AC15	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.9
+ACYC-MDA_AC16	ACYC-MDA_AC16	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.2
+ACYC-MDA_AC17	ACYC-MDA_AC17	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.36666666667
+ACYC-MDA_AC10	ACYC-MDA_AC10	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.36666666667
+ACYC-MDA_AC11	ACYC-MDA_AC11	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.733333333333
+ACYC-MDA_AC12	ACYC-MDA_AC12	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.56666666667
+ACYC-MDA_AC13	ACYC-MDA_AC13	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.23333333333
+PD3181a	PD3181a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.866666666667
+PD3193a	PD3193a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.633333333333
+PD3197a	PD3197a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.233333333333
+PD3178a	PD3178a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.133333333333
+PD3200a	PD3200a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+PD3191a	PD3191a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+PD3195a	PD3195a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+PD3185a	PD3185a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.433333333333
+PD3189a	PD3189a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.433333333333
+PD3208a	PD3208a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.2
+PD3199a	PD3199a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+PD3192a	PD3192a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.266666666667
+PD3180a	PD3180a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.4
+PD3184a	PD3184a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.1
+PD3179a	PD3179a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.3
+PD3190a	PD3190a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.4
+PD3182a	PD3182a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.233333333333
+PD3194a	PD3194a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.233333333333
+PD3186a	PD3186a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.5
+PD3226a	PD3226a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.266666666667
+PD3196a	PD3196a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.4
+PD3188a	PD3188a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+PD3198a	PD3198a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0333333333333
+PD3216a	PD3216a	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.1
+AdCC5T	AdCC5T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.366666666667
+AdCC4T	AdCC4T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.766666666667
+AdCC2T	AdCC2T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.733333333333
+AdCC9T	AdCC9T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.4
+AdCC8T	AdCC8T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.366666666667
+AdCC6T	AdCC6T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.566666666667
+AdCC32T	AdCC32T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.466666666667
+AdCC1T	AdCC1T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.7
+AdCC12T	AdCC12T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.6
+AdCC3T	AdCC3T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.233333333333
+AdCC11T	AdCC11T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.2
+AdCC10T	AdCC10T	Invasive Breast Carcinoma	Adenoid Cystic Breast Cancer	Primary	ACBC	0.4
+C3070	C3070	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.633333333333
+G3856	G3856	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.533333333333
+C2725	C2725	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.333333333333
+C2954	C2954	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.26666666667
+P1849	P1849	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.433333333333
+K8414	K8414	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.9
+T0669	T0669	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+D3212	D3212	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.266666666667
+W9012	W9012	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.233333333333
+H1407	H1407	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.8
+H1985	H1985	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.633333333333
+F6345	F6345	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.466666666667
+W7869	W7869	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.6
+F0975	F0975	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.666666666667
+F2608	F2608	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.833333333333
+M9671	M9671	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.833333333333
+ACYC-JHU_PGDX920T	ACYC-JHU_PGDX920T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.466666666667
+ACYC-JHU_PGDX2881T	ACYC-JHU_PGDX2881T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.2
+ACYC-JHU_PGDX910T	ACYC-JHU_PGDX910T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.266666666667
+ACYC-JHU_PGDX912T	ACYC-JHU_PGDX912T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.866666666667
+ACYC-JHU_PGDX916T	ACYC-JHU_PGDX916T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.166666666667
+ACYC-JHU_PGDX1762T	ACYC-JHU_PGDX1762T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.466666666667
+ACYC-JHU_PGDX1770T	ACYC-JHU_PGDX1770T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.666666666667
+ACYC-JHU_PGDX1766T	ACYC-JHU_PGDX1766T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.06666666667
+ACYC-JHU_PGDX914T	ACYC-JHU_PGDX914T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.466666666667
+ACYC-JHU_PGDX1772T	ACYC-JHU_PGDX1772T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.5
+ACYC-JHU_PGDX1764T	ACYC-JHU_PGDX1764T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.266666666667
+ACYC-JHU_PGDX1768T	ACYC-JHU_PGDX1768T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+ACYC-JHU_PGDX2880T	ACYC-JHU_PGDX2880T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.366666666667
+ACYC-JHU_PGDX919T	ACYC-JHU_PGDX919T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.766666666667
+ACYC-JHU_PGDX2882T	ACYC-JHU_PGDX2882T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.166666666667
+ACYC-JHU_PGDX921T	ACYC-JHU_PGDX921T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.233333333333
+ACYC-JHU_PGDX2884T	ACYC-JHU_PGDX2884T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0666666666667
+ACYC-JHU_PGDX913T	ACYC-JHU_PGDX913T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.333333333333
+ACYC-JHU_PGDX1763T	ACYC-JHU_PGDX1763T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.633333333333
+ACYC-JHU_PGDX915T	ACYC-JHU_PGDX915T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.5
+ACYC-JHU_PGDX1767T	ACYC-JHU_PGDX1767T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.733333333333
+ACYC-JHU_PGDX1771T	ACYC-JHU_PGDX1771T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.1
+ACYC-JHU_PGDX1765T	ACYC-JHU_PGDX1765T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.266666666667
+ACYC-JHU_PGDX1769T	ACYC-JHU_PGDX1769T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.5
+ACYC-JHU_PGDX2883T	ACYC-JHU_PGDX2883T	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.6
+ACYC-FMI-01	ACYC-FMI-01	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+ACYC-FMI-02	ACYC-FMI-02	Salivary Cancer	Adenoid Cystic Carcinoma	Metastatic	ACYC	30.7948141533
+ACYC-FMI-03	ACYC-FMI-03	Salivary Cancer	Adenoid Cystic Carcinoma	Metastatic	ACYC	0.0
+ACYC-FMI-04	ACYC-FMI-04	Salivary Cancer	Adenoid Cystic Carcinoma	Recurrence	ACYC	0.0
+ACYC-FMI-05	ACYC-FMI-05	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+ACYC-FMI-06	ACYC-FMI-06	Salivary Cancer	Adenoid Cystic Carcinoma	Metastatic	ACYC	0.0
+ACYC-FMI-07	ACYC-FMI-07	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+ACYC-FMI-08	ACYC-FMI-08	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+ACYC-FMI-09	ACYC-FMI-09	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	10.2649380511
+ACYC-FMI-10	ACYC-FMI-10	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	20.5298761022
+ACYC-FMI-11	ACYC-FMI-11	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+ACYC-FMI-12	ACYC-FMI-12	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	20.5298761022
+ACYC-FMI-13	ACYC-FMI-13	Salivary Cancer	Adenoid Cystic Carcinoma	Metastatic	ACYC	0.0
+ACYC-FMI-14	ACYC-FMI-14	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	20.5298761022
+ACYC-FMI-15	ACYC-FMI-15	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+ACYC-FMI-16	ACYC-FMI-16	Salivary Cancer	Adenoid Cystic Carcinoma	Metastatic	ACYC	0.0
+ACYC-FMI-17	ACYC-FMI-17	Salivary Cancer	Adenoid Cystic Carcinoma	Metastatic	ACYC	10.2649380511
+ACYC-FMI-18	ACYC-FMI-18	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	10.2649380511
+ACYC-FMI-19	ACYC-FMI-19	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	20.5298761022
+ACYC-FMI-20	ACYC-FMI-20	Salivary Cancer	Adenoid Cystic Carcinoma	Metastatic	ACYC	20.5298761022
+ACYC-FMI-21	ACYC-FMI-21	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	30.7948141533
+ACYC-FMI-22	ACYC-FMI-22	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	20.5298761022
+ACYC-FMI-23	ACYC-FMI-23	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	10.2649380511
+ACYC-FMI-24	ACYC-FMI-24	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	10.2649380511
+ACYC-FMI-25	ACYC-FMI-25	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+ACYC-FMI-26	ACYC-FMI-26	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	51.3246902555
+ACYC-FMI-27	ACYC-FMI-27	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+ACYC-FMI-28	ACYC-FMI-28	Salivary Cancer	Adenoid Cystic Carcinoma	Metastatic	ACYC	10.2649380511
+XRN-3XVRU7	XRN-3XVRU7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.56770284465
+XRN-PH6XJ6	XRN-PH6XJ6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-QC7XXT	XRN-QC7XXT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-B1KBBT	XRN-B1KBBT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-9PGQQ3	XRN-9PGQQ3	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-3QS2BQ	XRN-3QS2BQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	14.3487523338
+XRN-D4M7FM	XRN-D4M7FM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-D2B0LR	XRN-D2B0LR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-PDCVLE	XRN-PDCVLE	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	3.37617701971
+XRN-4M9J3D	XRN-4M9J3D	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-TV337E	XRN-TV337E	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.9725753141
+XRN-B0YTN5	XRN-B0YTN5	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	6.85416227572
+XRN-L02HK7	XRN-L02HK7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.85416227572
+XRN-SPT8X7	XRN-SPT8X7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-USF3VF	XRN-USF3VF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-RKS09C	XRN-RKS09C	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-U33W69	XRN-U33W69	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-EWV284	XRN-EWV284	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.2982094598
+XRN-SSGR76	XRN-SSGR76	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-25V74T	XRN-25V74T	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-DM1W40	XRN-DM1W40	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-J0097R	XRN-J0097R	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.9083097845
+XRN-L1H3U5	XRN-L1H3U5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-EJD0UE	XRN-EJD0UE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-HG0ES9	XRN-HG0ES9	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-CSKNSN	XRN-CSKNSN	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-YU2E6S	XRN-YU2E6S	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-5JFR99	XRN-5JFR99	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-RUDS37	XRN-RUDS37	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-QUKQTY	XRN-QUKQTY	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-6HUYER	XRN-6HUYER	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-3EBT35	XRN-3EBT35	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-96WYLV	XRN-96WYLV	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-B9XDUV	XRN-B9XDUV	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-55PMVJ	XRN-55PMVJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.9725753141
+XRN-JYSYPJ	XRN-JYSYPJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-ETLKN8	XRN-ETLKN8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-3YDFG9	XRN-3YDFG9	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	2.53213276479
+XRN-3ED0TR	XRN-3ED0TR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-ENHJMQ	XRN-ENHJMQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-C5UCT9	XRN-C5UCT9	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.64910472988
+XRN-X31189	XRN-X31189	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.64910472988
+XRN-KU71FC	XRN-KU71FC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-TVXMGS	XRN-TVXMGS	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-W13EAM	XRN-W13EAM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-MDA5Y0	XRN-MDA5Y0	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	4.22022127464
+XRN-DUWB92	XRN-DUWB92	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	1.68808850986
+XRN-YG9PJ5	XRN-YG9PJ5	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	3.37617701971
+XRN-WHK2R3	XRN-WHK2R3	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.06426552957
+XRN-AV0RSH	XRN-AV0RSH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-KQ070R	XRN-KQ070R	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	18.0771351356
+XRN-QFV3EL	XRN-QFV3EL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	13.5578513517
+XRN-66DB0F	XRN-66DB0F	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-U03E2B	XRN-U03E2B	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-KMTT94	XRN-KMTT94	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-45S5PU	XRN-45S5PU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	15.8174932437
+XRN-YX3HF7	XRN-YX3HF7	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	6.77892567586
+XRN-DM0614	XRN-DM0614	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	9.03856756781
+XRN-BJ8P8X	XRN-BJ8P8X	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-7A14H3	XRN-7A14H3	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-WBYW18	XRN-WBYW18	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-SQVCPA	XRN-SQVCPA	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	7.59639829436
+XRN-HBALKM	XRN-HBALKM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.76794054418
+XRN-HS74HM	XRN-HS74HM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-5K32Q7	XRN-5K32Q7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-3F4C55	XRN-3F4C55	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-UVL3FN	XRN-UVL3FN	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-3L1DY4	XRN-3L1DY4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-VXN26N	XRN-VXN26N	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-1WQ5V8	XRN-1WQ5V8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-BG55NQ	XRN-BG55NQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-Y3WU4X	XRN-Y3WU4X	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	0.844044254928
+XRN-SY1FLL	XRN-SY1FLL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.85416227572
+XRN-BENHL1	XRN-BENHL1	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.9083097845
+XRN-8SAG4N	XRN-8SAG4N	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-Y1A6R5	XRN-Y1A6R5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-17LU1M	XRN-17LU1M	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-YU5W0J	XRN-YU5W0J	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-QT0F02	XRN-QT0F02	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.816619569
+XRN-XSSYM5	XRN-XSSYM5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-G92BC7	XRN-G92BC7	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.9083097845
+XRN-P8A047	XRN-P8A047	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-R9E4M9	XRN-R9E4M9	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-2FK377	XRN-2FK377	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-QHYGE6	XRN-QHYGE6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-HF67GQ	XRN-HF67GQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-RQB4V1	XRN-RQB4V1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-D9GFB7	XRN-D9GFB7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-FS7TBE	XRN-FS7TBE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-VHUWDF	XRN-VHUWDF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-JQCECQ	XRN-JQCECQ	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	3.37617701971
+XRN-F9YVXW	XRN-F9YVXW	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-SH3N2X	XRN-SH3N2X	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-MTXP8P	XRN-MTXP8P	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-70WRY7	XRN-70WRY7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-GYPY72	XRN-GYPY72	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-DPD0NK	XRN-DPD0NK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.816619569
+XRN-M3V48G	XRN-M3V48G	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-PTJ8QY	XRN-PTJ8QY	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-KQWD7J	XRN-KQWD7J	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	0.0
+XRN-RKTW2Q	XRN-RKTW2Q	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-PTQ6PQ	XRN-PTQ6PQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-U9JWD9	XRN-U9JWD9	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-NJHQUS	XRN-NJHQUS	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-LD54DE	XRN-LD54DE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-3241LB	XRN-3241LB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-BT9QTE	XRN-BT9QTE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-UHCHYH	XRN-UHCHYH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-9LYEY4	XRN-9LYEY4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-KUJU34	XRN-KUJU34	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.816619569
+XRN-WY3B7J	XRN-WY3B7J	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.9725753141
+XRN-CYL2TH	XRN-CYL2TH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-5N14N5	XRN-5N14N5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-5XFKJF	XRN-5XFKJF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-DH1V3S	XRN-DH1V3S	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-7RXJPQ	XRN-7RXJPQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-MMA3YS	XRN-MMA3YS	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-MSJERB	XRN-MSJERB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-YLFRCJ	XRN-YLFRCJ	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	7.59639829436
+XRN-VB2RXA	XRN-VB2RXA	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-64D9DQ	XRN-64D9DQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.56770284465
+XRN-FP94C3	XRN-FP94C3	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-BN2MW9	XRN-BN2MW9	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	2.53213276479
+XRN-SH5YD5	XRN-SH5YD5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-BWDBMX	XRN-BWDBMX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-WWQDHR	XRN-WWQDHR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-QMLL9V	XRN-QMLL9V	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-VQJYC3	XRN-VQJYC3	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-NJD0DH	XRN-NJD0DH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-FPMHN9	XRN-FPMHN9	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-PYGJ70	XRN-PYGJ70	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.2812434136
+XRN-3WXHSM	XRN-3WXHSM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-CDMJPF	XRN-CDMJPF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-DXLUW3	XRN-DXLUW3	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-Y8B3S0	XRN-Y8B3S0	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-PJ0QCX	XRN-PJ0QCX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-PRA7TP	XRN-PRA7TP	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	8.44044254928
+XRN-S4KNAB	XRN-S4KNAB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-1N2796	XRN-1N2796	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	3.37617701971
+XRN-4KWL2T	XRN-4KWL2T	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-YJA4KD	XRN-YJA4KD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-8HQ1S9	XRN-8HQ1S9	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-Q5H7W5	XRN-Q5H7W5	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.06426552957
+XRN-AANAT8	XRN-AANAT8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-XMNWE5	XRN-XMNWE5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-PYKT7W	XRN-PYKT7W	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-RBP79H	XRN-RBP79H	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	3.37617701971
+XRN-SW8VC2	XRN-SW8VC2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-DBH56G	XRN-DBH56G	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-CEXVCY	XRN-CEXVCY	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-JUDA9W	XRN-JUDA9W	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-NH3SM4	XRN-NH3SM4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-G8TW9A	XRN-G8TW9A	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-12J6CD	XRN-12J6CD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-PRDG29	XRN-PRDG29	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-424SWW	XRN-424SWW	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-FVYY7W	XRN-FVYY7W	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-B9ALTG	XRN-B9ALTG	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-J4P1YW	XRN-J4P1YW	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-X4J6RF	XRN-X4J6RF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-PG5FPU	XRN-PG5FPU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-K3RXPV	XRN-K3RXPV	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-HR1C2Q	XRN-HR1C2Q	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.4280304057
+XRN-FGMPHN	XRN-FGMPHN	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-DLVLR4	XRN-DLVLR4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-EM31XE	XRN-EM31XE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-4TBR67	XRN-4TBR67	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	0.844044254928
+XRN-5FFH3Y	XRN-5FFH3Y	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-ARJ98F	XRN-ARJ98F	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-4MS6GJ	XRN-4MS6GJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-1N3FNJ	XRN-1N3FNJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-W6LGLT	XRN-W6LGLT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-KEF5HC	XRN-KEF5HC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-7AAS23	XRN-7AAS23	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-RDWPFF	XRN-RDWPFF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-7DVRC7	XRN-7DVRC7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-5LFLH1	XRN-5LFLH1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-487AMD	XRN-487AMD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-7TPASQ	XRN-7TPASQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-YUXXAL	XRN-YUXXAL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-RW01C5	XRN-RW01C5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-F1MM8R	XRN-F1MM8R	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-1TLDYD	XRN-1TLDYD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-Y1GJHU	XRN-Y1GJHU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-EXY7U8	XRN-EXY7U8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-UYQBGA	XRN-UYQBGA	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-ARY8UK	XRN-ARY8UK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-MCT9TX	XRN-MCT9TX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-WGN1N4	XRN-WGN1N4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-XSJ80F	XRN-XSJ80F	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-6BK0ET	XRN-6BK0ET	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-HSEWQH	XRN-HSEWQH	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	8.56770284465
+XRN-1URE8L	XRN-1URE8L	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.42708113786
+XRN-HLWLNP	XRN-HLWLNP	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-UNAC0D	XRN-UNAC0D	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-A7M9BF	XRN-A7M9BF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-YA73HG	XRN-YA73HG	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-8U3MWQ	XRN-8U3MWQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-VAPFFW	XRN-VAPFFW	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.12982094598
+XRN-YGS3RT	XRN-YGS3RT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	14.6876722977
+XRN-W9X55B	XRN-W9X55B	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-V7VFH6	XRN-V7VFH6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-7THY8Y	XRN-7THY8Y	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-TH0PMT	XRN-TH0PMT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-6TBJ9Q	XRN-6TBJ9Q	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-HVUXKP	XRN-HVUXKP	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-BLQLT0	XRN-BLQLT0	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-L0K3G6	XRN-L0K3G6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-MH0YE6	XRN-MH0YE6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-Q6CVTK	XRN-Q6CVTK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.14062170679
+XRN-YVYAFS	XRN-YVYAFS	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	59.9739199125
+XRN-TSYX80	XRN-TSYX80	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-YYBV9S	XRN-YYBV9S	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-REFSPC	XRN-REFSPC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-M1VJ4Y	XRN-M1VJ4Y	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-PBVFSD	XRN-PBVFSD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-X9Y1JK	XRN-X9Y1JK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-TY1TPU	XRN-TY1TPU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-Q88GAF	XRN-Q88GAF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-MN5Q4X	XRN-MN5Q4X	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-M8Q4GV	XRN-M8Q4GV	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-FH64RQ	XRN-FH64RQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-G0BEML	XRN-G0BEML	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-1Q09GL	XRN-1Q09GL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-65MTLT	XRN-65MTLT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-6YJULH	XRN-6YJULH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-17HWGA	XRN-17HWGA	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-VCUEF6	XRN-VCUEF6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-WNAQ9N	XRN-WNAQ9N	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.816619569
+XRN-B476QG	XRN-B476QG	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	4.22022127464
+XRN-CX0U2P	XRN-CX0U2P	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-X90RCT	XRN-X90RCT	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	12.6606638239
+XRN-EA7QSS	XRN-EA7QSS	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.6606638239
+XRN-KGEJR8	XRN-KGEJR8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-3UL6M1	XRN-3UL6M1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-Q4YG10	XRN-Q4YG10	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-V2GW72	XRN-V2GW72	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-XQ8S3A	XRN-XQ8S3A	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-RHB1TW	XRN-RHB1TW	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-TJGR6N	XRN-TJGR6N	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-5NUV26	XRN-5NUV26	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-V2QDEY	XRN-V2QDEY	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	9.28448680421
+XRN-CLCP1F	XRN-CLCP1F	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-HWEYMM	XRN-HWEYMM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-4EFU56	XRN-4EFU56	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-P6679L	XRN-P6679L	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.6606638239
+XRN-LQ4PEJ	XRN-LQ4PEJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-LY9CWS	XRN-LY9CWS	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.6606638239
+XRN-G5WHJJ	XRN-G5WHJJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-JW5D4E	XRN-JW5D4E	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-UT1Q21	XRN-UT1Q21	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-MQTAAP	XRN-MQTAAP	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-SH3LTP	XRN-SH3LTP	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-69CXVW	XRN-69CXVW	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	6.75235403943
+XRN-PY7XGW	XRN-PY7XGW	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-Q858DL	XRN-Q858DL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-8NN65Q	XRN-8NN65Q	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-WPBR02	XRN-WPBR02	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-F5Q4FD	XRN-F5Q4FD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-APPD0J	XRN-APPD0J	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-V0CDA7	XRN-V0CDA7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-X6WC68	XRN-X6WC68	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-GHDSJH	XRN-GHDSJH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-UWBF6L	XRN-UWBF6L	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.14062170679
+XRN-EAYFBT	XRN-EAYFBT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-B15CTK	XRN-B15CTK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-1WY2F7	XRN-1WY2F7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-JSHB8N	XRN-JSHB8N	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-7EEP0M	XRN-7EEP0M	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-P480VM	XRN-P480VM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-MFQ05V	XRN-MFQ05V	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-3WNDTD	XRN-3WNDTD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-W56AKK	XRN-W56AKK	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	4.22022127464
+XRN-SP16XJ	XRN-SP16XJ	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	3.37617701971
+XRN-QKRBAB	XRN-QKRBAB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-M5SAX1	XRN-M5SAX1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.2982094598
+XRN-YCTV4B	XRN-YCTV4B	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.4280304057
+XRN-JNN5UL	XRN-JNN5UL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-63T0S4	XRN-63T0S4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-DE337P	XRN-DE337P	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-P4YUXU	XRN-P4YUXU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-SWJBWD	XRN-SWJBWD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-7W8BX8	XRN-7W8BX8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-5ANP4T	XRN-5ANP4T	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-4KPHB0	XRN-4KPHB0	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.4280304057
+XRN-4CULP7	XRN-4CULP7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-GUW0ST	XRN-GUW0ST	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-W7S5TR	XRN-W7S5TR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-4K1Y24	XRN-4K1Y24	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.2982094598
+XRN-716EQH	XRN-716EQH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-PJ80LE	XRN-PJ80LE	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	3.37617701971
+XRN-U461ER	XRN-U461ER	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-37399H	XRN-37399H	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-267GPG	XRN-267GPG	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-E8E14T	XRN-E8E14T	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-2HVD82	XRN-2HVD82	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-QM3QDG	XRN-QM3QDG	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	6.75235403943
+XRN-X08SBX	XRN-X08SBX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-3DDYCR	XRN-3DDYCR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-6BSPAM	XRN-6BSPAM	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.06426552957
+XRN-6AX1HC	XRN-6AX1HC	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	4.22022127464
+XRN-PFXN53	XRN-PFXN53	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	0.844044254928
+XRN-4C4G0A	XRN-4C4G0A	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-J2G88X	XRN-J2G88X	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-N3TWHK	XRN-N3TWHK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-GBJPFV	XRN-GBJPFV	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	6.75235403943
+XRN-640RDM	XRN-640RDM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-EL64B2	XRN-EL64B2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-ATGEL3	XRN-ATGEL3	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	13.5047080789
+XRN-KKQ9H8	XRN-KKQ9H8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-XBTHWQ	XRN-XBTHWQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-3CUDBC	XRN-3CUDBC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-66HP64	XRN-66HP64	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-7Y45HM	XRN-7Y45HM	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	6.75235403943
+XRN-UFQV9P	XRN-UFQV9P	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.06426552957
+XRN-6L6UFP	XRN-6L6UFP	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-16BB9A	XRN-16BB9A	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-DYUWWB	XRN-DYUWWB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.1206121655
+XRN-K1LADM	XRN-K1LADM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-WB1YGF	XRN-WB1YGF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.12982094598
+XRN-8XULXY	XRN-8XULXY	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-MGHWJF	XRN-MGHWJF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-K2XTX6	XRN-K2XTX6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-QSD4C6	XRN-QSD4C6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-T4R8JK	XRN-T4R8JK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-T7KFWN	XRN-T7KFWN	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-GA2WXQ	XRN-GA2WXQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-XHN1JG	XRN-XHN1JG	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.9725753141
+XRN-AFS76G	XRN-AFS76G	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-HB61K6	XRN-HB61K6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-A6MEPR	XRN-A6MEPR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-UF8RR8	XRN-UF8RR8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-BH8HCS	XRN-BH8HCS	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.23664189341
+XRN-TDG920	XRN-TDG920	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-64M9ND	XRN-64M9ND	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-HGKDNP	XRN-HGKDNP	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-1788CF	XRN-1788CF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-MWMBY9	XRN-MWMBY9	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.816619569
+XRN-QJJFNV	XRN-QJJFNV	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-C3UYT6	XRN-C3UYT6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-HWUT0C	XRN-HWUT0C	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.816619569
+XRN-SK07KR	XRN-SK07KR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-759SA6	XRN-759SA6	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	93.688912297
+XRN-X56Y8R	XRN-X56Y8R	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.9725753141
+XRN-RV5WXT	XRN-RV5WXT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-J8KXQQ	XRN-J8KXQQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.816619569
+XRN-LYG602	XRN-LYG602	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	5.06426552957
+XRN-5JA7W9	XRN-5JA7W9	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-GLE3RD	XRN-GLE3RD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-GC6SHF	XRN-GC6SHF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-SXL2UF	XRN-SXL2UF	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	3.37617701971
+XRN-A2FR70	XRN-A2FR70	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-A4GE4X	XRN-A4GE4X	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-WEALX0	XRN-WEALX0	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.64910472988
+XRN-2PV054	XRN-2PV054	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-90C4UT	XRN-90C4UT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.2982094598
+XRN-U3EKT3	XRN-U3EKT3	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.12982094598
+XRN-S2G0RD	XRN-S2G0RD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.14062170679
+XRN-PH1JAX	XRN-PH1JAX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.85416227572
+XRN-QBMQKU	XRN-QBMQKU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-45R169	XRN-45R169	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-X5X3TB	XRN-X5X3TB	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.64910472988
+XRN-B30SWU	XRN-B30SWU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-607ACB	XRN-607ACB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-TX5V70	XRN-TX5V70	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-6V9BMH	XRN-6V9BMH	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	5.9083097845
+XRN-2XG3E7	XRN-2XG3E7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-46UK0C	XRN-46UK0C	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-85U3YU	XRN-85U3YU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-LVBFQ6	XRN-LVBFQ6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-Q4YJUF	XRN-Q4YJUF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-6BURJJ	XRN-6BURJJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-62MX20	XRN-62MX20	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-VW13JX	XRN-VW13JX	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	6.75235403943
+XRN-NWBW3E	XRN-NWBW3E	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-11FPP4	XRN-11FPP4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-WHP8BK	XRN-WHP8BK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-98WE8Y	XRN-98WE8Y	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-D6UB10	XRN-D6UB10	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-3G6X43	XRN-3G6X43	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-7V1DN0	XRN-7V1DN0	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-X2BAVQ	XRN-X2BAVQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-4K9E27	XRN-4K9E27	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-4R4405	XRN-4R4405	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-RKHA5J	XRN-RKHA5J	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-3SPHE4	XRN-3SPHE4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-12WL18	XRN-12WL18	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.06426552957
+XRN-W57KSR	XRN-W57KSR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-SXK0ED	XRN-SXK0ED	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-M82GFT	XRN-M82GFT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.9725753141
+XRN-9EVU5J	XRN-9EVU5J	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	2.53213276479
+XRN-RAGXXF	XRN-RAGXXF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-9BX8N7	XRN-9BX8N7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-J90ST2	XRN-J90ST2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-KRT0XC	XRN-KRT0XC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.6606638239
+XRN-UDT15E	XRN-UDT15E	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-S7F125	XRN-S7F125	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-2MGYJ6	XRN-2MGYJ6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-PQJNMJ	XRN-PQJNMJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-PFGWQP	XRN-PFGWQP	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-KCJYCC	XRN-KCJYCC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.9725753141
+XRN-AW6J90	XRN-AW6J90	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-QM6LWB	XRN-QM6LWB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-T507Q8	XRN-T507Q8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-QYF81W	XRN-QYF81W	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-KJR6LE	XRN-KJR6LE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-VTBMP5	XRN-VTBMP5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-K5QH36	XRN-K5QH36	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-LTR316	XRN-LTR316	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-49R5W4	XRN-49R5W4	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	10.1285310591
+XRN-T7D53E	XRN-T7D53E	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-GUH93R	XRN-GUH93R	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-PPG6QG	XRN-PPG6QG	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	7.59639829436
+XRN-U3FXEH	XRN-U3FXEH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-AQXMSK	XRN-AQXMSK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-PF5LRC	XRN-PF5LRC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-G5EEUB	XRN-G5EEUB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-VARC6Y	XRN-VARC6Y	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-JSYYMP	XRN-JSYYMP	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-XMF31N	XRN-XMF31N	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-VA6KL5	XRN-VA6KL5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-ES6R3K	XRN-ES6R3K	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-BQMWTE	XRN-BQMWTE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-H6ATRC	XRN-H6ATRC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-1XTA9U	XRN-1XTA9U	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-C7R703	XRN-C7R703	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	6.75235403943
+XRN-FBESFK	XRN-FBESFK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-C1XTN4	XRN-C1XTN4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	34.6058144521
+XRN-QFKDAB	XRN-QFKDAB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-5LBJA8	XRN-5LBJA8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-DNLHGL	XRN-DNLHGL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-86QYL8	XRN-86QYL8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-1T3XMM	XRN-1T3XMM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.816619569
+XRN-HHGELA	XRN-HHGELA	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-HNQMN1	XRN-HNQMN1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-J540K1	XRN-J540K1	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.9083097845
+XRN-8CHR0F	XRN-8CHR0F	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-1L598A	XRN-1L598A	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-U70Y23	XRN-U70Y23	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-DKE3Y6	XRN-DKE3Y6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-7RN86T	XRN-7RN86T	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.9947839825
+XRN-2Y1P3R	XRN-2Y1P3R	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.42708113786
+XRN-VGCLHR	XRN-VGCLHR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-7CJP25	XRN-7CJP25	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-CS19JL	XRN-CS19JL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-4JKTY7	XRN-4JKTY7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-WEGDHG	XRN-WEGDHG	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-SXRDU6	XRN-SXRDU6	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	4.22022127464
+XRN-SY25S2	XRN-SY25S2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-T0J5VN	XRN-T0J5VN	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.06426552957
+XRN-7Q9SME	XRN-7Q9SME	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-WN7QHU	XRN-WN7QHU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-UW72JC	XRN-UW72JC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-RFRG48	XRN-RFRG48	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-7CGWKX	XRN-7CGWKX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-KX7E7K	XRN-KX7E7K	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.06426552957
+XRN-AE9M27	XRN-AE9M27	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-M879KE	XRN-M879KE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.9725753141
+XRN-FX090M	XRN-FX090M	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-YUGE2P	XRN-YUGE2P	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	1.68808850986
+XRN-VDLC3S	XRN-VDLC3S	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	3.37617701971
+XRN-1TWPKB	XRN-1TWPKB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-8L9F1M	XRN-8L9F1M	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-T6BNJX	XRN-T6BNJX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-M47EU2	XRN-M47EU2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-L0Y7XT	XRN-L0Y7XT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-MGLRED	XRN-MGLRED	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-7RXNNE	XRN-7RXNNE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-2MM6UY	XRN-2MM6UY	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	6.77892567586
+XRN-55WU67	XRN-55WU67	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	14.6876722977
+XRN-84RBKC	XRN-84RBKC	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	7.90874662184
+XRN-70APFM	XRN-70APFM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-73UN6J	XRN-73UN6J	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-NQEY96	XRN-NQEY96	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-X0H43E	XRN-X0H43E	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-73FKDG	XRN-73FKDG	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-KQGY2F	XRN-KQGY2F	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	0.844044254928
+XRN-FW5J8Q	XRN-FW5J8Q	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-SBQUFE	XRN-SBQUFE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-CLGCNH	XRN-CLGCNH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-RQ3Q25	XRN-RQ3Q25	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-S4GKDA	XRN-S4GKDA	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-46AG5V	XRN-46AG5V	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	3.37617701971
+XRN-P2NPRR	XRN-P2NPRR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	0.844044254928
+XRN-1XWSH1	XRN-1XWSH1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-3E97QJ	XRN-3E97QJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-JBJH7Q	XRN-JBJH7Q	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-BQ0CP7	XRN-BQ0CP7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-50MLWK	XRN-50MLWK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-GSTXM4	XRN-GSTXM4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-MW3Y1T	XRN-MW3Y1T	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.2982094598
+XRN-7PPE5N	XRN-7PPE5N	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	6.77892567586
+XRN-683MH4	XRN-683MH4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-G7JQKY	XRN-G7JQKY	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-AL6C8T	XRN-AL6C8T	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-JPL9FX	XRN-JPL9FX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-3X1BSP	XRN-3X1BSP	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	2.53213276479
+XRN-S8KK62	XRN-S8KK62	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	3.37617701971
+XRN-NVGN9S	XRN-NVGN9S	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-UFFUFS	XRN-UFFUFS	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	9.28448680421
+XRN-7K00AR	XRN-7K00AR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-XFPB9K	XRN-XFPB9K	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-P39TNR	XRN-P39TNR	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	4.22022127464
+XRN-QCU3JJ	XRN-QCU3JJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-JPLUG0	XRN-JPLUG0	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-DWBLWG	XRN-DWBLWG	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-2R57CH	XRN-2R57CH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-LSHP7L	XRN-LSHP7L	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-2FWX38	XRN-2FWX38	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.12982094598
+XRN-U7W5W0	XRN-U7W5W0	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	6.77892567586
+XRN-14RG1D	XRN-14RG1D	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	14.6876722977
+XRN-NFJ81F	XRN-NFJ81F	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-VVN75X	XRN-VVN75X	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	5.06426552957
+XRN-QU6XB3	XRN-QU6XB3	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-WSJX76	XRN-WSJX76	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-LLWVCE	XRN-LLWVCE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-K7SE1D	XRN-K7SE1D	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-P0HPU4	XRN-P0HPU4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-5B7ACU	XRN-5B7ACU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-1SPG04	XRN-1SPG04	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-E62QUL	XRN-E62QUL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.68808850986
+XRN-BT4RYG	XRN-BT4RYG	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-4C5EE1	XRN-4C5EE1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-4MT5S1	XRN-4MT5S1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-NNY63K	XRN-NNY63K	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-727D48	XRN-727D48	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.2982094598
+XRN-THX7YQ	XRN-THX7YQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-LWC2VL	XRN-LWC2VL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.2982094598
+XRN-FWJPD2	XRN-FWJPD2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.2982094598
+XRN-M7LEKY	XRN-M7LEKY	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-T24ERL	XRN-T24ERL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-3GWCY7	XRN-3GWCY7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-1WCQMT	XRN-1WCQMT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-T4DJM5	XRN-T4DJM5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-P1Y1F7	XRN-P1Y1F7	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	7.59639829436
+XRN-2EN96H	XRN-2EN96H	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-5X02PG	XRN-5X02PG	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-NUJ91H	XRN-NUJ91H	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-G6RG9L	XRN-G6RG9L	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	7.90874662184
+XRN-L1452E	XRN-L1452E	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-W5KQXH	XRN-W5KQXH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	13.5578513517
+XRN-NABLGT	XRN-NABLGT	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-BQRF6Y	XRN-BQRF6Y	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-C7F0K9	XRN-C7F0K9	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-FVW77A	XRN-FVW77A	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-B0NL8D	XRN-B0NL8D	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-21MT47	XRN-21MT47	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-EJR3YH	XRN-EJR3YH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-69KNHE	XRN-69KNHE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.9725753141
+XRN-8TJEH3	XRN-8TJEH3	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-QK6LJM	XRN-QK6LJM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-XWA425	XRN-XWA425	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-6AV5LA	XRN-6AV5LA	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-ULHYET	XRN-ULHYET	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.2982094598
+XRN-KPE9HM	XRN-KPE9HM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-G17F1K	XRN-G17F1K	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-BUXPWQ	XRN-BUXPWQ	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	5.64910472988
+XRN-KQ2S4C	XRN-KQ2S4C	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-5L2178	XRN-5L2178	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	18.0771351356
+XRN-CQU8KE	XRN-CQU8KE	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	5.64910472988
+XRN-AQ2TB1	XRN-AQ2TB1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-E2W60W	XRN-E2W60W	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	6.77892567586
+XRN-2J5VBD	XRN-2J5VBD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-QGBX16	XRN-QGBX16	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-RYG8F2	XRN-RYG8F2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-7CGNSC	XRN-7CGNSC	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	2.25964189195
+XRN-A8YVKH	XRN-A8YVKH	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	2.25964189195
+XRN-95JQLF	XRN-95JQLF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-1V4TCC	XRN-1V4TCC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-GKNBU1	XRN-GKNBU1	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.9083097845
+XRN-YRG1VA	XRN-YRG1VA	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-K3TXGU	XRN-K3TXGU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-M8X9L2	XRN-M8X9L2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-KNK0QL	XRN-KNK0QL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-ABCDES	XRN-ABCDES	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-DXNNL1	XRN-DXNNL1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-V5GB41	XRN-V5GB41	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-W4P00D	XRN-W4P00D	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-UKTE3G	XRN-UKTE3G	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-DNSQJK	XRN-DNSQJK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-5S38JE	XRN-5S38JE	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	9.28448680421
+XRN-300QUS	XRN-300QUS	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-HRBU7M	XRN-HRBU7M	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	2.25964189195
+XRN-44DV1A	XRN-44DV1A	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.64910472988
+XRN-516FM8	XRN-516FM8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-KNSAB2	XRN-KNSAB2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-ER042K	XRN-ER042K	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-T7WESQ	XRN-T7WESQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-V8FRHB	XRN-V8FRHB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-HBA095	XRN-HBA095	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.9083097845
+XRN-GFAL4S	XRN-GFAL4S	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-EBJNP8	XRN-EBJNP8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-E6VGQX	XRN-E6VGQX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-XUAEVA	XRN-XUAEVA	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	3.37617701971
+XRN-EFX67V	XRN-EFX67V	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-PD18U3	XRN-PD18U3	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-3S29QM	XRN-3S29QM	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.64910472988
+XRN-T1KAG0	XRN-T1KAG0	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-B2TBJ5	XRN-B2TBJ5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	21.4665979736
+XRN-CJDGK4	XRN-CJDGK4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	0.0
+XRN-RS243X	XRN-RS243X	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-2WLWBQ	XRN-2WLWBQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-DEYUWJ	XRN-DEYUWJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-EYQDV8	XRN-EYQDV8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-Y5DB5L	XRN-Y5DB5L	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-JERL17	XRN-JERL17	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	8.44044254928
+XRN-96FG22	XRN-96FG22	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	7.59639829436
+XRN-DBJQPT	XRN-DBJQPT	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	7.59639829436
+XRN-SPYWP8	XRN-SPYWP8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-QXLXL4	XRN-QXLXL4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.2982094598
+XRN-KE7T0U	XRN-KE7T0U	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	20.3367770276
+XRN-SJ205P	XRN-SJ205P	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-QG0NAA	XRN-QG0NAA	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-W9HK7Y	XRN-W9HK7Y	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-DDMRK7	XRN-DDMRK7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-U71032	XRN-U71032	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.9083097845
+XRN-TK1BJD	XRN-TK1BJD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-1QH3DM	XRN-1QH3DM	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-EUYDQR	XRN-EUYDQR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-RPFMPR	XRN-RPFMPR	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	4.22022127464
+XRN-R7Y0PL	XRN-R7Y0PL	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.06426552957
+XRN-W0J97P	XRN-W0J97P	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-YEX889	XRN-YEX889	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.4280304057
+XRN-31SNMS	XRN-31SNMS	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-5HJ33V	XRN-5HJ33V	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-43GL6X	XRN-43GL6X	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.12982094598
+XRN-XG4HQQ	XRN-XG4HQQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-5X6BRA	XRN-5X6BRA	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-5C9RS7	XRN-5C9RS7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-G923H4	XRN-G923H4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-TR8GMN	XRN-TR8GMN	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	7.59639829436
+XRN-6ABJ38	XRN-6ABJ38	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.6606638239
+XRN-6RTHBV	XRN-6RTHBV	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-2ES2UE	XRN-2ES2UE	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.06426552957
+XRN-M2R3EL	XRN-M2R3EL	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-3ATLFY	XRN-3ATLFY	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-P0RBR3	XRN-P0RBR3	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.64910472988
+XRN-U3147N	XRN-U3147N	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-AGBSFR	XRN-AGBSFR	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	10.1683885138
+XRN-NY78TY	XRN-NY78TY	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-WWHJGX	XRN-WWHJGX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-H2PT7F	XRN-H2PT7F	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.4280304057
+XRN-FWFP52	XRN-FWFP52	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-LM634A	XRN-LM634A	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-5XC0W7	XRN-5XC0W7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-N94VA1	XRN-N94VA1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	11.9947839825
+XRN-NQ007B	XRN-NQ007B	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.85416227572
+XRN-20ESFY	XRN-20ESFY	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.85416227572
+XRN-SYSJ10	XRN-SYSJ10	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.14062170679
+XRN-L9C0AE	XRN-L9C0AE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	0.0
+XRN-A80VQE	XRN-A80VQE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.71354056893
+XRN-DRH84U	XRN-DRH84U	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	9.28448680421
+XRN-PLGAYD	XRN-PLGAYD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-VY3SAK	XRN-VY3SAK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	14.3487523338
+XRN-L2Q29P	XRN-L2Q29P	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-J3BYD4	XRN-J3BYD4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-9N0UWF	XRN-9N0UWF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-K48DSC	XRN-K48DSC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-TUDE37	XRN-TUDE37	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.06426552957
+XRN-SHRPR1	XRN-SHRPR1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-N03JPF	XRN-N03JPF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-HN47S7	XRN-HN47S7	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-3HYJMB	XRN-3HYJMB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-6E6A3H	XRN-6E6A3H	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	9.28448680421
+XRN-XPHLP5	XRN-XPHLP5	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-8FE4N6	XRN-8FE4N6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-RTRYN1	XRN-RTRYN1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-2UKNEF	XRN-2UKNEF	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	10.1285310591
+XRN-62NCCX	XRN-62NCCX	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-MA9KKC	XRN-MA9KKC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-8TRB53	XRN-8TRB53	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-KML4T1	XRN-KML4T1	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-SKCQS2	XRN-SKCQS2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-Y1CPEW	XRN-Y1CPEW	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-AWGQFB	XRN-AWGQFB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-1AJDC6	XRN-1AJDC6	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	13.5047080789
+XRN-WJA6SD	XRN-WJA6SD	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-QCV53A	XRN-QCV53A	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	6.75235403943
+XRN-RCBJEC	XRN-RCBJEC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-RYBLCF	XRN-RYBLCF	Breast Cancer	Adenoid Cystic Breast Cancer		ACBC	4.22022127464
+XRN-4Q2GLE	XRN-4Q2GLE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-PKGF0H	XRN-PKGF0H	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-F3FDW2	XRN-F3FDW2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-LVEWWB	XRN-LVEWWB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.9725753141
+XRN-LQ9XCQ	XRN-LQ9XCQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-LNE086	XRN-LNE086	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-P9FNET	XRN-P9FNET	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-2NBJQR	XRN-2NBJQR	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	23.633239138
+XRN-JM42F2	XRN-JM42F2	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	7.59639829436
+XRN-PBJUUJ	XRN-PBJUUJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-G2MHLB	XRN-G2MHLB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	0.844044254928
+XRN-NLND4Y	XRN-NLND4Y	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	8.44044254928
+XRN-2HS07S	XRN-2HS07S	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-7MB9GU	XRN-7MB9GU	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-A9R0X9	XRN-A9R0X9	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	4.22022127464
+XRN-7FDQ6Q	XRN-7FDQ6Q	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-QCPKUB	XRN-QCPKUB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-RXXVRB	XRN-RXXVRB	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.59639829436
+XRN-4L8QLK	XRN-4L8QLK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-PEGGWU	XRN-PEGGWU	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung		LUACC	5.9083097845
+XRN-H6T5KQ	XRN-H6T5KQ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.28448680421
+XRN-XSWXHH	XRN-XSWXHH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-MXJGMH	XRN-MXJGMH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-3Q28UP	XRN-3Q28UP	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.25964189195
+XRN-12V0KC	XRN-12V0KC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-SY06N0	XRN-SY06N0	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-FB09U8	XRN-FB09U8	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.51928378391
+XRN-4LBS9R	XRN-4LBS9R	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1683885138
+XRN-M4CP40	XRN-M4CP40	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.85416227572
+XRN-GXN6LF	XRN-GXN6LF	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-8LSEGV	XRN-8LSEGV	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-WHKNQC	XRN-WHKNQC	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-Y3X4P2	XRN-Y3X4P2	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-APJKTJ	XRN-APJKTJ	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.77892567586
+XRN-FRL595	XRN-FRL595	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	12.4280304057
+XRN-NLM0EK	XRN-NLM0EK	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.64910472988
+XRN-RURLLV	XRN-RURLLV	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	7.90874662184
+XRN-XSLD9D	XRN-XSLD9D	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	1.12982094598
+XRN-XJGWDE	XRN-XJGWDE	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	9.03856756781
+XRN-4EA3MS	XRN-4EA3MS	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.38946283793
+XRN-NBWEBH	XRN-NBWEBH	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	6.75235403943
+XRN-M6F1Q6	XRN-M6F1Q6	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	3.37617701971
+XRN-4UT530	XRN-4UT530	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-BR4CMG	XRN-BR4CMG	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+XRN-YNQTF4	XRN-YNQTF4	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.9083097845
+XRN-197BEN	XRN-197BEN	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	4.22022127464
+XRN-V59N5M	XRN-V59N5M	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	10.1285310591
+XRN-WP623E	XRN-WP623E	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-TNSBHY	XRN-TNSBHY	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	5.06426552957
+XRN-7LHR6N	XRN-7LHR6N	Salivary Cancer	Adenoid Cystic Carcinoma		ACYC	2.53213276479
+P-0000202	P-0000202-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.23512635169
+P-0000340	P-0000340-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	3.35268952754
+P-0000374	P-0000374-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.23512635169
+P-0000434	P-0000434-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	5.58781587923
+P-0000507	P-0000507-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	6.70537905508
+P-0000524	P-0000524-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	3.35268952754
+P-0000618	P-0000618-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	4.47025270339
+P-0000623	P-0000623-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	3.35268952754
+P-0000623	P-0000623-T02-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.990436346637
+P-0000717	P-0000717-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0000790	P-0000790-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.23512635169
+P-0000792	P-0000792-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.11756317585
+P-0000948	P-0000948-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.11756317585
+P-0000980	P-0000980-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	5.58781587923
+P-0001034	P-0001034-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0001201	P-0001201-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	7.82294223092
+P-0001220	P-0001220-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0001225	P-0001225-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0001239	P-0001239-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0001327	P-0001327-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	1.11756317585
+P-0001363	P-0001363-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	3.35268952754
+P-0001422	P-0001422-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	4.47025270339
+P-0001451	P-0001451-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	5.58781587923
+P-0001585	P-0001585-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	2.23512635169
+P-0001660	P-0001660-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0001810	P-0001810-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0002189	P-0002189-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0002214	P-0002214-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	1.11756317585
+P-0002486	P-0002486-T01-IM3	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	3.35268952754
+P-0003056	P-0003056-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	1.98087269327
+P-0003111	P-0003111-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.990436346637
+P-0003327	P-0003327-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	4.95218173318
+P-0003469	P-0003469-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.97130903991
+P-0003532	P-0003532-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.990436346637
+P-0003532	P-0003532-T02-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.990436346637
+P-0003649	P-0003649-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.990436346637
+P-0003699	P-0003699-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.990436346637
+P-0004186	P-0004186-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0004334	P-0004334-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0004371	P-0004371-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	5.94261807982
+P-0004887	P-0004887-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	9.90436346637
+P-0005382	P-0005382-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.990436346637
+P-0005392	P-0005392-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	4.95218173318
+P-0005624	P-0005624-T02-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	3.96174538655
+P-0006032	P-0006032-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.97130903991
+P-0006518	P-0006518-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	3.96174538655
+P-0006690	P-0006690-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.97130903991
+P-0006939	P-0006939-T01-IM5	Breast Cancer	Adenoid Cystic Breast Cancer	Primary	ACBC	1.98087269327
+P-0007096	P-0007096-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	5.94261807982
+P-0007102	P-0007102-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	2.97130903991
+P-0007145	P-0007145-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	5.94261807982
+P-0007499	P-0007499-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.97130903991
+P-0007699	P-0007699-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	2.97130903991
+P-0007699	P-0007699-T02-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	5.94261807982
+P-0007777	P-0007777-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.98087269327
+P-0007849	P-0007849-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.990436346637
+P-0007849	P-0007849-T02-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.97130903991
+P-0007857	P-0007857-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0008045	P-0008045-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.990436346637
+P-0008066	P-0008066-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.990436346637
+P-0008151	P-0008151-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	2.97130903991
+P-0008227	P-0008227-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0008385	P-0008385-T01-IM5	Breast Cancer	Adenoid Cystic Breast Cancer	Metastasis	ACBC	2.97130903991
+P-0008493	P-0008493-T02-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+P-0008688	P-0008688-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	3.96174538655
+P-0008768	P-0008768-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	3.96174538655
+P-0009174	P-0009174-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	1.98087269327
+P-0009317	P-0009317-T02-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.98087269327
+P-0009457	P-0009457-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	2.97130903991
+P-0009534	P-0009534-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.990436346637
+P-0009832	P-0009832-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	1.98087269327
+P-0010654	P-0010654-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.97130903991
+P-0010663	P-0010663-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.97130903991
+P-0011474	P-0011474-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	8.91392711973
+P-0012051	P-0012051-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	3.96174538655
+P-0012563	P-0012563-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	1.98087269327
+P-0012652	P-0012652-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	4.95218173318
+P-0013084	P-0013084-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	4.95218173318
+P-0013620	P-0013620-T01-IM5	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung	Primary	LUACC	2.97130903991
+P-0013838	P-0013838-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	4.95218173318
+P-0014382	P-0014382-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	6.17869128257
+P-0014405	P-0014405-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.882670183225
+P-0014472	P-0014472-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	4.41335091612
+P-0014709	P-0014709-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	8.82670183225
+P-0014961	P-0014961-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	3.5306807329
+P-0015093	P-0015093-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.882670183225
+P-0015101	P-0015101-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	1.76534036645
+P-0015401	P-0015401-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.882670183225
+P-0015992	P-0015992-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+P-0016362	P-0016362-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.882670183225
+P-0016400	P-0016400-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	2.64801054967
+P-0016421	P-0016421-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.882670183225
+P-0017244	P-0017244-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	7.0613614658
+P-0017600	P-0017600-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	1.98087269327
+P-0017620	P-0017620-T01-IM5	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.990436346637
+P-0017745	P-0017745-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Primary	ACYC	0.0
+P-0018440	P-0018440-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.0
+P-0019072	P-0019072-T01-IM6	Salivary Cancer	Adenoid Cystic Carcinoma	Metastasis	ACYC	0.882670183225

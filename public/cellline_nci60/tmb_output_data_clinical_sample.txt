@@ -1,0 +1,72 @@
+#Patient Identifier	Sample Identifier	Cancer Type	Epithelial	Sample Type	Category of Sample	Ploidy	P53	MDR	Doubling Time (hrs)	Oncotree Code	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Cancer Type	Epithelial.	The type of sample (i.e., normal, primary, met, recurrence).	Category of Sample	Ploidy.	P53.	MDR.	Doubling time  (hrs)	Oncotree Code	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING	STRING	STRING
+#1	1	1	1	9	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	CANCER_TYPE	EPITHELIAL	SAMPLE_TYPE	CATEGORY_SAMPLE	PLOIDY	P53	MDR	DOUBLING_TIME	ONCOTREE_CODE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+BT_549	BT_549	Breast	Yes	Metastasis	Metastasis	3n+/-, Near-triploid 69+/- (58-80)	?	-45	53.9	BRCA	Invasive Breast Carcinoma	5.83333333333
+HS578T	HS578T	Breast	Yes	Primary	Primary	2n+, Hyperdiploid (47-57)	MT	NA	53.8	BRCA	Invasive Breast Carcinoma	12.0
+MCF7	MCF7	Breast	Yes		Pleural effusion	3n-, Hypotriploid (58-68)	WT	14	25.4	BRCA	Invasive Breast Carcinoma	15.7333333333
+MDA_MB_231	MDA_MB_231	Breast	Yes		Pleural effusion	2n+, Hyperdiploid (47-57)	MT	29	41.9	BRCA	Invasive Breast Carcinoma	8.6
+T47D	T47D	Breast	Yes		NA	2n+, Hyperdiploid (47-57)	MT	19	45.5	BRCA	Invasive Breast Carcinoma	7.86666666667
+SF_268	SF_268	CNS	No		NA	2n+, Hyperdiploid (47-57)	MT	-38	33.1	BRAIN	CNS/Brain	6.3
+SF_295	SF_295	CNS	No		NA	5n+/-, Near-pentaploid 115+/- (104-126)	MT	91	29.5	BRAIN	CNS/Brain	4.6
+SF_539	SF_539	CNS	No		NA	4n+/-, Near-tetraploid 92+/- (81-103)	WT	-40	35.4	BRAIN	CNS/Brain	5.2
+SNB_19	SNB_19	CNS	No		NA	3n+/-, Near-triploid 69+/- (58-80)	MT	-41	34.6	BRAIN	CNS/Brain	4.56666666667
+SNB_75	SNB_75	CNS	No		NA	2n+, Hyperdiploid (47-57)	MT	-38	62.8	BRAIN	CNS/Brain	5.16666666667
+U251	U251	CNS	No		NA	2n+, Hyperdiploid (47-57)	MT	-19	23.8	BRAIN	CNS/Brain	12.1
+COLO205	COLO205	Colon	Yes		Ascites	3n, Triploid (69)	MT	7	23.8	COADREAD	Colorectal Adenocarcinoma	6.8
+HCC_2998	HCC_2998	Colon	Yes		NA	2n+/-, Near-diploid 46+/- (35-57)	MT	-5	31.5	COADREAD	Colorectal Adenocarcinoma	185.2
+HCT_116	HCT_116	Colon	Yes		NA	2n-, Hypodiploid (35-45)	?	26	17.4	COADREAD	Colorectal Adenocarcinoma	59.5
+HCT_15	HCT_15	Colon	Yes		NA	2n+/-, Near-diploid 46+/- (35-57)	?	414	20.6	COADREAD	Colorectal Adenocarcinoma	169.933333333
+HT29	HT29	Colon	Yes	Primary	Primary	3n+/-, Near-triploid 69+/- (58-80)	MT	15	19.5	COADREAD	Colorectal Adenocarcinoma	11.5
+KM12	KM12	Colon	Yes		NA	2n+/-, Near-diploid 46+/- (35-57)	MT	-19	23.7	COADREAD	Colorectal Adenocarcinoma	65.3333333333
+SW_620	SW_620	Colon	Yes		NA	2n+/-, Near-diploid 46+/- (35-57)	MT	31	20.4	COADREAD	Colorectal Adenocarcinoma	9.86666666667
+A549	A549	Non-Small Cell Lung	Yes		NA	3n+/-, Near-triploid 69+/- (58-80)	WT	10	22.9	NSCLC	Non-Small Cell Lung Cancer	7.23333333333
+EKVX	EKVX	Non-Small Cell Lung	Yes		NA	3n+/-, Near-triploid 69+/- (58-80)	MT	-9	43.6	NSCLC	Non-Small Cell Lung Cancer	12.7
+HOP_62	HOP_62	Non-Small Cell Lung	Yes		NA	4n+, Hypertetraploid (93-103)	MT	61	39	NSCLC	Non-Small Cell Lung Cancer	15.1333333333
+HOP_92	HOP_92	Non-Small Cell Lung	Yes		NA	4n+/-, Near-tetraploid 92+/- (81-103)	MT	-4	79.5	NSCLC	Non-Small Cell Lung Cancer	9.96666666667
+NCI_H226	NCI_H226	Non-Small Cell Lung	Yes		NA	3n, Triploid (69)	MT	7	61	NSCLC	Non-Small Cell Lung Cancer	4.0
+NCI_H23	NCI_H23	Non-Small Cell Lung	Yes		NA	2n+, Hyperdiploid (47-57)	MT	-2	33.4	NSCLC	Non-Small Cell Lung Cancer	21.4
+NCI_H322M	NCI_H322M	Non-Small Cell Lung	Yes		NA	2n+/-, Near-diploid 46+/- (35-57)	MT	-10	35.3	NSCLC	Non-Small Cell Lung Cancer	13.3
+NCI_H460	NCI_H460	Non-Small Cell Lung	Yes		Pleural effusion	2n+/-, Near-diploid 46+/- (35-57)	WT	25	17.8	NSCLC	Non-Small Cell Lung Cancer	9.93333333333
+NCI_H522	NCI_H522	Non-Small Cell Lung	Yes		NA	2n+/-, Near-diploid 46+/- (35-57)	MT	16	38.2	NSCLC	Non-Small Cell Lung Cancer	7.33333333333
+CCRF_CEM	CCRF_CEM	Myeloid Neoplasm	No		NA	2n+/-, Near-diploid 46+/- (35-57)	MT	35	26.7	MNM	Myeloid Neoplasm	28.6
+HL_60	HL_60	Myeloid Neoplasm	No		PBL	2n+/-, Near-diploid 46+/- (35-57)	MT	-11	28.6	MNM	Myeloid Neoplasm	4.73333333333
+K_562	K_562	Myeloid Neoplasm	No		Pleural effusion	3n-, Hypotriploid (58-68)	MT	-1	19.6	MNM	Myeloid Neoplasm	10.4333333333
+MOLT_4	MOLT_4	Myeloid Neoplasm	No		PB	4n, Tetraploid (92)	WT	10	27.9	MNM	Myeloid Neoplasm	81.9333333333
+RPMI_8226	RPMI_8226	Myeloid Neoplasm	No		PB	3n-, Hypotriploid (58-68)	WT	-3	33.5	MNM	Myeloid Neoplasm	11.3666666667
+SR	SR	Myeloid Neoplasm	No		NA	2n+/-, Near-diploid 46+/- (35-57)	?	4	28.7	MNM	Myeloid Neoplasm	4.7
+LOXIMVI	LOXIMVI	Melanoma	No		NA	3n+/-, Near-triploid 69+/- (58-80)	WT	12	20.5	MEL	Melanoma	12.4333333333
+M14	M14	Melanoma	No		NA	3n+/-, Near-triploid 69+/- (58-80)	MT	14	26.3	MEL	Melanoma	11.4
+MALME_3M	MALME_3M	Melanoma	No	Metastasis	Metastasis	4n+/-, Near-tetraploid 92+/- (81-103)	WT	22	46.2	MEL	Melanoma	7.5
+MDA_MB_435	MDA_MB_435	Melanoma	No		Pleural effusion	2n+, Hyperdiploid (47-57)	MT	20	25.8	MEL	Melanoma	15.6333333333
+MDA_N	MDA_N	Melanoma	No		Pleural effusion	NA	MT	12	22.5	MEL	Melanoma	14.5666666667
+SK_MEL_2	SK_MEL_2	Melanoma	No	Metastasis	Metastasis	4n-, Hypotetraploid (81-91)	WT	14	45.5	MEL	Melanoma	16.6333333333
+SK_MEL_28	SK_MEL_28	Melanoma	No		NA	4n-, Hypotetraploid (81-91)	MT	11	35.1	MEL	Melanoma	9.16666666667
+SK_MEL_5	SK_MEL_5	Melanoma	No	Metastasis	Metastasis	4n+, Hypertetraploid (93-103)	WT	12	25.2	MEL	Melanoma	10.8333333333
+UACC_257	UACC_257	Melanoma	No		NA	3n+, Hypertriploid (70-80)	WT	26	38.5	MEL	Melanoma	9.23333333333
+UACC_62	UACC_62	Melanoma	No		NA	3n+/-, Near-triploid 69+/- (58-80)	WT	8	31.3	MEL	Melanoma	15.3
+IGROV1	IGROV1	Ovarian	Yes		NA	4n+/-, Near-tetraploid 92+/- (81-103)	MT	20	31	OVARY	Ovary/Fallopian Tube	22.5666666667
+NCI_ADR_RES	NCI_ADR_RES	Ovarian	Yes		NA	2n+/-, Near-diploid 46+/- (35-57)	MT	352	34	OVARY	Ovary/Fallopian Tube	7.9
+OVCAR_3	OVCAR_3	Ovarian	Yes		Ascites	3n+/-, Near-triploid 69+/- (58-80)	MT	-12	34.7	OVARY	Ovary/Fallopian Tube	6.16666666667
+OVCAR_4	OVCAR_4	Ovarian	Yes		NA	3n+/-, Near-triploid 69+/- (58-80)	WT	-4	41.4	OVARY	Ovary/Fallopian Tube	6.56666666667
+OVCAR_5	OVCAR_5	Ovarian	Yes		NA	2n+, Hyperdiploid (47-57)	MT	13	48.8	OVARY	Ovary/Fallopian Tube	5.4
+OVCAR_8	OVCAR_8	Ovarian	Yes		NA	2n+, Hyperdiploid (47-57)	MT	7	26.1	OVARY	Ovary/Fallopian Tube	6.63333333333
+SK_OV_3	SK_OV_3	Ovarian	Yes		Ascites	4n+/-, Near-tetraploid 92+/- (81-103)	?	15	48.7	OVARY	Ovary/Fallopian Tube	9.16666666667
+DU_145	DU_145	Prostate	Yes	Metastasis	Metastasis	3n+/-, Near-triploid 69+/- (58-80)	?	4	32.3	PROSTATE	Prostate	45.8333333333
+PC_3	PC_3	Prostate	Yes		NA	4n, Tetraploid (92)	MT	11	27.1	PROSTATE	Prostate	5.13333333333
+786_0	786_0	Renal	Yes		NA	4n+/-, Near-tetraploid 92+/- (81-103)	MT	-44	22.4	RCC	Renal Cell Carcinoma	8.0
+A498	A498	Renal	Yes		NA	3n, Triploid (69)	WT	78	66.8	RCC	Renal Cell Carcinoma	5.73333333333
+ACHN	ACHN	Renal	Yes		NA	2n+/-, Near-diploid 46+/- (35-57)	WT	120	27.5	RCC	Renal Cell Carcinoma	3.9
+CAKI_1	CAKI_1	Renal	Yes	Metastasis	Metastasis	3n, Triploid (69)	WT	171	39	RCC	Renal Cell Carcinoma	4.83333333333
+RXF_393	RXF_393	Renal	Yes		NA	3n+/-, Near-triploid 69+/- (58-80)	MT	42	62.9	RCC	Renal Cell Carcinoma	6.36666666667
+SN12C	SN12C	Renal	Yes		NA	3n, Triploid (69)	MT	-86	29.5	RCC	Renal Cell Carcinoma	15.0
+TK_10	TK_10	Renal	Yes		NA	4n, Tetraploid (92)	MT	-4	51.3	RCC	Renal Cell Carcinoma	8.8
+UO_31	UO_31	Renal	Yes		NA	2n+/-, Near-diploid 46+/- (35-57)	WT	59	41.7	RCC	Renal Cell Carcinoma	6.6
+CU251	CU251	NA									NA	NA
+CSF_268	CSF_268	NA									NA	NA
+CSNB_75	CSNB_75	NA									NA	NA
+CSF_539	CSF_539	NA									NA	NA
+X786_0	X786_0	NA									NA	NA
+CSNB_19	CSNB_19	NA									NA	NA
+CSF_295	CSF_295	NA									NA	NA

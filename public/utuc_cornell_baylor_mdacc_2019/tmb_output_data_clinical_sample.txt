@@ -1,0 +1,52 @@
+#Sample Identifier	Patient Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+BCM-MDA-UTUC-01	BCM-MDA-UTUC-01	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	0.966666666667
+BCM-MDA-UTUC-05	BCM-MDA-UTUC-05	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	4.93333333333
+BCM-MDA-UTUC-09	BCM-MDA-UTUC-09	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	1.46666666667
+BCM-MDA-UTUC-10	BCM-MDA-UTUC-10	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	0.933333333333
+BCM-MDA-UTUC-12	BCM-MDA-UTUC-12	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	1.63333333333
+BCM-MDA-UTUC-14	BCM-MDA-UTUC-14	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2.73333333333
+BCM-MDA-UTUC-16	BCM-MDA-UTUC-16	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	1.4
+BCM-MDA-UTUC-17	BCM-MDA-UTUC-17	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2.26666666667
+BCM-MDA-UTUC-18	BCM-MDA-UTUC-18	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	1.76666666667
+BCM-MDA-UTUC-20	BCM-MDA-UTUC-20	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2.93333333333
+BCM-MDA-UTUC-21	BCM-MDA-UTUC-21	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	3.2
+BCM-MDA-UTUC-22	BCM-MDA-UTUC-22	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	1.9
+BCM-MDA-UTUC-24	BCM-MDA-UTUC-24	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2.36666666667
+BCM-MDA-UTUC-29	BCM-MDA-UTUC-29	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	8.83333333333
+BCM-MDA-UTUC-30	BCM-MDA-UTUC-30	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	5.93333333333
+BCM-MDA-UTUC-26	BCM-MDA-UTUC-26	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	NA
+BCM-MDA-UTUC-28	BCM-MDA-UTUC-28	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	NA
+WCM-UTUC-21	WCM-UTUC-21	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	13.1333333333
+WCM-UTUC-73	WCM-UTUC-73	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2.7
+WCM-UTUC-75	WCM-UTUC-75	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	0.5
+WCM-UTUC-77	WCM-UTUC-77	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	0.966666666667
+WCM-UTUC-87	WCM-UTUC-87	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	1.33333333333
+WCM-UTUC-89	WCM-UTUC-89	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	0.866666666667
+WCM-UTUC-90	WCM-UTUC-90	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	1.86666666667
+WCM-UTUC-91	WCM-UTUC-91	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	11.6666666667
+WCM-UTUC-92	WCM-UTUC-92	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	7.3
+WCM-UTUC-23	WCM-UTUC-23	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	3.7
+WCM-UTUC-25	WCM-UTUC-25	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	0.133333333333
+WCM-UTUC-72	WCM-UTUC-72	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	3.73333333333
+WCM-UTUC-84	WCM-UTUC-84	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	3.53333333333
+WCM-UTUC-1099	WCM-UTUC-1099	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	11.1666666667
+WCM-UTUC-1399	WCM-UTUC-1399	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	5.6
+WCM-UTUC-0576	WCM-UTUC-0576	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	6.33333333333
+WCM-UTUC-0060	WCM-UTUC-0060	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	1.16666666667
+WCM-UTUC-0761	WCM-UTUC-0761	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	1.13333333333
+WCM-UTUC-0764	WCM-UTUC-0764	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	2.0
+WCM-UTUC-0784	WCM-UTUC-0784	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	6.9
+WCM-UTUC-0805	WCM-UTUC-0805	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	4.4
+WCM-UTUC-0885	WCM-UTUC-0885	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	3.36666666667
+WCM-UTUC-70	WCM-UTUC-70	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	NA
+WCM-UTUC-74	WCM-UTUC-74	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	NA
+WCM-UTUC-78	WCM-UTUC-78	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	NA
+WCM-UTUC-80	WCM-UTUC-80	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	NA
+WCM-UTUC-82	WCM-UTUC-82	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	NA
+WCM-UTUC-83	WCM-UTUC-83	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	NA
+WCM-UTUC-85	WCM-UTUC-85	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	NA
+WCM-UTUC-86	WCM-UTUC-86	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	NA

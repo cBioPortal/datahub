@@ -1,0 +1,104 @@
+#Patient Identifier	Sample Identifier	Tumor cellularity dominant pathology review	Estimated Tumor Cellularity	KRAS Mutation	Oncotree Code	Cancer Type	Cancer Type Detailed	Cellularity	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Tumor cellularity dominant pathology review	Estimated tumor cellularity.	KRAS mutation is present.	Oncotree Code	Cancer Type	Cancer Type Detailed	Tumor Content	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR_CELLULARITY_PATHOLOGY_REVIEW	EST_TUMOR_CELLULARITY	KRAS_MUTATION	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	CELLULARITY	TMB_NONSYNONYMOUS
+ICGC_0002_TD	ICGC_0002_TD	85	54.8179026	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.866666666667
+ICGC_0004_TD	ICGC_0004_TD	60	52.5876514	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.666666666667
+ICGC_0005_TD	ICGC_0005_TD	50	25.7333666	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.266666666667
+ICGC_0006_TD	ICGC_0006_TD	85	69.6848193	Mutated & CNV	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	1.73333333333
+ICGC_0007_TD	ICGC_0007_TD	80	53.4024518	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.366666666667
+ICGC_0009_TD	ICGC_0009_TD	90	71.3531664	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.433333333333
+ICGC_0010_TD	ICGC_0010_TD	70	39.1220432	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.266666666667
+ICGC_0011_TD	ICGC_0011_TD	50	37.9135524	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.366666666667
+ICGC_0012_TD	ICGC_0012_TD	80	41.3523291	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.633333333333
+ICGC_0013_TD	ICGC_0013_TD	80	22.6792119	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.633333333333
+ICGC_0015_TD	ICGC_0015_TD	80	19.7498862	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.4
+ICGC_0016_TD	ICGC_0016_TD	60	51.3046042	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	1.06666666667
+ICGC_0017_TD	ICGC_0017_TD	50	18.0032012	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.2
+ICGC_0018_TD	ICGC_0018_TD	30	37.0900603	Mutated & CNV	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.9
+ICGC_0019_TD	ICGC_0019_TD	30	22.9818253	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.466666666667
+ICGC_0020_TD	ICGC_0020_TD	35	20.3208982	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.2
+ICGC_0021_TD	ICGC_0021_TD	20	47.0484164	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.766666666667
+ICGC_0022_TD	ICGC_0022_TD	50	25.9781802	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.533333333333
+ICGC_0023_TD	ICGC_0023_TD	30	21.9613079	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.266666666667
+ICGC_0025_TD	ICGC_0025_TD	NA	62.0390937	Mutated & CNV	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.7
+ICGC_0026_TD	ICGC_0026_TD	80	80.1741723	Mutated & CNV	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.466666666667
+ICGC_0027_TD	ICGC_0027_TD	40	17.1397538	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.5
+ICGC_0028_TD	ICGC_0028_TD	85	34.5433835	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.433333333333
+ICGC_0029_TD	ICGC_0029_TD	60	32.9429521	Mutated & CNV	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.733333333333
+ICGC_0030_TD	ICGC_0030_TD	50	21.7622754	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.533333333333
+ICGC_0031_TD	ICGC_0031_TD	80	45.4004592	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.433333333333
+ICGC_0032_TD	ICGC_0032_TD	50	35.1839727	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.4
+ICGC_0033_TD	ICGC_0033_TD	60	47.0536806	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.666666666667
+ICGC_0034_TD	ICGC_0034_TD	60	38.2806444	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	1.13333333333
+ICGC_0035_TD	ICGC_0035_TD	45	52.9233373	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.933333333333
+ICGC_0036_TD	ICGC_0036_TD	50	72.179485	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.866666666667
+ICGC_0037_TD	ICGC_0037_TD	50	69.6617235	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	1.33333333333
+ICGC_0039_TD	ICGC_0039_TD	80	41.3095474	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.333333333333
+ICGC_0040_TD	ICGC_0040_TD	40	40.8823827	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.233333333333
+ICGC_0041_TD	ICGC_0041_TD	60	14.2724889	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.366666666667
+ICGC_0042_TD	ICGC_0042_TD	60	35.1270676	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.533333333333
+ICGC_0043_TD	ICGC_0043_TD	80	30.7685467	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.666666666667
+ICGC_0044_TD	ICGC_0044_TD	60	21.7357901	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.233333333333
+ICGC_0045_TD	ICGC_0045_TD	80	38.7901024	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.533333333333
+ICGC_0046_TD	ICGC_0046_TD	80	30.1834587	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	1.26666666667
+ICGC_0048_TD	ICGC_0048_TD	80	62.3069027	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.566666666667
+ICGC_0049_TD	ICGC_0049_TD	50	22.6991443	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.4
+ICGC_0050_TD	ICGC_0050_TD	50	12.1811315	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.3
+ICGC_0051_TD	ICGC_0051_TD	75	73.9960432	Mutated & CNV	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.433333333333
+ICGC_0052_TD	ICGC_0052_TD	70	52.2620454	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	1.16666666667
+ICGC_0053_TD	ICGC_0053_TD	75	29.1423254	Wildtype	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.566666666667
+ICGC_0054_TD	ICGC_0054_TD	80	49.0728337	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.8
+ICGC_0055_TD	ICGC_0055_TD	80	60.16774	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.6
+ICGC_0056_TD	ICGC_0056_TD	50	14.9088641	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.733333333333
+ICGC_0057_TD	ICGC_0057_TD	60	40.3467041	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.333333333333
+ICGC_0058_TD	ICGC_0058_TD	60	13.6100011	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.433333333333
+ICGC_0059_TD	ICGC_0059_TD	70	69.5642949	Mutated & CNV	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.866666666667
+ICGC_0060_TD	ICGC_0060_TD	70	34.0236315	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.966666666667
+ICGC_0061_TD	ICGC_0061_TD	90	63.888478	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	1.3
+ICGC_0062_TD	ICGC_0062_TD	75	22.1829547	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.733333333333
+ICGC_0063_TD	ICGC_0063_TD	90	81.6123338	Wildtype	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.833333333333
+ICGC_0064_TD	ICGC_0064_TD	60	36.667011	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.5
+ICGC_0065_TD	ICGC_0065_TD	85	41.8217195	Mutated & CNV	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.6
+ICGC_0066_TD	ICGC_0066_TD	80	64.2394943	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	1.0
+ICGC_0067_TD	ICGC_0067_TD	NA	32.8341218	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.733333333333
+PACA-100-T	PACA-100-T	60	55.99586606	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M	0.266666666667
+PACA-101-T	PACA-101-T	40	52.60804253	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H	0.466666666667
+PACA-104-T	PACA-104-T	10	17.59827582	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.333333333333
+PACA-111-T	PACA-111-T	20	16.99637413	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.4
+PACA-1130-T	PACA-1130-T	80	71.5877313	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	no SNP data	1.46666666667
+PACA-114-T	PACA-114-T	no tumour  upon review	27.47209114	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M	0.6
+PACA-115-T	PACA-115-T	20	42.27892702	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M	1.1
+PACA-116-T	PACA-116-T	5	37.47078441	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M	1.1
+PACA-2440-T	PACA-2440-T	25	unknown	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	no SNP data	0.3
+PACA-37-T	PACA-37-T	30	18.27903507	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.533333333333
+PACA-44-T	PACA-44-T	30	unknown	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	SNP data fail QC	0.666666666667
+PACA-45-T	PACA-45-T	40	25.99026439	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.0666666666667
+PACA-4520-T	PACA-4520-T	65	57.50184	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M	0.233333333333
+PACA-46-T	PACA-46-T	70	15.71981422	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	1.9
+PACA-48-T	PACA-48-T	75	60.48180999	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H	0.366666666667
+PACA-50-T	PACA-50-T	40	66.18131088	Wildtype	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H	0.933333333333
+PACA-55-T	PACA-55-T	30	unknown	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.233333333333
+PACA-57-T	PACA-57-T	25	43.18973226	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M	0.166666666667
+PACA-59-T	PACA-59-T	5	unknown	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.5
+PACA-70-T	PACA-70-T	5	15.34522544	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.966666666667
+PACA-73-T	PACA-73-T	no tumour  upon review	unknown	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.666666666667
+PACA-86-T	PACA-86-T	35	17.73377848	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.633333333333
+PACA-94-T	PACA-94-T	85	17.18404351	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.0666666666667
+PACA-98-T	PACA-98-T	80	27.38911549	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L	0.866666666667
+PCSI0001_T	PCSI0001_T	40	24.9070606	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.3
+PCSI0002_T	PCSI0002_T	60	19.34452834	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.9
+PCSI0007_T	PCSI0007_T	40	46.24327854	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.6
+PCSI0010_T	PCSI0010_T	80	21.8229025	Wildtype	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	NA
+PCSI0018_T	PCSI0018_T	80	16.91989829	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.933333333333
+PCSI0019_T	PCSI0019_T	85	25.47865348	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.566666666667
+PCSI0022_T	PCSI0022_T	80	46.77354991	Mutated & CNV	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	0.9
+PCSI0023_T	PCSI0023_T	no tumour  upon review	21.10239052	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.433333333333
+PCSI0024_T	PCSI0024_T	85	14.82250405	Wildtype	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.4
+PCSI0044_T	PCSI0044_T	70	27.46409468	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.733333333333
+PCSI0046_T	PCSI0046_T	40	28.91828966	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	L 	0.4
+PCSI0047_T	PCSI0047_T	75	33.7555499	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.6
+PCSI0048_T	PCSI0048_T	90	unknown	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	H 	2.66666666667
+PCSI0072_T	PCSI0072_T	75	25.17744998	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.633333333333
+PCSI0073_T	PCSI0073_T	90	24.19517713	Mutated	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	M 	0.7

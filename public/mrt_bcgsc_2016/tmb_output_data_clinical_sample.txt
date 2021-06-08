@@ -1,0 +1,45 @@
+#Sample Identifier	Patient Identifier	Tumor Content	Normal location	Somatic Status	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	tumor content	Tissue where normal was derived.	Somatic Status	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	TUMOR_CONTENT	NORMAL_SITE	SOMATIC_STATUS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+TARGET-52-PABKLN	PABKLN	88	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PADYZI	PADYZI	90	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.366666666667
+TARGET-52-PAJLWM	PAJLWM	92	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.266666666667
+TARGET-52-PAJMRB	PAJMRB	74	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.2
+TARGET-52-PAJNER	PAJNER	81	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.0666666666667
+TARGET-52-PAJNFP	PAJNFP	90	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.266666666667
+TARGET-52-PAJNFZ	PAJNFZ	43	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PAKHTL	PAKHTL	87	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.266666666667
+TARGET-52-PARECB	PARECB	88	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.233333333333
+TARGET-52-PARGRN	PARGRN	94	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.0666666666667
+TARGET-52-PARIRN	PARIRN	90	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.233333333333
+TARGET-52-PARPFY	PARPFY	85	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.0333333333333
+TARGET-52-PARRCL	PARRCL	87	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.1
+TARGET-52-PARUGK	PARUGK	67	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.0666666666667
+TARGET-52-PARZBI	PARZBI	82	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PASABD	PASABD	88	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.2
+TARGET-52-PASADZ	PASADZ	89	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PASCDH	PASCDH	88	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PASDLA	PASDLA	91	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.0666666666667
+TARGET-52-PASRHU	PASRHU	90	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.3
+TARGET-52-PASVDP	PASVDP	74	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PASWZZ	PASWZZ	92	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.133333333333
+TARGET-52-PASXNA	PASXNA	95	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PASYNF	PASYNF	88	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.0333333333333
+TARGET-52-PASZYE	PASZYE	76	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.266666666667
+TARGET-52-PATAFT	PATAFT	80	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.133333333333
+TARGET-52-PATBLF	PATBLF	89	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.3
+TARGET-52-PATDVL	PATDVL	89	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.2
+TARGET-52-PATENH	PATENH	82	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.266666666667
+TARGET-52-PATFXW	PATFXW	89	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PATFZZ	PATFZZ	89	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.233333333333
+TARGET-52-PATXEE	PATXEE	76	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PATXKA	PATXKA	87	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.0666666666667
+TARGET-52-PAUCGJ	PAUCGJ	84	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.2
+TARGET-52-PAUDPV	PAUDPV	92	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PAUEKW	PAUEKW	90	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.566666666667
+TARGET-52-PAUFVP	PAUFVP	90	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.366666666667
+TARGET-52-PAUGYZ	PAUGYZ	87	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.166666666667
+TARGET-52-PAUHAZ	PAUHAZ	87	Peripheral blood	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.0666666666667
+TARGET-52-PAUNPA	PAUNPA	85	Kidney	Matched	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.266666666667

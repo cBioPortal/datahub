@@ -1,0 +1,26 @@
+#Sample Identifier	Patient Identifier	Sample Display Name	Cancer Type	Cancer Type Detailed	Specimen Preservation Type	Platform	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Sample Display Name	Cancer Type	Cancer Type Detailed	Specimen Preservation Type	Platform.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#0	0	1	1	1	9	1	1
+SAMPLE_ID	PATIENT_ID	SAMPLE_DISPLAY_NAME	CANCER_TYPE	CANCER_TYPE_DETAILED	SPECIMEN_PRESERVATION_TYPE	PLATFORM	TMB_NONSYNONYMOUS
+GCT_HM_3_HS_IM5	GCT_HM_3	P-0003533-T03-IM5	Histiocytosis	Histiocytic Sarcoma	FFPE	IMPACT410	2.98069700619
+GCT_HM_4_AML_IH3	GCT_HM_4	P-0019394-T01-IH3	Leukemia	Acute Myeloid Leukemia	Fresh	IMPACT-HEME-400	9.38961846224
+GCT_HM_1_NSGCT_HP4	GCT_HM_1	s_OA_gct_017_T1	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	FFPE	HemePACT_v4	2.81688553867
+GCT_HM_14_MTNN_HP4	GCT_HM_14	s_OA_gct_019_T3	Mature T and NK Neoplasms	Mature T and NK Neoplasms	FFPE	HemePACT_v4	3.7558473849
+GCT_HM_14_NSGCT_HP4	GCT_HM_14	s_OA_gct_019_T1	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	FFPE	HemePACT_v4	3.7558473849
+GCT_HM_2_MDS_WES	GCT_HM_2	s_OA_gct_008_T	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Fresh frozen	WES	1.5
+GCT_HM_2_NSGCT_WES	GCT_HM_2	s_OA_gct_008_P	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	Fresh	WES	0.266666666667
+GCT_HM_2_HS_WES	GCT_HM_2	s_C_H3KMT7_P004_d	Histiocytosis	Histiocytic Sarcoma	Fresh	WES	0.7
+GCT_HM_3_NSGCT_WES	GCT_HM_3	s_AML_GCT_2T1	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	Fresh	WES	0.433333333333
+GCT_HM_3_CMML_WES	GCT_HM_3	s_AML_GCT_2T2	Myelodysplastic/Myeloproliferative Neoplasms	Chronic Myelomonocytic Leukemia	Fresh	WES	1.13333333333
+GCT_HM_3_HS_WES	GCT_HM_3	s_AML_GCT_2T3	Histiocytosis	Histiocytic Sarcoma	FFPE	WES	0.666666666667
+GCT_HM_3_AML_WES	GCT_HM_3	s_OA_gct_002_T	Leukemia	Acute Myeloid Leukemia	Fresh frozen	WES	1.23333333333
+GCT_HM_5_NSGCT_HP4	GCT_HM_5	s_OA_gct_012_T1	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	FFPE	HemePACT_v4	6.57273292357
+GCT_HM_6_MDS_WES	GCT_HM_6	s_OA_gct_007_T	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Fresh frozen	WES	0.266666666667
+GCT_HM_6_NSGCT_WES	GCT_HM_6	s_OA_gct_007_P	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	Fresh	WES	0.733333333333
+GCT_HM_7_MDS_WES	GCT_HM_7	s_OA_gct_006_T	Myelodysplastic Syndromes	Myelodysplastic Syndromes	Fresh	WES	0.333333333333
+GCT_HM_7_NSGCT_WES	GCT_HM_7	s_OA_gct_006_M	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	Fresh	WES	0.466666666667
+GCT_HM_10_HS_HP4	GCT_HM_10	s_OA_gct_014_T1	Histiocytosis	Histiocytic Sarcoma	FFPE	HemePACT_v4	3.7558473849
+GCT_HM_12_HLH_HP4	GCT_HM_12	s_OA_gct_005_T	Hemophagocytic Lymphohistiocytosis	Hemophagocytic Lymphohistiocytosis	Fresh frozen	HemePACT_v4	4.69480923112
+GCT_HM_15_NSGCT_WES	GCT_HM_15	s_AML_GCT_1T_GCT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	Fresh	WES	0.3
+GCT_HM_15_CMML_WES	GCT_HM_15	s_AML_GCT_1T_BM	Myelodysplastic/Myeloproliferative Neoplasms	Chronic Myelomonocytic Leukemia	Fresh frozen	WES	0.366666666667

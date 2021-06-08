@@ -1,0 +1,20 @@
+#Patient Identifier	Sample Identifier	Primary Tumor Site	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Text term to describe the organ sub-division in an individual with cancer.	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	PRIMARY_SITE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+Sample_2	Sample_2	Arm	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	29.1602738374
+Sample_4	Sample_4	Lung	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	65.0498416373
+Sample_7	Sample_7	Neck	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	53.8343516998
+Sample_18	Sample_18	Arm	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	15.7016859124
+Sample_8	Sample_8	Lung	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	37.0111167936
+Sample_9	Sample_9	Lung	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	68.4144886185
+Sample_19	Sample_19	Lung	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	60.5636456623
+Sample_10	Sample_10	Lung	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	13.458587925
+Sample_11	Sample_11	Chest Wall	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	75.143782581
+Sample_12	Sample_12	Calf	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	67.2929396248
+Sample_13	Sample_13	Lung	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	67.2929396248
+Sample_14	Sample_14	Chest Wall	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	53.8343516998
+Sample_15	Sample_15	Arm	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	24.6740778624
+Sample_16	Sample_16	Thigh	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	136.828977237
+Sample_20	Sample_20	Arm	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	Matched	0.0

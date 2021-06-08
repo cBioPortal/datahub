@@ -1,0 +1,51 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	Nodule Size (mm)	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	Nodule Size (mm)	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	NUMBER	STRING
+#1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	NODULE_SIZE	TMB_NONSYNONYMOUS
+LIAD_1023	CHC1023T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	60	0.566666666667
+LIAD_1124	CHC1124T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	50	0.5
+LIAD_1315	CHC1315T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	76	0.4
+LIAD_1328	CHC1328T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	110	0.266666666667
+LIAD_1328	CHC1329T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	110	0.0666666666667
+LIAD_1337	CHC1337T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	59	0.2
+LIAD_1382	CHC1382T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	40	0.266666666667
+LIAD_1382	CHC1383T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	40	0.0333333333333
+LIAD_1424	CHC1424T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	150	0.3
+LIAD_1425	CHC1425T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	130	0.3
+LIAD_1425	CHC1428T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	130	0.366666666667
+LIAD_1432	CHC1432T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	53	0.333333333333
+LIAD_1432	CHC1434T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	53	0.2
+LIAD_1439	CHC1439T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	75	0.566666666667
+LIAD_1488	CHC1488T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	50	0.0666666666667
+LIAD_1488	CHC1489T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	50	0.5
+LIAD_1665	CHC1665T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	110	0.133333333333
+LIAD_1666	CHC1666T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	80	0.333333333333
+LIAD_1854	CHC1854T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma		0.633333333333
+LIAD_1915	CHC1915T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	200	1.2
+LIAD_1915	CHC1916T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	200	0.433333333333
+LIAD_361	CHC2321T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	60	1.56666666667
+LIAD_340	CHC340T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	70	0.633333333333
+LIAD_361	CHC361TA	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	60	1.53333333333
+LIAD_361	CHC361TB	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	60	1.06666666667
+LIAD_462	CHC462T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	47	0.133333333333
+LIAD_462	CHC463T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	47	0.2
+LIAD_464	CHC464T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	120	1.13333333333
+LIAD_464	CHC465T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	120	1.86666666667
+LIAD_469	CHC469T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	150	1.96666666667
+LIAD_469	CHC470T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	150	0.7
+LIAD_471	CHC471T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	90	0.333333333333
+LIAD_517	CHC517T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	80	0.133333333333
+LIAD_575	CHC575T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	35	0.433333333333
+LIAD_575	CHC578T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	35	0.133333333333
+LIAD_603	CHC603T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	60	0.266666666667
+LIAD_603	CHC605T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	60	0.733333333333
+LIAD_622	CHC623T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	70	0.4
+LIAD_622	CHC624T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	70	0.466666666667
+LIAD_674	CHC674T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	30	0.3
+LIAD_687	CHC687T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	36	0.533333333333
+LIAD_687	CHC689T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	36	0.633333333333
+LIAD_845	CHC846T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	90	0.433333333333
+LIAD_917	CHC917T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	95	2.86666666667
+LIAD_917	CHC918T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	95	2.63333333333
+LIAD_976	CHC976T	LIAD	Hepatobiliary Cancer	Hepatocellular Adenoma	70	0.6

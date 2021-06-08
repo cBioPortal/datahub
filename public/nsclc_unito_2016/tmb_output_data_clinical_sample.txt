@@ -1,0 +1,46 @@
+#Sample Identifier	Patient Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+Y03	Y03	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	102.480016397
+Y24	Y24	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	204.960032794
+Y16	Y16	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+A06	A06	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	204.960032794
+A19	A19	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+Y18	Y18	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+A20	A20	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	34.1600054656
+Y14	Y14	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	45.5466739541
+A13	A13	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	91.0933479083
+Y26	Y26	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+Y20	Y20	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	34.1600054656
+A03	A03	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+A17	A17	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+A14	A14	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	102.480016397
+A22	A22	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+A25	A25	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	34.1600054656
+Y05	Y05	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	34.1600054656
+Y29	Y29	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+Y06	Y06	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+Y10	Y10	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+A05	A05	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+Y15	Y15	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	34.1600054656
+A15	A15	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+Y25	Y25	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+Y19	Y19	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+Y28	Y28	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+A04	A04	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+A11	A11	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+A24	A24	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+Y12	Y12	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+A16	A16	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	22.7733369771
+A07	A07	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+Y13	Y13	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+A02	A02	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+A23	A23	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+Y01	Y01	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+Y07	Y07	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+A18	A18	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+Y04	Y04	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+A09	A09	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885
+Y22	Y22	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	11.3866684885

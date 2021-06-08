@@ -1,0 +1,33 @@
+#Patient Identifier	Sample Identifier	Sample Type	Tumor Disease Anatomic Site	Primary Tumor Site	Metastatic tumor indicator	Metastatic Site	Tumor Stage	Genomic Alterations	Actionable Alterations	Platform	Cancer Type	Cancer Type Detailed	Oncotree Code	Fusion Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The type of sample (i.e., normal, primary, met, recurrence).	Text term that describes the anatomic site of the tumor or disease.	Text term to describe the organ sub-division in an individual with cancer.	Distant metastasis present ind2	The anatomic location to which the cancer has spread.	Tumor stage.	Number of genomic alterations	Number of actionable alterations	Platform.	Disease type	Cancer Type Detailed	Oncotree Code	Fusion Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_TYPE	TUMOR_TISSUE_SITE	PRIMARY_SITE	METASTATIC_TUMOR_INDICATOR	METASTATIC_SITE	TUMOR_STAGE	GENOMIC_ALTERATIONS	ACTIONABLE_ALTERATIONS	PLATFORM	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	FUSION_STATUS	TMB_NONSYNONYMOUS
+ACYC-FMI-01	ACYC-FMI-01	Primary	Salivary gland	Salivary gland	No	NA	III	0	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-02	ACYC-FMI-02	Metastasis	Lung	NA	Yes	Lung	IV	3	1	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	30.7948141533
+ACYC-FMI-03	ACYC-FMI-03	Metastasis	Lung	NA	Yes	Lung	IV	0	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-04	ACYC-FMI-04	Recurrent	Buccal mucosa	Oral cavity	No	NA	III	0	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-05	ACYC-FMI-05	Primary	Tumor extention into bone	Head and Neck	Yes	NA	III	0	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-06	ACYC-FMI-06	Metastasis	Lung	NA	Yes	Lung	IV	3	3	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-07	ACYC-FMI-07	Primary	Salivary gland	Salivary gland	No	NA	III	0	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-08	ACYC-FMI-08	Primary	Salivary gland	Salivary gland	No	NA	IV	1	1	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-09	ACYC-FMI-09	Primary	Salivary gland	Salivary gland	No	NA	IV	1	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	10.2649380511
+ACYC-FMI-10	ACYC-FMI-10	Primary	Orbital cavity	Orbital mass	No	NA	III	2	2	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	20.5298761022
+ACYC-FMI-11	ACYC-FMI-11	Primary	Hard palate	Oral cavity	No	NA	III	2	2	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-12	ACYC-FMI-12	Primary	Larynx	Larynx	No	NA	IV	2	1	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	20.5298761022
+ACYC-FMI-13	ACYC-FMI-13	Metastasis	Lung	NA	Yes	Lung	IV	0	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-14	ACYC-FMI-14	Primary	Temporalis muscle	Head and Neck	No	NA	IV	2	1	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	20.5298761022
+ACYC-FMI-15	ACYC-FMI-15	Primary	Sternum	Head and Neck	No	NA	IV	0	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-16	ACYC-FMI-16	Metastasis	Liver	NA	Yes	Liver	IV	0	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-17	ACYC-FMI-17	Metastasis	Brain	NA	Yes	Brain	IV	2	2	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	10.2649380511
+ACYC-FMI-18	ACYC-FMI-18	Primary	Floor of mouth	Oral cavity	No	NA	III	2	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	10.2649380511
+ACYC-FMI-19	ACYC-FMI-19	Primary	Hard palate	Oral cavity	No	NA	IV	3	1	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	20.5298761022
+ACYC-FMI-20	ACYC-FMI-20	Metastasis	Lung	NA	Yes	Lung	IV	2	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	20.5298761022
+ACYC-FMI-21	ACYC-FMI-21	Primary	Soft palate	Oral cavity	No	NA	IV	3	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	30.7948141533
+ACYC-FMI-22	ACYC-FMI-22	Primary	Salivary gland	Salivary gland	No	NA	III	2	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	20.5298761022
+ACYC-FMI-23	ACYC-FMI-23	Primary	Salivary gland	Salivary gland	No	NA	III	6	5	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	10.2649380511
+ACYC-FMI-24	ACYC-FMI-24	Primary	Salivary gland	Salivary gland	No	NA	III	2	1	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	10.2649380511
+ACYC-FMI-25	ACYC-FMI-25	Primary	Salivary gland	Salivary gland	No	NA	IV	0	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-26	ACYC-FMI-26	Primary	Orbital cavity	Orbital mass	No	NA	III	5	2	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	41.0597522044
+ACYC-FMI-27	ACYC-FMI-27	Primary	Salivary gland	Salivary gland	No	NA	IV	0	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	0.0
+ACYC-FMI-28	ACYC-FMI-28	Metastasis	Lung	NA	Yes	Lung	IV	1	0	Targeted Sequencing	Salivary Cancer	Adenoid Cystic Carcinoma	ACYC	NO	10.2649380511

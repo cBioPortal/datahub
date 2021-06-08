@@ -1,0 +1,25 @@
+#Patient Identifier	Sample Identifier	Source	Gene Panel	Platform	Secondary Platform	Detailed Sample Histology Category	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Source	Gene panel.	Platform.	Secondary Platform	Detailed Sample Histology Category	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SOURCE	GENE_PANEL	PLATFORM	SECONDARY_PLATFORM	DETAILED_SAMPLE_HISTOLOGY_CATEGORY	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+11M	11M	Fresh Frozen	Exome, Whole Genome	Agilent 1Mil	Exome CN Inference	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	16.9666666667
+12M	12M	Fresh Frozen	Exome, Whole Genome	Agilent 1Mil	Exome CN Inference	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	11.7666666667
+19M	19M	Fresh Frozen	Exome, Whole Genome	Agilent 1Mil	Exome CN Inference	Mixed	DESM	Melanoma	Desmoplastic Melanoma	Matched	39.8333333333
+35M	35M	Fresh Frozen	Exome, Whole Genome	Agilent 1Mil	Exome CN Inference	Mixed	DESM	Melanoma	Desmoplastic Melanoma	Matched	59.8333333333
+37M	37M	Fresh Frozen	Exome, Whole Genome	Agilent 1Mil	Exome CN Inference	Mixed	DESM	Melanoma	Desmoplastic Melanoma	Matched	20.4666666667
+40M	40M	Fresh Frozen	Exome, Whole Genome	Agilent 1Mil	Exome CN Inference	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	52.6666666667
+46M	46M	Fresh Frozen	Exome, Whole Genome	Agilent 1Mil	Exome CN Inference	Mixed	DESM	Melanoma	Desmoplastic Melanoma	Matched	44.9666666667
+49M	49M	Fresh Frozen	Exome, Whole Genome	Agilent 1Mil	Exome CN Inference	Mixed	DESM	Melanoma	Desmoplastic Melanoma	Matched	87.8666666667
+53M	53M	Fresh Frozen	Exome, Whole Genome	Agilent 1Mil	Exome CN Inference	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	30.0333333333
+71M	71M	Fresh Frozen	Exome, Whole Genome	Agilent 1Mil	Exome CN Inference	Mixed	DESM	Melanoma	Desmoplastic Melanoma	Matched	10.0666666667
+Au1	Au1	Fresh Frozen	Exome, Whole Genome	Exome CN Inference	NA	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	35.3
+Au2	Au2	Fresh Frozen	Exome, Whole Genome	Exome CN Inference	NA	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	34.7666666667
+Au3	Au3	Fresh Frozen	Exome, Whole Genome	Exome CN Inference	NA	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	31.3333333333
+Au4	Au4	Fresh Frozen	Exome, Whole Genome	Exome CN Inference	NA	Mixed	DESM	Melanoma	Desmoplastic Melanoma	Matched	53.0333333333
+Au5	Au5	Fresh Frozen	Exome, Whole Genome	Exome CN Inference	NA	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	13.4
+Au6	Au6	Fresh Frozen	Exome, Whole Genome	Exome CN Inference	NA	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	0.7
+Au7	Au7	Fresh Frozen	Exome, Whole Genome	Exome CN Inference	NA	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	0.733333333333
+Au8	Au8	Fresh Frozen	Exome, Whole Genome	Exome CN Inference	NA	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	18.6
+Au9	Au9	Fresh Frozen	Exome, Whole Genome	Exome CN Inference	NA	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	8.43333333333
+Au10	Au10	Fresh Frozen	Exome, Whole Genome	Exome CN Inference	NA	Pure	DESM	Melanoma	Desmoplastic Melanoma	Matched	19.0333333333

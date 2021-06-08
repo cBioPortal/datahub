@@ -1,0 +1,83 @@
+#Sample Identifier	Patient Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	Collaboration Id	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	Oncotree Code	Cancer Type	Cancer Type Detailed	Somatic Status	Collaboration id.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	COLLAB_ID	TMB_NONSYNONYMOUS
+s_JC_ucc_001_P	p_JC_ucc_001	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC01_primary	0.993565668729
+s_JC_ucc_001_X	p_JC_ucc_001	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC01_PDX299L_P2	0.993565668729
+s_JC_ucc_001_X2	p_JC_ucc_001	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC01_PDX285L_P5	0.882815120857
+s_JC_ucc_003_CL	p_JC_ucc_003	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC03_Cell line	12.3370389312
+s_JC_ucc_003_M	p_JC_ucc_003	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC03_Met	12.3370389312
+s_JC_ucc_003_P1	p_JC_ucc_003	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC03_primary1	12.3370389312
+s_JC_ucc_003_P2	p_JC_ucc_003	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC03_primary2	12.3370389312
+s_JC_ucc_003_X1	p_JC_ucc_003	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC03_PDX1	12.3370389312
+s_JC_ucc_003_X2	p_JC_ucc_003	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC03_PDX2	12.3370389312
+s_JC_ucc_003_X3	p_JC_ucc_003	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC03_PDX1820R_P6	5.29689072514
+s_JC_ucc_005_P	p_JC_ucc_005	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC05_primary	0.993565668729
+s_JC_ucc_005_X	p_JC_ucc_005	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC05_PDX118L_P2	0.993565668729
+s_JC_ucc_005_X2	p_JC_ucc_005	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC05_PDX362R_P6	0.882815120857
+s_JC_ucc_008_P	p_JC_ucc_008	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC08_primary	7.94852534983
+s_JC_ucc_008_X	p_JC_ucc_008	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC08_PDX704R_P2	7.94852534983
+s_JC_ucc_008_X2	p_JC_ucc_008	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC08_PDX990R_P4	5.29689072514
+s_JC_ucc_009_M	p_JC_ucc_009	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC09_LNmet	10.929222356
+s_JC_ucc_009_P	p_JC_ucc_009	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC09_primary	10.929222356
+P-0009248-T01-IM5	p_JC_ucc_009	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	UCC09-Pulmonary Met	3.97426267492
+s_JC_ucc_009_X	p_JC_ucc_009	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC09_PDX642R_P1	10.929222356
+s_JC_ucc_011_X1	p_JC_ucc_011	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC11_Liver met_PDX50150_P3	8.94209101856
+s_JC_ucc_011_X2	p_JC_ucc_011	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC11_Liver met_PDX50150_P2	8.94209101856
+DS-uttcc-062-M	p_JC_ucc_011	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC11_Liver met	3.48547428591
+DS-uttcc-062-P	p_JC_ucc_011	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC11_primary	3.48547428591
+s_JC_ucc_014_TZ	p_JC_ucc_014	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC14_primary	10.929222356
+s_JC_ucc_014_X	p_JC_ucc_014	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC14_PDX365R_P2	10.929222356
+s_JC_ucc_014_X2	p_JC_ucc_014	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC14_PDX888L_OrgP4	8.82815120857
+s_JC_ucc_014_X3	p_JC_ucc_014	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC14_PDX888L_CellP4	8.82815120857
+s_JC_ucc_014_X4	p_JC_ucc_014	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC14_PDX80L_P4	9.71096632943
+s_JC_ucc_014_X7	p_JC_ucc_014	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC14_PDX888L_OrgP10	0.0
+s_JC_ucc_014_X8	p_JC_ucc_014	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC14_PDX888L_CellP10	0.0
+P-0005947-T01-IM5	p_JC_ucc_015	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC15-primary	28.8134043931
+s_JC_ucc_015_X	p_JC_ucc_015	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC15_PDX1R_P2	41.7297580866
+s_JC_ucc_017_TZ	p_JC_ucc_017	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC17_primary	77.4981221609
+s_JC_ucc_017_X1	p_JC_ucc_017	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC17_PDX77R_P2	77.4981221609
+s_JC_ucc_017_X2	p_JC_ucc_017	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC17_cell_line_tumor_816L	77.4981221609
+s_JC_ucc_017_X3	p_JC_ucc_017	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC17_PDX298L_P6	45.0235711637
+s_JC_ucc_019_P1	p_JC_ucc_019	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC19_primary1	13.9099193622
+s_JC_ucc_019_P2	p_JC_ucc_019	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC19_primary2	13.9099193622
+s_JC_ucc_019_P3	p_JC_ucc_019	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC19_primary3	13.9099193622
+s_JC_ucc_019_X	p_JC_ucc_019	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC19_PDX799L_P2	13.9099193622
+s_JC_ucc_019_X2	p_JC_ucc_019	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC19_PDX276R_P4	5.29689072514
+s_JC_ucc_030_P	p_JC_ucc_030	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC30_primary	23.8455760495
+s_JC_ucc_030_X	p_JC_ucc_030	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC30_PDX839R_P2	23.8455760495
+s_JC_ucc_030_X2	p_JC_ucc_030	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC30_PDX74R_P5	25.6016385049
+s_JC_ucc_032_CL	p_JC_ucc_032	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC32_cell_line_P8	23.8455760495
+s_JC_ucc_032_TZ	p_JC_ucc_032	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC32_primary	23.8455760495
+s_JC_ucc_032_X	p_JC_ucc_032	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC32LN_PDX74R_P1	23.8455760495
+s_JC_ucc_032_X2	p_JC_ucc_032	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC32LN_PDX885L_P4	16.7734872963
+s_JC_ucc_034_P	p_JC_ucc_034	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC34_primary	220.571578458
+s_JC_ucc_034_X	p_JC_ucc_034	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC34_PDX486L_P2	40.6094955594
+s_JC_ucc_036_TZ	p_JC_ucc_036	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC36_primary	99.3565668729
+s_JC_ucc_036_X1	p_JC_ucc_036	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC36T_PDX383L_P2	99.3565668729
+s_JC_ucc_036_X2	p_JC_ucc_036	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC36T_cell_line_tumor_64L	99.3565668729
+s_JC_ucc_036_X3	p_JC_ucc_036	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC36_PDX69R_P4	66.2111340643
+s_JC_ucc_040_P	p_JC_ucc_040	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC40_primary	1.76563024171
+s_JC_ucc_040_X	p_JC_ucc_040	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC40_PDX485R_P2	2.64844536257
+s_JC_ucc_047_P	p_JC_ucc_047	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC47_primary	2.98069700619
+s_JC_ucc_047_X	p_JC_ucc_047	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC47_PDX479L_P2	3.53126048343
+P-0020542-T01-IM6	p_JC_ucc_050	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC50_primary	4.41407560429
+s_JC_ucc_050_X	p_JC_ucc_050	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC50_PDX482L_P1	5.29689072514
+s_JC_ucc_002_P	p_JC_ucc_002	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC02_primary	21.1875629006
+s_JC_ucc_006_P	p_JC_ucc_006	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC06_primary	60.9142433392
+s_JC_ucc_007_P	p_JC_ucc_007	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC07_primary	13.2422268129
+s_JC_ucc_021_P	p_JC_ucc_021	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC21_primary	13.2422268129
+s_JC_ucc_023_P	p_JC_ucc_023	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC23_primary	9.71096632943
+P-0010096-T01-IM5	p_JC_ucc_024	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC24-primary	0.0
+P-0004688-T01-IM5	p_JC_ucc_025	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC25-primary	410.342621185
+s_C_006046_P002_d	p_JC_ucc_029	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC29_primary	3.97426267492
+s_JC_ucc_031_P	p_JC_ucc_031	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC31_primary	4.41407560429
+s_JC_ucc_037_P	p_JC_ucc_037	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC37_primary	10.5937814503
+s_JC_ucc_038_P	p_JC_ucc_038	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC38_primary	6.179705846
+s_JC_ucc_039_P	p_JC_ucc_039	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC39_primary	14.1250419337
+s_JC_ucc_042_P	p_JC_ucc_042	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC42_primary	10.5937814503
+P-0003190-T01-IM5	p_JC_ucc_045	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC45-primary	4.96782834365
+P-0016742-T01-IM6	p_JC_ucc_046	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC46-primary	3.53126048343
+s_C_001470_P002_d	p_JC_ucc_048	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC48_primary	0.0
+s_JC_ucc_051_P	p_JC_ucc_051	UTUC	Bladder Cancer	Upper Tract Urothelial Carcinoma	Matched	UCC51_primary	3.97426267492

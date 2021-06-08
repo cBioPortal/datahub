@@ -1,0 +1,45 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	Tumor Disease Anatomic Site	Tumor Stage	Positive Finding Lymph Node	Cell Differentiation	extracapsular spread	Perineural Invasion	Non Silent Mutations	Total CNA	Average Ploidy	Conserved Noncoding Element	Gene Expression Cluster	Methylation Cluster	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	Text term that describes the anatomic site of the tumor or disease.	Tumor stage.	Positive Finding Lymph Node	Cell Differentiation	extracapsular spread (ECS), can be yes or no	Perineural invasion.	Non Silent Mutations	Total CNA	Average ploidy	Conserved Noncoding Element	Gene expression cluster.	Methylation cluster.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TUMOR_TISSUE_SITE	TUMOR_STAGE	NUMBER_OF_LYMPHNODES_POSITIVE	CELL_DIFFERENTIATION	EXTRACAPSULAR_SPREAD	PERINEURAL_INVASION	NON_SILENT_MUTATION	TOTAL_CNA	AVE_PLOIDY	CNE	GENE_EXPRESSION_CLUSTER	METHYLATION_CLUSTER	TMB_NONSYNONYMOUS
+OSCJM-PT35-37	OSCJM-PT35-37-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Floor of mouth	T4	7	Moderate	No	Yes	48	17	1.975765224	2	2	1	1.63333333333
+OSCJM-PT07-43	OSCJM-PT07-43-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T4	2	Moderate	Yes	Yes	105	30	3.855517074	4	1	1	3.36666666667
+OSCJM-PT05-91	OSCJM-PT05-91-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	1	Poor	No	Yes	70	32	4.288690796	5	1	2	2.3
+OSCJM-PTC-139	OSCJM-PTC-139-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	1	Poor	No	Yes	53	39	2.975890659	3	1	2	1.8
+OSCJM-PT01-166	OSCJM-PT01-166-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	0	Well	No	No	114	NA	NA	NA	2	1	3.63333333333
+OSCJM-PT40-169	OSCJM-PT40-169-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Floor of mouth	T4	2	Moderate	No	Yes	85	30	3.020206547	3	2	2	2.76666666667
+OSCJM-PT41-180	OSCJM-PT41-180-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	0	Moderate	No	Yes	74	23	4.023723181	4	1	2	2.4
+OSCJM-PT42-193	OSCJM-PT42-193-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Buccal	T4	0	Moderate	No	Yes	34	30	3.848892254	4	1	2	1.1
+OSCJM-PT43-201	OSCJM-PT43-201-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Floor of mouth	T2	0	Moderate	No	No	66	10	1.914662691	2	1	1	2.13333333333
+OSCJM-PT22-229	OSCJM-PT22-229-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Floor of mouth	T4	3	Well	No	No	41	30	2.887082059	3	2	2	1.33333333333
+OSCJM-PT38-234	OSCJM-PT38-234-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T2	0	Moderate	No	No	16	38	3.722733605	4	1	2	0.5
+OSCJM-PT21-238	OSCJM-PT21-238-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T2	0	Moderate	No	Yes	13	27	2.998024032	3	1	2	0.433333333333
+OSCJM-PT13-258	OSCJM-PT13-258-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T4	5	Moderate	Yes	Yes	56	NA	NA	NA	1	2	1.83333333333
+OSCJM-PT33-288	OSCJM-PT33-288-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T4	6	Poor	Yes	Yes	54	5	4.047710459	4	1	1	1.83333333333
+OSCJM-PT28-298	OSCJM-PT28-298-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	15	Poor	Yes	Yes	15	23	2.821196889	3	1	2	0.433333333333
+OSCJM-PT10-325	OSCJM-PT10-325-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T2	1	Moderate	No	Yes	72	12	3.016354563	3	1	1	2.4
+OSCJM-PT25-327	OSCJM-PT25-327-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	1	Moderate	No	No	17	24	2.132696446	2	2	2	0.6
+OSCJM-PT36-331	OSCJM-PT36-331-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Floor of mouth	T4	0	Moderate	No	Yes	45	25	5.295184641	4	1	2	1.5
+OSCJM-PTB-347	OSCJM-PTB-347-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T2	0	Poor	No	No	85	32	4.177187871	4	1	2	2.7
+OSCJM-PT14-353	OSCJM-PT14-353-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	14	Moderate	Yes	Yes	53	38	3.957075082	4	1	1	1.6
+OSCJM-PT45-364	OSCJM-PT45-364-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Alveolar	T4	0	Well	No	No	69	2	1.809287006	2	2	1	2.23333333333
+OSCJM-PTA-367	OSCJM-PTA-367-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	3	Moderate	No	Yes	68	29	3.652001344	3	1	1	2.3
+OSCJM-PT11-385	OSCJM-PT11-385-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T4	1	Moderate	Yes	Yes	52	31	2.949540353	3	1	2	1.66666666667
+OSCJM-PT03-388	OSCJM-PT03-388-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T4	1	Moderate	Yes	Yes	176	13	1.962340664	2	2	1	5.76666666667
+OSCJM-PT15-391	OSCJM-PT15-391-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T4	3	Moderate	No	Yes	66	23	4.101459061	4	NA	NA	2.16666666667
+OSCJM-PT18-392	OSCJM-PT18-392-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	2	Moderate	No	No	46	16	3.01965337	3	1	1	1.6
+OSCJM-PT46-394	OSCJM-PT46-394-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Floor of mouth	T2	1	Moderate	No	No	109	31	2.944709041	3	2	2	3.56666666667
+OSCJM-PT04-447	OSCJM-PT04-447-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	1	Moderate	No	Yes	22	23	2.07164245	2	1	2	0.733333333333
+OSCJM-PT47-449	OSCJM-PT47-449-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	0	Moderate	No	Yes	39	28	3.113679155	4	1	2	1.26666666667
+OSCJM-PT12-478	OSCJM-PT12-478-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T2	3	Moderate	Yes	No	67	21	4.136079428	4	1	2	2.16666666667
+OSCJM-PT19-481	OSCJM-PT19-481-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	4	Poor	No	No	13	4	2.975818551	3	1	1	0.433333333333
+OSCJM-PT32-489	OSCJM-PT32-489-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Floor of mouth	T4	1	Moderate	No	Yes	112	26	2.018342163	2	2	2	3.66666666667
+OSCJM-PT37-513	OSCJM-PT37-513-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T4	0	Moderate	No	No	72	31	4.703780906	4	2	2	2.33333333333
+OSCJM-PT48-530	OSCJM-PT48-530-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Floor of mouth	T4	0	Well	No	Yes	60	NA	NA	NA	2	1	2.0
+OSCJM-PT49-537	OSCJM-PT49-537-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Buccal	T3	0	Well	No	No	79	1	1.978418222	2	2	1	2.5
+OSCJM-PT27-562	OSCJM-PT27-562-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T2	3	Poor	Yes	No	8	NA	NA	NA	1	1	0.333333333333
+OSCJM-PT50-575	OSCJM-PT50-575-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Alveolar	T4	5	Poor	No	NA	84	33	4.084517283	4	2	2	2.76666666667
+OSCJM-PTD-578	OSCJM-PTD-578-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T3	3	Moderate	Yes	Yes	125	15	1.988154261	2	2	2	4.13333333333
+OSCJM-PT30-592	OSCJM-PT30-592-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T4	0	Moderate	No	No	15	21	2.222692086	2	2	2	0.533333333333
+OSCJM-PT20-600	OSCJM-PT20-600-T	HNSC	Head and Neck Cancer	Head and Neck Squamous Cell CarcinomaÊ	Tongue	T4	0	Well	No	No	83	29	2.985535438	3	2	2	2.8

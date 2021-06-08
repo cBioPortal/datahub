@@ -1,0 +1,34 @@
+#Patient Identifier	Sample Identifier	Other Sample ID	Immune Status	Second Primary Cancer	Merkel Cell	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Other sample identifier	Immune Status	Refers to a new primary cancer in a person with a history of cancer	Merkel cells are oval receptor cells found in the skin of vertebrates that have synaptic contacts with somatosensory afferents.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	OTHER_SAMPLE_ID	IMMUNE_STATUS	SECOND_PRIMARY_CANCER	MERKEL_CELL	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+S00-28455	S00-28455-TP-NT	1	0	No	Yes	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	15.9322618163
+S00-35182	S00-35182-TP-NT	2	0	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	84.730665114
+S01-27743	S01-27743-TP-NT	3	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	6.51774347031
+S02-14785	S02-14875	4	0	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	70.2467907355
+S02-15015	S02-15015-TP-S00-35182-NT	5	7	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	32.5887173515
+S03-26121	S03-26121-TP-NT	8	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	55.0387226382
+S03-45671	S03-45671-TP-S05-31806-NT	17	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	165.840361633
+S04-22711	S04-22711-TP-S05-46290-NT	18	0	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	38.3822671029
+S04-32572	S04-32572-TP-S06-19548-NT	19	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	14.4838743785
+S04-45633	S04-45633-TP-S07-16280-NT	20	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	81.1096965194
+S04-6933	S04-6933-TP-S08-41239-NT	21	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	24.6225864434
+S05-31806	S05-31806-TP-NT	23	0	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	18.1048429731
+S05-45028	S05-45028-TP-S08-7608-NT	24	0	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	21.7258115677
+S05-46290	S05-46290-TP-NT	32	0	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	28.243555038
+S06-19548	S06-19548-TP-NT	33	5	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	31.1403299137
+S07-16280	S07-16280-TP-NT	34	-1	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	25.3467801623
+S08-41239	S08-41239-TP-NT	36	0	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	7.24193718923
+S08-7608	S08-7608-TP-NT	37	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	39.8306545408
+S09-2518	S09-2518-TP-S12-11594-NT	38	2	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	40.5548482597
+S09-31237	S09-31237-TP-NT	39	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	72.4193718923
+S10-44607	S10-44607-TP-S12-17796-NT	47	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	20.2774241298
+S10-24679	S10-24679-TP-NT	48	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	33.3129110705
+S10-47754	S10-47754-TP-S12-22512-NT	50	0	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	80.3855028005
+S12-11594	S12-11594-TP-NT	53	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	57.2113037949
+S12-17796	S12-17796-TP-NT	54	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	17.3806492542
+S12-22512	S12-22512-TP-NT	62	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	36.2096859462
+S12-23181	S12-23181-TP-NT	63	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	60.1080786706
+S03-09436	S03-09436-TP-S03-26121-NT	64	0	No	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	22.4500052866
+S06-38853	S06-38853-TP-S09-31237-NT	65	0	Yes	No	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	136.148419158

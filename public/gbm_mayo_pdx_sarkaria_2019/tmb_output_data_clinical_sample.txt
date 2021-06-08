@@ -1,0 +1,102 @@
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type Detailed	Sample Type	Tumor Location	Neoplasm Histologic Grade	Morphology	Somatic Status	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type Detailed	The type of sample (i.e., normal, primary, met, recurrence).	Tumor Location	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Morphology	Somatic Status	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE_DETAILED	SAMPLE_TYPE	TUMOR_LOCATION	GRADE	MORPHOLOGY	SOMATIC_STATUS	TMB_NONSYNONYMOUS
+Mayo-PDX-Sarkaria-3	Mayo-PDX-Sarkaria-3	GBM	Glioblastoma Multiforme	Recurrence/progression	Right frontal	III	Fibrillary and giant cell	Matched	3.9
+Mayo-PDX-Sarkaria-5	Mayo-PDX-Sarkaria-5	GBM	Glioblastoma Multiforme	Primary	Right temporal		Fibrillary and gemistocytic	Unmatched	20.7
+Mayo-PDX-Sarkaria-6	Mayo-PDX-Sarkaria-6	GBM	Glioblastoma Multiforme	Primary	Left frontal		Fibrillary	Unmatched	21.8
+Mayo-PDX-Sarkaria-8	Mayo-PDX-Sarkaria-8	GBM	Glioblastoma Multiforme	Primary	Right parietal		Fibrillary	Unmatched	24.6666666667
+Mayo-PDX-Sarkaria-9	Mayo-PDX-Sarkaria-9	GBM	Glioblastoma Multiforme	Primary	Right frontal		Fibrillary	Unmatched	23.6666666667
+Mayo-PDX-Sarkaria-10	Mayo-PDX-Sarkaria-10	GBM	Glioblastoma Multiforme	Recurrence/progression	Right temporal	II	Oligoastrocytoma	Matched	5.83333333333
+Mayo-PDX-Sarkaria-12	Mayo-PDX-Sarkaria-12	GBM	Glioblastoma Multiforme	Primary	Right parietal occipital		NOS	Matched	4.06666666667
+Mayo-PDX-Sarkaria-14	Mayo-PDX-Sarkaria-14	GBM	Glioblastoma Multiforme	Recurrence	Right temporal	IV	Fibrillary	Unmatched	20.6666666667
+Mayo-PDX-Sarkaria-22	Mayo-PDX-Sarkaria-22	GBM	Glioblastoma Multiforme	Primary	Right frontotemporal		Gliosarcoma	Unmatched	46.8
+Mayo-PDX-Sarkaria-26	Mayo-PDX-Sarkaria-26	GBM	Glioblastoma Multiforme	Primary	Right frontal		Fibrillary	Unmatched	23.5
+Mayo-PDX-Sarkaria-28	Mayo-PDX-Sarkaria-28	GBM	Glioblastoma Multiforme	Primary	Left temporoparietal		Gliosarcoma	Unmatched	23.7
+Mayo-PDX-Sarkaria-34	Mayo-PDX-Sarkaria-34	GBM	Glioblastoma Multiforme	Primary	Left occipital		Fibrillary and giant cell	Unmatched	24.1666666667
+Mayo-PDX-Sarkaria-36	Mayo-PDX-Sarkaria-36	GBM	Glioblastoma Multiforme	Primary	Left cerebellum		Fibrillary	Unmatched	23.5
+Mayo-PDX-Sarkaria-38	Mayo-PDX-Sarkaria-38	GBM	Glioblastoma Multiforme	Primary	Right temporo-occipital		Fibrillary and gemistocytic	Unmatched	21.0333333333
+Mayo-PDX-Sarkaria-39	Mayo-PDX-Sarkaria-39	GBM	Glioblastoma Multiforme	Primary	Left frontal		Small Cell	Unmatched	20.9333333333
+Mayo-PDX-Sarkaria-40	Mayo-PDX-Sarkaria-40	GBM	Glioblastoma Multiforme	Primary	Left temporal		Fibrillary	Unmatched	24.9
+Mayo-PDX-Sarkaria-43	Mayo-PDX-Sarkaria-43	GBM	Glioblastoma Multiforme	Primary	Right temporal		Fibrillary	Unmatched	22.8333333333
+Mayo-PDX-Sarkaria-44	Mayo-PDX-Sarkaria-44	GBM	Glioblastoma Multiforme	Primary	Left frontal		Fibrillary with focal astroblastic pattern	Unmatched	22.0
+Mayo-PDX-Sarkaria-46	Mayo-PDX-Sarkaria-46	GBM	Glioblastoma Multiforme	Recurrence	Right parietal	IV	Fibrillary	Matched	21.6666666667
+Mayo-PDX-Sarkaria-56	Mayo-PDX-Sarkaria-56	GBM	Glioblastoma Multiforme	Primary	Left temporal		Fibrillary	Unmatched	23.7333333333
+Mayo-PDX-Sarkaria-59	Mayo-PDX-Sarkaria-59	GBM	Glioblastoma Multiforme	Primary	Right temporal		Fibrillary and gemistocytic	Unmatched	21.2
+Mayo-PDX-Sarkaria-61	Mayo-PDX-Sarkaria-61	GBM	Glioblastoma Multiforme	Primary	Left frontal		NOS	Matched	4.63333333333
+Mayo-PDX-Sarkaria-63	Mayo-PDX-Sarkaria-63	GBM	Glioblastoma Multiforme	Primary	Left frontal		Fibrillary	Matched	3.73333333333
+Mayo-PDX-Sarkaria-64	Mayo-PDX-Sarkaria-64	GBM	Glioblastoma Multiforme	Recurrence	Right temporal	IV	Fibrillary	Unmatched	22.2333333333
+Mayo-PDX-Sarkaria-66	Mayo-PDX-Sarkaria-66	GBM	Glioblastoma Multiforme	Primary	Left temporal-occipital		Fibrillary and small cell	Matched	3.06666666667
+Mayo-PDX-Sarkaria-67	Mayo-PDX-Sarkaria-67	GBM	Glioblastoma Multiforme	Primary	Right frontotemporal		Fibrillary	Matched	4.33333333333
+Mayo-PDX-Sarkaria-69	Mayo-PDX-Sarkaria-69	GBM	Glioblastoma Multiforme	Primary	Right frontal		Gliosarcoma	Unmatched	23.1666666667
+Mayo-PDX-Sarkaria-75	Mayo-PDX-Sarkaria-75	GBM	Glioblastoma Multiforme	Primary	Left parietal		NOS	Unmatched	19.6666666667
+Mayo-PDX-Sarkaria-76	Mayo-PDX-Sarkaria-76	GBM	Glioblastoma Multiforme	Recurrence	Left parietal	IV	Small cell	Matched	3.86666666667
+Mayo-PDX-Sarkaria-80	Mayo-PDX-Sarkaria-80	GBM	Glioblastoma Multiforme	Primary	Left temporal		Fibrillary and gemistocytic	Matched	4.16666666667
+Mayo-PDX-Sarkaria-84	Mayo-PDX-Sarkaria-84	GBM	Glioblastoma Multiforme	Primary	Left frontal		Fibrillary	Matched	4.53333333333
+Mayo-PDX-Sarkaria-85	Mayo-PDX-Sarkaria-85	GBM	Glioblastoma Multiforme	Primary	Left temporal		Fibrillary	Unmatched	20.6
+Mayo-PDX-Sarkaria-91	Mayo-PDX-Sarkaria-91	GBM	Glioblastoma Multiforme	Primary	Right parietal		Fibrillary	Unmatched	22.9666666667
+Mayo-PDX-Sarkaria-102	Mayo-PDX-Sarkaria-102	GBM	Glioblastoma Multiforme	Recurrence	Left parietal	IV	Fibrillary	Matched	59.1
+Mayo-PDX-Sarkaria-108	Mayo-PDX-Sarkaria-108	GBM	Glioblastoma Multiforme	Primary	Left frontal		Small cell	Matched	5.33333333333
+Mayo-PDX-Sarkaria-110	Mayo-PDX-Sarkaria-110	GBM	Glioblastoma Multiforme	Primary	Left frontal		PNET	Matched	5.4
+Mayo-PDX-Sarkaria-114	Mayo-PDX-Sarkaria-114	GBM	Glioblastoma Multiforme	Recurrence	Right parietal	IV	Small cell	Unmatched	22.5666666667
+Mayo-PDX-Sarkaria-115	Mayo-PDX-Sarkaria-115	GBM	Glioblastoma Multiforme	Primary	Right frontal		Unusual morphology with focal astroblastic pattern, eosinophilic granular bodies, and Rosenthal fibers	Matched	4.43333333333
+Mayo-PDX-Sarkaria-116	Mayo-PDX-Sarkaria-116	GBM	Glioblastoma Multiforme	Primary	Left temporal		Fibrillary	Matched	4.76666666667
+Mayo-PDX-Sarkaria-117	Mayo-PDX-Sarkaria-117	GBM	Glioblastoma Multiforme	Primary	Left parietal		Fibrillary	Matched	5.1
+Mayo-PDX-Sarkaria-118	Mayo-PDX-Sarkaria-118	GBM	Glioblastoma Multiforme	Primary	Left parietotemporal		Fibrillary and gemistocytic	Matched	2.66666666667
+Mayo-PDX-Sarkaria-120	Mayo-PDX-Sarkaria-120	GBM	Glioblastoma Multiforme	Recurrence	Right frontal/basal ganglia	IV	Fibrillary 	Matched	6.4
+Mayo-PDX-Sarkaria-122	Mayo-PDX-Sarkaria-122	GBM	Glioblastoma Multiforme	Primary	Right frontal		Fibrillary	Matched	2.63333333333
+Mayo-PDX-Sarkaria-123	Mayo-PDX-Sarkaria-123	GBM	Glioblastoma Multiforme	Primary	Left frontal		Fibrillary	Matched	3.2
+Mayo-PDX-Sarkaria-125	Mayo-PDX-Sarkaria-125	GBM	Glioblastoma Multiforme	Primary	Left temporal		Fibrillary and gemistocytic	Matched	2.6
+Mayo-PDX-Sarkaria-126	Mayo-PDX-Sarkaria-126	GBM	Glioblastoma Multiforme	Primary	Left temporal		Fibrillary	Matched	5.36666666667
+Mayo-PDX-Sarkaria-129	Mayo-PDX-Sarkaria-129	GBM	Glioblastoma Multiforme	Recurrence	Left occipital	IV	NOS	Matched	2.93333333333
+Mayo-PDX-Sarkaria-132	Mayo-PDX-Sarkaria-132	GBM	Glioblastoma Multiforme	Primary	Left frontal		Fibrillary	Matched	5.43333333333
+Mayo-PDX-Sarkaria-134	Mayo-PDX-Sarkaria-134	GBM	Glioblastoma Multiforme	Recurrence	Left parietal	IV	Fibrillary	Matched	3.83333333333
+Mayo-PDX-Sarkaria-137	Mayo-PDX-Sarkaria-137	GBM	Glioblastoma Multiforme	Recurrence (contralateral hemisphere)	Left parietal, Right parietal	IV	Small cell and giant cell	Matched	2.8
+Mayo-PDX-Sarkaria-139	Mayo-PDX-Sarkaria-139	GBM	Glioblastoma Multiforme	Recurrence	Right temporal	IV	Fibrillary	Matched	4.06666666667
+Mayo-PDX-Sarkaria-143	Mayo-PDX-Sarkaria-143	GBM	Glioblastoma Multiforme	Recurrence/progression	Left frontal	II	Fibrillary	Matched	4.13333333333
+Mayo-PDX-Sarkaria-146	Mayo-PDX-Sarkaria-146	GBM	Glioblastoma Multiforme	Recurrence	Right parietal	IV	Fibrillary	Matched	4.16666666667
+Mayo-PDX-Sarkaria-147	Mayo-PDX-Sarkaria-147	GBM	Glioblastoma Multiforme	Primary	Right temporal		Fibrillary	Matched	2.9
+Mayo-PDX-Sarkaria-148	Mayo-PDX-Sarkaria-148	GBM	Glioblastoma Multiforme	Primary	Left temporal		Fibrillary and gemistocytic	Matched	3.03333333333
+Mayo-PDX-Sarkaria-150	Mayo-PDX-Sarkaria-150	GBM	Glioblastoma Multiforme	Primary	Left temporal		Giant cell features	Matched	4.9
+Mayo-PDX-Sarkaria-154	Mayo-PDX-Sarkaria-154	GBM	Glioblastoma Multiforme	Recurrence/progression	Left parietal	II	Fibrillary and small cell	Matched	8.4
+Mayo-PDX-Sarkaria-155	Mayo-PDX-Sarkaria-155	GBM	Glioblastoma Multiforme	Primary	Left frontal		Fibrillary	Matched	2.36666666667
+Mayo-PDX-Sarkaria-156	Mayo-PDX-Sarkaria-156	GBM	Glioblastoma Multiforme	Primary	Right frontal		Fibrillary and gemistocytic	Matched	3.46666666667
+Mayo-PDX-Sarkaria-157	Mayo-PDX-Sarkaria-157	GBM	Glioblastoma Multiforme	Recurrence	Right parieto-occipital	IV	NOS	Matched	6.3
+Mayo-PDX-Sarkaria-159	Mayo-PDX-Sarkaria-159	GBM	Glioblastoma Multiforme	Primary	Right frontal		Fibrillary and gemistocytic	Matched	1.83333333333
+Mayo-PDX-Sarkaria-161	Mayo-PDX-Sarkaria-161	GBM	Glioblastoma Multiforme	Primary	Right frontal		Gliosarcoma	Unmatched	19.4666666667
+Mayo-PDX-Sarkaria-164	Mayo-PDX-Sarkaria-164	GBM	Glioblastoma Multiforme	Primary	Left frontal		Oligoastrocytoma, predominantly oligodendroglial	Matched	3.4
+Mayo-PDX-Sarkaria-167	Mayo-PDX-Sarkaria-167	GBM	Glioblastoma Multiforme	Primary	Right temporal		Fibrillary	Unmatched	21.3333333333
+Mayo-PDX-Sarkaria-168	Mayo-PDX-Sarkaria-168	GBM	Glioblastoma Multiforme	Primary	Left parieto-occipital		Fibrillary	Matched	3.3
+Mayo-PDX-Sarkaria-170	Mayo-PDX-Sarkaria-170	GBM	Glioblastoma Multiforme	Recurrence	Right temporal	IV	Small cell	Matched	14.5
+Mayo-PDX-Sarkaria-174	Mayo-PDX-Sarkaria-174	GBM	Glioblastoma Multiforme	Recurrence	Right frontal	IV	Small cell	Matched	98.0666666667
+Mayo-PDX-Sarkaria-177	Mayo-PDX-Sarkaria-177	GBM	Glioblastoma Multiforme	Recurrence	Left occipital	IV	Fibrillary and giant cell	Matched	3.83333333333
+Mayo-PDX-Sarkaria-181	Mayo-PDX-Sarkaria-181	GBM	Glioblastoma Multiforme	Recurrence	Right parietal	IV	Fibrillary	Matched	93.3
+Mayo-PDX-Sarkaria-182	Mayo-PDX-Sarkaria-182	GBM	Glioblastoma Multiforme	Primary	Left parietal		Fibrillary	Matched	3.4
+Mayo-PDX-Sarkaria-184	Mayo-PDX-Sarkaria-184	GBM	Glioblastoma Multiforme	Primary	Right temporal		Giant cell features	Matched	3.13333333333
+Mayo-PDX-Sarkaria-187	Mayo-PDX-Sarkaria-187	GBM	Glioblastoma Multiforme	Primary	Right parietal		Fibrillary	Matched	3.23333333333
+Mayo-PDX-Sarkaria-192	Mayo-PDX-Sarkaria-192	GBM	Glioblastoma Multiforme	Recurrence (contralateral hemisphere)	Multifocal (left frontal/temporal/parietal; right occipital)	IV	Fibrillary	Matched	55.8333333333
+Mayo-PDX-Sarkaria-195	Mayo-PDX-Sarkaria-195	GBM	Glioblastoma Multiforme	Recurrence	Right parietal	IV	Fibrillary	Matched	3.1
+Mayo-PDX-Sarkaria-196	Mayo-PDX-Sarkaria-196	GBM	Glioblastoma Multiforme	Primary	Left frontal lobe		NOS	Matched	4.36666666667
+Mayo-PDX-Sarkaria-200	Mayo-PDX-Sarkaria-200	GBM	Glioblastoma Multiforme	Recurrence	Left parietal	IV	Markedly pleomorphic and poorly differentiated	Unmatched	142.333333333
+Mayo-PDX-Sarkaria-201	Mayo-PDX-Sarkaria-201	GBM	Glioblastoma Multiforme	Primary	Left frontal		Extensive giant cell features	Unmatched	NA
+Mayo-PDX-Sarkaria-206	Mayo-PDX-Sarkaria-206	GBM	Glioblastoma Multiforme	Primary	Left frontal		NOS	Matched	4.26666666667
+Mayo-PDX-Sarkaria-209	Mayo-PDX-Sarkaria-209	GBM	Glioblastoma Multiforme	Recurrence	Right parietal	IV	Fibrillary	Matched	4.8
+Mayo-PDX-Sarkaria-215	Mayo-PDX-Sarkaria-215	GBM	Glioblastoma Multiforme	Primary	Left temporal		Glioblastoma with evidence of recent hemorrhage	Matched	2.73333333333
+Mayo-PDX-Sarkaria-218	Mayo-PDX-Sarkaria-218	GBM	Glioblastoma Multiforme	Recurrence	Right temporal	IV	Fibrillary	Matched	4.7
+Mayo-PDX-Sarkaria-228	Mayo-PDX-Sarkaria-228	GBM	Glioblastoma Multiforme	Recurrence/progression	Right parietal	III	Fibrillary	Unmatched	NA
+Mayo-PDX-Sarkaria-229	Mayo-PDX-Sarkaria-229	GBM	Glioblastoma Multiforme	Recurrence	Right parietal; right temporal	IV	Fibrillary	Matched	4.56666666667
+Mayo-PDX-Sarkaria-231	Mayo-PDX-Sarkaria-231	GBM	Glioblastoma Multiforme	Recurrence	Right parietal	IV	NOS	Unmatched	NA
+Mayo-PDX-Sarkaria-232	Mayo-PDX-Sarkaria-232	GBM	Glioblastoma Multiforme	Recurrence	Left frontotemporal	IV	NOS	Unmatched	NA
+Mayo-PDX-Sarkaria-237	Mayo-PDX-Sarkaria-237	GBM	Glioblastoma Multiforme	Recurrence/progression	Right parietal	III	NOS	Unmatched	NA
+Mayo-PDX-Sarkaria-238	Mayo-PDX-Sarkaria-238	GBM	Glioblastoma Multiforme	Recurrence	Right parietal	IV	Giant cell and PNET-like features	Unmatched	NA
+Mayo-PDX-Sarkaria-241	Mayo-PDX-Sarkaria-241	GBM	Glioblastoma Multiforme	Primary	Right parietal		NOS	Unmatched	NA
+Mayo-PDX-Sarkaria-242	Mayo-PDX-Sarkaria-242	GBM	Glioblastoma Multiforme	Primary	Right temporal		NOS	Unmatched	NA
+Mayo-PDX-Sarkaria-245	Mayo-PDX-Sarkaria-245	GBM	Glioblastoma Multiforme	Primary	Left occipital-parietal		NOS	Unmatched	NA
+Mayo-PDX-Sarkaria-247	Mayo-PDX-Sarkaria-247	GBM	Glioblastoma Multiforme	Recurrence	Left temporal	III	Oligodendroglioma	Unmatched	NA
+Mayo-PDX-Sarkaria-264	Mayo-PDX-Sarkaria-264	GBM	Glioblastoma Multiforme	Recurrence/progression	Right frontal	III	NOS	Unmatched	NA
+Mayo-PDX-Sarkaria-265	Mayo-PDX-Sarkaria-265	GBM	Glioblastoma Multiforme	Primary	Right cerebellum/occipital		NOS	Unmatched	NA
+Mayo-PDX-Sarkaria-279	Mayo-PDX-Sarkaria-279	GBM	Glioblastoma Multiforme	Recurrence	Left frontal	IV	NOS	Unmatched	NA
+Mayo-PDX-Sarkaria-280	Mayo-PDX-Sarkaria-280	GBM	Glioblastoma Multiforme	Primary	Left temporal		NOS	Unmatched	NA
+Mayo-PDX-Sarkaria-15	Mayo-PDX-Sarkaria-15	GBM	Glioblastoma Multiforme					Unmatched	22.4333333333
+Mayo-PDX-Sarkaria-16	Mayo-PDX-Sarkaria-16	GBM	Glioblastoma Multiforme					Unmatched	19.3

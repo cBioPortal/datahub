@@ -1,0 +1,112 @@
+#Patient Identifier	Sample Identifier	Sample Class	Primary Tumor Site	Fusion By RNA PCR	Sample Type	Oncotree Code	First Pathologic Diagnosis Biospecimen Acquisition Method Type	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The sample classification (i.e., tumor, cellline, xenograph).	Text term to describe the organ sub-division in an individual with cancer.	Fusion By RNA PCR	The type of sample (i.e., normal, primary, met, recurrence).	Oncotree Code	Text name of the procedure to secure the tissue used for the original pathologic diagnosis.	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	9	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_CLASS	PRIMARY_SITE	FUSION_BY_RNA_PCR	SAMPLE_TYPE	ONCOTREE_CODE	METHOD_OF_SAMPLE_PROCUREMENT	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+SJDES004	SJDES004	Tumor	Pubic bone	EWS-FLI1 7-7	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.3
+SJDES005	SJDES005	Tumor	Gluteus muscle	EWS-FLI1 type 2	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.5
+SJDES006	SJDES006	Tumor	Rib	EWS-FLI1 type 1	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.5
+SJDES008	SJDES008	Tumor	Gluteus muscle	EWS-FLI1 type 2	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.266666666667
+SJDES009	SJDES009	Tumor	Pubic bone	EWS-FLI1 type 2	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.233333333333
+SJDES010	SJDES010	Tumor	Chest wall	EWS-ERG 7-6	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.333333333333
+SJDES012	SJDES012	Tumor	Vertebral body	EWS-FLI1 type 2	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.366666666667
+SJDES013	SJDES013	Tumor	Vertebral body + rib	EWS-FLI1 10-5	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.5
+SJDES015	SJDES015	Tumor	Femur	EWS-ERG 7-6	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.333333333333
+SJDES016	SJDES016	Tumor	Vertebral bodies	EWS-FLI1 10-5	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.666666666667
+SJDES017	SJDES017	Tumor	Iliac bone	EWS-FLI type 1	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.5
+SJDES019	SJDES019	Tumor	Chest wall	EWS-FLI1 type 2	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.4
+SJDES020	SJDES020	Tumor	Sacrum	EWS-FLI1 type 1	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.633333333333
+SJDES021	SJDES021	Tumor	Fibula	EWS-FLI1 type 1	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.5
+SJDES028	SJDES028	Tumor	Iliac bone	EWS-FLI1 type 1	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.533333333333
+SJDES029	SJDES029	Tumor	Chest wall	EWS-ERG 7-9	Primary	ES	Diagnosis	Bone Cancer	Ewing Sarcoma	0.433333333333
+SJDES001	SJDES001-R	Tumor	Femur	EWS-FLI1 type 1	Metastasis	ES	Autopsy	Bone Cancer	Ewing Sarcoma	3.4
+SJDES002	SJDES002-R	Tumor	Talus	EWS-FLI1 type 1	Metastasis	ES		Bone Cancer	Ewing Sarcoma	0.433333333333
+SJDES003	SJDES003-R	Tumor	Femur	EWS-FLI1 type 1	Metastasis	ES		Bone Cancer	Ewing Sarcoma	1.1
+SJDES007	SJDES007-R1	Tumor	Scapula	EWS-FLI1	Primary	ES		Bone Cancer	Ewing Sarcoma	2.83333333333
+SJDES011	SJDES011-R	Tumor	Iliac bone	EWS-FLI1 type 2	Metastasis	ES	Autopsy	Bone Cancer	Ewing Sarcoma	2.36666666667
+SJDES014	SJDES014-R1	Tumor	Chest wall	EWS-FLI1 type 2	Primary	ES		Bone Cancer	Ewing Sarcoma	1.03333333333
+SJDES018	SJDES018-R	Tumor	Chest wall	EWS-ERG 7-9	Primary	ES		Bone Cancer	Ewing Sarcoma	3.33333333333
+SJDES022	SJDES022-R	Tumor	Mediastinum and Lungs	EWS-FLI1 type 1	Metastasis	ES		Bone Cancer	Ewing Sarcoma	0.933333333333
+03-P152	03-P152	Tumor				ES		Bone Cancer	Ewing Sarcoma	1.56666666667
+05-P103	05-P103	Tumor				ES		Bone Cancer	Ewing Sarcoma	0.266666666667
+CHEWS001	CHEWS001	Tumor	Iliac crest			ES		Bone Cancer	Ewing Sarcoma	8.2
+CHEWS002	CHEWS002	Tumor	Pelvis			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	5.96666666667
+CHEWS003	CHEWS003	Tumor	Pelvis			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.43333333333
+CHEWS004	CHEWS004	Tumor	Shoulder			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	3.46666666667
+CHEWS005	CHEWS005	Tumor	Tibia			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.53333333333
+CHEWS006	CHEWS006	Tumor	Tibia			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.46666666667
+CHEWS007	CHEWS007	Tumor	Femur			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.5
+CHEWS008	CHEWS008	Tumor	Face			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	5.93333333333
+CHEWS009	CHEWS009	Tumor	Pelvis			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.5
+CHEWS010	CHEWS010	Tumor	Scalp			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	3.36666666667
+CHEWS011	CHEWS011	Tumor	Clavicle			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	3.03333333333
+CHEWS012	CHEWS012	Tumor	Neck			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	3.1
+CHEWS013	CHEWS013	Tumor	Tibia			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.36666666667
+CHEWS014	CHEWS014	Tumor	Tibia			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.5
+CHEWS015	CHEWS015	Tumor	Pelvis			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.26666666667
+CHEWS016	CHEWS016	Tumor	Pelvis			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	NA
+CHEWS017	CHEWS017	Tumor	Rib			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.36666666667
+CHEWS018	CHEWS018	Tumor	Fibula			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.36666666667
+CHEWS019	CHEWS019	Tumor	Thigh			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	3.06666666667
+CHEWS020	CHEWS020	Tumor	Thorax			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.5
+CHEWS021	CHEWS021	Tumor	Fibula			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.16666666667
+CHEWS023	CHEWS023	Tumor	Tibia			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.5
+CHEWS024	CHEWS024	Tumor	Chest wall			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	5.36666666667
+CHEWS025	CHEWS025	Tumor	Paraspinal			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.6
+CHEWS026	CHEWS026	Tumor	Fibula			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.93333333333
+CHEWS027	CHEWS027	Tumor	Femur			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	6.46666666667
+CHEWS028	CHEWS028	Tumor	Parasacral			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.4
+CHEWS029	CHEWS029	Tumor	Chest wall			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.33333333333
+CHEWS030	CHEWS030	Tumor	Chest wall			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.63333333333
+CHEWS031	CHEWS031	Tumor	Buttock			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	10.4333333333
+CHEWS032	CHEWS032	Tumor	Iliac crest			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.5
+CHEWS033	CHEWS033	Tumor	Clavicle			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.53333333333
+CHEWS034	CHEWS034	Tumor	Femur			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	3.1
+CHEWS035	CHEWS035	Tumor	Tibia			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.26666666667
+CHEWS036	CHEWS036	Tumor	Humerus			ES	Diagnosis	Bone Cancer	Ewing Sarcoma	2.2
+01-P034	01-P034	Tumor				ES	Diagnosis	Bone Cancer	Ewing Sarcoma	3.3
+01-P1216	01-P1216	Tumor				ES		Bone Cancer	Ewing Sarcoma	5.03333333333
+01-P131	01-P131	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.53333333333
+01-P459	01-P459	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.43333333333
+01-P8014	01-P8014	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.8
+02-P170	02-P170	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.76666666667
+03-P1004	03-P1004	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.56666666667
+05-P8014	05-P8014	Tumor				ES		Bone Cancer	Ewing Sarcoma	3.23333333333
+05-P8068	05-P8068	Tumor				ES		Bone Cancer	Ewing Sarcoma	3.06666666667
+06-P036	06-P036	Tumor				ES		Bone Cancer	Ewing Sarcoma	5.73333333333
+06-P2007	06-P2007	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.56666666667
+07-P075	07-P075	Tumor				ES		Bone Cancer	Ewing Sarcoma	3.03333333333
+07-P1079	07-P1079	Tumor				ES		Bone Cancer	Ewing Sarcoma	3.33333333333
+07-P8041	07-P8041	Tumor				ES		Bone Cancer	Ewing Sarcoma	3.13333333333
+08-P054	08-P054	Tumor				ES		Bone Cancer	Ewing Sarcoma	3.43333333333
+08-P1004	08-P1004	Tumor				ES		Bone Cancer	Ewing Sarcoma	4.7
+08-P1177	08-P1177	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.53333333333
+08-P462	08-P462	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.26666666667
+08-P8005	08-P8005	Tumor				ES		Bone Cancer	Ewing Sarcoma	3.2
+10-P083	10-P083	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.93333333333
+10-P1058	10-P1058	Tumor				ES		Bone Cancer	Ewing Sarcoma	5.23333333333
+10-P4110	10-P4110	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.36666666667
+10-P8045	10-P8045	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.63333333333
+11-P048	11-P048	Tumor				ES		Bone Cancer	Ewing Sarcoma	NA
+11-P8004	11-P8004	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.8
+12-P2194	12-P2194	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.86666666667
+12-P279	12-P279	Tumor				ES		Bone Cancer	Ewing Sarcoma	3.0
+12-P4072	12-P4072	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.46666666667
+12-P412	12-P412	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.83333333333
+12-P616	12-P616	Tumor				ES		Bone Cancer	Ewing Sarcoma	3.66666666667
+12-P8001	12-P8001	Tumor				ES		Bone Cancer	Ewing Sarcoma	2.5
+A673	A673	Cell line				ES		Bone Cancer	Ewing Sarcoma	4.5
+Cado-ES1	Cado-ES1	Cell line				ES		Bone Cancer	Ewing Sarcoma	9.2
+CHLA-258	CHLA-258	Cell line				ES		Bone Cancer	Ewing Sarcoma	6.26666666667
+EW8	EW8	Cell line				ES		Bone Cancer	Ewing Sarcoma	7.63333333333
+EWS502	EWS502	Cell line				ES		Bone Cancer	Ewing Sarcoma	6.53333333333
+EWS834	EWS834	Cell line				ES		Bone Cancer	Ewing Sarcoma	3.6
+RDES	RDES	Cell line				ES		Bone Cancer	Ewing Sarcoma	4.2
+SKNEP1	SKNEP1	Cell line				ES		Bone Cancer	Ewing Sarcoma	3.93333333333
+TC32	TC32	Cell line				ES		Bone Cancer	Ewing Sarcoma	4.4
+TC71	TC71	Cell line				ES		Bone Cancer	Ewing Sarcoma	7.43333333333
+TTC466	TTC466	Cell line				ES		Bone Cancer	Ewing Sarcoma	7.6
+SJDES004	SJDES004-R	Tumor	Pubic bone		Metastasis	ES		Bone Cancer	Ewing Sarcoma	1.73333333333
+SJDES007	SJDES007-R2	Tumor	Scapula	EWS-FLI1	Primary	ES		Bone Cancer	Ewing Sarcoma	2.26666666667
+SJDES014	SJDES014-R2	Tumor	Chest wall	EWS-FLI1 type 2	Primary	ES		Bone Cancer	Ewing Sarcoma	0.6
+SJDES016	SJDES016-R	Tumor	Vertebral bodies		Metastasis	ES		Bone Cancer	Ewing Sarcoma	0.866666666667

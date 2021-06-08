@@ -1,0 +1,35 @@
+#Sample Identifier	Patient Identifier	T Stage	Neoplasm Histologic Grade	HER2 ihc score	RHOA Mutation	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#A unique sample identifier.	Identifier to uniquely specify a patient.	T Stage	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	HER2 immunohistochemistry level result	RHOA mutation is present.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	T_STAGE	GRADE	HER2_IHC_SCORE	RHOA_MUTATION	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+GC_299T1-GC_299N	GC299	T1b	Poor	1	Y42C	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.96666666667
+GC_302T-GC_302N	GC302	T2	Poor	0	L22R	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.36666666667
+GC_307T-GC_307N	GC307	T2	Poor	0	R5W	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.86666666667
+GC_313T-GC_313N	GC313	T4a	Poor	0	Y42C	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.73333333333
+GC_315T-GC_315N	GC315	T4a	Poor	0	Y42C	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.96666666667
+GC_332T-GC_332N	GC332	T4a	Poor	0	Y42C	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.933333333333
+GC_356T-GC_356N	GC356	T1b	Poor  (signet)	0	Y74D	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.96666666667
+GC_342T_a-GC_342N	GC342	T3	Poor	0	R5W	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.0
+GC_359T-GC_359N	GC359	T3	Poor	0	R5Q	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.4
+GC_383T-GC_383N	GC383	T4a	Poor	1	Y42C	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.86666666667
+GC_314T-GC_314N	GC314	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.93333333333
+GC_337T-GC_337N	GC337	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.26666666667
+GC_350T-GC_350N	GC350	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.33333333333
+GC_296T1-GC_296N	GC296	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.7
+GC_319T-GC_319N	GC319	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.63333333333
+GC_343T-GC_343N_a	GC343	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.76666666667
+GC_289T-GC_289N	GC289	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.833333333333
+GC_325T-GC_325N	GC325	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.56666666667
+GC_364T-GC_364N	GC364	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.633333333333
+GC_297_T-GC_297_N	GC297	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.766666666667
+GC_304T-GC_304N	GC304	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.03333333333
+GC_340T-GC_340N	GC340	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.233333333333
+GC_370T-GC_370N	GC370	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	7.96666666667
+GC_353T-GC_353N	GC353	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	4.96666666667
+GC_306T-GC_306N	GC306	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.533333333333
+GC_310T-GC_310N	GC310	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.366666666667
+GC_312T-GC_312N	GC312	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.23333333333
+GC_351T-GC_351N	GC351	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.13333333333
+GC_357T-GC_357N	GC357	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	4.86666666667
+GC_361T-GC_361N	GC361	NA	NA	NA	NA	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.16666666667

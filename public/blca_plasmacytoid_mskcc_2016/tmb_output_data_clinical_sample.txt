@@ -1,0 +1,39 @@
+#Patient Identifier	Sample Identifier	Sample Display Name	Oncotree Code	Cancer Type	Cancer Type Detailed	Sample Type	Gene Panel	Year of Surgery	Tumor Stage	TNM Stage	Lymph Node Status	Site of Recurrence	Metastatic Site	Primary Tumor Site	Sample Class	Specimen Preservation Type	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Sample Display Name	Oncotree Code	Cancer Type	Cancer Type Detailed	The type of sample (i.e., normal, primary, met, recurrence).	Gene panel.	Year of surgery.	Tumor stage.	TNM stage.	Lymph Node Status	Site of Recurrence	The anatomic location to which the cancer has spread.	Text term to describe the organ sub-division in an individual with cancer.	The sample classification (i.e., tumor, cellline, xenograph).	The method used for preparing the tissue for examination and study.	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	9	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_DISPLAY_NAME	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	SAMPLE_TYPE	GENE_PANEL	YEAR_OF_SURGERY	TUMOR_STAGE	TNMSTAGE	LYMPH_NODE_STATUS	SITE_OF_RECURRENCE	METASTATIC_SITE	PRIMARY_SITE	SAMPLE_CLASS	SPECIMEN_PRESERVATION_TYPE	TMB_NONSYNONYMOUS
+DS-sig-010	DS-sig-010-P2	10	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2005	III	T3N0	0 of 17				Tumor		13.9099193622
+DS-sig-010	DS-sig-010-P1	11	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Primary	IMPACT410	2005	III	T3N0	0 of 17				Tumor		3.97426267492
+DS-sig-018	DS-sig-018-P	12	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2007	III	T3N0	0 of 9				Tumor		4.96782834365
+DS-sig-037	DS-sig-037-P	13	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2011	III	T3N0	0 of 19				Tumor		4.96782834365
+DS-sig-016	DS-sig-016-P	14	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2000	IV	T4aN2	12 of 18	Lymph Nodes			Tumor		8.94209101856
+DS-sig-045	DS-sig-045-P2	15	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410		IV	T4bNx	0 of 0	Scrotum			Tumor		6.95495968111
+DS-sig-003	DS-sig-003-P	16	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2000	III	T3bN0	0 of 23	Bone 			Tumor		11.9227880248
+DS-sig-013	DS-sig-013-P	17	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2006	III	T3N0	0 of 8	Bone			Tumor		3.97426267492
+DS-sig-024	DS-sig-024-P	18	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2010	II	T2bN0	0 of 29				Tumor		6.95495968111
+DS-sig-006	DS-sig-006-P	20	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2003	III	T3bN0	0 of 16	Ureter			Tumor		21.858444712
+DS-sig-043	DS-sig-043-P	21	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2013	III	T3N0	0 of 17				Tumor		5.96139401238
+DS-sig-008	DS-sig-008-P	22	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2004	III	T4aN0	0 of 2	Bone			Tumor		4.96782834365
+DS-sig-027	DS-sig-027-P	23	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2010	III	T3N0	0 of 8	Bone			Tumor		1.98713133746
+DS-sig-029	DS-sig-029-P	24	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2010	II	T2aN0	0 of 9	Lymph Nodes			Tumor		9.93565668729
+DS-sig-038	DS-sig-038-P	25	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2012	IV	T0N1	1 of 2 				Tumor		29.8069700619
+DS-sig-044	DS-sig-044-P	26	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2013	IV	T2bN1	1 of 31				Tumor		0.993565668729
+P-0000423	P-0000423-T01-IM3	27	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT341						Not Applicable	Bladder	Tumor		19.0663328937
+P-0000880	P-0000880-T01-IM3	28	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Metastasis	IMPACT341						Colon	Bladder	Tumor		6.72929396248
+P-0003826	P-0003826-T01-IM5	29	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410						Not Applicable	Bladder	Tumor		7.94852534983
+P-0002607	P-0002607-T01-IM3	30	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT341						Not Applicable	Bladder	Tumor		7.85084295622
+P-0002146	P-0002146-T01-IM3	31	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Metastasis	IMPACT341						Lymph Node	Bladder	Tumor		6.72929396248
+P-0000083	P-0000083-T01-IM3	32	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT341						Not Applicable	Bladder	Tumor		130.099683275
+DS-sig-002	DS-sig-002-P	1	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2000	III	T3bN0	0 of 22				Tumor		17.8841820371
+DS-sig-004	DS-sig-004-P	2	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2002	IV	T3bN2	3 of 20				Tumor		9.93565668729
+DS-sig-007	DS-sig-007-P	3	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2003	IV	T4bNx	0 of 0				Tumor		7.94852534983
+DS-sig-012	DS-sig-012-P	4	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2006	III	T4aN0	0 of 7	Rectum			Tumor		11.9227880248
+DS-sig-020	DS-sig-020-P	5	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2007	IV	T4aN1	1 of 23	Ureter			Tumor		7.94852534983
+DS-sig-039	DS-sig-039-P	6	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2012	II	T2aN0	0 of 37	Bone			Tumor		6.95495968111
+DS-sig-042	DS-sig-042-P	7	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2012	IV	T4aN2	13 of 15				Tumor		22.8520103808
+DS-sig-046	DS-sig-046-P	8	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	1994	IV	T4bNx	0 of 0	Peritoneum			Tumor		16.8906163684
+DS-sig-040	DS-sig-040-P1	19_a	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2012	I	T1N0	0 of 25				Tumor		8.94209101856
+DS-sig-040	DS-sig-040-P2	19_b	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2012	I	T1N0	0 of 25				Tumor		6.95495968111
+DS-sig-040	DS-sig-040-P3	19_c	SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT410	2012	I	T1N0	0 of 25				Tumor		6.95495968111
+p_DS_sig_054	s_DS_sig_054_P		SRCBC	Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma 	Primary	IMPACT341								Tumor	FFPE	4.48619597498
