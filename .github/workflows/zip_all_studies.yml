@@ -1,0 +1,69 @@
+name: Manually zip all studies on the master branch
+# Trigger the workflow manually using the Actions tab on Github
+on: workflow_dispatch
+jobs:
+  zip_studies:
+    if: github.repository == 'cbioportal/datahub'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: master
+    - run: |
+        # detecting modified studies and archiving them
+        # create a list of all studies under 'public'
+        echo creating ${STUDY_LIST_FILENAME}
+        echo "[" > ${STUDY_LIST_FILENAME}
+        first_study=1
+        find public -type d -mindepth 1 -maxdepth 1 | sort > ${STUDY_PATH_FILENAME}
+        studynames=()
+        while read studypath ; do
+          if [ ${first_study} -ne 1 ] ; then
+            echo "," >> ${STUDY_LIST_FILENAME}
+          fi
+          studyname="${studypath:7}"
+          studynames+=(studyname)
+          echo -n "\"${studyname}\"" >> ${STUDY_LIST_FILENAME}
+          first_study=0
+        done < ${STUDY_PATH_FILENAME}
+        rm -f ${STUDY_PATH_FILENAME}
+        echo "" >> ${STUDY_LIST_FILENAME}
+        echo "]" >> ${STUDY_LIST_FILENAME}
+        # copy study list file to S3
+        echo copying ${STUDY_LIST_FILENAME} to S3
+        aws s3 cp --acl public-read ${STUDY_LIST_FILENAME} s3://${AWS_S3_BUCKET}/
+        rm -f ${STUDY_LIST_FILENAME}
+        # first save .git
+        tar -cvf ${SAVED_GIT_REPO_FILENAME} .git > /dev/null
+        mkdir studies_to_upload
+        cd public
+        for study in "${studynames[@]}"; do
+          if [ ! -d "${study}" ]; then
+            continue
+          fi
+          echo "Pulling study: ${study}."
+          git lfs pull --include="${study}"
+          echo "Compressing this study: ${study}."
+          tar -czvf ../studies_to_upload/${study}.tar.gz ${study}
+          echo "Copy file to S3: ../studies_to_upload/${study}.tar.gz"
+          aws s3 cp --acl public-read ../studies_to_upload/${study}.tar.gz s3://${AWS_S3_BUCKET}/
+          echo "Remove this directory: ${study}."
+          rm -rf "${study}"
+          echo "Remove this file: ../studies_to_upload/${study}.tar.gz."
+          rm ../studies_to_upload/${study}.tar.gz
+          echo "Remove .git"
+          cd ..
+          rm -rf .git
+          # add original .git back
+          tar -xf ${SAVED_GIT_REPO_FILENAME} > /dev/null
+          cd public
+        done
+        cd ..
+      env:
+        STUDY_PATH_FILENAME: study_paths.txt
+        STUDY_LIST_FILENAME: study_list.json
+        SAVED_GIT_REPO_FILENAME: save_git.tar
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_EC2_METADATA_DISABLED: "true" # fixes aws cli error (code 255); needed since ubuntu-latest v2.262.1
