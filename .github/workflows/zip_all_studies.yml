@@ -22,7 +22,7 @@ jobs:
             echo "," >> ${STUDY_LIST_FILENAME}
           fi
           studyname="${studypath:7}"
-          studynames+=(studyname)
+          studynames+=("${studyname}")
           echo -n "\"${studyname}\"" >> ${STUDY_LIST_FILENAME}
           first_study=0
         done < ${STUDY_PATH_FILENAME}
