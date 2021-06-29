@@ -74,3 +74,4 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_EC2_METADATA_DISABLED: "true" # fixes aws cli error (code 255); needed since ubuntu-latest v2.262.1
