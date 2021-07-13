@@ -6,3 +6,4 @@ description: Cancer Cell Line Encyclopedia from the Broad Institute and Novartis
 pmid: 31068700
 citation: Stransky et al. Nature. 2015
 groups: PUBLIC
+tags_file: study_tags.yml
