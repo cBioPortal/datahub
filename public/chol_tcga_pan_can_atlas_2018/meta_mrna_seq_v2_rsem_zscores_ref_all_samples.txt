@@ -1,0 +1,8 @@
+cancer_study_identifier: chol_tcga_pan_can_atlas_2018
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+stable_id: rna_seq_v2_mrna_median_all_sample_Zscores
+show_profile_in_analysis_tab: TRUE
+profile_name: mRNA expression z-scores relative to all samples (log RNA Seq V2 RSEM)
+profile_description: Log-transformed mRNA expression z-scores compared to the expression distribution of all samples (RNA Seq V2 RSEM).
+data_filename: data_mrna_seq_v2_rsem_zscores_ref_all_samples.txt
