@@ -1,0 +1,8 @@
+type_of_cancer: nsclc
+cancer_study_identifier: nsclc_pd1_msk_2018
+name: Non-Small Cell Lung Cancer (MSKCC, J Clin Oncol 2018)
+short_name: NSCLC (MSK PD1)
+description: IMPACT sequencing of 240 NSCLC tumor/normal pairs treated at MSKCC with anti-PD-(L)1 based therapy.
+citation: Rizvi et al. J Clin Oncol 2018
+pmid: 29337640
+groups: PUBLIC

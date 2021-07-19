@@ -1,0 +1,7 @@
+type_of_cancer: mcl
+cancer_study_identifier: mcl_idibips_2013
+name: Mantle Cell Lymphoma (IDIBIPS, PNAS 2013)
+short_name: MCL (IDIBIPS 2013)
+description: Whole exome sequencing of 29 primary mantle cell lymphomas and their matched normals.
+pmid: 24145436
+citation: Beà et al. PNAS 2013

@@ -1,0 +1,6 @@
+cancer_study_identifier: acyc_fmi_2014
+stable_id: acyc_fmi_2014_cnaseq
+case_list_name: Samples with mutation and CNA data
+case_list_description: Samples with mutation and CNA data (15 samples)
+case_list_category: all_cases_with_mutation_and_cna_data
+case_list_ids: ACYC-FMI-28	ACYC-FMI-21	ACYC-FMI-20	ACYC-FMI-23	ACYC-FMI-22	ACYC-FMI-24	ACYC-FMI-26	ACYC-FMI-14	ACYC-FMI-17	ACYC-FMI-10	ACYC-FMI-02	ACYC-FMI-12	ACYC-FMI-18	ACYC-FMI-19	ACYC-FMI-09

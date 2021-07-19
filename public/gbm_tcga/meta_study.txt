@@ -1,0 +1,6 @@
+type_of_cancer: gbm
+cancer_study_identifier: gbm_tcga
+name: Glioblastoma Multiforme (TCGA, Firehose Legacy)
+short_name: GBM (TCGA)
+description: TCGA Glioblastoma Multiforme. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/GBM/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
+groups: PUBLIC

@@ -1,0 +1,6 @@
+cancer_study_identifier: rbl_cfdna_msk_2020
+stable_id: rbl_cfdna_msk_2020_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (14 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: RB-016-cf-R2-IGO-07220-C-21	RB-016-cf-IGO-05500-CT-39	RB-021-cf-IGO-07220-C-7	RB-003-cf-IGO-05500-CT-41	RB-024-cf-IGO-07220-C-11	RB-003-cf-R2-IGO-07220-C-19	RB-001-cf-R2-IGO-07220-C-18	RB-022-cf-IGO-07220-C-8	RB-026-cf-IGO-07220-C-13	RB-001-cf-IGO-05500-CT-40	RB-019-cf-R2-IGO-07220-C-22	RB-019-cf-IGO-05500-CT-38	RB-023-cf1-IGO-07220-C-9	RB-011-cf-IGO-05500-CT-42

@@ -1,0 +1,12 @@
+cancer_study_identifier: chol_tcga_pan_can_atlas_2018
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: MICROBIOME_SIGNATURE
+datatype: LIMIT-VALUE
+stable_id: microbiome_signature
+profile_name: Microbiome Signatures (log RNA Seq CPM)
+profile_description: Microbial Signatures (log-cpm) from whole-transcriptome sequencing studies of TCGA (Poore et al. Nature 2020).
+data_filename: data_microbiome.txt
+show_profile_in_analysis_tab: true
+pivot_threshold_value: 0
+value_sort_order: ASC
+generic_entity_meta_properties: NAME,DESCRIPTION,URL

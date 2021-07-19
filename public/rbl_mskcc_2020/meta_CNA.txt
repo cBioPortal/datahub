@@ -1,0 +1,8 @@
+cancer_study_identifier: rbl_mskcc_2020
+stable_id: cna
+profile_name: Putative copy-number alterations (IMPACT468)
+profile_description: Putative copy-number calls derived from IMPACT468 data. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: DISCRETE
+show_profile_in_analysis_tab: true
+data_filename: data_CNA.txt

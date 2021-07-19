@@ -1,0 +1,8 @@
+type_of_cancer: brca
+cancer_study_identifier: brca_tcga_pub2015
+name: Breast Invasive Carcinoma (TCGA, Cell 2015)
+short_name: Breast (TCGA 2015)
+description: Whole-exome sequencing of 817 Breast Invasive Carcinoma tumor/normal pairs. The Cancer Genome Atlas (TCGA) Breast Invasive Carcinoma Project.
+citation: TCGA, Cell 2015
+pmid: 26451490
+groups: PUBLIC

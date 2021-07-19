@@ -1,0 +1,8 @@
+type_of_cancer: chol
+cancer_study_identifier: chol_tcga_pan_can_atlas_2018
+name: Cholangiocarcinoma (TCGA, PanCancer Atlas)
+short_name: Cholangiocarcinoma (TCGA PanCan)
+description: Cholangiocarcinoma TCGA PanCancer data. The original data is <a href="https://gdc.cancer.gov/about-data/publications/pancanatlas">here</a>. The publications are <a href="https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html">here</a>.
+groups: PUBLIC;PANCAN
+pmid: 29625048,29596782,29622463,29617662,29625055,29625050,29617662,32214244,29625049,29850653
+citation: TCGA, Cell 2018

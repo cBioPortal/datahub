@@ -1,0 +1,6 @@
+cancer_study_identifier: utuc_igbmc_2021
+stable_id: utuc_igbmc_2021_all
+case_list_name: All samples
+case_list_description: All samples (30 samples)
+case_list_category: all_cases_in_study
+case_list_ids: UTUC_35T	UTUC_37T	UTUC_16T	UTUC_25T	UTUC_36T	UTUC_38T	UTUC_17T	UTUC_15T	UTUC_9T	UTUC_14T	UTUC_28T	UTUC_29T	UTUC_39T	UTUC_7T	UTUC_6T	UTUC_4T	UTUC_30T	UTUC_19T	UTUC_5T	UTUC_18T	UTUC_3T	UTUC_2T	UTUC_23T	UTUC_31T	UTUC_8T	UTUC_33T	UTUC_12T	UTUC_32T	UTUC_34T	UTUC_13T

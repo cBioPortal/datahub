@@ -1,0 +1,8 @@
+type_of_cancer: difg
+cancer_study_identifier: lgggbm_tcga_pub
+name: Merged Cohort of LGG and GBM (TCGA, Cell 2016)
+short_name: LGG-GBM (TCGA 2016)
+description: Whole exome sequencing of 1,122 LGG and GBM tumor/normal pairs.
+citation: TCGA, Cell 2016
+pmid: 26824661
+groups: PUBLIC

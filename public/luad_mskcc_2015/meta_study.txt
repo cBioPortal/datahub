@@ -1,0 +1,7 @@
+type_of_cancer: luad
+cancer_study_identifier: luad_mskcc_2015
+name: Lung Adenocarcinoma (MSKCC, Science 2015)
+short_name: Lung adeno (MSKCC)
+description: Whole-exome sequencing of 34 non small cell lung cancer tumor/normal pairs.
+citation: Rizvi et al. Science 2015
+pmid: 25765070

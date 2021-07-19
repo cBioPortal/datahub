@@ -1,0 +1,6 @@
+cancer_study_identifier: brca_jup_msk_2020
+stable_id: brca_jup_msk_2020_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (5 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: JuP3-JP	JuP3-IDC	JuP2	JuP1	JuP3-DCIS

@@ -1,0 +1,8 @@
+type_of_cancer: skcm
+cancer_study_identifier: skcm_tcga_pub_2015
+name: Melanomas (TCGA, Cell 2015)
+description: Whole-exome sequencing of 333 primary and/or metastatic melanomas.
+citation: TCGA, Cell 2015
+pmid: 26091043
+short_name: Mel (TCGA pub)
+groups: PUBLIC

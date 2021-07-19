@@ -1,0 +1,6 @@
+type_of_cancer: bll
+cancer_study_identifier: all_phase2_target_2018_pub
+name: Pediatric Acute Lymphoid Leukemia - Phase II (TARGET, 2018)
+short_name: ALL-Phase II (TARGET, 2018)
+description: Whole genome or whole exome sequencing on 298 Pediatric Acute Lymphoid Leukemia - Phase II samples. Comprehensive profiling of ALL Phase 2 samples. <p>TARGET data is intended exclusively for biomedical research using pediatric data (i.e., the research objectives cannot be accomplished using data from adults) that focus on the development of more effective treatments, diagnostic tests, or prognostic markers for childhood cancers. Moreover, TARGET data can be used for research relevant to the biology, causes, treatment and late complications of treatment of pediatric cancers, but is not intended for the sole purposes of methods and/or tool development (please see <a href="https://ocg.cancer.gov/programs/target/using-target-data">Using TARGET Data</a> section of the OCG website). If you are interested in using TARGET data for publication or other research purposes, you must follow the <a href="https://ocg.cancer.gov/programs/target/target-publication-guidelines">TARGET Publication Guidelines</a>.</p
+groups: NCI-TARGET;PUBLIC

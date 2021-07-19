@@ -1,0 +1,8 @@
+cancer_study_identifier: wt_stjude_2017
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_name: Mutations
+profile_description: Mutation data from whole genome sequencing(WGS) of 117 Wilm's tumors. 
+data_filename: data_mutations_extended.txt

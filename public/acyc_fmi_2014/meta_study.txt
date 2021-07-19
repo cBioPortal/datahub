@@ -1,0 +1,8 @@
+type_of_cancer: acyc
+cancer_study_identifier: acyc_fmi_2014
+name: Adenoid Cystic Carcinoma (FMI, Am J Surg Pathl. 2014)
+description: Targeted Sequencing of 28 metastatic Adenoid Cystic Carcinoma samples.
+short_name: ACyC (FMI 2014)
+pmid: 24418857
+citation: Ross et al. Am J Surg Pathl 2014
+groups: PUBLIC;ACYC

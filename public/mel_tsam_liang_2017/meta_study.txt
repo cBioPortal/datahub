@@ -1,0 +1,8 @@
+type_of_cancer: mel
+cancer_study_identifier: mel_tsam_liang_2017
+name: Acral Melanoma (TGEN, Genome Res 2017)
+description: Whole exome sequencing and transcriptome analysis of 34 Acral Melanoma patients (33 with matched normals).
+citation: Liang et al. Genome Res 2017
+pmid: 28373299
+groups: PUBLIC
+short_name: TSAM

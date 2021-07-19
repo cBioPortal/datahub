@@ -1,0 +1,6 @@
+cancer_study_identifier: mcl_idibips_2013
+stable_id: mcl_idibips_2013_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (29 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: M030	M031	M018	M019	M010	M011	M012	M013	M014	M015	M016	M021	M020	M023	M022	M025	M024	M027	M026	M029	M028	M009	M008	M003	M002	M001	M007	M006	M004

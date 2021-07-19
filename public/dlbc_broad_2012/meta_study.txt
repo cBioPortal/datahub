@@ -1,0 +1,7 @@
+type_of_cancer: nhl
+cancer_study_identifier: dlbc_broad_2012
+name: Diffuse Large B-Cell Lymphoma (Broad, PNAS 2012)
+short_name: DLBCL (Broad 2012)
+description: Whole exome sequencing of 58 primary DLBCL samples and their matched normals.
+pmid: 22343534
+citation: Lohr et al. PNAS 2012
