@@ -5,4 +5,4 @@ profile_description: Expression levels from RNA-Seq, Z scores of log2(FPKM + 1) 
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 show_profile_in_analysis_tab: true
-data_filename: data_rna_seq_v2_mrna_median_Zscores.txt
+data_filename: data_mrna_seq_v2_rsem_zscores_ref_all_samples.txt

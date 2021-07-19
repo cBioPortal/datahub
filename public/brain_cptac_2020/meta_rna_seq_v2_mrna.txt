@@ -5,4 +5,4 @@ profile_description: Log2 of FPKM + 1 expresstion values. STAR v2.6.1d aligned +
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: CONTINUOUS
 show_profile_in_analysis_tab: false
-data_filename: data_rna_seq_v2_mrna.txt
+data_filename: data_mrna_seq_v2_rsem.txt
