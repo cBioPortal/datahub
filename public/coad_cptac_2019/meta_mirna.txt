@@ -5,4 +5,4 @@ stable_id: mirna
 show_profile_in_analysis_tab: false
 profile_name: microRNA expression
 profile_description: miRNA expression for tumor samples (RPM, Log2(n+1))
-data_filename: data_expression_miRNA.txt
+data_filename: data_mirna.txt

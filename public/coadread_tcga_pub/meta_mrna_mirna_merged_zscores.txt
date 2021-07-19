@@ -5,4 +5,4 @@ profile_description: mRNA and microRNA Z-scores merged: mRNA expression Z-scores
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 show_profile_in_analysis_tab: false
-data_filename: data_expression_merged_median_Zscores.txt
+data_filename: data_mrna_mirna_merged_zscores.txt

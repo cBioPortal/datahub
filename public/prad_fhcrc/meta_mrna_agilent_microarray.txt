@@ -6,4 +6,4 @@ show_profile_in_analysis_tab: false
 profile_name: mRNA expression 
 profile_description: Expression levelsN
 show_profile_in_analysis_tab: false
-data_filename: data_expression_median.txt
+data_filename: data_mrna_agilent_microarray.txt

@@ -5,4 +5,4 @@ datatype: CONTINUOUS
 show_profile_in_analysis_tab: FALSE
 profile_name: mRNA expression of adjacent normal samples, RSEM (Batch normalized from Illumina HiSeq_RNASeqV2)
 profile_description:mRNA expression of adjacent normal samples, RSEM (Batch normalized from Illumina HiSeq_RNASeqV2)
-data_filename: data_RNA_Seq_v2_mRNA_median_normals.txt
+data_filename: data_mrna_seq_v2_rsem_normal_samples.txt

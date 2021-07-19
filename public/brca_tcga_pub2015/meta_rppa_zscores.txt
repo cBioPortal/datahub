@@ -5,4 +5,4 @@ stable_id: protein_quantification_zscores
 show_profile_in_analysis_tab: true
 profile_name: Protein expression z-scores (RPPA)
 profile_description: Protein expression, measured by reverse-phase protein array, Z-scores
-data_filename: data_rppa_Zscores.txt
+data_filename: data_rppa_zscores.txt

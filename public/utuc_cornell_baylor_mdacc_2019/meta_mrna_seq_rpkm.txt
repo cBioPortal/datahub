@@ -6,4 +6,4 @@ show_profile_in_analysis_tab: false
 profile_name: mRNA expression (RNA Seq RPKM)
 show_profile_in_analysis_tab: true
 profile_description: Expression levels RPKM
-data_filename: data_RNA_Seq_expression_median.txt
+data_filename: data_mrna_seq_rpkm.txt

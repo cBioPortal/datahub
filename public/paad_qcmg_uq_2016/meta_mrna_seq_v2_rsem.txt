@@ -5,4 +5,4 @@ stable_id: rna_seq_mrna
 show_profile_in_analysis_tab: false
 profile_name: mRNA expression 
 profile_description: Expression levels 
-data_filename: data_RNA_Seq_v2_expression_median.txt
+data_filename: data_mrna_seq_v2_rsem.txt

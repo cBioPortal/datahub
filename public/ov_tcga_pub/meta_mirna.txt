@@ -5,4 +5,4 @@ profile_description: expression levels for microRNAs (Agilent microarray).
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: CONTINUOUS
 show_profile_in_analysis_tab: false
-data_filename: data_expression_miRNA.txt
+data_filename: data_mirna.txt
