@@ -1,6 +1,0 @@
-cancer_study_identifier: kirc_tcga_pub
-stable_id:kirc_tcga_pub_treated
-case_list_category: other
-case_list_name: Freeze: Treated
-case_list_description: Cases with prior treatment (30 samples)
-case_list_ids: TCGA-CZ-4865-01	TCGA-BP-4771-01	TCGA-CZ-4861-01	TCGA-AK-3425-01	TCGA-BP-4158-01	TCGA-BP-4331-01	TCGA-BP-4976-01	TCGA-BP-4986-01	TCGA-BP-4999-01	TCGA-BP-5006-01	TCGA-BP-5009-01	TCGA-BP-5199-01	TCGA-CJ-4636-01	TCGA-CJ-4891-01	TCGA-CJ-4894-01	TCGA-CZ-5455-01	TCGA-BP-4995-01	TCGA-BP-4354-01	TCGA-AK-3450-01	TCGA-BP-4159-01	TCGA-BP-4160-01	TCGA-BP-4342-01	TCGA-BP-4353-01

@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Retinoblastoma
-case_list_name: Tumor Type: Retinoblastoma
-case_list_description: All tumors with cancer type Retinoblastoma
-case_list_ids: P-0009865-T01-IM5	P-0006354-T01-IM5	P-0009054-T01-IM5	P-0008676-T01-IM5

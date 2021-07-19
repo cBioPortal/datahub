@@ -1,8 +1,0 @@
-type_of_cancer: uccc
-cancer_study_identifier: uccc_nih_2017
-name: Uterine Clear Cell Carcinoma (NIH, Cancer 2017)
-description: Whole exome sequencing of paired tumor-normal DNAs from 16 cases of clear cell endometrial tumors.
-citation: Le Gallo et al. Cancer 2017
-pmid: 28485815
-short_name: UCCC (NIH)
-groups: PUBLIC

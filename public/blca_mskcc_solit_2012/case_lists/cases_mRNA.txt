@@ -1,6 +1,0 @@
-cancer_study_identifier: blca_mskcc_solit_2012
-stable_id: blca_mskcc_solit_2012_mrna
-case_list_category: all_cases_with_mrna_array_data
-case_list_name: Samples with mRNA data (Agilent microarray)
-case_list_description: Samples with mRNA expression data (58 samples)
-case_list_ids: BL001	BL007	BL008	BL013	BL019	BL020	BL030	BL031	BL032	BL033	BL034	BL035	BL036	BL037	BL038	BL040	BL041	BL043	BL048	BL049	BL051	BL052	BL055	BL057	BL059	BL060	BL061	BL065	BL067	BL069	BL073	BL074	BL075	BL085	BL086	BL092	BL093	BL099	BL100	BL103	BL107	BL108	BL109	BL110	BL111	BL112	BL114	BL115	BL116	BL117	BL118	BL120	BL121	BL122	BL124	BL126	BL128	BL130

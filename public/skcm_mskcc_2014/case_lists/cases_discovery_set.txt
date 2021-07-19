@@ -1,5 +1,0 @@
-cancer_study_identifier: skcm_mskcc_2014
-stable_id: skcm_mskcc_2014_discovery
-case_list_name: Custom subset of discovery set samples
-case_list_description: Discovery set (25 samples)
-case_list_ids: CR0095	CR1509	CR3665	CR4880	CR7623	CR9306	CR9699	NR1867	NR3156	NR3549	NR4810	NR4949	NR5784	NR8727	NR9341	SD0346	SD1494	SD2051	SD2056	SD5038	SD5118	SD5934	SD6336	SD6494	SD7357

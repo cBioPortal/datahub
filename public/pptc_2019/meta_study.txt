@@ -1,8 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: pptc_2019
-name: Pediatric Preclinical Testing Consortium  (CHOP, Cell Rep 2019)
-description: Whole-exome sequencing of 261 patient derived xenografts (PDXs) samples from high-risk childhood cancers (with no matched normals). Website: <a href='http://www.ncipptc.org/'>PPTC</a>
-short_name: PPTC (2019)
-groups: PUBLIC
-pmid: 31693904
-citation: Rotika et al. Cell Rep 2019

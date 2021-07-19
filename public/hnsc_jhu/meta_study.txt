@@ -1,8 +1,0 @@
-type_of_cancer: hnsc
-cancer_study_identifier: hnsc_jhu
-name: Head and Neck Squamous Cell Carcinoma (Johns Hopkins, Science 2011)
-description: Exome sequencing of 32 head and neck squamous cell carcinoma tumor/normal sample pairs.
-citation: Agrawal et al. Science 2011
-pmid: 21798897
-short_name: Head & neck (JHU)
-groups: PUBLIC

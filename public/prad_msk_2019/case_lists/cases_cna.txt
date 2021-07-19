@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_msk_2019
-stable_id: prad_msk_2019_cna
-case_list_category: all_cases_with_cna_data
-case_list_name: Tumors CNA
-case_list_description: All tumors with CNA data
-case_list_ids: s_C_03LNU8_P001_d	s_C_36924L_P001_d	s_C_CAUWT7_P001_d	s_C_DU6ECC_P001_d	s_C_DU6ECC_P002_d	s_C_E0KJFJ_P001_d	s_C_E0KJFJ_P002_d	s_C_EDTVRA_P001_d	s_C_M8X42T_P001_d	s_C_M8X42T_P002_d	s_C_P8K3TR_P001_d	s_C_P8K3TR_P002_d	s_C_P8K3TR_P003_d	s_C_VC6P9A_P001_d	s_C_VC6P9A_P002_d	s_C_WXR0TT_P001_d	s_C_WXR0TT_P002_d	s_C_WXR0TT_P003_d

@@ -1,7 +1,0 @@
-type_of_cancer: nhl
-cancer_study_identifier: ctcl_columbia_2015
-name:  Cutaneous T Cell Lymphoma (Columbia U, Nat Genet 2015)
-short_name: CTCL (Columbia 2015)
-description: Whole-Exome Sequencing (WXS) of tumor-normal sample pairs from 25 patients with Sezary Syndrome and 17 patients with other Cutaneous T Cell Lymphoma (CTCLs).
-pmid: 26551667
-citation: Da Silva Almeida et al. Nat Genet 2015

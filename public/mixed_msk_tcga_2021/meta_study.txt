@@ -1,5 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: mixed_msk_tcga_2021
-name: RAD51B Associated Mixed Cancers (Mandelker 2021)
-short_name: RAD51B (Mandelker)
-description: Germline RAD51B loss-of-function variants confer susceptibility to hereditary breast and ovarian cancers and result in homologous recombination-deficient tumors

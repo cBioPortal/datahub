@@ -1,6 +1,0 @@
-cancer_study_identifier: hcc_msk_venturaa_2018
-stable_id: hcc_msk_venturaa_2018_cna
-case_list_name: Samples with CNA data
-case_list_description: Samples with CNA data (19 samples)
-case_list_category: all_cases_with_cna_data
-case_list_ids: s_AV_hcchca_005_T	s_AV_hcchca_012_T	s_AV_hcchca_002_T	s_AV_hcchca_001_T	s_AV_hcchca_008_T	s_AV_hcchca_010_T	s_AV_hcchca_013_T	s_AV_hcchca_014_T	s_AV_hcchca_003_T	s_AV_hcchca_009_T	s_AV_hcchca_006_T	s_AV_hcchca_015_T	s_AV_hcchca_007_T	s_AV_hcchca_019_T	s_AV_hcchca_016_T	s_AV_hcchca_011_T	s_AV_hcchca_017_T	s_AV_hcchca_018_T	s_AV_hcchca_004_T

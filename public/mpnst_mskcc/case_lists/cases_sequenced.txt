@@ -1,6 +1,0 @@
-cancer_study_identifier: mpnst_mskcc
-stable_id: mpnst_mskcc_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (15 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: Sample_19	Sample_18	Sample_9	Sample_8	Sample_13	Sample_12	Sample_11	Sample_10	Sample_16	Sample_15	Sample_14	Sample_7	Sample_2	Sample_20	Sample_4

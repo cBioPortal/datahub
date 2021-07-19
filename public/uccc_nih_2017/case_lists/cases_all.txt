@@ -1,6 +1,0 @@
-cancer_study_identifier: uccc_nih_2017
-stable_id: uccc_nih_2017_all
-case_list_name: All samples
-case_list_description: All samples (16 samples)
-case_list_category: all_cases_in_study
-case_list_ids: UCCC_NIH_153	UCCC_NIH_28	UCCC_NIH_24	UCCC_NIH_59	UCCC_NIH_26	UCCC_NIH_46	UCCC_NIH_32	UCCC_NIH_31	UCCC_NIH_60	UCCC_NIH_61	UCCC_NIH_62	UCCC_NIH_152	UCCC_NIH_77	UCCC_NIH_64	UCCC_NIH_82	UCCC_NIH_58

@@ -1,6 +1,0 @@
-cancer_study_identifier: plmeso_nyu_2015
-stable_id: plmeso_nyu_2015_all
-case_list_name: All samples
-case_list_description: All samples (22 samples)
-case_list_category: all_cases_in_study
-case_list_ids: NYU1363	NYU1245	NYU1353	NYU1189	NYU647	NYU658	NYU929	NYU321	NYU939	NYU754	NYU587	NYU937	NYU589	NYU1162	NYU269	NYU460	NYU1396	NYU1283	NYU274	NYU872	NYU695	NYU517

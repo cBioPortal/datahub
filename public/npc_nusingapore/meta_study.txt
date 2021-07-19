@@ -1,8 +1,0 @@
-type_of_cancer: npc
-cancer_study_identifier: npc_nusingapore
-name: Nasopharyngeal Carcinoma (Singapore, Nat Genet 2014)
-description: Whole exome sequencing of 56 NPC tumor/normal pairs.
-citation: Lin et al. Nat Genet 2014
-pmid: 24952746
-short_name: NPC (Singapore)
-groups: PUBLIC

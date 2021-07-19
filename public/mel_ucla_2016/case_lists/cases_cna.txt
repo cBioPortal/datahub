@@ -1,6 +1,0 @@
-cancer_study_identifier: mel_ucla_2016
-stable_id: mel_ucla_2016_cna
-case_list_name: Samples with CNA data
-case_list_description: Samples with CNA data (37 samples)
-case_list_category: all_cases_with_cna_data
-case_list_ids: Pt28	Pt29	Pt26	Pt27	Pt24	Pt25	Pt22	Pt23	Pt20	Pt21	Pt9	Pt7	Pt6	Pt5	Pt4	Pt3	Pt2	Pt1	Pt13	Pt12	Pt11	Pt10	Pt17	Pt16	Pt15	Pt14	Pt31	Pt30	Pt33	Pt32	Pt35	Pt34	Pt37	Pt36	Pt19	Pt38	Pt18

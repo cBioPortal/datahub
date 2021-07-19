@@ -1,6 +1,0 @@
-cancer_study_identifier: sclc_clcgp
-stable_id: sclc_clcgp_all
-case_list_name: All samples
-case_list_description: All samples (29 samples)
-case_list_category: all_cases_in_study
-case_list_ids: S01366	S00050	S01728	H1672	S00472	S00936	S00022	S00356	H2171	S00932	S00943	S00935	S00946	S00947	S00944	S00945	S00841	S01494	S01563	S00539	S00501	S01453	S00830	S00836	S00837	S00827	S00933	S00833	S01512

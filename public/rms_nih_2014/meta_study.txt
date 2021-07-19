@@ -1,8 +1,0 @@
-type_of_cancer: rms
-cancer_study_identifier: rms_nih_2014
-name: Rhabdomyosarcoma (NIH, Cancer Discov 2014)
-description: Whole-genome or whole-exome sequencing of 43 rhabdomyosarcoma tumor/normal pairs.
-citation: Shern et al. Cancer Discov 2014
-pmid: 24436047
-short_name: RMS (NIH)
-groups: PUBLIC

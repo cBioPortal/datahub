@@ -1,7 +1,0 @@
-type_of_cancer: plmeso
-cancer_study_identifier: plmeso_nyu_2015
-name: Pleural Mesothelioma (NYU, Cancer Res 2015)
-short_name: PLMESO (NYU 2015)
-description: Whole-exome sequencing of 22 malignant pleural mesotheliomas (PLMESO) tumor/normal pairs.
-pmid: 25488749
-citation: Guo et al. Cancer Res 2015

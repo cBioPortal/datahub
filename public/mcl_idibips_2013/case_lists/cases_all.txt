@@ -1,6 +1,0 @@
-cancer_study_identifier: mcl_idibips_2013
-stable_id: mcl_idibips_2013_all
-case_list_name: All samples
-case_list_description: All samples (29 samples)
-case_list_category: all_cases_in_study
-case_list_ids: M027	M007	M026	M006	M021	M020	M023	M022	M025	M024	M030	M031	M029	M028	M018	M019	M009	M008	M010	M011	M012	M013	M014	M015	M016	M004	M003	M002	M001

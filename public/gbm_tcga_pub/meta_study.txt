@@ -1,8 +1,0 @@
-type_of_cancer: gbm
-cancer_study_identifier: gbm_tcga_pub
-name: Glioblastoma (TCGA, Nature 2008)
-short_name: GBM (TCGA 2008)
-description: Targeted sequencing in 91 of the 206 primary glioblastoma tumors (143 with matched normals) from the Cancer Genome Atlas (TCGA) Glioblastoma Project.
-citation: TCGA, Nature 2008
-pmid: 18772890
-groups: PUBLIC

@@ -1,6 +1,0 @@
-cancer_study_identifier: ucs_jhu_2014
-stable_id: ucs_jhu_2014_all
-case_list_name: All samples
-case_list_description: All samples (22 samples)
-case_list_category: all_cases_in_study
-case_list_ids: MM16T	MM01T	MM13T	MM06T	MM10T	MM05T	MM04T	MM12T	MM20T	MM22T	MM18T	MM15T	MM02T	MM14T	MM03T	MM11T	MM07T	MM08T	MM09T	MM19T	MM21T	MM17T

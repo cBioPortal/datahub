@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_mskcc
-stable_id: prad_mskcc_cell_lines
-case_list_category: other
-case_list_name: Cell lines / Xenografts
-case_list_description: All cell lines and xenografts (34 samples)
-case_list_ids: CWR22Rv1	DU145	LNCaP	LNCaP104R	LNCaP104S	PC3	Vcap	LAPC3-1	LAPC4-1	LAPC9	LNM971	LuCAP35	CWR22Rv1	DU145	DU145	LAPC14-5748	LAPC14-5749	LAPC17	LAPC23	LAPC25	LAPC3-1	LAPC3-2	LAPC4-1	LAPC4-1T	LAPC4-2	LAPC9	LNCaP	LNCaP104R	LNCaP104S	LNM971	LuCAP35	LuCAP35	PC3	Vcap

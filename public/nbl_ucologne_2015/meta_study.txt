@@ -1,7 +1,0 @@
-type_of_cancer: nbl
-cancer_study_identifier: nbl_ucologne_2015
-name: Neuroblastoma (Broad, Nature 2015)
-short_name: NBL (Cologne 2015)
-description: Whole-genome sequencing of 56 neuroblastoma tumor/normal pairs.
-pmid: 26466568
-citation: Peifer et al. Nature 2015

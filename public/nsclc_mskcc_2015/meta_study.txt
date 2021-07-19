@@ -1,8 +1,0 @@
-type_of_cancer: nsclc
-cancer_study_identifier: nsclc_mskcc_2015
-name: Non-small cell lung cancer (MSK, Science 2015)
-description: Whole-exome sequencing of tumor-normal tissue pairs from 16 non-small cell lung cancer samples.
-citation: Rivzi et al. Science 2016
-pmid: 25765070
-short_name: NSCLC (MSKCC)
-groups: public

@@ -1,6 +1,0 @@
-cancer_study_identifier: cellline_ccle_broad
-reference_genome_id: hg19
-datatype: SEG
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals) from TCGA.
-data_filename: data_cna_hg19.seg

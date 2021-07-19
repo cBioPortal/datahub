@@ -1,7 +1,0 @@
-type_of_cancer: cllsll
-cancer_study_identifier: lcll_broad_2013
-name: Chronic Lymphocytic Leukemia (Broad, Cell 2013)
-short_name: CLL (Broad 2013)
-description: Whole-exome sequencing of 160 CLL tumor/normal pairs.
-pmid: 23415222
-citation: Landau et al. Cell 2013

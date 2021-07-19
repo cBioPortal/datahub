@@ -1,6 +1,0 @@
-cancer_study_identifier: lihc_amc_prv
-stable_id: lihc_amc_prv_hcv
-case_list_category:  other
-case_list_name: Subtype: Etiology - HCV (Hepatocellar Carcinoma) [22 samples]
-case_list_description: Manuscript Subtype: Etiology - HCV (Hepatocellar Carcinoma)
-case_list_ids: H050250	H050603	H060272	H060891	H061095	H072658	H080411	H081077	H081081	H090745	H091616	H092431	H092489	H093295	H093892	H105106	H110224	H110610	H111209	H111909	H112306	H112501

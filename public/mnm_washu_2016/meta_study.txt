@@ -1,8 +1,0 @@
-type_of_cancer: mnm
-cancer_study_identifier: mnm_washu_2016
-name: Acute myeloid leukemia or myelodysplastic syndromes (WashU, 2016)  
-short_name: AML/MDS (WashU, 2016)
-description: Enhanced exome or targeted sequencing of 116 acute myeloid leukemia (AML) or myelodysplastic syndromes (MDS) patients' tumor/normal pairs .
-citation: Welch et al. N Engl J Med. 2016
-pmid: 27959731
-group: PUBLIC

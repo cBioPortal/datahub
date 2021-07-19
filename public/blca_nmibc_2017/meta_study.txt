@@ -1,8 +1,0 @@
-type_of_cancer: blca
-cancer_study_identifier: blca_nmibc_2017
-name: Nonmuscle Invasive Bladder Cancer (MSK Eur Urol 2017)
-short_name: NMIBC (MSK Our Urol 2017)
-pmid: 28583311
-citation: Pietzak et al. Eur Urol 2017
-description: IMPACT sequencing of 105 High Risk Nonmuscle Invasive Bladder Cancer samples.
-groups: PUBLIC

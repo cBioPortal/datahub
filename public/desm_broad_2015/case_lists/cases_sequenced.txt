@@ -1,6 +1,0 @@
-cancer_study_identifier: desm_broad_2015
-stable_id: desm_broad_2015_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (20 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: 49M	71M	37M	19M	11M	53M	12M	Au10	46M	Au3	Au2	Au5	Au1	Au7	Au6	Au9	Au8	40M	35M	Au4

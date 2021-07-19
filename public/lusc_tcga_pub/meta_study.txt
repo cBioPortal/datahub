@@ -1,7 +1,0 @@
-type_of_cancer: lusc
-cancer_study_identifier: lusc_tcga_pub
-name: Lung Squamous Cell Carcinoma (TCGA, Nature 2012)
-short_name: Lung squ (TCGA pub)
-description: Whole exome sequencing of 178 lung squamous cell carcinoma tumor/normal pairs. <a href="http://cancergenome.nih.gov/">The Cancer Genome Atlas (TCGA)</a> Lung Squamous Cell Carcinoma project.
-pmid: 22960745
-groups: PUBLIC

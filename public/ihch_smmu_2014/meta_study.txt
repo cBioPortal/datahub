@@ -1,8 +1,0 @@
-type_of_cancer: ihch
-cancer_study_identifier: ihch_smmu_2014
-name: Intrahepatic Cholangiocarcinoma (Shanghai, Nat Commun 2014)
-description: Whole exome sequencing of 103 tumor/normal sample pairs in 103 intrahepatic cholangiocarcinoma patients.
-citation: Shanshan et al. Nat Commun 2014
-pmid: 25526346
-short_name: IHCH (Shanghai)
-groups: PUBLIC

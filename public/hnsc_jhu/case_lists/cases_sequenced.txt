@@ -1,6 +1,0 @@
-cancer_study_identifier: hnsc_jhu
-stable_id: hnsc_jhu_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (32 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: HN20PT	578	HN09PT	HN07PT	HN33PT	91	391	139	HN12PT	HN24PT	HN41PT	HN11PT	43	HN22PT	HN42PT	347	HN35PT	325	367	HN19PT	HN16PT	HN32PT	447	266	HN14PT	388	166	258	HN27PT	478	HN01PT	385

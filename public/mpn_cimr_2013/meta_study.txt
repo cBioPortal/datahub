@@ -1,8 +1,0 @@
-type_of_cancer: mpn
-cancer_study_identifier: mpn_cimr_2013
-name: Myeloproliferative Neoplasms (CIMR, NEJM 2013)
-description: Whole exome sequencing of paired tumor/normal pairs from 151 cases of Myeloproliferative Neoplasms.
-citation: Nangalia et al. NEJM 2013
-pmid: 24325359
-short_name: MPN (CIMR)
-groups: PUBLIC

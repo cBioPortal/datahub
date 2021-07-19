@@ -1,8 +1,0 @@
-type_of_cancer: coadread
-cancer_study_identifier: coadread_tcga_pub
-name: Colorectal Adenocarcinoma (TCGA, Nature 2012)
-short_name: Colorectal (TCGA pub)
-description: Whole exome sequencing in 224 of the 276 colorectal carcinoma tumor/normal pairs. The Cancer Genome Atlas (TCGA) Colorectal Cancer project.
-citation: TCGA, Nature 2012
-pmid: 22810696
-groups: PUBLIC

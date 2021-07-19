@@ -1,8 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: pediatric_dkfz_2017
-name:Pediatric Pan-Cancer (DKFZ, Nature 2017)
-description:Whole-genome/exome sequencing of 961 Pediatric Cancer samples. Data generated from Pfister Lab & DKFZ/German Cancer Consortium.
-groups: PUBLIC
-short_name:Pediatric Pan-Cancer (DKFZ-2017)
-pmid: 29489754
-citation: Grobner et al. Nature 2018

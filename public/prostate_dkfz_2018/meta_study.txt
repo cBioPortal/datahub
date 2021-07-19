@@ -1,8 +1,0 @@
-type_of_cancer: prostate
-cancer_study_identifier: prostate_dkfz_2018
-name: Prostate Cancer (DKFZ, Cancer Cell 2018)
-description: Whole genome and transcriptome sequencing of tumor/normal pairs from 292 prostate cancer patients.
-citation: Gerhauser et al. Cancer Cell 2018
-pmid: 30537516
-short_name: Prostate (DKFZ)
-groups: PUBLIC

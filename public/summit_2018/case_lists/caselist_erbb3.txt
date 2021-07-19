@@ -1,5 +1,0 @@
-cancer_study_identifier: summit_2018
-stable_id: summit_2018_erbb3
-case_list_name: All ERBB3 tumors with sequencing data
-case_list_description: All ERBB3 tumors with central confirmation sequencing data (15 samples)
-case_list_ids: 125	126	127	128	129	130	131	132	133	134	136	138	139	140	141

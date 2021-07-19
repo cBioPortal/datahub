@@ -1,6 +1,0 @@
-cancer_study_identifier: nepc_wcm_2016
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: SEG
-reference_genome_id: hg19
-description: Segment data for the nepc study obtained from CNVseeqer pipeline and adjusted by ploidy and purity with CLONET
-data_filename: data_cna_hg19.seg

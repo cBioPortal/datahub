@@ -1,6 +1,0 @@
-cancer_study_identifier: cscc_hgsc_bcm_2014
-stable_id: cscc_hgsc_bcm_2014_all
-case_list_name: All samples
-case_list_description: All samples (39 samples)
-case_list_category: all_cases_in_study
-case_list_ids: CSCC-52-T	CSCC-54-T	CSCC-15-T	CSCC-35-T	CSCC-46-T	CSCC-38-T	CSCC-42-T	CSCC-18-T	CSCC-59-T	CSCC-40-T	CSCC-41-T	CSCC-17-T	CSCC-16-T	CSCC-32-T	CSCC-6-T	CSCC-10-T	CSCC-4-T	CSCC-44-T	CSCC-45-T	CSCC-31-T	CSCC-47-T	CSCC-7-T	CSCC-20-T	CSCC-11-T	CSCC-30-T	CSCC-27-T	CSCC-62-T	CSCC-29-T	CSCC-55-T	CSCC-2-T	CSCC-57-T	CSCC-1-T	CSCC-56-T	CSCC-19-T	CSCC-5-T	CSCC-58-T	CSCC-49-T	CSCC-60-T	CSCC-37-T

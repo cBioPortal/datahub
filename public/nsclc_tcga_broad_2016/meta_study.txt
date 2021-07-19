@@ -1,7 +1,0 @@
-type_of_cancer: nsclc
-cancer_study_identifier: nsclc_tcga_broad_2016
-name: Pan-Lung Cancer (TCGA, Nat Genet 2016)
-short_name: NSCLC (TCGA 2016)
-description: Whole-exome sequencing of 660 lung ADC and 484 lung SqCC tumor/normal pairs.
-pmid: 27158780
-citation: TCGA, Nat Genet 2016

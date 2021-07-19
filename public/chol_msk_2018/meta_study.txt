@@ -1,7 +1,0 @@
-type_of_cancer: chol
-cancer_study_identifier: chol_msk_2018
-name: Cholangiocarcinoma (MSK, Clin Cancer Res 2018)
-description: Targeted sequencing (MSK-IMPACT) of 195 tumor samples (194 with matched normals) from 192 cholangiocarcinoma patients.
-short_name: CHOL (MSK 2018)
-pmid: 29848569
-citation: Lowery et al. Clin Cancer Res 2018

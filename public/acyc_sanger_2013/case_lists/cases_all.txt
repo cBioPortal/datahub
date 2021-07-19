@@ -1,6 +1,0 @@
-cancer_study_identifier: acyc_sanger_2013
-stable_id: acyc_sanger_2013_all
-case_list_name: All samples
-case_list_description: All samples (24 samples)
-case_list_category: all_cases_in_study
-case_list_ids: PD3198a	PD3197a	PD3182a	PD3186a	PD3190a	PD3196a	PD3184a	PD3181a	PD3192a	PD3180a	PD3193a	PD3194a	PD3195a	PD3200a	PD3191a	PD3189a	PD3188a	PD3216a	PD3178a	PD3179a	PD3226a	PD3208a	PD3199a	PD3185a

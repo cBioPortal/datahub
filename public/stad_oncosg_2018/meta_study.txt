@@ -1,8 +1,0 @@
-type_of_cancer: stad
-cancer_study_identifier: stad_oncosg_2018
-name: Gastric Cancer (OncoSG, 2018)
-description: Whole-genome sequencing of 147 gastric cancer tumors with matched normals. Courtesy of <a href="https://src.gisapps.org/OncoSG/">OncoSG</a>.
-short_name: STAD (OncoSG)
-pmid: 29670109
-citation: Guo et al. Nat Commun 2018
-group: PUBLIC

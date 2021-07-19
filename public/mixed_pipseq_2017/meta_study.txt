@@ -1,8 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: mixed_pipseq_2017
-name: Pediatric Pan-cancer (Columbia U, Genome Med 2016)
-description: Whole exome sequencing of 103 samples (88 with matched normals) from 88 high-risk pediatric cancer patients.
-citation: Oberg et al. Genome Med 2016
-pmid: 28007021
-short_name: pediatric-cancers
-groups: public

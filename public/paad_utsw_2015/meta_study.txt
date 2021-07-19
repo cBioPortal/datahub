@@ -1,8 +1,0 @@
-type_of_cancer: paad
-cancer_study_identifier: paad_utsw_2015
-name: Pancreatic Cancer (UTSW, Nat Commun 2015)
-description: Whole exome sequencing of 109 micro-dissected pancreatic cancer cases and normal control tissue.
-citation: Witkiewicz et al. Nat Commun 2015
-pmid: 25855536
-short_name: Pancreas (UTSW)
-groups: PUBLIC

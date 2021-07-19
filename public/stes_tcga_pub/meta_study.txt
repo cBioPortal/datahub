@@ -1,7 +1,0 @@
-type_of_cancer: egc
-cancer_study_identifier: stes_tcga_pub
-name: Esophageal Carcinoma (TCGA, Nature 2017)
-short_name: Stomach/Esophageal (TCGA)
-description: Whole exome sequencing of 559 esophageal and gastric carcinoma tumors with matched normals.
-citation: TCGA, Nature 2017
-pmid: 28052061

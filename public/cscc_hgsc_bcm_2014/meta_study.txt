@@ -1,7 +1,0 @@
-type_of_cancer: cscc
-cancer_study_identifier: cscc_hgsc_bcm_2014
-name: Cutaneous Squamous Cell Carcinoma (MD Anderson, Clin Cancer Res 2014)
-short_name: cSCC (MD ANDERSON 2014)
-description: Whole-exome sequencing of tumor/normal pairs from 39 aggressive cutaneous squamous cell carcinoma cases.
-citation: Pickering et al. Clin Cancer Res 2014
-pmid: 25303977

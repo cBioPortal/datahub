@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_mskcc
-stable_id: prad_mskcc_mrna_met
-case_list_category: other
-case_list_name: Mets with mRNA
-case_list_description: All metastatic samples with mRNA expression data (19 samples)
-case_list_ids: PCA0182	PCA0184	PCA0187	PCA0188	PCA0189	PCA0190	PCA0193	PCA0194	PCA0199	PCA0200	PCA0201	PCA0206	PCA0207	PCA0208	PCA0209	PCA0210	PCA0211	PCA0213	PCA0215

@@ -1,7 +1,0 @@
-type_of_cancer: gbm
-cancer_study_identifier: gbm_columbia_2019
-name: Glioblastoma (Columbia, Nat Med. 2019)
-short_name: GBM (Columbia)
-description: Whole-exome sequencing of 32 out of 42 glioblastomas patients with matched normals.
-pmid: 30742119
-citation: Zhao et al. Nat Med 2019

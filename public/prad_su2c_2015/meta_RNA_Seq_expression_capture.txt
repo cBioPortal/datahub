@@ -1,8 +1,0 @@
-cancer_study_identifier: prad_su2c_2015
-stable_id: rna_seq_mrna_capture
-profile_name: mRNA expression / capture (RNA Seq RPKM)
-profile_description: mRNA expression from capture (RNA Seq RPKM)
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-show_profile_in_analysis_tab: false
-data_filename: data_RNA_Seq_expression_capture.txt

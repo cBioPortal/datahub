@@ -1,6 +1,0 @@
-cancer_study_identifier: mbl_pcgp
-stable_id: mbl_pcgp_sequenced
-case_list_category: all_cases_with_mutation_data
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (37 samples)
-case_list_ids: SJMB017	SJMB025	SJMB030	SJMB031	SJMB006	SJMB008	SJMB038	SJMB027	SJMB032	SJMB016	SJMB019	SJMB039	SJMB034	SJMB020	SJMB010	SJMB023	SJMB035	SJMB009	SJMB011	SJMB014	SJMB018	SJMB036	SJMB037	SJMB024	SJMB015	SJMB012	SJMB003	SJMB013	SJMB004	SJMB033	SJMB026	SJMB029	SJMB041	SJMB001	SJMB028	SJMB040	SJMB002

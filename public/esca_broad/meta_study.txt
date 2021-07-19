@@ -1,7 +1,0 @@
-type_of_cancer: esca
-cancer_study_identifier: esca_broad
-name: Esophageal Adenocarcinoma (DFCI, Nat Genet 2013)
-short_name: Esophagus (Broad)
-description: Whole-exome sequencing of 149 tumor/normal pairs and whole-genome sequencing of 16 pairs from 149 esophageal adenocarcinoma patients.
-citation: Dulak et al. Nat Genet 2013
-pmid: 23525077

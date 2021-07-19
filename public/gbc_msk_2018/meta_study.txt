@@ -1,8 +1,0 @@
-type_of_cancer: gbc
-cancer_study_identifier: gbc_msk_2018
-name: Gallbladder Cancer (MSK, Cancer 2018)
-description: Targeted Sequencing of 103 samples with matched normals from 101 Gallbladder cancer patients.
-citation: Raja et al, Cancer 2018
-pmid: 30427539
-short_name: GBC (MSK CANCER 2018)
-groups: PUBLIC

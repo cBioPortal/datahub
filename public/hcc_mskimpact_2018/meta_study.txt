@@ -1,7 +1,0 @@
-type_of_cancer: hcc
-cancer_study_identifier: hcc_mskimpact_2018
-name: Hepatocellular Carcinoma (MSK, Clin Cancer Res 2018)
-short_name: HCC (MSK 2018)
-description: MSK-IMPACT sequencing of 127 Hepatocellular Carcinoma tumor samples with matched normals.
-pmid: 30373752
-citation: Harding et al. Clin Cancer Res 2018

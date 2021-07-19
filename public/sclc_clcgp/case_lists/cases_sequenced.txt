@@ -1,6 +1,0 @@
-cancer_study_identifier: sclc_clcgp
-stable_id: sclc_clcgp_sequenced
-case_list_category: all_cases_with_mutation_data
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (29 samples)
-case_list_ids: H1672	H2171	S00022	S00050	S00356	S00472	S00501	S00539	S00827	S00830	S00833	S00836	S00837	S00841	S00932	S00933	S00935	S00936	S00943	S00944	S00945	S00946	S00947	S01366	S01453	S01494	S01512	S01563	S01728

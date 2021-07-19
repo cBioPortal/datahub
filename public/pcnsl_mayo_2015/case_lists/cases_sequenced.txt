@@ -1,6 +1,0 @@
-cancer_study_identifier: pcnsl_mayo_2015
-stable_id: pcnsl_mayo_2015_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (10 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: PCNSL_8	PCNSL_1	PCNSL_2	PCNSL_3	PCNSL_4	PCNSL_5	PCNSL_6	PCNSL_29	PCNSL_28	PCNSL_30

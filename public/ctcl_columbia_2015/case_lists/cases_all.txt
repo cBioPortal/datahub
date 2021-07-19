@@ -1,6 +1,0 @@
-cancer_study_identifier:ctcl_columbia_2015
-stable_id:ctcl_columbia_2015_all
-case_list_category:all_cases_in_study
-case_list_name: All samples
-case_list_description: All samples (42 samples)
-case_list_ids: SS_L1	SS_L2	SS_L3	SS_L4	SS_L5	SS_L6	SS_L7	SS_L8	SS_L9	SS_L10	SS_L11	SS_L12	SS_L13	SS_L14	SS_L15	SS_L16	SS_L17	SS_L18	SS_L19	SS_L20	SS_L21	SS_L22	SS_L23	SS_NU6	SS_NU8	SS_NU15	CTCL_NU1	CTCL_NU2	CTCL_NU3	CTCL_NU4	CTCL_NU6	CTCL_NU7	CTCL_NU9	CTCL_NU11	CTCL_NU12	CTCL_NU13	CTCL_NU14	CTCL_NU16	CTCL_NU17	CTCL_NU18	CTCL_NU19	CTCL_NU20	CTCL_NU21

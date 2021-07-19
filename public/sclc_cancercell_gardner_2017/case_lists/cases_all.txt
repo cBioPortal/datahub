@@ -1,6 +1,0 @@
-cancer_study_identifier: sclc_cancercell_gardner_2017
-stable_id: sclc_cancercell_gardner_2017_all
-case_list_name: All samples
-case_list_description: All samples (20 samples)
-case_list_category: all_cases_in_study
-case_list_ids: JHU-LX22	JHU-LX33	JHU-LX22-R	JHU-LX33-R	JHU-LX48-R	MSK-LX40	JHU-LX102-R	SCRX-Lu149	JHU-LX48	JHU-LX101-R	MSK-LX95-R	MSK-LX95	JHU-LX108	JHU-LX108-R	JHU-LX110	JHU-LX101	JHU-LX102	SCRX-Lu149-R	MSK-LX40-R	JHU-LX110-R

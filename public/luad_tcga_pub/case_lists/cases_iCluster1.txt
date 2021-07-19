@@ -1,6 +1,0 @@
-cancer_study_identifier: luad_tcga_pub
-stable_id: luad_tcga_pub_icluster1
-case_list_category: other
-case_list_name: iCluster Subtype 1 
-case_list_description: iCluster Subtype 1 (22 samples)
-case_list_ids: TCGA-05-4384-01	TCGA-05-4422-01	TCGA-44-2655-01	TCGA-44-6146-01	TCGA-44-6776-01	TCGA-44-7671-01	TCGA-49-4486-01	TCGA-49-4510-01	TCGA-49-6742-01	TCGA-50-5932-01	TCGA-50-5944-01	TCGA-55-6972-01	TCGA-67-3774-01	TCGA-69-7764-01	TCGA-73-7498-01	TCGA-78-7148-01	TCGA-78-7149-01	TCGA-78-7156-01	TCGA-78-7163-01	TCGA-78-7166-01	TCGA-78-7167-01	TCGA-78-7633-01

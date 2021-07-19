@@ -1,8 +1,0 @@
-type_of_cancer: ihch
-cancer_study_identifier: ihch_msk_2021
-name: Intrahepatic Cholangiocarcinoma (MSK, Hepatology 2021)
-description: Targeted sequencing of 412 intrahepatic cholangiocarcinoma tumor/normal sample pairs.
-citation: Boerner et al. Hepatology 2021
-pmid: 33765338
-short_name: IHCH (MSK, Hepatology 2021)
-groups: PUBLIC

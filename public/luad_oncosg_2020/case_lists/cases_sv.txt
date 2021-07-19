@@ -1,6 +1,0 @@
-cancer_study_identifier: luad_oncosg_2020
-stable_id: luad_oncosg_2020_sv
-case_list_name: Samples with SV data
-case_list_description: Samples with SV data (42 samples)
-case_list_category: all_cases_with_sv_data
-case_list_ids: A255	A377	A278	A270	A271	A272	A273	A274	A275	A277	A490	A260	A247	A266	A284	A432	A188	A063	A062	A182	A183	A241	A156	A534	A519	A100	A322	A306	A208	A220	A262	A261	A206	A124	A200	A185	A199	A191	A193	A194	A197	A196

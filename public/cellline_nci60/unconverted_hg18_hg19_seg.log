@@ -1,3 +1,0 @@
-chromosome	start	end	same_chr/new_chr	length_ratio/new_pos	file
-chr17	21944094	24604363	True	2.0901	/Users/suny1/data/datahub/public/cellline_nci60/cellline_nci60_data_cna_hg18.seg
-chr7	141721925	142135045	True	0.4341	/Users/suny1/data/datahub/public/cellline_nci60/cellline_nci60_data_cna_hg18.seg

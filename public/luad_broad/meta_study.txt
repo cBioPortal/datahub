@@ -1,8 +1,0 @@
-type_of_cancer: luad
-cancer_study_identifier: luad_broad
-name: Lung Adenocarcinoma (Broad, Cell 2012)
-description: Whole-exome and/or whole-genome sequencing of 183 lung adenocarcinomas and matched normal tissue pairs.
-citation: Imielinksi et al. Cell 2012
-pmid: 22980975
-short_name: Lung adeno (Broad)
-groups: PUBLIC

@@ -1,8 +1,0 @@
-type_of_cancer: bfn
-cancer_study_identifier: bfn_duke_nus_2015
-name: Breast Fibroepithelial Tumors (Duke-NUS, Nat Genet 2015)
-description: Whole exome sequencing of 22 phyllodes tumors
-citation: Tan et al. Nat Genet 2015
-pmid: 26437033
-short_name: BFN (Duke-NUS)
-groups: PUBLIC

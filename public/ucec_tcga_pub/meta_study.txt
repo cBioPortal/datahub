@@ -1,8 +1,0 @@
-type_of_cancer: ucec
-cancer_study_identifier: ucec_tcga_pub
-name: Uterine Corpus Endometrial Carcinoma (TCGA, Nature 2013)
-short_name: Uterine (TCGA pub)
-description: Whole exome sequencing of 373 endometrial carcinoma tumors with matched normals. TCGA Uterine Corpus Endometrial Carcinoma project; raw data at the <A HREF="https://tcga-data.nci.nih.gov/docs/publications/ucec_2013/">NCI</A>.
-citation: TCGA, Nature 2013
-pmid: 23636398
-groups: PUBLIC

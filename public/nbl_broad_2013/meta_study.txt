@@ -1,7 +1,0 @@
-type_of_cancer: nbl
-cancer_study_identifier: nbl_broad_2013
-name: Neuroblastoma (Broad, Nat Genet 2013)
-short_name: NBL (Broad)
-description: Whole Genome and Whole Exome sequencing of 240 high-risk neuroblastoma tumor/normal pairs.
-pmid: 23334666
-citation: Pugh et al. Nat Genet 2013

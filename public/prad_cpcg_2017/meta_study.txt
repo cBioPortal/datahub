@@ -1,7 +1,0 @@
-type_of_cancer: prad
-cancer_study_identifier: prad_cpcg_2017
-name: Prostate Adenocarcinoma (CPC-GENE, Nature 2017)
-short_name: PRAD Hallmarks (CPCG-GENE, 2017)
-description: Whole-genome/exome sequencing of 477 prostate samples from CPC-GENE and public data sets, including TCGA-PRAD.
-pmid: 28068672
-citation: Fraser et al. Nature 2017

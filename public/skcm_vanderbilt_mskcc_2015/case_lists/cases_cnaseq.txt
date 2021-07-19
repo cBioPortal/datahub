@@ -1,6 +1,0 @@
-cancer_study_identifier: skcm_vanderbilt_mskcc_2015
-stable_id: skcm_vanderbilt_mskcc_2015_cnaseq
-case_list_name: Samples with mutation and CNA data
-case_list_description: Samples with mutation and CNA data (66 samples)
-case_list_category: all_cases_with_mutation_and_cna_data
-case_list_ids: DS-vem-079-T	DS-vem-085-T	DS-vem-083-T	DS-vem-045-M	DS-vem-13-MT3	DS-vem-082-T	DS-vem-087-T	DS-vem-27-T	DS-vem-30-T	DS-vem-077-T	DS-vem-081-T	DS-vem-16-MT1	DS-vem-074-T	DS-vem-040-M	DS-vem-076-T	DS-vem-065-T	DS-vem-26-T	DS-vem-088-T	DS-vem-08-T1	DS-vem-089-T	DS-vem-069-T	DS-vem-071-T	DS-vem-03-PT	DS-mek-008-M1	DS-vem-12-T	DS-vem-057-M	DS-vem-006-T	DS-vem-10-T	DS-vem-022-T	DS-vem-086-T	DS-vem-084-T	DS-vem-051-T	DS-vem-061-T	DS-vem-02-PT1	DS-vem-090-T	DS-vem-056-M	DS-vem-067-T	DS-vem-041-M	DS-vem-054-M	DS-vem-075-T	DS-vem-092-T	DS-vem-043-M	DS-vem-066-T	DS-vem-072-T	DS-vem-07-MT1	DS-vem-053-M	DS-vem-073-T	DS-vem-068-T	DS-vem-070-T	DS-vem-038-M	DS-vem-035-M	DS-vem-24-T	DS-vem-019-T	DS-vem-036-P	DS-vem-21-MT1	DS-vem-049-T	DS-vem-11-T	DS-vem-09-T	DS-vem-058-M	DS-vem-05-T	DS-vem-23-T	DS-vem-29-T	DS-mek-004-T	DS-vem-050-M	DS-vem-014-T	DS-vem-037-M

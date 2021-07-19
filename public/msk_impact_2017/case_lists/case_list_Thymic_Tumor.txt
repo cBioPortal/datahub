@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Thymic_Tumor
-case_list_name: Tumor Type: Thymic Tumor
-case_list_description: All tumors with cancer type Thymic Tumor
-case_list_ids: P-0011578-T01-IM5	P-0000735-T01-IM3	P-0002983-T01-IM3	P-0010597-T01-IM5	P-0001930-T01-IM3	P-0003398-T01-IM5	P-0012285-T01-IM5	P-0001063-T01-IM3	P-0004925-T01-IM5	P-0011459-T01-IM5	P-0005746-T01-IM5	P-0001535-T01-IM3	P-0010717-T01-IM5	P-0004623-T01-IM5	P-0002370-T01-IM3	P-0004068-T01-IM5	P-0001362-T01-IM3	P-0010576-T01-IM5

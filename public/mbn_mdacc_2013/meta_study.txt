@@ -1,5 +1,0 @@
-type_of_cancer: mbn
-cancer_study_identifier: mbn_mdacc_2013
-name: Mature B-cell malignancies (MD Anderson Cancer Center)
-description: We performed targeted deep sequencing of 380 recurrently mutated genes across a cohort of 755 mature B-cell malignancies to define conserved and disease-specific patterns of genomic alterations.<a href="https://www.biorxiv.org/content/10.1101/674259v1.full">PubMed</a>
-short_name: MBN (MDACC 2013)

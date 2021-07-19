@@ -1,6 +1,0 @@
-cancer_study_identifier: mel_ucla_2016
-stable_id: mel_ucla_2016_3way_complete
-case_list_name: Complete samples
-case_list_description: Samples with mutation, CNA and expression data (26 samples)
-case_list_category: all_cases_with_mutation_and_cna_and_mrna_data
-case_list_ids: Pt28	Pt29	Pt27	Pt25	Pt22	Pt23	Pt20	Pt9	Pt7	Pt6	Pt5	Pt4	Pt2	Pt1	Pt13	Pt12	Pt10	Pt16	Pt15	Pt14	Pt31	Pt19	Pt32	Pt35	Pt37	Pt38

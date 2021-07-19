@@ -1,6 +1,0 @@
-cancer_study_identifier: stad_pfizer_uhongkong
-stable_id: stad_pfizer_uhongkong_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (100 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: pfg023T	pfg398T	pfg068T	pfg123T	pfg103T	pfg072T	pfg108T	pfg424T	pfg038T	pfg375T	pfg132T	pfg092T	pfg062T	pfg043T	pfg115T	pfg416T	pfg205T	pfg181T	pfg099T	pfg282T	pfg182T	pfg102T	pfg143T	pfg032T	pfg164T	pfg052T	pfg031T	pfg146T	pfg059T	pfg125T	pfg054T	pfg082T	pfg094T	pfg167T	pfg106T	pfg064T	pfg220T	pfg228T	pfg138T	pfg317T	pfg217T	pfg222T	pfg022T	pfg053T	pfg073T	pfg124T	pfg100T	pfg030T	pfg166T	pfg039T	pfg065T	pfg180T	pfg311T	pfg156T	pfg144T	pfg116T	pfg127T	pfg120T	pfg104T	pfg088T	pfg258T	pfg036T	pfg008T	pfg130T	pfg157T	pfg107T	pfg081T	pfg076T	pfg160T	pfg089T	pfg277T	pfg316T	pfg272T	pfg035T	pfg105T	pfg118T	pfg135T	pfg142T	pfg060T	pfg069T	pfg122T	pfg173T	pfg213T	pfg212T	pfg373T	pfg378T	pfg151T	pfg034T	pfg413T	pfg145T	pfg136T	pfg119T	pfg057T	pfg097T	pfg005T	pfg121T	pfg050T	pfg129T	pfg058T	pfg344T

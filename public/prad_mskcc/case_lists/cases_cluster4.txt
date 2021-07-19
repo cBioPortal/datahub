@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_mskcc
-stable_id: prad_mskcc_cluster4
-case_list_category: other
-case_list_name: Copy-number cluster 4
-case_list_description: Prostate cancer samples in DNA copy-number cluster 4 (37 samples)
-case_list_ids: PCA0198	PCA0070	PCA0059	PCA0143	PCA0154	PCA0071	PCA0048	PCA0116	PCA0043	PCA0006	PCA0023	PCA0046	PCA0038	PCA0081	PCA0037	PCA0092	PCA0096	PCA0097	PCA0099	PCA0103	PCA0127	PCA0129	PCA0130	PCA0133	PCA0155	PCA0160	PCA0161	PCA0163	PCA0167	PCA0171	PCA0172	PCA0064	PCA0066	PCA0005	PCA0008	PCA0020	PCA0029	

@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_mskcc
-stable_id: prad_mskcc_castr
-case_list_category: other
-case_list_name: Metastatic Tumors - Castrate
-case_list_description: All metastatic castrate prostate cancer samples (28 samples)
-case_list_ids: PCA0187	PCA0192	PCA0193	PCA0194	PCA0195	PCA0196	PCA0197	PCA0198	PCA0199	PCA0202	PCA0203	PCA0205	PCA0208	PCA0210	PCA0211	PCA0212	PCA0213	PCA0214	PCA0215	PCA0188	PCA0190	PCA0191	PCA0183	PCA0186	PCA0204	PCA0216	PCA0217	PCA0218	

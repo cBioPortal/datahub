@@ -1,8 +1,0 @@
-type_of_cancer: urcc
-cancer_study_identifier: urcc_mskcc_2016
-name: Unclassified Renal Cell Carcinoma (MSK, Nature 2016)
-short_name: Renal unclass (MSKCC)
-description: Targeted sequencing of 62 high-grade primary Unclassified Renal Cell Carcinoma tumor samples with matched normals. 
-pmid: 27713405
-citation: Chen et al. Nat Commun 2016
-groups: PUBLIC

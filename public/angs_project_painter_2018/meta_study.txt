@@ -1,7 +1,0 @@
-type_of_cancer: angs
-cancer_study_identifier: angs_project_painter_2018
-name: The Angiosarcoma Project - Count Me In (Nature Medicine, 2020)
-short_name: ASC Project
-description: The Angiosarcoma Project is an ongoing patient-driven initiative. This archived Angiosarcoma Project dataset was analyzed in the linked Nature Medicine 2020 manuscript, and is derived from 48 samples from 36 angiosarcoma patients. Angiosarcoma tumor specimens (FFPE) were subjected to whole-exome sequencing (along with matched germline whole-exome sequencing). In addition to genomic data, this study includes patient-reported data (pre-pended as PRD), medical record data (MedR), and pathology report data (PATH). All annotations have been de-identified. Questions about these data can be directed to data@ascproject.org.
-pmid: 32042194
-citation: Painter et al. Nat Med 2020

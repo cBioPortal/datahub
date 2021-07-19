@@ -1,6 +1,0 @@
-cancer_study_identifier: skcm_broad_dfarber
-stable_id: skcm_broad_dfarber_all
-case_list_name: All samples
-case_list_description: All samples (26 samples)
-case_list_category: all_cases_in_study
-case_list_ids: ME021	ME037	ME100	ME050	ME045	ME044	ME043	ME041	ME018	ME049	ME048	ME002	ME001	ME035	ME032	ME020	ME030	ME024	ME015	ME016	ME100L	ME029	ME011	ME012	ME009	ME007

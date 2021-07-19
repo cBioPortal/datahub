@@ -1,9 +1,0 @@
-type_of_cancer: acyc
-cancer_study_identifier: acyc_mda_2015
-name:Adenoid Cystic Carcinoma (MDA, Clin Cancer Res 2015)
-description:WGS of 21 salivary ACCs and targeted molecular analyses of a validation set (81 patients).
-short_name:ACyC (MDA 2015)
-public_study:true
-pmid:26631609
-citation:Mitani et al. Clin Cancer Res 2015
-groups:PUBLIC;ACYC

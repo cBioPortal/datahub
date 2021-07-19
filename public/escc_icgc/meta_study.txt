@@ -1,8 +1,0 @@
-type_of_cancer: escc
-cancer_study_identifier: escc_icgc
-name: Esophageal Squamous Cell Carcinoma (ICGC, Nature 2014)
-description: Whole-genome or whole-exome sequencing of 88 esophageal squamous cell carcinoma tumor/normal pairs.
-pmid: 24670651
-citation: Song et al. Nature 2014
-short_name: Esophagus sq (ICGC)
-groups: PUBLIC

@@ -1,7 +1,0 @@
-type_of_cancer: prad
-cancer_study_identifier: prad_eururol_2017
-name: Prostate Adenocarcinoma (SMMU, Eur Urol 2017)
-short_name: Prostate (Eur Urol 2017)
-description: Whole-genome and transcriptome sequencing of 65 Prostate Adenocarcinoma  tumor/normal pairs.
-pmid: 28927585
-citation: Shancheng et al. Eur Urol 2017

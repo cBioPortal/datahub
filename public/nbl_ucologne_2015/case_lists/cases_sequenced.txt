@@ -1,6 +1,0 @@
-cancer_study_identifier: nbl_ucologne_2015
-stable_id: nbl_ucologne_2015_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (56 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: NBL01	NBL02	NBL03	NBL04	NBL05	NBL06	NBL07	NBL08	NBL09	NBL10	NBL11	NBL12	NBL13	NBL14	NBL15	NBL16	NBL17	NBL18	NBL19	NBL20	NBL21	NBL22	NBL23	NBL24	NBL25	NBL26	NBL27	NBL28	NBL29	NBL30	NBL31	NBL32	NBL33	NBL34	NBL35	NBL36	NBL37	NBL38	NBL39	NBL40	NBL41	NBL42	NBL43	NBL44	NBL45	NBL47	NBL48	NBL49	NBL50	NBL51	NBL53	NBL54	NBL55	NBL56	NBL58	NBL61

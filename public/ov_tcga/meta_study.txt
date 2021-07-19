@@ -1,6 +1,0 @@
-type_of_cancer: hgsoc
-cancer_study_identifier: ov_tcga
-name: Ovarian Serous Cystadenocarcinoma (TCGA, Firehose Legacy)
-short_name: Ovarian (TCGA)
-description: TCGA Ovarian Serous Cystadenocarcinoma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/OV/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
-groups: PUBLIC

@@ -1,6 +1,0 @@
-cancer_study_identifier: plmeso_nyu_2015
-stable_id: plmeso_nyu_2015_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (22 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: NYU1353	NYU929	NYU517	NYU1162	NYU460	NYU1283	NYU274	NYU937	NYU589	NYU647	NYU1363	NYU1189	NYU1245	NYU321	NYU939	NYU754	NYU872	NYU695	NYU587	NYU269	NYU1396	NYU658

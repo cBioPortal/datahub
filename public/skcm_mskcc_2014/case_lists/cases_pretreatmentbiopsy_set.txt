@@ -1,5 +1,0 @@
-cancer_study_identifier: skcm_mskcc_2014
-stable_id: skcm_mskcc_2014_pretreatmentbiopsy
-case_list_name: Custom subset of Pre-treatment biopsy set samples
-case_list_description: Pre-treatment biopsy set (34 samples)
-case_list_ids: CR3665	CR4880	CR9306	NR1867	NR3156	NR3549	NR5784	NR8727	NR9341	SD1494	SD2051	SD2056	CR04885	CR22640	CR6126	CR6161	LSD0167	LSD2057	LSD3484	LSD4744	LSD6819	LSDNR1120	NR2137	NR4018	NR4083	NR6842	NR9445	NR9765	PR12117	PR4035	PR4046	PR4077	PR4091	PR4092

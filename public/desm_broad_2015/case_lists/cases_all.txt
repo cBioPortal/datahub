@@ -1,6 +1,0 @@
-cancer_study_identifier: desm_broad_2015
-stable_id: desm_broad_2015_all
-case_list_name: All samples
-case_list_description: All samples (20 samples)
-case_list_category: all_cases_in_study
-case_list_ids: 37M	53M	Au10	46M	Au1	Au3	Au2	Au5	Au4	Au7	Au6	Au9	Au8	35M	49M	11M	12M	19M	71M	40M

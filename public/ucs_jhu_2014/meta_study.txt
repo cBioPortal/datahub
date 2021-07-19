@@ -1,8 +1,0 @@
-type_of_cancer: ucs
-cancer_study_identifier: ucs_jhu_2014
-name: Uterine Carcinosarcoma (Johns Hopkins, Nat Commun 2014)
-description: Whole exome sequencing (WXS) of 22 uterine carcinosarcoma/uterine malignant mixed Mullerian (UCS) tumors with matched normals. <A HREF="http://www.nature.com/ncomms/2014/140919/ncomms6006/extref/ncomms6006-s1.pdf">
-citation: Jones et al. Nat Commun 2014
-pmid: 25233892
-short_name: ucs (Johns Hopkins 2014)
-groups: PUBLIC

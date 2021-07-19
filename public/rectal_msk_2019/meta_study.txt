@@ -1,6 +1,0 @@
-cancer_study_identifier: rectal_msk_2019
-description: MSK-IMPACT targeted sequencing of matched rectal cancer tumor and tumoroid samples.
-groups: SAUVEC;ZHENGY1;SELCUKLS;SANCHEZF;SMITHJ5;PUBLIC
-name: Rectal Cancer (MSK,Nature Medicine 2019)
-short_name: Rectal (MSK, 2019)
-type_of_cancer: coadread

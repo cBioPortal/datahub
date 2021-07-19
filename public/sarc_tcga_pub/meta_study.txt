@@ -1,8 +1,0 @@
-type_of_cancer: soft_tissue
-cancer_study_identifier: sarc_tcga_pub
-name: Adult Soft Tissue Sarcomas (TCGA, Cell 2017)
-description: Whole-exome sequencing of 206 Adult Soft Tissue Sarcoma tumor/normal pairs.
-citation: TCGA, Cell 2017
-pmid: 29100075
-short_name: SARC (TCGA CELL)
-groups: PUBLIC

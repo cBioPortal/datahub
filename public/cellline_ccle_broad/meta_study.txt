@@ -1,8 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: cellline_ccle_broad
-name: Cancer Cell Line Encyclopedia (Novartis/Broad, Nature 2012)
-description: Targeted sequencing of 1020 samples from Cancer Cell Line Encyclopedia from the Broad Institute and Novartis.
-citation: Barretina et al. Nature 2012
-pmid: 22460905
-short_name: CCLE (Novartis/Broad 2012)
-groups: PUBLIC

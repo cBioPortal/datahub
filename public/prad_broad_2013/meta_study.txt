@@ -1,8 +1,0 @@
-type_of_cancer: prad
-cancer_study_identifier: prad_broad_2013
-name: Prostate Adenocarcinoma (Broad/Cornell, Cell 2013)
-description: Whole genome sequencing of 57 prostate tumor and matches normal tissues. 
-citation: Baca et al. Cell 2013
-pmid: 23622249
-short_name: Prostate (Broad/Cornell 2013)
-groups: PUBLIC

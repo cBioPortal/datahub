@@ -1,6 +1,0 @@
-cancer_study_identifier: ccrcc_dfci_2019
-stable_id: ccrcc_dfci_2019_all
-case_list_name: All samples
-case_list_description: All samples (35 samples)
-case_list_category: all_cases_in_study
-case_list_ids: RCC_56-Tumor-SM-A46EJ	RCC_1-Tumor-SM-A46EX	RCC_20-Tumor-SM-A46EG	RCC_62-Tumor-SM-A46FI	RCC_97-Tumor-SM-A46EW	RCC_32-Tumor-SM-A46FH	RCC_50-Tumor-SM-A46EK	RCC_21-Tumor-SM-A46FB	RCC_106-Tumor-SM-A46FT	RCC_102-Tumor-SM-A46FM	RCC_10-Tumor-SM-A46EN	RCC_79-Tumor-SM-A46ER	RCC_119-Tumor-SM-A46FX	RCC_68-Tumor-SM-A46FC	RCC_114-Tumor-SM-A46FO	RCC_25-Tumor-SM-A46EF	RCC_73-Tumor-SM-A46FG	RCC_96-Tumor-SM-A46FW	RCC_15-Tumor-SM-A46EE	RCC_11-Tumor-SM-A46F1	RCC_99-Tumor-SM-A46F7	RCC_84-Tumor-SM-A46FL	RCC_18-Tumor-SM-A46EL	RCC_90-Tumor-SM-A46F3	RCC_39-Tumor-SM-A46EP	RCC_117-Tumor-SM-A46FP	RCC_14-Tumor-SM-A46F5	RCC_52-Tumor-SM-A46EU	RCC_85-Tumor-SM-A46EQ	RCC_41-Tumor-SM-A46FE	RCC_115-Tumor-SM-A46FY	RCC_105-Tumor-SM-A46FA	RCC_58-Tumor-SM-A46FJ	RCC_27-Tumor-SM-A46ES	RCC_93-Tumor-SM-A46F8

@@ -1,8 +1,0 @@
-type_of_cancer: acyc
-cancer_study_identifier: acyc_mgh_2016
-name: Adenoid Cystic Carcinoma (MGH, Nat Gen 2016)
-description: Whole-genome/exome sequencing of 10 ACC PDX models.
-short_name: ACyC (MGH 2016)
-pmid: 26829750
-citation: Drier et al. Nature Genetics 2016
-groups: ACYC

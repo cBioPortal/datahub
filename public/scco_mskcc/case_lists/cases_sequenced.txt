@@ -1,6 +1,0 @@
-cancer_study_identifier: scco_mskcc
-stable_id: scco_mskcc_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (12 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: scco_mskcc_106	scco_mskcc_107	scco_mskcc_104	scco_mskcc_105	scco_mskcc_102	scco_mskcc_110	scco_mskcc_101	scco_mskcc_112	scco_mskcc_108	scco_mskcc_109	scco_mskcc_111	scco_mskcc_103

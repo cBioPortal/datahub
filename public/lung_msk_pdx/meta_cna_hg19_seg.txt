@@ -1,6 +1,0 @@
-cancer_study_identifier: lung_msk_pdx
-reference_genome_id: hg19
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: SEG
-description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals). (ver v_2.0.1-41-g7c03a2d; BATCHES: 06437,,11_total)
-data_filename: data_cna_hg19.seg

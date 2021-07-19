@@ -1,8 +1,0 @@
-type_of_cancer: hdcn
-cancer_study_identifier: histiocytosis_cobi_msk_2019
-name: Histiocytosis Cobimetinib (MSK, Nature 2019)
-description: Targeted and whole exome sequencing of 52 histiocytosis tumor/normal pairs.
-groups: HYMANHISTCOBI;OMARHISTCOBI;DIAMONDHISTCOBI;PUBLIC
-short_name: HIST (COBI 2019)
-pmid: 30867592
-citation: Eli et al. Nature 2019

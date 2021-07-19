@@ -1,8 +1,0 @@
-type_of_cancer: nsclc
-cancer_study_identifier: nsclc_unito_2016
-name: Non-Small Cell Lung Cancer (University of Turin, Lung Cancer 2017)
-description: Targeted next-generation sequencing of 41 NSCLC samples.
-groups: PUBLIC
-short_name: UNITO (Lung Cancer, 2016)
-citation: Vavalà et al. Lung Cancer 2017
-pmid: 27346245

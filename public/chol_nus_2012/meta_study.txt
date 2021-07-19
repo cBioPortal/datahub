@@ -1,8 +1,0 @@
-type_of_cancer: chol
-cancer_study_identifier: chol_nus_2012
-name: Cholangiocarcinoma (National University of Singapore, Nat Genet 2012)
-description: Exome Sequencing for Opisthorchis viverrini-related cholangiocarcinoma in 8 O.viverrini-related tumors and matched normal tissue.
-citation: Ong et al. Nat Genet 2012
-pmid: 22561520
-short_name: Cholangiocarcinoma (NUS)
-groups: PUBLIC

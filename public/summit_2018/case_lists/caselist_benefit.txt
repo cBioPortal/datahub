@@ -1,5 +1,0 @@
-cancer_study_identifier: summit_2018
-stable_id: summit_2018_benefit
-case_list_name: Clinical Benefit (treatment duration >= 24 weeks)
-case_list_description: ERBB2 patients with clinical benefit (20 samples with IMPACT data)
-case_list_ids: 98	99	101	102	104	107	108	109	111	112	113	114	115	116	117	119	120	121	122	124

@@ -1,6 +1,0 @@
-cancer_study_identifier: acyc_mgh_2016
-stable_id: acyc_mgh_2016_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (10 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: ACCX6	ACCX2	ACCX5M1	ACCX9	ACCX11	ACCX12	ACCX14	ACCX16	ACCX22	ACCX19

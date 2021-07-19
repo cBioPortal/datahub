@@ -1,8 +1,0 @@
-type_of_cancer: coad
-cancer_study_identifier: coad_caseccc_2015
-name: Colon Adenocarcinoma (CaseCCC, PNAS 2015)
-description: Whole-exome sequencing of tumor/normal pairs from 29 African American Colon Cancers.
-citation: Guda et al. PNAS 2015
-pmid: 25583493
-short_name: COAD (CaseCCC)
-groups: PUBLIC

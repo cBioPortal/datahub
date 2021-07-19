@@ -1,6 +1,0 @@
-cancer_study_identifier: tet_nci_2014
-stable_id: tet_nci_2014_all
-case_list_name: All samples
-case_list_description: All samples (32 samples)
-case_list_category: all_cases_in_study
-case_list_ids: N-Thy002	P-Thy041	N-Thy004	P-Thy047	T1682	N-Thy008	N-Thy009	P-Thy021	P-Thy003	P-Thy026	P-Thy027	CMPC11-3104	CMPC11-3103	P-Thy009	TY82	P-Thy016	P-Thy008	P-Thy019	P-Thy018	N-Thy011	N-Thy017	N-Thy015	P-Thy015	P-Thy025	P-Thy031	P-Thy037	P-Thy034	P-Thy001	Padua002	Padua001	P-Thy051	P-Thy046
