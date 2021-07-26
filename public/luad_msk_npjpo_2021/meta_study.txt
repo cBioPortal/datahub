@@ -1,0 +1,5 @@
+type_of_cancer: luad
+cancer_study_identifier: luad_msk_npjpo_2021
+name: MSK MetTropism (NPJ Precision Oncology, MSK 2021)
+short_name: Lung Adenocarcinoma (NPJPO, MSK 2021)
+description: Targeted sequencing of 426 matched normal samples from 426 lung adenocarcinoma patients.
