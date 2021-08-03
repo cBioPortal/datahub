@@ -1,0 +1,5 @@
+type_of_cancer: luad
+cancer_study_identifier: luad_mskimpact_2021
+name: Lung Adenocarcinoma (MSKCC, 2021)
+short_name: LUAD (IMPACT, 2021)
+description: Targeted sequencing of 186 matched normal samples from 186 lung adenocarcinoma patient via MSK-IMPACT.
