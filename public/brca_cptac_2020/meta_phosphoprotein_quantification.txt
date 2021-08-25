@@ -1,10 +1,10 @@
+cancer_study_identifier: brca_cptac_2020
 genetic_alteration_type: GENERIC_ASSAY
-show_profile_in_analysis_tab: true
-data_filename: data_phosphoprotein_quantification.txt
+generic_assay_type: Phosphoproteome
 datatype: LIMIT-VALUE
 stable_id: phosphoproteome
+show_profile_in_analysis_tab: true
 profile_name: Phosphoprotein abundance ratio
 profile_description: Abundance ratio for phosphoproteins measured by mass spectrometry. Column PHOSPHOSITES: sites_#sites_#present_firstAA_lastAA
-generic_assay_type: Phosphoproteome
+data_filename: data_phosphoprotein_quantification.txt
 generic_entity_meta_properties: NAME,DESCRIPTION,GENE_SYMBOL,PHOSPHOSITES
-cancer_study_identifier: prot_krug_cell

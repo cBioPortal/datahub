@@ -1,5 +1,5 @@
-cancer_study_identifier: prot_krug_cell
-stable_id: prot_krug_cell_sequenced
+cancer_study_identifier: brca_cptac_2020
+stable_id: brca_cptac_2020_sequenced
 case_list_name: Sequenced samples
 case_list_description: Samples with mutation data
 case_list_category: all_cases_with_mutation_data
