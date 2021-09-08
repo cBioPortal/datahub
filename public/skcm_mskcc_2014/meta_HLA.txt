@@ -1,0 +1,11 @@
+cancer_study_identifier: skcm_mskcc_2014
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: HLA
+datatype: CATEGORICAL
+stable_id: hla
+profile_name: HLA data
+profile_description: profile for HLA data
+data_filename: data_HLA.txt
+show_profile_in_analysis_tab: true
+patient_level: true
+generic_entity_meta_properties: NAME,DESCRIPTION
