@@ -1,0 +1,10 @@
+genetic_alteration_type: GENERIC_ASSAY
+show_profile_in_analysis_tab: true
+data_filename: data_circularRNA_quantification.txt
+datatype: LIMIT-VALUE
+stable_id: circularRNA
+profile_name: cRNA expression (FPKM-UQ)
+profile_description: Expression of circular RNA abundance in FPKM-UQ values
+generic_assay_type: Acetylproteome
+generic_entity_meta_properties: NAME,DESCRIPTION,GENE_SYMBOL,C_RNA_ID
+cancer_study_identifier: gbm_cptac_2021
