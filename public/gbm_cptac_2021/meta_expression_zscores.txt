@@ -4,5 +4,5 @@ data_filename: data_expression_zscores.txt
 show_profile_in_analysis_tab: true
 stable_id: mrna_median_Zscores
 profile_name: Z-scores of mRNA expression (FPKM-UQ)
-profile_description: Z-scores of mRNA abundance in FPKM-UQ values, calculated over all patients
+profile_description: Z-scores of mRNA abundance in FPKM-UQ values, calculated over all diploid samples.
 cancer_study_identifier: gbm_cptac_2021

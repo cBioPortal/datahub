@@ -22,7 +22,7 @@ acetylome, lipidome, metabolome.
 - The data was taken from the supplementary table S2, sheet `somatic_mutation`.
 - We only included the columns that form part of the extended MAF format.
 - The original coordinates (in `GRCh38`) were transformed to `GRCh37` (hg19) using 
-  [Lift Genome](https://genome.ucsc.edu/cgi-bin/hgLiftOver). This affected the
+  [LiftOver](https://genome.ucsc.edu/cgi-bin/hgLiftOver). This affected the
   columns `NCBI_Build`, `Start_Position` and `End_Position`. The rows for which there
   was no match for hg19 coordinates were removed (78 out of 6757 rows).
 - Some mutations have multiple amino acid correspondences (e.g. `p.xxx; p.yyy`).
@@ -45,29 +45,30 @@ _mRNA_
 - The FPKM-UQ values of mRNA expression.
   were directly inferred from the table S2, sheet `gene_expression_fpkm_uq`.
 - Gene symbols were inferred from Ensembl Biomart using the Ensembl codes.
-- The z-scores were calculated from all tumor samples in the study.
+- The z-scores were calculated using all diploid samples as the reference population.
+For the computation, the zeroes were excluded and the values were log-transformed.
 
 
 _cRNA_
 
 - Circular RNA expression in FPKM-UQ was directly inferred from the table S2, sheet `circular_rna_fpkm_uq`.
 - Transformed as generic assay.
-- ENTITY_STABLE_ID was simply the Hugo symbol.
-- Other added column was the cRNA_ID.
+- ENTITY_STABLE_ID was the cRNA_ID, which includes the Hugo symbol.
+- Other added columns were the NAME (cRNA_ID), DESCRIPTION (gene type) and GENE_SYMBOL (Hugo symbol).
 
 _miRNA_
 
 - miRNA expression in TPM was read from the table S2, sheet `mirna_mature_tpm`.
 - As for mutation data, the coordinates were transformed from hg38 to hg19.
 - Transformed as generic assay.
-- ENTITY_STABLE_ID was simply the unique id.
-- Other added columns were START_POSITION and END_POSITION of the mutation sites.
+- ENTITY_STABLE_ID was the unique_id + miRNA name.
+- Other added columns were NAME (name), DESCRIPTION (start_end positions) and GENE_SYMBOL (unique_id) of the mutation sites.
 
 **Protein data**
 
 - The log2 normalized values were directly inferred from the table S2,
   sheet `proteome_normalized`.
-- The z-scores were calculated from all tumor samples in the study.
+  The z-scores were calculated using all diploid samples as the reference population.
 
 **Other assays**
 
@@ -76,17 +77,16 @@ _Phosphoprotein_
 - Phosphoprotein log2 peptide level quantification read from the sheet
   `phosphoproteome_normalized`.
 - Transformed as generic assay.
-- ENTITY_STABLE_ID was simply the Hugo symbol.
-- Other added columns were PHOSPHOSITES and PEPTIDE: 
-  detailed modification sites information.
+- ENTITY_STABLE_ID was the site_id (includes protein NCBI id).
+- Other added columns were NAME (site_id), DESCRIPTION (phosphosites + peptide) and GENE_SYMBOL (Hugo symbol) of the modified sites.
+
 
 _Acetylome_
 
 - Acetylprotein log2 peptide level quantification read from the sheet `acetylome_normalized`
 - Transformed as generic assay.
-- ENTITY_STABLE_ID was simply the Hugo symbol.
-- Other added columns were ACETYLSITES and PEPTIDE:
-  detailed modification sites information.
+- ENTITY_STABLE_ID was the site_id (includes protein NCBI id).
+- Other added columns were NAME (site_id), DESCRIPTION (acetylsite + peptide) and GENE_SYMBOL (Hugo symbol) of the modified sites.
 
 _Lipidome_
 

@@ -6,5 +6,5 @@ stable_id: microRNA
 profile_name: miRNA expression (TPM)
 profile_description: Expression of micro RNA abundance in TPM values
 generic_assay_type: Acetylproteome
-generic_entity_meta_properties: NAME,DESCRIPTION,GENE_SYMBOL,START_POSITION,END_POSITION
+generic_entity_meta_properties: NAME,DESCRIPTION,GENE_SYMBOL
 cancer_study_identifier: gbm_cptac_2021
