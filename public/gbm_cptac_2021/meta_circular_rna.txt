@@ -1,6 +1,6 @@
 genetic_alteration_type: GENERIC_ASSAY
 show_profile_in_analysis_tab: true
-data_filename: data_circularRNA_quantification.txt
+data_filename: data_circular_rna.txt
 datatype: LIMIT-VALUE
 stable_id: circularRNA
 profile_name: cRNA expression (FPKM-UQ)

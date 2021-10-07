@@ -33,6 +33,15 @@ acetylome, lipidome, metabolome.
 
 **CNA data**
 
+__continuous__
+
+- The data for Continuous Copy Number Variation was read from the file `HS_CPTAC_GBM_wgs_somatic_cnv_per_gene` in LinkedOmics
+(http://linkedomics.org/data_download/CPTAC-GBM/).
+- The Entrez gene id was obtained from Hugo symbol using Biomart.
+
+
+__discrete__
+
 - The data for Discrete Copy Number Variation was directly read from
 the supplementary table S2, sheet `somatic_cnv_gene_gistic`.
 - The Entrez gene id was obtained from Hugo symbol using Biomart.
@@ -45,7 +54,7 @@ _mRNA_
 - The FPKM-UQ values of mRNA expression.
   were directly inferred from the table S2, sheet `gene_expression_fpkm_uq`.
 - Gene symbols were inferred from Ensembl Biomart using the Ensembl codes.
-- The z-scores were calculated using all diploid samples as the reference population.
+- The z-scores were calculated using both diploid and all samples as the reference population.
 For the computation, the zeroes were excluded and the values were log-transformed.
 
 
@@ -59,16 +68,23 @@ _cRNA_
 _miRNA_
 
 - miRNA expression in TPM was read from the table S2, sheet `mirna_mature_tpm`.
-- As for mutation data, the coordinates were transformed from hg38 to hg19.
-- Transformed as generic assay.
-- ENTITY_STABLE_ID was the unique_id + miRNA name.
-- Other added columns were NAME (name), DESCRIPTION (start_end positions) and GENE_SYMBOL (unique_id) of the mutation sites.
+- Transformed as expression data.
+- The z-scores were calculated using all diploid samples as the reference population.
+  For the computation, the zeroes were excluded, and the values were log-transformed.
+
 
 **Protein data**
 
 - The log2 normalized values were directly inferred from the table S2,
   sheet `proteome_normalized`.
   The z-scores were calculated using all diploid samples as the reference population.
+
+**Somatic CNV segment data**
+
+- The log2 normalized values were directly inferred from the table S2,
+  sheet `somatic_cnv_segment`.
+- The original coordinates (in `GRCh38`) were transformed to `GRCh37` 
+  (hg19) using the same method as for mutation data.
 
 **Other assays**
 
