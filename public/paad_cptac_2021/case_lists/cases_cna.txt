@@ -1,5 +1,5 @@
-cancer_study_identifier: pdac_cptac_2021
-stable_id: pdac_cptac_2021_cna
+cancer_study_identifier: paad_cptac_2021
+stable_id: paad_cptac_2021_cna
 case_list_name: Samples with CNA data
 case_list_description: Samples with copy number alteration data
 case_list_category: all_cases_with_cna_data
