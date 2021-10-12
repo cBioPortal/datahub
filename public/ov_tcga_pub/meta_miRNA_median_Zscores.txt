@@ -5,4 +5,4 @@ profile_description: microRNA expression Z-scores compared to all tumors.
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 show_profile_in_analysis_tab: true
-data_filename: data_miRNA_median_Zscores.txt
+data_filename: data_mirna_zscores.txt

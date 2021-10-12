@@ -5,4 +5,4 @@ datatype: CONTINUOUS
 show_profile_in_analysis_tab: FALSE
 profile_name: mRNA Expression, RSEM (Batch normalized from Illumina HiSeq_RNASeqV2)
 profile_description:mRNA Expression, RSEM (Batch normalized from Illumina HiSeq_RNASeqV2)
-data_filename: data_RNA_Seq_v2_expression_median.txt
+data_filename: data_mrna_seq_v2_rsem.txt

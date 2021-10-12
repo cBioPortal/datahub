@@ -5,4 +5,4 @@ profile_description: mRNA expression from capture (RNA Seq FPKM)
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: CONTINUOUS
 show_profile_in_analysis_tab: false
-data_filename: data_mRNA_seq_fpkm_capture.txt
+data_filename: data_mrna_seq_fpkm_capture.txt

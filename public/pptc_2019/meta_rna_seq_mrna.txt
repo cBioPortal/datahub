@@ -5,4 +5,4 @@ stable_id: rna_seq_mrna
 profile_description: mRNA expression (RNA-Seq FPKM)
 show_profile_in_analysis_tab: false
 profile_name: mRNA Expression (RNA-Seq FPKM)
-data_filename: data_rna_seq_mrna.txt
+data_filename: data_mrna_seq_rpkm.txt

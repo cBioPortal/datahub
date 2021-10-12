@@ -5,4 +5,4 @@ profile_description: mRNA expression z-scores on 60 samples (Illumina microarray
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 show_profile_in_analysis_tab: true
-data_filename: data_mRNA_median_Zscores.txt
+data_filename: data_mrna_agilent_microarray_zscores_ref_diploid_samples.txt

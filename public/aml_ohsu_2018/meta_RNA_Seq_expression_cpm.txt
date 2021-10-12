@@ -5,4 +5,4 @@ stable_id: mrna_seq_cpm
 show_profile_in_analysis_tab: false
 profile_name: mRNA expression (RNA Seq CPM)
 profile_description: Expression levels for genes in 451 AML cases (RNA Seq CPM).
-data_filename: data_RNA_Seq_expression_cpm.txt
+data_filename: data_mrna_seq_cpm.txt

@@ -5,4 +5,4 @@ stable_id: mrna
 show_profile_in_analysis_tab: false
 profile_name: mRNA expression (microarray)
 profile_description: Expression log intensity levels (Illumina Human v3 microarray)
-data_filename: data_expression_median.txt
+data_filename: data_mrna_agilent_microarray.txt
