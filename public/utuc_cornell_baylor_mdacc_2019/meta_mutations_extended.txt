@@ -5,5 +5,5 @@ stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_description: Non synonymous mutations from whole exome sequencing
 profile_name: Mutations called from Research Pipeline
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt
 swissprot_identifier: accession

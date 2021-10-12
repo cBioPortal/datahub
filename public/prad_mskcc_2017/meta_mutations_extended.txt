@@ -5,4 +5,4 @@ profile_description: Targeted sequencing of 504 prostate cancer tumor/normal pai
 genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
 show_profile_in_analysis_tab: true
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

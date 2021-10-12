@@ -5,7 +5,7 @@ datatype: LIMIT-VALUE
 stable_id: CCLE_drug_treatment_AUC
 profile_name: Treatment response: AUC
 profile_description: Area under the sigmoidal curve, derived from fitting the drug screening tests to a mixed-effects model (Vis et al. 2016).
-data_filename: data_drug_treatment_AUC.txt
+data_filename: data_drug_treatment_auc.txt
 show_profile_in_analysis_tab: true
 pivot_threshold_value: 0
 value_sort_order: ASC

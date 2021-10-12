@@ -5,4 +5,4 @@ profile_description: Putative copy-number calls. Values: -2 = homozygous deletio
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: DISCRETE
 show_profile_in_analysis_tab: true
-data_filename: data_CNA.txt
+data_filename: data_cna.txt

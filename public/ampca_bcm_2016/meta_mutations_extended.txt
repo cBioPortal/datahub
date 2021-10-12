@@ -5,4 +5,4 @@ stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_description: Mutation data from exome sequencing analysis of 160 cancers arising in the periampullary region, 62 of these clearly arising from either the bile duct (n = 44) or the duodenum (n = 18) and 98 for which the epithelium of origin could not be clearly defined morphologically (AMPAC).
 profile_name: Mutations
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

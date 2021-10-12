@@ -5,4 +5,4 @@ datatype: MAF
 show_profile_in_analysis_tab: true
 profile_description: Whole-exome sequencing of 619 colorectal cancers with clinicopathologic annotations
 profile_name: Mutations
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

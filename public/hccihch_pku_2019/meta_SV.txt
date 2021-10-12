@@ -5,4 +5,4 @@ stable_id: structural_variants
 show_profile_in_analysis_tab: true
 profile_name: SV data
 profile_description: Struvtural variant data sequenced with whole-exome sequencing.
-data_filename: data_SV.txt
+data_filename: data_sv.txt

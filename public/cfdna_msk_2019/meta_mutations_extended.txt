@@ -5,4 +5,4 @@ stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_description: Somatic mutation data from targeted (MSK-IMPACT or GRAIL) sequencing of 248 samples of cfDNA/WBC and tumor/normal pairs 
 profile_name: Mutations
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

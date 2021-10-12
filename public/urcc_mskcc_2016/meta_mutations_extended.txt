@@ -5,4 +5,4 @@ show_profile_in_analysis_tab: true
 profile_description: Mutation status from targeted sequencing (IMPACT assay) of 62 high-grade primary Unclassified Renal Cell Carcinoma tumor samples with matched normals.
 profile_name: Mutations
 datatype: MAF
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

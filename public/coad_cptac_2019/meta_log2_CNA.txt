@@ -5,4 +5,4 @@ stable_id: log2CNA
 show_profile_in_analysis_tab: false
 profile_name: Log2 ratio copy-number values 
 profile_description: Copy number change at the gene level, GISTIC2 log ratio
-data_filename: data_log2_CNA.txt
+data_filename: data_log2_cna.txt

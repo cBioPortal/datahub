@@ -5,6 +5,6 @@ datatype: CATEGORICAL
 stable_id: armlevel_cna
 profile_name: Putative arm-level copy-number from GISTIC
 profile_description: Putative arm-level copy-number from GISTIC 2.0.
-data_filename: data_armlevel_CNA.txt
+data_filename: data_armlevel_cna.txt
 show_profile_in_analysis_tab: true
 generic_entity_meta_properties: NAME,DESCRIPTION

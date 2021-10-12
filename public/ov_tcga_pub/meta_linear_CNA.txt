@@ -5,4 +5,4 @@ profile_name: Capped relative linear copy-number values
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: CONTINUOUS
 show_profile_in_analysis_tab: false
-data_filename: data_linear_CNA.txt
+data_filename: data_linear_cna.txt

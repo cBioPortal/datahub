@@ -5,4 +5,4 @@ stable_id: mutations
 profile_name: Mutations
 profile_description: Mutation data from MSK-IMPACT.
 show_profile_in_analysis_tab: true
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

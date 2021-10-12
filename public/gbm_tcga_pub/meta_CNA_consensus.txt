@@ -5,4 +5,4 @@ profile_description: Putative copy-number calls for genes implicated in glioblas
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: DISCRETE
 show_profile_in_analysis_tab: true
-data_filename: data_CNA_consensus.txt
+data_filename: data_cna_consensus.txt

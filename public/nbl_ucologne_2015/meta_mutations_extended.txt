@@ -5,4 +5,4 @@ datatype: MAF
 show_profile_in_analysis_tab: true
 profile_description: Mutation data from whole-genome sequencing of 56 neuroblastomas and matched normal controls.
 profile_name: Mutations
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

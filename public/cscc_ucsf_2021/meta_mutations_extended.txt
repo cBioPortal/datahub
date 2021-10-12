@@ -5,4 +5,4 @@ stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_name: cscc_mutations
 profile_description: Mutations in whole exome sequencing of cutaneous squamous cell carcinoma
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

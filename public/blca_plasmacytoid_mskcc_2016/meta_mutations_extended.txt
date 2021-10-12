@@ -5,4 +5,4 @@ stable_id:mutations
 show_profile_in_analysis_tab: true
 profile_name: Bladder Cancer, Plasmacytoid Variant (MSKCC, Nat Gen 2016)
 profile_description: Genomic profiling of plasmacytoid-variant (signet ring cell) tumors of the bladder, published set.
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

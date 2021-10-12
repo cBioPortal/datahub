@@ -5,4 +5,4 @@ datatype: MAF
 show_profile_in_analysis_tab: true
 profile_description: Mutation data from whole-genome sequencing of 110 small cell lung cancer(SCLC) tumour samples and matched normal material.
 profile_name: Mutations
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

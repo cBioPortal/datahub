@@ -5,4 +5,4 @@ stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_name: Mutations
 profile_description: Somatic mutation data from targeted sequencing of 412 intrahepatic cholangiocarcinoma patients.
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

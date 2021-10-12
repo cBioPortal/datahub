@@ -4,6 +4,6 @@ profile_name: Mutations
 profile_description: Mutation data from MSK-IMPACT sequencing of 197 advanced-staged endometrial cancer tumor samples with matched normals
 genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt
 show_profile_in_analysis_tab: true
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt
