@@ -4,3 +4,4 @@ name: Lymphoma Cell Lines (MSKCC, 2020)
 description: Targeted sequencing of 34 lymphoma cell lines using HemePACT_v3
 groups: PUBLIC
 short_name: Lymph Cellline (MSKCC, 2020)
+PMID: 33067607
