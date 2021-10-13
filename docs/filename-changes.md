@@ -19,9 +19,8 @@ CNA | data_CNA_RAE.txt | data_cna_rae.txt
 CNA | data_armlevel_CNA.txt | data_armlevel_cna.txt
 RPPA | data_rppa_Zscores.txt | data_rppa_zscores.txt
 Protein Quantification | data_protein_quantification_Zscores.txt | data_protein_quantification_zscores.txt
-MAF | data_mutations_extended.txt | data_mutations_uniprot_canonical_transcripts.txt
-MAF | data_mutations_extended_*.txt | data_mutations_uniprot_canonical_transcripts_*.txt
-MAF | data_mutations_mskcc.txt | data_mutations_mskimpact_transcripts.txt
+MAF | data_mutations_extended.txt | FILE REMOVED
+MAF | data_mutations_mskcc.txt | data_mutations.txt
 Gene Panel | data_gene_matrix.txt | data_gene_panel_matrix.txt
 Generic Assay | data_drug_treatment_AUC.txt | data_drug_treatment_auc.txt
 Generic Assay | data_drug_treatment_IC50.txt | data_drug_treatment_ic50.txt
@@ -68,3 +67,5 @@ Methylation | data_methylation_promoters_hmEPIC.txt | data_methylation_promoters
 Methylation | data_methylation_genebodies_hmEPIC.txt | data_methylation_genebodies_hmepic.txt
 
 Some of the filename updates here are just case changes. All the filenames were lowercased for uniformity.
+
+The uniprot isoform overrides maf was removed from all studies. The mskcc overrides maf was renamed to `data_mutations.txt` for simplicity and will be used for import. 
