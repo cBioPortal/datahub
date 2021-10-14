@@ -3,6 +3,6 @@ datatype: CONTINUOUS
 data_filename: data_mirna.txt
 show_profile_in_analysis_tab: false
 stable_id: mirna
-profile_name: miRNA expression (FPKM uq)
-profile_description: Micro RNA expression by miRNA abundance in FPKM values
+profile_name: miRNA expression (TPM)
+profile_description: Micro RNA expression by miRNA abundance in TPM values
 cancer_study_identifier: luad_cptac_2020
