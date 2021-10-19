@@ -8,7 +8,7 @@ https://www.cell.com/cancer-cell/fulltext/S1535-6108(21)00050-7
 Data was downloaded from the supplementary files:
 - Table S1 (`mmc2.xlsx`): clinical data
 - Table S2 (`mmc3.xlsx`): somatic mutation data, CNA gistic, expression mRNA, cRNA, miRNA, protein data, phosphoproteome,
-acetylome, lipidome, metabolome.
+acetylome, lipidome, metabolome and DNA methylation.
 
 ## The data transformation
 
@@ -117,3 +117,8 @@ _Metabolome_
 - Metabolome quantification (log2) read from the sheet `metabolome_normalized`.
 - Transformed as generic assay.
 - ENTITY_STABLE_ID was simply the Metabolite identifier.
+
+_DNA Methylation_
+
+- Genome-wide DNA methylation profiling (beta values) from the [CPTAC data portal](https://cptac-data-portal.georgetown.edu/study-summary/S057).
+- Transformed as generic assay
