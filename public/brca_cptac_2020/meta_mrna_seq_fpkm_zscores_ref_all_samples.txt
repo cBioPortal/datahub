@@ -5,4 +5,4 @@ stable_id: mrna_median_Zscores
 show_profile_in_analysis_tab: true
 profile_name: Z-scores of mRNA expression (FPKM)
 profile_description: Z-scores of mRNA abundance in FPKM values, calculated over all patients
-data_filename: data_expression_zscores.txt
+data_filename: meta_mrna_seq_fpkm_zscores_ref_all_samples.txt
