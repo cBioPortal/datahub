@@ -77,7 +77,7 @@ _miRNA_
 
 - The log2 normalized values were directly inferred from the table S2,
   sheet `proteome_normalized`.
-  The z-scores were calculated using all diploid samples as the reference population.
+  The z-scores were calculated using all samples as the reference population.
 
 **Somatic CNV segment data**
 
