@@ -37,12 +37,12 @@ _mRNA_
 - Data from table S2, sheet `Table S2D`: gene-level, upper-quartile normalized counts converted to log2-transformed RPKM values.
 - The expression values were directly read from this data.
 - The Entrez Gene IDs were derived from the Hugo symbols using Biomart.
-- The z-scores were calculated using all diploid samples as the reference population. For the computation, the zeroes were excluded and the values were log-transformed.
+- The z-scores were calculated using all samples as the reference population. For the computation, the zeroes were excluded and the values were log-transformed.
 
 _miRNA_
 
 - Data from table S2, sheet `Table S2F`: log2-transformed TPM counts for mature microRNA transcripts.
-- The z-scores were calculated using all diploid samples as the reference population. For the computation, the zeroes were excluded and the values were log-transformed.
+- The z-scores were calculated using all samples as the reference population. For the computation, the zeroes were excluded and the values were log-transformed.
 
 
 # Methylation data
@@ -53,7 +53,7 @@ _miRNA_
 # Protein data
 
 - Data from table S3, sheet `Table S3A`: two-component normalized Log2 transformed protein expression.
-- The z-scores were calculated using all diploid samples as the reference population.
+- The z-scores were calculated using all samples as the reference population.
 
 # Phosphosites data
 
