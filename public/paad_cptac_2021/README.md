@@ -53,7 +53,7 @@ for the data sets related to tumor.
 
 - From file `proteomics_gene_level_MD_abundance_tumor.cct.txt`: Proteomics data, median-normalized intensity.
 - The protein values were obtained directly from the file.
-- The z-scores were calculated using all diploid samples as the reference population.
+- The z-scores were calculated using all samples as the reference population.
 
 # miRNA expression
 
