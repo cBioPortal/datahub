@@ -2,7 +2,7 @@ genetic_alteration_type: GENERIC_ASSAY
 show_profile_in_analysis_tab: true
 data_filename: data_circular_rna.txt
 datatype: LIMIT-VALUE
-stable_id: circularRNA
+stable_id: crna_quantification
 profile_name: cRNA expression (FPKM-UQ)
 profile_description: Expression of circular RNA abundance in FPKM-UQ values
 generic_assay_type: cRNA
