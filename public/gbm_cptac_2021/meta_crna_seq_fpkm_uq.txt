@@ -1,0 +1,8 @@
+cancer_study_identifier: gbm_cptac_2021
+stable_id: crna_seq_fpkm_uq
+profile_name: cRNA expression (FPKM-UQ)
+profile_description: Expression of circular RNA abundance in FPKM-UQ values (log2 transformed)
+genetic_alteration_type: CRNA_EXPRESSION
+datatype: CONTINUOUS
+show_profile_in_analysis_tab: false
+data_filename: data_crna_seq_fpkm_uq.txt
