@@ -6,4 +6,4 @@ show_profile_in_analysis_tab: true
 profile_name: Mutations
 profile_description: IMPACT341 sequencing of tumor/normal samples
 genetic_alteration_type: MUTATION_EXTENDED
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

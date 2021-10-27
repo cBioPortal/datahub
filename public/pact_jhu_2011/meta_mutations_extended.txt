@@ -5,4 +5,4 @@ profile_description: Whole-exome sequencing of major neoplastic cyst types of th
 show_profile_in_analysis_tab: true
 genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

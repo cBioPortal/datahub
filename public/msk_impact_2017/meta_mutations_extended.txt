@@ -5,4 +5,4 @@ stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_name: Mutations (MSK-IMPACT)
 profile_description: Targeted sequencing of various tumor types via MSK-IMPACT on Illumina HiSeq sequencers.
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

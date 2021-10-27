@@ -4,5 +4,5 @@ profile_name: Mutations
 profile_description: Somatic mutations from exome sequencing of 78 tumor/normal pairs from 45 patients with BRAFV600-mutant metastatic melanoma who received vemurafenib or dabrafenib monotherapy.
 genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt
 show_profile_in_analysis_tab: true

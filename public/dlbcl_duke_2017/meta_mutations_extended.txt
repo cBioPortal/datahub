@@ -5,4 +5,4 @@ stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_name: Mutations
 profile_description: Mutations from whole-exome sequencing of 1,001 Diffuse Large B Cell Lymphoma (DLBCL) tumors (N = 1001) and paired-normal tissue (N = 400)
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

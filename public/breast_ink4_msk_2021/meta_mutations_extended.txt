@@ -5,4 +5,4 @@ stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_description: Targeted Sequencing of 1365 metastatic Breast Cancer tumor/normal pairs via MSK-IMPACT.
 profile_name: Mutations
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

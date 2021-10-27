@@ -5,4 +5,4 @@ datatype: MAF
 show_profile_in_analysis_tab: true
 profile_description: Mutation data from whole genome sequencing(WGS) of 22 infant MLL-rearranged acute lymphoblastic leukemia(MLL-R ALL) cases.
 profile_name: Mutations
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt

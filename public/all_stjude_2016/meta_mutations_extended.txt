@@ -5,4 +5,4 @@ stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_description: Paired-end whole-genome and/or WXS sequencing of tumor and normal DNA samples.
 profile_name: Mutations
-data_filename: data_mutations_extended.txt
+data_filename: data_mutations.txt
