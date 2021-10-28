@@ -5,5 +5,4 @@ stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_name: Mutations
 profile_description: Mutations
-data_filename: data_mutations.maf
-swissprot_identifier: accession
+data_filename: data_mutations.txt

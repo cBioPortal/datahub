@@ -10,12 +10,14 @@ Data was downloaded from the supplementary files:
 ## Notes on data transformation
 
 Metadata
-- Clinical data was directly inferred from the Excel sheet. Manual distinctionw as made on patient/sample attributes.
+- Clinical data was directly inferred from the Excel sheet. Manual distinction as made on patient/sample attributes.
 - Data contained 1 sample per patient
 
 Mutation data
-- Mutation data did not contain specific amino acid changes or base changes, hence no HGVSp and mutations are loaded under the generic MUTATED flag
-- Variant Classification was directly inferred from the table. It did already follow cBioPortal conventions
+
+- The MAF was filtered according to the following algorithm (based on https://doi.org/10.1016/j.ccell.2020.10.015): 
+remove mutation if VAF (t_alt_count / (t_ref_count + t_alt_count)) <= 0.65 and AF in any population annotation (1000 genomes, etc.) > .001
+In addition, it was checked against germline calls, removing one additional call that was likely missed because the hg19 annotation data source used is somewhat out of date. In total 655 mutations out of 29,673 were filtered out that way.
 
 Protein data
 - Gene symbols were inferred from Ensembl Biomart from the Refseq Protein IDs
@@ -37,8 +39,4 @@ Expression data
 
 CNA data
 - Continuous data was inferred from the table
-- Discrete data was inferred from the continuous data, considering genes exceeding the amplification/deletion 
-threshold of +-0.1 (as described in the Methods of the paper) as heterozygous amplifications/deletions.
-- The high-level thresholds were not given in the data, and are difficult to recalculate using these data.
-GISTIC calculates deep deletions/amplifications thresholds based on the arm-level values. After manual inspection of the
-data distribution we determined an arbitrary threshold of +-1 to classify homozygous amplifications/deletions.
+- Discrete CNA calls were delivered by the authors upon request
