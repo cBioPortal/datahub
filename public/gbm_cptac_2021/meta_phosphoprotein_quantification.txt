@@ -6,5 +6,5 @@ stable_id: phosphoproteome
 profile_name: Phosphoprotein abundance ratio
 profile_description: Abundance ratio for phosphoproteins measured by mass spectrometry.
 generic_assay_type: Phosphoproteome
-generic_entity_meta_properties: NAME,DESCRIPTION,GENE_SYMBOL
+generic_entity_meta_properties: NAME,GENE_SYMBOL
 cancer_study_identifier: gbm_cptac_2021
