@@ -1,0 +1,8 @@
+cancer_study_identifier: pancan_pcawg_2020
+stable_id: mirna
+profile_name: miRNA expression (UQ normalized)
+profile_description: PCAWG-14 miRNA expression. UQ normalized miRNA expression matrices. Contain results for 1864 of 5806 total mature miRNA genes that have passed various filtering steps that are described at https://www.synapse.org/#!Synapse:syn5842981.
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+show_profile_in_analysis_tab: false
+data_filename: data_mirna.txt
