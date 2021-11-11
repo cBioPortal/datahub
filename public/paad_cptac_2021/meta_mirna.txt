@@ -1,10 +1,8 @@
-genetic_alteration_type: GENERIC_ASSAY
-show_profile_in_analysis_tab: true
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
 data_filename: data_mirna.txt
-datatype: LIMIT-VALUE
+show_profile_in_analysis_tab: false
 stable_id: mirna
-profile_name: miRNA expression (TPM)
-profile_description: Expression of micro RNA abundance in TPM values
-generic_assay_type: miRNA
-generic_entity_meta_properties: NAME,GENE_SYMBOL
-cancer_study_identifier: paad_cptac_2021
+profile_name: miRNA expression (log2 TPM)
+profile_description: Micro RNA expression by miRNA abundance in log2 TPM values.
+cancer_study_identifier: paad_cptac_2020
