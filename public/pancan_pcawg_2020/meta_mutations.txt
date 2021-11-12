@@ -1,0 +1,8 @@
+cancer_study_identifier: pancan_pcawg_2020
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_name: Mutations
+profile_description: Whole genome sequencing extracted from consensus coding mutation data (simple somatic mutation).
+data_filename: data_mutations.txt
