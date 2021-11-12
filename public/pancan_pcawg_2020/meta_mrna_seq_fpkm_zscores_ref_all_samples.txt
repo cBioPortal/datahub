@@ -1,0 +1,8 @@
+cancer_study_identifier: pancan_pcawg_2020
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+stable_id: mrna_seq_fpkm_capture_all_sample_Zscores
+show_profile_in_analysis_tab: true
+profile_description: Log-transformed mRNA z-scores compared to expression distribution of all samples (RNA Seq FPKM).
+profile_name: mRNA expression z-scores relative to all samples (log FPKM capture)
+data_filename: data_mrna_seq_fpkm_zscores_ref_all_samples.txt

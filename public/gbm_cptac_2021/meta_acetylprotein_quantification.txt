@@ -1,0 +1,10 @@
+genetic_alteration_type: GENERIC_ASSAY
+show_profile_in_analysis_tab: true
+data_filename: data_acetylprotein_quantification.txt
+datatype: LIMIT-VALUE
+stable_id: acetylprotein_quantification
+profile_name: Acetylprotein abundance ratio
+profile_description: Abundance ratio for acetylproteins measured by mass spectrometry.
+generic_assay_type: Acetylproteome
+generic_entity_meta_properties: NAME,DESCRIPTION,GENE_SYMBOL
+cancer_study_identifier: gbm_cptac_2021
