@@ -30,15 +30,6 @@ for the data sets related to tumor.
   was no match for hg19 coordinates were removed (57 out of 6382).
 - Some mutations have multiple amino acid correspondences (e.g. `p.xxx; p.yyy`).
   We moved each one to a different row.
-  
-# CNA data
-
-- From file `SCNA_log2_gene_level.cct.txt`: Gene level copy number data, ratio (gistic2 log2ratio).
-- The values for continuous CNA data were directly read from the file.
-- The Entrez Gene ID was obtained from the respective Hugo symbols using Biomart.
-- The discrete CNA data were derived from the continuous files, 
-  with thresholds as follows: 
-  (-inf, -1): -2, \[-1, -0.1): -1, \[-0.1, 0.1\]: 0, (0.1, 1\]: 1, (1, inf): 2.
 
 # Expression data
 
@@ -81,5 +72,9 @@ for the data sets related to tumor.
 - From file `methylation_betaValue_Tumor.cct.txt`: Gene level methylation data.
 - Transformed as generic assay. Other added columns were ENTITY_STABLE_ID, NAME and GENE_SYMBOL (unnamed).
 
+# CNA data
 
-
+- The article provides CNA data, in the 
+`SCNA_log2_gene_level.cct.txt` file. However, these data were not included
+in this study because each sample has few unique values
+across the genes.
