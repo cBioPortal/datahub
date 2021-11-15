@@ -1,0 +1,8 @@
+cancer_study_identifier: brca_tcga_pub2015
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+stable_id: mrna_median_Zscores
+show_profile_in_analysis_tab: true
+profile_description: mRNA z-Scores (Agilent microarray) compared to the expression distribution of each gene tumors that are diploid for this gene.
+profile_name: mRNA expression z-Scores relative to diploid samples (microarray)
+data_filename: data_mrna_agilent_microarray_zscores_ref_diploid_samples.txt
