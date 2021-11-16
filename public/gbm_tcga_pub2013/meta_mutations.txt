@@ -1,0 +1,9 @@
+cancer_study_identifier: gbm_tcga_pub2013
+stable_id: mutations
+profile_name: Mutations
+profile_description: Mutation data from whole-exome sequencing of 291 tumors/normal pairs.
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+target_line: mutation
+data_filename: data_mutations.txt
+show_profile_in_analysis_tab: true
