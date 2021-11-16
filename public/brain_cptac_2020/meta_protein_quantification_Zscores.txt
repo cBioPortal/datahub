@@ -5,4 +5,4 @@ profile_description: Z scores of study protein expression (mass spectrometry by 
 genetic_alteration_type: PROTEIN_LEVEL
 datatype: Z-SCORE
 show_profile_in_analysis_tab: true
-data_filename: data_protein_quantification_Zscores.txt
+data_filename: data_protein_quantification_zscores.txt

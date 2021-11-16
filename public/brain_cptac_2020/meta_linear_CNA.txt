@@ -5,4 +5,4 @@ profile_description: Predicted copy number values from WGS (log2 ratio). Copy nu
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: LOG2-VALUE
 show_profile_in_analysis_tab: false
-data_filename: data_linear_CNA.txt
+data_filename: data_linear_cna.txt
