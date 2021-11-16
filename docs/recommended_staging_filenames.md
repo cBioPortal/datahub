@@ -1,4 +1,4 @@
-## Recommended Data Filenames:
+## Recommended Staging Filenames:
 
 This document provides recommendations for staging filenames the cancer study data should assume in order for the study to be successfully added to datahub.
 
