@@ -36,7 +36,7 @@ for the data sets related to tumor.
 - From file `mRNA_RSEM_UQ_log2_Tumor.cct.txt`: RNAseq data RSEM upper-quartile normalized (Illumina HiSeq platform, Gene-level).
 - The expression values were directly read from this data.
 - The Entrez Gene IDs were derived from the Hugo symbols using Biomart.
-- The coordinates were transformed from hg38 to hg19, the 
+- The coordinates were transformed from hg38 to hg19, in the 
   same way as for the mutation data.
 - The z-scores were calculated using all diploid samples as the reference population. For the computation, the zeroes were excluded and the values were log-transformed.
 
@@ -55,6 +55,12 @@ for the data sets related to tumor.
 
 - From file `circRNA_RSEM_UQ_log2_Tumor.cct.txt`: circRNA expression RSEM, log2(+1) transformed.
 - Transformed as generic assay. Other added columns were ENTITY_STABLE_ID, NAME and GENE_SYMBOL (unnamed).
+
+# Segment data
+
+- From file `SCNA_log2_segment_level.cct.txt` file. 
+- The coordinates were transformed from hg38 to hg19, in the same way as for the mutation data.
+The rows for which there was no match for hg19 coordinates were removed (3240 out of 28079).
 
 # Phosphoproteomics data
 
