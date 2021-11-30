@@ -1,6 +1,5 @@
 type_of_cancer: lung
 cancer_study_identifier: lung_msk_pdx
 name: Thoracic PDX (MSK, Provisional)
-description: Targeted sequencing of thoracic PDX lines to characterize genetic alterations in 138 tumor/normal pairs via MSK-IMPACT. Data generated in Charles Rudin Lab.
-groups: COMPONC;RUDINC;PUBLIC;SCLCPORTAL
+description: Targeted sequencing of thoracic PDX lines to characterize genetic alterations in 318 tumor/normal pairs via MSK-IMPACT.
 short_name: MIXED (CMO CR_pdx IMPACT)
