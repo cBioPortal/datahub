@@ -1,5 +1,5 @@
-cancer_study_identifier: mpcproject_van_allen_2021
-stable_id: mpcproject_van_allen_2021_all
+cancer_study_identifier: mpcproject_broad_2021
+stable_id: mpcproject_broad_2021_all
 case_list_name: All samples
 case_list_description: All samples (123 samples)
 case_list_category: all_cases_in_study
