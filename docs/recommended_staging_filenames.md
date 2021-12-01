@@ -2,7 +2,7 @@
 
 This document provides recommendations for staging filenames the cancer study data should assume in order for the study to be successfully added to datahub.
 
-cBioPortal provides a set of [staging files formats](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats) for the various data types.
+cBioPortal also provides a set of [staging files formats](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats) for the various data types.
 
 Datatype | Data Level | Recommended Data Filename | Recommended Meta Filename | Meta Stable_id | Meta Genetic_alteration_type| Meta Datatype
 -- | -- | -- | -- | -- | -- | -- 
