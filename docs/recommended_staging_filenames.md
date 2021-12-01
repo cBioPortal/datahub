@@ -5,7 +5,7 @@ This document provides recommendations for staging filenames the cancer study da
 cBioPortal provides a set of [staging files formats](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats) for the various data types.
 
 Datatype | Data Level | Recommended Data Filename | Recommended Meta Filename | META_STABLE_ID | META_GENETIC_ALTERATION_TYPE| META_DATATYPE
--- | -- | -- | -- | -- | -- |
+| -- | -- | -- | -- | -- | -- | --
 Clinical | clinical | data_clinical.txt | meta_clinical.txt | clinical | CLINICAL | CLINICAL
 Clinical | clinical-sample | data_clinical_sample.txt | meta_clinical_sample.txt | clinical_sample | CLINICAL | SAMPLE_ATTRIBUTES
 Clinical | clinical-patient | data_clinical_patient.txt | meta_clinical_patient.txt | clinical_patient | CLINICAL | PATIENT_ATTRIBUTES
