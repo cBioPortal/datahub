@@ -1,0 +1,8 @@
+cancer_study_identifier: brca_tcga_pub2015
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+stable_id: mrna_median_all_sample_Zscores
+show_profile_in_analysis_tab: true
+profile_description: Log-transformed mRNA z-Scores compared to the expression distribution of all samples  (Agilent microarray).
+profile_name: mRNA expression z-scores relative to all samples (log microarray)
+data_filename: data_mrna_agilent_microarray_zscores_ref_all_samples.txt
