@@ -6,5 +6,5 @@ stable_id: circular_rna
 profile_name: circular RNA expression (RSEM)
 profile_description: Circular RNA expression by ciRNA abundance in RSEM values.
 generic_assay_type: circular_rna
-generic_entity_meta_properties: NAME,GENE_SYMBOL
+generic_entity_meta_properties: GENE_SYMBOL
 cancer_study_identifier: ucec_cptac_2020
