@@ -1,7 +1,7 @@
-This page describes the essential points to verify before a study is checked into the cBioPortal Public database.
-- The study should be self-contained if it is to be added to Datahub (since it is available to Public) 
+This page describes the essential steps for curating publications for cBiorPortal. 
 
 # File Naming
+- Files should be named following [this chart](https://github.com/cBioPortal/datahub/blob/master/docs/recommended_staging_filenames.md)
 
 # Data
 ## Clinical Data
@@ -27,7 +27,7 @@ This page describes the essential points to verify before a study is checked int
 - Normalize `SOMATIC_STATUS`: Can only contain values `Matched`, `Unmatched`
 
 ## Mutation Data
-- All variants should be annotated with protein change, using [Genome Nexus](https://www.genomenexus.org/swagger-ui.html) 
+- All variants should be annotated with protein change by [Genome Nexus API](https://www.genomenexus.org/swagger-ui.html), using [this wrapper script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/GN-annotation-wrapper)
 - The Entrez Gene Id value should either be 0 or empty if unknown.
 - Make sure no ‘NA’ for ref alleles (https://github.com/cBioPortal/datahub/issues/621)
 - The Reference Build should be GRCh37. Do a liftover if needed. If the value are 37/hg19/NA replace with GRCh37. 
@@ -59,10 +59,14 @@ This page describes the essential points to verify before a study is checked int
 - Do not include `add_global_case_lists field` in metafile since case lists for all should be created.
 - Add the keyword “pediatric” into study name and description, if any pediatric samples are involved. 
 ### Other meta files
+- The stable IDs should be defined using [this chart](https://github.com/cBioPortal/datahub/blob/master/docs/recommended_staging_filenames.md)
 - Include the platform used in the profile description of meta Methylation and meta Expression files.
 
-# Validation
+# Wrapping Up
+- Migrate outdated gene symbols in all files using [this script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/data-file-migration)
 - Make sure all the files are stored as text file in character set: `Unicode(UTF-8)` and `Unix(LF)` *Helpful [articles](https://sites.psu.edu/symbolcodes/software/textfile/)*
 - Make sure licence is added to the study folder.
+
+# Validation
 - Create a PR on cBioPortal Datahub and run the Circle CI. 
 - Add reviewer(s) to review the PR
