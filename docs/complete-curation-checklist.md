@@ -59,8 +59,9 @@ This page describes in detail the points to be implemented, when curating public
 - Do not include `add_global_case_lists field` in metafile since case lists for all should be created.
 - Add the keyword “pediatric” into study name and description, if any pediatric samples are involved. 
 ### Other meta files
-- The stable IDs should be defined using [this chart](https://github.com/cBioPortal/datahub/blob/master/docs/recommended_staging_filenames.md)
-- Include the platform used in the profile description of meta Methylation and meta Expression files.
+- Every data type/profile should have a meta file associated with it.
+- The `stable_id` field in each meta file should be defined using [this chart](https://github.com/cBioPortal/datahub/blob/master/docs/recommended_staging_filenames.md)
+- Include the platform used in the profile `description` field of meta Methylation and meta Expression files.
 
 # Wrapping Up
 - Migrate outdated gene symbols in all files using [this script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/data-file-migration)
