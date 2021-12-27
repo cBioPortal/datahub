@@ -1,9 +1,9 @@
-This page describes the essential steps for curating publications for cBiorPortal. 
+This page describes in detail the points to be implemented, when curating publications' data for the public instance of [cBioPortal](cbioportal.org) 
 
-# File Naming
+- Files should be created following [this documentation](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats)
 - Files should be named following [this chart](https://github.com/cBioPortal/datahub/blob/master/docs/recommended_staging_filenames.md)
 
-# Data
+# Data Sanitation
 ## Clinical Data
 ### General
 - The clinical file should be split to patient and sample level attribute files and should contain attribute meta headers
@@ -53,7 +53,7 @@ This page describes the essential steps for curating publications for cBiorPorta
 
 ## Meta Files
 ### `meta_study.txt`
-- The `Name` field should strictly follow the format: Tumor Type (Institute, Journal Year)
+- The `Name` field should strictly follow the format: Tumor Type (Institute, Journal Year) e.g. `brca_mskcc_2015`
 - The `Description` field should be a one-line statement covering the seq type, tumor normals, # of samples or patients in any specific type of tumor/sample classification, tumor type.
 - `Citation` and `PubMed ID` should be included if the corresponding paper is published.
 - Do not include `add_global_case_lists field` in metafile since case lists for all should be created.
