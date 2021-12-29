@@ -1,0 +1,4 @@
+cancer_study_identifier: hnc_mskcc_2016
+data_filename: data_gene_panel_matrix.txt
+genetic_alteration_type: GENE_PANEL_MATRIX
+datatype: GENE_PANEL_MATRIX

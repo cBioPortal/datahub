@@ -1,0 +1,8 @@
+cancer_study_identifier: pancan_pcawg_2020
+stable_id: mrna_seq_fpkm_capture
+profile_name: mRNA expression (FPKM_UQ)
+profile_description: PCAWG-3 gene expression quantification (FPKM-UQ values)
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+show_profile_in_analysis_tab: false
+data_filename: data_mrna_seq_fpkm.txt
