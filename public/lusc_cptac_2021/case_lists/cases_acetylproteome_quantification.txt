@@ -1,5 +1,5 @@
 cancer_study_identifier: lusc_cptac_2021
-stable_id: lusc_cptac_2021_custom_acetylproteome
+stable_id: lusc_cptac_2021_acetylproteome
 case_list_name: Samples with acetylprotein quantification data
 case_list_description: Samples with acetylprotein quantification data by mass spectrometry
 case_list_category: other
