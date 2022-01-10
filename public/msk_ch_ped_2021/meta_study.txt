@@ -1,0 +1,5 @@
+type_of_cancer: mixed
+cancer_study_identifier: msk_ch_ped_2021
+name: Cancer Therapy and Clonal Hematopoiesis (MSK, 2021)
+description: Clonal hematopoiesis mutations identified in blood samples from patients whose tumor-blood pairs were analyzed using MSK-IMPACT.
+short_name: CH (MSK, 2021)
