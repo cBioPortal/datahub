@@ -6,6 +6,6 @@ stable_id: methylation_hm450
 profile_name: Methylation Beta-Values (HM450 platform)
 profile_description: Methylation Beta-Values (HM450 platform)
 data_filename: data_methylation_hm450.txt
-show_profile_in_analysis_tab: false
+show_profile_in_analysis_tab: true
 value_sort_order: ASC
-generic_entity_meta_properties: GENE, GROUP
+generic_entity_meta_properties: NAME,DESCRIPTION
