@@ -34,7 +34,7 @@ Phosphoproteome and acetylproteome data
   >Unique identifier for each phosphosite (VM, variable modification) with RefseqProteinID_sites_#sitesPresent_#sitesLocalized_firstSite_lastSite. The numbers in sites, firstSite, lastSite indicate the amino acid position in the protein sequence of accession_number. The N-terminal amino acid of the protein is position 1. The purpose of firstSite and lastSite is to provide a range of possibilities when unlocalized sites are present (#sitesLocalized < #sitesPresent).
 
 Expression data
-- FPKM values directly inferred from the table
+- FPKM values directly inferred from the table (values of 0 were considered as missing values and replaced by NA before applying log2 transformation)
 - Z-scores calculated from all tumor samples
 
 CNA data
