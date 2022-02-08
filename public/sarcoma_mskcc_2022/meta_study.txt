@@ -1,0 +1,5 @@
+type_of_cancer: soft_tissue
+cancer_study_identifier: sarcoma_mskcc_2022
+name: Sarcoma (MSK, 2022)
+description: Targeted Sequencing of 2138 Sarcoma sample and matched normals via MSK-IMPACT.
+short_name: Sarcoma (MSK, 2022)
