@@ -1,6 +1,14 @@
-Following [File Format](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats) and 
+This documentation includes all the necessary steps for curating a publication and submitting to cBioPortal.
 
-## Step 1 Study Meta
+[Step 1. Create Study Meta](#step-1-create-study-meta)   
+[Step 2. Create Clinical Files](#step-2-create-clinical-files)   
+[Step 3. Create Mutation Files](#step-3-create-mutation-files)   
+[Step 4. Other Data Types](#step-4-other-data-types)   
+[Step 5. Case Lists](#step-5-case-lists)   
+[Step 6. Wrapping Up](#step-6-wrapping-up)   
+[Step 7. Validation](#step-7-validation)   
+
+## Step 1. Create Study Meta
 
 A `meta_study.txt` file is required. Details and examples refer to format [HERE](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#meta-file)
 - The `Name` field should strictly follow the format: Tumor Type (Institute, Journal Year) e.g. `brca_mskcc_2015`
@@ -9,7 +17,7 @@ A `meta_study.txt` file is required. Details and examples refer to format [HERE]
 - Do not include `add_global_case_lists field` in metafile since case lists for all should be created.
 - Add the keyword “pediatric” into study name and description, if any pediatric samples are involved. 
 
-## Step 2 Create Clinical Files
+## Step 2. Create Clinical Files
 
 ### 2.1 create meta files 
 `meta_clinical_sample.txt` and `meta_clinical_patient.txt`. For content and format, please follow the format [HERE](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#meta-files)
@@ -41,7 +49,7 @@ Once the files are created, a sanity check is required, for consistency, validat
 - Normalize `SEX`: Can only contain values `Male`, `Female`
 - Normalize `SOMATIC_STATUS`: Can only contain values `Matched`, `Unmatched`
 
-## Step 3 Create Mutation Files
+## Step 3. Create Mutation Files
 
 ### 3.1 create meta file
 `meta_mutations.txt`. For content and format, please follow the format [HERE](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats#meta-file-6)
@@ -67,7 +75,7 @@ All variants should be annotated with protein change by [Genome Nexus API](https
 - If there are germline mutations, if yes, double check with PI to see if it should be kept; otherwise, by default we don’t include germline mutations in public portal. 
 - Correct gene symbols convereted to Dates (SEPT13 -> 13-Sept) by Excel, using [this scirpt](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/hugo-symbol-corrector)
 
-## Step 4 Other Data Types
+## Step 4. Other Data Types
 - For details of how to create meta and data files for other data types, please refer to the [general file format page](https://docs.cbioportal.org/5.1-data-loading/data-loading/file-formats). For how to name the files, please refer to [naming chart](https://github.com/cBioPortal/datahub/blob/master/docs/recommended_staging_filenames.md)
 - Every data type/profile should have a meta file associated with it.
 - The `stable_id` field in each meta file should be defined using [this chart](https://github.com/cBioPortal/datahub/blob/master/docs/recommended_staging_filenames.md)
@@ -76,17 +84,17 @@ All variants should be annotated with protein change by [Genome Nexus API](https
 ### Expression Data
 - Create z-score profiles for each expression profile, using [this script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/zscores/zscores_relative_allsamples); *double check whether the data is already log transformed* 
 
-## Step 5 Case Lists
+## Step 5. Case Lists
 - Case lists should always be generated using [this script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/generate-case-lists)
 - Check if the logic of sample numbers is correct in different case lists(e.g. rppa has more sample than all)
 - Make sure the number of samples in each case list file corresponds to the sample count/sequenced count from the paper.
 
-## Stpe 6 Wrapping Up
+## Step 6. Wrapping Up
 - Migrate outdated gene symbols in all files using [this script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/data-file-migration)
 - Make sure all the files are stored as text file in character set: `Unicode(UTF-8)` and `Unix(LF)` *Helpful [articles](https://sites.psu.edu/symbolcodes/software/textfile/)*
 - Make sure licence is added to the study folder. For examle, for TCGA data, use [this](https://raw.githubusercontent.com/cBioPortal/datahub/master/public/acc_tcga_pan_can_atlas_2018/LICENSE); for other publication, use [this](https://raw.githubusercontent.com/cBioPortal/datahub/master/public/acyc_fmi_2014/LICENSE)
 
-## Step 7 Validation
+## Step 7. Validation
 - Run validator locally using [this script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/validation/validator)
 - Create a PR on [cBioPortal Datahub](https://github.com/cBioPortal/datahub). Circle CI would then run automatically. 
 - Please make sure validation by Circle CI is passed and then add reviewer(s) to review the PR
