@@ -9,6 +9,21 @@ Instructions for building and updating seedDBs [HERE](#for-developers)
 ## Release Notes
 ### Latest seed database
 
+This schema is required for cBioPortal release versions:
+- **3.6.0** or higher
+
+When using a release version **> 2.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
+
+**Schema 2.12.10**: [SQL file with create table statements](https://github.com/cBioPortal/cbioportal/blob/v3.7.29/db-scripts/src/main/resources/cgds.sql)<br>
+**Seed database**: [seed-cbioportal_hg19_v2.12.10.sql.gz](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/seed-cbioportal_hg19_v2.12.10.sql.gz)<br>
+md5sum ee1a629a7bdf719469ca3c7719cdd51c
+
+Updates for seed database:
+- gene tables updated based on HGNC [Jan 1, 2022 Download](http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/hgnc_complete_set_2022-01-01.txt)
+- Modification (supplemental genes, miRNA and phosphoprotein genes) are applied using [this script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/build-input-for-importer)
+
+## Previous seed databases
+
 #### Seed database schema 2.12.8
 
 This schema is required for cBioPortal release versions:
@@ -29,7 +44,6 @@ Contents of seed database:
   - All data files in DATAHUB are also updated accordingly with the gene entries updates. The script/process is described [HERE](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/data-file-migration)
 - Gene Sets from MSigDB 6.1
 
-## Previous seed databases
 #### Seed database schema 2.7.3
 
 This schema is required for cBioPortal release versions:
