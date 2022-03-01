@@ -1,0 +1,8 @@
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+data_filename: data_mirna_zscores.txt
+show_profile_in_analysis_tab: true
+stable_id: mirna_median_Zscores
+profile_name: Z-scores of miRNA expression (FPKM-UQ)
+profile_description: Z-scores of miRNA abundance in FPKM-UQ values, calculated over all diploid samples.
+cancer_study_identifier: gbm_cptac_2021

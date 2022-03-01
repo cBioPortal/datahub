@@ -1,0 +1,8 @@
+cancer_study_identifier: luad_cptac_2020
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: LOG2-VALUE
+stable_id: log2CNA
+show_profile_in_analysis_tab: false
+profile_description: Log2 copy-number values.
+profile_name: Log2 copy-number values
+data_filename: data_log2cna.txt

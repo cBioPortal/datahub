@@ -1,0 +1,8 @@
+cancer_study_identifier: luad_mskimpact_2021
+stable_id: mutations
+profile_name: Mutations (MSK-IMPACT)
+profile_description: Targeted sequencing of various tumor types via MSK-IMPACT on Illumina HiSeq sequencers.
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+show_profile_in_analysis_tab: true
+data_filename: data_mutations.txt

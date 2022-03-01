@@ -1,0 +1,8 @@
+cancer_study_identifier: brca_tcga_pub2015
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: rna_seq_v2_mrna
+show_profile_in_analysis_tab: false
+profile_description: mRNA gene expression (RNA Seq V2 RSEM)
+profile_name: mRNA expression (RNA Seq V2 RSEM)
+data_filename: data_mrna_seq_v2_rsem.txt

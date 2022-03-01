@@ -18,7 +18,7 @@ jobs:
             cd ~/repo/.circleci
             ./install_dependencies.sh
             ./validate_changed_studies.sh
-          no_output_timeout: 1h
+          no_output_timeout: 2h
       - store_artifacts:
           path: ~/test-reports
           destination: ~/test-reports
@@ -36,7 +36,7 @@ jobs:
             cd ~/repo/.circleci
             ./install_dependencies.sh
             ./validate_all_studies.sh
-          no_output_timeout: 1h
+          no_output_timeout: 2h
       - store_artifacts:
           path: ~/test-reports
           destination: ~/test-reports

@@ -1,0 +1,7 @@
+type_of_cancer: mixed
+cancer_study_identifier: pancan_pcawg_2020
+name: Pan-cancer analysis of whole genomes (ICGC/TCGA, Nature 2020)
+description: WGS changes cataloged in 2,583 whole-cancer genomes and their matched normal tissues across 38 tumor types. Source data from <A HREF="https://xenabrowser.net/datapages/?cohort=PCAWG%20(specimen%20centric)&addHub=https%3A%2F%2Fpcawg.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443">UCSC Xena</A> and <A HREF="https://dcc.icgc.org/releases/PCAWG/">ICGC Data Portal</A>.
+citation: Campbell et al. Nature 2020
+short_name: PCAWG (ICGC/TCGA)
+pmid: 32025007

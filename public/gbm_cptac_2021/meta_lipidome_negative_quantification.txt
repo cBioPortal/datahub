@@ -1,0 +1,10 @@
+genetic_alteration_type: GENERIC_ASSAY
+show_profile_in_analysis_tab: true
+data_filename: data_lipidome_negative_quantification.txt
+datatype: LIMIT-VALUE
+stable_id: lipidome_negative_quantification
+profile_name: Lipid abundance ratio (negative mode)
+profile_description: Abundance log2 ratio for lipids measured by mass spectrometry (negative mode).
+generic_assay_type: Lipidome
+generic_entity_meta_properties: NAME
+cancer_study_identifier: gbm_cptac_2021

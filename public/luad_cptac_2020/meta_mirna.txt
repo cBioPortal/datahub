@@ -1,0 +1,8 @@
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+data_filename: data_mirna.txt
+show_profile_in_analysis_tab: false
+stable_id: mirna
+profile_name: miRNA expression (log2 TPM)
+profile_description: Micro RNA expression by miRNA abundance in log2 TPM values.
+cancer_study_identifier: luad_cptac_2020
