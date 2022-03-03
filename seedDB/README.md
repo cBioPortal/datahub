@@ -14,13 +14,14 @@ This schema is required for cBioPortal release versions:
 
 When using a release version **> 2.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
 
-**Schema 2.12.10**: [SQL file with create table statements](https://github.com/cBioPortal/cbioportal/blob/v3.7.29/db-scripts/src/main/resources/cgds.sql)<br>
-**Seed database**: [seed-cbioportal_hg19_v2.12.10.sql.gz](https://github.com/cBioPortal/datahub/blob/seedDB-update-feb-23-2022/seedDB/seed-cbioportal_hg19_v2.12.10.sql.gz)<br>
-md5sum ee1a629a7bdf719469ca3c7719cdd51c
+**Schema 2.12.12**: [SQL file with create table statements](https://github.com/cBioPortal/cbioportal/blob/v4.0.0/db-scripts/src/main/resources/cgds.sql)<br>
+**Seed database**: [seed-cbioportal_hg19_v2.12.10.sql.gz](https://github.com/cBioPortal/datahub/blob/seedDB-update-feb-23-2022/seedDB/seed-cbioportal_hg19_v2.12.12.sql.gz)<br>
+md5sum 7d805d56aebcee85e2a8690e040310dd
 
 Updates for seed database:
 - gene tables updated based on HGNC [Jan 1, 2022 Download](http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/hgnc_complete_set_2022-01-01.txt)
 - Modification (supplemental genes, miRNA and phosphoprotein genes) are applied using [this script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/build-input-for-importer)
+- gene set updated to version 7.5.1. Download from MsigDB [HERE](http://www.gsea-msigdb.org/gsea/msigdb/download_file.jsp?filePath=/msigdb/release/7.5.1/msigdb.v7.5.1.entrez.gmt)
 
 ## Previous seed databases
 
