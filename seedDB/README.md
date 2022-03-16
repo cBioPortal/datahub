@@ -2,9 +2,11 @@
 
 These files are MySQL database dump files for seeding a new instance of the cBioPortal database. They contain all the necessary background data for a properly functioning cBioPortal website, including cancer types, genes, uniprot-mappings, drug and network data.
 
-The database schema and cBioPortal release follows different numbering cycles since cBioPortal 1.5.0 and database schema 2.1.0. This means that the version numbers won't be identical. cBioPortal 1.9.0 with database schema 2.4.0 removed PDB annotations from the database.
+The database schema and cBioPortal release follows different numbering cycles since cBioPortal 1.5.0 and database schema 2.1.0. This means that the version numbers won't be identical. 
 
 Instructions for building and updating seedDBs [HERE](#for-developers)
+
+Propective updates to gene and gene alias tables in seedDB is every 6 months. 
 
 ## Release Notes
 ### Latest seed database
@@ -112,6 +114,7 @@ Schema 2.4.0: [SQL file with create table statements](https://raw.githubusercont
 Seed database : [seed-cbioportal_hg19_v2.4.0.sql.gz](https://github.com/cBioPortal/datahub/raw/b9662010756188a18051c983b8c445dd033703a9/seedDB/seed-cbioportal_hg19_v2.4.0.sql.gz)<br>
 md5sum 1014ed1f9d72103f2b46e5615aacbc2f
 
+cBioPortal 1.9.0 with database schema 2.4.0 removed PDB annotations from the database.
 Contents of seed database:
 - Entrez Gene IDs, HGNC symbols and aliases updated in August 2017 from NCBI
 - Gene lengths retrieved from Gencode Release 26 (mapped to GRCh37)
