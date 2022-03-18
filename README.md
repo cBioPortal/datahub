@@ -61,3 +61,5 @@ The data are available under [the ODC Open Database License (ODbL)](http://opend
 
 TCGA data are availabe under Broad Institute GDAC TCGA Analysis Pipeline License. The Cancer Genome Atlas Consortium is pleased to provide the researchcommunity with preliminary data prior to publication.  Users are requested to carefully consider that these data are preliminary and have yet to be validated. Researchers are warned that the preliminary data have a significant uncertainty, are likely to change, and should be used with caution.
 
+## User Assistance
+For questions, please post on our user discussion group at: https://groups.google.com/g/cbioportal
