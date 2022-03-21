@@ -5,3 +5,4 @@ description: Whole-exome sequencing of metastatic clear cell renal carcinoma (cc
 citation: van der Mijn et al. Mol Oncol. 2022
 pmid: 35231161
 add_global_case_list: true
+groups: PUBLIC
