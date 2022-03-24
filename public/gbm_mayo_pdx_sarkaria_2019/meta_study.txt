@@ -4,3 +4,5 @@ name: Brain Tumor PDXs (Mayo Clinic, 2019)
 description: WES on a total of 83 PDXs and 55 PDXs have the matched germline (blood) samples sequenced. A total of 66 PDXs have RNASeq available
 short_name: GBM (Mayo PDX)
 groups: PUBLIC;DECKERPAULMAYO;SHULANTIANMAYO
+PMID: 31852831
+Citation: Vaubel et al. Clin Cancer Res 2020
