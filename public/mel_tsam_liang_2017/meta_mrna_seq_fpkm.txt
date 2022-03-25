@@ -4,5 +4,5 @@ datatype: CONTINUOUS
 stable_id: rna_seq_mrna
 profile_description: Expression levels.
 show_profile_in_analysis_tab: false
-profile_name: mRNA expression
-data_filename: data_mrna_seq_rpkm.txt
+profile_name: mRNA expression (FPKM)
+data_filename: data_mrna_seq_fpkm.txt
