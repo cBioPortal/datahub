@@ -4,3 +4,4 @@ name: Lung Adenocarcinoma (MSKCC, 2020)
 short_name: LUAD (MSKCC, 2020)
 description: Targeted sequencing of 604 lung adenocarcinoma tumor/normal pairs via MSK-IMPACT.
 PMID: 32791233
+Citation: Caso et al. J Thorac Oncol 2020

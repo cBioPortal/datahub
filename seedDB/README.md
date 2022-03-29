@@ -2,12 +2,30 @@
 
 These files are MySQL database dump files for seeding a new instance of the cBioPortal database. They contain all the necessary background data for a properly functioning cBioPortal website, including cancer types, genes, uniprot-mappings, drug and network data.
 
-The database schema and cBioPortal release follows different numbering cycles since cBioPortal 1.5.0 and database schema 2.1.0. This means that the version numbers won't be identical. cBioPortal 1.9.0 with database schema 2.4.0 removed PDB annotations from the database.
+The database schema and cBioPortal release follows different numbering cycles since cBioPortal 1.5.0 and database schema 2.1.0. This means that the version numbers won't be identical. 
 
 Instructions for building and updating seedDBs [HERE](#for-developers)
 
+Propective updates to gene and gene alias tables in seedDB is every 6 months. 
+
 ## Release Notes
 ### Latest seed database
+
+This schema is required for cBioPortal release versions:
+- **3.6.0** or higher
+
+When using a release version **> 2.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
+
+**Schema 2.12.12**: [SQL file with create table statements](https://github.com/cBioPortal/cbioportal/blob/v4.0.0/db-scripts/src/main/resources/cgds.sql)<br>
+**Seed database**: [seed-cbioportal_hg19_v2.12.10.sql.gz](https://github.com/cBioPortal/datahub/blob/seedDB-update-feb-23-2022/seedDB/seed-cbioportal_hg19_v2.12.12.sql.gz)<br>
+md5sum 7d805d56aebcee85e2a8690e040310dd
+
+Updates for seed database:
+- gene tables updated based on HGNC [Jan 1, 2022 Download](http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/hgnc_complete_set_2022-01-01.txt)
+- Modification (supplemental genes, miRNA and phosphoprotein genes) are applied using [this script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/build-input-for-importer)
+- gene set updated to version 7.5.1. Download from MsigDB [HERE](http://www.gsea-msigdb.org/gsea/msigdb/download_file.jsp?filePath=/msigdb/release/7.5.1/msigdb.v7.5.1.entrez.gmt)
+
+## Previous seed databases
 
 #### Seed database schema 2.12.8
 
@@ -29,7 +47,6 @@ Contents of seed database:
   - All data files in DATAHUB are also updated accordingly with the gene entries updates. The script/process is described [HERE](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/data-file-migration)
 - Gene Sets from MSigDB 6.1
 
-## Previous seed databases
 #### Seed database schema 2.7.3
 
 This schema is required for cBioPortal release versions:
@@ -97,6 +114,7 @@ Schema 2.4.0: [SQL file with create table statements](https://raw.githubusercont
 Seed database : [seed-cbioportal_hg19_v2.4.0.sql.gz](https://github.com/cBioPortal/datahub/raw/b9662010756188a18051c983b8c445dd033703a9/seedDB/seed-cbioportal_hg19_v2.4.0.sql.gz)<br>
 md5sum 1014ed1f9d72103f2b46e5615aacbc2f
 
+cBioPortal 1.9.0 with database schema 2.4.0 removed PDB annotations from the database.
 Contents of seed database:
 - Entrez Gene IDs, HGNC symbols and aliases updated in August 2017 from NCBI
 - Gene lengths retrieved from Gencode Release 26 (mapped to GRCh37)

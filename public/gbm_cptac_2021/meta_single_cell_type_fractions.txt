@@ -6,7 +6,7 @@ stable_id: single_cell_type_fractions
 profile_name: Single cell - cell type assignment fractions
 profile_description: Cell type assignments
 data_filename: data_single_cell_type_fractions.txt
-show_profile_in_analysis_tab: false
-pivot_threshold_value: 0.1
+show_profile_in_analysis_tab: true
+pivot_threshold_value: 0.001
 value_sort_order: ASC
 generic_entity_meta_properties: Name,Description,Url
