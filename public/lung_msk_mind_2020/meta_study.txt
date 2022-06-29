@@ -1,0 +1,6 @@
+type_of_cancer: lung
+cancer_study_identifier: lung_msk_mind_2020
+name: MSK Mind Lung 2020
+short_name: MSK-IMPACT, HEME, ARCHER Clinical Sequencing Cohort
+description: Multimodality tools to predict response to PD-(L)1 blockade in patients with lung adenocarcinoma
+groups: MINDLUNG
