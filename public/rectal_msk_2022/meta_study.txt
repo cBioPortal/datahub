@@ -1,0 +1,5 @@
+type_of_cancer: bowel
+cancer_study_identifier: rectal_msk_2022
+name: Colorectal Cancer (CMO JGA_rectal [4976] and MSK-IMPACT) (test)
+short_name: CRC (IMPACT CMO 2019)
+description: Comprehensive analysis of CRC cases.
