@@ -5,4 +5,3 @@ description: International Working Group for the prognosis of Myelodysplastic Sy
 citation: Bernard et al. NEJM Evidence 2022
 groups: PUBLIC
 reference_genome: hg19
-add_global_case_list: true
