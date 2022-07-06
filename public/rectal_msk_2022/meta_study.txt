@@ -1,0 +1,4 @@
+type_of_cancer: bowel
+cancer_study_identifier: rectal_msk_2022
+name: Rectal Cancer (MSKCC, Nature Medicine 2022)
+description: DNA and RNA sequencing of 738 primary rectal tumors.
