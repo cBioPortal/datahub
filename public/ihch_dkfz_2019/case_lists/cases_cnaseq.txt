@@ -1,6 +1,6 @@
 cancer_study_identifier: ihch_dkfz_2019
 stable_id: ihch_dkfz_2019_cnaseq
 case_list_name: Samples with mutation and CNA data
-case_list_description: Samples with mutation and CNA data (52 samples)
+case_list_description: Samples with mutation and CNA data (36 samples)
 case_list_category: all_cases_with_mutation_and_cna_data
-case_list_ids: iCCA_48	iCCA_49	iCCA_44	iCCA_45	iCCA_46	iCCA_47	iCCA_40	iCCA_41	iCCA_42	iCCA_43	iCCA_21	iCCA_9	iCCA_8	iCCA_3	iCCA_2	iCCA_1	iCCA_30	iCCA_7	iCCA_6	iCCA_5	iCCA_4	iCCA_13	iCCA_12	iCCA_11	iCCA_10	iCCA_39	iCCA_38	iCCA_15	iCCA_14	iCCA_35	iCCA_17	iCCA_19	iCCA_18	iCCA_31	iCCA_33	iCCA_16	iCCA_52	iCCA_51	iCCA_50	iCCA_34	iCCA_37	iCCA_36	iCCA_28	iCCA_29	iCCA_22	iCCA_23	iCCA_20	iCCA_32	iCCA_26	iCCA_27	iCCA_24	iCCA_25
+case_list_ids: iCCA_6	iCCA_31	iCCA_1	iCCA_50	iCCA_43	iCCA_35	iCCA_20	iCCA_27	iCCA_29	iCCA_48	iCCA_44	iCCA_24	iCCA_42	iCCA_16	iCCA_10	iCCA_23	iCCA_26	iCCA_19	iCCA_21	iCCA_49	iCCA_30	iCCA_2	iCCA_36	iCCA_15	iCCA_34	iCCA_5	iCCA_22	iCCA_45	iCCA_52	iCCA_25	iCCA_41	iCCA_12	iCCA_38	iCCA_17	iCCA_39	iCCA_33

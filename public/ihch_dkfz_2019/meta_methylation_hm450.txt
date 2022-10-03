@@ -4,7 +4,7 @@ generic_assay_type: METHYLATION
 datatype: LIMIT-VALUE
 stable_id: methylation_hm450
 profile_name: Methylation Beta-Values (HM450 platform)
-profile_description: Methylation Beta-Values (HM450 platform)
+profile_description: Methylation Beta-Values (HM450 platform) of 52 iCCA patients with Intrahepatic Cholangiocarcinoma tumor.
 data_filename: data_methylation_hm450.txt
 show_profile_in_analysis_tab: true
 value_sort_order: DESC

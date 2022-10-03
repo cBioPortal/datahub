@@ -1,7 +1,7 @@
 cancer_study_identifier: ihch_dkfz_2019
 stable_id: mutations
 profile_name: Mutations
-profile_description: Somatic mutation data of 52 tumor-normal paired iCCA samples from whole-exome sequencing.
+profile_description: Somatic mutation data of 36 IHCH samples from whole-exome or targeted sequencing.
 genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
 data_filename: data_mutations.txt
