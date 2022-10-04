@@ -5,4 +5,4 @@ datatype: CONTINUOUS
 show_profile_in_analysis_tab: FALSE
 profile_name: mRNA expression (Illumina HiSeq_RNASeqV2 TPM)
 profile_description: mRNA Expression, TPM (normalized from Illumina HiSeq_RNASeqV2)
-data_filename: data_RNA_Seq_expression_tpm.txt
+data_filename: data_mrna_seq_tpm.txt
