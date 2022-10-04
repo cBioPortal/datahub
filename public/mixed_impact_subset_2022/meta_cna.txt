@@ -1,6 +1,6 @@
 cancer_study_identifier: mixed_impact_subset_2022
 genetic_alteration_type: COPY_NUMBER_ALTERATION
-stable_id: mixed_impact_subset_2022_cna
+stable_id: cna
 show_profile_in_analysis_tab: true
 profile_name: Copy Number Alterations (MSK-IMPACT, HEME)
 profile_description: Copy number alterations from targeted sequencing via MK-IMPACT, HEME on Illumina HiSeq sequencers.
