@@ -5,4 +5,4 @@ stable_id: protein_quantification
 show_profile_in_analysis_tab: false
 profile_name: Protein levels (mass spectrometry)
 profile_description: Protein expression measured by mass spectrometry
-data_filename: data_protein_quantification.txt
+data_filename: data_mrna_seq_tpm_zscores_ref_all_samples.txt

@@ -5,4 +5,4 @@ stable_id: protein_quantification_zscores
 show_profile_in_analysis_tab: true
 profile_name: Protein levels z-scores (mass spectrometry)
 profile_description: Protein levels z-scores (mass spectrometry)
-data_filename: data_protein_expression_zscores.txt
+data_filename: 
