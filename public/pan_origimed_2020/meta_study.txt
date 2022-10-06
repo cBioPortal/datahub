@@ -1,0 +1,8 @@
+type_of_cancer: mixed
+cancer_study_identifier: pan_origimed_2020
+name: China Pan-cancer (OrigiMed, Nature 2022)
+description: Landscape of genomic alterations in 10,194 solid tumors from the Chinese population
+short_name: Pan-cancer (OM2020)
+citation: Wu, Liqun et al. Nature 2022
+pmid: 35871175
+groups: PUBLIC
