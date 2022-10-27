@@ -50,10 +50,10 @@ if [[ $num_studies > 0 ]]; then
   do
       # append the first study
       if [ "$validation_command" = "" ] ; then
-        validation_command="$HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study || failed_studies+=('$study')"
+        validation_command="$HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study || echo failed_studies+=('$study')"
       else
         # run each validation individually in the background
-        validation_command="${validation_command} & $HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study || failed_studies+=('$study')"
+        validation_command="${validation_command} & $HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study || echo failed_studies+=('$study')"
       fi
   done
   echo $'\nExecuting: '; echo $validation_command
