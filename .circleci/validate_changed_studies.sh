@@ -43,25 +43,26 @@ if [[ $num_studies > 0 ]]; then
 
   test_reports_location="$HOME/test-reports"
   validation_command=""
-  declare -A pid_to_study_map
+  studies=${list_csv//,/ }
+  pids=()
   failed_studies=()
-  for study in ${list_csv//,/ }
+  for study in $studies
   do
       # append the first study
       if [ "$validation_command" = "" ] ; then
-        validation_command="$HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study & pid_to_study_map[$!]=$study"
+        validation_command="$HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study & pids+=$!"
       else
         # run each validation individually in the background
-        validation_command="${validation_command} & $HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study  & pid_to_study_map[$!]=$study"
+        validation_command="${validation_command} & $HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study  & pids+=$!"
       fi
   done
   echo $'\nExecuting: '; echo $validation_command
   eval "$validation_command"
   # Waiting for all background processes to finish
-  for pid in "${!pid_to_study_map[@]}"; do
-    wait ${pid}
+  for index in "${!pids[@]}"; do
+    wait ${pids[$index]}
     if [[ $? -ne 0 ]]; then
-      failed_studies+=${pid_to_study_map[$pid]}
+      failed_studies+=${studies[$index]}
     fi
   done
 
