@@ -55,11 +55,11 @@ if [[ $num_studies > 0 ]]; then
   done
   echo $'\nExecuting: '; echo $validation_command
   eval "$validation_command"
-  # Waiting for all background processes finishes
+  # Waiting for all background processes to finish
   while true; do
     wait -n || {
       code="$?"
-      echo "waiting for all processes finishes ...................."
+      echo "waiting for all processes to finish ...................."
       # exit only when all processes finished
       if ([[ $code = "127" ]] && exit 0) ; then
         break
