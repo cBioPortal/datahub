@@ -43,35 +43,47 @@ if [[ $num_studies > 0 ]]; then
 
   test_reports_location="$HOME/test-reports"
   validation_command=""
+  declare -A pid_to_study_map
+  failed_studies=()
   for study in ${list_csv//,/ }
   do
       # append the first study
       if [ "$validation_command" = "" ] ; then
-        validation_command="$HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
+        validation_command="$HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study & pid_to_study_map[$!]=$study"
       else
         # run each validation individually in the background
-        validation_command="${validation_command} & $HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
+        validation_command="${validation_command} & $HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study  & pid_to_study_map[$!]=$study"
       fi
   done
   echo $'\nExecuting: '; echo $validation_command
   eval "$validation_command"
   # Waiting for all background processes to finish
-  while true; do
-    wait -n || {
-      code="$?"
-      echo "waiting for all processes to finish ...................."
-      # exit only when all processes finished
-      if ([[ $code = "127" ]] && exit 0) ; then
-        break
-      fi
-    }
-  done;
+  for pid in "${!pid_to_study_map[@]}"; do
+    wait ${pid}
+    if [[ $? -ne 0 ]]; then
+      failed_studies+=${pid_to_study_map[$pid]}
+    fi
+  done
+
+  # while true; do
+  #   wait -n || {
+  #     code="$?"
+  #     echo "waiting for all processes to finish ...................."
+  #     # exit only when all processes finished
+  #     if ([[ $code = "127" ]] && exit 0) ; then
+  #       break
+  #     fi
+  #   }
+  # done;
 
   # find all studies with error
   erred_studies=`grep -rnlz $test_reports_location -e 'Validation status.*Failed' `
   if [[ $? -eq 0 ]]; then
     echo $'\n====List of error studies:====\n'
-    echo $erred_studies
+    # echo $erred_studies
+    for study in $failed_studies ; do
+      echo $study
+    done
     mv $erred_studies $test_reports_location/ERRORS
     exit 1
   else
