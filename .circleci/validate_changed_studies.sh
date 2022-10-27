@@ -81,7 +81,7 @@ if [[ $num_studies > 0 ]]; then
   erred_studies=`grep -rnlz $test_reports_location -e 'Validation status.*Failed' `
   if [[ $? -eq 0 ]]; then
     echo $'\n====List of error studies:====\n'
-    # echo $erred_studies
+    echo $failed_studies
     for study in $failed_studies ; do
       echo $study
     done
