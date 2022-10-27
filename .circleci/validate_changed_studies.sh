@@ -50,35 +50,35 @@ if [[ $num_studies > 0 ]]; then
   do
       # append the first study
       if [ "$validation_command" = "" ] ; then
-        validation_command="$HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study & pids+=$!"
+        validation_command="$HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study || failed_studies+=($study)"
       else
         # run each validation individually in the background
-        validation_command="${validation_command} & $HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study  & pids+=$!"
+        validation_command="${validation_command} & $HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study || failed_studies+=($study)"
       fi
   done
   echo $'\nExecuting: '; echo $validation_command
   eval "$validation_command"
   # Waiting for all background processes to finish
-  for index in "${!pids[@]}"; do
-    wait ${pids[$index]}
-    echo "print status: "
-    echo $?
-    if [[ $? -ne 0 ]]; then
-      echo "in failed condition"
-      failed_studies+=${studies[$index]}
-    fi
-  done
+  # for index in "${!pids[@]}"; do
+  #   wait ${pids[$index]}
+  #   echo "print status: "
+  #   echo $?
+  #   if [[ $? -ne 0 ]]; then
+  #     echo "in failed condition"
+  #     failed_studies+=${studies[$index]}
+  #   fi
+  # done
 
-  # while true; do
-  #   wait -n || {
-  #     code="$?"
-  #     echo "waiting for all processes to finish ...................."
-  #     # exit only when all processes finished
-  #     if ([[ $code = "127" ]] && exit 0) ; then
-  #       break
-  #     fi
-  #   }
-  # done;
+  while true; do
+    wait -n || {
+      code="$?"
+      echo "waiting for all processes to finish ...................."
+      # exit only when all processes finished
+      if ([[ $code = "127" ]] && exit 0) ; then
+        break
+      fi
+    }
+  done;
 
   # find all studies with error
   erred_studies=`grep -rnlz $test_reports_location -e 'Validation status.*Failed' `
