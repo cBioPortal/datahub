@@ -61,7 +61,10 @@ if [[ $num_studies > 0 ]]; then
   # Waiting for all background processes to finish
   for index in "${!pids[@]}"; do
     wait ${pids[$index]}
+    echo "print status: "
+    echo $?
     if [[ $? -ne 0 ]]; then
+      echo "in failed condition"
       failed_studies+=${studies[$index]}
     fi
   done
