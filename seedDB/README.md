@@ -18,8 +18,8 @@ This schema is required for cBioPortal release versions:
 When using a release version **> 2.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
 
 **Schema 2.12.14**: [SQL file with create table statements](https://github.com/cBioPortal/cbioportal/blob/v5.0.0/db-scripts/src/main/resources/cgds.sql)<br>
-**Seed database**: [seed-cbioportal_hg19_v2.12.12.sql.gz](https://github.com/cBioPortal/datahub/blob/master/seedDB/seed-cbioportal_hg19_v2.12.12.sql.gz)<br>
-md5sum 7d805d56aebcee85e2a8690e040310dd
+**Seed database**: [seed-cbioportal_hg19_v2.12.14.sql.gz](https://github.com/cBioPortal/datahub/blob/ce25ec886682db5e2fda778aac9480167fcd8cc6/seedDB/seed-cbioportal_hg19_v2.12.14.sql.gz)<br>
+md5sum 05481d66334b65512aef0364ce282fe6
 
 Updates for seed database:
 - Entrez Gene IDs, gene symbols and gene aliases updated from HGNC [Oct 1, 2022 release](http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/hgnc_complete_set_2022-10-01.txt). The detailed changes are listed [HERE](https://github.com/cBioPortal/datahub-study-curation-tools/blob/master/gene-table-update/build-input-for-importer/gene-table-release-archives/Gene_Table_v3_HGNC_Oct_01_2022/gene-updates.md)
