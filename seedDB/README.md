@@ -9,7 +9,25 @@ Instructions for building and updating seedDBs [HERE](#for-developers)
 Propective updates to gene and gene alias tables in seedDB is every 6 months. 
 
 ## Release Notes
-### Latest seed database
+
+## Latest seed database
+
+This schema is required for cBioPortal release versions:
+- **3.6.0** or higher
+
+When using a release version **> 2.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
+
+**Schema 2.12.14**: [SQL file with create table statements](https://github.com/cBioPortal/cbioportal/blob/v5.0.0/db-scripts/src/main/resources/cgds.sql)<br>
+**Seed database**: [seed-cbioportal_hg19_v2.12.12.sql.gz](https://github.com/cBioPortal/datahub/blob/master/seedDB/seed-cbioportal_hg19_v2.12.12.sql.gz)<br>
+md5sum 7d805d56aebcee85e2a8690e040310dd
+
+Updates for seed database:
+- Entrez Gene IDs, gene symbols and gene aliases updated from HGNC [Oct 1, 2022 release](http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/hgnc_complete_set_2022-10-01.txt). The detailed changes are listed [HERE](https://github.com/cBioPortal/datahub-study-curation-tools/blob/master/gene-table-update/build-input-for-importer/gene-table-release-archives/Gene_Table_v3_HGNC_Oct_01_2022/gene-updates.md)
+- Gene Sets from MSigDB 7.5.1
+
+## Previous seed databases
+
+### Seed database schema 2.12.12
 
 This schema is required for cBioPortal release versions:
 - **3.6.0** or higher
@@ -20,12 +38,11 @@ When using a release version **> 2.0.0**, a migration step to a new database sch
 **Seed database**: [seed-cbioportal_hg19_v2.12.12.sql.gz](https://github.com/cBioPortal/datahub/blob/master/seedDB/seed-cbioportal_hg19_v2.12.12.sql.gz)<br>
 md5sum 7d805d56aebcee85e2a8690e040310dd
 
-Updates for seed database:
-- gene tables updated based on HGNC [Jan 1, 2022 Download](http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/hgnc_complete_set_2022-01-01.txt)
+Contents of seed database:
+- Entrez Gene IDs, HGNC symbols and gene aliases updated based on HGNC [Jan 1, 2022 release](http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/hgnc_complete_set_2022-01-01.txt)
 - Modification (supplemental genes, miRNA and phosphoprotein genes) are applied using [this script](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/build-input-for-importer)
 - gene set updated to version 7.5.1. Download from MsigDB [HERE](http://www.gsea-msigdb.org/gsea/msigdb/download_file.jsp?filePath=/msigdb/release/7.5.1/msigdb.v7.5.1.entrez.gmt)
-
-## Previous seed databases
+- All data files in DATAHUB are also updated accordingly with the gene entries updates. The script/process is described [HERE](https://github.com/cBioPortal/datahub-study-curation-tools/tree/master/gene-table-update/data-file-migration)
 
 #### Seed database schema 2.12.8
 
@@ -39,7 +56,7 @@ When using a release version **> 2.0.0**, a migration step to a new database sch
 md5sum f8d2c65f8d9db795da47ed5cf6f592a9
 
 Contents of seed database:
-- Entrez Gene IDs, HGNC symbols and gene aliases updated based on HGNC [Feb 20, 2021 Download](https://www.genenames.org/download/statistics-and-files/) with small modifications listed below.  
+- Entrez Gene IDs, HGNC symbols and gene aliases updated based on HGNC [Feb 20, 2021 release](https://www.genenames.org/download/statistics-and-files/) with small modifications listed below.  
   - To minimize loss of data we preserved certain gene entries that are unavailable in the current HGNC in a supplemental file - Complete lists [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-supp.md)
   - Updated outdated gene entries - Complete list [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-update.md).
   - Removed duplicate `symbol <> entrez_ID` mapping - Complete list [HERE](https://github.com/cBioPortal/datahub/blob/gene_update_doc/seedDB/gene-update-list/gene-removed.md)
