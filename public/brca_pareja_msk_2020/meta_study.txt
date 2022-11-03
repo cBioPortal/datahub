@@ -5,3 +5,4 @@ description: Whole-exome and MSK-IMPACT sequencing of 60 tumor/normal matched sa
 groups: PUBLIC
 short_name: BRCA (MSK, PARJERA 2020)
 pmid: 32220886
+citation: Fresia et al. Clinical Cancer Res 2020
