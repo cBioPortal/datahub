@@ -1,7 +1,8 @@
 cancer_study_identifier: mixed_nfosi_2022
 type_of_cancer: mixed
-name: Plexiform Neurofibroma and Neurofibroma (Hirbe 2022)
+name: Plexiform Neurofibroma and Neurofibroma (Pratilas 2022)
 description: The mutation data were processed using the `sarek` nf-core pipeline. The data are contributed by researchers funded by the Neurofibromatosis Therapeutic Acceleration Program (NTAP). The reprocessing of the raw data is managed by the NF Open Science Initiative (https://nf.synapse.org/).
-citation: TBD
+citation: Kai Pollard, Jineta Banerjee, Xengie Doan, Jiawan Wang, Xindi Guo, Robert Allaway, Shannon Langmead, Bronwyn Slobogean, Christian F. Meyer, David M. Loeb, Carol D. Morris, Allan J. Belzberg, Jaishri O. Blakeley, Fausto J. Rodriguez, Justin Guinney, Sara J.C. Gosline, Christine A. Pratilas
+bioRxiv 2019.12.19.871897. https://doi.org/10.1101/2019.12.19.871897
 groups: PUBLIC
 add_global_case_list: true
