@@ -1,0 +1,23 @@
+#PATIENT_ID	SEX	NF1_GENOTYPE	NF2_GENOTYPE	AGE
+#Patient ID	Sex of the patient	NF1 genotype of the patient	NF2 genotype of the patient	Age of patient
+#STRING	STRING	STRING	STRING	NUMBER
+#1	1	1	1	1
+PATIENT_ID	SEX	NF1_GENOTYPE	NF2_GENOTYPE	AGE
+JH-2-001	Female	-/-	+/+	
+JH-2-004	Female	-/-	+/+	
+JH-2-006	Female	-/-	+/+	
+JH-2-010	Male	-/-	+/+	
+JH-2-012	Male	-/-	+/+	
+JH-2-013	Female	-/-	+/+	
+JH-2-014	Male	-/-	+/+	
+JH-2-015	Male	-/-	+/+	
+JH-2-016	Female	-/-	+/+	
+JH-2-017	Male	-/-	+/+	
+JH-2-019	Female	-/-	+/+	
+JH-2-021	Male	-/-	+/+	
+JH-2-023	Male	-/-	+/+	
+JH-2-026	Female	-/-	+/+	
+JH-2-031	Male		+/+	
+JH-2-031	Male	-/-	+/+	
+JH-2-029	Male	-/-	+/+	
+JH-2-032	Female	-/-	+/+	

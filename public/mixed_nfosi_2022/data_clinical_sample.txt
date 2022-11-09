@@ -1,0 +1,24 @@
+#PATIENT_ID	SAMPLE_ID	TUMOR	TISSUE_SITE
+#Patient ID	Sample ID	Tumor type	Site of tissue collection
+#STRING	STRING	STRING	STRING
+#1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR	TISSUE_SITE
+JH-2-001	2-001_Plexiform_Neurofibroma	Plexiform Neurofibroma	Primary Tumor
+JH-2-004	2-004_Plexiform_Neurofibroma	Plexiform Neurofibroma	Primary Tumor
+JH-2-006	2-006_Plexiform_Neurofibroma	Plexiform Neurofibroma	Primary Tumor
+JH-2-010	2-010_Neurofibroma	Neurofibroma	Primary Tumor
+JH-2-012	2-012_Neurofibroma	Neurofibroma	Primary Tumor
+JH-2-013	2-013_Plexiform_Neurofibroma	Plexiform Neurofibroma	Primary Tumor
+JH-2-014	2-014_Neurofibroma	Neurofibroma	Primary Tumor
+JH-2-015	2-015_Neurofibroma	Neurofibroma	Primary Tumor
+JH-2-015	2-015_Plexiform_Neurofibroma	Plexiform Neurofibroma	Primary Tumor
+JH-2-016	2-016_Neurofibroma	Neurofibroma	Primary Tumor
+JH-2-017	2-017_Neurofibroma	Neurofibroma	Primary Tumor
+JH-2-019	2-019_Neurofibroma	Neurofibroma	Primary Tumor
+JH-2-021	2-021_Neurofibroma	Neurofibroma	Primary Tumor
+JH-2-023	2-023_Plexiform_Neurofibroma	Plexiform Neurofibroma	Primary Tumor
+JH-2-026	2-026_Neurofibroma	Neurofibroma	Primary Tumor
+JH-2-031	2-031_Cell_Line	Malignant Peripheral Nerve Sheath Tumor	
+JH-2-031	2-031_Malignant_Peripheral_Nerve_Sheath_Tumor	Malignant Peripheral Nerve Sheath Tumor	Primary Tumor
+JH-2-029	2-029_Neurofibroma	Neurofibroma	Primary Tumor
+JH-2-032	2-032_Plexiform_Neurofibroma	Plexiform Neurofibroma	Primary Tumor
