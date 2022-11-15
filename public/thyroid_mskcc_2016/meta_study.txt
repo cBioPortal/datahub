@@ -1,6 +1,6 @@
 type_of_cancer: thyroid
 cancer_study_identifier: thyroid_mskcc_2016
-name: Poorly-Differentiated and Anaplastic Thyroid Cancers (MSKCC, JCI 2016)
+name: Poorly-Differentiated and Anaplastic Thyroid Cancers (MSK, JCI 2016)
 description: Targeted sequencing of 341 cancer genes from 117 patient-derived PDTCs and ATCs
 groups: PUBLIC
 short_name: Thyroid (MSKCC 2016)
