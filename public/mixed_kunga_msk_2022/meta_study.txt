@@ -4,4 +4,4 @@ name: Pediatric Pancan Tumors (MSK,Nat Commun. 2022)
 short_name: mixed_kunga_msk_2022
 type_of_cancer: mixed
 pmid: 35585047
-citation: N et al. Nat Commun 2022
+citation: Shukla,N et al. Nat Commun 2022
