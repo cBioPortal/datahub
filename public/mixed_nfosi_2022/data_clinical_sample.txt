@@ -18,7 +18,7 @@ JH-2-019	2-019_Neurofibroma	Neurofibroma	Primary Tumor
 JH-2-021	2-021_Neurofibroma	Neurofibroma	Primary Tumor
 JH-2-023	2-023_Plexiform_Neurofibroma	Plexiform Neurofibroma	Primary Tumor
 JH-2-026	2-026_Neurofibroma	Neurofibroma	Primary Tumor
-JH-2-031	2-031_Cell_Line	Malignant Peripheral Nerve Sheath Tumor	
+JH-2-031_Cell_Line	2-031_Cell_Line	Malignant Peripheral Nerve Sheath Tumor	
 JH-2-031	2-031_Malignant_Peripheral_Nerve_Sheath_Tumor	Malignant Peripheral Nerve Sheath Tumor	Primary Tumor
 JH-2-029	2-029_Neurofibroma	Neurofibroma	Primary Tumor
 JH-2-032	2-032_Plexiform_Neurofibroma	Plexiform Neurofibroma	Primary Tumor

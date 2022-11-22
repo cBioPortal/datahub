@@ -17,7 +17,7 @@ JH-2-019	Female	-/-	+/+
 JH-2-021	Male	-/-	+/+	
 JH-2-023	Male	-/-	+/+	
 JH-2-026	Female	-/-	+/+	
-JH-2-031	Male		+/+	
+JH-2-031_Cell_Line	Male		+/+	
 JH-2-031	Male	-/-	+/+	
 JH-2-029	Male	-/-	+/+	
 JH-2-032	Female	-/-	+/+	
