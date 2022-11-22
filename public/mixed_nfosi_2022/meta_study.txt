@@ -1,6 +1,6 @@
 cancer_study_identifier: mixed_nfosi_2022
 type_of_cancer: mixed
-name: Plexiform Neurofibroma and Neurofibroma (John Hopkins 2022)
+name: Plexiform Neurofibroma, Neurofibroma, and MPNST (John Hopkins 2022)
 description: The mutation data were processed using the `sarek` nf-core pipeline. The data are contributed by John Hopkins University researchers funded by the Neurofibromatosis Therapeutic Acceleration Program (NTAP). The reprocessing of the raw data is managed by the NF Open Science Initiative (https://nf.synapse.org/).
 citation: Pollard, K., Banerjee, J., Doan, X. et al. A clinically and genomically annotated nerve sheath tumor biospecimen repository. Sci Data 7, 184 (2020). https://doi.org/10.1038/s41597-020-0508-5
 groups: PUBLIC
