@@ -10,4 +10,4 @@ show_profile_in_analysis_tab: false
 pivot_threshold_value: 0.001
 value_sort_order: DESC
 patient_level: true
-generic_entity_meta_properties: Name
+generic_entity_meta_properties: NAME
