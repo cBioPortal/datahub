@@ -1,5 +1,5 @@
 # cBioPortal Public Datahub
-The datahub is a repository for store data only. It contains staging files which are pre-validated and can be loaded directly into the  cBioPortal.
+The datahub is a repository for data storage only. It contains staging files which are validated and can be loaded directly into the  cBioPortal.
 
 Behind the scenes git-lfs is used to manage the large files. https://github.com/github/git-lfs
 
