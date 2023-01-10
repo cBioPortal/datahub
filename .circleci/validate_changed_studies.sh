@@ -43,16 +43,30 @@ if [[ $num_studies > 0 ]]; then
 
   test_reports_location="$HOME/test-reports"
   validation_command=""
+  num=0
+  max_threads=7
+  break_num=$(($num_studies / $max_threads + 1))
   for study in ${list_csv//,/ }
   do
+      # append sleep command between commands
+      ((num=num+1))
+      mod=$(($num % $break_num))
+      # if [ $mod = 0 ] ; then
+      #   validation_command="${validation_command} && sleep $((num*2))"
+      # fi
       # append the first study
       if [ "$validation_command" = "" ] ; then
-        validation_command="$HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
+        validation_command="($HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
       else
         # run each validation individually in the background
-        validation_command="${validation_command} & $HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
+        if [ $mod = 0 ] ; then
+          validation_command="${validation_command}) & ($HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
+        else
+          validation_command="${validation_command} ; $HOME/cbioportal/core/src/main/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
+        fi
       fi
   done
+  validation_command="${validation_command})"
   echo $'\nExecuting: '; echo $validation_command
   eval "$validation_command"
   # Waiting for all background processes to finish
