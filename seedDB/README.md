@@ -13,12 +13,12 @@ Propective updates to gene and gene alias tables in seedDB is every 6 months.
 ## Latest seed database
 
 This schema is required for cBioPortal release versions:
-- **3.6.0** or higher
+- **5.0.0** or higher
 
-When using a release version **> 2.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
+When using a release version **> 5.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
 
 **Schema 2.12.14**: [SQL file with create table statements](https://github.com/cBioPortal/cbioportal/blob/v5.0.0/db-scripts/src/main/resources/cgds.sql)<br>
-**Seed database**: [seed-cbioportal_hg19_v2.12.14.sql.gz](https://github.com/cBioPortal/datahub/blob/ce25ec886682db5e2fda778aac9480167fcd8cc6/seedDB/seed-cbioportal_hg19_v2.12.14.sql.gz)<br>
+**Seed database**: [seed-cbioportal_hg19_v2.12.14.sql.gz](https://github.com/cBioPortal/datahub/blob/master/seedDB/seed-cbioportal_hg19_v2.12.14.sql.gz)<br>
 md5sum 05481d66334b65512aef0364ce282fe6
 
 Updates for seed database:
