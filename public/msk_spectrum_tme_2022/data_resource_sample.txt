@@ -1,23 +1,3 @@
-PATIENT_ID	SAMPLE_ID	RESOURCE_ID	URL
-P-0039615	P-0039615-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1512003/index.html#s=0
-P-0039726	P-0039726-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1528033/index.html#s=0
-P-0039734	P-0039734-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1522433/index.html#s=0
-P-0040980	P-0040980-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1588283/index.html#s=0
-P-0041572	P-0041572-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1620501/index.html#s=0
-P-0042548	P-0042548-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1667005/index.html#s=0
-P-0043571	P-0043571-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1755957/index.html#s=0
-P-0043587	P-0043587-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1804979/index.html#s=0
-P-0044084	P-0044084-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1787503/index.html#s=0
-P-0044784	P-0044784-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1841591/index.html#s=0
-P-0045494	P-0045494-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1912680/index.html#s=0
-P-0045589	P-0045589-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/1912746/index.html#s=0
-P-0047883	P-0047883-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/2063510/index.html#s=0
-P-0047947	P-0047947-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/2109405/index.html#s=0
-P-0051015	P-0051015-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/2374259/index.html#s=0
-P-0051130	P-0051130-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/2385267/index.html#s=0
-P-0052808	P-0052808-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/2559785/index.html#s=0
-P-0054406	P-0054406-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/2715044/index.html#s=0
-P-0055908	P-0055908-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/3058560/index.html#s=0
-P-0056102	P-0056102-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/3097171/index.html#s=0
-P-0056224	P-0056224-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/3097029/index.html#s=0
-P-0056958	P-0056958-T01-IM6	HE	https://do0qms9q63u64.cloudfront.net/msk_spectrum_tme_2022/he/3191204/index.html#s=0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b469d49ab7e371336ba44aa449ddfb0e79ecf2fdc12a445b0abe340ec91091e9
+size 2589
