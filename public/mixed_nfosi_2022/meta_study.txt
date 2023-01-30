@@ -3,5 +3,6 @@ type_of_cancer: mixed
 name: Nerve Sheath Tumors (John Hopkins, Sci Data 2020)
 description: The mutation data were processed using the `sarek` nf-core pipeline. The data are contributed by John Hopkins University researchers funded by the Neurofibromatosis Therapeutic Acceleration Program (NTAP). The reprocessing of the raw data is managed by the NF Open Science Initiative (https://nf.synapse.org/).
 citation: Pollard et al. Sci Data 2020
+pmid: 32561749
 groups: PUBLIC
 add_global_case_list: false
