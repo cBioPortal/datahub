@@ -1,6 +1,6 @@
 type_of_cancer: gist
 cancer_study_identifier: gist_msk_2022
-name: Gastrointestinal Stromal Tumor (MSK, 2022)
+name: Gastrointestinal Stromal Tumor (MSK, NPJ Precis Oncol 2023)
 short_name: Gastrointestinal Stromal Tumor (MSK, 2022)
 description: Paired analysis in Gastrointestinal stromal tumors of 669 GIST tumor/normal pairs from 499 patients.
 pmid: 36593350
