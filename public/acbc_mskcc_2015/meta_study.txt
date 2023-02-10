@@ -1,4 +1,4 @@
-type_of_cancer: acbc
+type_of_cancer: acbc_test
 cancer_study_identifier: acbc_mskcc_2015
 name: Adenoid Cystic Carcinoma of the Breast (MSK, J Pathol. 2015)
 description: Whole exome sequencing of 12 breast AdCCs.
