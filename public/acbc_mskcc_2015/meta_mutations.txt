@@ -1,5 +1,5 @@
 cancer_study_identifier: acbc_mskcc_2015
-genetic_alteration_type: MUTATION_EXTENDED
+genetic_alteration_type: MUTATION_EXTENDED_TEST
 datatype: MAF
 stable_id: mutations
 show_profile_in_analysis_tab: true
