@@ -10,6 +10,7 @@ jobs:
     docker:
       - image: circleci/python:3.6
     resource_class: large
+    parallelism: 3
     working_directory: ~/repo/
     steps:
       - checkout
@@ -29,6 +30,7 @@ jobs:
     docker:
       - image: circleci/python:3.6
     resource_class: large
+    parallelism: 3
     working_directory: ~/repo
     steps:
       - checkout

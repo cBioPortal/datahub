@@ -68,4 +68,4 @@ Methylation | data_methylation_genebodies_hmEPIC.txt | data_methylation_genebodi
 
 Some of the filename updates here are just case changes. All the filenames were lowercased for uniformity.
 
-The uniprot isoform overrides maf was removed from all studies. The mskcc overrides maf was renamed to `data_mutations.txt` for simplicity and will be used for import. Read more about the transcript assignments [here](https://docs.cbioportal.org/mutation-data-transcript-annotation/#transcript-assignment).
+The uniprot isoform overrides maf was removed from all studies. The mskcc overrides maf was renamed to `data_mutations.txt` for simplicity and will be used for import. 
