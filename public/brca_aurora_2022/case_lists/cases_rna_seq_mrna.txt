@@ -1,5 +1,5 @@
-cancer_study_identifier: brca_aurora_2019
-stable_id: brca_aurora_2019_rna_seq_mrna
+cancer_study_identifier: brca_aurora_2022
+stable_id: brca_aurora_2022_rna_seq_mrna
 case_list_name: Samples with mRNA (log2 transformed z-Scores) data
 case_list_description: Samples with CNV (log2 transformed z-Scores) data
 case_list_category: all_cases_with_mrna_rnaseq_data
