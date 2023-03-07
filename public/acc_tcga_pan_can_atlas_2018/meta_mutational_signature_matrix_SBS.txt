@@ -1,0 +1,10 @@
+cancer_study_identifier: acc_tcga_pan_can_atlas_2018
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: MUTATIONAL_SIGNATURE
+datatype: LIMIT-VALUE
+stable_id: mutational_signature_matrix_SBS
+profile_name: mutational signature matrix SBS
+profile_description: profile for matrix value of mutational signatures, generated using tempoSig with 1000 permutations
+data_filename: data_mutational_signature_matrix_SBS.txt
+show_profile_in_analysis_tab: false
+generic_entity_meta_properties: NAME
