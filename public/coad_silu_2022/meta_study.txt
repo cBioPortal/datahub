@@ -1,0 +1,8 @@
+type_of_cancer: coad
+cancer_study_identifier: coad_silu_2022
+name: Colon Cancer Sidra-LUMC (SILU, 2022)
+short_name: Colon Cancer Sidra-LUMC (SILU, 2022)
+description: Colon Invasive Carcinoma data from LUMC patients sequenced at Sidra Medicine Qatar. The original data is <a href="https://XXXXXX">here</a>. The publications are <a href="https://XXXX">here</a>.
+groups: SILU_Publication
+citation: 
+add_global_case_list:true
