@@ -22,5 +22,6 @@ For a new study (in addition to above):
 - [ ] Expression data including z-scores with meta files
 - [ ] Other genomic profiles with meta files
 - [ ] Case-lists for all profiles.
+- [ ] Perform sanity checks based on the items in the [checklist](https://github.com/cBioPortal/datahub/blob/master/docs/curation-process.md)
 - [ ] Manual checking (Niki or JJ): Triage or private Portal link here
 
