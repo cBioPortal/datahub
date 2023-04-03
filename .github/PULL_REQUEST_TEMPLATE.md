@@ -16,10 +16,11 @@ For a new study (in addition to above):
 - [ ] Are oncotree codes of all samples curated; Cancer Type and Cancer Type Detailed needs to be added in addition to Oncotree Code
 - [ ] Clinical sample and patient data with meta files.
 - [ ] Mutations data with meta file.
-- [ ] Is the study based on hg38? Include the reference_genome: hg38 option in meta study.
+- [ ] Is the study based on hg38? If so, is the reference_genome: hg38 option included in meta study.
 - [ ] CNA data with meta files
 - [ ] CNA segment data with meta files
 - [ ] Expression data including z-scores with meta files
+- [ ] Other genomic profiles with meta files
 - [ ] Case-lists for all profiles.
 - [ ] Manual checking (Niki or JJ): Triage or private Portal link here
 
