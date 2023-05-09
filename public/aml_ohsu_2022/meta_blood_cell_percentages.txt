@@ -6,5 +6,5 @@ stable_id: BLOOD_MEASUREMENTS
 show_profile_in_analysis_tab: true
 profile_name: Blood measurements
 profile_description: Blood measurements per sample
-data_filename: data_generic_assay.txt
+data_filename: data_blood_cell_percentages.txt
 generic_entity_meta_properties: NAME,DESCRIPTION
