@@ -13,6 +13,23 @@ Propective updates to gene and gene alias tables in seedDB is every 6 months.
 ## Latest seed database
 
 This schema is required for cBioPortal release versions:
+- **5.3.2** or higher
+
+When using a release version **> 5.3.2**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
+
+**Schema 2.13.0**: [SQL file with create table statements](https://github.com/cBioPortal/cbioportal/blob/v5.3.2/db-scripts/src/main/resources/cgds.sql)<br>
+**Seed database**: [seed-cbioportal_hg19_v2.13.0.sql.gz](https://github.com/cBioPortal/datahub/blob/master/seedDB/seed-cbioportal_hg19_v2.13.0.sql.gz)<br>
+md5sum 22aa9bb0c73e0af8feecbcbb525c5fed
+
+Updates for seed database:
+- Entrez Gene IDs, gene symbols and gene aliases updated from HGNC [April 1, 2023 release](http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/hgnc_complete_set_2023-03-02.txt). The detailed changes are listed [HERE](https://github.com/cBioPortal/datahub-study-curation-tools/blob/master/gene-table-update/build-input-for-importer/gene-table-release-archives/Gene_Table_v4_HGNC_Apr_01_2023/gene-updates.md)
+- Gene Sets from MSigDB v2023.1.Hs 
+
+## Previous seed databases
+
+### Seed database schema 2.12.14
+
+This schema is required for cBioPortal release versions:
 - **5.0.0** or higher
 
 When using a release version **> 5.0.0**, a migration step to a new database schema might be required. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
@@ -24,8 +41,6 @@ md5sum 05481d66334b65512aef0364ce282fe6
 Updates for seed database:
 - Entrez Gene IDs, gene symbols and gene aliases updated from HGNC [Oct 1, 2022 release](http://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/archive/monthly/tsv/hgnc_complete_set_2022-10-01.txt). The detailed changes are listed [HERE](https://github.com/cBioPortal/datahub-study-curation-tools/blob/master/gene-table-update/build-input-for-importer/gene-table-release-archives/Gene_Table_v3_HGNC_Oct_01_2022/gene-updates.md)
 - Gene Sets from MSigDB 7.5.1
-
-## Previous seed databases
 
 ### Seed database schema 2.12.12
 
