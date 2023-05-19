@@ -1,0 +1,8 @@
+cancer_study_identifier: aml_ohsu_2022
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: rna_seq_v2_mrna
+show_profile_in_analysis_tab: false
+profile_name: mRNA expression (log2 RNA Seq RPKM)
+profile_description: mRNA expression derived from log2-normalized RPKM values
+data_filename: data_mrna_seq_rpkm.txt
