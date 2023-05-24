@@ -1,0 +1,10 @@
+cancer_study_identifier: aml_ohsu_2022
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: BLOOD_MEASUREMENTS
+datatype: LIMIT-VALUE
+stable_id: BLOOD_MEASUREMENTS
+show_profile_in_analysis_tab: true
+profile_name: Blood measurements
+profile_description: Blood measurements per sample
+data_filename: data_blood_cell_percentages.txt
+generic_entity_meta_properties: NAME,DESCRIPTION
