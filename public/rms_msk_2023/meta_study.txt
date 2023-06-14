@@ -1,0 +1,4 @@
+type_of_cancer: rms
+cancer_study_identifier: rms_msk_2023
+name: Extremity Rhabdomyosarcomas (MSK, NPJ Precision Oncology 2023)
+description: Targeted sequencing of 24 rhabdomyosarcoma tumors and their matched normals via MSK-IMPACT.

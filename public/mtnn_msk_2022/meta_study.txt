@@ -1,0 +1,5 @@
+type_of_cancer: mtnn
+cancer_study_identifier: mtnn_msk_2022
+name: Mature T and NK Neoplasms (MSK, 2022)
+short_name: MTNN (MSK, 2022)
+description: Targeted sequencing of 132 Mature T and NK Neoplasms and their matched normals via MSK-IMPACT.
