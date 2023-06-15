@@ -1,0 +1,6 @@
+cancer_study_identifier: rms_msk_2023
+stable_id: rms_msk_2023_cnaseq
+case_list_name: Samples with mutation and CNA data
+case_list_description: Samples with mutation and CNA data (24 samples)
+case_list_category: all_cases_with_mutation_and_cna_data
+case_list_ids: P-0068164-T03-IM7	P-0001090-T01-IM3	P-0006113-T01-IM5	P-0066131-T02-IM7	P-0075937-T02-IM7	P-0033453-T04-IM7	P-0039203-T02-IM6	P-0045478-T03-IM7	P-0015595-T01-IM6	P-0022748-T01-IM6	P-0031070-T02-IM6	P-0047841-T02-IM6	P-0028971-T03-IM6	P-0067414-T02-IM7	P-0078634-T01-IM7	P-0030361-T01-IM6	P-0013940-T01-IM5	P-0003658-T01-IM5	P-0063459-T02-IM7	P-0025755-T01-IM6	P-0054564-T02-IM6	P-0036487-T01-IM6	P-0022317-T02-IM6	P-0000905-T01-IM3
