@@ -1,0 +1,6 @@
+cancer_study_identifier: nbl_msk_2023
+type_of_cancer: nbl
+name: Neuroblastoma Clinical Sequencing Cohort (MSK, Nat Genet 2023)
+description:  Targeted sequencing of 223 tumor/normal pairs via MSK-IMPACT platform.
+citation: Gunes et al. Nat Genet 2023
+pmid: 37169874
