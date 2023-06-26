@@ -2,6 +2,6 @@ type_of_cancer: luad
 cancer_study_identifier: luad_mskcc_2023_met_organotropism
 name: Lung Adenocarcinoma Met Organotropism (MSK, Cancer cell 2023)
 short_name: LUAD Met Organotropism (MSK)
-description: This cohort contains genomic and manually abstracted clinico-pathologic data for 2653 lung adenocarcinoma tumor samples sequenced with a combination of MSK-IMPACT and whole exome sequencing. Analyzed this dataset to identify clinico-pathologic and genomic features associated with metastatic spread to the seven most common sites of metastasis, metastatic burden, and metastasis-free survival.
+description: This cohort contains genomic and manually abstracted clinico-pathologic data for 2653 lung adenocarcinoma tumor samples and their matched normals sequenced with a combination of MSK-IMPACT and whole exome sequencing. Analyzed this dataset to identify clinico-pathologic and genomic features associated with metastatic spread to the seven most common sites of metastasis, metastatic burden, and metastasis-free survival.
 pmid: 37084736
 citation: Lengel, Harry B et al. Cancer cell 2023
