@@ -1,0 +1,7 @@
+type_of_cancer: aml
+cancer_study_identifier: aml_ohsu_2022
+name: Acute Myeloid Leukemia (OHSU, Cancer Cell 2022)
+description: Whole-exome and transcriptomic sequencing of 942 acute myeloid leukemia samples (with 500 matched normals) from the Beat AML program.
+citation: Bottomly et al. Cancer Cell 2022
+pmid: 35868306
+groups: PUBLIC
