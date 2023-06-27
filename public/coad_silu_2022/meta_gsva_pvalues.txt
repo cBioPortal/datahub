@@ -6,4 +6,4 @@ source_stable_id: gsva_scores
 profile_name: ssGSVA scores on immunologic and oncogenic signatures
 profile_description: ssGSVA scores on immunologic and oncogenic signatures gene sets using mRNA expression data calculated with ssGSVA
 data_filename: meta_gsva_pvalues.txt
-geneset_def_version: msigdb_2023.1.Hs
+geneset_def_version: msigdb_v2023.1.Hs
