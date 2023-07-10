@@ -1,0 +1,6 @@
+cancer_study_identifier: egc_trap_ccr_msk_2023
+description: Whole Exome sequencing of 64 Esophagogastric Cancer tumor/normal sample pairs.
+name: Esophagogastric Cancer (MSK, 2023)
+type_of_cancer: egc
+pmid: 37406106
+citation: Steven B et al. Clin Cancer Res 2023
