@@ -10,7 +10,7 @@ Validation status of all studies on Datahub master branch. This runs weekly usin
 
 ## How to Download Data
 ### Downloading zip files individual studies
-At [cbioportal.org](http://www.cbioportal.org/data_sets.jsp) a zipped folder with staging files from each study can be downloaded. These zip files are compressed versions of the study folders in the master branch of this repository.
+At [cbioportal.org datasets page](https://www.cbioportal.org/datasets) a zipped file with staging files from each study can be downloaded. These zip files are compressed versions of the study folders in the master branch of this repository.
 
 ### Example downloading individual study with git-lfs
 It is also possible to download uncompressed staging files from this repository with git-lfs.
