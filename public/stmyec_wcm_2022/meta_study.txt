@@ -1,0 +1,8 @@
+type_of_cancer: stmyec
+cancer_study_identifier: stmyec_wcm_2022
+name: Myoepithelial Carcinomas of the Soft Tissue (WCM, CSH Molecular Case Studies 2022)
+description: Whole Exome Sequencing results with matched normals (mutation and copy number data) for Weill Cornell Medicine Myoepithelial Carcinomas of the Soft Tissue cohort
+citation: Cyrta et al. 2022 Cold Spring Harb Mol Case Stud 8: a006227
+pmid: 36577525
+add_global_case_list: true
+groups: PUBLIC
