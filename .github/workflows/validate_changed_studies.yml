@@ -1,0 +1,25 @@
+name: Validate Changed Studies
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Configure Git
+        run: |
+          git config user.name "Continuous Integration"
+          git config user.email "ci@example.com"
+
+      - name: Validate changed studies
+        run: |
+          cd .circleci
+          ./install_dependencies.sh
+          ./validate_changed_studies.sh
