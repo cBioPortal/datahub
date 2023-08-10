@@ -1,4 +1,4 @@
-cancer_study_identifier: bladder_mskcc_2022
+cancer_study_identifier: bladder_columbia_msk_2018
 reference_genome_id: hg19
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: SEG

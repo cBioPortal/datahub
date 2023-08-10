@@ -1,5 +1,5 @@
-cancer_study_identifier: bladder_mskcc_2022
-stable_id: bladder_mskcc_2022_all
+cancer_study_identifier: bladder_columbia_msk_2018
+stable_id: bladder_columbia_msk_2018_all
 case_list_name: All samples
 case_list_description: All samples (130 samples)
 case_list_category: all_cases_in_study
