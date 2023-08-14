@@ -1,5 +1,5 @@
-cancer_study_identifier: broad_ccle_2023
-stable_id: broad_ccle_2023_log2CNA
+cancer_study_identifier: ccle_broad_2023
+stable_id: ccle_broad_2023_log2CNA
 case_list_name: Samples with log2 copy-number data
 case_list_description: Samples with log2 copy-number data (1814 samples)
 case_list_category: all_cases_with_log2_cna_data

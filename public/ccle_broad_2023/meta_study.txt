@@ -1,6 +1,7 @@
-cancer_study_identifier: broad_ccle_2023
+cancer_study_identifier: ccle_broad_2023
 type_of_cancer: mixed
 name: Broad (ccle 2023) 
 description: Cancer Cell Line Encyclopedia (CCLE) study aiming to characterize a broad variety of human cancers using WGS and WES of 1,072 cell lines from various lineages and ethnicities. 
 pmid: 31068700
+reference_genome: hg38
 citation: Ghandi et al. Nature 2019
