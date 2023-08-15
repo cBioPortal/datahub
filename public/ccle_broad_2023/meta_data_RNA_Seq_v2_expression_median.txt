@@ -1,7 +1,7 @@
 cancer_study_identifier: ccle_broad_2023
 genetic_alteration_type: MRNA_EXPRESSION
 datatype: CONTINUOUS
-stable_id: RNA_Seq_v2_expression_median
+stable_id: rna_seq_v2_mrna
 show_profile_in_analysis_tab: false
 profile_name: RNA expression 
 profile_description: Expression levels 
