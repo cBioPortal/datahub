@@ -1,0 +1,52 @@
+on:
+  pull_request:
+    branches:
+      - test-master
+
+jobs:  
+  preview:
+    runs-on: ubuntu-latest
+    container: docker.io/okteto/okteto:2.19.0
+    steps:
+    - name: Checkout Datahub Repository
+    - uses: actions/checkout@v3
+
+    - name: Checkout cbioportal-docker-compose Repository
+    - uses: actions/checkout@v3
+    with:
+      repository: justinjao/cbioportal-docker-compose
+      path: cbioportal-docker-compose
+
+
+    # - name: Context
+    #   uses: okteto/context@latest
+    #   with:
+    #     url: ${{secrets.OKTETO_URL}}
+    #     token: ${{ secrets.OKTETO_TOKEN }}
+
+
+    # - name: Deploy preview environment
+    #   uses: okteto/deploy-preview@latest
+    #   env:
+    #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #   with:
+    #     name: pr-${{ github.event.number }}-justinjao
+    #     timeout: 15m
+    
+    # - name: Wait For Response
+    #   uses: nev7n/wait_for_response@v1.0.1
+    #   with:
+    #     url: 'https://cbioportal-pr-${{ github.event.number }}-justinjao.cloud.okteto.net/'
+    #     responseCode: 200
+    #     timeout: 600000 # 10 minutes
+    #     interval: 30000 # 30 seconds
+
+    # - name: "Activate Namespace"
+    #   uses: okteto/namespace@latest
+    #   with:
+    #     namespace: pr-${{github.event.number}}-justinjao
+
+    # - name: Kubectl test
+    #   run: |
+    #     okteto kubeconfig
+    #     kubectl exec -it deployment/cbioportal -- metaImport.py -u http://localhost:8080 -s study/lgg_ucsf_2014/ -o
