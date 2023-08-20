@@ -8,14 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     container: docker.io/okteto/okteto:2.19.0
     steps:
-    - name: Checkout Datahub Repository
-    - uses: actions/checkout@v3
+      - name: Checkout Datahub Repository
+      - uses: actions/checkout@v3
 
-    - name: Checkout cbioportal-docker-compose Repository
-    - uses: actions/checkout@v3
-      with:
-        repository: justinjao/cbioportal-docker-compose
-        path: cbioportal-docker-compose
+      - name: Checkout cbioportal-docker-compose Repository
+      - uses: actions/checkout@v3
+        with:
+          repository: justinjao/cbioportal-docker-compose
+          path: cbioportal-docker-compose
 
 
     # - name: Context
