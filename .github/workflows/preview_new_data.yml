@@ -7,6 +7,9 @@ jobs:
   preview:
     runs-on: ubuntu-latest
     container: docker.io/okteto/okteto:2.19.0
+    defaults:
+      run:
+        working-directory: 
     steps:
       - name: Checkout Datahub Repository
         uses: actions/checkout@v3
@@ -15,6 +18,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: justinjao/cbioportal-docker-compose
+          ref: test-master
           path: cbioportal-docker-compose
 
 
