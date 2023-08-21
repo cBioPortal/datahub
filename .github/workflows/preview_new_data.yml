@@ -7,9 +7,9 @@ jobs:
   preview:
     runs-on: ubuntu-latest
     container: docker.io/okteto/okteto:2.19.0
-    defaults:
-      run:
-        working-directory: 
+    # defaults:
+    #   run:
+    #     working-directory: 
     steps:
       - name: Checkout Datahub Repository
         uses: actions/checkout@v3
