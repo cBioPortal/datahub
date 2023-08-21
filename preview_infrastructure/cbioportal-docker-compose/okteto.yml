@@ -1,0 +1,7 @@
+deploy:
+  commands: 
+   - apt-get install -y wget
+   - ./init.sh
+   - okteto build -t okteto.dev/cbioportal-docker-compose-cbioportal:okteto-with-volume-mounts cbioportal
+   - okteto kubeconfig
+  compose: docker-compose.yml
