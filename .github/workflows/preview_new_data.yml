@@ -14,12 +14,12 @@ jobs:
       - name: Checkout Datahub Repository
         uses: actions/checkout@v3
 
-      - name: Checkout cbioportal-docker-compose Repository
-        uses: actions/checkout@v3
-        with:
-          repository: justinjao/cbioportal-docker-compose
-          ref: test-master
-          path: cbioportal-docker-compose
+      # - name: Checkout cbioportal-docker-compose Repository
+      #   uses: actions/checkout@v3
+      #   with:
+      #     repository: justinjao/cbioportal-docker-compose
+      #     ref: test-master
+      #     path: cbioportal-docker-compose
 
 
       - name: Context
@@ -31,6 +31,7 @@ jobs:
 
       - name: Deploy preview environment
         uses: okteto/deploy-preview@latest
+        file: preview_infrastructure/cbioportal-docker-compose/okteto.yml
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
