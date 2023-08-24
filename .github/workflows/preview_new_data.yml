@@ -12,6 +12,12 @@ jobs:
         uses: tj-actions/changed-files@v38
         with:
           dir_names: "true"
+      - name: Extract Directory Name of New Study
+        id: new-dir
+        shell: bash
+        run: |
+          echo "NEW_DIR_LOCATION=$( echo ${{ steps.changed-files-dir-names.outputs.added_files }} | awk '{print $1}' )" >> $GITHUB_OUTPUT
+
   preview:
     needs: changed_files
     runs-on: ubuntu-latest
