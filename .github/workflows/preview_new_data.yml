@@ -71,4 +71,4 @@ jobs:
       - name: Kubectl test
         run: |
           okteto kubeconfig
-          kubectl exec -it deployment/cbioportal -- metaImport.py -u http://localhost:8080 -s study/lgg_ucsf_2014/ -o
+          kubectl exec -it deployment/cbioportal -- metaImport.py -u http://localhost:8080 -s study/${{needs.changed_files.outputs.new_study_name}}/ -o
