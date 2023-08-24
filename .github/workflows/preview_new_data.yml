@@ -11,13 +11,11 @@ jobs:
       - name: Checkout Datahub Repository
         uses: actions/checkout@v3
 
-
       - name: Context
         uses: okteto/context@latest
         with:
           url: ${{secrets.OKTETO_URL}}
           token: ${{ secrets.OKTETO_TOKEN }}
-
 
       - name: Deploy preview environment
         uses: okteto/deploy-preview@latest
@@ -25,6 +23,7 @@ jobs:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           name: pr-${{ github.event.number }}-justinjao
+          file: preview_infrastructure/cbioportal-docker-compose/docker-compose.yml
           timeout: 15m
     
     # - name: Wait For Response
