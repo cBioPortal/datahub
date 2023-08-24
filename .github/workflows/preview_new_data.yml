@@ -52,7 +52,7 @@ jobs:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           name: pr-${{ github.event.number }}-justinjao
-          file: preview_infrastructure/cbioportal-docker-compose/docker-compose.yml
+          file: preview_infrastructure/cbioportal-docker-compose/okteto.yml
           timeout: 15m
     
       - name: Wait For Response
