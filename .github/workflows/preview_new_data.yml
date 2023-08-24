@@ -3,8 +3,14 @@ on:
     branches:
       - "*"
 
-jobs:  
+jobs:
+  changed_files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dummy
+        run: ls
   preview:
+    needs: changed_files
     runs-on: ubuntu-latest
     container: docker.io/okteto/okteto:2.19.1
     steps:
