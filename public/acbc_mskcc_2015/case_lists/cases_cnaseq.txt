@@ -1,6 +1,0 @@
-cancer_study_identifier: acbc_mskcc_2015
-stable_id: acbc_mskcc_2015_cnaseq
-case_list_name: Samples with mutation and CNA data
-case_list_description: Samples with mutation and CNA data (12 samples)
-case_list_category: all_cases_with_mutation_and_cna_data
-case_list_ids: AdCC10T	AdCC3T	AdCC8T	AdCC1T	AdCC11T	AdCC2T	AdCC6T	AdCC5T	AdCC32T	AdCC4T	AdCC9T	AdCC12T
