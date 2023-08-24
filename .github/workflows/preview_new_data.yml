@@ -41,20 +41,20 @@ jobs:
           file: preview_infrastructure/cbioportal-docker-compose/docker-compose.yml
           timeout: 15m
     
-    # - name: Wait For Response
-    #   uses: nev7n/wait_for_response@v1.0.1
-    #   with:
-    #     url: 'https://cbioportal-pr-${{ github.event.number }}-justinjao.cloud.okteto.net/'
-    #     responseCode: 200
-    #     timeout: 600000 # 10 minutes
-    #     interval: 30000 # 30 seconds
+      - name: Wait For Response
+        uses: nev7n/wait_for_response@v1.0.1
+        with:
+          url: 'https://cbioportal-pr-${{ github.event.number }}-justinjao.cloud.okteto.net/'
+          responseCode: 200
+          timeout: 600000 # 10 minutes
+          interval: 30000 # 30 seconds
 
-    # - name: "Activate Namespace"
-    #   uses: okteto/namespace@latest
-    #   with:
-    #     namespace: pr-${{github.event.number}}-justinjao
+      - name: "Activate Namespace"
+        uses: okteto/namespace@latest
+        with:
+          namespace: pr-${{github.event.number}}-justinjao
 
-    # - name: Kubectl test
-    #   run: |
-    #     okteto kubeconfig
-    #     kubectl exec -it deployment/cbioportal -- metaImport.py -u http://localhost:8080 -s study/lgg_ucsf_2014/ -o
+      - name: Kubectl test
+        run: |
+          okteto kubeconfig
+          kubectl exec -it deployment/cbioportal -- metaImport.py -u http://localhost:8080 -s study/lgg_ucsf_2014/ -o
