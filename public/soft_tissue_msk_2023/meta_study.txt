@@ -1,0 +1,4 @@
+type_of_cancer: rms
+cancer_study_identifier: soft_tissue_msk_2023
+name: Sequential Rhabdomyosarcomas (MSK, Nature Precision Oncology 2023)
+description: Targeted sequencing of 42 rhabdomyosarcoma tumors and their matched normals via MSK-IMPACT.
