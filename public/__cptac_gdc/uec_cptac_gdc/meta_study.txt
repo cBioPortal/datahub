@@ -1,0 +1,8 @@
+type_of_cancer: uec
+cancer_study_identifier: uec_cptac_gdc
+name: Uterine Endometrioid Carcinoma (CPTAC, GDC)
+short_name: uec
+description: CPTAC Uterine Endometrioid Carcinoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
+reference_genome: hg38
+add_global_case_list: true
+groups: PUBLIC

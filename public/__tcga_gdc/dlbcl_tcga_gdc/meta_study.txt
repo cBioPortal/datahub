@@ -1,0 +1,8 @@
+type_of_cancer: dlbcl
+cancer_study_identifier: dlbcl_tcga_gdc
+name: Diffuse Large B-Cell Lymphoma (TCGA, GDC)
+short_name: dlbcl
+description: TCGA Diffuse Large B-Cell Lymphoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
+reference_genome: hg38
+add_global_case_list: true
+groups: PUBLIC
