@@ -1,0 +1,4 @@
+type_of_cancer: pancreas
+cancer_study_identifier: panc_msk_2023
+name: Pancreatic Neuroendocrine Tumors (MSK, 2023)
+description: Targeted sequencing of 65 Pancreatic Neuroendocrine tumors/normal pairs via MSK-IMPACT.
