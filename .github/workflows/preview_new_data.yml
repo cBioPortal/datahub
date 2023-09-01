@@ -56,14 +56,14 @@ jobs:
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: pr-${{ github.event.number }}-justinjao
+          name: pr-${{ github.event.number }}-averyniceday
           file: preview_infrastructure/cbioportal-docker-compose/okteto.yml
           timeout: 15m
     
       - name: Wait For Response
         uses: nev7n/wait_for_response@v1.0.1
         with:
-          url: 'https://cbioportal-pr-${{ github.event.number }}-justinjao.cloud.okteto.net/'
+          url: 'https://cbioportal-pr-${{ github.event.number }}-averyniceday.cloud.okteto.net/'
           responseCode: 200
           timeout: 600000 # 10 minutes
           interval: 30000 # 30 seconds
@@ -71,25 +71,9 @@ jobs:
       - name: "Activate Namespace"
         uses: okteto/namespace@latest
         with:
-          namespace: pr-${{github.event.number}}-justinjao
+          namespace: pr-${{github.event.number}}-averyniceday
 
       - name: Kubectl test
         run: |
           okteto kubeconfig
-          echo "OUTSIDE CONTAINER ls:"
-          ls
-          # echo "OUTSIDE CONTAINER ls study:"
-          # ls study
-          # echo "OUTSIDE CONTAINER ls study/acbc_mskcc_2015/:"
-          # ls study/acbc_mskcc_2015
-          echo "OUTSIDE CONTAINER ls preview_infrastructure/cbioportal-docker-compose/study:"
-          ls preview_infrastructure/cbioportal-docker-compose/study
-          echo "OUTSIDE CONTAINER ls preview_infrastructure/cbioportal-docker-compose/study/acbc_mskcc_2015:"
-          ls preview_infrastructure/cbioportal-docker-compose/study/acbc_mskcc_2015
-          echo "MAYBE INSIDE? ls:"
-          kubectl exec -it deployment/cbioportal -- ls
-          echo "MAYBE INSIDE? ls study:"
-          kubectl exec -it deployment/cbioportal -- ls study
-          echo "MAYBE INSIDE? ls cbioportal"
-          kubectl exec -it deployment/cbioportal -- ls cbioportal
           kubectl exec -it deployment/cbioportal -- metaImport.py -u http://localhost:8080 -s study/${{needs.changed_files.outputs.new_study_name}}/ -o
