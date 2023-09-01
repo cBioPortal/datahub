@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  cbioportal:
+    # Note this is as dev version since the latest v4 images don't work on arm64
+    image: cbioportal/cbioportal:5.2.6
+  cbioportal-database:
+    image: biarms/mysql:5.7
+  cbioportal-session-database:
+    image: mongo:4.2
