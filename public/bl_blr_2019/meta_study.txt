@@ -1,7 +1,0 @@
-cancer_study_identifier: bl_blr_2019
-type_of_cancer: bl
-name: Burkitt lymphoma (Foundation for Burkitt Lymphoma Research, 2019)
-description: Whole-genome sequencing of 91 Discovery cases with their matched normals, and targeted sequencing of a validation cohort of 29 cases of pediatric Burkitt Lymphoma. 
-reference_genome: hg38 
-pmid: 30617194
-citation: Grande et al. Blood 2019

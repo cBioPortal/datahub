@@ -1,4 +1,4 @@
-cancer_study_identifier: bl_blr_2019
+cancer_study_identifier: bl_blr_2023
 data_filename: data_clinical_sample.txt
 genetic_alteration_type: CLINICAL
 datatype: SAMPLE_ATTRIBUTES
