@@ -1,4 +1,0 @@
-cancer_study_identifier: brca_hta9_htan_2022
-genetic_alteration_type: CLINICAL
-datatype: TIMELINE
-data_filename: data_timeline_molecular_test.txt

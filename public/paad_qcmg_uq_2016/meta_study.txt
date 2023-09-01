@@ -1,8 +1,0 @@
-type_of_cancer: paad
-cancer_study_identifier: paad_qcmg_uq_2016
-name: Pancreatic Adenocarcinoma (QCMG, Nature 2016)
-description: Whole-genome and deep-exome sequencing analysis of 456 pancreatic ductal adenocarcinomas
-citation: Bailey et al. Nature 2016
-pmid: 26909576
-groups: PUBLIC
-short_name: Pancreas (QCMG 2016)

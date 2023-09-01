@@ -1,6 +1,0 @@
-cancer_study_identifier: ucec_tcga
-stable_id: ucec_tcga_3way_complete
-case_list_name: Complete samples
-case_list_description: Samples with mutation, CNA and expression data (7 samples)
-case_list_category: all_cases_with_mutation_and_cna_and_mrna_data
-case_list_ids: TCGA-B5-A0K9-01	TCGA-B5-A0JR-01	TCGA-B5-A11R-01	TCGA-B5-A0JN-01	TCGA-AX-A1C7-01	TCGA-AX-A05W-01	TCGA-BS-A0V7-01

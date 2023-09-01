@@ -1,8 +1,0 @@
-type_of_cancer: utuc
-cancer_study_identifier: utuc_msk_2019
-name: Upper Tract Urothelial Carcinoma (MSK, Nat Commun 2020)
-description: Targeted Sequencing of 119 upper tract urothelial carcinoma tumor/normal pairs.
-groups: PUBLIC
-pmid: 32332851
-citation: Kwanghee et al. Nat Commun 2020
-short_name: UTUC (MSK, 2019)

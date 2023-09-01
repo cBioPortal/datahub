@@ -1,7 +1,0 @@
-type_of_cancer: luad
-cancer_study_identifier: luad_mskcc_2023_met_organotropism
-name: Lung Adenocarcinoma Met Organotropism (MSK, Cancer Cell 2023)
-short_name: LUAD Met Organotropism (MSK)
-description: Targeted and whole-exome sequencing of 2653 lung adenocarcinoma tumor/normal sample pairs.
-pmid: 37084736
-citation: Lengel, Harry B et al. Cancer Cell 2023

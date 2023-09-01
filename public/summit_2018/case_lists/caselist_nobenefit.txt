@@ -1,5 +1,0 @@
-cancer_study_identifier: summit_2018
-stable_id: summit_2018_nobenefit
-case_list_name: No Benefit (treatment duration < 24 weeks)
-case_list_description: ERBB2 patients with no clinical benefit (66 samples with IMPACT data)
-case_list_ids: 5	6	7	8	10	11	14	17	18	19	21	23	24	25	26	27	29	31	32	34	35	36	37	38	39	40	42	44	45	46	47	48	50	51	52	53	55	56	57	59	60	62	63	64	65	66	69	71	72	73	74	75	76	77	79	81	82	83	84	85	87	90	91	92	94	96

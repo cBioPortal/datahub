@@ -1,7 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: summit_2018
-name: SUMMIT - Neratinib Basket Study (Multi-Institute, Nature 2018)
-short_name: Neratinib Basket Study
-description: MSK-IMPACT sequencing of 86 patients with HER2- and HER3-mutant cancers
-citation: Hyman et al. Nature 2018
-pmid: 29420467

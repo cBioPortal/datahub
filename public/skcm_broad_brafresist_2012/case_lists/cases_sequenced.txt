@@ -1,6 +1,0 @@
-cancer_study_identifier: skcm_broad_brafresist_2012
-stable_id: skcm_broad_brafresist_2012_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (78 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: Pat_04_Pre	Pat_05_Post	Pat_59_Post	Pat_46_Post	Pat_22_Post	Pat_58_Post	Pat_28_Post	Pat_49_Post	Pat_76_Post	Pat_44_Pre	Pat_16_Post	Pat_60_Pre	Pat_53_Pre	Pat_46_Pre	Pat_40_Post	Pat_16_Pre	Pat_30_Post	Pat_07_Post	Pat_05_Pre	Pat_51_Pre	Pat_76_Pre	Pat_01_Pre	Pat_60_Post	Pat_27_Post	Pat_59_Pre	Pat_54_Pre	Pat_15_Post	Pat_63_Pre	Pat_11_Pre	Pat_40_Pre	Pat_29_Post	Pat_08_Pre	Pat_41_Post	Pat_53_Post	Pat_21_Post	Pat_30_Pre	Pat_26_Post	Pat_22_Pre	Pat_06_Post	Pat_70_Post	Pat_36_Post	Pat_74_Pre	Pat_70_Pre	Pat_55_Pre	Pat_34_Pre	Pat_73_Post	Pat_31_Post	Pat_11_Post	Pat_45_Pre	Pat_24_Post	Pat_01_Post	Pat_58_Pre	Pat_37_Post	Pat_02_Post	Pat_73_Pre	Pat_15_Pre	Pat_50_Pre	Pat_24_Pre	Pat_65_Pre	Pat_26_Pre	Pat_14_Post	Pat_48_Pre	Pat_07_Pre	Pat_06_Pre	Pat_14_Pre	Pat_44_Post	Pat_04_Post	Pat_29_Pre	Pat_66_Pre	Pat_74_Post	Pat_08_Post	Pat_32_Post	Pat_32_Pre	Pat_48_Post	Pat_31_Pre	Pat_45_Post	Pat_41_Pre	Pat_63_Post

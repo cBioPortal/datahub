@@ -1,8 +1,0 @@
-type_of_cancer: coadread
-cancer_study_identifier: coadread_dfci_2016
-name: Colorectal Adenocarcinoma (DFCI, Cell Reports 2016)
-short_name: Colorectal (DFCI 2016)
-description: Whole-exome sequencing of 619 colorectal cancers with clinicopathologic annotations.
-citation: Giannakis et al. Cell Reports 2016
-pmid: 27149842
-groups: PUBLIC

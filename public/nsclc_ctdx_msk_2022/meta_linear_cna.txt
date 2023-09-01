@@ -1,8 +1,0 @@
-cancer_study_identifier: nsclc_ctdx_msk_2022
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: CONTINUOUS
-stable_id: linear_CNA
-show_profile_in_analysis_tab: false
-profile_description: Copy number changes called by Resbio Lung ctDx
-profile_name: Copy Number Alterations (Resbio Lung ctDx)
-data_filename: data_linear_cna.txt

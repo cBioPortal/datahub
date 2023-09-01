@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Nerve_Sheath_Tumor
-case_list_name: Tumor Type: Nerve Sheath Tumor
-case_list_description: All tumors with cancer type Nerve Sheath Tumor
-case_list_ids: P-0002134-T01-IM3	P-0006001-T01-IM5	P-0005514-T01-IM5	P-0002003-T01-IM3	P-0007552-T01-IM5	P-0001465-T01-IM3	P-0002191-T01-IM3	P-0006305-T01-IM5	P-0000708-T01-IM3	P-0000779-T01-IM3	P-0002134-T02-IM3	P-0006179-T01-IM5	P-0004157-T01-IM5	P-0001002-T01-IM3	P-0011151-T01-IM5	P-0001997-T01-IM3

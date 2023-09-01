@@ -1,6 +1,0 @@
-type_of_cancer: gbc
-cancer_study_identifier: gbc_mskcc_2022
-name: Gallbladder Cancer (MSK, 2022)
-description: Targeted sequencing of 244 Gallbladder cases via MSK-IMPACT where investigators calculated the Overall survival time for 100 metastatic gallbladder patients.
-citation: Nicolas A et al. Clin Cancer Res 2022
-pmid: 36228155

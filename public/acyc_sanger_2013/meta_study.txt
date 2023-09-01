@@ -1,9 +1,0 @@
-type_of_cancer: acyc
-cancer_study_identifier: acyc_sanger_2013
-name: Adenoid Cystic Carcinoma (Sanger/MDA, JCI 2013)
-description: Whole exome sequencing of 24 ACCs.
-short_name: ACyC (Sanger 2013)
-public_study: true
-pmid: 23778141
-citation: Stephens et al. JCI 2013
-groups: PUBLIC;ACYC

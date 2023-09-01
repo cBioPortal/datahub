@@ -1,6 +1,0 @@
-cancer_study_identifier: blca_plasmacytoid_mskcc_2016
-stable_id: blca_plasmacytoid_mskcc_2016_cna
-case_list_name: Samples with CNA data
-case_list_description: Samples with CNA data (33 samples)
-case_list_category: all_cases_with_cna_data
-case_list_ids: DS-sig-018-P	DS-sig-037-P	DS-sig-003-P	DS-sig-012-P	DS-sig-045-P2	DS-sig-013-P	DS-sig-004-P	DS-sig-020-P	DS-sig-038-P	P-0000880-T01-IM3	s_DS_sig_054_P	P-0000083-T01-IM3	DS-sig-044-P	DS-sig-046-P	DS-sig-042-P	DS-sig-029-P	DS-sig-040-P1	DS-sig-040-P2	DS-sig-040-P3	DS-sig-027-P	DS-sig-016-P	P-0000423-T01-IM3	DS-sig-043-P	DS-sig-002-P	P-0002146-T01-IM3	P-0002607-T01-IM3	DS-sig-039-P	DS-sig-008-P	DS-sig-010-P1	DS-sig-010-P2	DS-sig-006-P	P-0003826-T01-IM5	DS-sig-024-P

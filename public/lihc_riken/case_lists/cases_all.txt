@@ -1,6 +1,0 @@
-cancer_study_identifier: lihc_riken																										
-stable_id: lihc_riken_all																										
-case_list_category: all_cases_in_study																										
-case_list_name: All samples
-case_list_description: All samples (27 samples)																										
-case_list_ids: HB1	HB2	HB3	HB4	HB5	HB6	HB7	HB8	HB9	HB10	HB11	HC1	HC2	HC3-1	HC3-2	HC4	HC5	HC6	HC7-1	HC7-2	HC8	HC9	HC10	HC11	HC12	NBNC1	NBNC2

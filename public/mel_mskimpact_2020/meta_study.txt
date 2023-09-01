@@ -1,7 +1,0 @@
-type_of_cancer: mel
-cancer_study_identifier: mel_mskimpact_2020
-name: Melanoma (MSK, Clin Cancer Res 2021)
-short_name: MEL (MSKCC 2021)
-description: Targeted sequencing (MSK-IMPACT) of 696 melanoma tumor/normal pairs.
-pmid: 33509808
-citation: Alexander N et al. Clin Cancer Res 2021

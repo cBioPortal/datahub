@@ -1,8 +1,0 @@
-cancer_study_identifier: blca_mskcc_solit_2012
-stable_id: mutations
-profile_name: Mutations
-profile_description: Mutation status of AKT1, AKT3, BRAF, CDKN2A, FGFR3, KRAS, PIK3CA, PIK3R1, PTEN, RB1, TP53, and TSC1 in 97 samples.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

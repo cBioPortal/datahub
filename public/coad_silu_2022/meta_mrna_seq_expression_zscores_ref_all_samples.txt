@@ -1,9 +1,0 @@
-cancer_study_identifier: coad_silu_2022
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: Z-SCORE
-stable_id: rna_seq_mrna_median_Zscores
-source_stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: true
-profile_name: mRNA expression z-scores
-profile_description: Expression levels z-scores
-data_filename: data_mrna_seq_expression_zscores_ref_all_samples.txt

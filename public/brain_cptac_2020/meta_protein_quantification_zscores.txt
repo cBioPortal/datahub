@@ -1,8 +1,0 @@
-cancer_study_identifier: brain_cptac_2020
-stable_id: protein_quantification_zscores
-profile_name: Z scores of protein levels
-profile_description: Z scores of study protein expression (mass spectrometry by CPTAC)
-genetic_alteration_type: PROTEIN_LEVEL
-datatype: Z-SCORE
-show_profile_in_analysis_tab: true
-data_filename: data_protein_quantification_zscores.txt

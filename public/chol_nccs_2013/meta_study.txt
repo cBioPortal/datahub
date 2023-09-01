@@ -1,8 +1,0 @@
-type_of_cancer: chol
-cancer_study_identifier: chol_nccs_2013
-name: Cholangiocarcinoma (National Cancer Centre of Singapore, Nat Genet 2013)
-description: Exome sequencing of 15 cholangiocarcinoma cases.
-citation: Chan-on et al. Nat Genet 2013
-pmid: 24185513
-short_name: Cholangiocarcinoma (NCCS)
-groups: PUBLIC

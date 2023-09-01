@@ -1,8 +1,0 @@
-cancer_study_identifier: all_phase2_target_2018_pub
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_name: Somatic mutations
-profile_description: Somatic mutation status from whole genome or whole exome sequencing on 298 Pediatric Acute Lymphoid Leukemia - Phase II samples.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt

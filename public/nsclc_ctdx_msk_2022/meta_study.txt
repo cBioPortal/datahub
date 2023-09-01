@@ -1,7 +1,0 @@
-type_of_cancer: nsclc
-cancer_study_identifier: nsclc_ctdx_msk_2022
-name: Metastatic Non-Small Cell Lung Cancer (MSK, Nature Medicine 2022)
-description: Targeted sequencing of ctDNA samples drawn from patients with metastatic NSCLC using the Resolution ctDx Lung platform. For more information contact jeej@mskcc.org or lib1@mskcc.org
-short_name: NSCLC (MSK, 2022)
-pmid: 36357680
-citation: Jee et al. Nature Medicine 2022

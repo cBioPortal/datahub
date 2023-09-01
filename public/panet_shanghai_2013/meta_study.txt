@@ -1,7 +1,0 @@
-type_of_cancer: panet
-cancer_study_identifier: panet_shanghai_2013
-name: Insulinoma (Shanghai, Nat Commun 2013)
-short_name: Panet (Shanghai 2013)
-description: Whole exome sequencing of 10 benign insulinoma tumor/normal pairs.
-pmid: 24326773
-citation: Cao et al. Nat Commun 2013

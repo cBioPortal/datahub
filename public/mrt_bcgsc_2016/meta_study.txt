@@ -1,8 +1,0 @@
-type_of_cancer: mrt
-cancer_study_identifier: mrt_bcgsc_2016
-name: Rhabdoid Cancer (BCGSC, Cancer Cell 2016)
-description: Whole-genome sequencing of tumor-normal sample pairs from 40 patients with Malignant Rhabdoid Cancer.
-citation: E. Chun et al. Cancer Cell 2016
-pmid: 26977886
-short_name: MRT (CELL 2016)
-groups: PUBLIC

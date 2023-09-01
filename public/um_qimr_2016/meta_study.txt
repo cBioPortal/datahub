@@ -1,8 +1,0 @@
-type_of_cancer: um
-cancer_study_identifier: um_qimr_2016
-name: Uveal Melanoma (QIMR, Oncotarget 2016)
-description: Whole-genome or whole-exome sequencing of tumor/normal pairs from 28 uveal melanoma samples.
-citation: Johansson et al. Oncotarget 2016
-pmid: 26683228
-short_name: UM (QIMR)
-groups: PUBLIC

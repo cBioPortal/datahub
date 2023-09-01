@@ -1,7 +1,0 @@
-type_of_cancer: ihch
-cancer_study_identifier: ihch_ismms_2015
-name: Intrahepatic Cholangiocarcinoma (Mount Sinai 2015)
-short_name: IHCH (ISMMC 2015)
-description: Whole-exome sequencing of 8 tumor-normal paired iCCA samples by Liver Cancer Program at the Icahn School of Medicine at Mount Sinai, in collaboration with Barcelona-Clínic Liver Cancer Group. 
-citation: Sia et al. Nature Commun 2015
-pmid: 25608663

@@ -1,8 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: ccle_broad_2019
-name: Cancer Cell Line Encyclopedia (Broad, 2019)
-short_name: CCLE (BROAD 2019)
-description: Cancer Cell Line Encyclopedia from the Broad Institute and Novartis, updated 2019. Data downloaded from the <a href="https://portals.broadinstitute.org/ccle/data">Broad CCLE Portal</a>. For more info about the proteomics data, see the <a href="https://github.com/cbioportal/datahub/blob/master/public/ccle_broad_2019/README.md">README</a>.
-pmid: 31068700,31978347
-citation: Stransky et al. Nature. 2015, Nusinow et al. Cell. 2020
-groups: PUBLIC

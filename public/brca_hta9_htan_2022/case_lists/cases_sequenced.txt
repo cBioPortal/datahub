@@ -1,6 +1,0 @@
-cancer_study_identifier: brca_hta9_htan_2022
-stable_id: brca_hta9_htan_2022_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (5 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: HTA9_1-PR	HTA9_1-Bx1	HTA9_1-Bx2	HTA9_1-Bx3	HTA9_1-Bx4

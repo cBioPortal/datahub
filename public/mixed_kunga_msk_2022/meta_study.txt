@@ -1,7 +1,0 @@
-cancer_study_identifier: mixed_kunga_msk_2022
-description: Targeted NGS of mixed pediatric tumors from MSK-IMPACT testing.
-name: Pediatric Pancan Tumors (MSK,Nat Commun. 2022)
-short_name: mixed_kunga_msk_2022
-type_of_cancer: mixed
-pmid: 35585047
-citation: Shukla,N et al. Nat Commun 2022

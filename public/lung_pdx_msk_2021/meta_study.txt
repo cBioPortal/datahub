@@ -1,8 +1,0 @@
-type_of_cancer: lung
-cancer_study_identifier: lung_pdx_msk_2021
-name: Thoracic Cancer (MSK, Nat Commun 2021)
-description: Targeted sequencing of tumor and PDX thoracic samples.
-short_name: PDX_IMPACT (2021)
-groups: PUBLIC
-citation: Rebecca et al. Nat Commun. 2022
-pmid: 35440124

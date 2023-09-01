@@ -1,6 +1,0 @@
-cancer_study_identifier: ucs_jhu_2014
-stable_id: ucs_jhu_2014_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (22 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: MM16T	MM06T	MM10T	MM04T	MM12T	MM22T	MM02T	MM14T	MM09T	MM19T	MM21T	MM01T	MM11T	MM07T	MM13T	MM05T	MM15T	MM03T	MM17T	MM08T	MM20T	MM18T

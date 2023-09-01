@@ -1,8 +1,0 @@
-cancer_study_identifier: sclc_cancercell_gardner_2017
-stable_id: mutations
-profile_name: Mutations
-profile_description: Somatic mutation data from whole exome Sequencing of 10 paired chemosensitive and chemoresistant SCLC PDX.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

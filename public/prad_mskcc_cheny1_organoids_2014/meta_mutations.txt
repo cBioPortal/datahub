@@ -1,8 +1,0 @@
-cancer_study_identifier: prad_mskcc_cheny1_organoids_2014
-stable_id: mutations
-profile_name: Mutations
-profile_description: Somatic mutations from exome sequencing.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-show_profile_in_analysis_tab: true
-data_filename: data_mutations.txt

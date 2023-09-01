@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Penile_Cancer
-case_list_name: Tumor Type: Penile Cancer
-case_list_description: All tumors with cancer type Penile Cancer
-case_list_ids: P-0001803-T01-IM3	P-0006300-T01-IM5	P-0007319-T01-IM5	P-0005215-T01-IM5	P-0002341-T01-IM3	P-0001059-T02-IM3	P-0005617-T02-IM5

@@ -1,6 +1,0 @@
-cancer_study_identifier: ccrcc_utokyo_2013
-stable_id: ccrcc_utokyo_2013_sv
-case_list_name: Samples with SV data
-case_list_description: All samples (100 samples)
-case_list_category: all_cases_with_sv_data
-case_list_ids: ccRCC_28	ccRCC_25	ccRCC_27	ccRCC_26	ccRCC_69	ccRCC_68	ccRCC_23	ccRCC_22	ccRCC_21	ccRCC_20	ccRCC_62	ccRCC_61	ccRCC_60	ccRCC_67	ccRCC_66	ccRCC_65	ccRCC_64	ccRCC_1	ccRCC_2	ccRCC_3	ccRCC_4	ccRCC_5	ccRCC_6	ccRCC_7	ccRCC_8	ccRCC_9	ccRCC_92	ccRCC_93	ccRCC_90	ccRCC_91	ccRCC_96	ccRCC_97	ccRCC_94	ccRCC_95	ccRCC_98	ccRCC_99	ccRCC_18	ccRCC_19	ccRCC_12	ccRCC_13	ccRCC_10	ccRCC_11	ccRCC_16	ccRCC_17	ccRCC_14	ccRCC_15	ccRCC_29	ccRCC_58	ccRCC_59	ccRCC_56	ccRCC_54	ccRCC_55	ccRCC_52	ccRCC_53	ccRCC_50	ccRCC_51	ccRCC_24	ccRCC_85	ccRCC_84	ccRCC_87	ccRCC_86	ccRCC_81	ccRCC_80	ccRCC_83	ccRCC_82	ccRCC_106	ccRCC_105	ccRCC_104	ccRCC_103	ccRCC_102	ccRCC_100	ccRCC_78	ccRCC_79	ccRCC_89	ccRCC_88	ccRCC_41	ccRCC_40	ccRCC_43	ccRCC_42	ccRCC_45	ccRCC_44	ccRCC_46	ccRCC_49	ccRCC_48	ccRCC_75	ccRCC_34	ccRCC_35	ccRCC_36	ccRCC_37	ccRCC_30	ccRCC_31	ccRCC_32	ccRCC_70	ccRCC_71	ccRCC_72	ccRCC_73	ccRCC_38	ccRCC_39	ccRCC_76	ccRCC_77

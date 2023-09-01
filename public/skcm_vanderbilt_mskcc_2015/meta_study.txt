@@ -1,7 +1,0 @@
-type_of_cancer: skcm
-cancer_study_identifier: skcm_vanderbilt_mskcc_2015
-name: Metastatic Melanoma (MSK, JCO Precis Oncol 2017)
-short_name: SKCM (Vanderbilt/Mskcc)
-description: Targeted sequencing of pre-treatment 66 Melanoma tumor samples. <a href="https://ascopubs.org/doi/full/10.1200/PO.16.00054">PubMed</a>
-citation: Catalanotti et al. JCO Precis Oncol 2017
-pmid: 32913971

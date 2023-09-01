@@ -1,8 +1,0 @@
-cancer_study_identifier: coad_caseccc_2015
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_name: Mutations
-profile_description: Whole exome sequencing of 29 African American Colon cancer tumor/normal pairs.
-data_filename: data_mutations.txt

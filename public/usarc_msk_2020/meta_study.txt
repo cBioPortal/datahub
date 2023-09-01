@@ -1,8 +1,0 @@
-type_of_cancer: usarc
-cancer_study_identifier: usarc_msk_2020
-name: Uterine Sarcoma/Mesenchymal (MSK, Clin Cancer Res 2020)
-description: Targeted Sequencing of 108 Uterine Sarcoma/Mesenchymal tumor/normal pairs from 107 patients.
-groups: CHAVANS;DONOGHUM;PUBLIC
-short_name: USARC (MSK, 2020)
-pmid: 32299819
-citation: Hensley et al. Clin Cancer Res 2020

@@ -1,8 +1,0 @@
-type_of_cancer: prad
-cancer_study_identifier: nepc_wcm_2016
-name: Neuroendocrine Prostate Cancer (Multi-Institute, Nat Med 2016)
-description: Whole exome sequencing of 114 metastatic tumor/normal pairs to understand genomic overlap between castration resistant adenocarcinoma (CRPC-Adeno) and neuroendocrine histologies (CRPC-NE).
-groups: PUBLIC 
-short_name: NEPC (Multi-Institute 2016)
-citation: Beltran et al. Nat Med 2016
-pmid: 26855148

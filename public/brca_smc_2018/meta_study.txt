@@ -1,7 +1,0 @@
-type_of_cancer: brca
-cancer_study_identifier: brca_smc_2018
-name: Breast Cancer (SMC 2018)
-short_name: BRCA (SMC)
-description: Whole-exome sequencing of 187 primary tumors from a Korean breast cancer cohort (SMC).
-pmid: 29713003
-citation: Kan et al. Nature Communications 2018

@@ -1,6 +1,0 @@
-cancer_study_identifier: pact_jhu_2011
-stable_id: pact_jhu_2011_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (32 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: MCN_158	MCN_170	IPMN_11	IPMN_36	IPMN_12	SPN_4	SCA_40	IPMN_4	SCA_29	SPN_6	SPN_2	SCA_23	SCA_27	SPN_5	IPMN_26	IPMN_41	MCN_169	MCN_168	MCN_166	MCN_164	MCN_163	MCN_162	SPN_17	IPMN_20	IPMN_21	SCA_14	SPN_12	SPN_19	SPN_8	SCA_38	SCA_35	SCA_37

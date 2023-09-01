@@ -1,6 +1,0 @@
-type_of_cancer: coad
-cancer_study_identifier: coad_silu_2022
-name: Colon Cancer (Sidra-LUMC AC-ICAM, Nat Med 2023)
-description: Whole exome and transcriptome sequencing of 348 Colon Cancers and their matched normals from Sidra-LUMC AC-ICAM.
-pmid: 37202560
-citation: Roelands et al, Nat Med 2023

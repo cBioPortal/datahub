@@ -1,6 +1,0 @@
-cancer_study_identifier: panet_jhu_2011
-stable_id: panet_jhu_2011_all
-case_list_name: All samples
-case_list_description: All samples (10 samples)
-case_list_category: all_cases_in_study
-case_list_ids: PanNET24PT	PanNET25PT	PanNET93PT	PanNET23PT	PanNET31PT	PanNET10PT	PanNET7PT	PanNET36PT	PanNET3PT	PanNET21PT

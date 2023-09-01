@@ -1,7 +1,0 @@
-type_of_cancer: luad
-cancer_study_identifier: luad_oncosg_2020
-name: Lung Adenocarcinoma (OncoSG, Nat Genet 2020)
-description: Whole-exome and transcriptome sequencing of 305 east asian lung adenocarcinomas with matched normals. Courtesy of <a href="https://src.gisapps.org/OncoSG/">OncoSG</a>. Lung Cancer Consortium Singapore (LCCS).
-pmid: 32015526
-citation: Chen et al. Nat Genet 2020
-short_name: LUAD (OncoSG, 2020)

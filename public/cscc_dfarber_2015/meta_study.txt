@@ -1,8 +1,0 @@
-type_of_cancer: cscc
-cancer_study_identifier: cscc_dfarber_2015
-name: Cutaneous Squamous Cell Carcinoma (DFCI, Clin Cancer Res 2015)
-description: Targeted sequencing of 29 metastatic cutaneous squamous cell carcinoma samples.
-citation: Li et al. Clin Cancer Res 2015
-pmid: 25589618
-short_name: CSCC (DFCI 2015)
-groups: PUBLIC

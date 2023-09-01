@@ -1,0 +1,79 @@
+on:
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+  changed_files:
+    runs-on: ubuntu-latest
+    outputs:
+      new_study_dir: ${{ steps.new-dir.outputs.NEW_DIR_LOCATION }}
+      new_study_name: ${{ steps.new-study.outputs.NEW_STUDY_NAME }}
+    steps:
+      - name: Get New Directories Added
+        id: changed-files-dir-names
+        uses: tj-actions/changed-files@v38
+        with:
+          dir_names: "true"
+      - name: Extract Directory Name of New Study
+        id: new-dir
+        shell: bash
+        run: |
+          echo "NEW_DIR_LOCATION=$( echo ${{ steps.changed-files-dir-names.outputs.added_files }} | awk '{print $1}' )" >> $GITHUB_OUTPUT
+
+      - name: Extract New Study Name
+        id: new-study
+        shell: bash
+        run: |
+          echo "NEW_STUDY_NAME=$( cut -d "/" -f2- <<< ${{ steps.new-dir.outputs.NEW_DIR_LOCATION }} )" >> $GITHUB_OUTPUT
+  preview:
+    needs: changed_files
+    runs-on: ubuntu-latest
+    container: docker.io/okteto/okteto:2.19.1
+    steps:
+      - name: Checkout Datahub Repository
+        uses: actions/checkout@v3
+
+      - name: Copy Files to Study Directory
+        shell: bash
+        run: |
+          # mkdir -p study/${{ needs.changed_files.outputs.new_study_name }}
+          cp -v -R ${{ needs.changed_files.outputs.new_study_dir }} preview_infrastructure/cbioportal-docker-compose/study/${{ needs.changed_files.outputs.new_study_name }}
+
+      - name: Context
+        uses: okteto/context@latest
+        with:
+          url: ${{secrets.OKTETO_URL}}
+          token: ${{ secrets.OKTETO_TOKEN }}
+
+      - name: Okteto Build to Import Studies
+        working-directory: preview_infrastructure/cbioportal-docker-compose
+        run: |
+          okteto build --no-cache -t okteto.dev/datahub-cbioportal:okteto-with-volume-mounts cbioportal
+
+      - name: Deploy preview environment
+        uses: okteto/deploy-preview@latest
+        env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          name: pr-${{ github.event.number }}-averyniceday
+          file: preview_infrastructure/cbioportal-docker-compose/okteto.yml
+          timeout: 15m
+    
+      - name: Wait For Response
+        uses: nev7n/wait_for_response@v1.0.1
+        with:
+          url: 'https://cbioportal-pr-${{ github.event.number }}-averyniceday.cloud.okteto.net/'
+          responseCode: 200
+          timeout: 600000 # 10 minutes
+          interval: 30000 # 30 seconds
+
+      - name: "Activate Namespace"
+        uses: okteto/namespace@latest
+        with:
+          namespace: pr-${{github.event.number}}-averyniceday
+
+      - name: Kubectl test
+        run: |
+          okteto kubeconfig
+          kubectl exec -it deployment/cbioportal -- metaImport.py -u http://localhost:8080 -s study/${{needs.changed_files.outputs.new_study_name}}/ -o

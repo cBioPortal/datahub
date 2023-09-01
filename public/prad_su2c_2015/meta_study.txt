@@ -1,8 +1,0 @@
-type_of_cancer: prad
-cancer_study_identifier: prad_su2c_2015
-name: Metastatic Prostate Cancer (SU2C/PCF Dream Team, Cell 2015)
-description: Whole-exome sequencing of 150 metastatic prostate cancer tumor/normal pairs by the SU2C/PCF Dream Team.
-citation: Robinson et al. Cell 2015
-pmid: 26000489
-short_name: Prostate (SU2C)
-groups: PUBLIC

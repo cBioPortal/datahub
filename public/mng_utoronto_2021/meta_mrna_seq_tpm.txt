@@ -1,8 +1,0 @@
-cancer_study_identifier: mng_utoronto_2021
-stable_id: mrna_seq_tpm
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-show_profile_in_analysis_tab: FALSE
-profile_name: mRNA expression (Illumina HiSeq_RNASeqV2 TPM)
-profile_description: mRNA Expression, TPM (normalized from Illumina HiSeq_RNASeqV2)
-data_filename: data_mrna_seq_tpm.txt

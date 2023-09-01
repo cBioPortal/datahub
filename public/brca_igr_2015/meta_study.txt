@@ -1,8 +1,0 @@
-type_of_cancer: brca
-cancer_study_identifier: brca_igr_2015
-name: Metastatic Breast Cancer (INSERM, PLoS Med 2016)
-short_name: BRCA (INSERM 2016)
-description: Whole exome sequencing of 216 tumor/normal (blood) pairs from metastatic breast cancer patients who underwent a biopsy in the context of the SAFIR01/SAFIR02 (Unicancer, France), SHIVA (Institut Curie, France) or MOSCATO (Gustave Roussy, France) prospective trials.
-citation: Lefebvre et al. PLoS Med 2016
-pmid: 28027327
-groups: PUBLIC

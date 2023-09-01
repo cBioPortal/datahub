@@ -1,7 +1,0 @@
-type_of_cancer: luad
-cancer_study_identifier: luad_msk_npjpo_2021
-name: Lung Adenocarcinoma (MSK, NPJ Precision Oncology 2021)
-short_name: Lung Adenocarcinoma (NPJPO, MSK 2021)
-description: Targeted sequencing of 426 matched normal samples from 426 lung adenocarcinoma patients.
-pmid: 34290393
-citation: Caso et al. NPJ Precis Oncol 2021

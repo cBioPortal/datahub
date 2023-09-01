@@ -1,7 +1,0 @@
-type_of_cancer: blca
-cancer_study_identifier: blca_plasmacytoid_mskcc_2016
-name: Bladder Cancer (MSK, Nat Genet 2016)
-short_name: Bladder PV (MSKCC)
-description: Whole exome and targeted sequencing of 34 plasmacytoid-variant (signet ring cell) tumors of the bladder
-pmid: 26901067
-citation: Al-Ahmadie et al. Nat Genet 2016

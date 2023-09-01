@@ -1,4 +1,0 @@
-cancer_study_identifier: blca_bcan_hcrn_2022
-datatype: SAMPLE_ATTRIBUTES
-genetic_alteration_type: CLINICAL
-data_filename: data_clinical_sample.txt

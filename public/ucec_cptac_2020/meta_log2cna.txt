@@ -1,8 +1,0 @@
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: LOG2-VALUE
-stable_id: log2CNA
-data_filename: data_log2cna.txt
-show_profile_in_analysis_tab: false
-profile_name: Continuous copy number alteration values
-profile_description: Continuous copy number alterations
-cancer_study_identifier: ucec_cptac_2020

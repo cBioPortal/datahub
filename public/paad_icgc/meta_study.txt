@@ -1,7 +1,0 @@
-type_of_cancer: paad
-cancer_study_identifier: paad_icgc
-name: Pancreatic Adenocarcinoma (ICGC, Nature 2012)
-short_name: Pancreas (ICGC)
-description: Whole-exome sequencing of 99 pancreatic samples and their matched normals.
-pmid: 23103869
-citation: Biankin et al. Nature 2012

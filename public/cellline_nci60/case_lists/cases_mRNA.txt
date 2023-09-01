@@ -1,6 +1,0 @@
-cancer_study_identifier: cellline_nci60
-stable_id: cellline_nci60_mrna
-case_list_name: Samples with mRNA data (Agilent microarray)
-case_list_description: Samples with mRNA expression data (60 samples)
-case_list_category: all_cases_with_mrna_array_data
-case_list_ids: 786_0	MDA_N	RXF_393	RPMI_8226	MCF7	EKVX	NCI_H23	CAKI_1	NCI_ADR_RES	MDA_MB_435	UACC_257	CU251	BT_549	K_562	HCT_116	A498	KM12	LOXIMVI	HCC_2998	UO_31	MALME_3M	HCT_15	IGROV1	CSF_268	COLO205	NCI_H522	HOP_92	SK_MEL_5	CSNB_75	CSF_539	DU_145	NCI_H460	T47D	SW_620	CSNB_19	ACHN	HT29	CSF_295	SK_OV_3	HS578T	SK_MEL_28	PC_3	SK_MEL_2	NCI_H322M	OVCAR_8	HL_60	SR	MOLT_4	SN12C	TK_10	CCRF_CEM	UACC_62	M14	HOP_62	OVCAR_3	MDA_MB_231	OVCAR_5	OVCAR_4	NCI_H226	A549

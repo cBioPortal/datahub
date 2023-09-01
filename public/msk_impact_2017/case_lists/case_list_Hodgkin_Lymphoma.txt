@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Hodgkin_Lymphoma
-case_list_name: Tumor Type: Hodgkin Lymphoma
-case_list_description: All tumors with cancer type Hodgkin Lymphoma
-case_list_ids: P-0007153-T01-IM5	P-0010568-T01-IM5	P-0010590-T01-IM5	P-0008475-T01-IM5	P-0009925-T01-IM5

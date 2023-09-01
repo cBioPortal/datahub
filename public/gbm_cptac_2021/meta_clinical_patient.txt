@@ -1,4 +1,0 @@
-genetic_alteration_type: CLINICAL
-datatype: PATIENT_ATTRIBUTES
-data_filename: data_clinical_patient.txt
-cancer_study_identifier: gbm_cptac_2021

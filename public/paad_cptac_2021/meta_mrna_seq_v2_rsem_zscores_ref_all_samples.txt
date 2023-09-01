@@ -1,8 +1,0 @@
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: Z-SCORE
-data_filename: data_mrna_seq_v2_rsem_zscores_ref_all_samples.txt
-show_profile_in_analysis_tab: true
-stable_id: rna_seq_v2_mrna_median_all_sample_Zscores
-profile_name: Z-scores of mRNA expression (log 2 RSEM-UQ)
-profile_description: Z-scores of mRNA abundance in log 2 RSEM-UQ values, calculated over all samples (excluding negative and zero).
-cancer_study_identifier: paad_cptac_2021

@@ -1,6 +1,0 @@
-cancer_study_identifier: pcnsl_mayo_2015
-stable_id: pcnsl_mayo_2015_all
-case_list_name: All samples
-case_list_description: All samples (19 samples)
-case_list_category: all_cases_in_study
-case_list_ids: PCNSL_8	PCNSL_1	PCNSL_2	PCNSL_3	PCNSL_4	PCNSL_5	PCNSL_6	PCNSL_7	PCNSL_12	PCNSL_10	PCNSL_29	PCNSL_28	PCNSL_34	PCNSL_20	PCNSL_19	PCNSL_30	PCNSL_31	PCNSL_32	PCNSL_33

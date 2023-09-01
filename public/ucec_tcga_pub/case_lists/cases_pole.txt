@@ -1,6 +1,0 @@
-cancer_study_identifier: ucec_tcga_pub
-stable_id: ucec_tcga_pub_pole
-case_list_category:  other
-case_list_name:  Subtype: POLE (Ultra-mutated) [17 samples]
-case_list_description: Manuscript Subtype: POLE (Ultra-mutated).
-case_list_ids: TCGA-AP-A056-01	TCGA-BS-A0TC-01	TCGA-BS-A0UF-01	TCGA-A5-A0GP-01	TCGA-AP-A0LM-01	TCGA-B5-A0JY-01	TCGA-D1-A16X-01	TCGA-D1-A16Y-01	TCGA-D1-A103-01	TCGA-D1-A17Q-01	TCGA-AX-A0J0-01	TCGA-AP-A051-01	TCGA-AX-A05Z-01	TCGA-BS-A0UV-01	TCGA-B5-A11N-01	TCGA-B5-A11E-01	TCGA-AP-A059-01	

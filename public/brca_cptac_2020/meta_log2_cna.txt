@@ -1,8 +1,0 @@
-cancer_study_identifier: brca_cptac_2020
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: LOG2-VALUE
-stable_id: log2CNA
-show_profile_in_analysis_tab: false
-profile_name: Copy number alteration values
-profile_description: Copy number alteration values by Gistic 2
-data_filename: data_log2_cna.txt

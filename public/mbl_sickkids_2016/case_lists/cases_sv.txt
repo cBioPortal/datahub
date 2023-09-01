@@ -1,6 +1,0 @@
-cancer_study_identifier: mbl_sickkids_2016
-stable_id: mbl_sickkids_2016_sv
-case_list_name: Samples with SV data
-case_list_description: All samples (46 samples)
-case_list_category: all_cases_with_sv_data
-case_list_ids: MB-REC-02	MB-REC-03	MB-REC-04	MB-REC-05	MB-REC-06	MB-REC-07	MB-REC-01	MB-REC-28	MB-REC-29	MB-REC-26	MB-REC-27	MB-REC-42	MB-REC-43	MB-REC-22	MB-REC-24	MB-REC-20	MB-REC-21	MB-REC-18	MB-REC-08	MB-REC-23	MB-REC-09	MB-REC-46	MB-REC-47	MB-REC-19	MB-REC-44	MB-REC-13	MB-REC-12	MB-REC-40	MB-REC-10	MB-REC-17	MB-REC-16	MB-REC-15	MB-REC-14	MB-REC-35	MB-REC-34	MB-REC-37	MB-REC-36	MB-REC-31	MB-REC-30	MB-REC-33	MB-REC-32	MB-REC-45	MB-REC-11	MB-REC-41	MB-REC-39	MB-REC-38

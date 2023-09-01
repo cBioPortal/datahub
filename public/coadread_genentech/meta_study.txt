@@ -1,8 +1,0 @@
-type_of_cancer: coadread
-cancer_study_identifier: coadread_genentech
-name: Colorectal Adenocarcinoma (Genentech, Nature 2012)
-description: Whole-genome sequencing of 74 paired colon tumor-normal samples. 
-citation: Seshagiri et al. Nature 2012
-pmid: 22895193
-short_name: Colorectal (Genentech)
-groups: PUBLIC

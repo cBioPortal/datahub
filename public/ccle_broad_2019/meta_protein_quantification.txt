@@ -1,8 +1,0 @@
-cancer_study_identifier: ccle_broad_2019
-genetic_alteration_type: PROTEIN_LEVEL
-datatype: LOG2-VALUE
-stable_id: protein_quantification
-show_profile_in_analysis_tab: false
-profile_name: Protein abundance ratios relative to bridge-sample
-profile_description: Protein abundance ratio collapsed per-gene; log2-ratios respective to a bridge-sample for each multiplex the main manuscript (Nusinow et al. 2020) and the data guide (https://www.biorxiv.org/content/10.1101/2020.02.03.932384v1.full)
-data_filename: data_protein_quantification.txt

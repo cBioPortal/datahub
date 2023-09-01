@@ -1,7 +1,0 @@
-type_of_cancer: head_neck
-cancer_study_identifier: hnc_mskcc_2016
-name: Recurrent and Metastatic Head & Neck Cancer (MSK, JAMA Oncol 2016)
-short_name: HNC (MSKCC 2016)
-description: Targeted sequencing of 151 patients with advanced, treatment resistant head and neck tumors
-citation: Morris et al. JAMA Oncol 2016
-pmid: 27442865

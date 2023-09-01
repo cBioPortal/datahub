@@ -1,8 +1,0 @@
-cancer_study_identifier: nsclc_tcga_broad_2016
-stable_id: mutations
-profile_name: Somatic mutations
-profile_description: Somatic mutation data from whole-exome sequencing of 660 lung ADC and 484 lung SqCC tumor/normal pairs.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

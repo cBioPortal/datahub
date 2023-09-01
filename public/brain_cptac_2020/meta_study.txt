@@ -1,9 +1,0 @@
-type_of_cancer: brain
-cancer_study_identifier: brain_cptac_2020
-reference_genome: hg19
-name: Pediatric Brain Cancer (CPTAC/CHOP, Cell 2020)
-description:  Integrated proteogenomic characterization across major histological types of pediatric brain cancer . We report a comprehensive proteogenomics analysis, including whole-genome sequencing, RNA sequencing, and proteomics and phosphoproteomics profiling, of 218 tumors across 7 histological types of childhood brain cancer: low-grade glioma (n = 93), ependymoma (32), high-grade glioma (25), medulloblastoma (22), ganglio-glioma (18), craniopharyngioma (16), and atypical teratoid rhabdoid tumor (12). Proteomics data identify common biological themes that span histological boundaries, suggesting that treatments used for one histological type may be applied effectively to other tumors sharing similar proteomics features. Immune landscape characterization reveals diverse tumor microenvironments across and within diagnoses. Proteomics data further reveal functional effects of somatic mutations and copy number variations (CNVs) not evident in transcriptomics data.
-short_name: Pediatric Brain Cancer (CPTAC/CHOP, Cell 2020)
-citation: CPTAC, Cell 2020
-pmid: 33242424
-groups: PUBLIC

@@ -1,8 +1,0 @@
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-data_filename: data_mrna_seq_v2_rsem.txt
-show_profile_in_analysis_tab: false
-stable_id: mrna
-profile_name: mRNA expression (log2 RSEM uq)
-profile_description: Gene expression by mRNA abundance in log2 RSEM values
-cancer_study_identifier: paad_cptac_2021

@@ -1,8 +1,0 @@
-type_of_cancer: ccrcc
-cancer_study_identifier: ccrcc_irc_2014
-name: Kidney Renal Clear Cell Carcinoma (IRC, Nat Genet 2014)
-short_name: ccRCC (IRC)
-description: Multi region exome sequencing of 10 clear cell renal cell carcinomas (ccRCCs)
-citation: Gerlinger et al. Nat Genet 2014
-pmid: 24487277
-groups: PUBLIC

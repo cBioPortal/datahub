@@ -1,8 +1,0 @@
-type_of_cancer: blca
-cancer_study_identifier: blca_cornell_2016
-name: Urothelial Carcinoma (Cornell/Trento, Nat Gen 2016)
-description: Whole-exome sequencing of 72 tumor samples (with 32 matched normals) in Urothelial Carcinoma.
-short_name: BLCA (Cornell 2016)
-citation: Faltas and Prandi, Nature Genetics 2016
-pmid: 27749842
-groups: PUBLIC

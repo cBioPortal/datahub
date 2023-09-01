@@ -1,7 +1,0 @@
-type_of_cancer: coadread
-cancer_study_identifier: crc_dd_2022
-name: Colorectal Cancer (MSK, JCO Precis Oncol 2022)
-short_name: COADREAD (MSK, 2022)
-description: Molecular characterization of 47 BRAF inhibitor-naive colorectal cancer patients with dual RAS hotspot/BRAF V600E mutations.
-pmid: 35235413
-citation: Gularte-Merida et al. JCO Precis Oncol 2022

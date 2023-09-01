@@ -1,8 +1,0 @@
-cancer_study_identifier: wt_target_2018_pub
-stable_id: mutations
-profile_name: Somatic mutations
-profile_description: Somatic mutation status from whole-exome sequencing of 657 Wilms' tumor samples.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

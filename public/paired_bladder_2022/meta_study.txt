@@ -1,7 +1,0 @@
-type_of_cancer: bladder
-cancer_study_identifier: paired_bladder_2022
-name: Bladder Cancer (MSK, Cell Reports 2022)
-description: Targeted sequencing of 1659 Bladder Cancer tumor/normal samples via MSK-IMPACT.
-short_name: BLADDER (MSK 2022)
-pmid: 36543146
-citation: Clinton et al. Cell Reports 2022

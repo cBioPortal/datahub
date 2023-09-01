@@ -1,8 +1,0 @@
-cancer_study_identifier: sarc_mskcc
-stable_id: mrna_outliers
-profile_name: mRNA Expression Outliers
-profile_description: mRNA expression outliers compared to normal (-1 = underexpressed, 1 = overexpressed)
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: DISCRETE
-data_filename: data_mrna_outliers.txt
-show_profile_in_analysis_tab: true

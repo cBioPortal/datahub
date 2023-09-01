@@ -1,8 +1,0 @@
-type_of_cancer: skcm
-cancer_study_identifier: skcm_yale
-name: Skin Cutaneous Melanoma (Yale, Nat Genet 2012)
-description: Exome sequencing of 147 melanoma samples with 99 matched normals.
-citation: Krauthammer et al. Nat Genet 2012
-pmid: 22842228
-short_name: Melanoma (Yale 2012)
-groups: PUBLIC

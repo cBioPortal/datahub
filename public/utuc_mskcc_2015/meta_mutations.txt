@@ -1,8 +1,0 @@
-cancer_study_identifier: utuc_mskcc_2015
-stable_id: mutations
-profile_name: Mutations
-profile_description: Mutation status of 85 UTUC tumor samples (with paired normals) from targeted sequencing (IMPACT assay).
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-show_profile_in_analysis_tab: true
-data_filename: data_mutations.txt

@@ -1,8 +1,0 @@
-cancer_study_identifier: crc_nigerian_2020
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: DISCRETE
-stable_id: cna
-show_profile_in_analysis_tab: true
-profile_name: Putative copy-number alterations (IMPACT341)
-profile_description: Putative copy-number calls derived from IMPACT341 data. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
-data_filename: data_cna.txt

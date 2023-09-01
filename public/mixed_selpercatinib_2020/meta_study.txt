@@ -1,7 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: mixed_selpercatinib_2020
-name: Mixed Tumors Selpercatinib RET Trial (MSK, Nat Commun. 2022)
-short_name: Selpercatinib RET Trial (2020)
-description: Targeted sequencing of Selpercatinib treated RET-driven solid cancers.
-pmid: 35304457
-citation: Ezra Y et al. Nat Commun 2022

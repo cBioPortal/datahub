@@ -1,8 +1,0 @@
-cancer_study_identifier: lusc_cptac_2021
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: Z-SCORE
-stable_id: mirna_median_Zscores
-show_profile_in_analysis_tab: true
-profile_name: Z-scores of miRNA expression (TPM)
-profile_description: Z-scores of miRNA abundance in TPM values, calculated over all samples.
-data_filename: data_mirna_zscores.txt

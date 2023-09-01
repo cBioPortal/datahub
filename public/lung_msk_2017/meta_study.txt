@@ -1,8 +1,0 @@
-type_of_cancer: luad
-cancer_study_identifier: lung_msk_2017
-name: Non-Small Cell Cancer (MSK, Cancer Discov 2017)
-short_name: LUAD (MSK,2017)
-description: Targeted sequencing of 860 patients with metastatic lung adenocarcinoma
-citation: Jordan et al. Cancer Discov 2017
-pmid: 28336552
-groups: PUBLIC

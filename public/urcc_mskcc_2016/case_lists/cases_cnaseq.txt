@@ -1,6 +1,0 @@
-cancer_study_identifier: urcc_mskcc_2016
-stable_id: urcc_mskcc_2016_cnaseq
-case_list_name: Samples with mutation and CNA data
-case_list_description: Samples with mutation and CNA data (53 samples)
-case_list_category: all_cases_with_mutation_and_cna_data
-case_list_ids: T40	T47	T13	T72	T15	T16	T71	T10	T45	T38	T39	T37	T34	T35	T32	T33	T30	T31	T58	T50	T51	T53	T54	T56	T57	T29	T28	T05	T04	T02	T01	T21	T20	T23	T22	T25	T09	T08	T49	T69	T68	T06	T43	T64	T41	T66	T61	T70	T63	T44	T42	T67	T62

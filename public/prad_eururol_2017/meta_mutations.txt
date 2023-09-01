@@ -1,8 +1,0 @@
-cancer_study_identifier: prad_eururol_2017
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Somatic mutation data from whole genome sequencing of 65 Prostate Adenocarcinoma  tumor/normal pairs.
-profile_name: Mutations
-data_filename: data_mutations.txt

@@ -1,8 +1,0 @@
-type_of_cancer: mbl
-cancer_study_identifier: mbl_pcgp
-name: Medulloblastoma (PCGP, Nature 2012)
-description: Whole genome sequencing of 37 medulloblastoma tumors and their matched normals from the Pediatric Cancer Genome Project (PCGP), a joint project by St. Jude Children's Research Hospital and Washington University.
-citation: Robinson et al. Nature 2012
-pmid: 22722829
-short_name: MBL (PCGP)
-groups: PUBLIC

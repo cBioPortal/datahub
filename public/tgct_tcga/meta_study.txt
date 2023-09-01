@@ -1,6 +1,0 @@
-type_of_cancer: nsgct
-cancer_study_identifier: tgct_tcga
-name: Testicular Germ Cell Cancer (TCGA, Firehose Legacy)
-short_name: Testicular germ cell (TCGA)
-description: TCGA Testicular Germ Cell Cancer. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/TGCT/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
-groups: PUBLIC

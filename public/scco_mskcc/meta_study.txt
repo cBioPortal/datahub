@@ -1,8 +1,0 @@
-type_of_cancer: scco
-cancer_study_identifier: scco_mskcc
-name: Small Cell Carcinoma of the Ovary (MSK, Nat Genet 2014)
-description: Targeted sequencing of 12 SCCO paired tumor and normal samples.
-citation: Jelinic et al. Nat Genet 2014
-pmid: 24658004
-short_name: Ovary SC (MSKCC)
-groups: PUBLIC

@@ -1,6 +1,0 @@
-cancer_study_identifier: skcm_dfci_2015
-stable_id: skcm_dfci_2015_3way_complete
-case_list_name: Complete samples
-case_list_description: Samples with mutation, CNA and expression data (40 samples)
-case_list_category: all_cases_with_mutation_and_cna_and_mrna_data
-case_list_ids: Pat37	Pat36	Pat33	Pat39	Pat38	Pat19	Pat50	Pat79	Pat15	Pat14	Pat16	Pat119	Pat118	Pat83	Pat80	Pat81	Pat86	Pat85	Pat88	Pat25	Pat27	Pat28	Pat29	Pat46	Pat47	Pat08	Pat45	Pat43	Pat40	Pat41	Pat02	Pat03	Pat06	Pat04	Pat49	Pat126	Pat44	Pat123	Pat90	Pat98

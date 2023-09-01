@@ -1,0 +1,7 @@
+deploy:
+  commands: 
+   - apt-get install -y wget
+   - ./init.sh
+   - okteto build --no-cache -t okteto.dev/datahub-cbioportal:okteto-with-volume-mounts cbioportal
+   - okteto kubeconfig
+  compose: docker-compose.yml

@@ -1,8 +1,0 @@
-type_of_cancer: coadread
-cancer_study_identifier: coadread_mskcc
-name: Colorectal Adenocarcinoma Triplets (MSK, Genome Biol 2014)
-description: Targeted sequencing of primary, metastatic, and normal tissues from 69 colorectal adenocarcinoma patients.
-citation: Brannon et al. Genome Biol 2014
-pmid: 25164765
-short_name: Colorectal (MSKCC)
-groups: PUBLIC

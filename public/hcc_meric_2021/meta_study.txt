@@ -1,7 +1,0 @@
-type_of_cancer: hcc
-cancer_study_identifier: hcc_meric_2021
-name: Hepatocellular Carcinoma (MERiC/Basel, Nat Commun. 2022)
-short_name: MERiC (Basel 2021) [hg19 original; Basel/Bern research pipeline]
-description: Whole-exome sequencing of 122 Hepatocellular carcinomas and their matched normals. Dataset was generated in 2021 by MERiC and Charlotte Ng (hg19 original; Basel/Bern research pipeline).
-pmid: 35508466
-citation: Charlotte Ng et al. Nat Commun. 2022

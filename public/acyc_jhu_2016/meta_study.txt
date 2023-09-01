@@ -1,8 +1,0 @@
-type_of_cancer: acyc
-cancer_study_identifier: acyc_jhu_2016
-name: Adenoid Cystic Carcinoma (JHU, Cancer Prev Res 2016)
-description: Whole-genome or whole-exome sequencing of 25 adenoid cystic carcinoma tumor/normal pairs.
-groups: PUBLIC;ACYC
-short_name: ACyC (JHU 2016)
-pmid: 26862087
-citation: Rettig et al, Cancer Prev Res 2016

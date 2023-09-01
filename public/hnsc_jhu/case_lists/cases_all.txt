@@ -1,6 +1,0 @@
-cancer_study_identifier: hnsc_jhu
-stable_id: hnsc_jhu_all
-case_list_name: All samples
-case_list_description: All samples (32 samples)
-case_list_category: all_cases_in_study
-case_list_ids: HN20PT	578	HN09PT	HN07PT	HN19PT	388	391	139	HN12PT	HN24PT	HN41PT	HN11PT	43	HN22PT	HN42PT	347	HN35PT	325	367	HN33PT	HN16PT	HN32PT	447	266	HN14PT	91	166	258	HN01PT	478	HN27PT	385

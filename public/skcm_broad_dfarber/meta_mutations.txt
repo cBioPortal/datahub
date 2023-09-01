@@ -1,9 +1,0 @@
-cancer_study_identifier: skcm_broad_dfarber
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-profile_name: Mutations
-profile_description: Somatic mutations from whole Genome Sequencing of 25  metastatic melanoma samples with matched normals.
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true
-

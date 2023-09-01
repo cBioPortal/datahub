@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_mskcc_cheny1_organoids_2014
-reference_genome_id: hg19
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: SEG
-description: Whole exome sequencing of prostate organic cultures.
-data_filename: data_cna_hg19.seg

@@ -1,8 +1,0 @@
-cancer_study_identifier: metastatic_solid_tumors_mich_2017
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Somatic mutation data from whole-exome and -transcriptome sequencing of 500 adult patients with metastatic solid tumor/primary normal pairs of diverse lineage and biopsy site.
-profile_name: Mutations
-data_filename: data_mutations.txt

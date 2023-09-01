@@ -1,6 +1,0 @@
-cancer_study_identifier: chol_nccs_2013
-stable_id: chol_nccs_2013_all
-case_list_name: All samples
-case_list_description: All samples (15 samples)
-case_list_category: all_cases_in_study
-case_list_ids: 990196	29150572	17231203	77071507	715	21914187	1202	23474504	33587479	2000123	824	3001	930	2000861	72600277

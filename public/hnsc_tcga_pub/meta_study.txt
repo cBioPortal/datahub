@@ -1,8 +1,0 @@
-type_of_cancer: hnsc
-cancer_study_identifier: hnsc_tcga_pub
-name: Head and Neck Squamous Cell Carcinoma (TCGA, Nature 2015)
-short_name: Head & neck (TCGA pub)
-description: Whole-exome sequencing and/or whole-genome sequencing of 279 head and neck squamous cell carcinoma tumor/normal pairs. The Cancer Genome Atlas (TCGA) head and neck squamous cell carcinoma Project.
-citation: TCGA, Nature 2015
-pmid: 25631445
-groups: PUBLIC

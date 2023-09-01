@@ -1,8 +1,0 @@
-type_of_cancer: soft_tissue
-cancer_study_identifier: pcpg_tcga_pub
-name: Pheochromocytoma and Paraganglioma (TCGA, Cell 2017)
-short_name: PCPG (TCGA)
-description: Whole-exome sequencing of 178 Pheochromocytoma or Paraganglioma tumor/normal pairs.
-groups: PUBLIC
-citation: Fishbein et al. Cancer Cell 2017
-pmid: 28162975

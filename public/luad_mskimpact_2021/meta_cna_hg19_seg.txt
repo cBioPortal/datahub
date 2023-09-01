@@ -1,6 +1,0 @@
-cancer_study_identifier: luad_mskimpact_2021
-reference_genome_id: hg19
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: SEG
-description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals).
-data_filename: data_cna_hg19.seg

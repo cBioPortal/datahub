@@ -1,6 +1,0 @@
-cancer_study_identifier: panet_jhu_2011
-stable_id: panet_jhu_2011_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (10 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: PanNET24PT	PanNET36PT	PanNET93PT	PanNET23PT	PanNET31PT	PanNET10PT	PanNET7PT	PanNET25PT	PanNET3PT	PanNET21PT

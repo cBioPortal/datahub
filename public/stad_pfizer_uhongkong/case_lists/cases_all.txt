@@ -1,6 +1,0 @@
-cancer_study_identifier: stad_pfizer_uhongkong
-stable_id: stad_pfizer_uhongkong_all
-case_list_name: All samples
-case_list_description: All samples (100 samples)
-case_list_category: all_cases_in_study
-case_list_ids: pfg156T	pfg120T	pfg023T	pfg145T	pfg398T	pfg143T	pfg123T	pfg103T	pfg116T	pfg072T	pfg100T	pfg127T	pfg108T	pfg424T	pfg038T	pfg375T	pfg132T	pfg092T	pfg062T	pfg043T	pfg104T	pfg115T	pfg416T	pfg205T	pfg088T	pfg144T	pfg258T	pfg228T	pfg036T	pfg099T	pfg282T	pfg182T	pfg130T	pfg102T	pfg068T	pfg032T	pfg157T	pfg005T	pfg164T	pfg107T	pfg081T	pfg076T	pfg052T	pfg160T	pfg089T	pfg317T	pfg277T	pfg316T	pfg031T	pfg272T	pfg146T	pfg035T	pfg105T	pfg125T	pfg054T	pfg118T	pfg135T	pfg142T	pfg060T	pfg069T	pfg082T	pfg167T	pfg106T	pfg064T	pfg122T	pfg220T	pfg173T	pfg059T	pfg058T	pfg181T	pfg138T	pfg094T	pfg217T	pfg373T	pfg378T	pfg151T	pfg034T	pfg413T	pfg022T	pfg053T	pfg073T	pfg008T	pfg124T	pfg222T	pfg119T	pfg030T	pfg057T	pfg097T	pfg213T	pfg166T	pfg121T	pfg039T	pfg050T	pfg065T	pfg129T	pfg180T	pfg212T	pfg311T	pfg136T	pfg344T

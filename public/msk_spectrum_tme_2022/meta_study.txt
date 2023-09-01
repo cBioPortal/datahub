@@ -1,8 +1,0 @@
-type_of_cancer: hgsoc
-cancer_study_identifier: msk_spectrum_tme_2022
-name: Ovarian Cancer - MSK SPECTRUM (MSK, Nature 2022)
-description: Multi-region, multi-modal profiling of 42 untreated high-grade serous ovarian cancer (HGSOC) patients. This study reports an integrative analysis of mutational processes and their impact on the tumor microenvironment using single-cell RNA sequencing, whole-genome sequencing, targeted sequencing (MSK-IMPACT), digital histopathology and multiplexed immunofluorescence. The study is part of a prospective research program to understand the spatio-temporal determinants of HGSOC evolution, treatment and response (MSK SPECTRUM: Memorial Sloan Kettering - SPatio-temporal Evolution in Cancer TRaced Using Multimodalities).
-groups: PUBLIC
-short_name: SPECTRUM (MSK, 2022)
-citation: Vázquez-García, Uhlitz et al. Nature 2022
-pmid: 36517593

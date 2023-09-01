@@ -1,4 +1,0 @@
-type_of_cancer: biliary_tract
-cancer_study_identifier: biliary_tract_summit_2022
-name: Metastatic Biliary Tract Cancers (SUMMIT - Neratinib Basket Trial, 2022)
-description: Targeted sequencing of 25 advanced biliary tract cancers and their matched normals.

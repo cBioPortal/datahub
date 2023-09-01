@@ -1,8 +1,0 @@
-type_of_cancer: prad
-cancer_study_identifier: prad_mskcc
-name: Prostate Adenocarcinoma (MSK, Cancer Cell 2010)
-short_name: Prostate (MSKCC 2010)
-description: Comprehensive profiling of 218 prostate tumors (181 primaries, 37 metastases) and 14 prostate cancer cell lines and xenografts. MSKCC Prostate Oncogenome Project.<br><a href="http://cbio.mskcc.org/cancergenomics/prostate/data/">Normalized flat data files</a>. <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE21032">Raw data via GEO (GSE21032)</a>.
-citation: Taylor et al. Cancer Cell 2010
-pmid: 20579941
-groups: PUBLIC

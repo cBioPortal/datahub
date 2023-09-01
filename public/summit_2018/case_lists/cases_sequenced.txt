@@ -1,6 +1,0 @@
-cancer_study_identifier: summit_2018
-stable_id: summit_2018_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (106 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: 133	132	131	130	64	136	135	134	69	139	138	24	25	26	27	21	22	23	29	2	79	6	8	75	11	10	120	121	122	124	125	126	127	128	129	92	94	96	91	60	59	58	17	61	55	18	57	56	51	50	53	52	19	63	90	65	66	62	115	114	117	116	111	113	112	82	83	81	119	87	84	85	48	46	47	44	45	42	40	5	7	140	141	77	76	108	109	73	72	71	102	101	107	104	99	39	38	14	98	32	31	37	36	35	34	74

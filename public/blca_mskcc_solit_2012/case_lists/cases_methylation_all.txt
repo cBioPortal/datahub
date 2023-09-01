@@ -1,6 +1,0 @@
-cancer_study_identifier: blca_mskcc_solit_2012
-stable_id: blca_mskcc_solit_2012_methylation_all
-case_list_name: Samples with methylation data
-case_list_description: Samples with methylation data (24 samples)
-case_list_category: all_cases_with_methylation_data
-case_list_ids: BL103	BL100	BL104	BL105	BL108	BL001	BL007	BL020	BL074	BL089	BL111	BL073	BL112	BL115	BL077	BL117	BL075	BL118	BL078	BL079	BL055	BL037	BL099	BL059

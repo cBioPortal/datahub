@@ -1,8 +1,0 @@
-cancer_study_identifier: glioma_mskcc_2019
-stable_id: mutations
-profile_name: Mutations
-profile_description: Targeted sequencing on MSK-IMPACT and FMI Panels of 1004 samples (837 with matched normals) from 923 glioma patients.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

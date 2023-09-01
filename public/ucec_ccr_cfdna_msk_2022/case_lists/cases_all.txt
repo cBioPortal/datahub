@@ -1,6 +1,0 @@
-cancer_study_identifier: ucec_ccr_cfdna_msk_2022
-stable_id: ucec_ccr_cfdna_msk_2022_all
-case_list_name: All samples
-case_list_description: All samples
-case_list_category: all_cases_in_study
-case_list_ids: CD01	CD02	CD03	CD04	CD05	CD06	CD07	CD08	CD09	CD10	CD11	CD12	CD13	CD15	CD16	CD17	CD18	CD19	CD20	CD22	CD23	CD24	CD25	CD26	CD27	CD28	CD29	CD30	CD31	CD33	CD34	CD35	CD36	CD37	CD39	CD41	CD42	CD43	CD44	CD45	CD46	CD47	CD48	CD49

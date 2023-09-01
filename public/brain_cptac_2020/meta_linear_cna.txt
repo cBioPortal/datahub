@@ -1,8 +1,0 @@
-cancer_study_identifier: brain_cptac_2020
-stable_id: log2CNA
-profile_name: Log2 of copy-number values
-profile_description: Predicted copy number values from WGS (log2 ratio). Copy number calls obtained using CNVkit v2.9.3
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: LOG2-VALUE
-show_profile_in_analysis_tab: false
-data_filename: data_linear_cna.txt

@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_broad
-stable_id: prad_broad_mrna
-case_list_name: Samples with mRNA data (Agilent microarray)
-case_list_description: Samples with mRNA expression data (31 samples)
-case_list_category: all_cases_with_mrna_array_data
-case_list_ids: PR-3051	PR-0427	PR-0581	PR-3034	PR-3035	PR-0508	PR-2858	PR-2762	PR-2761	PR-1024	PR-2661	PR-1043	PR-2872	PR-2621	PR-2741	PR-2740	PR-0099	PR-2525	PR-1783	PR-3127	PR-3043	PR-3042	PR-2682	PR-2916	PR-3048	PR-3027	PR-3026	PR-3023	PR-1701	PR-0415	PR-2832

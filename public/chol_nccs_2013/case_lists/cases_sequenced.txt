@@ -1,6 +1,0 @@
-cancer_study_identifier: chol_nccs_2013
-stable_id: chol_nccs_2013_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (15 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: 990196	29150572	33587479	17231203	77071507	715	21914187	1202	23474504	3001	2000123	824	930	2000861	72600277

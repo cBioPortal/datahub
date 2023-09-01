@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_mskcc
-stable_id: prad_mskcc_flat
-case_list_category: other
-case_list_name: Copy-number flat
-case_list_description: Prostate cancer samples with flat DNA copy-number profiles (24 samples)
-case_list_ids: PCA0051	PCA0067	PCA0093	PCA0101	PCA0105	PCA0107	PCA0111	PCA0113	PCA0120	PCA0124	PCA0134	PCA0146	PCA0147	PCA0159	PCA0165	PCA0169	PCA0170	PCA0175	PCA0176	PCA0056	PCA0077	PCA0012	PCA0022	PCA0030	

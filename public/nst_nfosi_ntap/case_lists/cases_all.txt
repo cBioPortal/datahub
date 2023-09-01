@@ -1,6 +1,0 @@
-cancer_study_identifier: nst_nfosi_ntap
-stable_id: nst_nfosi_ntap_all
-case_list_name: All samples
-case_list_description: All samples (19 samples)
-case_list_category: all_cases_in_study
-case_list_ids: 2-010_Neurofibroma	2-026_Neurofibroma	2-013_Plexiform_Neurofibroma	2-004_Plexiform_Neurofibroma	2-012_Neurofibroma	2-031_Cell_Line	2-017_Neurofibroma	2-021_Neurofibroma	2-019_Neurofibroma	2-029_Neurofibroma	2-023_Plexiform_Neurofibroma	2-014_Neurofibroma	2-001_Plexiform_Neurofibroma	2-006_Plexiform_Neurofibroma	2-032_Plexiform_Neurofibroma	2-015_Plexiform_Neurofibroma	2-031_Malignant_Peripheral_Nerve_Sheath_Tumor	2-016_Neurofibroma	2-015_Neurofibroma

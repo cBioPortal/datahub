@@ -1,7 +1,0 @@
-type_of_cancer: sclc
-cancer_study_identifier: sclc_cancercell_gardner_2017
-name: Small-Cell Lung Cancer (Multi-Institute, Cancer Cell 2017)
-short_name: SCLC (GARDNER 2017)
-description: Whole Exome Sequencing of 10 paired chemosensitive and chemoresistant SCLC PDX. Data from Gardner et al., Cancer Cell 2017. Data available in dbGaP (PHS001249.v1.p1).
-citation: Gardner et al. Cancer Cell 2017
-pmid: 28196596

@@ -1,8 +1,0 @@
-cancer_study_identifier: coadread_genentech
-stable_id: mutations
-profile_name: Mutations
-profile_description: Somatic mutations from whole-genome sequencing of 74 paired colon tumor-normal samples.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

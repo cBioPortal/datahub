@@ -1,8 +1,0 @@
-type_of_cancer: blca
-cancer_study_identifier: blca_tcga_pub_2017
-name: Bladder Cancer (TCGA, Cell 2017)
-short_name:BLCA (TCGA 2017)
-description: Whole-exome sequencing of 412 muscle-invasive bladder tumors and matched normal samples.
-citation: Robertson et al. Cell 2017
-pmid: 28988769
-groups: PUBLIC

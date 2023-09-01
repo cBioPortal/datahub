@@ -1,7 +1,0 @@
-type_of_cancer: nhl
-cancer_study_identifier: nhl_bcgsc_2011
-name: Non-Hodgkin Lymphoma (BCGSC, Nature 2011)
-short_name: NHL (bcgsc 2011)
-description: Whole genome or whole exome sequencing of 14 NHL tumors and their matched normals.
-pmid: 21796119
-citation: Morin et al. Nature 2011

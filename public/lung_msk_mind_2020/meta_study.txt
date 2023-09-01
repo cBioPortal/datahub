@@ -1,6 +1,0 @@
-type_of_cancer: lung
-cancer_study_identifier: lung_msk_mind_2020
-name: Lung Adenocarcinoma (MSK Mind,Nature Cancer 2022)
-description: Multimodality tools to predict response to PD-(L)1 blockade in patients with lung adenocarcinoma.
-pmid: 36038778
-citation: Rami S et al. Nature Cancer 2022

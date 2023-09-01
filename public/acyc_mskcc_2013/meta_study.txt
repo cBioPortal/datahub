@@ -1,9 +1,0 @@
-type_of_cancer: acyc
-cancer_study_identifier: acyc_mskcc_2013
-name:Adenoid Cystic Carcinoma (MSK, Nat Genet 2013)
-description: Whole-exome or whole-genome sequencing analysis of 60 ACC tumor/normal pairs
-short_name:ACyC (MSKCC, 2013)
-public_study:true
-pmid: 23685749
-citation: Ho et al. Nat Genet 2013
-groups:PUBLIC;ACYC

@@ -1,8 +1,0 @@
-type_of_cancer: bcc
-cancer_study_identifier: bcc_unige_2016
-name: Basal Cell Carcinoma (UNIGE, Nat Genet 2016)
-short_name: BCC (UNIGE 2016)
-description: Whole-exome sequencing of 126 basal cell carcinoma tumor/normal pairs; targeted sequencing of 163 sporadic samples (40 tumor/normal pairs) and 4 Gorlin symdrome basal cell carcinomas.
-groups: PUBLIC
-citation: Bonilla et al. Nat Genet 2016
-pmid: 26950094

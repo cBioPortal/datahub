@@ -1,8 +1,0 @@
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: Z-SCORE
-data_filename: data_mirna_zscores.txt
-show_profile_in_analysis_tab: true
-stable_id: mirna_median_Zscores
-profile_name: Z-scores of miRNA expression (RPM)
-profile_description: Z-scores of miRNA abundance in RPM values, calculated over all samples.
-cancer_study_identifier: ucec_cptac_2020

@@ -1,6 +1,0 @@
-type_of_cancer: cesc
-cancer_study_identifier: cesc_tcga
-name: Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (TCGA, Firehose Legacy)
-short_name: Cervical (TCGA)
-description: TCGA Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/CESC/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
-groups: PUBLIC

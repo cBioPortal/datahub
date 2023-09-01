@@ -1,8 +1,0 @@
-type_of_cancer: mbl
-cancer_study_identifier: mbl_icgc
-name: Medulloblastoma (ICGC, Nature 2012)
-description: Comprehensive profiling of 125 matched tumor and germline medulloblastoma samples 
-citation: Jones et al. Nature 2012
-pmid: 22832583
-short_name: MBL (ICGC)
-groups: PUBLIC

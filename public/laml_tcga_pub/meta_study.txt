@@ -1,8 +1,0 @@
-type_of_cancer: aml
-cancer_study_identifier: laml_tcga_pub
-name: Acute Myeloid Leukemia (TCGA, NEJM 2013)
-description: Whole-genome or whole-exome sequencing analysis of 200 adult de novo AML tumor/normal pairs. TCGA Acute Myeloid Leukemia Project; raw data at the <A HREF="https://tcga-data.nci.nih.gov/tcga/tcgaCancerDetails.jsp?diseaseType=LAML&diseaseName=Acute%20Myeloid%20Leukemia">NCI</A>.
-citation: TCGA, NEJM 2013
-pmid: 23634996
-short_name: AML (TCGA pub)
-groups: PUBLIC

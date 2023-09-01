@@ -1,8 +1,0 @@
-cancer_study_identifier: nst_nfosi_ntap
-type_of_cancer: nst
-name: Nerve Sheath Tumors (Johns Hopkins, Sci Data 2020)
-description: Whole-exome sequencing of 18 patients with matched nerve sheath tumor-normal samples. The raw data is contributed by Johns Hopkins University researchers (Pollard et al. Sci Data 2020) funded by the Neurofibromatosis Therapeutic Acceleration Program (NTAP). The reprocessing of the raw data is managed by the NF Open Science Initiative (<a href="https://nf.synapse.org/">NF Data Portal</a>). The original raw data was reprocessed with updated genome build and filtered to remove low confidence variant calls, and any common variants that had a gnomAD allele frequency (for any subpopulation) greater than or equal to 0.0005.
-citation: Pollard et al. Sci Data 2020
-pmid: 32561749
-reference_genome: hg38
-groups: PUBLIC

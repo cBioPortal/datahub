@@ -1,8 +1,0 @@
-cancer_study_identifier: odg_msk_2017
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Next-generation sequencing of 22 Anaplastic Oligodendroglioma and Anaplastic Oligoastrocytomas.
-profile_name: Mutations
-data_filename: data_mutations.txt

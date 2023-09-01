@@ -1,7 +1,0 @@
-type_of_cancer: coadread
-cancer_study_identifier: crc_msk_2017
-name: Metastatic Colorectal Cancer (MSK, Cancer Cell 2018)
-short_name: CRC(MSK 2018)
-description: Targeted sequencing of 1134 metastatic colorectal tumor/normal pairs.
-citation: Yaeger et al. Cancer Cell 2018
-pmid: 29316426

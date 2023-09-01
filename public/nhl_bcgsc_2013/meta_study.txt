@@ -1,8 +1,0 @@
-type_of_cancer: nhl
-cancer_study_identifier: nhl_bcgsc_2013
-name: Diffuse Large B-cell Lymphoma (BCGSC, Blood 2013)
-short_name: NHL (BCGSC 2013)
-description: Whole genome sequencing of 40 DLBCL tumor/normal pairs and 13 cell lines.
-pmid: 23699601
-citation: Morin et al. Blood 2013
-group: PUBLIC

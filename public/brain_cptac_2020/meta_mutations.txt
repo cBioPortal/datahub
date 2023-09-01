@@ -1,8 +1,0 @@
-cancer_study_identifier: brain_cptac_2020
-stable_id: mutations
-profile_name: Mutations
-profile_description: Calls from Strelka2 v2.9.3. Stripped annottated as Silent, Intron, IGR, 3'UTR, 5'UTR, 3'Flank, 5'Flank, RNA and required min alt ct of 5, min tumor depth of 30
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-show_profile_in_analysis_tab: true
-data_filename: data_mutations.txt

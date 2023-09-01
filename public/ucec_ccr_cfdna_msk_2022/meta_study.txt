@@ -1,5 +1,0 @@
-type_of_cancer: ucec
-cancer_study_identifier: ucec_ccr_cfdna_msk_2022
-name: Endometrial Carcinoma cfDNA (MSK, Clin Cancer Res 2022)
-short_name: UCEC cfDNA MSK 2022
-description: High-sensitivity mutation analysis of cell-free DNA for disease monitoring in endometrial cancer.

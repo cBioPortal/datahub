@@ -1,8 +1,0 @@
-cancer_study_identifier: mbn_mdacc_2013
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: mrna_U133
-profile_description: mRNA expression data from the Affymetrix U133 microarray.
-profile_name: mRNA expression (U133 microarray only)
-data_filename: data_mrna_affymetrix_microarray.txt
-show_profile_in_analysis_tab: false

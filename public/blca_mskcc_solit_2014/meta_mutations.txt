@@ -1,8 +1,0 @@
-cancer_study_identifier: blca_mskcc_solit_2014
-stable_id: mutations
-profile_name: Mutations
-profile_description: Mutation status from targeted sequencing (IMPACT assay).
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

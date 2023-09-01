@@ -1,6 +1,0 @@
-cancer_study_identifier: mds_tokyo_2011
-stable_id: mds_tokyo_2011_all
-case_list_category: all_cases_in_study
-case_list_name: All samples
-case_list_description: All samples (29 samples)
-case_list_ids: MDS-03	MDS-04	MDS-06	MDS-07	MDS-08	MDS-09	MDS-10	MDS-11	MDS-12	MDS-13	MDS-14	MDS-15	MDS-16	MDS-17	MDS-18	MDS-19	MDS-20	MDS-21	tAML-01	tAML-02	tAML-03	tAML-04	tAML-05	tAML-06	tAML-07	CMML-01	CMML-02	CMML-03	CMML-04

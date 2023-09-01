@@ -1,8 +1,0 @@
-type_of_cancer: brca
-cancer_study_identifier: brca_pareja_msk_2020
-name: Breast Cancer (MSK, Clinical Cancer Res 2020)
-description: Whole-exome and MSK-IMPACT sequencing of 60 tumor/normal matched samples.
-groups: PUBLIC
-short_name: BRCA (MSK, PARJERA 2020)
-pmid: 32220886
-citation: Fresia et al. Clinical Cancer Res 2020

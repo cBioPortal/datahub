@@ -1,8 +1,0 @@
-type_of_cancer: hcc
-cancer_study_identifier: lihc_riken
-name: Liver Hepatocellular Carcinoma (RIKEN, Nat Genet 2012)
-short_name: Liver (RIKEN)
-description: Whole-genome sequencing of 27 hepatocellular carcinoma tumor/norma pairs from RIKEN.
-citation: Fujimoto et al. Nat Genet 2012
-pmid: 22634756
-groups: PUBLIC

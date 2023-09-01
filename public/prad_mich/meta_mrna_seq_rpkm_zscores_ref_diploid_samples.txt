@@ -1,8 +1,0 @@
-cancer_study_identifier: prad_mich
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: Z-SCORE
-stable_id: rna_seq_mrna_median_Zscores
-show_profile_in_analysis_tab: true
-profile_name: mRNA expression z-scores
-profile_description: mRNA expression values from 94 samples
-data_filename: data_mrna_seq_rpkm_zscores_ref_diploid_samples.txt

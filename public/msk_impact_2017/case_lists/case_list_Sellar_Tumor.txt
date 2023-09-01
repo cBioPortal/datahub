@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Sellar_Tumor
-case_list_name: Tumor Type: Sellar Tumor
-case_list_description: All tumors with cancer type Sellar Tumor
-case_list_ids: P-0007404-T01-IM5	P-0010559-T01-IM5	P-0003470-T01-IM5	P-0011551-T01-IM5	P-0003667-T01-IM5
