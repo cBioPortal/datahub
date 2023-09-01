@@ -1,0 +1,8 @@
+type_of_cancer: acc
+cancer_study_identifier: acc_tcga
+name: ACC-TCGA
+short_name: acc
+description: ACC-TCGA
+reference_genome: hg38
+add_global_case_list: true
+groups: PUBLIC
