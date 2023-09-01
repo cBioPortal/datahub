@@ -47,6 +47,7 @@ jobs:
           token: ${{ secrets.OKTETO_TOKEN }}
 
       - name: Okteto Build to Import Studies
+        working-directory: preview_infrastructure/cbioportal-docker-compose
         run: |
           okteto build --no-cache -t okteto.dev/datahub-cbioportal:okteto-with-volume-mounts cbioportal
 
