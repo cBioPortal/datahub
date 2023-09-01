@@ -1,8 +1,0 @@
-type_of_cancer: apad
-cancer_study_identifier: appendiceal_msk_2022
-name: Appendiceal Cancer (MSK, J Clin Oncol 2022)
-short_name: Appendiceal Cancer (MSK , 2022)
-description: Targeted sequencing of 273 appendiceal tumor/normal pairs via MSK-IMPACT platform.
-citation: Michael B et al. J Clin Oncol 2022
-pmid: 36493333
-groups: PUBLIC

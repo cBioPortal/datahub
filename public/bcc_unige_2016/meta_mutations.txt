@@ -1,8 +1,0 @@
-cancer_study_identifier: bcc_unige_2016
-stable_id: mutations
-profile_name: Mutations
-profile_description: Somatic mutations identified in exome and cancer panel sequenced samples.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

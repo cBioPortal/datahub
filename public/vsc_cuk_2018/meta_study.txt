@@ -1,8 +1,0 @@
-type_of_cancer: vsc
-cancer_study_identifier: vsc_cuk_2018
-name: Squamous Cell Carcinoma of the Vulva (CUK, Exp Mol Med 2018)
-description: Whole exome sequencing of tumor/normal pairs from 15 vulvar squamous cell carcinomas.
-citation: Han et al. Exp Mol Med 2018
-pmid: 29422544
-short_name: VSC (CUK)
-groups: PUBLIC

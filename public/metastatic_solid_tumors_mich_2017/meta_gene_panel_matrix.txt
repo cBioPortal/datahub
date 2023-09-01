@@ -1,4 +1,0 @@
-cancer_study_identifier:  metastatic_solid_tumors_mich_2017
-genetic_alteration_type: GENE_PANEL_MATRIX
-datatype: GENE_PANEL_MATRIX
-data_filename: data_gene_panel_matrix.txt

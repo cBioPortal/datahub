@@ -1,8 +1,0 @@
-cancer_study_identifier: prad_mskcc
-stable_id: mutations
-profile_name: Mutations
-profile_description: Validated somatic mutations, known oncogenic, and cell line mutations (135 sequenced genes)
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

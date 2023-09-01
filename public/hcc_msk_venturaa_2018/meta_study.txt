@@ -1,8 +1,0 @@
-type_of_cancer: hcc
-cancer_study_identifier: hcc_msk_venturaa_2018
-name: Liver Hepatocellular Adenoma and Carcinomas (MSK, PLOS One 2018)
-description: Targeted sequencing of tumor/normal pairs of 9 LIAD and 10 HCC patients via MSK-IMPACT platform.
-citation: Zheng et al. PLOS One 2018
-pmid: 30052636
-short_name: HCC (MSK, PLOS One)
-groups: PUBLIC

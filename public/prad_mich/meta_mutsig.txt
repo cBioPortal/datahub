@@ -1,4 +1,0 @@
-cancer_study_identifier: prad_mich
-datatype: Q-VALUE
-genetic_alteration_type: MUTSIG
-data_filename: data_mutsig.txt

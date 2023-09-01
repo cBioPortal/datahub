@@ -1,8 +1,0 @@
-type_of_cancer: hcc
-cancer_study_identifier: hcc_inserm_fr_2015
-name: Hepatocellular Carcinomas (INSERM, Nat Genet 2015)
-description: Whole-exome sequencing of 243 liver tumors and matched normals.
-citation: Schulze et al. Nat Genet 2013
-pmid: 25822088
-groups: PUBLIC
-short_name: HCC (Inserm, 2015)

@@ -1,8 +1,0 @@
-cancer_study_identifier: chol_nccs_2013
-stable_id: mutations
-profile_name: Mutations
-profile_description: Somatic mutations from exome sequencing of 15 cases.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

@@ -1,7 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: cfdna_msk_2019
-name: Mixed cfDNA (MSK, Nature Medicine 2019)
-short_name: Mixed cfDNA (MSK 2019)
-description: Targeted sequencing of 248 samples from 124 patients' cfDNA/WBC and tumor/normal pairs. 
-pmid: 31768066
-citation: Razavi et al. Nature Medicine 2019

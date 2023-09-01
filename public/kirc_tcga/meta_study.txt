@@ -1,6 +1,0 @@
-type_of_cancer: ccrcc
-cancer_study_identifier: kirc_tcga
-name: Kidney Renal Clear Cell Carcinoma (TCGA, Firehose Legacy)
-short_name: ccRCC (TCGA)
-description: TCGA Kidney Renal Clear Cell Carcinoma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/KIRC/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
-groups: PUBLIC

@@ -1,6 +1,0 @@
-type_of_cancer: bladder
-cancer_study_identifier: bladder_columbia_msk_2018
-name: Bladder Cancer (Columbia University/MSK, Cell 2018)
-description: Targeted sequencing of 130 bladder cancer tumors, organoids and xenografts and their matched normals via MSK-IMPACT.
-pmid: 29625057
-citation: Lee, Suk Hyung et al. Cell 2018

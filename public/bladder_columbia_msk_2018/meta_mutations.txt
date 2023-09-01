@@ -1,8 +1,0 @@
-cancer_study_identifier: bladder_columbia_msk_2018
-profile_description: Targeted sequencing of 130 bladder cancer tumor/normal pairs via MSK-IMPACT.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_name: Mutations
-data_filename: data_mutations.txt

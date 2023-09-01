@@ -1,6 +1,0 @@
-cancer_study_identifier: odg_msk_2017
-stable_id: odg_msk_2017_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (22 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: s_AO_odg_011_T	s_AO_odg_010_T	P-0000896-T01-IM3	s_AO_odg_005_T	P-0004812-T02-IM6	P-0005939-T01-IM5	P-0001412-T01-IM3	s_AO_odg_008_T	P-0008244-T01-IM5	s_AO_odg_009_T	s_AO_odg_006_T	P-0008244-T02-IM5	s_AO_odg_007_T	s_AO_odg_001_T	s_AO_odg_004_T	P-0001420-T02-IM5	s_AO_odg_002_T	s_AO_odg_003_T	P-0004578-T01-IM5	P-0001420-T01-IM3	P-0002224-T01-IM3	P-0004812-T01-IM5

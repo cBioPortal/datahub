@@ -1,8 +1,0 @@
-cancer_study_identifier: prad_su2c_2015
-stable_id: rna_seq_mrna
-profile_name: mRNA expression / polyA (RNA Seq RPKM)
-profile_description: mRNA expression (RNA Seq RPKM)
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-show_profile_in_analysis_tab: false
-data_filename: data_mrna_seq_rpkm.txt

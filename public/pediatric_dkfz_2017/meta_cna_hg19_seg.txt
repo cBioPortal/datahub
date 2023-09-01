@@ -1,6 +1,0 @@
-cancer_study_identifier: pediatric_dkfz_2017
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: SEG
-reference_genome_id: hg19
-description: Segment data for the ppc pfister study.
-data_filename: data_cna_hg19.seg

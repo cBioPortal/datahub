@@ -1,5 +1,0 @@
-cancer_study_identifier: skcm_mskcc_2014
-stable_id: skcm_mskcc_2014_rnaseq
-case_list_name: Custom subset of RNA-Seq samples
-case_list_description: RNA-Seq set (21 samples)
-case_list_ids: NR4631	SD6494	SD0346	NR9449	NR9521	NR9705	NR3549	SD6336	SD5038	CR6126	CR9699	LSD0167	NR4810	SD7357	SD2051	CR7623	SD2056	CR1509	SD5118	SD1494	NR5784

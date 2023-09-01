@@ -1,8 +1,0 @@
-cancer_study_identifier: difg_glass_2019
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: false
-profile_description: Expression levels from 222 diffuse glioma cases (RNA-Seq RPKM) converted to log2 scale.
-profile_name: mRNA expression (log RNA Seq RPKM)
-data_filename: data_mrna_seq_rpkm.txt

@@ -1,9 +1,0 @@
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true
-swissprot_identifier: accession
-profile_name: Mutations
-profile_description: Somatic mutation data of whole genome or whole exome sequencing of 99 samples.
-cancer_study_identifier: gbm_cptac_2021

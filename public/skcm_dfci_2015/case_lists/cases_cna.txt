@@ -1,6 +1,0 @@
-cancer_study_identifier: skcm_dfci_2015
-stable_id: skcm_dfci_2015_cna
-case_list_name: Samples with CNA data
-case_list_description: Samples with CNA data (110 samples)
-case_list_category: all_cases_with_cna_data
-case_list_ids: Pat19	Pat18	Pat11	Pat13	Pat15	Pat14	Pat17	Pat16	Pat139	Pat138	Pat133	Pat132	Pat131	Pat130	Pat135	Pat159	Pat08	Pat02	Pat03	Pat06	Pat07	Pat04	Pat90	Pat92	Pat148	Pat98	Pat143	Pat140	Pat37	Pat36	Pat33	Pat32	Pat39	Pat38	Pat82	Pat83	Pat80	Pat81	Pat86	Pat85	Pat157	Pat151	Pat21	Pat24	Pat25	Pat27	Pat28	Pat29	Pat147	Pat168	Pat160	Pat162	Pat163	Pat165	Pat166	Pat167	Pat55	Pat54	Pat57	Pat56	Pat50	Pat59	Pat58	Pat175	Pat174	Pat171	Pat170	Pat46	Pat47	Pat44	Pat45	Pat43	Pat40	Pat41	Pat49	Pat103	Pat100	Pat101	Pat106	Pat104	Pat105	Pat109	Pat73	Pat71	Pat70	Pat77	Pat76	Pat74	Pat79	Pat78	Pat110	Pat113	Pat115	Pat117	Pat119	Pat118	Pat88	Pat64	Pat66	Pat67	Pat60	Pat62	Pat63	Pat128	Pat129	Pat124	Pat126	Pat127	Pat121	Pat123

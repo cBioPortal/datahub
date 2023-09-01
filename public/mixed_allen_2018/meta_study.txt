@@ -1,7 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: mixed_allen_2018
-name: MSS Mixed Solid Tumors (Broad/Dana-Farber, Nat Genet 2018)
-short_name:Mixed Tumor (DFCI)
-description: Whole exome sequencing of tumor/normal pairs and corresponding clinical outcomes from patients treated with immune checkpoint inhibitors across multiple cancer types including melanoma, non-small cell lung cancer, head and neck cancer, and bladder cancer.
-pmid: 30150660
-citation: Miao et al. Nat Genet 2018 

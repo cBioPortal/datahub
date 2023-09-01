@@ -1,7 +1,0 @@
-type_of_cancer: mbc
-cancer_study_identifier: mbc_msk_2021
-name: Metaplastic Breast Cancer (MSK,NPJ Breast Cancer 2021)
-short_name: MBC (MSK, 2021)
-description: Targeted or whole-exome sequencing of 19 Metaplastic Breast Cancer tumor/normal pairs.
-pmid: 33863915
-citation: Edaise M et al. NPJ Breast Cancer 2021

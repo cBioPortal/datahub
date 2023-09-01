@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Breast_Sarcoma
-case_list_name: Tumor Type: Breast Sarcoma
-case_list_description: All tumors with cancer type Breast Sarcoma
-case_list_ids: P-0003218-T01-IM5	P-0003361-T01-IM5	P-0003587-T01-IM5	P-0000837-T01-IM3	P-0002450-T01-IM3	P-0010643-T01-IM5	P-0010643-T02-IM5	P-0010117-T01-IM5	P-0010981-T01-IM5	P-0006543-T01-IM5	P-0009089-T01-IM5	P-0002776-T01-IM3	P-0000850-T01-IM3

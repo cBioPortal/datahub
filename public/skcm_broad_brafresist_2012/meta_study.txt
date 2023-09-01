@@ -1,7 +1,0 @@
-type_of_cancer: mel
-cancer_study_identifier: skcm_broad_brafresist_2012
-name: Skin Cutaneous Melanoma(Broad, Cancer Discov 2014)
-short_name: SKCM (BROAD 2014)
-description: Exome Sequencing of tumors (with matched normals) from 45 patients with BRAFV600-mutant metastatic melanoma who received vemurafenib or dabrafenib monotherapy.
-pmid: 24265153
-citation: Van Allen et al. Cancer Discov. 2012

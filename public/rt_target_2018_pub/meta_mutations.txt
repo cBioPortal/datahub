@@ -1,8 +1,0 @@
-cancer_study_identifier: rt_target_2018_pub
-stable_id: mutations
-profile_name: Somatic mutations
-profile_description: Somatic mutation status from whole genome sequencing of whole-genome sequencing 72 patients with Rhabdoid Tumor.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: true

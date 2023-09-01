@@ -1,6 +1,0 @@
-cancer_study_identifier: biliary_tract_summit_2022
-stable_id: biliary_tract_summit_2022_all
-case_list_name: All samples
-case_list_description: All samples (36 samples)
-case_list_category: all_cases_in_study
-case_list_ids: P23_A	P9_A	P22_A	P8_A	P8_C	P8_B	P25_A	P7_A	P24_A	P6_A	P21_C	P21_B	P21_A	P5	P21_E	P21_D	P20_A	P16_A	P4	P3_A	P17_A	P2_A	P1_A	P18_A	P10_A	P19_A	P11_A	P12_A	P13_A	P14_A	P15_B	P15_C	P15_A	P15_F	P15_D	P15_E

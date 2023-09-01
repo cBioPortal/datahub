@@ -1,6 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: mixed_impact_subset_2022
-name: Pan-Cancer MSK-IMPACT MET Validation Cohort (MSK 2022)
-short_name: MSK-IMPACT 2022 subset
-description: Targeted sequencing of clinical cases via MSK-IMPACT.
-groups: PUBLIC

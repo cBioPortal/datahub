@@ -1,8 +1,0 @@
-type_of_cancer: sclc
-cancer_study_identifier: sclc_jhu
-name: Small Cell Lung Cancer (Johns Hopkins, Nat Genet 2012)
-description: Whole exome-sequencing of 80 human SCLCs, including 36 primary SCLC human tumor and adjacent normal sample pairs and 17 paired SCLC cell lines and their patient-matched lymphoblastoid lines, as well as 4 primary SCLC tumors and 23 SCLC cell lines without matched normal controls. Data from Rudin et al., Nat Gene 2012. Sequencing data are publicly available in EGA (EGAS0000100334)
-citation: Rudin et al. Nat Genet 2012
-pmid: 22941189
-short_name: Small Cell Lung (JHU)
-groups: PUBLIC;SCLCPORTAL

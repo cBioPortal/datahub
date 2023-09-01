@@ -1,8 +1,0 @@
-type_of_cancer: mds
-cancer_study_identifier: mds_mskcc_2020
-name: Myelodysplastic (MSK, 2020)
-short_name: MDS  (MSKCC)
-description: Single-cell genomics reveals the genetic and molecular bases for escape from mutational epistasis in myeloid neoplasms
-pmid: 27276561,30333627,24030381
-citation: Papaemmanuil et al. NEJM 2016; Tyner et al. Nature 2018; Papaemmanuil et al. Blood 2013
-groups: OMARHISTCOBI;PENSONA

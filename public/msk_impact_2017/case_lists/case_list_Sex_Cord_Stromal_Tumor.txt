@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Sex_Cord_Stromal_Tumor
-case_list_name: Tumor Type: Sex Cord Stromal Tumor
-case_list_description: All tumors with cancer type Sex Cord Stromal Tumor
-case_list_ids: P-0000118-T01-IM3	P-0004029-T02-IM5	P-0010143-T01-IM5	P-0004337-T01-IM5	P-0009533-T01-IM5	P-0010401-T01-IM5	P-0008546-T01-IM5	P-0006891-T01-IM5	P-0007130-T01-IM5	P-0006496-T01-IM5	P-0000692-T01-IM3	P-0006035-T01-IM5	P-0004029-T01-IM5	P-0001809-T01-IM3	P-0004917-T01-IM5	P-0005678-T01-IM5	P-0009509-T01-IM5	P-0010052-T01-IM5	P-0001267-T01-IM3

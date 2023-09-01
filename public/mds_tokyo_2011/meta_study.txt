@@ -1,7 +1,0 @@
-type_of_cancer: mds
-cancer_study_identifier: mds_tokyo_2011
-name: Myelodysplasia (UTokyo, Nature 2011)
-short_name: MDS (Tokyo)
-description: Whole exome sequencing of 29 myelodysplasia tumor/normal pairs.
-pmid: 21909114
-citation: Yoshida et al. Nature 2011

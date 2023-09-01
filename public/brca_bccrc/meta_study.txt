@@ -1,8 +1,0 @@
-type_of_cancer: brca
-cancer_study_identifier: brca_bccrc
-name: Breast Invasive Carcinoma (British Columbia, Nature 2012)
-description: Whole genome/exome sequencing analysis of 65 breast cancer samples
-citation: Shah et al. Nature
-pmid: 22495314
-short_name: Breast (BCCRC 2012)
-groups: PUBLIC

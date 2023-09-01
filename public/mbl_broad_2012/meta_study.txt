@@ -1,8 +1,0 @@
-type_of_cancer: mbl
-cancer_study_identifier: mbl_broad_2012
-name: Medulloblastoma (Broad, Nature 2012)
-short_name: MBL (Broad)
-description: Whole exome sequencing of 92 primary medulloblastoma tumor/normal pairs.
-citation: Pugh et al. Nature 2012
-pmid: 22820256
-groups: PUBLIC

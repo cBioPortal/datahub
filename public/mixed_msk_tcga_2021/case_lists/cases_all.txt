@@ -1,6 +1,0 @@
-cancer_study_identifier: mixed_msk_tcga_2021
-stable_id: mixed_msk_tcga_2021_all
-case_list_name: All samples
-case_list_description: All samples (19 samples)
-case_list_category: all_cases_in_study
-case_list_ids: IDTCGA-06	IDTCGA-05	IDTCGA-04	IDTCGA-03	IDTCGA-02	IDTCGA-01	MSK-11	MSK-10	MSK-12	MSK-08	MSK-09	MSK-06	MSK-07	MSK-04	MSK-05	MSK-02	MSK-03	MSK-13	MSK-01

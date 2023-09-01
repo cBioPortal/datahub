@@ -1,7 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: cellline_nci60
-name: NCI-60 Cell Lines (NCI, Cancer Res 2012) 
-short_name: NCI-60
-description: Whole-exome sequencing of 67 samples by NCI-60 cell line project; raw data at <A HREF="http://discover.nci.nih.gov/cellminer/loadDownload.do">CellMiner</A>.
-pmid: 22802077
-citation: Reinhold et al. Cancer Res 2012

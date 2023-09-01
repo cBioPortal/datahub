@@ -1,7 +1,0 @@
-type_of_cancer: breast
-cancer_study_identifier: breast_ink4_msk_2021
-name: Metastatic Breast Cancer (MSK, Cancer Discovery 2022)
-short_name: Metastatic Breast Cancer (MSK, Cancer Discov 2022)
-description: Targeted Sequencing of 1365 metastatic Breast Cancer tumor/normal pairs via MSK-IMPACT to understand the role of INK4 on CDK4/6 resistance.
-citation: Qing et al. Cancer Discovery 2022
-pmid: 34544752

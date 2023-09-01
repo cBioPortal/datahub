@@ -1,7 +1,0 @@
-type_of_cancer: egc
-cancer_study_identifier: egc_msk_tp53_ccr_2022
-name: Esophagogastric Cancer (MSK, Clin Cancer Res 2022)
-short_name: EGC_TP53 (MSK, CCR 2022)
-description: Targeted sequencing of 237 esophagogastric tumor/normal pairs via MSK-IMPACT platform.
-pmid: 35377946
-citation: Smita et al. Clin Cancer Res 2022

@@ -1,6 +1,0 @@
-cancer_study_identifier: lusc_tcga_pub
-stable_id: lusc_tcga_pub_primitive
-case_list_category: other
-case_list_name: Expression Subtype: Primitive 
-case_list_description: Primitive expression subtype (27 samples)
-case_list_ids: TCGA-21-1078-01	TCGA-22-4591-01	TCGA-22-4593-01	TCGA-22-4599-01	TCGA-33-4533-01	TCGA-34-5231-01	TCGA-34-5927-01	TCGA-34-5929-01	TCGA-37-4135-01	TCGA-37-4141-01	TCGA-37-5819-01	TCGA-39-5021-01	TCGA-43-2578-01	TCGA-43-6143-01	TCGA-46-3768-01	TCGA-46-6026-01	TCGA-56-1622-01	TCGA-60-2713-01	TCGA-60-2719-01	TCGA-60-2726-01	TCGA-63-5131-01	TCGA-66-2754-01	TCGA-66-2756-01	TCGA-66-2757-01	TCGA-66-2758-01	TCGA-66-2793-01	TCGA-85-6560-01

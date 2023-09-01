@@ -1,8 +1,0 @@
-cancer_study_identifier: acyc_fmi_2014
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Comprehensive genomic profiling of 28 metastatic ACCs.
-profile_name: Mutations
-data_filename: data_mutations.txt

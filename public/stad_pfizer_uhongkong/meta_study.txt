@@ -1,8 +1,0 @@
-type_of_cancer: stad
-cancer_study_identifier: stad_pfizer_uhongkong
-name: Stomach Adenocarcinoma (Pfizer and UHK, Nat Genet 2014)
-description: Whole genome sequencing of 100 gastric cancer tumor-normal pairs from the University of Hong Kong and Pfizer.
-citation: Wang et al. Nat Genet 2014
-pmid: 24816253
-short_name: Stomach (Pfizer UHK)
-groups: PUBLIC

@@ -1,6 +1,0 @@
-cancer_study_identifier: nhl_bcgsc_2013
-stable_id: nhl_bcgsc_2013_sv
-case_list_name: Samples with SV data
-case_list_description: All samples (53 samples)
-case_list_category: all_cases_with_sv_data
-case_list_ids: RG086	RG142	RG082	RG083	RG081	RG064	DB	SU-DHL-6	OCI-Ly1	Karpas422	RG051	NU-DUL-1	RG055	RG054	RG077	RG075	RG074	RG111	RG038	RG115	RG116	RG014	RG036	RG013	RG034	RG068	RG138	MD903	RG132	RG133	RG130	RG136	RG040	NU-DHL-1	RG135	DOHH-2	WSU-DLCL2	OCI-Ly19	RG024	RG043	RG026	RG027	RG023	RG061	RG049	RG028	RG065	RG067	SU-DHL-9	RG008	OCI-Ly7	RG003	OCI-Ly3

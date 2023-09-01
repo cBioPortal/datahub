@@ -1,8 +1,0 @@
-type_of_cancer: pact
-cancer_study_identifier: pact_jhu_2011
-name: Cystic Tumor of the Pancreas (Johns Hopkins, PNAS 2011)
-description: Whole-exome sequencing of major neoplastic cyst types of the pancreas: 8 serous cystadenomas (SCAs), 8 intraductal papillary mucinous neoplasms (IPMNs), 8 mucinous cystic neoplasms (MCNs), and 8 solid pseudopapillary neoplasms (SPNs).
-citation: Wu et al. PNAS 2011
-pmid: 22158988
-groups: PUBLIC
-short_name: Pancreas (JHU 2011)

@@ -1,8 +1,0 @@
-cancer_study_identifier: urcc_mskcc_2016
-genetic_alteration_type: MUTATION_EXTENDED
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Mutation status from targeted sequencing (IMPACT assay) of 62 high-grade primary Unclassified Renal Cell Carcinoma tumor samples with matched normals.
-profile_name: Mutations
-datatype: MAF
-data_filename: data_mutations.txt

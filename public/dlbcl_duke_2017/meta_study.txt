@@ -1,8 +1,0 @@
-type_of_cancer: dlbclnos
-cancer_study_identifier: dlbcl_duke_2017
-name: Diffuse Large B-Cell Lymphoma (Duke, Cell 2017)
-description: Whole-exome sequencing of 1,001 Diffuse Large B Cell Lymphoma (DLBCL) tumors (N = 1001) and paired-normal tissue (N = 400). 
-citation: Reddy et al. Cell 2017
-pmid: 28985567
-short_name: DLBCLNOS (Duke 2017)
-groups: PUBLIC

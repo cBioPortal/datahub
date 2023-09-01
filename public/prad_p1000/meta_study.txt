@@ -1,7 +1,0 @@
-type_of_cancer: prad
-cancer_study_identifier: prad_p1000
-name: Prostate Adenocarcinoma (MSK/DFCI, Nature Genetics 2018)
-short_name: PRAD (MSKCC/DFCI 2018)
-description: Whole exome Sequencing of 1013 prostate cancer samples and their matched normals.
-pmid: 29610475
-citation: Armenia et al. Nat Genet 2018

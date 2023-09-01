@@ -1,8 +1,0 @@
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: DISCRETE
-data_filename: data_cna.txt
-show_profile_in_analysis_tab: true
-stable_id: gistic
-profile_name: Discrete copy number alteration values
-profile_description: Discrete copy number alterations
-cancer_study_identifier: gbm_cptac_2021

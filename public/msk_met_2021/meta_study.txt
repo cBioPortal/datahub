@@ -1,7 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: msk_met_2021
-name: MSK MetTropism (MSK, Cell 2021)
-short_name: Mixed (MSK, Cell 2021)
-description: MSK-MET (Memorial Sloan Kettering - Metastatic Events and Tropisms) is an integrated pan-cancer cohort of tumor genomic and clinical outcome data from 25,000 patients. We analyzed this dataset to identify associations between tumor genomic alterations and patterns of metastatic dissemination across 50 tumor types. We found that chromosomal instability is strongly correlated with metastatic burden in some tumor types, including prostate adenocarcinoma, lung adenocarcinoma and HR+/HER2+ breast ductal carcinoma, but not in others, such as colorectal MSS, pancreatic adenocarcinoma and high-grade serous ovarian cancer. We also identified specific somatic alterations associated with increased metastatic burden and specific routes of metastatic spread. Our data offer a unique resource for the investigation of the biologic basis for metastatic spread and highlight the crucial role of chromosomal instability in cancer progression. <A HREF="https://doi.org/10.1016/j.cell.2022.01.003">PubMed</A>
-pmid: 35120664
-citation: Nguyen et al. Cell 2022

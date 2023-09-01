@@ -1,6 +1,0 @@
-cancer_study_identifier: stad_uhongkong
-stable_id: stad_uhongkong_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (22 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: pfg019T	pfg021T	pfg009T	pfg001T	pfg025T	pfg006T	pfg014T	pfg016T	pfg002T	pfg010T	pfg020T	pfg018T	pfg008T	pfg022T	pfg024T	pfg003T	pfg015T	pfg007T	pfg005T	pfg017T	pfg011T	pfg029T

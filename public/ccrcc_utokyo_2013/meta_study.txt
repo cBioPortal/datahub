@@ -1,8 +1,0 @@
-type_of_cancer: ccrcc
-cancer_study_identifier: ccrcc_utokyo_2013
-name: Renal Clear Cell Carcinoma (UTokyo, Nat Genet 2013)
-description: Whole exome and/or whole genome sequencing of 106 clear cell renal cell carcinoma tumor/normal pairs.
-citation: Sato et al. Nat Genet 2013
-pmid: 23797736
-short_name: ccRCC (UTokyo)
-groups: PUBLIC

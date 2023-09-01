@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_mich
-stable_id: prad_mich_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (61 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: WA39	WA28	WA29	WA26	WA27	WA24	WA25	WA22	WA23	WA20	WA48	WA49	T12	WA46	WA47	WA40	WA41	WA42	WA43-27	T8	T32	WA43-44	T94	T95	T96	T97	T90	T91	T92	T93	WA13	WA12	WA11	WA10	WA17	WA16	WA15	WA14	WA31	WA30	WA19	WA18	WA35	WA38	WA7	WA37	WA59	WA58	WA57	WA56	WA55	WA54	WA53	WA52	WA51	WA50	WA60	WA3	WA33	WA32	WA43-71

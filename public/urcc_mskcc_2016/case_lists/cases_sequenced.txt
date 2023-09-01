@@ -1,6 +1,0 @@
-cancer_study_identifier: urcc_mskcc_2016
-stable_id: urcc_mskcc_2016_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (62 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: T66	T12	T61	T39	T14	T15	T70	T17	T10	T11	T38	T13	T37	T34	T35	T18	T19	T30	T31	T58	T59	T50	T32	T53	T54	T56	T33	T63	T26	T64	T16	T68	T29	T06	T05	T04	T02	T01	T21	T20	T23	T22	T25	T09	T08	T72	T49	T69	T57	T28	T43	T42	T41	T40	T47	T60	T45	T44	T71	T51	T67	T62

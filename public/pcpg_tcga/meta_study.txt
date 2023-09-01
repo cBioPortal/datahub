@@ -1,6 +1,0 @@
-type_of_cancer: mnet
-cancer_study_identifier: pcpg_tcga
-name: Pheochromocytoma and Paraganglioma (TCGA, Firehose Legacy)
-short_name: PCPG (TCGA)
-description: TCGA Pheochromocytoma and Paraganglioma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/PCPG/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
-groups: PUBLIC

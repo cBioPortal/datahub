@@ -1,8 +1,0 @@
-type_of_cancer: mpnst
-cancer_study_identifier: mpnst_mskcc
-name: Malignant Peripheral Nerve Sheath Tumor (MSK, Nat Genet 2014)
-description: Whole exome sequencing of 15 malignant peripheral nerve sheath tumor/normal pairs.
-citation: Lee et al. Nat Genet 2014
-pmid: 25240281
-short_name: MPNST (MSKCC)
-groups: PUBLIC

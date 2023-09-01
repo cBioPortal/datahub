@@ -1,7 +1,0 @@
-type_of_cancer: hgsoc
-cancer_study_identifier: hgsoc_msk_2021
-name: High-Grade Serous Ovarian Cancer (MSK, NPJ Genome Med 2021)
-short_name: HGSOC (MSK, 2021)
-description: Targeted Sequencing of 45 Serous Ovarian Cancer tumor/normal pairs from 45 patients.
-pmid: 34819508
-citation: Elkin et al. NPJ Genome Med 2021

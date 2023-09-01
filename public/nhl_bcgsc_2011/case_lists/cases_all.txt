@@ -1,6 +1,0 @@
-cancer_study_identifier: nhl_bcgsc_2011
-stable_id: nhl_bcgsc_2011_all
-case_list_name: All samples
-case_list_description: All samples (14 samples)
-case_list_category: all_cases_in_study
-case_list_ids: DLBCL-PatientC	DLBCL-PatientB	DLBCL-PatientA	DLBCL-PatientG	DLBCL-PatientF	DLBCL-PatientE	DLBCL-PatientD	DLBCL-PatientK	DLBCL-PatientJ	DLBCL-PatientI	DLBCL-PatientH	FL-PatientA	DLBCL-PatientM	DLBCL-PatientL

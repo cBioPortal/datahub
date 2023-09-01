@@ -1,8 +1,0 @@
-cancer_study_identifier: lihc_amc_prv
-genetic_alteration_type: MUTATION_EXTENDED
-stable_id: mutations
-datatype: MAF
-show_profile_in_analysis_tab: true
-profile_description: Mutation data from whole exome sequencing of 231 hepatocellular carcinomas and matched normal tissue pairs.
-profile_name: Mutations
-data_filename: data_mutations.txt

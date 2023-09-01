@@ -1,8 +1,0 @@
-cancer_study_identifier: lung_nci_2022
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: High-coverage whole-genome sequencing of 232 Lung cancer in never smokers (LCINS) tumors with matched normal.
-profile_name: Mutations
-data_filename: data_mutations.txt

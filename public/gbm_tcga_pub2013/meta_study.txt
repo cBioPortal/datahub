@@ -1,7 +1,0 @@
-type_of_cancer: gbm
-cancer_study_identifier: gbm_tcga_pub2013
-name: Glioblastoma (TCGA, Cell 2013)
-short_name: GBM (TCGA 2013)
-description: Whole-exome and/or whole-genome sequencing of 291 of the 577 glioblastoma tumor/normal pairs. The Cancer Genome Atlas (TCGA) Glioblastoma Project.
-pmid: 24120142
-citation: TCGA, Cell 2013

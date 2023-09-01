@@ -1,8 +1,0 @@
-type_of_cancer: tet
-cancer_study_identifier: tet_nci_2014
-name: Thymic Epithelial Tumors (NCI, Nat Genet 2014)
-description: Whole exome sequencing of 28 thymic epithelial tumors (TETs) with matched normals
-citation: Petrini at el. Nat Genet 2014
-pmid: 24974848
-short_name: TET (NCI)
-groups: PUBLIC

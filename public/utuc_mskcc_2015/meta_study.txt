@@ -1,8 +1,0 @@
-type_of_cancer: utuc
-cancer_study_identifier: utuc_mskcc_2015
-name: Upper Tract Urothelial Cancer (MSK, Eur Urol 2015)
-short_name: Upper tract (MSKCC)
-description: Next-generation sequencing (MSK-IMPACT) on all protein-coding exons of 300 cancer associated genes of 85 Upper Tract Urothelial Carcinoma tumor samples and paired normals.
-pmid: 26278805
-citation: Sfakianos et al. Eur Urol 2015
-groups: PUBLIC

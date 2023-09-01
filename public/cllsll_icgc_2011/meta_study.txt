@@ -1,8 +1,0 @@
-type_of_cancer: cllsll
-cancer_study_identifier: cllsll_icgc_2011
-name: Chronic lymphocytic leukemia (ICGC, Nature Genetics 2011)
-short_name: CLLSLL (Nature Genetics 2011)
-description: Whole-exome sequencing of 105 Chronic Lymphocytic Leukemia samples.
-groups: PUBLIC
-citation: Quesada et al. Nature Genetics 2011
-pmid: 22158541 

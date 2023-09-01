@@ -1,8 +1,0 @@
-cancer_study_identifier:acyc_mskcc_2013
-stable_id:mutations
-profile_name:Mutations
-profile_description:Somatic mutations from exome sequencing of 60 tumor/normal pairs.
-genetic_alteration_type:MUTATION_EXTENDED
-show_profile_in_analysis_tab:true
-datatype:MAF
-data_filename: data_mutations.txt

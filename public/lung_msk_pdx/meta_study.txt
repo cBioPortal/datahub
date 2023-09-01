@@ -1,5 +1,0 @@
-type_of_cancer: lung
-cancer_study_identifier: lung_msk_pdx
-name: Thoracic PDX (MSK, Provisional)
-description: Targeted sequencing of thoracic PDX lines to characterize genetic alterations in 318 tumor/normal pairs via MSK-IMPACT. This cohort is a PDX tracker of all lung cancer PDX generated at MSK that have been through IMPACT sequencing. This is a live datafeed, increasing over time, not published as a cohort.
-short_name: MIXED (CMO CR_pdx IMPACT)

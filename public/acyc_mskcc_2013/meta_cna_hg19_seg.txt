@@ -1,7 +1,0 @@
-cancer_study_identifier:acyc_mskcc_2013
-reference_genome_id:hg19
-description:Somatic segment CNA data (copy number ratio from tumor samples minus ratio from matched normals).
-show_profile_in_analysis_tab:true
-datatype:SEG
-genetic_alteration_type:COPY_NUMBER_ALTERATION
-data_filename: data_cna_hg19.seg

@@ -1,6 +1,0 @@
-type_of_cancer: plmeso
-cancer_study_identifier: meso_tcga
-name: Mesothelioma (TCGA, Firehose Legacy)
-short_name: Mesothelioma (TCGA)
-description: TCGA Mesothelioma. Source data from <A HREF="http://gdac.broadinstitute.org/runs/stddata__2016_01_28/data/MESO/20160128/">GDAC Firehose</A>. Previously known as TCGA Provisional.
-groups: PUBLIC

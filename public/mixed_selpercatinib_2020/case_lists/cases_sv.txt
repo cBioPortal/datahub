@@ -1,6 +1,0 @@
-cancer_study_identifier: mixed_selpercatinib_2020
-stable_id: mixed_selpercatinib_2020_sv
-case_list_name: Samples with SV data
-case_list_description: All samples (52 samples)
-case_list_category: all_cases_with_sv_data
-case_list_ids: EDD_ret_pt001_fusion	P-0027723-T01-IM6	P-0030396-T02-IM6	P-0020974-T01-IM6	P-0013886-T01-IM5	P-0025838-T01-IM6	P-0021937-T01-IM6	P-0004094-T02-IM6	EDD_ret_pt012_fusion	EDD_ret_pt014_fusion	EDD_ret_pt016_fusion	P-0026693-T01-IM6	P-0021578-T01-IM6	EDD_ret_pt019_fusion	P-0021879-T01-IM6	EDD_ret_pt023_fusion	P-0029997-T01-IM6	P-0025100-T01-IM6	P-0017214-T02-IM6	P-0025928-T01-IM6	P-0022607-T01-IM6	P-0015310-T04-IM6	P-0030990-T03-IM6	P-0027953-T01-IM6	P-0032753-T01-IM6	P-0029315-T02-IM6	EDD_ret_pt039_fusion	EDD_ret_pt040_fusion	P-0022380-T01-IM6	P-0016221-T02-IM6	P-0017716-T01-IM6	EDD_ret_pt047_fusion	P-0014808-T01-IM6	P-0022642-T01-IM6	P-0033700-T02-IM6	P-0032407-T01-IM6	EDD_ret_pt054_fusion	P-0005863-T01-IM5	P-0037494-T01-IM6	P-0039474-T02-IM6	EDD_ret_pt059_fusion	P-0036737-T02-IM6	EDD_ret_pt062_fusion	EDD_ret_pt063_fusion	P-0039257-T01-IM6	EDD_ret_pt065_fusion	EDD_ret_pt067_fusion	P-0038256-T01-IM6	P-0042153-T01-IM6	P-0004901-T01-IM5	EDD_ret_pt075_fusion	EDD_ret_pt076_fusion

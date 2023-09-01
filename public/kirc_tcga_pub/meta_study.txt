@@ -1,8 +1,0 @@
-type_of_cancer: ccrcc
-cancer_study_identifier: kirc_tcga_pub
-name: Kidney Renal Clear Cell Carcinoma (TCGA, Nature 2013)
-short_name: ccRCC (TCGA pub)
-description: Whole-exome sequencing in 417 of 446 clear cell renal cell carcinoma tumor/normal pairs.
-citation: TCGA, Nature 2013
-pmid: 23792563
-groups: PUBLIC

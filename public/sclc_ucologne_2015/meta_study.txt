@@ -1,8 +1,0 @@
-type_of_cancer: sclc
-cancer_study_identifier: sclc_ucologne_2015
-name: Small Cell Lung Cancer (U Cologne, Nature 2015)
-description: Whole-genome sequencing of 120 small cell lung cancer(SCLC) tumour samples and matched normal material. Data from George et al., Nature 2015 (German group). Paper states data available in GEO (GSE69091).
-citation: George et al. Nature 2015
-pmid: 26168399
-short_name: Small Cell Lung (UCOLOGNE 2015)
-groups: PUBLIC;SCLCPORTAL

@@ -1,8 +1,0 @@
-cancer_study_identifier: brca_metabric
-genetic_alteration_type: METHYLATION
-datatype: CONTINUOUS
-stable_id: methylation_promoters_rrbs
-show_profile_in_analysis_tab: true
-profile_description: Average methylation (beta-values) of promoters defined as 500bp upstream & 50 downstream of Transcription Start Site (TSS). With coverage >= 20 in 70% of the tumor samples and 70% of the normal samples. For genes with multiple promoters (alternate), the promoter with minimum methylation in the normal tissues is selected
-profile_name: Promoter methylation (RRBS)
-data_filename: data_methylation_promoters_rrbs.txt

@@ -1,6 +1,0 @@
-cancer_study_identifier: kirp_tcga
-stable_id: kirp_tcga_methylation_hm27
-case_list_name: Samples with methylation data (HM27)
-case_list_description: Samples with methylation (HM27) data (16 samples)
-case_list_category: all_cases_with_methylation_data
-case_list_ids: TCGA-AL-3471-01	TCGA-B3-4104-01	TCGA-B9-4617-01	TCGA-AL-3467-01	TCGA-B9-4117-01	TCGA-AL-3473-01	TCGA-B9-4116-01	TCGA-AL-3468-01	TCGA-AL-3472-01	TCGA-B9-4113-01	TCGA-B9-4115-01	TCGA-B3-3926-01	TCGA-B9-4114-01	TCGA-B3-3925-01	TCGA-AL-3466-01	TCGA-B3-4103-01

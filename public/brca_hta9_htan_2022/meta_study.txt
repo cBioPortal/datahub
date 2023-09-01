@@ -1,4 +1,0 @@
-type_of_cancer: brca
-cancer_study_identifier: brca_hta9_htan_2022
-name: Breast Cancer (HTAN, 2022)
-description: Sequencing data from breast cancer patient from HTAN

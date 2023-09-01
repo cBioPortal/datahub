@@ -1,8 +1,0 @@
-cancer_study_identifier: paad_qcmg_uq_2016
-genetic_alteration_type: MUTATION_EXTENDED
-stable_id: mutations
-datatype: MAF
-show_profile_in_analysis_tab: true
-profile_description: Primary tumours (n = 342) and 41 patient-derived cell lines underwent whole genome sequencing (WGS) when tumour cellularity was >40% (n = 179), or deep-exome sequencing (n = 204) for samples with a cellularity of 12–40%.
-profile_name: Mutations
-data_filename: data_mutations.txt

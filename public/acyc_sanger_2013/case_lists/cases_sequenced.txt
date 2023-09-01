@@ -1,6 +1,0 @@
-cancer_study_identifier: acyc_sanger_2013
-stable_id: acyc_sanger_2013_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (24 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: PD3186a	PD3196a	PD3184a	PD3192a	PD3180a	PD3194a	PD3200a	PD3191a	PD3189a	PD3178a	PD3226a	PD3208a	PD3199a	PD3195a	PD3185a	PD3197a	PD3181a	PD3193a	PD3216a	PD3190a	PD3182a	PD3188a	PD3179a	PD3198a

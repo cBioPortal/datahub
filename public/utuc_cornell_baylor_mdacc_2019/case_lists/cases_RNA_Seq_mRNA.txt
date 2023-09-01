@@ -1,6 +1,0 @@
-cancer_study_identifier: utuc_cornell_baylor_mdacc_2019
-stable_id: utuc_cornell_baylor_mdacc_2019_rna_seq_mrna
-case_list_name: Tumor Samples with mRNA data (RNA Seq)
-case_list_description: All samples with mRNA expression data (32 samples)
-case_list_category: all_cases_with_mrna_rnaseq_data
-case_list_ids: BCM-MDA-UTUC-16	BCM-MDA-UTUC-17	BCM-MDA-UTUC-14	BCM-MDA-UTUC-12	BCM-MDA-UTUC-10	BCM-MDA-UTUC-18	WCM-UTUC-90	WCM-UTUC-91	WCM-UTUC-92	WCM-UTUC-78	WCM-UTUC-77	WCM-UTUC-74	WCM-UTUC-75	WCM-UTUC-73	WCM-UTUC-70	BCM-MDA-UTUC-09	BCM-MDA-UTUC-28	BCM-MDA-UTUC-01	BCM-MDA-UTUC-26	BCM-MDA-UTUC-24	BCM-MDA-UTUC-05	BCM-MDA-UTUC-22	BCM-MDA-UTUC-21	BCM-MDA-UTUC-20	WCM-UTUC-83	WCM-UTUC-82	WCM-UTUC-80	WCM-UTUC-87	WCM-UTUC-86	WCM-UTUC-85	WCM-UTUC-89	WCM-UTUC-21

@@ -1,8 +1,0 @@
-cancer_study_identifier:prad_cpcg_2017
-genetic_alteration_type:MUTATION_EXTENDED
-datatype:MAF
-stable_id: mutations
-show_profile_in_analysis_tab:true
-profile_description:Mutations from whole-genome/exome sequencing of 477 prostate samples from CPC-GENE and public data sets, including TCGA-PRAD.
-profile_name:Mutations
-data_filename: data_mutations.txt

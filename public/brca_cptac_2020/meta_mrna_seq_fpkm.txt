@@ -1,8 +1,0 @@
-cancer_study_identifier: brca_cptac_2020
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: rna_seq_v2_mrna
-show_profile_in_analysis_tab: false
-profile_name: mRNA expression (FPKM, log2 transformed)
-profile_description: Gene expression by mRNA abundance in FPKM values (values of 0 were considered as missing and replaced by NA before applying log2 transformation)
-data_filename: data_mrna_seq_fpkm.txt

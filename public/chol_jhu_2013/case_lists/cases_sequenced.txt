@@ -1,6 +1,0 @@
-cancer_study_identifier: chol_jhu_2013
-stable_id: chol_jhu_2013_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (40 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: CHOL26	GB02	GB07	CHOL25	CHOL37	CHOL50	CHOL53	CHOL52	CHOL54	CHOL01	CHOL02	CHOL19	CHOL18	CHOL15	CHOL14	CHOL11	CHOL13	CHOL12	CHOL28	CHOL20	CHOL42	CHOL40	CHOL47	CHOL44	CHOL48	CHOL49	GB18	GB19	CHOL08	CHOL09	GB10	CHOL07	CHOL04	CHOL24	CHOL35	GB16	CHOL27	CHOL06	GB23	GB11

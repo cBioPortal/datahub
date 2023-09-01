@@ -1,8 +1,0 @@
-type_of_cancer: blca
-cancer_study_identifier: blca_mskcc_solit_2012
-name: Bladder Cancer (MSK, J Clin Onco 2013) 
-description: Comprehensive profiling of 97 high-grade bladder tumors, including targeted sequencing of 15 cancer genes
-citation: Iyer et al. J Clin Oncol 2013
-pmid: 23897969
-short_name: Bladder (MSKCC 2012)
-groups: PUBLIC

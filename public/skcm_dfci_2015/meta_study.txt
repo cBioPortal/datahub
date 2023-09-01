@@ -1,8 +1,0 @@
-type_of_cancer: skcm
-cancer_study_identifier: skcm_dfci_2015
-name: Metastatic Melanoma (DFCI, Science 2015)
-description: Whole-exome sequencing of 110 metastatic melanoma tumor-normal pairs.
-citation: Van Allen et al. Science 2015
-pmid: 26359337
-short_name: Melanoma (Van Allen, Science)
-add_global_case_list: false

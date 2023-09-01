@@ -1,8 +1,0 @@
-cancer_study_identifier: nsclc_ctdx_msk_2022
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: DISCRETE
-stable_id: cna
-show_profile_in_analysis_tab: true
-profile_description: Copy number alterations from targeted sequencing via MK-IMPACT, HEME on Illumina HiSeq sequencers.
-profile_name: Copy Number Alterations (MSK-IMPACT, HEME)
-data_filename: data_cna.txt

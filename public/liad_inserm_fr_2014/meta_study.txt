@@ -1,7 +1,0 @@
-type_of_cancer: liad
-cancer_study_identifier: liad_inserm_fr_2014
-name: Hepatocellular Adenoma (INSERM, Cancer Cell 2014)
-short_name: Liad (Inserm 2014)
-description: Whole-exome sequencing of 46 liver tumor/normal pairs.
-pmid: 24735922
-citation: Pilati et al. Cancer Cell 2014

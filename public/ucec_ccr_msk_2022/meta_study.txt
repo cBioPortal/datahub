@@ -1,6 +1,0 @@
-type_of_cancer: ucec
-cancer_study_identifier: ucec_ccr_msk_2022
-name: Endometrial Carcinoma MSI (MSK, Clin Cancer Res 2022)
-short_name: UCEC MSI MSK 2022
-description: Clinical and genetic features of microsatellite instability-high endometrial cancers harboring germline or somatic mutations in MMR genes or MLH1 promoter hypermethylation.
-pmid: 35849120

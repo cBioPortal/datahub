@@ -1,6 +1,0 @@
-type_of_cancer: blca
-cancer_study_identifier: blca_bcan_hcrn_2022
-name: Urothelial Carcinoma (BCAN/HCRN, 2022)
-short_name: BLCA(BCAN HCRN 2022)
-description: UC-GENOME: Urothelial Cancer-GENOmic analysis to iMprove patient outcomes and rEsearch.
-groups: UCGENOME_BCAN_HCRN_2015

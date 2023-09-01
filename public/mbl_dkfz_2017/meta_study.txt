@@ -1,8 +1,0 @@
-type_of_cancer: mbl
-cancer_study_identifier: mbl_dkfz_2017
-name: Medulloblastoma (DKFZ, Nature 2017)
-description: Whole genome or whole exome sequencing of 491 previously untreated Medulloblastoma tumor/normal pairs.
-groups: PUBLIC
-short_name: MBL (DFKZ,2017)
-pmid: 28726821
-citation: Northcott et al. Nature 2017

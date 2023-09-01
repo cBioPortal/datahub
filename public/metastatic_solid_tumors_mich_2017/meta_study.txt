@@ -1,7 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: metastatic_solid_tumors_mich_2017
-name: Metastatic Solid Cancers (UMich, Nature 2017)
-short_name: MET500 (Michigan U 2017)
-description: Whole-exome and -transcriptome sequencing of 500 adult patients with metastatic solid tumor/primary normal pairs of diverse lineage and biopsy site.
-citation: Robinson et al. Nature 2017
-pmid: 28783718

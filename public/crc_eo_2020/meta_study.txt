@@ -1,7 +1,0 @@
-type_of_cancer: bowel
-cancer_study_identifier: crc_eo_2020
-name: Colorectal Cancer (MSK, JNCI 2021)
-short_name: CRC (MSK, 2021)
-description: Targeted sequencing of 1,516 samples from 818 patients with early onset and 698 patients with average onset colorectal cancer and their matched normals.
-citation: Cercek et al. JNCI 2021
-pmid: 34405229

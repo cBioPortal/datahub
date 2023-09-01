@@ -1,6 +1,0 @@
-cancer_study_identifier: nsclc_unito_2016
-stable_id: nsclc_unito_2016_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (41 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: Y03	Y01	Y06	Y07	Y04	Y05	Y28	Y29	Y20	Y22	Y24	Y25	Y26	A15	A14	A17	A16	A11	A13	A19	A18	A23	Y19	Y18	Y15	Y14	Y16	Y10	Y13	Y12	A20	A22	A09	A24	A25	A02	A03	A06	A07	A04	A05

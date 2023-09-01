@@ -1,8 +1,0 @@
-type_of_cancer: blca
-cancer_study_identifier: blca_mskcc_solit_2014
-name: Bladder Cancer (MSK, Eur Urol 2014)
-description: Genomic Predictors of Survival in Patients with High-grade Urothelial Carcinoma of the Bladder. Targeted sequencing of 109 tumor samples (MSKCC, European Urology 2014).
-citation: Kim et al. Eur Urol 2015
-pmid: 25092538
-short_name: Bladder (MSKCC 2014)
-groups: PUBLIC

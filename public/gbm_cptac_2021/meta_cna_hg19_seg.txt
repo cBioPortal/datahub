@@ -1,6 +1,0 @@
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: SEG
-data_filename: data_cna_hg19.seg
-reference_genome_id: hg19
-description: Somatic CNV segments using BIC-seq2 v2.0 pipeline.
-cancer_study_identifier: gbm_cptac_2021

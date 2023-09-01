@@ -1,6 +1,0 @@
-cancer_study_identifier: paac_jhu_2014
-stable_id: paac_jhu_2014_all
-case_list_name: All samples
-case_list_description: All samples (23 samples)
-case_list_category: all_cases_in_study
-case_list_ids: ACINAR26	ACINAR01	ACINAR03	ACINAR02	ACINAR10	ACINAR14	ACINAR04	ACINAR13	ACINAR27	ACINAR11	ACINAR25	ACINAR17	ACINAR05	ACINAR06	ACINAR21	ACINAR08	ACINAR09	ACINAR19	ACINAR18	ACINAR20	ACINAR28	ACINAR29	ACINAR15

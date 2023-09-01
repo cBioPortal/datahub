@@ -1,8 +1,0 @@
-type_of_cancer: ampca
-cancer_study_identifier: ampca_bcm_2016
-name: Ampullary Carcinoma (Baylor College of Medicine, Cell Reports 2016)
-short_name: Ampullary Carcinoma (BCM 2016)
-description: Exome sequencing analysis of 160 cancers arising in the periampullary region, 62 of these clearly arising from either the bile duct (n = 44) or the duodenum (n = 18) and 98 for which the epithelium of origin could not be clearly defined morphologically (AMPCA).
-pmid: 26804919
-citation: Gingras et al. Cell Rep 2016
-groups: PUBLIC

@@ -1,5 +1,0 @@
-type_of_cancer: brca
-cancer_study_identifier: brca_mbcproject_wagle_2017
-name: The Metastatic Breast Cancer Project (Archived, 2020)
-short_name: The MBC Project
-description: The Metastatic Breast Cancer Project (www.mbcproject.org) is an ongoing patient-driven initiative. This dataset release is derived from 237 samples, including both primary and/or metastatic tumor specimens (FFPE) from 180 patients who developed metastatic breast cancer. 237 samples have undergone whole-exome sequencing (along with matched germline whole-exome sequencing) and 146 of those samples have also undergone RNA-sequencing. This study includes genomic data, patient-reported data (prepended as PRD), medical record data (MedR), and pathology report data (PATH). All annotations have been de-identified. As these data were generated in a research laboratory, not a clinical laboratory, they are for research purposes only and cannot be used to inform clinical decision-making. For questions about these data, including how to cite, please visit www.mbcproject.org/data-release or direct questions to data@mbcproject.org.

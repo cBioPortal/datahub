@@ -1,6 +1,0 @@
-cancer_study_identifier: brca_bccrc_xenograft_2014
-stable_id: brca_bccrc_xenograft_2014_log2CNA
-case_list_name: Samples with log2 copy-number data
-case_list_description: Samples with log2 copy-number data (30 samples)
-case_list_category: all_cases_with_log2_cna_data
-case_list_ids: SA535X1A-whole_genome	SA532T-whole_genome	SA531T-whole_genome	SA495X4-whole_genome	SA532X3A-whole_genome	SA501X5A-whole_genome	SA536X0-whole_genome	SA534T-whole_genome	SA496X2A-whole_genome	SA530X2-whole_genome	SA533T-whole_genome	SA530T-whole_genome	SA531X1-whole_genome	SA493T-whole_genome	SA499T-whole_genome	SA500X3-whole_genome	SA501T-whole_genome	SA429X2A-whole_genome	SA542T-whole_genome	SA494T-whole_genome	SA536T-whole_genome	SA535T-whole_genome	SA534X1A-whole_genome	SA500T-whole_genome	SA501X1A-whole_genome	SA533X1-whole_genome	SA493X1-whole_genome	SA499X5-whole_genome	SA494X4-whole_genome	SA429X5A-whole_genome

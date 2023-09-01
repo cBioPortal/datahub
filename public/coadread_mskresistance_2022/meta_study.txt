@@ -1,7 +1,0 @@
-type_of_cancer: coadread
-cancer_study_identifier: coadread_mskresistance_2022
-name: Colorectal Cancer (MSK, Cancer Discovery 2022)
-description: Targeted sequencing of patient-derived xenografts, cell lines, tumors and their matched normals from 22 colorectal samples via MSK-IMPACT.
-short_name: COADREAD (MSK, 2022)
-pmid: 36355783
-citation: Yaeger et al. Cancer Discovery 2022

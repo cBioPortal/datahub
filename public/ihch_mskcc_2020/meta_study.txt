@@ -1,7 +1,0 @@
-type_of_cancer: ihch
-cancer_study_identifier: ihch_mskcc_2020
-name: Intrahepatic Cholangiocarcinoma (MSK, Clin Cancer Res 2021)
-description: Targeted sequencing of IMPACT and CMO samples
-short_name: IHCH (MSK [2020])
-pmid: 33963001
-citation: Jolissaint et al. Clin Cancer Res 2021

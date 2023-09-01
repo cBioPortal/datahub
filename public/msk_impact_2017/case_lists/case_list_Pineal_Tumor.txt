@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Pineal_Tumor
-case_list_name: Tumor Type: Pineal Tumor
-case_list_description: All tumors with cancer type Pineal Tumor
-case_list_ids: P-0011424-T01-IM5	P-0001995-T01-IM3	P-0010127-T01-IM5

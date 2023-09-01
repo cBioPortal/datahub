@@ -1,6 +1,0 @@
-cancer_study_identifier: gbm_tcga_pub
-stable_id: gbm_tcga_pub_expr_neural
-case_list_category: other
-case_list_name: Expression Cluster Neural
-case_list_description: Tumors assigned to the "Neural" expression cluster (Verhaak et al., 2010, 29 samples).
-case_list_ids: TCGA-02-0052-01	TCGA-02-0057-01	TCGA-02-0083-01	TCGA-02-0089-01	TCGA-02-0113-01	TCGA-02-0115-01	TCGA-02-0451-01	TCGA-06-0132-01	TCGA-06-0133-01	TCGA-06-0138-01	TCGA-06-0162-01	TCGA-06-0171-01	TCGA-06-0173-01	TCGA-06-0178-01	TCGA-06-0179-01	TCGA-06-0182-01	TCGA-06-0185-01	TCGA-06-0188-01	TCGA-06-0195-01	TCGA-06-0208-01	TCGA-06-0214-01	TCGA-06-0219-01	TCGA-06-0221-01	TCGA-06-0237-01	TCGA-08-0349-01	TCGA-08-0380-01	TCGA-08-0386-01	TCGA-08-0389-01	TCGA-08-0520-01

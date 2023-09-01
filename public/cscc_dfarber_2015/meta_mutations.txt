@@ -1,8 +1,0 @@
-cancer_study_identifier: cscc_dfarber_2015
-genetic_alteration_type: MUTATION_EXTENDED
-stable_id: mutations
-datatype: MAF
-show_profile_in_analysis_tab: true
-profile_description: Mutation data from target sequencing of 504 cancer-associated genes on lymph node metastases in 29 patients with cutaneous squamous cell carcinomas.
-profile_name: Mutations
-data_filename: data_mutations.txt

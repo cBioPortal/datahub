@@ -1,8 +1,0 @@
-cancer_study_identifier: prad_mskcc_2014
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: DISCRETE
-stable_id: cna
-show_profile_in_analysis_tab: true
-profile_description: Discrete copy-number calls from the RAE algorithm. -2 = putative homozygous deletion; -1 = putative hemizygous deletion; 0 = copy-neutral; 1 = low-level gain; 2 = high-level amplification.
-data_filename: data_cna.txt
-profile_name: Putative copy-number alterations (RAE)

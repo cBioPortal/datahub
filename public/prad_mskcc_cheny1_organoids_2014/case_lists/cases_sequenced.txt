@@ -1,6 +1,0 @@
-cancer_study_identifier: prad_mskcc_cheny1_organoids_2014
-stable_id: prad_mskcc_cheny1_organoids_2014_sequenced
-case_list_name: Samples with mutation data
-case_list_description: Samples with mutation data (12 samples)
-case_list_category: all_cases_with_mutation_data
-case_list_ids: MSK-PCa1.m	MSK-PCa1.o	MSK-PCa4.o	MSK-PCa5.m	MSK-PCa5.o	MSK-PCa3.o	MSK-PCa6.o	MSK-PCa6.m	MSK-PCa7.o	MSK-PCa7.m	MSK-PCa2.o	MSK-PCa2.m

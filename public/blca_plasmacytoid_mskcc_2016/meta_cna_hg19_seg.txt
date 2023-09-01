@@ -1,6 +1,0 @@
-cancer_study_identifier: blca_plasmacytoid_mskcc_2016
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: SEG
-reference_genome_id: hg19
-description: Genomic profiling of plasmacytoid-variant (signet ring cell) tumors of the bladder, published set.
-data_filename: data_cna_hg19.seg

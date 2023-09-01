@@ -1,8 +1,0 @@
-cancer_study_identifier: gbm_tcga_pub
-stable_id: mutations
-profile_name: Mutations
-profile_description: Mutation data for targeted sequencing in 91 primary glioblastoma tumor/normal pairs (Phases I/II of the TCGA glioblastoma project).
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-show_profile_in_analysis_tab: true
-data_filename: data_mutations.txt

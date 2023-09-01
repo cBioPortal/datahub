@@ -1,8 +1,0 @@
-type_of_cancer: thpa
-cancer_study_identifier: thca_tcga_pub
-name: Papillary Thyroid Carcinoma (TCGA, Cell 2014)
-short_name: Thyroid (TCGA pub)
-description: Exome and whole genome sequencing of 496 papillary thyroid carcinoma tumor/normal pairs
-citation: TCGA, Cell 2014
-pmid: 25417114
-groups: PUBLIC

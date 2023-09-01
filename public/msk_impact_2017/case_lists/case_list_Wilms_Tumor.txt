@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Wilms_Tumor
-case_list_name: Tumor Type: Wilms Tumor
-case_list_description: All tumors with cancer type Wilms Tumor
-case_list_ids: P-0009796-T02-IM5	P-0001579-T01-IM3

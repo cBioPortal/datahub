@@ -1,5 +1,0 @@
-cancer_study_identifier: skcm_mskcc_2014
-stable_id: skcm_mskcc_2014_posttreatmentbiopsy
-case_list_name: Custom subset of Post-treatment biopsy set samples
-case_list_description: Post-treatment biopsy set (30 samples)
-case_list_ids: CR0095	CR1509	CR7623	CR9699	NR4810	NR4949	SD0346	SD5038	SD5118	SD5934	SD6336	SD6494	SD7357	CR06670	CRNR0244	CRNR2472	CRNR4941	LSD4691	LSDNR1650	LSDNR3086	LSDNR9298	NR4045	NR4631	NR6689	NR6721	NR8815	NR9449	NR9521	NR9705	PR03803

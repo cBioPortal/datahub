@@ -1,8 +1,0 @@
-type_of_cancer: mbl
-cancer_study_identifier: mbl_sickkids_2016
-name: Medulloblastoma (Sickkids, Nature 2016)
-short_name: MBL (Sickkids 2016)
-description: Whole-genome sequencing of 46 recurrent medulloblastoma samples.
-citation: Morrissy et al. Nature 2016
-pmid: 26760213
-groups: PUBLIC

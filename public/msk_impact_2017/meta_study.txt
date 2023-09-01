@@ -1,8 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: msk_impact_2017
-name: MSK-IMPACT Clinical Sequencing Cohort (MSK, Nat Med 2017)
-short_name: MSK-IMPACT
-description: Targeted sequencing of 10,000 clinical cases using the MSK-IMPACT assay
-groups:PUBLIC
-pmid: 28481359
-citation: Zehir et al. Nat Med 2017

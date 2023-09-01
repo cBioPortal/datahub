@@ -1,9 +1,0 @@
-cancer_study_identifier: brca_mapk_hp_msk_2021
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-stable_id: segment
-profile_name: Somatic CNA data
-datatype: SEG
-reference_genome_id: hg19
-description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals).
-data_filename: data_cna_hg19.seg
-show_profile_in_analysis_tab: false

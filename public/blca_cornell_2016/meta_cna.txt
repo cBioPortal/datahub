@@ -1,8 +1,0 @@
-cancer_study_identifier: blca_cornell_2016 
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-stable_id: cna
-show_profile_in_analysis_tab: true
-profile_name: Copy Number Alterations
-profile_description: Copy number alterations
-datatype: DISCRETE
-data_filename: data_cna.txt

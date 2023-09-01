@@ -1,8 +1,0 @@
-type_of_cancer: prad
-cancer_study_identifier: prad_fhcrc
-name: Prostate Adenocarcinoma (Fred Hutchinson CRC, Nat Med 2016)
-short_name: Prostate (FHCRC, 2016)
-description: Whole-exome sequencing, array comparative genomic hybridization (CGH) and RNA transcript profiling of 176 tumors from 63 patients with disseminated prostate cancer with matched normals.
-pmid: 26928463
-groups: PUBLIC
-citation: Kumar et al. Nat Med 2016

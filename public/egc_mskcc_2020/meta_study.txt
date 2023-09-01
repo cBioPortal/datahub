@@ -1,7 +1,0 @@
-type_of_cancer: stomach
-cancer_study_identifier: egc_mskcc_2020
-name: Esophageal/Stomach Cancer (MSK, 2020)
-short_name: EGC (MSKCC, 2020)
-description: Targeted sequencing of 487 Esophageal/stomach cancer tumor-normal pairs via MSK-IMPACT.
-pmid: 33795256
-citation: Sihag et al. Clin Cancer Res 2021

@@ -1,8 +1,0 @@
-type_of_cancer: bowel
-cancer_study_identifier: bowel_colitis_msk_2022
-name: Colorectal Adenocarcinoma (MSK, Nat Commun 2022)
-short_name: Colorectal Adenocarcinoma (MSK, 2022)
-description: Targeted sequencing of 180 colitis-associated cancers and their matched normals.
-citation: Walid K et al. Nat Commun. 2022
-pmid: 36611031
-groups: PUBLIC

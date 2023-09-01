@@ -1,7 +1,0 @@
-type_of_cancer: lgsoc
-cancer_study_identifier: lgsoc_mapk_msk_2022
-name: Low-Grade Serous Ovarian Cancer (MSK, Clin Cancer Res 2022)
-short_name: LGSOC (MSK, Clin Cancer Res 2022)
-description: Characterization of the somatic mutational landscape of MAPK pathway in 119 low-grade serous ovarian carcinomas and their matched normals.
-pmid: 35443055
-citation: Manning-Geist et al. Clin Cancer Res. 2022

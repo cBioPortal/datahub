@@ -1,8 +1,0 @@
-cancer_study_identifier: mixed_msk_tcga_2021
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: TRUE
-profile_description: Mutation data from MSK-IMPACT and WES
-profile_name: Mutations
-data_filename: data_mutations.txt

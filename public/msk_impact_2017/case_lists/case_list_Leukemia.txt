@@ -1,5 +1,0 @@
-cancer_study_identifier: msk_impact_2017
-stable_id: msk_impact_2017_Leukemia
-case_list_name: Tumor Type: Leukemia
-case_list_description: All tumors with cancer type Leukemia
-case_list_ids: P-0003776-T01-IM5	P-0012193-T01-IM5	P-0006255-T01-IM5	P-0005565-T01-IM5

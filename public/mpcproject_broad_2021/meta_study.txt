@@ -1,9 +1,0 @@
-type_of_cancer: prostate
-cancer_study_identifier: mpcproject_broad_2021
-name: The Metastatic Prostate Cancer Project (Provisional, June 2021)
-short_name: The MPC Project.
-description: The Metastatic Prostate Cancer Project is a patient-driven initiative. This study includes genomic data, cfDNA tumor fractions, patient-reported data (pre-pended as PRD), medical record data (MedR), and pathology report data (PATH).  As these data were generated in a research, not a clinical, laboratory, they are for research purposes only and cannot be used to inform clinical decision-making. All annotations have been de-identified. More information is available at www.mpcproject.org. For questions about these data, including how to cite, please visit www.mpcproject.org/data-release or direct questions to data@mpcproject.org.
-
-
-
- 

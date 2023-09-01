@@ -1,8 +1,0 @@
-type_of_cancer: skcm
-cancer_study_identifier: skcm_broad_dfarber
-name: Melanoma (Broad/Dana Farber, Nature 2012)
-description: Whole Genome Sequencing of 25  metastatic melanoma samples with matched normals 
-citation: Berger et al. Nature 2012
-pmid: 22622578
-short_name: Melanoma (Broad/DFCI)
-groups: PUBLIC

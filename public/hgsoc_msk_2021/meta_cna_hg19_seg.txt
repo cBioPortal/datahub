@@ -1,6 +1,0 @@
-cancer_study_identifier: hgsoc_msk_2021
-data_filename: data_cna_hg19.seg
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: SEG
-description: Segmented Data
-reference_genome_id: hg19

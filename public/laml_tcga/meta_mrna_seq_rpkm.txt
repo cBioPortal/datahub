@@ -1,8 +1,0 @@
-cancer_study_identifier: laml_tcga
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-data_filename: data_mrna_seq_rpkm.txt
-stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: false
-profile_description: Expression levels for 20443 genes in 179 aml cases (RNA Seq RPKM).
-profile_name: mRNA expression (RNA Seq RPKM)

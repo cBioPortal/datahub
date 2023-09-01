@@ -1,6 +1,0 @@
-cancer_study_identifier: mel_tsam_liang_2017
-stable_id: mel_tsam_liang_2017_3way_complete
-case_list_name: Complete samples
-case_list_description: Samples with mutation, CNA and expression data (36 samples)
-case_list_category: all_cases_with_mutation_and_cna_and_mrna_data
-case_list_ids: VU6	143455-1T-24	VU12	145604-1T-26	148034-1T-28	VU3	142162-1T-32	VU10	150199-1T-27	121441-2T-19	140122-1T-22	145041-1T-25a	169894b-34b	VU4	VU1	101984-1T-17	VU5	VU2	136374-1T-21	148336T-25b	129988T-20	150449-2T-29a	157471-1T-31	VU9	142883-1T-23	103340-1T-18	150756-1T-30	152063-10T-29c	143739-33	VU13	169894a-34a	VU14	VU16	VU11	VU7	VU15

@@ -1,8 +1,0 @@
-type_of_cancer: dlbclnos
-cancer_study_identifier: dlbcl_dfci_2018
-name: Diffuse Large B cell Lymphoma (DFCI, Nat Med 2018)
-description: Whole-exome sequencing of tumor/matching normal sample pairs from 135 DLBCL patients. 
-citation: Chapuy et al. Nat Med 2018
-pmid: 29713087
-short_name: DLBCLNOS (DFCI)
-groups: PUBLIC

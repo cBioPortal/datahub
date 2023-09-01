@@ -1,7 +1,0 @@
-type_of_cancer: prad
-cancer_study_identifier: prad_msk_stopsack_2021
-name: Race Differences in Prostate Cancer (MSK, 2021)
-short_name: PRAD (MSK, 2021)
-description: Targeted sequencing of 2,069 prostate cancers from different races via MSK-IMPACT.
-pmid: 34667026
-citation: Stopsack et al. Clin Cancer Res 2022

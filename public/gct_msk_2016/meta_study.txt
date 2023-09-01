@@ -1,8 +1,0 @@
-type_of_cancer: gct
-cancer_study_identifier: gct_msk_2016
-name: Germ Cell Tumors (MSK, J Clin Oncol 2016)
-short_name: GCT (JCO, 2016)
-description: Whole-exome and Targeted sequencing of 19 samples and Targeted sequencing of 161 samples from 180 Germ Cell Tumor patients.
-groups: PUBLIC
-pmid: 27646943
-citation: Bagrodia et al. J Clin Oncol 2016

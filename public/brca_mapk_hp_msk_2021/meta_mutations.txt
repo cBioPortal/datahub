@@ -1,8 +1,0 @@
-cancer_study_identifier: brca_mapk_hp_msk_2021
-stable_id: mutations
-profile_name: Mutations (BRCA MAPK HP, MSKCC)
-profile_description: Targeted MSK-IMPACT sequencing of 145 breast tumors with matched normals.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-show_profile_in_analysis_tab: TRUE

@@ -1,7 +1,0 @@
-type_of_cancer: gist
-cancer_study_identifier: gist_msk_2022
-name: Gastrointestinal Stromal Tumor (MSK, NPJ Precis Oncol 2023)
-short_name: Gastrointestinal Stromal Tumor (MSK, NPJ Precis Oncol 2023)
-description: Paired analysis of 499  Gastrointestinal stromal tumor/normal pairs via MSK-IMPACT platform.
-pmid: 36593350
-citation: Diana et al. NPJ Precis Oncol 2023

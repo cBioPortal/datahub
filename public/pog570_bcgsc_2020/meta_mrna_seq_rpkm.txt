@@ -1,8 +1,0 @@
-cancer_study_identifier: pog570_bcgsc_2020
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: false
-profile_description: Expression levels from 570 advanced and metastatic tumors and their matched normals.
-profile_name: mRNA expression (RNA Seq RPKM)
-data_filename: data_mrna_seq_rpkm.txt

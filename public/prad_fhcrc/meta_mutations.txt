@@ -1,8 +1,0 @@
-cancer_study_identifier: prad_fhcrc
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Somatic mutation data from whole-exome sequencing of 141 tumors from 56 prostate cancer patients with matched normals.
-profile_name: Mutations
-data_filename: data_mutations.txt

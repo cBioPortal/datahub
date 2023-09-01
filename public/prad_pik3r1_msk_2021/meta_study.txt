@@ -1,7 +1,0 @@
-type_of_cancer: prad
-cancer_study_identifier: prad_pik3r1_msk_2021
-name: Prostate Adenocarcinoma (MSK, Clin Cancer Res. 2022)
-short_name: PRAD-PIK3R1 (MSK, 2021)
-description: Targeted sequencing of 1417 Prostate Adenocarcinoma tumor/normal sample pairs via MSK-IMPACT to analyze the significance of PIK3R1 alterations.
-pmid: 35670774
-citation: Chakraborty et al. Clin Cancer Research 2022

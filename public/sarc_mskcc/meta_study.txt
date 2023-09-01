@@ -1,7 +1,0 @@
-type_of_cancer: soft_tissue
-cancer_study_identifier: sarc_mskcc
-name: Sarcoma (MSKCC/Broad, Nat Genet 2010)
-short_name: Sarcoma (MSKCC/Broad 2010)
-description: Sanger-sequenced 226 protein-coding genes (3,849 exons and adjacent intronic) on 207 samples (with 205 matched normals) encompassing 7 major sarcoma subtypes.
-citation: Barretina et al. Nat Genet 2010
-pmid: 20601955

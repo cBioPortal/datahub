@@ -1,8 +1,0 @@
-type_of_cancer: rbl
-cancer_study_identifier: rbl_cfdna_msk_2020
-name: Retinoblastoma cfDNA (MSK, Cancer Med 2020)
-short_name: RBL (MSKCC)
-description: Cell-free DNA profiling in 14 retinoblastoma patients with advanced intraocular disease: An MSKCC experience
-groups: TSUIW
-pmid: 32633890
-citation: Kothari et al. Cancer Med 2020

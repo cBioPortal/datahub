@@ -1,8 +1,0 @@
-cancer_study_identifier: aml_target_2018_pub
-stable_id: mutations
-profile_name: Somatic mutations
-profile_description: Somatic mutation status from whole genome or whole exome sequencing on 333 TARGET-AML samples.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-show_profile_in_analysis_tab: true
-data_filename: data_mutations.txt

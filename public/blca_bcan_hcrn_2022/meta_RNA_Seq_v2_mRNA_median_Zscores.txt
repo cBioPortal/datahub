@@ -1,8 +1,0 @@
-cancer_study_identifier: blca_bcan_hcrn_2022
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: Z-SCORE
-data_filename: data_RNA_Seq_v2_mRNA_median_Zscores.txt
-stable_id: rna_seq_v2_mrna_median_Zscores
-show_profile_in_analysis_tab: true
-profile_description: mRNA expression UQ_Log2_zscore.
-profile_name: UC_GENOME_RNAseq_zscore

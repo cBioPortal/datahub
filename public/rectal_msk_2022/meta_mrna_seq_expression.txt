@@ -1,8 +1,0 @@
-cancer_study_identifier: rectal_msk_2022
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-data_filename: data_mrna_seq_expression.txt
-stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: true
-profile_description: RNA seq expression levels.
-profile_name: mRNA-Seq expression

@@ -1,8 +1,0 @@
-cancer_study_identifier: lung_msk_mind_2020
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-stable_id: cna
-show_profile_in_analysis_tab: true
-profile_name: Copy Number Alterations (MSK-IMPACT, HEME)
-profile_description: Copy number alterations from targeted sequencing via MK-IMPACT, HEME on Illumina HiSeq sequencers.
-datatype: DISCRETE
-data_filename: data_cna.txt

@@ -1,9 +1,0 @@
-cancer_study_identifier: lusc_cptac_2021
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_name: Somatic Mutations
-profile_description: Somatic mutation data from whole genome or whole exome sequencing of 108 lung squamous cell carcinoma samples with 99 normal adjust tissues.
-data_filename: data_mutations.txt
-swissprot_identifier: accession

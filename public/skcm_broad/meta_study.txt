@@ -1,8 +1,0 @@
-type_of_cancer: skcm
-cancer_study_identifier: skcm_broad
-name: Skin Cutaneous Melanoma (Broad, Cell 2012)
-description: Whole-exome sequencing of 121 melanoma samples with matched normals. 
-citation: Hodis et al. Cell 2012
-pmid: 22817889
-short_name: Melanoma (Broad 2012)
-groups: PUBLIC

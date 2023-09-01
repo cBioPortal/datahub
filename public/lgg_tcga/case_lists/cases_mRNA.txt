@@ -1,6 +1,0 @@
-cancer_study_identifier: lgg_tcga
-stable_id: lgg_tcga_mrna
-case_list_name: Samples with mRNA data (Agilent microarray)
-case_list_description: Samples with mRNA expression data (27 samples)
-case_list_category: all_cases_with_mrna_array_data
-case_list_ids: TCGA-DH-5142-01	TCGA-DB-5273-01	TCGA-DB-5280-01	TCGA-CS-5390-01	TCGA-DB-5277-01	TCGA-DB-5270-01	TCGA-CS-5395-01	TCGA-DB-5278-01	TCGA-DH-5141-01	TCGA-E1-5311-01	TCGA-DH-5143-01	TCGA-DB-5275-01	TCGA-E1-5318-01	TCGA-DB-5281-01	TCGA-CS-4942-01	TCGA-DH-5144-01	TCGA-E1-5304-01	TCGA-E1-5303-01	TCGA-DH-5140-01	TCGA-DB-5274-01	TCGA-CS-4943-01	TCGA-E1-5322-01	TCGA-CS-5394-01	TCGA-DB-5276-01	TCGA-CS-4944-01	TCGA-E1-5302-01	TCGA-CS-5396-01

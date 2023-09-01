@@ -1,6 +1,0 @@
-cancer_study_identifier: um_qimr_2016
-stable_id: um_qimr_2016_sv
-case_list_name: Samples with SV data
-case_list_description: All samples (14 samples)
-case_list_category: all_cases_with_sv_data
-case_list_ids: um_qimr_538	um_qimr_539	um_qimr_258	um_qimr_531	um_qimr_533	um_qimr_534	um_qimr_535	um_qimr_537	um_qimr_556	um_qimr_557	um_qimr_554	um_qimr_552	um_qimr_553	um_qimr_550

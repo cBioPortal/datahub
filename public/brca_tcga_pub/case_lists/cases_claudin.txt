@@ -1,7 +1,0 @@
-cancer_study_identifier: brca_tcga_pub
-stable_id:brca_tcga_pub_claudin
-case_list_category: other
-case_list_name: PAM50 Claudin low
-case_list_description: PAM50 Claudin low subtype (8 samples)
-case_list_ids:	TCGA-A8-A08H-01	TCGA-AN-A0FN-01	TCGA-AN-A0XN-01	TCGA-AR-A1AO-01	TCGA-AR-A1AR-01	TCGA-BH-A0AV-01	TCGA-BH-A0BL-01	TCGA-E2-A108-01
-

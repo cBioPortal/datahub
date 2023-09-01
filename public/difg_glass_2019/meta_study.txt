@@ -1,7 +1,0 @@
-type_of_cancer: difg
-cancer_study_identifier: difg_glass_2019
-name: Diffuse Glioma (GLASS Consortium, Nature 2019)
-description: Whole genome or whole exome sequencing analysis of temporally separated diffuse glioma tumor/normal pairs from 222 adult patients.
-pmid: 31748746
-citation: Barthel & Johnson et al. Nature 2019
-short_name: GLASS (Nature, 2019)

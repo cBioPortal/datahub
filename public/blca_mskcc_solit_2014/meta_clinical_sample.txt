@@ -1,4 +1,0 @@
-cancer_study_identifier: blca_mskcc_solit_2014
-genetic_alteration_type: CLINICAL
-datatype: SAMPLE_ATTRIBUTES
-data_filename: data_clinical_sample.txt

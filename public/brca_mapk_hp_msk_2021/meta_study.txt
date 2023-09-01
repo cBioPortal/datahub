@@ -1,7 +1,0 @@
-type_of_cancer: brca
-cancer_study_identifier: brca_mapk_hp_msk_2021
-name: MAPK on resistance to anti-HER2 therapy for breast cancer (MSK, Nat Commun. 2022)
-short_name: BRCA MAPK HP (MSKCC, 2021)
-description: MSK-IMPACT targeted sequencing of 145 breast tumors with matched normal samples.
-pmid: 34795269
-citation: Alison E et al.  Nat Commun 2022

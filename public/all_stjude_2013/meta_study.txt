@@ -1,7 +1,0 @@
-type_of_cancer: myeloid
-cancer_study_identifier: all_stjude_2013
-name: Hypodiploid Acute Lymphoid Leukemia (St Jude, Nat Genet 2013)
-short_name: ALL (St. Jude 2013)
-description: Whole genome or exome sequencing of 44 (20 whole genome, 20 exome) ALL tumor/normal pairs. 
-citation: Holmfeldt et al. Nat Genet 2013
-pmid: 23334668

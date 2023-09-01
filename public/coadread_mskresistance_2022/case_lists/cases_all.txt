@@ -1,6 +1,0 @@
-cancer_study_identifier: coadread_mskresistance_2022
-stable_id: coadread_mskresistance_2022_all
-case_list_name: All samples
-case_list_description: All samples (22 samples)
-case_list_category: all_cases_in_study
-case_list_ids: s_RW7213_R_V1_04609AI	s_RW7213_resistant_04609AB	s_RW7213_R_V3_04609AI	s_C106_resistant_04609AB	P-0063407-T01-IM7	s_RW7213_R_D3_04609AI	s_C106_parental_04609AB	s_RW7213_R_D1_04609AI	P-0070822-T01-IM7	s_RW7213_parental_04609AB	s_C_E2UFRP_X008_d	P-0069572-T02-IM7	s_RW7213_R_V2_04609AI	s_RW7213_R_V4_04609AI	P-0064340-T01-IM7	P-0018488-T07-IM7	s_RW7213_R_D4_04609AI	s_RW7213_R_D2_04609AI	P-0018488-T01-IM6	s_C_E2UFRP_X007_d	P-0032505-T01-IM6	P-0038647-T01-IM6

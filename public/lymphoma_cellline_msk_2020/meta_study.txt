@@ -1,8 +1,0 @@
-type_of_cancer: lymph
-cancer_study_identifier: lymphoma_cellline_msk_2020
-name: Lymphoma Cell Lines (MSK, Blood 2020)
-description: Targeted sequencing of 34 lymphoma cell lines using HemePACT_v3
-groups: PUBLIC
-short_name: Lymph Cellline (MSKCC, 2020)
-pmid: 33067607
-citation: Neeta et al. Blood 2021
