@@ -46,6 +46,10 @@ jobs:
           url: ${{secrets.OKTETO_URL}}
           token: ${{ secrets.OKTETO_TOKEN }}
 
+      - name: Okteto Build to Import Studies
+        run: |
+          okteto build --no-cache -t okteto.dev/datahub-cbioportal:okteto-with-volume-mounts cbioportal
+
       - name: Deploy preview environment
         uses: okteto/deploy-preview@latest
         env:
@@ -87,4 +91,4 @@ jobs:
           kubectl exec -it deployment/cbioportal -- ls study
           echo "MAYBE INSIDE? ls cbioportal"
           kubectl exec -it deployment/cbioportal -- ls cbioportal
-          kubectl exec -it deployment/cbioportal -- metaImport.py -u http://localhost:8080 -s preview_infrastructure/cbioportal-docker-compose/study/${{needs.changed_files.outputs.new_study_name}}/ -o
+          kubectl exec -it deployment/cbioportal -- metaImport.py -u http://localhost:8080 -s study/${{needs.changed_files.outputs.new_study_name}}/ -o
