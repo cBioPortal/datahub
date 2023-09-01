@@ -4,3 +4,4 @@ name: Burkitt lymphoma (Foundation for Burkitt Lymphoma Research, 2023)
 description: Comprehensive whole-genome sequencing of 92 adult and 138 pediatric burrkitt lymphoma (BL) and diffuse large B-cell lymphoma (DLBCL) patient tumors and their matched normals. 
 pmid: 36201743
 citation: Thomas et al. Blood 2023
+reference_genome: hg38
