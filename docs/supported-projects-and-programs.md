@@ -5,7 +5,7 @@ The following is a list of studies generated using the NCI-CRDC Pipeline. Source
 
 - **Cancer type mapping:** Each study corresponds to one TCGA project. The suffix of the TCGA project is taken and converted to an OncoTree code, which is used for the name of the study.
     - **Example:** For the TCGA project `TCGA-LAML`, the `LAML` suffix is taken and converted to the Oncotree code `AML`. The resulting cBioPortal study is `aml_tcga`.
-    - [Mapping file](../resources/tcga_mappings.txt)
+    - [Mapping file](https://github.com/cBioPortal/nci-crdc-pipeline/blob/main/resources/tcga_mappings.txt)
 
 ### List of TCGA cBioPortal Studies
 - `acc_tcga_gdc`: [TCGA-ACC](https://portal.gdc.cancer.gov/projects/TCGA-ACC), Adenocortical Carcinoma
@@ -46,7 +46,7 @@ The following is a list of studies generated using the NCI-CRDC Pipeline. Source
 
 - **Cancer type mapping:** CPTAC is comprised of the CPTAC-2 and CPTAC-3 projects, both of which encompass multiple cancer types. Each study corresponds to a subset of these projects with a particular OncoTree code. The code is determined by looking at `disease_type` and `primary_site` in the BigQuery tables.
     - **Example:** The `luad_cptac` study is generated from all samples with primary site `Bronchus and lung` and disease type `Adenomas and Adenocarcinomas`.
-    - [Mapping file](../resources/cptac_mappings.txt)
+    - [Mapping file](https://github.com/cBioPortal/nci-crdc-pipeline/blob/main/resources/cptac_mappings.txt))
 
 ### List of cBioPortal studies
 
