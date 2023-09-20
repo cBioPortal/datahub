@@ -1,5 +1,5 @@
 # GDC Sourced cBioPortal Studies
-The following is a list of studies generated using the NCI-CRDC Pipeline. The list includes the cBioPortal study id and a link to the equivalent project hosted in the GDC portal. Raw data is sourced from the GDC and hosted in [ISB-CGC BigQuery tables](https://isb-cgc.appspot.com/bq_meta_search/). 
+The following is a list of studies generated using the NCI-CRDC Pipeline. Source data is from the GDC and can be found inside ISB-CGC BigQuery tables, [here](https://isb-cgc.appspot.com/bq_meta_search/). The list includes both the cBioPortal study identifier as well as a link to the corresponding GDC portal project. 
 
 ## TCGA
 
