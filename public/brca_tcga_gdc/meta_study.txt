@@ -1,8 +1,3 @@
-type_of_cancer: brca
-cancer_study_identifier: brca_tcga_gdc
-name: Invasive Breast Carcinoma (TCGA, GDC)
-short_name: brca
-description: TCGA Invasive Breast Carcinoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
-reference_genome: hg38
-add_global_case_list: true
-groups: PUBLIC
+version https://git-lfs.github.com/spec/v1
+oid sha256:b26993a557d78024bcca7835029b9e54eb2592c2010f6d9894a7c621e7e1a572
+size 297

@@ -1,4 +1,3 @@
-cancer_study_identifier: rcc_cptac_gdc
-genetic_alteration_type: CLINICAL
-datatype: SAMPLE_ATTRIBUTES
-data_filename: data_clinical_sample.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b2031bb5b79a2b7caacfdb4e0a141dd96016a8499c42579d20249cbca755a16
+size 141

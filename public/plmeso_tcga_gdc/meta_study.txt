@@ -1,8 +1,3 @@
-type_of_cancer: plmeso
-cancer_study_identifier: plmeso_tcga_gdc
-name: Pleural Mesothelioma (TCGA, GDC)
-short_name: plmeso
-description: TCGA Pleural Mesothelioma. Source data from GDC and generated using ISB-CGC BigQuery tables.
-reference_genome: hg38
-add_global_case_list: true
-groups: PUBLIC
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2bebf4f4ed0ff3f211c4601a2d92671ab3316c594fd81006ee99e5095e6290b
+size 293

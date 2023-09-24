@@ -1,4 +1,3 @@
-cancer_study_identifier: uec_cptac_gdc
-genetic_alteration_type: CLINICAL
-datatype: SAMPLE_ATTRIBUTES
-data_filename: data_clinical_sample.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:d72cacb7cf3b49ad5d0be7fd246479573492a56c97fda92a2af1b7189534fb89
+size 141

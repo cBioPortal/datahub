@@ -1,8 +1,3 @@
-cancer_study_identifier: difg_tcga_gdc
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: false
-profile_name: mRNA expression
-profile_description: Expression levels
-data_filename: data_mrna_seq_read_counts.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:316a4696e641de57ed4c40106f19825f4caa9a9e4a873e7cb7459fd1bd63626a
+size 275

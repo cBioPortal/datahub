@@ -1,8 +1,3 @@
-cancer_study_identifier: brca_tcga_gdc
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Mutation data.
-profile_name: Mutations
+version https://git-lfs.github.com/spec/v1
+oid sha256:1563a11548948f9acc49414c5a5b7078f960703a8354dcf04f9a3d81ffea1516
+size 246

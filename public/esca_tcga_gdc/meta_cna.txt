@@ -1,8 +1,3 @@
-cancer_study_identifier: esca_tcga_gdc
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: DISCRETE
-stable_id: cna
-show_profile_in_analysis_tab: true
-profile_name: Putative copy-number alterations from GISTIC
-profile_description: Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
-data_filename: data_cna.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec9a737605ab8a7cdf2ef7b1a2b954004bf4b8f3f3d082e83c147b4e6b06f8fc
+size 427

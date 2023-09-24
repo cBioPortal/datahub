@@ -1,8 +1,3 @@
-type_of_cancer: ohnca
-cancer_study_identifier: ohnca_cptac_gdc
-name: Head and Neck Carcinoma, Other (CPTAC, GDC)
-short_name: ohnca
-description: CPTAC Head and Neck Carcinoma, Other. Source data from GDC and generated using ISB-CGC BigQuery tables.
-reference_genome: hg38
-add_global_case_list: true
-groups: PUBLIC
+version https://git-lfs.github.com/spec/v1
+oid sha256:67f7d74eeed77271eb451f57532be60cdbd6060cba8b40290b8697b208f89798
+size 313

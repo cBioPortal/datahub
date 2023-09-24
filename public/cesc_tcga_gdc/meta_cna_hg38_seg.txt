@@ -1,6 +1,3 @@
-cancer_study_identifier: cesc_tcga_gdc
-reference_genome_id: hg38
-description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals).
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: SEG
-data_filename: data_cna_hg38.seg
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6f529433c5f5feb13e8b56b3ff9ace7519a6b2dfa732412391bf518a7f7d998
+size 263

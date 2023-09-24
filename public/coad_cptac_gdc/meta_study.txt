@@ -1,8 +1,3 @@
-type_of_cancer: coad
-cancer_study_identifier: coad_cptac_gdc
-name: Colon Adenocarcinoma (CPTAC, GDC)
-short_name: coad
-description: CPTAC Colon Adenocarcinoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
-reference_genome: hg38
-add_global_case_list: true
-groups: PUBLIC
+version https://git-lfs.github.com/spec/v1
+oid sha256:b37805f9bd73939137c96be7986825f681e8cf65f982ef20dc0f4b7bab5cd797
+size 290

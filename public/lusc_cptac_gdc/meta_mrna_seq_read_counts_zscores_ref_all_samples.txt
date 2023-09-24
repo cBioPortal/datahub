@@ -1,8 +1,3 @@
-cancer_study_identifier: lusc_cptac_gdc
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: Z-SCORE
-stable_id: mrna_seq_read_counts_Zscores
-show_profile_in_analysis_tab: true
-profile_name: mRNA expression Zscores
-profile_description: mRNA expression from capture read count zscores
-data_filename: data_mrna_seq_read_counts_zscores_ref_all_samples.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:407707a4bf07ce9c6fdb2e53560b3e3c797bd73a1bce8fcb464688e9ed7457a8
+size 350

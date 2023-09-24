@@ -1,4 +1,3 @@
-cancer_study_identifier: ohnca_cptac_gdc
-genetic_alteration_type: CLINICAL
-datatype: PATIENT_ATTRIBUTES
-data_filename: data_clinical_patient.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c66852b923caede9260a5d9abc37bb71c6c083ef69474abf7a7a835f2331606
+size 145

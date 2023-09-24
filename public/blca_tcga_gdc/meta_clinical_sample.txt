@@ -1,4 +1,3 @@
-cancer_study_identifier: blca_tcga_gdc
-genetic_alteration_type: CLINICAL
-datatype: SAMPLE_ATTRIBUTES
-data_filename: data_clinical_sample.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d01644efc532577ad97e59d1b0c4a71d2b37ad5316f1674fb2f4c5dedec73c9
+size 141

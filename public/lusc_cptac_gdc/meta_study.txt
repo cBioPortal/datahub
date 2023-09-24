@@ -1,8 +1,3 @@
-type_of_cancer: lusc
-cancer_study_identifier: lusc_cptac_gdc
-name: Lung Squamous Cell Carcinoma (CPTAC, GDC)
-short_name: lusc
-description: CPTAC Lung Squamous Cell Carcinoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
-reference_genome: hg38
-add_global_case_list: true
-groups: PUBLIC
+version https://git-lfs.github.com/spec/v1
+oid sha256:e235336c125226a64844e59e78fa7127c6b92faa82a603c1cf46639a859e44cd
+size 306

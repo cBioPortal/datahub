@@ -1,8 +1,3 @@
-cancer_study_identifier: hgsoc_tcga_gdc
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Mutation data.
-profile_name: Mutations
+version https://git-lfs.github.com/spec/v1
+oid sha256:6112ab4c3736e3d10bbf819132b9bb71b1ec40f0e23c666a1f16b1f1787d8f42
+size 247

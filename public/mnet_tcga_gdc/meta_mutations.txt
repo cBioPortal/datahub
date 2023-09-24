@@ -1,8 +1,3 @@
-cancer_study_identifier: mnet_tcga_gdc
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Mutation data.
-profile_name: Mutations
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc0385e8984a5e0393d0913dcc36367b3bcfd0cb3a432913706ee03975c3b902
+size 246

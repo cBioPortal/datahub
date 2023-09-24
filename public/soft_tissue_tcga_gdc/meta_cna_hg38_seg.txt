@@ -1,6 +1,3 @@
-cancer_study_identifier: soft_tissue_tcga_gdc
-reference_genome_id: hg38
-description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals).
-genetic_alteration_type: COPY_NUMBER_ALTERATION
-datatype: SEG
-data_filename: data_cna_hg38.seg
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8e7c6b7e6bb3e1f534eb2a48be703fde31237ab8c009083714f9fb79da49d53
+size 270

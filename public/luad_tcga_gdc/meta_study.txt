@@ -1,8 +1,3 @@
-type_of_cancer: luad
-cancer_study_identifier: luad_tcga_gdc
-name: Lung Adenocarcinoma (TCGA, GDC)
-short_name: luad
-description: TCGA Lung Adenocarcinoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
-reference_genome: hg38
-add_global_case_list: true
-groups: PUBLIC
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f139a8b9c63674b2b06ae40be26cdf6585ef36086dc96f613104996e50e2648
+size 285

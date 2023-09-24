@@ -1,8 +1,3 @@
-type_of_cancer: hnsc
-cancer_study_identifier: hnsc_tcga_gdc
-name: Head and Neck Squamous Cell Carcinoma (TCGA, GDC)
-short_name: hnsc
-description: TCGA Head and Neck Squamous Cell Carcinoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
-reference_genome: hg38
-add_global_case_list: true
-groups: PUBLIC
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ff65d23418d5de5a160a9baf0c29513e3fc0ab82568220d98992caaf3d10ce3
+size 321

@@ -1,8 +1,3 @@
-type_of_cancer: soft_tissue
-cancer_study_identifier: soft_tissue_tcga_gdc
-name: Soft Tissue (TCGA, GDC)
-short_name: soft_tissue
-description: TCGA Soft Tissue. Source data from GDC and generated using ISB-CGC BigQuery tables.
-reference_genome: hg38
-add_global_case_list: true
-groups: PUBLIC
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a8d14fc02b1a99a6f915cded8ffd88f9b54a4579ec6c5d60bc778f3d33166c8
+size 290

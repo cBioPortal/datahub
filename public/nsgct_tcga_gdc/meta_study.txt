@@ -1,8 +1,3 @@
-type_of_cancer: nsgct
-cancer_study_identifier: nsgct_tcga_gdc
-name: Non-Seminomatous Germ Cell Tumor (TCGA, GDC)
-short_name: nsgct
-description: TCGA Non-Seminomatous Germ Cell Tumor. Source data from GDC and generated using ISB-CGC BigQuery tables.
-reference_genome: hg38
-add_global_case_list: true
-groups: PUBLIC
+version https://git-lfs.github.com/spec/v1
+oid sha256:4dbcc07960be162d3f772afcce20be3bce86352d0c2ded3d6d996de8f305957c
+size 314

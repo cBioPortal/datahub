@@ -1,8 +1,3 @@
-cancer_study_identifier: breast_cptac_gdc
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Mutation data.
-profile_name: Mutations
+version https://git-lfs.github.com/spec/v1
+oid sha256:32cb92673579f5dc2d0857470d262f1646c65eebfece2c1189c5a6bf3923ecc6
+size 249

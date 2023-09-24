@@ -1,8 +1,3 @@
-cancer_study_identifier: soft_tissue_tcga_gdc
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: false
-profile_name: mRNA expression
-profile_description: Expression levels
-data_filename: data_mrna_seq_read_counts.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ba68810f30eea00324f4230d6002ccb91ebf29d30f9bfefd9c64b2531a24f05
+size 282

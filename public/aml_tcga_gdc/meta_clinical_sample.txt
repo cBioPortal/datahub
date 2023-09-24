@@ -1,4 +1,3 @@
-cancer_study_identifier: aml_tcga_gdc
-genetic_alteration_type: CLINICAL
-datatype: SAMPLE_ATTRIBUTES
-data_filename: data_clinical_sample.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa3c9028f7b46db42401764bb402e8e25e20647f78bf3766b9c2359747084009
+size 140

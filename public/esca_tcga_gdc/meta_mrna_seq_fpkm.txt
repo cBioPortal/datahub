@@ -1,8 +1,3 @@
-cancer_study_identifier: esca_tcga_gdc
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: mrna_seq_fpkm
-show_profile_in_analysis_tab: false
-profile_name: mRNA expression (FPKM)
-profile_description: mRNA expression from capture (RNA Seq FPKM)
-data_filename: data_mrna_seq_fpkm.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:f692a15ae28d9829af02c81dea5a07e3e4d40beee132e9aa212f1eee55109c3e
+size 302

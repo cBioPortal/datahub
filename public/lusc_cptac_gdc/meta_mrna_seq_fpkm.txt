@@ -1,8 +1,3 @@
-cancer_study_identifier: lusc_cptac_gdc
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: mrna_seq_fpkm
-show_profile_in_analysis_tab: false
-profile_name: mRNA expression (FPKM)
-profile_description: mRNA expression from capture (RNA Seq FPKM)
-data_filename: data_mrna_seq_fpkm.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a25101cd480514a8d5df551b6ccbee489aa5dc00e6d1bcc6cace43787cc7270
+size 303

@@ -1,4 +1,3 @@
-cancer_study_identifier: acc_tcga_gdc
-genetic_alteration_type: CLINICAL
-datatype: PATIENT_ATTRIBUTES
-data_filename: data_clinical_patient.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:fce7956e59e66c2f9ac296e01bbb6268daba437b09b081771ee19ab1110ef4de
+size 142

@@ -1,8 +1,3 @@
-cancer_study_identifier: luad_tcga_gdc
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-data_filename: data_mutations.txt
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_description: Mutation data.
-profile_name: Mutations
+version https://git-lfs.github.com/spec/v1
+oid sha256:58708ed09283c95e805ebf78adc31af1f8fb12fdc89ad2fdc31f9656b6f74a40
+size 246

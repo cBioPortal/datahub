@@ -1,8 +1,3 @@
-cancer_study_identifier: uec_cptac_gdc
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: false
-profile_name: mRNA expression
-profile_description: Expression levels
-data_filename: data_mrna_seq_read_counts.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0d9c4ea7d6263dc72248725d145032a9bed4f0de7806d710648ad0f32a9010a
+size 275

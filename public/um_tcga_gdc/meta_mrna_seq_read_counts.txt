@@ -1,8 +1,3 @@
-cancer_study_identifier: um_tcga_gdc
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: false
-profile_name: mRNA expression
-profile_description: Expression levels
-data_filename: data_mrna_seq_read_counts.txt
+version https://git-lfs.github.com/spec/v1
+oid sha256:bda29d7516895c94306e39d7210a993f727b779a1daa9199d8a88cd07b889c53
+size 273
