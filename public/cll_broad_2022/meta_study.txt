@@ -1,0 +1,6 @@
+cancer_study_identifier: cll_broad_2022
+type_of_cancer: CLL
+name: Chronic Lymphocytic Leukemia (Nature, 2022)
+description: molecular characterization of 1,095 patients with Chronic Lymphocytic Leukemia and 54 patients with monoclonal B cell lymphocytosis.
+pmid: 35927489
+citation: Knisbacher et al. Nature 2022
