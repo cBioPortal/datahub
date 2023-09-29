@@ -1,0 +1,9 @@
+cancer_study_identifier: moore_mixed_2021
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_name: Mutations
+profile_description: mutation data from whole genome sequencing
+data_filename: maf_success_Moore21.txt
+variant_classification_filter:

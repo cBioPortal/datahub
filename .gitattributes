@@ -2,3 +2,4 @@
 *.pdf filter=lfs diff=lfs merge=lfs -text
 data*.txt filter=lfs diff=lfs merge=lfs -text
 *.seg filter=lfs diff=lfs merge=lfs -text
+maf_Moore21.txt filter=lfs diff=lfs merge=lfs -text
