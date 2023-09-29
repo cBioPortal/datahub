@@ -1,0 +1,9 @@
+type_of_cancer: SKIN
+cancer_study_identifier: martincorena_keratinocyte_2015
+name: High burden and pervasive positive selection of somatic mutations in normal human skin.
+description: Whole genome and targeted sequencing data of 234 normal human skin keratinocyte samples from four donors.
+citation: Martincorena et al., 2015
+pmid: 25999502
+groups:
+add_global_case_list: true
+reference_genome: hg19
