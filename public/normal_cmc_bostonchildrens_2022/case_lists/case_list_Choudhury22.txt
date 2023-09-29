@@ -1,0 +1,6 @@
+cancer_study_identifier: choudhury_cardiomyocyte_2022
+stable_id: Choudhury_cardiomyocyte_2022_sequenced
+case_list_name: Sequenced tumors
+case_list_description: Sequenced tumor samples
+case_list_category: all_cases_with_mutation_data
+case_list_ids: 1278-1-G9	1278-1-H9	1278-2-A12	1278-2-A4	1278-2-B9	1278-2-B9_heart5	1278-2-E11	1278-2-F4	1864-1-D4	1864-1-H3	1864-2-A8	1864-2-G4	6032-9-D4	SC-5-6032	SC-6-6032	SC-7-6032	1863-2-A8	1863-2-B4	1863-2-D4	1863-2-E1	1104-1-F10	1104-1-G5	1104-2-A10	1104-2-A2	1028-F3	1028-F6	1028-G2	1028-G3	936-1-D5	936-1-E10	936-1-G3	936-2-A8	5919-803-F12	5919-803-F9	5919-803-G1	5919-803-G11	5828-C10	5828-C11	5828-C3	5828-E2	5840-1-F6	5840-2-C10	5840-2-G8	5840-2-H7

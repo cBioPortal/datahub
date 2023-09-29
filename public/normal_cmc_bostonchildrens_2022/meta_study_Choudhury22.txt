@@ -1,0 +1,9 @@
+type_of_cancer: OTHER
+cancer_study_identifier: choudhury_cardiomyocyte_2022
+name: Somatic mutations in single human cardiomyocytes reveal age-associated DNA damage and widespread oxidative genotoxicity.
+description: Whole genome sequencing data of 44 single-cell derived colonies of normal cardiomyocites from 10 cardiovascular healthy donors.
+citation: Choudhury et al., 2022 
+pmid: 36051457
+groups:
+add_global_case_list: true
+reference_genome: hg19
