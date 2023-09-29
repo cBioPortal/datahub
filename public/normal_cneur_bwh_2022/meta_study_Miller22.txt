@@ -1,0 +1,9 @@
+type_of_cancer: BRAIN
+cancer_study_identifier: miller_neuron_2022
+name: Somatic genomic changes in single Alzheimer’s disease neurons
+description: Whole genome sequencing data from 30 single-cell derived colonies of cns neurons from three neurologically healthy donors.
+citation: Miller et al., 2022 
+pmid: 35444284
+groups:
+add_global_case_list: true
+reference_genome: hg19
