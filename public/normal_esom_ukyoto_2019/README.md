@@ -17,7 +17,7 @@
   |Race                  |RACE                 |
   |Alcohol consumption   |ALCOHOL	       |
   |Smoking‡              |SMOKING	       |
-  |ESCC−risk             |ESCC_RISK.           |
+  |ESCC−risk             |ESCC_RISK            |
   |ESCC/HGD status       |ADJ_ESOPHAGEAL_DYSPLASIA_CANCER|
   |Tumor location♯       |TUMOR_LOCATION       |
   |Therapy¶              |THERAPY              |
