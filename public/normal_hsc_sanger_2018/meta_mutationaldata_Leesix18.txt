@@ -1,0 +1,10 @@
+cancer_study_identifier: leesix_hema_2018
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_name: Mutations
+profile_description: mutation data from WGS
+data_filename: maf_Leesix18.txt
+variant_classification_filter:
+namespaces:
