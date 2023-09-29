@@ -1,0 +1,9 @@
+type_of_cancer: STOMACH
+cancer_study_identifier: yokoyama_esophagus_2019
+name: Age-related remodelling of oesophageal epithelia by mutated cancer drivers
+description: Targeted sequencing data of 150 normal human esophageal mucosa samples from five healthy donors.
+citation: Yokoyama et al., 2019 
+pmid: 30602793
+groups:
+add_global_case_list: true
+reference_genome: hg19

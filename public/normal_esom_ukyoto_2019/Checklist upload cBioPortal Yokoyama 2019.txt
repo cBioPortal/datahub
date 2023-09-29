@@ -1,0 +1,19 @@
+Checklist cBio Upload: ✅⛔️
+
+Documents:
+- Cancer_type file ✅
+- meta_study --> changed cancer_type? ✅
+- meta clinical sample ✅
+- meta clinical patient ✅
+- clinical data sample ✅
+- clinical data patient ✅
+- meta file mutational data ✅
+- Maf --> annotated with Genome Nexus
+- caselist ✅
+- add README.md  ✅
+- removed all spaced in data files ✅
+
+check:
+- identical cancer_study_identifier? ✅
+- sample and ptx no identical to paper info --> if not why? ✅
+- make sure sample, patient and maf file have exact same ptx and sample IDs  ✅
