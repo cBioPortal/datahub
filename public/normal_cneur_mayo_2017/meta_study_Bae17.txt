@@ -1,0 +1,9 @@
+type_of_cancer: BRAIN
+cancer_study_identifier: bae_neuron_2017
+name: Different mutational rates and mechanisms in human cells at pregastrulation and neurogenesis.
+description: Whole genome sequencing data from 31 single-cell derived colonies of normal cns neurons from three human fetuses at 15 to 21 weeks of gestational age.
+citation: Bae et al., 2018
+pmid: 29217587
+groups:
+add_global_case_list: true
+reference_genome: hg19

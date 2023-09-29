@@ -1,0 +1,6 @@
+cancer_study_identifier: bae_neuron_2017
+stable_id: bae_neuron_2017_sequenced
+case_list_name: Sequenced tumors
+case_list_description: Sequenced tumor samples
+case_list_category: all_cases_with_mutation_data
+case_list_ids:	S320-FR-clone1	S320-FR-clone3	S320-FR-clone6	S320-FR-clone9	S320-FR-clone10	S320-FR-clone11	S320-FR-clone12	S320-FR-clone16	S320-FR-clone18	S320-FR-clone20	S320-FR-clone21	S320-FR-clone22	S320-FR-clone28	S320-FR-clone29	S316-BG-clone9b	S316-BG-clone18b	S316-BG-clone19b	S316-BG-clone20b	S316-FR-clone1	S316-FR-clone3	S316-FR-clone6	S316-FR-clone11	S316-FR-clone22 (MDA)	S316-FR-clone24 (MDA)	S316-FR-clone25 (MDA)	S275-FR-clone3	S275-FR-clone4	S275-FR-clone10	S275-FR-clone11	S275-FR-clone12	S275-PA-clone3p
