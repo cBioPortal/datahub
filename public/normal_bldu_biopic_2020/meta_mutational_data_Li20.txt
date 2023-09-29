@@ -1,0 +1,9 @@
+cancer_study_identifier: li_urothelium_2020
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_name: Mutations
+profile_description: mutation data from whole exome and whole genome sequencing
+data_filename: maf_Li20.txt
+variant_classification_filter:
