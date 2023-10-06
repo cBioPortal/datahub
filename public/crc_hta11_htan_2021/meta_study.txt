@@ -1,0 +1,6 @@
+type_of_cancer: coadread
+cancer_study_identifier: crc_hta11_htan_2021
+name: Pre-cancer Colorectal Polyps (HTAN Vanderbilt, Cell 2021)
+description: Whole-exome sequencing and single-cell transcriptomics analysis of 27 pre-malignant colorectal polyps (discovery set) and their matched normals.
+pmid: 34910928
+citation: Chen et al. Cell 2021
