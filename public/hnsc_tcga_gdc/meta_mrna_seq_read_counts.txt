@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ebc806e11f60a38888e0a6aecbbc82e035fec918bbcf5d062372788b90e63288
-size 275
+cancer_study_identifier: hnsc_tcga_gdc
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: rna_seq_mrna
+show_profile_in_analysis_tab: false
+profile_name: mRNA expression
+profile_description: Expression levels
+data_filename: data_mrna_seq_read_counts.txt

@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e0b8c3d88ec50b32fa78100aa5b8f005152104efec7841a0bec3373a57a6cae
-size 144
+cancer_study_identifier: coad_cptac_gdc
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_clinical_patient.txt

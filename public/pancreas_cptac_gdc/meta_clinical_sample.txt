@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bb0357f31d191f86ab7cf1fa86b7cb34eaa14966a0c39ca5cb71be6b63befa50
-size 146
+cancer_study_identifier: pancreas_cptac_gdc
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_clinical_sample.txt

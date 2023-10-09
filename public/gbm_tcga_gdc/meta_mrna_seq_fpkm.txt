@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:652649b18e26b437579b2d1ea997bbf280f8a88ea5c03733f65ef89c37920931
-size 301
+cancer_study_identifier: gbm_tcga_gdc
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: mrna_seq_fpkm
+show_profile_in_analysis_tab: false
+profile_name: mRNA expression (FPKM)
+profile_description: mRNA expression from capture (RNA Seq FPKM)
+data_filename: data_mrna_seq_fpkm.txt

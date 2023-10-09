@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e0c0e4210d00708c370d2f89c6889f870588a6e5baba9af2c24a01cac05bf9d
-size 429
+cancer_study_identifier: plmeso_tcga_gdc
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: DISCRETE
+stable_id: cna
+show_profile_in_analysis_tab: true
+profile_name: Putative copy-number alterations from GISTIC
+profile_description: Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
+data_filename: data_cna.txt

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:11726723516f21df4a744b6acf050c035fb14ad002e50cc8479ee98f74b5c8b4
-size 345
+cancer_study_identifier: lusc_cptac_gdc
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+stable_id: mrna_seq_fpkm_Zscores
+show_profile_in_analysis_tab: true
+profile_name: mRNA expression fpkm Zscores
+profile_description: mRNA expression from capture (RNA Seq FPKM) zscores
+data_filename: data_mrna_seq_fpkm_zscores_ref_all_samples.txt

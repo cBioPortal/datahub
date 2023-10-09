@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:43dfbcc00ef7947826cc8112aedc8cdc916a8d62af2f359116d0d9014b709526
-size 144
+cancer_study_identifier: ccrcc_tcga_gdc
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_clinical_patient.txt

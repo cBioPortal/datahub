@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e898d1989624dd7bd3e4c6034722f956de6471f25ccbf27ee61c8a31ffb78274
-size 283
+type_of_cancer: skcm
+cancer_study_identifier: skcm_tcga_gdc
+name: Cutaneous Melanoma (TCGA, GDC)
+short_name: skcm
+description: TCGA Cutaneous Melanoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
+reference_genome: hg38
+add_global_case_list: true
+groups: PUBLIC

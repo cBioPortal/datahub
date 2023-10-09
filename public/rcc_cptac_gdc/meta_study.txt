@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c243c610c3558c5ef11bdb823f5df29790c269e2ee04c6ce9a8afe458b09b536
-size 287
+type_of_cancer: rcc
+cancer_study_identifier: rcc_cptac_gdc
+name: Renal Cell Carcinoma (CPTAC, GDC)
+short_name: rcc
+description: CPTAC Renal Cell Carcinoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
+reference_genome: hg38
+add_global_case_list: true
+groups: PUBLIC

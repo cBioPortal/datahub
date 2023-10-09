@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:300702d4534a5fdd20164e3e33c17e9289857b1ef6a256246d36a0325d3242ed
-size 327
+type_of_cancer: dlbclnos
+cancer_study_identifier: dlbclnos_tcga_gdc
+name: Diffuse Large B-Cell Lymphoma, NOS (TCGA, GDC)
+short_name: dlbclnos
+description: TCGA Diffuse Large B-Cell Lymphoma, NOS. Source data from GDC and generated using ISB-CGC BigQuery tables.
+reference_genome: hg38
+add_global_case_list: true
+groups: PUBLIC

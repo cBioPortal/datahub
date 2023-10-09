@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e23233ababdb442534a8ef44af755df2b5da7867e14a9e0cd505e47a07326595
-size 302
+type_of_cancer: ccrcc
+cancer_study_identifier: ccrcc_tcga_gdc
+name: Renal Clear Cell Carcinoma (TCGA, GDC)
+short_name: ccrcc
+description: TCGA Renal Clear Cell Carcinoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
+reference_genome: hg38
+add_global_case_list: true
+groups: PUBLIC

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aeae44b840ac2013d46c8db23c9f99ff39e7df7047800eb5169774f246c18df8
-size 276
+cancer_study_identifier: luad_cptac_gdc
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: rna_seq_mrna
+show_profile_in_analysis_tab: false
+profile_name: mRNA expression
+profile_description: Expression levels
+data_filename: data_mrna_seq_read_counts.txt

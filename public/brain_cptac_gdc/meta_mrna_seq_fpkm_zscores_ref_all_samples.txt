@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:073820386a032bfbc3367062b7b47831dd07cee97c94c65445455cdc290e7536
-size 346
+cancer_study_identifier: brain_cptac_gdc
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+stable_id: mrna_seq_fpkm_Zscores
+show_profile_in_analysis_tab: true
+profile_name: mRNA expression fpkm Zscores
+profile_description: mRNA expression from capture (RNA Seq FPKM) zscores
+data_filename: data_mrna_seq_fpkm_zscores_ref_all_samples.txt

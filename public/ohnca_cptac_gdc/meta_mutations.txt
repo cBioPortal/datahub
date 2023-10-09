@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:add85053fc9d25a2f234480466ec7f999f0b1166c75f9f8f5698e7d26f08ad4b
-size 248
+cancer_study_identifier: ohnca_cptac_gdc
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+data_filename: data_mutations.txt
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Mutation data.
+profile_name: Mutations

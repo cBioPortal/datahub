@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6cda97a45800358a62769a091420e4e0136dbfc7e1763e1bdc6d86f46116113e
-size 263
+cancer_study_identifier: chol_tcga_gdc
+reference_genome_id: hg38
+description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals).
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: SEG
+data_filename: data_cna_hg38.seg

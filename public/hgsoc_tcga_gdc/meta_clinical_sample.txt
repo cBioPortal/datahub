@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:312ff9b1ddce76bb0f331fd1a085e9f4aa6b5ea652e6e7a6694a1c8fbb928d54
-size 142
+cancer_study_identifier: hgsoc_tcga_gdc
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_clinical_sample.txt

@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:246b5726b530fe1c24521e8d5a08c82adbba4797f5f1c0c06c126b25cc82c1c1
-size 146
+cancer_study_identifier: breast_cptac_gdc
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_clinical_patient.txt

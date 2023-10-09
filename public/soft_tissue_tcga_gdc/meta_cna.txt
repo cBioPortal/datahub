@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e454c5547ba0307cf1f2a59f062e0c3aa3216b8a0c099952b3357667047a3aa8
-size 434
+cancer_study_identifier: soft_tissue_tcga_gdc
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: DISCRETE
+stable_id: cna
+show_profile_in_analysis_tab: true
+profile_name: Putative copy-number alterations from GISTIC
+profile_description: Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.
+data_filename: data_cna.txt

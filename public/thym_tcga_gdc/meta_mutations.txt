@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ceb71a4f0f387fd4419c7839c94592847901c7917fecc6ee9f115ead2c9e6921
-size 246
+cancer_study_identifier: thym_tcga_gdc
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+data_filename: data_mutations.txt
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Mutation data.
+profile_name: Mutations

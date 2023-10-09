@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4bf8d12b2e6055bd6f53c5450b41d411ed5c8497b4fde4f61e1778b2167929d9
-size 143
+cancer_study_identifier: thym_tcga_gdc
+genetic_alteration_type: CLINICAL
+datatype: PATIENT_ATTRIBUTES
+data_filename: data_clinical_patient.txt

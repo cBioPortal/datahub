@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:718ee8ad6baee89d044c3e6530d852487fd12ee2e7dbf709663f7656f4d76e14
-size 246
+cancer_study_identifier: read_tcga_gdc
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+data_filename: data_mutations.txt
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Mutation data.
+profile_name: Mutations

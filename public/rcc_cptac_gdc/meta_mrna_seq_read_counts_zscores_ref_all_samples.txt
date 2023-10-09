@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:10955f9c77a0d22e46dfee22a0d160e168de6d97e271dc76b6613956ec1ce3a7
-size 349
+cancer_study_identifier: rcc_cptac_gdc
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+stable_id: mrna_seq_read_counts_Zscores
+show_profile_in_analysis_tab: true
+profile_name: mRNA expression Zscores
+profile_description: mRNA expression from capture read count zscores
+data_filename: data_mrna_seq_read_counts_zscores_ref_all_samples.txt

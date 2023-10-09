@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5083e3c4cfdca4bf98a4307f01a4e3d52ebceb5a5d3864b526ef077bddef145f
-size 141
+cancer_study_identifier: difg_tcga_gdc
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_clinical_sample.txt

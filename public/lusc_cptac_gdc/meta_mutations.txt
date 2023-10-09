@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9e57dc35a58d5333601e69a1535d19c648008d0dda4531ffad4724a75bf8be91
-size 247
+cancer_study_identifier: lusc_cptac_gdc
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+data_filename: data_mutations.txt
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Mutation data.
+profile_name: Mutations

@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7fd5065681512f0102ac3f2c75fb3313909b81328b3e6f89cfa68e0c877f2846
-size 251
+cancer_study_identifier: pancreas_cptac_gdc
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+data_filename: data_mutations.txt
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Mutation data.
+profile_name: Mutations
