@@ -1,0 +1,8 @@
+cancer_study_identifier: bladder_msk_2023
+genetic_alteration_type: STRUCTURAL_VARIANT
+datatype: SV
+profile_name: Structural Variants
+profile_description: Structural Variants
+show_profile_in_analysis_tab: true
+data_filename: data_sv.txt
+stable_id: structural_variants
