@@ -1,0 +1,1 @@
+General Study pmid: Reference genome: GRCh37Data availability: supplementary files and CLL map portal* clinical data --> clinical data tab in CLL map portal. https://cllmap.org/viz/swimmer-plot/ * Mutation data--> supplementary table 3* SV data--> supplementaty table 9 * RNA-seq data --> cllmap_rnaseq_counts_full from https://cllmap.org/downloads.html (CLL-map Portal)
