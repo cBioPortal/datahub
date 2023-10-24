@@ -1,7 +1,0 @@
-type_of_cancer: BOWEL
-cancer_study_identifier: normal_sim_sanger_2023
-name: APOBEC mutagenesis is a common process in normal human small intestine (Sanger, Translational Vision Science & Technology 2023)
-description: Whole genome sequencing of 342 samples of healthy small bowel mucosa from 26 healthy donors.
-citation: Wang et al., Translational Vision Science & Technology 2023 
-pmid: 36702998
-reference_genome: hg19
