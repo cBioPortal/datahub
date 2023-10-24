@@ -1,7 +1,0 @@
-type_of_cancer: UTERUS
-cancer_study_identifier: normal_placenta_sanger_2021
-name: Inherent mosaicism and extensive mutation of human placentas (Sanger, Nature 2021)
-description: Whole genome sequencing data of 192 samples from histologically normal fetal placenta from 42 donors.
-citation: Coorens et al., Nature 2021
-pmid: 33692543
-reference_genome: hg19
