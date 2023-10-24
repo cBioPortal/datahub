@@ -1,8 +1,0 @@
-type_of_cancer: BLADDER
-cancer_study_identifier: Lawson_urothelium_20
-name: Extensive heterogeneity in somatic mutation and selection in the human bladder
-citation: Lawson et al., 2020 
-pmid: 33004514
-groups:
-add_global_case_list: true
-reference_genome: hg19

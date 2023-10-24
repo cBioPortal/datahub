@@ -1,9 +1,0 @@
-cancer_study_identifier: Lawson_urothelium_20
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-stable_id: mutations
-show_profile_in_analysis_tab: true
-profile_name: Mutations
-profile_description: mutation data from whole exome sequencing
-data_filename: Lawson20.maf.txt
-variant_classification_filter: Intron
