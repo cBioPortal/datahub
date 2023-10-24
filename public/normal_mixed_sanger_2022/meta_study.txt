@@ -1,0 +1,7 @@
+type_of_cancer: OTHER
+cancer_study_identifier: normal_mixed_sanger_2022
+name: Diverse mutational landscapes in human lymphocytes (Sanger, Nature 2022).
+description: Whole genome sequencing data of 717 single-cell derived colonies of hematopoietic stem cells and lymphocytes from seven healthy donors.
+citation: Machado et al., Nature 2022 
+pmid: 35948631
+reference_genome: hg19
