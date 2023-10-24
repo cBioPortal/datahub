@@ -1,4 +1,4 @@
-cancer_study_identifier: panc_msk_2023
+cancer_study_identifier: panet_msk_erc_2023
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: DISCRETE
 stable_id: cna

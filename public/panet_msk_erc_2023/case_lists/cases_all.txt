@@ -1,5 +1,5 @@
-cancer_study_identifier: panc_msk_2023
-stable_id: panc_msk_2023_all
+cancer_study_identifier: panet_msk_erc_2023
+stable_id: panet_msk_erc_2023_all
 case_list_name: All samples
 case_list_description: All samples (65 samples)
 case_list_category: all_cases_in_study
