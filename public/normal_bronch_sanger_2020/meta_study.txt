@@ -1,0 +1,7 @@
+type_of_cancer: LUNG
+cancer_study_identifier: normal_bronch_sanger_2020
+name: Tobacco smoking and somatic mutations in human bronchial epithelium (Sanger, Nature 2020)
+description: Whole genome sequencing data of 630 samples from normal human bronchial epithelium from 16 donors.
+citation: Yoshida et al., Nature 2020 
+pmid: 31996850
+reference_genome: hg19
