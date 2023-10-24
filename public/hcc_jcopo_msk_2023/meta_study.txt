@@ -1,0 +1,5 @@
+cancer_study_identifier: hcc_jcopo_msk_2023
+description: Targeted sequencing of 90 Hepatocellular carcinoma cell free DNA (cfDNA) and associated tumor samples with matched normals.
+name: Hepatocellular Carcinoma (MSK, JCO Precis Oncol 2023)
+type_of_cancer: hcc
+short_name: hcc_jcopo_msk_2023
