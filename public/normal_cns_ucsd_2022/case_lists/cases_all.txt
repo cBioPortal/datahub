@@ -1,6 +1,0 @@
-cancer_study_identifier: normal_cns_ucsd_2022
-stable_id: normal_cns_ucsd_2022_sequenced
-case_list_name: Sequenced tumors
-case_list_description: Sequenced tumor samples
-case_list_category: all_cases_with_mutation_data
-case_list_ids:	ID01-B-L-F-3-Lrg	ID01-B-L-F-3-Sml	ID01-B-L-O-5-Lrg	ID01-B-L-O-5-Sml	ID01-B-L-P-4-Lrg	ID01-B-L-P-4-Sml	ID01-B-L-PF-2-Lrg	ID01-B-L-PF-2-Sml	ID01-B-L-T-1-Lrg	ID01-B-L-T-1-Sml	ID01-B-R-F-3-Lrg	ID01-B-R-F-3-Sml	ID01-B-R-O-5-Lrg	ID01-B-R-O-5-Sml	ID01-B-R-P-4-Lrg	ID01-B-R-P-4-Sml	ID01-B-R-PF-2-Lrg	ID01-B-R-PF-2-Sml	ID01-B-R-T-1-Lrg	ID01-B-R-T-1-Sml	ID01-C	ID02-Cbl	ID02-L-PF	ID02-L-T	ID02-R-PF	ID02-R-T	ID03-Cbl	ID03-L-PF	ID03-L-T	ID03-R-PF	ID03-R-T	ID04-Cbl	ID04-L-PF	ID04-L-T	ID04-R-PF	ID04-R-T
