@@ -1,9 +1,0 @@
-type_of_cancer: OTHER
-cancer_study_identifier: moore_mixed_2021
-name: The mutational landscape of human somatic and germline cells
-description: Whole genome sequencing data of 27 pathologically normal tissues from 14 donors.
-citation: Moore et al., 2021 
-pmid: 34433962
-groups:
-add_global_case_list: true
-reference_genome: hg19
