@@ -1,0 +1,6 @@
+cancer_study_identifier: normal_breast_kyoto_2023
+stable_id: normal_breast_kyoto_2023_sequenced
+case_list_name: Sequenced tumors
+case_list_description: Sequenced tumor samples
+case_list_category: all_cases_with_mutation_data
+case_list_ids: KU1018-sc-1	KU1018-sc-2	KU1020-sc-1	KU1020-sc-2	KU1025-sc-1	KU1025-sc-2	KU1025-sc-3	KU1025-sc-4	KU1025-sc-5	KU1026-sc-1	KU1026-sc-2	KU1026-sc-3	KU1026-sc-4	KU1026-sc-5	KU1035-sc-1	KU1035-sc-2	KU1037-sc-1	KU1038-sc-1	KU1038-sc-2	KU1038-sc-3	KU1038-sc-4	KU1038-sc-5	KU1038-sc-6	KU1040-sc-1	KU1040-sc-2	KU1040-sc-3	KU1040-sc-4	KU1040-sc-5	KU1045-sc-1	KU1045-sc-2	KU1045-sc-3	KU1045-sc-4	KU1045-sc-5	KU1047-sc-1	KU1047-sc-2	KU1047-sc-3	KU1056-sc-1	KU1056-sc-2	KU1056-sc-3	KU1056-sc-4	KU1056-sc-5	KU1057-sc-1	KU1057-sc-2	KU1057-sc-3	KU1057-sc-4	KU1058-sc-1	KU1058-sc-2	KU1058-sc-3	KU1058-sc-4	KU1160-sc-1	KU1171-sc-1	KU1171-sc-2	KU1171-sc-3	KU1171-sc-4	HV011-sc-1	HV011-sc-2	HV021-sc-1	HV119-sc-1	HV187-sc-1	HV190-sc-1	HV203-sc-1	HV203-sc-2	HV203-sc-3	HV203-sc-4	HV203-sc-5	HV203-sc-7	HV319-sc-2	HV319-sc-4	HV319-sc-5	HV319-sc-6

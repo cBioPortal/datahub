@@ -1,7 +1,0 @@
-type_of_cancer: OTHER
-cancer_study_identifier: normal_mixed_biopic_2021
-name: A body map of somatic mutagenesis in morphologically normal human tissues (Kyoto University, Nature 2021)
-description: Whole exome sequencing data of 1730 normal tissue samples from five donors.
-citation: Li et al., Nature 2021 
-pmid: 34433965
-reference_genome: hg19
