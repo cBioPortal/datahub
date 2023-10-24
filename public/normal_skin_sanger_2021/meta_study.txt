@@ -1,7 +1,0 @@
-type_of_cancer: SKIN
-cancer_study_identifier: normal_skin_sanger_2021
-name: Selection of Oncogenic Mutant Clones in Normal Human Skin Varies with Body Site (Sanger, Cancer Discovery 2021)
-description: Targeted sequencing data from 9907 samples of normal human skin and hair follicles from 33 donors.
-citation: Fowler et al., Cancer Discovery 2021
-pmid: 33087317
-reference_genome: hg19
