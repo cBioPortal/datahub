@@ -1,5 +1,5 @@
 type_of_cancer: SKIN
-cancer_study_identifier: normal_keratinocytes_sanger_2015
+cancer_study_identifier: normal_skin_sanger_2015
 name: High burden and pervasive positive selection of somatic mutations in normal human skin (Sanger, Science 2015)
 description: Whole genome and targeted sequencing data of 234 normal human skin keratinocyte samples from four donors.
 citation: Martincorena et al., Science 2015
