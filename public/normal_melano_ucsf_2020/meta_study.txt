@@ -1,0 +1,7 @@
+type_of_cancer: SKIN
+cancer_study_identifier: normal_melano_ucsf_2020
+name: The genomic landscapes of individual melanocytes from human skin (UCSF, Nature 2020)
+description: Targeted and exome sequencing data from 126 samples of normal human skin from six donors.
+citation: Tang et al., Nature 2020
+pmid: 33029006
+reference_genome: hg19
