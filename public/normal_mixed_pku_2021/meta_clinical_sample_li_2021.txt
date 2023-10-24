@@ -1,4 +1,0 @@
-cancer_study_identifier: Li_mixed_21
-genetic_alteration_type: CLINICAL
-datatype: SAMPLE_ATTRIBUTES
-data_filename: data_clinical_sample_li21.txt

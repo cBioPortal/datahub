@@ -1,9 +1,0 @@
-type_of_cancer: OTHER
-cancer_study_identifier: Li_mixed_21
-name: A body map of somatic mutagenesis in morphologically normal human tissues (Li 2021)
-description: whole exome and whole genome sequencing of 1725 samples of healthy tissue samples from 5 patients
-citation: Li et al., 2021 
-pmid: 34433965
-groups:
-add_global_case_list: true
-reference_genome: hg19
