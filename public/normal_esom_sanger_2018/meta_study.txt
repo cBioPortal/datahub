@@ -1,7 +1,0 @@
-type_of_cancer: STOMACH
-cancer_study_identifier: normal_esom_sanger_2018
-name: Somatic mutant clones colonize the human esophagus with age (Sanger, Science 2018)
-description: Targeted sequencing data of 832 samples of normal human esophagus from nine donors.
-citation: Martincorena et al., Science 2018 
-pmid: 30337457
-reference_genome: hg19
