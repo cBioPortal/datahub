@@ -18,17 +18,13 @@
   |cohort                |-                    |
   |bowel_cancer_diagnosis|ADJACENT_CANCER      |
  
-* Sample data was retrieved from Supplementary Table 2 - "Signature contributions to each crypt: The contribution of each mutational signature to each crypt."
-* remapped clinical sample data (non-listed original columns were dropped):
+* Sample data was retrieved from the file [Key_matching_Ids.csv](https://github.com/HLee-Six/colon_microbiopsies/blob/master/files_added_post_publication/Key_matching_Ids.csv) from the [study's GitHub repository](https://github.com/HLee-Six/colon_microbiopsies)
+* remapped clinical sample data:
 
   | Original Column Name | Remapped Column Name|
   |----------------------|---------------------|
   |crypt                 |SAMPLE_ID            |
-  |site                  |SAMPLE_LOCATION      |
   |patient               |PATIENT_ID           |
-  |med_vafs              |MEDIAN_VAF           |
-  |med_depths            |MEDIAN_SEQ_DEPTH     |
-  |telomere              |TELOMERE_LENGTH      |
  
 ## Mutation Data
   * Mutation data was retrieved from Supplementary Table 3 - "Coding mutations: This table contains all coding mutations detected in our crypts."
