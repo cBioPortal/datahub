@@ -1,8 +1,0 @@
-cancer_study_identifier: prad_eururol_2017
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: false
-profile_description: mRNA expression from capture (RNA Seq FPKM).
-profile_name: mRNA expression (FPKM)
-data_filename: data_mrna_seq_rpkm.txt
