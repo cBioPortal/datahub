@@ -1,7 +1,0 @@
-type_of_cancer: SKIN
-cancer_study_identifier: normal_skin_juc_2021
-name: The effect of age on the acquisition and selection of cancer driver mutations in sun-exposed normal skin (University of Castellon, Annals of Oncology 2021)
-description: Targeted sequencing data from 123 samples of normal human skin from 123 donors.
-citation: Hernando et al., Annals of Oncology 2021
-pmid: 33307203
-reference_genome: hg19
