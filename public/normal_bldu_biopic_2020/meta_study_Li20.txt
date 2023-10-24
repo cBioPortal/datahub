@@ -1,9 +1,0 @@
-type_of_cancer: BLADDER
-cancer_study_identifier: li_urothelium_2020
-name: Macroscopic somatic clonal expansion in morphologically normal human urothelium.
-description: Whole exome sequencing data of 158 samples and whole genome sequencing data of one sample of normal human bladder or urether urothelium from 113 donors with urothelium cancer at a minimum distance of 1cm from the normal Urothelium samples.
-citation: Li et al., 2020 
-pmid: 33004515
-groups:
-add_global_case_list: true
-reference_genome: hg19
