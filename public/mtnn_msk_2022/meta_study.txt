@@ -1,0 +1,6 @@
+type_of_cancer: mtnn
+cancer_study_identifier: mtnn_msk_2022
+name: Mature T and NK Neoplasms (MSK, Blood Adv 2023)
+description: Targeted sequencing of 132 Mature T and NK Neoplasms and their matched normals via MSK-IMPACT.
+citation: William T et al. Blood Adv 2023
+pmid: 37078708
