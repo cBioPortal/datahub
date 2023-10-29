@@ -16,7 +16,7 @@
   |age                   |AGE                  |
   |UV_exposure_tissue    |UV_EXPOSURE_SAMPLE   |
   |sun_damage_tissue	 |SUN_DAMAGES_SAMPLE   |
-  |sun_history		 |SUN_EXPOSURE_PTX     |
+  |sun_history		 |SUN_EXPOSURE     |
   |skin_phototype	 |FITZPATRICK_SCORE    |
  
 * Sample data was retrieved from Supplementary Dataset S2 - "Clinical and phenotypic data of donors"
