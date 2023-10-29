@@ -17,7 +17,7 @@
   |Age                   |AGE                  |
   |Cause of death        |CAUSE_OF_DEATH       |
   |Smoking               |SMOKING              |
-  |Drinking              |DRINKING             |
+  |Drinking              |ALCOHOL              |
   |Medical history       |MEDICAL_HISTORY      |
   |-                     |INFERRED_RACE        |
 
