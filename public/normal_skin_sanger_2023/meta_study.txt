@@ -1,4 +1,4 @@
-type_of_cancer: SKIN
+type_of_cancer: skin
 cancer_study_identifier: normal_skin_sanger_2023
 name: Somatic mutations in facial skin from countries of contrasting skin cancer risk.
 description: Targeted sequencing data from 332 samples of normal human skin from five new Singaporean donors (Sanger, Nature Genetics 2023)
