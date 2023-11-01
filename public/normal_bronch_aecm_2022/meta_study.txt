@@ -1,4 +1,4 @@
-type_of_cancer: LUNG
+type_of_cancer: lung
 cancer_study_identifier: normal_bronch_aecm_2022
 name: Single-cell analysis of somatic mutations in human bronchial epithelial cells in relation to aging and smoking (Albert Einstein College of Medicine, Nature Genetics 2022)
 description: Whole genome single-cell sequencing data of 133 samples from normal basal cells of the human bronchial epithelium from 33 donors.
