@@ -1,4 +1,4 @@
-type_of_cancer: BREAST
+type_of_cancer: breast
 cancer_study_identifier: normal_breast_kyoto_2023
 name: Evolutionary histories of breast cancer and related clones (Kyoto University, Nature 2023)
 description: Whole genome sequencing data from single-cell derived colonies of 70 pathologically normal samples from 15 patients with adjacent breast cancer and seven healthy donors
