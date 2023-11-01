@@ -1,4 +1,4 @@
-type_of_cancer: OTHER
+type_of_cancer: mixed
 cancer_study_identifier: normal_hsc_sanger_2018
 name: Population dynamics of normal human blood inferred from somatic mutations (Sanger, Nature 2018) 
 description: Whole genome sequencing of 140 samples of hematopoietic stem and progenitor cell colonies from one patient.
