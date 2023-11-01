@@ -1,4 +1,4 @@
-type_of_cancer: BRAIN
+type_of_cancer: brain
 cancer_study_identifier: normal_cns_ucsd_2022
 name: Somatic mosaicism reveals clonal distributions of neocortical development (UCSD, Nature 2022)
 description: Whole genome sequencing data from 36 bulk samples from the central neural system of healthy brains from 4 donors.
