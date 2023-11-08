@@ -1,5 +1,5 @@
-cancer_study_identifier: panc_msk_2023
-stable_id: panc_msk_2023_cnaseq
+cancer_study_identifier: panet_msk_erc_2023
+stable_id: panet_msk_erc_2023_cnaseq
 case_list_name: Samples with mutation and CNA data
 case_list_description: Samples with mutation and CNA data (65 samples)
 case_list_category: all_cases_with_mutation_and_cna_data

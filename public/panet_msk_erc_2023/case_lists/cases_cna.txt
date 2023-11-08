@@ -1,5 +1,5 @@
-cancer_study_identifier: panc_msk_2023
-stable_id: panc_msk_2023_cna
+cancer_study_identifier: panet_msk_erc_2023
+stable_id: panet_msk_erc_2023_cna
 case_list_name: Samples with CNA data
 case_list_description: Samples with CNA data (65 samples)
 case_list_category: all_cases_with_cna_data
