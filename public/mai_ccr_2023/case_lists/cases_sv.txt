@@ -1,6 +1,0 @@
-cancer_study_identifier: mai_ccr_2023
-stable_id: mai_ccr_2023_sv
-case_list_name: Samples with SV data
-case_list_description: All samples with SV data (9 samples)
-case_list_category: all_cases_with_sv_data
-case_list_ids: P-0055295-T02-IH3	P-0040068-T01-IH3	P-0035290-T01-IM6	P-0040559-T01-IH3	P-0034395-T01-IM6	P-0030070-T01-IH3	P-0037154-T01-IM6	P-0015268-T01-IM6	P-0015952-T02-IM6

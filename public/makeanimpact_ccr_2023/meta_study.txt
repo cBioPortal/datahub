@@ -1,7 +1,7 @@
 type_of_cancer: mixed
 cancer_study_identifier: makeanimpact_ccr_2023
-name: MSK Make-An-IMPACT (CCR, 2023)
+name: MSK Make-An-IMPACT (AACR, 2023)
 short_name: MakeanIMPACT(MSK 2023)
-description: Targeted sequencing of clinical cases via MSK-IMPACT, MSK-IMPACT-Heme, and MSK-ACCESS platforms of Histiocytosis and Germ Cell Tumor samples.
+description: Targeted sequencing of 167 patients with Histiocytosis and Germ Cell Tumors using MSK-IMPACT, MSK-IMPACT-Heme, and MSK-ACCESS platforms. 
 pmid: 36862133
 citation: Seyram A et al. Clin Cancer Res 2023
