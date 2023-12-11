@@ -1,6 +1,6 @@
 type_of_cancer: nsclc
 cancer_study_identifier: bm_nsclc_mskcc_2023
-name: BM NSCLC (MSK, 2023)
-description: Targeted sequencing of 322 BM NSCLC tumor/normal pairs via MSK-IMPACT.
+name: BM NSCLC (MSK, Nat Commun 2023)
+description: Targeted sequencing of 322 NSCLC brain metastasis and their matched normals via MSK-IMPACT.
 pmid: 37591896
 citation: Anna et al. Nat Commun 2023
