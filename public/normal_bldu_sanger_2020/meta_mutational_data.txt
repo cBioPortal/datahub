@@ -6,3 +6,4 @@ show_profile_in_analysis_tab: true
 profile_name: Mutations
 profile_description: mutation data from targeted, whole exome and whole genome sequencing
 data_filename: data_mutations.txt
+variant_classification_filter:
