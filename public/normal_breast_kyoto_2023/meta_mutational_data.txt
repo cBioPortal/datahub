@@ -6,3 +6,4 @@ show_profile_in_analysis_tab: true
 profile_name: Mutations
 profile_description: mutation data from whole genome sequencing of single-cell derived colonies
 data_filename: data_mutations.txt
+variant_classification_filter:
