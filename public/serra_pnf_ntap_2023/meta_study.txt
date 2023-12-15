@@ -1,8 +1,0 @@
-cancer_study_identifier: serra_pnf_ntap_2023
-type_of_cancer: pnf
-name: 'Reprogramming Captures the Genetic and Tumorigenic Properties of Neurofibromatosis Type 1 Plexiform Neurofibromas'
-description: Neurofibromatosis type 1 iPSCs gene expression profiling
-citation: 'Carrió M et al. Reprogramming Captures the Genetic and Tumorigenic Properties of Neurofibromatosis Type 1 Plexiform Neurofibromas. Stem Cell Reports. doi: 10.1016/j.stemcr.2019.01.001.'
-pmid: 30713041
-groups: PUBLIC
-add_global_case_list: true
