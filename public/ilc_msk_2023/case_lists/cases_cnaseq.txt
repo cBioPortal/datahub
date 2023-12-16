@@ -1,0 +1,6 @@
+cancer_study_identifier: ilc_msk_2023
+stable_id: ilc_msk_2023_cnaseq
+case_list_name: Samples with mutation and CNA data
+case_list_description: Samples with mutation and CNA data (25 samples)
+case_list_category: all_cases_with_mutation_and_cna_data
+case_list_ids: CDW1	CDW2	CDW3	CDW4	CDW5	CDW6	CDW7	CDW8	CDW10	CDW11	CDW12	CDW13	CDW16	CDW17	CDW18	CDW19	CDW20	CDW29	CDW21	CDW22	CDW30	CDW23	CDW24	CDW25	CDW28
