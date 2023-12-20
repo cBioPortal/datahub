@@ -1,0 +1,6 @@
+cancer_study_identifier: aml_target_gdc
+stable_id: aml_target_gdc_cnaseq
+case_list_name: Samples with mutation and CNA data
+case_list_description: Samples with mutation and CNA data (15 samples)
+case_list_category: all_cases_with_mutation_and_cna_data
+case_list_ids: TARGET-20-PARIEG-09A	TARGET-20-PARGVC-03A	TARGET-20-PANGTF-09A	TARGET-20-PAERAH-09A	TARGET-20-PANSBH-09A	TARGET-20-PASRTP-09A	TARGET-20-PARUCB-09A	TARGET-20-PAEEYP-09A	TARGET-20-PAKKBK-09A	TARGET-20-PASFEW-09A	TARGET-20-PARUNX-09A	TARGET-20-PANTWV-09A	TARGET-20-PARWAS-09A	TARGET-20-PANVGP-09A	TARGET-20-PARVUA-03A

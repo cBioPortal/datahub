@@ -1,8 +1,8 @@
-type_of_cancer: read
+type_of_cancer: READ
 cancer_study_identifier: read_tcga_gdc
 name: Rectal Adenocarcinoma (TCGA, GDC)
-short_name: read
-description: TCGA Rectal Adenocarcinoma. Source data from GDC and generated using ISB-CGC BigQuery tables.
+short_name: READ
+description: TCGA Rectal Adenocarcinoma. Source data from GDC and generated using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
 reference_genome: hg38
 add_global_case_list: true
 groups: PUBLIC
