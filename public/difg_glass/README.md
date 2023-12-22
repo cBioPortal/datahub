@@ -1,4 +1,4 @@
-# Steps taken for curation and transformation of GLASS Dataset:
+# Curation and transformation of GLASS Dataset:
 
 ## General Information
 - Data Source: [GLASS data on Synapse](https://www.synapse.org/#!Synapse:syn17038081/wiki/585622)
@@ -11,7 +11,8 @@
 - Files used: analysis_silver_set & analysis_rna_silver_set (If a sample had multiple aliquots, the silver set represented a single aliquot per sample)
 	- `analysis_silver_set`: Contains DNA pairs that pass fingerprinting and coverage QC, representing a single aliquot per patient (maximal timepoint for patients with multiple recurrences).
 	- `rna_silver_set`: Lists RNA pairs passing fingerprinting and clinical QC, with the maximal timepoint taken for patients with multiple recurrences.
-- Overall Cohort Size: 598 samples (299 DNA pairs and 139 RNA pairs) from 299 patients.
+- If a patient underwent more than two surgical procedures, additional longitudinal aliquots were chosen. However, for patients with only one identical sample, the aliquots were excluded. In cases where samples had multi-sector information, one aliquot per silver set was selected (rather than merging aliquots) to better align with the Synapse instance.
+- Overall Cohort Size: 694 samples (629 DNA and 355 RNA samples) from 329 patients.
 
 ## Clinical data
 - Patient-Level Data: `clinical_cases`
@@ -45,9 +46,6 @@
 ## Methylation Data
 - Files used: `betas.450.tsv`, `betas.epic.tsv`, `betas.merged.tsv` (methylation beta-values per CpG probe ID (row) by aliquot (column) is given)
 - Added methylation profiles for the Illumina 450K array, EPIC array, and merged 450K and EPIC arrays.
-
-## H&E Images
-- H&E slides were accessible for five patients and obtained from the [Digital Slide Archive](https://styx.neurology.emory.edu/girder/#collection/625dda70622f966e826a0446/folder/625dda90622f966e826a0448)
 
 ## Clinical data remapping
 - Original clinical data columns were remapped to new column names for patients and samples, as listed in the table below.
