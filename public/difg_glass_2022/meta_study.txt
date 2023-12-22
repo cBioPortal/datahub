@@ -1,0 +1,7 @@
+type_of_cancer: difg
+cancer_study_identifier: difg_glass_2022
+name: Diffuse Glioma (GLASS Consortium, Cell 2022)
+description: Whole genome or whole exome sequencing analysis of temporally separated diffuse glioma tumor/normal pairs from 299 adult patients.
+pmid: 35649412
+citation: Varn et al. Cell 2022
+short_name: GLASS (Cell, 2022)
