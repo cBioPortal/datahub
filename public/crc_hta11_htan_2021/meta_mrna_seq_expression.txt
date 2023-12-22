@@ -1,8 +1,0 @@
-cancer_study_identifier: crc_hta11_htan_2021
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: rna_seq_mrna
-show_profile_in_analysis_tab: FALSE
-profile_name: Pseudo bulk mRNA expression
-profile_description: The bulk RNA-seq counts were calculated from scRNA-seq, by averaging the expression values per sample across the cells.
-data_filename: data_mrna_seq_expression.txt
