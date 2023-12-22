@@ -1,0 +1,4 @@
+type_of_cancer: difg
+cancer_study_identifier: difg_msk_2023
+name: Diffuse Glioma (MSK, 2023)
+description: Targeted sequencing of 73 diffuse gliomas and their matched normal pairs via MSK-IMPACT platforms. The data is available on <a href="https://www.synapse.org/#!Synapse:syn52658621/wiki/624065">Synapse</a>.
