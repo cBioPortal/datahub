@@ -14,9 +14,8 @@
 - Sample-Level Data:`Table S1`, `Biospecimens` tab in HTAN Portal
 
 ## Mutation data
-- The Level 3 Bulk DNA files were downloaded from HTAN Portal for each sample.
-- The VCF's were converted to MAF format and the variants with the FILTER variable marked as PASS were picked. 
-- Variants were annotated using Genome Nexus
+- The Level 3 Bulk DNA filtered data files were obtained from the Vanderbilt team.
+- Variants were annotated using Genome Nexus.
 
 ## scRNA-seq data
 - The Discovery set h5ad files for both epithelial and non-epithelial cells were used from [cellxgene](https://cellxgene.cziscience.com/collections/a48f5033-3438-4550-8574-cdff3263fdfd)
