@@ -1,7 +1,7 @@
 type_of_cancer: ucec
 cancer_study_identifier: ucec_ancestry_cds_msk_2023
-name: Endometrial Carcinoma Ancestry (MSK, Cancer Discovery 2023)
-description: Targeted sequencing of 1882 Endometrial Cancer tumor and normal pairs via MSK-IMPACT.
+name: Endometrial Cancer (MSK, Cancer Discovery 2023)
+description: Targeted sequencing of 1882 endometrial cancers and their matched normals via MSK-IMPACT.
 reference_genome: hg19
 pmid: 37651310
-citation: Weigelt et al. Can Discovery 2023
+citation: Weigelt et al. Cancer Discovery 2023
