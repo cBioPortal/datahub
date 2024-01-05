@@ -5,3 +5,4 @@ docker==3.5.0
 urllib3==1.26.18
 gitpython==3.1.37
 PyYAML==5.4
+git==2.39.3
