@@ -1,3 +1,91 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:183b5e0fd8325b9ee99f24f5cd43ab748aab1510a2465ce565765d6e44f18bd3
-size 9254
+#Sample ID	Patient ID	Tissue Type	Sample Site	Clonality	Sequencing Type
+#Sample ID	Patient ID	Tissue Type	Sample Site	Clonality	Sequencing Type
+#STRING	STRING	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	TISSUE_TYPE	SAMPLE_SITE	CLONALITY	SEQ_TYPE
+UPN49_1_1	UPN49	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN49_1_2	UPN49	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN49_1_3	UPN49	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN49_1_4	UPN49	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN49_1_5	UPN49	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN49_1_6	UPN49	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN49_1_7	UPN49	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN49_1_8	UPN49	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN49_1_9	UPN49	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_2	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_3	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_4	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_19	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_6	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_7	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_15	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_8	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_10	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_14	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_11	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_13	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_5	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_17	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN36_1_18	UPN36	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_8	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_9	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_10	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_13	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_12	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_16	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_15	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_17	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_14	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_18	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_11	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_1_1	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_2_1	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_2_13	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_2_10	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_2_9	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_2_2	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_2_3	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_2_19	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN37_2_11	UPN37	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_1	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_10	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_11	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_12	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_13	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_14	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_15	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_16	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_17	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_18	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_19	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_2	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_20	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_21	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_22	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_23	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_24	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_3	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_4	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_5	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_6	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_7	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_8	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN55_1_9	UPN55	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_1	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_10	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_11	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_12	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_14	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_15	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_16	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_17	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_18	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_19	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_2	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_20	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_21	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_3	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_6	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_7	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_8	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
+UPN58_1_9	UPN58	Esophageal Mucosa	Esophagus	Polyclonal	Targeted Sequencing
