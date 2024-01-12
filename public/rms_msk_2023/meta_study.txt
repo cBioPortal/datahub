@@ -1,6 +1,6 @@
 type_of_cancer: rms
 cancer_study_identifier: rms_msk_2023
-name: Extremity Rhabdomyosarcomas (MSK, JCO Precis Oncol 2023)
-description: Targeted sequencing of 24 rhabdomyosarcoma tumors and their matched normals via MSK-IMPACT.
+name: Pediatric Rhabdomyosarcomas (MSK, JCO Precis Oncol 2023)
+description: Targeted sequencing of 24 cases with extremity rhabdomyosarcoma tumors and their matched normals (MSK Cohort) via MSK-IMPACT.
 pmid: 37315267
 citation: de Wardin et al. JCO Precis Oncol 2023
