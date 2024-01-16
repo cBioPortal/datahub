@@ -1,6 +1,6 @@
 type_of_cancer: mixed
 cancer_study_identifier: mixed_ccma_2023
-name: Childhood Cancer Model Atlas (mixed, 2023)
+name: Childhood Cancer Model Atlas (HIMR, Cancer Cell 2023)
 description: Whole-genome sequencing of extracranial and brain childhood tumors from pediatric cell lines of 182 cell lines included in the Childhood Cancer Model Atlas.     
 pmid: 37001527
 citation: Sun et al. Cancer Cell 2023
