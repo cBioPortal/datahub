@@ -1,8 +1,8 @@
-cancer_study_identifier: mbn_sfu_2023
+cancer_study_identifier: ccle_broad_2023
 data_filename: data_sv.txt
 stable_id: structural_variants
 genetic_alteration_type: STRUCTURAL_VARIANT
 datatype: SV
 show_profile_in_analysis_tab: TRUE
 profile_name: Structural variants
-profile_description: Structural variant data of 254 analyzed samples out of which only 198 had MYC rearrangements. 
+profile_description: Structural Variant Data
