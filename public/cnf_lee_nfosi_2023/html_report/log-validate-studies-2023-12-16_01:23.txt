@@ -1,0 +1,52 @@
+=== Validation study: /datahub/cnf_lee_nfosi_2023
+DEBUG: -: Requesting info from portal at 'http://cbioportal.org'
+DEBUG: -: Requesting cancer-types from portal at 'http://cbioportal.org'
+DEBUG: -: Requesting genes from portal at 'http://cbioportal.org'
+DEBUG: -: Requesting genesets from portal at 'http://cbioportal.org'
+DEBUG: -: Requesting genesets_version from portal at 'http://cbioportal.org'
+DEBUG: -: Requesting gene-panels from portal at 'http://cbioportal.org'
+
+DEBUG: meta_cancer_type.txt: Starting validation of meta file
+INFO: meta_cancer_type.txt: Validation of meta file complete
+
+DEBUG: meta_clinical_sample.txt: Starting validation of meta file
+INFO: meta_clinical_sample.txt: Validation of meta file complete
+
+DEBUG: meta_expression_raw.txt: Starting validation of meta file
+INFO: meta_expression_raw.txt: Validation of meta file complete
+
+DEBUG: meta_expression_tpm.txt: Starting validation of meta file
+INFO: meta_expression_tpm.txt: Validation of meta file complete
+
+DEBUG: meta_study.txt: Starting validation of meta file
+INFO: meta_study.txt: Validation of meta file complete
+INFO: meta_study.txt: No reference genome specified -- using default (hg19)
+
+DEBUG: cancer_type.txt: Starting validation of file
+INFO: cancer_type.txt: line 1: New disease type will be added to the portal; value encountered: 'cnf'
+INFO: cancer_type.txt: Validation of file complete
+INFO: cancer_type.txt: Read 1 lines. Lines with warning: 0. Lines with error: 0
+
+DEBUG: data_clinical_sample.txt: Starting validation of file
+INFO: data_clinical_sample.txt: Validation of file complete
+INFO: data_clinical_sample.txt: Read 21 lines. Lines with warning: 0. Lines with error: 0
+
+INFO: -: No directory named 'case_lists' found, so assuming no custom case lists.
+
+DEBUG: data_expression_raw.txt: Starting validation of file
+WARNING: data_expression_raw.txt: line 1: The recommended column Entrez_Gene_Id was not found. Using Hugo_Symbol for all gene parsing.
+WARNING: data_expression_raw.txt: lines [6, 91, 174, (23791 more)]: Gene symbol not known to the cBioPortal instance. This record will not be loaded.; values encountered: ['C1ORF112', 'FAM214B', 'KIAA0100', '(22668 more)']
+WARNING: data_expression_raw.txt: lines [26, 5510, 5512, (125 more)]: Duplicate line for a previously listed feature/gene, this line will be ignored.; values encountered: ['4267 (already defined on line 25)', '6845 (already defined on line 5509)', '3581 (already defined on line 5511)', '(76 more)']
+WARNING: data_expression_raw.txt: lines [19371, 51127, 52334, (23 more)]: Hugo Symbol is not in gene or alias table and starts with a number. This can be caused by unintentional gene conversion in Excel.; values encountered: ['7SK', '5_8S_RRNA', '5S_RRNA']
+INFO: data_expression_raw.txt: Validation of file complete
+INFO: data_expression_raw.txt: Read 61599 lines. Lines with warning: 23923. Lines with error: 0
+
+DEBUG: data_expression_tpm.txt: Starting validation of file
+WARNING: data_expression_tpm.txt: line 1: The recommended column Entrez_Gene_Id was not found. Using Hugo_Symbol for all gene parsing.
+WARNING: data_expression_tpm.txt: lines [6, 91, 174, (23791 more)]: Gene symbol not known to the cBioPortal instance. This record will not be loaded.; values encountered: ['C1ORF112', 'FAM214B', 'KIAA0100', '(22668 more)']
+WARNING: data_expression_tpm.txt: lines [26, 5510, 5512, (125 more)]: Duplicate line for a previously listed feature/gene, this line will be ignored.; values encountered: ['4267 (already defined on line 25)', '6845 (already defined on line 5509)', '3581 (already defined on line 5511)', '(76 more)']
+WARNING: data_expression_tpm.txt: lines [19371, 51127, 52334, (23 more)]: Hugo Symbol is not in gene or alias table and starts with a number. This can be caused by unintentional gene conversion in Excel.; values encountered: ['7SK', '5_8S_RRNA', '5S_RRNA']
+INFO: data_expression_tpm.txt: Validation of file complete
+INFO: data_expression_tpm.txt: Read 61599 lines. Lines with warning: 23923. Lines with error: 0
+
+INFO: -: Validation complete
