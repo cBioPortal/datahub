@@ -1,6 +1,6 @@
 type_of_cancer: mixed
 cancer_study_identifier: brain_ccma_2023
 name: Pediatric Cancer Model Atlas (HIMR, Cancer Cell 2023)
-description: Whole-genome sequencing of 182 extracranial and brain childhood tumor samples from pediatric cell lines from the Childhood Cancer Model Atlas.     
+description: Whole-genome and transcriptome sequencing of 182 cell lines derived from pediatric brain cancer and sarcomas. Data is available through the <a href="vicpcc.org.au/dashboard">Childhood Cancer Model Atlas Portal</a>.     
 pmid: 37001527
 citation: Sun et al. Cancer Cell 2023
