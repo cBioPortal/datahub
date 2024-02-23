@@ -1,0 +1,8 @@
+cancer_study_identifier: cll_broad_2022
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: rna_seq_v2_mrna
+show_profile_in_analysis_tab: false
+profile_name: mRNA expression 
+profile_description: Expression levels 
+data_filename: data_rna_seq_v2_mrna_median.txt
