@@ -18,7 +18,7 @@ Structural Variants Data
 	Data retrieved from supplementary table 9
 	
 RNA-Seq Data
-	Data retrieved from CCL map portal, file 'Raw gene counts for all CLLmap RNA-seqs' from (https://cllmap.org/downloads.html)
+	Data retrieved from CCL map portal, file 'Raw TPMs for all CLLmap RNA-seqs' from (https://cllmap.org/downloads.html)
 	Z-Score were calculated using the zcores tools in study curation tools
 	
 Mutsig Data
