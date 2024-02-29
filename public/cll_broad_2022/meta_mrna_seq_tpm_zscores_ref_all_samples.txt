@@ -3,6 +3,6 @@ genetic_alteration_type: MRNA_EXPRESSION
 datatype: Z-SCORE
 stable_id: mrna_seq_tpm_all_sample_Zscores
 show_profile_in_analysis_tab: false
-profile_name: mRNA expression z-scores 
-profile_description: Expression levels 
+profile_name: mRNA expression z-scores (RNA Seq TPM) 
+profile_description: Expression level z-scores (RNA Seq TPM) 
 data_filename: data_mrna_seq_tpm_zscores_ref_all_samples.txt

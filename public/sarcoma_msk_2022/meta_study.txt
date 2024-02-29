@@ -1,6 +1,6 @@
 cancer_study_identifier: sarcoma_msk_2022
 type_of_cancer: soft_tissue
-name: Soft Tissue and Bone Sarcoma (MSK, Nat Comm 2022)
+name: Soft Tissue and Bone Sarcoma (MSK, Nat Commun 2022)
 description: Targeted sequencing of 7,494 soft tissue and bone sarcoma samples. 
 pmid: 35705558
 citation: Gounder et. al. Nat Comm 2022

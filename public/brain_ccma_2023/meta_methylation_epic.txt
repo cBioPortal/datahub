@@ -1,8 +1,0 @@
-cancer_study_identifier: brain_ccma_2023
-genetic_alteration_type: METHYLATION
-datatype: CONTINUOUS
-stable_id: methylation_epic
-profile_description: Methylation beta-values from Illumina EPIC 850k array. For genes with multiple methylation probes, the probe least correlated with expression is selected.
-show_profile_in_analysis_tab: false
-profile_name: Methylation values
-data_filename: data_methylation_epic.txt
