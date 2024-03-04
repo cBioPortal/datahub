@@ -1,0 +1,8 @@
+type_of_cancer: mixed
+cancer_study_identifier: ccle_broad_2023
+name: Cancer Cell Line Encyclopedia (Broad, 2023)
+short_name: CCLE (BROAD 2023)
+description: Cancer Cell Line Encyclopedia from the Broad Institute and Novartis, 2023 (23Q4) update. Data downloaded from the <a href="https://depmap.org/portal/download/all/">Depmap Portal</a>. For more info about the proteomics data, see the <a href="https://github.com/cbioportal/datahub/blob/master/public/ccle_broad_2023/README.md">README</a>.
+pmid: 31068700
+citation: Ghandi et al. Nature 2019
+reference_genome: hg38
