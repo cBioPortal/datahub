@@ -1,0 +1,7 @@
+cancer_study_identifier: cnf_serra_nfosi_2023
+type_of_cancer: cnf
+name: 'Unbalancing cAMP and Ras/MAPK pathways as a therapeutic strategy for cutaneous neurofibromas'
+description: Gene expression of cutaneous neurofibroma-derived culture model
+citation: 'Unbalancing cAMP and Ras/MAPK pathways as a therapeutic strategy for cutaneous neurofibromas. Mazuelas et al. bioRxiv 2022.12.23.521754. https://doi.org/10.1101/2022.12.23.521754.'
+groups: PUBLIC
+add_global_case_list: true
