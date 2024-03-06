@@ -1,0 +1,97 @@
+=== Validation study: ./generated_data/ccle/ccle_gdc
+DEBUG: -: Requesting info from portal at 'https://www.cbioportal.org'
+DEBUG: -: Requesting cancer-types from portal at 'https://www.cbioportal.org'
+DEBUG: -: Requesting genes from portal at 'https://www.cbioportal.org'
+DEBUG: -: Requesting genesets from portal at 'https://www.cbioportal.org'
+DEBUG: -: Requesting genesets_version from portal at 'https://www.cbioportal.org'
+DEBUG: -: Requesting gene-panels from portal at 'https://www.cbioportal.org'
+
+DEBUG: meta_clinical_patient.txt: Starting validation of meta file
+INFO: meta_clinical_patient.txt: Validation of meta file complete
+
+DEBUG: meta_clinical_sample.txt: Starting validation of meta file
+INFO: meta_clinical_sample.txt: Validation of meta file complete
+
+DEBUG: meta_cna_hg38_seg.txt: Starting validation of meta file
+INFO: meta_cna_hg38_seg.txt: Validation of meta file complete
+
+DEBUG: -: Retrieving chromosome lengths from '/Users/jko/Code/nci-crdc-pipeline/scripts/importer/chromosome_sizes.json'
+
+DEBUG: meta_mrna_affymetrix_microarray.txt: Starting validation of meta file
+INFO: meta_mrna_affymetrix_microarray.txt: Validation of meta file complete
+
+DEBUG: meta_mutations.txt: Starting validation of meta file
+INFO: meta_mutations.txt: Validation of meta file complete
+
+DEBUG: meta_study.txt: Starting validation of meta file
+WARNING: meta_study.txt: Unrecognized field in meta file; value encountered: 'short_name'
+INFO: meta_study.txt: Validation of meta file complete
+INFO: meta_study.txt: Setting reference genome to human (GRCh38, hg38)
+
+ERROR: -: Cancer type of study is neither known to the portal nor defined in a cancer_type file; value encountered: ''
+
+DEBUG: data_clinical_sample.txt: Starting validation of file
+ERROR: data_clinical_sample.txt: line 5: column 2: Attribute must to be a patient-level attribute; value encountered: 'GENDER'
+INFO: data_clinical_sample.txt: Validation of file complete
+INFO: data_clinical_sample.txt: Read 933 lines. Lines with warning: 0. Lines with error: 1
+
+DEBUG: -: Validating case lists
+
+DEBUG: case_lists/cases_sequenced.txt: Starting validation of meta file
+INFO: case_lists/cases_sequenced.txt: Validation of meta file complete
+
+DEBUG: case_lists/cases_all.txt: Starting validation of meta file
+INFO: case_lists/cases_all.txt: Validation of meta file complete
+ERROR: case_lists/cases_all.txt: Multiple case lists with this stable_id defined in the study; value encountered: 'ccle_gdc_all (already defined in meta_study.txt)'
+
+INFO: -: Validation of case list folder complete
+
+DEBUG: data_clinical_patient.txt: Starting validation of file
+
+ERROR: -: Clinical attribute is defined both as sample-level and as patient-level; values encountered: ['PRIMARY_SITE_PATIENT', 'PATIENT_NOTES', 'HISTOLOGY', '(1 more)']
+
+WARNING: data_clinical_patient.txt: Columns OS_MONTHS and/or OS_STATUS not found. Overall survival analysis feature will not be available for this study.
+WARNING: data_clinical_patient.txt: Columns DFS_MONTHS and/or DFS_STATUS not found. Disease free analysis feature will not be available for this study.
+WARNING: data_clinical_patient.txt: line 262: column 1: Clinical data defined for a patient with no samples; value encountered: 'HS255T_LARGE_INTESTINE'
+INFO: data_clinical_patient.txt: Validation of file complete
+INFO: data_clinical_patient.txt: Read 934 lines. Lines with warning: 1. Lines with error: 0
+
+DEBUG: data_mrna_affymetrix_microarray.txt: Starting validation of file
+ERROR: data_mrna_affymetrix_microarray.txt: line 1: columns [195, 212, 260]: Sample ID not defined in clinical file; values encountered: ['HCC1143_BREAST', 'HCC1954_BREAST', 'HS255T_LARGE_INTESTINE']
+ERROR: data_mrna_affymetrix_microarray.txt: Invalid column header, file cannot be parsed
+
+DEBUG: data_mutations.txt: Starting validation of file
+WARNING: data_mutations.txt: line 3: Including the SWISSPROT column is recommended to make sure that the UniProt canonical isoform is used when drawing Pfam domains in the mutations view
+INFO: data_mutations.txt: lines [4, 5, 6, (27540 more)]: Line will not be loaded due to the variant classification filter. Filtered types: [Silent, Intron, 3'UTR, 3'Flank, 5'UTR, 5'Flank, IGR, RNA]; values encountered: ['5'UTR', '3'UTR', 'Silent', '(4 more)']
+WARNING: data_mutations.txt: lines [32, 33, 34, (49947 more)]: Variant_Type indicates a SNP, but length of Reference_Allele, Tumor_Seq_Allele1 and/or Tumor_Seq_Allele2 do not equal 1.; values encountered: ['(G, , A)', '(T, , A)', '(C, , T)', '(9 more)']
+ERROR: data_mutations.txt: lines [32, 33, 34, (58471 more)]: column 4: The reference genome in column NCBI_Build does not correspond with the reference genome specified for this study (GRCh38); value encountered: 'GRCh37'
+ERROR: data_mutations.txt: lines [51, 52, 53, (30688 more)]: column 1: Value in column 'Hugo_Symbol' is invalid; value encountered: ''
+ERROR: data_mutations.txt: lines [51, 52, 53, (30688 more)]: column 10: Value in column 'Variant_Classification' is invalid; value encountered: ''
+ERROR: data_mutations.txt: lines [51, 52, 53, (30688 more)]: No Entrez gene id or gene symbol provided for gene.
+WARNING: data_mutations.txt: lines [51, 52, 53, (30696 more)]: No Amino_Acid_Change or HGVSp_Short value. This mutation record will get a generic "MUTATED" flag
+WARNING: data_mutations.txt: lines [114, 115, 116, (1256 more)]: Gene symbol not known to the cBioPortal instance. This record will not be loaded.; values encountered: ['FAM132A', 'FAM159A', 'MFSD4', '(43 more)']
+WARNING: data_mutations.txt: lines [120, 286, 287, (559 more)]: Variant_Type indicates a DNP, but length of Reference_Allele, Tumor_Seq_Allele1 and/or Tumor_Seq_Allele2 do not equal 2.; values encountered: ['(GG, , AA)', '(CC, , TG)', '(TC, , GA)', '(89 more)']
+WARNING: data_mutations.txt: lines [74600, 86693, 88036]: Variant_Type indicates a TNP, but length of Reference_Allele, Tumor_Seq_Allele1 and/or Tumor_Seq_Allele2 do not equal 3.; values encountered: ['(TAT, , ATA)', '(TGA, , CTT)', '(CCT, , AAA)']
+INFO: data_mutations.txt: Validation of file complete
+INFO: data_mutations.txt: Read 116711 lines. Lines with warning: 81256. Lines with error: 89165
+
+DEBUG: data_cna_hg38.seg: Starting validation of file
+ERROR: data_cna_hg38.seg: lines [56, 662, 1202, (973 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr1:0-248956422); values encountered: ['249224388', '249075021', '249075022', '(80 more)']
+ERROR: data_cna_hg38.seg: lines [88, 89, 90, (1525 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr10:0-133797422); values encountered: ['135229430', '135229431', '135231261', '(348 more)']
+ERROR: data_cna_hg38.seg: lines [132, 715, 1343, (1031 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr12:0-133275309); values encountered: ['133778189', '133301155', '133301156', '(148 more)']
+ERROR: data_cna_hg38.seg: lines [146, 730, 1366, (1012 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr13:0-114364328); values encountered: ['115108397', '114823719', '114823720', '(132 more)']
+ERROR: data_cna_hg38.seg: lines [161, 162, 163, (2434 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr14:0-107043718); values encountered: ['107160362', '107160363', '107177072', '(240 more)']
+ERROR: data_cna_hg38.seg: lines [172, 755, 756, (1526 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr15:0-101991189); values encountered: ['102469040', '102336093', '102336094', '(158 more)']
+ERROR: data_cna_hg38.seg: lines [224, 809, 1470, (1198 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr19:0-58617616); values encountered: ['59097854', '58743338', '58743339', '(190 more)']
+ERROR: data_cna_hg38.seg: lines [293, 842, 1527, (1390 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr2:0-242193529); values encountered: ['243089456', '242486144', '242486145', '(314 more)']
+ERROR: data_cna_hg38.seg: lines [315, 870, 1546, (1297 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr21:0-46709983); values encountered: ['48096957', '47530277', '47530278', '(384 more)']
+ERROR: data_cna_hg38.seg: lines [329, 873, 1562, (1201 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr22:0-50818468); values encountered: ['51234455', '51006226', '51006227', '(178 more)']
+ERROR: data_cna_hg38.seg: lines [432, 969, 1664, (1371 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr4:0-190214555); values encountered: ['191027923', '190801020', '190801021', '(300 more)']
+ERROR: data_cna_hg38.seg: lines [504, 1057, 1744, (1154 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr6:0-170805979); values encountered: ['171051005', '170982430', '170982431', '(32 more)']
+ERROR: data_cna_hg38.seg: lines [574, 1112, 1888, (1049 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr8:0-145138636); values encountered: ['146298155', '145685474', '145685475', '(196 more)']
+ERROR: data_cna_hg38.seg: lines [591, 1123, 1124, (1931 more)]: columns [4, 3]: Genomic position beyond end of chromosome (chr9:0-138394717); values encountered: ['141091394', '140242613', '140242614', '(520 more)']
+ERROR: data_cna_hg38.seg: lines [603, 1137, 1966, (906 more)]: column 4: Genomic position beyond end of chromosome (chrY:0-57227415); value encountered: '59018259'
+INFO: data_cna_hg38.seg: Validation of file complete
+INFO: data_cna_hg38.seg: Read 760193 lines. Lines with warning: 0. Lines with error: 20043
+
+INFO: -: Validation complete

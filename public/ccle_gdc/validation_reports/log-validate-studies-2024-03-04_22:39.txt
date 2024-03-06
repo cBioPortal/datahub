@@ -1,0 +1,34 @@
+=== Validation study: ./generated_data/ccle/ccle_gdc
+DEBUG: -: Requesting info from portal at 'https://www.cbioportal.org'
+DEBUG: -: Requesting cancer-types from portal at 'https://www.cbioportal.org'
+DEBUG: -: Requesting genes from portal at 'https://www.cbioportal.org'
+DEBUG: -: Requesting genesets from portal at 'https://www.cbioportal.org'
+DEBUG: -: Requesting genesets_version from portal at 'https://www.cbioportal.org'
+DEBUG: -: Requesting gene-panels from portal at 'https://www.cbioportal.org'
+
+DEBUG: meta_clinical_patient.txt: Starting validation of meta file
+INFO: meta_clinical_patient.txt: Validation of meta file complete
+
+DEBUG: meta_clinical_sample.txt: Starting validation of meta file
+INFO: meta_clinical_sample.txt: Validation of meta file complete
+
+DEBUG: meta_cna_hg38_seg.txt: Starting validation of meta file
+INFO: meta_cna_hg38_seg.txt: Validation of meta file complete
+
+DEBUG: -: Retrieving chromosome lengths from '/Users/jko/Code/nci-crdc-pipeline/scripts/importer/chromosome_sizes.json'
+
+DEBUG: meta_mutations.txt: Starting validation of meta file
+INFO: meta_mutations.txt: Validation of meta file complete
+
+DEBUG: meta_study.txt: Starting validation of meta file
+WARNING: meta_study.txt: Unrecognized field in meta file; value encountered: 'short_name'
+INFO: meta_study.txt: Validation of meta file complete
+INFO: meta_study.txt: Setting reference genome to human (GRCh38, hg38)
+
+ERROR: -: Cancer type of study is neither known to the portal nor defined in a cancer_type file; value encountered: ''
+
+DEBUG: data_clinical_sample.txt: Starting validation of file
+WARNING: data_clinical_sample.txt: line 1: No data type definition headers found in clinical data file
+ERROR: data_clinical_sample.txt: Invalid header comments, file cannot be parsed
+
+ERROR: -: Sample file could not be parsed. Please fix the problems found there first before continuing.

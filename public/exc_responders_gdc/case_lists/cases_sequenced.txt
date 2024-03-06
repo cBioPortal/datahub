@@ -1,0 +1,6 @@
+cancer_study_identifier: exc_responders_gdc
+stable_id: exc_responders_gdc_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (23 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: ER-B0CR-TTP1-A	ER-ADIN-TTM1-A	ER-ADRU-TTP1-A	ER-ABF0-TTP1-A	ER-AE8R-TTP1-A	ER-AC0F-TTP2-A	ER-AC0F-TTP1-A	ER-AE8R-TTM1-A	ER-B0C3-TTM1-A	ER-ABDX-TTP1-A	ER-ACFR-TTP1-A	ER-ACGR-TTP1-A	ER-AFAH-TTP1-A	ER-AD8S-TTP1-A	ER-AC8A-TTM1-A	ER-ABO1-TTP1-A	ER-ADBL-TTM1-A	ER-B0BV-TTM1-A	ER-ACGR-TTM1-A	ER-AD7D-TTM1-A	ER-B0GF-TTM1-A	ER-AEK6-TTM1-A	ER-ADXD-TTP1-A
