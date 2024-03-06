@@ -1,0 +1,8 @@
+type_of_cancer: mixed
+cancer_study_identifier: ccle_broad_2023
+name: Cancer Cell Line Encyclopedia (Broad, 2023)
+short_name: CCLE (BROAD 2023)
+description: Cancer Cell Line Encyclopedia data from the Broad Institute and Novartis, 2023 update. Whole genome and whole exome sequencing of 1,921 samples from 1,072 cell lines of a variety of cancer types. Data is retrieved from DepMap portal (23Q4 update). 
+pmid: 31068700
+citation: Ghandi et al. Nature 2019
+reference_genome: hg38
