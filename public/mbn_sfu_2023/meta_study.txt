@@ -1,7 +1,7 @@
 cancer_study_identifier: mbn_sfu_2023
 type_of_cancer: mbn
 name: Mature B-Cell Neoplasms (Simon Fraser University, Blood 2023)
-description: Whole-genome sequencing of 297 pediatric burrkitt lymphoma (BL) and diffuse large B-cell lymphoma (DLBCL) patient tumors and their matched normals. 
+description: Comprehensive whole-genome sequencing of 297 Burrkitt Lymphoma (BL) and diffuse large B-cell lymphoma (DLBCL) samples and their matched normals. 
 pmid: 36201743
 citation: Thomas et al. Blood 2023
 reference_genome: hg38
