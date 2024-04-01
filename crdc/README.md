@@ -1,10 +1,12 @@
 # NCI-CRDC Datahub
 
-The [Cancer Research Data Commons (CRDC)](https://datacommons.cancer.gov/) is an initiative by the National Cancer Institute (NCI) that provides access to multiple cancer data sources from the federal government. Sources include the [Genomic Data Commons (GDC)](https://gdc.cancer.gov/), [Proteomic Data Commons (PDC)](https://proteomic.datacommons.cancer.gov/pdc/), and others.
+The [Cancer Research Data Commons (CRDC)](https://datacommons.cancer.gov/) is an initiative by the National Cancer Institute (NCI) that provides access to multiple cancer data sources from the federal government. Data sources include:
+
+- [Genomic Data Commons (GDC)](https://gdc.cancer.gov/)
 
 This directory contains NCI-CRDC studies generated using the [ISB-CGC portal](https://isb-cgc.appspot.com/). Data is pulled from the ISB-CGC BigQuery tables once every 3 months and reflects the latest data available for each study. More details about methods and data transformations can be found in the README files for each individual study.
 
-## Program Overview
+## GDC Program Overview
 
 ### TCGA
 
