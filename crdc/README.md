@@ -8,6 +8,8 @@ This directory contains NCI-CRDC studies generated using the [ISB-CGC portal](ht
 
 ## GDC Program Overview
 
+Supported programs:
+
 - [TCGA](#tcga)
 - [CPTAC](#cptac)
 - [TARGET](#target)
