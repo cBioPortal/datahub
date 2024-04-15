@@ -1,0 +1,6 @@
+cancer_study_identifier: prad_msk_mdanderson_2023
+stable_id: prad_msk_mdanderson_2023_cna
+case_list_name: Samples with CNA data
+case_list_description: Samples with CNA data
+case_list_category: all_cases_with_cna_data
+case_list_ids: MDA-PCa-117-9	MDA-PCa-118b	MDA-PCa-133-4	MDA-PCa-144-4	MDA-PCa-144-13	MDA-PCa-146-10	MDA-PCa-146-12	MDA-PCa-150-7	MDA-PCa-152-1	MDA-PCa-153-7	MDA-PCa-155-2	MDA-PCa-163-A	MDA-PCa-173-2	MDA-PCa-174-6	MDA-PCa-175-6	MDA-PCa-177-B	MDA-PCa-178-11	MDA-PCa-180-30	MDA-PCa-183-A	MDA-PCa-200-0	MDA-PCa-203-A	MDA-PCa-250-15	MDA-PCa-265-8	MDA-PCa-266-A	MDA-PCa-270-A	MDA-PCa-273-A	MDA-PCa-274-2	MDA-PCa-277-6	MDA-PCa-280-9	MDA-PCa-285-3	MDA-PCa-306-14	MDA-PCa-312-7	MDA-PCa-315-8	MDA-PCa-316-1	MDA-PCa-316-2	MDA-PCa-320-1	MDA-PCa-322-2	MDA-PCa-327-2	MDA-PCa-328-5	MDA-PCa-337-A	MDA-PCa-342-B	MDA-PCa-352-8	MDA-PCa-355-9	MDA-PCa-377-1
