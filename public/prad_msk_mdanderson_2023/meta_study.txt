@@ -1,6 +1,6 @@
 type_of_cancer: prostate
 cancer_study_identifier: prad_msk_mdanderson_2023
-name: Prostate Cancer MDA PCa PDX (MD Anderson, 2023)
-description: Targeted sequencingand whole-genome sequencing of 44 MD Anderson Prostate Cancer PDX models derived from 38 patients with tumor.
+name: Prostate Cancer MDA PCa PDX (MD Anderson, Clin Cancer Res 2024)
+description: Targeted sequencing and whole-genome sequencing of 44 MD Anderson Prostate Cancer PDX models derived from 38 patients with tumor.
 pmid: 38488813
 citation: Anselmino et al. Clin Cancer Res 2024
