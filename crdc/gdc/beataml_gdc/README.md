@@ -66,11 +66,48 @@
 
 ### Clinical patient
 
-**TODO**
+| Original | cBioPortal |
+|---|---|
+| case_id | OTHER_PATIENT_ID |
+| demo__age_at_index | AGE_AT_INDEX |
+| demo__demographic_id | DEMOGRAPHIC_ID |
+| demo__ethnicity | ETHNICITY |
+| demo__gender | GENDER |
+| demo__race | RACE |
+| demo__vital_status | VITAL_STATUS |
+| diag__age_at_diagnosis | AGE |
+| diag__anno__annotation_id | ANNOTATION_ID |
+| diag__anno__category | ANNOTATION_CATEGORY |
+| diag__anno__classification | ANNOTATION_CLASSIFICATION |
+| diag__anno__entity_id | ENTITY_ID |
+| diag__anno__entity_type | ENTITY_TYPE |
+| diag__anno__notes | ANNOTATION_NOTES |
+| diag__diagnosis_id | DIAGNOSIS_ID |
+| diag__eln_risk_classification | ELN_RISK_CLASSIFICATION |
+| diag__morphology | MORPHOLOGY |
+| diag__primary_diagnosis | PRIMARY_DIAGNOSIS |
+| diag__progression_or_recurrence | PROGRESSION_OR_RECURRENCE |
+| diag__tissue_or_organ_of_origin | SAMPLE_ORIGIN |
+| disease_type | TUMOR_TYPE |
+| index_date | INDEX_DATE |
+| primary_site | PRIMARY_SITE_PATIENT |
+| proj__name | PROJECT_NAME |
+| proj__project_id | PROJECT_ID |
+| submitter_id | PATIENT_ID |
+
 
 ### Clinical sample
 
-**TODO**
+| Original | cBioPortal |
+|---|---|
+| case_barcode | PATIENT_ID |
+| sample_barcode | SAMPLE_ID |
+| sample_gdc_id | OTHER_SAMPLE_ID |
+| sample_type_name | SAMPLE_TYPE |
+| primary_site | PRIMARY_SITE |
+| days_to_collection | DAYS_TO_COLLECTION |
+| days_to_sample_procurement | DAYS_TO_SPECIMEN_COLLECTION |
+| is_ffpe | IS_FFPE |
 
 ### Segment
 

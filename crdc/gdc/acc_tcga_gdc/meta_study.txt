@@ -1,8 +1,7 @@
-type_of_cancer: ACC
+type_of_cancer: acc
 cancer_study_identifier: acc_tcga_gdc
 name: Adrenocortical Carcinoma (TCGA, GDC)
 short_name: ACC
 description: TCGA Adrenocortical Carcinoma. Source data from GDC and generated using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
 reference_genome: hg38
-add_global_case_list: true
 groups: PUBLIC

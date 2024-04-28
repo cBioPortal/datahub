@@ -1,8 +1,7 @@
-type_of_cancer: ESCA
+type_of_cancer: esca
 cancer_study_identifier: esca_tcga_gdc
 name: Esophageal Adenocarcinoma (TCGA, GDC)
 short_name: ESCA
 description: TCGA Esophageal Adenocarcinoma. Source data from GDC and generated using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
 reference_genome: hg38
-add_global_case_list: true
 groups: PUBLIC

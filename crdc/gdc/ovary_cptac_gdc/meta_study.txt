@@ -1,8 +1,7 @@
-type_of_cancer: OVARY
+type_of_cancer: ovary
 cancer_study_identifier: ovary_cptac_gdc
 name: Ovary/Fallopian Tube (CPTAC, GDC)
 short_name: OVARY
 description: CPTAC Ovary/Fallopian Tube. Source data from GDC and generated using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
 reference_genome: hg38
-add_global_case_list: true
 groups: PUBLIC
