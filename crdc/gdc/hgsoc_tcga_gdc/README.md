@@ -5,21 +5,18 @@
 - Study is updated once every 3 months with latest data from [ISB-CGC BigQuery tables](https://isb-cgc.appspot.com/bq_meta_search/)
   - The ISB-CGC tables allow easy access to data collected from multiple NCI-CRDC repositories including the GDC, PDC, and others. The TCGA data in this study comes from the GDC and is accessed through these tables.
 - Reference genome used: hg38
-
-  - This is the primary difference between this study and the legacy TCGA studies (PanCan / provisional), which use the hg19 genome. See [here](https://broadinstitute.atlassian.net/wiki/spaces/GDAC/pages/844334036/FAQ#FAQ-EndOfTCGAQ%3AIunderstandthatTCGAdatahasmigratedtotheGDC%2CbutwhydoIseediscrepanciesbetweenGDCandFireBrowse%3F) for more information.
-
+- This is the primary difference between this study and the legacy TCGA studies (PanCan / provisional), which use the hg19 genome. See [here](https://broadinstitute.atlassian.net/wiki/spaces/GDAC/pages/844334036/FAQ#FAQ-EndOfTCGAQ%3AIunderstandthatTCGAdatahasmigratedtotheGDC%2CbutwhydoIseediscrepanciesbetweenGDCandFireBrowse%3F) for more information.
 - Only tumor sample data is included (no normal samples)
 
 ## Clinical data
 
 - **Patient data:** Retrieved from `isb-cgc-bq.TCGA.clinical_gdc_current`
-- **Sample data:** Retrieved from ``
+- **Sample data:** Retrieved from `isb-cgc-bq.TCGA.per_sample_file_metadata_hg38_gdc_current`
 
 ### Survival data
 
-- `OS_STATUS` is converted from `demo__vital_status` if present
-- `OS_MONTHS` is converted from `demo__days_to_death` if present, falls back to `diag__days_to_last_follow_up`
-
+- `OS_STATUS` is converted from `demo__vital_status`
+- `OS_MONTHS` is converted from `demo__days_to_death`, falls back to `diag__days_to_last_follow_up`
 - `DFS_STATUS` and `DFS_MONTHS` are unavailable from BigQuery, so instead they're pulled from existing TCGA studies in Datahub.
   - The corresponding PanCan study is checked first, then the legacy TCGA study
 
@@ -49,7 +46,7 @@
 ## mRNA Expression data
 
 - Retrieved from `isb-cgc-bq.TCGA.RNAseq_hg38_gdc_current`
-- The `unstranded` and `fpkm_uq_unstranded` columns are pulled and each mapped to their own data file.
+- The `unstranded`, `tpm_unstranded`, and `fpkm_uq_unstranded` columns are pulled and each mapped to their own data file.
   - The regular FPKM values are excluded because [FPKM-UQ provides a more stable metric](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Expression_mRNA_Pipeline/#upper-quartile-fpkm).
 - Transformations: see [Genomic data transformations](#genomic-data-transformations)
 
@@ -146,6 +143,7 @@
 | days_to_sample_procurement | DAYS_TO_SPECIMEN_COLLECTION |
 | is_ffpe | IS_FFPE |
 
+
 ### Segment
 
 | Original | cBioPortal |
@@ -156,6 +154,7 @@
 | end_pos | loc.end |
 | num_probes | num.mark |
 | segment_mean | seg.mean |
+
 
 ### Mutation
 

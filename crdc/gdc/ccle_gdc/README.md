@@ -11,15 +11,14 @@
 ## Clinical data
 
 - **Patient data:** Retrieved from `isb-cgc-bq.CCLE.clinical_gdc_current`
-- **Sample data:** Retrieved from ``
+- **Sample data:** Retrieved from `isb-cgc-bq.CCLE.per_sample_file_metadata_hg38_gdc_current`
 
 ### Survival data
 
-- `OS_STATUS` is converted from `demo__vital_status` if present
-- `OS_MONTHS` is converted from `demo__days_to_death` if present, falls back to `diag__days_to_last_follow_up`
 
-- `DFS_STATUS` is converted from `diag_progression_or_recurrence` / `follow_progression_or_recurrence` if present
-- `DFS_MONTHS` is converted from `diag__days_to_recurrence` / `follow__days_to_recurrence` if present, falls back to `OS_MONTHS`
+
+
+
 
 
 ### Other transformations
@@ -33,7 +32,7 @@
 ## mRNA Expression data
 
 - Retrieved from `isb-cgc-bq.CCLE.RNAseq_hg38_gdc_current`
-- The `unstranded` and `fpkm_uq_unstranded` columns are pulled and each mapped to their own data file.
+- The `unstranded`, `tpm_unstranded`, and `fpkm_uq_unstranded` columns are pulled and each mapped to their own data file.
   - The regular FPKM values are excluded because [FPKM-UQ provides a more stable metric](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Expression_mRNA_Pipeline/#upper-quartile-fpkm).
 - Transformations: see [Genomic data transformations](#genomic-data-transformations)
 
@@ -70,11 +69,23 @@
 
 ### Clinical patient
 
-**TODO**
+| Original | cBioPortal |
+|---|---|
+
 
 ### Clinical sample
 
-**TODO**
+| Original | cBioPortal |
+|---|---|
+| case_barcode | PATIENT_ID |
+| sample_barcode | SAMPLE_ID |
+| sample_gdc_id | OTHER_SAMPLE_ID |
+| sample_type_name | SAMPLE_TYPE |
+| primary_site | PRIMARY_SITE |
+| days_to_collection | DAYS_TO_COLLECTION |
+| days_to_sample_procurement | DAYS_TO_SPECIMEN_COLLECTION |
+| is_ffpe | IS_FFPE |
+
 
 ### Segment
 
@@ -86,6 +97,7 @@
 | end_pos | loc.end |
 | num_probes | num.mark |
 | segment_mean | seg.mean |
+
 
 ### Mutation
 
