@@ -13,6 +13,7 @@ Supported programs:
 - [TCGA](#tcga)
 - [CPTAC](#cptac)
 - [TARGET](#target)
+- [BEATAML](#beataml)
 
 ### TCGA
 
@@ -91,3 +92,7 @@ Supported programs:
 - `nbl_target_gdc`: [TARGET-NBL](https://portal.gdc.cancer.gov/projects/TARGET-NBL), Neuroblastoma
 - `os_target_gdc`: [TARGET-OS](https://portal.gdc.cancer.gov/projects/TARGET-OS), Osteosarcoma
 - `wt_target_gdc`: [TARGET-WT](https://portal.gdc.cancer.gov/projects/TARGET-WT), High-Risk Wilms Tumor
+
+### BEATAML
+
+Data from BEATAML is available under a single study `beataml_gdc`. [GDC link](https://portal.gdc.cancer.gov/projects/BEATAML1.0-COHORT)
