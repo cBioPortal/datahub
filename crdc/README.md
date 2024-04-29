@@ -8,6 +8,12 @@ This directory contains NCI-CRDC studies generated using the [ISB-CGC portal](ht
 
 ## GDC Program Overview
 
+Supported programs:
+
+- [TCGA](#tcga)
+- [CPTAC](#cptac)
+- [TARGET](#target)
+
 ### TCGA
 
 - **Cancer type mapping:** Each study corresponds to one TCGA project. The suffix of the TCGA project is taken and converted to an OncoTree code, which is used for the name of the study.
