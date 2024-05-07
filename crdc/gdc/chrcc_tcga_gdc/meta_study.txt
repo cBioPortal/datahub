@@ -1,0 +1,7 @@
+type_of_cancer: chrcc
+cancer_study_identifier: chrcc_tcga_gdc
+name: Chromophobe Renal Cell Carcinoma (TCGA, GDC)
+short_name: CHRCC
+description: TCGA Chromophobe Renal Cell Carcinoma. Source data from GDC and generated in May 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+reference_genome: hg38
+groups: PUBLIC

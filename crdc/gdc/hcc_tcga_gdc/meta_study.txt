@@ -1,0 +1,7 @@
+type_of_cancer: hcc
+cancer_study_identifier: hcc_tcga_gdc
+name: Hepatocellular Carcinoma (TCGA, GDC)
+short_name: HCC
+description: TCGA Hepatocellular Carcinoma. Source data from GDC and generated in May 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+reference_genome: hg38
+groups: PUBLIC
