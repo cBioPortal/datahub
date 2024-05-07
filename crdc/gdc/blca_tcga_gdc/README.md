@@ -10,8 +10,8 @@
 
 ## Clinical data
 
-- **Patient data:** Retrieved from `isb-cgc-bq.TCGA.clinical_gdc_current`
-- **Sample data:** Retrieved from `isb-cgc-bq.TCGA.per_sample_file_metadata_hg38_gdc_current`
+- **Patient data:** Retrieved from `isb-cgc-bq.TCGA_versioned.clinical_gdc_r39`. ISB-CGC data was created in December 2023.
+- **Sample data:** Retrieved from `isb-cgc-bq.TCGA_versioned.biospecimen_gdc_2017_02`. ISB-CGC data was created in April 2017.
 
 ### Survival data
 
@@ -29,7 +29,7 @@
 
 ## CNA data
 
-- Retrieved from `isb-cgc-bq.TCGA.copy_number_gene_level_hg38_gdc_current`
+- Retrieved from `isb-cgc-bq.TCGA_versioned.copy_number_gene_level_hg38_gdc_r36`. ISB-CGC data was created in March 2023.
 - Transformations
   - Copy number values from the BigQuery tables are converted from [ASCAT](https://www.pnas.org/doi/10.1073/pnas.1009843107https://www.pnas.org/doi/10.1073/pnas.1009843107) to GISTIC 2.0 using the following thresholds:
 
@@ -45,7 +45,7 @@
 
 ## mRNA Expression data
 
-- Retrieved from `isb-cgc-bq.TCGA.RNAseq_hg38_gdc_current`
+- Retrieved from `isb-cgc-bq.TCGA_versioned.RNAseq_hg38_gdc_r35`. ISB-CGC data was created in December 2022.
 - The `unstranded`, `tpm_unstranded`, and `fpkm_uq_unstranded` columns are pulled and each mapped to their own data file.
   - The regular FPKM values are excluded because [FPKM-UQ provides a more stable metric](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Expression_mRNA_Pipeline/#upper-quartile-fpkm).
 - Transformations: see [Genomic data transformations](#genomic-data-transformations)
@@ -54,12 +54,12 @@
 
 ## Segment data
 
-- Retrieved from `isb-cgc-bq.TCGA.copy_number_segment_masked_hg38_gdc_current`
+- Retrieved from `isb-cgc-bq.TCGA_versioned.copy_number_segment_masked_hg38_gdc_r14`. ISB-CGC data was created in December 2018.
 
 
 ## Mutation data
 
-- Retrieved from `isb-cgc-bq.TCGA.masked_somatic_mutation_hg38_gdc_current`
+- Retrieved from `isb-cgc-bq.TCGA_versioned.masked_somatic_mutation_hg38_gdc_r36`. ISB-CGC data was created in March 2023.
 - The MAF is annotated with Genome Nexus in order to avoid issues with the isoform mapping. Parameters used:
   - Endpoint: https://grch38.genomenexus.org/
   - Isoform override: mskcc

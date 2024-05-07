@@ -10,8 +10,8 @@
 
 ## Clinical data
 
-- **Patient data:** Retrieved from `isb-cgc-bq.CPTAC.clinical_gdc_current`
-- **Sample data:** Retrieved from `isb-cgc-bq.CPTAC.per_sample_file_metadata_hg38_gdc_current`
+- **Patient data:** Retrieved from `isb-cgc-bq.CPTAC_versioned.clinical_gdc_r39`. ISB-CGC data was created in December 2023.
+- **Sample data:** Retrieved from `isb-cgc-bq.CPTAC_versioned.per_sample_file_metadata_hg38_gdc_r39`. ISB-CGC data was created in December 2023.
 
 ### Survival data
 
@@ -29,7 +29,7 @@
 
 ## CNA data
 
-- Retrieved from `isb-cgc-bq.CPTAC.copy_number_gene_level_hg38_gdc_current`
+- Retrieved from `isb-cgc-bq.CPTAC_versioned.copy_number_gene_level_hg38_gdc_r36`. ISB-CGC data was created in March 2023.
 - Transformations
   - Copy number values from the BigQuery tables are converted from [ASCAT](https://www.pnas.org/doi/10.1073/pnas.1009843107https://www.pnas.org/doi/10.1073/pnas.1009843107) to GISTIC 2.0 using the following thresholds:
 
@@ -45,7 +45,7 @@
 
 ## mRNA Expression data
 
-- Retrieved from `isb-cgc-bq.CPTAC.RNAseq_hg38_gdc_current`
+- Retrieved from `isb-cgc-bq.CPTAC_versioned.RNAseq_hg38_gdc_r35`. ISB-CGC data was created in December 2022.
 - The `unstranded`, `tpm_unstranded`, and `fpkm_uq_unstranded` columns are pulled and each mapped to their own data file.
   - The regular FPKM values are excluded because [FPKM-UQ provides a more stable metric](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Expression_mRNA_Pipeline/#upper-quartile-fpkm).
 - Transformations: see [Genomic data transformations](#genomic-data-transformations)
@@ -55,7 +55,7 @@
 
 ## Mutation data
 
-- Retrieved from `isb-cgc-bq.CPTAC.masked_somatic_mutation_hg38_gdc_current`
+- Retrieved from `isb-cgc-bq.CPTAC_versioned.masked_somatic_mutation_hg38_gdc_r37`. ISB-CGC data was created in October 2023.
 - The MAF is annotated with Genome Nexus in order to avoid issues with the isoform mapping. Parameters used:
   - Endpoint: https://grch38.genomenexus.org/
   - Isoform override: mskcc
