@@ -1,0 +1,6 @@
+cancer_study_identifier: cnf_lee_nfosi_2023
+type_of_cancer: cnf
+name: 'Modeling Cutaneous Neurofibroma with tunable human Schwann cell line'
+description: Gene expression of Cutaneous Neurofibroma cell line
+groups: PUBLIC
+add_global_case_list: true
