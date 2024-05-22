@@ -4,5 +4,5 @@ datatype: MAF
 stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_name: Mutations
-profile_description: Mutation data from NF-OSI processing.
+profile_description: Mutation data from NF-OSI processing. The data were processed using the "sarek" nf-core pipeline.
 data_filename: data_mutations.txt
