@@ -21,11 +21,20 @@
   - The corresponding PanCan study is checked first, then the legacy TCGA study
 
 
+### Timeline data
+
+The following event types are available in the timeline files:
+
+- `Initial Diagnosis`
+- `BIRTH`
+- `DECEASED`
+- `Last Follow Up`
+- `Sample Acquisition`
 ### Other transformations
 
 - `RACE` and `ETHNICITY` are capitalized.
 - `AGE` is clipped from 18 to 89.
-
+- `"not reported"` values are converted to `null`.
 
 ## CNA data
 
@@ -41,8 +50,6 @@
 | 2 &lt; X &le; 8 | 1 |
 | 8 &lt; X | 2 |
 
-
-
 ## mRNA Expression data
 
 - Retrieved from `isb-cgc-bq.TCGA_versioned.RNAseq_hg38_gdc_r35`. ISB-CGC data was created in December 2022.
@@ -50,12 +57,9 @@
   - The regular FPKM values are excluded because [FPKM-UQ provides a more stable metric](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Expression_mRNA_Pipeline/#upper-quartile-fpkm).
 - Transformations: see [Genomic data transformations](#genomic-data-transformations)
 
-
-
 ## Segment data
 
 - Retrieved from `isb-cgc-bq.TCGA_versioned.copy_number_segment_masked_hg38_gdc_r14`. ISB-CGC data was created in December 2018.
-
 
 ## Mutation data
 
@@ -90,7 +94,7 @@
 | demo__days_to_birth | DAYS_TO_BIRTH |
 | demo__days_to_death | DAYS_TO_DEATH |
 | demo__ethnicity | ETHNICITY |
-| demo__gender | GENDER |
+| demo__gender | SEX |
 | demo__race | RACE |
 | demo__vital_status | VITAL_STATUS |
 | demo__year_of_birth | BIRTH_YEAR |
@@ -143,7 +147,6 @@
 | days_to_sample_procurement | DAYS_TO_SPECIMEN_COLLECTION |
 | is_ffpe | IS_FFPE |
 
-
 ### Segment
 
 | Original | cBioPortal |
@@ -154,7 +157,6 @@
 | end_pos | loc.end |
 | num_probes | num.mark |
 | segment_mean | seg.mean |
-
 
 ### Mutation
 
