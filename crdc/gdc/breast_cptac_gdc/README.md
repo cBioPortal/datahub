@@ -21,11 +21,24 @@
 - `DFS_STATUS` is converted from `diag_progression_or_recurrence` / `follow_progression_or_recurrence`
 - `DFS_MONTHS` is converted from `diag__days_to_recurrence` / `follow__days_to_recurrence`, falls back to `OS_MONTHS`
 
+### Timeline data
+
+The following event types are available in the timeline files:
+
+- `Initial Diagnosis`
+- `BIRTH`
+- `DECEASED`
+- `Last Follow Up`
+- `Consented`
+- `Lost to Follow Up`
+- `Last Known Disease Status`
+- `Recurrence`
+- `Sample Acquisition`
 ### Other transformations
 
 - `RACE` and `ETHNICITY` are capitalized.
 - `AGE` is clipped from 18 to 89.
-
+- `"not reported"` values are converted to `null`.
 
 ## CNA data
 
@@ -41,15 +54,12 @@
 | 2 &lt; X &le; 8 | 1 |
 | 8 &lt; X | 2 |
 
-
-
 ## mRNA Expression data
 
 - Retrieved from `isb-cgc-bq.CPTAC_versioned.RNAseq_hg38_gdc_r35`. ISB-CGC data was created in December 2022.
 - The `unstranded`, `tpm_unstranded`, and `fpkm_uq_unstranded` columns are pulled and each mapped to their own data file.
   - The regular FPKM values are excluded because [FPKM-UQ provides a more stable metric](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Expression_mRNA_Pipeline/#upper-quartile-fpkm).
 - Transformations: see [Genomic data transformations](#genomic-data-transformations)
-
 
 
 
@@ -86,7 +96,7 @@
 | demo__days_to_birth | DAYS_TO_BIRTH |
 | demo__days_to_death | DAYS_TO_DEATH |
 | demo__ethnicity | ETHNICITY |
-| demo__gender | GENDER |
+| demo__gender | SEX |
 | demo__race | RACE |
 | demo__vital_status | VITAL_STATUS |
 | demo__year_of_birth | BIRTH_YEAR |
@@ -137,7 +147,6 @@
 | follow__bmi | BMI |
 | follow__cdc_hiv_risk_factors | CDC_HIV_RISK_FACTORS |
 | follow__comorbidity | COMORBIDITY |
-| follow__days_to_follow_up | DAYS_TO_FOLLOW_UP |
 | follow__days_to_recurrence | DAYS_TO_RECURRENCE |
 | follow__diabetes_treatment_type | DIABETES_TX_TYPE |
 | follow__disease_response | DISEASE_RESPONSE |
