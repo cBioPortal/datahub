@@ -15,6 +15,8 @@
 
 ### Survival data
 
+Survival fields are calculated from the clinical data and added as new columns in the clinical file.
+
 - `OS_STATUS` is converted from `demo__vital_status`
 - `OS_MONTHS` is converted from `demo__days_to_death`, falls back to `diag__days_to_last_follow_up`
 
@@ -23,7 +25,9 @@
 
 ### Timeline data
 
-The following event types are available in the timeline files:
+Timeline data is extracted from the clinical data and stored in a separate data file. After extraction, the corresponding BigQuery fields are removed from the clinical file. For example, a timeline status of `BIRTH` corresponds to the BigQuery field `demo__days_to_birth`.
+
+The following status values are supported in `data_timeline_status.txt`:
 
 - `Initial Diagnosis`
 - `BIRTH`
@@ -33,12 +37,11 @@ The following event types are available in the timeline files:
 - `Lost to Follow Up`
 - `Last Known Disease Status`
 - `Recurrence`
-- `Sample Acquisition`
 ### Other transformations
 
 - `RACE` and `ETHNICITY` are capitalized.
 - `AGE` is clipped from 18 to 89.
-- `"not reported"` values are converted to `null`.
+- `"not reported"` values are replaced with blanks.
 
 ## CNA data
 
