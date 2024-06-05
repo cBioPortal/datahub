@@ -42,6 +42,7 @@ The following status values are supported in `data_timeline_status.txt`:
 - `RACE` and `ETHNICITY` are capitalized.
 - `AGE` is clipped from 18 to 89.
 - `"not reported"` values are replaced with blanks.
+- If a clinical field is missing for the entire study, the column is removed from the data file.
 
 ## CNA data
 
