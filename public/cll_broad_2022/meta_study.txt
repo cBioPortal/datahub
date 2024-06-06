@@ -1,0 +1,6 @@
+cancer_study_identifier: cll_broad_2022
+type_of_cancer: cllsll
+name: Chronic Lymphocytic Leukemia (Broad, Nature Genetics 2022)
+description: Whole genome and whole exome sequencing of 1,154 samples from 1,148 patients with Chronic Lymphocytic Leukemia and monoclonal B cell lymphocytosis and their matched normals.
+pmid: 35927489
+citation: Knisbacher et al. Nature 2022
