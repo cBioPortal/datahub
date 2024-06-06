@@ -2,6 +2,6 @@ type_of_cancer: stad
 cancer_study_identifier: stad_tcga_gdc
 name: Stomach Adenocarcinoma (TCGA, GDC)
 short_name: STAD
-description: TCGA Stomach Adenocarcinoma. Source data from GDC and generated in May 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+description: TCGA Stomach Adenocarcinoma. Source data from GDC and generated in Jun 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
 reference_genome: hg38
 groups: PUBLIC

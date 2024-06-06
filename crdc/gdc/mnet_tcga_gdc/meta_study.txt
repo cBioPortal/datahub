@@ -2,6 +2,6 @@ type_of_cancer: mnet
 cancer_study_identifier: mnet_tcga_gdc
 name: Miscellaneous Neuroepithelial Tumor (TCGA, GDC)
 short_name: MNET
-description: TCGA Miscellaneous Neuroepithelial Tumor. Source data from GDC and generated in May 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+description: TCGA Miscellaneous Neuroepithelial Tumor. Source data from GDC and generated in Jun 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
 reference_genome: hg38
 groups: PUBLIC

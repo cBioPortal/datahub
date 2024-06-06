@@ -48,7 +48,7 @@
         <h1>cBioPortal validation report</h1>
         <p>Study directory:<br />./generated_data/um_tcga_gdc</p>
         <p>For details, please see <a href='https://github.com/cbioportal/cbioportal/blob/master/docs/File-Formats.md'>the documentation on file formats supported by cBioPortal</a></p>
-        <p>cBioPortal version 6.0.6</p>
+        <p>cBioPortal version 6.0.8</p>
       </div>
     </div>
 
@@ -373,14 +373,14 @@
         </div>
       </div>
 
-      <div class="panel panel-success">
+      <div class="panel panel-warning">
         <div class="panel-heading" role="tab"
              id="heading_ZGF0YV9jbGluaWNhbF9wYXRpZW50LnR4dA">
-          <span class="header-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><span class="sr-only">Info</span></span>
+          <span class="header-icon"><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></span>
           <a role="button" data-toggle="collapse" aria-expanded="true"
              href="#collapse_ZGF0YV9jbGluaWNhbF9wYXRpZW50LnR4dA",
              aria-controls="collapse_ZGF0YV9jbGluaWNhbF9wYXRpZW50LnR4dA">
-            <span class="badge">3</span>
+            <span class="badge">4</span>
             <h4 class="panel-title">data_clinical_patient.txt</h4>
           </a>
         </div>
@@ -405,6 +405,14 @@
                 <td>&ndash;</td>
                 <td>&ndash;</td>
                 <td>Starting validation of file</td>
+                <td>&ndash;</td>
+                <td></td>
+              </tr>
+              <tr class="warning">
+                <td><span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span><span class="sr-only">Warning</span></td>
+                <td>&ndash;</td>
+                <td>&ndash;</td>
+                <td>Columns DFS_MONTHS and/or DFS_STATUS not found. Disease free analysis feature will not be available for this study.</td>
                 <td>&ndash;</td>
                 <td></td>
               </tr>
