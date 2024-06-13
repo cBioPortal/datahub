@@ -3,8 +3,8 @@ genetic_alteration_type: GENERIC_ASSAY
 generic_assay_type: SINGLE_CELL_RELATIVE_CELL_TYPE_COUNTS
 datatype: LIMIT-VALUE
 stable_id: cell_type_relative_counts
-profile_name: Relative Fractions
-profile_description: Relative Fractions.
+profile_name: Cell Type Relative Fractions
+profile_description: Cell Type Relative Fractions.
 data_filename: data_relative_fraction.txt
 show_profile_in_analysis_tab: true
 pivot_threshold_value: 0.000001
