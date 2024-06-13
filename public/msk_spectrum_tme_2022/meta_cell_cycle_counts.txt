@@ -3,8 +3,8 @@ genetic_alteration_type: GENERIC_ASSAY
 generic_assay_type: SINGLE_CELL_ABSOLUTE_CELL_CYCLE_COUNTS
 datatype: LIMIT-VALUE
 stable_id: cell_cycle_stage_absolute_counts
-profile_name: Absolute Counts
-profile_description: Absolute Counts.
+profile_name: Cell Cycle Absolute Counts
+profile_description: Cell Cycle Absolute Counts
 data_filename: data_cell_cycle_counts.txt
 show_profile_in_analysis_tab: true 
 pivot_threshold_value: 0
