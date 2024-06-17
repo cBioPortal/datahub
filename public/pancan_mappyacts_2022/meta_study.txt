@@ -1,7 +1,7 @@
 type_of_cancer: mixed
 cancer_study_identifier: pancan_mappyacts_2022
 name: Pediatric MAPPYACTS (Gustave Roussy, Cancer Discov 2022)
-description: Whole-exome sequencing of 674 pediatric samples on multiple pathologies driven on mappyacts program.
+description: Whole-exome sequencing of 674 pediatric matched normal samples on multiple pathologies driven on mappyacts program.
 citation: Berlanga et al. Cancer Discov 2022
 pmid: 35292802
 reference_genome: hg38
