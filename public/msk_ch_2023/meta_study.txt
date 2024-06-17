@@ -1,0 +1,6 @@
+cancer_study_identifier: msk_ch_2023
+type_of_cancer: mixed
+name: Cancer Therapy and Clonal Hematopoiesis (MSK, Blood Adv 2023)
+description: Targeted sequencing of 47,532 patient samples with mixed tumor types and their matched normals to identify clonal hematopoiesis mutations using MSK-IMPACT.
+pmid: 38147626
+citation: Stonestrom et al. Blood Adv 2023
