@@ -1,0 +1,6 @@
+cancer_study_identifier: pancan_mappyacts_2022
+stable_id: pancan_mappyacts_2022_sv
+case_list_name: Samples with SV data
+case_list_description: All samples with SV data (57 samples)
+case_list_category: all_cases_with_sv_data
+case_list_ids: Map009	Map021	Map039	Map051	Map053	Map075	Map099	Map120	Map132	Map135	Map140	Map169	Map178	Map194	Map221	Map223	Map233	Map246	Map254	Map270	Map280	Map304	Map327	Map328	Map340	Map341	Map363	Map373	Map377	Map381	Map427	Map438	Map472	Map486	Map500	Map510	Map513	Map549	Map566	Map574	Map580	Map587	Map611	Map618	Map636	Map645	Map650	Map661	Map676	Map679	Map701	Map713	Map721	Map733	Map734	Map749	Map778
