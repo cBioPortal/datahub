@@ -1,0 +1,8 @@
+cancer_study_identifier: gbm_tcga_gdc
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: mrna_seq_tpm
+show_profile_in_analysis_tab: false
+profile_name: mRNA expression (TPM)
+profile_description: mRNA expression from capture (RNA Seq TPM)
+data_filename: data_mrna_seq_tpm.txt
