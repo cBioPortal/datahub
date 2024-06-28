@@ -1,0 +1,7 @@
+type_of_cancer: Stomach
+cancer_study_identifier: normal_gam_sanger_2024
+name: The somatic mutation landscape of normal gastric epithelium (Sanger, BioRxiv 2024)
+description: Whole genome sequencing data of 217 histologically normal gastric samples from  29 donors.
+citation: Coorens et al., 2024
+pmid: 
+reference_genome: hg38
