@@ -1,7 +1,6 @@
 type_of_cancer: prad
 cancer_study_identifier: prad_organoids_msk_2022
-name: Prostate Adenocarcinoma Organoids (MSK, Science 2022)
-short_name: PRAD (MSKCC, 2022)
-description: Targeted sequencing of 35 prostate cancer tumors, organoids and cell lines via MSK-IMPACT.
+name: Prostate Cancer (MSK, Science 2022)
+description: Targeted sequencing and whole exome sequencing of 35 prostate cancer tumors, organoids and cell lines via MSK-IMPACT.
 citation: Tang et al. Science 2022
-PMID: 35617398
+pmid: 35617398

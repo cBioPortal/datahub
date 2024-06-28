@@ -69,6 +69,8 @@ jobs:
           name: Check for changed seed database and run validation if necessary
           command: |
             cd ~/repo/.circleci
+            python -m ensurepip --upgrade
+            ./install_dependencies.sh
             ./check_changed_seed.sh
 
   # Check if all studies on datahub are imported in cbioportal.org
