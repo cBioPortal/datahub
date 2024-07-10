@@ -1,0 +1,6 @@
+type_of_cancer: rms
+cancer_study_identifier: soft_tissue_msk_2023
+name: Rhabdomyosarcomas (MSK, NPJ Precis Oncol 2023)
+description: Sequential targeted sequencing on 20 rhabdomyosarcoma tumors and their matched normals from the MSK cohort using MSK-IMPACT.
+pmid: 37730754
+citation: Wardin et at. NPJ Precis Oncol 2023

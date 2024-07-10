@@ -4,3 +4,5 @@ groups: SAUVEC;ZHENGY1;SELCUKLS;SANCHEZF;SMITHJ5;PUBLIC
 name: Rectal Cancer (MSK,Nature Medicine 2019)
 short_name: Rectal (MSK, 2019)
 type_of_cancer: coadread
+pmid: 31591597
+citation: Ganesh et al. Nat Med 2019

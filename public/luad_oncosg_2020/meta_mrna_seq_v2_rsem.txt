@@ -1,8 +1,0 @@
-cancer_study_identifier: luad_oncosg_2020
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-stable_id: rna_seq_v2_mrna
-show_profile_in_analysis_tab: false
-profile_name: mRNA expression (log RNA Seq V2 RSEM)
-profile_description: Expression levels (log RNA Seq V2 RSEM)(Raw read counts were normalized using DESeq2(v.1.16.1) followed by log transformation (adding one pseudo-count and log2 transformation)).
-data_filename: data_mrna_seq_v2_rsem.txt
