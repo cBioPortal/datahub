@@ -1,0 +1,13 @@
+cancer_study_identifier: msk_spectrum_tme_2022
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: SINGLE_CELL_RELATIVE_CELL_CYCLE_COUNTS
+datatype: LIMIT-VALUE
+stable_id: cell_cycle_stage
+profile_name: Cell Cycle Relative Fractions
+profile_description: Cell Cycle Relative Fractions.
+data_filename: data_cell_cycle_fraction.txt
+show_profile_in_analysis_tab: true 
+pivot_threshold_value: 0.0
+value_sort_order: DESC
+patient_level: false
+generic_entity_meta_properties: DESCRIPTION

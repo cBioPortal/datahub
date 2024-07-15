@@ -1,0 +1,10 @@
+cancer_study_identifier: pancan_pcawg_2020
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: MUTATIONAL_SIGNATURE
+datatype: LIMIT-VALUE
+stable_id: mutational_signatures_counts_SBS
+profile_name: Mutational signatures counts SBS
+profile_description: Mutational count matrix, extracted from data_mutations.txt using SigProfilerMatrixGenerator v1.2.15
+data_filename: data_mutational_signatures_counts_SBS.txt
+show_profile_in_analysis_tab: false
+generic_entity_meta_properties: NAME

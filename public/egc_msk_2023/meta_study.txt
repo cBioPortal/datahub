@@ -1,0 +1,7 @@
+type_of_cancer: stomach
+cancer_study_identifier: egc_msk_2023
+name: Esophagogastric Cancer (MSK, J Natl Cancer Inst 2023)
+short_name: EGC (MSK, 2023)
+description: Targeted sequencing of 902 patients with early-onset and average-onset esophagogastric cancers and their matched normals via MSK-IMPACT.
+pmid: 37699004
+citation: Melissa A et al. J Natl Cancer Inst 2023
