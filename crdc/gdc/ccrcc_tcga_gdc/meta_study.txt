@@ -2,6 +2,6 @@ type_of_cancer: ccrcc
 cancer_study_identifier: ccrcc_tcga_gdc
 name: Renal Clear Cell Carcinoma (TCGA, GDC)
 short_name: CCRCC
-description: TCGA Renal Clear Cell Carcinoma. Source data from GDC and generated in Jun 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+description: TCGA Renal Clear Cell Carcinoma. Source data from GDC and generated in Jul 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
 reference_genome: hg38
 groups: PUBLIC
