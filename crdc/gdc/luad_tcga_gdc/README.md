@@ -55,10 +55,10 @@ The following status values are supported in `data_timeline_status.txt`:
 | X = 0 | -2 | Deep loss |
 | X = 1 | -1 | Single-copy loss |
 | X = 2 | 0 | Diploid |
-| 2 &lt; X &lt; 6 | 1 | Low-level gain |
-| 6 &le; X | 2 | Amplification |
+| 2 &lt; X &lt; 7 | 1 | Low-level gain |
+| 7 &le; X | 2 | Amplification |
 
-Only amplifications (GISTIC = 2) and deep deletions (GISTIC = -2) are shown on the cBioPortal website. As a result these conversion thresholds affect how many samples show up in the CNA chart, which can be inconsistent with legacy versions of this study. We chose ASCAT &ge; 6 as the amplification threshold because it resulted in the least deviation from our legacy studies.
+Only amplifications (GISTIC = 2) and deep deletions (GISTIC = -2) are shown on the cBioPortal website. As a result these conversion thresholds affect how many samples show up in the CNA chart, which can be inconsistent with legacy versions of this study. We chose ASCAT &ge; 7 as the amplification threshold because it resulted in the least deviation from our legacy studies.
 
 
 
