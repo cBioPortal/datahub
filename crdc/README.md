@@ -12,8 +12,6 @@ Supported programs:
 
 - [TCGA](#tcga)
 - [CPTAC](#cptac)
-- [TARGET](#target)
-- [BEATAML](#beataml)
 
 ### TCGA
 
@@ -75,24 +73,3 @@ Supported programs:
 - `pancreas_cptac_gdc`: [Pancreatic Cancer](https://portal.gdc.cancer.gov/repository?facetTab=files&filters=%7B%22op%22%3A%22and%22%2C%22content%22%3A%5B%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.primary_site%22%2C%22value%22%3A%5B%22pancreas%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.project.program.name%22%2C%22value%22%3A%5B%22CPTAC%22%5D%7D%7D%5D%7D)
 - `rcc_cptac_gdc`: [Renal Cancer](https://portal.gdc.cancer.gov/repository?facetTab=cases&filters=%7B%22op%22%3A%22and%22%2C%22content%22%3A%5B%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.disease_type%22%2C%22value%22%3A%5B%22Adenomas%20and%20Adenocarcinomas%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.primary_site%22%2C%22value%22%3A%5B%22Kidney%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.project.program.name%22%2C%22value%22%3A%5B%22CPTAC%22%5D%7D%7D%5D%7D)
 - `uec_cptac_gdc`: [Endometrial Cancer](https://portal.gdc.cancer.gov/repository?facetTab=cases&filters=%7B%22op%22%3A%22and%22%2C%22content%22%3A%5B%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.disease_type%22%2C%22value%22%3A%5B%22Adenomas%20and%20Adenocarcinomas%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.primary_site%22%2C%22value%22%3A%5B%22Uterus%2C%20NOS%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.project.program.name%22%2C%22value%22%3A%5B%22CPTAC%22%5D%7D%7D%5D%7D)
-
-### TARGET
-
-- **Cancer type mapping:** Each study corresponds to one or more TARGET projects. The name of the project is derived from the OncoTree code defined in the mapping file.
-    - **Example:** The `bll_target_gdc` study has OncoTree code `BLL` and is sourced from the GDC projects `TARGET-ALL-P1` and `TARGET-ALL-P2`.
-    - [Mapping file](https://github.com/cBioPortal/nci-crdc-pipeline/blob/main/resources/oncotree_mappings/target.txt)
-
-#### List of TARGET cBioPortal Studies
-
-- `alal_target_gdc`: [TARGET-ALL-P3](https://portal.gdc.cancer.gov/projects/TARGET-ALL-P3), Acute Lymphoblastic Leukemia - Phase III
-- `aml_target_gdc`: [TARGET-AML](https://portal.gdc.cancer.gov/projects/TARGET-AML), Acute Myeloid Leukemia
-- `bll_target_gdc`: [TARGET-ALL-P1](https://portal.gdc.cancer.gov/projects/TARGET-ALL-P1) and [TARGET-ALL-P2](https://portal.gdc.cancer.gov/projects/TARGET-ALL-P2), Acute Lymphoblastic Leukemia - Phases I and II
-- `ccsk_target_gdc`: [TARGET-CCSK](https://portal.gdc.cancer.gov/projects/TARGET-CCSK), Clear Cell Sarcoma of the Kidney
-- `mrt_target_gdc`: [TARGET-RT](https://portal.gdc.cancer.gov/projects/TARGET-RT), Rhabdoid Tumor
-- `nbl_target_gdc`: [TARGET-NBL](https://portal.gdc.cancer.gov/projects/TARGET-NBL), Neuroblastoma
-- `os_target_gdc`: [TARGET-OS](https://portal.gdc.cancer.gov/projects/TARGET-OS), Osteosarcoma
-- `wt_target_gdc`: [TARGET-WT](https://portal.gdc.cancer.gov/projects/TARGET-WT), High-Risk Wilms Tumor
-
-### BEATAML
-
-Data from BEATAML is available under a single study `beataml_gdc`. [GDC link](https://portal.gdc.cancer.gov/projects/BEATAML1.0-COHORT)
