@@ -1,0 +1,3 @@
+cancer_study_identifier: difg_glass
+resource_type: SAMPLE
+data_filename: data_resource_sample.txt
