@@ -21,6 +21,10 @@ git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
 # install validator dependencies
 sudo pip install -r cbioportal/requirements.txt
 
+# Clone cBioPortal core
+cd ~/
+git clone https://github.com/cBioPortal/cbioportal-core.git
+
 # Make test reports location
 cd ~/
 mkdir ~/test-reports
