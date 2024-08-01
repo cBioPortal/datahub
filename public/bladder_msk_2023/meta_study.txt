@@ -1,0 +1,6 @@
+cancer_study_identifier: bladder_msk_2023
+type_of_cancer: bladder
+name: Bladder Cancer (MSK, Clin Cancer Res 2023)
+description: Targeted sequencing of 526 bladder tumors and their matched normals via MSK-IMPACT.
+pmid: 37682528
+citation: Guercio et al. Clin Cancer Res. 2023

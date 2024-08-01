@@ -1,0 +1,5 @@
+type_of_cancer: mixed
+cancer_study_identifier: heme_msk_impact_2022
+name: MSK-IMPACT Heme Tumors (MSK, 2022)
+short_name: MIXED (MSK, 2022)
+description: Targeted sequencing of 2383 myeloid and lymphoid neoplasms and their matched normals via MSK-IMPACT Heme panel.

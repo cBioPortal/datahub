@@ -4,5 +4,5 @@ datatype: CONTINUOUS
 stable_id: mrna
 show_profile_in_analysis_tab: false
 profile_name: mRNA expression (Illumina HT-12 v3 microarray)
-profile_description: Expression log intensity levels (Illumina HT-12 v3 microarray)
+profile_description: Expression log2 intensity levels (Illumina HT-12 v3 microarray)
 data_filename: data_mrna_illumina_microarray.txt
