@@ -1,0 +1,7 @@
+type_of_cancer: gbm
+cancer_study_identifier: gbm_tcga_gdc
+name: Glioblastoma Multiforme (TCGA, GDC)
+short_name: GBM
+description: TCGA Glioblastoma Multiforme. Source data from GDC and generated in Jul 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+reference_genome: hg38
+groups: PUBLIC
