@@ -27,7 +27,7 @@ jobs:
                 set["crdc/gdc/" parts[3]]++;
             }
         } 
-        END { for (studypath in set) { print studypath } }'"
+        END { for (studypath in set) { print studypath } }')"
         exit 0
       id: unique_studies
     - uses: actions/checkout@v2
@@ -60,14 +60,14 @@ jobs:
         tar -cvf ${SAVED_GIT_REPO_FILENAME} .git > /dev/null
         mkdir studies_to_upload
         for study_path in ${{ steps.unique_studies.outputs.unique_study_paths_list }}; do
-          if [ ! -d "${changed_study}" ]; then
+          if [ ! -d "${study_path}" ]; then
             continue
           fi
           changed_study=$(basename "$study_path")
           echo "Pulling study: ${study_path}."
           git lfs pull --include="${study_path}"
           echo "Compressing this study: ${study_path}."
-          tar -czvf studies_to_upload/${changed_study}.tar.gz ${changed_study}
+          tar -czvf studies_to_upload/${changed_study}.tar.gz ${study_path}
           echo "Copy file to S3: studies_to_upload/${changed_study}.tar.gz"
           aws s3 cp --acl public-read studies_to_upload/${changed_study}.tar.gz s3://${AWS_S3_BUCKET}/
           echo "Remove this directory: ${study_path}."
