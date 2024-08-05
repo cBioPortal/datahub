@@ -1,0 +1,8 @@
+type_of_cancer: coadread
+cancer_study_identifier: coadread_cass_2020
+name: Colorectal Cancer (CAS Shanghai, Cancer Cell 2020)
+description: Whole-exome sequencing of 146 colorectal tumor/normal pairs from a chinese cohort, covering 70 metastatic and 76 non-metastatic colorectal cancer patients.
+groups: PUBLIC
+short_name: CASS (2020)
+pmid: 32888432
+citation: Li et al. Cancer Cell 2020

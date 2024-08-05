@@ -6,6 +6,7 @@ on:
     branches:
       - master
     paths:
+      - 'crdc/gdc/**'
       - 'public/**'
 jobs:
   zip_studies:
@@ -15,7 +16,18 @@ jobs:
     - id: files
       uses: jitterbit/get-changed-files@v1
     - run: |
-        echo "##[set-output name=unique_studies_list;]$(echo "${{ steps.files.outputs.all }}" | awk 'BEGIN { RS=" "; FS="/"; ORS=" " } { set[$2]++ } END { for (dir in set) { print dir } }')"
+        echo "##[set-output name=unique_study_paths_list;]$(echo "${{ steps.files.outputs.all }}" | awk 'BEGIN { RS=" "; ORS=" " } 
+        {
+            if (index($0, "public/") == 1) {
+                split($0, parts, "/");
+                set["public/" parts[2]]++;
+            }
+            if (index($0, "crdc/gdc/") == 1) {
+                split($0, parts, "/");
+                set["crdc/gdc/" parts[3]]++;
+            }
+        } 
+        END { for (studypath in set) { print studypath } }')"
         exit 0
       id: unique_studies
     - uses: actions/checkout@v2
@@ -25,12 +37,15 @@ jobs:
         echo creating ${STUDY_LIST_FILENAME}
         echo "[" > ${STUDY_LIST_FILENAME}
         first_study=1
-        find public -type d -mindepth 1 -maxdepth 1 | sort > ${STUDY_PATH_FILENAME}
+        find crdc/gdc -type d -mindepth 1 -maxdepth 1 | sort > ${STUDY_PATH_FILENAME}
+        find public -type d -mindepth 1 -maxdepth 1 | sort >> ${STUDY_PATH_FILENAME}
+        studypaths=()
         while read studypath ; do
           if [ ${first_study} -ne 1 ] ; then
             echo "," >> ${STUDY_LIST_FILENAME}
           fi
-          studyname="${studypath:7}"
+          studypaths+=("$studypath")
+          studyname=$(basename "$studypath")
           echo -n "\"${studyname}\"" >> ${STUDY_LIST_FILENAME}
           first_study=0
         done < ${STUDY_PATH_FILENAME}
@@ -44,29 +59,26 @@ jobs:
         # first save .git
         tar -cvf ${SAVED_GIT_REPO_FILENAME} .git > /dev/null
         mkdir studies_to_upload
-        cd public
-        for changed_study in ${{ steps.unique_studies.outputs.unique_studies_list }}; do
-          if [ ! -d "${changed_study}" ]; then
+        for study_path in ${{ steps.unique_studies.outputs.unique_study_paths_list }}; do
+          if [ ! -d "${study_path}" ]; then
             continue
           fi
-          echo "Pulling study: ${changed_study}."
-          git lfs pull --include="${changed_study}"
-          echo "Compressing this study: ${changed_study}."
-          tar -czvf ../studies_to_upload/${changed_study}.tar.gz ${changed_study}
-          echo "Copy file to S3: ../studies_to_upload/${changed_study}.tar.gz"
-          aws s3 cp --acl public-read ../studies_to_upload/${changed_study}.tar.gz s3://${AWS_S3_BUCKET}/
-          echo "Remove this directory: ${changed_study}."
-          rm -rf "${changed_study}"
-          echo "Remove this file: ../studies_to_upload/${changed_study}.tar.gz."
-          rm ../studies_to_upload/${changed_study}.tar.gz
+          changed_study=$(basename "$study_path")
+          echo "Pulling study: ${study_path}."
+          git lfs pull --include="${study_path}"
+          echo "Compressing this study: ${study_path}."
+          tar -czvf studies_to_upload/${changed_study}.tar.gz ${study_path}
+          echo "Copy file to S3: studies_to_upload/${changed_study}.tar.gz"
+          aws s3 cp --acl public-read studies_to_upload/${changed_study}.tar.gz s3://${AWS_S3_BUCKET}/
+          echo "Remove this directory: ${study_path}."
+          rm -rf "${study_path}"
+          echo "Remove this file: studies_to_upload/${changed_study}.tar.gz."
+          rm studies_to_upload/${changed_study}.tar.gz
           echo "Remove .git"
-          cd ..
           rm -rf .git
           # add original .git back
           tar -xf ${SAVED_GIT_REPO_FILENAME} > /dev/null
-          cd public
         done
-        cd ..
       env:
         STUDY_PATH_FILENAME: study_paths.txt
         STUDY_LIST_FILENAME: study_list.json

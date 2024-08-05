@@ -5,4 +5,4 @@ genetic_alteration_type: STRUCTURAL_VARIANT
 datatype: SV
 show_profile_in_analysis_tab: TRUE
 profile_name: Structural variants
-profile_description: Structural Variant Data
+profile_description: Structural variant data of 254 samples analyzed for MYC rearrangements. 
