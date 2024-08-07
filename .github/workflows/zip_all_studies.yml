@@ -42,10 +42,11 @@ jobs:
             continue
           fi
           study=$(basename "$studypath")
+          study_dir=$(dirname "$studypath")
           echo "Pulling study: ${studypath}."
           git lfs pull --include="${studypath}"
           echo "Compressing this study: ${studypath}."
-          tar -czvf studies_to_upload/${study}.tar.gz ${studypath}
+          tar -czvf studies_to_upload/${study}.tar.gz -C ${study_dir} ${study}
           echo "Copy file to S3: studies_to_upload/${study}.tar.gz"
           aws s3 cp --acl public-read studies_to_upload/${study}.tar.gz s3://${AWS_S3_BUCKET}/
           echo "Remove this directory: ${studypath}."
