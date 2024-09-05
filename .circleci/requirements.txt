@@ -2,6 +2,6 @@ requests==2.31.0
 Jinja2==3.1.4
 mysqlclient==1.3.13
 docker==3.5.0
-urllib3==1.26.18
+urllib3==1.26.19
 gitpython==3.1.41
 PyYAML==5.4
