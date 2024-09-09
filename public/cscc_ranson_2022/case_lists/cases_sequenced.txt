@@ -1,0 +1,6 @@
+cancer_study_identifier: cscc_ranson_2022
+stable_id: cscc_ranson_2022_sequenced
+case_list_category: all_cases_with_mutation_data
+case_list_name: Sequenced Tumors
+case_list_description: All sequenced tumors
+case_list_ids: CSCC_0001-M1	CSCC_0002-M1	CSCC_0003-M1	CSCC_0004-M1	CSCC_0005-M1	CSCC_0006-M1	CSCC_0007-M1	CSCC_0009-M1	CSCC_0010-M1	CSCC_0011-M1	CSCC_0012-M1	CSCC_0013-M1	CSCC_0014-M1	CSCC_0022-M1	CSCC_0024-M1	CSCC_0025-M1	CSCC_0066-M1	CSCC_0124-M1	CSCC_0125-M1	CSCC_0126-M1	CSCC_0130-M1	CSCC_0132-M1	CSCC_0133-M1	CSCC_0134-M1	CSCC_0135-M1
