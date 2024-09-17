@@ -84,8 +84,8 @@ if [[ $num_studies > 0 ]]; then
   done
   
   # Check if there are any files in $test_reports_location
-  if [ -z "$(ls -A $TEST_REPORTS_LOCATION)" ]; then
-    echo "No files found in $TEST_REPORTS_LOCATION. An error has occurred running the validator."
+  if [ -z "$(ls -A $TEST_REPORTS_LOCATION/*-validation.html 2>/dev/null)" ]; then
+    echo "No validation.html files found in $TEST_REPORTS_LOCATION. An error has occurred running the validator."
     exit 1
   fi
 

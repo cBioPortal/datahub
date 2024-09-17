@@ -18,10 +18,11 @@ sudo ./install.sh
 cd ~/repo
 sudo chown -R circleci .git
 git lfs install --skip-smudge
+rm -rf git-lfs-linux-amd64-2.3.4.tar.gz git-lfs-2.3.4
 
 # Clone cBioPortal core
 cd ~/
-git clone --depth 1 -b master https://github.com/cBioPortal/cbioportal-core.git
+git clone --depth 1 -b main https://github.com/cBioPortal/cbioportal-core.git
 
 # Make test reports location
 cd ~/
