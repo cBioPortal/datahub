@@ -12,7 +12,10 @@ MAX_THREADS=7
 git remote add upstream "$GIT_REMOTE_URL"
 git fetch upstream master
 
+echo "Changed files according to git diff:"
 files_changing=$(git diff --name-only --diff-filter=ACMRU upstream/master)
+echo "$files_changing"
+echo "------------------------------"
 list_of_study_dirs=()
 
 for file_changing in $files_changing; do
