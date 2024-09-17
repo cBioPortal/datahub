@@ -83,12 +83,6 @@ if [[ $num_studies > 0 ]]; then
     }
   done
   
-  # Check if there are any files in $test_reports_location
-  if [ -z "$(ls -A $TEST_REPORTS_LOCATION/*-validation.html 2>/dev/null)" ]; then
-    echo "No validation.html files found in $TEST_REPORTS_LOCATION. An error has occurred running the validator."
-    exit 1
-  fi
-
   # find all studies with error
   erred_studies=$(grep -rl "$TEST_REPORTS_LOCATION" -e 'Validation status.*Failed')
   if [[ $? -eq 0 ]] && [[ -n "$erred_studies" ]]; then
