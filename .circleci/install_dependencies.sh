@@ -5,13 +5,11 @@
 echo "Upgrading pip..."
 python -m pip install --upgrade pip
 
-echo "Current working directory: $(pwd)"
-
 # Install python dependencies
-cd ~/repo/.circleci
-sudo pip install -r requirements.txt
+pip install -r requirements.txt
 
 # Install and configure Git LFS
+echo "Installing Git LFS..."
 cd ~/
 wget https://github.com/git-lfs/git-lfs/releases/download/v2.3.4/git-lfs-linux-amd64-2.3.4.tar.gz
 tar -xvf git-lfs-linux-amd64-2.3.4.tar.gz

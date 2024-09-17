@@ -58,13 +58,13 @@ if [[ $num_studies > 0 ]]; then
       # fi
       # append the first study
       if [[ -z "$validation_command" ]] ; then
-        validation_command="($VALIDATE_SCRIPT -d $REPO_DIR -l $study -p $REPO_DIR/.circleci/portalinfo -html $TEST_REPORTS_LOCATION/$study"
+        validation_command="($VALIDATION_SCRIPT -d $REPO_DIR -l $study -p $REPO_DIR/.circleci/portalinfo -html $TEST_REPORTS_LOCATION/$study"
       else
         # run each validation individually in the background
         if [ $mod = 0 ] ; then
-          validation_command="${validation_command}) & ($VALIDATE_SCRIPT -d $REPO_DIR -l $study -p $REPO_DIR/.circleci/portalinfo -html $TEST_REPORTS_LOCATION/$study"
+          validation_command="${validation_command}) & ($VALIDATION_SCRIPT -d $REPO_DIR -l $study -p $REPO_DIR/.circleci/portalinfo -html $TEST_REPORTS_LOCATION/$study"
         else
-          validation_command="${validation_command} ; $VALIDATE_SCRIPT -d $REPO_DIR -l $study -p $REPO_DIR/.circleci/portalinfo -html $TEST_REPORTS_LOCATION/$study"
+          validation_command="${validation_command} ; $VALIDATION_SCRIPT -d $REPO_DIR -l $study -p $REPO_DIR/.circleci/portalinfo -html $TEST_REPORTS_LOCATION/$study"
         fi
       fi
   done
