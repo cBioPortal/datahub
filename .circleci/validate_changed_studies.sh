@@ -82,15 +82,14 @@ if [[ $num_studies > 0 ]]; then
   done;
 
   # find all studies with error
-  erred_studies=`grep -rnlz $test_reports_location -e 'Validation status.*Failed' `
-  if [[ $? -eq 0 ]]; then
+  erred_studies=$(grep -rl "$test_reports_location" -e 'Validation status.*Failed')
+  if [[ $? -eq 0 ]] && [[ -n "$erred_studies" ]]; then
     echo $'\n====List of error studies:====\n'
-    echo $erred_studies
-    mv $erred_studies $test_reports_location/ERRORS
+    echo "$erred_studies"
+    echo "$erred_studies" | xargs -I {} mv {} "$test_reports_location/ERRORS"
     exit 1
   else
-    echo "All tests passed successfully"
-    exit 0
+    echo "No error studies found."
   fi
 else
   echo "No studies were changed"
