@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # This script installs the dependencies to download and validate all studies
 
+# Upgrade pip
+echo "Upgrading pip..."
+/usr/local/bin/python -m pip install --upgrade pip
+
 # Install python dependencies
 cd ~/repo/.circleci
 sudo pip install -r requirements.txt
@@ -15,16 +19,9 @@ cd ~/repo
 sudo chown -R circleci .git
 git lfs install --skip-smudge
 
-# Clone datahub master branch
-cd ~/
-git clone --depth 1 -b master https://github.com/cbioportal/cbioportal.git
-
 # Clone cBioPortal core
 cd ~/
-git clone https://github.com/cBioPortal/cbioportal-core.git
-# install validator dependencies
-sudo pip install -r cbioportal-core/requirements.txt
-
+git clone --depth 1 -b master https://github.com/cBioPortal/cbioportal-core.git
 
 # Make test reports location
 cd ~/

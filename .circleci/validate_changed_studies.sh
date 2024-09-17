@@ -56,13 +56,13 @@ if [[ $num_studies > 0 ]]; then
       # fi
       # append the first study
       if [ "$validation_command" = "" ] ; then
-        validation_command="($HOME/cbioportal-core/src/main/resources/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
+        validation_command="($HOME/cbioportal-core/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
       else
         # run each validation individually in the background
         if [ $mod = 0 ] ; then
-          validation_command="${validation_command}) & ($HOME/cbioportal-core/src/main/resources/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
+          validation_command="${validation_command}) & ($HOME/cbioportal-core/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
         else
-          validation_command="${validation_command} ; $HOME/cbioportal-core/src/main/resources/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
+          validation_command="${validation_command} ; $HOME/cbioportal-core/scripts/importer/./validateStudies.py -d $HOME/repo/ -l $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location/$study"
         fi
       fi
   done
@@ -73,7 +73,7 @@ if [[ $num_studies > 0 ]]; then
   while true; do
     wait -n || {
       code="$?"
-      echo "waiting for all processes to finish ...................."
+      echo "waiting for all processes to finish..."
       # exit only when all processes finished
       if ([[ $code = "127" ]] && exit 0) ; then
         break
