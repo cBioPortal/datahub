@@ -3,7 +3,9 @@
 
 # Upgrade pip
 echo "Upgrading pip..."
-/usr/local/bin/python -m pip install --upgrade pip
+python -m pip install --upgrade pip
+
+echo "Current working directory: $(pwd)"
 
 # Install python dependencies
 cd ~/repo/.circleci
