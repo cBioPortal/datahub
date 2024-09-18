@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script detects the studies that were changed and triggers the validation accordingly
 
-STUDIES_DIR=("public/" "crdc/gdc/")
+STUDIES_DIRS=("public/" "crdc/gdc/")
 REPO_DIR="$HOME/repo/"
 TEST_REPORTS_LOCATION="$HOME/test-reports"
 ERRORS_DIR="$TEST_REPORTS_LOCATION/ERRORS"
@@ -19,6 +19,7 @@ echo "------------------------------"
 list_of_study_dirs=()
 
 for file_changing in $files_changing; do
+    echo "study file changing > [$file_changing]"
     # if file is part of studies_dir, store its directory path (except case_lists)
     for STUDIES_DIR in "${STUDIES_DIRS[@]}"; do
       if [[ $file_changing = *$STUDIES_DIR* ]] && [[ $file_changing != *".htm"* ]]; then
