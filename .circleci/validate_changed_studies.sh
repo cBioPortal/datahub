@@ -97,7 +97,7 @@ if [[ $num_studies > 0 ]]; then
   done
   
   # find all studies with error
-  erred_studies=$(grep -rl "$TEST_REPORTS_LOCATION" -e 'Validation status.*Failed')
+  erred_studies=$(grep -rl "$TEST_REPORTS_LOCATION" -e 'Failed')
   if [[ $? -eq 0 ]] && [[ -n "$erred_studies" ]]; then
     echo $'\n====List of error studies:====\n'
     echo "$erred_studies"
