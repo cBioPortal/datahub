@@ -19,7 +19,6 @@ files_changing=$(git diff --name-only --diff-filter=ACMRU upstream/master)
 list_of_study_dirs=()
 
 for file_changing in $files_changing; do
-    echo "study file changing > [$file_changing]"
     # if file is part of studies_dir, store its directory path (except case_lists)
     for STUDIES_DIR in "${STUDIES_DIRS[@]}"; do
       if [[ $file_changing = *$STUDIES_DIR* ]] && [[ $file_changing != *".htm"* ]]; then
@@ -98,7 +97,7 @@ if [[ $num_studies > 0 ]]; then
   done
   
   # find all studies with error
-  erred_studies=$(pcregrep -rMl 'Validation status:\n\s*<strong>\s*Failed' "$TEST_REPORTS_LOCATION")
+  erred_studies=$(grep -rl 'Validation status:\n\s*<strong>\s*Failed' "$TEST_REPORTS_LOCATION")
   if [[ $? -eq 0 ]] && [[ -n "$erred_studies" ]]; then
     echo $'\n====List of error studies:====\n'
     echo "$erred_studies"
