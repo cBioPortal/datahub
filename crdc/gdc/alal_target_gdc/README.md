@@ -5,7 +5,7 @@
 - Study is updated once every 3 months with latest data from [ISB-CGC BigQuery tables](https://isb-cgc.appspot.com/bq_meta_search/)
   - The ISB-CGC tables allow easy access to data collected from multiple NCI-CRDC repositories including the GDC, PDC, and others. The TARGET data in this study comes from the GDC and is accessed through these tables.
 - Reference genome used: hg38
-
+- TARGET started using the hg38 genome as of GDC release 32. For more information, refer to the [GDC release notes](https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-320).
 
 - Only tumor sample data is included (no normal samples)
 
@@ -21,22 +21,20 @@ Survival fields are calculated from the clinical data and added as new columns i
 - `OS_STATUS` is converted from `demo__vital_status`
 - `OS_MONTHS` is converted from `demo__days_to_death`, falls back to `diag__days_to_last_follow_up`
 
-- `DFS_STATUS` is converted from `diag_progression_or_recurrence` / `follow_progression_or_recurrence`
-- `DFS_MONTHS` is converted from `diag__days_to_recurrence` / `follow__days_to_recurrence`, falls back to `OS_MONTHS`
+
+
 
 ### Timeline data
 
 - Timeline data is extracted from the clinical data and stored in a separate data file. After extraction, the corresponding BigQuery fields are removed from the clinical file. For example, a timeline status of `DEATH` corresponds to the BigQuery field `demo__days_to_death`.
 
-- For TARGET, the "time 0" anchor point is always the date of diagnosis. Not all patients have timeline data available, as indicated by a null `diag__days_to_diagnosis` (TCGA) or `index_date` (CPTAC) field.
+- For TARGET, the "time 0" anchor point is always the date of diagnosis. Not all patients have timeline data available, as indicated by a null `diag__days_to_diagnosis` (TCGA) or `index_date` (CPTAC, TARGET) field.
 
 - Birth timeline events are removed, as they (1) push other events to the far right of the graph and (2) can potentially be used to identify the patient.
 
 The following status values are supported in `data_timeline_status.txt`:
 
 - `__time0__`
-- `follow__days_to_progression`
-- `follow__mol_test__days_to_test`
 - `demo__days_to_death`
 - `diag__days_to_last_follow_up`
 ### Other transformations
@@ -44,7 +42,7 @@ The following status values are supported in `data_timeline_status.txt`:
 - `"not reported"` values are replaced with blanks.
 - If a clinical field is missing for the entire study, the column is removed from the data file.
 - `RACE`, `ETHNICITY`, and `SEX` are capitalized.
-- `AGE` is clipped from 18 to 89 to protect patient confidentiality.
+- `AGE` is converted from days to years. 
 
 ## CNA data
 
@@ -102,24 +100,8 @@ Only amplifications (GISTIC = 2) and deep deletions (GISTIC = -2) are shown on t
 
 | Original | cBioPortal |
 |---|---|
-| case_id | OTHER_PATIENT_ID |
 | submitter_id | PATIENT_ID |
-| diag__diagnosis_id | DIAGNOSIS_ID |
-| diag__treat__reason_treatment_ended | REASON_TREATMENT_ENDED |
-| diag__treat__therapeutic_agents | TREATMENT_THERAPEUTIC_AGENTS |
-| diag__treat__treatment_or_therapy | TREATMENT_OR_THERAPY |
-| diag__treat__treatment_outcome | TREATEMENT_OUTCOME |
-| diag__treat__treatment_type | TREATMENT_TYPE |
-| follow__progression_or_recurrence | PROGRESSION_OR_RECURRENCE |
-| follow__progression_or_recurrence_anatomic_site | ANATOMIC_SITE_PROGRESSION_OR_RECURRENCE |
-| follow__progression_or_recurrence_type | PROGRESSION_OR_RECURRENCE_TYPE |
-| follow__mol_test__biospecimen_type | BIOSPECIMEN_TYPE |
-| follow__mol_test__chromosome | CHROMOSOME |
-| follow__mol_test__laboratory_test | LABORATORY_TEST |
-| follow__mol_test__molecular_analysis_method | MOLECULAR_ANALYSIS_METHOD |
-| follow__mol_test__ploidy | PLOIDY |
-| follow__mol_test__variant_type | VARIANT_TYPE |
-| demo__age_at_index | AGE_AT_INDEX |
+| case_id | OTHER_PATIENT_ID |
 | demo__ethnicity | ETHNICITY |
 | demo__gender | SEX |
 | demo__race | RACE |

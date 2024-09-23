@@ -1,7 +1,7 @@
 type_of_cancer: bll
 cancer_study_identifier: bll_target_gdc
-name: B-Lymphoblastic Leukemia/Lymphoma (TARGET, GDC)
+name: B-Lymphoblastic Leukemia/Lymphoma - Phase II (TARGET, GDC)
 short_name: BLL
-description: TARGET B-Lymphoblastic Leukemia/Lymphoma. Source data from GDC and generated in Sep 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+description: TARGET B-Lymphoblastic Leukemia/Lymphoma - Phase II. Source data from GDC and generated in Sep 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
 reference_genome: hg38
 groups: PUBLIC
