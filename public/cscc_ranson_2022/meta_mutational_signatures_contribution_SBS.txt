@@ -3,7 +3,7 @@ genetic_alteration_type: GENERIC_ASSAY
 generic_assay_type: MUTATIONAL_SIGNATURE
 datatype: LIMIT-VALUE
 stable_id: mutational_signatures_contribution_SBS
-profile_name: Mutational Signatures Contribution SBS
+profile_name: Mutational signatures contribution SBS
 profile_description: Mutational signature contribution.
 data_filename: data_mutational_signatures_contribution_SBS.txt
 show_profile_in_analysis_tab: true
