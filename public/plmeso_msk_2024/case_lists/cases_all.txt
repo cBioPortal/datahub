@@ -1,0 +1,6 @@
+cancer_study_identifier: plmeso_msk_2024
+stable_id: plmeso_msk_2024_all
+case_list_name: All samples
+case_list_description: All samples (14 samples)
+case_list_category: all_cases_in_study
+case_list_ids: P-0037676-T01-IM6	P-0045529-T01-IM6	P-0000581-T01-IM3	P-0009205-T01-IM5	P-0018461-T01-IM6	P-0033502-T01-IM6	P-0036304-T01-IM6	P-0037665-T01-IM6	P-0018903-T01-IM6	P-0015370-T01-IM6	P-0068259-T01-IM7	P-0068975-T01-IM7	P-0076423-T01-IM7	P-0082353-T01-IM7
