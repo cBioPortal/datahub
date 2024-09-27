@@ -1,0 +1,7 @@
+type_of_cancer: mixed
+cancer_study_identifier: pancan_mappyacts_2022
+name: Pediatric European MAPPYACTS Trial (Gustave Roussy, Cancer Discov 2022)
+description: Whole-exome sequencing of 674 pediatric matched normal samples on multiple pathologies driven on mappyacts program and somatic mutation data for 484 single nucleotide alterations reported as potentially actionable, see the <a href="https://github.com/cbioportal/datahub/blob/master/public/pancan_mappyacts_2022/README.md">README</a>
+citation: Berlanga et al. Cancer Discov 2022
+pmid: 35292802
+reference_genome: hg38

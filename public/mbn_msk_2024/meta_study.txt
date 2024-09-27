@@ -1,0 +1,7 @@
+cancer_study_identifier: mbn_msk_2024
+type_of_cancer: mbn
+name: Diffuse Large B-Cell Lymphoma (MSK, Haematologica 2024)
+description: Targeted sequencing of 396 diffuse large B-cell lymphoma samples and their matched normals via MSK-IMPACT.
+pmid: 38497151
+citation: Zhu, Meng-Lei et al. Haematologica 2024
+
