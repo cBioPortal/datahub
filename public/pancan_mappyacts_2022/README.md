@@ -14,7 +14,6 @@ Somatic mutation data for 484 single nucleotide alterations reported as “poten
 - Data contained 1 sample per patient.
 - Censoring data was not added.
 - WXS samples has matched normals.
-- Two gene panel samples were included as have somatic single nucleotide alterations reported as “potentially actionable”. 
 
 **Mutation data**
 - Somatic mutation data for 484 single nucleotide alterations reported as “potentially actionable”
@@ -22,7 +21,7 @@ Somatic mutation data for 484 single nucleotide alterations reported as “poten
   [LiftOver](https://urldefense.com/v3/__https://genome.ucsc.edu/cgi-bin/hgLiftOver__;!!KVWo1iE!WPiCn5MflUhz2kGgXpiGcmMiJXcRxtGu4p-OyJtj97LZ3VOZivH-X3KfSclW0cEhhG5lSSe2pS4aEV83FGCkTCQV_Yy2Zw$ ). This affected the
   columns `NCBI_Build`, `Start_Position` and `End_Position`.
 - 4 out of the 484 reported somatic single nucleotide alterations are not reported since they were not confirmed with a second caller and with a very low VAF (3 alterations) or had a too low coverage at this position (1 alteration).
-- Two sam
+- Two panel samples have been removed from the study due to lack of gene panels.
 
 **CNA data**
 
