@@ -1,7 +1,7 @@
 cancer_study_identifier: brca_fuscc_2020
 type_of_cancer: brca
-name: Triple-Negative Breast Cancer (FUSCC, Cell research 2020)
+name: Triple-Negative Breast Cancer (FUSCC, Cell Research 2020)
 description: Targeted sequencing of 69 refractory metastatic triple-negative breast cancer patients and their matched normal samples as part of the FUTURE trial.
 reference_genome: hg19
 pmid: 32719455
-citation: Jiang, Yi-Zhou et al. Cell research 2020
+citation: Jiang, Yi-Zhou et al. Cell Research 2020
