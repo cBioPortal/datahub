@@ -1,0 +1,6 @@
+cancer_study_identifier: brca_fuscc_2020
+stable_id: brca_fuscc_2020_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (69 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: S-F1	S-F2	S-F3	S-F4	S-F5	S-F6	S-F7	S-F8	S-F9	S-F10	S-F11	S-F12	S-F13	S-F14	S-F15	S-F16	S-F17	S-F18	S-F19	S-F20	S-F21	S-F22	S-F23	S-F24	S-F25	S-F26	S-F27	S-F28	S-F29	S-F30	S-F31	S-F32	S-F33	S-F34	S-F35	S-F36	S-F37	S-F38	S-F39	S-F40	S-F41	S-F42	S-F43	S-F44	S-F45	S-F46	S-F47	S-F48	S-F49	S-F50	S-F51	S-F52	S-F53	S-F54	S-F55	S-F56	S-F57	S-F58	S-F59	S-F60	S-F61	S-F62	S-F63	S-F64	S-F65	S-F66	S-F67	S-F68	S-F69
