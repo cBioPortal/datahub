@@ -1,0 +1,6 @@
+type_of_cancer: mixed
+cancer_study_identifier: ucec_msk_2024
+name: Endometrial and Ovarian Cancer (MSK, Nature Medicine 2024)
+description: Targeted sequencing of 33 endometrial and ovarian tumors and their matched normals via MSK-IMPACT.
+pmid: 38653864
+citation: Friedman, Claire F et al. Nature Medicine 2024
