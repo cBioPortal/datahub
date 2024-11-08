@@ -1,0 +1,6 @@
+cancer_study_identifier: prad_wch_2024
+stable_id: prad_wch_2024_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (22 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: CASE02	CASE03	CASE01	CASE06	CASE07	CASE04	CASE05	CASE08	CASE09	CASE20	CASE21	CASE22	CASE11	CASE10	CASE13	CASE12	CASE15	CASE14	CASE17	CASE16	CASE19	CASE18

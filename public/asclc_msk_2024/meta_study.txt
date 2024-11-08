@@ -1,0 +1,6 @@
+cancer_study_identifier: asclc_msk_2024
+type_of_cancer: lung
+name: Atypical Small Cell Lung Cancer (MSK, Cancer Discov 2024)
+description: Targeted sequencing of 31 atypical small cell lung cancers lacking RB1 and TP53 co-inactivation and their matched normals via MSK-IMPACT, including structural variant analysis via whole-genome sequencing.
+pmid: 39185963
+citation: Rekhtman N et al. Cancer Discov 2024

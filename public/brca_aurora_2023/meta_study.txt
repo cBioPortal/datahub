@@ -1,0 +1,8 @@
+type_of_cancer: brca
+cancer_study_identifier: brca_aurora_2023
+name: Metastatic Breast Cancer (AURORA US Network, Nat Cancer 2023)
+description: Whole-genome sequencing of 55 metastatic breast cancer patient samples and their matched normals. Retrospective Tissue Collection; an initiative of the Breast Cancer Research Foundation
+reference_genome: hg38
+pmid: 36585450
+citation: Garcia-Recio et al. Nat Cancer 2023
+
