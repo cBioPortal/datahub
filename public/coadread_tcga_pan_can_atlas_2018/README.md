@@ -26,3 +26,10 @@
 **Data Transformation** 
  - The detailed transformation steps are listed in the Pull Request [here](https://github.com/cBioPortal/datahub/pull/1597)
  - The meta info for the Infinium Illumina 450k probes used for this profile is under the folder "probe_meta" "probe_450k_mapinfo_PQ.txt" is the original download from Illumina.
+
+### Tumor Break Load (TBL):
+
+**Data Source**
+ - TBL scores based on Lakbir et al., 2024 (Manuscript in progress)
+ - Overview of TBL calculation for TCGA, from [Lakbir et al., Eur J Cancer 2024](https://pubmed.ncbi.nlm.nih.gov/36334560/)
+ - Data is provided as a sample-level clinical attribute labeled `Tumor Break Load`
