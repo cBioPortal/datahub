@@ -1,0 +1,8 @@
+type_of_cancer: ccrcc
+cancer_study_identifier: ccrcc_wcm_2022
+name: Clear Cell Renal Cell Carcinoma (Cornell, Molecular Oncology 2022)
+description: Whole-exome sequencing of metastatic clear cell renal carcinoma (ccRCC) from 67 tumor/normal pairs from 43 patients. Please note that one sample has been excluded from the original cohort as it didn't meet the quality threshold for Somatic Copy Number Analysis (SCNA).
+citation: van der Mijn et al. Mol Oncol. 2022
+pmid: 35231161
+add_global_case_list: true
+groups: PUBLIC
