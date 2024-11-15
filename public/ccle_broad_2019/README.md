@@ -13,3 +13,10 @@ Proteomics data: https://gygi.hms.harvard.edu/data/ccle/protein_quant_current_no
   - 2130 (17%) of the proteins returned non-unique gene IDs, indicating that some proteins originated from the same gene. The duplicates were collapsed to per per-gene values by taking the average.
 - A matrix was generated containing Z-scores derived from the log2-ratios per-gene. This enables the user to select protein abundance values as a separate profile from the query-by-gene interface in cBioPortal.
 - Sample annotations were added to the clinical sample data indicating the 10-Plex ID and the TMT label.
+
+### Tumor Break Load (TBL):
+
+**Data Source**
+ - TBL scores based on Lakbir et al., 2024 (Manuscript in progress)
+ - Overview of TBL calculation, from [Lakbir et al., Eur J Cancer 2024](https://pubmed.ncbi.nlm.nih.gov/36334560/)
+ - Data is provided as a sample-level clinical attribute labeled `Tumor Break Load`
