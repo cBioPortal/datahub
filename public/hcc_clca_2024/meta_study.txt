@@ -1,0 +1,8 @@
+type_of_cancer: hcc
+cancer_study_identifier: hcc_clca_2024
+name: Hepatocellular Carcinoma (CLCA, Nature 2024)
+description: The Chinese Liver Cancer Atlas (CLCA) project. Deep whole-genome sequencing of 494 hepatocellular carcinomas and their matched normals. Data from <a href="http://lifeome.net:8080/clca/#/">CLC Atlas</a>.
+citation: Chen L et al. Nature 2024
+pmid: 38355797
+short_name: HCC (CLCA 2014)
+groups: PUBLIC

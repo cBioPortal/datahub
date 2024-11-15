@@ -43,20 +43,6 @@ jobs:
           path: ~/test-reports
           destination: ~/test-reports
 
-  # Job to validate cbioportal.org with cBioPortal Datahub
-  validate_datahub_with_cbioportal:
-    docker:
-      - image: circleci/python:3.6
-    working_directory: ~/repo
-    steps:
-      - checkout
-      - run:
-          name: validate cbioportal with datahub
-          command: |
-            cd ~/repo/.circleci
-            sudo pip install "requests==2.20.0"
-            ./validate_datahub_with_cbioportal.py
-
   # Job to validate the seed database
   validate_changed_seed:
     # This is required to mount volumes when starting a new docker container, see:
@@ -69,6 +55,8 @@ jobs:
           name: Check for changed seed database and run validation if necessary
           command: |
             cd ~/repo/.circleci
+            python -m ensurepip --upgrade
+            ./install_dependencies.sh
             ./check_changed_seed.sh
 
   # Check if all studies on datahub are imported in cbioportal.org
@@ -105,7 +93,7 @@ workflows:
   workflow_daily:
     triggers:
       - schedule:
-          cron: "0 16 * * *"
+          cron: "0 16 * * 0-5"
           filters:
             branches:
               only:
@@ -117,11 +105,11 @@ workflows:
   workflow_weekly:
     triggers:
       - schedule:
-          cron: "0 12 * * 6"
+          cron: "0 16 * * 6"
           filters:
             branches:
               only: 
                 - master
     jobs:
       - validate_all_studies
-      - validate_datahub_with_cbioportal
+      - check_all_studies_imported

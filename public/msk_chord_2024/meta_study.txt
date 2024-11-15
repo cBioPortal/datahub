@@ -1,0 +1,6 @@
+type_of_cancer: mixed
+cancer_study_identifier: msk_chord_2024
+name: MSK-CHORD (MSK, Nature 2024)
+description: Targeted sequencing of 25040 tumors from 24950 patients and their matched normals via MSK-IMPACT, along with clinical annotations, some of which are derived from natural language processing (denoted NLP). This data is available under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">Creative Commons BY-NC-ND 4.0 license</a>. For commercial use, please contact <a href="mailto: datarequests@mskcc.org">datarequests@mskcc.org</a>
+pmid: 39506116
+citation: Jee, Justin et al. Nature 2024

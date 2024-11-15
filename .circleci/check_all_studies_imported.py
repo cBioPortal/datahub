@@ -12,7 +12,9 @@ FAIL = '\033[91m'
 END = '\033[0m'
 
 public_study_folders = requests.get("https://api.github.com/repos/cBioPortal/datahub/contents/public")
+gdc_study_folders = requests.get("https://api.github.com/repos/cBioPortal/datahub/contents/crdc/gdc")
 datahub_study_names = set(map(lambda x: x["name"], public_study_folders.json()))
+datahub_study_names |= set(map(lambda x: x["name"], gdc_study_folders.json()))
 
 live_studies = requests.get("https://www.cbioportal.org/api/studies")
 live_study_names = set(map(lambda x: x["studyId"], live_studies.json()))

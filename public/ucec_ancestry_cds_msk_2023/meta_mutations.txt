@@ -1,0 +1,8 @@
+cancer_study_identifier: ucec_ancestry_cds_msk_2023
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_name: Mutations
+profile_description: Mutation data for 1882 Endometrial carcinoma samples and their matched normals from MSK-IMPACT 
+data_filename: data_mutations.txt
