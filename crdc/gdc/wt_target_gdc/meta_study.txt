@@ -1,0 +1,7 @@
+type_of_cancer: wt
+cancer_study_identifier: wt_target_gdc
+name: Wilms' Tumor (TARGET, GDC)
+short_name: WT
+description: TARGET Wilms' Tumor. Source data from GDC and generated in Nov 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>. <A HREF="https://github.com/cBioPortal/datahub/blob/master/crdc/gdc/wt_target_gdc/README.md">Study README</A> | <A HREF="https://portal.gdc.cancer.gov/projects/TARGET-WT">GDC page</A>
+reference_genome: hg38
+groups: PUBLIC
