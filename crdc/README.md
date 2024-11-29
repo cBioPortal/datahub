@@ -83,9 +83,9 @@ Supported programs:
 
 #### List of TARGET cBioPortal Studies
 
-- [`bll_target_gdc`](https://www.cbioportal.org/study/summary?id=bll_target_gdc): TARGET-ALL-P2, [Acute Lymphoblastic Leukemia - Phase II](https://portal.gdc.cancer.gov/projects/TARGET-ALL-P2)
 - [`alal_target_gdc`](https://www.cbioportal.org/study/summary?id=alal_target_gdc): TARGET-ALL-P3, [Acute Lymphoblastic Leukemia - Phase III](https://portal.gdc.cancer.gov/projects/TARGET-ALL-P3)
 - [`aml_target_gdc`](https://www.cbioportal.org/study/summary?id=aml_target_gdc): TARGET-AML, [Acute Myeloid Leukemia](https://portal.gdc.cancer.gov/projects/TARGET-AML)
+- [`bll_target_gdc`](https://www.cbioportal.org/study/summary?id=bll_target_gdc): TARGET-ALL-P2, [Acute Lymphoblastic Leukemia - Phase II](https://portal.gdc.cancer.gov/projects/TARGET-ALL-P2)
 - [`nbl_target_gdc`](https://www.cbioportal.org/study/summary?id=nbl_target_gdc): TARGET-NBL, [Neuroblastoma](https://portal.gdc.cancer.gov/projects/TARGET-NBL)
 - [`os_target_gdc`](https://www.cbioportal.org/study/summary?id=os_target_gdc): TARGET-OS, [Osteosarcoma](https://portal.gdc.cancer.gov/projects/TARGET-OS)
 - [`wt_target_gdc`](https://www.cbioportal.org/study/summary?id=wt_target_gdc): TARGET-WT, [Wilms' Tumor](https://portal.gdc.cancer.gov/projects/TARGET-WT)
