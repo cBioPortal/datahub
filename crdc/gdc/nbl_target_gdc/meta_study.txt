@@ -2,6 +2,6 @@ type_of_cancer: nbl
 cancer_study_identifier: nbl_target_gdc
 name: Neuroblastoma (TARGET, GDC)
 short_name: NBL
-description: TARGET Neuroblastoma. Source data from <A HREF="https://portal.gdc.cancer.gov/projects/TARGET-NBL">NCI GDC</A> and generated in Nov 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>. <A HREF="https://github.com/cBioPortal/datahub/blob/master/crdc/gdc/nbl_target_gdc/README.md">More info</A>
+description: TARGET Neuroblastoma. Source data from <A HREF="https://portal.gdc.cancer.gov/projects/TARGET-NBL">NCI GDC</A> and generated in Dec 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>. <A HREF="https://github.com/cBioPortal/datahub/blob/master/crdc/gdc/nbl_target_gdc/README.md">More info</A>
 reference_genome: hg38
 groups: PUBLIC

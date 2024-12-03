@@ -27,7 +27,9 @@ Survival fields are calculated from the clinical data and added as new columns i
 
 ### Timeline data
 
-- Timeline data is extracted from the clinical data and stored in a separate data file. After extraction, the corresponding BigQuery fields are removed from the clinical file. For example, a timeline status of `DEATH` corresponds to the BigQuery field `demo__days_to_death`.
+- Timeline data is extracted from the clinical data and stored in separate data files. After extraction, the corresponding BigQuery fields are removed from the clinical file. For example, a timeline status of `DEATH` corresponds to the BigQuery field `demo__days_to_death`.
+
+#### Patient status data
 
 - For TARGET, the "time 0" anchor point is always the date of diagnosis. Not all patients have timeline data available, as indicated by a null `diag__days_to_diagnosis` (TCGA) or `index_date` (CPTAC, TARGET) field.
 
@@ -35,9 +37,9 @@ Survival fields are calculated from the clinical data and added as new columns i
 
 The following status values are supported in `data_timeline_status.txt`:
 
-- `__time0__`
-- `demo__days_to_death`
-- `diag__days_to_last_follow_up`
+- (time 0) &rarr; `Initial Diagnosis`
+- `demo__days_to_death` &rarr; `DECEASED`
+- `diag__days_to_last_follow_up` &rarr; `Last Follow Up`
 ### Other transformations
 
 - `"not reported"` values are replaced with blanks.
@@ -92,6 +94,7 @@ Only amplifications (GISTIC = 2) and deep deletions (GISTIC = -2) are shown on t
 
   - Samples that lack any genomic data are removed from the clinical sample file.
   - Metadata headers are added to the clinical patient and sample files using a curation-provided script.
+  - TMB scores are calculated and added to the clinical sample file using a curation-provided script.
   - Case lists are generated under `case_lists/` using a curation-provided script.
   - The validator script is run and the HTML report is saved under `validation_reports/`.
 
