@@ -78,7 +78,7 @@ Supported programs:
 ### TARGET
 
 - **Cancer type mapping:** Each study corresponds to one or more TARGET projects. The TARGET project suffix is converted to an OncoTree code, which is used for the name of the study.
-    - **Example:** For the TARGET project `TARGET-ALL-P2`, the `ALL-P2` suffix is taken and converted to the Oncotree code `BLL`. The resulting cBioPortal study is `bll_target_gdc`.
+    - **Example:** For the TARGET project `TARGET-ALL-P2`, the `ALL-P2` suffix is taken and converted to the OncoTree code `BLL`. The resulting cBioPortal study is `bll_target_gdc`.
     - [Mapping file](https://github.com/cBioPortal/nci-crdc-pipeline/blob/main/resources/oncotree_mappings/target.txt)
 
 #### List of TARGET cBioPortal Studies
