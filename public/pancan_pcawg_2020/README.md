@@ -20,3 +20,10 @@ Only samples present in the cBioPortal study were included.
 The mutational matrix was extracted from the `data_mutations.txt` file using SigProfilerMatrixGenerator python package
 (v1.2.15) and the included reference genome GRCh37 (`SigProfilerMatrixGenerator.install.install('GRCh37')`).
 Only samples with contribution scores were included.
+
+### Tumor Break Load (TBL):
+
+**Data Source**
+ - TBL scores based on Lakbir et al., 2024 (Manuscript in progress)
+ - Overview of TBL calculation, from [Lakbir et al., Eur J Cancer 2024](https://pubmed.ncbi.nlm.nih.gov/36334560/)
+ - Data is provided as a sample-level clinical attribute labeled `Tumor Break Load`
