@@ -1,6 +1,6 @@
 cancer_study_identifier: hcc_msk_2024
 type_of_cancer: hcc
 name: Hepatocellular Carcinoma (MSK, Clin Cancer Res 2024)
-description:  Targeted sequencing of 1,370 hepatobiliary cancer samples and their matched normals via MSK-IMPACT.
+description:  Targeted sequencing of 1,370 hepatobiliary cancer samples (with 1366 matched normals) via MSK-IMPACT.
 pmid: 38864854
 citation: Song, Yi et al. Clin Cancer Res 2024
