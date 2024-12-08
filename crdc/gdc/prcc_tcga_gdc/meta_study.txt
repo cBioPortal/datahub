@@ -2,6 +2,6 @@ type_of_cancer: prcc
 cancer_study_identifier: prcc_tcga_gdc
 name: Papillary Renal Cell Carcinoma (TCGA, GDC)
 short_name: PRCC
-description: TCGA Papillary Renal Cell Carcinoma. Source data from GDC and generated in Jul 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+description: TCGA Papillary Renal Cell Carcinoma. Source data from <A HREF="https://portal.gdc.cancer.gov/projects/TCGA-KIRP">NCI GDC</A> and generated in Dec 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>. <A HREF="https://github.com/cBioPortal/datahub/blob/master/crdc/gdc/prcc_tcga_gdc/README.md">More info</A>
 reference_genome: hg38
 groups: PUBLIC
