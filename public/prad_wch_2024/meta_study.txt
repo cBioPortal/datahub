@@ -1,6 +1,6 @@
 cancer_study_identifier: prad_wch_2024
 type_of_cancer: prad
-name: Concurrent Intraductal Carcinoma and Adenocarcinoma of the Prostate (WCH, Cancer Research 2024)
+name: Concurrent Intraductal Carcinoma and Adenocarcinoma of the Prostate (WCH, Cancer Res 2024)
 description: Whole-exome sequencing of 22 tumor and normal sample pairs of concurrent intraductal carcinoma and adenocarcinoma of the prostate. 
 pmid: 37847513
-citation: Zhao J et al. Cancer Research 2024
+citation: Zhao J et al. Cancer Res 2024
