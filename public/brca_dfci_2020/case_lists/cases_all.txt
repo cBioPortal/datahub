@@ -1,0 +1,6 @@
+cancer_study_identifier: brca_dfci_2020																																																											
+stable_id: brca_dfci_2020_all																																																											
+case_list_name: All samples																																																											
+case_list_description: All samples (59 samples)																																																											
+case_list_category: all_cases_in_study																																																											
+case_list_ids: 177_Prospective1	185_T1	191_T1	195_T1	260_T1	290_T2	292_T1	294_T2	295_T1	299_T1	303_T1	306_T1	307_T1	314_T1	315_T1	327_T1	329_T1	330_T1	331_T1	333_T1	338_T1	346_T1	349_T1	350_T1	357_T1	358_T1	361_T1	366_T2	372_T1	376_T2	381_T1	383_T1	385_T1	386_T1	387_T1	391_T1	394_T2	397_T1	398_T1	401_T1	408_T1A	408_T1B	430_T1	434_T1	452_T2	459_Archival1	473_T1	496_T1	509_T1	515_T1	516_T1	532_T1	535_T1	538_T1	552_T1	567_T1	568_T1	606_T1	614_T1

@@ -1,0 +1,6 @@
+type_of_cancer: pcnsl
+cancer_study_identifier: pcnsl_msk_2024
+name: Primary CNS Lymphoma - Ibrutinib Long Term Follow Up (MSK, Cancer Cell 2024)
+description: A Phase II study assessing Long-Term Response to Ibrutinib Monotherapy in recurrent or refractory CNS Lymphoma.
+citation: Caitlin A et al. Cancer Cell 2024
+pmid: 39214094
