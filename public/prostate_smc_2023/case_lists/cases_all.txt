@@ -1,6 +1,6 @@
-cancer_study_identifier: prostate_smc_2023																																			
-stable_id: prostate_smc_2023_all																																			
-case_list_name: All samples																																			
-case_list_description: All samples (35 samples)																																			
-case_list_category: all_cases_in_study																																			
-case_list_ids:  BPH1 	BPH2 	BPH3 	BPH4 	BPH5 	BPH6 	BPH7 	BPH8 	BPH9 	BPH10 	GS6-1 	GS6-2 	GS6-3 	GS6-4 	GS6-5 	GS6-6 	GS6-7 	GS7-3 	GS7-4 	GS7-5 	GS7-6 	GS7-7 	GS7-8 	GS8-1 	GS8-2 	GS8-3 	GS8-4 	GS8-5 	GS9-1 	GS9-2 	GS9-3 	GS9-4 	GS9-5 	GS9-6 	GS10-1 
+cancer_study_identifier: prostate_smc_2023
+stable_id: prostate_smc_2023_all
+case_list_name: All samples
+case_list_description: All samples (35 samples)
+case_list_category: all_cases_in_study
+case_list_ids:	BPH1	BPH2	BPH3	BPH4	BPH5	BPH6	BPH7	BPH8	BPH9	BPH10	GS6-1	GS6-2	GS6-3	GS6-4	GS6-5	GS6-6	GS6-7	GS7-3	GS7-4	GS7-5	GS7-6	GS7-7	GS7-8	GS8-1	GS8-2	GS8-3	GS8-4	GS8-5	GS9-1	GS9-2	GS9-3	GS9-4	GS9-5	GS9-6	GS10-1

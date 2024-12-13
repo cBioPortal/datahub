@@ -1,6 +1,0 @@
-type_of_cancer: mixed
-cancer_study_identifier: ccle_broad_2024
-name: Cancer Cell Line Encyclopedia (Broad, 2024)
-short_name: CCLE (BROAD 2024)
-description: Whole genome and whole exome sequencing of 1,959 samples from the Cancer Cell Line Enyclopedia (CCLE). CCLE from Broad Institute and Novartis, 2024 (24Q2) update. Data downloaded from the <a href="https://depmap.org/portal/download/all/">Depmap Portal</a>.
-reference_genome: hg38
