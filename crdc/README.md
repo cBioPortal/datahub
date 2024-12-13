@@ -12,6 +12,7 @@ Supported programs:
 
 - [TCGA](https://www.cancer.gov/ccg/research/genome-sequencing/tcga)
 - [CPTAC](https://gdc.cancer.gov/about-gdc/contributed-genomic-data-cancer-research/clinical-proteomic-tumor-analysis-consortium-cptac)
+- [TARGET](https://www.cancer.gov/ccg/research/genome-sequencing/target)
 
 ### TCGA
 
@@ -73,3 +74,18 @@ Supported programs:
 - [`pancreas_cptac_gdc`](https://www.cbioportal.org/study/summary?id=pancreas_cptac_gdc): [Pancreatic Cancer](https://portal.gdc.cancer.gov/repository?facetTab=files&filters=%7B%22op%22%3A%22and%22%2C%22content%22%3A%5B%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.primary_site%22%2C%22value%22%3A%5B%22pancreas%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.project.program.name%22%2C%22value%22%3A%5B%22CPTAC%22%5D%7D%7D%5D%7D)
 - [`rcc_cptac_gdc`](https://www.cbioportal.org/study/summary?id=rcc_cptac_gdc): [Renal Cell Carcinoma](https://portal.gdc.cancer.gov/repository?facetTab=cases&filters=%7B%22op%22%3A%22and%22%2C%22content%22%3A%5B%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.disease_type%22%2C%22value%22%3A%5B%22Adenomas%20and%20Adenocarcinomas%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.primary_site%22%2C%22value%22%3A%5B%22Kidney%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.project.program.name%22%2C%22value%22%3A%5B%22CPTAC%22%5D%7D%7D%5D%7D)
 - [`uec_cptac_gdc`](https://www.cbioportal.org/study/summary?id=uec_cptac_gdc): [Uterine Endometrioid Carcinoma](https://portal.gdc.cancer.gov/repository?facetTab=cases&filters=%7B%22op%22%3A%22and%22%2C%22content%22%3A%5B%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.disease_type%22%2C%22value%22%3A%5B%22Adenomas%20and%20Adenocarcinomas%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.primary_site%22%2C%22value%22%3A%5B%22Uterus%2C%20NOS%22%5D%7D%7D%2C%7B%22op%22%3A%22in%22%2C%22content%22%3A%7B%22field%22%3A%22cases.project.program.name%22%2C%22value%22%3A%5B%22CPTAC%22%5D%7D%7D%5D%7D)
+
+### TARGET
+
+- **Cancer type mapping:** Each study corresponds to one or more TARGET projects. The TARGET project suffix is converted to an OncoTree code, which is used for the name of the study.
+    - **Example:** For the TARGET project `TARGET-ALL-P2`, the `ALL-P2` suffix is taken and converted to the OncoTree code `BLL`. The resulting cBioPortal study is `bll_target_gdc`.
+    - [Mapping file](https://github.com/cBioPortal/nci-crdc-pipeline/blob/main/resources/oncotree_mappings/target.txt)
+
+#### List of TARGET cBioPortal Studies
+
+- [`alal_target_gdc`](https://www.cbioportal.org/study/summary?id=alal_target_gdc): TARGET-ALL-P3, [Acute Lymphoblastic Leukemia - Phase III](https://portal.gdc.cancer.gov/projects/TARGET-ALL-P3)
+- [`aml_target_gdc`](https://www.cbioportal.org/study/summary?id=aml_target_gdc): TARGET-AML, [Acute Myeloid Leukemia](https://portal.gdc.cancer.gov/projects/TARGET-AML)
+- [`bll_target_gdc`](https://www.cbioportal.org/study/summary?id=bll_target_gdc): TARGET-ALL-P2, [Acute Lymphoblastic Leukemia - Phase II](https://portal.gdc.cancer.gov/projects/TARGET-ALL-P2)
+- [`nbl_target_gdc`](https://www.cbioportal.org/study/summary?id=nbl_target_gdc): TARGET-NBL, [Neuroblastoma](https://portal.gdc.cancer.gov/projects/TARGET-NBL)
+- [`os_target_gdc`](https://www.cbioportal.org/study/summary?id=os_target_gdc): TARGET-OS, [Osteosarcoma](https://portal.gdc.cancer.gov/projects/TARGET-OS)
+- [`wt_target_gdc`](https://www.cbioportal.org/study/summary?id=wt_target_gdc): TARGET-WT, [Wilms' Tumor](https://portal.gdc.cancer.gov/projects/TARGET-WT)
