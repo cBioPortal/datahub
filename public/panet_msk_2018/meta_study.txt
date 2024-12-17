@@ -1,6 +1,6 @@
 type_of_cancer: panet
 cancer_study_identifier: panet_msk_2018
 name: Metastatic Pancreatic Neuroendocrine Tumor (MSK, JCO Precis Oncol 2018)
-description: Targeted sequencing of 96 metastatic pancreatic neuroendocrine tumors from 80 patients and their matched normals using MSK-IMPACT.  
+description: Targeted sequencing of 96 metastatic pancreatic neuroendocrine tumors from 80 patients and their matched normals using MSK-IMPACT. This data is available under the Creative Commons BY-NC-ND 4.0 license. 
 citation: Raj N., et al. JCO Precis Oncol. 2018
 pmid: 30687805
