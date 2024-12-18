@@ -1,8 +1,0 @@
-cancer_study_identifier: prostate_smc_2023
-genetic_alteration_type: PROTEIN_LEVEL
-datatype: Z-SCORE
-data_filename: data_protein_quantification_zscores.txt
-stable_id: protein_quantification_zscores
-show_profile_in_analysis_tab: true
-profile_description: Protein expression Z-scores (TMT)
-profile_name: Protein expression Z-scores

@@ -1,7 +1,0 @@
-type_of_cancer: prostate
-cancer_study_identifier: prostate_smc_2023
-name: Prostate Cancer (SMC, Nature 2023)
-description: Whole-exome sequencing of 35 Chinese prostate cancer samples, including 10 benign prostatic hyperplasia and 25 tumor samples.
-citation: Ziruoyu et al., Nature 2023
-pmid: 37121942
-reference_genome: hg38
