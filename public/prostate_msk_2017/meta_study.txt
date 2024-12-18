@@ -1,6 +1,0 @@
-cancer_study_identifier: prostate_msk_2017
-type_of_cancer: prostate
-name: Prostate Cancer (MSK, JCO Precis Oncol 2017)
-description: Targeted sequencing of 504 samples from 451 patients with prostate cancer via MSK-IMPACT
-citation: Abida et. al. JCO Precision Oncology 2017
-pmid: 28825054
