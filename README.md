@@ -53,7 +53,7 @@ git push origin [name_of_your_new_branch]
 For instructions on submitting a pull-request, please see:  [Using Pull Requests ](https://help.github.com/articles/using-pull-requests/) and [Sending Pull Requests](http://help.github.com/send-pull-requests/).
 
 ## Download a complete MySQL export of the latest database
-http://download.cbioportal.org/mysql-snapshots/mysql-snapshots-toc.html
+https://public-db-dump.assets.cbioportal.org/
 
 
 ## License

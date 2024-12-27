@@ -1,6 +1,6 @@
 type_of_cancer: mixed
 cancer_study_identifier: msk_ctdna_vte_2024
 name: MSK ctDNA Sequencing Cohort (MSK, Nature Medicine 2024)
-description: Targeted sequencing of 5,567 cancer patient ctDNA samples via MSK-ACCESS.
+description: Targeted sequencing of 5,567 cancer patient ctDNA samples via MSK-ACCESS. This data is available under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">Creative Commons BY-NC-ND 4.0 license</a>.
 pmid: 39147831
 citation: Justin et al. Nat Med 2024

@@ -1,0 +1,6 @@
+type_of_cancer: pancreas
+cancer_study_identifier: pancreas_msk_2024
+name: Pancreatic Cancer (MSK, Cancer Cell 2024)
+description: Targeted sequencing of 395 early stage pancreatic cancer cases and their matched normals via MSK-IMPACT. This data is available under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">Creative Commons BY-NC-ND 4.0 license</a>.
+pmid: 39214094
+citation: Caitlin A et al. Cancer Cell 2024

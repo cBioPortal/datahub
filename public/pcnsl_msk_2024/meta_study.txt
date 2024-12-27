@@ -1,0 +1,6 @@
+type_of_cancer: pcnsl
+cancer_study_identifier: pcnsl_msk_2024
+name: Primary CNS Lymphoma (MSK, Clin Cancer Res 2024)
+description: Targeted sequencing of 86 samples from 44 patients with primary CNS lymphoma with their matched normals via HemePACT. A Phase II study assessing Long-Term Response to Ibrutinib Monotherapy in recurrent or refractory CNS Lymphoma. A Phase II study assessing Long-Term Response to Ibrutinib Monotherapy in recurrent or refractory CNS Lymphoma.
+citation: Grommes, Christian et al. Clin Cancer Res 2024
+pmid: 38995739

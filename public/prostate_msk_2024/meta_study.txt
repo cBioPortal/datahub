@@ -1,0 +1,6 @@
+cancer_study_identifier: prostate_msk_2024
+type_of_cancer: prostate
+name: Prostate Cancer (MSK, Clin Cancer Res 2024)
+description: Targeted sequencing of 2,257 prostate cancer patient samples and their matched normals via MSK-IMPACT platform. This data is available under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">Creative Commons BY-NC-ND 4.0 license</a>.
+pmid: 38949888
+citation: Lenis, Andrew T et al. Clinical cancer research 2024
