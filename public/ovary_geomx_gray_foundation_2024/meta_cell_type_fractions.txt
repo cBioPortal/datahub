@@ -1,0 +1,12 @@
+cancer_study_identifier: ovary_geomx_gray_foundation_2024
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: CYCIF_CELL_TYPE_FRACTIONS
+datatype: LIMIT-VALUE
+stable_id: cycif_cell_type_fractions
+profile_name: CyCIF - Cell Type Fractions
+profile_description: Cell type fractions
+data_filename: data_cell_type_fractions.txt
+show_profile_in_analysis_tab: true
+pivot_threshold_value: 0.001
+value_sort_order: ASC
+generic_entity_meta_properties: NAME
