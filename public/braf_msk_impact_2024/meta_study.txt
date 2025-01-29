@@ -1,0 +1,6 @@
+type_of_cancer: mixed
+cancer_study_identifier: braf_msk_impact_2024
+name: BRAF Fusions - IMPACT Clinical Sequencing Cohort (MSK, Clin Cancer Res 2024)
+description: Targeted sequencing of 105 clinical cases via MSK-IMPACT to characterize the structure and impact of BRAF fusions on clinical course in a tumor-agnostic approach.
+citation: Monica F et al. Clin Cancer Res 2024
+pmid: 38922339
