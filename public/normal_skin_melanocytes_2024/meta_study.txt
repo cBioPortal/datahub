@@ -1,0 +1,6 @@
+type_of_cancer: skin
+cancer_study_identifier: normal_skin_melanocytes_2024
+name: Normal Melanocytes (UCSF, Nature 2020)
+description: Whole exome sequencing data of 153 normal melanocytes samples from human skin.
+citation: Tang et al. Nature 2020, Tandukar et al. BioRxiv 2024, Pedram et al. BioRxiv 2024
+pmid: 33029006,39091884,38895302

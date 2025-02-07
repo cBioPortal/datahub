@@ -1,0 +1,6 @@
+type_of_cancer: mixed
+cancer_study_identifier: csf_msk_2024
+name: Real-world experience of CSF ctDNA sequencing (MSK, Acta Neuropathol Commun 2024)
+description: Targeted sequencing of 1,007 cerebrospinal fluid circulating tumor DNA from patients with central nervous system tumors using MSK-IMPACT and their matched normals.
+citation: Hickman, Richard A et al. Acta neuropathologica communications 2024
+pmid: 39289779
