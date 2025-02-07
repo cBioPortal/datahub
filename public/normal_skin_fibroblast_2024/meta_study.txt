@@ -1,0 +1,6 @@
+type_of_cancer: skin
+cancer_study_identifier: normal_skin_fibroblast_2024
+name: Normal Fibroblasts (UCSF, BioRxiv 2024)
+description: Whole exome sequencing data of 18 normal fibroblast samples from human skin.
+citation: Tandukar et al. BioRxiv 2024
+pmid: 39091884
