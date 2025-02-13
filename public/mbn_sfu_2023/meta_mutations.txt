@@ -5,4 +5,4 @@ genetic_alteration_type: MUTATION_EXTENDED
 datatype: MAF
 show_profile_in_analysis_tab: TRUE
 profile_name: Mutations
-profile_description: Mutation data from whole exome sequencing.
+profile_description: Mutation data from whole genome sequencing.
