@@ -4,6 +4,6 @@ datatype: MAF
 stable_id: mutations
 show_profile_in_analysis_tab: true
 profile_name: Mutations
-profile_description: Mutations derived from WES data. The FLT3-ITD and NPM1 consensus calls from internally run PCR assay and capillary electrophoresis and/or CLIA lab assay were included.
+profile_description: Mutations derived from Whole exome sequencing data. The FLT3-ITD and NPM1 consensus calls from internally run PCR assay and capillary electrophoresis and/or CLIA lab assay were included.
 data_filename: data_mutations.txt
 swissprot_identifier: accession
