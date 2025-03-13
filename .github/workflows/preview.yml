@@ -1,0 +1,105 @@
+on:
+    pull_request:
+      branches:
+        - "*"
+
+jobs:
+    changed_files:
+      runs-on: ubuntu-latest
+      outputs:
+        new_study_dirs: ${{ steps.new-dirs.outputs.NEW_DIR_LOCATIONS }}
+      steps:
+        - name: Get New Directories Added
+          id: changed-files-dir-names
+          uses: tj-actions/changed-files@v38
+          with:
+            dir_names: "true"
+  
+        - name: Extract Parent Directory Names of New Studies
+          id: new-dirs
+          shell: bash
+          run: |
+            echo "NEW_DIR_LOCATIONS=$( echo ${{ steps.changed-files-dir-names.outputs.added_files }} | sed 's/[^ ]*\/case_lists[^ ]*//g' )" >> $GITHUB_OUTPUT
+  
+    preview:
+      needs: changed_files
+      runs-on: ubuntu-latest
+      container: docker.io/okteto/okteto:2.19.1
+      steps:
+        - name: Install Git LFS
+          run: apk update && apk add git-lfs
+  
+        - name: Split Directories Into New Line Pattern For Sparse Checkout
+          id: split
+          run: |
+            echo "STUDY_DIRS<<EOF" >> $GITHUB_ENV
+            echo "$( echo ${{ needs.changed_files.outputs.new_study_dirs }} | tr ' ' '\n')" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+  
+        - name: Checkout Datahub Repository
+          uses: actions/checkout@v4
+          with:
+            lfs: true
+            sparse-checkout-cone-mode: false
+            sparse-checkout: |
+              preview/*
+              ${{ env.STUDY_DIRS }}
+  
+        - name: Copy New Files to Study Directory
+          shell: bash
+          run: |
+            for dir in ${{ needs.changed_files.outputs.new_study_dirs }}; do
+              study_name=$( cut -d "/" -f2- <<< ${dir}) # remove 'public/' from string
+              cp -v -R ${dir} preview/cbioportal-docker-compose/study/${study_name}
+            done
+  
+        - name: Context
+          uses: okteto/context@latest
+          with:
+            url: ${{secrets.OKTETO_URL}}
+            token: ${{ secrets.OKTETO_TOKEN }}
+  
+        - name: Okteto Build to Import Studies
+          working-directory: preview/cbioportal-docker-compose
+          run: |
+            okteto build --no-cache -t okteto.dev/cbioportal-docker-compose-cbioportal:okteto-with-volume-mounts cbioportal
+  
+        - name: Deploy Preview Environment
+          uses: okteto/deploy-preview@latest
+          env:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            name: pr-${{ github.event.number }}-justinjao
+            file: preview/cbioportal-docker-compose/docker-compose.yml
+            timeout: 15m
+      
+        - name: Wait For Response From Preview Instance
+          uses: nev7n/wait_for_response@v1.0.1
+          with:
+            url: 'https://cbioportal-pr-${{ github.event.number }}-justinjao.cloud.okteto.net/'
+            responseCode: 200
+            timeout: 600000 # 10 minutes
+            interval: 30000 # 30 seconds
+  
+        - name: Activate Namespace
+          uses: okteto/namespace@latest
+          with:
+            namespace: pr-${{github.event.number}}-justinjao
+  
+        - name: Run Metaimport Script to Import Study Using Kubectl
+          id: import-study
+          continue-on-error: true
+          shell: bash
+          run: |
+            okteto kubeconfig
+            for dir in ${{ needs.changed_files.outputs.new_study_dirs }}; do
+              study_name=$( cut -d "/" -f2- <<< ${dir})
+              kubectl exec -it deployment/cbioportal -- metaImport.py -u http://localhost:8080 -s study/${study_name} -o
+            done
+  
+        - name: Add PR Comment if Import Failed
+          uses: mainmatter/continue-on-error-comment@v1
+          with:
+              repo-token: ${{ secrets.GITHUB_TOKEN }}
+              outcome: ${{ steps.import-study.outcome }}
+              test-id: Error code 1
