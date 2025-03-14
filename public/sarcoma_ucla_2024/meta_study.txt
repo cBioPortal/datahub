@@ -1,6 +1,6 @@
 cancer_study_identifier: sarcoma_ucla_2024
 type_of_cancer: soft_tissue
 name: Sarcoma (UCLA, Cell 2024)
-description: Targeted sequencing of 63 out of 194 soft tissue sarcoma samples using OncoPanel v3 platform.
+description: Targeted sequencing of a subset of 63 patient-derived organoids from soft tissue sarcoma patients using OncoPanel v3 platform.
 citation: Al Shihabi, Ahmad et al. Cell stem cell 2024
 pmid: 39305899
