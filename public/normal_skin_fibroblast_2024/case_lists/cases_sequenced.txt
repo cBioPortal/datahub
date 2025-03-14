@@ -1,0 +1,6 @@
+cancer_study_identifier: normal_skin_fibroblast_2024
+stable_id: normal_skin_fibroblast_2024_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (18 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: D06_BCC06	D56_FAC25	D53_SHR08	D54_BTK08	D55_BTK10	D55_SHR09	D55_SHR10	D54_SHR16	D06_BCC12	D56_FAC26	D57_FAC19	D57_FAC11	D58_SHR22	D56_SHR22	D57_FAC15	D59_SHR21	D58_SHR21	D53_BTK16

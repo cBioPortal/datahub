@@ -1,0 +1,6 @@
+cancer_study_identifier: pdac_msk_2024
+type_of_cancer: pancreas
+name: Pancreatic Adenocarcinoma (MSK, Nat Med 2024)
+description:  Targeted sequencing of 2,336 pancreatic adenocarcinoma samples and their matched normals via MSK-IMPACT platform.
+citation: Varghese, Anna M et al. Nature medicine 2024
+pmid: 39753968

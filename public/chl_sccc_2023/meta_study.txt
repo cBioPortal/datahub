@@ -1,0 +1,7 @@
+cancer_study_identifier: chl_sccc_2023
+type_of_cancer: chl
+name: Classical Hodgkins Lymphoma (SCCC, Blood Cancer Discov 2023)
+description: Whole-exome sequencing of 36 cases and whole-genome sequencing of 25 cases of classical hodgkins lymphomas and their matched normals. 
+reference_genome: hg19 
+pmid: 36723991
+citation: Maura, Francesco et al. Blood cancer discovery 2023
