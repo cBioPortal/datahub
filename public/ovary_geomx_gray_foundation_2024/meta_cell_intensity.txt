@@ -1,0 +1,12 @@
+cancer_study_identifier: ovary_geomx_gray_foundation_2024
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: RFU_P53_MARKER_INTENSITY
+datatype: LIMIT-VALUE
+stable_id: rfu_p53_marker_intensity
+profile_name: p53 Marker Intensity
+profile_description: p54 Marker Intensity
+data_filename: data_cell_intensity.txt
+show_profile_in_analysis_tab: true
+pivot_threshold_value: 0.001
+value_sort_order: ASC
+generic_entity_meta_properties: NAME
