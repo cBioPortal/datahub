@@ -1,6 +1,6 @@
 # Data transformation of ovary_geomx_gray_foundation_2024
 
-Article: Tanjina et al. bioRxiv 2024. https://aacrjournals.org/cancerdiscovery/article/doi/10.1158/2159-8290.CD-24-1366/750608/Multimodal-Spatial-Profiling-Reveals-Immune
+Article: Kader et al. Cancer Discov 2024. https://aacrjournals.org/cancerdiscovery/article/doi/10.1158/2159-8290.CD-24-1366/750608/Multimodal-Spatial-Profiling-Reveals-Immune
 
 Data was downloaded from the supplementary files:
 - Table S1 and Table S2: Patient and Sample clinical data.

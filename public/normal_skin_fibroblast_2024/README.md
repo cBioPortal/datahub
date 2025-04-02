@@ -6,7 +6,7 @@
 * Normal Keratinocytes (UCSF, BioRxiv 2024)
 * Uploaded data available from original publication and from authors
 * Sequencing Platform - Whole exome sequencing 
-* The study has been divided by skin cell types from three articles (33029006,39091884,38895302)
+* The study has been divided by skin cell types from one article: 39091884
 
 ## Clinical Data
 * Patient data was retrieved from Supplementary Table S1 - "Summary of clinical and demographic information"
