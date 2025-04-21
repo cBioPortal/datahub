@@ -1,6 +1,6 @@
 cancer_study_identifier: normal_skin_fibroblast_2024
-stable_id: normal_skin_fibroblast_2024_rna_seq_v2_mrna
-case_list_name: Samples with mRNA data (RNA Seq V2)
+stable_id: normal_skin_fibroblast_2024_rna_seq_mrna
+case_list_name: Samples with mRNA data (RNA Seq)
 case_list_description: Samples with mRNA expression data
 case_list_category: all_cases_with_mrna_rnaseq_data
 case_list_ids: D06_BCC06	D06_BCC12	D38_RBK06	D49_RBK09	D49_RBK10	D53_BTK16	D53_SHR05	D53_SHR08	D54_BTK08	D54_SHR13	D54_SHR16	D55_BTK10	D55_SHR09	D55_SHR10	D56_FAC25	D56_FAC26	D56_SHR22	D57_FAC11	D57_FAC15	D57_FAC19	D58_SHR21	D58_SHR22	D59_SHR21

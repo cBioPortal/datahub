@@ -39,14 +39,3 @@
   
 ## Mutational Signatures Contribution SBS Data
   * Data was shared by the author.
-
-
-## Case Lists
-Case lists generated:
-* cases_all
-* cases_sequenced
-
-
-## Missing Data:
-* Copy Number Alterations Data
-* Expression Data
