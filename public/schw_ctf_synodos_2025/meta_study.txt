@@ -5,4 +5,3 @@ description: The data are contributed by researchers funded by the Children's Tu
 citation: Mansouri, S., Suppiah, S., Mamatjan, Y. et al. Epigenomic, genomic, and transcriptomic landscape of schwannomatosis. Acta Neuropathol (2020). https://doi.org/10.1007/s00401-020-02230-x
 groups: PUBLIC
 reference_genome: hg38
-add_global_case_list: true
