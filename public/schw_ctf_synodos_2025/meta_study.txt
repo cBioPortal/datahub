@@ -1,6 +1,6 @@
 cancer_study_identifier: schw_ctf_synodos_2025
 type_of_cancer: schw
-name: "Data from Synodos Schwannomatosis Project (Children's Tumor Foundation)"
+name: Data from Synodos Schwannomatosis Project (Children's Tumor Foundation)
 description: The data are contributed by researchers funded by the Children's Tumor Foundation. The reprocessing of the raw data is managed by the NF Open Science Initiative (https://nf.synapse.org/).
 citation: Mansouri, S., Suppiah, S., Mamatjan, Y. et al. Epigenomic, genomic, and transcriptomic landscape of schwannomatosis. Acta Neuropathol (2020). https://doi.org/10.1007/s00401-020-02230-x
 groups: PUBLIC
