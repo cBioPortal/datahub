@@ -1,6 +1,6 @@
 type_of_cancer: mixed
 cancer_study_identifier: braf_msk_archer_2024
 name: BRAF Fusions - ARCHER Clinical Sequencing Cohort (MSK, Clin Cancer Res 2024)
-description: Targeted sequencing of 107 clinical cases via ARCHER to characterize the structure and impact of BRAF fusions on clinical course in a tumor-agnostic approach.
+description: Targeted sequencing of 107 clinical cases via ARCHER to characterize the structure and impact of BRAF fusions on clinical course in a tumor-agnostic approach. This study is part of a broader analysis and is complemented by a parallel study using MSK-IMPACT sequencing (see related <a href="https://www.cbioportal.org/study/summary?id=braf_msk_impact_2024">MSK-IMPACT</a> study).
 citation: Monica F et al. Clin Cancer Res 2024
 pmid: 38922339
