@@ -2,7 +2,7 @@ cancer_study_identifier: paac_msk_jco_2023
 data_filename: data_mutations.txt
 datatype: MAF
 genetic_alteration_type: MUTATION_EXTENDED
-profile_description: Mutation data
+profile_description:  Targeted sequencing of pancreatic acinar cell carcinoma tumor.
 profile_name: Mutations
 show_profile_in_analysis_tab: true
 stable_id: mutations
