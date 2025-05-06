@@ -1,6 +1,7 @@
 Study Curation and Transformation README
 
 Curator name: Fan-Yu, Liao (Georgetown University, 2024)
+Krista Williston ((Georgetown University, 2025)
 Reference publication: 36723991
 Reference genome used: GRCh37
 
