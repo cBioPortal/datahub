@@ -1,0 +1,4 @@
+type_of_cancer: mixed
+cancer_study_identifier: pancan_mimsi_msk_2024
+name: Mixed Tumors - MiMSI Cohort (MSK, 2024)
+description: Targeted sequencing of 5,033 clinical cases and their matched normals via MSK-IMPACT, with pathologist-confirmed orthogonal MMR IHC data <a href="https://doi.org/10.1038/s41467-024-54970-z">DOI.</a>
