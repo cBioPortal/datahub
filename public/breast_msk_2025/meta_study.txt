@@ -1,4 +1,0 @@
-type_of_cancer: brca
-cancer_study_identifier: breast_msk_2025
-name: Breast Cancer (MSK, 2025)
-description: Targeted sequencing of 3879 breast clinical cases and their matched normals via MSK-IMPACT platform.
