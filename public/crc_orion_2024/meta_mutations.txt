@@ -1,0 +1,8 @@
+cancer_study_identifier: crc_orion_2024
+stable_id: mutations
+profile_name: Mutations
+profile_description: Seq data.
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+data_filename: data_mutations.txt
+show_profile_in_analysis_tab: true

@@ -1,0 +1,12 @@
+cancer_study_identifier: crc_orion_2024
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: CELL_DENSITY
+datatype: LIMIT-VALUE
+stable_id: cell_density
+profile_name: Neighborhood Cell Density (cells/mm2)
+profile_description: Local neighborhood density (in cells/mm2) for each cell type within a 50 micron radius
+data_filename: data_cell_density.txt
+show_profile_in_analysis_tab: true
+pivot_threshold_value: 0
+value_sort_order: ASC
+generic_entity_meta_properties: NAME
