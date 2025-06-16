@@ -1,0 +1,6 @@
+cancer_study_identifier: crc_orion_2024
+stable_id: crc_orion_2024_cna
+case_list_name: Samples with CNA data
+case_list_description: Samples with CNA data (74 samples)
+case_list_category: all_cases_with_cna_data
+case_list_ids: C71	C70	C73	C72	C74	C39	C38	C35	C34	C37	C36	C31	C30	C33	C32	C9	C8	C3	C2	C1	C7	C6	C5	C4	C22	C23	C20	C21	C26	C27	C68	C69	C66	C67	C64	C65	C62	C63	C60	C61	C29	C57	C56	C55	C54	C53	C52	C51	C50	C59	C58	C19	C18	C13	C12	C11	C10	C17	C16	C15	C14	C24	C25	C28	C44	C45	C46	C47	C40	C41	C42	C43	C48	C49
