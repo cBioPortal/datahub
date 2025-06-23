@@ -1,0 +1,6 @@
+cancer_study_identifier: sft_sysucc_2023
+type_of_cancer: mixed
+name: Solitary Fibrous Tumors (SYSUCC, Nature Comm 2023)
+description: Targeted sequencing of 131 solitary fibrous tumor samples constituting the SYSUCC discovery cohort.
+pmid: 37980418
+citation: Zhang, Renjing et al. Nature communications 2023

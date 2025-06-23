@@ -1,0 +1,6 @@
+type_of_cancer: luad
+cancer_study_identifier: luad_cas_2020
+name: Lung Adenocarcinoma (CAS, Cell 2020)
+description: Whole-exome sequencing of 103 lung adenocarcinoma cases and their matched normals in Chinese patients. 
+pmid: 32649877
+citation: Xu, Jun-Yu et al. Cell 2020
