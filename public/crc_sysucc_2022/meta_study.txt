@@ -1,7 +1,7 @@
 type_of_cancer: coadread
 cancer_study_identifier: crc_sysucc_2022
 name: Exome Profiling of Colorectal Cancer Patients (SYSUCC, Nat Commun 2022)
-description: Whole exome sequencing on 1,015 colorectal cancer patients, analyzing both tumor and matched normal tissues using the HapOnco WESplus capture-based next-generation sequencing (NGS) platform.
+description: Whole exome sequencing on 1,015 Chinese colorectal cancer patients, analyzing both tumor and matched normal tissues using the HapOnco WESplus capture-based next-generation sequencing (NGS) platform as part of the ChangKang Project.
 citation: Qi et al. Nat Commun 2022
 pmid: 35487942
 groups: PUBLIC

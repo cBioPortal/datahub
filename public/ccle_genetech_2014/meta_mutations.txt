@@ -1,8 +1,0 @@
-cancer_study_identifier: ccle_genetech_2014
-data_filename: data_mutations.txt
-stable_id: mutations
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-show_profile_in_analysis_tab: TRUE
-profile_name: Mutations data
-profile_description: Mutation data from single-nucleotide polymorphism (SNP) array analysis.

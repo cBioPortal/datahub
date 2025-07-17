@@ -1,6 +1,6 @@
 cancer_study_identifier: sclc_uc_2024
 type_of_cancer: lung
 name: Small Cell Lung Cancer (UC, Nature 2024)
-description: Whole genome and whole exome sequencing of 160 small cell lung cancer tumors from 65 patients with matched normals. 
+description: Whole genome and whole exome sequencing of 160 small cell lung cancer tumors and their matched normals from 65 patients. 
 pmid: 38480884
 citation: George, Julie et al. Nature 2024

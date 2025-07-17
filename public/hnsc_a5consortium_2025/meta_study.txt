@@ -1,7 +1,7 @@
 type_of_cancer: hnsc
 cancer_study_identifier: hnsc_a5consortium_2025
-name: Hereditary SDHB-mutant pheochromocytomas and paragangliomas (A5 Consortium, Res Sq 2024)
-description: Whole-genome sequencing of 94 Hereditary SDHB-mutant pheochromocytomas (PC) and paragangliomas (PG) tumor and their matched normals.
-citation: Aidan et al. Res Sq 2024
+name: Hereditary SDHB-Mutant Pheochromocytomas and Paragangliomas (A5 Consortium, Nature 2025)
+description: Whole genome sequencing of 94 Hereditary SDHB-mutant pheochromocytomas (PC) and paragangliomas (PG) tumors and their matched normals.
+citation: Aidan et al. Nature 2025
 pmid: 38978571
 groups: PUBLIC
