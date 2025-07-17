@@ -1,7 +1,7 @@
 cancer_study_identifier: brca_dldccc_2022
 type_of_cancer: brca
 name: Triple Negative Breast Cancer (DLDCCC, Cancer Discov 2022)
-description: Whole exome sequencing of 59 pre-treatment and 16 post-treatment triple-negative breast cancer samples and their matched normals as part of microscaled poteogenomic analysis to identify markers of chemotherapy resistance and response.  
+description: Whole exome sequencing of 59 pre-treatment and 16 post-treatment triple-negative breast cancer samples and their matched normals as part of micro-scaled proteogenomic analysis to identify markers of chemotherapy resistance and response.  
 pmid: 36001024
 citation: Anurag, Meenakshi et al. Cancer discovery 2022
 
