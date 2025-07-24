@@ -1,0 +1,7 @@
+cancer_study_identifier: blca_msk_2024
+description: Targeted sequencing of 184 muscle-invasive bladder cancer (MIBC) samples and their matched normals using MSK-IMPACT.
+name: Bladder Urothelial Carcinoma (MSK, JCO Precis Oncol 2024)
+short_name: Bladder Carcinoma
+type_of_cancer: blca
+citation: Iyer, Gopa et al. JCO precision oncology 2024
+pmid: 39499893
