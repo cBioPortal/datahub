@@ -1,0 +1,35 @@
+#DIAGNOSIS	PATIENT_ID	SEX
+#Diagnosis of the patient	Patient ID	Sex of the patient
+#STRING	STRING	STRING
+#1	1	1
+DIAGNOSIS	PATIENT_ID	SEX
+LZTR1-related schwannomatosis	swn_patient_38	Male
+LZTR1-related schwannomatosis	swn_patient_10	Female
+Schwannomatosis-NOS	swn_patient_54	Male
+LZTR1-related schwannomatosis	swn_patient_52	Male
+Schwannomatosis-NOS	swn_patient_55	Male
+Schwannomatosis-NOS	swn_patient_51	Female
+Schwannomatosis-NOS	swn_patient_64	Male
+LZTR1-related schwannomatosis	swn_patient_3	Male
+Schwannomatosis-NOS	swn_patient_59	Male
+SMARCB1-related schwannomatosis	swn_patient_62	Female
+Schwannomatosis-NOS swn_patient_63	Male
+Schwannomatosis-NOS	swn_patient_60	Female
+SMARCB1-related schwannomatosis	swn_patient_17	Female
+Schwannomatosis-NOS	swn_patient_19	Male
+SMARCB1-related schwannomatosis	swn_patient_11	Female
+SMARCB1-related schwannomatosis  swn_patient_1	Male
+LZTR1-related schwannomatosis	swn_patient_21	Male
+LZTR1-related schwannomatosis	swn_patient_23	Male
+Schwannomatosis-NOS	swn_patient_25	Female
+LZTR1-related schwannomatosis	swn_patient_27	Female
+LZTR1-related schwannomatosis	swn_patient_28	Female
+LZTR1-related schwannomatosis	swn_patient_2	Female
+Schwannomatosis-NOS	swn_patient_32	Female
+Schwannomatosis-NOS	swn_patient_31	Male
+Schwannomatosis-NOS	swn_patient_33	Male
+LZTR1-related schwannomatosis	swn_patient_39	Male
+LZTR1-related schwannomatosis	swn_patient_4	Male
+Schwannomatosis-NOS	swn_patient_6	Female
+Schwannomatosis-NOS	swn_patient_7	Male
+Schwannomatosis-NOS	swn_patient_8	Female
