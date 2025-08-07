@@ -1,0 +1,15 @@
+#!/bin/bash
+
+for study in *; do
+    old_study=${study//_gdc/_cda}
+    new_study=${study//_cda/_gdc}
+    mv "$old_study" "$new_study" || true
+    pushd "$new_study"
+    find . -type f -name 'meta_*.txt' | xargs sed -i '' 's/_cda/_gdc/g'
+    find case_lists -type f | xargs sed -i '' 's/_cda/_gdc/g'
+    pushd validation_reports
+    mv "${old_study}-validation.html" "${new_study}-validation.html" || true
+    sed -i '' 's/_cda/_gdc/g' *-validation.html
+    popd
+    popd
+done

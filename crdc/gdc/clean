@@ -1,0 +1,19 @@
+#!/bin/bash
+
+find . -type d \( \
+  -name 'sample-level-mafs' -o \
+  -name 'biospecimen-supplement' -o \
+  -name 'clinical-supplement' -o \
+  -name 'cna-files' -o \
+  -name 'mrna-files' -o \
+  -name 'seg-files' \
+\) | xargs rm -rf
+find . -type f -name 'data_mutations_raw.txt' | xargs rm -rf
+find . -type f -name 'data_mutations_unfiltered.txt' | xargs rm -rf
+find . -type f -name 'data_clinical_sample_extended.txt' | xargs rm -rf
+find . -type f -name 'mutation_samples.txt' | xargs rm -rf
+find . -type f -name 'mutation_only_samples.txt' | xargs rm -rf
+find . -type f -name 'clinical_samples.txt' | xargs rm -rf
+find . -type f -name 'stripped__*.txt' | xargs rm -rf
+find . -type f -name 'isb__*.txt' | xargs rm -rf
+find . -type f -name 'cda__*.txt' | xargs rm -rf

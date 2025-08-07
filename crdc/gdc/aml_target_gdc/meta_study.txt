@@ -1,7 +1,7 @@
 type_of_cancer: aml
 cancer_study_identifier: aml_target_gdc
 name: Acute Myeloid Leukemia (TARGET, GDC)
-short_name: AML
-description: TARGET Acute Myeloid Leukemia. Source data from <A HREF="https://portal.gdc.cancer.gov/projects/TARGET-AML">NCI GDC</A> and generated in Dec 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>. <A HREF="https://github.com/cBioPortal/datahub/blob/master/crdc/gdc/aml_target_gdc/README.md">More info</A>
+short_name: aml
+description: TARGET Acute Myeloid Leukemia. Source data from GDC and generated in Aug 2025 using Cancer Data Aggregator.
 reference_genome: hg38
 groups: PUBLIC

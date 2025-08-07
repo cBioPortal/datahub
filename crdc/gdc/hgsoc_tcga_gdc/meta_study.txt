@@ -1,7 +1,7 @@
 type_of_cancer: hgsoc
 cancer_study_identifier: hgsoc_tcga_gdc
 name: High-Grade Serous Ovarian Cancer (TCGA, GDC)
-short_name: HGSOC
-description: TCGA High-Grade Serous Ovarian Cancer. Source data from GDC and generated in Jul 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+short_name: hgsoc
+description: TCGA High-Grade Serous Ovarian Cancer. Source data from GDC and generated in Jul 2025 using Cancer Data Aggregator.
 reference_genome: hg38
 groups: PUBLIC
