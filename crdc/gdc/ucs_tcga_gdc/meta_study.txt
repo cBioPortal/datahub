@@ -2,6 +2,6 @@ type_of_cancer: ucs
 cancer_study_identifier: ucs_tcga_gdc
 name: Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor (TCGA, GDC)
 short_name: UCS
-description: TCGA Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor. Source data from GDC and generated in Jul 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+description: TCGA Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor. Source data from GDC and generated in Jul 2025 using Cancer Data Aggregator.
 reference_genome: hg38
 groups: PUBLIC
