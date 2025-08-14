@@ -4,11 +4,12 @@
 
 - This study is sourced from the Genomic Data Commons (GDC) through the Cancer Data Aggregator library provided by the NCI.
 - Reference genome used: hg38
+
 ## Clinical data
 
-For CDA studies, CPTAC clinical data was gathered through the CDA `subject` and `researchsubject` tables. Data from the BCR XML files was parsed, merged, and loaded into cBioPortal-formatted clinical study files.
+For CDA studies, CPTAC clinical data was gathered through the CDA `subject` and `researchsubject` tables.
 
-Only tumor sample data is included -- no normal samples. Samples lacking any genomic data are also dropped. If two samples shared the same prefix (such as `TCGA-AQ-A04L-01A` and `TCGA-AQ-A04L-01B`), then the sample with a more primary letter took precedence and others were dropped. This follows the same convention that was used by the ISB-CGC pipeline.
+Only tumor sample data is included -- no normal samples. Samples lacking any genomic data are also dropped. This follows the same convention that was used by the ISB-CGC pipeline.
 
 ### Survival data
 
@@ -16,6 +17,8 @@ Survival fields are calculated from the clinical data and added as new columns i
 
 - `OS_STATUS` is converted from `VITAL_STATUS`.
 - `OS_MONTHS` is converted from `DAYS_TO_DEATH`, falls back to `DAYS_TO_LAST_FOLLOW_UP` if `DAYS_TO_DEATH` is not available.
+
+
 ### Timeline data
 
 Timeline data is procured from the CDA `diagnosis` and `treatment` tables and stored in `data_timeline_diagnosis.txt` / `data_timeline_treatment.txt`, respectively.
@@ -32,7 +35,7 @@ Timeline data is procured from the CDA `diagnosis` and `treatment` tables and st
 
 CNA data was downloaded through the CDA file table. We searched for files with the `Gene Level Copy Number` data type and with a filename matching `*.gene_level_copy_number.v36.tsv`. This coincides with the file IDs used by ISB-CGC BigQuery. Data for any samples not in the clinical sample file is dropped. Only the "primary" aliquot is used to represent a given sample, and data for all other aliquots for that sample is dropped.
 
-Copy number values from the BigQuery tables are converted from [ASCAT](https://www.pnas.org/doi/10.1073/pnas.1009843107https://www.pnas.org/doi/10.1073/pnas.1009843107) to GISTIC 2.0 using the following thresholds:
+Copy number values from the BigQuery tables are converted from [ASCAT](https://www.pnas.org/doi/10.1073/pnas.1009843107) to GISTIC 2.0 using the following thresholds:
 
 | ASCAT Value | GISTIC Value | Meaning |
 |---|---|---|
@@ -42,13 +45,19 @@ Copy number values from the BigQuery tables are converted from [ASCAT](https://w
 | 2 &lt; X &lt; 7 | 1 | Low-level gain |
 | 7 &le; X | 2 | Amplification |
 
-Only amplifications (GISTIC = 2) and deep deletions (GISTIC = -2) are shown on the cBioPortal website. As a result these conversion thresholds affect how many samples show up in the CNA chart, which can be inconsistent with legacy versions of this study. We chose ASCAT &ge; 7 as the amplification threshold because it resulted in the least deviation from our legacy studies.## mRNA Expression data
+Only amplifications (GISTIC = 2) and deep deletions (GISTIC = -2) are shown on the cBioPortal website. As a result these conversion thresholds affect how many samples show up in the CNA chart, which can be inconsistent with legacy versions of this study. We chose ASCAT &ge; 7 as the amplification threshold because it resulted in the least deviation from our legacy studies.
+
+## mRNA Expression data
 
 mRNA data was downloaded through the CDA file table. We searched for files with the `Gene Expression Quantification` data type and with a filename matching `*.rna_seq.augmented_star_gene_counts.tsv`. This coincides with the file IDs that ISB-CGC BigQuery uses. Data for any samples not in the clinical sample file is dropped. Only the "primary" aliquot is used to represent a given sample, and data for all other aliquots for that sample is dropped.
 
 The `unstranded`, `tpm_unstranded`, and `fpkm_uq_unstranded` columns are pulled and each mapped to their own data file. The regular FPKM values are excluded because [FPKM-UQ provides a more stable metric](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Expression_mRNA_Pipeline/#upper-quartile-fpkm).
 
-Z-score files are generated and added for each of the mRNA data types using a curation-provided script.## Mutation data
+Z-score files are generated and added for each of the mRNA data types using a curation-provided script.
+
+
+
+## Mutation data
 
 Mutation data was downloaded through the CDA file table. We searched for files with the `Masked Somatic Mutation` data type. This coincides with the file IDs that ISB-CGC BigQuery uses. Data for any samples not in the clinical sample file is dropped. Only the "primary" aliquot is used to represent a given sample, and data for all other aliquots for that sample is dropped.
 
