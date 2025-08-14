@@ -1,7 +1,7 @@
 type_of_cancer: read
 cancer_study_identifier: read_tcga_gdc
-name: Rectal Adenocarcinoma (TCGA, GDC)
+name: Rectal Adenocarcinoma (TCGA GDC, 2025)
 short_name: READ
-description: TCGA Rectal Adenocarcinoma. Source data from GDC and generated in Jul 2025 using Cancer Data Aggregator.
+description: TCGA Rectal Adenocarcinoma. Source data from <A HREF="https://gdc.cancer.gov">NCI GDC</A> and generated in Aug 2025 using <A HREF="https://cda.readthedocs.io/en/latest/">Cancer Data Aggregator</A>.
 reference_genome: hg38
 groups: PUBLIC
