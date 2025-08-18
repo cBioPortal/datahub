@@ -1,7 +1,7 @@
 type_of_cancer: ohnca
 cancer_study_identifier: ohnca_cptac_gdc
-name: Head and Neck Carcinoma, Other (CPTAC, GDC)
+name: Head and Neck Carcinoma, Other (CPTAC GDC, 2025)
 short_name: OHNCA
-description: CPTAC Head and Neck Carcinoma, Other. Source data from GDC and generated in Jul 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+description: CPTAC Head and Neck Carcinoma, Other. Source data from <A HREF="https://gdc.cancer.gov">NCI GDC</A> and generated in Aug 2025 using <A HREF="https://cda.readthedocs.io/en/latest/">Cancer Data Aggregator</A>.
 reference_genome: hg38
 groups: PUBLIC
