@@ -2,6 +2,6 @@ type_of_cancer: aml
 cancer_study_identifier: aml_tcga_gdc
 name: Acute Myeloid Leukemia (TCGA, GDC)
 short_name: AML
-description: TCGA Acute Myeloid Leukemia. Source data from GDC and generated in Jul 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>.
+description: TCGA Acute Myeloid Leukemia. Source data from GDC and generated in Jul 2025 using Cancer Data Aggregator.
 reference_genome: hg38
 groups: PUBLIC
