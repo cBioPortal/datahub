@@ -4,7 +4,7 @@ The [Cancer Research Data Commons (CRDC)](https://datacommons.cancer.gov/) is an
 
 - [Genomic Data Commons (GDC)](https://gdc.cancer.gov/)
 
-This directory contains NCI-CRDC studies generated using the [ISB-CGC portal](https://bq-search.isb-cgc.org/search?status=current). Data is pulled from the ISB-CGC BigQuery tables once every 3 months and reflects the latest data available for each study. More details about methods and data transformations can be found in the README files for each individual study.
+This directory contains NCI-CRDC studies generated using the [Cancer Data Aggregator](https://cda.readthedocs.io/en/latest/). Data was generated in August 2025 and is currently frozen. More details about methods and data transformations can be found in the README files for each study.
 
 ## GDC Program Overview
 
@@ -16,9 +16,9 @@ Supported programs:
 
 ### TCGA
 
-- **Cancer type mapping:** Each study corresponds to one TCGA project. The suffix of the TCGA project is taken and converted to an OncoTree code, which is used for the name of the study.
+- **Cancer type mapping:** Each study corresponds to one TCGA project. The OncoTree code corresponding to the TCGA project suffix is used for the study name.
     - **Example:** For the TCGA project `TCGA-LAML`, the `LAML` suffix is taken and converted to the Oncotree code `AML`. The resulting cBioPortal study is `aml_tcga_gdc`.
-    - [Mapping file](https://github.com/cBioPortal/nci-crdc-pipeline/blob/main/resources/oncotree_mappings/tcga.txt)
+    - [Mapping file](https://github.com/cBioPortal/cda-pipeline/blob/main/resources/study_mappings/tcga_study_mapping.tsv)
 
 #### List of TCGA cBioPortal Studies
 
@@ -58,9 +58,9 @@ Supported programs:
 
 ### CPTAC
 
-- **Cancer type mapping:** CPTAC is comprised of the CPTAC-2 and CPTAC-3 projects, both of which encompass multiple cancer types. Each study corresponds to a subset of these projects with a particular OncoTree code. The code is determined by looking at `disease_type` and `primary_site` in the BigQuery tables.
-    - **Example:** The `luad_cptac` study is generated from all samples with primary site `Bronchus and lung` and disease type `Adenomas and Adenocarcinomas`.
-    - [Mapping file](https://github.com/cBioPortal/nci-crdc-pipeline/blob/main/resources/oncotree_mappings/cptac.txt)
+- **Cancer type mapping:** CPTAC is comprised of the CPTAC-2 and CPTAC-3 projects, both of which encompass multiple cancer types. Each study corresponds to a subset of these projects with a particular OncoTree code. The code is determined by looking at `primary_site` and `primary_diagnosis` in the BigQuery tables. Each study belongs to either CPTAC-2 or CPTAC-3 -- there are no overlaps with both.
+    - **Example:** The `lusc_cptac_gdc` study belongs to CPTAC-3 and is created from the cohort `primary_site = "lung" AND primary_diagnosis = "Squamous cell neoplasms"`.
+    - [Mapping file](https://github.com/cBioPortal/cda-pipeline/blob/main/resources/study_mappings/cptac_study_mapping.tsv)
 
 #### List of CPTAC cBioPortal Studies
 
@@ -77,9 +77,10 @@ Supported programs:
 
 ### TARGET
 
-- **Cancer type mapping:** Each study corresponds to one or more TARGET projects. The TARGET project suffix is converted to an OncoTree code, which is used for the name of the study.
-    - **Example:** For the TARGET project `TARGET-ALL-P2`, the `ALL-P2` suffix is taken and converted to the OncoTree code `BLL`. The resulting cBioPortal study is `bll_target_gdc`.
-    - [Mapping file](https://github.com/cBioPortal/nci-crdc-pipeline/blob/main/resources/oncotree_mappings/target.txt)
+- **Cancer type mapping:** Each study corresponds to one TARGET project. The OncoTree code corresponding to the TARGET project suffix is used for the study name.
+    - **Example:** For the TCGA project `TARGET-ALL-P3`, the `ALL-P3` suffix is taken and converted to the Oncotree code `ALAL`. The resulting cBioPortal study is `alal_target_gdc`.
+    - [Mapping file](https://github.com/cBioPortal/cda-pipeline/blob/main/resources/study_mappings/target_study_mapping.tsv)
+    - Several TARGET projects, namely `TARGET-ALL-P1`, `TARGET-CCSK`, and `TARGET-RT`, were omitted due to a lack of mutation data.
 
 #### List of TARGET cBioPortal Studies
 
