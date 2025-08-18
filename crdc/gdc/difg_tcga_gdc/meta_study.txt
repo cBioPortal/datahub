@@ -1,7 +1,7 @@
 type_of_cancer: difg
 cancer_study_identifier: difg_tcga_gdc
-name: Diffuse Glioma (TCGA, GDC)
+name: Diffuse Glioma (TCGA GDC, 2025)
 short_name: DIFG
-description: TCGA Diffuse Glioma. Source data from GDC and generated in Jul 2025 using Cancer Data Aggregator.
+description: TCGA Diffuse Glioma. Source data from <A HREF="https://gdc.cancer.gov">NCI GDC</A> and generated in Aug 2025 using <A HREF="https://cda.readthedocs.io/en/latest/">Cancer Data Aggregator</A>.
 reference_genome: hg38
 groups: PUBLIC
