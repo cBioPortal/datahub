@@ -1,0 +1,7 @@
+cancer_study_identifier: schw_ctf_synodos_2025
+type_of_cancer: schw
+name: Schwannoma (Children's Tumor Foundation, Acta Neuropathologica 2020)
+description: Whole exome sequencing of 30 patients with schwannomatosis-associated schwannomas, along with their matched normal samples. These data originate from the Synodos for Schwannomatosis project and were contributed by researchers supported by the Children's Tumor Foundation. The reprocessing of raw sequencing data is coordinated by the <a href="https://nf.synapse.org/">NF Open Science Initiative</a>.
+citation: Mansouri et al. Acta Neuropathologica 2020
+reference_genome: hg38
+pmid: 33025139

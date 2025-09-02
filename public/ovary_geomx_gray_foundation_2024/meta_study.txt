@@ -1,5 +1,5 @@
 cancer_study_identifier: ovary_geomx_gray_foundation_2024
-description: Spatial transcriptomic data from GeoMX and multiplex imaging for 567 ovarian cancer cases (Gray Foundation).
+description: Microregion transcriptomic data (GeoMx) and multiplex imaging (CyCIF) for High-Grade Serous ovarian Cancer Cases (HGSOC). This resource was supported by the Gray Foundation.
 name: Ovarian Cancer (Gray Foundation, Cancer Discov 2024)
 short_name: Ovary Geomx GF
 type_of_cancer: ovary
