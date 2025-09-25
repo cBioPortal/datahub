@@ -30,6 +30,9 @@ jobs:
             --session-duration="${{ secrets.SAML_SESSION_DURATION }}" \
             --skip-prompt \
             --profile="${{ env.AWS_PROFILE }}"
+      - uses: actions/checkout@v5
+        with:
+          ref: master
       - name: Zip and dump studies
         env:
           SAML2AWS_USERNAME: ${{ secrets.SAML_USERNAME }}
@@ -68,7 +71,7 @@ jobs:
           echo "]" >> ${STUDY_LIST_FILENAME}
           # copy study list file to S3
           echo copying ${STUDY_LIST_FILENAME} to S3
-          aws s3 cp --acl public-read ${STUDY_LIST_FILENAME} s3://${S3_BUCKET}/
+          aws s3 cp --acl public-read ${STUDY_LIST_FILENAME} s3://${AWS_S3_BUCKET}/
           rm -f ${STUDY_LIST_FILENAME}
           # first save .git
           tar -cvf ${SAVED_GIT_REPO_FILENAME} .git > /dev/null
