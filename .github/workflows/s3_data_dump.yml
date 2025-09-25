@@ -1,0 +1,22 @@
+name: Zip and Dump Studies to S3
+
+on:
+  workflow_dispatch:
+
+jobs:
+  zip_and_s3_dump:
+    if: github.repository == 'cbioportal/datahub'
+    runs-on: ubuntu-latest
+    env:
+      SAML2AWS_VER: '2.36.18'
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: master
+      - name: Install saml2aws
+        run: |
+          wget -O saml2aws.tar.gz https://github.com/Versent/saml2aws/releases/download/v${SAML2AWS_VER}/saml2aws_${SAML2AWS_VER}_linux_amd64.tar.gz
+          tar -xzvf saml2aws.tar.gz
+          sudo mv saml2aws /usr/local/bin/
+          chmod +x /usr/local/bin/saml2aws
+          saml2aws --version
