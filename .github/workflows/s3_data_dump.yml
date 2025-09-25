@@ -21,19 +21,19 @@ jobs:
       - name: Configure saml2aws
         run: |
           saml2aws configure \
-            --idp-provider="${{ secrets.SAML_IDP_PROVIDER }}"
-            --mfa="${{ secrets.SAML_MFA }}"
-            --url="${{ secrets.SAML_URL }}"
-            --username="${{ secrets.SAML_USERNAME }}"
-            --aws-urn="${{ secrets.SAML_AWS_URN }}"
-            --session-duration="${{ secrets.SAML_SESSION_DURATION }}"
-            --skip-verify="${{ secrets.SAML_SKIP_VERIFY }}"
+            --idp-provider="${{ secrets.SAML_IDP_PROVIDER }}" \
+            --mfa="${{ secrets.SAML_MFA }}" \
+            --url="${{ secrets.SAML_URL }}" \
+            --username="${{ secrets.SAML_USERNAME }}" \
+            --aws-urn="${{ secrets.SAML_AWS_URN }}" \
+            --session-duration="${{ secrets.SAML_SESSION_DURATION }}" \
+            --skip-verify="${{ secrets.SAML_SKIP_VERIFY }}" \
             --skip-prompt \
             --profile="${{ env.AWS_PROFILE }}"
       - name: Login with saml2aws
         run: |
           echo "${{ secrets.SAML_PASSWORD }}" | saml2aws login \
-            --force
-            --skip-prompt
+            --force \
+            --skip-prompt \
             --password-stdin
           aws --region us-east-1 s3 ls
