@@ -30,9 +30,11 @@ jobs:
             --skip-prompt \
             --profile="${{ env.AWS_PROFILE }}"
       - name: Login with saml2aws
+        env:
+          SAML2AWS_USERNAME: ${{ secrets.SAML_USERNAME }}
+          SAML2AWS_PASSWORD: ${{ secrets.SAML_PASSWORD }}
         run: |
-          echo "${{ secrets.SAML_PASSWORD }}" | saml2aws login \
+          saml2aws login \
             --force \
-            --skip-prompt \
-            --password-stdin
+            --skip-prompt
           aws --region us-east-1 s3 ls
