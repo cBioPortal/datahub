@@ -71,7 +71,7 @@ jobs:
           echo "]" >> ${STUDY_LIST_FILENAME}
           # copy study list file to S3
           echo copying ${STUDY_LIST_FILENAME} to S3
-          aws s3 cp --acl public-read "${{ env.STUDY_LIST_FILENAME }}" "s3://${{ env.AWS_S3_BUCKET }}/"
+          aws s3 cp "${{ env.STUDY_LIST_FILENAME }}" "s3://${{ secrets.S3_BUCKET }}/"
           rm -f ${STUDY_LIST_FILENAME}
           # first save .git
           tar -cvf ${SAVED_GIT_REPO_FILENAME} .git > /dev/null
@@ -87,7 +87,7 @@ jobs:
             echo "Compressing this study: ${studypath}."
             tar -czvf studies_to_upload/${study}.tar.gz -C ${study_dir} ${study}
             echo "Copy file to S3: studies_to_upload/${study}.tar.gz"
-            aws s3 cp --acl public-read studies_to_upload/${study}.tar.gz s3://${AWS_S3_BUCKET}/
+            aws s3 cp studies_to_upload/${study}.tar.gz s3://${{ secrets.S3_BUCKET }}/
             echo "Remove this directory: ${studypath}."
             rm -rf "${studypath}"
             echo "Remove this file: studies_to_upload/${study}.tar.gz."
