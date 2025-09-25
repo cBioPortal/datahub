@@ -7,6 +7,7 @@ jobs:
   zip_and_s3_dump:
     if: github.repository == 'cbioportal/datahub'
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     env:
       SAML2AWS_VER: '2.36.18'
       AWS_PROFILE: 'default'
@@ -33,6 +34,7 @@ jobs:
         env:
           SAML2AWS_USERNAME: ${{ secrets.SAML_USERNAME }}
           SAML2AWS_PASSWORD: ${{ secrets.SAML_PASSWORD }}
+          SAML2AWS_ROLE: ${{ secrets.SAML_ROLE }}
         run: |
           saml2aws login \
             --force \
