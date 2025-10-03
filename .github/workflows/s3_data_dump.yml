@@ -2,6 +2,11 @@ name: Zip and Dump Studies to S3
 
 on:
   workflow_dispatch:
+  branches:
+    - master
+  paths:
+    - 'crdc/gdc/**'
+    - 'public/**'
 
 jobs:
   zip_and_s3_dump:
