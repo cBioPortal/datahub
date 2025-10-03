@@ -1,13 +1,7 @@
-name: Zip and Dump Studies to S3
+name: Zip and Dump All Studies to S3 (Manual)
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master
-    paths:
-      - 'crdc/gdc/**'
-      - 'public/**'
 
 jobs:
   zip_and_s3_dump:
