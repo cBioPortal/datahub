@@ -1,4 +1,4 @@
-name: Zip studies on push to master branch
+name: Zip new studies on push to master branch
 on:
   # Trigger the workflow on push,
   # but only for the master branch
