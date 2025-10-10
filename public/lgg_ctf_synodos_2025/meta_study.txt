@@ -1,0 +1,8 @@
+cancer_study_identifier: lgg_ctf_synodos_2025
+type_of_cancer: lggnos
+name: "Data from Synodos for NF1 LGG Project (Children's Tumor Foundation)"
+description: The data are contributed by researchers funded by the Neurofibromatosis Therapeutic Acceleration Program (NTAP). The reprocessing of the raw data is managed by the NF Open Science Initiative (https://nf.synapse.org/).
+citation: 'Fisher, M. J. et al. Integrated molecular and clinical analysis of low-grade gliomas in children with neurofibromatosis type 1. Acta Neuropathol (2021). https://doi.org/10.1007/s00401-021-02276-5'
+groups: PUBLIC
+add_global_case_list: true
+reference_genome: hg38
