@@ -1,4 +1,4 @@
-name: Zip and Dump Studies to S3
+name: Zip and Dump All Studies to S3 (Manual)
 
 on:
   workflow_dispatch:
