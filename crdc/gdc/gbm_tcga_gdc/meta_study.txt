@@ -1,4 +1,4 @@
-type_of_cancer: gbm
+type_of_cancer: difg
 cancer_study_identifier: gbm_tcga_gdc
 name: Glioblastoma Multiforme (TCGA GDC, 2025)
 short_name: GBM
