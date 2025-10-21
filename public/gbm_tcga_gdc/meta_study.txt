@@ -1,0 +1,7 @@
+type_of_cancer: difg
+cancer_study_identifier: gbm_tcga_gdc
+name: Glioblastoma Multiforme (TCGA GDC, 2025)
+short_name: GBM
+description: TCGA Glioblastoma Multiforme. Source data from <A HREF="https://gdc.cancer.gov">NCI GDC</A> and generated in Aug 2025 using <A HREF="https://cda.readthedocs.io/en/latest/">Cancer Data Aggregator</A>.
+reference_genome: hg38
+groups: PUBLIC

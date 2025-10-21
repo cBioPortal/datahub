@@ -1,4 +1,4 @@
-type_of_cancer: gbm
+type_of_cancer: difg
 cancer_study_identifier: gbm_columbia_2019
 name: Glioblastoma (Columbia, Nat Med. 2019)
 short_name: GBM (Columbia)

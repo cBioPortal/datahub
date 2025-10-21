@@ -1,4 +1,4 @@
-type_of_cancer: gbm
+type_of_cancer: difg
 cancer_study_identifier: gbm_tcga_pub2013
 name: Glioblastoma (TCGA, Cell 2013)
 short_name: GBM (TCGA 2013)
