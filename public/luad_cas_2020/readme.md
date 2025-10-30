@@ -2,7 +2,7 @@ Study Curation and Transformation
 
 General information
 Reference publication: 32649877
-Reference genome used: GRCh38
+Reference genome used: GRCh37
 
 Clinical Data
 Supplementary file: Supplementary Table S1, Table S1A

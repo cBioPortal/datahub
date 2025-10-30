@@ -5,3 +5,4 @@ description: Whole genome sequencing of 94 Hereditary SDHB-mutant pheochromocyto
 citation: Aidan et al. Nature 2025
 pmid: 38978571
 groups: PUBLIC
+reference_genome: hg38

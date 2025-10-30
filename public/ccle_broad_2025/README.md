@@ -9,7 +9,7 @@ Clinical data:
 	•	Updated Sample IDs:
 		VACO 432 --> VACO-432
 		YUSEEP-M 16-3517 --> YUSEEP-M-16-3517
-	
+	•	Removed Oncotree Primary Disease and Oncotree Lineage as they are redundant to CT and CTD.
 	
 Mutation data: 
 	•	Data was retrieved from ‘OmicsSomaticMutations.csv’ file from the ‘DepMap Public 25Q2 Files- Primary Files’.

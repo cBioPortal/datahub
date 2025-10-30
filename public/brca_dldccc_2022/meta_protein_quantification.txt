@@ -5,4 +5,4 @@ genetic_alteration_type: PROTEIN_LEVEL
 datatype: CONTINUOUS
 show_profile_in_analysis_tab: FALSE
 profile_name: Protein levels
-profile_description: Protein gene level expression data (TMT-MS)
+profile_description: Protein level expression data (TMT-MS)

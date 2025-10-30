@@ -24,7 +24,4 @@ Log2 gene median -centered  RSEM-based RNA expression for high tumor content* ba
 
 Table S3B: TMT proteomics, gene level
 
-Table S3D: TMT phosphoproteomics, gene level
-
-
 * tumor content >45%

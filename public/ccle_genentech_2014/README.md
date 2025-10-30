@@ -1,4 +1,4 @@
-ccle_genentech_2014 Study Curation 
+ccle_genetech_2014 Study Curation 
 
 Clinical Data
 Supplementary Table 1

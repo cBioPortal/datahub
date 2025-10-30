@@ -1,0 +1,11 @@
+cancer_study_identifier: pancan_pdx_uthsa_2023
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: CHROMOSOME_INSTABILITY
+datatype: LIMIT-VALUE
+stable_id: chromosome_instability
+profile_name: Chromosome Instability
+profile_description: Chromosome instability (CIN) scores in this pediatric solid tumor cohort.
+data_filename: data_chromosome_instability.txt
+show_profile_in_analysis_tab: true
+generic_entity_meta_properties: NAME
+value_sort_order: ASC

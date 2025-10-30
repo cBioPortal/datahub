@@ -4,5 +4,5 @@ datatype: CONTINUOUS
 stable_id: rna_seq_mrna
 show_profile_in_analysis_tab: false
 profile_description: mRNA gene expression (RNA Seq RSEM)
-profile_name: mRNA Expression (RNA Seq RSEM)
+profile_name: mRNA expression (RNA Seq RSEM)
 data_filename: data_mrna_seq_rsem.txt

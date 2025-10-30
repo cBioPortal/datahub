@@ -2,6 +2,6 @@ cancer_study_identifier: ccle_genentech_2014
 type_of_cancer: mixed
 name: Cancer Cell Line Encyclopedia (Genentech, Nat biotech 2014)
 short_name: CCLE (Genentech 2014)
-description: Single-nucleotide polymorphism (SNP) array analysis and RNA sequencing and of 675 mixed human cancer cell lines from the Cancer Cell Line Encyclopedia. Out of the 675 cell lines, the Genentech cohort includes 148 lines that were not investigated in other CCLE studies. 
+description: Single-nucleotide polymorphism (SNP) array analysis and RNA sequencing and of 675 mixed human cancer cell lines from the Cancer Cell Line Encyclopedia.  
 pmid: 25485619
 citation: Klijn, Christiaan et al. Nature biotechnology 2014

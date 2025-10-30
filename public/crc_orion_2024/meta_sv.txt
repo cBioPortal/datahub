@@ -4,5 +4,5 @@ datatype: SV
 stable_id: structural_variants
 profile_description: SV data.
 show_profile_in_analysis_tab: true
-profile_name: SV Data
+profile_name: Structural variants
 data_filename: data_sv.txt
