@@ -1,4 +1,4 @@
-cancer_study_identifier: ccle_genetech_2014
+cancer_study_identifier: ccle_genentech_2014
 genetic_alteration_type: GISTIC_GENES_DEL
 datatype: Q-VALUE
 reference_genome_id: hg19

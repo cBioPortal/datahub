@@ -1,4 +1,4 @@
-cancer_study_identifier: blca_msk_2024
+cancer_study_identifier: pancan_mimsi_msk_2024
 data_filename: data_cna_hg19.seg
 genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: SEG

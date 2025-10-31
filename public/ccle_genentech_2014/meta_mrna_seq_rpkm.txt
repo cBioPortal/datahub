@@ -3,6 +3,6 @@ genetic_alteration_type: MRNA_EXPRESSION
 datatype: CONTINUOUS
 stable_id: rna_seq_mrna
 show_profile_in_analysis_tab: true
-profile_name: mRNA expression data
-profile_description: mRNA expression RPKM normalized levels. 
+profile_name: mRNA expression data (RNA Seq RPKM)
+profile_description: mRNA expression RPKM normalized levels (RNA Seq). 
 data_filename: data_mrna_seq_rpkm.txt
