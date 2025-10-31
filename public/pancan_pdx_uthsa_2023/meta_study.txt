@@ -1,0 +1,8 @@
+type_of_cancer: mixed
+cancer_study_identifier: pancan_pdx_uthsa_2023
+name: Pediatric solid tumor PDXs (UTHSA, Nat Commun 2023)
+description: Whole genome and whole exome sequencing of 68 patient-derived xenografts and 65 pediatric patient tumors.
+pmid: 37990009
+citation: Funan et al. Nat Commun 2023
+reference_genome: hg38
+groups: PUBLIC

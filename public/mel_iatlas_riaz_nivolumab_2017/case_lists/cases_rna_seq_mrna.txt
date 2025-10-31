@@ -1,0 +1,6 @@
+cancer_study_identifier: mel_iatlas_riaz_nivolumab_2017
+stable_id: mel_iatlas_riaz_nivolumab_2017_rna_seq_mrna
+case_list_name: Samples with mRNA data
+case_list_description: Samples with mRNA expression data (107 samples)
+case_list_category: all_cases_with_mrna_rnaseq_data
+case_list_ids: Pt101_on	Pt101_pre	Pt103_on	Pt103_pre	Pt105_on	Pt106_on	Pt106_pre	Pt108_on	Pt10_on	Pt10_pre	Pt11_on	Pt11_pre	Pt13_on	Pt16_on	Pt17_on	Pt17_pre	Pt18_on	Pt18_pre	Pt1_on	Pt1_pre	Pt23_on	Pt23_pre	Pt24_pre	Pt26_on	Pt26_pre	Pt27_on	Pt27_pre	Pt28_on	Pt28_pre	Pt29_pre	Pt2_on	Pt2_pre	Pt30_on	Pt30_pre	Pt31_on	Pt31_pre	Pt32_on	Pt34_on	Pt34_pre	Pt35_on	Pt36_on	Pt36_pre	Pt37_on	Pt37_pre	Pt38_on	Pt38_pre	Pt39_pre	Pt3_on	Pt3_pre	Pt44_on	Pt44_pre	Pt46_on	Pt46_pre	Pt47_on	Pt47_pre	Pt48_on	Pt48_pre	Pt49_on	Pt49_pre	Pt4_on	Pt4_pre	Pt52_on	Pt52_pre	Pt58_on	Pt59_pre	Pt5_on	Pt5_pre	Pt62_on	Pt62_pre	Pt65_on	Pt65_pre	Pt66_pre	Pt67_on	Pt67_pre	Pt68_on	Pt69_on	Pt72_pre	Pt76_pre	Pt77_on	Pt77_pre	Pt78_on	Pt78_pre	Pt79_on	Pt79_pre	Pt80_on	Pt81_on	Pt82_on	Pt82_pre	Pt84_on	Pt84_pre	Pt85_on	Pt85_pre	Pt87_on	Pt89_on	Pt89_pre	Pt8_on	Pt8_pre	Pt90_pre	Pt92_on	Pt92_pre	Pt93_on	Pt94_on	Pt94_pre	Pt98_on	Pt98_pre	Pt9_on	Pt9_pre

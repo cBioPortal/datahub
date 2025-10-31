@@ -1,0 +1,6 @@
+cancer_study_identifier: mel_iatlas_riaz_nivolumab_2017
+stable_id: mel_iatlas_riaz_nivolumab_2017_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (73 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: Pt67_on	Pt72_pre	Pt106_pre	Pt8_pre	Pt5_pre	Pt18_on	Pt10_on	Pt52_on	Pt23_on	Pt24_pre	Pt103_pre	Pt30_pre	Pt44_on	Pt47_on	Pt89_pre	Pt48_on	Pt92_pre	Pt8_on	Pt28_pre	Pt101_pre	Pt89_on	Pt29_pre	Pt36_pre	Pt84_pre	Pt18_pre	Pt44_pre	Pt101_on	Pt5_on	Pt17_on	Pt31_pre	Pt37_pre	Pt58_on	Pt37_on	Pt52_pre	Pt9_pre	Pt31_on	Pt98_pre	Pt13_on	Pt38_pre	Pt92_on	Pt77_pre	Pt59_pre	Pt65_pre	Pt28_on	Pt49_pre	Pt34_pre	Pt90_pre	Pt3_pre	Pt23_pre	Pt4_pre	Pt10_pre	Pt9_on	Pt26_pre	Pt82_on	Pt103_on	Pt30_on	Pt67_pre	Pt11_on	Pt85_pre	Pt3_on	Pt27_pre	Pt76_pre	Pt94_pre	Pt17_pre	Pt93_on	Pt11_pre	Pt46_pre	Pt48_pre	Pt26_on	Pt82_pre	Pt27_on	Pt34_on	Pt66_pre

@@ -1,0 +1,6 @@
+cancer_study_identifier: mel_iatlas_riaz_nivolumab_2017
+stable_id: mel_iatlas_riaz_nivolumab_2017_all
+case_list_name: All samples
+case_list_description: All samples (107 samples)
+case_list_category: all_cases_in_study
+case_list_ids: Pt84_on	Pt52_on	Pt103_pre	Pt46_on	Pt8_on	Pt69_on	Pt31_pre	Pt80_on	Pt37_on	Pt16_on	Pt65_pre	Pt49_pre	Pt32_on	Pt9_on	Pt67_pre	Pt108_on	Pt76_pre	Pt94_pre	Pt93_on	Pt11_pre	Pt79_pre	Pt2_on	Pt62_on	Pt28_pre	Pt101_pre	Pt68_on	Pt84_pre	Pt98_pre	Pt31_on	Pt1_on	Pt34_pre	Pt36_on	Pt3_pre	Pt26_pre	Pt3_on	Pt17_pre	Pt2_pre	Pt46_pre	Pt48_pre	Pt26_on	Pt82_pre	Pt27_on	Pt65_on	Pt4_on	Pt72_pre	Pt106_pre	Pt10_on	Pt49_on	Pt24_pre	Pt44_on	Pt89_pre	Pt89_on	Pt44_pre	Pt5_on	Pt58_on	Pt52_pre	Pt9_pre	Pt78_pre	Pt92_on	Pt28_on	Pt35_on	Pt23_pre	Pt10_pre	Pt106_on	Pt47_pre	Pt85_on	Pt78_on	Pt11_on	Pt79_on	Pt105_on	Pt27_pre	Pt77_on	Pt62_pre	Pt34_on	Pt66_pre	Pt67_on	Pt8_pre	Pt5_pre	Pt23_on	Pt30_pre	Pt47_on	Pt48_on	Pt92_pre	Pt81_on	Pt29_pre	Pt36_pre	Pt18_pre	Pt38_on	Pt101_on	Pt17_on	Pt37_pre	Pt13_on	Pt38_pre	Pt77_pre	Pt59_pre	Pt90_pre	Pt103_on	Pt4_pre	Pt82_on	Pt30_on	Pt98_on	Pt85_pre	Pt94_on	Pt39_pre	Pt87_on	Pt1_pre	Pt18_on
