@@ -1,4 +1,4 @@
-type_of_cancer: gbm
+type_of_cancer: difg
 cancer_study_identifier: gbm_tcga_pub
 name: Glioblastoma (TCGA, Nature 2008)
 short_name: GBM (TCGA 2008)
