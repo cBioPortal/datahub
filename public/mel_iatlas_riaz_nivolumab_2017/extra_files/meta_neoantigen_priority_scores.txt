@@ -1,0 +1,10 @@
+cancer_study_identifier: mel_iatlas_riaz_nivolumab_2017
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: NEOANTIGEN_PRIORITY_SCORES
+datatype: LIMIT-VALUE
+stable_id: neoantigen_priority_scores
+profile_name: Neoantigen priority scores
+profile_description: Neoantigen priority scores
+data_filename: data_neoantigen_priority_scores.txt
+show_profile_in_analysis_tab: true
+generic_entity_meta_properties: NAME,CLASS,DESCRIPTION

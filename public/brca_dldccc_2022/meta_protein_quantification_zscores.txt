@@ -1,0 +1,8 @@
+cancer_study_identifier: brca_dldccc_2022
+data_filename: data_protein_quantification_zscores.txt
+stable_id: protein_quantification_zscores
+genetic_alteration_type: PROTEIN_LEVEL
+datatype: Z-SCORE
+show_profile_in_analysis_tab: TRUE
+profile_name: Protein level Z-scores
+profile_description: Protein gene level expression Z-score data

@@ -1,0 +1,58 @@
+WARNING: -: Skipping validations relating to cancer types defined in the portal
+WARNING: -: Skipping validations relating to gene identifiers and aliases defined in the portal
+WARNING: -: Skipping validations relating to gene set identifiers
+WARNING: -: Skipping validations relating to gene panel identifiers
+
+INFO: meta_clinical_patient.txt: Validation of meta file complete
+
+INFO: meta_clinical_sample.txt: Validation of meta file complete
+
+INFO: meta_gene_signatures.txt: Validation of meta file complete
+
+INFO: meta_mutations.txt: Validation of meta file complete
+
+INFO: meta_neoantigen_priority_scores.txt: Validation of meta file complete
+
+INFO: meta_rna_seq_mrna.txt: Validation of meta file complete
+
+INFO: meta_study.txt: Validation of meta file complete
+INFO: meta_study.txt: Setting reference genome to human (GRCh38, hg38)
+
+INFO: data_clinical_sample.txt: Validation of file complete
+INFO: data_clinical_sample.txt: Read 112 lines. Lines with warning: 0. Lines with error: 0
+
+INFO: case_lists/cases_sequenced.txt: Validation of meta file complete
+
+INFO: case_lists/cases_all.txt: Validation of meta file complete
+
+INFO: case_lists/cases_Melanoma.txt: Validation of meta file complete
+
+INFO: -: Validation of case list folder complete
+
+WARNING: data_clinical_patient.txt: Columns DFS_MONTHS and/or DFS_STATUS not found. Disease free analysis feature will not be available for this study.
+INFO: data_clinical_patient.txt: Validation of file complete
+INFO: data_clinical_patient.txt: Read 69 lines. Lines with warning: 0. Lines with error: 0
+
+WARNING: data_rna_seq_mrna.txt: line 1: The recommended column Entrez_Gene_Id was not found. Using Hugo_Symbol for all gene parsing.
+WARNING: data_rna_seq_mrna.txt: lines [2, 3, 4]: Hugo Symbol should not start with a number.; values encountered: ['5S_RRNA', '5_8S_RRNA', '7SK']
+INFO: data_rna_seq_mrna.txt: Validation of file complete
+INFO: data_rna_seq_mrna.txt: Read 59410 lines. Lines with warning: 4. Lines with error: 0
+
+WARNING: data_gene_signatures.txt: lines [11, 17, 20, (6 more)]: columns [13, 80, 19, (24 more)]: Value has no decimals and may represent an invalid value.; value encountered: '0'
+INFO: data_gene_signatures.txt: Validation of file complete
+INFO: data_gene_signatures.txt: Read 68 lines. Lines with warning: 9. Lines with error: 0
+
+INFO: data_neoantigen_priority_scores.txt: Validation of file complete
+INFO: data_neoantigen_priority_scores.txt: Read 3588 lines. Lines with warning: 0. Lines with error: 0
+
+WARNING: data_mutations.txt: column 89: A SWISSPROT column was found in datafile without specifying associated 'swissprot_identifier' in metafile, assuming 'swissprot_identifier: name'.
+INFO: data_mutations.txt: lines [2, 5, 7, (14759 more)]: Line will not be loaded due to the variant classification filter. Filtered types: [Silent, Intron, 3'UTR, 3'Flank, 5'UTR, 5'Flank, IGR, RNA]; values encountered: ['Silent', '3'UTR', 'Intron', '(5 more)']
+WARNING: data_mutations.txt: lines [3, 4, 6, (18426 more)]: SWISSPROT value is not a (single) UniProtKB/Swiss-Prot name. Loader will try to find UniProtKB accession using Entrez gene id or gene symbol.; values encountered: ['Q9HAZ2.204', 'P56645.191', 'P98160.244', '(7776 more)']
+WARNING: data_mutations.txt: lines [64, 83, 84, (1602 more)]: Missing value in SWISSPROT column; this column is recommended to make sure that the UniProt canonical isoform is used when drawing Pfam domains in the mutations view.; value encountered: ''
+INFO: data_mutations.txt: lines [2095, 2850]: This variant (Gene symbol 'Unknown', Entrez gene ID 0) will be filtered out; value encountered: 'IGR'
+WARNING: data_mutations.txt: lines [16512, 27931, 28318, (1 more)]: No Amino_Acid_Change or HGVSp_Short value. This mutation record will get a generic "MUTATED" flag
+INFO: data_mutations.txt: Validation of file complete
+INFO: data_mutations.txt: Read 34799 lines. Lines with warning: 20034. Lines with error: 0
+
+INFO: -: Validation complete
+Validation of study succeeded with warnings.

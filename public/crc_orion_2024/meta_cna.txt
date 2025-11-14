@@ -1,0 +1,8 @@
+cancer_study_identifier: crc_orion_2024
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: DISCRETE
+stable_id: cna
+show_profile_in_analysis_tab: true
+profile_description: Copy Number data from OncoPanel Sequencing.
+profile_name: Copy Number
+data_filename: data_cna.txt
