@@ -3,4 +3,4 @@ type_of_cancer: breast
 name: Invasive Lobular Carcinoma (MSK, Nature 2024)
 description: Targeted Sequencing of 25 breast invasive lobular carcinoma tumors lacking CDH1 bi-allelic genetic alterations, and their matched normals via MSK-IMPACT.
 pmid: 38347189
-citation: Dopeso, Higinio et al.
+citation: Dopeso, Higinio et al. Nature 2024
