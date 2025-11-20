@@ -1,0 +1,8 @@
+cancer_study_identifier: angs_painter_2025
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: rna_seq_mrna
+show_profile_in_analysis_tab: true
+profile_name: mRNA expression (Raw Counts)
+profile_description: mRNA Expression levels (raw read counts)
+data_filename: data_mrna_seq_read_counts.txt
