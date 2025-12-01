@@ -1,0 +1,6 @@
+type_of_cancer: ucec
+cancer_study_identifier: ucs_msk_2024
+name: Endometrial Carcinoma (MSK, Molecular Oncology 2024)
+description: Targeted sequencing of 69 ERBB2-mutant endometrial carcinoma tumors and their matched normal pairs via MSK-IMPACT.
+citation: Brodeur, Melica Nourmoussavi et al. Molecular oncology 2024
+pmid: 39031567

@@ -1,0 +1,7 @@
+type_of_cancer: mixed
+cancer_study_identifier: depmap_broad_2025
+name: Cancer Cell Line Encyclopedia (Broad, Nat Rev Cancer 2025)
+description: Whole genome and whole exome sequencing of 1,981 pancancer samples from the Cancer Cell Line Encyclopedia (CCLE). CCLE from Broad Institute and Novartis, 2025 (25Q3) update. Data downloaded from the <a href="https://depmap.org/portal/download/all/">Depmap Portal</a>.
+reference_genome: hg38
+pmid: 39468210
+citation: Arafeh, Rand et al. Nature Reviews 2025
