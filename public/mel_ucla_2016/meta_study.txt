@@ -1,8 +1,6 @@
 type_of_cancer: mel
 cancer_study_identifier: mel_ucla_2016
 name: Metastatic Melanoma (UCLA, Cell 2016)
-description: Whole-exome sequencing of 38 pretreated (pembrolizumab, nivolumab) melanoma tumor-normal pairs.
+description: Whole-exome sequencing of 38 pretreated (pembrolizumab, nivolumab) melanoma tumor-normal pairs. <br><br><strong>Related Dataset:</strong> A harmonized version with extended neoantigen annotations (27 samples) is available: <a href="https://www.cbioportal.org/study/summary?id=mel_iatlas_hugo_ucla_2016">iAtlas Harmonized Version</a>.
 citation: Hugo et al. Cell 2016
 pmid: 26997480
-short_name: Melanoma (Hugo, Cell)
-add_global_case_list: false
