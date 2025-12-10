@@ -1,7 +1,7 @@
 cancer_study_identifier: mel_iatlas_hugo_ucla_2016
 type_of_cancer: mel
 name: Metastatic Melanoma (UCLA, Cell 2016) - iAtlas Harmonized
-description:  Whole-exome sequencing and neoantigen landscape analysis of 27 pretreatment melanoma tumors and their matched normals. The reprocessing of raw sequencing data is coordinated by <a href="https://cri-iatlas.org/">CRI iAtlas</a>. <br><br><strong>Related Dataset:</strong> This is a harmonized subset of the <a href="https://www.cbioportal.org/study/summary?id=mel_ucla_2016">original 38-sample UCLA study</a> with standardized mutation calling and extended immunogenomics annotations.
+description:  Whole-exome sequencing and neoantigen landscape analysis of 27 pretreatment melanoma tumors and their matched normals. The reprocessing of raw sequencing data is coordinated by <a href="https://cri-iatlas.org/">CRI iAtlas</a>. <br><strong>Related Dataset:</strong> This is a harmonized subset of the <a href="https://www.cbioportal.org/study/summary?id=mel_ucla_2016">original 38-sample UCLA study</a> with standardized mutation calling and extended immunogenomics annotations.
 pmid: 26997480
 reference_genome: hg38
 citation: Hugo et al. Cell 2016

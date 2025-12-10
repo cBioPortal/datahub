@@ -1,7 +1,7 @@
 cancer_study_identifier: brca_iatlas_anders_2022
 type_of_cancer: brca
-name: Metastatic Breast Cancer (UNC, J Immunother Cancer 2022) - iAtlas Harmonized
-description: Whole-exome sequencing and neoantigen landscape analysis of 31 patients with metastatic triple-negative breast cancer (mTNBC) enrolled in a phase II trial evaluating whether a single low dose of cyclophosphamide administered prior to the PD-1 inhibitor pembrolizumab could improve progression-free survival compared with historical controls. The reprocessing of raw sequencing data is coordinated by <a href="https://cri-iatlas.org/">CRI iAtlas</a>.
+name: Metastatic Triple Negative Breast Cancer (UNC Phase II Trial, J Immunother Cancer 2022) - iAtlas Harmonized
+description: Whole-exome sequencing and neoantigen landscape analysis of 31 patients with pretreated metastatic triple-negative breast cancer (mTNBC) enrolled in a <a href="https://clinicaltrials.gov/study/NCT02768701">phase II trial</a> evaluating whether a single low dose of cyclophosphamide administered prior to the PD-1 inhibitor pembrolizumab could improve progression-free survival compared with historical controls. The reprocessing of raw sequencing data is coordinated by <a href="https://cri-iatlas.org/">CRI iAtlas</a>.
 pmid: 35121644
 citation: Anders et al. J Immunother Cancer 2022
 reference_genome: hg38
