@@ -1,0 +1,6 @@
+cancer_study_identifier: brca_iatlas_anders_2022
+stable_id: brca_iatlas_anders_2022_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (25 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: 110	149	140	123	141	134	116	118	127	148	137	131	125	109	111	114	139	142	113	106	121	145	112	108	129
