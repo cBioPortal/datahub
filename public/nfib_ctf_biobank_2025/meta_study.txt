@@ -1,0 +1,8 @@
+cancer_study_identifier: nfib_ctf_biobank_2025
+type_of_cancer: nfib
+name: "Cutaneous Neurofibroma Data Resource (Children's Tumor Foundation)"
+description: The data are contributed by researchers funded by the Children's Tumor Foundation. The reprocessing of the raw data is managed by the NF Open Science Initiative (https://nf.synapse.org/).
+citation: 'Gosline, S. J. C., Weinberg, H., Knight, P. et al. A high-throughput molecular data resource for cutaneous neurofibromas. Scientific Data (2017). https://doi.org/10.1038/sdata.2017.45'
+groups: PUBLIC
+add_global_case_list: true
+reference_genome: hg38
