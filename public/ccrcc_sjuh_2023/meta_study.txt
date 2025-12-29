@@ -1,0 +1,6 @@
+type_of_cancer: ccrcc
+cancer_study_identifier: ccrcc_sjuh_2023
+name: Renal Cell Carcinoma (St. James, Clin Cancer Res 2023)
+description: Whole exome and targeted sequencing of 943 renal clear cell carcinoma samples and their matched normals. 
+pmid: 36815791
+citation: Vasudev, Neeraj S. et al. Clinical Cancer Research, 2023

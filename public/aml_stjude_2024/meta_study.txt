@@ -1,0 +1,6 @@
+type_of_cancer: aml
+cancer_study_identifier: aml_stjude_2024
+name: Acute Myeloid Leukemia (St. Jude, Nat Genet 2024)
+description: Molecular profiling of 887 pediatric acute myeloid leukemia cases and their matched normals using RNA-Seq, WES, and WGS.
+pmid: 38212634
+citation: Umeda, Masayuki et al. Nature genetics 2024
