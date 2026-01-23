@@ -1,6 +1,6 @@
 # TCGA Imaging Data Integration with cBioPortal
 
-This document describes the process of acquiring TCGA imaging studies from the NCI Imaging Data Commons (IDC) and integrating them as patient resources in cBioPortal's TCGA Pan-Cancer Atlas 2018 studies. The images can be viewed using OHIF (radiology) and SLIM (pathology) viewers within the portal.
+This document describes the process of acquiring TCGA imaging studies from the NCI Imaging Data Commons (IDC) and integrating them as patient resources in cBioPortal's TCGA Pan Cancer Atlas 2018 studies. The images can be viewed using OHIF (radiology) and SLIM (pathology) viewers within the portal.
 
 ## Data Structure in IDC
 
@@ -12,6 +12,8 @@ Collections → Patients → Studies → Series → Instances
 
 - **Study**: One complete imaging exam for a patient, regardless of modality (e.g., "CT Chest with Contrast", "MRI Brain"). One patient could have undergone multiple imaging studies over time.
 - **Series**: Individual image batches within a study (e.g., different CT scan sections or sequences)
+
+**Note**: While a single study may contain multiple imaging modalities, data was extracted at the study level and then split by modality for cBioPortal integration. This modality-level organization enables allows users to selectively access specific imaging types (e.g., CT scans vs. H&E slides) for each patient.
 
 ## Available Imaging Modalities
 
@@ -26,7 +28,7 @@ Collections → Patients → Studies → Series → Instances
 | PT | Positron Emission Tomography | OHIF | IDC_OHIF_PT |
 | SM | Slide Microscopy (H&E) | SLIM | IDC_SLIM |
 
-**Note**: Annotation (ANN), Segmentation (SEG), Structured Report (SR) modalities are excluded as they are not directly viewable. And Other (OT) modality is also excluded.
+**Note**: Annotation (ANN), Segmentation (SEG) and Structured Report (SR) are excluded as standalone resources since they are automatically loaded with their parent imaging studies in OHIF. Other (OT) modality is also excluded.
 
 ## Implementation Steps
 
@@ -42,6 +44,8 @@ client.sql_query("SELECT * FROM index WHERE collection_id LIKE '%tcga%'").to_csv
 ```
 
 ### 2. Generate data 
+
+Generate patient-level resource files for each TCGA Pan Cancer study by linking patients to their imaging studies via OHIF and SLIM viewer URLs.
 
 ```python
 import pandas as pd
@@ -134,7 +138,7 @@ for st in os.listdir(dh_files_path):
 
 ```
 
-## Output Files
+#### Output Files
 
 For each TCGA Pan-Cancer Atlas 2018 study, the script generates two files:
 
@@ -144,19 +148,12 @@ For each TCGA Pan-Cancer Atlas 2018 study, the script generates two files:
 2. **`data_resource_definition.txt`**: Defines the resource types available in the study
    - Columns: `RESOURCE_ID`, `DISPLAY_NAME`, `RESOURCE_TYPE`, `DESCRIPTION`, `OPEN_BY_DEFAULT`, `PRIORITY`
 
-## Viewer URLs
+#### Viewer URLs
 
 - **OHIF Viewer** (for radiology imaging): `https://viewer.imaging.datacommons.cancer.gov/viewer/{StudyInstanceUID}`
 - **SLIM Viewer** (for slide microscopy): `https://viewer.imaging.datacommons.cancer.gov/slim/studies/{StudyInstanceUID}`
 
-## Dependencies
-
-- pandas
-- numpy
-- idc-index
-
-## Notes
+#### Notes
 
 - Only patients already present in the clinical data files are included in the resource files
 - All resource files are sorted by `PATIENT_ID` for consistency
-- Resources are set to open by default in cBioPortal with priority level 1
