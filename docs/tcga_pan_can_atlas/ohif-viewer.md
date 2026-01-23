@@ -17,16 +17,16 @@ Collections → Patients → Studies → Series → Instances
 
 ## Available Imaging Modalities
 
-| Code | Modality | Viewer | Resource ID |
-|------|----------|--------|-------------|
-| CR | Computed Radiography | OHIF | IDC_OHIF_CR |
-| CT | Computed Tomography | OHIF | IDC_OHIF_CT |
-| DX | Digital Radiography | OHIF | IDC_OHIF_DX |
-| MG | Mammography | OHIF | IDC_OHIF_MG |
-| MR | Magnetic Resonance | OHIF | IDC_OHIF_MR |
-| NM | Nuclear Medicine | OHIF | IDC_OHIF_NM |
-| PT | Positron Emission Tomography | OHIF | IDC_OHIF_PT |
-| SM | Slide Microscopy (H&E) | SLIM | IDC_SLIM |
+| Code | Modality | Viewer | Resource ID | Resource Tab Name |
+|------|----------|--------|-------------|-------------------|
+| CR | Computed Radiography | OHIF | IDC_OHIF_CR | Computed Radiography |
+| CT | Computed Tomography | OHIF | IDC_OHIF_CT | CT Scan |
+| DX | Digital Radiography | OHIF | IDC_OHIF_DX | Digital Radiography |
+| MG | Mammography | OHIF | IDC_OHIF_MG | Mammography |
+| MR | Magnetic Resonance | OHIF | IDC_OHIF_MR | Magnetic Resonance |
+| NM | Nuclear Medicine | OHIF | IDC_OHIF_NM | Nuclear Medicine |
+| PT | Positron Emission Tomography | OHIF | IDC_OHIF_PT | PET Scan |
+| SM | Slide Microscopy (H&E) | SLIM | IDC_SLIM | H&E Slide |
 
 **Note**: Annotation (ANN), Segmentation (SEG) and Structured Report (SR) are excluded as standalone resources since they are automatically loaded with their parent imaging studies in OHIF. Other (OT) modality is also excluded.
 
