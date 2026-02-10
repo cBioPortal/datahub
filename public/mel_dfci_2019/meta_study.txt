@@ -2,6 +2,6 @@ type_of_cancer: mel
 cancer_study_identifier: mel_dfci_2019
 name: Metastatic Melanoma (DFCI, Nature Medicine 2019)
 short_name: MEL (DFCI, Nat Med 2019)
-description: Whole-exome sequencing of 144 pre-treatment samples from 144 patients with metastatic melanoma treated with anti-PD1 ICB. <br><br><strong>Related Dataset:</strong> A harmonized version with extended neoantigen annotations (122 samples) is available: <a href="https://www.cbioportal.org/study/summary?id=mel_iatlas_liu_2019">iAtlas Harmonized Version</a>.
+description: Whole-exome sequencing of 144 pre-treatment samples from 144 patients with metastatic melanoma treated with anti-PD1 ICB. <br><strong>Related Dataset:</strong> A harmonized version with extended neoantigen annotations (122 samples) is available: <a href="https://www.cbioportal.org/study/summary?id=mel_iatlas_liu_2019">iAtlas Harmonized Version</a>.
 citation: Liu et al. Nature Medicine 2019
 pmid: 31792460
