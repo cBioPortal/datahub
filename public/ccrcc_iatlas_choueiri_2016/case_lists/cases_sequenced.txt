@@ -1,0 +1,6 @@
+cancer_study_identifier: ccrcc_iatlas_choueiri_2016
+stable_id: ccrcc_iatlas_choueiri_2016_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (16 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: RCC_102	RCC_73	RCC_41	RCC_27	RCC_105	RCC_99	RCC_117	RCC_96	RCC_14	RCC_90	RCC_50	RCC_93	RCC_115	RCC_106	RCC_18	RCC_21
