@@ -1,7 +1,7 @@
 type_of_cancer: es
 cancer_study_identifier: es_dsrct_msk_2023
 name: Ewing Sarcoma (MSK, Cancer Research 2024)
-description: Targeted Sequencing of 277 Ewing sarcoma and Desmoplastic small round cell patient tumors with their matched normal pairs via MSK-IMPACT platform.
+description: Targeted Sequencing of 277 Ewing sarcoma and Desmoplastic small round cell patient tumors with their matched normal pairs via MSK-IMPACT platform to detect EWSR1 chromoplexy-associated structural rearrangements.
 groups: PUBLIC
 reference_genome: hg19
 pmid: 38335254
