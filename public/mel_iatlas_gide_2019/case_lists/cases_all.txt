@@ -1,0 +1,6 @@
+cancer_study_identifier: mel_iatlas_gide_2019
+stable_id: mel_iatlas_gide_2019_all
+case_list_name: All samples
+case_list_description: All samples (91 samples)
+case_list_category: all_cases_in_study
+case_list_ids: PD08_On	PD35_Pre	PD30_Pre	iP01_Pre	PD16_Pre	iP17_Pre	PD48_On	iP44_Pre	PD09_Pre	PD11_Pre	PD25_Pre	PD04_Pre	PD42_Pre	PD44_Pre	iP15_Pre	iP37_Pre	PD50_Pre	iP46_Pre	PD17_On	iP19_On	iP21_Pre	iP32_Pre	iP14_Pre	iP50_Pre	iP06_Pre	PD15_Pre	iP13_Pre	iP36_Pre	iP34_Pre	PD38_Pre	PD18_Pre	iP09_On	PD21_Pre	PD27_Pre	PD48_Pre	PD12_Pre	PD36_Pre	iP27_On	iP35_On	PD10_On	PD45_Pre	PD54_Pre	PD47_Pre	PD03_Pre	PD23_Pre	iP07_Pre	iP04_On	PD25_On	PD29_On	iP08_Pre	PD53_Pre	iP35_Pre	PD05_Pre	PD47_On	iP13_On	iP33_Pre	iP10_Pre	PD49_Pre	PD13_Pre	PD17_Pre	PD29_Pre	iP20_Pre	PD46_Pre	iP02_Pre	iP19_Pre	iP12_Pre	PD14_Pre	PD06_Pre	PD52_Pre	iP45_Pre	iP01_On	PD10_Pre	PD07_Pre	iP25_Pre	iP36_On	iP38_Pre	iP24_Pre	iP47_Pre	iP49_Pre	iP26_Pre	PD02_Pre	PD41_On	iP27_Pre	iP33_On	iP23_Pre	PD08_Pre	PD19_Pre	PD40_Pre	PD13_On	PD34_Pre	PD41_Pre

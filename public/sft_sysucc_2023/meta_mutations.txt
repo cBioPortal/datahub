@@ -1,0 +1,8 @@
+cancer_study_identifier: sft_sysucc_2023
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_description: Somatic mutation data from targeted sequencing of 131 solitary fibrous tumor cancer samples
+profile_name: Mutations
+data_filename: data_mutations.txt

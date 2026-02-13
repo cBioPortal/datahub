@@ -1,7 +1,7 @@
 type_of_cancer: os
 cancer_study_identifier: os_target_gdc
-name: Osteosarcoma (TARGET, GDC)
+name: Osteosarcoma (TARGET GDC, 2025)
 short_name: OS
-description: TARGET Osteosarcoma. Source data from <A HREF="https://portal.gdc.cancer.gov/projects/TARGET-OS">NCI GDC</A> and generated in Dec 2024 using <A HREF="https://isb-cgc.appspot.com/bq_meta_search/">ISB-CGC BigQuery tables</A>. <A HREF="https://github.com/cBioPortal/datahub/blob/master/crdc/gdc/os_target_gdc/README.md">More info</A>
+description: TARGET Osteosarcoma. Source data from <A HREF="https://gdc.cancer.gov">NCI GDC</A> and generated in Aug 2025 using <A HREF="https://cda.readthedocs.io/en/latest/">Cancer Data Aggregator</A>.
 reference_genome: hg38
 groups: PUBLIC

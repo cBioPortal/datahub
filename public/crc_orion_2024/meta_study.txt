@@ -1,0 +1,6 @@
+type_of_cancer: bowel
+cancer_study_identifier: crc_orion_2024
+name: Colorectal Adenocarcinoma (DFCI/Orion, BioRxiv 2024)
+description: Combined spatial and targeted genomic analysis of 74 colon and rectal cancers.
+pmid: 39386479
+citation: Wala, Jeremiah et al. bioRxiv 2024

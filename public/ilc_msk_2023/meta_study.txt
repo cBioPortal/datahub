@@ -1,4 +1,6 @@
 cancer_study_identifier: ilc_msk_2023
 type_of_cancer: breast
-name: Non-CDH1 Invasive Lobular Carcinoma (MSK, 2023)
-description: Targeted Sequencing of breast Invasive Lobular Carcinoma tumors and their matched normals via MSK-IMPACT.
+name: Breast Invasive Lobular Carcinoma (MSK, Nature 2024)
+description: Targeted Sequencing of 25 breast invasive lobular carcinoma tumors lacking CDH1 bi-allelic genetic alterations, and their matched normals via MSK-IMPACT.
+pmid: 38347189
+citation: Dopeso, Higinio et al.

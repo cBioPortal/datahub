@@ -2,57 +2,40 @@
 
 ## General
 
-- Study is updated once every 3 months with latest data from [ISB-CGC BigQuery tables](https://isb-cgc.appspot.com/bq_meta_search/)
-  - The ISB-CGC tables allow easy access to data collected from multiple NCI-CRDC repositories including the GDC, PDC, and others. The CPTAC data in this study comes from the GDC and is accessed through these tables.
+- This study is sourced from the Genomic Data Commons (GDC) through the Cancer Data Aggregator library provided by the NCI.
 - Reference genome used: hg38
-- CPTAC started using the hg38 genome as of GDC release 32. For more information, refer to the [GDC release notes](https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-320).
-
-- Only tumor sample data is included (no normal samples)
 
 ## Clinical data
 
-- **Patient data:** Retrieved from `isb-cgc-bq.CPTAC_versioned.clinical_gdc_r39`. ISB-CGC data was created in December 2023.
-- **Sample data:** Retrieved from `isb-cgc-bq.CPTAC_versioned.per_sample_file_metadata_hg38_gdc_r39`. ISB-CGC data was created in December 2023.
+For CDA studies, CPTAC clinical data was gathered through the CDA `subject` and `researchsubject` tables.
+
+Only tumor sample data is included -- no normal samples. Samples lacking any genomic data are also dropped. This follows the same convention that was used by the ISB-CGC pipeline.
 
 ### Survival data
 
 Survival fields are calculated from the clinical data and added as new columns in the clinical file.
 
-- `OS_STATUS` is converted from `demo__vital_status`
-- `OS_MONTHS` is converted from `demo__days_to_death`, falls back to `diag__days_to_last_follow_up`
+- `OS_STATUS` is converted from `VITAL_STATUS`.
+- `OS_MONTHS` is converted from `DAYS_TO_DEATH`, falls back to `DAYS_TO_LAST_FOLLOW_UP` if `DAYS_TO_DEATH` is not available.
 
-- `DFS_STATUS` is converted from `diag_progression_or_recurrence` / `follow_progression_or_recurrence`
-- `DFS_MONTHS` is converted from `diag__days_to_recurrence` / `follow__days_to_recurrence`, falls back to `OS_MONTHS`
 
 ### Timeline data
 
-- Timeline data is extracted from the clinical data and stored in a separate data file. After extraction, the corresponding BigQuery fields are removed from the clinical file. For example, a timeline status of `DEATH` corresponds to the BigQuery field `demo__days_to_death`.
+Timeline data is procured from the CDA `diagnosis` and `treatment` tables and stored in `data_timeline_diagnosis.txt` / `data_timeline_treatment.txt`, respectively.
 
-- For CPTAC, the "time 0" anchor point is always the date of diagnosis. Not all patients have timeline data available, as indicated by a null `diag__days_to_diagnosis` (TCGA) or `index_date` (CPTAC) field.
+### Other clinical transformations
 
-- Birth timeline events are removed, as they (1) push other events to the far right of the graph and (2) can potentially be used to identify the patient.
-
-The following status values are supported in `data_timeline_status.txt`:
-
-- `__time0__`
-- `demo__days_to_death`
-- `diag__days_to_last_follow_up`
-- `days_to_consent`
-- `days_to_lost_to_followup`
-- `diag__days_to_last_known_disease_status`
-- `follow__days_to_recurrence`
-### Other transformations
-
-- `"not reported"` values are replaced with blanks.
 - If a clinical field is missing for the entire study, the column is removed from the data file.
-- `RACE`, `ETHNICITY`, and `SEX` are capitalized.
+- If a patient / sample identifier is too large to fit in the cBioPortal database (the limits are 50 and 63 characters, respectively), then that patient / sample is removed.
+- The `SEX`, `PRIMARY_SITE_PATIENT`, and `VITAL_STATUS` attributes are title-cased.
+- `AGE` is calculated from the `DAYS_TO_BIRTH` attribute.
 - `AGE` is clipped from 18 to 89 to protect patient confidentiality.
 
 ## CNA data
 
-- Retrieved from `isb-cgc-bq.CPTAC_versioned.copy_number_gene_level_hg38_gdc_r36`. ISB-CGC data was created in March 2023.
-- Transformations
-  - Copy number values from the BigQuery tables are converted from [ASCAT](https://www.pnas.org/doi/10.1073/pnas.1009843107https://www.pnas.org/doi/10.1073/pnas.1009843107) to GISTIC 2.0 using the following thresholds:
+CNA data was downloaded through the CDA file table. We searched for files with the `Gene Level Copy Number` data type and with a filename matching `*.gene_level_copy_number.v36.tsv`. This coincides with the file IDs used by ISB-CGC BigQuery. Data for any samples not in the clinical sample file is dropped. Only the "primary" aliquot is used to represent a given sample, and data for all other aliquots for that sample is dropped.
+
+Copy number values from the BigQuery tables are converted from [ASCAT](https://www.pnas.org/doi/10.1073/pnas.1009843107) to GISTIC 2.0 using the following thresholds:
 
 | ASCAT Value | GISTIC Value | Meaning |
 |---|---|---|
@@ -64,26 +47,25 @@ The following status values are supported in `data_timeline_status.txt`:
 
 Only amplifications (GISTIC = 2) and deep deletions (GISTIC = -2) are shown on the cBioPortal website. As a result these conversion thresholds affect how many samples show up in the CNA chart, which can be inconsistent with legacy versions of this study. We chose ASCAT &ge; 7 as the amplification threshold because it resulted in the least deviation from our legacy studies.
 
-- ISB-CGC BigQuery currently lacks CNA data for some CPTAC studies such as `breast_cptac_gdc`. No CNA files are created for these studies.
-
 ## mRNA Expression data
 
-- Retrieved from `isb-cgc-bq.CPTAC_versioned.RNAseq_hg38_gdc_r35`. ISB-CGC data was created in December 2022.
-- The `unstranded`, `tpm_unstranded`, and `fpkm_uq_unstranded` columns are pulled and each mapped to their own data file.
-  - The regular FPKM values are excluded because [FPKM-UQ provides a more stable metric](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Expression_mRNA_Pipeline/#upper-quartile-fpkm).
-- Transformations: see [Genomic data transformations](#genomic-data-transformations)
+mRNA data was downloaded through the CDA file table. We searched for files with the `Gene Expression Quantification` data type and with a filename matching `*.rna_seq.augmented_star_gene_counts.tsv`. This coincides with the file IDs that ISB-CGC BigQuery uses. Data for any samples not in the clinical sample file is dropped. Only the "primary" aliquot is used to represent a given sample, and data for all other aliquots for that sample is dropped.
+
+The `unstranded`, `tpm_unstranded`, and `fpkm_uq_unstranded` columns are pulled and each mapped to their own data file. The regular FPKM values are excluded because [FPKM-UQ provides a more stable metric](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Expression_mRNA_Pipeline/#upper-quartile-fpkm).
+
+Z-score files are generated and added for each of the mRNA data types using a curation-provided script.
 
 
 
 ## Mutation data
 
-- Retrieved from `isb-cgc-bq.CPTAC_versioned.masked_somatic_mutation_hg38_gdc_r37`. ISB-CGC data was created in October 2023.
-- The MAF is annotated with Genome Nexus in order to avoid issues with the isoform mapping. Parameters used:
-  - Endpoint: https://grch38.genomenexus.org/
-  - Isoform override: mskcc
-  - Replace gene symbols and Entrez IDs
-  - Post interval size: 500
-- Mutation data may be missing for some samples-- this reflects a lack of data availability in ISB-CGC.
+Mutation data was downloaded through the CDA file table. We searched for files with the `Masked Somatic Mutation` data type. This coincides with the file IDs that ISB-CGC BigQuery uses. Data for any samples not in the clinical sample file is dropped. Only the "primary" aliquot is used to represent a given sample, and data for all other aliquots for that sample is dropped.
+
+The MAF is annotated with Genome Nexus in order to avoid issues with the isoform mapping. Parameters used:
+- Endpoint: https://grch38.genomenexus.org/
+- Isoform override: `mskcc`
+- Replace gene symbols and Entrez IDs
+- Post interval size: 500
 
 ## Expression data transformations (CNA / mRNA)
 
@@ -93,102 +75,9 @@ Only amplifications (GISTIC = 2) and deep deletions (GISTIC = -2) are shown on t
 
 ## Post-processing steps
 
-  - Samples that lack any genomic data are removed from the clinical sample file.
-  - Metadata headers are added to the clinical patient and sample files using a curation-provided script.
-  - Case lists are generated under `case_lists/` using a curation-provided script.
-  - The validator script is run and the HTML report is saved under `validation_reports/`.
-
-## List of remapped columns
-
-### Clinical patient
-
-| Original | cBioPortal |
-|---|---|
-| case_id | OTHER_PATIENT_ID |
-| submitter_id | PATIENT_ID |
-| demo__ethnicity | ETHNICITY |
-| demo__gender | SEX |
-| demo__race | RACE |
-| demo__vital_status | VITAL_STATUS |
-| demo__year_of_death | YEAR_OF_DEATH |
-| diag__age_at_diagnosis | AGE |
-| diag__ajcc_clinical_m | CLIN_M_STAGE |
-| diag__ajcc_pathologic_m | PATH_M_STAGE |
-| diag__ajcc_pathologic_n | PATH_N_STAGE |
-| diag__ajcc_pathologic_stage | PATH_STAGE |
-| diag__ajcc_pathologic_t | PATH_T_STAGE |
-| diag__ajcc_staging_system_edition | AJCC_STAGING_EDITION |
-| diag__classification_of_tumor | TUMOR_CLASSIFICATION |
-| diag__figo_stage | FIGO_GRADE |
-| diag__last_known_disease_status | DISEASE_STATUS |
-| diag__morphology | MORPHOLOGY |
-| diag__primary_diagnosis | PRIMARY_DIAGNOSIS |
-| diag__prior_malignancy | PRIOR_MALIGNANCY |
-| diag__progression_or_recurrence | PROGRESSION_OR_RECURRENCE |
-| diag__site_of_resection_or_biopsy | BIOPSY_SITE |
-| diag__tumor_grade | TUMOR_GRADE |
-| diag__year_of_diagnosis | YEAR_OF_DIAGNOSIS |
-| disease_type | DISEASE_TYPE |
-| exp__alcohol_history | ALCOHOL_HISTORY_DOCUMENTED |
-| exp__pack_years_smoked | SMOKING_PACK_YEARS |
-| exp__years_smoked | SMOKER_YEARS |
-| primary_site | PRIMARY_SITE_PATIENT |
-| proj__name | PROJECT_NAME |
-| proj__project_id | PROJECT_ID |
-| state | PROJECT_STATE |
-| consent_type | CONSENT_TYPE |
-| demo__cause_of_death | CAUSE_OF_DEATH |
-| diag__path__lymph_nodes_positive | LYMPH_NODES_POSITIVE |
-| diag__path__tumor_largest_dimension_diameter | TUMOR_LARGEST_DIMENSION |
-| diag__residual_disease | RESIDUAL_DISEASE |
-| diag__tumor_focality | TUMOR_FOCALITY |
-| exp__alcohol_intensity | ALCOHOL_INTENSITY |
-| exp__secondhand_smoke_as_child | SECONDHAND_SMOKE_AS_CHILD |
-| exp__tobacco_smoking_onset_year | SMOKING_ONSET_YEAR |
-| exp__tobacco_smoking_quit_year | SMOKING_QUIT_YEAR |
-| exp__tobacco_smoking_status | SMOKING_STATUS |
-| exp__type_of_smoke_exposure | TYPE_SMOKING_EXPOSURE |
-| exp__type_of_tobacco_used | TYPE_TOBACCO_EXPOSURE |
-| follow__aids_risk_factors | AIDS_RISK_FACTORS |
-| follow__bmi | BMI |
-| follow__cdc_hiv_risk_factors | CDC_HIV_RISK_FACTORS |
-| follow__comorbidity | COMORBIDITY |
-| follow__diabetes_treatment_type | DIABETES_TX_TYPE |
-| follow__disease_response | DISEASE_RESPONSE |
-| follow__dlco_ref_predictive_percent | DLCO_REF_LUNG_VOL |
-| follow__ecog_performance_status | ECOG_PERFORMANCE_STATUS |
-| follow__fev1_fvc_post_bronch_percent | FEV1_FVC_POST_BRONCH_PERCENT |
-| follow__fev1_fvc_pre_bronch_percent | FEV1_FVC_PRE_BRONCH_PERCENT |
-| follow__fev1_ref_post_bronch_percent | FEV1_FVC_REF_POST_BRONCH_PERCENT |
-| follow__fev1_ref_pre_bronch_percent | FEV1_FVC_REF_PRE_BRONCH_PERCENT |
-| follow__height | HEIGHT |
-| follow__hormonal_contraceptive_use | HORMONAL_CONTRACEPTIVE_USE |
-| follow__hpv_positive_type | HPV_POSITIVE_TYPE |
-| follow__karnofsky_performance_status | KPS |
-| follow__pancreatitis_onset_year | PANCREATITIS_ONSET_YEAR |
-| follow__weight | WEIGHT |
-| index_date | INDEX_DATE |
-| lost_to_followup | LOST_TO_FOLLOW_UP |
-
-
-### Clinical sample
-
-| Original | cBioPortal |
-|---|---|
-| case_barcode | PATIENT_ID |
-| sample_barcode | SAMPLE_ID |
-| sample_gdc_id | OTHER_SAMPLE_ID |
-| sample_type_name | SAMPLE_TYPE |
-| primary_site | PRIMARY_SITE |
-| days_to_collection | DAYS_TO_COLLECTION |
-| days_to_sample_procurement | DAYS_TO_SPECIMEN_COLLECTION |
-| is_ffpe | IS_FFPE |
-
-
-
-### Mutation
-
-| Original | cBioPortal |
-|---|---|
-| sample_barcode_tumor | Tumor_Sample_Barcode |
-| sample_barcode_normal | Matched_Norm_Sample_Barcode |
+- Metadata headers are added to the clinical patient and sample files.
+- `TMB_NONSYNONYMOUS` is calculated and added to the clinical sample file using a curation-provided script and gene panels from the Datahub repository.
+- Samples that lack any genomic data are removed from the clinical sample file.
+- Case lists are generated under `case_lists/`.
+- A gene panel matrix / associated meta file is generated via the `generate_gene_panel_matrix.py` script.
+- The validator script is run and the HTML report is saved under `validation_reports/`.

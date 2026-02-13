@@ -1,0 +1,8 @@
+cancer_study_identifier: mel_iatlas_gide_2019
+type_of_cancer: mel
+name: Metastatic Melanoma (Immunotherapy Trial, Cancer Cell 2019) - iAtlas Harmonized
+pmid: 30753825
+reference_genome: hg38
+citation: Gide et al. Cancer Cell 2019
+description: Whole-exome sequencing and neoantigen landscape analysis of 158 metastatic melanomas treated with anti-PD-1 monotherapy or combined anti-PD-1 and anti-CTLA-4 therapy and their matched normals. A subset of these patients were treated as part of clinical trials. The reprocessing of raw sequencing data is coordinated by <a href="https://cri-iatlas.org/">CRI iAtlas</a>.
+
