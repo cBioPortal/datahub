@@ -21,10 +21,10 @@
 
 ## scRNA-seq data
 - scRNA data is obtained from https://github.com/dpeerlab/progressive-plasticity-crc-metastasis#data-access
-- File used: [All.h5ad: Master table with combined Immune, Epithelial and Stromal Cells](https://dp-lab-data-public.s3.us-east-1.amazonaws.com/progressive-plasticity-crc-metastasis/h5ads/All.h5ad)
-- Total Cell count: 164,304 from 83 samples (Immune: 111609, Epithelial: 47437, Stromal: 5258)
-- The raw scRNA counts were averaged across cells within each sample (pseudo-bulk), then converted to CPM and log-transformed. 
-- See https://gist.github.com/rmadupuri/9d70fa6d9f51f135d6896f23d6c1d803 for the exploration of anndata object and transformation to pseudo-bulk.  
+- File used: [Epithelial.h5ad: File with Primary, Met and Normal Epithelial colon cells](https://dp-lab-data-public.s3.us-east-1.amazonaws.com/progressive-plasticity-crc-metastasis/h5ads/Epithelial.h5ad)
+- Total Cell count: 47437 cells from 81 samples
+- The raw scRNA counts were summed across cells within each sample (pseudo-bulk), then converted to CPM and log-transformed (log(CPM+1))
+- See https://gist.github.com/rmadupuri/a9dc52eb681d32cb81f7e3c0f51fa688 for the exploration of anndata object and transformation to pseudo-bulk.  
 
 ## Imaging data
 - MxIF images were available for 58 samples from 28 patients: `MxIF` tab. 
