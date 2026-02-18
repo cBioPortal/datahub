@@ -1,0 +1,7 @@
+cancer_study_identifier: blca_iatlas_imvigor210_2017
+type_of_cancer: blca
+name: Metastatic Bladder Urothelial Carcinoma (IMvigor210 Phase II Trial, ESMO Open. 2024) - iAtlas Harmonized
+description:  Whole-exome sequencing and neoantigen landscape analysis of 347 metastatic bladder urothelial carcinomas and their matched normals, generated from a phase II trial of atezolizumab monotherapy in cisplatin-ineligible and platinum-pretreated patients. The reprocessing of raw sequencing data is coordinated by <a href="https://cri-iatlas.org/">CRI iAtlas</a>.
+pmid: 39642637,27939400
+reference_genome: hg38
+citation: Rosenberg et al. ESMO Open 2024

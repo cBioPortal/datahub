@@ -1,0 +1,6 @@
+cancer_study_identifier: luad_cas_2020																																																			
+stable_id: luad_cas_2020_rna_seq_mrna																																																			
+case_list_name: Samples with mrna data																																																			
+case_list_description: Samples with mrna data (51 samples)																																																			
+case_list_category: all_cases_with_mrna_rnaseq_data																																																			
+case_list_ids: 	LUAD_17	LUAD_18	LUAD_19	LUAD_20	LUAD_22	LUAD_23	LUAD_24	LUAD_25	LUAD_26	LUAD_27	LUAD_28	LUAD_29	LUAD_30	LUAD_33	LUAD_34	LUAD_35	LUAD_37	LUAD_38	LUAD_39	LUAD_40	LUAD_41	LUAD_42	LUAD_43	LUAD_44	LUAD_45	LUAD_46	LUAD_47	LUAD_48	LUAD_49	LUAD_50	LUAD_51	LUAD_52	LUAD_53	LUAD_54	LUAD_55	LUAD_56	LUAD_57	LUAD_58	LUAD_60	LUAD_61	LUAD_63	LUAD_66	LUAD_67	LUAD_68	LUAD_71	LUAD_72	LUAD_73	LUAD_74	LUAD_89	LUAD_90	LUAD_91

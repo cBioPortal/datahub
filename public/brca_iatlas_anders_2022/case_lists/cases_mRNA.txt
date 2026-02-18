@@ -1,0 +1,6 @@
+cancer_study_identifier: brca_iatlas_anders_2022
+stable_id: brca_iatlas_anders_2022_rna_seq_mrna
+case_list_name: Samples with mRNA data
+case_list_description: Samples with mRNA expression data (31 samples)
+case_list_category: all_cases_with_mrna_rnaseq_data
+case_list_ids: 110	149	111	140	103	114	123	136	105	139	141	109	142	134	116	113	133	106	101	118	121	145	112	127	108	129	148	137	131	125	102
