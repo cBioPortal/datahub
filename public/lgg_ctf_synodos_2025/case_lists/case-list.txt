@@ -1,0 +1,5 @@
+cancer_study_identifier: lgg_ctf_synodos_2025
+stable_id: lgg_ctf_synodos_2025_sequenced
+case_list_name: Samples with mutation data from sequencing
+case_list_description: Samples with mutation data from sequencing (21)
+case_list_ids: SYN_NF_058	SYN_NF_036	SYN_NF_057	SYN_NF_013	SYN_NF_044	SYN_NF_014	SYN_NF_007	SYN_NF_042	SYN_NF_017	SYN_NF_062	SYN_NF_010	SYN_NF_059	SYN_NF_055	SYN_NF_012	SYN_NF_034	SYN_NF_060	SYN_NF_043	SYN_NF_015	SYN_NF_011	SYN_NF_004	SYN_NF_009
