@@ -5,7 +5,7 @@ STUDIES_DIRS=("public" "crdc/gdc")
 GIT_REMOTE_URL="git@github.com:cbioportal/datahub.git"
 test_reports_location="$HOME/test-reports"
 
-git remote add upstream "$GIT_REMOTE_URL"
+git remote get-url upstream || git remote add upstream "$GIT_REMOTE_URL"
 git fetch upstream master
 
 num_studies=${#list_of_study_dirs[@]}
@@ -29,5 +29,14 @@ for STUDIES_DIR in "${STUDIES_DIRS[@]}"; do
         fi
     done
 done
+
+# Validate resource URLs
+echo $'\n\nValidating resource URLs...'
+python3 $HOME/repo/.circleci/validate_resource_urls.py
+RESOURCE_VALIDATION_STATUS=$?
+
+if [ $RESOURCE_VALIDATION_STATUS -ne 0 ]; then
+    EXIT_STATUS=1
+fi
 
 exit "$EXIT_STATUS"

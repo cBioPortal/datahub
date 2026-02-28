@@ -10,7 +10,7 @@ VALIDATION_SCRIPT="$HOME/cbioportal-core/scripts/importer/validateStudies.py"
 GIT_REMOTE_URL="git@github.com:cbioportal/datahub.git"
 MAX_THREADS=7
 
-git remote add upstream "$GIT_REMOTE_URL"
+git remote get-url upstream || git remote add upstream "$GIT_REMOTE_URL"
 git fetch upstream master
 
 mkdir -p "$LOG_DIR"
@@ -113,4 +113,13 @@ if [[ $num_studies > 0 ]]; then
   fi
 else
   echo "No studies were changed"
+fi
+
+# Validate changed resource URLs
+echo $'\n\nValidating changed resource URLs...'
+python3 "$REPO_DIR/.circleci/validate_changed_resource_urls.py"
+RESOURCE_VALIDATION_STATUS=$?
+
+if [ $RESOURCE_VALIDATION_STATUS -ne 0 ]; then
+  exit 1
 fi
