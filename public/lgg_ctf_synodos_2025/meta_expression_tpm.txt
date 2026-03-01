@@ -1,0 +1,8 @@
+cancer_study_identifier: lgg_ctf_synodos_2025
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: mrna_seq_tpm
+show_profile_in_analysis_tab: true
+profile_name: Normalized gene expression
+profile_description: Normalized gene expression levels (TPM)
+data_filename: data_expression_tpm.txt
