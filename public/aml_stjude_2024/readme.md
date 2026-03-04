@@ -15,7 +15,7 @@ Supplementary table title: Candidate genes (n=87) for somatic mutation calls
 Structural Variant Data
 Supplementary file: Supplementary Table S6
 Supplementary table title:  Fusions called from RNA sequencing data by CICERO and structural variant (SVs) called from DNA data by CREST
-Fusions converted to Structural variants using fusion-to-sv-converter tool from the datahub study curation tools
+Fusions converted to Structural variants using fusion-to-sv-converter tool from the datahub study curation tool fusion-to-sv-converter.py
 
 Mutation Data
 Supplementary file: Supplementary Table S7
@@ -24,5 +24,8 @@ Reference genome: GRCh37
 Mutations were annotated using Genome Nexus
 
 GISTIC Data
-Supplementary file: Supplementary Table S9
-Supplementary table title: Copy number variant (CNV) data and analysis by GISTIC  
+Significant loss and gain regions called by GISTIC 2.0 file provided by author 
+
+Expression Data
+RNA-seq normalized log2CPM gene expression data provided by author
+Z-scores generated using the datahub study curation tool NormalizeExpressionLevels_allsampleref.py

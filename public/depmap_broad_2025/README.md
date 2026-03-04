@@ -26,5 +26,6 @@ Expression data:
 Copy number data: 
  	•	Data was retrieved from ‘OmicsCNGeneWGS.csv’ file from the ‘DepMap Public 25Q3 Files- Primary Files’.
  	•	Segmented data was retrieved from (OmicsCNSegmentsWGS.csv) file from the ‘DepMap Public 25Q3 Files- Supplemental Files'.
+ 	•	Segmented data is presented in linear form, values were log-transformed 
  	
  * ModelID used in data files has been mapped to the CCLEName to maintain consistency with previous Depmap releases in cBioPortal.
