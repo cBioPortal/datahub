@@ -1,0 +1,10 @@
+cancer_study_identifier: msk_impact_50k_2026
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: LOH_HLA
+datatype: CATEGORICAL
+stable_id: loh_hla
+profile_name: HLA Loss of Heterozygosity
+profile_description: Somatic loss of heterozygosity at the HLA locus.
+data_filename: data_hla_loh.txt
+show_profile_in_analysis_tab: true
+generic_entity_meta_properties: HLA_GENE
