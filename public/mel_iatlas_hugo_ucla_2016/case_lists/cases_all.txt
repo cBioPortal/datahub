@@ -1,0 +1,6 @@
+cancer_study_identifier: mel_iatlas_hugo_ucla_2016
+stable_id: mel_iatlas_hugo_ucla_2016_all
+case_list_name: All samples
+case_list_description: All samples (27 samples)
+case_list_category: all_cases_in_study
+case_list_ids: Pt38	Pt7	Pt20	Pt25	Pt4	Pt31	Pt8	Pt2	Pt5	Pt15	Pt22	Pt6	Pt10	Pt12	Pt29	Pt37	Pt23	Pt14	Pt9	Pt28	Pt16	Pt35	Pt1	Pt13	Pt19	Pt32	Pt27

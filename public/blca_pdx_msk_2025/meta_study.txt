@@ -1,0 +1,4 @@
+type_of_cancer: blca
+cancer_study_identifier: blca_pdx_msk_2025
+name: Urothelial Cancer Patient Derived Organoids (MSK, 2025)
+description: Targeted sequencing of 90 urothelial cancer tumors, organoids, xenografts, and matched normal samples was performed using MSK-IMPACT as part of the study Determinants of Sensitivity to HER2-targeted Antibody Drug Conjugates in Urothelial Cancers.

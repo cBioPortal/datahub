@@ -1,0 +1,7 @@
+cancer_study_identifier: gbm_iatlas_prins_2019
+type_of_cancer: adifg
+name: Glioblastoma (Randomized Clinical Trial, Nat Med. 2019) - iAtlas Harmonized
+pmid: 30742122
+reference_genome: hg38
+citation: Cloughesy et al. Nat Med. 2019
+description: Whole-exome sequencing and neoantigen landscape analysis of 30 recurrent glioblastomas and their matched normals from a randomized, multi-institution clinical trial to evaluate immune responses and survival following neoadjuvant and/or adjuvant therapy with pembrolizumab. The reprocessing of raw sequencing data is coordinated by <a href="https://cri-iatlas.org/">CRI iAtlas</a>.

@@ -1,0 +1,7 @@
+cancer_study_identifier: ccrcc_iatlas_choueiri_2016
+type_of_cancer: rcc
+name: Metastatic Renal Clear Cell Carcinoma (Phase 1 Biomarker Trial, Clin Cancer Res. 2016) - iAtlas Harmonized
+pmid: 27169994
+reference_genome: hg38
+citation: Choueiri et al. Clin Cancer Res. 2016
+description: Whole-exome sequencing and neoantigen landscape analysis of 16 metastatic renal cell carcinomas and their matched normals from an open-label, parallel, four-group, <a href="https://clinicaltrials.gov/study/NCT01358721">phase 1b study</a> of nivolumab. The reprocessing of raw sequencing data is coordinated by <a href="https://cri-iatlas.org/">CRI iAtlas</a>.

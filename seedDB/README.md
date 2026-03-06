@@ -4,11 +4,30 @@ These files are MySQL database dumps used to seed a new cBioPortal database inst
 
 The instructions for building and updating seedDBs can be found [here](#for-developers).
 
-Gene and gene alias tables in seedDB are updated every 6 months.
+Gene and gene alias tables in seedDB are updated annually.
 
 # Release Notes
 
-## Latest seed database schema 2.13.1
+## Latest seed database schema 2.14.5
+
+This schema is required for cBioPortal release versions:
+- 6.4.0 or higher
+
+For release versions > 6.4.0, there might be a need to migrate to a new database schema. The migration process is described [here](https://github.com/cBioPortal/cbioportal/blob/master/docs/Updating-your-cBioPortal-installation.md#running-the-migration-script).
+
+**Schema 2.14.5**: [SQL file with create table statements](https://github.com/cBioPortal/cbioportal/blob/v6.4.0/src/main/resources/db-scripts/cgds.sql)<br>
+**Seed database**: [seed-cbioportal_hg19_hg38_v2.14.5.sql.gz](https://github.com/cBioPortal/datahub/blob/master/seedDB/seed-cbioportal_hg19_hg38_v2.14.5.sql.gz)<br>
+
+Updates to seed database:
+- Entrez Gene IDs, gene symbols, and gene aliases have been updated based on the HGNC [Oct 7, 2025 release](https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/tsv/hgnc_complete_set_2025-10-07.txt). The detailed changes are listed [here](https://github.com/cBioPortal/datahub-study-curation-tools/blob/master/gene-table-update/build-input-for-importer/gene-table-release-archives/Gene_Table_v7_HGNC_Oct_07_2025/gene_updates.md).
+- Gene Sets have been updated from MSigDB v2025.1.Hs.
+- miRNA genes from HGNC is included.
+- `cosmic_mutation` table is dropped from the seed.
+
+
+## Previous seed databases
+
+## Seed database schema 2.13.1 (October 2024 HGNC Version)
 
 This schema is required for cBioPortal release versions:
 - 5.3.14 or higher
@@ -17,13 +36,10 @@ For release versions > 5.3.14, there might be a need to migrate to a new databas
 
 **Schema 2.13.1**: [SQL file with create table statements](https://github.com/cBioPortal/cbioportal/blob/v6.0.20/src/main/resources/db-scripts/cgds.sql)<br>
 **Seed database**: [seed-cbioportal_hg19_hg38_v2.13.1.sql.gz](https://github.com/cBioPortal/datahub/blob/master/seedDB/seed-cbioportal_hg19_hg38_v2.13.1.sql.gz)<br>
-md5sum d8e328d43089c817dc26e144b2524e8a
 
 Updates to seed database:
 - Entrez Gene IDs, gene symbols, and gene aliases have been updated based on the HGNC [Oct 1, 2024 release](https://storage.googleapis.com/public-download-files/hgnc/archive/archive/monthly/tsv/hgnc_complete_set_2024-10-01.txt). The detailed changes are listed [here](https://github.com/cBioPortal/datahub-study-curation-tools/blob/master/gene-table-update/build-input-for-importer/gene-table-release-archives/Gene_Table_v6_HGNC_Oct_01_2024/gene-updates.md).
 - Gene Sets have been updated from MSigDB v2024.1.Hs.
-
-## Previous seed databases
 
 ## Seed database schema 2.13.1 (October 2023 HGNC version)
 
