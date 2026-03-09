@@ -1,0 +1,8 @@
+cancer_study_identifier: crc_hta8_htan_2024
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: mrna_seq_cpm
+show_profile_in_analysis_tab: FALSE
+profile_name: Pseudobulk mRNA expression (log-normalized CPM)
+profile_description: Pseudobulk expression derived from scRNA-seq data. Raw counts were summed across cells per sample, then CPM normalized and log1p transformed.
+data_filename: data_pseudo_bulk_rna_seq_cpm.txt

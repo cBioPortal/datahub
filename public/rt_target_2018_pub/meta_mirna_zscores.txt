@@ -4,5 +4,5 @@ datatype: Z-SCORE
 stable_id: mirna_median_Zscores
 profile_name: microRNA expression Z-scores
 profile_description: microRNA expression Z-scores compared to all tumors.
-show_profile_in_analysis_tab: false
+show_profile_in_analysis_tab: true
 data_filename: data_mirna_zscores.txt
