@@ -13,9 +13,9 @@ num_studies=${#list_of_study_dirs[@]}
 for STUDIES_DIR in "${STUDIES_DIRS[@]}"; do
     for study in $HOME/repo/$STUDIES_DIR/*/; do
         git lfs pull -I "$study"
-        validation_command="$HOME/cbioportal-core/scripts/importer/./validateData.py -s $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location"
+        validation_command="python $HOME/cbioportal-core/scripts/importer/validateData.py -s $study -p $HOME/repo/.circleci/portalinfo -html $test_reports_location"
         echo $'\nExecuting: '; echo $validation_command
-        if sh -c "$validation_command" ; then
+        if $validation_command ; then
             echo "Tests passed successfully for $STUDIES_DIR"
             EXIT_STATUS=0
         else
