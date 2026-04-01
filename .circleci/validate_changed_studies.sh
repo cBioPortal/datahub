@@ -6,7 +6,7 @@ REPO_DIR="$HOME/repo/"
 TEST_REPORTS_LOCATION="$HOME/test-reports"
 ERRORS_DIR="$TEST_REPORTS_LOCATION/ERRORS"
 LOG_DIR="$TEST_REPORTS_LOCATION/logs"
-VALIDATION_SCRIPT="$HOME/cbioportal-core/scripts/importer/validateStudies.py"
+VALIDATION_SCRIPT="python $HOME/cbioportal-core/scripts/importer/validateStudies.py"
 GIT_REMOTE_URL="git@github.com:cbioportal/datahub.git"
 MAX_THREADS=7
 
