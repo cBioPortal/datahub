@@ -1,0 +1,4 @@
+cancer_study_identifier: msk_solid_heme_diamone1@mskcc.org_1757101074396
+genetic_alteration_type: CLINICAL
+datatype: TIMELINE
+data_filename: data_timeline_tumor_sites.txt
