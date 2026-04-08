@@ -37,8 +37,8 @@ for file_changing in $files_changing; do
           echo "adding to list..."
           list_of_study_dirs+=("$dir_name")
           echo "downloading files from git lfs..."
-          git lfs pull -I "$dir_name/*"
-          git lfs pull -I "$dir_name/case_lists/*"
+          git -c lfs.fetchexclude="" lfs pull -I "$dir_name/*"
+          git -c lfs.fetchexclude="" lfs pull -I "$dir_name/case_lists/*"
         fi
       fi
     done
