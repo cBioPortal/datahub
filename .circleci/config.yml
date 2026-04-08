@@ -17,6 +17,7 @@ jobs:
           name: Validate changed studies
           command: |
             cd ~/repo/.circleci
+            chmod +x install_dependencies.sh validate_changed_studies.sh
             ./install_dependencies.sh
             ./validate_changed_studies.sh
           no_output_timeout: 2h
@@ -36,6 +37,7 @@ jobs:
           name: Validate all studies
           command: |
             cd ~/repo/.circleci
+            chmod +x install_dependencies.sh validate_all_studies.sh
             ./install_dependencies.sh
             ./validate_all_studies.sh
           no_output_timeout: 2h
