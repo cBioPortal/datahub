@@ -50,22 +50,6 @@ jobs:
         run: |
           LFS_HEADER="version https://git-lfs.github.com/spec/v1"
 
-          # Check a file from a tarball stream for LFS pointer signature
-          # Usage: is_lfs_pointer <bucket> <study_key> <file_pattern>
-          is_lfs_pointer() {
-            local bucket=$1
-            local study_key=$2
-            local pattern=$3
-            local first_line
-            first_line=$(aws s3 cp "s3://${bucket}/${study_key}" - \
-              | tar -xzO --wildcards "$pattern" 2>/dev/null \
-              | head -1)
-            if [[ "$first_line" == *"$LFS_HEADER"* ]]; then
-              return 0  # is an LFS pointer
-            fi
-            return 1    # is real data
-          }
-
           echo "Fetching list of study tarballs from S3..."
           studies=$(aws s3 ls "s3://${{ secrets.S3_BUCKET }}/" \
             | awk '{print $4}' \
@@ -87,17 +71,17 @@ jobs:
             check_file=""
             check_pattern=""
 
-            # Check if data_mutations.txt exists in the tarball
-            if aws s3 cp "s3://${{ secrets.S3_BUCKET }}/${study_key}" - \
-                | tar -tzO 2>/dev/null | grep -q "data_mutations.txt"; then
-              check_pattern="*/data_mutations.txt"
+            # List files inside the tarball
+            file_list=$(aws s3 cp "s3://${{ secrets.S3_BUCKET }}/${study_key}" - | tar -tz 2>/dev/null)
+
+            # Check for data_mutations.txt first
+            mutations_file=$(echo "$file_list" | grep -m1 "data_mutations\.txt$" || true)
+            if [[ -n "$mutations_file" ]]; then
+              check_pattern="$mutations_file"
               check_file="data_mutations.txt"
             else
-              # Fall back to first rna/mrna file found in the tarball
-              rna_file=$(aws s3 cp "s3://${{ secrets.S3_BUCKET }}/${study_key}" - \
-                | tar -tzO 2>/dev/null \
-                | grep -iE "(rna|mrna)" \
-                | head -1)
+              # Fall back to first rna/mrna file
+              rna_file=$(echo "$file_list" | grep -iEm1 "(rna|mrna)" || true)
               if [[ -n "$rna_file" ]]; then
                 check_pattern="$rna_file"
                 check_file=$(basename "$rna_file")
@@ -105,17 +89,22 @@ jobs:
             fi
 
             if [[ -z "$check_pattern" ]]; then
-              echo "SKIP: $study_name — no data_mutations.txt or rna/mrna file found"
+              echo "⚠️  SKIP: $study_name — no data_mutations.txt or rna/mrna file found"
               skipped=$((skipped + 1))
               continue
             fi
 
-            if is_lfs_pointer "${{ secrets.S3_BUCKET }}" "$study_key" "$check_pattern"; then
-              echo "FAIL: $study_name — $check_file is an LFS pointer"
+            # Extract just the target file and check its first line
+            first_line=$(aws s3 cp "s3://${{ secrets.S3_BUCKET }}/${study_key}" - \
+              | tar -xzO "$check_pattern" 2>/dev/null \
+              | head -1)
+
+            if [[ "$first_line" == *"$LFS_HEADER"* ]]; then
+              echo "❌ FAIL: $study_name — $check_file is an LFS pointer"
               failed=$((failed + 1))
               failed_studies="$failed_studies\n  - $study_name (checked: $check_file)"
             else
-              echo "OK:   $study_name — $check_file contains real data"
+              echo "✅ OK:   $study_name — $check_file contains real data"
             fi
           done
 
