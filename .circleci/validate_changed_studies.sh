@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # This script detects the studies that were changed and triggers the validation accordingly
 
-set -e
 set -o pipefail
 
 STUDIES_DIRS=("public/" "crdc/gdc/")
@@ -27,7 +26,7 @@ for file_changing in $files_changing; do
       if [[ $file_changing = *$STUDIES_DIR* ]] && [[ $file_changing != *".htm"* ]]; then
         echo "study file changing > [$file_changing]"
         dir_name=$(dirname "$file_changing")
-        # match case_list*, caselist* as a case list dir (actually only case_lists is valid, 
+        # match case_list*, caselist* as a case list dir (actually only case_lists is valid,
         # but this is up to validation script to flag):
         if [[ $dir_name != *"/case_list"* ]] && [[ $dir_name != *"/caselist"* ]] && [[ $dir_name != *"/archived_files"* ]] && [[ $dir_name != *"/gene_sets"* ]] && [[ $dir_name != *"/normals"* ]] && [[ $dir_name != *"/validation_reports"* ]]; then
           echo "study dir > [$dir_name]"
@@ -80,9 +79,9 @@ if [[ $num_studies -gt 0 ]]; then
     done
   done
 
-  # Wait for all remaining background jobs to finish
+  # Wait for all remaining background jobs to finish (ignore non-zero exits here)
   for pid in "${pids[@]}"; do
-    wait "$pid"
+    wait "$pid" || true
   done
 
   # Print all logs
@@ -99,7 +98,7 @@ if [[ $num_studies -gt 0 ]]; then
   fi
 
   # Find all studies with errors
-  erred_studies=$(grep -rl -e 'Failed' "$TEST_REPORTS_LOCATION")
+  erred_studies=$(grep -rl -e 'Failed' "$TEST_REPORTS_LOCATION" || true)
   if [[ -n "$erred_studies" ]]; then
     echo $'\n====List of error studies:====\n'
     echo "$erred_studies"
