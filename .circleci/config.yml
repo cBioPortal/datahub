@@ -8,7 +8,7 @@ jobs:
   # Job to validate only the changed studies
   build:
     docker:
-      - image: circleci/python:3.6
+      - image: cimg/python:3.11
     resource_class: large
     working_directory: ~/repo/
     steps:
@@ -17,6 +17,7 @@ jobs:
           name: Validate changed studies
           command: |
             cd ~/repo/.circleci
+            chmod +x install_dependencies.sh validate_changed_studies.sh
             ./install_dependencies.sh
             ./validate_changed_studies.sh
           no_output_timeout: 2h
@@ -27,7 +28,7 @@ jobs:
   # Job to validate all studies
   validate_all_studies:
     docker:
-      - image: circleci/python:3.6
+      - image: cimg/python:3.11
     resource_class: large
     working_directory: ~/repo
     steps:
@@ -36,6 +37,7 @@ jobs:
           name: Validate all studies
           command: |
             cd ~/repo/.circleci
+            chmod +x install_dependencies.sh validate_all_studies.sh
             ./install_dependencies.sh
             ./validate_all_studies.sh
           no_output_timeout: 2h
@@ -62,7 +64,7 @@ jobs:
   # Check if all studies on datahub are imported in cbioportal.org
   check_all_studies_imported:
     docker:
-      - image: circleci/python:3.6
+      - image: cimg/python:3.11
     working_directory: ~/repo
     steps:
       - checkout
