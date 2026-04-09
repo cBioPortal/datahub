@@ -11,6 +11,7 @@ jobs:
       SAML2AWS_VER: '2.36.18'
       AWS_PROFILE: 'default'
       AWS_REGION: 'us-east-1'
+      MAX_THREADS: 10
 
     steps:
       - name: Install saml2aws
@@ -47,11 +48,52 @@ jobs:
       - name: Verify S3 study tarballs are not LFS pointers
         env:
           AWS_EC2_METADATA_DISABLED: "true"
+          S3_BUCKET: ${{ secrets.S3_BUCKET }}
         run: |
           LFS_HEADER="version https://git-lfs.github.com/spec/v1"
+          RESULTS_DIR=$(mktemp -d)
+
+          # Function to check a single study tarball
+          check_study() {
+            local study_key=$1
+            local study_name="${study_key%.tar.gz}"
+            local result_file="$RESULTS_DIR/${study_name}"
+
+            # List files inside the tarball
+            file_list=$(aws s3 cp "s3://${S3_BUCKET}/${study_key}" - | tar -tz 2>/dev/null)
+
+            # Check for data_mutations.txt first
+            check_pattern=$(echo "$file_list" | grep -m1 "data_mutations\.txt$" || true)
+            check_file="data_mutations.txt"
+
+            # Fall back to first rna/mrna file
+            if [[ -z "$check_pattern" ]]; then
+              check_pattern=$(echo "$file_list" | grep -iEm1 "(rna|mrna)" || true)
+              check_file=$(basename "$check_pattern")
+            fi
+
+            if [[ -z "$check_pattern" ]]; then
+              echo "SKIP:$study_name:no data_mutations.txt or rna/mrna file found" > "$result_file"
+              return
+            fi
+
+            # Extract only first 200 bytes of target file — enough to detect LFS pointer header
+            first_bytes=$(aws s3 cp "s3://${S3_BUCKET}/${study_key}" - \
+              | tar -xzO "$check_pattern" 2>/dev/null \
+              | head -c 200)
+
+            if [[ "$first_bytes" == *"$LFS_HEADER"* ]]; then
+              echo "FAIL:$study_name:$check_file" > "$result_file"
+            else
+              echo "OK:$study_name:$check_file" > "$result_file"
+            fi
+          }
+
+          export -f check_study
+          export LFS_HEADER RESULTS_DIR S3_BUCKET
 
           echo "Fetching list of study tarballs from S3..."
-          studies=$(aws s3 ls "s3://${{ secrets.S3_BUCKET }}/" \
+          studies=$(aws s3 ls "s3://${S3_BUCKET}/" \
             | awk '{print $4}' \
             | grep '\.tar\.gz$')
 
@@ -60,52 +102,34 @@ jobs:
             exit 1
           fi
 
+          # Run checks in parallel using MAX_THREADS
+          echo "$studies" | xargs -P "${{ env.MAX_THREADS }}" -I {} bash -c 'check_study "$@"' _ {}
+
+          # Collect and print results
           total=0
           failed=0
           skipped=0
           failed_studies=""
 
-          for study_key in $studies; do
+          for result_file in "$RESULTS_DIR"/*; do
+            result=$(cat "$result_file")
+            status=$(echo "$result" | cut -d: -f1)
+            study=$(echo "$result" | cut -d: -f2)
+            detail=$(echo "$result" | cut -d: -f3)
             total=$((total + 1))
-            study_name="${study_key%.tar.gz}"
-            check_file=""
-            check_pattern=""
 
-            # List files inside the tarball
-            file_list=$(aws s3 cp "s3://${{ secrets.S3_BUCKET }}/${study_key}" - | tar -tz 2>/dev/null)
-
-            # Check for data_mutations.txt first
-            mutations_file=$(echo "$file_list" | grep -m1 "data_mutations\.txt$" || true)
-            if [[ -n "$mutations_file" ]]; then
-              check_pattern="$mutations_file"
-              check_file="data_mutations.txt"
-            else
-              # Fall back to first rna/mrna file
-              rna_file=$(echo "$file_list" | grep -iEm1 "(rna|mrna)" || true)
-              if [[ -n "$rna_file" ]]; then
-                check_pattern="$rna_file"
-                check_file=$(basename "$rna_file")
-              fi
-            fi
-
-            if [[ -z "$check_pattern" ]]; then
-              echo "SKIP: $study_name — no data_mutations.txt or rna/mrna file found"
-              skipped=$((skipped + 1))
-              continue
-            fi
-
-            # Extract just the target file and check its first line
-            first_line=$(aws s3 cp "s3://${{ secrets.S3_BUCKET }}/${study_key}" - \
-              | tar -xzO "$check_pattern" 2>/dev/null \
-              | head -1)
-
-            if [[ "$first_line" == *"$LFS_HEADER"* ]]; then
-              echo "FAIL: $study_name — $check_file is an LFS pointer"
-              failed=$((failed + 1))
-              failed_studies="$failed_studies\n  - $study_name (checked: $check_file)"
-            else
-              echo "OK:   $study_name — $check_file contains real data"
-            fi
+            case "$status" in
+              OK)
+                : # passed, counted in summary only
+                ;;
+              FAIL)
+                failed=$((failed + 1))
+                failed_studies="$failed_studies\n  - $study (checked: $detail)"
+                ;;
+              SKIP)
+                skipped=$((skipped + 1))
+                ;;
+            esac
           done
 
           echo ""
@@ -124,6 +148,6 @@ jobs:
             echo "============================================================"
             exit 1
           else
-            echo " All studies passed — no LFS pointers detected."
+            echo " All checked studies passed — no LFS pointers detected."
             echo "============================================================"
           fi
