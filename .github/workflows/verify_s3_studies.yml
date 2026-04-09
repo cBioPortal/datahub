@@ -89,7 +89,7 @@ jobs:
             fi
 
             if [[ -z "$check_pattern" ]]; then
-              echo "⚠️  SKIP: $study_name — no data_mutations.txt or rna/mrna file found"
+              echo "SKIP: $study_name — no data_mutations.txt or rna/mrna file found"
               skipped=$((skipped + 1))
               continue
             fi
@@ -100,11 +100,11 @@ jobs:
               | head -1)
 
             if [[ "$first_line" == *"$LFS_HEADER"* ]]; then
-              echo "❌ FAIL: $study_name — $check_file is an LFS pointer"
+              echo "FAIL: $study_name — $check_file is an LFS pointer"
               failed=$((failed + 1))
               failed_studies="$failed_studies\n  - $study_name (checked: $check_file)"
             else
-              echo "✅ OK:   $study_name — $check_file contains real data"
+              echo "OK:   $study_name — $check_file contains real data"
             fi
           done
 
