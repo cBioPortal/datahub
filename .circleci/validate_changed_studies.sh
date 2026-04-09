@@ -79,16 +79,22 @@ if [[ $num_studies -gt 0 ]]; then
     done
   done
 
-  # Wait for all remaining background jobs to finish (ignore non-zero exits here)
+  # Wait for all remaining background jobs to finish
   for pid in "${pids[@]}"; do
     wait "$pid" || true
   done
 
-  # Print all logs
-  for log in "${log_files[@]}"; do
+  # Print all logs cleanly after all jobs finish
+  echo $'\n====Validation Results:====\n'
+  for i in "${!log_files[@]}"; do
+    log="${log_files[$i]}"
+    study="${list_of_study_dirs[$i]}"
     if [[ -f "$log" ]]; then
+      echo "============================================================"
+      echo " Study: $study"
+      echo "============================================================"
       cat "$log"
-      echo -e "\n----------------------------------------------------\n"
+      echo ""
     fi
   done
 
