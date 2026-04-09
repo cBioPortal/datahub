@@ -11,14 +11,14 @@ pip install -r requirements.txt
 # Install and configure Git LFS
 echo "Installing Git LFS..."
 cd ~/
-wget https://github.com/git-lfs/git-lfs/releases/download/v2.3.4/git-lfs-linux-amd64-2.3.4.tar.gz
-tar -xvf git-lfs-linux-amd64-2.3.4.tar.gz
-cd git-lfs-2.3.4
+wget https://github.com/git-lfs/git-lfs/releases/download/v3.7.1/git-lfs-linux-amd64-v3.7.1.tar.gz
+tar -xvf git-lfs-linux-amd64-v3.7.1.tar.gz
+cd git-lfs-3.7.1
 sudo ./install.sh
 cd ~/repo
 sudo chown -R circleci .git
 git lfs install --skip-smudge
-rm -rf git-lfs-linux-amd64-2.3.4.tar.gz git-lfs-2.3.4
+rm -rf git-lfs-linux-amd64-v3.7.1.tar.gz git-lfs-3.7.1
 
 # Clone cBioPortal core
 cd ~/
