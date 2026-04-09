@@ -11,7 +11,7 @@ jobs:
       SAML2AWS_VER: '2.36.18'
       AWS_PROFILE: 'default'
       AWS_REGION: 'us-east-1'
-      MIN_STUDY_SIZE_BYTES: 1048576  # 1MB minimum - LFS pointer tarballs will be tiny (< 10KB)
+
     steps:
       - name: Install saml2aws
         run: |
@@ -20,6 +20,7 @@ jobs:
           sudo mv saml2aws /usr/local/bin/
           chmod +x /usr/local/bin/saml2aws
           saml2aws --version
+
       - name: Configure saml2aws
         run: |
           saml2aws configure \
@@ -31,6 +32,7 @@ jobs:
             --session-duration="${{ secrets.SAML_SESSION_DURATION }}" \
             --skip-prompt \
             --profile="${{ env.AWS_PROFILE }}"
+
       - name: Login to AWS via saml2aws
         env:
           SAML2AWS_USERNAME: ${{ secrets.SAML_USERNAME }}
@@ -46,8 +48,28 @@ jobs:
         env:
           AWS_EC2_METADATA_DISABLED: "true"
         run: |
+          LFS_HEADER="version https://git-lfs.github.com/spec/v1"
+
+          # Check a file from a tarball stream for LFS pointer signature
+          # Usage: is_lfs_pointer <bucket> <study_key> <file_pattern>
+          is_lfs_pointer() {
+            local bucket=$1
+            local study_key=$2
+            local pattern=$3
+            local first_line
+            first_line=$(aws s3 cp "s3://${bucket}/${study_key}" - \
+              | tar -xzO --wildcards "$pattern" 2>/dev/null \
+              | head -1)
+            if [[ "$first_line" == *"$LFS_HEADER"* ]]; then
+              return 0  # is an LFS pointer
+            fi
+            return 1    # is real data
+          }
+
           echo "Fetching list of study tarballs from S3..."
-          studies=$(aws s3 ls "s3://${{ secrets.S3_BUCKET }}/" | awk '{print $4}' | grep '\.tar\.gz$')
+          studies=$(aws s3 ls "s3://${{ secrets.S3_BUCKET }}/" \
+            | awk '{print $4}' \
+            | grep '\.tar\.gz$')
 
           if [[ -z "$studies" ]]; then
             echo "ERROR: No .tar.gz files found in S3 bucket"
@@ -56,23 +78,44 @@ jobs:
 
           total=0
           failed=0
+          skipped=0
           failed_studies=""
 
-          for study in $studies; do
-            size=$(aws s3api head-object \
-              --bucket "${{ secrets.S3_BUCKET }}" \
-              --key "$study" \
-              --query ContentLength \
-              --output text)
-
+          for study_key in $studies; do
             total=$((total + 1))
+            study_name="${study_key%.tar.gz}"
+            check_file=""
+            check_pattern=""
 
-            if [[ "$size" -lt "${{ env.MIN_STUDY_SIZE_BYTES }}" ]]; then
-              echo "FAIL: $study is ${size} bytes — likely contains LFS pointers"
-              failed=$((failed + 1))
-              failed_studies="$failed_studies\n  - $study (${size} bytes)"
+            # Check if data_mutations.txt exists in the tarball
+            if aws s3 cp "s3://${{ secrets.S3_BUCKET }}/${study_key}" - \
+                | tar -tzO 2>/dev/null | grep -q "data_mutations.txt"; then
+              check_pattern="*/data_mutations.txt"
+              check_file="data_mutations.txt"
             else
-              echo "OK:   $study is ${size} bytes"
+              # Fall back to first rna/mrna file found in the tarball
+              rna_file=$(aws s3 cp "s3://${{ secrets.S3_BUCKET }}/${study_key}" - \
+                | tar -tzO 2>/dev/null \
+                | grep -iE "(rna|mrna)" \
+                | head -1)
+              if [[ -n "$rna_file" ]]; then
+                check_pattern="$rna_file"
+                check_file=$(basename "$rna_file")
+              fi
+            fi
+
+            if [[ -z "$check_pattern" ]]; then
+              echo "SKIP: $study_name — no data_mutations.txt or rna/mrna file found"
+              skipped=$((skipped + 1))
+              continue
+            fi
+
+            if is_lfs_pointer "${{ secrets.S3_BUCKET }}" "$study_key" "$check_pattern"; then
+              echo "FAIL: $study_name — $check_file is an LFS pointer"
+              failed=$((failed + 1))
+              failed_studies="$failed_studies\n  - $study_name (checked: $check_file)"
+            else
+              echo "OK:   $study_name — $check_file contains real data"
             fi
           done
 
@@ -81,16 +124,17 @@ jobs:
           echo " Verification Summary"
           echo "============================================================"
           echo " Total studies checked : $total"
-          echo " Passed                : $((total - failed))"
-          echo " Failed                : $failed"
+          echo " Passed                : $((total - failed - skipped))"
+          echo " Skipped (no data file): $skipped"
+          echo " Failed (LFS pointers) : $failed"
 
           if [[ $failed -gt 0 ]]; then
             echo ""
-            echo "Studies that appear to contain LFS pointers:"
+            echo " Studies with LFS pointers:"
             echo -e "$failed_studies"
             echo "============================================================"
             exit 1
           else
-            echo " All studies passed the size check."
+            echo " All studies passed — no LFS pointers detected."
             echo "============================================================"
           fi
