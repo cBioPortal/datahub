@@ -23,6 +23,8 @@ rm -rf git-lfs-linux-amd64-v3.7.1.tar.gz git-lfs-3.7.1
 # Clone cBioPortal core
 cd ~/
 git clone --depth 1 -b main https://github.com/cBioPortal/cbioportal-core.git
+chmod +x ~/cbioportal-core/scripts/importer/*.py
+chmod +x ~/cbioportal-core/scripts/importer/*.sh
 
 # Make test reports location
 cd ~/
