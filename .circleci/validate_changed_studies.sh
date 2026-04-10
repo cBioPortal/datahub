@@ -8,7 +8,7 @@ REPO_DIR="$HOME/repo"
 TEST_REPORTS_LOCATION="$HOME/test-reports"
 ERRORS_DIR="$TEST_REPORTS_LOCATION/ERRORS"
 LOG_DIR="$TEST_REPORTS_LOCATION/logs"
-VALIDATION_SCRIPT="python $HOME/cbioportal-core/scripts/importer/validateStudies.py"
+VALIDATION_SCRIPT="$HOME/cbioportal-core/scripts/importer/validateStudies.py"
 GIT_REMOTE_URL="git@github.com:cbioportal/datahub.git"
 MAX_THREADS=7
 
@@ -59,7 +59,7 @@ if [[ $num_studies -gt 0 ]]; then
     log_file="$LOG_DIR/$(basename "$study").log"
     log_files+=("$log_file")
     echo "Starting validation for: $study"
-    $VALIDATION_SCRIPT \
+    python "$VALIDATION_SCRIPT" \
       -d "$REPO_DIR" \
       -l "$study" \
       -p "$REPO_DIR/.circleci/portalinfo" \

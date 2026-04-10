@@ -57,6 +57,7 @@ jobs:
           name: Check for changed seed database and run validation if necessary
           command: |
             cd ~/repo/.circleci
+            chmod +x install_dependencies.sh check_changed_seed.sh
             python -m ensurepip --upgrade
             ./install_dependencies.sh
             ./check_changed_seed.sh
