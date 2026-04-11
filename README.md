@@ -1,7 +1,7 @@
 # cBioPortal Public Datahub
 The datahub is a repository for data storage only. It contains staging files which are validated and can be loaded directly into the  cBioPortal.
 
-Behind the scenes git-lfs is used to manage the large files. https://github.com/knowledgesystems/git-lfs-s3
+Behind the scenes [Git LFS](https://github.com/git-lfs/git-lfs) is used to manage large files. The backend LFS storage is provided by https://github.com/knowledgesystems/git-lfs-s3.
 
 ## Test Status
 Validation status of all studies on Datahub master branch. This runs weekly using the validation code from the cBioPortal master branch. It also validates if the studies on cbioportal.org and on Datahub are in sync.
