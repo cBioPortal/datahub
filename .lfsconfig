@@ -1,2 +1,2 @@
 [lfs]
-	fetchexclude = *
+	url = https://nsssw8k94d.execute-api.us-east-1.amazonaws.com/

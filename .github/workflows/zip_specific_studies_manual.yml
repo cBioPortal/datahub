@@ -98,7 +98,7 @@ jobs:
 
             echo ""
             echo "Pulling LFS data for: ${studypath}"
-            git -c lfs.fetchexclude="" lfs pull --include="${studypath}"
+            git lfs pull --include="${studypath}"
 
             echo "Compressing: ${studypath}"
             tar -czvf studies_to_upload/${study}.tar.gz -C ${study_dir} ${study}
