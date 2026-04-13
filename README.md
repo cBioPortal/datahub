@@ -29,8 +29,10 @@ git lfs install --local --skip-smudge
 
 Download the data files for a study folder, for example brca_tcga:
 ```
-git lfs pull -I public/brca_tcga
+git -c lfs.fetchexclude="" lfs pull -I public/brca_tcga
 ```
+
+> **Note:** The `-c lfs.fetchexclude=""` override is required because this repository's `.lfsconfig` excludes all LFS downloads by default to prevent accidentally pulling all large files on clone. Without it, the `-I` flag will be ignored and only LFS pointers will be downloaded.
 
 ## How to Upload Data
 > **Note:** Pushing LFS data requires authentication. You will need an LFS username and API key. Contact the repository maintainers for credentials.
