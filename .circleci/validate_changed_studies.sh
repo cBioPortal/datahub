@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 # This script detects the studies that were changed and triggers the validation accordingly
 
+set -o pipefail
+
 STUDIES_DIRS=("public/" "crdc/gdc/")
-REPO_DIR="$HOME/repo/"
+REPO_DIR="$HOME/repo"
 TEST_REPORTS_LOCATION="$HOME/test-reports"
 ERRORS_DIR="$TEST_REPORTS_LOCATION/ERRORS"
 LOG_DIR="$TEST_REPORTS_LOCATION/logs"
@@ -23,87 +25,87 @@ for file_changing in $files_changing; do
     for STUDIES_DIR in "${STUDIES_DIRS[@]}"; do
       if [[ $file_changing = *$STUDIES_DIR* ]] && [[ $file_changing != *".htm"* ]]; then
         echo "study file changing > [$file_changing]"
-        dir_name=$(dirname $file_changing)
-        # match case_list*, caselist* as a case list dir (actually only case_lists is valid, 
+        dir_name=$(dirname "$file_changing")
+        # match case_list*, caselist* as a case list dir (actually only case_lists is valid,
         # but this is up to validation script to flag):
         if [[ $dir_name != *"/case_list"* ]] && [[ $dir_name != *"/caselist"* ]] && [[ $dir_name != *"/archived_files"* ]] && [[ $dir_name != *"/gene_sets"* ]] && [[ $dir_name != *"/normals"* ]] && [[ $dir_name != *"/validation_reports"* ]]; then
           echo "study dir > [$dir_name]"
         else
           # get parent dir:
-          dir_name=`dirname $dir_name`
+          dir_name=$(dirname "$dir_name")
           echo "study dir > [$dir_name]"
         fi
         if [[ ! " ${list_of_study_dirs[@]} " =~ " $dir_name " ]]; then
           echo "adding to list..."
           list_of_study_dirs+=("$dir_name")
           echo "downloading files from git lfs..."
-          git lfs pull -I "$dir_name/*"
-          git lfs pull -I "$dir_name/case_lists/*"
+          git -c lfs.fetchexclude="" lfs pull -I "$dir_name/*"
+          git -c lfs.fetchexclude="" lfs pull -I "$dir_name/case_lists/*"
         fi
       fi
     done
 done
+
 num_studies=${#list_of_study_dirs[@]}
-if [[ $num_studies > 0 ]]; then
+if [[ $num_studies -gt 0 ]]; then
   echo $'\n====List of studies:====\n'
-  list_csv=$(printf "%s," "${list_of_study_dirs[@]}" | sed 's/,$//')
-  echo "$list_csv"
+  echo "${list_of_study_dirs[@]}"
 
   mkdir -p "$ERRORS_DIR"
-  validation_command=""
-  num=0
-  break_num=$((num_studies / MAX_THREADS + 1))
-  for study in ${list_csv//,/ }
-  do
-      # append sleep command between commands
-      ((num=num+1))
-      mod=$(($num % $break_num))
-      log_file="$LOG_DIR/$(basename $study).log"
-      # if [ $mod = 0 ] ; then
-      #   validation_command="${validation_command} && sleep $((num*2))"
-      # fi
-      # append the first study
-      if [[ -z "$validation_command" ]] ; then
-        validation_command="($VALIDATION_SCRIPT -d $REPO_DIR -l $study -p $REPO_DIR/.circleci/portalinfo -html $TEST_REPORTS_LOCATION/$study  > $log_file 2>&1"
-      else
-        # run each validation individually in the background
-        if [ $mod = 0 ] ; then
-          validation_command="${validation_command}) & ($VALIDATION_SCRIPT -d $REPO_DIR -l $study -p $REPO_DIR/.circleci/portalinfo -html $TEST_REPORTS_LOCATION/$study > $log_file 2>&1"
-        else
-          validation_command="${validation_command} ; $VALIDATION_SCRIPT -d $REPO_DIR -l $study -p $REPO_DIR/.circleci/portalinfo -html $TEST_REPORTS_LOCATION/$study > $log_file 2>&1"
+  pids=()
+  log_files=()
+
+  for study in "${list_of_study_dirs[@]}"; do
+    log_file="$LOG_DIR/$(basename "$study").log"
+    log_files+=("$log_file")
+    echo "Starting validation for: $study"
+    python "$VALIDATION_SCRIPT" \
+      -d "$REPO_DIR" \
+      -l "$study" \
+      -p "$REPO_DIR/.circleci/portalinfo" \
+      -html "$TEST_REPORTS_LOCATION/$study" \
+      > "$log_file" 2>&1 &
+    pids+=($!)
+
+    # Throttle to MAX_THREADS parallel jobs
+    while [[ ${#pids[@]} -ge $MAX_THREADS ]]; do
+      for i in "${!pids[@]}"; do
+        if ! kill -0 "${pids[$i]}" 2>/dev/null; then
+          unset "pids[$i]"
         fi
-      fi
+      done
+      pids=("${pids[@]}")
+      sleep 1
+    done
   done
-  validation_command="${validation_command})"
-  echo $'\nExecuting: '; echo $validation_command
-  eval "$validation_command"
-  # Waiting for all background processes to finish
-  while true; do
-    wait -n || {
-      code="$?"
-      echo -e "waiting for all processes to finish...\n\n"
-      # exit only when all processes finished
-      if (( code = 127 )); then
-        break
-      fi
-    }
+
+  # Wait for all remaining background jobs to finish
+  for pid in "${pids[@]}"; do
+    wait "$pid" || true
   done
-  
-  for log in "$LOG_DIR"/*.log; do
+
+  # Print all logs cleanly after all jobs finish
+  echo $'\n====Validation Results:====\n'
+  for i in "${!log_files[@]}"; do
+    log="${log_files[$i]}"
+    study="${list_of_study_dirs[$i]}"
     if [[ -f "$log" ]]; then
+      echo "============================================================"
+      echo " Study: $study"
+      echo "============================================================"
       cat "$log"
-      echo -e "\n----------------------------------------------------\n"
+      echo ""
     fi
   done
-  
+
   # Remove the log directory
   if [[ -d "$LOG_DIR" ]]; then
     rm -rf "$LOG_DIR"
   fi
-  
-  # find all studies with error
-  erred_studies=$(grep -rl "$TEST_REPORTS_LOCATION" -e 'Failed')
-  if [[ $? -eq 0 ]] && [[ -n "$erred_studies" ]]; then
+
+  # Find all studies with errors
+  erred_studies=$(grep -rl -e 'Failed' "$TEST_REPORTS_LOCATION" || true)
+  if [[ -n "$erred_studies" ]]; then
     echo $'\n====List of error studies:====\n'
     echo "$erred_studies"
     echo "$erred_studies" | xargs -I {} mv {} "$ERRORS_DIR"
