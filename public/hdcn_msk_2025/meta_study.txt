@@ -1,0 +1,6 @@
+type_of_cancer: hdcn
+cancer_study_identifier: hdcn_msk_2025
+name: Histiocytic and Dendritic Cell Neoplasms (MSK, Cancer Cell 2026)
+description: Targeted sequencing of 639 histiocytosis patients with RAF-independent MEK mutations and their matched normals via MSK-IMPACT.
+citation: Diamond, Eli L et al. Cancer cell 2026
+pmid: 41135521

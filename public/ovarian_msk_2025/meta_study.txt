@@ -1,0 +1,6 @@
+type_of_cancer: ovary
+cancer_study_identifier: ovarian_msk_2025
+name: Serous Ovarian Cancer (MSK, Clin Cancer Res 2025)
+description: Targeted sequencing of 31 ovarian cancers and their matched normals via MSK-IMPACT platform.
+pmid: 40327333
+citation: Chui, M Herman et al. Clinical cancer research 2025
