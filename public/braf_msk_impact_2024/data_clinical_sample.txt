@@ -1,3 +1,110 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e46e403da10143113fc5fd034b41c0d8d0c74a682ca91516ddc60a8e1995ebf6
-size 13435
+#Sample Identifier	Patient Identifier	Sample Type	Sample Class	Gene Panel	Somatic Status	Impact TMB Score	Oncotree Code	Cancer Type	Cancer Type Detailed	MSI Type	BRAF Fusion Class
+#A unique sample identifier.	Identifier to uniquely specify a patient.	The type assigned to a sample (i.e., normal, primary, met, recurrence). Source: MPath	The sample classification (i.e., tumor, cellline, xenograph).Source: MPath	The gene panel or assay used used to perform targeted NGS on the sample. Source: MPath	Indicates if there exists a matched normal used for tumor sample analysis. Source: MPath	Calculated TMB score. Source: MPath	Oncotree Code	Cancer Type	Cancer Type Detailed	MSI Type	BRAF Fusion Class
+#STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING
+#0	0	990	850	900	860	0	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	SAMPLE_TYPE	SAMPLE_CLASS	GENE_PANEL	SOMATIC_STATUS	CVR_TMB_SCORE	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	MSI_TYPE	BRAF_CLASS
+P-0001036-T01-IM3	P-0001036	Metastasis	Tumor	IMPACT341	Matched	0.0	LGSOC	Ovarian Cancer	Low-Grade Serous Ovarian Cancer	Stable	De novo
+P-0001687-T01-IM3	P-0001687	Metastasis	Tumor	IMPACT341	Matched	6.7	PRSCC	Prostate Cancer	Prostate Small Cell Carcinoma	Stable	De novo
+P-0001988-T01-IM3	P-0001988	Primary	Tumor	IMPACT341	Matched		PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0002197-T01-IM3	P-0002197	Metastasis	Tumor	IMPACT341	Matched	4.5	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	Indeterminate	De novo
+P-0003664-T01-IM5	P-0003664	Metastasis	Tumor	IMPACT410	Matched	2.0	THYROID	Thyroid Cancer	Thyroid	Stable	De novo
+P-0004032-T01-IM5	P-0004032	Primary	Tumor	IMPACT410	Matched	1	BRAIN	CNS/Brain Cancer	CNS/Brain	Stable	De novo
+P-0004103-T01-IM5	P-0004103	Primary	Tumor	IMPACT410	Matched	1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Stable	De novo
+P-0000913-T02-IM5	P-0000913	Metastasis	Tumor	IMPACT410	Matched	3.9	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Stable	Unknown
+P-0004203-T01-IM5	P-0004203	Metastasis	Tumor	IMPACT410	Matched	9.8	MEL	Melanoma	Melanoma	Stable	De novo
+P-0004477-T01-IM5	P-0004477	Metastasis	Tumor	IMPACT410	Matched	3	BRCANOS	Breast Cancer	Breast Invasive Cancer, NOS	Stable	De novo
+P-0004795-T01-IM5	P-0004795	Primary	Tumor	IMPACT410	Matched	9.8	COAD	Colorectal Cancer	Colon Adenocarcinoma	Stable	De novo
+P-0005121-T02-IM5	P-0005121	Metastasis	Tumor	IMPACT410	Matched	3.0	MEL	Melanoma	Melanoma	Stable	De novo
+P-0005461-T02-IM5	P-0005461	Metastasis	Tumor	IMPACT410	Matched	3.9	MEL	Melanoma	Melanoma	Stable	De novo
+P-0005834-T01-IM5	P-0005834	Primary	Tumor	IMPACT410	Matched		BRAIN	CNS/Brain Cancer	CNS/Brain	Stable	De novo
+P-0002071-T02-IM5	P-0002071	Metastasis	Tumor	IMPACT410	Matched	1	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	Stable	De novo
+P-0007533-T01-IM5	P-0007533	Metastasis	Tumor	IMPACT410	Matched	3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Stable	De novo
+P-0007392-T01-IM5	P-0007392	Primary	Tumor	IMPACT410	Matched	1	THYROID	Thyroid Cancer	Thyroid	Stable	De novo
+P-0007861-T01-IM5	P-0007861	Metastasis	Tumor	IMPACT410	Matched	3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Stable	De novo
+P-0008140-T01-IM5	P-0008140	Metastasis	Tumor	IMPACT410	Matched	1	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	Stable	De novo
+P-0008789-T01-IM5	P-0008789	Metastasis	Tumor	IMPACT410	Matched	2.0	MEL	Melanoma	Melanoma	Stable	De novo
+P-0008567-T01-IM5	P-0008567	Metastasis	Tumor	IMPACT410	Matched	1	THYROID	Thyroid Cancer	Thyroid	Stable	De novo
+P-0008920-T01-IM5	P-0008920	Metastasis	Tumor	IMPACT410	Matched	3.9	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Stable	De novo
+P-0009024-T01-IM5	P-0009024	Metastasis	Tumor	IMPACT410	Matched	1	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Stable	De novo
+P-0009097-T01-IM5	P-0009097	Primary	Tumor	IMPACT410	Matched		PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0009246-T01-IM5	P-0009246	Metastasis	Tumor	IMPACT410	Matched	1.0	SARCNOS	Soft Tissue Sarcoma	Sarcoma, NOS	Stable	De novo
+P-0009757-T01-IM5	P-0009757	Primary	Tumor	IMPACT410	Matched	3.9	COAD	Colorectal Cancer	Colon Adenocarcinoma	Stable	De novo
+P-0009619-T01-IM5	P-0009619	Primary	Tumor	IMPACT410	Matched	3	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	Stable	De novo
+P-0010398-T01-IM5	P-0010398	Metastasis	Tumor	IMPACT410	Matched	3	SARCNOS	Soft Tissue Sarcoma	Sarcoma, NOS	Stable	De novo
+P-0010494-T01-IM5	P-0010494	Primary	Tumor	IMPACT410	Matched	1	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	Indeterminate	De novo
+P-0010945-T01-IM5	P-0010945	Metastasis	Tumor	IMPACT410	Matched		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Stable	De novo
+P-0012395-T01-IM5	P-0012395	Metastasis	Tumor	IMPACT410	Matched	1	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	Stable	De novo
+P-0012575-T01-IM5	P-0012575	Primary	Tumor	IMPACT410	Matched		PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0012884-T01-IM5	P-0012884	Metastasis	Tumor	IMPACT410	Matched	2.0	MEL	Melanoma	Melanoma	Stable	De novo
+P-0013777-T01-IM5	P-0013777	Primary	Tumor	IMPACT410	Matched		PAST	Glioma	Pilocytic Astrocytoma	NA	De novo
+P-0014191-T01-IM6	P-0014191	Primary	Tumor	IMPACT468	Matched	0.9	PAST	Glioma	Pilocytic Astrocytoma	NA	De novo
+P-0001832-T02-IM6	P-0001832	Metastasis	Tumor	IMPACT468	Matched	4.4	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	NA	Acquired
+P-0015540-T01-IM6	P-0015540	Primary	Tumor	IMPACT468	Matched	2.6	GB	Glioma	Glioblastoma, IDH-wildtype		De novo
+P-0016557-T01-IM6	P-0016557	Metastasis	Tumor	IMPACT468	Matched	0.9	PAST	Glioma	Pilocytic Astrocytoma	NA	De novo
+P-0017693-T01-IM6	P-0017693	Primary	Tumor	IMPACT468	Matched	0.9	BRAIN	CNS/Brain Cancer	CNS/Brain	NA	De novo
+P-0019127-T01-IM6	P-0019127	Primary	Tumor	IMPACT468	Matched		PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0020125-T01-IM6	P-0020125	Primary	Tumor	IMPACT468	Matched		PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0021519-T02-IM6	P-0021519	Primary	Tumor	IMPACT468	Matched	60.6	COAD	Colorectal Cancer	Colon Adenocarcinoma	Instable	De novo
+P-0022404-T01-IM6	P-0022404	Primary	Tumor	IMPACT468	Matched	0.0	PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0022778-T01-IM6	P-0022778	Primary	Tumor	IMPACT468	Matched	1.8	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Stable	De novo
+P-0023220-T01-IM6	P-0023220	Metastasis	Tumor	IMPACT468	Matched	20.2	CUP	Cancer of Unknown Primary	Cancer of Unknown Primary	Stable	De novo
+P-0023821-T01-IM6	P-0023821	Primary	Tumor	IMPACT468	Matched	10.5	MEL	Melanoma	Melanoma	Stable	De novo
+P-0025075-T01-IM6	P-0025075	Primary	Tumor	IMPACT468	Matched	2.6	STOMACH	Esophageal/Stomach Cancer	Esophagus/Stomach	Stable	De novo
+P-0027592-T01-IM6	P-0027592	Primary	Tumor	IMPACT468	Matched		PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0028611-T01-IM6	P-0028611	Primary	Tumor	IMPACT468	Matched		PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0029361-T01-IM6	P-0029361	Primary	Tumor	IMPACT468	Matched		PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0029727-T01-IM6	P-0029727	Metastasis	Tumor	IMPACT468	Matched	3.5	THYROID	Thyroid Cancer	Thyroid	Stable	De novo
+P-0030746-T01-IM6	P-0030746	Primary	Tumor	IMPACT468	Matched		GNG	Glioma	Ganglioglioma	Stable	De novo
+P-0032982-T01-IM6	P-0032982	Primary	Tumor	IMPACT468	Matched	0.9	PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0034168-T01-IM6	P-0034168	Metastasis	Tumor	IMPACT468	Matched	5.3	MEL	Melanoma	Melanoma	Stable	De novo
+P-0034117-T01-IM6	P-0034117	Metastasis	Tumor	IMPACT468	Matched	6.1	BRCANOS	Breast Cancer	Breast Invasive Cancer, NOS	Indeterminate	De novo
+P-0036680-T01-IM6	P-0036680	Metastasis	Tumor	IMPACT468	Matched	16.7	MEL	Melanoma	Melanoma	Stable	De novo
+P-0036567-T01-IM6	P-0036567	Primary	Tumor	IMPACT468	Matched	0.0	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Stable	De novo
+P-0036870-T01-IM6	P-0036870	Primary	Tumor	IMPACT468	Matched	2.6	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Stable	De novo
+P-0038194-T01-IM6	P-0038194	Metastasis	Tumor	IMPACT468	Matched	2.6	THYROID	Thyroid Cancer	Thyroid	Stable	De novo
+P-0040760-T01-IM6	P-0040760	Primary	Tumor	IMPACT468	Matched	0.0	PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0041181-T01-IM6	P-0041181	Primary	Tumor	IMPACT468	Matched	0.0	BRAIN	CNS/Brain Cancer	CNS/Brain	Stable	De novo
+P-0043372-T01-IM6	P-0043372	Metastasis	Tumor	IMPACT468	Matched	2.6	BRAIN	CNS/Brain Cancer	CNS/Brain	Stable	De novo
+P-0043874-T01-IM6	P-0043874	Primary	Tumor	IMPACT468	Matched	0.0	GNG	Glioma	Ganglioglioma	Stable	De novo
+P-0045111-T01-IM6	P-0045111	Primary	Tumor	IMPACT468	Matched	81.6	COAD	Colorectal Cancer	Colon Adenocarcinoma	Instable	De novo
+P-0047135-T01-IM6	P-0047135	Primary	Tumor	IMPACT468	Matched	8.8	GB	Glioma	Glioblastoma, IDH-wildtype	Stable	De novo
+P-0049925-T01-IM6	P-0049925	Primary	Tumor	IMPACT468	Matched	0.0	PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0046745-T01-IM6	P-0046745	Primary	Tumor	IMPACT468	Matched	6.1	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	Stable	De novo
+P-0026695-T02-XS1	P-0026695	Unknown	cfDNA	ACCESS129	Matched		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma		Acquired
+P-0048950-T01-IM6	P-0048950	Primary	Tumor	IMPACT468	Matched	1.8	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Stable	De novo
+P-0050635-T01-IM6	P-0050635	Metastasis	Tumor	IMPACT468	Matched	12.3	BRCANOS	Breast Cancer	Breast Invasive Cancer, NOS	Stable	De novo
+P-0050574-T02-IM6	P-0050574	Primary	Tumor	IMPACT468	Matched	37.7	COAD	Colorectal Cancer	Colon Adenocarcinoma	Instable	De novo
+P-0052149-T01-XS1	P-0052149	Unknown	cfDNA	ACCESS129	Matched		PRAD	Prostate Cancer	Prostate Adenocarcinoma		De novo
+P-0033799-T11-XS1	P-0033799	Primary	cfDNA	ACCESS129	Matched		BLCA	Bladder Cancer	Bladder Urothelial Carcinoma		Acquired
+P-0056952-T01-IM6	P-0056952	Primary	Tumor	IMPACT468	Matched	0.0	BRAIN	CNS/Brain Cancer	CNS/Brain	Indeterminate	De novo
+P-0058343-T01-IM6	P-0058343	Primary	Tumor	IMPACT468	Matched	0.9	GNOS	Glioma	Glioma, NOS		De novo
+P-0058584-T01-IM7	P-0058584	Primary	Tumor	IMPACT505	Matched	3.3	BRAIN	CNS/Brain Cancer	CNS/Brain	Stable	De novo
+P-0035844-T03-IM7	P-0035844	Local Recurrence	Tumor	IMPACT505	Matched	2.5	SARCNOS	Soft Tissue Sarcoma	Sarcoma, NOS	Stable	De novo
+P-0062963-T01-IM7	P-0062963	Primary	Tumor	IMPACT505	Matched	0.0	PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0064588-T01-IM7	P-0064588	Primary	Tumor	IMPACT505	Matched	3.3	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Indeterminate	De novo
+P-0064872-T01-IM7	P-0064872	Primary	Tumor	IMPACT505	Matched	3.3	GB	Glioma	Glioblastoma, IDH-wildtype	Stable	De novo
+P-0065446-T01-IM7	P-0065446	Primary	Tumor	IMPACT505	Matched	1.6	THYROID	Thyroid Cancer	Thyroid	Stable	De novo
+P-0050153-T02-XS1	P-0050153	Primary	cfDNA	ACCESS129	Matched		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma		Acquired
+P-0066022-T01-IM7	P-0066022	Primary	Tumor	IMPACT505	Matched	0.8	PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0066030-T01-IM7	P-0066030	Primary	Tumor	IMPACT505	Matched	0.0	PAST	Glioma	Pilocytic Astrocytoma	Stable	De novo
+P-0066835-T01-IM7	P-0066835	Primary	Tumor	IMPACT505	Matched	79.9	COAD	Colorectal Cancer	Colon Adenocarcinoma	Instable	De novo
+P-0067782-T01-XS1	P-0067782	Unknown	cfDNA	ACCESS129	Matched		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma		De novo
+P-0068173-T01-IM7	P-0068173	Primary	Tumor	IMPACT505	Matched	17.3	MEL	Melanoma	Melanoma	Stable	De novo
+P-0068451-T01-IM7	P-0068451	Unknown	Tumor	IMPACT505	Matched	4.9	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Stable	De novo
+P-0068194-T01-IM7	P-0068194	Primary	Tumor	IMPACT505	Matched	1.6	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma		De novo
+P-0067813-T01-IM7	P-0067813	Primary	Tumor	IMPACT505	Matched	1.6	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Stable	De novo
+P-0069867-T01-IM7	P-0069867	Primary	Tumor	IMPACT505	Matched	70.0	COAD	Colorectal Cancer	Colon Adenocarcinoma	Instable	De novo
+P-0069864-T01-IM7	P-0069864	Primary	Tumor	IMPACT505	Matched	53.6	STOMACH	Esophageal/Stomach Cancer	Esophagus/Stomach	Instable	De novo
+P-0031754-T07-IM7	P-0031754	Primary	Tumor	IMPACT505	Matched	4.1	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Stable	Acquired
+P-0063519-T02-IM7	P-0063519	Metastasis	Tumor	IMPACT505	Matched	7.4	THYC	Thymic Tumor	Thymic Carcinoma	Indeterminate	De novo
+P-0071663-T04-IM7	P-0071663	Unknown	Tumor	IMPACT505	Matched	3.3	SARCNOS	Soft Tissue Sarcoma	Sarcoma, NOS	Stable	De novo
+P-0073293-T02-XS1	P-0073293	Unknown	cfDNA	ACCESS129	Matched		LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma		De novo
+P-0073230-T01-IM7	P-0073230	Primary	Tumor	IMPACT505	Matched	0.0	BRAIN	CNS/Brain Cancer	CNS/Brain		De novo
+P-0073825-T01-IM7	P-0073825	Primary	Tumor	IMPACT505	Matched	4.9	BLCA	Bladder Cancer	Bladder Urothelial Carcinoma	Stable	De novo
+P-0074790-T01-IM7	P-0074790	Primary	Tumor	IMPACT505	Matched	1.6	LGSOC	Ovarian Cancer	Low-Grade Serous Ovarian Cancer	Indeterminate	De novo
+P-0075027-T01-IM7	P-0075027	Primary	Tumor	IMPACT505	Matched	2.5	MEL	Melanoma	Melanoma	Stable	De novo
+P-0075149-T01-IM7	P-0075149	Primary	Tumor	IMPACT505	Matched	2.5	MEL	Melanoma	Melanoma	Stable	De novo
+P-0074092-T02-IM7	P-0074092	Primary	Tumor	IMPACT505	Matched	0.8	PAST	Glioma	Pilocytic Astrocytoma		De novo
+P-0077083-T01-IM7	P-0077083	Metastasis	Tumor	IMPACT505	Matched	2.5	PRAD	Prostate Cancer	Prostate Adenocarcinoma	Stable	De novo
+P-0081595-T02-IM7	P-0081595	Primary	Tumor	IMPACT505	Matched	0.8	PAST	Glioma	Pilocytic Astrocytoma		De novo
+P-0005553-T02-IM5	P-0005553	Metastasis	Tumor	IMPACT410	Matched	3	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Stable	
