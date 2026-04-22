@@ -1,3 +1,112 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:36bc095445c619bcd32b9084468d83fb782385c9031c414e47292302b82cbf03
-size 13381
+#Sample Identifier	Patient Identifier	Sample Type	Sample Class	Gene Panel	Somatic Status	Oncotree Code	Cancer Type	Cancer Type Detailed	BRAF Fusion Class
+#A unique sample identifier.	Identifier to uniquely specify a patient.	The type assigned to a sample (i.e., normal, primary, met, recurrence).	The sample classification (i.e., tumor, cellline, xenograph).	The gene panel or assay used used to perform targeted NGS on the sample.	Indicates if there exists a matched normal used for tumor sample analysis.	Oncotree Code	Cancer Type	Cancer Type Detailed	BRAF Fusion Class
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#0	0	990	0	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	SAMPLE_TYPE	SAMPLE_CLASS	GENE_PANEL	SOMATIC_STATUS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	BRAF_CLASS
+P-0000828-T04-AS1	P-0000828	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0006601-T04-AS1	P-0006601	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	BRCANOS	Breast Cancer	Breast Invasive Cancer, NOS	De novo
+P-0007266-T03-AS1	P-0007266	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Acquired
+P-0008083-T04-AS1	P-0008083	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	COAD	Colorectal Cancer	Colon Adenocarcinoma	Acquired
+P-0009694-T02-AS1	P-0009694	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	De novo
+P-0012710-T02-AS1	P-0012710	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	De novo
+P-0013536-T03-AS1	P-0013536	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	SEM	Germ Cell Tumor	Seminoma	De novo
+P-0013764-T03-AS1	P-0013764	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	De novo
+P-0014053-T01-AS1	P-0014053	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0014377-T02-AS1	P-0014377	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0014381-T02-AS1	P-0014381	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAST	Glioma	Pilocytic Astrocytoma	De novo
+P-0014833-T03-AS1	P-0014833	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Acquired
+P-0014969-T02-AS1	P-0014969	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0015847-T01-AS1	P-0015847	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	SARCNOS	Soft Tissue Sarcoma	Sarcoma, NOS	De novo
+P-0015985-T02-AS1	P-0015985	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	GB	Glioma	Glioblastoma, IDH-wildtype	De novo
+P-0016313-T02-AS1	P-0016313	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0018524-T02-AS1	P-0018524	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0021127-T02-AS1	P-0021127	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	BRCANOS	Breast Cancer	Breast Invasive Cancer, NOS	De novo
+P-0021458-T02-AS1	P-0021458	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0021469-T02-AS1	P-0021469	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0022257-T02-AS1	P-0022257	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	THYROID	Thyroid Cancer	Thyroid	De novo
+P-0023519-T02-AS1	P-0023519	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	OTHER	Other Cancer	Other	De novo
+P-0024227-T03-AS4	P-0024227	Local Recurrence	Tumor	ARCHER-SOLID-CV4	Unmatched	BRAIN	CNS/Brain Cancer	CNS/Brain	De novo
+P-0024884-T02-AS1	P-0024884	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	OTHER	Other Cancer	Other	De novo
+P-0024995-T02-AS1	P-0024995	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0025561-T02-AS1	P-0025561	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0025699-T03-AS1	P-0025699	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Acquired
+P-0025988-T02-AS1	P-0025988	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0026158-T02-AS1	P-0026158	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0026719-T02-AS1	P-0026719	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	OTHER	Other Cancer	Other	De novo
+P-0026773-T02-AS1	P-0026773	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	De novo
+P-0027762-T03-AS1	P-0027762	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Unknown
+P-0029059-T02-AS1	P-0029059	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0029531-T02-AS1	P-0029531	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	GNOS	Glioma	Glioma, NOS	De novo
+P-0029981-T02-AS1	P-0029981	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	BRCANOS	Breast Cancer	Breast Invasive Cancer, NOS	De novo
+P-0030237-T02-AS1	P-0030237	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0030796-T02-AS1	P-0030796	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0030988-T02-AS1	P-0030988	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	COAD	Colorectal Cancer	Colon Adenocarcinoma	De novo
+P-0031805-T01-AS1	P-0031805	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	OTHER	Other Cancer	Other	De novo
+P-0031896-T01-AS1	P-0031896	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	SARCNOS	Soft Tissue Sarcoma	Sarcoma, NOS	De novo
+P-0032569-T03-AS1	P-0032569	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	COAD	Colorectal Cancer	Colon Adenocarcinoma	De novo
+P-0032986-T03-AS1	P-0032986	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	THYROID	Thyroid Cancer	Thyroid	Acquired
+P-0033536-T01-AS1	P-0033536	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAST	Glioma	Pilocytic Astrocytoma	De novo
+P-0033699-T01-AS1	P-0033699	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	BRAIN	CNS/Brain Cancer	CNS/Brain	De novo
+P-0033764-T05-AS1	P-0033764	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Acquired
+P-0034335-T02-AS1	P-0034335	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	SARCNOS	Soft Tissue Sarcoma	Sarcoma, NOS	De novo
+P-0034621-T02-AS1	P-0034621	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0035153-T02-AS1	P-0035153	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	GNOS	Glioma	Glioma, NOS	De novo
+P-0035393-T01-AS1	P-0035393	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	THYROID	Thyroid Cancer	Thyroid	De novo
+P-0036886-T02-AS1	P-0036886	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	De novo
+P-0036937-T02-AS1	P-0036937	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	THYROID	Thyroid Cancer	Thyroid	De novo
+P-0038089-T02-AS1	P-0038089	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	STOMACH	Esophageal/Stomach Cancer	Esophagus/Stomach	De novo
+P-0039648-T02-AS1	P-0039648	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0039799-T02-AS1	P-0039799	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	LGSOC	Ovarian Cancer	Low-Grade Serous Ovarian Cancer	De novo
+P-0041308-T03-AS1	P-0041308	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	READ	Colorectal Cancer	Rectal Adenocarcinoma	De novo
+P-0042036-T02-AS1	P-0042036	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0042835-T01-AS1	P-0042835	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	GB	Glioma	Glioblastoma, IDH-wildtype	De novo
+P-0043836-T02-AS1	P-0043836	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	De novo
+P-0043972-T04-AS1	P-0043972	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Acquired
+P-0044270-T01-AS1	P-0044270	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAST	Glioma	Pilocytic Astrocytoma	De novo
+P-0044819-T02-AS1	P-0044819	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0045683-T01-AS1	P-0045683	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	BRAIN	CNS/Brain Cancer	CNS/Brain	De novo
+P-0047833-T03-AS1	P-0047833	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0047918-T01-AS1	P-0047918	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAST	Glioma	Pilocytic Astrocytoma	De novo
+P-0048036-T02-AS1	P-0048036	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0049035-T02-AS1	P-0049035	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	GNG	Glioma	Ganglioglioma	De novo
+P-0049515-T02-AS1	P-0049515	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	COAD	Colorectal Cancer	Colon Adenocarcinoma	De novo
+P-0050196-T02-AS1	P-0050196	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0050683-T06-AS1	P-0050683	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Acquired
+P-0050931-T02-AS1	P-0050931	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0051214-T02-AS1	P-0051214	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0052299-T05-AS1	P-0052299	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0052411-T02-AS1	P-0052411	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	OTHER	Other Cancer	Other	De novo
+P-0052432-T02-AS1	P-0052432	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	COAD	Colorectal Cancer	Colon Adenocarcinoma	De novo
+P-0052582-T02-AS1	P-0052582	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	STOMACH	Esophageal/Stomach Cancer	Esophagus/Stomach	De novo
+P-0054046-T02-AS1	P-0054046	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	COAD	Colorectal Cancer	Colon Adenocarcinoma	De novo
+P-0054364-T02-AS1	P-0054364	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	De novo
+P-0054430-T03-AS1	P-0054430	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	COAD	Colorectal Cancer	Colon Adenocarcinoma	De novo
+P-0054958-T01-AS1	P-0054958	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	SARCNOS	Soft Tissue Sarcoma	Sarcoma, NOS	De novo
+P-0056639-T02-AS1	P-0056639	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	De novo
+P-0058648-T02-AS1	P-0058648	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	COAD	Colorectal Cancer	Colon Adenocarcinoma	De novo
+P-0059002-T02-AS1	P-0059002	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0061935-T02-AS1	P-0061935	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0062070-T02-AS1	P-0062070	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	BRAIN	CNS/Brain Cancer	CNS/Brain	De novo
+P-0062551-T05-AS1	P-0062551	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Acquired
+P-0062729-T03-AS1	P-0062729	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	De novo
+P-0064088-T02-AS1	P-0064088	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	THYROID	Thyroid Cancer	Thyroid	De novo
+P-0064310-T02-AS1	P-0064310	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAST	Glioma	Pilocytic Astrocytoma	De novo
+P-0064764-T02-AS1	P-0064764	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAAC	Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	De novo
+P-0065232-T02-AS1	P-0065232	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	CUP	Cancer of Unknown Primary	Cancer of Unknown Primary	De novo
+P-0068260-T02-AS1	P-0068260	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	De novo
+P-0069024-T03-AS1	P-0069024	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PAST	Glioma	Pilocytic Astrocytoma	De novo
+P-0069614-T03-AS4	P-0069614	Unknown	Tumor	ARCHER-SOLID-CV4	Unmatched	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	De novo
+P-0069643-T01-AS1	P-0069643	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	THYROID	Thyroid Cancer	Thyroid	De novo
+P-0069924-T02-AS1	P-0069924	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	MEL	Melanoma	Melanoma	De novo
+P-0071638-T02-AS1	P-0071638	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0072932-T02-AS1	P-0072932	Primary	Tumor	ARCHER-SOLID-CV1	Unmatched	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	De novo
+P-0073868-T02-AS1	P-0073868	Metastasis	Tumor	ARCHER-SOLID-CV1	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0074765-T02-AS1	P-0074765	Unknown	Tumor	ARCHER-SOLID-CV1	Unmatched	CUP	Cancer of Unknown Primary	Cancer of Unknown Primary	De novo
+P-0075336-T03-AS4	P-0075336	Unknown	Tumor	ARCHER-SOLID-CV4	Unmatched	PAST	Glioma	Pilocytic Astrocytoma	De novo
+P-0076722-T02-AS4	P-0076722	Metastasis	Tumor	ARCHER-SOLID-CV4	Unmatched	PRAD	Prostate Cancer	Prostate Adenocarcinoma	De novo
+P-0077428-T03-AS4	P-0077428	Primary	Tumor	ARCHER-SOLID-CV4	Unmatched	STOMACH	Esophageal/Stomach Cancer	Esophagus/Stomach	De novo
+P-0077498-T02-AS4	P-0077498	Primary	Tumor	ARCHER-SOLID-CV4	Unmatched	PAST	Glioma	Pilocytic Astrocytoma	De novo
+P-0077563-T02-AS4	P-0077563	Primary	Tumor	ARCHER-SOLID-CV4	Unmatched	PAST	Glioma	Pilocytic Astrocytoma	De novo
+P-0078043-T02-AS4	P-0078043	Primary	Tumor	ARCHER-SOLID-CV4	Unmatched	READ	Colorectal Cancer	Rectal Adenocarcinoma	De novo
+P-0078959-T02-AS4	P-0078959	Unknown	Tumor	ARCHER-SOLID-CV4	Unmatched	OTHER	Other Cancer	Other	De novo
+P-0080208-T02-AS4	P-0080208	Metastasis	Tumor	ARCHER-SOLID-CV4	Unmatched	MEL	Melanoma	Melanoma	De novo
