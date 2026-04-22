@@ -1,3 +1,575 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ff24eb0bee60cf1f6c4d8faa83eb7e94e353707b6946035941662450722d6ea
-size 77008
+#Patient Identifier	Sample Identifier	Biopsy Site	Biopsy Cohort	Analysis Cohort	Primary Tumor Site	Sample Type	Tumor Content	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)	Somatic Status	MSI Score	HRD Score
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Biopsy Site	Biopsy Cohort	Analysis Cohort	Text term to describe the organ sub-division in an individual with cancer.	The type of sample (i.e., normal, primary, met, recurrence).	Tumor Content	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)	Somatic Status	MSI Score	HRD Score
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	NUMBER	STRING	NUMBER	NUMBER
+#1	1	1	1	1	1	9	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	BIOPSY_SITE	BIOPSY_COHORT	ANALYSIS_COHORT	PRIMARY_SITE	SAMPLE_TYPE	TUMOR_CONTENT	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS	SOMATIC_STATUS	MSI_SCORE	HRD_SCORE
+11004	11004	Liver	Liver	COLO	Colon	Metastatic	73	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.93333333333	Matched	0.85	16
+11307	11307	Liver	Liver	BRCA	Breast	Metastatic	59	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.6	Matched	0.12	31
+11698	11698	Skin	Skin	BCC	Skin	Metastatic	43	BCC	Skin Cancer, Non-Melanoma	Basal Cell Carcinoma	94.8	Matched	0	35
+12255	12255	Sinus	Head & Neck	SARC	NA	Local Recurrence	60	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	1.06666666667	Matched	0	0
+13009	13009	Bone Marrow	Bone	LYMP	Blood	Local Recurrence	100	MCL	Mature B-Cell Neoplasms	Mantle Cell Lymphoma	1.13333333333	Matched	0.37	1
+13261	13261	Liver	Liver	HNSC	Sinus	Metastatic	50	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	1.4	Matched	0	49
+13269	13269	Abdominal Wall	Abdomen	COLO	Colon	Metastatic	47	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.53333333333	Matched	0	19
+13577	13577	Liver	Liver	LUNG	Lung	Metastatic	57	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	7.1	Matched	0.05	29
+13268	13268	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	70	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.16666666667	Matched	1.96	27
+13764	13764	Lymph Node	Lymphatic System	COLO	Anus	Metastatic	30	ANSC	Anal Cancer	Anal Squamous Cell Carcinoma	2.56666666667	Matched	0	0
+13904	13904	Liver	Liver	COLO	Colon	Metastatic	29	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.63333333333	Matched	0	21
+13931	13931	Liver	Liver	CHOL	Bile Duct	Metastatic	50	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.766666666667	Matched	0	33
+14231	14231	Chest wall	Chest Wall	BRCA	Breast	Local Recurrence	56	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.733333333333	Matched	0.1	34
+13947	13947	Liver	Liver	COLO	Appendix	Metastatic	81	APAD	Appendiceal Cancer	Appendiceal Adenocarcinoma	4.16666666667	Matched	2.02	36
+14232	14232	Liver	Liver	COLO	Colon	Metastatic	73	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.5	Matched	1.55	16
+14446	14446	Pancreas	Pancreas	PANC	Pancreas	Local Recurrence	44	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.466666666667	Matched	0.07	2
+14498	14498	Lymph Node	Lymphatic System	SECR	Salivary Gland	Local Recurrence	62	SACA	Salivary Gland Cancer	Salivary Carcinoma	3.5	Matched	3.58	25
+14519	14519	Pelvis	Soft Tissue	MISC	Ovary	Local Recurrence	90	GRCT	Sex Cord Stromal Tumor	Granulosa Cell Tumor	0.766666666667	Matched	0.06	7
+14891	14891	Lung	Respiratory System	LUNG	Lung	Local Recurrence	46	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	8.1	Matched	0.25	19
+15122	15122	Chest wall	Chest Wall	BRCA	Breast	Metastatic	55	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	0.966666666667	Matched	0	15
+15227	15227	Liver	Liver	BRCA	Breast	Metastatic	70	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.0	Matched	2.66	65
+15148	15148	Lung	Respiratory System	LUNG	Lung	Local Recurrence	45	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	5.13333333333	Matched	0.54	35
+15123	15123	Lymph Node	Lymphatic System	LUNG	Lung	Metastatic	46	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.86666666667	Matched	0	40
+15268	15268	Trachea	Respiratory System	SECR	Lung	Local Recurrence	90	LUACC	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung	0.666666666667	Matched	0.08	11
+15844	15844	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	47	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	8.13333333333	Matched	0	36
+16385	16385	Liver	Liver	PANC	Pancreas	Metastatic	24	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.0	Matched	0	24
+16500	16500	Liver	Liver	LUNG	Lung	Metastatic	43	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	0.766666666667	Matched	0	31
+16501	16501	Skin	Skin	BRCA	Breast	Metastatic	55	EMBC	Breast Cancer	Epithelial Type Metaplastic Breast Cancer	3.53333333333	Matched	2.48	62
+16689	16689	Lung	Respiratory System	BRCA	Breast	Metastatic	60	MBC	Breast Cancer	Metaplastic Breast Cancer	5.3	Matched	1.64	63
+16949	16949	Liver	Liver	PRAD	Prostate	Metastatic	60	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.36666666667	Matched	1.28	52
+17584	17584	Liver	Liver	BRCA	Breast	Metastatic	35	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.13333333333	Matched	0	2
+17284	17284	Skin	Skin	LYMP	NA	Metastatic	35	PTCL	Mature T and NK Neoplasms	Peripheral T-Cell lymphoma, NOS	0	Matched	0	0
+17557	17557	Vagina	Reproductive System	OV	Ovary	Metastatic	80	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	8.23333333333	Matched	2	48
+17827	17827	Lymph Node	Lymphatic System	UCEC	Uterus	Metastatic	80	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	16.9	Matched	26.97	1
+18154	18154	Liver	Liver	BRCA	Breast	Metastatic	63	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.83333333333	Matched	1.15	52
+18153	18153	Brain	Brain	CNS-PNS	NA	Local Recurrence	84	ODG	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	1.4	Matched	1.14	8
+18228	18228	Pleura	Chest Wall	LUNG	Lung	Local Recurrence	80	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.7	Matched	0.21	19
+18624	18624	Chest wall	Chest Wall	SECR	Breast	Metastatic	40	AECA	Skin Cancer, Non-Melanoma	Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma	1.66666666667	Matched	0	1
+18568	18568	Rectroperitoneum	Abdomen	SARC	NA	Local Recurrence	72	WDLS	Soft Tissue Sarcoma	Well-Differentiated Liposarcoma	0.366666666667	Matched	0.23	0
+18843	18843	Adrenal	Adrenal Gland	ACC	Adrenal	Local Recurrence	86	ACC	Adrenocortical Carcinoma	Adrenocortical Carcinoma	2.16666666667	Matched	0.22	7
+18625	18625	Liver	Liver	BRCA	Breast	Metastatic	86	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.1	Matched	4.68	38
+18650	18650	Omentum	Reproductive System	LUNG	Pleura	Local Recurrence	57	PEMESO	Mesothelioma	Peritoneal Mesothelioma	0.4	Matched	0	33
+18844	18844	Colon	Intestine	LUNG	Pleura	Local Recurrence	35	PEMESO	Mesothelioma	Peritoneal Mesothelioma	9.56666666667	Matched	0	1
+18880	18880	Liver	Liver	BRCA	Breast	Metastatic	70	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.73333333333	Matched	0.67	27
+19512	19512	Liver	Liver	BRCA	Breast	Metastatic	76	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.73333333333	Matched	0.21	21
+19652	19652	Breast	Breast	OV	Ovary	Metastatic	29	SOC	Ovarian Cancer	Serous Ovarian Cancer	2.3	Matched	0.13	4
+19661	19661	Omentum	Reproductive System	LUNG	Lung	Metastatic	64	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.43333333333	Matched	0.19	8
+19843	19843	Breast	Breast	BRCA	Breast	Metastatic	69	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	9.5	Matched	2.22	55
+20034	20034	Neck mass	Soft Tissue	BRCA	Breast	Metastatic	82	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	6.56666666667	Matched	1.71	45
+20115	20115	Chest wall	Chest Wall	BRCA	Breast	Metastatic	63	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.66666666667	Matched	0.07	18
+20794	20794	Lung	Respiratory System	SARC	NA	Metastatic	73	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	3.56666666667	Matched	1.5	32
+20600	20600	Peritoneum	Abdomen	CHOL	Bile Duct	Metastatic	84	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	2.0	Matched	0.49	17
+21186	21186	Chest wall	Chest Wall	BRCA	Breast	Metastatic	20	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.833333333333	Matched	0	2
+21404	21404	Lymph Node	Lymphatic System	COLO	Duodenum	Metastatic	17	DA	Small Bowel Cancer	Duodenal Adenocarcinoma	0.7	Matched	0	0
+20801	20801	lung	Respiratory System	BRCA	Breast	Metastatic	59	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.8	Matched	0.95	55
+20800	20800	Brain	Brain	CNS-PNS	NA	Local Recurrence	81	ODG	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	1.1	Matched	1.29	24
+21098	21098	Hip	Soft Tissue	SARC	NA	Local Recurrence	72	DDLS	Soft Tissue Sarcoma	Dedifferentiated Liposarcoma	1.2	Matched	0	0
+21392	21392	Lymph Node	Lymphatic System	OV	Ovary	Metastatic	42	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	1.8	Matched	0.49	41
+21347	21347	Liver	Liver	BRCA	Breast	Metastatic	70	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.1	Matched	0.29	17
+21188	21188	Abdominal Wall	Abdomen	OV	Ovary	Metastatic	90	LGSOC	Ovarian Cancer	Low-Grade Serous Ovarian Cancer	0.5	Matched	0.16	9
+21516	21516	Skin	Skin	SKCM	Skin	Local Recurrence	55	MEL	Melanoma	Melanoma	4.83333333333	Matched	0	11
+21933	21933	Chest wall	Chest Wall	BRCA	Breast	Metastatic	90	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.86666666667	Matched	1.48	23
+21720	21720	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	69	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.86666666667	Matched	1.72	24
+22415	22415	Upper Back Mass	Soft Tissue	BRCA	Breast	Metastatic	73	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	1.2	Matched	1.33	9
+21932	21932	Pelvic Mass	Soft Tissue	COLO	Colon	Local Recurrence	65	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.7	Matched	0	13
+21721	21721	Lymph Node	Lymphatic System	LUNG	Lung	Metastatic	61	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	0.966666666667	Matched	0	17
+22254	22254	Chest wall	Chest Wall	COLO	Anus	Metastatic	29	ANSC	Anal Cancer	Anal Squamous Cell Carcinoma	3.86666666667	Matched	0	9
+21774	21774	Chest wall	Chest Wall	BRCA	Breast	Metastatic	56	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	4.8	Matched	3.44	73
+22186	22186	Lung	Respiratory System	LUNG	Lung	Metastatic	41	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.5	Matched	0.55	36
+22593	22593	Rectus Muscle	Soft Tissue	SECR	unknown	Metastatic	42	CACC	Cervical Cancer	Cervical Adenoid Cystic Carcinoma	0.833333333333	Matched	0	0
+22595	22595	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	81	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.36666666667	Matched	2.95	29
+22256	22256	Breast	Breast	BRCA	Breast	Local Recurrence	62	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.83333333333	Matched	0.08	30
+22244	22244	Spine	Spine	SARC	NA	Metastatic	54	ES	Bone Cancer	Ewing Sarcoma	2.0	Matched	0	15
+22499	22499	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	65	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.73333333333	Matched	1.56	37
+23344	23344	Lymph Node	Lymphatic System	UCEC	NA	Metastatic	72	UCEC	Endometrial Cancer	Endometrial Carcinoma	1.8	Matched	0.51	2
+22592	22592	Chest wall	Chest Wall	BRCA	Breast	Metastatic	52	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.46666666667	Matched	0.82	42
+23238	23238	Abdominal Mass	Abdomen	OV	Ovary	Metastatic	66	LGSOC	Ovarian Cancer	Low-Grade Serous Ovarian Cancer	1.93333333333	Matched	0.35	47
+22597	22597	Liver	Liver	BRCA	Breast	Metastatic	75	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.3	Matched	1.24	31
+23162	23162	Lymph Node	Lymphatic System	CERV	NA	Metastatic	56	CEAIS	Cervical Cancer	Cervical Adenocarcinoma In Situ	0.966666666667	Matched	0	43
+23187	23187	Cervix	Reproductive System	CERV	NA	Local Recurrence	46	CEAIS	Cervical Cancer	Cervical Adenocarcinoma In Situ	13.4666666667	Matched	0.29	21
+23205	23205	Lymph Node	Lymphatic System	LYMP	NA	Local Recurrence	61	FL	Mature B-Cell Neoplasms	Follicular Lymphoma	2.5	Matched	0.21	3
+23189	23189	Lung	Respiratory System	SARC	NA	Metastatic	75	OS	Bone Cancer	Osteosarcoma	1.2	Matched	0.89	11
+23239	23239	Liver	Liver	UVM	Eye	Metastatic	84	UM	Melanoma	Uveal Melanoma	0.7	Matched	2.2	24
+23237	23237	Liver	Liver	LUNG	Lung	Metastatic	20	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	0.0333333333333	Matched	0	0
+23315	23315	Liver	Liver	COLO	Colon	Metastatic	48	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.86666666667	Matched	3.18	33
+23453	23453	Liver	Liver	COLO	Colon	Metastatic	55	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.0	Matched	1.21	22
+23675	23675	Breast	Breast	BRCA	Breast	Metastatic	55	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.43333333333	Matched	0.07	28
+23676	23676	Lung	Respiratory System	COLO	Colon	Metastatic	50	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.43333333333	Matched	0.64	25
+23401	23401	Peritoneal Mass	Abdomen	BLCA	Bladder	Metastatic	55	BLAD	Bladder Cancer	Bladder Adenocarcinoma	2.93333333333	Matched	0.96	47
+23411	23411	Liver	Liver	SARC	NA	Metastatic	80	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	1.8	Matched	1.95	26
+24176	24176	Lower Back	Soft Tissue	COLO	Rectum	Metastatic	81	HGNEC	Gastrointestinal Neuroendocrine Tumor	High-Grade Neuroendocrine Carcinoma of the Colon and Rectum	0.733333333333	Matched	0	9
+23738	23738	Lymph Node	Lymphatic System	SARC	NA	Metastatic	87	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	2.26666666667	Matched	2.2	34
+23454	23454	Liver	Liver	BRCA	Breast	Metastatic	77	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.933333333333	Matched	0.23	5
+23673	23673	Rectum	Soft Tissue	COLO	Colon	Local Recurrence	31	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.06666666667	Matched	0	9
+23674	23674	Lymph Node	Lymphatic System	COLO	Colon	Metastatic	63	COAD	Colorectal Cancer	Colon Adenocarcinoma	66.9	Matched	70.47	2
+23706	23706	Liver	Liver	BRCA	Breast	Metastatic	83	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.23333333333	Matched	0.08	19
+23739	23739	Liver	Liver	COLO	Anus	Metastatic	90	ANSC	Anal Cancer	Anal Squamous Cell Carcinoma	4.0	Matched	1.96	19
+23701	23701	Liver	Liver	BRCA	Breast	Metastatic	48	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.13333333333	Matched	0.42	55
+23737	23737	Arm	Soft Tissue	BRCA	Breast	Metastatic	41	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	5.73333333333	Matched	0	36
+23764	23764	Liver	Liver	SARC	NA	Metastatic	55	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	0.7	Matched	0	1
+23736	23736	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	46	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.63333333333	Matched	0.24	53
+23802	23802	Maxilla	Head & Neck	HNSC	Oral Cavity	Local Recurrence	90	ODGC	Head and Neck Cancer	Odontogenic Carcinoma	1.26666666667	Matched	3.34	14
+24045	24045	Liver	Liver	BRCA	Breast	Metastatic	62	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.2	Matched	2.18	32
+23805	23805	Lymph Node	Lymphatic System	SKCM	Vulva	Metastatic	83	VMM	Melanoma	Mucosal Melanoma of the Vulva/Vagina	1.23333333333	Matched	2.01	34
+23808	23808	Lymph Node	Lymphatic System	SKCM	Skin	Metastatic	90	MEL	Melanoma	Melanoma	11.0666666667	Matched	5.6	38
+23940	23940	Lymph Node	Lymphatic System	MISC	NA	Metastatic	67	VSC	Vaginal Cancer	Squamous Cell Carcinoma of the Vulva/Vagina	2.1	Matched	0.45	27
+24077	24077	Liver	Liver	COLO	Colon	Metastatic	46	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.5	Matched	0	11
+24229	24229	Liver	Liver	PANC	Pancreas	Metastatic	77	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	3.56666666667	Matched	1.75	31
+24177	24177	Lymph Node	Lymphatic System	MISC	NA	Metastatic	68	VA	Vaginal Cancer	Vaginal Adenocarcinoma	8.53333333333	Matched	1.03	23
+24243	24243	Liver	Liver	PANC	Pancreas	Metastatic	50	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.6	Matched	0	18
+24359	24359	Lymph Node	Lymphatic System	MISC	NA	Metastatic	66	POCA	Skin Cancer, Non-Melanoma	Porocarcinoma/Spiroadenocarcinoma	0.966666666667	Matched	0.08	14
+24294	24294	Flank Mass	Soft Tissue	SARC	NA	Metastatic	87	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	0.5	Matched	2.19	46
+24295	24295	Abdominal Mass	Abdomen	LUNG	Pleura	Local Recurrence	56	PEMESO	Mesothelioma	Peritoneal Mesothelioma	2.9	Matched	0.16	11
+24363	24363	Liver	Liver	PANC	Pancreas	Metastatic	51	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.93333333333	Matched	0.24	15
+24358	24358	Liver	Liver	ESCA	Gastroesophageal Junction	Metastatic	40	GEJ	Esophagogastric Cancer	Adenocarcinoma of the Gastroesophageal Junction	2.5	Matched	0.47	31
+24464	24464	Lymph Node	Lymphatic System	THCA	Thyroid	Metastatic	90	THME	Thyroid Cancer	Medullary Thyroid Cancer	0.933333333333	Matched	0.46	7
+24424	24424	Colon	Intestine	COLO	Colon	Local Recurrence	55	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.5	Matched	0.07	25
+24423	24423	Liver	Liver	LUNG	Lung	Metastatic	79	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.3	Matched	3.35	40
+24465	24465	Abdominal Mass	Abdomen	MISC	Uterus	Metastatic	94	OUTT	Endometrial Cancer	Other Uterine Tumor	0.466666666667	Matched	0.26	6
+24550	24550	Liver	Liver	BRCA	Breast	Metastatic	34	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.1	Matched	0	32
+24838	24838	Liver	Liver	BRCA	Breast	Metastatic	67	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.9	Matched	0	16
+25027	25027	Lymph Node	Lymphatic System	LUNG	Lung	Metastatic	32	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.13333333333	Matched	0	1
+25358	25358	Chest wall	Chest Wall	BRCA	Breast	Metastatic	51	MBC	Breast Cancer	Metaplastic Breast Cancer	3.7	Matched	1	38
+25134	25134	Ovary	Reproductive System	OV	Ovary	Local Recurrence	48	CCOV	Ovarian Cancer	Clear Cell Ovarian Cancer	1.26666666667	Matched	1.78	6
+25315	25315	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	78	EMBC	Breast Cancer	Epithelial Type Metaplastic Breast Cancer	1.76666666667	Matched	2.12	27
+25352	25352	Abdominal Mass	Abdomen	SARC	NA	Metastatic	77	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	2.4	Matched	4.43	60
+25317	25317	Scapula Mass	Soft Tissue	CHOL	Bile Duct	Metastatic	82	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.9	Matched	1.3	19
+25318	25318	Liver	Liver	PANC	Pancreas	Metastatic	86	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	5.33333333333	Matched	17.87	23
+25356	25356	Liver	Liver	BRCA	Breast	Metastatic	78	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	6.7	Matched	1.14	33
+25438	25438	Mediastinal Lesion	Chest Wall	ESCA	Esophagus	Metastatic	42	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	0.166666666667	Matched	0	1
+25419	25419	Liver	Liver	COLO	Colon	Metastatic	34	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.1	Matched	0	5
+25559	25559	Pleura	Chest Wall	THYM	Thymus	Metastatic	36	THYC	Thymic Tumor	Thymic Carcinoma	0.133333333333	Matched	0	0
+25439	25439	Lymph Node	Lymphatic System	COLO	Colon	Metastatic	54	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.26666666667	Matched	0.47	25
+25500	25500	Liver	Liver	STAD	Stomach	Metastatic	56	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.2	Matched	0.15	10
+25436	25436	Liver	Liver	STAD	Stomach	Metastatic	57	STAS	Esophagogastric Cancer	Adenosquamous Carcinoma of the Stomach	7.93333333333	Matched	1.59	28
+25483	25483	Chest wall	Chest Wall	BRCA	Breast	Metastatic	42	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.633333333333	Matched	0	1
+25435	25435	Liver	Liver	LUNG	Lung	Metastatic	59	CSCLC	Small Cell Lung Cancer	Combined Small Cell Lung Carcinoma	0.666666666667	Matched	1.36	12
+25440	25440	Liver	Liver	COLO	Colon	Metastatic	57	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.56666666667	Matched	0.95	22
+25437	25437	Liver	Liver	COLO	Colon	Metastatic	71	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.33333333333	Matched	1.69	27
+25572	25572	Lung	Respiratory System	SARC	NA	Local Recurrence	92	RCSNOS	Soft Tissue Sarcoma	Round Cell Sarcoma, NOS	2.66666666667	Matched	0.94	21
+25424	25424	Liver	Liver	COLO	Colon	Metastatic	76	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.73333333333	Matched	3.65	27
+25426	25426	Lung	Respiratory System	SARC	NA	Metastatic	52	PLLS	Soft Tissue Sarcoma	Pleomorphic Liposarcoma	1.26666666667	Matched	0.31	40
+25484	25484	Chest wall	Chest Wall	SARC	NA	Metastatic	85	MRLS	Soft Tissue Sarcoma	Myxoid/Round-Cell Liposarcoma	0.633333333333	Matched	0	0
+25496	25496	Liver	Liver	PANC	Pancreas	Metastatic	79	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.6	Matched	2.76	22
+25593	25593	Liver	Liver	LUNG	Lung	Metastatic	61	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.9	Matched	0.48	21
+25441	25441	Lung	Respiratory System	LUNG	Lung	Local Recurrence	49	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	0.666666666667	Matched	0.08	33
+25535	25535	Liver	Liver	CHOL	Bile Duct	Metastatic	48	IHCH	Hepatobiliary Cancer	Intrahepatic Cholangiocarcinoma	1.06666666667	Matched	0	1
+25589	25589	Chest wall	Chest Wall	COLO	Anus	Metastatic	76	ANSC	Anal Cancer	Anal Squamous Cell Carcinoma	10.4333333333	Matched	0	5
+25658	25658	Lung	Respiratory System	COLO	Colon	Metastatic	57	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.73333333333	Matched	1.33	20
+25494	25494	Liver	Liver	PANC	Pancreas	Metastatic	45	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.833333333333	Matched	0.18	1
+25497	25497	Liver	Liver	COLO	Colon	Metastatic	64	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.46666666667	Matched	0.42	16
+25498	25498	Liver	Liver	COLO	Colon	Metastatic	63	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.9	Matched	1.74	28
+25582	25582	Liver	Liver	PANC	Pancreas	Metastatic	49	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.93333333333	Matched	0.31	30
+25501	25501	Abdominal Wall	Abdomen	CHOL	Bile Duct	Metastatic	25	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.3	Matched	0	0
+28132	28132	Lung	Respiratory System	LUNG	Lung	Local Recurrence	25	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	0.666666666667	Matched	0	13
+25594	25594	Liver	Liver	STAD	Stomach	Metastatic	56	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	3.2	Matched	1.8	36
+25590	25590	Liver	Liver	COLO	Colon	Metastatic	63	COAD	Colorectal Cancer	Colon Adenocarcinoma	7.46666666667	Matched	1.41	21
+25604	25604	Liver	Liver	MISC	NA	Metastatic	57	NSGCT	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	1.93333333333	Matched	2.65	34
+25603	25603	Lymph Node	Lymphatic System	UCEC	Uterus	Metastatic	55	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	0.966666666667	Matched	0.83	29
+25560	25560	Neck mass	Soft Tissue	MISC	Esophagus	Unknown	65	ESCC	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	1.53333333333	Matched	0.08	11
+25583	25583	Lung	Respiratory System	SECR	Lung	Metastatic	74	LUACC	Non-Small Cell Lung Cancer	Adenoid Cystic Carcinoma of the Lung	0.533333333333	Matched	0	3
+25664	25664	Liver	Liver	PANC	Pancreas	Metastatic	45	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.3	Matched	0	16
+25662	25662	Liver	Liver	BRCA	Breast	Metastatic	76	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.2	Matched	0.49	33
+25657	25657	Abdominal Mass	Abdomen	UCEC	Uterus	Metastatic	39	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	14.8	Matched	28.63	0
+25965	25965	Liver	Liver	COLO	Anus	Metastatic	35	ANSC	Anal Cancer	Anal Squamous Cell Carcinoma	0.9	Matched	0	40
+25755	25755	Liver	Liver	COLO	Colon	Metastatic	41	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.7	Matched	0.09	2
+25719	25719	Liver	Liver	COLO	Colon	Metastatic	51	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.56666666667	Matched	0.38	4
+25720	25720	Liver	Liver	PRAD	Prostate	Metastatic	71	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.5	Matched	0.62	18
+25721	25721	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	45	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	11.2333333333	Matched	1.02	38
+25744	25744	Chest wall	Chest Wall	SKCM	NA	Unknown	75	MUP	Melanoma	Melanoma of Unknown Primary	3.03333333333	Matched	0.18	5
+26066	26066	Pelvis	Soft Tissue	SARC	Uterus	Metastatic	89	ULMS	Uterine Sarcoma	Uterine Leiomyosarcoma	0.733333333333	Matched	1.89	28
+25731	25731	Liver	Liver	CHOL	Bile Duct	Local Recurrence	59	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.6	Matched	0	27
+25921	25921	Pleura	Chest Wall	LUNG	Pleura	Local Recurrence	34	PLEMESO	Mesothelioma	Pleural Mesothelioma, Epithelioid Type	0.3	Matched	0	0
+25722	25722	Skull Base	Head & Neck	SARC	NA	Local Recurrence	70	CHDM	Bone Cancer	Chordoma	0.8	Matched	0	17
+25777	25777	Brain	Brain	BRCA	Breast	Metastatic	36	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	7.73333333333	Matched	0.33	56
+25768	25768	Liver	Liver	HCC	Liver	Local Recurrence	76	HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	1.26666666667	Matched	0	13
+25751	25751	Liver	Liver	CHOL	Bile Duct	Metastatic	41	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	0.8	Matched	0	20
+25752	25752	Chest wall	Chest Wall	BRCA	Breast	Metastatic	63	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.0	Matched	0	37
+25753	25753	Liver	Liver	COLO	Colon	Metastatic	46	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.06666666667	Matched	0.25	21
+25766	25766	Lung	Respiratory System	HCC	Liver	Metastatic	34	HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.533333333333	Matched	0	17
+25767	25767	Liver	Liver	PANC	Pancreas	Metastatic	42	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.5	Matched	0	1
+26054	26054	Chest wall	Chest Wall	BRCA	Breast	Metastatic	89	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	0.766666666667	Matched	1.36	20
+25979	25979	Pancreas	Pancreas	PANC	Pancreas	Local Recurrence	24	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.0333333333333	Matched	0	0
+25901	25901	Lung	Respiratory System	LUNG	Lung	Local Recurrence	81	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.63333333333	Matched	1.33	22
+25980	25980	Sternal	Chest Wall	BRCA	Breast	Metastatic	62	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	4.03333333333	Matched	2.26	62
+25966	25966	Lymph Node	Lymphatic System	LUNG	Lung	Metastatic	35	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.9	Matched	0.08	2
+25899	25899	Liver	Liver	PANC	Pancreas	Metastatic	26	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.06666666667	Matched	0	28
+25923	25923	Lymph Node	Lymphatic System	CERV	NA	Metastatic	26	ECAD	Cervical Cancer	Endocervical Adenocarcinoma	0.6	Matched	0	35
+25988	25988	Lymph Node	Lymphatic System	OV	Ovary	Metastatic	35	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	0.266666666667	Matched	0	58
+25816	25816	Lung	Respiratory System	COLO	Colon	Metastatic	49	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.83333333333	Matched	0.32	26
+25890	25890	Liver	Liver	LUNG	Lung	Metastatic	26	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.4	Matched	0	20
+26052	26052	Omentum	Reproductive System	UCEC	Uterus	Metastatic	37	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	0.533333333333	Matched	0	27
+25981	25981	Liver	Liver	COLO	Colon	Metastatic	64	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.13333333333	Matched	0.31	22
+26051	26051	Liver	Liver	COLO	Colon	Metastatic	35	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.03333333333	Matched	0.34	40
+25964	25964	Spine	Spine	MISC	NA	Unknown	32	CUP	Cancer of Unknown Primary	Cancer of Unknown Primary	2.3	Matched	0	37
+25982	25982	Liver	Liver	BRCA	Breast	Metastatic	73	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.4	Matched	0.17	19
+26851	26851	Liver	Liver	COLO	Colon	Metastatic	59	COAD	Colorectal Cancer	Colon Adenocarcinoma	4.06666666667	Matched	0.9	33
+25902	25902	Liver	Liver	BRCA	Breast	Metastatic	78	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.03333333333	Matched	1.53	47
+25984	25984	Liver	Liver	BRCA	Breast	Metastatic	45	BRCA	Breast Cancer	Invasive Breast Carcinoma	2.76666666667	Matched	0	64
+25989	25989	Liver	Liver	MISC	Ovary	Metastatic	80	GRCT	Sex Cord Stromal Tumor	Granulosa Cell Tumor	0.666666666667	Matched	0.16	5
+25976	25976	Vaginal Vault	Reproductive System	UCEC	Uterus	Local Recurrence	45	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	0	Matched	0	0
+25958	25958	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	38	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.533333333333	Matched	0	21
+25977	25977	Neck mass	Soft Tissue	SARC	NA	Metastatic	90	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	0.833333333333	Matched	1.85	28
+25962	25962	Liver	Liver	BRCA	Breast	Metastatic	83	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.633333333333	Matched	0.08	13
+26239	26239	Liver	Liver	COLO	Colon	Metastatic	46	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.96666666667	Matched	0	2
+25959	25959	Breast	Breast	THCA	Thyroid	Metastatic	94	THME	Thyroid Cancer	Medullary Thyroid Cancer	1.63333333333	Matched	1.05	21
+25960	25960	Liver	Liver	COLO	Colon	Metastatic	62	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.3	Matched	0.32	26
+25961	25961	Liver	Liver	CHOL	Bile Duct	Metastatic	50	IHCH	Hepatobiliary Cancer	Intrahepatic Cholangiocarcinoma	0.933333333333	Matched	0.17	16
+26016	26016	Scalp	Skin	LUNG	Lung	Metastatic	41	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.2	Matched	0.32	24
+25990	25990	Liver	Liver	BRCA	Breast	Metastatic	84	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.26666666667	Matched	2.44	21
+26125	26125	Ovary	Reproductive System	STAD	Stomach	Metastatic	45	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	1.4	Matched	0.49	33
+26017	26017	Liver	Liver	THCA	Thyroid	Metastatic	42	THME	Thyroid Cancer	Medullary Thyroid Cancer	0.8	Matched	0	0
+26123	26123	Bronchus	Respiratory System	LUNG	Lung	Local Recurrence	97	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	6.2	Matched	4.09	41
+25991	25991	Brain	Brain	CNS-PNS	Brain	Local Recurrence	72	GB	Glioma	Glioblastoma, IDH-wildtype	0.766666666667	Matched	0.51	14
+26266	26266	Breast	Breast	BRCA	Breast	Metastatic	80	IMMC	Breast Cancer	Breast Invasive Mixed Mucinous Carcinoma	1.8	Matched	0.51	16
+30811	30811	Liver	Liver	COLO	Colon	Metastatic	51	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.16666666667	Matched	0.55	10
+26124	26124	Liver	Liver	COLO	Colon	Metastatic	85	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.03333333333	Matched	0.33	9
+26376	26376	Liver	Liver	BRCA	Breast	Metastatic	42	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.96666666667	Matched	0.67	21
+26416	26416	Lymph Node	Lymphatic System	SARC	NA	Metastatic	77	CCS	Soft Tissue Sarcoma	Clear Cell Sarcoma	0.4	Matched	0.94	22
+26409	26409	Liver	Liver	LUNG	Lung	Metastatic	65	LUNE	Non-Small Cell Lung Cancer	Large Cell Neuroendocrine Carcinoma	0.6	Matched	0.08	21
+27028	27028	Buttock	Soft Tissue	SARC	NA	Metastatic	50	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	1.6	Matched	0.78	31
+26850	26850	Liver	Liver	BRCA	Breast	Metastatic	55	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.86666666667	Matched	0.08	30
+26465	26465	Liver	Liver	UVM	Eye	Metastatic	67	UM	Melanoma	Uveal Melanoma	0.5	Matched	0	18
+27217	27217	Liver	Liver	COLO	Colon	Metastatic	58	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.9	Matched	0	4
+27177	27177	Liver	Liver	KDNY	Kidney	Metastatic	42	CDRCC	Renal Cell Carcinoma	Collecting Duct Renal Cell Carcinoma	1.16666666667	Matched	0.08	34
+27025	27025	Perirenal space	Abdomen	SARC	NA	Local Recurrence	52	DDLS	Soft Tissue Sarcoma	Dedifferentiated Liposarcoma	0.733333333333	Matched	0.26	18
+26825	26825	Abdominal Wall	Abdomen	OV	Ovary	Metastatic	65	LGSOC	Ovarian Cancer	Low-Grade Serous Ovarian Cancer	0.233333333333	Matched	0	14
+26852	26852	Pelvic Mass	Bone	KDNY	Kidney	Metastatic	53	RCC	Renal Cell Carcinoma	Renal Cell Carcinoma	0.1	Matched	0	29
+27026	27026	Vaginal Vault	Reproductive System	UCEC	Uterus	Local Recurrence	52	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	1.5	Matched	0.17	5
+27338	27338	Intranasal	Head & Neck	SARC	NA	Local Recurrence	85	CHDM	Bone Cancer	Chordoma	0.733333333333	Matched	1.44	18
+27178	27178	Liver	Liver	ESCA	 Gastroesophageal Junction	Metastatic	72	GEJ	Esophagogastric Cancer	Adenocarcinoma of the Gastroesophageal Junction	2.9	Matched	1.7	31
+27034	27034	Sternal mass	Chest Wall	BRCA	Breast	Metastatic	66	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.76666666667	Matched	0.2	63
+27078	27078	Liver	Liver	PANC	Pancreas	Metastatic	49	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.23333333333	Matched	0	38
+27036	27036	Spine	Spine	CNS-PNS	NA	Local Recurrence	30	MPE	CNS Cancer	Myxopapillary Ependymoma	0.133333333333	Matched	0	0
+27037	27037	Chest wall	Chest Wall	BRCA	Breast	Metastatic	80	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.06666666667	Matched	2.22	51
+27329	27329	Liver	Liver	BRCA	Breast	Metastatic	76	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.6	Matched	1.95	25
+27090	27090	Liver	Liver	BRCA	Breast	Metastatic	39	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.46666666667	Matched	0.08	5
+27216	27216	Liver	Liver	BRCA	Breast	Metastatic	91	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.9	Matched	1.02	15
+27388	27388	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	62	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.5	Matched	1.52	64
+27228	27228	Lymph Node	Lymphatic System	OV	Ovary	Metastatic	77	SCCO	Ovarian Cancer	Small Cell Carcinoma of the Ovary	3.13333333333	Matched	16.58	52
+27219	27219	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	22	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	1.13333333333	Matched	0	22
+27339	27339	Liver	Liver	COLO	Colon	Metastatic	45	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.36666666667	Matched	0.16	29
+27545	27545	Buttock	Soft Tissue	CNS-PNS	NA	Metastatic	76	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	1.8	Matched	0.08	28
+27327	27327	Breast	Breast	BRCA	Breast	Local Recurrence	51	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.7	Matched	0.25	33
+27328	27328	Lung	Respiratory System	BRCA	Breast	Metastatic	40	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.13333333333	Matched	0	36
+27697	27697	Liver	Liver	PANC	Pancreas	Metastatic	79	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.266666666667	Matched	3.62	22
+27722	27722	Pleura	Chest Wall	CNS-PNS	NA	Local Recurrence	65	SFTCNS	CNS Cancer	Solitary Fibrous Tumor of the Central Nervous System	0.333333333333	Matched	0	0
+28392	28392	Lung	Respiratory System	LUNG	Lung	Local Recurrence	47	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.0	Matched	0.16	10
+27519	27519	Liver	Liver	PANC	Pancreas	Metastatic	36	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.666666666667	Matched	0	0
+28123	28123	Lung	Respiratory System	SECR	Salivary Gland	Metastatic	68	ACYC	Salivary Gland Cancer	Adenoid Cystic Carcinoma	0.366666666667	Matched	0	7
+27502	27502	Chest wall	Chest Wall	BRCA	Breast	Metastatic	58	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.93333333333	Matched	3.07	50
+27765	27765	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	46	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.966666666667	Matched	0.45	17
+27647	27647	Lung	Respiratory System	LUNG	Lung	Local Recurrence	81	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	23.4	Matched	3.08	31
+27503	27503	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	47	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.7	Matched	0	18
+27504	27504	Lymph Node	Lymphatic System	LUNG	Lung	Local Recurrence	42	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.8	Matched	0.07	14
+27795	27795	Esophagus	Head & Neck	ESCA	Esophagus	Local Recurrence	55	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.53333333333	Matched	0.49	10
+27563	27563	Liver	Liver	COLO	Colon	Metastatic	60	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.4	Matched	0.62	33
+28125	28125	Liver	Liver	ESCA	 Gastroesophageal Junction	Metastatic	37	GEJ	Esophagogastric Cancer	Adenocarcinoma of the Gastroesophageal Junction	4.1	Matched	1.35	18
+30265	30265	Abdominal Wall	Abdomen	PANC	Pancreas	Metastatic	44	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.73333333333	Matched	0.12	1
+28124	28124	Omentum	Reproductive System	COLO	Appendix	Metastatic	45	APAD	Appendiceal Cancer	Appendiceal Adenocarcinoma	3.63333333333	Matched	0.48	32
+28003	28003	Lung	Respiratory System	LUNG	Lung	Local Recurrence	61	ALUCA	Non-Small Cell Lung Cancer	Atypical Lung Carcinoid	0.366666666667	Matched	0.08	7
+27721	27721	Scalp	Skin	COLO	Duodenum	Metastatic	53	DA	Small Bowel Cancer	Duodenal Adenocarcinoma	3.33333333333	Matched	0.83	20
+27707	27707	Abdominal Mass	Abdomen	OV	Ovary	Local Recurrence	35	LGSOC	Ovarian Cancer	Low-Grade Serous Ovarian Cancer	0.166666666667	Matched	0	0
+27792	27792	Breast	Breast	UCEC	Uterus	Metastatic	62	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.06666666667	Matched	0.24	21
+27706	27706	Pericecal Mass	Intestine	ACC	Adrenal	Local Recurrence	54	ACC	Adrenocortical Carcinoma	Adrenocortical Carcinoma	1.03333333333	Matched	0.22	29
+27784	27784	Brain	Brain	CNS-PNS	Brain	Local Recurrence	70	GB	Glioma	Glioblastoma, IDH-wildtype	2.2	Matched	0.16	16
+28225	28225	Breast	Breast	BRCA	Breast	Local Recurrence	71	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.766666666667	Matched	0.15	13
+28126	28126	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	81	MDLC	Breast Cancer	Breast Mixed Ductal and Lobular Carcinoma	5.1	Matched	4.63	37
+28170	28170	Lymph Node	Lymphatic System	SECR	Parotid Gland	Metastatic	59	SDCA	Salivary Gland Cancer	Salivary Duct Carcinoma	1.96666666667	Matched	0.33	26
+27723	27723	Brain	Brain	LUNG	Lung	Metastatic	49	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	0.966666666667	Matched	0.08	26
+27794	27794	Abdominal Mass	Abdomen	SARC	NA	Local Recurrence	75	DDLS	Soft Tissue Sarcoma	Dedifferentiated Liposarcoma	0.7	Matched	0.33	19
+27981	27981	Spine	Spine	SARC	NA	Unknown	70	OS	Bone Cancer	Osteosarcoma	1.26666666667	Matched	0.55	33
+28012	28012	Lymph Node	Lymphatic System	OV	Ovary	Metastatic	36	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	2.1	Matched	0	54
+28312	28312	Pelvis	Soft Tissue	SARC	Uterus	Metastatic	42	ULMS	Uterine Sarcoma	Uterine Leiomyosarcoma	0.7	Matched	0	0
+28178	28178	Abdominal Wall	Abdomen	BRCA	Breast	Metastatic	67	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.53333333333	Matched	1.88	24
+28171	28171	Lung	Respiratory System	LUNG	Pleura	Local Recurrence	80	PLMESO	Mesothelioma	Pleural Mesothelioma	1.13333333333	Matched	0	8
+28130	28130	Liver	Liver	PANC	Pancreas	Metastatic	79	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	0.9	Matched	0.16	13
+28131	28131	Breast	Breast	BRCA	Breast	Local Recurrence	76	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.93333333333	Matched	0.87	55
+28212	28212	Liver	Liver	PANC	Pancreas	Metastatic	52	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.16666666667	Matched	0.08	28
+28382	28382	Liver	Liver	BRCA	Breast	Metastatic	64	DCIS	Breast Cancer	Breast Ductal Carcinoma In Situ	0.666666666667	Matched	0.16	26
+28325	28325	Liver	Liver	BRCA	Breast	Metastatic	62	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	1.06666666667	Matched	0.24	20
+28494	28494	Liver	Liver	COLO	Colon	Metastatic	47	COAD	Colorectal Cancer	Colon Adenocarcinoma	4.3	Matched	0.16	17
+28224	28224	Lymph Node	Lymphatic System	SKCM	Skin	Metastatic	90	MEL	Melanoma	Melanoma	14.0666666667	Matched	2.35	14
+28226	28226	Liver	Liver	COLO	Colon	Metastatic	52	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.4	Matched	0	32
+28278	28278	Lung	Respiratory System	LUNG	Lung	Local Recurrence	40	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	12.8333333333	Matched	0	26
+29759	29759	Liver	Liver	BRCA	Breast	Metastatic	69	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	4.0	Matched	0	28
+28391	28391	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	64	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.53333333333	Matched	0.16	29
+28374	28374	Flank Mass	Soft Tissue	COLO	Rectum	Metastatic	45	MACR	Colorectal Cancer	Mucinous Adenocarcinoma of the Colon and Rectum	1.96666666667	Matched	0	12
+28381	28381	Breast	Breast	BRCA	Breast	Local Recurrence	52	BRCA	Breast Cancer	Invasive Breast Carcinoma	0.8	Matched	0	9
+28324	28324	Liver	Liver	COLO	Colon	Metastatic	65	COAD	Colorectal Cancer	Colon Adenocarcinoma	4.0	Matched	2.32	22
+28326	28326	Lymph Node	Lymphatic System	LUNG	Lung	Local Recurrence	70	NSCLCPD	Non-Small Cell Lung Cancer	Poorly Differentiated Non-Small Cell Lung Cancer	4.66666666667	Matched	0.16	35
+30321	30321	Liver	Liver	COLO	Colon	Metastatic	61	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.23333333333	Matched	1.18	22
+29147	29147	Liver	Liver	LUNG	Lung	Metastatic	67	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	24.5	Matched	0.5	40
+30083	30083	Lymph Node	Lymphatic System	OV	Ovary	Metastatic	60	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	1.66666666667	Matched	1.79	23
+28666	28666	Liver	Liver	COLO	Colon	Metastatic	46	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.73333333333	Matched	1.19	28
+28667	28667	Pelvic Mass	Soft Tissue	OV	Ovary	Metastatic	71	OCS	Ovarian Cancer	Ovarian Carcinosarcoma/Malignant Mixed Mesodermal Tumor	1.1	Matched	1.39	19
+28384	28384	Brain	Brain	CNS-PNS	NA	Local Recurrence	70	APE	CNS Cancer	Anaplastic Ependymoma	0.7	Matched	0.16	9
+31978	31978	Breast	Breast	BRCA	Breast	Local Recurrence	75	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.933333333333	Matched	0	10
+30082	30082	Liver	Liver	SECR	unknown	Metastatic	95	ACYC	Salivary Gland Cancer	Adenoid Cystic Carcinoma	0.433333333333	Matched	0.47	6
+28665	28665	Liver	Liver	BRCA	Breast	Metastatic	77	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.933333333333	Matched	0.54	9
+29999	29999	Liver	Liver	COLO	Colon	Metastatic	60	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.5	Matched	0.69	27
+34122	34122	Liver	Liver	COLO	Colon	Metastatic	50	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.43333333333	Matched	0.06	24
+28380	28380	Liver	Liver	PANC	Pancreas	Metastatic	33	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.733333333333	Matched	0	2
+29148	29148	Masticular Space	Head & Neck	SARC	NA	Local Recurrence	29	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	0.166666666667	Matched	0	1
+28495	28495	Lymph Node	Lymphatic System	LUNG	Lung	Local Recurrence	23	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	0	Matched	0.27	0
+28430	28430	Lymph Node	Lymphatic System	SECR	Breast	Local Recurrence	26	AECA	Skin Cancer, Non-Melanoma	Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma	0.6	Matched	0	13
+28668	28668	Rib	Bone	LUNG	Lung	Metastatic	45	NSCLC	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	7.1	Matched	0	28
+28422	28422	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	44	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.8	Matched	0.16	36
+28427	28427	Pancreas	Pancreas	PANC	Pancreas	Local Recurrence	43	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.966666666667	Matched	0	3
+28428	28428	Liver	Liver	COLO	Colon	Metastatic	26	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.36666666667	Matched	0	31
+28421	28421	Pleura	Chest Wall	LUNG	Pleura	Metastatic	42	PLMESO	Mesothelioma	Pleural Mesothelioma	0.833333333333	Matched	0	3
+30425	30425	Liver	Liver	BRCA	Breast	Metastatic	55	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.36666666667	Matched	6.29	37
+28590	28590	Peripheral Blood	Blood	LYMP	Blood	Local Recurrence	99	CLLSLL	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	0.9	Matched	0.16	8
+29149	29149	Breast	Breast	BRCA	Breast	Local Recurrence	51	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.1	Matched	0	43
+30251	30251	Liver	Liver	COLO	Colon	Metastatic	72	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.63333333333	Matched	3.71	27
+30431	30431	Liver	Liver	CNS-PNS	NA	Metastatic	71	PGNG	Miscellaneous Neuroepithelial Tumor	Paraganglioma	0.3	Matched	0.08	18
+30222	30222	Liver	Liver	ESCA	 Gastroesophageal Junction	Metastatic	63	GEJ	Esophagogastric Cancer	Adenocarcinoma of the Gastroesophageal Junction	2.03333333333	Matched	2.43	55
+30159	30159	Liver	Liver	COLO	Colon	Metastatic	28	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.5	Matched	0	2
+30497	30497	Liver	Liver	COLO	Colon	Metastatic	59	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.03333333333	Matched	1.46	24
+28496	28496	Liver	Liver	COLO	Colon	Metastatic	46	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.06666666667	Matched	1.62	14
+28497	28497	Colon	Intestine	COLO	Colon	Local Recurrence	51	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.03333333333	Matched	0.96	32
+28638	28638	Abdominal Mass	Abdomen	OV	Ovary	Metastatic	47	CCOV	Ovarian Cancer	Clear Cell Ovarian Cancer	1.86666666667	Matched	0	19
+29146	29146	Liver	Liver	COLO	Colon	Metastatic	69	COAD	Colorectal Cancer	Colon Adenocarcinoma	31.1333333333	Matched	0.81	18
+30252	30252	Liver	Liver	BRCA	Breast	Metastatic	58	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.3	Matched	2.63	50
+30498	30498	Liver	Liver	PANC	Pancreas	Local Recurrence	68	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	1.16666666667	Matched	0.43	5
+30487	30487	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	42	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.26666666667	Matched	0.22	23
+30221	30221	Lymph Node	Lymphatic System	MISC	NA	Metastatic	63	CCHM	Breast Cancer	Carcinoma with Chondroid Metaplasia	5.76666666667	Matched	1.49	64
+30032	30032	Sacrum	Bone	PRAD	Prostate	Metastatic	50	PRAD	Prostate Cancer	Prostate Adenocarcinoma	1.26666666667	Matched	0.16	14
+29761	29761	Breast	Breast	BRCA	Breast	Local Recurrence	54	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.566666666667	Matched	0.46	20
+30011	30011	Bronchus	Respiratory System	LUNG	Lung	Local Recurrence	49	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	4.3	Matched	1.44	29
+29766	29766	Liver	Liver	COLO	Appendix	Metastatic	77	APAD	Appendiceal Cancer	Appendiceal Adenocarcinoma	6.9	Matched	1.55	23
+30635	30635	Liver	Liver	COLO	Colon	Metastatic	57	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.8	Matched	0.64	18
+30000	30000	Liver	Liver	LUNG	Lung	Metastatic	70	SCLC	Small Cell Lung Cancer	Small Cell Lung Cancer	1.53333333333	Matched	0	0
+30500	30500	Lymph Node	Lymphatic System	CHOL	Bile Duct	Metastatic	27	GBC	Hepatobiliary Cancer	Gallbladder Cancer	2.26666666667	Matched	0	48
+30080	30080	Lymph Node	Lymphatic System	COLO	Colon	Metastatic	56	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.26666666667	Matched	2.67	56
+30009	30009	Pleura	Chest Wall	THYM	Thymus	Local Recurrence	51	THYC	Thymic Tumor	Thymic Carcinoma	0.666666666667	Matched	0	7
+30490	30490	Lymph Node	Lymphatic System	ACC	Adrenal	Metastatic	80	ACC	Adrenocortical Carcinoma	Adrenocortical Carcinoma	1.06666666667	Matched	2.02	20
+30311	30311	Mesenteric Mass	Abdomen	KDNY	Kidney	Metastatic	42	RAML	Renal Cell Carcinoma	Renal Angiomyolipoma	0.4	Matched	0	17
+30078	30078	Vaginal Wall	Reproductive System	SARC	NA	Unknown	80	ES	Bone Cancer	Ewing Sarcoma	0.7	Matched	0.23	8
+30081	30081	Lymph Node	Lymphatic System	THYM	Thymus	Metastatic	77	THYM	Thymic Tumor	Thymoma	0.5	Matched	0	2
+30220	30220	Thigh Mass	Soft Tissue	SARC	NA	Metastatic	64	CHOS	Bone Cancer	Chondroblastic Osteosarcoma	2.3	Matched	2.29	27
+30310	30310	Lung	Respiratory System	ACC	Adrenal	Metastatic	84	ACC	Adrenocortical Carcinoma	Adrenocortical Carcinoma	1.1	Matched	3.36	32
+30248	30248	Chest wall	Chest Wall	BRCA	Breast	Metastatic	55	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.4	Matched	0	22
+30313	30313	Lung	Respiratory System	BRCA	Breast	Metastatic	30	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.26666666667	Matched	0.15	38
+31037	31037	Lymph Node	Lymphatic System	ESCA	 Gastroesophageal Junction	Metastatic	49	GEJ	Esophagogastric Cancer	Adenocarcinoma of the Gastroesophageal Junction	7.0	Matched	0.77	30
+30253	30253	Lung	Respiratory System	LUNG	Lung	Local Recurrence	35	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	0.2	Matched	0	19
+30896	30896	Epigastric mass	Stomach	OV	Ovary	Metastatic	42	LGSOC	Ovarian Cancer	Low-Grade Serous Ovarian Cancer	0.6	Matched	0	0
+30254	30254	Brain	Brain	CNS-PNS	NA	Local Recurrence	67	APE	CNS Cancer	Anaplastic Ependymoma	0.433333333333	Matched	0	18
+30606	30606	Breast	Breast	BRCA	Breast	Local Recurrence	55	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.76666666667	Matched	0.13	28
+30309	30309	Omentum	Reproductive System	COLO	Colon	Metastatic	35	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.63333333333	Matched	0	1
+30607	30607	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	60	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.7	Matched	0	2
+30250	30250	Lung	Respiratory System	HNSC	Oropharynx	Metastatic	66	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	0.6	Matched	0.17	18
+30784	30784	Liver	Liver	OV	Ovary	Metastatic	74	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	1.7	Matched	2.72	38
+30504	30504	Liver	Liver	COLO	Colon	Metastatic	65	COAD	Colorectal Cancer	Colon Adenocarcinoma	4.1	Matched	1.79	31
+30491	30491	Lung	Respiratory System	LUNG	Lung	Local Recurrence	46	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.73333333333	Matched	0.54	36
+30809	30809	Skin	Skin	SKCM	Skin	Local Recurrence	46	MEL	Melanoma	Melanoma	81.0666666667	Matched	0.05	44
+30426	30426	Lung	Respiratory System	UCEC	Uterus	Metastatic	80	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	1.1	Matched	1.14	23
+30505	30505	Oral Cavity	Head & Neck	SECR	Oral Cavity	Local Recurrence	45	ACYC	Salivary Gland Cancer	Adenoid Cystic Carcinoma	0.533333333333	Matched	0	0
+31043	31043	Liver	Liver	BRCA	Breast	Metastatic	54	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.03333333333	Matched	0.94	43
+30519	30519	Breast	Breast	BRCA	Breast	Local Recurrence	40	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.1	Matched	0	30
+30489	30489	Arm	Soft Tissue	SKCM	Skin	Metastatic	85	MEL	Melanoma	Melanoma	43.0666666667	Matched	1.1	13
+30492	30492	Liver	Liver	COLO	Colon	Metastatic	52	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.83333333333	Matched	0.4	34
+30488	30488	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	85	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.96666666667	Matched	0.19	6
+30616	30616	Lung	Respiratory System	SARC	NA	Metastatic	62	MYEC	Salivary Gland Cancer	Myoepithelial Carcinoma	1.73333333333	Matched	0.19	35
+31189	31189	Lung	Respiratory System	MISC	NA	Metastatic	48	COM	Breast Cancer	Carcinoma with Osseous Metaplasia	2.73333333333	Matched	2.89	46
+30608	30608	Pleura	Chest Wall	LUNG	Lung	Local Recurrence	35	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.26666666667	Matched	0.05	1
+30609	30609	Liver	Liver	COLO	Colon	Metastatic	62	COAD	Colorectal Cancer	Colon Adenocarcinoma	1.3	Matched	2.17	40
+31031	31031	Breast	Breast	BRCA	Breast	Local Recurrence	66	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	5.53333333333	Matched	2.26	40
+30895	30895	Abdominal Mass	Abdomen	STAD	Stomach	Local Recurrence	81	GIST	Gastrointestinal Stromal Tumor	Gastrointestinal Stromal Tumor	0.533333333333	Matched	2.11	28
+30810	30810	Abdominal Wall	Abdomen	STAD	Stomach	Metastatic	95	GIST	Gastrointestinal Stromal Tumor	Gastrointestinal Stromal Tumor	0.633333333333	Matched	1.84	12
+31185	31185	Lung	Respiratory System	BRCA	Breast	Metastatic	30	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.5	Matched	0.15	45
+30807	30807	Lung	Respiratory System	LUNG	Lung	Metastatic	44	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	8.7	Matched	0.43	54
+30821	30821	Pancreatic Mass	Pancreas	MISC	Pancreas	Local Recurrence	64	PB	Pancreatic Cancer	Pancreatoblastoma	1.03333333333	Matched	0.23	15
+31190	31190	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	35	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.466666666667	Matched	0.28	36
+32354	32354	Lymph Node	Lymphatic System	COLO	Colon	Metastatic	64	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.8	Matched	0.63	18
+30897	30897	Lung	Respiratory System	LUNG	Lung	Local Recurrence	32	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	6.03333333333	Matched	1.01	36
+30822	30822	Lymph Node	Lymphatic System	LUNG	Lung	Local Recurrence	56	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	32.8	Matched	63.01	26
+30902	30902	Liver	Liver	BRCA	Breast	Metastatic	77	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.7	Matched	2.62	40
+31982	31982	Liver	Liver	SARC	NA	Metastatic	83	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	1.16666666667	Matched	1.92	31
+31030	31030	Lung	Respiratory System	SARC	NA	Metastatic	88	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.333333333333	Matched	0.15	2
+31034	31034	Chest wall	Chest Wall	LUNG	Lung	Local Recurrence	32	SARCL	Non-Small Cell Lung Cancer	Sarcomatoid Carcinoma of the Lung	5.0	Matched	0.05	16
+31191	31191	Orbital mass	Head & Neck	CNS-PNS	NA	Metastatic	90	MNG	CNS Cancer	Meningioma	1.0	Matched	0.05	2
+31369	31369	Gluteus medius	Soft Tissue	BRCA	Breast	Metastatic	42	MDLC	Breast Cancer	Breast Mixed Ductal and Lobular Carcinoma	0.166666666667	Matched	0.25	0
+31370	31370	Liver	Liver	BRCA	Breast	Metastatic	67	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.3	Matched	2.63	24
+31870	31870	Liver	Liver	COLO	Small Bowel	Metastatic	70	SBWDNET	Gastrointestinal Neuroendocrine Tumor	Small Bowel Well-Differentiated Neuroendocrine Tumor	0.833333333333	Matched	0	0
+31042	31042	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	57	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.23333333333	Matched	3.6	41
+31518	31518	Diaphragm	Respiratory System	OV	Ovary	Metastatic	65	CCOV	Ovarian Cancer	Clear Cell Ovarian Cancer	2.26666666667	Matched	0.75	36
+31095	31095	Brain	Brain	CNS-PNS	NA	Local Recurrence	78	MNG	CNS Cancer	Meningioma	0.566666666667	Matched	0.79	24
+31183	31183	Pleura	Chest Wall	SARC	Uterus	Metastatic	90	ULMS	Uterine Sarcoma	Uterine Leiomyosarcoma	1.06666666667	Matched	0.57	30
+31184	31184	Liver	Liver	SKCM	Skin	Metastatic	56	ACRM	Melanoma	Acral Melanoma	0.9	Matched	0.73	24
+31194	31194	Abdomen	Abdomen	STAD	Stomach	Metastatic	77	GIST	Gastrointestinal Stromal Tumor	Gastrointestinal Stromal Tumor	0.7	Matched	1.08	25
+31509	31509	Liver	Liver	BRCA	Breast	Metastatic	81	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	4.43333333333	Matched	2.35	55
+32033	32033	Liver	Liver	COLO	Colon	Metastatic	38	COAD	Colorectal Cancer	Colon Adenocarcinoma	4.36666666667	Matched	0	2
+32395	32395	Lymph Node	Lymphatic System	HNSC	Skin	Metastatic	64	CSCC	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	49.7333333333	Matched	1.5	19
+31979	31979	Lymph Node	Lymphatic System	LYMP	NA	Unknown	40	MBN	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	7.06666666667	Matched	0	0
+32274	32274	Lung	Respiratory System	BRCA	Breast	Metastatic	50	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.36666666667	Matched	1.16	36
+32353	32353	Brain	Brain	CNS-PNS	NA	Local Recurrence	52	PAST	Glioma	Pilocytic Astrocytoma	0.9	Matched	0	1
+31869	31869	Lymph Node	Lymphatic System	LUNG	Lung	Metastatic	28	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	0.666666666667	Matched	0	0
+32034	32034	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	87	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.93333333333	Matched	1.87	22
+31980	31980	Lung	Respiratory System	HNSC	Sinus	Metastatic	30	HNMUCM	Melanoma	Head and Neck Mucosal Melanoma	3.03333333333	Matched	0	47
+33373	33373	Lymph Node	Lymphatic System	CERV	NA	Metastatic	68	CESC	Cervical Cancer	Cervical Squamous Cell Carcinoma	9.66666666667	Matched	3.26	35
+31911	31911	Abdominal Wall	Abdomen	PANC	Pancreas	Metastatic	28	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.6	Matched	0	1
+32557	32557	Liver	Liver	PANC	Pancreas	Metastatic	57	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.26666666667	Matched	0.24	16
+31981	31981	Lymph Node	Lymphatic System	LUNG	Lung	Metastatic	40	LUNE	Non-Small Cell Lung Cancer	Large Cell Neuroendocrine Carcinoma	4.9	Matched	0	22
+31923	31923	Liver	Liver	BRCA	Breast	Metastatic	67	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.53333333333	Matched	0.43	32
+32015	32015	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	74	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	15.6666666667	Matched	2.04	36
+32559	32559	Lung	Respiratory System	SARC	NA	Metastatic	75	SYNS	Soft Tissue Sarcoma	Synovial Sarcoma	0.7	Matched	0	0
+32337	32337	Rectus Muscle	Soft Tissue	OV	Ovary	Metastatic	96	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	0.866666666667	Matched	3.84	25
+32558	32558	Lymph Node	Lymphatic System	LUNG	Lung	Metastatic	34	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	0.866666666667	Matched	1.03	22
+32571	32571	Liver	Liver	BRCA	Breast	Metastatic	58	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.5	Matched	0.12	45
+32277	32277	Intracranial tumor	Head & Neck	HNSC	Sinus	Local Recurrence	90	SNA	Head and Neck Cancer	Sinonasal Adenocarcinoma	1.83333333333	Matched	1.34	32
+32654	32654	Lymph Node	Lymphatic System	COLO	Anus	Metastatic	71	ANSC	Anal Cancer	Anal Squamous Cell Carcinoma	5.96666666667	Matched	1.81	29
+32350	32350	Abdominal Mass	Abdomen	OV	Ovary	Metastatic	56	LGSOC	Ovarian Cancer	Low-Grade Serous Ovarian Cancer	0.966666666667	Matched	0	11
+32572	32572	Lymph Node	Lymphatic System	SKCM	Skin	Metastatic	56	SKCM	Melanoma	Cutaneous Melanoma	15.9333333333	Matched	0.37	32
+32397	32397	Liver	Liver	BRCA	Breast	Metastatic	68	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.36666666667	Matched	1.17	15
+32667	32667	Liver	Liver	UVM	Eye	Metastatic	51	UM	Melanoma	Uveal Melanoma	0.766666666667	Matched	0.23	11
+32394	32394	Skin	Skin	LYMP	NA	Metastatic	55	PTCL	Mature T and NK Neoplasms	Peripheral T-Cell lymphoma, NOS	1.53333333333	Matched	0.06	1
+32959	32959	Liver	Liver	COLO	Colon	Metastatic	58	COAD	Colorectal Cancer	Colon Adenocarcinoma	4.03333333333	Matched	1.08	8
+32573	32573	Liver	Liver	COLO	Colon	Metastatic	36	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.93333333333	Matched	0.19	45
+32973	32973	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	45	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	8.63333333333	Matched	0.81	37
+32960	32960	Liver	Liver	CHOL	Bile Duct	Metastatic	40	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	1.03333333333	Matched	0	3
+32398	32398	Liver	Liver	BRCA	Breast	Metastatic	62	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	6.6	Matched	1.39	54
+32408	32408	Liver	Liver	PANC	Pancreas	Metastatic	61	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.83333333333	Matched	0.06	16
+32656	32656	Liver	Liver	PANC	Pancreas	Metastatic	46	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.5	Matched	0.06	28
+33389	33389	Lung	Respiratory System	BCC	Skin	Metastatic	89	BCC	Skin Cancer, Non-Melanoma	Basal Cell Carcinoma	11.6333333333	Matched	0.09	5
+33033	33033	Lymph Node	Lymphatic System	OV	Ovary	Metastatic	95	CCOV	Ovarian Cancer	Clear Cell Ovarian Cancer	2.2	Matched	0.61	7
+33201	33201	Brain	Brain	CNS-PNS	NA	Local Recurrence	63	GNG	Glioma	Ganglioglioma	0.833333333333	Matched	0.06	14
+32897	32897	Chest wall	Chest Wall	SARC	NA	Metastatic	81	ES	Bone Cancer	Ewing Sarcoma	1.5	Matched	0.55	7
+33083	33083	Rib	Bone	SKCM	Skin	Metastatic	58	MEL	Melanoma	Melanoma	6.7	Matched	0.12	16
+36717	36717	Pelvic Mass	Soft Tissue	PANC	Pancreas	Metastatic	68	PANET	Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	11.8666666667	Matched	0.06	3
+33034	33034	Lung	Respiratory System	SARC	NA	Local Recurrence	42	CHS	Bone Cancer	Chondrosarcoma	0.533333333333	Matched	0	22
+33154	33154	Bronchus	Respiratory System	BRCA	Breast	Metastatic	63	IMMC	Breast Cancer	Breast Invasive Mixed Mucinous Carcinoma	1.4	Matched	0	14
+32971	32971	Liver	Liver	LUNG	Lung	Metastatic	75	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.36666666667	Matched	1.72	36
+33155	33155	Lymph Node	Lymphatic System	THCA	Thyroid	Metastatic	98	THFO	Thyroid Cancer	Follicular Thyroid Cancer	1.1	Matched	0.31	9
+32972	32972	Liver	Liver	COLO	Colon	Metastatic	38	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.43333333333	Matched	0.35	19
+33127	33127	Arm	Soft Tissue	LYMP	NA	Metastatic	78	FL	Mature B-Cell Neoplasms	Follicular Lymphoma	6.13333333333	Matched	1.6	8
+33129	33129	Liver	Liver	PANC	Pancreas	Metastatic	80	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.6	Matched	0.55	30
+33375	33375	Lymph Node	Lymphatic System	UCEC	Uterus	Metastatic	95	UCS	Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	2.43333333333	Matched	2.58	26
+33987	33987	Lung	Respiratory System	COLO	Colon	Metastatic	56	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.06666666667	Matched	1.18	17
+33374	33374	Lung	Respiratory System	STAD	Stomach	Metastatic	93	GIST	Gastrointestinal Stromal Tumor	Gastrointestinal Stromal Tumor	1.46666666667	Matched	5.72	23
+33387	33387	Stomach	Stomach	STAD	Stomach	Local Recurrence	30	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	0.466666666667	Matched	0	0
+33532	33532	Chest wall	Chest Wall	BRCA	Breast	Metastatic	55	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.6	Matched	1.43	29
+34211	34211	Pelvic Mass	Soft Tissue	UCEC	Uterus	Metastatic	63	UEC	Endometrial Cancer	Uterine Endometrioid Carcinoma	2.86666666667	Matched	0.25	9
+33388	33388	Omentum	Reproductive System	OV	Ovary	Metastatic	51	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	1.36666666667	Matched	0.1	22
+33480	33480	Liver	Liver	COLO	Colon	Metastatic	48	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.0	Matched	0.92	19
+33546	33546	Rectroperitoneum	Abdomen	LYMP	NA	Local Recurrence	95	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	3.23333333333	Matched	1.01	2
+34121	34121	Pleura	Chest Wall	BRCA	Breast	Metastatic	33	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.53333333333	Matched	0.06	21
+33988	33988	Epigastric mass	Stomach	SARC	NA	Metastatic	40	OS	Bone Cancer	Osteosarcoma	2.53333333333	Matched	0.25	37
+33740	33740	Liver	Liver	STAD	Stomach	Metastatic	65	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	2.5	Matched	1.59	35
+34071	34071	Supraclavicular Mass	Soft Tissue	SARC	NA	Metastatic	90	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	1.3	Matched	0.66	15
+33764	33764	Lung	Respiratory System	LUNG	Lung	Local Recurrence	52	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.53333333333	Matched	0.53	36
+34252	34252	Leg	Soft Tissue	SARC	NA	Local Recurrence	80	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	1.36666666667	Matched	1.44	53
+34162	34162	Spine	Spine	CNS-PNS	NA	Local Recurrence	95	EPM	Glioma	Ependymoma	1.43333333333	Matched	0.13	2
+34115	34115	Liver	Liver	PANC	Pancreas	Metastatic	48	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	6.13333333333	Matched	0.27	35
+34215	34215	Colon	Intestine	OV	Ovary	Local Recurrence	24	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	2.16666666667	Matched	0	1
+34117	34117	Chest wall	Chest Wall	BCC	Skin	Metastatic	51	BCC	Skin Cancer, Non-Melanoma	Basal Cell Carcinoma	3.7	Matched	0.13	41
+34161	34161	Lymph Node	Lymphatic System	LUNG	Lung	Metastatic	32	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.2	Matched	0	0
+34118	34118	Breast	Breast	BRCA	Breast	Local Recurrence	48	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.56666666667	Matched	0	50
+34159	34159	Liver	Liver	KDNY	Kidney	Metastatic	47	RCC	Renal Cell Carcinoma	Renal Cell Carcinoma	1.2	Matched	0.06	28
+34120	34120	Liver	Liver	BRCA	Breast	Metastatic	79	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	9.13333333333	Matched	1.13	33
+35337	35337	Lung	Respiratory System	LUNG	Lung	Local Recurrence	43	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.86666666667	Matched	0	0
+35258	35258	Lung	Respiratory System	LUNG	Lung	Local Recurrence	42	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.4	Matched	0.13	14
+34288	34288	Liver	Liver	PANC	Pancreas	Metastatic	34	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.63333333333	Matched	0.1	3
+34332	34332	Lymph Node	Lymphatic System	SARC	NA	Metastatic	53	ASPS	Soft Tissue Sarcoma	Alveolar Soft Part Sarcoma	0.3	Matched	0.07	0
+36037	36037	Breast	Breast	BRCA	Breast	Local Recurrence	84	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.5	Matched	0.82	25
+34491	34491	Liver	Liver	PANC	Pancreas	Metastatic	59	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.63333333333	Matched	0.13	11
+35289	35289	Liver	Liver	COLO	Colon	Metastatic	29	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.5	Matched	0.39	0
+36749	36749	Liver	Liver	UVM	Eye	Metastatic	88	UM	Melanoma	Uveal Melanoma	1.0	Matched	0	16
+35234	35234	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	32	ILC	Breast Cancer	Breast Invasive Lobular Carcinoma	3.6	Matched	0	15
+36063	36063	Lymph Node	Lymphatic System	SKCM	Skin	Local Recurrence	84	MEL	Melanoma	Melanoma	6.66666666667	Matched	3.48	26
+35260	35260	Groin	Soft Tissue	SARC	NA	Metastatic	77	FIBS	Soft Tissue Sarcoma	Fibrosarcoma	1.36666666667	Matched	0	11
+35290	35290	Liver	Liver	UVM	Eye	Metastatic	74	UM	Melanoma	Uveal Melanoma	0.566666666667	Matched	0.06	14
+36062	36062	Liver	Liver	STAD	Stomach	Metastatic	63	STAD	Esophagogastric Cancer	Stomach Adenocarcinoma	6.83333333333	Matched	0	30
+34708	34708	Lung	Respiratory System	LUNG	Lung	Local Recurrence	54	LUSC	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	15.1	Matched	0.25	47
+35336	35336	Liver	Liver	CHOL	Bile Duct	Metastatic	85	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	3.53333333333	Matched	3.21	27
+37077	37077	Liver	Liver	BRCA	Breast	Metastatic	68	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.16666666667	Matched	0.83	21
+36718	36718	Lung	Respiratory System	COLO	Colon	Metastatic	62	COAD	Colorectal Cancer	Colon Adenocarcinoma	4.66666666667	Matched	0	15
+36684	36684	Omental Mass	Reproductive System	OV	Ovary	Metastatic	65	CCOV	Ovarian Cancer	Clear Cell Ovarian Cancer	4.6	Matched	0.53	21
+36621	36621	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	59	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.63333333333	Matched	0	22
+36622	36622	Calf	Soft Tissue	CNS-PNS	NA	Metastatic	100	PNET	Embryonal Tumor	Primitive Neuroectodermal Tumor	1.73333333333	Matched	4.84	36
+37013	37013	Breast	Breast	BRCA	Breast	Local Recurrence	66	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	4.93333333333	Matched	1.83	44
+36509	36509	Chest wall	Chest Wall	SARC	NA	Metastatic	93	FIOS	Bone Cancer	Fibroblastic Osteosarcoma	1.7	Matched	10.66	39
+36068	36068	Submandibular Gland	Head & Neck	SECR	Unknown	Unknown	37	SACA	Salivary Gland Cancer	Salivary Carcinoma	1.43333333333	Matched	0.11	0
+36067	36067	Tongue	Head & Neck	HNSC	NA	Local Recurrence	63	OPHSC	Head and Neck Cancer	Oropharynx Squamous Cell Carcinoma	6.73333333333	Matched	2.16	24
+36700	36700	Liver	Liver	BRCA	Breast	Metastatic	92	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.76666666667	Matched	4.01	46
+37078	37078	Abdominal Mass	Abdomen	BRCA	Breast	Metastatic	66	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.633333333333	Matched	0.12	6
+36065	36065	Hip	Soft Tissue	BRCA	Breast	Metastatic	34	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.7	Matched	0	39
+37093	37093	Pelvic Mass	Soft Tissue	KDNY	Kidney	Unknown	55	PRCC	Renal Cell Carcinoma	Papillary Renal Cell Carcinoma	0.9	Matched	0.26	22
+36069	36069	Liver	Liver	CHOL	Bile Duct	Metastatic	48	PAMPCA	Ampullary Cancer	Pancreatobiliary Ampullary Carcinoma	7.56666666667	Matched	1.14	52
+36748	36748	Liver	Liver	PANC	Pancreas	Metastatic	54	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.33333333333	Matched	0.19	15
+36686	36686	Lymph Node	Lymphatic System	SARC	NA	Metastatic	90	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	1.26666666667	Matched	0.89	18
+37311	37311	Liver	Liver	COLO	Colon	Metastatic	56	COAD	Colorectal Cancer	Colon Adenocarcinoma	6.76666666667	Matched	0.3	43
+37076	37076	Chest wall	Chest Wall	BRCA	Breast	Metastatic	47	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	7.0	Matched	0	24
+36701	36701	Liver	Liver	PANC	Pancreas	Metastatic	44	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.53333333333	Matched	0	34
+36750	36750	Liver	Liver	ESCA	Esophagus	Metastatic	83	ESCA	Esophagogastric Cancer	Esophageal Adenocarcinoma	3.1	Matched	1.84	21
+37312	37312	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	55	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	2.36666666667	Matched	0.06	28
+36962	36962	Pleura	Chest Wall	LUNG	Lung	Local Recurrence	72	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.66666666667	Matched	4.09	48
+37080	37080	Liver	Liver	COLO	Colon	Metastatic	69	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.4	Matched	2.06	41
+37146	37146	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	65	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	5.4	Matched	3.47	67
+36963	36963	Groin	Soft Tissue	SARC	NA	Local Recurrence	99	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	1.26666666667	Matched	0.43	2
+37026	37026	Lymph Node	Lymphatic System	LUNG	Lung	Local Recurrence	70	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	4.36666666667	Matched	0	15
+37095	37095	Lung	Respiratory System	THYM	Thymus	Metastatic	85	THYC	Thymic Tumor	Thymic Carcinoma	0.666666666667	Matched	0	0
+37025	37025	Liver	Liver	PANC	Pancreas	Metastatic	21	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	0.833333333333	Matched	0	0
+37249	37249	Liver	Liver	PANC	Pancreas	Metastatic	86	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.5	Matched	3.87	26
+37027	37027	Lymph Node	Lymphatic System	LUNG	Lung	Local Recurrence	30	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.33333333333	Matched	0.27	25
+37619	37619	Breast	Breast	BRCA	Breast	Local Recurrence	69	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.3	Matched	0.8	56
+37155	37155	Liver	Liver	COLO	Colon	Metastatic	61	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.26666666667	Matched	0.25	24
+37719	37719	Pleura	Chest Wall	LUNG	Lung	Unknown	33	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.13333333333	Matched	0	21
+37097	37097	Liver	Liver	BRCA	Breast	Metastatic	80	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.63333333333	Matched	1.78	23
+38506	38506	Liver	Liver	COLO	Colon	Metastatic	89	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.76666666667	Matched	0.78	29
+37365	37365	Liver	Liver	BRCA	Breast	Metastatic	43	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.966666666667	Matched	0.12	15
+38501	38501	Brain	Brain	BRCA	Breast	Metastatic	54	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	3.43333333333	Matched	0.06	53
+37145	37145	Lymph Node	Lymphatic System	LUNG	Lung	Local Recurrence	25	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	3.13333333333	Matched	0.06	0
+38060	38060	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	65	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.6	Matched	0	16
+37620	37620	Sternum	Chest Wall	BRCA	Breast	Metastatic	95	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	15.4333333333	Matched	0.12	13
+37840	37840	Lymph Node	Lymphatic System	LYMP	NA	Metastatic	53	PTCL	Mature T and NK Neoplasms	Peripheral T-Cell lymphoma, NOS	0.3	Matched	0	1
+37297	37297	Liver	Liver	ESCA	 Gastroesophageal Junction	Metastatic	58	GEJ	Esophagogastric Cancer	Adenocarcinoma of the Gastroesophageal Junction	4.16666666667	Matched	1.75	47
+37916	37916	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	38	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	6.63333333333	Matched	0.07	3
+37643	37643	Ovary	Reproductive System	SARC	Breast	Metastatic	41	BA	Breast Sarcoma	Breast Angiosarcoma	0.766666666667	Matched	0	0
+37917	37917	Rectroperitoneum	Abdomen	OV	Ovary	Metastatic	66	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	5.16666666667	Matched	1.74	54
+37717	37717	Chest wall	Chest Wall	LUNG	Lung	Metastatic	45	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.3	Matched	0.41	29
+37716	37716	Abdominal Mass	Abdomen	COLO	Colon	Metastatic	42	COAD	Colorectal Cancer	Colon Adenocarcinoma	4.66666666667	Matched	0.06	2
+37918	37918	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	25	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.4	Matched	0.28	4
+38261	38261	Breast	Breast	BRCA	Breast	Local Recurrence	38	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.666666666667	Matched	0	19
+37718	37718	Liver	Liver	PANC	Pancreas	Metastatic	66	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.73333333333	Matched	0.31	21
+37720	37720	Liver	Liver	COLO	Colon	Metastatic	60	COAD	Colorectal Cancer	Colon Adenocarcinoma	4.5	Matched	0	0
+37828	37828	Liver	Liver	CHOL	Bile Duct	Metastatic	24	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	2.0	Matched	0.12	22
+37842	37842	Spleen	Spine	OV	Ovary	Metastatic	100	LGSOC	Ovarian Cancer	Low-Grade Serous Ovarian Cancer	0.866666666667	Matched	1.5	15
+38705	38705	Liver	Liver	SECR	Breast	Metastatic	87	ACBC	Breast Cancer	Adenoid Cystic Breast Cancer	0.5	Matched	0	4
+37862	37862	Lymph Node	Lymphatic System	LUNG	Lung	Local Recurrence	27	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.33333333333	Matched	0.12	21
+37844	37844	Liver	Liver	BRCA	Breast	Metastatic	79	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.23333333333	Matched	0.66	11
+37919	37919	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	21	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.4	Matched	0	22
+38250	38250	Liver	Liver	BRCA	Breast	Metastatic	52	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.833333333333	Matched	0.14	15
+37845	37845	Lung	Respiratory System	LUNG	Lung	Metastatic	53	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.6	Matched	0	0
+38063	38063	Lymph Node	Lymphatic System	LUNG	Lung	Local Recurrence	70	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1.86666666667	Matched	0.18	25
+37967	37967	Liver	Liver	PANC	Pancreas	Metastatic	33	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.63333333333	Matched	0	0
+37970	37970	Liver	Liver	CHOL	Bile Duct	Metastatic	46	CHOL	Hepatobiliary Cancer	Cholangiocarcinoma	1.43333333333	Matched	0	25
+38575	38575	Lung	Respiratory System	SARC	NA	Metastatic	56	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	1.13333333333	Matched	0	46
+38013	38013	Adrenal	Adrenal Gland	ESCA	 Gastroesophageal Junction	Metastatic	43	GEJ	Esophagogastric Cancer	Adenocarcinoma of the Gastroesophageal Junction	58.6333333333	Matched	65.1	7
+38077	38077	Colon	Intestine	LYMP	NA	Local Recurrence	98	DLBCLNOS	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	3.3	Matched	0.27	2
+38887	38887	Liver	Liver	BRCA	Breast	Metastatic	98	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.66666666667	Matched	0.79	23
+38507	38507	Lymph Node	Lymphatic System	BRCA	Breast	Local Recurrence	29	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	4.1	Matched	0.75	36
+38231	38231	Peritoneal Fluid	Abdomen	LYMP	Blood	Unknown	90	CLLSLL	Mature B-Cell Neoplasms	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma	1.33333333333	Matched	0.44	24
+38119	38119	Omentum	Reproductive System	OV	Ovary	Metastatic	34	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	7.23333333333	Matched	0.23	57
+38228	38228	Liver	Liver	SARC	NA	Metastatic	90	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	1.96666666667	Matched	0.26	16
+38120	38120	Lymph Node	Lymphatic System	COLO	Colon	Metastatic	46	COAD	Colorectal Cancer	Colon Adenocarcinoma	3.9	Matched	0.92	5
+38792	38792	Breast	Breast	BRCA	Breast	Local Recurrence	93	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	1.63333333333	Matched	0.79	25
+38357	38357	Lymph Node	Lymphatic System	BRCA	Breast	Metastatic	33	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.933333333333	Matched	0	2
+38601	38601	Lung	Respiratory System	COLO	Colon	Metastatic	47	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.6	Matched	0.73	25
+38744	38744	Liver	Liver	UVM	Eye	Metastatic	72	UM	Melanoma	Uveal Melanoma	0.533333333333	Matched	0.07	3
+38569	38569	Sternal mass	Chest Wall	BRCA	Breast	Metastatic	31	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	4.5	Matched	0.73	8
+38453	38453	Vaginal Vault	Reproductive System	OV	Ovary	Metastatic	85	HGSOC	Ovarian Cancer	High-Grade Serous Ovarian Cancer	3.56666666667	Matched	2.86	55
+38674	38674	Brain	Brain	CNS-PNS	NA	Local Recurrence	56	MNG	CNS Cancer	Meningioma	0.8	Matched	0	12
+38537	38537	Liver	Liver	PANC	Pancreas	Metastatic	53	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.26666666667	Matched	0.14	20
+38505	38505	Liver	Liver	PANC	Pancreas	Metastatic	21	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.36666666667	Matched	0	0
+38675	38675	Lymph Node	Lymphatic System	COLO	Colon	Metastatic	42	COAD	Colorectal Cancer	Colon Adenocarcinoma	2.83333333333	Matched	0.07	40
+38536	38536	Liver	Liver	PANC	Pancreas	Metastatic	57	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	2.7	Matched	0.21	40
+38673	38673	Psoas Muscle	Soft Tissue	SARC	NA	Metastatic	57	DDLS	Soft Tissue Sarcoma	Dedifferentiated Liposarcoma	0.8	Matched	0.27	4
+38574	38574	Breast	Breast	BRCA	Breast	Local Recurrence	76	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	0.766666666667	Matched	0.9	18
+38905	38905	Lymph Node	Lymphatic System	OV	Ovary	Metastatic	69	MXOV	Ovarian Cancer	Mixed Ovarian Carcinoma	3.43333333333	Matched	1.17	25
+38706	38706	Liver	Liver	SARC	NA	Metastatic	90	LMS	Soft Tissue Sarcoma	Leiomyosarcoma	2.3	Matched	0	37
+38599	38599	Lung	Respiratory System	SKCM	Skin	Metastatic	42	MEL	Melanoma	Melanoma	51.0	Matched	0	3
+38726	38726	Lung	Respiratory System	LUNG	Lung	Local Recurrence	28	LUAD	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	2.66666666667	Matched	0	0
+38725	38725	Lung	Respiratory System	BRCA	Breast	Metastatic	70	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	4.8	Matched	0.88	56
+38947	38947	Chest wall	Chest Wall	SKCM	Skin	Metastatic	97	MEL	Melanoma	Melanoma	15.0333333333	Matched	4.27	32
+38727	38727	Liver	Liver	LUNG	Lung	Metastatic	88	LNET	Non-Small Cell Lung Cancer	Lung Neuroendocrine Tumor	0.7	Matched	0	5
+38759	38759	Lymph Node	Lymphatic System	PANC	Pancreas	Metastatic	41	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.4	Matched	0.61	19
+38850	38850	Liver	Liver	BRCA	Breast	Metastatic	79	IDC	Breast Cancer	Breast Invasive Ductal Carcinoma	5.6	Matched	2.06	56
+39280	39280	Lung	Respiratory System	MISC	Lung	Local Recurrence	36	SARCNOS	Soft Tissue Sarcoma	Sarcoma, NOS	64.2333333333	Matched	0.49	43
+39044	39044	Lymph Node	Lymphatic System	PANC	Pancreas	Metastatic	43	PAAD	Pancreatic Cancer	Pancreatic Adenocarcinoma	1.8	Matched	0	1
