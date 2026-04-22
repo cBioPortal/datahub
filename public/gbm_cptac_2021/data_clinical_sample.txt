@@ -1,3 +1,104 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ee5fa1c23306a2376d605b90cc944114c6676fed93169d8d48c63077d40fba7c
-size 11109
+#Patient Identifier	Sample Identifier	Tumor laterality	Tumor Site Curated	Tumor Site Curation Notes	Somatic Status	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Unique sample identifier	Unique sample identifier	Tumor laterality	Tumor site, curated 	Tumor site, curation notes 	Do samples have a matched normal sequenced	Oncotree Code	Cancer type	Cancer type detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER
+#1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	TUMOR_LATERALITY	TUMOR_SITE_CURATED	TUMOR_SITE_CURATION_NOTES	SOMATIC_STATUS	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+C3L-00104	C3L-00104	Left	Frontal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.0
+C3L-00365	C3L-00365	Left	Parietal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.6
+C3L-00674	C3L-00674	Right	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.06666666667
+C3L-00677	C3L-00677	Left	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	25.2666666667
+C3L-01040	C3L-01040	Left	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.4
+C3L-01043	C3L-01043	Left	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.06666666667
+C3L-01045	C3L-01045	Left	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.73333333333
+C3L-01046	C3L-01046	Left	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.966666666667
+C3L-01048	C3L-01048	Left	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.26666666667
+C3L-01049	C3L-01049	Left	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.23333333333
+C3L-01061	C3L-01061	Right	Occipital Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.43333333333
+C3L-01142	C3L-01142	Left	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.16666666667
+C3L-01146	C3L-01146	Right	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.16666666667
+C3L-01149	C3L-01149	Left	Parietal and Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.5
+C3L-01154	C3L-01154	Right	Parietal, Occipital, Temporal Lobe 	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.1
+C3L-01155	C3L-01155	Right	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.66666666667
+C3L-01156	C3L-01156	Right	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.46666666667
+C3L-01157	C3L-01157	Right	Temporal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.26666666667
+C3L-01327	C3L-01327	Left	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.2
+C3L-01834	C3L-01834	Right	Frontal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.5
+C3L-01887	C3L-01887	Left	Temporal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.43333333333
+C3L-02041	C3L-02041	Left	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.26666666667
+C3L-02465	C3L-02465	Right	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.4
+C3L-02504	C3L-02504	Left	Parietal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.73333333333
+C3L-02542	C3L-02542	Right	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	3.53333333333
+C3L-02642	C3L-02642	Right	Frontal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.6
+C3L-02704	C3L-02704	Right	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.966666666667
+C3L-02705	C3L-02705	Right	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.23333333333
+C3L-02707	C3L-02707	Left	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.33333333333
+C3L-02708	C3L-02708	Right	Parietal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.7
+C3L-02900	C3L-02900	Right	Occipital Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.76666666667
+C3L-02955	C3L-02955	Right	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.866666666667
+C3L-02970	C3L-02970	Right	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.3
+C3L-02984	C3L-02984	Left	Frontal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.366666666667
+C3L-03260	C3L-03260	Right	Parietal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.13333333333
+C3L-03266	C3L-03266	Right	Parietal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.8
+C3L-03387	C3L-03387	Right	Parietal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.96666666667
+C3L-03390	C3L-03390	Right	Parietal and Occipital Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.0
+C3L-03392	C3L-03392	Right	Parietal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.633333333333
+C3L-03400	C3L-03400	Left	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.06666666667
+C3L-03405	C3L-03405	Left	Frontal and Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.36666666667
+C3L-03407	C3L-03407	Left	Frontal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.4
+C3L-03681	C3L-03681	Left	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.1
+C3L-03727	C3L-03727	Left	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.13333333333
+C3L-03728	C3L-03728	Left	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.46666666667
+C3L-03744	C3L-03744	Right	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.1
+C3L-03748	C3L-03748	Left	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.96666666667
+C3L-03968	C3L-03968	Right	Frontal and Parietal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.3
+C3L-04084	C3L-04084	Left	Parietal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.7
+C3N-00661	C3N-00661	Right	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.13333333333
+C3N-00662	C3N-00662	Right	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.36666666667
+C3N-00663	C3N-00663	Bilateral	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.866666666667
+C3N-00665	C3N-00665	Right	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.33333333333
+C3N-01192	C3N-01192	Left	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.93333333333
+C3N-01196	C3N-01196	Right	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.46666666667
+C3N-01334	C3N-01334	Right	Parietal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.36666666667
+C3N-01364	C3N-01364	Left	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.766666666667
+C3N-01366	C3N-01366	Right	Frontal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.56666666667
+C3N-01367	C3N-01367	Left	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.16666666667
+C3N-01368	C3N-01368	Right	Frontal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.1
+C3N-01369	C3N-01369	Left	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.5
+C3N-01505	C3N-01505	Right	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.5
+C3N-01515	C3N-01515	Right	Frontal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.4
+C3N-01517	C3N-01517	Right	Frontal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.16666666667
+C3N-01518	C3N-01518	Right	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.53333333333
+C3N-01798	C3N-01798	Left	Frontal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.0
+C3N-01814	C3N-01814	Left	Temporal, Parietal Lobe, and lateral  ventricle 	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.2
+C3N-01815	C3N-01815	Left	hemisphere	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.0
+C3N-01816	C3N-01816	Left	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.533333333333
+C3N-01818	C3N-01818	Left	Temporal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.76666666667
+C3N-01851	C3N-01851	Left	Thalamus	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.53333333333
+C3N-01852	C3N-01852	Left	Frontal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.46666666667
+C3N-01856	C3N-01856	Right	Occipital lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.5
+C3N-01857	C3N-01857	Right	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.36666666667
+C3N-02181	C3N-02181	Left	Temporal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.73333333333
+C3N-02183	C3N-02183	Right	Temporal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.3
+C3N-02185	C3N-02185	Right	Frontal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.4
+C3N-02186	C3N-02186	Right	Frontal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.53333333333
+C3N-02188	C3N-02188	Right	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.966666666667
+C3N-02190	C3N-02190	Left	Occipital Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.26666666667
+C3N-02255	C3N-02255	Bilateral	Parietal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.26666666667
+C3N-02256	C3N-02256	Right	Temporal Lobe	MRI review	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.7
+C3N-02769	C3N-02769	Left	Frontal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.13333333333
+C3N-02770	C3N-02770	Left	Frontal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.0
+C3N-02782	C3N-02782	Right	Parietal Lobe	Diagnostic pathology report	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.53333333333
+C3N-02783	C3N-02783	Left	Parietal, Occipital and Temporal Lobe 	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.5
+C3N-02784	C3N-02784	Left	Frontal and Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	4.2
+C3N-02785	C3N-02785	Left	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.43333333333
+C3N-02786	C3N-02786	Left	Frontal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.8
+C3N-02788	C3N-02788	Left	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.76666666667
+C3N-03070	C3N-03070	Right	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	2.2
+C3N-03088	C3N-03088	Right	Occipital Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.433333333333
+C3N-03180	C3N-03180	Right	Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.866666666667
+C3N-03182	C3N-03182	Right	Basal Ganglia	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	3.26666666667
+C3N-03183	C3N-03183	Left	Temporal Lobe and Basal ganglia and thalamus	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.9
+C3N-03184	C3N-03184	Left	Parietal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	0.833333333333
+C3N-03186	C3N-03186	Right	Occipital and Temporal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.8
+C3N-03188	C3N-03188	Bilateral	Frontal Lobe	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.3
+C3N-03473	C3N-03473	Right	Frontal, Parietal and Temporal Lobe 	NA	Matched	GB	Glioma	Glioblastoma, IDH-wildtype	1.13333333333
