@@ -1,3 +1,791 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:88f33c5410e0c9cdea6000d90d7d3712783df221667ebadf514b19c5ea9b4bd4
-size 65504
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)	MSI Score	Contributivity	Targetable Genetic Alteration	Sequencing Platform
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)	MSI Score	A successfully sequenced tumor sample was considered when WES identified somatic CNAs or somatic SNVs, when filtering on matched germline, or when RNA-seq identified tumor cellâspecific fusion transcripts.	Targetable Genetic Alteration	Sequencing Platform
+#STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING	STRING	STRING
+#1	1	1	1	1	1	1	2	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS	MSI_SCORE	CONTRIBUTIVITY	TARGETABLE_GENETIC_ALTERATION	SEQUENCING_PLATFORM
+Map000	Map000	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES
+Map001	Map001	OS	Bone Cancer	Osteosarcoma	1.3	0.03	Yes	No	WES + RNAseq
+Map002	Map002	ES	Bone Cancer	Ewing Sarcoma	0.5	0	Yes	No	WES + RNAseq
+Map003	Map003	DMG	Glioma	Diffuse Midline Glioma, H3 K27-Altered	0.3	0.05	Yes	Yes	WES + RNAseq
+Map004	Map004	GB	Glioma	Glioblastoma, IDH-wildtype	50.1	0.26	Yes	Yes	WES + RNAseq
+Map005	Map005	OS	Bone Cancer	Osteosarcoma	1.1	0.27	Yes	Yes	WES
+Map006	Map006	WT	Wilms Tumor	Wilms Tumor	0.8	0	Yes	Yes	WES
+Map007	Map007	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	1.9	1.51	Yes	Yes	WES + RNAseq
+Map008	Map008	NBL	Peripheral Nervous System	Neuroblastoma	2.1	0.6	Yes	Yes	WES + RNAseq
+Map009	Map009	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	0.4	0	Yes	Yes	WES + RNAseq
+Map010	Map010	EPM	Glioma	Ependymoma	0.5	0.41	Yes	No	WES + RNAseq
+Map011	Map011	OS	Bone Cancer	Osteosarcoma	0.7	0	Yes	No	WES + RNAseq
+Map012	Map012	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	0.7	0	Yes	Yes	WES + RNAseq
+Map013	Map013	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.9	0	Yes	Yes	WES + RNAseq
+Map014	Map014	DMG	Glioma	Diffuse Midline Glioma, H3 K27-Altered	0.7	0.5	Yes	Yes	WES + RNAseq
+Map015	Map015	MBL	Embryonal Tumor	Medulloblastoma	0.1	0	No for tumor	Yes	WES + RNAseq
+Map016	Map016	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	NA	NA	NA	NA	NA
+Map017	Map017	NBL	Peripheral Nervous System	Neuroblastoma	0.2	0	No for RNAseq	No	WES + RNAseq
+Map018	Map018	EPM	Glioma	Ependymoma	0.6	0.26	Yes	Yes	WES + RNAseq
+Map019	Map019	HL	Hodgkin Lymphoma	Hodgkin Lymphoma	NA	NA	No for tumor	No	WES + RNAseq
+Map020	Map020	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	0.9	0.15	Yes	Yes	WES + RNAseq
+Map021	Map021	PAST	Glioma	Pilocytic Astrocytoma	0	0	Yes	Yes	WES + RNAseq
+Map022	Map022	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	0.8	0	Yes	No	WES + RNAseq
+Map023	Map023	ES	Bone Cancer	Ewing Sarcoma	0.2	0.03	Yes	No	WES + RNAseq
+Map024	Map024	SYNS	Soft Tissue Sarcoma	Synovial Sarcoma	0.6	0.17	Yes	No	WES + RNAseq
+Map025	Map025	OS	Bone Cancer	Osteosarcoma	0.6	0.89	Yes	Yes	WES + RNAseq
+Map026	Map026	GB	Glioma	Glioblastoma, IDH-wildtype	0.5	0	Yes	Yes	WES + RNAseq
+Map027	Map027	PNET	Embryonal Tumor	Primitive Neuroectodermal Tumor	0	0	No for tumor	No	WES + RNAseq
+Map028	Map028	OS	Bone Cancer	Osteosarcoma	2	0.95	Yes	No	WES + RNAseq
+Map029	Map029	MNG	CNS Cancer	Meningioma	0.2	0.23	Yes	Yes	WES + RNAseq
+Map030	Map030	WT	Wilms Tumor	Wilms Tumor	0.3	NA	Yes	No	WES + RNAseq
+Map031	Map031	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	1.5	0.06	Yes	Yes	WES
+Map032	Map032	OS	Bone Cancer	Osteosarcoma	1.4	1.09	Yes	Yes	WES + RNAseq
+Map033	Map033	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	NA	NA	NA	NA	NA
+Map034	Map034	ES	Bone Cancer	Ewing Sarcoma	0.4	0	Yes	Yes	WES + RNAseq
+Map035	Map035	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.4	0.56	Yes	Yes	WES + RNAseq
+Map036	Map036	OS	Bone Cancer	Osteosarcoma	1	0.15	Yes	Yes	WES + RNAseq
+Map037	Map037	OS	Bone Cancer	Osteosarcoma	2	2.51	Yes	Yes	WES + RNAseq
+Map038	Map038	OS	Bone Cancer	Osteosarcoma	NA	NA	No for tumor	No	WES + RNAseq
+Map039	Map039	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	0.7	0.19	Yes	Yes	WES + RNAseq
+Map040	Map040	NBL	Peripheral Nervous System	Neuroblastoma	0.5	0.32	Yes	Yes	WES + RNAseq
+Map041	Map041	ASTR	Glioma	Astrocytoma, IDH-Mutant	0.7	0.41	Yes	Yes	WES + RNAseq
+Map042	Map042	SYNS	Soft Tissue Sarcoma	Synovial Sarcoma	0.4	0.07	Yes	Yes	WES
+Map043	Map043	WT	Wilms Tumor	Wilms Tumor	1	1.24	Yes	Yes	WES
+Map044	Map044	ES	Bone Cancer	Ewing Sarcoma	0.7	0.21	Yes	No	WES + RNAseq
+Map045	Map045	LAIS	Non-Small Cell Lung Cancer	Lung Adenocarcinoma In Situ	0.2	NA	Yes	No	WES + RNAseq
+Map046	Map046	MBL	Embryonal Tumor	Medulloblastoma	0.4	0.29	Yes	Yes	WES + RNAseq
+Map047	Map047	GNG	Glioma	Ganglioglioma	0.2	0.01	Yes	Yes	WES
+Map048	Map048	MBL	Embryonal Tumor	Medulloblastoma	0.5	0.04	Yes	No	WES + RNAseq
+Map049	Map049	OHNCA	Head and Neck Cancer	Head and Neck Carcinoma, Other	0.3	0	Yes	No	WES + RNAseq
+Map050	Map050	NBL	Peripheral Nervous System	Neuroblastoma	0.6	0.11	Yes	No	WES + RNAseq
+Map051	Map051	ODG	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	0.5	0.73	Yes	Yes	WES + RNAseq
+Map052	Map052	OS	Bone Cancer	Osteosarcoma	3.1	2.56	Yes	Yes	WES + RNAseq
+Map053	Map053	PAST	Glioma	Pilocytic Astrocytoma	0	0	Yes	Yes	WES + RNAseq
+Map054	Map054	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	1.3	1.55	Yes	Yes	WES + RNAseq
+Map055	Map055	EPM	Glioma	Ependymoma	0.1	0.51	Yes	No	WES + RNAseq
+Map056	Map056	AML	Leukemia	Acute Myeloid Leukemia	0.1	0	Yes	No	WES + RNAseq
+Map057	Map057	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	0.5	0	No for RNAseq	Yes	WES + RNAseq
+Map058	Map058	ES	Bone Cancer	Ewing Sarcoma	0.2	0.25	Yes	Yes	WES + RNAseq
+Map059	Map059	SYNS	Soft Tissue Sarcoma	Synovial Sarcoma	0.6	0.01	Yes	No	WES + RNAseq
+Map060	Map060	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map061	Map061	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	6.5	1.83	Yes	Yes	WES + RNAseq
+Map062	Map062	WT	Wilms Tumor	Wilms Tumor	0	0.25	Yes	Yes	WES + RNAseq
+Map063	Map063	OS	Bone Cancer	Osteosarcoma	0.8	0.19	Yes	No	WES + RNAseq
+Map064	Map064	LIPO	Soft Tissue Sarcoma	Liposarcoma	0.9	13.04	Yes	Yes	WES + RNAseq
+Map065	Map065	CPT	Choroid Plexus Tumor	Choroid Plexus Tumor	2.6	2.84	Yes	Yes	WES + RNAseq
+Map066	Map066	STMYEC	Soft Tissue Sarcoma	Soft Tissue Myoepithelial Carcinoma	0.2	0.03	Yes	Yes	WES
+Map067	Map067	NA	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	2	NA	Yes	Yes	WES
+Map068	Map068	EPM	Glioma	Ependymoma	0.1	1.08	Yes	Yes	WES + RNAseq
+Map069	Map069	OS	Bone Cancer	Osteosarcoma	2.7	3.05	Yes	Yes	WES
+Map070	Map070	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map071	Map071	EPMT	CNS Cancer	Ependymomal Tumor	1.8	0.2	Yes	Yes	WES + RNAseq
+Map072	Map072	AML	Leukemia	Acute Myeloid Leukemia	6	0.02	No	No	WES + RNAseq
+Map073	Map073	ES	Bone Cancer	Ewing Sarcoma	0.9	0.22	Yes	Yes	WES + RNAseq
+Map074	Map074	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	NA	NA	NA	NA	NA
+Map075	Map075	RCC	Renal Cell Carcinoma	Renal Cell Carcinoma	0.1	0.03	Yes	Yes	WES + RNAseq
+Map076	Map076	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	1	1.7	Yes	Yes	WES + RNAseq
+Map077	Map077	ICPN	Hepatobiliary Cancer	Intracholecystic Papillary Neoplasm	0.9	0	Yes	Yes	WES + RNAseq
+Map078	Map078	WT	Wilms Tumor	Wilms Tumor	0.6	0.57	Yes	Yes	WES + RNAseq
+Map079	Map079	HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.2	0.33	Yes	No	WES + RNAseq
+Map080	Map080	ES	Bone Cancer	Ewing Sarcoma	0.4	0	Yes	No	WES + RNAseq
+Map081	Map081	ES	Bone Cancer	Ewing Sarcoma	0.7	0	Yes	No	WES + RNAseq
+Map082	Map082	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	0	0	No for RNAseq	No	WES + RNAseq
+Map083	Map083	MBL	Embryonal Tumor	Medulloblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map084	Map084	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	NA	NA	NA	NA	NA
+Map085	Map085	ES	Bone Cancer	Ewing Sarcoma	0.5	0.05	Yes	Yes	WES + RNAseq
+Map086	Map086	ES	Bone Cancer	Ewing Sarcoma	0.3	0.02	Yes	No	WES + RNAseq
+Map087	Map087	NA	Bone Cancer	Ewing Sarcoma	0.4	0.11	Yes	Yes	WES + RNAseq
+Map088	Map088	OS	Bone Cancer	Osteosarcoma	1.6	2.53	Yes	Yes	WES + RNAseq
+Map089	Map089	NBL	Peripheral Nervous System	Neuroblastoma	0.8	0.52	Yes	No	WES + RNAseq
+Map090	Map090	MBL	Embryonal Tumor	Medulloblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map091	Map091	MBL	Embryonal Tumor	Medulloblastoma	1.2	0.06	Yes	No	WES + RNAseq
+Map092	Map092	ACPG	Sellar Tumor	Craniopharyngioma, Adamantinomatous Type	0.3	0.36	Yes	Yes	WES + RNAseq
+Map093	Map093	ES	Bone Cancer	Ewing Sarcoma	0.3	0.12	Yes	No	WES + RNAseq
+Map094	Map094	ES	Bone Cancer	Ewing Sarcoma	0.6	0	Yes	Yes	WES + RNAseq
+Map095	Map095	EPM	Glioma	Ependymoma	0.1	0	Yes	No	WES + RNAseq
+Map096	Map096	ES	Bone Cancer	Ewing Sarcoma	0.2	NA	Yes	No	WES + RNAseq
+Map097	Map097	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map098	Map098	DIFG	Glioma	Diffuse Glioma	1.3	0.02	Yes	No	WES + RNAseq
+Map099	Map099	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	0.6	0	Yes	Yes	WES + RNAseq
+Map100	Map100	LIHB	Hepatobiliary Cancer	Hepatoblastoma	3.1	0	Yes	Yes	WES + RNAseq
+Map101	Map101	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	NA	NA	No for tumor	No	WES + RNAseq
+Map102	Map102	HL	Hodgkin Lymphoma	Hodgkin Lymphoma	NA	NA	No for tumor	No	WES + RNAseq
+Map103	Map103	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map104	Map104	GB	Glioma	Glioblastoma, IDH-wildtype	0.8	0.32	Yes	Yes	WES + RNAseq
+Map105	Map105	HL	Hodgkin Lymphoma	Hodgkin Lymphoma	NA	NA	NA	NA	NA
+Map106	Map106	PMA	Glioma	Pilomyxoid Astrocytoma	0.9	0	Yes	No	WES + RNAseq
+Map107	Map107	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	0.2	0.11	Yes	Yes	WES + RNAseq
+Map108	Map108	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	1	0.39	Yes	Yes	WES + RNAseq
+Map109	Map109	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	1.1	1.39	Yes	Yes	WES + RNAseq
+Map110	Map110	MBL	Embryonal Tumor	Medulloblastoma	1.5	0.43	No for RNAseq	Yes	WES + RNAseq
+Map111	Map111	ES	Bone Cancer	Ewing Sarcoma	1	0.61	Yes	No	WES + RNAseq
+Map112	Map112	EPMT	CNS Cancer	Ependymomal Tumor	0.2	0.53	Yes	No	WES + RNAseq
+Map113	Map113	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	0.9	0.02	Yes	Yes	WES + RNAseq
+Map114	Map114	NBL	Peripheral Nervous System	Neuroblastoma	1.4	0.55	Yes	Yes	WES + RNAseq
+Map115	Map115	WT	Wilms Tumor	Wilms Tumor	1.9	0.31	Yes	No	WES + RNAseq
+Map116	Map116	WT	Wilms Tumor	Wilms Tumor	0.4	0.18	Yes	Yes	WES
+Map117	Map117	NBL	Peripheral Nervous System	Neuroblastoma	34.5	1.87	Yes	Yes	WES
+Map118	Map118	DMG	Glioma	Diffuse Midline Glioma, H3 K27-Altered	1	0.29	Yes	Yes	WES + RNAseq
+Map119	Map119	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	0.5	0.31	Yes	Yes	WES + RNAseq
+Map120	Map120	HGGNOS	Glioma	High-Grade Glioma, NOS	0.1	0	Yes	Yes	WES + RNAseq
+Map121	Map121	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.3	0.43	Yes	Yes	WES + RNAseq
+Map122	Map122	NBL	Peripheral Nervous System	Neuroblastoma	0	0.03	Yes	Yes	WES + RNAseq
+Map123	Map123	NBL	Peripheral Nervous System	Neuroblastoma	2.4	0.82	Yes	No	WES + RNAseq
+Map124	Map124	PAST	Glioma	Pilocytic Astrocytoma	0.3	0.04	Yes	Yes	WES + RNAseq
+Map125	Map125	OS	Bone Cancer	Osteosarcoma	1.2	1.99	Yes	Yes	WES + RNAseq
+Map126	Map126	ESST	Soft Tissue Sarcoma	Ewing Sarcoma of Soft Tissue	NA	NA	NA	NA	NA
+Map127	Map127	NBL	Peripheral Nervous System	Neuroblastoma	53.1	0.34	Yes	Yes	WES + RNAseq
+Map128	Map128	NBL	Peripheral Nervous System	Neuroblastoma	0.8	0	Yes	No	WES + RNAseq
+Map129	Map129	NBL	Peripheral Nervous System	Neuroblastoma	3.7	0.87	Yes	Yes	WES + RNAseq
+Map130	Map130	AML	Leukemia	Acute Myeloid Leukemia	0.1	0	Yes	No	WES + RNAseq
+Map131	Map131	MBL	Embryonal Tumor	Medulloblastoma	0.5	0	Yes	Yes	WES + RNAseq
+Map132	Map132	ASTR	Glioma	Astrocytoma, IDH-Mutant	0.5	0.19	Yes	Yes	WES + RNAseq
+Map133	Map133	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	3.1	3.72	Yes	Yes	WES + RNAseq
+Map134	Map134	ES	Bone Cancer	Ewing Sarcoma	0.3	0	Yes	No	WES + RNAseq
+Map135	Map135	OS	Bone Cancer	Osteosarcoma	0.8	3.4	Yes	Yes	WES + RNAseq
+Map136	Map136	WT	Wilms Tumor	Wilms Tumor	0.3	0.05	Yes	Yes	WES + RNAseq
+Map137	Map137	OS	Bone Cancer	Osteosarcoma	1.5	0.5	Yes	Yes	WES + RNAseq
+Map138	Map138	ES	Bone Cancer	Ewing Sarcoma	0.4	NA	Yes	Yes	WES + RNAseq
+Map139	Map139	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	0.2	0	Yes	Yes	WES
+Map140	Map140	ASPS	Soft Tissue Sarcoma	Alveolar Soft Part Sarcoma	0.3	0	Yes	Yes	WES + RNAseq
+Map141	Map141	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	1.1	1.12	Yes	Yes	WES + RNAseq
+Map142	Map142	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	0.3	0	Yes	Yes	WES + RNAseq
+Map143	Map143	ESST	Soft Tissue Sarcoma	Ewing Sarcoma of Soft Tissue	0.5	0.11	Yes	No	WES + RNAseq
+Map144	Map144	WT	Wilms Tumor	Wilms Tumor	1.5	0.81	Yes	Yes	WES + RNAseq
+Map145	Map145	AML	Leukemia	Acute Myeloid Leukemia	NA	NA	NA	NA	NA
+Map146	Map146	EPM	Glioma	Ependymoma	NA	NA	NA	NA	NA
+Map147	Map147	GB	Glioma	Glioblastoma, IDH-wildtype	0.3	1.02	Yes	Yes	WES + RNAseq
+Map148	Map148	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES
+Map149	Map149	MBL	Embryonal Tumor	Medulloblastoma	NA	NA	NA	NA	NA
+Map150	Map150	ES	Bone Cancer	Ewing Sarcoma	0.2	0.13	Yes	Yes	WES + RNAseq
+Map151	Map151	EPM	Glioma	Ependymoma	0.4	0.45	Yes	Yes	WES
+Map152	Map152	ES	Bone Cancer	Ewing Sarcoma	0.2	0	Yes	No	WES + RNAseq
+Map153	Map153	NA	Embryonal Tumor	Primitive Neuroectodermal Tumor	0.8	NA	Yes	Yes	WES + RNAseq
+Map154	Map154	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.4	0	Yes	Yes	WES + RNAseq
+Map155	Map155	AML	Leukemia	Acute Myeloid Leukemia	0.2	0	Yes	Yes	WES + RNAseq
+Map156	Map156	OS	Bone Cancer	Osteosarcoma	0.5	1.77	Yes	Yes	WES + RNAseq
+Map157	Map157	AFH	Angiomatoid Fibrous Histiocytoma	Angiomatoid Fibrous Histiocytoma	NA	NA	NA	NA	NA
+Map158	Map158	OOVC	Ovarian Cancer	Ovarian Cancer, Other	1.1	0.09	Yes	Yes	WES + RNAseq
+Map159	Map159	ANGS	Soft Tissue Sarcoma	Angiosarcoma	0.8	0.06	Yes	Yes	WES + RNAseq
+Map160	Map160	WT	Wilms Tumor	Wilms Tumor	NA	NA	NA	NA	NA
+Map161	Map161	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	0.5	2.44	Yes	Yes	WES + RNAseq
+Map162	Map162	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	1.4	0.08	Yes	Yes	WES + RNAseq
+Map163	Map163	MBL	Embryonal Tumor	Medulloblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map164	Map164	ES	Bone Cancer	Ewing Sarcoma	1.5	1.27	Yes	Yes	WES + RNAseq
+Map165	Map165	MBL	Embryonal Tumor	Medulloblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map166	Map166	PAST	Glioma	Pilocytic Astrocytoma	0.1	0	Yes	Yes	WES + RNAseq
+Map167	Map167	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA		NA	NA
+Map168	Map168	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map169	Map169	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	0.4	0	Yes	Yes	WES + RNAseq
+Map170	Map170	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	2	1.52	Yes	Yes	WES + RNAseq
+Map171	Map171	NBL	Peripheral Nervous System	Neuroblastoma	0.1	0.01	Yes	Yes	WES + RNAseq
+Map172	Map172	MBL	Embryonal Tumor	Medulloblastoma	0.2	0.4	Yes	No	WES + RNAseq
+Map173	Map173	GB	Glioma	Glioblastoma, IDH-wildtype	1.2	0.92	Yes	Yes	WES
+Map174	Map174	ES	Bone Cancer	Ewing Sarcoma	1	0	Yes	No	WES + RNAseq
+Map175	Map175	EPM	Glioma	Ependymoma	0.7	0.25	Yes	Yes	WES + RNAseq
+Map176	Map176	AML	Leukemia	Acute Myeloid Leukemia	1.5	0.83	Yes	Yes	WES + RNAseq
+Map177	Map177	ES	Bone Cancer	Ewing Sarcoma	0.5	0	Yes	No	WES + RNAseq
+Map179	Map179	HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	NA	NA	NA	NA	NA
+Map180	Map180	OS	Bone Cancer	Osteosarcoma	0.7	0.16	Yes	Yes	WES
+Map181	Map181	NBL	Peripheral Nervous System	Neuroblastoma	1.7	0.01	Yes	Yes	WES + RNAseq
+Map182	Map182	LIHB	Hepatobiliary Cancer	Hepatoblastoma	0.9	0.03	Yes	No	WES + RNAseq
+Map183	Map183	AML	Leukemia	Acute Myeloid Leukemia	7.6	0.77	No for RNAseq	Yes	WES + RNAseq
+Map184	Map184	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	0.7	0.23	Yes	Yes	WES + RNAseq
+Map185	Map185	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	NA	NA	NA	NA	NA
+Map186	Map186	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.4	0.18	Yes	Yes	WES + RNAseq
+Map187	Map187	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.9	0.46	Yes	Yes	WES + RNAseq
+Map188	Map188	NBL	Peripheral Nervous System	Neuroblastoma	1.9	0.5	Yes	Yes	WES + RNAseq
+Map189	Map189	APXA	Glioma	Anaplastic Pleomorphic Xanthoastrocytoma	0.9	0.27	Yes	Yes	WES + RNAseq
+Map190	Map190	MBL	Embryonal Tumor	Medulloblastoma	1	0	Yes	Yes	WES + RNAseq
+Map191	Map191	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map192	Map192	GMN	Germ Cell Tumor	Germinoma	NA	NA	NA	NA	NA
+Map193	Map193	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map194	Map194	NBL	Peripheral Nervous System	Neuroblastoma	0.6	0.07	Yes	Yes	WES + RNAseq
+Map195	Map195	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.6	0.29	Yes	Yes	WES + RNAseq
+Map196	Map196	MNG	CNS Cancer	Meningioma	0.3	NA	Yes	No	WES + RNAseq
+Map197	Map197	EPM	Glioma	Ependymoma	0.4	0.05	Yes	No	WES + RNAseq
+Map198	Map198	OS	Bone Cancer	Osteosarcoma	NA	NA	NA	NA	NA
+Map199	Map199	MNET	Miscellaneous Neuroepithelial Tumor	Miscellaneous Neuroepithelial Tumor	0.7	0.57	Yes	Yes	WES + RNAseq
+Map200	Map200	OS	Bone Cancer	Osteosarcoma	3.2	0.79	Yes	Yes	WES + RNAseq
+Map201	Map201	RCC	Renal Cell Carcinoma	Renal Cell Carcinoma	0.6	0	Yes	No	WES + RNAseq
+Map202	Map202	NBL	Peripheral Nervous System	Neuroblastoma	1.2	1.05	Yes	Yes	WES + RNAseq
+Map203	Map203	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	0.3	0	Yes	Yes	WES + RNAseq
+Map204	Map204	EPM	Glioma	Ependymoma	0.1	0.29	Yes	No	WES + RNAseq
+Map205	Map205	MBL	Embryonal Tumor	Medulloblastoma	0.9	0.16	Yes	Yes	WES + RNAseq
+Map206	Map206	OS	Bone Cancer	Osteosarcoma	1.8	0	Yes	No	WES + RNAseq
+Map207	Map207	OS	Bone Cancer	Osteosarcoma	0.9	0.58	Yes	Yes	WES + RNAseq
+Map208	Map208	CHDM	Bone Cancer	Chordoma	0.3	0.03	Yes	Yes	WES
+Map209	Map209	EPM	Glioma	Ependymoma	0.5	0	Yes	Yes	WES + RNAseq
+Map210	Map210	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map211	Map211	NBL	Peripheral Nervous System	Neuroblastoma	0.5	0.81	Yes	Yes	WES + RNAseq
+Map212	Map212	BMGT	Germ Cell Tumor	Malignant Teratoma	0.2	0.07	Yes	Yes	WES + RNAseq
+Map213	Map213	OS	Bone Cancer	Osteosarcoma	NA	NA	NA	NA	NA
+Map214	Map214	OS	Bone Cancer	Osteosarcoma	0.5	0.04	Yes	Yes	WES + RNAseq
+Map215	Map215	DSRCT	Soft Tissue Sarcoma	Desmoplastic Small-Round-Cell Tumor	0.1	0.18	Yes	No	WES + RNAseq
+Map216	Map216	GB	Glioma	Glioblastoma, IDH-wildtype	1.7	1.77	Yes	Yes	WES + RNAseq
+Map217	Map217	WT	Wilms Tumor	Wilms Tumor	1.2	0.66	Yes	Yes	WES + RNAseq
+Map218	Map218	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.7	1.31	Yes	No	WES + RNAseq
+Map219	Map219	NA	NA	NA	0.1	0.14	Yes	No	WES + RNAseq
+Map220	Map220	OS	Bone Cancer	Osteosarcoma	2.5	0.05	Yes	Yes	WES + RNAseq
+Map221	Map221	PAST	Glioma	Pilocytic Astrocytoma	0.1	0	Yes	Yes	WES + RNAseq
+Map222	Map222	NBL	Peripheral Nervous System	Neuroblastoma	0.5	0	Yes	Yes	WES
+Map223	Map223	DIFG	Glioma	Diffuse Glioma	0.4	0	Yes	Yes	WES + RNAseq
+Map224	Map224	MBL	Embryonal Tumor	Medulloblastoma	17.4	16.26	Yes	Yes	WES + RNAseq
+Map225	Map225	PMHE	Soft Tissue Sarcoma	Pseudomyogenic Hemangioendothelioma	NA	NA	NA	NA	NA
+Map226	Map226	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.2	0.26	Yes	Yes	WES + RNAseq
+Map227	Map227	ES	Bone Cancer	Ewing Sarcoma	1.1	0	Yes	No	WES
+Map228	Map228	HL	Hodgkin Lymphoma	Hodgkin Lymphoma	NA	NA	NA	NA	NA
+Map229	Map229	OS	Bone Cancer	Osteosarcoma	NA	NA	NA	NA	NA
+Map230	Map230	OS	Bone Cancer	Osteosarcoma	0.4	0.15	Yes	Yes	WES + RNAseq
+Map231	Map231	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	1	0	Yes	Yes	WES + RNAseq
+Map232	Map232	MBL	Embryonal Tumor	Medulloblastoma	0.4	0	Yes	No	WES + RNAseq
+Map233	Map233	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	0.7	0.04	Yes	Yes	WES + RNAseq
+Map234	Map234	GB	Glioma	Glioblastoma, IDH-wildtype	1	0.25	Yes	Yes	WES + RNAseq
+Map235	Map235	SYNS	Soft Tissue Sarcoma	Synovial Sarcoma	0.2	0.08	Yes	No	WES
+Map236	Map236	NBL	Peripheral Nervous System	Neuroblastoma	1.9	1.13	Yes	No	WES + RNAseq
+Map237	Map237	DES	Soft Tissue Sarcoma	Desmoid/Aggressive Fibromatosis	1.8	0.04	Yes	No	WES + RNAseq
+Map238	Map238	OS	Bone Cancer	Osteosarcoma	0.7	0.02	Yes	Yes	WES + RNAseq
+Map239	Map239	HGGNOS	Glioma	High-Grade Glioma, NOS	0.1	0.07	Yes	Yes	WES + RNAseq
+Map240	Map240	GB	Glioma	Glioblastoma, IDH-wildtype	NA	NA	No for tumor	No	WES + RNAseq
+Map241	Map241	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	NA	NA	NA	NA	NA
+Map242	Map242	WT	Wilms Tumor	Wilms Tumor	NA	NA	NA	NA	NA
+Map243	Map243	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map244	Map244	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map245	Map245	OIMT	Germ Cell Tumor	Immature Teratoma	0.4	4.61	Yes	No	WES + RNAseq
+Map246	Map246	GB	Glioma	Glioblastoma, IDH-wildtype	0.7	0.43	Yes	Yes	WES + RNAseq
+Map247	Map247	GB	Glioma	Glioblastoma, IDH-wildtype	4.5	0.67	Yes	Yes	WES
+Map248	Map248	MBL	Embryonal Tumor	Medulloblastoma	0.1	0.19	Yes	No	WES + RNAseq
+Map249	Map249	ES	Bone Cancer	Ewing Sarcoma	0.6	0.03	Yes	No	WES + RNAseq
+Map250	Map250	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	NA	NA	No for tumor	No	WES + RNAseq
+Map251	Map251	EPM	Glioma	Ependymoma	NA	NA	NA	NA	NA
+Map252	Map252	MBL	Embryonal Tumor	Medulloblastoma	1.5	0.09	Yes	Yes	WES
+Map253	Map253	OS	Bone Cancer	Osteosarcoma	0.6	2.33	Yes	Yes	WES + RNAseq
+Map254	Map254	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.3	3.42	Yes	Yes	WES + RNAseq
+Map255	Map255	ASTR	Glioma	Astrocytoma, IDH-Mutant	NA	NA	NA	NA	NA
+Map256	Map256	MBL	Embryonal Tumor	Medulloblastoma	0.6	0	Yes	No	WES + RNAseq
+Map257	Map257	OS	Bone Cancer	Osteosarcoma	0.6	0	Yes	Yes	WES + RNAseq
+Map258	Map258	MBL	Embryonal Tumor	Medulloblastoma	2.7	0.09	Yes	Yes	WES + RNAseq
+Map259	Map259	OS	Bone Cancer	Osteosarcoma	0.3	0.03	Yes	Yes	WES + RNAseq
+Map260	Map260	NBL	Peripheral Nervous System	Neuroblastoma	0.5	0	Yes	No	WES + RNAseq
+Map261	Map261	HGGNOS	Glioma	High-Grade Glioma, NOS	203.5	13.16	Yes	Yes	WES + RNAseq
+Map262	Map262	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map263	Map263	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map264	Map264	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	0.1	0	Yes	Yes	WES + RNAseq
+Map265	Map265	MBL	Embryonal Tumor	Medulloblastoma	0.6	0.07	Yes	Yes	WES + RNAseq
+Map266	Map266	NBL	Peripheral Nervous System	Neuroblastoma	0.4	0	Yes	No	WES + RNAseq
+Map267	Map267	OS	Bone Cancer	Osteosarcoma	1.5	0.34	Yes	Yes	WES + RNAseq
+Map268	Map268	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map269	Map269	MBL	Embryonal Tumor	Medulloblastoma	1.1	0.54	Yes	Yes	WES + RNAseq
+Map270	Map270	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	1.1	0	Yes	Yes	WES + RNAseq
+Map271	Map271	PAST	Glioma	Pilocytic Astrocytoma	NA	NA	No for tumor	No	WES + RNAseq
+Map272	Map272	PBL	Pineal Tumor	Pineoblastoma	NA	NA	NA	NA	NA
+Map273	Map273	PAST	Glioma	Pilocytic Astrocytoma	NA	NA	No for tumor	No	WES
+Map274	Map274	MBL	Embryonal Tumor	Medulloblastoma	NA	NA	NA	NA	NA
+Map275	Map275	LIHB	Hepatobiliary Cancer	Hepatoblastoma	3.1	1.79	Yes	No	WES + RNAseq
+Map276	Map276	MBL	Embryonal Tumor	Medulloblastoma	0.2	0.19	Yes	No	WES + RNAseq
+Map277	Map277	ES	Bone Cancer	Ewing Sarcoma	NA	NA	No for tumor	No	WES + RNAseq
+Map278	Map278	RCC	Renal Cell Carcinoma	Renal Cell Carcinoma	NA	NA	No for tumor	No	WES + RNAseq
+Map279	Map279	NBL	Peripheral Nervous System	Neuroblastoma	1.3	0.36	Yes	Yes	WES
+Map280	Map280	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	0.2	0	Yes	Yes	WES + RNAseq
+Map281	Map281	OS	Bone Cancer	Osteosarcoma	2.2	4.15	Yes	Yes	WES + RNAseq
+Map282	Map282	ES	Bone Cancer	Ewing Sarcoma	0.4	0	Yes	Yes	WES + RNAseq
+Map283	Map283	BIMT	Germ Cell Tumor	Immature Teratoma	NA	NA	NA	NA	NA
+Map284	Map284	NBL	Peripheral Nervous System	Neuroblastoma	4.7	0.24	Yes	No	WES
+Map285	Map285	NA	Bone Cancer	Ewing Sarcoma	2.2	0.03	Yes	No	WES + RNAseq
+Map286	Map286	HGGNOS	Glioma	High-Grade Glioma, NOS	NA	NA	NA	NA	NA
+Map287	Map287	PNET	Embryonal Tumor	Primitive Neuroectodermal Tumor	0.1	0.02	Yes	No	WES + RNAseq
+Map288	Map288	HL	Hodgkin Lymphoma	Hodgkin Lymphoma	NA	NA	NA	NA	NA
+Map289	Map289	AML	Leukemia	Acute Myeloid Leukemia	1.2	0	Yes	Yes	WES + RNAseq
+Map290	Map290	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	0.9	0.06	Yes	Yes	WES + RNAseq
+Map291	Map291	OS	Bone Cancer	Osteosarcoma	NA	NA	No for tumor	No	WES + RNAseq
+Map292	Map292	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map293	Map293	ES	Bone Cancer	Ewing Sarcoma	0.7	0	Yes	No	WES + RNAseq
+Map294	Map294	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.8	0.14	Yes	No	WES + RNAseq
+Map295	Map295	PBL	Pineal Tumor	Pineoblastoma	1.7	1.82	Yes	Yes	WES + RNAseq
+Map296	Map296	LIHB	Hepatobiliary Cancer	Hepatoblastoma	1.3	0	Yes	No	WES + RNAseq
+Map297	Map297	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	2.4	0	Yes	Yes	WES + RNAseq
+Map298	Map298	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	0.2	0.55	Yes	No	WES + RNAseq
+Map299	Map299	AML	Leukemia	Acute Myeloid Leukemia	NA	NA	NA	NA	NA
+Map300	Map300	WT	Wilms Tumor	Wilms Tumor	0.9	0.25	Yes	No	WES + RNAseq
+Map301	Map301	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	4.6	6	Yes	Yes	WES + RNAseq
+Map302	Map302	ES	Bone Cancer	Ewing Sarcoma	0.6	0.02	Yes	Yes	WES + RNAseq
+Map303	Map303	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map304	Map304	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	0.2	0.03	Yes	Yes	WES + RNAseq
+Map305	Map305	MBL	Embryonal Tumor	Medulloblastoma	0.2	0.26	Yes	No	WES
+Map306	Map306	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	1.1	0.39	Yes	Yes	WES + RNAseq
+Map307	Map307	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.2	0.09	Yes	Yes	WES + RNAseq
+Map308	Map308	ES	Bone Cancer	Ewing Sarcoma	0.7	0.12	No for RNAseq	Yes	WES + RNAseq
+Map309	Map309	PNET	Embryonal Tumor	Primitive Neuroectodermal Tumor	0.4	0.05	Yes	No	WES + RNAseq
+Map310	Map310	LNM	Lymphatic Cancer, NOS	Lymphoid Neoplasm	NA	NA	No for tumor	No	WES
+Map311	Map311	MBL	Embryonal Tumor	Medulloblastoma	1.3	0.4	Yes	No	WES + RNAseq
+Map312	Map312	NBL	Peripheral Nervous System	Neuroblastoma	1.2	0.05	Yes	Yes	WES + RNAseq
+Map313	Map313	FLC	Hepatobiliary Cancer	Fibrolamellar Carcinoma	0.2	NA	Yes	No	WES + RNAseq
+Map314	Map314	MBL	Embryonal Tumor	Medulloblastoma	NA	NA	NA	NA	NA
+Map315	Map315	PBL	Pineal Tumor	Pineoblastoma	1.5	0.05	Yes	No	WES + RNAseq
+Map316	Map316	IMT	Soft Tissue Sarcoma	Inflammatory Myofibroblastic Tumor	NA	NA	No for tumor	No	WES + RNAseq
+Map317	Map317	CPT	Choroid Plexus Tumor	Choroid Plexus Tumor	1.5	1.41	Yes	No	WES + RNAseq
+Map318	Map318	LGGNOS	Glioma	Low-Grade Glioma, NOS	0.1	0	Yes	Yes	WES + RNAseq
+Map319	Map319	PHC	Pheochromocytoma	Pheochromocytoma	0.1	0	Yes	No	WES + RNAseq
+Map320	Map320	HGGNOS	Glioma	High-Grade Glioma, NOS	NA	NA	No for tumor	No	WES + RNAseq
+Map321	Map321	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.3	0.23	Yes	Yes	WES + RNAseq
+Map322	Map322	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	0.4	0.39	Yes	Yes	WES + RNAseq
+Map323	Map323	OS	Bone Cancer	Osteosarcoma	1.1	1.62	Yes	Yes	WES + RNAseq
+Map324	Map324	NBL	Peripheral Nervous System	Neuroblastoma	1.5	0.31	Yes	Yes	WES + RNAseq
+Map325	Map325	NBL	Peripheral Nervous System	Neuroblastoma	0.6	0.06	Yes	Yes	WES + RNAseq
+Map326	Map326	OS	Bone Cancer	Osteosarcoma	NA	NA	NA	No	WES + RNAseq
+Map327	Map327	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	0.2	0.36	Yes	Yes	WES + RNAseq
+Map328	Map328	ASPS	Soft Tissue Sarcoma	Alveolar Soft Part Sarcoma	0.4	0.02	Yes	Yes	WES
+Map329	Map329	MBL	Embryonal Tumor	Medulloblastoma	0.3	0.06	Yes	No	WES + RNAseq
+Map330	Map330	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	NA	NA		NA	NA
+Map331	Map331	NA	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.5	0.16	Yes	Yes	WES + RNAseq
+Map332	Map332	WT	Wilms Tumor	Wilms Tumor	0.2	0.22	Yes	No	WES + RNAseq
+Map333	Map333	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map334	Map334	AFH	Angiomatoid Fibrous Histiocytoma	Angiomatoid Fibrous Histiocytoma	0.1	0	Yes	No	WES + RNAseq
+Map335	Map335	LIHB	Hepatobiliary Cancer	Hepatoblastoma	0.5	0	No for RNAseq	Yes	WES + RNAseq
+Map336	Map336	EPM	Glioma	Ependymoma	0.6	0.27	Yes	No	WES + RNAseq
+Map337	Map337	OS	Bone Cancer	Osteosarcoma	1.2	0.03	Yes	Yes	WES + RNAseq
+Map338	Map338	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.6	0.21	Yes	Yes	WES + RNAseq
+Map339	Map339	RCC	Renal Cell Carcinoma	Renal Cell Carcinoma	NA	NA	No for tumor	No	WES + RNAseq
+Map340	Map340	PAST	Glioma	Pilocytic Astrocytoma	0.4	0	Yes	Yes	WES + RNAseq
+Map341	Map341	AML	Leukemia	Acute Myeloid Leukemia	0.4	0	Yes	Yes	WES + RNAseq
+Map342	Map342	DSRCT	Soft Tissue Sarcoma	Desmoplastic Small-Round-Cell Tumor	0.1	NA	Yes	No	WES + RNAseq
+Map343	Map343	ES	Bone Cancer	Ewing Sarcoma	0.7	0.17	Yes	Yes	WES + RNAseq
+Map344	Map344	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.5	0.02	Yes	Yes	WES + RNAseq
+Map345	Map345	OS	Bone Cancer	Osteosarcoma	1.9	0.06	Yes	Yes	WES
+Map346	Map346	BL	Mature B-Cell Neoplasms	Burkitt Lymphoma	2.1	0.63	Yes	Yes	WES + RNAseq
+Map347	Map347	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.4	0.09	Yes	No	WES + RNAseq
+Map348	Map348	MBL	Embryonal Tumor	Medulloblastoma	1.2	0.35	Yes	No	WES + RNAseq
+Map349	Map349	NBL	Peripheral Nervous System	Neuroblastoma	13.7	18.55	Yes	Yes	WES + RNAseq
+Map350	Map350	PPB	Non-Small Cell Lung Cancer	Pleuropulmonary Blastoma	1.3	2.13	Yes	Yes	WES + RNAseq
+Map351	Map351	MBL	Embryonal Tumor	Medulloblastoma	0.2	0.78	Yes	Yes	WES + RNAseq
+Map352	Map352	EPM	Glioma	Ependymoma	0.4	0.05	Yes	No	WES + RNAseq
+Map353	Map353	GMN	Germ Cell Tumor	Germinoma	0.2	0.14	Yes	Yes	WES + RNAseq
+Map354	Map354	OS	Bone Cancer	Osteosarcoma	1.9	0.07	Yes	No	WES + RNAseq
+Map355	Map355	MBL	Embryonal Tumor	Medulloblastoma	0.7	0.17	Yes	Yes	WES + RNAseq
+Map356	Map356	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.3	0	Yes	Yes	WES
+Map357	Map357	OS	Bone Cancer	Osteosarcoma	1	2.29	Yes	Yes	WES + RNAseq
+Map358	Map358	EPM	Glioma	Ependymoma	0.3	0.17	Yes	No	WES + RNAseq
+Map359	Map359	APE	CNS Cancer	Anaplastic Ependymoma	1.5	0.05	Yes	No	WES + RNAseq
+Map360	Map360	EPM	Glioma	Ependymoma	0.2	0.47	Yes	No	WES + RNAseq
+Map361	Map361	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.6	0.89	Yes	Yes	WES + RNAseq
+Map362	Map362	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	NA	NA	NA	NA	NA
+Map363	Map363	PAST	Glioma	Pilocytic Astrocytoma	0.2	0.06	Yes	Yes	WES + RNAseq
+Map364	Map364	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.9	0	Yes	Yes	WES + RNAseq
+Map365	Map365	OS	Bone Cancer	Osteosarcoma	2.1	0.42	Yes	Yes	WES + RNAseq
+Map366	Map366	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	NA	NA	NA	NA	NA
+Map367	Map367	GMN	Germ Cell Tumor	Germinoma	0.3	0.55	Yes	Yes	WES + RNAseq
+Map368	Map368	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.8	0.37	Yes	Yes	WES + RNAseq
+Map369	Map369	MBL	Embryonal Tumor	Medulloblastoma	0.8	2.24	Yes	Yes	WES + RNAseq
+Map370	Map370	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	NA	NA	NA	NA	NA
+Map371	Map371	NBL	Peripheral Nervous System	Neuroblastoma	1	0.57	Yes	Yes	WES + RNAseq
+Map372	Map372	MBL	Embryonal Tumor	Medulloblastoma	0.5	0.1	Yes	No	WES + RNAseq
+Map373	Map373	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	0.6	0	Yes	Yes	WES + RNAseq
+Map374	Map374	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map375	Map375	NBL	Peripheral Nervous System	Neuroblastoma	2	0.05	Yes	Yes	WES
+Map376	Map376	PNET	Embryonal Tumor	Primitive Neuroectodermal Tumor	0.4	NA	Yes	No	WES + RNAseq
+Map377	Map377	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	NA	NA	Yes	Yes	WES + RNAseq
+Map378	Map378	MBL	Embryonal Tumor	Medulloblastoma	1.2	0.18	Yes	No	WES + RNAseq
+Map379	Map379	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.3	0.03	Yes	No	WES + RNAseq
+Map380	Map380	MBL	Embryonal Tumor	Medulloblastoma	NA	NA	NA	NA	NA
+Map381	Map381	ASPS	Soft Tissue Sarcoma	Alveolar Soft Part Sarcoma	0.4	0	Yes	Yes	WES + RNAseq
+Map382	Map382	PAST	Glioma	Pilocytic Astrocytoma	NA	NA	No for tumor	No	WES + RNAseq
+Map383	Map383	GMN	Germ Cell Tumor	Germinoma	0.4	0.44	Yes	No	WES + RNAseq
+Map384	Map384	NBL	Peripheral Nervous System	Neuroblastoma	0.7	0.15	Yes	Yes	WES
+Map385	Map385	MBL	Embryonal Tumor	Medulloblastoma	1	0.73	Yes	No	WES + RNAseq
+Map386	Map386	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map387	Map387	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	3	0	Yes	Yes	WES + RNAseq
+Map388	Map388	GB	Glioma	Glioblastoma, IDH-wildtype	1.1	0.02	Yes	Yes	WES + RNAseq
+Map389	Map389	MBL	Embryonal Tumor	Medulloblastoma	0.4	0.05	Yes	Yes	WES + RNAseq
+Map390	Map390	NBL	Peripheral Nervous System	Neuroblastoma	1.6	1.33	Yes	No	WES + RNAseq
+Map391	Map391	HL	Hodgkin Lymphoma	Hodgkin Lymphoma	NA	NA	No for tumor	No	WES
+Map392	Map392	ES	Bone Cancer	Ewing Sarcoma	0.5	0.64	Yes	Yes	WES + RNAseq
+Map393	Map393	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.8	0.42	Yes	Yes	WES + RNAseq
+Map394	Map394	ES	Bone Cancer	Ewing Sarcoma	1.7	0.01	Yes	No	WES + RNAseq
+Map395	Map395	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	1.5	0.4	Yes	Yes	WES + RNAseq
+Map396	Map396	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.6	0.21	Yes	Yes	WES + RNAseq
+Map397	Map397	GB	Glioma	Glioblastoma, IDH-wildtype	1.6	0.07	Yes	Yes	WES + RNAseq
+Map398	Map398	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.4	1.32	Yes	No	WES + RNAseq
+Map399	Map399	OS	Bone Cancer	Osteosarcoma	0.4	NA	Yes	Yes	WES + RNAseq
+Map400	Map400	NBL	Peripheral Nervous System	Neuroblastoma	1.9	0.49	Yes	Yes	WES + RNAseq
+Map401	Map401	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	0.9	0	Yes	Yes	WES
+Map402	Map402	EPM	Glioma	Ependymoma	0.5	0	Yes	No	WES + RNAseq
+Map403	Map403	ACC	Adrenocortical Carcinoma	Adrenocortical Carcinoma	NA	NA	NA	NA	NA
+Map404	Map404	OS	Bone Cancer	Osteosarcoma	NA	NA	NA	NA	NA
+Map405	Map405	PPB	Non-Small Cell Lung Cancer	Pleuropulmonary Blastoma	1	0.74	Yes	Yes	WES + RNAseq
+Map406	Map406	DMG	Glioma	Diffuse Midline Glioma, H3 K27-Altered	0.5	0.49	Yes	Yes	WES + RNAseq
+Map407	Map407	OS	Bone Cancer	Osteosarcoma	0.4	0.02	Yes	Yes	WES + RNAseq
+Map408	Map408	MBL	Embryonal Tumor	Medulloblastoma	0.7	0.27	Yes	No	WES + RNAseq
+Map409	Map409	OS	Bone Cancer	Osteosarcoma	0.4	1.54	Yes	Yes	WES + RNAseq
+Map410	Map410	EPM	Glioma	Ependymoma	0.9	0.37	Yes	Yes	WES + RNAseq
+Map411	Map411	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map412	Map412	ACC	Adrenocortical Carcinoma	Adrenocortical Carcinoma	1.3	3.02	Yes	Yes	WES + RNAseq
+Map413	Map413	HGGNOS	Glioma	High-Grade Glioma, NOS	0.6	0.16	Yes	Yes	WES + RNAseq
+Map414	Map414	AGNG	Glioma	Anaplastic Ganglioglioma	NA	NA	No for tumor	No	WES + RNAseq
+Map415	Map415	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	NA	NA	NA	NA	NA
+Map416	Map416	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES
+Map417	Map417	OS	Bone Cancer	Osteosarcoma	0.6	0.2	Yes	Yes	WES + RNAseq
+Map418	Map418	SACA	Salivary Gland Cancer	Salivary Carcinoma	0.3	0	Yes	No	WES + RNAseq
+Map419	Map419	NBL	Peripheral Nervous System	Neuroblastoma	0.9	0.21	Yes	Yes	WES + RNAseq
+Map421	Map421	WT	Wilms Tumor	Wilms Tumor	0.5	0.73	Yes	Yes	WES + RNAseq
+Map422	Map422	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	0.8	3.48	Yes	Yes	WES + RNAseq
+Map423	Map423	GB	Glioma	Glioblastoma, IDH-wildtype	0.3	0	Yes	Yes	WES + RNAseq
+Map424	Map424	EPM	Glioma	Ependymoma	1.1	0.31	Yes	Yes	WES + RNAseq
+Map425	Map425	ESST	Soft Tissue Sarcoma	Ewing Sarcoma of Soft Tissue	0.7	0.03	Yes	Yes	WES + RNAseq
+Map426	Map426	GB	Glioma	Glioblastoma, IDH-wildtype	1.4	0.76	Yes	Yes	WES + RNAseq
+Map427	Map427	OS	Bone Cancer	Osteosarcoma	0.4	5.05	Yes	Yes	WES + RNAseq
+Map428	Map428	EPM	Glioma	Ependymoma	NA	NA	NA	NA	NA
+Map429	Map429	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	1.6	1.41	Yes	Yes	WES + RNAseq
+Map430	Map430	EPM	Glioma	Ependymoma	1.2	0.09	Yes	No	WES + RNAseq
+Map431	Map431	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.9	0.42	Yes	Yes	WES + RNAseq
+Map432	Map432	EPM	Glioma	Ependymoma	NA	NA	No for tumor	No	WES + RNAseq
+Map433	Map433	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.2	0.02	Yes	Yes	WES + RNAseq
+Map434	Map434	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	NA	NA	No for tumor	No	WES + RNAseq
+Map435	Map435	ES	Bone Cancer	Ewing Sarcoma	0.4	0.07	Yes	No	WES + RNAseq
+Map436	Map436	NA	NA	NA	0.2	0.18	Yes	Yes	WES + RNAseq
+Map437	Map437	GB	Glioma	Glioblastoma, IDH-wildtype	0.2	0	Yes	Yes	WES + RNAseq
+Map438	Map438	GB	Glioma	Glioblastoma, IDH-wildtype	1.1	0.11	Yes	Yes	WES + RNAseq
+Map439	Map439	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.6	0.01	Yes	No	WES + RNAseq
+Map440	Map440	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	NA	NA	No for tumor	No	WES + RNAseq
+Map441	Map441	EPM	Glioma	Ependymoma	NA	NA	No for tumor	No	WES + RNAseq
+Map442	Map442	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	1.2	0.5	Yes	Yes	WES + RNAseq
+Map443	Map443	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map444	Map444	ESST	Soft Tissue Sarcoma	Ewing Sarcoma of Soft Tissue	0.3	0	Yes	No	WES + RNAseq
+Map445	Map445	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	21.1	14.95	Yes	No	WES
+Map446	Map446	GB	Glioma	Glioblastoma, IDH-wildtype	0.5	2.37	Yes	Yes	WES + RNAseq
+Map447	Map447	NBL	Peripheral Nervous System	Neuroblastoma	0.5	1.48	Yes	Yes	WES + RNAseq
+Map448	Map448	NBL	Peripheral Nervous System	Neuroblastoma	1.3	0	Yes	Yes	WES + RNAseq
+Map449	Map449	ES	Bone Cancer	Ewing Sarcoma	1.9	0.16	Yes	Yes	WES + RNAseq
+Map450	Map450	NBL	Peripheral Nervous System	Neuroblastoma	2.2	0	Yes	Yes	WES + RNAseq
+Map451	Map451	ES	Bone Cancer	Ewing Sarcoma	0.3	0.02	Yes	Yes	WES
+Map452	Map452	OS	Bone Cancer	Osteosarcoma	3.4	2.06	Yes	Yes	WES + RNAseq
+Map453	Map453	LIHB	Hepatobiliary Cancer	Hepatoblastoma	1.2	0.02	Yes	No	WES + RNAseq
+Map454	Map454	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	NA	NA	NA	NA	NA
+Map455	Map455	MBL	Embryonal Tumor	Medulloblastoma	1.8	0	Yes	No	WES + RNAseq
+Map456	Map456	PBL	Pineal Tumor	Pineoblastoma	1.2	0.13	Yes	No	WES + RNAseq
+Map457	Map457	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map458	Map458	NBL	Peripheral Nervous System	Neuroblastoma	0.4	0.07	Yes	No	WES + RNAseq
+Map459	Map459	NBL	Peripheral Nervous System	Neuroblastoma	0.8	0.08	Yes	Yes	WES + RNAseq
+Map460	Map460	MBL	Embryonal Tumor	Medulloblastoma	NA	NA	NA	NA	NA
+Map461	Map461	BL	Mature B-Cell Neoplasms	Burkitt Lymphoma	4.2	0.58	Yes	Yes	WES + RNAseq
+Map462	Map462	ES	Bone Cancer	Ewing Sarcoma	0.1	0.02	Yes	No	WES + RNAseq
+Map463	Map463	MBL	Embryonal Tumor	Medulloblastoma	0.8	0.23	Yes	No	WES
+Map464	Map464	NBL	Peripheral Nervous System	Neuroblastoma	1.3	0.19	Yes	No	WES + RNAseq
+Map465	Map465	DSRCT	Soft Tissue Sarcoma	Desmoplastic Small-Round-Cell Tumor	0.4	0	Yes	No	WES + RNAseq
+Map466	Map466	OS	Bone Cancer	Osteosarcoma	0.7	0	Yes	Yes	WES + RNAseq
+Map467	Map467	MBL	Embryonal Tumor	Medulloblastoma	0.7	0.66	Yes	Yes	WES
+Map468	Map468	EPM	Glioma	Ependymoma	0.5	0.19	Yes	No	WES + RNAseq
+Map469	Map469	OS	Bone Cancer	Osteosarcoma	1.5	2.47	Yes	Yes	WES + RNAseq
+Map470	Map470	AML	Leukemia	Acute Myeloid Leukemia	0.7	0	Yes	Yes	WES + RNAseq
+Map471	Map471	ESST	Soft Tissue Sarcoma	Ewing Sarcoma of Soft Tissue	NA	NA	NA	NA	NA
+Map472	Map472	IMT	Soft Tissue Sarcoma	Inflammatory Myofibroblastic Tumor	10.7	0	Yes	Yes	WES + RNAseq
+Map473	Map473	DMG	Glioma	Diffuse Midline Glioma, H3 K27-Altered	0.8	0.29	Yes	Yes	WES + RNAseq
+Map474	Map474	GB	Glioma	Glioblastoma, IDH-wildtype	0.7	0.22	Yes	Yes	WES + RNAseq
+Map475	Map475	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	2.3	0.52	No for RNAseq	No	WES + RNAseq
+Map476	Map476	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	1.5	1.71	No for RNAseq	Yes	WES + RNAseq
+Map477	Map477	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map478	Map478	OS	Bone Cancer	Osteosarcoma	2.2	2.03	Yes	Yes	WES + RNAseq
+Map479	Map479	EPM	Glioma	Ependymoma	0.2	0.17	Yes	No	WES + RNAseq
+Map480	Map480	WT	Wilms Tumor	Wilms Tumor	0.6	0	Yes	Yes	WES + RNAseq
+Map481	Map481	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map482	Map482	ES	Bone Cancer	Ewing Sarcoma	0.6	0.37	Yes	No	WES + RNAseq
+Map483	Map483	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map484	Map484	NBL	Peripheral Nervous System	Neuroblastoma	0.3	0.06	Yes	Yes	WES + RNAseq
+Map485	Map485	NBL	Peripheral Nervous System	Neuroblastoma	2.5	1.2	Yes	No	WES
+Map486	Map486	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	0.3	0	Yes	Yes	WES + RNAseq
+Map487	Map487	MBL	Embryonal Tumor	Medulloblastoma	0	1.75	Yes	Yes	WES + RNAseq
+Map488	Map488	JMML	Myelodysplastic/Myeloproliferative Neoplasms	Juvenile Myelomonocytic Leukemia	0.4	0	Yes	Yes	WES + RNAseq
+Map489	Map489	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map490	Map490	NBL	Peripheral Nervous System	Neuroblastoma	1.6	0.25	Yes	No	WES + RNAseq
+Map491	Map491	MBL	Embryonal Tumor	Medulloblastoma	0.4	0.13	Yes	Yes	WES + RNAseq
+Map492	Map492	OS	Bone Cancer	Osteosarcoma	0.7	3.73	Yes	Yes	WES + RNAseq
+Map493	Map493	OS	Bone Cancer	Osteosarcoma	1.2	0	Yes	No	WES
+Map494	Map494	OS	Bone Cancer	Osteosarcoma	NA	NA	NA	NA	NA
+Map495	Map495	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.6	0.05	Yes	Yes	WES + RNAseq
+Map496	Map496	PNET	Embryonal Tumor	Primitive Neuroectodermal Tumor	0.9	0.04	Yes	No	WES + RNAseq
+Map497	Map497	MCHS	Bone Cancer	Mesenchymal Chondrosarcoma	0.5	0	Yes	No	WES + RNAseq
+Map498	Map498	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	No	WES + RNAseq
+Map499	Map499	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.4	0.06	Yes	Yes	WES + RNAseq
+Map500	Map500	PMA	Glioma	Pilomyxoid Astrocytoma	NA	NA	No for tumor WES	Yes	WES + RNAseq
+Map501	Map501	PNET	Embryonal Tumor	Primitive Neuroectodermal Tumor	0.2	0	Yes	No	WES + RNAseq
+Map502	Map502	AGNG	Glioma	Anaplastic Ganglioglioma	6.6	4.89	Yes	Yes	WES + RNAseq
+Map503	Map503	HS	Histiocytosis	Histiocytic Sarcoma	1.9	0	Yes	Yes	WES + RNAseq
+Map504	Map504	WT	Wilms Tumor	Wilms Tumor	0.6	0	Yes	Yes	WES + RNAseq
+Map505	Map505	OS	Bone Cancer	Osteosarcoma	0.1	0.03	Yes	No	WES + RNAseq
+Map506	Map506	CPT	Choroid Plexus Tumor	Choroid Plexus Tumor	0.6	0.09	Yes	Yes	WES
+Map507	Map507	OS	Bone Cancer	Osteosarcoma	1.8	1.11	Yes	Yes	WES + RNAseq
+Map508	Map508	PAST	Glioma	Pilocytic Astrocytoma	NA	NA	No for tumor	No	WES + RNAseq
+Map509	Map509	ES	Bone Cancer	Ewing Sarcoma	0.6	0	Yes	No	WES + RNAseq
+Map510	Map510	OS	Bone Cancer	Osteosarcoma	0.9	3.58	Yes	Yes	WES + RNAseq
+Map511	Map511	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	NA	NA	NA	NA	NA
+Map512	Map512	NBL	Peripheral Nervous System	Neuroblastoma	0.9	0.21	Yes	Yes	WES + RNAseq
+Map513	Map513	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	0.3	0	Yes	Yes	WES + RNAseq
+Map514	Map514	LIPO	Soft Tissue Sarcoma	Liposarcoma	0.2	0.06	Yes	Yes	WES + RNAseq
+Map515	Map515	ES	Bone Cancer	Ewing Sarcoma	1	0.17	Yes	No	WES + RNAseq
+Map516	Map516	OS	Bone Cancer	Osteosarcoma	1.5	0.41	Yes	Yes	WES + RNAseq
+Map517	Map517	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	1.6	0.62	Yes	Yes	WES
+Map518	Map518	ES	Bone Cancer	Ewing Sarcoma	0.6	0.05	Yes	No	WES + RNAseq
+Map519	Map519	NA	Glioma	Diffuse Intrinsic Pontine Glioma	0.4	0.16	Yes	Yes	WES + RNAseq
+Map520	Map520	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map521	Map521	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	0.5	0.42	Yes	Yes	WES + RNAseq
+Map522	Map522	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	1.6	0.03	Yes	Yes	WES + RNAseq
+Map523	Map523	DSRCT	Soft Tissue Sarcoma	Desmoplastic Small-Round-Cell Tumor	0.3	0.05	Yes	No	WES + RNAseq
+Map524	Map524	DES	Soft Tissue Sarcoma	Desmoid/Aggressive Fibromatosis	0	0	Yes	No	WES + RNAseq
+Map525	Map525	NBL	Peripheral Nervous System	Neuroblastoma	1.5	0.68	Yes	Yes	WES + RNAseq
+Map526	Map526	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map527	Map527	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	NA	NA	No for tumor	No	WES + RNAseq
+Map528	Map528	MRTL	Malignant Rhabdoid Tumor of the Liver	Malignant Rhabdoid Tumor of the Liver	NA	NA	No	NA	NA
+Map529	Map529	OS	Bone Cancer	Osteosarcoma	1.5	1.32	Yes	Yes	WES + RNAseq
+Map530	Map530	WT	Wilms Tumor	Wilms Tumor	1.2	0.89	Yes	Yes	WES + RNAseq
+Map531	Map531	MBL	Embryonal Tumor	Medulloblastoma	1.5	0.22	Yes	Yes	WES + RNAseq
+Map532	Map532	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	1.1	0.07	Yes	No	WES + RNAseq
+Map533	Map533	NBL	Peripheral Nervous System	Neuroblastoma	1	0.87	Yes	Yes	WES + RNAseq
+Map534	Map534	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	1.4	0.01	Yes	Yes	WES + RNAseq
+Map535	Map535	ES	Bone Cancer	Ewing Sarcoma	0.7	0.59	Yes	No	WES + RNAseq
+Map536	Map536	PNET	Embryonal Tumor	Primitive Neuroectodermal Tumor	0.3	0.07	Yes	No	WES + RNAseq
+Map537	Map537	GB	Glioma	Glioblastoma, IDH-wildtype	1	0.51	Yes	Yes	WES + RNAseq
+Map538	Map538	OS	Bone Cancer	Osteosarcoma	1.2	0.04	Yes	Yes	WES + RNAseq
+Map539	Map539	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	2.2	0.05	Yes	Yes	WES + RNAseq
+Map540	Map540	NBL	Peripheral Nervous System	Neuroblastoma	4.5	0.57	Yes	Yes	WES
+Map541	Map541	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	2.5	0.48	Yes	Yes	WES + RNAseq
+Map542	Map542	EPIS	Soft Tissue Sarcoma	Epithelioid Sarcoma	NA	NA	No for tumor	No	WES + RNAseq
+Map543	Map543	EPM	Glioma	Ependymoma	0.4	0.1	Yes	No	WES + RNAseq
+Map544	Map544	DSRCT	Soft Tissue Sarcoma	Desmoplastic Small-Round-Cell Tumor	NA	NA	NA	NA	NA
+Map545	Map545	PECOMA	Soft Tissue Sarcoma	Perivascular Epithelioid Cell Tumor	0.8	0	Yes	Yes	WES + RNAseq
+Map546	Map546	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	NA	NA	NA	NA	NA
+Map547	Map547	GB	Glioma	Glioblastoma, IDH-wildtype	12	3.65	Yes	Yes	WES + RNAseq
+Map548	Map548	PPB	Non-Small Cell Lung Cancer	Pleuropulmonary Blastoma	0.5	0	Yes	Yes	WES + RNAseq
+Map549	Map549	GB	Glioma	Glioblastoma, IDH-wildtype	1.6	0.07	Yes	Yes	WES + RNAseq
+Map550	Map550	HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	NA	NA	NA	NA	NA
+Map551	Map551	AML	Leukemia	Acute Myeloid Leukemia	NA	NA	NA	NA	NA
+Map552	Map552	MEL	Melanoma	Melanoma	0.4	3.24	Yes	Yes	WES + RNAseq
+Map553	Map553	NBL	Peripheral Nervous System	Neuroblastoma	0.8	0.29	Yes	Yes	WES + RNAseq
+Map555	Map555	LGT	Lacrimal Gland Tumor	Lacrimal Gland Tumor	0.7	0.05	Yes	Yes	WES + RNAseq
+Map556	Map556	PAST	Glioma	Pilocytic Astrocytoma	NA	NA	NA	NA	NA
+Map558	Map558	DSRCT	Soft Tissue Sarcoma	Desmoplastic Small-Round-Cell Tumor	0.8	0.05	Yes	No	WES + RNAseq
+Map559	Map559	UESL	Undifferentiated Embryonal Sarcoma of the Liver	Undifferentiated Embryonal Sarcoma of the Liver	NA	NA	NA	NA	NA
+Map560	Map560	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.6	0.7	Yes	No	WES + RNAseq
+Map561	Map561	ES	Bone Cancer	Ewing Sarcoma	0.5	0	Yes	No	WES + RNAseq
+Map562	Map562	EPM	Glioma	Ependymoma	0.2	0	Yes	No	WES + RNAseq
+Map563	Map563	NBL	Peripheral Nervous System	Neuroblastoma	0.1	0	Yes	Yes	WES + RNAseq
+Map564	Map564	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map565	Map565	NBL	Peripheral Nervous System	Neuroblastoma	1.8	0	Yes	Yes	WES + RNAseq
+Map566	Map566	THAP	Thyroid Cancer	Anaplastic Thyroid Cancer	NA	NA	No for tumor WES	Yes	WES + RNAseq
+Map567	Map567	AGNG	Glioma	Anaplastic Ganglioglioma	0.6	0.17	Yes	Yes	WES + RNAseq
+Map568	Map568	WT	Wilms Tumor	Wilms Tumor	0.6	0.04	Yes	No	WES + RNAseq
+Map569	Map569	MBL	Embryonal Tumor	Medulloblastoma	0.7	0.94	Yes	No	WES + RNAseq
+Map570	Map570	MRTL	Malignant Rhabdoid Tumor of the Liver	Malignant Rhabdoid Tumor of the Liver	NA	NA	No for tumor	No	WES + RNAseq
+Map571	Map571	MBL	Embryonal Tumor	Medulloblastoma	0.8	0.36	Yes	No	WES + RNAseq
+Map572	Map572	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	8.7	4.25	Yes	Yes	WES + RNAseq
+Map573	Map573	COADREAD	Colorectal Cancer	Colorectal Adenocarcinoma	1.6	0.68	Yes	Yes	WES + RNAseq
+Map574	Map574	OS	Bone Cancer	Osteosarcoma	1.4	0.22	Yes	Yes	WES + RNAseq
+Map575	Map575	MPNST	Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	1.1	0.49	Yes	No	WES
+Map576	Map576	ES	Bone Cancer	Ewing Sarcoma	0.5	0.28	Yes	No	WES + RNAseq
+Map577	Map577	ESST	Soft Tissue Sarcoma	Ewing Sarcoma of Soft Tissue	0.2	0	Yes	No	WES
+Map578	Map578	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map579	Map579	ES	Bone Cancer	Ewing Sarcoma	0.1	0.02	Yes	No	WES + RNAseq
+Map580	Map580	NA	NA	NA	0.9	0	Yes	Yes	WES + RNAseq
+Map581	Map581	FLC	Hepatobiliary Cancer	Fibrolamellar Carcinoma	1.2	0.12	Yes	No	WES
+Map582	Map582	OS	Bone Cancer	Osteosarcoma	NA	NA	No	NA	NA
+Map583	Map583	OS	Bone Cancer	Osteosarcoma	0.2	0	Yes	Yes	WES + RNAseq
+Map584	Map584	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0.4	0.01	Yes	Yes	WES + RNAseq
+Map585	Map585	NBL	Peripheral Nervous System	Neuroblastoma	0.7	0.39	Yes	Yes	WES + RNAseq
+Map586	Map586	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	0	0	Yes	Yes	WES + RNAseq
+Map587	Map587	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	0.8	0	Yes	Yes	WES + RNAseq
+Map588	Map588	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	NA	NA	NA	NA	NA
+Map589	Map589	EPMT	CNS Cancer	Ependymomal Tumor	0.3	0.07	Yes	Yes	WES + RNAseq
+Map590	Map590	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.3	0.12	Yes	Yes	WES + RNAseq
+Map591	Map591	WT	Wilms Tumor	Wilms Tumor	0.8	0	Yes	No	WES + RNAseq
+Map592	Map592	EPM	Glioma	Ependymoma	0.8	0	Yes	No	WES + RNAseq
+Map593	Map593	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA		NA	NA
+Map594	Map594	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	NA	NA	No for tumor	No	WES + RNAseq
+Map595	Map595	LNM	Lymphatic Cancer, NOS	Lymphoid Neoplasm	0.3	0	Yes	No	WES + RNAseq
+Map596	Map596	MNG	CNS Cancer	Meningioma	0.4	0	Yes	No	WES + RNAseq
+Map597	Map597	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map598	Map598	SYNS	Soft Tissue Sarcoma	Synovial Sarcoma	0.5	0.11	Yes	No	WES
+Map599	Map599	DMG	Glioma	Diffuse Midline Glioma, H3 K27-Altered	1.8	0	Yes	Yes	WES + RNAseq
+Map600	Map600	NA	NA	NA	0.2	0	Yes	Yes	WES + RNAseq
+Map601	Map601	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.3	0.39	Yes	Yes	WES + RNAseq
+Map602	Map602	OS	Bone Cancer	Osteosarcoma	2.4	1.33	Yes	Yes	WES + RNAseq
+Map603	Map603	PCNSM	Melanoma	Primary CNS Melanoma	0.2	0.07	Yes	No	WES + RNAseq
+Map604	Map604	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	2	0	Yes	Yes	WES
+Map605	Map605	ES	Bone Cancer	Ewing Sarcoma	0.4	0.35	Yes	Yes	WES + RNAseq
+Map606	Map606	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	2.1	0.51	Yes	Yes	WES + RNAseq
+Map607	Map607	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	1.3	0	Yes	Yes	WES + RNAseq
+Map608	Map608	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	NA	NA	NA	NA	NA
+Map609	Map609	EPM	Glioma	Ependymoma	0.2	0	Yes	No	WES + RNAseq
+Map610	Map610	NA	NA	NA	NA	NA	NA	NA	NA
+Map611	Map611	GNOS	Glioma	Glioma, NOS	1.1	0	Yes	Yes	WES + RNAseq
+Map612	Map612	EPM	Glioma	Ependymoma	0.5	0.1	Yes	No	WES + RNAseq
+Map613	Map613	LIHB	Hepatobiliary Cancer	Hepatoblastoma	1.7	0.18	Yes	No	WES + RNAseq
+Map614	Map614	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map615	Map615	ES	Bone Cancer	Ewing Sarcoma	0.5	0.04	Yes	Yes	WES + RNAseq
+Map616	Map616	OS	Bone Cancer	Osteosarcoma	0.9	2.24	Yes	Yes	WES
+Map617	Map617	CCS	Soft Tissue Sarcoma	Clear Cell Sarcoma	0.3	0	Yes	No	WES + RNAseq
+Map618	Map618	PAST	Glioma	Pilocytic Astrocytoma	0.1	0.02	Yes	Yes	WES + RNAseq
+Map619	Map619	FLC	Hepatobiliary Cancer	Fibrolamellar Carcinoma	0.4	0	Yes	No	WES + RNAseq
+Map620	Map620	AML	Leukemia	Acute Myeloid Leukemia	0.1	0	Yes	No	WES + RNAseq
+Map621	Map621	OS	Bone Cancer	Osteosarcoma	1.6	1.01	Yes	No	WES + RNAseq
+Map622	Map622	DSRCT	Soft Tissue Sarcoma	Desmoplastic Small-Round-Cell Tumor	NA	NA	NA	NA	NA
+Map623	Map623	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	1.1	4	Yes	Yes	WES + RNAseq
+Map624	Map624	ES	Bone Cancer	Ewing Sarcoma	0.4	0	Yes	No	WES + RNAseq
+Map625	Map625	ES	Bone Cancer	Ewing Sarcoma	0.9	0.03	Yes	No	WES + RNAseq
+Map626	Map626	MBL	Embryonal Tumor	Medulloblastoma	0.7	0.43	Yes	Yes	WES
+Map627	Map627	WT	Wilms Tumor	Wilms Tumor	0.7	0.92	Yes	Yes	WES + RNAseq
+Map628	Map628	NBL	Peripheral Nervous System	Neuroblastoma	0.2	0	Yes	No	WES
+Map629	Map629	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	0.6	0	Yes	No	WES
+Map630	Map630	ES	Bone Cancer	Ewing Sarcoma	1.5	1.06	No for RNAseq	Yes	WES + RNAseq
+Map631	Map631	NBL	Peripheral Nervous System	Neuroblastoma	2.4	0	Yes	No	WES + RNAseq
+Map632	Map632	APXA	Glioma	Anaplastic Pleomorphic Xanthoastrocytoma	0.5	0.51	Yes	Yes	WES + RNAseq
+Map633	Map633	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	1.3	NA	Yes	No	WES + RNAseq
+Map634	Map634	ES	Bone Cancer	Ewing Sarcoma	0.8	3.06	No for RNAseq	Yes	WES + RNAseq
+Map635	Map635	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map636	Map636	GB	Glioma	Glioblastoma, IDH-wildtype	0.4	0	Yes	Yes	WES + RNAseq
+Map637	Map637	PAST	Glioma	Pilocytic Astrocytoma	NA	NA	No for tumor	No	WES + RNAseq
+Map638	Map638	ES	Bone Cancer	Ewing Sarcoma	0.9	0.4	Yes	No	WES + RNAseq
+Map639	Map639	NBL	Peripheral Nervous System	Neuroblastoma	0.1	0.42	Yes	No	WES + RNAseq
+Map640	Map640	SYNS	Soft Tissue Sarcoma	Synovial Sarcoma	0.5	0.6	Yes	No	WES + RNAseq
+Map641	Map641	LNM	Lymphatic Cancer, NOS	Lymphoid Neoplasm	15.2	2.48	Yes	Yes	WES + RNAseq
+Map642	Map642	ODG	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	0.6	0.03	Yes	Yes	WES + RNAseq
+Map643	Map643	EPM	Glioma	Ependymoma	NA	NA	NA	NA	NA
+Map644	Map644	APXA	Glioma	Anaplastic Pleomorphic Xanthoastrocytoma	0.9	0.28	Yes	Yes	WES + RNAseq
+Map645	Map645	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	0.3	0.02	Yes	Yes	WES + RNAseq
+Map646	Map646	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	8.7	0.84	Yes	Yes	WES + RNAseq
+Map647	Map647	ES	Bone Cancer	Ewing Sarcoma	0.6	0.47	Yes	Yes	WES
+Map648	Map648	OS	Bone Cancer	Osteosarcoma	0.2	1.49	Yes	Yes	WES + RNAseq
+Map649	Map649	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	NA	NA	NA	NA	NA
+Map650	Map650	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	0.3	0	Yes	Yes	WES + RNAseq
+Map651	Map651	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	0.4	0	Yes	Yes	WES + RNAseq
+Map652	Map652	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map653	Map653	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.8	0.37	Yes	Yes	WES + RNAseq
+Map654	Map654	OS	Bone Cancer	Osteosarcoma	NA	NA	No	NA	NA
+Map655	Map655	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	0.5	0.22	Yes	Yes	WES + RNAseq
+Map657	Map657	NBL	Peripheral Nervous System	Neuroblastoma	0.3	NA	Yes	Yes	WES + RNAseq
+Map658	Map658	OS	Bone Cancer	Osteosarcoma	NA	NA	NA	No	RNAseq
+Map659	Map659	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.1	0	Yes	Yes	WES + RNAseq
+Map660	Map660	EPIS	Soft Tissue Sarcoma	Epithelioid Sarcoma	0.2	0.07	Yes	Yes	WES + RNAseq
+Map661	Map661	PAST	Glioma	Pilocytic Astrocytoma	0	0	Yes	Yes	WES + RNAseq
+Map662	Map662	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.6	0.32	Yes	Yes	WES + RNAseq
+Map663	Map663	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.3	0.28	Yes	No	WES + RNAseq
+Map664	Map664	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	NA	NA	NA	NA	NA
+Map665	Map665	OS	Bone Cancer	Osteosarcoma	1.1	1.77	Yes	Yes	WES + RNAseq
+Map666	Map666	RMS	Soft Tissue Sarcoma	Rhabdomyosarcoma	2.9	1.16	Yes	Yes	WES + RNAseq
+Map667	Map667	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.4	0.38	Yes	Yes	WES + RNAseq
+Map668	Map668	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.5	1.23	Yes	Yes	WES + RNAseq
+Map669	Map669	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	18.4	12.94	Yes	Yes	WES + RNAseq
+Map670	Map670	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	NA	NA	NA	NA	NA
+Map671	Map671	LIHB	Hepatobiliary Cancer	Hepatoblastoma	0.4	0.06	Yes	Yes	WES + RNAseq
+Map672	Map672	OS	Bone Cancer	Osteosarcoma	0.6	3.36	Yes	No	WES + RNAseq
+Map673	Map673	NBL	Peripheral Nervous System	Neuroblastoma	1.2	0.7	Yes	Yes	WES
+Map674	Map674	GMN	Germ Cell Tumor	Germinoma	0.5	0.81	Yes	Yes	WES + RNAseq
+Map675	Map675	OS	Bone Cancer	Osteosarcoma	0.8	3.58	Yes	Yes	WES + RNAseq
+Map676	Map676	DIFG	Glioma	Diffuse Glioma	0	0.39	Yes	Yes	WES + RNAseq
+Map677	Map677	MBL	Embryonal Tumor	Medulloblastoma	0.7	0.32	Yes	Yes	WES + RNAseq
+Map678	Map678	EPM	Glioma	Ependymoma	0.4	0.03	Yes	No	WES + RNAseq
+Map679	Map679	PAST	Glioma	Pilocytic Astrocytoma	0.3	0.02	Yes	Yes	WES + RNAseq
+Map680	Map680	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map681	Map681	ATRT	Embryonal Tumor	Atypical Teratoid/Rhabdoid Tumor	NA	NA	NA	NA	NA
+Map682	Map682	ACC	Adrenocortical Carcinoma	Adrenocortical Carcinoma	1.6	1.4	Yes	No	WES + RNAseq
+Map683	Map683	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.8	0.44	Yes	Yes	WES + RNAseq
+Map684	Map684	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map685	Map685	NBL	Peripheral Nervous System	Neuroblastoma	3.9	0.3	Yes	Yes	WES + RNAseq
+Map686	Map686	MBL	Embryonal Tumor	Medulloblastoma	81	6.11	Yes	Yes	WES + RNAseq
+Map687	Map687	CPT	Choroid Plexus Tumor	Choroid Plexus Tumor	NA	NA	NA	NA	NA
+Map688	Map688	ASTR	Glioma	Astrocytoma, IDH-Mutant	1.5	0.99	Yes	Yes	WES
+Map689	Map689	DSRCT	Soft Tissue Sarcoma	Desmoplastic Small-Round-Cell Tumor	0.2	0.01	Yes	No	WES + RNAseq
+Map690	Map690	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	NA	NA	NA	NA	NA
+Map691	Map691	WT	Wilms Tumor	Wilms Tumor	NA	NA	NA	NA	NA
+Map692	Map692	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES + RNAseq
+Map693	Map693	NA	NA	NA	0.2	0.93	Yes	Yes	WES + RNAseq
+Map694	Map694	HGGNOS	Glioma	High-Grade Glioma, NOS	1.9	1.46	Yes	Yes	WES + RNAseq
+Map695	Map695	RGNT	Miscellaneous Neuroepithelial Tumor	Rosette-forming Glioneuronal Tumor of the Fourth Ventricle	0	0.02	Yes	Yes	WES + RNAseq
+Map696	Map696	NBL	Peripheral Nervous System	Neuroblastoma	0.4	0.03	Yes	Yes	WES + RNAseq
+Map697	Map697	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map698	Map698	WT	Wilms Tumor	Wilms Tumor	0.4	0.06	Yes	No	WES + RNAseq
+Map699	Map699	BL	Mature B-Cell Neoplasms	Burkitt Lymphoma	NA	NA	NA	NA	NA
+Map700	Map700	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	NA	NA	NA	NA	NA
+Map701	Map701	DIFG	Glioma	Diffuse Glioma	0.9	0.03	Yes	Yes	WES + RNAseq
+Map702	Map702	DIFG	Glioma	Diffuse Glioma	NA	NA	NA	NA	NA
+Map703	Map703	NBL	Peripheral Nervous System	Neuroblastoma	2.7	0.05	Yes	Yes	WES + RNAseq
+Map704	Map704	WT	Wilms Tumor	Wilms Tumor	2	1.08	Yes	No	WES + RNAseq
+Map705	Map705	SYNS	Soft Tissue Sarcoma	Synovial Sarcoma	NA	NA	NA	NA	NA
+Map706	Map706	MBL	Embryonal Tumor	Medulloblastoma	0.7	0.57	Yes	Yes	WES
+Map707	Map707	NBL	Peripheral Nervous System	Neuroblastoma	0.6	0.51	Yes	Yes	WES
+Map708	Map708	NA	NA	NA	0	0.04	Yes	Yes	WES + RNAseq
+Map709	Map709	OS	Bone Cancer	Osteosarcoma	2	0.64	Yes	Yes	WES + RNAseq
+Map710	Map710	NBL	Peripheral Nervous System	Neuroblastoma	0.7	0	Yes	Yes	WES + RNAseq
+Map711	Map711	TET	Thymic Tumor	Thymic Epithelial Tumor	NA	NA	No for tumor	No	WES + RNAseq
+Map712	Map712	AML	Leukemia	Acute Myeloid Leukemia	0.3	0.01	Yes	Yes	WES
+Map713	Map713	GNG	Glioma	Ganglioglioma	0	0	Yes	Yes	WES + RNAseq
+Map714	Map714	ES	Bone Cancer	Ewing Sarcoma	NA	NA	No for tumor	No	WES
+Map715	Map715	ESST	Soft Tissue Sarcoma	Ewing Sarcoma of Soft Tissue	0	0	Yes	No	WES + RNAseq
+Map716	Map716	NBL	Peripheral Nervous System	Neuroblastoma	0.8	0	Yes	Yes	WES + RNAseq
+Map717	Map717	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.4	0.21	Yes	Yes	WES + RNAseq
+Map718	Map718	WT	Wilms Tumor	Wilms Tumor	NA	NA	NA	NA	NA
+Map719	Map719	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map720	Map720	CPT	Choroid Plexus Tumor	Choroid Plexus Tumor	0.3	1.86	Yes	Yes	WES + RNAseq
+Map721	Map721	PAST	Glioma	Pilocytic Astrocytoma	0	0	Yes	Yes	WES
+Map722	Map722	NBL	Peripheral Nervous System	Neuroblastoma	0.5	0.03	Yes	Yes	WES + RNAseq
+Map723	Map723	BL	Mature B-Cell Neoplasms	Burkitt Lymphoma	0.1	0	Yes	Yes	WES + RNAseq
+Map724	Map724	NBL	Peripheral Nervous System	Neuroblastoma	0.4	0	Yes	No	WES
+Map725	Map725	OS	Bone Cancer	Osteosarcoma	0.3	0	Yes	No	WES + RNAseq
+Map726	Map726	WT	Wilms Tumor	Wilms Tumor	1.1	0	Yes	Yes	WES + RNAseq
+Map727	Map727	ASTR	Glioma	Astrocytoma, IDH-Mutant	7.2	13.18	Yes	Yes	WES + RNAseq
+Map728	Map728	NBL	Peripheral Nervous System	Neuroblastoma	0.8	0.61	Yes	Yes	WES + RNAseq
+Map729	Map729	AML	Leukemia	Acute Myeloid Leukemia	NA	NA	NA	NA	NA
+Map730	Map730	MRTL	Malignant Rhabdoid Tumor of the Liver	Malignant Rhabdoid Tumor of the Liver	0.1	0	Yes	Yes	WES + RNAseq
+Map731	Map731	WT	Wilms Tumor	Wilms Tumor	NA	NA	Yes	Yes	WES
+Map732	Map732	OS	Bone Cancer	Osteosarcoma	1.7	0.34	Yes	Yes	WES + RNAseq
+Map733	Map733	GB	Glioma	Glioblastoma, IDH-wildtype	0.1	0.08	Yes	Yes	WES + RNAseq
+Map734	Map734	OS	Bone Cancer	Osteosarcoma	0.4	0.39	Yes	Yes	WES + RNAseq
+Map735	Map735	OS	Bone Cancer	Osteosarcoma	NA	NA	NA	NA	NA
+Map736	Map736	AML	Leukemia	Acute Myeloid Leukemia	0.3	0.01	Yes	Yes	WES + RNAseq
+Map737	Map737	EPM	Glioma	Ependymoma	0.8	0.97	Yes	No	WES + RNAseq
+Map738	Map738	DIFG	Glioma	Diffuse Glioma	9.1	0.46	Yes	Yes	WES + RNAseq
+Map739	Map739	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	0.1	0	Yes	Yes	WES
+Map740	Map740	EPM	Glioma	Ependymoma	0	0	Yes	No	WES + RNAseq
+Map741	Map741	ES	Bone Cancer	Ewing Sarcoma	0.2	0	Yes	No	WES
+Map742	Map742	CPT	Choroid Plexus Tumor	Choroid Plexus Tumor	0	0.93	Yes	Yes	WES + RNAseq
+Map743	Map743	PLEMESO	Mesothelioma	Pleural Mesothelioma, Epithelioid Type	4.9	0.03	Yes	No	WES + RNAseq
+Map744	Map744	EPM	Glioma	Ependymoma	1	0.28	Yes	No	WES + RNAseq
+Map745	Map745	ASTR	Glioma	Astrocytoma, IDH-Mutant	0.7	0.55	Yes	Yes	WES + RNAseq
+Map746	Map746	CCS	Soft Tissue Sarcoma	Clear Cell Sarcoma	0.3	0	Yes	No	WES + RNAseq
+Map747	Map747	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	NA	NA	NA
+Map748	Map748	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	No for tumor	No	WES
+Map749	Map749	ALCL	Mature T and NK Neoplasms	Anaplastic Large Cell Lymphoma	0.3	0	Yes	Yes	WES + RNAseq
+Map750	Map750	NBL	Peripheral Nervous System	Neuroblastoma	0.5	0.12	Yes	Yes	WES + RNAseq
+Map751	Map751	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	0.4	0.57	Yes	Yes	WES + RNAseq
+Map752	Map752	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	NA	NA	No	NA	NA
+Map753	Map753	NBL	Peripheral Nervous System	Neuroblastoma	NA	NA	Yes	Yes	WES + RNAseq
+Map754	Map754	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	0.4	0.04	Yes	Yes	WES
+Map755	Map755	TLL	T-Lymphoblastic Leukemia/Lymphoma	T-Lymphoblastic Leukemia/Lymphoma	4.5	15.19	Yes	No	WES
+Map756	Map756	BLL	B-Lymphoblastic Leukemia/Lymphoma	B-Lymphoblastic Leukemia/Lymphoma	1.5	0	Yes	Yes	WES
+Map757	Map757	NBL	Peripheral Nervous System	Neuroblastoma	1.4	0.08	Yes	Yes	WES + RNAseq
+Map758	Map758	DIFG	Glioma	Diffuse Glioma	0	0	Yes	Yes	WES
+Map759	Map759	DSRCT	Soft Tissue Sarcoma	Desmoplastic Small-Round-Cell Tumor	0.1	0.13	Yes	Yes	WES + RNAseq
+Map760	Map760	DIA	Miscellaneous Neuroepithelial Tumor	Desmoplastic Infantile Astrocytoma	NA	NA		No	WES
+Map761	Map761	NBL	Peripheral Nervous System	Neuroblastoma	0.2	0.08	Yes	Yes	WES
+Map762	Map762	HCC	Hepatobiliary Cancer	Hepatocellular Carcinoma	0.2	0	Yes	No	WES + RNAseq
+Map763	Map763	NBL	Peripheral Nervous System	Neuroblastoma	0.7	0.37	Yes	Yes	WES + RNAseq
+Map764	Map764	NBL	Peripheral Nervous System	Neuroblastoma	0.6	0.03	Yes	Yes	WES + RNAseq
+Map765	Map765	MRT	Rhabdoid Cancer	Rhabdoid Cancer	0	0.19	Yes	Yes	WES + RNAseq
+Map766	Map766	AML	Leukemia	Acute Myeloid Leukemia	0.2	0.01	Yes	Yes	WES
+Map767	Map767	HGGNOS	Glioma	High-Grade Glioma, NOS	2.3	0.5	Yes	Yes	WES + RNAseq
+Map768	Map768	MEL	Melanoma	Melanoma	0.8	0.16	Yes	Yes	WES + RNAseq
+Map769	Map769	NPC	Head and Neck Cancer	Nasopharyngeal Carcinoma	NA	NA	NA	NA	NA
+Map770	Map770	EPIS	Soft Tissue Sarcoma	Epithelioid Sarcoma	NA	NA	No for tumor	No	WES + RNAseq
+Map771	Map771	ES	Bone Cancer	Ewing Sarcoma	0.8	1.8	Yes	Yes	WES + RNAseq
+Map772	Map772	NA	NA	NA	0.1	0.05	Yes	Yes	WES + RNAseq
+Map773	Map773	ASTB	Miscellaneous Neuroepithelial Tumor	Astroblastoma	NA	NA	NA	NA	NA
+Map774	Map774	ACC	Adrenocortical Carcinoma	Adrenocortical Carcinoma	0.1	0.06	Yes	No	WES + RNAseq
+Map775	Map775	NBL	Peripheral Nervous System	Neuroblastoma	0.7	0.69	Yes	Yes	WES + RNAseq
+Map776	Map776	NBL	Peripheral Nervous System	Neuroblastoma	0.3	0.01	Yes	Yes	WES + RNAseq
+Map777	Map777	ARMS	Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	0.4	0.01	No for RNAseq	Yes	WES + RNAseq
+Map778	Map778	MFH	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	0.2	4.08	Yes	Yes	WES + RNAseq
+Map779	Map779	ACC	Adrenocortical Carcinoma	Adrenocortical Carcinoma	0	0.02	Yes	Yes	WES + RNAseq
+Map780	Map780	OS	Bone Cancer	Osteosarcoma	NA	NA	Yes	Yes	WES + RNAseq
+Map781	Map781	ES	Bone Cancer	Ewing Sarcoma	NA	NA	NA	NA	NA
+Map782	Map782	WT	Wilms Tumor	Wilms Tumor	0.1	0	Yes	Yes	WES + RNAseq
+Map783	Map783	GB	Glioma	Glioblastoma, IDH-wildtype	1	0.03	Yes	Yes	WES + RNAseq
+Map784	Map784	EPMT	CNS Cancer	Ependymomal Tumor	NA	NA	NA	NA	NA
+Map785	Map785	ES	Bone Cancer	Ewing Sarcoma	0.1	0.29	Yes	Yes	WES + RNAseq
+Map786	Map786	MBL	Embryonal Tumor	Medulloblastoma	1.3	0.36	Yes	Yes	WES + RNAseq
+Map787	Map787	OS	Bone Cancer	Osteosarcoma	0.2	0.03	Yes	Yes	WES + RNAseq
+Map788	Map788	ERMS	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	2.3	0.47	Yes	Yes	WES
+Map789	Map789	ES	Bone Cancer	Ewing Sarcoma	0.1	0.02	Yes	No	WES + RNAseq
+Map790	Map790	PNET	Embryonal Tumor	Primitive Neuroectodermal Tumor	NA	NA	NA	NA	NA
