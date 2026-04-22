@@ -1,3 +1,141 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f255c3c3a48c039760f6ddb04f1763f51ac3e2fb7d0a4950021c8909e48d5cc5
-size 23729
+#Sample Identifier	Patient Identifier	Cancer Type	Cancer Type Detailed	Oncotree Code	Sample Class	Primary/Relapse	Therapy prior to PDX collection	Sample Type	Type of Germline	Primary Tumor Site	Primary Tumor Laterality	Site of Tumor Collection	Tumor Collection Laterality	Procedure Type	Telomere Length WGS based	Telomere Length WXS based	Germline Telomere WGS	Germline Telomere WXS
+#A unique sample identifier.	Patient Identifier	Cancer Type	Cancer Type Detailed	Oncotree Code	Sample Class	Primary/Relapse	Therapy prior to PDX collection	Sample Type	Type of Germline	Primary Tumor Site	Primary Tumor Laterality	Site of Tumor Collection	Tumor Collection Laterality	Procedure Type	Telomere Length WGS based	Telomere Length WXS based	Germline Telomere WGS	Germline Telomere WXS
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	NUMBER	NUMBER
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SAMPLE_ID	PATIENT_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	ONCOTREE_CODE	SAMPLE_CLASS	PRIMARY_RELAPSE	THERAPY_PRIOR_TO_PDX_COLLECTION	SAMPLE_TYPE	TYPE_OF_GERMLINE	PRIMARY_TUMOR_SITE	PRIMARY_TUMOR_LATERALITY	SITE_OF_TUMOR_COLLECTION	TUMOR_COLLECTION_LATERALITY	PROCEDURE_TYPE	TELOMERE_LENGTH_WGS	TELOMERE_LENGTH_WXS	GERMLINE_TELOMERE_WGS	GERMLINE_TELOMERE_WXS
+1739_PDX	P-1739	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	No Treatment	Primary	NA	Liver	NA	Liver	NA	Needle Core Biopsy	2.06435	0.048933	NaN	NaN
+1739_PT	P-1739	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	No Treatment	Primary	NA	Liver	NA	Liver	NA	Needle Core Biopsy	5.09673	0.445794	NaN	NaN
+1753_PDX	P-1753	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	Saliva	Pelvis, NOS	NA	Pelvis 	NA	Surgical Resection	2.0565	0.060445	4.49905	0.21871
+1753_PT	P-1753	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	Saliva	Pelvis, NOS	NA	Pelvis 	NA	Surgical Resection	5.18289	0.531065	4.49905	0.21871
+1754_PDX	P-1754	Clear Cell Sarcoma	Soft Tissue Sarcoma	CCS	Xenograft	Primary	No Treatment	Primary	Blood	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	2.38377	0.188691	3.97008	0.164967
+1754_PT	P-1754	Clear Cell Sarcoma	Soft Tissue Sarcoma	CCS	Tumor	Primary	No Treatment	Primary	Blood	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	3.60311	0.3549	3.97008	0.164967
+1763_PDX	P-1763	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	Chemotherapy	Primary	NA	Kidney, NOS	Left	Kidney 	Left	Surgical Resection	2.22248	0.05251	NaN	NaN
+1763_PT	P-1763	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	Chemotherapy	Primary	NA	Kidney, NOS	Left	Kidney 	Left	Surgical Resection	5.64648	0.570423	NaN	NaN
+1792_PDX	P-1792	Bone Cancer	Osteosarcoma	OS	Xenograft	Primary	Chemotherapy	Primary	Blood	Femur	Left	Lung 	Left	Surgical Resection	4.54666	0.337296	3.23851	0.261466
+1792_PT	P-1792	Bone Cancer	Osteosarcoma	OS	Tumor	Primary	Chemotherapy	Primary	Blood	Femur	Left	Lung 	Left	Surgical Resection	3.87959	0.669242	3.23851	0.261466
+1795_PDX	P-1795	Germ Cell Tumor	Germ Cell Tumor	GCT	Xenograft	Primary	No Treatment	Primary	Blood	Testis, NOS	Right	Testis 	Right	Surgical Resection	5.01867	0.171262	3.85579	0.243129
+1795_PT	P-1795	Germ Cell Tumor	Germ Cell Tumor	GCT	Tumor	Primary	No Treatment	Primary	Blood	Testis, NOS	Right	Testis 	Right	Surgical Resection	12.6898	1.52806	3.85579	0.243129
+1796_PDX	P-1796	Sex Cord Stromal Tumor	Sertoli-Leydig Cell Tumor	SLCT	Xenograft	Primary	No Treatment	Primary	Blood	Ovary	Right	Ovary	Right	Surgical Resection	 	 	 	 
+1796_PT	P-1796	Sex Cord Stromal Tumor	Sertoli-Leydig Cell Tumor	SLCT	Tumor	Primary	No Treatment	Primary	Blood	Ovary	Right	Ovary	Right	Surgical Resection	 	 	 	 
+1823_PDX	P-1823	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	Blood	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	2.14655	0.104596	5.6538	0.131395
+1823_PT	P-1823	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	Blood	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	3.14134	0.206492	5.6538	0.131395
+1826_PDX	P-1826	Germ Cell Tumor	Germ Cell Tumor	GCT	Xenograft	Primary	No Treatment	Primary	Blood	Testis, NOS	Left	Testis 	Left	Surgical Resection	12.3414	0.388261	7.02121	0.293214
+1826_PT	P-1826	Germ Cell Tumor	Germ Cell Tumor	GCT	Tumor	Primary	No Treatment	Primary	Blood	Testis, NOS	Left	Testis 	Left	Surgical Resection	11.3568	1.31075	7.02121	0.293214
+1853_PDX	P-1853	Peripheral Nervous System	Neuroblastoma	NBL	Xenograft	Primary	Chemotherapy	Primary	NA	Mediastinum, NOS	NA	Mediastinum 	NA	Surgical Resection	 	 	 	 
+1853_PT	P-1853	Peripheral Nervous System	Neuroblastoma	NBL	Tumor	Primary	Chemotherapy	Primary	NA	Mediastinum, NOS	NA	Mediastinum 	NA	Surgical Resection	 	 	 	 
+1907_PDX	P-1907	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	MFH	Xenograft	Primary	Radiation	Primary	NA	Frontal Lobe	Right	Frontal Lobe	Right	Surgical Resection	1.61688	0.114767	NaN	NaN
+1907_PT	P-1907	Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	MFH	Tumor	Primary	Radiation	Primary	NA	Frontal Lobe	Right	Frontal Lobe	Right	Surgical Resection	4.10464	0.419991	NaN	NaN
+1912_PDX	P-1912	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	NA	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	2.37806	0.072891	2.59263	0.167949
+1912_PT	P-1912	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	NA	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	 	 	 	 
+1913_PDX	P-1913	Peripheral Nervous System	Neuroblastoma	NBL	Xenograft	Primary	No Treatment	Primary	Blood	Adrenal Gland, NOS	Left	Adrenal Gland 	Left	Surgical Resection	17.1197	1.18134	5.28625	0.148071
+1913_PT	P-1913	Peripheral Nervous System	Neuroblastoma	NBL	Tumor	Primary	No Treatment	Primary	Blood	Adrenal Gland, NOS	Left	Adrenal Gland 	Left	Surgical Resection	13.5726	1.11877	5.28625	0.148071
+1917_PDX	P-1917	Germ Cell Tumor	Germ Cell Tumor	GCT	Xenograft	Primary	No Treatment	Primary	NA	Testis, NOS	Right	Testis 	Right	Surgical Resection	4.38788	0.85256	NaN	NaN
+1917_PT	P-1917	Germ Cell Tumor	Germ Cell Tumor	GCT	Tumor	Primary	No Treatment	Primary	NA	Testis, NOS	Right	Testis 	Right	Surgical Resection	 	 	 	 
+1922_PDX	P-1922	Bone Cancer	Osteosarcoma	OS	Xenograft	Primary	No Treatment	Primary	Blood	Long Bones Of Lower Limb And Associated Joints	Right	Long Bones Of Lower Limb And Associated Joints	Right	Surgical Resection	4.68477	0.31999	5.81024	0.290314
+1922_PT	P-1922	Bone Cancer	Osteosarcoma	OS	Tumor	Primary	No Treatment	Primary	Blood	Long Bones Of Lower Limb And Associated Joints	Right	Long Bones Of Lower Limb And Associated Joints	Right	Surgical Resection	5.4286	0.35357	5.81024	0.290314
+1925_PDX	P-1925	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	Chemotherapy	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	2.80742	0.086849	4.94776	0.370744
+1925_PT	P-1925	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	Chemotherapy	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	 	 	 	 
+1932_PDX	P-1932	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	Blood	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	2.58572	0.172673	4.28275	0.169628
+1932_PT	P-1932	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	Blood	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	2.64181	0.110869	4.28275	0.169628
+1939-2_PDX	P-1939	Adrenocortical Carcinoma	Adrenocortical Carcinoma	ACC	Xenograft	Primary	No Treatment	Primary	NA	Adrenal Gland, NOS	Left	Adrenal Gland 	Left	Surgical Resection	 	 	 	 
+1939-2_PT	P-1939	Adrenocortical Carcinoma	Adrenocortical Carcinoma	ACC	Tumor	Primary	No Treatment	Primary	NA	Adrenal Gland, NOS	Left	Adrenal Gland 	Left	Surgical Resection	 	 	 	 
+1939_PDX	P-1939	Adrenocortical Carcinoma	Adrenocortical Carcinoma	ACC	Xenograft	Primary	No Treatment	Primary	NA	Adrenal Gland, NOS	Left	Adrenal Gland 	Left	Surgical Resection	2.69821	0.25621	NaN	NaN
+1939_PT	P-1939	Adrenocortical Carcinoma	Adrenocortical Carcinoma	ACC	Tumor	Primary	No Treatment	Primary	NA	Adrenal Gland, NOS	Left	Adrenal Gland 	Left	Surgical Resection	 	 	 	 
+1957_PDX	P-1957	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	Chemotherapy	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	4.14112	0.259978	5.31507	0.150601
+1957_PT	P-1957	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	Chemotherapy	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	3.27648	0.181854	5.31507	0.150601
+1959_PDX	P-1959	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	No Treatment	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	2.49408	0.176149	4.87307	0.242841
+1959_PT	P-1959	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	No Treatment	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	6.84197	0.450864	4.87307	0.242841
+1960_PDX	P-1960	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	NA	Kidney, NOS	Left	Kidney 	Left	Surgical Resection	4.32429	1.88083	NaN	NaN
+1960_PT	P-1960	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	NA	Kidney, NOS	Left	Kidney 	Left	Surgical Resection	 	 	 	 
+1979_PDX	P-1979	Germ Cell Tumor	Germ Cell Tumor	GCT	Xenograft	Primary	Chemotherapy	Primary	Blood	Testis, NOS	Left	Lymph Nodes Of Abdomen	Left	Surgical Resection	11.602	0.893405	4.20085	0.181166
+1979_PT	P-1979	Germ Cell Tumor	Germ Cell Tumor	GCT	Tumor	Primary	Chemotherapy	Primary	Blood	Testis, NOS	Left	Lymph Nodes Of Abdomen	Left	Surgical Resection	8.165	0.536132	4.20085	0.181166
+1981_PDX	P-1981	Bone Cancer	Osteosarcoma	OS	Xenograft	Relapse	Chemotherapy	Primary	NA	Long Bones Of Lower Limb And Associated Joints	Right	Long Bones Of Lower Limb And Associated Joints	Right	Surgical Resection	15.2688	1.014	NaN	NaN
+1981_PT	P-1981	Bone Cancer	Osteosarcoma	OS	Tumor	Relapse	Chemotherapy	Primary	NA	Long Bones Of Lower Limb And Associated Joints	Right	Long Bones Of Lower Limb And Associated Joints	Right	Surgical Resection	 	 	 	 
+1982_PDX	P-1982	Mesothelioma	Pleural Mesothelioma	PLEMSO	Xenograft	Primary	No Treatment	Primary	NA	Abdomen, NOS	NA	Abdomen 	NA	Surgical Resection	12.3687	0.999109	NaN	NaN
+1982_PT	P-1982	Mesothelioma	Pleural Mesothelioma	PLMESO	Tumor	Primary	No Treatment	Primary	NA	Abdomen, NOS	NA	Abdomen 	NA	Surgical Resection	 	 	 	 
+2035_PDX	P-2035	Bone Cancer	Osteosarcoma	OS	Xenograft	Primary	Chemotherapy	Primary	Blood	Long Bones Of Lower Limb And Associated Joints	Right	Long Bones Of Lower Limb And Associated Joints	Right	Surgical Resection	4.26931	0.28567	3.45163	0.133117
+2035_PT	P-2035	Bone Cancer	Osteosarcoma	OS	Tumor	Primary	Chemotherapy	Primary	Blood	Long Bones Of Lower Limb And Associated Joints	Right	Long Bones Of Lower Limb And Associated Joints	Right	Surgical Resection	4.8821	0.371833	3.45163	0.133117
+2050_PDX	P-2050	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	Blood	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	2.54226	0.114328	5.70441	0.319128
+2050_PT	P-2050	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	Blood	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	3.71675	0.23813	5.70441	0.319128
+2083_PDX	P-2083	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	Blood	Kidney, NOS	Left	Kidney 	Left	Surgical Resection	4.82827	2.66646	NaN	NaN
+2083_PT	P-2083	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	Blood	Kidney, NOS	Left	Kidney 	Left	Surgical Resection	 	 	 	 
+2084_PDX	P-2084	Germ Cell Tumor	Ovarian Germ Cell Tumor	OGCT	Xenograft	Primary	Chemotherapy	Primary	Blood	Ovary	Right	Ovary	Right	Surgical Resection	9.95288	1.92778	3.28559	0.192316
+2084_PT	P-2084	Germ Cell Tumor	Ovarian Germ Cell Tumor	OGCT	Tumor	Primary	Chemotherapy	Primary	Blood	Ovary	Right	Ovary	Right	Surgical Resection	 	 	 	 
+2129_PDX	P-2129	Germ Cell Tumor	Ovarian Germ Cell Tumor	OGCT	Xenograft	Primary	No Treatment	Primary	Blood	Ovary	Left	Ovary	Left	Surgical Resection	3.80375	0.890339	3.77405	0.271096
+2129_PT	P-2129	Germ Cell Tumor	Ovarian Germ Cell Tumor	OGCT	Tumor	Primary	No Treatment	Primary	Blood	Ovary	Left	Ovary	Left	Surgical Resection	 	 	 	 
+2197_PDX	P-2197	Bone Cancer	Ewing Sarcoma	ES	Xenograft	Primary	Chemotherapy	Primary	Blood	Tibia	Right	Tibia	Right	Surgical Resection	2.1711	0.103553	NaN	NaN
+2197_PT	P-2197	Bone Cancer	Ewing Sarcoma	ES	Tumor	Primary	Chemotherapy	Primary	Blood	Tibia	Right	Tibia	Right	Surgical Resection	 	 	 	 
+2237_PDX	P-2237	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	No Treatment	Primary	NA	Liver	NA	Liver	NA	Segmental Lobectomy	 	 	 	 
+2237_PT	P-2237	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	No Treatment	Primary	NA	Liver	NA	Liver	NA	Segmental Lobectomy	3.38624	0.483525	NaN	NaN
+2264_PDX	P-2264	Wilms Tumor	Wilms Tumor	WT	Xenograft	Relapse	Chemotherapy	Primary	Blood	Kidney, NOS	NA	Liver	NA	Surgical Resection	1.47161	0.111975	4.03022	0.303031
+2264_PT	P-2264	Wilms Tumor	Wilms Tumor	WT	Tumor	Relapse	Chemotherapy	Primary	Blood	Kidney, NOS	NA	Liver	NA	Surgical Resection	2.06151	0.205063	4.03022	0.303031
+2324_PDX	P-2324	Clear Cell Sarcoma	Soft Tissue Sarcoma	CCS	Xenograft	Primary	Chemotherapy	Primary	NA	Kidney	Left	Kidney 	Left	Surgical Resection	2.87254	0.170474	NaN	NaN
+2324_PT	P-2324	Clear Cell Sarcoma	Soft Tissue Sarcoma	CCS	Tumor	Primary	Chemotherapy	Primary	NA	Kidney	Left	Kidney 	Left	Surgical Resection	 	 	 	 
+29_PDX	P-29	Wilms Tumor	Wilms Tumor	WT	Xenograft	Relapse	Chemotherapy	Primary	Saliva	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	 	 	 	 
+29_PT	P-29	Wilms Tumor	Wilms Tumor	WT	Tumor	Relapse	Chemotherapy	Primary	Saliva	Kidney, NOS	Right	Kidney 	Right	Surgical Resection	5.0683	0.510795	NaN	NaN
+462_PDX	P-462	Embryonal Tumor	Medulloblastoma	MBL	Xenograft	Primary	No Treatment	Primary	NA	Posterior Fossa	NA	Cerebellum	NA	Surgical Resection	4.48809	0.836907	11.6166	1.10449
+462_PT	P-462	Embryonal Tumor	Medulloblastoma	MBL	Tumor	Primary	No Treatment	Primary	NA	Posterior Fossa	NA	Cerebellum	NA	Surgical Resection	 	 	 	 
+466_PDX	P-466	Embryonal Tumor	Medulloblastoma	MBL	Xenograft	NA	No Treatment	Metastatic	Blood	Posterior Fossa	NA	Cerebellum	NA	Surgical Resection	3.15731	0.570123	4.37735	0.301777
+466_PT	P-466	Embryonal Tumor	Medulloblastoma	MBL	Tumor	NA	No Treatment	Metastatic	Blood	Posterior Fossa	NA	Cerebellum	NA	Surgical Resection	 	 	 	 
+471_PDX	P-471	Bone Cancer	Osteosarcoma	OS	Xenograft	Primary	Chemotherapy	Primary	Blood	Knee	NA	Lymph Node	NA	Surgical Resection	4.67497	0.947579	35.0405	36.7652
+471_PT	P-471	Bone Cancer	Osteosarcoma	OS	Tumor	Primary	Chemotherapy	Primary	Blood	Knee	NA	Lymph Node	NA	Surgical Resection	 	 	 	 
+494_PDX	P-494	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	No Treatment	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	4.42163	0.902092	NaN	NaN
+494_PT	P-494	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	No Treatment	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	 	 	 	 
+498_PDX	P-498	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	No Treatment	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	2.00823	0.093394	3.6091	0.241288
+498_PT	P-498	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	No Treatment	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	2.92942	0.338444	3.6091	0.241288
+500_PDX	P-500	Bone Cancer	Osteosarcoma	OS	Xenograft	Primary	No Treatment	Primary	Blood	Femur	Right Distal	Thigh	NA	Surgical Resection	4.55282	0.861187	43.8953	3.48922
+500_PT	P-500	Bone Cancer	Osteosarcoma	OS	Tumor	Primary	No Treatment	Primary	Blood	Femur	Right Distal	Thigh	NA	Surgical Resection	 	 	 	 
+511_PDX	P-511	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	No Treatment	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	3.35917	0.628301	4.99193	0.409341
+511_PT	P-511	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	No Treatment	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	 	 	 	 
+512_PDX	P-512	Peripheral Nervous System	Neuroblastoma	NBL	Xenograft	Primary	Chemotherapy	Primary	NA	Na	NA	NA	NA	NA	 	 	 	 
+512_PT	P-512	Peripheral Nervous System	Neuroblastoma	NBL	Tumor	Primary	Chemotherapy	Primary	NA	Na	NA	NA	NA	NA	 	 	 	 
+516_PDX	P-516	Glioblastoma	Glioblastoma	GB	Xenograft	Primary	No Treatment	Primary	Blood	Brain, NOS	Right	Parietal Lobe	Right	Surgical Resection	2.53111	0.179538	23.7619	16.2794
+516_PT	P-516	Glioblastoma	Glioblastoma	GB	Tumor	Primary	No Treatment	Primary	Blood	Brain, NOS	Right	Parietal Lobe	Right	Surgical Resection	 	 	 	 
+522_PDX	P-522	Bone Cancer	Osteosarcoma	OS	Xenograft	Primary	No Treatment	Primary	Blood	Thigh (Femur W/Ext To Knee Joint)   	Left distal	Femur	Left	Surgical Resection	4.34598	0.928917	32.7374	18.8756
+522_PT	P-522	Bone Cancer	Osteosarcoma	OS	Tumor	Primary	No Treatment	Primary	Blood	Thigh (Femur W/Ext To Knee Joint)   	Left distal	Femur	Left	Surgical Resection	 	 	 	 
+529_PDX	P-529	Clear Cell Sarcoma	Soft Tissue Sarcoma	CCS	Xenograft	Primary	Radiation	Primary	Blood	Long Bone Of Lower Extremity	Right	Long Bone Of Lower Extremity	Right	Surgical Resection	1.939	0.068645	4.46107	0.329005
+529_PT	P-529	Clear Cell Sarcoma	Soft Tissue Sarcoma	CCS	Tumor	Primary	Radiation	Primary	Blood	Long Bone Of Lower Extremity	Right	Long Bone Of Lower Extremity	Right	Surgical Resection	1.71575	0.155014	4.46107	0.329005
+530_PDX	P-530	Peripheral Nervous System	Neuroblastoma	NBL	Xenograft	Primary	No Treatment	Primary	Blood	Skull (Calvarial Lesion)	Left	NA	NA	Incisional Biopsy	3.16144	0.537158	15.0816	7.80663
+530_PT	P-530	Peripheral Nervous System	Neuroblastoma	NBL	Tumor	Primary	No Treatment	Primary	Blood	Skull (Calvarial Lesion)	Left	NA	NA	Incisional Biopsy	 	 	 	 
+532_PDX	P-532	Bone Cancer	Osteosarcoma	OS	Xenograft	Primary	No Treatment	Primary	Blood	Lower Leg	Left	Tibia	Left	Surgical Resection	3.56302	0.239045	39.8191	22.2202
+532_PT	P-532	Bone Cancer	Osteosarcoma	OS	Tumor	Primary	No Treatment	Primary	Blood	Lower Leg	Left	Tibia	Left	Surgical Resection	 	 	 	 
+533_PDX	P-533	Cancer of Unknown Primary	Adenocarcinoma, NOS	ADNOS	Xenograft	Primary	No Treatment	Primary	NA	Temporal Lobe	Right	Parotid Gland	Right	Needle Biopsy	3.49435	0.182637	NaN	NaN
+533_PT	P-533	Cancer of Unknown Primary	Adenocarcinoma, NOS	ADNOS	Tumor	Primary	No Treatment	Primary	NA	Temporal Lobe	Right	Parotid Gland	Right	Needle Biopsy	 	 	 	 
+543_PDX	P-543	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	Chemotherapy	Primary	NA	Liver	NA	Liver	NA	Surgical Resection	3.66349	0.225497	NaN	NaN
+543_PT	P-543	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	Chemotherapy	Primary	NA	Liver	NA	Liver	NA	Surgical Resection	 	 	 	 
+54_PDX	P-54	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	ERMS	Xenograft	Primary	Chemotherapy	Primary	Blood	Parotid Gland	Left	Parotid Gland	Left	Needle Core Biopsy	2.09731	0.055473	NaN	NaN
+54_PT	P-54	Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	ERMS	Tumor	Primary	Chemotherapy	Primary	Blood	Parotid Gland	Left	Parotid Gland	Left	Needle Core Biopsy	4.86709	0.547837	NaN	NaN
+556_PDX	P-556	Bone Cancer	Osteosarcoma	OS	Xenograft	Primary	Yes (unspecified)	Metastatic	Blood	Tibia	Left	Lower Extremity  	Left	Limited Autopsy	4.99998	0.451094	7.70006	0.751303
+556_PT	P-556	Bone Cancer	Osteosarcoma	OS	Tumor	Primary	Yes (unspecified)	Metastatic	Blood	Tibia	Left	Lower Extremity  	Left	Limited Autopsy	 	 	 	 
+560-LM_PDX	P-560	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	Blood	Kidney	Right	Kidney 	Right	Surgical Resection	5.68799	1.53192	NaN	NaN
+560-LM_PT	P-560	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	Blood	Kidney	Right	Kidney 	Right	Surgical Resection	 	 	 	 
+560-SM_PDX	P-560	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	Blood	Kidney	Right	Kidney 	Right	Surgical Resection	 	 	 	 
+560-SM_PT	P-560	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	Blood	Kidney	Right	Kidney 	Right	Surgical Resection	 	 	 	 
+560_PDX	P-560	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	Blood	Kidney	Right	Kidney 	Right	Surgical Resection	2.93256	0.12375	5.87517	0.605385
+560_PT	P-560	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	Blood	Kidney	Right	Kidney 	Right	Surgical Resection	4.13583	0.596702	5.87517	0.605385
+561_PDX	P-561	Wilms Tumor	Wilms Tumor	WT	Xenograft	Relapse	Yes (unspecified)	Primary	NA	Kidney & Hemiabdomen	Right	Hemiabdomen 	Right	Surgical Debulking	2.25047	0.149207	3.22168	0.224285
+561_PT	P-561	Wilms Tumor	Wilms Tumor	WT	Tumor	Relapse	Yes (unspecified)	Primary	NA	Kidney & Hemiabdomen	Right	Hemiabdomen 	Right	Surgical Debulking	 	 	 	 
+564_PDX	P-564	Bone Cancer	Osteosarcoma	OS	Xenograft	Primary	No Treatment	Primary	Blood	Mid-Femur	Right	Mid-Femur	NA	Bone Mass Biopsy	7.40724	2.734	46.8491	26.713
+564_PT	P-564	Bone Cancer	Osteosarcoma	OS	Tumor	Primary	No Treatment	Primary	Blood	Mid-Femur	Right	Mid-Femur	NA	Bone Mass Biopsy	 	 	 	 
+585_PDX	P-585	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	Chemotherapy	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	2.58286	0.130617	3.58606	0.242699
+585_PT	P-585	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	Chemotherapy	Primary	Blood	Liver	NA	Liver	NA	Surgical Resection	2.5399	0.291536	3.58606	0.242699
+652_PDX	P-652	Germ Cell Tumor	Germ Cell Tumor	GCT	Xenograft	Primary	No Treatment	Primary	NA	Testis	Left	Testis	Left	Surgical Resection	 	 	 	 
+652_PT	P-652	Germ Cell Tumor	Germ Cell Tumor	GCT	Tumor	Primary	No Treatment	Primary	NA	Testis	Left	Testis	Left	Surgical Resection	3.33548	0.409656	5.93876	0.441681
+655_PDX	P-655	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Metastatic	Blood	Kidney	Left	Kidney	NA	Complete Resection	2.06511	0.103508	3.74683	0.354231
+655_PT	P-655	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Metastatic	Blood	Kidney	Left	Kidney	NA	Complete Resection	1.24577	0.117335	3.74683	0.354231
+668_PDX	P-668	Wilms Tumor	Wilms Tumor	WT	Xenograft	Primary	No Treatment	Primary	Blood	Kidney	Left	Kidney	NA	Surgical Resection	2.12089	0.154248	4.15285	0.316614
+668_PT	P-668	Wilms Tumor	Wilms Tumor	WT	Tumor	Primary	No Treatment	Primary	Blood	Kidney	Left	Kidney	NA	Surgical Resection	2.28128	0.25794	4.15285	0.316614
+707_PDX	P-707	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	Primary	No Treatment	Primary	NA	Liver	NA	Liver	NA	Surgical Resection	 	 	 	 
+707_PT	P-707	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	Primary	No Treatment	Primary	NA	Liver	NA	Liver	NA	Surgical Resection	 	 	 	 
+883129_PDX	P-883129	Germ Cell Tumor	olk Sac Tumor	OYST	Xenograft	NA	NA	Primary	NA	Na	NA	Ovary Yolk Sack	NA	NA	2.67835	0.173757	NaN	NaN
+883129_PT	P-883129	Germ Cell Tumor	olk Sac Tumor	OYST	Tumor	NA	NA	Primary	NA	Na	NA	Ovary Yolk Sack	NA	NA	 	 	 	 
+891173_PDX	P-891173	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	NA	NA	Primary	NA	Na	NA	Liver	NA	NA	2.48864	0.46311	NaN	NaN
+891173_PT	P-891173	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	NA	NA	Primary	NA	Na	NA	Liver	NA	NA	 	 	 	 
+891760_PDX	P-891760	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Xenograft	NA	NA	Primary	NA	Na	NA	Liver	NA	NA	3.79652	0.345116	NaN	NaN
+891760_PT	P-891760	Hepatobiliary Cancer	Hepatoblastoma	LIHB	Tumor	NA	NA	Primary	NA	Na	NA	Liver	NA	NA	 	 	 	 
+892257_PDX	P-892257	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NSGCT	Xenograft	NA	NA	Primary	NA	Na	NA	Ovary Non Seminnomatous	NA	NA	2.96373	0.224218	NaN	NaN
+892257_PT	P-892257	Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	NSGCT	Tumor	NA	NA	Primary	NA	Na	NA	Ovary Non Seminnomatous	NA	NA	 	 	 	 
+895452_PDX	P-895452	Germ Cell Tumor	Mature Teratoma	OMT	Xenograft	NA	NA	Primary	NA	Na	NA	Ovary Teratoma	NA	NA	3.05627	0.282509	NaN	NaN
+895452_PT	P-895452	Germ Cell Tumor	Mature Teratoma	OMT	Tumor	NA	NA	Primary	NA	Na	NA	Ovary Teratoma	NA	NA	 	 	 	 
+896751_PDX	P-896751	Germ Cell Tumor	Germ Cell Tumor	GCT	Xenograft	NA	NA	NA	NA	Na	NA	Right Testicle	NA	NA	8.82165	1.774	NaN	NaN
+896751_PT	P-896751	Germ Cell Tumor	Germ Cell Tumor	GCT	Tumor	NA	NA	NA	NA	Na	NA	Right Testicle	NA	NA	 	 	 	 
