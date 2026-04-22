@@ -1,3 +1,111 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:11503cbe9b38eb568731f1d1ccc8a9d98e4e30707267c73c27266d78d9bcf69b
-size 16755
+#Patient Identifier	Sample Identifier	Oncotree Code	Cancer Type Detailed	Sample Type	Tumor Location	Initial Diagnosis of Recurrent Tumors	Initial Diagnosis Year	Implant Grade	Original Diagnosis at Implant	Neoplasm Histologic Grade	Morphology	Somatic Status	Cancer Type	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	Oncotree Code	Cancer Type Detailed	The type of sample (i.e., normal, primary, met, recurrence).	Tumor Location	Initial Diagnosis of Recurrent Tumors	Initial Diagnosis Year	Implant Grade	Original Diagnosis at Implant	Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness.	Morphology	Somatic Status	Cancer Type	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	ONCOTREE_CODE	CANCER_TYPE_DETAILED	SAMPLE_TYPE	TUMOR_LOCATION	INITIAL_DIAGNOSIS_OF_RECURRENT_TUMORS	INITIAL_DIAGNOSIS_YEAR	IMPLANT_GRADE	ORIGINAL_DIAGNOSIS_AT_IMPLANT	GRADE	MORPHOLOGY	SOMATIC_STATUS	CANCER_TYPE	TMB_NONSYNONYMOUS
+Mayo-PDX-Sarkaria-3	Mayo-PDX-Sarkaria-3	GB	Glioblastoma, IDH-wildtype	Recurrence	Right frontal	 				III	Fibrillary and giant cell	Matched	Glioma	3.83333333333
+Mayo-PDX-Sarkaria-5	Mayo-PDX-Sarkaria-5	GB	Glioblastoma, IDH-wildtype	Primary	Right temporal	 					Fibrillary and gemistocytic	Unmatched	Glioma	20.7333333333
+Mayo-PDX-Sarkaria-6	Mayo-PDX-Sarkaria-6	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					Fibrillary	Unmatched	Glioma	21.7
+Mayo-PDX-Sarkaria-8	Mayo-PDX-Sarkaria-8	GB	Glioblastoma, IDH-wildtype	Primary	Right parietal	 					Fibrillary	Unmatched	Glioma	24.9333333333
+Mayo-PDX-Sarkaria-9	Mayo-PDX-Sarkaria-9	GB	Glioblastoma, IDH-wildtype	Primary	Right frontal	 					Fibrillary	Unmatched	Glioma	23.8333333333
+Mayo-PDX-Sarkaria-10	Mayo-PDX-Sarkaria-10	GB	Glioblastoma, IDH-wildtype	Recurrence	Right temporal	 				II	Oligoastrocytoma	Matched	Glioma	5.73333333333
+Mayo-PDX-Sarkaria-12	Mayo-PDX-Sarkaria-12	GB	Glioblastoma, IDH-wildtype	Primary	Right parietal occipital	 					NOS	Matched	Glioma	4.1
+Mayo-PDX-Sarkaria-14	Mayo-PDX-Sarkaria-14	GB	Glioblastoma, IDH-wildtype	Recurrence	Right temporal	 				IV	Fibrillary	Unmatched	Glioma	20.8666666667
+Mayo-PDX-Sarkaria-22	Mayo-PDX-Sarkaria-22	GB	Glioblastoma, IDH-wildtype	Primary	Right frontotemporal	 					Gliosarcoma	Unmatched	Glioma	46.8
+Mayo-PDX-Sarkaria-26	Mayo-PDX-Sarkaria-26	GB	Glioblastoma, IDH-wildtype	Primary	Right frontal	 					Fibrillary	Unmatched	Glioma	23.3
+Mayo-PDX-Sarkaria-28	Mayo-PDX-Sarkaria-28	GB	Glioblastoma, IDH-wildtype	Primary	Left temporoparietal	 					Gliosarcoma	Unmatched	Glioma	23.6666666667
+Mayo-PDX-Sarkaria-34	Mayo-PDX-Sarkaria-34	GB	Glioblastoma, IDH-wildtype	Primary	Left occipital	 					Fibrillary and giant cell	Unmatched	Glioma	24.3
+Mayo-PDX-Sarkaria-36	Mayo-PDX-Sarkaria-36	GB	Glioblastoma, IDH-wildtype	Primary	Left cerebellum	 					Fibrillary	Unmatched	Glioma	23.5666666667
+Mayo-PDX-Sarkaria-38	Mayo-PDX-Sarkaria-38	GB	Glioblastoma, IDH-wildtype	Primary	Right temporo-occipital	 					Fibrillary and gemistocytic	Unmatched	Glioma	21.0333333333
+Mayo-PDX-Sarkaria-39	Mayo-PDX-Sarkaria-39	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					Small Cell	Unmatched	Glioma	21.0
+Mayo-PDX-Sarkaria-40	Mayo-PDX-Sarkaria-40	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal	 					Fibrillary	Unmatched	Glioma	25.1333333333
+Mayo-PDX-Sarkaria-43	Mayo-PDX-Sarkaria-43	GB	Glioblastoma, IDH-wildtype	Primary	Right temporal	 					Fibrillary	Unmatched	Glioma	22.8
+Mayo-PDX-Sarkaria-44	Mayo-PDX-Sarkaria-44	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					Fibrillary with focal astroblastic pattern	Unmatched	Glioma	22.1666666667
+Mayo-PDX-Sarkaria-46	Mayo-PDX-Sarkaria-46	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal	 				IV	Fibrillary	Matched	Glioma	21.7666666667
+Mayo-PDX-Sarkaria-56	Mayo-PDX-Sarkaria-56	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal	 					Fibrillary	Unmatched	Glioma	23.9333333333
+Mayo-PDX-Sarkaria-59	Mayo-PDX-Sarkaria-59	GB	Glioblastoma, IDH-wildtype	Primary	Right temporal	 					Fibrillary and gemistocytic	Unmatched	Glioma	21.2666666667
+Mayo-PDX-Sarkaria-61	Mayo-PDX-Sarkaria-61	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					NOS	Matched	Glioma	4.16666666667
+Mayo-PDX-Sarkaria-63	Mayo-PDX-Sarkaria-63	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					Fibrillary	Matched	Glioma	3.73333333333
+Mayo-PDX-Sarkaria-64	Mayo-PDX-Sarkaria-64	GB	Glioblastoma, IDH-wildtype	Recurrence	Right temporal	 				IV	Fibrillary	Unmatched	Glioma	22.2333333333
+Mayo-PDX-Sarkaria-66	Mayo-PDX-Sarkaria-66	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal-occipital	 					Fibrillary and small cell	Matched	Glioma	3.06666666667
+Mayo-PDX-Sarkaria-67	Mayo-PDX-Sarkaria-67	GB	Glioblastoma, IDH-wildtype	Primary	Right frontotemporal	 					Fibrillary	Matched	Glioma	4.36666666667
+Mayo-PDX-Sarkaria-69	Mayo-PDX-Sarkaria-69	GB	Glioblastoma, IDH-wildtype	Primary	Right frontal	 					Gliosarcoma	Unmatched	Glioma	23.3666666667
+Mayo-PDX-Sarkaria-75	Mayo-PDX-Sarkaria-75	GB	Glioblastoma, IDH-wildtype	Primary	Left parietal	 					NOS	Unmatched	Glioma	19.7333333333
+Mayo-PDX-Sarkaria-76	Mayo-PDX-Sarkaria-76	GB	Glioblastoma, IDH-wildtype	Recurrence	Left parietal	 				IV	Small cell	Matched	Glioma	3.9
+Mayo-PDX-Sarkaria-80	Mayo-PDX-Sarkaria-80	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal	 					Fibrillary and gemistocytic	Matched	Glioma	4.16666666667
+Mayo-PDX-Sarkaria-84	Mayo-PDX-Sarkaria-84	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					Fibrillary	Matched	Glioma	4.5
+Mayo-PDX-Sarkaria-85	Mayo-PDX-Sarkaria-85	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal	 					Fibrillary	Unmatched	Glioma	20.4333333333
+Mayo-PDX-Sarkaria-91	Mayo-PDX-Sarkaria-91	GB	Glioblastoma, IDH-wildtype	Primary	Right parietal	 					Fibrillary	Unmatched	Glioma	23.1666666667
+Mayo-PDX-Sarkaria-102	Mayo-PDX-Sarkaria-102	GB	Glioblastoma, IDH-wildtype	Recurrence	Left parietal	 				IV	Fibrillary	Matched	Glioma	59.1333333333
+Mayo-PDX-Sarkaria-108	Mayo-PDX-Sarkaria-108	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					Small cell	Matched	Glioma	5.1
+Mayo-PDX-Sarkaria-110	Mayo-PDX-Sarkaria-110	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					PNET	Matched	Glioma	5.23333333333
+Mayo-PDX-Sarkaria-114	Mayo-PDX-Sarkaria-114	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal	 				IV	Small cell	Unmatched	Glioma	23.0333333333
+Mayo-PDX-Sarkaria-115	Mayo-PDX-Sarkaria-115	GB	Glioblastoma, IDH-wildtype	Primary	Right frontal	 					Unusual morphology with focal astroblastic pattern, eosinophilic granular bodies, and Rosenthal fibers	Matched	Glioma	4.43333333333
+Mayo-PDX-Sarkaria-116	Mayo-PDX-Sarkaria-116	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal	 					Fibrillary	Matched	Glioma	4.7
+Mayo-PDX-Sarkaria-117	Mayo-PDX-Sarkaria-117	GB	Glioblastoma, IDH-wildtype	Primary	Left parietal	 					Fibrillary	Matched	Glioma	5.13333333333
+Mayo-PDX-Sarkaria-118	Mayo-PDX-Sarkaria-118	GB	Glioblastoma, IDH-wildtype	Primary	Left parietotemporal	 					Fibrillary and gemistocytic	Matched	Glioma	2.63333333333
+Mayo-PDX-Sarkaria-120	Mayo-PDX-Sarkaria-120	GB	Glioblastoma, IDH-wildtype	Recurrence	Right frontal/basal ganglia	 				IV	Fibrillary 	Matched	Glioma	6.43333333333
+Mayo-PDX-Sarkaria-122	Mayo-PDX-Sarkaria-122	GB	Glioblastoma, IDH-wildtype	Primary	Right frontal	 					Fibrillary	Matched	Glioma	2.7
+Mayo-PDX-Sarkaria-123	Mayo-PDX-Sarkaria-123	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					Fibrillary	Matched	Glioma	3.2
+Mayo-PDX-Sarkaria-125	Mayo-PDX-Sarkaria-125	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal	 					Fibrillary and gemistocytic	Matched	Glioma	2.46666666667
+Mayo-PDX-Sarkaria-126	Mayo-PDX-Sarkaria-126	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal	 					Fibrillary	Matched	Glioma	5.1
+Mayo-PDX-Sarkaria-129	Mayo-PDX-Sarkaria-129	GB	Glioblastoma, IDH-wildtype	Recurrence	Left occipital	 				IV	NOS	Matched	Glioma	2.83333333333
+Mayo-PDX-Sarkaria-132	Mayo-PDX-Sarkaria-132	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					Fibrillary	Matched	Glioma	5.36666666667
+Mayo-PDX-Sarkaria-134	Mayo-PDX-Sarkaria-134	GB	Glioblastoma, IDH-wildtype	Recurrence	Left parietal	 				IV	Fibrillary	Matched	Glioma	3.83333333333
+Mayo-PDX-Sarkaria-137	Mayo-PDX-Sarkaria-137	GB	Glioblastoma, IDH-wildtype	Recurrence	Left parietal, Right parietal	 				IV	Small cell and giant cell	Matched	Glioma	2.83333333333
+Mayo-PDX-Sarkaria-139	Mayo-PDX-Sarkaria-139	GB	Glioblastoma, IDH-wildtype	Recurrence	Right temporal	 				IV	Fibrillary	Matched	Glioma	3.96666666667
+Mayo-PDX-Sarkaria-143	Mayo-PDX-Sarkaria-143	GB	Glioblastoma, IDH-wildtype	Recurrence	Left frontal	 				II	Fibrillary	Matched	Glioma	4.13333333333
+Mayo-PDX-Sarkaria-146	Mayo-PDX-Sarkaria-146	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal	 				IV	Fibrillary	Matched	Glioma	4.16666666667
+Mayo-PDX-Sarkaria-147	Mayo-PDX-Sarkaria-147	GB	Glioblastoma, IDH-wildtype	Primary	Right temporal	 					Fibrillary	Matched	Glioma	2.9
+Mayo-PDX-Sarkaria-148	Mayo-PDX-Sarkaria-148	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal	 					Fibrillary and gemistocytic	Matched	Glioma	3.13333333333
+Mayo-PDX-Sarkaria-150	Mayo-PDX-Sarkaria-150	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal	 					Giant cell features	Matched	Glioma	4.93333333333
+Mayo-PDX-Sarkaria-154	Mayo-PDX-Sarkaria-154	GB	Glioblastoma, IDH-wildtype	Recurrence	Left parietal	 				II	Fibrillary and small cell	Matched	Glioma	8.43333333333
+Mayo-PDX-Sarkaria-155	Mayo-PDX-Sarkaria-155	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					Fibrillary	Matched	Glioma	2.43333333333
+Mayo-PDX-Sarkaria-156	Mayo-PDX-Sarkaria-156	GB	Glioblastoma, IDH-wildtype	Primary	Right frontal	 					Fibrillary and gemistocytic	Matched	Glioma	3.4
+Mayo-PDX-Sarkaria-157	Mayo-PDX-Sarkaria-157	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parieto-occipital	 				IV	NOS	Matched	Glioma	6.33333333333
+Mayo-PDX-Sarkaria-159	Mayo-PDX-Sarkaria-159	GB	Glioblastoma, IDH-wildtype	Primary	Right frontal	 					Fibrillary and gemistocytic	Matched	Glioma	1.83333333333
+Mayo-PDX-Sarkaria-161	Mayo-PDX-Sarkaria-161	GB	Glioblastoma, IDH-wildtype	Primary	Right frontal	 					Gliosarcoma	Unmatched	Glioma	19.5666666667
+Mayo-PDX-Sarkaria-164	Mayo-PDX-Sarkaria-164	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	 					Oligoastrocytoma, predominantly oligodendroglial	Matched	Glioma	3.4
+Mayo-PDX-Sarkaria-167	Mayo-PDX-Sarkaria-167	GB	Glioblastoma, IDH-wildtype	Primary	Right temporal	 					Fibrillary	Unmatched	Glioma	21.4333333333
+Mayo-PDX-Sarkaria-168	Mayo-PDX-Sarkaria-168	GB	Glioblastoma, IDH-wildtype	Primary	Left parieto-occipital	 					Fibrillary	Matched	Glioma	3.33333333333
+Mayo-PDX-Sarkaria-170	Mayo-PDX-Sarkaria-170	GB	Glioblastoma, IDH-wildtype	Recurrence	Right temporal	 				IV	Small cell	Matched	Glioma	14.5666666667
+Mayo-PDX-Sarkaria-174	Mayo-PDX-Sarkaria-174	GB	Glioblastoma, IDH-wildtype	Recurrence	Right frontal	 				IV	Small cell	Matched	Glioma	98.5
+Mayo-PDX-Sarkaria-177	Mayo-PDX-Sarkaria-177	GB	Glioblastoma, IDH-wildtype	Recurrence	Left occipital	 				IV	Fibrillary and giant cell	Matched	Glioma	3.8
+Mayo-PDX-Sarkaria-181	Mayo-PDX-Sarkaria-181	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal	 				IV	Fibrillary	Matched	Glioma	93.9666666667
+Mayo-PDX-Sarkaria-182	Mayo-PDX-Sarkaria-182	GB	Glioblastoma, IDH-wildtype	Primary	Left parietal	 					Fibrillary	Matched	Glioma	3.33333333333
+Mayo-PDX-Sarkaria-184	Mayo-PDX-Sarkaria-184	GB	Glioblastoma, IDH-wildtype	Primary	Right temporal	 					Giant cell features	Matched	Glioma	3.1
+Mayo-PDX-Sarkaria-187	Mayo-PDX-Sarkaria-187	GB	Glioblastoma, IDH-wildtype	Primary	Right parietal	 					Fibrillary	Matched	Glioma	3.23333333333
+Mayo-PDX-Sarkaria-192	Mayo-PDX-Sarkaria-192	GB	Glioblastoma, IDH-wildtype	Recurrence	Multifocal (left frontal/temporal/parietal; right occipital)	 				IV	Fibrillary	Matched	Glioma	55.9
+Mayo-PDX-Sarkaria-195	Mayo-PDX-Sarkaria-195	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal	 				IV	Fibrillary	Matched	Glioma	3.1
+Mayo-PDX-Sarkaria-196	Mayo-PDX-Sarkaria-196	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal lobe	 					NOS	Matched	Glioma	4.36666666667
+Mayo-PDX-Sarkaria-200	Mayo-PDX-Sarkaria-200	GB	Glioblastoma, IDH-wildtype	Recurrence	Left parietal	 				IV	Markedly pleomorphic and poorly differentiated	Unmatched	Glioma	142.7
+Mayo-PDX-Sarkaria-201	Mayo-PDX-Sarkaria-201	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal	N/A	2015	IV	Glioblastoma		Extensive giant cell features	Matched	Glioma	4.03333333333
+Mayo-PDX-Sarkaria-206	Mayo-PDX-Sarkaria-206	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal						NOS	Matched	Glioma	4.3
+Mayo-PDX-Sarkaria-209	Mayo-PDX-Sarkaria-209	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal					IV	Fibrillary	Matched	Glioma	4.8
+Mayo-PDX-Sarkaria-215	Mayo-PDX-Sarkaria-215	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal						Glioblastoma with evidence of recent hemorrhage	Matched	Glioma	2.8
+Mayo-PDX-Sarkaria-218	Mayo-PDX-Sarkaria-218	GB	Glioblastoma, IDH-wildtype	Recurrence	Right temporal					IV	Fibrillary	Matched	Glioma	4.73333333333
+Mayo-PDX-Sarkaria-228	Mayo-PDX-Sarkaria-228	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal	Anaplastic astrocytoma	2013	IV	Glioblastoma	III	Fibrillary	Matched	Glioma	285.466666667
+Mayo-PDX-Sarkaria-229	Mayo-PDX-Sarkaria-229	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal; right temporal					IV	Fibrillary	Matched	Glioma	4.5
+Mayo-PDX-Sarkaria-231	Mayo-PDX-Sarkaria-231	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal	Glioblastoma	2014	IV	Glioblastoma	IV	NOS	Matched	Glioma	33.4
+Mayo-PDX-Sarkaria-232	Mayo-PDX-Sarkaria-232	GB	Glioblastoma, IDH-wildtype	Recurrence	Left frontotemporal	Glioblastoma	2015	IV	Glioblastoma	IV	NOS	Matched	Glioma	4.76666666667
+Mayo-PDX-Sarkaria-237	Mayo-PDX-Sarkaria-237	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal	Astrocytoma, subtype indeterminate	1995	IV	Glioblastoma	III	NOS	Matched	Glioma	17.5333333333
+Mayo-PDX-Sarkaria-238	Mayo-PDX-Sarkaria-238	GB	Glioblastoma, IDH-wildtype	Recurrence	Right parietal	Glioblastoma	2015	IV	Glioblastoma	IV	Giant cell and PNET-like features	Matched	Glioma	25.0333333333
+Mayo-PDX-Sarkaria-241	Mayo-PDX-Sarkaria-241	GB	Glioblastoma, IDH-wildtype	Primary	Right parietal			IV	Glioblastoma		NOS	Matched	Glioma	4.66666666667
+Mayo-PDX-Sarkaria-242	Mayo-PDX-Sarkaria-242	GB	Glioblastoma, IDH-wildtype	Primary	Right temporal			IV	Glioblastoma		NOS	Matched	Glioma	27.4
+Mayo-PDX-Sarkaria-245	Mayo-PDX-Sarkaria-245	GB	Glioblastoma, IDH-wildtype	Primary	Left occipital-parietal			IV	Glioblastoma		NOS	Matched	Glioma	5.1
+Mayo-PDX-Sarkaria-247	Mayo-PDX-Sarkaria-247	GB	Glioblastoma, IDH-wildtype	Recurrence	Left temporal					III	Oligodendroglioma	Matched	Glioma	NA
+Mayo-PDX-Sarkaria-264	Mayo-PDX-Sarkaria-264	GB	Glioblastoma, IDH-wildtype	Recurrence	Right frontal	Anaplastic astrocytoma	2016	IV	Glioblastoma	III	NOS	Matched	Glioma	3.0
+Mayo-PDX-Sarkaria-265	Mayo-PDX-Sarkaria-265	GB	Glioblastoma, IDH-wildtype	Primary	Right cerebellum/occipital			IV	Glioblastoma		NOS	Matched	Glioma	7.2
+Mayo-PDX-Sarkaria-279	Mayo-PDX-Sarkaria-279	GB	Glioblastoma, IDH-wildtype	Recurrence	Left frontal	Glioblastoma	2016	IV	Glioblastoma	IV	NOS	Matched	Glioma	6.9
+Mayo-PDX-Sarkaria-280	Mayo-PDX-Sarkaria-280A	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal						NOS	Matched	Glioma	6.1
+Mayo-PDX-Sarkaria-15	Mayo-PDX-Sarkaria-15	GB	Glioblastoma, IDH-wildtype									Matched	Glioma	22.3
+Mayo-PDX-Sarkaria-16	Mayo-PDX-Sarkaria-16	GB	Glioblastoma, IDH-wildtype									Matched	Glioma	19.4333333333
+Mayo-PDX-Sarkaria-280	Mayo-PDX-Sarkaria-280B	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal			IV	Glioblastoma		NOS	Matched	Glioma	4.96666666667
+Mayo-PDX-Sarkaria-297	Mayo-PDX-Sarkaria-297	GB	Glioblastoma, IDH-wildtype	Primary	Right temporal			IV	Glioblastoma		NOS	Matched	Glioma	3.8
+Mayo-PDX-Sarkaria-301	Mayo-PDX-Sarkaria-301	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal			IV	Glioblastoma		NOS	Matched	Glioma	28.6666666667
+Mayo-PDX-Sarkaria-304	Mayo-PDX-Sarkaria-304	GB	Glioblastoma, IDH-wildtype	Recurrence	Left posterior temporal	Glioblastoma	2017	IV	Glioblastoma		NOS	Matched	Glioma	3.9
+Mayo-PDX-Sarkaria-307	Mayo-PDX-Sarkaria-307	GB	Glioblastoma, IDH-wildtype	Primary	Left parietal			IV	Glioblastoma		NOS	Matched	Glioma	4.2
+Mayo-PDX-Sarkaria-315	Mayo-PDX-Sarkaria-315	GB	Glioblastoma, IDH-wildtype	Recurrence	Left temporal	Glioblastoma	2017	IV	Glioblastoma		NOS	Matched	Glioma	28.5666666667
+Mayo-PDX-Sarkaria-318	Mayo-PDX-Sarkaria-318	GB	Glioblastoma, IDH-wildtype	Primary	Left frontal			IV	Glioblastoma		NOS	Matched	Glioma	3.43333333333
+Mayo-PDX-Sarkaria-321	Mayo-PDX-Sarkaria-321	GB	Glioblastoma, IDH-wildtype	Primary	Right temporal			IV	Glioblastoma		NOS	Matched	Glioma	5.16666666667
+Mayo-PDX-Sarkaria-335	Mayo-PDX-Sarkaria-335	GB	Glioblastoma, IDH-wildtype	Primary	Left temporal			IV	Glioblastoma		NOS	Matched	Glioma	26.5333333333
