@@ -1,3 +1,96 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:68a1ece849c94dc7134f1ce4d0a2cc858921403b65e82568a1a76d18fee3fa4a
-size 11672
+#Patient Identifier	Sample Identifier	Sample Type	Gene Panel	Oncotree Code	Sample Collection Method	Specimen Preservation Type	Tissue Site	Somatic Status	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#Identifier to uniquely specify a patient.	A unique sample identifier.	The type of sample (i.e., normal, primary, met, recurrence).	Gene panel.	Oncotree Code	Sample Collection Method	The method used for preparing the tissue for examination and study.	Tissue Site	Somatic Status	Cancer Type	Cancer Type Detailed	TMB (nonsynonymous)
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER
+#1	1	9	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SAMPLE_ID	SAMPLE_TYPE	GENE_PANEL	ONCOTREE_CODE	SAMPLE_COLLECTION_METHOD	SPECIMEN_PRESERVATION_TYPE	TISSUE_SITE	SOMATIC_STATUS	CANCER_TYPE	CANCER_TYPE_DETAILED	TMB_NONSYNONYMOUS
+IM-GBM-12	Patient-12-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	0.978719697615
+IM-GBM-12	Patient-12-T	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	1.95743939523
+IM-GBM-39	Patient-39-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA		Glioma	Glioblastoma, IDH-wildtype	4.89359848807
+IM-GBM-13	Patient-13-CSF	Unknown_Tumor	IMPACT410	HGGNOS	cfDNA	CFDNA	NA	Matched	Glioma	High-Grade Glioma, NOS	0.978719697615
+IM-GBM-13	Patient-13-T	Primary	IMPACT410	HGGNOS	Resection	FFPE	NA	Matched	Glioma	High-Grade Glioma, NOS	0.978719697615
+IM-GBM-14	Patient-14-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	0.0
+IM-GBM-14	Patient-14-T	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-15	Patient-15-CSF-LP	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	4.89359848807
+IM-GBM-15	Patient-15-CSF-VP	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	4.89359848807
+IM-GBM-15	Patient-15-T	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	4.89359848807
+IM-GBM-4	Patient-04-CSF	Unknown_Tumor	IMPACT410	ASTR	cfDNA	CFDNA	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	0.978719697615
+IM-GBM-4	Patient-04-T	Recurrence	IMPACT410	ASTR	Resection	FFPE	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	3.91487879046
+IM-GBM-17	Patient-17-CSF-LP	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-17	Patient-17-CSF-VP	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-17	Patient-17-T	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	4.89359848807
+IM-GBM-35	Patient-35-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA		Glioma	Glioblastoma, IDH-wildtype	29.3615909284
+IM-GBM-35	Patient-35-T	Recurrence	IMPACT410	GB	Resection	FFPE	NA		Glioma	Glioblastoma, IDH-wildtype	68.510378833
+IM-GBM-36	Patient-36-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	116.467644016
+IM-GBM-36	Patient-36-T1	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-36	Patient-36-T2	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	108.637886435
+IM-GBM-18	Patient-18-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	0.978719697615
+IM-GBM-18	Patient-18-T	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	2.93615909284
+IM-GBM-16	Patient-16-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	0.978719697615
+IM-GBM-16	Patient-16-T	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	2.93615909284
+IM-GBM-8	Patient-08-CSF	Unknown_Tumor	IMPACT410	ASTR	cfDNA	CFDNA	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	1.95743939523
+IM-GBM-8	Patient-08-T	Primary	IMPACT410	ASTR	Resection	FFPE	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	3.91487879046
+IM-GBM-19	Patient-19-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-19	Patient-19-T	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-9	Patient-09-CSF	Unknown_Tumor	IMPACT410	ASTR	cfDNA	CFDNA	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	0.978719697615
+IM-GBM-9	Patient-09-T	Recurrence	IMPACT410	ASTR	Resection	FFPE	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	2.93615909284
+IM-GBM-11	Patient-11-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	5.87231818569
+IM-GBM-11	Patient-11-T	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	6.8510378833
+IM-GBM-31	Patient-31-CSF	Unknown_Tumor	IMPACT410	ODG	cfDNA	CFDNA	NA	Matched	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	23.4892727428
+IM-GBM-31	Patient-31-T	Recurrence	IMPACT410	ODG	Resection	FFPE	NA	Matched	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	12.723356069
+IM-GBM-5	Patient-05-CSF	Unknown_Tumor	IMPACT410	ASTR	cfDNA	CFDNA	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	16.6382348595
+IM-GBM-5	Patient-05-T	Primary	IMPACT410	ASTR	Resection	FFPE	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	6.8510378833
+IM-GBM-41	Patient-41-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	0.0
+IM-GBM-1	Patient-01-CSF	Unknown_Tumor	IMPACT410	ODG	cfDNA	CFDNA	NA	Matched	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	11.7446363714
+IM-GBM-1	Patient-01-T	Recurrence	IMPACT410	ODG	Resection	FFPE	NA	Matched	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	3.91487879046
+IM-GBM-28	Patient-28-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	2.93615909284
+IM-GBM-28	Patient-28-T1	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	2.93615909284
+IM-GBM-28	Patient-28-T2	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	2.93615909284
+IM-GBM-28	Patient-28-T3	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-20	Patient-20-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-20	Patient-20-T	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	5.87231818569
+IM-GBM-37	Patient-37-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-2	Patient-02-CSF	Unknown_Tumor	IMPACT410	ODG	cfDNA	CFDNA	NA	Matched	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	4.89359848807
+IM-GBM-2	Patient-02-T	Recurrence	IMPACT410	ODG	Resection	FFPE	NA	Matched	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	4.89359848807
+IM-GBM-3	Patient-03-CSF	Unknown_Tumor	IMPACT410	ODG	cfDNA	CFDNA	NA	Matched	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	3.91487879046
+IM-GBM-3	Patient-03-T	Recurrence	IMPACT410	ODG	Resection	FFPE	NA	Matched	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	4.89359848807
+IM-GBM-40	Patient-40-CSF	Unknown_Tumor	IMPACT410	HGGNOS	cfDNA	CFDNA	NA		Glioma	High-Grade Glioma, NOS	8.80847727853
+IM-GBM-21	Patient-21-CSF-LP	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	4.89359848807
+IM-GBM-21	Patient-21-CSF-VP	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	4.89359848807
+IM-GBM-21	Patient-21-T	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	4.89359848807
+IM-GBM-22	Patient-22-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	5.87231818569
+IM-GBM-22	Patient-22-T	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	7.82975758092
+IM-GBM-24	Patient-24-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	2.93615909284
+IM-GBM-24	Patient-24-T	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	2.93615909284
+IM-GBM-23	Patient-23-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	5.87231818569
+IM-GBM-23	Patient-23-T	Recurrence	IMPACT410	HGGNOS	Biopsy	FFPE	NA	Matched	Glioma	High-Grade Glioma, NOS	5.87231818569
+IM-GBM-42	Patient-42-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA		Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-33	Patient-33-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	91.9996515758
+IM-GBM-33	Patient-33-T	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	52.8508636712
+IM-GBM-25	Patient-25-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-25	Patient-25-T	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	3.91487879046
+IM-GBM-38	Patient-38-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	2.93615909284
+IM-GBM-34	Patient-34-CSF-LP	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	193.786500128
+IM-GBM-34	Patient-34-CSF-VP	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	221.190651661
+IM-GBM-34	Patient-34-T	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	32.2977500213
+IM-GBM-6	Patient-06-CSF	Unknown_Tumor	IMPACT410	ASTR	cfDNA	CFDNA	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	0.978719697615
+IM-GBM-6	Patient-06-T	Recurrence	IMPACT410	ASTR	Resection	FFPE	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	7.82975758092
+IM-GBM-10	Patient-10-CSF-LP	Unknown_Tumor	IMPACT410	ASTR	cfDNA	CFDNA	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	6.8510378833
+IM-GBM-10	Patient-10-CSF-VP	Unknown_Tumor	IMPACT410	ASTR	cfDNA	CFDNA	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	6.8510378833
+IM-GBM-10	Patient-10-T	Primary	IMPACT410	ASTR	Resection	FFPE	NA	Matched	Glioma	Astrocytoma, IDH-Mutant	5.87231818569
+IM-GBM-26	Patient-26-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	0.0
+IM-GBM-26	Patient-26-T	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	2.93615909284
+IM-GBM-27	Patient-27-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	1.95743939523
+IM-GBM-27	Patient-27-T	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	0.0
+IM-GBM-7	Patient-07-CSF1	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	5.87231818569
+IM-GBM-7	Patient-07-CSF2	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	6.8510378833
+IM-GBM-7	Patient-07-T1	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	4.89359848807
+IM-GBM-7	Patient-07-T4	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	7.82975758092
+IM-GBM-7	Patient-07-T2	Recurrence	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	4.89359848807
+IM-GBM-7	Patient-07-T3	Recurrence	IMPACT410	GB	Biopsy	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	8.80847727853
+IM-GBM-29	Patient-29-CSF	Unknown_Tumor	IMPACT410	GB	cfDNA	CFDNA	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	1.95743939523
+IM-GBM-29	Patient-29-T	Primary	IMPACT410	GB	Resection	FFPE	NA	Matched	Glioma	Glioblastoma, IDH-wildtype	2.93615909284
+IM-GBM-30	Patient-30-CSF-LP	Unknown_Tumor	IMPACT410	GSARC	cfDNA	CFDNA	NA	Matched	Glioma	Gliosarcoma	3.91487879046
+IM-GBM-30	Patient-30-CSF-VP	Unknown_Tumor	IMPACT410	GSARC	cfDNA	CFDNA	NA	Matched	Glioma	Gliosarcoma	3.91487879046
+IM-GBM-30	Patient-30-T	Recurrence	IMPACT410	GSARC	Resection	FFPE	NA	Matched	Glioma	Gliosarcoma	2.93615909284
+IM-GBM-32	Patient-32-CSF	Unknown_Tumor	IMPACT410	ODG	cfDNA	CFDNA	NA	Matched	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	54.8083030664
+IM-GBM-32	Patient-32-T	Recurrence	IMPACT410	ODG	Resection	FFPE	NA	Matched	Glioma	Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted	2.93615909284
