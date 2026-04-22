@@ -1,3 +1,680 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:73b71b2891cc06b2ad5018dc7f05335e490014981b53d68d81b8bfda26597f68
-size 107317
+#Sample Identifier	Patient Identifier	Tissue Supergroup	Metastatic Tissue Site	Primary Tissue Site	Oncotree Code	Freeze Media	Final Analysis Set	CCLE ID	Sanger ID	Cancer Type	Cancer Type Detailed	Somatic Status	DepMap ID
+#Sample identifier	Patient identifier	Sample tissue supergroup	Metastatic tissue site	Primary tissue site	Oncotree code	Cell line freeze media	Indicates if the sample was included in the final analysis set	CCLE ID 	Sanger ID	Cancer Type	Cancer Type Detailed	Somatic status 	DepMap ID mapping for cell lines included in the DepMap CCLE study 
+#STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING
+#1	0	0	1	1	1	0	1	0	0	1	1	1	0
+SAMPLE_ID	PATIENT_ID	TISSUE_SUPERGROUP	METASTATIC_SITE	PRIMARY_SITE	ONCOTREE_CODE	FREEZE_MEDIA	ANALYSIS_SET	CCLE_ID	SANGER_ID	CANCER_TYPE	CANCER_TYPE_DETAILED	SOMATIC_STATUS	SAMPLE_DISPLAY_NAME
+S-888	P-888	Skin	NA	Skin	MEL	NA	True	NA	NA	Melanoma	Melanoma	Matched	
+S-105KC	P-105KC	Sarcomatoid	NA	Cartilage	CHS	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Bone Cancer	Chondrosarcoma	Matched	
+S-143B	P-143B	Sarcomatoid	NA	Bone	OS	Complete growth medium, 90%; DMSO, 10%	True	143B	NA	Bone Cancer	Osteosarcoma	Matched	143B_BONE
+S-23132-87	P-23132-87	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	23132/87	23132-87	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	2313287_STOMACH
+S-501A	P-501A	Skin	NA	Skin	MEL	90% FBS; 10% DMSO	False	NA	NA	Melanoma	Melanoma	Matched	
+S-537-MEL	P-537-MEL	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Melanoma	Melanoma	Matched	
+S-59M	P-59M	Ovary	NA	Ovary	OOVC	90% FBS; 10% DMSO	True	59M	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	59M_OVARY
+S-624-mel	P-624-mel	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Melanoma	Melanoma	Matched	
+S-769-P	P-769-P	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	True	769-P	769-P	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	769P_KIDNEY
+S-786-O	P-786-O	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	True	786-O	786-0	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	786O_KIDNEY
+S-928-mel	P-928-mel	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Melanoma	Melanoma	Matched	
+S-A-375	P-A-375	Skin		Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	A-375	A375	Melanoma	Melanoma	Matched	A375_SKIN
+S-A-427	P-A-427	Lung	NA	Lung	LUNG	Complete growth medium, 90%; DMSO, 10%	True	NA	A427	Lung Cancer	Lung	Matched	
+S-A-431	P-A-431	Skin	NA	Skin	CSCC	Complete growth medium, 90%; DMSO, 10%	True	NA	A431	Skin Cancer, Non-Melanoma	Cutaneous Squamous Cell Carcinoma	Matched	
+S-A-498	P-A-498	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	True	A-498	A498	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	A498_KIDNEY
+S-A-673	P-A-673	Sarcomatoid	NA	Skeletal Muscle	RMS	Complete growth medium, 90%; DMSO, 10%	True	A-673	A673	Soft Tissue Sarcoma	Rhabdomyosarcoma	Matched	A673_BONE
+S-A172	P-A172	Brain	NA	Brain	GB	90% FBS; 10% DMSO	True	A172	A172	Glioma	Glioblastoma, IDH-wildtype	Matched	A172_CENTRAL_NERVOUS_SYSTEM
+S-A2058	P-A2058	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	A2058	A2058	Melanoma	Melanoma	Matched	A2058_SKIN
+S-A2780	P-A2780	Ovary	NA	Ovary	OOVC	Complete growth media, 90%; DMSO, 10%	True	A2780	A2780	Ovarian Cancer	Ovarian Cancer, Other	Matched	A2780_OVARY
+S-A3-KAW	P-A3-KAW	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	A3/KAW	A3-KAW	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	A3KAW_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-A4-Fuk	P-A4-Fuk	Lymphoid	NA	Blood	NHL	Complete growth medium, 90%; DMSO, 10%	True	A4/Fuk	A4-Fuk	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Matched	A4FUK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-A549	P-A549	Lung	NA	Lung	LUNG	Complete growth medium, 90%; DMSO, 10%	True	A549	A549	Lung Cancer	Lung	Matched	A549_LUNG
+S-ABC-1	P-ABC-1	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	ABC-1	ABC-1	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	ABC1_LUNG
+S-ACHN	P-ACHN	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	True	ACHN	ACHN	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	ACHN_KIDNEY
+S-AGS	P-AGS	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	AGS	AGS	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	AGS_STOMACH
+S-AMO-1	P-AMO-1	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	AMO-1	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	AMO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-AN3-CA	P-AN3-CA	Uterus	NA	Uterus	UCEC	Complete growth medium, 90%; DMSO, 10%	True	AN3 CA	AN3-CA	Endometrial Cancer	Endometrial Carcinoma	Matched	AN3CA_ENDOMETRIUM
+S-AsPC-1	P-AsPC-1	Pancreas	NA	Pancreas	PAAD	90% Complete growth media; 10% DMSO	True	AsPC-1	AsPC-1	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	ASPC1_PANCREAS
+S-ATRFLOX	P-ATRFLOX	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-BEN	P-BEN	Lung	NA	Lung	LUNG	Complete growth medium, 90%; DMSO, 10%	True	BEN	BEN	Lung Cancer	Lung	Matched	BEN_LUNG
+S-BFTC-905	P-BFTC-905	Urinary Bladder	NA	Urinary Bladder	BLCA	Complete growth medium, 90%; DMSO, 10%	True	BFTC-905	BFTC-905	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	BFTC905_URINARY_TRACT
+S-BFTC-909	P-BFTC-909	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	True	BFTC-909	BFTC-909	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	BFTC909_KIDNEY
+S-BHY	P-BHY	Head-Neck	NA	Oral Cavity	OCSC	Complete growth medium, 90%; DMSO, 10%	True	BHY	BHY	Head and Neck Cancer	Oral Cavity Squamous Cell Carcinoma	Matched	BHY_UPPER_AERODIGESTIVE_TRACT
+S-BICR-10	P-BICR-10	Head-Neck	NA	Oral Cavity	OCSC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Head and Neck Cancer	Oral Cavity Squamous Cell Carcinoma	Matched	
+S-BICR-22	P-BICR-22	Head-Neck	NA	Tongue	HNSC	Complete growth medium, 90%; DMSO, 10%	True	BICR 22	NA	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	BICR22_UPPER_AERODIGESTIVE_TRACT
+S-BICR-31	P-BICR-31	Head-Neck	NA	Tongue	HNSC	Complete growth medium, 90%; DMSO, 10%	True	BICR 31	NA	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	BICR31_UPPER_AERODIGESTIVE_TRACT
+S-BICR-78	P-BICR-78	Head-Neck	NA	Oral Cavity	OCSC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Head and Neck Cancer	Oral Cavity Squamous Cell Carcinoma	Matched	
+S-BJAB	P-BJAB	Lymphoid	NA	Lymph Node	MBN	RPMI-1640, 20% HI FBS, 10% DMSO	True	NA	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-BT-20	P-BT-20	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	BT-20	BT-20	Breast Cancer	Invasive Breast Carcinoma	Matched	BT20_BREAST
+S-BT-474	P-BT-474	Breast	Soft Tissue	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	BT-474	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	BT474_BREAST
+S-BT-483	P-BT-483	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	BT-483	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	BT483_BREAST
+S-BT-549	P-BT-549	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	BT-549	BT-549	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	BT549_BREAST
+S-BxPC-3	P-BxPC-3	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	BxPC-3	BxPC-3	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	BXPC3_PANCREAS
+S-C-33A	P-C-33A	Cervix	NA	Cervix	CEAD	Complete growth medium, 90%; DMSO, 10%	True	NA	C-33-A	Cervical Cancer	Cervical Adenocarcinoma	Matched	
+S-C170	P-C170	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-C2BBe1	P-C2BBe1	Colo-Rectal	NA	Colon	COAD	90% FBS; 10% DMSO	True	C2BBe1	C2BBe1	Colorectal Cancer	Colon Adenocarcinoma	Matched	C2BBE1_LARGE_INTESTINE
+S-C32	P-C32	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	C32	C32	Melanoma	Melanoma	Matched	C32_SKIN
+S-C32TG	P-C32TG	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Melanoma	Melanoma	Matched	
+S-C3A	P-C3A	Liver	NA	Liver	HCC	NA	False	C3A	C3A	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	C3A_LIVER
+S-CA-Ski	P-CA-Ski	Cervix	NA	Cervix	CEAD	Complete growth medium, 90%; DMSO, 10%	True	NA	Ca-Ski	Cervical Cancer	Cervical Adenocarcinoma	Matched	
+S-CA46	P-CA46	Lymphoid	NA	Blood	BL	Complete growth medium, 90%; DMSO, 10%	True	CA46	CA46	Mature B-Cell Neoplasms	Burkitt Lymphoma	Matched	CA46_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-Caco-2	P-Caco-2	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-Caki-1	P-Caki-1	Kidney	NA	Kidney	CCSK	Complete growth medium, 90%; DMSO, 10%	True	Caki-1	CAKI-1	Clear Cell Sarcoma of Kidney	Clear Cell Sarcoma of Kidney	Matched	CAKI1_KIDNEY
+S-Caki-2	P-Caki-2	Kidney	NA	Kidney	RCC	FBS, 90%; DMSO, 10%	True	Caki-2	NA	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	CAKI2_KIDNEY
+S-CAL27	P-CAL27	Head-Neck	NA	Tongue	HNSC	Complete growth medium, 90%; DMSO, 10%	True	CAL 27	CAL-27	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	CAL27_UPPER_AERODIGESTIVE_TRACT
+S-CAL54	P-CAL54	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	True	CAL-54	CAL-54	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	CAL54_KIDNEY
+S-CAL-120	P-CAL-120	Breast	Effusion, Pleural	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	CAL-120	CAL-120	Breast Cancer	Invasive Breast Carcinoma	Matched	CAL120_BREAST
+S-CAL-12T	P-CAL-12T	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	CAL-12T	CAL-12T	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	CAL12T_LUNG
+S-CAL-148	P-CAL-148	Breast	Effusion, Pleural	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	CAL-148	CAL-148	Breast Cancer	Invasive Breast Carcinoma	Matched	CAL148_BREAST
+S-CAL-85-1	P-CAL-85-1	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	CAL-85-1	CAL-85-1	Breast Cancer	Invasive Breast Carcinoma	Matched	CAL851_BREAST
+S-CAL51	P-CAL51	Breast	Effusion, Pleural	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	CAL-51	CAL-51	Breast Cancer	Invasive Breast Carcinoma	Matched	CAL51_BREAST
+S-Calu-1	P-Calu-1	Lung	NA	Lung	LUNG	Complete growth medium, 90%; DMSO, 10%	True	Calu-1	Calu-1	Lung Cancer	Lung	Matched	CALU1_LUNG
+S-Calu-3	P-Calu-3	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	Calu-3	Calu-3	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	CALU3_LUNG
+S-Calu-6	P-Calu-6	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	Calu-6	Calu-6	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	CALU6_LUNG
+S-CAMA-1	P-CAMA-1	Breast	NA	Breast	BRCA	Complete growth media, 10% DMSO	True	CAMA-1	CAMA-1	Breast Cancer	Invasive Breast Carcinoma	Matched	CAMA1_BREAST
+S-Caov-3	P-Caov-3	Ovary	NA	Ovary	OOVC	FBS, 90%; DMSO, 10%	True	Caov-3	Caov-3	Ovarian Cancer	Ovarian Cancer, Other	Matched	CAOV3_OVARY
+S-Capan-1	P-Capan-1	Pancreas	NA	Pancreas	PAAD	90% FBS; 10% DMSO	True	Capan-1	CAPAN-1	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	CAPAN1_PANCREAS
+S-Capan-2	P-Capan-2	Pancreas	NA	Pancreas	PAAD	90% FBS; 10% DMSO	True	Capan-2	Capan-2	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	CAPAN2_PANCREAS
+S-CaR-1	P-CaR-1	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	NA	CaR-1	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-CCRF-SB	P-CCRF-SB	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	
+S-CFPAC-1	P-CFPAC-1	Pancreas	NA	Pancreas	PAAD	90% FBS; 10% DMSO	True	CFPAC-1	CFPAC-1	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	CFPAC1_PANCREAS
+S-ChaGo-K-1	P-ChaGo-K-1	Lung	NA	Lung	LUNG	Complete growth medium, 90%; DMSO, 10%	True	ChaGo-K-1	ChaGo-K-1	Lung Cancer	Lung	Matched	CHAGOK1_LUNG
+S-CHL-1	P-CHL-1	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	False	CHL-1	CHL-1	Melanoma	Melanoma	Matched	CHL1_SKIN
+S-CHS-212	P-CHP-212	Brain	NA	Brain	NBL	Complete growth medium, 90%; DMSO, 10%	True	CHP-212	CHP-212	Peripheral Nervous System	Neuroblastoma	Matched	CHP212_AUTONOMIC_GANGLIA
+S-CI-1	P-CI-1	Lymphoid	NA	Lymph Node	NHL	Complete growth medium, 90%; DMSO, 10%	True	CI-1	NA	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Matched	CI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-CL-11	P-CL-11	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	CL-11	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	CL11_LARGE_INTESTINE
+S-CL-34	P-CL-34	Colo-Rectal	NA	Colon	COAD	90% FBS, 10% DMSO	True	CL-34	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	CL34_LARGE_INTESTINE
+S-CL-40	P-CL-40	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	CL-40	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	CL40_LARGE_INTESTINE
+S-COLO-201	P-COLO-201	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	COLO 201	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	COLO201_LARGE_INTESTINE
+S-COLO-205	P-COLO-205	Colo-Rectal	Ascites	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	COLO 205	COLO-205	Colorectal Cancer	Colon Adenocarcinoma	Matched	COLO205_LARGE_INTESTINE
+S-COLO-206F	P-COLO-206F	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-COLO-320DM	P-COLO-320DM	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-COLO-678	P-COLO-678	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	COLO-678	COLO-678	Colorectal Cancer	Colon Adenocarcinoma	Matched	COLO678_LARGE_INTESTINE
+S-COLO-679	P-COLO-679	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	COLO-679	COLO-679	Melanoma	Melanoma	Matched	COLO679_SKIN
+S-COLO-680N	P-COLO-680N	Head-Neck	NA	Esophagus	ESCC	Complete growth medium, 90%; DMSO, 10%	True	COLO-680N	COLO-680N	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	Matched	COLO680N_OESOPHAGUS
+S-COLO-699	P-COLO-699	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	
+S-COLO-741	P-COLO-741	Colo-Rectal	NA	Colon	COAD	90% Complete growth media, 10% DMSO	True	COLO 741	COLO-741	Colorectal Cancer	Colon Adenocarcinoma	Matched	COLO741_SKIN
+S-COLO-792	P-COLO-792	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	COLO 792	COLO-792	Melanoma	Melanoma	Matched	COLO792_SKIN
+S-COLO-794	P-COLO-794	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Melanoma	Melanoma	Matched	
+S-COLO-800	P-COLO-800	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	False	COLO-800	COLO-800	Melanoma	Melanoma	Matched	COLO800_SKIN
+S-COLO-829	P-COLO-829	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	False	COLO 829	NA	Melanoma	Melanoma	Matched	COLO829_SKIN
+S-COLO-849	P-COLO-849	Skin	Lymph Node	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	COLO-849	NA	Melanoma	Melanoma	Matched	COLO849_SKIN
+S-COLO-853	P-COLO-853	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Melanoma	Melanoma	Matched	
+S-COLO-857	P-COLO-857	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Melanoma	Melanoma	Matched	
+S-COLO-704	P-COLO-704	Ovary	NA	Ovary	OOVC	FBS, 90%; DMSO, 10%	True	COLO-704	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	COLO704_OVARY
+S-COLO-783	P-COLO-783	Skin	Lymph Node	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	COLO-783	NA	Melanoma	Melanoma	Matched	COLO783_SKIN
+S-COLO-818	P-COLO-818	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Melanoma	Melanoma	Matched	
+S-COR-L26	P-COR-L26	Lung	NA	Lung	LCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	Matched	
+S-COR-L279	P-COR-L279	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	COR-L279	COR-L279	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	CORL279_LUNG
+S-COR-L47	P-COR-L47	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	COR-L47	NA	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	CORL47_LUNG
+S-COR-L88	P-COR-L88	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	COR-L88	COR-L88	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	CORL88_LUNG
+S-COV318	P-COV318	Ovary	Ascites	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	COV318	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	COV318_OVARY
+S-COV362	P-COV362	Ovary	Pleura	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	COV362	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	COV362_OVARY
+S-COV413A	P-COV413A	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-COV413B	P-COV413B	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-COV434	P-COV434	Ovary	NA	Ovary	GRCT	Complete growth medium, 90%; DMSO, 10%	True	COV434	NA	Sex Cord Stromal Tumor	Granulosa Cell Tumor	Matched	COV434_OVARY
+S-COV504	P-COV504	Ovary	Pleura	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	COV504	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	COV504_OVARY
+S-COV644	P-COV644	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	COV644	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	COV644_OVARY
+S-CPC-N	P-CPC-N	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	CPC-N	CPC-N	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	CPCN_LUNG
+S-CW-2	P-CW-2	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	CW-2	CW-2	Colorectal Cancer	Colon Adenocarcinoma	Matched	CW2_LARGE_INTESTINE
+S-CX-1	P-CX-1	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-DAN-G	P-DAN-G	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	DAN-G	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	DANG_PANCREAS
+S-Daudi	P-Daudi	Lymphoid	NA	Blood	BL	Complete growth medium, 90%; DMSO, 10%	True	Daudi	Daudi	Mature B-Cell Neoplasms	Burkitt Lymphoma	Matched	DAUDI_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-DB	P-DB	Lymphoid	NA	Lymph Node	MBN	Complete growth media, 90%; DMSO, 10%	True	DB	DB	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	DB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-DEOC-1	P-DEOC-1	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Melanoma	Melanoma	Matched	
+S-Detroit562	P-Detroit562	Head-Neck	NA	Nasal Pharynx	OHNCA	90% FBS; DMSO, 10%	True	Detroit 562	Detroit562	Head and Neck Cancer	Head and Neck Carcinoma, Other	Matched	DETROIT562_UPPER_AERODIGESTIVE_TRACT
+S-DLD-1	P-DLD-1	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	DLD-1	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	DLD1_LARGE_INTESTINE
+S-DMS-273	P-DMS-273	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	DMS 273	DMS-273	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	DMS273_LUNG
+S-DMS-454	P-DMS-454	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	DMS 454	NA	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	DMS454_LUNG
+S-DMS-53	P-DMS-53	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	DMS 53	DMS-53	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	DMS53_LUNG
+S-DMS-79	P-DMS-79	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	DMS 79	DMS-79	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	DMS79_LUNG
+S-DOHH-2	P-DOHH-2	Lymphoid	Effusion, Pleural	Lymph Node	MBN	90% Complete growth medium; 10% DMSO	True	DOHH-2	DOHH-2	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	DOHH2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-DOK	P-DOK	Head-Neck	NA	Tongue	OHNCA	Complete growth medium, 90%; DMSO, 10%	True	NA	DOK	Head and Neck Cancer	Head and Neck Carcinoma, Other	Matched	
+S-DOR-13	P-DOR-13	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-DU145	P-DU145	Other	NA	Prostate	PROSTATE	Complete growth medium, 90%; DMSO, 10%	True	DU 145	DU-145	Prostate Cancer	Prostate	Matched	DU145_PROSTATE
+S-DU4475	P-DU4475	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	DU4475	DU-4475	Breast Cancer	Invasive Breast Carcinoma	Matched	DU4475_BREAST
+S-DV-90	P-DV-90	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	DV-90	DV-90	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	DV90_LUNG
+S-EB-3	P-EB-3	Lymphoid	NA	Blood	BL	Complete growth medium, 90%; DMSO, 10%	True	NA	EB-3	Mature B-Cell Neoplasms	Burkitt Lymphoma	Matched	
+S-EB1	P-EB1	Lymphoid	NA	Lymph Node	BL	RPMI-1640, 20% HI FBS, 10% DMSO	False	EB1	NA	Mature B-Cell Neoplasms	Burkitt Lymphoma	Matched	EB1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-EB2	P-EB2	Lymphoid	NA	Blood	BL	Complete growth medium, 90%; DMSO, 10%	True	EB2	EB2	Mature B-Cell Neoplasms	Burkitt Lymphoma	Matched	EB2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-EBC-1	P-EBC-1	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	EBC-1	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	EBC1_LUNG
+S-EFM-19	P-EFM-19	Breast	Effusion, Pleural	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	EFM-19	EFM-19	Breast Cancer	Invasive Breast Carcinoma	Matched	EFM19_BREAST
+S-EFM-192A	P-EFM-192A	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	EFM-192A	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	EFM192A_BREAST
+S-EFM-192B	P-EFM-192B	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-EFM-192C	P-EFM-192C	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-EFO-27	P-EFO-27	Ovary	NA	Ovary	OOVC	FBS, 90%; DMSO, 10%	True	EFO-27	EFO-27	Ovarian Cancer	Ovarian Cancer, Other	Matched	EFO27_OVARY
+S-EJM	P-EJM	Lymphoid	Peritoneum	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	EJM	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	EJM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-EKVX	P-EKVX	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	EKVX	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	
+S-EPLC-272H	P-EPLC-272H	Lung	NA	Lung	LUNG	Complete growth medium, 90%; DMSO, 10%	True	EPLC-272H	EPLC-272H	Lung Cancer	Lung	Matched	EPLC272H_LUNG
+S-ES-2	P-ES-2	Ovary	NA	Ovary	CCOV	Complete growth medium, 90%; DMSO, 10%	True	ES-2	NA	Ovarian Cancer	Clear Cell Ovarian Cancer	Matched	ES2_OVARY
+S-EVSA-T	P-EVSA-T	Breast	Ascites	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	EVSA-T	EVSA-T	Breast Cancer	Invasive Breast Carcinoma	Matched	EVSAT_BREAST
+S-FaDu	P-FaDu	Head-Neck	NA	Nasal Pharynx	HNSC	Complete growth medium, 90%; DMSO, 10%	True	FaDu	FADU	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	FADU_UPPER_AERODIGESTIVE_TRACT
+S-Farage	P-Farage	Lymphoid	NA	Blood	NHL	NA	True	NA	NA	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Matched	
+S-FU97	P-FU97	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	FU97	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	FU97_STOMACH
+S-G-361	P-G-361	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	G-361	G-361	Melanoma	Melanoma	Matched	G361_SKIN
+S-G-402	P-G-402	Kidney	NA	Kidney	LM	Complete growth medium, 90%; DMSO, 10%	True	G-402	NA	Soft Tissue Cancer	Leiomyoma	Matched	G402_SOFT_TISSUE
+S-G111	P-G111	Brain	NA	Brain	GNOS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G112	P-G112	Brain	NA	Brain	GNOS	FBS, 90%; DMSO, 10%	False	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G118	P-G118	Brain	NA	Brain	GNOS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G120	P-G120	Brain	NA	Brain	GNOS	FBS, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G121	P-G121	Brain	NA	Brain	GNOS	90% FBS; 10% DMSO	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G122	P-G122	Brain	NA	Brain	GNOS	FBS 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G124	P-G124	Brain	NA	Brain	GNOS	FBS 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G130	P-G130	Brain	NA	Brain	GNOS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G140	P-G140	Brain	NA	Brain	GNOS	FBS, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G141	P-G141	Brain	NA	Brain	GNOS	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G142	P-G142	Brain	NA	Brain	GNOS	FBS, 90%; DMSO, 10%	False	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G22	P-G22	Brain	NA	Brain	GNOS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G28T	P-G28T	Brain	NA	Brain	GNOS	FBS, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G44	P-G44	Brain	NA	Brain	GNOS	FBS, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G59	P-G59	Brain	NA	Brain	GNOS	FBS, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G61	P-G61	Brain	NA	Brain	GNOS	FBS, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G84	P-G84	Brain	NA	Brain	GNOS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Glioma	Glioma, NOS	Matched	
+S-G96	P-G96	Brain	NA	Brain	GNOS	FBS, 90%; DMSO, 10%	False	NA	NA	Glioma	Glioma, NOS	Matched	
+S-GA-10	P-GA-10	Lymphoid	NA	Blood	BL	Complete growth medium, 90%; DMSO, 10%	True	GA-10	NA	Mature B-Cell Neoplasms	Burkitt Lymphoma	Matched	GA10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-GP2d	P-GP2d	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	GP2d	Gp2D	Colorectal Cancer	Colon Adenocarcinoma	Matched	GP2D_LARGE_INTESTINE
+S-GP5d	P-GP5d	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	NA	GP5d	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-GR-M	P-GR-M	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	False	GR-M	NA	Melanoma	Melanoma	Matched	GRM_SKIN
+S-GRANTA-519	P-GRANTA-519	Lymphoid	NA	Lymph Node	MBN	Complete growth medium, 90%; DMSO, 10%	True	GRANTA-519	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	GRANTA519_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-GTL-16	P-GTL-16	Stomach	NA	Stomach	STAD	90% FBS; 10% DMSO	True	NA	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	
+S-H322T	P-H322T	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	
+S-HBL-100	P-HBL-100	Breast	NA	Breast	BREAST	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Breast	Matched	
+S-HCA-7	P-HCA-7	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-HCC-15	P-HCC-15	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	HCC-15	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	HCC15_LUNG
+S-HCC1011	P-HCC1011	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	
+S-HCC1143	P-HCC1143	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC1143	HCC1143	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC1143_BREAST
+S-HCC1162	P-HCC1162	Uterus	NA	Uterus	UCEC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Endometrial Cancer	Endometrial Carcinoma	Matched	
+S-HCC1171	P-HCC1171	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	HCC-1171	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	HCC1171_LUNG
+S-HCC1187	P-HCC1187	Breast	Soft Tissue	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC1187	HCC1187	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC1187_BREAST
+S-HCC12	P-HCC12	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	
+S-HCC1263	P-HCC1263	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-HCC1319	P-HCC1319	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	
+S-HCC1359	P-HCC1359	Lung	NA	Lung	LCLC	Complete growth medium, 90%; DMSO, 10%	True	HCC-1359	NA	Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	Matched	HCC1359_LUNG
+S-HCC1395	P-HCC1395	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC1395	HCC1395	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC1395_BREAST
+S-HCC1419	P-HCC1419	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC1419	HCC1419	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC1419_BREAST
+S-HCC1428	P-HCC1428	Breast	Effusion, Pleural	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	HCC1428	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	HCC1428_BREAST
+S-HCC1482	P-HCC1482	Uterus	NA	Uterus	UCEC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Endometrial Cancer	Endometrial Carcinoma	Matched	
+S-HCC1493	P-HCC1493	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-HCC1500	P-HCC1500	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC1500	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC1500_BREAST
+S-HCC1534	P-HCC1534	Lung	NA	Lung	LUNG	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Lung Cancer	Lung	Matched	
+S-HCC1569	P-HCC1569	Breast	NA	Breast	MBC	Complete growth medium, 90%; DMSO, 10%	True	HCC1569	NA	Breast Cancer	Metaplastic Breast Cancer	Matched	HCC1569_BREAST
+S-HCC1576	P-HCC1576	Other	NA	Adrenal	ADRENAL_GLAND	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Adrenal Gland Cancer	Adrenal Gland	Matched	
+S-HCC1599	P-HCC1599	Breast	NA	Breast	DCIS	FBS, 90%; DMSO, 10%	True	HCC1599	HCC1599	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC1599_BREAST
+S-HCC1806	P-HCC1806	Breast	NA	Breast	MSCC	Complete growth media, 10% DMSO	True	HCC1806	HCC1806	Breast Cancer	Metaplastic Squamous Cell Carcinoma	Matched	HCC1806_BREAST
+S-HCC193	P-HCC193	Lung		Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	
+S-HCC1937	P-HCC1937	Breast	Soft Tissue	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC1937	HCC1937	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC1937_BREAST
+S-HCC1954	P-HCC1954	Breast	Soft Tissue	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC1954	HCC1954	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC1954_BREAST
+S-HCC202	P-HCC202	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC202	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC202_BREAST
+S-HCC2157	P-HCC2157	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	False	HCC2157	HCC2157	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC2157_BREAST
+S-HCC2218	P-HCC2218	Breast	Soft Tissue	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC2218	HCC2218	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC2218_BREAST
+S-HCC2270	P-HCC2270	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	
+S-HCC2279	P-HCC2279	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	HCC-2279	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	HCC2279_LUNG
+S-HCC2302	P-HCC2302	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	
+S-HCC2688	P-HCC2688	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	
+S-HCC2885	P-HCC2885	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	
+S-HCC2911	P-HCC2911	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-HCC2935	P-HCC2935	Lung	NA	Lung	LUAD	FBS, 90%; DMSO, 10%	True	HCC2935	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	HCC2935_LUNG
+S-HCC33	P-HCC33	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	HCC-33	NA	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	HCC33_LUNG
+S-HCC364	P-HCC364	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	HCC364	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	HCC364_LUNG
+S-HCC366	P-HCC366	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	HCC-366	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	HCC366_LUNG
+S-HCC38	P-HCC38	Breast	Soft Tissue	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC38	HCC38	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC38_BREAST
+S-HCC4006	P-HCC4006	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	HCC4006	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	HCC4006_LUNG
+S-HCC4011	P-HCC4011	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	
+S-HCC4017	P-HCC4017	Lung	NA	Lung	LCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	Matched	
+S-HCC44	P-HCC44	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	HCC-44	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	HCC44_LUNG
+S-HCC461	P-HCC461	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	
+S-HCC515	P-HCC515	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	
+S-HCC60	P-HCC60	Ovary	NA	Ovary	OOVC	NA	False	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-HCC630	P-HCC630	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-HCC70	P-HCC70	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	HCC70	HCC70	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	HCC70_BREAST
+S-HCC78	P-HCC78	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	HCC-78	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	HCC78_LUNG
+S-HCC827	P-HCC827	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	HCC827	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	HCC827GR_LUNG
+S-HCC89	P-HCC89	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	
+S-HCT116	P-HC116	Colo-Rectal	NA	Colon	COAD	50% FBS, 40% media, 10% DMSO	True	HCT 116	HCT-116	Colorectal Cancer	Colon Adenocarcinoma	Matched	HCT116_LARGE_INTESTINE
+S-HCT-15	P-HCT-15	Colo-Rectal	NA	Colon	COAD	90% FBS, 10% DMSO	False	HCT-15	HCT-15	Colorectal Cancer	Colon Adenocarcinoma	Matched	HCT15_LARGE_INTESTINE
+S-HCT-8	P-HCT-8	Colo-Rectal	NA	Ileum	COADREAD	Complete growth medium, 90%; DMSO, 10%	False	HCT-8	NA	Colorectal Cancer	Colorectal Adenocarcinoma	Matched	HCT8_LARGE_INTESTINE
+S-HEC-1-A	P-HEC-1-A	Uterus	Endometrium	Uterus	UCEC	Complete growth medium, 90%; DMSO, 10%	True	HEC-1-A	NA	Endometrial Cancer	Endometrial Carcinoma	Matched	HEC1A_ENDOMETRIUM
+S-HEL	P-HEL	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	HEL	HEL	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	HEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-HeLa	P-HeLa	Cervix	NA	Cervix	CEAD	Complete growth medium, 90%; DMSO, 10%	True	NA	HeLaSF	Cervical Cancer	Cervical Adenocarcinoma	Matched	
+S-HepG2	P-HepG2	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	Hep G2	NA	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	HEPG2_LIVER
+S-HEp-2	P-HEp-2	Cervix	NA	Cervix	CEAD	90% FBS, 10% DMSO	False	NA	NA	Cervical Cancer	Cervical Adenocarcinoma	Matched	
+S-HEY	P-HEY	Ovary	NA	Ovary	OOVC	90% FBS ; 10% DMSO	True	Hey-A8	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	HEYA8_OVARY
+S-HGC-27	P-HGC-27	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	HGC-27	HGC-27	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	HGC27_STOMACH
+S-HL-60	P-HL-60	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	HL-60	HL-60	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	HL60_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-HM7	P-HM7	Colo-Rectal	NA	Colon	COAD	90% FBS, 10% DMSO	False	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-HMY-1	P-HMY-1	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Melanoma	Melanoma	Matched	
+S-HN	P-HN	Head-Neck	NA	Oral Cavity	OCSC	Complete growth medium, 90%; DMSO, 10%	True	HN	HN	Head and Neck Cancer	Oral Cavity Squamous Cell Carcinoma	Matched	HN_UPPER_AERODIGESTIVE_TRACT
+S-HNT-34	P-HNT-34	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	
+S-HOS-62	P-HOP-62	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	HOP-62	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	
+S-HOS-92	P-HOP-92	Lung	NA	Lung	LCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	HOP-92	Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	Matched	
+S-HPAC	P-HPAC	Pancreas	NA	Pancreas	PAAD	90% FBS; 10% DMSO	False	HPAC	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	HPAC_PANCREAS
+S-HPAF-II	P-HPAF-II	Pancreas	NA	Pancreas	PAAD	90% FBS; 10% DMSO	True	HPAF-II	HPAF-II	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	HPAFII_PANCREAS
+S-HS-255-T	P-HS-255-T	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	Hs 255.T	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	HS255T_FIBROBLAST
+S-HS-294T	P-HS-294T	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	Hs 294T	NA	Melanoma	Melanoma	Matched	HS294T_SKIN
+S-HS-38-T	P-HS-38-T	Ovary	NA	Ovary	TT	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Germ Cell Tumor	Teratoma	Matched	
+S-HS-578T	P-HS-578T	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	Hs 578T	Hs-578-T	Breast Cancer	Invasive Breast Carcinoma	Matched	HS578T_BREAST
+S-HS-675-T	P-HS-675-T	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	Hs 675.T	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	HS675T_FIBROBLAST
+S-HS-683	P-HS-683	Brain	NA	Brain	GNOS	90% FBS; 10% DMSO	True	Hs 683	NA	Glioma	Glioma, NOS	Matched	HS683_CENTRAL_NERVOUS_SYSTEM
+S-HS-695T	P-HS-695T	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	Hs 695T	NA	Melanoma	Melanoma	Matched	HS695T_SKIN
+S-HS-69ST	P-HS-69ST	Skin	NA	Skin	MEL	NA	False	NA	NA	Melanoma	Melanoma	Matched	
+S-HS-746T	P-HS-746T	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	Hs 746T	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	HS746T_STOMACH
+S-HS-766T	P-HS-766T	Pancreas	NA	Pancreas	PANCREAS	90% FBS; 10% DMSO	True	Hs 766T	NA	Pancreatic Cancer	Pancreas	Matched	HS766T_PANCREAS
+S-HS-839-T	P-HS-839-T	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	Hs 839.T	NA	Melanoma	Melanoma	Matched	HS839T_FIBROBLAST
+S-HS-852-T	P-HS-852-T	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	Hs 852.T	NA	Melanoma	Melanoma	Matched	HS852T_SKIN
+S-HS-895-T	P-HS-895-T	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	Hs 895.T	NA	Melanoma	Melanoma	Matched	HS895T_FIBROBLAST
+S-HS-936-T	P-HS-936-T	Skin	NA	Skin	MEL	NA	True	Hs 936.T	NA	Melanoma	Melanoma	Matched	HS936T_SKIN
+S-HS-940-T	P-HS-940-T	Skin	NA	Skin	MEL	NA	True	Hs 940.T	NA	Melanoma	Melanoma	Matched	HS940T_FIBROBLAST
+S-HS-Sultan	P-HS-Sultan	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	
+S-HT	P-HT	Lymphoid	Ascites	Lymph Node	LNM	90% Complete growth media; 10% DMSO	True	HT	HT	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	HT_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-HT-1080	P-HT-1080	Lung	NA	Lung	FIBS	FBS, 90%; DMSO, 10%	True	HT-1080	HT-1080	Soft Tissue Sarcoma	Fibrosarcoma	Matched	HT1080_SOFT_TISSUE
+S-HT-115	P-HT-115	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	HT115	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	HT115_LARGE_INTESTINE
+S-HT-144	P-HT-144	Skin	NA	Skin	MEL	NA	True	HT-144	HT-144	Melanoma	Melanoma	Matched	HT144_SKIN
+S-HT-29	P-HT-29	Colo-Rectal	NA	Colon	COAD	50% FBS, 40% media, 10% DMSO	True	HT-29	HT-29	Colorectal Cancer	Colon Adenocarcinoma	Matched	HT29_LARGE_INTESTINE
+S-HT-55	P-HT-55	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	HT55	HT55	Colorectal Cancer	Colon Adenocarcinoma	Matched	HT55_LARGE_INTESTINE
+S-huH-1	P-huH-1	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	huH-1	NA	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	HUH1_LIVER
+S-HuH-7	P-HuH-7	Liver	NA	Liver	HCC	90% FBS; 10% DMSO	True	HuH-7	HuH-7	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	HUH7_LIVER
+S-HUS-T3	P-HUP-T3	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	HUP-T3	HuP-T3	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	HUPT3_PANCREAS
+S-HUS-T4	P-HUP-T4	Pancreas	Ascites	Pancreas	PANCREAS	Complete growth medium, 90%; DMSO, 10%	True	HUP-T4	HuP-T4	Pancreatic Cancer	Pancreas	Matched	HUPT4_PANCREAS
+S-IGR-37	P-IGR-37	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	IGR-37	NA	Melanoma	Melanoma	Matched	IGR37_SKIN
+S-IGROV-1	P-IGROV-1	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	IGROV1	IGROV-1	Ovarian Cancer	Ovarian Cancer, Other	Matched	IGROV1_OVARY
+S-IM-95	P-IM-95	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	IM95	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	IM95_STOMACH
+S-IM-95m	P-IM-95m	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	
+S-IMR-32	P-IMR-32	Brain	NA	Brain	NBL	Complete growth medium, 90%; DMSO, 10%	True	IMR-32	NA	Peripheral Nervous System	Neuroblastoma	Matched	IMR32_AUTONOMIC_GANGLIA
+S-IPC-298	P-IPC-298	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	IPC-298	IPC-298	Melanoma	Melanoma	Matched	IPC298_SKIN
+S-JEKO-1	P-JEKO-1	Lymphoid	NA	Lymph Node	LNM	Complete growth medium, 90%; DMSO, 10%	True	JeKo-1	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	JEKO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-JHH-1	P-JHH-1	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	JHH-1	NA	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	JHH1_LIVER
+S-JHH-2	P-JHH-2	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	JHH-2	NA	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	JHH2_LIVER
+S-JHH-4	P-JHH-4	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	JHH-4	NA	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	JHH4_LIVER
+S-JHH-5	P-JHH-5	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	JHH-5	NA	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	JHH5_LIVER
+S-JHH-7	P-JHH-7	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	JHH-7	NA	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	JHH7_LIVER
+S-JIMT-1	P-JIMT-1	Breast	Effusion, Pleural	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	JIMT-1	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	JIMT1_BREAST
+S-Jiyoye	P-Jiyoye	Lymphoid	NA	Blood	BL	Complete growth medium, 90%; DMSO, 10%	True	NA	JiyoyeP-2003	Mature B-Cell Neoplasms	Burkitt Lymphoma	Matched	
+S-JJ012	P-JJ012	Sarcomatoid	NA	Cartilage	CHS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Bone Cancer	Chondrosarcoma	Matched	
+S-JJN-3	P-JJN-3	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	JJN-3	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	JJN3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-JL-1	P-JL-1	Other	NA	Pleura	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	JL-1	NA	Mesothelioma	Pleural Mesothelioma	Matched	JL1_PLEURA
+S-Jurkat-CloneE6-1	P-Jurkat-CloneE6-1	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	
+S-K-562	P-K-562	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	K-562	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	K562_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KARPAS-1106P	P-KARPAS-1106P	Lymphoid	NA	Lymph Node	MBN	RPMI-1640 70% 20% HI FBS, DMSO, 10%	True	NA	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-KARPAS-422	P-KARPAS-422	Lymphoid	NA	Blood	NHL	HI FBS, 90%; DMSO, 10%	True	KARPAS-422	KARPAS-422	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Matched	KARPAS422_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KARPAS-620	P-KARPAS-620	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	KARPAS-620	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	KARPAS620_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-Kasumi-1	P-Kasumi-1	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	KASUMI-1	KASUMI-1	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	KASUMI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KATO-III	P-KATO-III	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	KATO III	KATOIII	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	KATOIII_STOMACH
+S-KCI-MOH1	P-KCI-MOH1	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	KCI-MOH1	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	KCIMOH1_PANCREAS
+S-KELLY	P-KELLY	Brain	NA	Brain	NBL	Complete growth medium, 90%; DMSO, 10%	True	KELLY	NA	Peripheral Nervous System	Neuroblastoma	Matched	KELLY_AUTONOMIC_GANGLIA
+S-KG-1	P-KG-1	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	KG-1	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	KG1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KHM-1B	P-KHM-1B	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	KHM-1B	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	KHM1B_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KLE	P-KLE	Uterus	NA	Uterus	UCEC	Complete growth medium, 90%; DMSO, 10%	True	KLE	NA	Endometrial Cancer	Endometrial Carcinoma	Matched	KLE_ENDOMETRIUM
+S-KLM-1	P-KLM-1	Pancreas	NA	Pancreas	PANCREAS	Complete growth medium, 90%; DMSO, 10%	True	KLM-1	NA	Pancreatic Cancer	Pancreas	Matched	KLM1_PANCREAS
+S-KM-12	P-KM-12	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	KM12	KM12	Colorectal Cancer	Colon Adenocarcinoma	Matched	KM12_LARGE_INTESTINE
+S-KMM-1	P-KMM-1	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	KMM-1	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	KMM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KMS-11	P-KMS-11	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	KMS-11	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	KMS11_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KMS-12-BM	P-KMS-12-BM	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	KMS-12-BM	KMS-12-BM	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	KMS12BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KMS-12-PE	P-KMS-12-PE	Lymphoid	NA	Bone Marrow	PCM	Complete growth medium, 90%; DMSO, 10%	False	NA	KMS-12-PE	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	
+S-KMS-21BM	P-KMS-21BM	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	KMS-21BM	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	KMS21BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KMS-26	P-KMS-26	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	KMS-26	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	KMS26_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KMS-27	P-KMS-27	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	KMS-27	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	KMS27_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KMS-28BM	P-KMS-28BM	Lymphoid	Bone Marrow	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	KMS-28BM	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	KMS28BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KMS-28PE	P-KMS-28PE	Lymphoid	Pleura	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	
+S-KMS-34	P-KMS-34	Lymphoid	Pleura	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	KMS-34	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	KMS34_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KNS-62	P-KNS-62	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	KNS-62	KNS-62	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	KNS62_LUNG
+S-KS-2	P-KP-2	Pancreas	NA	Pancreas	PANCREAS	Complete growth medium, 90%; DMSO, 10%	True	KP-2	NA	Pancreatic Cancer	Pancreas	Matched	KP2_PANCREAS
+S-KS-3	P-KP-3	Pancreas	NA	Pancreas	PAASC	Complete growth medium, 90%; DMSO, 10%	True	KP-3	NA	Pancreatic Cancer	Adenosquamous Carcinoma of the Pancreas	Matched	KP3_PANCREAS
+S-KP4	P-KP4	Pancreas	NA	Pancreas	PAAD	90% Complete growth media; 10% DMSO	True	KP4	KP-4	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	KP4_PANCREAS
+S-KPL-1	P-KPL-1	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	False	KPL-1	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	KPL1_BREAST
+S-KPL-4	P-KPL-4	Breast	Effusion, Pleural	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	
+S-KU812	P-KU812	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	KU812	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	KU812_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-KURAMOCHI	P-KURAMOCHI	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	KURAMOCHI	KURAMOCHI	Ovarian Cancer	Ovarian Cancer, Other	Matched	KURAMOCHI_OVARY
+S-KYSE-140	P-KYSE-140	Head-Neck	NA	Esophagus	ESCC	Complete growth medium, 90%; DMSO, 10%	True	KYSE-140	KYSE-140	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	Matched	KYSE140_OESOPHAGUS
+S-KYSE-150	P-KYSE-150	Head-Neck	NA	Esophagus	ESCC	Complete growth medium, 90%; DMSO, 10%	True	KYSE-150	KYSE-150	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	Matched	KYSE150_OESOPHAGUS
+S-KYSE-180	P-KYSE-180	Head-Neck	NA	Esophagus	ESCC	Complete growth medium, 90%; DMSO, 10%	True	KYSE-180	KYSE-180	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	Matched	KYSE180_OESOPHAGUS
+S-KYSE-270	P-KYSE-270	Head-Neck	NA	Esophagus	ESCC	Complete growth medium, 90%; DMSO, 10%	True	KYSE-270	KYSE-270	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	Matched	KYSE270_OESOPHAGUS
+S-KYSE-30	P-KYSE-30	Head-Neck	NA	Esophagus	ESCC	Complete growth medium, 90%; DMSO, 10%	True	KYSE-30	NA	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	Matched	KYSE30_OESOPHAGUS
+S-KYSE-450	P-KYSE-450	Head-Neck	NA	Esophagus	ESCC	Complete growth medium, 90%; DMSO, 10%	True	KYSE-450	KYSE-450	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	Matched	KYSE450_OESOPHAGUS
+S-KYSE-510	P-KYSE-510	Head-Neck		Esophagus	ESCC	Complete growth medium, 90%; DMSO, 10%	True	KYSE-510	KYSE-510	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	Matched	KYSE510_OESOPHAGUS
+S-KYSE-520	P-KYSE-520	Head-Neck	NA	Esophagus	ESCC	Complete growth medium, 90%; DMSO, 10%	True	KYSE-520	KYSE-520	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	Matched	KYSE520_OESOPHAGUS
+S-KYSE-70	P-KYSE-70	Head-Neck	NA	Esophagus	ESCC	Complete growth medium, 90%; DMSO, 10%	True	KYSE-70	KYSE-70	Esophagogastric Cancer	Esophageal Squamous Cell Carcinoma	Matched	KYSE70_OESOPHAGUS
+S-L-363	P-L-363	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	L-363	L-363	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	L363_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-LCLC-103H	P-LCLC-103H	Lung	NA	Lung	LCLC	Complete growth medium, 90%; DMSO, 10%	True	LCLC-103H	LCLC-103H	Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	Matched	LCLC103H_LUNG
+S-LCLC-97TM1	P-LCLC-97TM1	Lung	NA	Lung	LCLC	Complete growth medium, 90%; DMSO, 10%	True	LCLC-97TM1	LCLC-97TM1	Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	Matched	LCLC97TM1_LUNG
+S-LN-18	P-LN-18	Brain	NA	Brain	GNOS	90% FBS; 10% DMSO	True	LN-18	NA	Glioma	Glioma, NOS	Matched	LN18_CENTRAL_NERVOUS_SYSTEM
+S-LN-229	P-LN-229	Brain	NA	Brain	GNOS	90% FBS; 10% DMSO	True	LN-229	NA	Glioma	Glioma, NOS	Matched	LN229_CENTRAL_NERVOUS_SYSTEM
+S-LNCAP	P-LNCAP	Other	NA	Prostate	PROSTATE	Complete growth medium, 90%; DMSO, 10%	True	LNCaP clone FGC	LNCaP-Clone-FGC	Prostate Cancer	Prostate	Matched	LNCAPCLONEFGC_PROSTATE
+S-LOU-NH91	P-LOU-NH91	Lung	NA	Lung	LUSC	Complete growth medium, 90%; DMSO, 10%	True	LOU-NH91	NA	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	LOUNH91_LUNG
+S-LoVo	P-LoVo	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	LoVo	LoVo	Colorectal Cancer	Colon Adenocarcinoma	Matched	LOVO_LARGE_INTESTINE
+S-LOX-IMVI	P-LOX-IMVI	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	LOX IMVI	LOXIMVI	Melanoma	Melanoma	Matched	LOXIMVI_SKIN
+S-LS-1	P-LP-1	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	LP-1	LP-1	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	LP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-LS-174T	P-LS-174T	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	NA	LS-174T	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-LS-180	P-LS-180	Colo-Rectal	NA	Colon	COAD	90% FBS; 10% DMSO	True	LS 180	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	LS180_LARGE_INTESTINE
+S-LS1034	P-LS1034	Colo-Rectal	NA	Cecum	COADREAD	 90% FBS; 10% DMSO	True	LS1034	LS-1034	Colorectal Cancer	Colorectal Adenocarcinoma	Matched	LS1034_LARGE_INTESTINE
+S-LXF-289	P-LXF-289	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	LXF-289	LXF-289	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	LXF289_LUNG
+S-LXFL529	P-LXFL529	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	
+S-M059J	P-M059J	Brain	NA	Brain	GB	Complete growth medium, 90%; DMSO, 10%	False	NA	M059J	Glioma	Glioblastoma, IDH-wildtype	Matched	
+S-M059K	P-M059K	Brain	NA	Brain	GB	Complete growth medium, 90%; DMSO, 10%	True	M059K	NA	Glioma	Glioblastoma, IDH-wildtype	Matched	M059K_CENTRAL_NERVOUS_SYSTEM
+S-MC116	P-MC116	Lymphoid	Ascites	Lymph Node	LNM	Complete growth medium, 90%; DMSO, 10%	True	MC116	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	MC116_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-MCAS	P-MCAS	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	MCAS	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	MCAS_OVARY
+S-MCF10A	P-MCF10A	Breast	NA	Breast	BREAST	50% FBS, 40% complete media, 10% DMSO	True	NA	NA	Breast Cancer	Breast	Matched	
+S-MCF-7	P-MCF-7	Breast	Effusion, Pleural	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	MCF7	MCF7	Breast Cancer	Invasive Breast Carcinoma	Matched	MCF7_BREAST
+S-MCF10DCIS-com	P-MCF10DCIS-com	Breast	NA	Breast	BREAST	50% FBS, 40% complete media, 10% DMSO	False	NA	NA	Breast Cancer	Breast	Matched	
+S-MDA-MB-134-VI	P-MDA-MB-134-VI	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	MDA-MB-134-VI	MDA-MB-134-VI	Breast Cancer	Invasive Breast Carcinoma	Matched	MDAMB134VI_BREAST
+S-MDA-MB-157	P-MDA-MB-157	Breast	Effusion, Pleural	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	MDA-MB-157	MDA-MB-157	Breast Cancer	Invasive Breast Carcinoma	Matched	MDAMB157_BREAST
+S-MDA-MB-175-VII	P-MDA-MB-175-VII	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	MDA-MB-175-VII	MDA-MB-175-VII	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	MDAMB175VII_BREAST
+S-MDA-MB-231	P-MDA-MB-231	Breast	Effusion, Pleural	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	MDA-MB-231	MDA-MB-231	Breast Cancer	Invasive Breast Carcinoma	Matched	MDAMB231_BREAST
+S-MDA-MB-330	P-MDA-MB-330	Breast	Effusion, Pleural	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-MDA-MB-361	P-MDA-MB-361	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	MDA-MB-361	MDA-MB-361	Breast Cancer	Invasive Breast Carcinoma	Matched	MDAMB361_BREAST
+S-MDA-MB-415	P-MDA-MB-415	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	MDA-MB-415	MDA-MB-415	Breast Cancer	Invasive Breast Carcinoma	Matched	MDAMB415_BREAST
+S-MDA-MB-435	P-MDA-MB-435	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	NA	MDA-MB-435	Melanoma	Melanoma	Matched	
+S-MDA-MB-436	P-MDA-MB-436	Breast	Effusion, Pleural	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	MDA-MB-436	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	MDAMB436_BREAST
+S-MDA-MB-453	P-MDA-MB-453	Breast	Effusion, Pericardial	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	MDA-MB-453	MDA-MB-453	Breast Cancer	Invasive Breast Carcinoma	Matched	MDAMB453_BREAST
+S-MDA-MB-468	P-MDA-MB-468	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	MDA-MB-468	MDA-MB-468	Breast Cancer	Invasive Breast Carcinoma	Matched	MDAMB468_BREAST
+S-MDST8	P-MDST8	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	MDST8	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	MDST8_LARGE_INTESTINE
+S-ME-1	P-ME-1	Lymphoid	NA	Bone Marrow	LNM	Complete growth medium, 90%; DMSO, 10%	True	ME-1	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	ME1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-ME-180	P-ME-180	Cervix	NA	Cervix	CEAD	Complete growth medium, 90%; DMSO, 10%	True	NA	ME-180	Cervical Cancer	Cervical Adenocarcinoma	Matched	
+S-MEL-HO	P-MEL-HO	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	MEL-HO	MEL-HO	Melanoma	Melanoma	Matched	MELHO_SKIN
+S-MeWo	P-MeWo	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	MeWo	Mewo	Melanoma	Melanoma	Matched	MEWO_SKIN
+S-MFM-223	P-MFM-223	Breast	Effusion, Pleural	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	NA	MFM-223	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	
+S-MG-63	P-MG-63	Sarcomatoid	NA	Bone	OS	Complete growth medium, 90%; DMSO, 10%	True	MG-63	MG-63	Bone Cancer	Osteosarcoma	Matched	MG63_BONE
+S-MHH-ES-1	P-MHH-ES-1	Sarcomatoid	NA	Bone	ES	90% FBS; 10% DMSO	True	MHH-ES-1	MHH-ES-1	Bone Cancer	Ewing Sarcoma	Matched	MHHES1_BONE
+S-MHH-NB-11	P-MHH-NB-11	Brain	NA	Brain	NBL	Complete growth medium, 90%; DMSO, 10%	True	MHH-NB-11	MHH-NB-11	Peripheral Nervous System	Neuroblastoma	Matched	MHHNB11_AUTONOMIC_GANGLIA
+S-MHH-PREB-1	P-MHH-PREB-1	Lymphoid	NA	Lymph Node	MBN	Complete growth medium, 90%; DMSO, 10%	True	NA	MHH-PREB-1	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-MIA-Paca-2	P-MIA-Paca-2	Pancreas	NA	Pancreas	PANCREAS	90% FBS; 10% DMSO	True	MIA PaCa-2	MIA-PaCa-2	Pancreatic Cancer	Pancreas	Matched	MIAPACA2_PANCREAS
+S-MKN-1	P-MKN-1	Stomach	NA	Stomach	STAS	Complete growth medium, 90%; DMSO, 10%	True	MKN1	MKN1	Esophagogastric Cancer	Adenosquamous Carcinoma of the Stomach	Matched	MKN1_STOMACH
+S-MKN-45	P-MKN-45	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	False	MKN-45	MKN45	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	MKN45_STOMACH
+S-MKN-7	P-MKN-7	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	MKN7	MKN7	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	MKN7_STOMACH
+S-MKN-74	P-MKN-74	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	MKN74	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	MKN74_STOMACH
+S-ML-2	P-ML-2	Lymphoid	NA	Bone Marrow	LNM	Complete growth medium, 90%; DMSO, 10%	True	NA	ML-2	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	
+S-MM-1S	P-MM-1S	Lymphoid	NA	Blood	PCM	NA	True	MM1-S	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	MM1S_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-MOLM-16	P-MOLM-16	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	MOLM-16	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	MOLM16_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-MOLS-2	P-MOLP-2	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	MOLP-2	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	MOLP2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-MOLS-8	P-MOLP-8	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	MOLP-8	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	MOLP8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-MOR	P-MOR	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	MOR/CPR	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	MORCPR_LUNG
+S-MS751	P-MS751	Cervix	NA	Cervix	CEAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Cervical Cancer	Cervical Adenocarcinoma	Matched	
+S-MT-3	P-MT-3	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-MV-4-11	P-MV-4-11	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	MV-4-11	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	MV411_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-MX-1	P-MX-1	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-NALM-6	P-NALM-6	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	NALM-6	NALM-6	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	NALM6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-NAMALWA	P-NAMALWA	Lymphoid	NA	Blood	BL	Complete growth medium, 90%; DMSO, 10%	True	NAMALWA	NA	Mature B-Cell Neoplasms	Burkitt Lymphoma	Matched	NAMALWA_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-NCI-H1048	P-NCI-H1048	Lung	Effusion, Pleural	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1048	NCI-H1048	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH1048_LUNG
+S-NCI-H1092	P-NCI-H1092	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1092	NCI-H1092	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH1092_LUNG
+S-NCI-H1155	P-NCI-H1155	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	False	NCI-H1155	NCI-H1155	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1155_LUNG
+S-NCI-H1299	P-NCI-H1299	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1299	NCI-H1299	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1299_LUNG
+S-NCI-H1355	P-NCI-H1355	Lung	Pleura	Lung	LUAD	FBS, 90%; DMSO, 10%	True	NCI-H1355	NCI-H1355	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1355_LUNG
+S-NCI-H1373	P-NCI-H1373	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1373	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1373_LUNG
+S-NCI-H1395	P-NCI-H1395	Lung	NA	Lung	LUAD	FBS, 90%; DMSO, 10%	True	NCI-H1395	NCI-H1395	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1395_LUNG
+S-NCI-H1435	P-NCI-H1435	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1435	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1435_LUNG
+S-NCI-H1437	P-NCI-H1437	Lung	Effusion, Pleural	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1437	NCI-H1437	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1437_LUNG
+S-NCI-H146	P-NCI-H146	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H146	NCI-H146	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH146_LUNG
+S-NCI-H1568	P-NCI-H1568	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1568	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1568_LUNG
+S-NCI-H1573	P-NCI-H1573	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1573	NCI-H1573	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1573_LUNG
+S-NCI-H1581	P-NCI-H1581	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1581	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1581_LUNG
+S-NCI-H1623	P-NCI-H1623	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1623	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1623_LUNG
+S-NCI-H1648	P-NCI-H1648	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1648	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1648_LUNG
+S-NCI-H1650	P-NCI-H1650	Lung	Effusion, Pleural	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1650	NCI-H1650	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1650_LUNG
+S-NCI-H1651	P-NCI-H1651	Lung	NA	Lung	NSCLC	90% FBS; 10% DMSO	True	NCI-H1651	NCI-H1651	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1651_LUNG
+S-NCI-H1666	P-NCI-H1666	Lung	Effusion, Pleural	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1666	NCI-H1666	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1666_LUNG
+S-NCI-H1693	P-NCI-H1693	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1693	NCI-H1693	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1693_LUNG
+S-NCI-H1703	P-NCI-H1703	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1703	NCI-H1703	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1703_LUNG
+S-NCI-H1734	P-NCI-H1734	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1734	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1734_LUNG
+S-NCI-H1770	P-NCI-H1770	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NCI-H1770	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	
+S-NCI-H1781	P-NCI-H1781	Lung	Effusion, Pleural	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1781	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1781_LUNG
+S-NCI-H1792	P-NCI-H1792	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1792	NCI-H1792	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1792_LUNG
+S-NCI-H1793	P-NCI-H1793	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1793	NCI-H1793	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1793_LUNG
+S-NCI-H1838	P-NCI-H1838	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1838	NCI-H1838	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1838_LUNG
+S-NCI-H1869	P-NCI-H1869	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1869	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1869_LUNG
+S-NCI-H187	P-NCI-H187	Lung	NA	Lung	SCLC	FBS, 90%; DMSO, 10%	True	NA	NA	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	
+S-NCI-H1882	P-NCI-H1882	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	
+S-NCI-H1915	P-NCI-H1915	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1915	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1915_LUNG
+S-NCI-H1930	P-NCI-H1930	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1930	NCI-H1930	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH1930_LUNG
+S-NCI-H1944	P-NCI-H1944	Lung	Soft Tissue	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1944	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH1944_LUNG
+S-NCI-H196	P-NCI-H196	Lung	Pleura	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H196	NA	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH196_LUNG
+S-NCI-H1975	P-NCI-H1975	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H1975	NCI-H1975	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH1975_LUNG
+S-NCI-H2009	P-NCI-H2009	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2009	NCI-H2009	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH2009_LUNG
+S-NCI-H2023	P-NCI-H2023	Lung	Lymph Node	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2023	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH2023_LUNG
+S-NCI-H2030	P-NCI-H2030	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2030	NCI-H2030	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH2030_LUNG
+S-NCI-H2052	P-NCI-H2052	Other	NA	Pleura	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2052	NCI-H2052	Mesothelioma	Pleural Mesothelioma	Matched	NCIH2052_PLEURA
+S-NCI-H2073	P-NCI-H2073	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2073	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH2073_LUNG
+S-NCI-H2081	P-NCI-H2081	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2081	NCI-H2081	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH2081_LUNG
+S-NCI-H209	P-NCI-H209	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H209	NCI-H209	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH209_LUNG
+S-NCI-H2106	P-NCI-H2106	Lung	Lymph Node	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	False	NCI-H2106	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH2106_LUNG
+S-NCI-H2110	P-NCI-H2110	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2110	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH2110_LUNG
+S-NCI-H2122	P-NCI-H2122	Lung	Effusion, Pleural	Lung	NSCLC	FBS, 90%; DMSO, 10%	True	NCI-H2122	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH2122_LUNG
+S-NCI-H2126	P-NCI-H2126	Lung	Effusion, Pleural	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2126	NCI-H2126	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH2126_LUNG
+S-NCI-H2135	P-NCI-H2135	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	
+S-NCI-H2170	P-NCI-H2170	Lung	NA	Lung	LUSC	FBS, 90%; DMSO, 10%	True	NCI-H2170	NCI-H2170	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	NCIH2170_LUNG
+S-NCI-H2171	P-NCI-H2171	Lung	Effusion, Pleural	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2171	NCI-H2171	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH2171_LUNG
+S-NCI-H2172	P-NCI-H2172	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2172	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH2172_LUNG
+S-NCI-H2196	P-NCI-H2196	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	False	NCI-H2196	NCI-H2196	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH2196_LUNG
+S-NCI-H2198	P-NCI-H2198	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	
+S-NCI-H2228	P-NCI-H2228	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2228	NCI-H2228	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH2228_LUNG
+S-NCI-H226	P-NCI-H226	Lung	Ascites	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NCI-H226	NCI-H226	Mesothelioma	Pleural Mesothelioma	Matched	NCIH226_LUNG
+S-NCI-H23	P-NCI-H23	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	False	NCI-H23	NCI-H23	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH23_LUNG
+S-NCI-H2347	P-NCI-H2347	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2347	NCI-H2347	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH2347_LUNG
+S-NCI-H2369	P-NCI-H2369	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mesothelioma	Pleural Mesothelioma	Matched	
+S-NCI-H2373	P-NCI-H2373	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mesothelioma	Pleural Mesothelioma	Matched	
+S-NCI-H2452	P-NCI-H2452	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NCI-H2452	NCI-H2452	Mesothelioma	Pleural Mesothelioma	Matched	NCIH2452_PLEURA
+S-NCI-H2461	P-NCI-H2461	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mesothelioma	Pleural Mesothelioma	Matched	
+S-NCI-H2595	P-NCI-H2595	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mesothelioma	Pleural Mesothelioma	Matched	
+S-NCI-H2596	P-NCI-H2596	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mesothelioma	Pleural Mesothelioma	Matched	
+S-NCI-H2722	P-NCI-H2722	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mesothelioma	Pleural Mesothelioma	Matched	
+S-NCI-H2795	P-NCI-H2795	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mesothelioma	Pleural Mesothelioma	Matched	
+S-NCI-H28	P-NCI-H28	Other	NA	Pleura	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NCI-H28	NCI-H28	Mesothelioma	Pleural Mesothelioma	Matched	NCIH28_PLEURA
+S-NCI-H2803	P-NCI-H2803	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mesothelioma	Pleural Mesothelioma	Matched	
+S-NCI-H2804	P-NCI-H2804	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mesothelioma	Pleural Mesothelioma	Matched	
+S-NCI-H2810	P-NCI-H2810	Lung	NA	Lung	PLMESO	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mesothelioma	Pleural Mesothelioma	Matched	
+S-NCI-H292	P-NCI-H292	Lung	NA	Lung	LUMEC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H292	NCI-H292	Non-Small Cell Lung Cancer	Mucoepidermoid Carcinoma of the Lung	Matched	NCIH292_LUNG
+S-NCI-H322T	P-NCI-H322T	Lung	NA	Lung	NSCLC	90% FBS; 10% DMSO	True	NA	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	
+S-NCI-H345	P-NCI-H345	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NCI-H345	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	
+S-NCI-H358	P-NCI-H358	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H358	NCI-H358	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH358_LUNG
+S-NCI-H441	P-NCI-H441	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H441	NCI-H441	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH441_LUNG
+S-NCI-H446	P-NCI-H446	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H446	NCI-H446	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH446_LUNG
+S-NCI-H460	P-NCI-H460	Lung	Effusion, Pleural	Lung	LCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H460	NCI-H460	Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	Matched	NCIH460_LUNG
+S-NCI-H510A	P-NCI-H510A	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H510	NCI-H510A	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH510_LUNG
+S-NCI-H520	P-NCI-H520	Lung	NA	Lung	LUSC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H520	NCI-H520	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	NCIH520_LUNG
+S-NCI-H522	P-NCI-H522	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H522	NCI-H522	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH522_LUNG
+S-NCI-H596	P-NCI-H596	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-H596	NCI-H596	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	NCIH596_LUNG
+S-NCI-H650	P-NCI-H650	Lung	Lymph Node	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H650	NCI-H650	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH650_LUNG
+S-NCI-H716	P-NCI-H716	Colo-Rectal	NA	Cecum	COADREAD	FBS, 90%; DMSO, 10%	True	NCI-H716	NCI-H716	Colorectal Cancer	Colorectal Adenocarcinoma	Matched	NCIH716_LARGE_INTESTINE
+S-NCI-H727	P-NCI-H727	Lung	NA	Lung	LUCA	Complete growth medium, 90%; DMSO, 10%	True	NCI-H727	NCI-H727	Non-Small Cell Lung Cancer	Lung Carcinoid	Matched	NCIH727_LUNG
+S-NCI-H810	P-NCI-H810	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H810	NCI-H810	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	NCIH810_LUNG
+S-NCI-H82	P-NCI-H82	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H82	NCI-H82	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH82_LUNG
+S-NCI-H820	P-NCI-H820	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	
+S-NCI-H847	P-NCI-H847	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	
+S-NCI-H889	P-NCI-H889	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NCI-H889	NCI-H889	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	NCIH889_LUNG
+S-NCI-H920	P-NCI-H920	Lung	Lymph Node	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	
+S-NCI-H929	P-NCI-H929	Lymphoid	NA	Bone Marrow	PCM	Complete growth medium, 90%; DMSO, 10%	True	NCI-H929	NA	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	NCIH929_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-NCI-N417	P-NCI-N417	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NCI-N417	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	
+S-NCI-N87	P-NCI-N87	Stomach	Liver	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	NCI-N87	NCI-N87	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	NCIN87_STOMACH
+S-NIH-OVCAR-3	P-NIH-OVCAR-3	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	NIH:OVCAR-3	OVCAR-3	Ovarian Cancer	Ovarian Cancer, Other	Matched	NIHOVCAR3_OVARY
+S-NTERA-2	P-NTERA-2	Other	NA	Testis	TESTIS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Testicular Cancer	Testis	Matched	
+S-NU-DUL-1	P-NU-DUL-1	Lymphoid	NA	Blood	MBN	Complete growth medium, 90%; DMSO, 10%	True	NU-DUL-1	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	NUDUL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-NUGC-2	P-NUGC-2	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	NUGC-2	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	NUGC2_STOMACH
+S-NUGC-3	P-NUGC-3	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	NUGC-3	NUGC-3	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	NUGC3_STOMACH
+S-NUGC-4	P-NUGC-4	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	NUGC-4	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	NUGC4_STOMACH
+S-OAW28	P-OAW28	Ovary	NA	Ovary	SOC	Complete growth medium, 90%; DMSO, 10%	True	OAW28	OAW-28	Ovarian Cancer	Serous Ovarian Cancer	Matched	OAW28_OVARY
+S-OAW42	P-OAW42	Ovary	NA	Ovary	SOC	Complete growth medium, 90%; DMSO, 10%	True	OAW42	OAW-42	Ovarian Cancer	Serous Ovarian Cancer	Matched	OAW42_OVARY
+S-OCI-AML2	P-OCI-AML2	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	OCI-AML2	OCI-AML2	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	OCIAML2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-OCI-AML3	P-OCI-AML3	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	OCI-AML3	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	OCIAML3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-OCI-AML5	P-OCI-AML5	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	OCI-AML5	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	OCIAML5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-OCI-LY-10	P-OCI-LY-10	Lymphoid	NA	Lymph Node	MBN	Complete growth medium, 90%; DMSO, 10%	True	OCI-LY10	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	OCILY10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-OCI-LY-19	P-OCI-LY-19	Lymphoid	NA	Lymph Node	MBN	RPMI-1640, 20% HI FBS, 10% DMSO	True	OCI-LY-19	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	OCILY19_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-OCI-LY-3	P-OCI-LY-3	Lymphoid	NA	Lymph Node	MBN	Complete growth medium, 90%; DMSO, 10%	True	OCI-LY3	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	OCILY3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-OCI-LY-7	P-OCI-LY-7	Lymphoid	NA	Lymph Node	MBN	NA	True	NA	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-OCI-M1	P-OCI-M1	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	OCI-M1	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	OCIM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-OCI-M2	P-OCI-M2	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	
+S-OCUM-1	P-OCUM-1	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	OCUM-1	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	OCUM1_STOMACH
+S-Okajima	P-Okajima	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	
+S-OPM-2	P-OPM-2	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	OPM-2	OPM-2	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	OPM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-OUMS-23	P-OUMS-23	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	OUMS-23	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	OUMS23_LARGE_INTESTINE
+S-OV-90	P-OV-90	Ovary	NA	Ovary	SOC	90% FBS; DMSO, 10%	True	OV-90	NA	Ovarian Cancer	Serous Ovarian Cancer	Matched	OV90_OVARY
+S-OV56	P-OV56	Ovary	NA	Ovary	OOVC	90% FBS; 10% DMSO	True	OV56	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	OV56_OVARY
+S-OV7	P-OV7	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	OV7	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	OV7_OVARY
+S-OVCA-420	P-OVCA-420	Ovary	NA	Ovary	OOVC	90% FBS; 10% DMSO	True	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-OvCA-429	P-OvCA-429	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-OvCA-432	P-OvCA-432	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-OVCAR-4	P-OVCAR-4	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	OVCAR-4	OVCAR-4	Ovarian Cancer	Ovarian Cancer, Other	Matched	OVCAR4_OVARY
+S-OVCAR-5	P-OVCAR-5	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	NA	OVCAR-5	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-OVCAR-8	P-OVCAR-8	Ovary	NA	Ovary	OOVC	90% FBS; 10%DMSO	True	OVCAR-8	OVCAR-8	Ovarian Cancer	Ovarian Cancer, Other	Matched	OVCAR8_OVARY
+S-OVCAR433	P-OVCAR433	Ovary	NA	Ovary	OOVC	FBS, 90%; DMSO, 10%	True	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-OVISE	P-OVISE	Ovary	NA	Ovary	CCOV	Complete growth medium, 90%; DMSO, 10%	True	OVISE	NA	Ovarian Cancer	Clear Cell Ovarian Cancer	Matched	OVISE_OVARY
+S-OVKATE	P-OVKATE	Ovary	NA	Ovary	SOC	Complete growth medium, 90%; DMSO, 10%	True	OVKATE	NA	Ovarian Cancer	Serous Ovarian Cancer	Matched	OVKATE_OVARY
+S-OVMANA	P-OVMANA	Ovary	NA	Ovary	CCOV	Complete growth medium, 90%; DMSO, 10%	True	OVMANA	NA	Ovarian Cancer	Clear Cell Ovarian Cancer	Matched	OVMANA_OVARY
+S-OVSAHO	P-OVSAHO	Ovary	NA	Ovary	SOC	Complete growth medium, 90%; DMSO, 10%	True	OVSAHO	NA	Ovarian Cancer	Serous Ovarian Cancer	Matched	OVSAHO_OVARY
+S-OVTOKO	P-OVTOKO	Ovary	NA	Ovary	CCOV	Complete growth medium, 90%; DMSO, 10%	True	OVTOKO	NA	Ovarian Cancer	Clear Cell Ovarian Cancer	Matched	OVTOKO_OVARY
+S-PA-1	P-PA-1	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	NA	PA-1	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-PA-TU-8902	P-PA-TU-8902	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	PA-TU-8902	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PATU8902_PANCREAS
+S-PA-TU-8988S	P-PA-TU-8988S	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	False	PA-TU-8988S	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PATU8988S_PANCREAS
+S-PA-TU-8988T	P-PA-TU-8988T	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	PA-TU-8988T	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PATU8988T_PANCREAS
+S-Panc-02-03	P-Panc-02-03	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	Panc 02.03	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PANC0203_PANCREAS
+S-Panc-03-27	P-Panc-03-27	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	Panc 03.27	PANC-03-27	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PANC0327_PANCREAS
+S-Panc-04-03	P-Panc-04-03	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	Panc 04.03	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PANC0403_PANCREAS
+S-Panc-05-04	P-Panc-05-04	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	Panc 05.04	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PANC0504_PANCREAS
+S-Panc-08-13	P-Panc-08-13	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	Panc 08.13	PANC-08-13	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PANC0813_PANCREAS
+S-PANC-1	P-PANC-1	Pancreas	Soft Tissue	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	PANC-1	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PANC1_PANCREAS
+S-PC-3	P-PC-3	Other	NA	Prostate	PRAD	Complete growth medium, 90%; DMSO, 10%	True	PC-3	PC-3	Prostate Cancer	Prostate Adenocarcinoma	Matched	PC3_PROSTATE
+S-PE-CA-PJ15	P-PE-CA-PJ15	Head-Neck	NA	Tongue	HNSC	Complete growth medium, 90%; DMSO, 10%	True	PE/CA-PJ15	NA	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	PECAPJ15_UPPER_AERODIGESTIVE_TRACT
+S-PE01	P-PE01	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-Pfeiffer	P-Pfeiffer	Lymphoid	NA	Blood	HL	NA	True	Pfeiffer	NA	Hodgkin Lymphoma	Hodgkin Lymphoma	Matched	PFEIFFER_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-PK-45H	P-PK-45H	Pancreas	NA	Pancreas	PANCREAS	Complete growth medium, 90%; DMSO, 10%	False	PK-45H	NA	Pancreatic Cancer	Pancreas	Matched	PK45H_PANCREAS
+S-PK-45P	P-PK-45P	Pancreas	NA	Pancreas	PANCREAS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Pancreatic Cancer	Pancreas	Matched	
+S-PK-59	P-PK-59	Pancreas	NA	Pancreas	PANCREAS	Complete growth medium, 90%; DMSO, 10%	True	PK-59	NA	Pancreatic Cancer	Pancreas	Matched	PK59_PANCREAS
+S-PK-8	P-PK-8	Pancreas	NA	Pancreas	PANCREAS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Pancreatic Cancer	Pancreas	Matched	
+S-PL-21	P-PL-21	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	PL-21	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	PL21_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-PL45	P-PL45	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	PL45	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PL45_PANCREAS
+S-PLC-PRF-5	P-PLC-PRF-5	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	PLC/PRF/5	PLC-PRF-5	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	PLCPRF5_LIVER
+S-PSN1	P-PSN1	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	False	PSN1	PSN1	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	PSN1_PANCREAS
+S-QGP-1	P-QGP-1	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	QGP-1	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	QGP1_PANCREAS
+S-RAJI	P-RAJI	Lymphoid	NA	Blood	BL	Complete growth medium, 90%; DMSO, 10%	True	Raji	Raji	Mature B-Cell Neoplasms	Burkitt Lymphoma	Matched	RAJI_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-RAMOS	P-RAMOS	Lymphoid	NA	Blood	BL	Complete growth media, 90%; DMSO, 10%	True	NA	NA	Mature B-Cell Neoplasms	Burkitt Lymphoma	Matched	
+S-RC-K8	P-RC-K8	Lymphoid	NA	Blood	MBN	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-RCM-1	P-RCM-1	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	RCM-1	RCM-1	Colorectal Cancer	Colon Adenocarcinoma	Matched	RCM1_LARGE_INTESTINE
+S-REC-1	P-REC-1	Lymphoid	NA	Lymph Node	MBN	70% RPMI, 20% HI FBS, 10% DMSO	True	REC-1	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	REC1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-RERF-GC-1B	P-RERF-GC-1B	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	RERF-GC-1B	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	RERFGC1B_STOMACH
+S-RERF-LC-KJ	P-RERF-LC-KJ	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	RERF-LC-KJ	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	RERFLCKJ_LUNG
+S-RERF-LC-MS	P-RERF-LC-MS	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	RERF-LC-MS	RERF-LC-MS	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	RERFLCMS_LUNG
+S-RERF-LC-OK	P-RERF-LC-OK	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	
+S-RI-1	P-RI-1	Lymphoid	NA	Lymph Node	MBN	RPMI-1640, 20% HI FBS, 10% DMSO	True	RI-1	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	RI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-RKN	P-RKN	Ovary	NA	Ovary	LMS	Complete growth medium, 90%; DMSO, 10%	True	RKN	NA	Soft Tissue Sarcoma	Leiomyosarcoma	Matched	RKN_SOFT_TISSUE
+S-RKO	P-RKO	Colo-Rectal	NA	Colon	COAD	90% FBS; 10% DMSO	True	RKO	RKO	Colorectal Cancer	Colon Adenocarcinoma	Matched	RKO_LARGE_INTESTINE
+S-RKO-E6	P-RKO-E6	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-RL	P-RL	Lymphoid	NA	Lymph Node	MBN	RPMI 1640, 20% HI FBS, 10% DMSO	True	RL	RL	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	RL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-RMG-I	P-RMG-I	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	RMG-I	RMG-I	Ovarian Cancer	Ovarian Cancer, Other	Matched	RMGI_OVARY
+S-RMUG-S	P-RMUG-S	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	RMUG-S	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	RMUGS_OVARY
+S-RPMI2650	P-RPMI2650	Colo-Rectal	NA	Septum	COADREAD	Complete growth medium, 90%; DMSO, 10%	True	NA	RPMI-2650	Colorectal Cancer	Colorectal Adenocarcinoma	Matched	
+S-RPMI8226	P-RPMI8226	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	RPMI 8226	RPMI-8226	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	RPMI8226_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-RPMI-7951	P-RPMI-7951	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	RPMI-7951	RPMI-7951	Melanoma	Melanoma	Matched	RPMI7951_SKIN
+S-RT-112	P-RT-112	Urinary Bladder	NA	Urinary Bladder	BLCA	Complete growth medium, 90%; DMSO, 10%	True	RT-112	RT-112	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	RT112_URINARY_TRACT
+S-RT4	P-RT4	Urinary Bladder	NA	Urinary Bladder	BLCA	Complete growth medium, 90%; DMSO, 10%	True	RT4	NA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	RT4_URINARY_TRACT
+S-SC-1	P-SC-1	Lymphoid	NA	Lymph Node	MBN	Complete growth media, 90%; DMSO, 10%	True	NA	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-SCC-15	P-SCC-15	Head-Neck	NA	Tongue	HNSC	Complete growth medium, 90%; DMSO, 10%	True	SCC-15	SCC-15	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	SCC15_UPPER_AERODIGESTIVE_TRACT
+S-SCC-25	P-SCC-25	Head-Neck	NA	Tongue	HNSC	Complete growth medium, 90%; DMSO, 10%	True	SCC-25	SCC-25	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	SCC25_UPPER_AERODIGESTIVE_TRACT
+S-SCC-3	P-SCC-3	Lymphoid	NA	Blood	NHL	Complete growth media, 90%; DMSO, 10%	True	NA	SCC-3	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Matched	
+S-SCC-9	P-SCC-9	Head-Neck	NA	Tongue	HNSC	Complete growth medium, 90%; DMSO, 10%	True	SCC-9	SCC-9	Head and Neck Cancer	Head and Neck Squamous Cell Carcinoma	Matched	SCC9_UPPER_AERODIGESTIVE_TRACT
+S-SCLC-21H	P-SCLC-21H	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	False	SCLC-21H	SCLC-21H	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	SCLC21H_LUNG
+S-SCLC-22H	P-SCLC-22H	Lung	NA	Lung	SCLC	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Small Cell Lung Cancer	Small Cell Lung Cancer	Matched	
+S-SET-2	P-SET-2	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	Set-2	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	SET2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SF268	P-SF268	Brain	NA	Brain	GNOS	90% FBS; 10% DMSO	True	NA	SF268	Glioma	Glioma, NOS	Matched	
+S-SF539	P-SF539	Brain	NA	Brain	GNOS	90% FBS; 10% DMSO	True	NA	SF539	Glioma	Glioma, NOS	Matched	
+S-SIG-M5	P-SIG-M5	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	SIG-M5	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	SIGM5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SiHa	P-SiHa	Cervix	NA	Cervix	CESC	Complete growth medium, 90%; DMSO, 10%	True	NA	SiHa	Cervical Cancer	Cervical Squamous Cell Carcinoma	Matched	
+S-SJCRH30	P-SJCRH30	Sarcomatoid	NA	Skeletal Muscle	RMS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Soft Tissue Sarcoma	Rhabdomyosarcoma	Matched	
+S-SK-BR-3	P-SK-BR-3	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	SK-BR-3	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	SKBR3_BREAST
+S-SK-CO-1	P-SK-CO-1	Colo-Rectal	NA	Colon	COAD	90% FBS, 10% DMSO	True	SK-CO-1	SK-CO-1	Colorectal Cancer	Colon Adenocarcinoma	Matched	SKCO1_LARGE_INTESTINE
+S-SK-MEL-1	P-SK-MEL-1	Skin	Lymphatic Tissue	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	SK-MEL-1	NA	Melanoma	Melanoma	Matched	SKMEL1_SKIN
+S-SK-MEL-2	P-SK-MEL-2	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	SK-MEL-2	SK-MEL-2	Melanoma	Melanoma	Matched	SKMEL2_SKIN
+S-SK-MEL-24	P-SK-MEL-24	Skin	Lymph Node	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	SK-MEL-24	SK-MEL-24	Melanoma	Melanoma	Matched	SKMEL24_SKIN
+S-SK-MEL-28	P-SK-MEL-28	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	SK-MEL-28	SK-MEL-28	Melanoma	Melanoma	Matched	SKMEL28_SKIN
+S-SK-MEL-3	P-SK-MEL-3	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	SK-MEL-3	SK-MEL-3	Melanoma	Melanoma	Matched	SKMEL3_SKIN
+S-SK-MEL-30	P-SK-MEL-30	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	SK-MEL-30	SK-MEL-30	Melanoma	Melanoma	Matched	SKMEL30_SKIN
+S-SK-MEL-31	P-SK-MEL-31	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	SK-MEL-31	NA	Melanoma	Melanoma	Matched	SKMEL31_SKIN
+S-SK-MEL-5	P-SK-MEL-5	Skin	NA	Skin	MEL	NA	True	SK-MEL-5	SK-MEL-5	Melanoma	Melanoma	Matched	SKMEL5_SKIN
+S-SK-MES-1	P-SK-MES-1	Lung	Effusion, Pleural	Lung	LUSC	Complete growth medium, 90%; DMSO, 10%	True	SK-MES-1	SK-MES-1	Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	Matched	SKMES1_LUNG
+S-SK-MM-2	P-SK-MM-2	Lymphoid		Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	SK-MM-2	SK-MM-2	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	SKMM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SK-N-AS	P-SK-N-AS	Brain	NA	Brain	NBL	Complete growth medium, 90%; DMSO, 10%	True	SK-N-AS	SK-N-AS	Peripheral Nervous System	Neuroblastoma	Matched	SKNAS_AUTONOMIC_GANGLIA
+S-SK-N-DZ	P-SK-N-DZ	Brain	NA	Brain	NBL	Complete growth medium, 90%; DMSO, 10%	True	SK-N-DZ	SK-N-DZ	Peripheral Nervous System	Neuroblastoma	Matched	SKNDZ_AUTONOMIC_GANGLIA
+S-SK-N-FI	P-SK-N-FI	Brain	NA	Brain	NBL	Complete growth medium, 90%; DMSO, 10%	True	SK-N-FI	SK-N-FI	Peripheral Nervous System	Neuroblastoma	Matched	SKNFI_AUTONOMIC_GANGLIA
+S-SK-N-SH	P-SK-N-SH	Brain	NA	Brain	NBL	Complete growth medium, 90%; DMSO, 10%	True	SK-N-SH	NA	Peripheral Nervous System	Neuroblastoma	Matched	SKNSH_AUTONOMIC_GANGLIA
+S-SK-OV-3	P-SK-OV-3	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	SK-OV-3	SK-OV-3	Ovarian Cancer	Ovarian Cancer, Other	Matched	SKOV3_OVARY
+S-SK23	P-SK23	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Melanoma	Melanoma	Matched	
+S-SKM-1	P-SKM-1	Lymphoid	NA	Blood	MNM	Complete growth medium, 90%; DMSO, 10%	True	SKM-1	SKM-1	Blood Cancer, NOS	Myeloid Neoplasm	Matched	SKM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SNU-1	P-SNU-1	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	SNU-1	NCI-SNU-1	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	SNU1_STOMACH
+S-SNU-16	P-SNU-16	Stomach	Ascites	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	SNU-16	NCI-SNU-16	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	SNU16_STOMACH
+S-SNU-182	P-SNU-182	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	SNU-182	NA	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	SNU182_LIVER
+S-SNU-216	P-SNU-216	Stomach	Lymph Node	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	SNU-216	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	SNU216_STOMACH
+S-SNU-387	P-SNU-387	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	SNU-387	SNU-387	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	SNU387_LIVER
+S-SNU-398	P-SNU-398	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	SNU-398	NA	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	SNU398_LIVER
+S-SNU-423	P-SNU-423	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	SNU-423	SNU-423	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	SNU423_LIVER
+S-SNU-449	P-SNU-449	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	SNU-449	SNU-449	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	SNU449_LIVER
+S-SNU-475	P-SNU-475	Liver	NA	Liver	HCC	Complete growth medium, 90%; DMSO, 10%	True	SNU-475	SNU-475	Hepatobiliary Cancer	Hepatocellular Carcinoma	Matched	SNU475_LIVER
+S-SNU-484	P-SNU-484	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	
+S-SNU-5	P-SNU-5	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	SNU-5	NCI-SNU-5	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	SNU5_STOMACH
+S-SNU-601	P-SNU-601	Stomach	Ascites	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	SNU-601	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	SNU601_STOMACH
+S-SNU-620	P-SNU-620	Stomach	Ascites	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	SNU-620	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	SNU620_STOMACH
+S-SNU-638	P-SNU-638	Stomach	Ascites	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	
+S-SNU-668	P-SNU-668	Stomach	Ascites	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	SNU-668	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	SNU668_STOMACH
+S-SNU-719	P-SNU-719	Stomach	NA	Stomach	STAD	Complete growth medium, 90%; DMSO, 10%	True	SNU-719	NA	Esophagogastric Cancer	Stomach Adenocarcinoma	Matched	SNU719_STOMACH
+S-SNU-C1	P-SNU-C1	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	SNU-C1	SNU-C1	Colorectal Cancer	Colon Adenocarcinoma	Matched	SNUC1_LARGE_INTESTINE
+S-SR	P-SR	Lymphoid	NA	Lymph Node	LNM	RPMI, 20% FBS, 10% DMSO	True	SR-786	SR	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	SR786_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SR-786	P-SR-786	Lymphoid	NA	Blood	LNM	NA	False	SR-786	SR	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	SR786_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SU-DHL-1	P-SU-DHL-1	Lymphoid	NA	Lymph Node	NHL	Complete growth medium, 90%; DMSO, 10%	True	SU-DHL-1	SU-DHL-1	Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	Matched	SUDHL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SU-DHL-10	P-SU-DHL-10	Other	NA	Pleura	MBN	Complete growth medium, 90%; DMSO, 10%	True	SU-DHL-10	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	SUDHL10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SU-DHL-16	P-SU-DHL-16	Lymphoid	NA	Lymph Node	MBN	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-SU-DHL-4	P-SU-DHL-4	Lymphoid	NA	Lymph Node	MBN	Complete growth medium, 90%; DMSO, 10%	True	SU-DHL-4	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	SUDHL4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SU-DHL-5	P-SU-DHL-5	Lymphoid	NA	Lymph Node	MBN	Complete growth media, 90%; DMSO, 10%	True	SU-DHL-5	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	SUDHL5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SU-DHL-6	P-SU-DHL-6	Lymphoid	NA	Lymph Node	LNM	HI FBS, 90%; DMSO, 10%	True	SU-DHL-6	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	SUDHL6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SU-DHL-8	P-SU-DHL-8	Lymphoid	NA	Lymph Node	MBN	RPMI-1640, 20% HI FBS, 10% DMSO	True	SU-DHL-8	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	SUDHL8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SU-86-86	P-SU-86-86	Pancreas	NA	Pancreas	PAAD	90% FBS; 10% DMSO	True	SU.86.86	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	SU8686_PANCREAS
+S-SUIT-2	P-SUIT-2	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	SUIT-2	NA	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	SUIT2_PANCREAS
+S-SUM-1315M02	P-SUM-1315M02	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	
+S-SUM-149PT	P-SUM-149PT	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	
+S-SUM-159PT	P-SUM-159PT	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-SUM-229PE	P-SUM-229PE	Breast	Pleura	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-SUM-52PE	P-SUM-52PE	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-SUS-B15	P-SUP-B15	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	SUP-B15	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	SUPB15_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-SW-1116	P-SW-1116	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	SW1116	SW1116	Colorectal Cancer	Colon Adenocarcinoma	Matched	SW1116_LARGE_INTESTINE
+S-SW-1417	P-SW-1417	Colo-Rectal	NA	Colon	COAD	90% FBS, 10% DMSO	True	SW1417	SW1417	Colorectal Cancer	Colon Adenocarcinoma	Matched	SW1417_LARGE_INTESTINE
+S-SW-1463	P-SW-1463	Colo-Rectal	NA	Colon	COAD	90% Complete growth media, 10% DMSO	True	SW1463	SW1463	Colorectal Cancer	Colon Adenocarcinoma	Matched	SW1463_LARGE_INTESTINE
+S-SW-1573	P-SW-1573	Lung	NA	Lung	LUNG	Complete growth medium, 90%; DMSO, 10%	True	SW 1573	SW1573	Lung Cancer	Lung	Matched	SW1573_LUNG
+S-SW-1990	P-SW-1990	Pancreas	NA	Pancreas	PAAD	Complete growth medium, 90%; DMSO, 10%	True	SW 1990	SW1990	Pancreatic Cancer	Pancreatic Adenocarcinoma	Matched	SW1990_PANCREAS
+S-SW-403	P-SW-403	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	SW403	SW403	Colorectal Cancer	Colon Adenocarcinoma	Matched	SW403_LARGE_INTESTINE
+S-SW-48	P-SW-48	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	SW48	SW48	Colorectal Cancer	Colon Adenocarcinoma	Matched	SW48_LARGE_INTESTINE
+S-SW-480	P-SW-480	Colo-Rectal	NA	Colon	COAD	90% FBS; 10% DMSO	True	SW480	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	SW480_LARGE_INTESTINE
+S-SW-527	P-SW-527	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	False	SW579	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	SW579_THYROID
+S-SW-620	P-SW-620	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	SW620	SW620	Colorectal Cancer	Colon Adenocarcinoma	Matched	SW620_LARGE_INTESTINE
+S-SW-780	P-SW-780	Urinary Bladder	NA	Urinary Bladder	BLCA	Complete growth medium, 90%; DMSO, 10%	True	SW 780	SW780	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	SW780_URINARY_TRACT
+S-SW-837	P-SW-837	Colo-Rectal	NA	Rectum	COADREAD	90% FBS; 10% DMSO	True	SW837	SW837	Colorectal Cancer	Colorectal Adenocarcinoma	Matched	SW837_LARGE_INTESTINE
+S-SW-900	P-SW-900	Lung	NA	Lung	NSCLC	Complete growth medium, 90%; DMSO, 10%	True	SW 900	SW900	Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	Matched	SW900_LUNG
+S-SW-948	P-SW-948	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	SW948	SW948	Colorectal Cancer	Colon Adenocarcinoma	Matched	SW948_LARGE_INTESTINE
+S-SW-982	P-SW-982	Breast	NA	Breast	PBS	Complete growth medium, 90%; DMSO, 10%	True	NA	SW982	Breast Sarcoma	Breast Sarcoma	Matched	
+S-T-47D	P-T-47D	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	T-47D	T47D	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	T47D_BREAST
+S-T84	P-T84	Colo-Rectal	Lung	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	True	T84	T84	Colorectal Cancer	Colon Adenocarcinoma	Matched	T84_LARGE_INTESTINE
+S-T98G	P-T98G	Brain	NA	Brain	GB	Complete growth medium, 90%; DMSO, 10%	True	T98G	T98G	Glioma	Glioblastoma, IDH-wildtype	Matched	T98G_CENTRAL_NERVOUS_SYSTEM
+S-TC-71	P-TC-71	Sarcomatoid	NA	Bone	ES	Complete growth medium, 90%; DMSO, 10%	True	TC-71	NA	Bone Cancer	Ewing Sarcoma	Matched	TC71_BONE
+S-TCC-PAN2	P-TCC-PAN2	Pancreas	NA	Pancreas	PANCREAS	Complete growth medium, 90%; DMSO, 10%	True	TCC-PAN2	NA	Pancreatic Cancer	Pancreas	Matched	TCCPAN2_PANCREAS
+S-THP-1	P-THP-1	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	THP-1	THP-1	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	THP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-TK	P-TK	Lymphoid	NA	Blood	LNM	NA	True	NA	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	
+S-TK-10	P-TK-10	Kidney	NA	Kidney	RCC	Complete growth medium, 90%; DMSO, 10%	True	NA	TK10	Renal Cell Carcinoma	Renal Cell Carcinoma	Matched	
+S-TMD8	P-TMD8	Lymphoid	NA	Blood	DLBCLNOS	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	
+S-Toledo	P-Toledo	Lymphoid	Effusion, Pleural	Lymph Node	MBN	Complete growth media 10% DMSO	True	Toledo	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	TOLEDO_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-TOV-112D	P-TOV-112D	Ovary	NA	Ovary	EOV	Complete growth medium, 90%; DMSO, 10%	True	TOV-112D	NA	Ovarian Cancer	Endometrioid Ovarian Cancer	Matched	TOV112D_OVARY
+S-TYK-nu	P-TYK-nu	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	True	TYK-nu	TYK-nu	Ovarian Cancer	Ovarian Cancer, Other	Matched	TYKNU_OVARY
+S-TYK-nu-CS-r	P-TYK-nu-CP-r	Ovary	NA	Ovary	OOVC	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Ovarian Cancer	Ovarian Cancer, Other	Matched	
+S-U-2-OS	P-U-2-OS	Sarcomatoid	NA	Bone	OS	Complete growth medium, 90%; DMSO, 10%	True	U-2 OS	U-2-OS	Bone Cancer	Osteosarcoma	Matched	U2OS_BONE
+S-U-2932	P-U-2932	Lymphoid	NA	Blood	MBN	NA	True	NA	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-U-698-M	P-U-698-M	Lymphoid	NA	Lymph Node	MBN	RPMI-1640, 20% HI FBS, 10% DMSO	True	NA	U-698-M	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-U-937	P-U-937	Lymphoid	NA	Blood	DLBCLNOS	Complete growth medium, 90%; DMSO, 10%	True	U-937	NA	Mature B-Cell Neoplasms	Diffuse Large B-Cell Lymphoma, NOS	Matched	U937_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-U266B1	P-U266B1	Lymphoid	NA	Blood	PCM	Complete growth medium, 90%; DMSO, 10%	True	U266B1	U-266	Mature B-Cell Neoplasms	Plasma Cell Myeloma	Matched	U266B1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-UACC-257	P-UACC-257	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	UACC-257	UACC-257	Melanoma	Melanoma	Matched	UACC257_SKIN
+S-UACC-812	P-UACC-812	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	UACC-812	UACC-812	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	UACC812_BREAST
+S-UACC-893	P-UACC-893	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	UACC-893	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	UACC893_BREAST
+S-UCSD-242l	P-UCSD-242l	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Melanoma	Melanoma	Matched	
+S-UKE-1	P-UKE-1	Lymphoid	NA	Blood	LNM	Complete growth medium, 90%; DMSO, 10%	True	NA	NA	Lymphatic Cancer, NOS	Lymphoid Neoplasm	Matched	
+S-UM-UC-1	P-UM-UC-1	Urinary Bladder	NA	Urinary Bladder	BLCA	Complete growth medium, 90%; DMSO, 10%	True	UM-UC-1	NA	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	UMUC1_URINARY_TRACT
+S-UM-UC-3	P-UM-UC-3	Urinary Bladder	NA	Urinary Bladder	BLCA	Complete growth medium, 90%; DMSO, 10%	True	UM-UC-3	UM-UC-3	Bladder Cancer	Bladder Urothelial Carcinoma	Matched	UMUC3_URINARY_TRACT
+S-UMC-11	P-UMC-11	Lung	NA	Lung	LUCA	Complete growth medium, 90%; DMSO, 10%	True	NA	UMC-11	Non-Small Cell Lung Cancer	Lung Carcinoid	Matched	
+S-VMRC-LCD	P-VMRC-LCD	Lung	NA	Lung	LUAD	Complete growth medium, 90%; DMSO, 10%	True	VMRC-LCD	NA	Non-Small Cell Lung Cancer	Lung Adenocarcinoma	Matched	VMRCLCD_LUNG
+S-WiDr	P-WiDr	Colo-Rectal	NA	Colon	COAD	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Colorectal Cancer	Colon Adenocarcinoma	Matched	
+S-WM-115	P-WM-115	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	True	WM-115	WM-115	Melanoma	Melanoma	Matched	WM115_SKIN
+S-WM-266-4	P-WM-266-4	Skin	NA	Skin	MEL	Complete growth medium, 90%; DMSO, 10%	False	WM-266-4	NA	Melanoma	Melanoma	Matched	WM2664_SKIN
+S-WSU-DLCL2	P-WSU-DLCL2	Lymphoid	NA	Lymph Node	MBN	Complete growth medium, 90%; DMSO, 10%	True	WSU-DLCL2	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	WSUDLCL2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+S-WSU-FSCCL	P-WSU-FSCCL	Lymphoid	NA	Lymph Node	MBN	RPMI-1640, 20% HI FBS, 10% DMSO	True	NA	NA	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-WSU-NHL	P-WSU-NHL	Lymphoid	NA	Blood	MBN	Complete growth medium, 90%; DMSO, 10%	True	NA	WSU-NHL	Mature B-Cell Neoplasms	Mature B-Cell Neoplasms	Matched	
+S-YAPC	P-YAPC	Pancreas	NA	Pancreas	PANCREAS	Complete growth medium, 90%; DMSO, 10%	True	YAPC	YAPC	Pancreatic Cancer	Pancreas	Matched	YAPC_PANCREAS
+S-YMB-1	P-YMB-1	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	True	YMB-1	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	YMB1_BREAST
+S-YMB-1-E	P-YMB-1-E	Breast	NA	Breast	BRCA	Complete growth medium, 90%; DMSO, 10%	False	NA	NA	Breast Cancer	Invasive Breast Carcinoma	Matched	
+S-ZR-75-1	P-ZR-75-1	Breast	NA	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	False	ZR-75-1	NA	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	ZR751_BREAST
+S-ZR-75-30	P-ZR-75-30	Breast	Ascites	Breast	DCIS	Complete growth medium, 90%; DMSO, 10%	True	ZR-75-30	ZR-75-30	Breast Cancer	Breast Ductal Carcinoma In Situ	Matched	ZR7530_BREAST
