@@ -1,0 +1,8 @@
+cancer_study_identifier: chol_tcga_pan_can_atlas_2018
+genetic_alteration_type: PROTEIN_LEVEL
+datatype: LOG2-VALUE
+stable_id: rppa
+show_profile_in_analysis_tab: false
+profile_name: Protein expression (RPPA)
+profile_description: Protein expression measured by reverse-phase protein array
+data_filename: data_rppa.txt

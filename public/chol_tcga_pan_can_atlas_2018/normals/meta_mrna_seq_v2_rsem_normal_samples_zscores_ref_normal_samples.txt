@@ -1,0 +1,8 @@
+cancer_study_identifier: chol_tcga_pan_can_atlas_2018
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+stable_id: rna_seq_v2_mrna_median_normals_Zscores
+show_profile_in_analysis_tab: TRUE
+profile_name: mRNA expression of adjacent normal samples, z-scores relative to all normal samples (log RNA Seq V2 RSEM)
+profile_description: Expression z-scores of adjacent normal samples compared to the expression distribution of all log-transformed mRNA expression of adjacent normal samples in the cohort.
+data_filename: data_mrna_seq_v2_rsem_normal_samples_zscores_ref_normal_samples.txt

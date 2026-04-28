@@ -1,0 +1,11 @@
+cancer_study_identifier: chol_tcga_pan_can_atlas_2018
+genetic_alteration_type: GENERIC_ASSAY
+generic_assay_type: GENETIC_ANCESTRY
+datatype: LIMIT-VALUE
+stable_id: genetic_ancestry
+profile_name: Genetic Ancestry
+profile_description: Genetic ancestries were determined using five different methods as described in Carrot-Zhang et al (2020). These consensus calls were created based on the ancestral population that received the majority of assignments for each patient. The original data is <a href="https://gdc.cancer.gov/about-data/publications/CCG-AIM-2020">here</a>.
+data_filename: data_genetic_ancestry.txt
+show_profile_in_analysis_tab: true
+generic_entity_meta_properties: NAME
+value_sort_order: ASC

@@ -1,0 +1,8 @@
+cancer_study_identifier: chol_tcga_pan_can_atlas_2018
+stable_id: rna_seq_v2_mrna_median_normals
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+show_profile_in_analysis_tab: FALSE
+profile_name: mRNA expression of adjacent normal samples, RSEM (Batch normalized from Illumina HiSeq_RNASeqV2)
+profile_description:mRNA expression of adjacent normal samples, RSEM (Batch normalized from Illumina HiSeq_RNASeqV2)
+data_filename: data_mrna_seq_v2_rsem_normal_samples.txt
