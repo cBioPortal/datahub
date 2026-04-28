@@ -1,6 +1,0 @@
-cancer_study_identifier: uvm_tcga_pan_can_atlas_2018
-stable_id: uvm_tcga_pan_can_atlas_2018_rppa
-case_list_name: Samples with protein data (RPPA)
-case_list_description: Samples with protein data (RPPA) (12 samples)
-case_list_category: all_cases_with_rppa_data
-case_list_ids: TCGA-V3-A9ZX-01	TCGA-VD-A8KF-01	TCGA-V4-A9EA-01	TCGA-WC-AA9E-01	TCGA-V4-A9EH-01	TCGA-WC-A88A-01	TCGA-V4-A9E9-01	TCGA-V4-A9EJ-01	TCGA-WC-A885-01	TCGA-V4-A9EL-01	TCGA-V4-A9F4-01	TCGA-V4-A9EO-01
