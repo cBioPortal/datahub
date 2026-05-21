@@ -1,0 +1,9 @@
+cancer_study_identifier: lgg_ctf_synodos_2025
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+stable_id: mutations
+show_profile_in_analysis_tab: true
+profile_name: Mutations
+profile_description: Mutation data from NF-OSI processing.
+data_filename: data_mutations.txt
+swissprot_identifier: accession

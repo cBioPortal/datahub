@@ -1,0 +1,7 @@
+type_of_cancer: coadread
+cancer_study_identifier: crc_hta8_htan_2024
+name: Colorectal Cancer (HTAN MSK, Nature 2025)
+description: Targeted genomic and single-cell RNA sequencing of normal colon, primary colorectal cancer, and matched metastatic samples from 29 patients.
+pmid: 39478232
+citation: Moorman et al. Nature 2025 
+

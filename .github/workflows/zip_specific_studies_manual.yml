@@ -1,0 +1,132 @@
+name: Zip and Dump Specific Studies to S3 (Manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      study_ids:
+        description: >
+          Space-separated list of study identifiers to zip and upload.
+          Each study must include its path prefix, e.g: public/ or crdc/gdc/
+          "public/bm_nsclc_mskcc_2023 public/bowel_colitis_msk_2022 public/braf_msk_impact_2024 public/brca_mapk_hp_msk_2021 public/breast_alpelisib_2020 public/breast_ink4_msk_2021 public/breast_msk_2018 public/cervix_msk_2023 public/chol_msk_2018 public/crc_apc_impact_2020 public/crc_msk_2017 public/csf_msk_2024 public/difg_msk_2023 public/egc_msk_2017 public/egc_msk_2023 public/egc_msk_tp53_ccr_2022 public/egc_mskcc_2020 public/egc_trap_msk_2020 public/gbc_msk_2018 public/gbc_mskcc_2022 public/gct_msk_2016 public/gist_msk_2022 public/gist_msk_2023 public/glioma_mskcc_2019 public/hcc_jcopo_msk_2023 public/hcc_msk_2024 public/hcc_mskimpact_2018 public/hgsoc_msk_2021 public/hnc_mskcc_2016 public/ihch_msk_2021 public/ihch_mskcc_2020 public/ilc_msk_2023 public/luad_msk_npjpo_2021 public/luad_mskcc_2020 public/luad_mskcc_2023_met_organotropism public/luad_mskimpact_2021 public/lung_msk_2017 public/lung_msk_mind_2020 public/lung_msk_pdx public/lung_pdx_msk_2021 public/makeanimpact_ccr_2023 public/mbn_msk_2024 public/mel_mskimpact_2020 public/mixed_impact_subset_2022 public/mixed_kunga_msk_2022 public/mixed_selpercatinib_2020 public/msk_access_2021 public/msk_chord_2024 public/msk_ctdna_vte_2024 public/msk_impact_2017 public/msk_impact_50k_2026 public/msk_met_2021 public/msk_spectrum_tme_2022 public/nsclc_ctdx_msk_2022 public/nsclc_pd1_msk_2018 public/ntrk_msk_2019 public/paac_msk_jco_2023 public/paired_bladder_2022 public/pancan_mimsi_msk_2024 public/pancreas_msk_2024 public/panet_msk_erc_2023 public/pdac_msk_2024 public/plmeso_msk_2024 public/prad_cdk12_mskcc_2020 public/prad_mcspc_mskcc_2020 public/prad_msk_2019 public/prad_msk_stopsack_2021 public/prad_mskcc_2017 public/prad_organoids_msk_2022 public/prad_pik3r1_msk_2021 public/prostate_msk_2024 public/ptad_msk_2024 public/rbl_mskcc_2020 public/rms_msk_2023 public/sarcoma_msk_2023 public/sarcoma_mskcc_2022 public/soft_tissue_msk_2023 public/tmb_mskcc_2018 public/ucec_msk_2018 public/ucec_msk_2024 public/usarc_msk_2020"
+        required: true
+
+jobs:
+  zip_and_s3_dump:
+    if: github.repository == 'cbioportal/datahub'
+    runs-on: ubuntu-latest
+    env:
+      SAML2AWS_VER: '2.36.18'
+      AWS_PROFILE: 'default'
+      AWS_REGION: 'us-east-1'
+    steps:
+      - name: Install saml2aws
+        run: |
+          wget -O saml2aws.tar.gz https://github.com/Versent/saml2aws/releases/download/v${SAML2AWS_VER}/saml2aws_${SAML2AWS_VER}_linux_amd64.tar.gz
+          tar -xzvf saml2aws.tar.gz
+          sudo mv saml2aws /usr/local/bin/
+          chmod +x /usr/local/bin/saml2aws
+          saml2aws --version
+
+      - name: Configure saml2aws
+        run: |
+          saml2aws configure \
+            --idp-provider="${{ secrets.SAML_IDP_PROVIDER }}" \
+            --mfa="${{ secrets.SAML_MFA }}" \
+            --url="${{ secrets.SAML_URL }}" \
+            --username="${{ secrets.SAML_USERNAME }}" \
+            --aws-urn="${{ secrets.SAML_AWS_URN }}" \
+            --session-duration="${{ secrets.SAML_SESSION_DURATION }}" \
+            --skip-prompt \
+            --profile="${{ env.AWS_PROFILE }}"
+
+      - uses: actions/checkout@v5
+        with:
+          ref: master
+
+      - name: Zip and dump specified studies
+        env:
+          SAML2AWS_USERNAME: ${{ secrets.SAML_USERNAME }}
+          SAML2AWS_PASSWORD: ${{ secrets.SAML_PASSWORD }}
+          SAML2AWS_ROLE: ${{ secrets.SAML_ROLE }}
+          SAVED_GIT_REPO_FILENAME: save_git.tar
+          AWS_S3_BUCKET: ${{ secrets.S3_BUCKET }}
+          AWS_EC2_METADATA_DISABLED: "true"
+          STUDY_IDS: ${{ github.event.inputs.study_ids }}
+        run: |
+          # Login to saml
+          saml2aws login \
+            --force \
+            --skip-prompt
+
+          # Validate and collect study paths
+          echo "Resolving study paths from input..."
+          studypaths=()
+          skipped=()
+          for study_id in $STUDY_IDS; do
+            if [ -d "$study_id" ]; then
+              studypaths+=("$study_id")
+              echo "Found: $study_id"
+            else
+              skipped+=("$study_id")
+              echo "Not found, skipping: $study_id"
+            fi
+          done
+
+          if [ ${#skipped[@]} -gt 0 ]; then
+            echo ""
+            echo "The following study IDs were not found and will be skipped:"
+            for s in "${skipped[@]}"; do
+              echo "  - $s"
+            done
+          fi
+
+          if [ ${#studypaths[@]} -eq 0 ]; then
+            echo "ERROR: No valid study paths found. Exiting."
+            exit 1
+          fi
+
+          echo ""
+          echo "Studies to upload: ${studypaths[@]}"
+
+          # Save .git before LFS pulls
+          tar -cvf ${SAVED_GIT_REPO_FILENAME} .git > /dev/null
+          mkdir -p studies_to_upload
+
+          for studypath in "${studypaths[@]}"; do
+            study=$(basename "$studypath")
+            study_dir=$(dirname "$studypath")
+
+            echo ""
+            echo "Pulling LFS data for: ${studypath}"
+            git -c lfs.fetchexclude="" lfs pull --include="${studypath}"
+
+            echo "Compressing: ${studypath}"
+            tar -czvf studies_to_upload/${study}.tar.gz -C ${study_dir} ${study}
+
+            echo "Uploading to S3: studies_to_upload/${study}.tar.gz"
+            aws s3 cp studies_to_upload/${study}.tar.gz s3://${{ secrets.S3_BUCKET }}/
+
+            echo "Cleaning up: ${studypath}"
+            rm -rf "${studypath}"
+            rm studies_to_upload/${study}.tar.gz
+
+            # Restore .git for next LFS pull
+            rm -rf .git
+            tar -xf ${SAVED_GIT_REPO_FILENAME} > /dev/null
+          done
+
+          echo ""
+          echo "============================================================"
+          echo " Upload Summary"
+          echo "============================================================"
+          echo " Uploaded : ${#studypaths[@]} studies"
+          for s in "${studypaths[@]}"; do
+            echo "$s"
+          done
+          if [ ${#skipped[@]} -gt 0 ]; then
+            echo " Skipped  : ${#skipped[@]} studies"
+            for s in "${skipped[@]}"; do
+              echo "$s"
+            done
+          fi
+          echo "============================================================"

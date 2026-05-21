@@ -1,0 +1,153 @@
+name: Verify S3 Study Tarballs for LFS Pointers
+
+on:
+  workflow_dispatch:
+
+jobs:
+  verify_s3_studies:
+    if: github.repository == 'cbioportal/datahub'
+    runs-on: ubuntu-latest
+    env:
+      SAML2AWS_VER: '2.36.18'
+      AWS_PROFILE: 'default'
+      AWS_REGION: 'us-east-1'
+      MAX_THREADS: 10
+
+    steps:
+      - name: Install saml2aws
+        run: |
+          wget -O saml2aws.tar.gz https://github.com/Versent/saml2aws/releases/download/v${SAML2AWS_VER}/saml2aws_${SAML2AWS_VER}_linux_amd64.tar.gz
+          tar -xzvf saml2aws.tar.gz
+          sudo mv saml2aws /usr/local/bin/
+          chmod +x /usr/local/bin/saml2aws
+          saml2aws --version
+
+      - name: Configure saml2aws
+        run: |
+          saml2aws configure \
+            --idp-provider="${{ secrets.SAML_IDP_PROVIDER }}" \
+            --mfa="${{ secrets.SAML_MFA }}" \
+            --url="${{ secrets.SAML_URL }}" \
+            --username="${{ secrets.SAML_USERNAME }}" \
+            --aws-urn="${{ secrets.SAML_AWS_URN }}" \
+            --session-duration="${{ secrets.SAML_SESSION_DURATION }}" \
+            --skip-prompt \
+            --profile="${{ env.AWS_PROFILE }}"
+
+      - name: Login to AWS via saml2aws
+        env:
+          SAML2AWS_USERNAME: ${{ secrets.SAML_USERNAME }}
+          SAML2AWS_PASSWORD: ${{ secrets.SAML_PASSWORD }}
+          SAML2AWS_ROLE: ${{ secrets.SAML_ROLE }}
+          AWS_EC2_METADATA_DISABLED: "true"
+        run: |
+          saml2aws login \
+            --force \
+            --skip-prompt
+
+      - name: Verify S3 study tarballs are not LFS pointers
+        env:
+          AWS_EC2_METADATA_DISABLED: "true"
+          S3_BUCKET: ${{ secrets.S3_BUCKET }}
+        run: |
+          LFS_HEADER="version https://git-lfs.github.com/spec/v1"
+          RESULTS_DIR=$(mktemp -d)
+
+          # Function to check a single study tarball
+          check_study() {
+            local study_key=$1
+            local study_name="${study_key%.tar.gz}"
+            local result_file="$RESULTS_DIR/${study_name}"
+
+            # List files inside the tarball
+            file_list=$(aws s3 cp "s3://${S3_BUCKET}/${study_key}" - | tar -tz 2>/dev/null)
+
+            # Check for data_mutations.txt first
+            check_pattern=$(echo "$file_list" | grep -m1 "data_mutations\.txt$" || true)
+            check_file="data_mutations.txt"
+
+            # Fall back to first rna/mrna file
+            if [[ -z "$check_pattern" ]]; then
+              check_pattern=$(echo "$file_list" | grep -iEm1 "(rna|mrna)" || true)
+              check_file=$(basename "$check_pattern")
+            fi
+
+            if [[ -z "$check_pattern" ]]; then
+              echo "SKIP:$study_name:no data_mutations.txt or rna/mrna file found" > "$result_file"
+              return
+            fi
+
+            # Extract only first 200 bytes of target file — enough to detect LFS pointer header
+            first_bytes=$(aws s3 cp "s3://${S3_BUCKET}/${study_key}" - \
+              | tar -xzO "$check_pattern" 2>/dev/null \
+              | head -c 200)
+
+            if [[ "$first_bytes" == *"$LFS_HEADER"* ]]; then
+              echo "FAIL:$study_name:$check_file" > "$result_file"
+            else
+              echo "OK:$study_name:$check_file" > "$result_file"
+            fi
+          }
+
+          export -f check_study
+          export LFS_HEADER RESULTS_DIR S3_BUCKET
+
+          echo "Fetching list of study tarballs from S3..."
+          studies=$(aws s3 ls "s3://${S3_BUCKET}/" \
+            | awk '{print $4}' \
+            | grep '\.tar\.gz$')
+
+          if [[ -z "$studies" ]]; then
+            echo "ERROR: No .tar.gz files found in S3 bucket"
+            exit 1
+          fi
+
+          # Run checks in parallel using MAX_THREADS
+          echo "$studies" | xargs -P "${{ env.MAX_THREADS }}" -I {} bash -c 'check_study "$@"' _ {}
+
+          # Collect and print results
+          total=0
+          failed=0
+          skipped=0
+          failed_studies=""
+
+          for result_file in "$RESULTS_DIR"/*; do
+            result=$(cat "$result_file")
+            status=$(echo "$result" | cut -d: -f1)
+            study=$(echo "$result" | cut -d: -f2)
+            detail=$(echo "$result" | cut -d: -f3)
+            total=$((total + 1))
+
+            case "$status" in
+              OK)
+                : # passed, counted in summary only
+                ;;
+              FAIL)
+                failed=$((failed + 1))
+                failed_studies="$failed_studies\n  - $study (checked: $detail)"
+                ;;
+              SKIP)
+                skipped=$((skipped + 1))
+                ;;
+            esac
+          done
+
+          echo ""
+          echo "============================================================"
+          echo " Verification Summary"
+          echo "============================================================"
+          echo " Total studies checked : $total"
+          echo " Passed                : $((total - failed - skipped))"
+          echo " Skipped (no data file): $skipped"
+          echo " Failed (LFS pointers) : $failed"
+
+          if [[ $failed -gt 0 ]]; then
+            echo ""
+            echo " Studies with LFS pointers:"
+            echo -e "$failed_studies"
+            echo "============================================================"
+            exit 1
+          else
+            echo " All checked studies passed — no LFS pointers detected."
+            echo "============================================================"
+          fi

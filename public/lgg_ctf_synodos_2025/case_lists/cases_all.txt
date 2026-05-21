@@ -1,0 +1,6 @@
+cancer_study_identifier: lgg_ctf_synodos_2025
+stable_id: lgg_ctf_synodos_2025_all
+case_list_name: All samples
+case_list_description: All samples (31 samples)
+case_list_category: all_cases_in_study
+case_list_ids: SYN_NF_045	SYN_NF_004	SYN_NF_047	SYN_NF_037	SYN_NF_031	SYN_NF_003	SYN_NF_040	SYN_NF_033	SYN_NF_001	SYN_NF_007	SYN_NF_060	SYN_NF_015	SYN_NF_062	SYN_NF_057	SYN_NF_058	SYN_NF_055	SYN_NF_030	SYN_NF_044	SYN_NF_009	SYN_NF_042	SYN_NF_036	SYN_NF_035	SYN_NF_034	SYN_NF_011	SYN_NF_010	SYN_NF_013	SYN_NF_012	SYN_NF_059	SYN_NF_014	SYN_NF_017	SYN_NF_043
