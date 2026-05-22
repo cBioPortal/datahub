@@ -4,5 +4,5 @@ genetic_alteration_type: COPY_NUMBER_ALTERATION
 datatype: SEG
 show_profile_in_analysis_tab: FALSE
 profile_name: Segment data values
-description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals) from TCGA.
+description: Somatic CNA data (copy number ratio from tumor samples minus ratio from matched normals) from MSK-IMPACT.
 reference_genome_id: hg19
