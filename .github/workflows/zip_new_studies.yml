@@ -52,7 +52,7 @@ jobs:
         END { for (studypath in set) { print studypath } }')"
         exit 0
       id: unique_studies
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v5
     - name: Zip and Dump New Studies
       env:
         SAML2AWS_USERNAME: ${{ secrets.SAML_USERNAME }}

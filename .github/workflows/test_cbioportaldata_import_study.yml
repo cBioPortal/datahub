@@ -25,8 +25,9 @@ jobs:
     - name: Configure git-lfs to download only specific study
       run: |
         git config --global lfs.fetchinclude 'public/${{ github.event.inputs.study_id }}/**'
+        git config --global lfs.fetchexclude ""
     - name: 'Checkout git repo'
-      uses: actions/checkout@v2
+      uses: actions/checkout@v5
       with:
         lfs: true
     # Runs a single command using the runners shell

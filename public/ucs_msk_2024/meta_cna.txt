@@ -5,4 +5,4 @@ show_profile_in_analysis_tab: true
 profile_name: Copy Number Alterations (MSK-IMPACT, HEME)
 profile_description: Copy number alterations from targeted sequencing via MK-IMPACT.
 datatype: DISCRETE
-data_filename: data_CNA.txt
+data_filename: data_cna.txt

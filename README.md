@@ -1,7 +1,7 @@
 # cBioPortal Public Datahub
 The datahub is a repository for data storage only. It contains staging files which are validated and can be loaded directly into the  cBioPortal.
 
-Behind the scenes git-lfs is used to manage the large files. https://github.com/github/git-lfs
+Behind the scenes [Git LFS](https://github.com/git-lfs/git-lfs) is used to manage large files. The backend LFS storage is provided by https://github.com/knowledgesystems/git-lfs-s3.
 
 ## Test Status
 Validation status of all studies on Datahub master branch. This runs weekly using the validation code from the cBioPortal master branch. It also validates if the studies on cbioportal.org and on Datahub are in sync.
@@ -35,6 +35,8 @@ git -c lfs.fetchexclude="" lfs pull -I public/brca_tcga
 > **Note:** The `-c lfs.fetchexclude=""` override is required because this repository's `.lfsconfig` excludes all LFS downloads by default to prevent accidentally pulling all large files on clone. Without it, the `-I` flag will be ignored and only LFS pointers will be downloaded.
 
 ## How to Upload Data
+> **Note:** Pushing LFS data requires authentication. You will need an LFS username and API key. Contact the repository maintainers for credentials.
+
 #### Create a new branch from the 'master' branch.
 ```
 git checkout master
