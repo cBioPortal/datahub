@@ -1,1 +1,2 @@
-data_file: data_embedding.txt
+data_filename: data_embedding.txt
+embedding_type:	DATA 
