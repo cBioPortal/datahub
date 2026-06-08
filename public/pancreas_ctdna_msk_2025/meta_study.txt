@@ -1,0 +1,6 @@
+type_of_cancer: paad
+cancer_study_identifier: pancreas_ctdna_msk_2025
+name: Pancreatic Cancer cfDNA (MSK, J Natl Cancer Inst 2025)
+description: Genomic profiling by ctDNA is feasible in patients with PDAC and is informative in specific groups such as those with untreated metastatic disease, higher disease burden and liver metastases.
+citation: Fergus et al. J Natl Cancer Inst 2025
+pmid: 40511613

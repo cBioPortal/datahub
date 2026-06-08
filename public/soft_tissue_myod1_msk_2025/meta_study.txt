@@ -1,0 +1,6 @@
+type_of_cancer: rms
+cancer_study_identifier: soft_tissue_myod1_msk_2025
+name: Soft Tissue Sarcoma MYOD1 (MSK, Sci Adv 2026)
+description: Targeted sequencing on 20 Spindle cell/sclerosing rhabdomyosarcoma tumors and their matched normals from the MSK cohort using MSK-IMPACT.
+citation: Dermawan JK et al. Sci Adv 2026
+pmid: 41758938
