@@ -1,0 +1,8 @@
+type_of_cancer: mixed
+cancer_study_identifier: pancan_metaprism_2023
+name: Metastatic and Refractory Solid Tumors (Gustave Roussy, Cancer Discovery 2023)
+short_name: META-PRISM (Gustave Roussy, Cancer Discov 2023)
+description: Whole exome and transcriptome sequencing of 1031 metastatic and refractory solid tumor and normal pairs.
+citation: Pradat et al. Cancer Discovery 2023
+pmid: 36862804
+reference_genome: hg19

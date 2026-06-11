@@ -1,0 +1,5 @@
+type_of_cancer: mixed
+cancer_study_identifier: pancan_pdmr_2025
+name: Patient-Derived Models Repository (NCI, 2025)
+short_name: PDMR
+description: Whole exome sequencing and comprehensive profiling of 6,272 pancancer samples of patient derived xenograft models. More information on <A HREF="https://pdmdb.cancer.gov/pls/apex/f?p=101:1:0::NO">PDMR</A>.
