@@ -5,4 +5,4 @@ description: The data are contributed by researchers funded by the Children's Tu
 citation:  Gosline, S et al. Scientific Data 2021
 groups: PUBLIC
 reference_genome: hg38
-pmid: 33585982
+pmid: 33585982,28398272
