@@ -1,0 +1,4 @@
+type_of_cancer: cllsll
+cancer_study_identifier: cllsll_msk_2026
+name: Chronic Lymphocytic Leukemia (MSK, 2026)
+description: Targeted sequencing of 21 Mature B-Cell Neoplasms and their matched normals via MSK-IMPACT. Sequencing of patients pre-treatment and post-relapse following treatment with the BTK degraders zelebrudomide or bexobrutideg.
