@@ -1,0 +1,6 @@
+type_of_cancer: gist
+cancer_study_identifier: gist_msk_2025
+name: Gastrointestinal Stromal Tumor (MSK, Clin Cancer Res 2025)
+description: Targeted sequencing of 42 gastrointestinal stromal tumor samples and their matched normals via MSK-IMPACT.
+pmid: 40694085
+citation: Kelly, Ciara M et al. Clinical cancer research 2025
