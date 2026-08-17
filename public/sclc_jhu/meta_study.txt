@@ -5,4 +5,4 @@ description: Whole exome-sequencing of 80 human SCLCs, including 36 primary SCLC
 citation: Rudin et al. Nat Genet 2012
 pmid: 22941189
 short_name: Small Cell Lung (JHU)
-groups: PUBLIC;SCLCPORTAL
+groups: PUBLIC
