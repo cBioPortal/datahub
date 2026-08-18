@@ -6,4 +6,4 @@ short_name:ACyC (MSKCC, 2013)
 public_study:true
 pmid: 23685749
 citation: Ho et al. Nat Genet 2013
-groups:PUBLIC;ACYC
+groups:PUBLIC
