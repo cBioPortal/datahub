@@ -1,0 +1,7 @@
+cancer_study_identifier: rectal_radiation_msk_2024
+type_of_cancer: coadread
+name: Secondary Rectal Cancers (MSK, JAMA Netw Open 2025)
+description: Whole exome and targeted sequencing of 48 secondary rectal adenocarcinoma samples via MSK-IMPACT and their matched normals.
+reference_genome: hg19
+citation: Omer DM et al. JAMA Netw Open 2025
+pmid: 40100215
