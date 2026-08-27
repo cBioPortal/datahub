@@ -1,0 +1,6 @@
+cancer_study_identifier: paad_msk_2025
+stable_id: paad_msk_2025_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (29 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: P-0082916-T02-IM7	s_C_C7EEFT_P001_d01	P-0063170-T03-IM7	P-0066168-T02-IM7	s_C_06CFRN_P001_d01	s_C_C7EEFT_P002_d02	s_C_LTXV9W_P002_d02	P-0085318-T02-IM7	P-0090686-T01-IM7	s_C_H7PJ9R_M001_d01	P-0054720-T03-IM7	s_C_C3K46P_P001_d01	s_C_ACR0TT_P001_d01	P-0066168-T01-IM7	P-0033480-T03-IM7	P-0089578-T01-IM7	s_C_LTXV9W_P001_d01	s_C_7LDREW_P001_d01	s_C_085Y88_P004_d02	s_C_873T8K_P003_d03	P-0080451-T01-IM7	s_C_V2K69U_P003_d02	s_C_873T8K_P001_d01	s_C_4D2VRD_P001_d01	P-0089578-T02-IM7	s_C_FJ0ENK_P001_d01	s_C_7LDREW_P002_d02	P-0085318-T06-IM7	P-0007179-T02-IM5

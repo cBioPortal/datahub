@@ -1,0 +1,7 @@
+type_of_cancer: blca
+cancer_study_identifier: blca_msk_2025
+name: Bladder Cancer (MSK, Eur Urol Open Sci 2025)
+description: Targeted sequencing of 308 Bladder Cancer CMO samples via MSK-IMPACT platform.
+citation: Brendan J et al. Eur Urol Open Sci 2025
+pmid: 40256659
+groups: PUBLIC

@@ -1,0 +1,5 @@
+type_of_cancer: lipo
+cancer_study_identifier: lipo_msk_2024
+name: Well-Differentiated and Dedifferentiated Liposarcoma Histologic Subvariants (MSK, 2024)
+description: Targeted sequencing of 140 liposarcoma cases and their matched normals via MSK-IMPACT.
+citation: George Z Li et al
