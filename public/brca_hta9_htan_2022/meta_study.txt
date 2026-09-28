@@ -1,4 +1,8 @@
 type_of_cancer: brca
 cancer_study_identifier: brca_hta9_htan_2022
 name: Breast Cancer (HTAN, 2022)
-description: Sequencing data from breast cancer patient from HTAN
+description: An omic and multidimensional spatial (OMS) atlas generated from four serial biopsies of an individual with metastatic breast cancer during 3.5 years of therapy. This resource links detailed, longitudinal clinical metadata including treatment times and doses, anatomic imaging, and blood-based response measurements to comprehensive DNA, RNA, and protein profiles. These data report aspects of heterogeneity and evolution of the cancer genome, signaling pathways, immune microenvironment, cellular composition and organization, and ultrastructure (Johnson et al., Cell Reports Medicine, 2022).
+citation: Johnson BE, Creason AL, Stommel JM et al. An omic and multidimensional spatial atlas from serial biopsies of an evolving metastatic breast cancer. Cell Rep Med. 2022 Feb 15;3(2):100525.
+pmid: 35243422
+groups: PUBLIC
+short_name: brca_hta9_htan_2022
