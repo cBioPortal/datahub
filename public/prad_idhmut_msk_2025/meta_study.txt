@@ -1,0 +1,5 @@
+type_of_cancer: prad
+cancer_study_identifier: prad_idhmut_msk_2025
+name: Prostate Cancer-IDH Driver Mutant Cohort (MSK, 2024)
+short_name: MSK-IMPACT PRAD
+description: Targeted sequencing of 96 prostate cancer patients.
