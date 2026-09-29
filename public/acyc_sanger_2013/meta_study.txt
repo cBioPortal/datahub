@@ -6,4 +6,4 @@ short_name: ACyC (Sanger 2013)
 public_study: true
 pmid: 23778141
 citation: Stephens et al. JCI 2013
-groups: PUBLIC;ACYC
+groups: PUBLIC
