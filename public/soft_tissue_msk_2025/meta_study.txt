@@ -1,0 +1,4 @@
+type_of_cancer: soft_tissue
+cancer_study_identifier: soft_tissue_msk_2025
+name: Soft Tissue Sarcoma (MSK, 2025)
+description: Targeted sequencing of 422 soft tissue tumors and their matched normals via MSK-IMPACT platform.

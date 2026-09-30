@@ -1,0 +1,6 @@
+cancer_study_identifier: soft_tissue_myod1_msk_2025
+stable_id: soft_tissue_myod1_msk_2025_all
+case_list_name: All samples
+case_list_description: All samples (20 samples)
+case_list_category: all_cases_in_study
+case_list_ids: P-0072131-T02-IM7	P-0086519-T01-IM7	P-0106107-T02-IM7	P-0036983-T02-IM6	P-0020873-T01-IM6	P-0092161-T02-IM7	P-0065943-T02-IM7	P-0016783-T01-IM6	P-0076831-T01-IM7	P-0114829-T02-IM7	P-0005006-T01-IM5	P-0000905-T01-IM3	P-0001090-T01-IM3	P-0014157-T01-IM5	P-0006033-T01-IM5	P-0092274-T01-IM7	P-0000497-T01-IM3	P-0019746-T01-IM6	P-0024683-T01-IM6	P-0061849-T02-IM7

@@ -1,0 +1,6 @@
+cancer_study_identifier: ovarian_msk_2025
+stable_id: ovarian_msk_2025_cna
+case_list_name: Samples with CNA data
+case_list_description: Samples with CNA data (31 samples)
+case_list_category: all_cases_with_cna_data
+case_list_ids: LGSHT-1-I	LGSHT-2-L	LGSHT-3-I	LGSHT-4-H	LGSHT-5-I	LGSHT-6-I	LGSHT-7-L	LGSHT-7-I	LGSHT-8-H	LGSHT-9-H	LGSHT-10-H	LGSHT-11-L	LGSHT-12-I	LGSHT-13-H	LGSHT-14-H	LGSHT-15-I	LGSHT-16-H	LGSHT-17-H	LGSHT-18-H	LGSHT-19-H	LGSHT-20-I	LGSHT-21-H	LGSHT-22-H	LGSHT-23-I	LGSHT-24-L	LGSHT-24-H	LGSHT-25-H	LGSHT-26-L	LGSHT-26-H	LGSHT-27-L	LGSHT-27-H

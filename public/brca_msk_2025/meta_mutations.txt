@@ -1,0 +1,8 @@
+cancer_study_identifier: brca_msk_2025
+genetic_alteration_type: MUTATION_EXTENDED
+datatype: MAF
+profile_name: Mutations
+profile_description: Targeted Sequencing of 527 Breast Carcinomas and their matched normals.
+show_profile_in_analysis_tab: true
+data_filename: data_mutations.txt
+stable_id: mutations

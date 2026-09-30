@@ -1,0 +1,5 @@
+type_of_cancer: nsclc
+cancer_study_identifier: alk_msk_2026
+name: Non-Small Cell Lung Cancer (MSK, 2026)
+short_name: MSK-IMPACT Clinical Sequencing Cohort
+description: Targeted sequencing of 90 non-small cell lung cancer cases and their matched normals via MSK-IMPACT to study acquired resistance to ALK tyrosine kinase inhibitors (TKIs) in a cohort of MSK ALK-fusion lung tumors. 
