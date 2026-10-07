@@ -1,0 +1,3 @@
+type_of_cancer: uceccancer_study_identifier: ucec_msk_dacruzpaula_2025name: Endometrial Carcinoma (MSK, Clin Cancer Res 2025)description: Targeted sequencing of banked frozen endometrial carcinoma samples from 11 patients with PI3K pathway gene mutations using MSK-IMPACT.
+pmid: 40833784
+citation: Da Cruz Paula, Arnaud et al. Clinical cancer research 2025
