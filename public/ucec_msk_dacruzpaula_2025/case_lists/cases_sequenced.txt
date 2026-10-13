@@ -1,0 +1,6 @@
+cancer_study_identifier: ucec_msk_dacruzpaula_2025
+stable_id: ucec_msk_dacruzpaula_2025_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (11 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: EEC3	EEC25	EEC91	EEC98	EEC132	EEC87	EEC128	EEC133	EEC136	EEC14	EEC131
