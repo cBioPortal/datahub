@@ -5,4 +5,4 @@ description: Whole exome sequencing of 103 samples (88 with matched normals) fro
 citation: Oberg et al. Genome Med 2016
 pmid: 28007021
 short_name: pediatric-cancers
-groups: public
+groups: PUBLIC

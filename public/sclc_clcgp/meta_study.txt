@@ -5,4 +5,4 @@ description: Comprehensive whole exam profiling of 29 small cell lung cancer sam
 citation: Peifer et al. Nat Genet 2012
 pmid: 22941188
 short_name: Small Cell Lung (CLCGP)
-groups: PUBLIC;SCLCPORTAL
+groups: PUBLIC
