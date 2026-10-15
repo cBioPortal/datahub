@@ -1,5 +1,0 @@
-cancer_study_identifier: gbm_cptac_2021
-stable_id: gbm_cptac_2021_custom_single_cell
-case_list_name: Samples with single cell RNA sequencing
-case_list_description: Samples with single cell RNA sequencing data available
-case_list_ids:	C3L-02705	C3L-03968	 C3N-01334	C3N-01814	C3N-01816	C3N-02188	C3N-02783	C3N-03184	C3N-03188	C3L-03405	C3N-00662	C3N-01798	C3N-01815	C3N-02181	C3N-02190	C3N-02769	C3N-02784	C3N-03186
