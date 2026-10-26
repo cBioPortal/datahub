@@ -1,8 +1,0 @@
-cancer_study_identifier: ov_tcga_pub
-stable_id: meth_binary
-profile_name: Methylation Calls for BRCA1 and RAD51C
-profile_description: Binarized Methylation Calls for BRCA1 and RAD51C.  1 = hypermethylated;  0 = not hypermethylated.
-genetic_alteration_type: METHYLATION_BINARY
-datatype: CONTINUOUS
-show_profile_in_analysis_tab: false
-data_filename: data_brca1_binary_methylation.txt
