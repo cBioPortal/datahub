@@ -4,3 +4,4 @@ name: MSK ctDNA Sequencing Cohort (MSK, Nature Medicine 2024)
 description: Targeted sequencing of 5,567 cancer patient ctDNA samples via MSK-ACCESS. This data is available under the <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">Creative Commons BY-NC-ND 4.0 license</a>.
 pmid: 39147831
 citation: Justin et al. Nat Med 2024
+license: CC-BY-NC-ND-4.0
