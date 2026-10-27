@@ -1,0 +1,4 @@
+genetic_alteration_type: CLINICAL
+datatype: SAMPLE_ATTRIBUTES
+data_filename: data_clinical_sample.txt
+cancer_study_identifier: gbm_cptac_2021

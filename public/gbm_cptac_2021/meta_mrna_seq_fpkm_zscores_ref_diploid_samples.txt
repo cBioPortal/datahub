@@ -1,0 +1,8 @@
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: Z-SCORE
+data_filename: data_mrna_seq_fpkm_zscores_ref_diploid_samples.txt
+show_profile_in_analysis_tab: true
+stable_id: mrna_seq_fpkm_Zscores
+profile_name: Z-scores of mRNA expression (FPKM-UQ, log2 transformed)
+profile_description: Z-scores of mRNA abundance in FPKM-UQ values (log2 transformed), calculated over all diploid samples.
+cancer_study_identifier: gbm_cptac_2021
