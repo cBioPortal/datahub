@@ -1,0 +1,7 @@
+type_of_cancer: biliary_tract
+cancer_study_identifier: biliary_tract_msk_2026
+name: Biliary Tract Cancers (MSK, Clin Cancer Res 2026)
+description: Targeted sequencing of 1,291 samples (1,285 tumor and 6 plasma cfDNA) from 1,254 patients with biliary tract cancers via MSK-IMPACT and MSK-ACCESS.
+pmid: 42360806
+citation: Cowzer et al. Clin Cancer Res. 2026
+groups: PUBLIC
