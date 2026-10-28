@@ -1,0 +1,6 @@
+cancer_study_identifier: cllsll_msk_2026
+stable_id: cllsll_msk_2026_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (21 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: P-0049214-T09-IH4	P-0049214-T08-IH4	P-0099380-T03-IH4	P-0051833-T04-IH4	P-0049214-T01-IH3	P-0099380-T04-IH4	P-0049214-T06-IH4	P-0082392-T03-IH4	P-0049214-T03-IH4	P-0099380-T05-IH4	P-0049214-T05-IH4	P-0099380-T02-IH4	P-0051833-T07-IH4	P-0082392-T01-IH4	P-0049214-T02-IH3	P-0049214-T10-IH4	P-0077850-T01-IH4	P-0049214-T07-IH4	P-0099380-T07-IH4	P-0099380-T06-IH4	C-8RAE5V-T001-d01

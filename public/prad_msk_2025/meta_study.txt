@@ -1,0 +1,4 @@
+type_of_cancer: prad
+cancer_study_identifier: prad_msk_2025
+name: Prostate Adenocarcinoma (MSK, 2025)
+description: Targeted sequencing of 120 prostate adenocarcinoma samples and their matched normals via MSK-IMPACT platform.
