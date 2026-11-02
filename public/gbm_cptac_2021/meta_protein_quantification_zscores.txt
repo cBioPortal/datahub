@@ -1,8 +1,0 @@
-genetic_alteration_type: PROTEIN_LEVEL
-datatype: Z-SCORE
-data_filename: data_protein_quantification_zscores.txt
-show_profile_in_analysis_tab: true
-stable_id: protein_quantification_zscores
-profile_name: Protein abundance ratio Z-scores
-profile_description: Z-scores of protein abundance ratio measured by mass spectrometry, calculated over all diploid samples.
-cancer_study_identifier: gbm_cptac_2021
