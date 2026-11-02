@@ -1,0 +1,4 @@
+cancer_study_identifier: brca_msk_erbb2_2026
+type_of_cancer: breast
+name: HER2-Low and HER2-Null Metastatic Breast Cancers treated with T-DXd (MSK, Clinical Cancer Research 2026)
+description: Retrospective cohort of patients with HER2-low and HER2-null metastatic breast cancer (MBC) treated with trastuzumab deruxtecan (T-DXd) at Memorial Sloan Kettering Cancer Center between January 2017 and February 2024. Clinicopathological and demographic characteristics were abstracted by chart review, and tumors were profiled by targeted sequencing of tumors and their matched normals via MSK-IMPACT. 
