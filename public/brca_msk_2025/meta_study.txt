@@ -1,4 +1,0 @@
-type_of_cancer: brca
-cancer_study_identifier: brca_msk_2025
-name: Breast Carcinoma (MSK, NPJ Precis Oncol 2025)
-description: Genomic characterization of 527 tumor mutational burden-high breast carcinomas.
