@@ -1,8 +1,0 @@
-type_of_cancer: hgsoc
-cancer_study_identifier: ov_tcga_pub
-name: Ovarian Serous Cystadenocarcinoma (TCGA, Nature 2011)
-short_name: Ovarian (TCGA pub)
-description: Whole exome sequencing of 489 high-grade serous ovarian adenocarcinoma tumor/normal pairs. <a href="http://cancergenome.nih.gov/">The Cancer Genome Atlas (TCGA)</a> Serous Ovarian Cancer project. 489 cases. <br><a href="https://tcga-data.nci.nih.gov/docs/publications/ov_2011/">Raw data via the TCGA Data Portal</a>.
-citation: TCGA, Nature 2011
-pmid: 21720365
-groups: PUBLIC

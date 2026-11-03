@@ -2,3 +2,5 @@ cancer_study_identifier: msk_impact_50k_2026
 type_of_cancer: mixed
 name: MSK-IMPACT 50K Clinical Sequencing Cohort (MSK, Cancer Cell 2026)
 description: MSK-50K (Memorial Sloan Kettering - 50,000 patients) is a pan-cancer clinical sequencing cohort of 54,331 tumors and their matched normal samples, profiled using MSK-IMPACT. The dataset includes somatic mutations, gene-level copy number alterations, structural variants in select genes, genome-wide allele-specific copy number, cancer cell fractions of mutations, derived mutational signatures, whole genome doubling status, and somatic/germline HLA Class I Genotype data. This data is available under the Creative Commons BY-NC-ND 4.0 license. For commercial use, please contact <a href="mailto:data@ascproject.org">datarequests@mskcc.org</a>.
+pmid: 41895280
+citation: Bandlamudi et al. Cancer Cell 2026

@@ -1,5 +1,5 @@
 cancer_study_identifier: gbm_iatlas_prins_2019
-type_of_cancer: adifg
+type_of_cancer: difg
 name: Glioblastoma (Randomized Clinical Trial, Nat Med. 2019) - iAtlas Harmonized
 pmid: 30742122
 reference_genome: hg38
