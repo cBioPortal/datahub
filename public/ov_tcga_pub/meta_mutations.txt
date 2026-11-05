@@ -1,8 +1,0 @@
-cancer_study_identifier: ov_tcga_pub
-stable_id: mutations
-profile_name: Mutations
-profile_description: Somatic mutations and BRCA1 and BRCA2 germline mutations from whole exome sequencing of 316 samples with matched normals.
-genetic_alteration_type: MUTATION_EXTENDED
-datatype: MAF
-show_profile_in_analysis_tab: true
-data_filename: data_mutations.txt
