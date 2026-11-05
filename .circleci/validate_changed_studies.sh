@@ -51,6 +51,13 @@ if [[ $num_studies -gt 0 ]]; then
   echo $'\n====List of studies:====\n'
   echo "${list_of_study_dirs[@]}"
 
+  # LFS data for the changed studies has been downloaded above.
+  echo "Validating resource URLs in changed studies..."
+  if ! python "$REPO_DIR/.circleci/validate_resource_urls.py" \
+    --root-directory "$REPO_DIR" "${list_of_study_dirs[@]}"; then
+    exit 1
+  fi
+
   mkdir -p "$ERRORS_DIR"
   pids=()
   log_files=()
