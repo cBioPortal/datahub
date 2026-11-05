@@ -1,0 +1,6 @@
+type_of_cancer: mixed
+cancer_study_identifier: sarcoma_dfci_genie_2026
+name: Comparison of Cutaneous Sarcomas, CSCC and Deeper Sarcomas (DFCI, 2026)
+description: Targeted sequencing data of 48 clinical cases of pleomorphic dermal sarcoma, cutaneous squamous cell carcinoma, and non-cutaneous soft tissue sarcomas.
+short_name: PDS vs CSCC vs Other Sarcoma
+groups: GENIE
