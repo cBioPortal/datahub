@@ -1,0 +1,8 @@
+s_C_0DJMJU_P001_d    CDKN2A   -2
+s_C_0DJMJU_P001_d    PAK1    2
+s_C_3LPVY1_P001_d    CDKN2A   -2
+s_C_4R4R0T_P001_d    CCND1    2
+s_C_CDW3P7_P001_d    MDC1    2
+s_C_CDW3P7_P001_d    HLA-C    2
+s_C_JWWJAW_P001_d    ZNRF3    2
+s_C_JWWJAW_P001_d    CHEK2   -2

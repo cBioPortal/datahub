@@ -1,0 +1,4 @@
+cancer_study_identifier: breast_msk_2026
+type_of_cancer: breast
+name: CCNE1 Amplifications in Breast Cancer (MSK, 2026)
+description: Targeted Sequencing of 6,318 breast cancer samples and their matched normals via MSK-IMPACT to investigate the clinicopathologic characteristics and prognostic implications of CCNE1 amplifications in breast cancer across receptor subtypes.

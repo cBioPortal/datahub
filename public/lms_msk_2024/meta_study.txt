@@ -1,0 +1,7 @@
+type_of_cancer: mixed
+cancer_study_identifier: lms_msk_2024
+name: Leiomyosarcoma  (MSK, Clin Cancer Res 2024)
+description: Targeted sequencing of 470 Leiomyosarcoma samples and their matched normals via MSK-IMPACT.
+pmid: 38488807
+citation: Josephine K et al. Clin Cancer Res 2024
+groups: PUBLIC

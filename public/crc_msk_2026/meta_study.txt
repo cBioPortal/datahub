@@ -1,0 +1,5 @@
+type_of_cancer: read
+cancer_study_identifier: crc_msk_2026
+name: Colorectal Adenocarcinoma (MSK, 2026)
+description: Targeted sequencing of 7,237 colorectal clinical cases and their matched normals via MSK-IMPACT.
+reference_genome: hg19
