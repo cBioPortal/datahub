@@ -1,0 +1,6 @@
+cancer_study_identifier: astr_ut_2026
+stable_id: astr_ut_2026_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (2 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: IDHMA_0001_01	IDHMA_0002_01
