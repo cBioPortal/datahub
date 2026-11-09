@@ -1,8 +1,0 @@
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-data_filename: data_mrna_seq_fpkm.txt
-show_profile_in_analysis_tab: false
-stable_id: mrna
-profile_name: mRNA expression (FPKM UQ)
-profile_description: Gene expression by mRNA abundance in upper-quartile (UQ)-normalized FPKM values, median-centered by gene.
-cancer_study_identifier: gbm_cptac_2021

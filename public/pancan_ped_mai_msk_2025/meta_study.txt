@@ -1,0 +1,4 @@
+type_of_cancer: mixed
+cancer_study_identifier: pancan_ped_mai_msk_2025
+name: Pediatric Tumors (MSK, 2025)
+description: Targeted sequencing of 60 samples and their matched normals via MSK-IMPACT from pediatric patients with solid tumors or primary CNS tumors enrolled on the Make An Impact (MAI) program. 
