@@ -1,8 +1,0 @@
-cancer_study_identifier: ov_tcga_pub
-stable_id: mrna_unified
-profile_name: mRNA expression (genes on all 3 platforms)
-profile_description: merged and scaled mRNA expression values of genes represented by all three expression platforms.
-genetic_alteration_type: MRNA_EXPRESSION
-datatype: CONTINUOUS
-show_profile_in_analysis_tab: false
-data_filename: data_mRNA_unified.txt
