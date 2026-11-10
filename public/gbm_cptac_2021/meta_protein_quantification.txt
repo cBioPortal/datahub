@@ -1,0 +1,8 @@
+genetic_alteration_type: PROTEIN_LEVEL
+datatype: LOG2-VALUE
+data_filename: data_protein_quantification.txt
+show_profile_in_analysis_tab: false
+stable_id: protein_quantification
+profile_name: Protein abundance ratio
+profile_description: Protein abundance ratio measured by mass spectrometry
+cancer_study_identifier: gbm_cptac_2021
