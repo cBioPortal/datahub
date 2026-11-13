@@ -3,5 +3,5 @@ description: Microregion transcriptomic data (GeoMx) and multiplex imaging (CyCI
 name: Ovarian Cancer (Gray Foundation, Cancer Discov 2024)
 short_name: Ovary Geomx GF
 type_of_cancer: ovary
-pmid: 39386723
+pmid: 39704522
 citation: Kader et al. Cancer Discov 2024
