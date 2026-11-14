@@ -14,6 +14,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Test resource URL validation (offline)
+          command: python -m unittest discover -s tests -p 'test_resource_urls.py' -v
+      - run:
           name: Validate changed studies
           command: |
             cd ~/repo/.circleci
@@ -33,6 +36,9 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - run:
+          name: Test resource URL validation (offline)
+          command: python -m unittest discover -s tests -p 'test_resource_urls.py' -v
       - run:
           name: Validate all studies
           command: |
