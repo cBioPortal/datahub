@@ -1,0 +1,4 @@
+cancer_study_identifier: mfs_msk_2026
+description: Genomic clustering identifies an aggressive subset of myxofibrosarcoma and undifferentiated pleomorphic sarcoma sensitive to combined mTOR and MEK inhibition.
+name: Myxofibrosarcoma/Undifferentiated Pleomorphic Sarcoma (MSK, 2026)
+type_of_cancer: soft_tissue
