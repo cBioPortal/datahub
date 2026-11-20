@@ -68,6 +68,15 @@ for pid in "${pids[@]}"; do
   wait "$pid" || true
 done
 
+# All study data has now been downloaded; check the current resource files.
+if [[ $num_studies -gt 0 ]]; then
+  echo "Validating resource URLs in all studies..."
+  if ! python "$REPO_DIR/.circleci/validate_resource_urls.py" \
+    --root-directory "$REPO_DIR" "${list_of_study_dirs[@]}"; then
+    EXIT_STATUS=1
+  fi
+fi
+
 # Print all logs cleanly after all jobs finish
 echo $'\n====Validation Results:====\n'
 for i in "${!log_files[@]}"; do
