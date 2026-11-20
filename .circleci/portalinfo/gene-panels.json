@@ -95668,5 +95668,1811 @@
       }
     ],
     "genePanelId": "sarc_mskcc_panel"
+  },
+  {
+    "description": "Targeted variant analysis from 450 cancer genes by Next-Generation (NGS)",
+    "genes": [
+      {
+        "entrezGeneId": 25,
+        "hugoGeneSymbol": "ABL1"
+      },
+      {
+        "entrezGeneId": 27,
+        "hugoGeneSymbol": "ABL2"
+      },
+      {
+        "entrezGeneId": 91,
+        "hugoGeneSymbol": "ACVR1B"
+      },
+      {
+        "entrezGeneId": 92,
+        "hugoGeneSymbol": "ACVR2A"
+      },
+      {
+        "entrezGeneId": 11086,
+        "hugoGeneSymbol": "ADAM29"
+      },
+      {
+        "entrezGeneId": 25960,
+        "hugoGeneSymbol": "ADGRA2"
+      },
+      {
+        "entrezGeneId": 207,
+        "hugoGeneSymbol": "AKT1"
+      },
+      {
+        "entrezGeneId": 208,
+        "hugoGeneSymbol": "AKT2"
+      },
+      {
+        "entrezGeneId": 10000,
+        "hugoGeneSymbol": "AKT3"
+      },
+      {
+        "entrezGeneId": 238,
+        "hugoGeneSymbol": "ALK"
+      },
+      {
+        "entrezGeneId": 139285,
+        "hugoGeneSymbol": "AMER1"
+      },
+      {
+        "entrezGeneId": 324,
+        "hugoGeneSymbol": "APC"
+      },
+      {
+        "entrezGeneId": 328,
+        "hugoGeneSymbol": "APEX1"
+      },
+      {
+        "entrezGeneId": 367,
+        "hugoGeneSymbol": "AR"
+      },
+      {
+        "entrezGeneId": 369,
+        "hugoGeneSymbol": "ARAF"
+      },
+      {
+        "entrezGeneId": 10139,
+        "hugoGeneSymbol": "ARFRP1"
+      },
+      {
+        "entrezGeneId": 8289,
+        "hugoGeneSymbol": "ARID1A"
+      },
+      {
+        "entrezGeneId": 57492,
+        "hugoGeneSymbol": "ARID1B"
+      },
+      {
+        "entrezGeneId": 196528,
+        "hugoGeneSymbol": "ARID2"
+      },
+      {
+        "entrezGeneId": 171023,
+        "hugoGeneSymbol": "ASXL1"
+      },
+      {
+        "entrezGeneId": 466,
+        "hugoGeneSymbol": "ATF1"
+      },
+      {
+        "entrezGeneId": 472,
+        "hugoGeneSymbol": "ATM"
+      },
+      {
+        "entrezGeneId": 545,
+        "hugoGeneSymbol": "ATR"
+      },
+      {
+        "entrezGeneId": 546,
+        "hugoGeneSymbol": "ATRX"
+      },
+      {
+        "entrezGeneId": 6790,
+        "hugoGeneSymbol": "AURKA"
+      },
+      {
+        "entrezGeneId": 9212,
+        "hugoGeneSymbol": "AURKB"
+      },
+      {
+        "entrezGeneId": 8312,
+        "hugoGeneSymbol": "AXIN1"
+      },
+      {
+        "entrezGeneId": 8313,
+        "hugoGeneSymbol": "AXIN2"
+      },
+      {
+        "entrezGeneId": 558,
+        "hugoGeneSymbol": "AXL"
+      },
+      {
+        "entrezGeneId": 8314,
+        "hugoGeneSymbol": "BAP1"
+      },
+      {
+        "entrezGeneId": 580,
+        "hugoGeneSymbol": "BARD1"
+      },
+      {
+        "entrezGeneId": 596,
+        "hugoGeneSymbol": "BCL2"
+      },
+      {
+        "entrezGeneId": 598,
+        "hugoGeneSymbol": "BCL2L1"
+      },
+      {
+        "entrezGeneId": 10018,
+        "hugoGeneSymbol": "BCL2L11"
+      },
+      {
+        "entrezGeneId": 599,
+        "hugoGeneSymbol": "BCL2L2"
+      },
+      {
+        "entrezGeneId": 604,
+        "hugoGeneSymbol": "BCL6"
+      },
+      {
+        "entrezGeneId": 54880,
+        "hugoGeneSymbol": "BCOR"
+      },
+      {
+        "entrezGeneId": 63035,
+        "hugoGeneSymbol": "BCORL1"
+      },
+      {
+        "entrezGeneId": 613,
+        "hugoGeneSymbol": "BCR"
+      },
+      {
+        "entrezGeneId": 332,
+        "hugoGeneSymbol": "BIRC5"
+      },
+      {
+        "entrezGeneId": 640,
+        "hugoGeneSymbol": "BLK"
+      },
+      {
+        "entrezGeneId": 641,
+        "hugoGeneSymbol": "BLM"
+      },
+      {
+        "entrezGeneId": 657,
+        "hugoGeneSymbol": "BMPR1A"
+      },
+      {
+        "entrezGeneId": 660,
+        "hugoGeneSymbol": "BMX"
+      },
+      {
+        "entrezGeneId": 673,
+        "hugoGeneSymbol": "BRAF"
+      },
+      {
+        "entrezGeneId": 672,
+        "hugoGeneSymbol": "BRCA1"
+      },
+      {
+        "entrezGeneId": 675,
+        "hugoGeneSymbol": "BRCA2"
+      },
+      {
+        "entrezGeneId": 23476,
+        "hugoGeneSymbol": "BRD4"
+      },
+      {
+        "entrezGeneId": 83990,
+        "hugoGeneSymbol": "BRIP1"
+      },
+      {
+        "entrezGeneId": 694,
+        "hugoGeneSymbol": "BTG1"
+      },
+      {
+        "entrezGeneId": 695,
+        "hugoGeneSymbol": "BTK"
+      },
+      {
+        "entrezGeneId": 23261,
+        "hugoGeneSymbol": "CAMTA1"
+      },
+      {
+        "entrezGeneId": 84433,
+        "hugoGeneSymbol": "CARD11"
+      },
+      {
+        "entrezGeneId": 865,
+        "hugoGeneSymbol": "CBFB"
+      },
+      {
+        "entrezGeneId": 867,
+        "hugoGeneSymbol": "CBL"
+      },
+      {
+        "entrezGeneId": 8838,
+        "hugoGeneSymbol": "CCN6"
+      },
+      {
+        "entrezGeneId": 595,
+        "hugoGeneSymbol": "CCND1"
+      },
+      {
+        "entrezGeneId": 894,
+        "hugoGeneSymbol": "CCND2"
+      },
+      {
+        "entrezGeneId": 896,
+        "hugoGeneSymbol": "CCND3"
+      },
+      {
+        "entrezGeneId": 898,
+        "hugoGeneSymbol": "CCNE1"
+      },
+      {
+        "entrezGeneId": 29126,
+        "hugoGeneSymbol": "CD274"
+      },
+      {
+        "entrezGeneId": 973,
+        "hugoGeneSymbol": "CD79A"
+      },
+      {
+        "entrezGeneId": 974,
+        "hugoGeneSymbol": "CD79B"
+      },
+      {
+        "entrezGeneId": 79577,
+        "hugoGeneSymbol": "CDC73"
+      },
+      {
+        "entrezGeneId": 999,
+        "hugoGeneSymbol": "CDH1"
+      },
+      {
+        "entrezGeneId": 51755,
+        "hugoGeneSymbol": "CDK12"
+      },
+      {
+        "entrezGeneId": 1019,
+        "hugoGeneSymbol": "CDK4"
+      },
+      {
+        "entrezGeneId": 1021,
+        "hugoGeneSymbol": "CDK6"
+      },
+      {
+        "entrezGeneId": 1024,
+        "hugoGeneSymbol": "CDK8"
+      },
+      {
+        "entrezGeneId": 1026,
+        "hugoGeneSymbol": "CDKN1A"
+      },
+      {
+        "entrezGeneId": 1027,
+        "hugoGeneSymbol": "CDKN1B"
+      },
+      {
+        "entrezGeneId": 1029,
+        "hugoGeneSymbol": "CDKN2A"
+      },
+      {
+        "entrezGeneId": 1030,
+        "hugoGeneSymbol": "CDKN2B"
+      },
+      {
+        "entrezGeneId": 1031,
+        "hugoGeneSymbol": "CDKN2C"
+      },
+      {
+        "entrezGeneId": 1050,
+        "hugoGeneSymbol": "CEBPA"
+      },
+      {
+        "entrezGeneId": 1080,
+        "hugoGeneSymbol": "CFTR"
+      },
+      {
+        "entrezGeneId": 1106,
+        "hugoGeneSymbol": "CHD2"
+      },
+      {
+        "entrezGeneId": 1108,
+        "hugoGeneSymbol": "CHD4"
+      },
+      {
+        "entrezGeneId": 1111,
+        "hugoGeneSymbol": "CHEK1"
+      },
+      {
+        "entrezGeneId": 11200,
+        "hugoGeneSymbol": "CHEK2"
+      },
+      {
+        "entrezGeneId": 23152,
+        "hugoGeneSymbol": "CIC"
+      },
+      {
+        "entrezGeneId": 1277,
+        "hugoGeneSymbol": "COL1A1"
+      },
+      {
+        "entrezGeneId": 51185,
+        "hugoGeneSymbol": "CRBN"
+      },
+      {
+        "entrezGeneId": 90993,
+        "hugoGeneSymbol": "CREB3L1"
+      },
+      {
+        "entrezGeneId": 64764,
+        "hugoGeneSymbol": "CREB3L2"
+      },
+      {
+        "entrezGeneId": 1387,
+        "hugoGeneSymbol": "CREBBP"
+      },
+      {
+        "entrezGeneId": 1399,
+        "hugoGeneSymbol": "CRKL"
+      },
+      {
+        "entrezGeneId": 64109,
+        "hugoGeneSymbol": "CRLF2"
+      },
+      {
+        "entrezGeneId": 1435,
+        "hugoGeneSymbol": "CSF1"
+      },
+      {
+        "entrezGeneId": 1436,
+        "hugoGeneSymbol": "CSF1R"
+      },
+      {
+        "entrezGeneId": 1445,
+        "hugoGeneSymbol": "CSK"
+      },
+      {
+        "entrezGeneId": 1452,
+        "hugoGeneSymbol": "CSNK1A1"
+      },
+      {
+        "entrezGeneId": 10664,
+        "hugoGeneSymbol": "CTCF"
+      },
+      {
+        "entrezGeneId": 1495,
+        "hugoGeneSymbol": "CTNNA1"
+      },
+      {
+        "entrezGeneId": 1499,
+        "hugoGeneSymbol": "CTNNB1"
+      },
+      {
+        "entrezGeneId": 8452,
+        "hugoGeneSymbol": "CUL3"
+      },
+      {
+        "entrezGeneId": 7852,
+        "hugoGeneSymbol": "CXCR4"
+      },
+      {
+        "entrezGeneId": 1540,
+        "hugoGeneSymbol": "CYLD"
+      },
+      {
+        "entrezGeneId": 1586,
+        "hugoGeneSymbol": "CYP17A1"
+      },
+      {
+        "entrezGeneId": 1565,
+        "hugoGeneSymbol": "CYP2D6"
+      },
+      {
+        "entrezGeneId": 1616,
+        "hugoGeneSymbol": "DAXX"
+      },
+      {
+        "entrezGeneId": 780,
+        "hugoGeneSymbol": "DDR1"
+      },
+      {
+        "entrezGeneId": 4921,
+        "hugoGeneSymbol": "DDR2"
+      },
+      {
+        "entrezGeneId": 23405,
+        "hugoGeneSymbol": "DICER1"
+      },
+      {
+        "entrezGeneId": 1788,
+        "hugoGeneSymbol": "DNMT3A"
+      },
+      {
+        "entrezGeneId": 84444,
+        "hugoGeneSymbol": "DOT1L"
+      },
+      {
+        "entrezGeneId": 1806,
+        "hugoGeneSymbol": "DPYD"
+      },
+      {
+        "entrezGeneId": 1950,
+        "hugoGeneSymbol": "EGF"
+      },
+      {
+        "entrezGeneId": 1956,
+        "hugoGeneSymbol": "EGFR"
+      },
+      {
+        "entrezGeneId": 56946,
+        "hugoGeneSymbol": "EMSY"
+      },
+      {
+        "entrezGeneId": 2033,
+        "hugoGeneSymbol": "EP300"
+      },
+      {
+        "entrezGeneId": 4072,
+        "hugoGeneSymbol": "EPCAM"
+      },
+      {
+        "entrezGeneId": 1969,
+        "hugoGeneSymbol": "EPHA2"
+      },
+      {
+        "entrezGeneId": 2042,
+        "hugoGeneSymbol": "EPHA3"
+      },
+      {
+        "entrezGeneId": 2044,
+        "hugoGeneSymbol": "EPHA5"
+      },
+      {
+        "entrezGeneId": 2045,
+        "hugoGeneSymbol": "EPHA7"
+      },
+      {
+        "entrezGeneId": 2047,
+        "hugoGeneSymbol": "EPHB1"
+      },
+      {
+        "entrezGeneId": 2064,
+        "hugoGeneSymbol": "ERBB2"
+      },
+      {
+        "entrezGeneId": 2065,
+        "hugoGeneSymbol": "ERBB3"
+      },
+      {
+        "entrezGeneId": 2066,
+        "hugoGeneSymbol": "ERBB4"
+      },
+      {
+        "entrezGeneId": 2067,
+        "hugoGeneSymbol": "ERCC1"
+      },
+      {
+        "entrezGeneId": 2078,
+        "hugoGeneSymbol": "ERG"
+      },
+      {
+        "entrezGeneId": 54206,
+        "hugoGeneSymbol": "ERRFI1"
+      },
+      {
+        "entrezGeneId": 2099,
+        "hugoGeneSymbol": "ESR1"
+      },
+      {
+        "entrezGeneId": 2115,
+        "hugoGeneSymbol": "ETV1"
+      },
+      {
+        "entrezGeneId": 2118,
+        "hugoGeneSymbol": "ETV4"
+      },
+      {
+        "entrezGeneId": 2119,
+        "hugoGeneSymbol": "ETV5"
+      },
+      {
+        "entrezGeneId": 2120,
+        "hugoGeneSymbol": "ETV6"
+      },
+      {
+        "entrezGeneId": 2130,
+        "hugoGeneSymbol": "EWSR1"
+      },
+      {
+        "entrezGeneId": 2146,
+        "hugoGeneSymbol": "EZH2"
+      },
+      {
+        "entrezGeneId": 51059,
+        "hugoGeneSymbol": "FAM135B"
+      },
+      {
+        "entrezGeneId": 2175,
+        "hugoGeneSymbol": "FANCA"
+      },
+      {
+        "entrezGeneId": 2176,
+        "hugoGeneSymbol": "FANCC"
+      },
+      {
+        "entrezGeneId": 2177,
+        "hugoGeneSymbol": "FANCD2"
+      },
+      {
+        "entrezGeneId": 2178,
+        "hugoGeneSymbol": "FANCE"
+      },
+      {
+        "entrezGeneId": 2188,
+        "hugoGeneSymbol": "FANCF"
+      },
+      {
+        "entrezGeneId": 2189,
+        "hugoGeneSymbol": "FANCG"
+      },
+      {
+        "entrezGeneId": 55120,
+        "hugoGeneSymbol": "FANCL"
+      },
+      {
+        "entrezGeneId": 57697,
+        "hugoGeneSymbol": "FANCM"
+      },
+      {
+        "entrezGeneId": 355,
+        "hugoGeneSymbol": "FAS"
+      },
+      {
+        "entrezGeneId": 2195,
+        "hugoGeneSymbol": "FAT1"
+      },
+      {
+        "entrezGeneId": 120114,
+        "hugoGeneSymbol": "FAT3"
+      },
+      {
+        "entrezGeneId": 79633,
+        "hugoGeneSymbol": "FAT4"
+      },
+      {
+        "entrezGeneId": 55294,
+        "hugoGeneSymbol": "FBXW7"
+      },
+      {
+        "entrezGeneId": 2237,
+        "hugoGeneSymbol": "FEN1"
+      },
+      {
+        "entrezGeneId": 54738,
+        "hugoGeneSymbol": "FEV"
+      },
+      {
+        "entrezGeneId": 2255,
+        "hugoGeneSymbol": "FGF10"
+      },
+      {
+        "entrezGeneId": 2257,
+        "hugoGeneSymbol": "FGF12"
+      },
+      {
+        "entrezGeneId": 2259,
+        "hugoGeneSymbol": "FGF14"
+      },
+      {
+        "entrezGeneId": 9965,
+        "hugoGeneSymbol": "FGF19"
+      },
+      {
+        "entrezGeneId": 8074,
+        "hugoGeneSymbol": "FGF23"
+      },
+      {
+        "entrezGeneId": 2248,
+        "hugoGeneSymbol": "FGF3"
+      },
+      {
+        "entrezGeneId": 2249,
+        "hugoGeneSymbol": "FGF4"
+      },
+      {
+        "entrezGeneId": 2251,
+        "hugoGeneSymbol": "FGF6"
+      },
+      {
+        "entrezGeneId": 2252,
+        "hugoGeneSymbol": "FGF7"
+      },
+      {
+        "entrezGeneId": 2260,
+        "hugoGeneSymbol": "FGFR1"
+      },
+      {
+        "entrezGeneId": 2263,
+        "hugoGeneSymbol": "FGFR2"
+      },
+      {
+        "entrezGeneId": 2261,
+        "hugoGeneSymbol": "FGFR3"
+      },
+      {
+        "entrezGeneId": 2264,
+        "hugoGeneSymbol": "FGFR4"
+      },
+      {
+        "entrezGeneId": 2268,
+        "hugoGeneSymbol": "FGR"
+      },
+      {
+        "entrezGeneId": 2271,
+        "hugoGeneSymbol": "FH"
+      },
+      {
+        "entrezGeneId": 201163,
+        "hugoGeneSymbol": "FLCN"
+      },
+      {
+        "entrezGeneId": 2313,
+        "hugoGeneSymbol": "FLI1"
+      },
+      {
+        "entrezGeneId": 2321,
+        "hugoGeneSymbol": "FLT1"
+      },
+      {
+        "entrezGeneId": 2322,
+        "hugoGeneSymbol": "FLT3"
+      },
+      {
+        "entrezGeneId": 2324,
+        "hugoGeneSymbol": "FLT4"
+      },
+      {
+        "entrezGeneId": 2353,
+        "hugoGeneSymbol": "FOS"
+      },
+      {
+        "entrezGeneId": 668,
+        "hugoGeneSymbol": "FOXL2"
+      },
+      {
+        "entrezGeneId": 2308,
+        "hugoGeneSymbol": "FOXO1"
+      },
+      {
+        "entrezGeneId": 27086,
+        "hugoGeneSymbol": "FOXP1"
+      },
+      {
+        "entrezGeneId": 10818,
+        "hugoGeneSymbol": "FRS2"
+      },
+      {
+        "entrezGeneId": 8880,
+        "hugoGeneSymbol": "FUBP1"
+      },
+      {
+        "entrezGeneId": 2521,
+        "hugoGeneSymbol": "FUS"
+      },
+      {
+        "entrezGeneId": 2534,
+        "hugoGeneSymbol": "FYN"
+      },
+      {
+        "entrezGeneId": 2559,
+        "hugoGeneSymbol": "GABRA6"
+      },
+      {
+        "entrezGeneId": 2623,
+        "hugoGeneSymbol": "GATA1"
+      },
+      {
+        "entrezGeneId": 2624,
+        "hugoGeneSymbol": "GATA2"
+      },
+      {
+        "entrezGeneId": 2625,
+        "hugoGeneSymbol": "GATA3"
+      },
+      {
+        "entrezGeneId": 2626,
+        "hugoGeneSymbol": "GATA4"
+      },
+      {
+        "entrezGeneId": 2627,
+        "hugoGeneSymbol": "GATA6"
+      },
+      {
+        "entrezGeneId": 79018,
+        "hugoGeneSymbol": "GID4"
+      },
+      {
+        "entrezGeneId": 2735,
+        "hugoGeneSymbol": "GLI1"
+      },
+      {
+        "entrezGeneId": 2736,
+        "hugoGeneSymbol": "GLI2"
+      },
+      {
+        "entrezGeneId": 2737,
+        "hugoGeneSymbol": "GLI3"
+      },
+      {
+        "entrezGeneId": 2767,
+        "hugoGeneSymbol": "GNA11"
+      },
+      {
+        "entrezGeneId": 10672,
+        "hugoGeneSymbol": "GNA13"
+      },
+      {
+        "entrezGeneId": 2776,
+        "hugoGeneSymbol": "GNAQ"
+      },
+      {
+        "entrezGeneId": 2778,
+        "hugoGeneSymbol": "GNAS"
+      },
+      {
+        "entrezGeneId": 2903,
+        "hugoGeneSymbol": "GRIN2A"
+      },
+      {
+        "entrezGeneId": 2913,
+        "hugoGeneSymbol": "GRM3"
+      },
+      {
+        "entrezGeneId": 2932,
+        "hugoGeneSymbol": "GSK3B"
+      },
+      {
+        "entrezGeneId": 3020,
+        "hugoGeneSymbol": "H3-3A"
+      },
+      {
+        "entrezGeneId": 3055,
+        "hugoGeneSymbol": "HCK"
+      },
+      {
+        "entrezGeneId": 9734,
+        "hugoGeneSymbol": "HDAC9"
+      },
+      {
+        "entrezGeneId": 3082,
+        "hugoGeneSymbol": "HGF"
+      },
+      {
+        "entrezGeneId": 6927,
+        "hugoGeneSymbol": "HNF1A"
+      },
+      {
+        "entrezGeneId": 3265,
+        "hugoGeneSymbol": "HRAS"
+      },
+      {
+        "entrezGeneId": 3283,
+        "hugoGeneSymbol": "HSD3B1"
+      },
+      {
+        "entrezGeneId": 3320,
+        "hugoGeneSymbol": "HSP90AA1"
+      },
+      {
+        "entrezGeneId": 10553,
+        "hugoGeneSymbol": "HTATIP2"
+      },
+      {
+        "entrezGeneId": 3417,
+        "hugoGeneSymbol": "IDH1"
+      },
+      {
+        "entrezGeneId": 3418,
+        "hugoGeneSymbol": "IDH2"
+      },
+      {
+        "entrezGeneId": 3480,
+        "hugoGeneSymbol": "IGF1R"
+      },
+      {
+        "entrezGeneId": 3481,
+        "hugoGeneSymbol": "IGF2"
+      },
+      {
+        "entrezGeneId": 9641,
+        "hugoGeneSymbol": "IKBKE"
+      },
+      {
+        "entrezGeneId": 10320,
+        "hugoGeneSymbol": "IKZF1"
+      },
+      {
+        "entrezGeneId": 3575,
+        "hugoGeneSymbol": "IL7R"
+      },
+      {
+        "entrezGeneId": 3624,
+        "hugoGeneSymbol": "INHBA"
+      },
+      {
+        "entrezGeneId": 8821,
+        "hugoGeneSymbol": "INPP4B"
+      },
+      {
+        "entrezGeneId": 3660,
+        "hugoGeneSymbol": "IRF2"
+      },
+      {
+        "entrezGeneId": 3662,
+        "hugoGeneSymbol": "IRF4"
+      },
+      {
+        "entrezGeneId": 8660,
+        "hugoGeneSymbol": "IRS2"
+      },
+      {
+        "entrezGeneId": 3702,
+        "hugoGeneSymbol": "ITK"
+      },
+      {
+        "entrezGeneId": 3716,
+        "hugoGeneSymbol": "JAK1"
+      },
+      {
+        "entrezGeneId": 3717,
+        "hugoGeneSymbol": "JAK2"
+      },
+      {
+        "entrezGeneId": 3718,
+        "hugoGeneSymbol": "JAK3"
+      },
+      {
+        "entrezGeneId": 3725,
+        "hugoGeneSymbol": "JUN"
+      },
+      {
+        "entrezGeneId": 7994,
+        "hugoGeneSymbol": "KAT6A"
+      },
+      {
+        "entrezGeneId": 5927,
+        "hugoGeneSymbol": "KDM5A"
+      },
+      {
+        "entrezGeneId": 10765,
+        "hugoGeneSymbol": "KDM5B"
+      },
+      {
+        "entrezGeneId": 8242,
+        "hugoGeneSymbol": "KDM5C"
+      },
+      {
+        "entrezGeneId": 7403,
+        "hugoGeneSymbol": "KDM6A"
+      },
+      {
+        "entrezGeneId": 3791,
+        "hugoGeneSymbol": "KDR"
+      },
+      {
+        "entrezGeneId": 9817,
+        "hugoGeneSymbol": "KEAP1"
+      },
+      {
+        "entrezGeneId": 3792,
+        "hugoGeneSymbol": "KEL"
+      },
+      {
+        "entrezGeneId": 3815,
+        "hugoGeneSymbol": "KIT"
+      },
+      {
+        "entrezGeneId": 89857,
+        "hugoGeneSymbol": "KLHL6"
+      },
+      {
+        "entrezGeneId": 4297,
+        "hugoGeneSymbol": "KMT2A"
+      },
+      {
+        "entrezGeneId": 58508,
+        "hugoGeneSymbol": "KMT2C"
+      },
+      {
+        "entrezGeneId": 8085,
+        "hugoGeneSymbol": "KMT2D"
+      },
+      {
+        "entrezGeneId": 3845,
+        "hugoGeneSymbol": "KRAS"
+      },
+      {
+        "entrezGeneId": 3932,
+        "hugoGeneSymbol": "LCK"
+      },
+      {
+        "entrezGeneId": 3984,
+        "hugoGeneSymbol": "LIMK1"
+      },
+      {
+        "entrezGeneId": 4004,
+        "hugoGeneSymbol": "LMO1"
+      },
+      {
+        "entrezGeneId": 4035,
+        "hugoGeneSymbol": "LRP1"
+      },
+      {
+        "entrezGeneId": 53353,
+        "hugoGeneSymbol": "LRP1B"
+      },
+      {
+        "entrezGeneId": 4036,
+        "hugoGeneSymbol": "LRP2"
+      },
+      {
+        "entrezGeneId": 4067,
+        "hugoGeneSymbol": "LYN"
+      },
+      {
+        "entrezGeneId": 8216,
+        "hugoGeneSymbol": "LZTR1"
+      },
+      {
+        "entrezGeneId": 346389,
+        "hugoGeneSymbol": "MACC1"
+      },
+      {
+        "entrezGeneId": 9863,
+        "hugoGeneSymbol": "MAGI2"
+      },
+      {
+        "entrezGeneId": 5604,
+        "hugoGeneSymbol": "MAP2K1"
+      },
+      {
+        "entrezGeneId": 5605,
+        "hugoGeneSymbol": "MAP2K2"
+      },
+      {
+        "entrezGeneId": 6416,
+        "hugoGeneSymbol": "MAP2K4"
+      },
+      {
+        "entrezGeneId": 4214,
+        "hugoGeneSymbol": "MAP3K1"
+      },
+      {
+        "entrezGeneId": 9175,
+        "hugoGeneSymbol": "MAP3K13"
+      },
+      {
+        "entrezGeneId": 11183,
+        "hugoGeneSymbol": "MAP4K5"
+      },
+      {
+        "entrezGeneId": 4170,
+        "hugoGeneSymbol": "MCL1"
+      },
+      {
+        "entrezGeneId": 4193,
+        "hugoGeneSymbol": "MDM2"
+      },
+      {
+        "entrezGeneId": 4194,
+        "hugoGeneSymbol": "MDM4"
+      },
+      {
+        "entrezGeneId": 9968,
+        "hugoGeneSymbol": "MED12"
+      },
+      {
+        "entrezGeneId": 100271849,
+        "hugoGeneSymbol": "MEF2B"
+      },
+      {
+        "entrezGeneId": 4221,
+        "hugoGeneSymbol": "MEN1"
+      },
+      {
+        "entrezGeneId": 10461,
+        "hugoGeneSymbol": "MERTK"
+      },
+      {
+        "entrezGeneId": 4233,
+        "hugoGeneSymbol": "MET"
+      },
+      {
+        "entrezGeneId": 4255,
+        "hugoGeneSymbol": "MGMT"
+      },
+      {
+        "entrezGeneId": 4286,
+        "hugoGeneSymbol": "MITF"
+      },
+      {
+        "entrezGeneId": 4292,
+        "hugoGeneSymbol": "MLH1"
+      },
+      {
+        "entrezGeneId": 4352,
+        "hugoGeneSymbol": "MPL"
+      },
+      {
+        "entrezGeneId": 4361,
+        "hugoGeneSymbol": "MRE11"
+      },
+      {
+        "entrezGeneId": 931,
+        "hugoGeneSymbol": "MS4A1"
+      },
+      {
+        "entrezGeneId": 4436,
+        "hugoGeneSymbol": "MSH2"
+      },
+      {
+        "entrezGeneId": 2956,
+        "hugoGeneSymbol": "MSH6"
+      },
+      {
+        "entrezGeneId": 4486,
+        "hugoGeneSymbol": "MST1R"
+      },
+      {
+        "entrezGeneId": 2475,
+        "hugoGeneSymbol": "MTOR"
+      },
+      {
+        "entrezGeneId": 4595,
+        "hugoGeneSymbol": "MUTYH"
+      },
+      {
+        "entrezGeneId": 4602,
+        "hugoGeneSymbol": "MYB"
+      },
+      {
+        "entrezGeneId": 4609,
+        "hugoGeneSymbol": "MYC"
+      },
+      {
+        "entrezGeneId": 4610,
+        "hugoGeneSymbol": "MYCL"
+      },
+      {
+        "entrezGeneId": 4613,
+        "hugoGeneSymbol": "MYCN"
+      },
+      {
+        "entrezGeneId": 4615,
+        "hugoGeneSymbol": "MYD88"
+      },
+      {
+        "entrezGeneId": 4683,
+        "hugoGeneSymbol": "NBN"
+      },
+      {
+        "entrezGeneId": 10499,
+        "hugoGeneSymbol": "NCOA2"
+      },
+      {
+        "entrezGeneId": 9611,
+        "hugoGeneSymbol": "NCOR1"
+      },
+      {
+        "entrezGeneId": 79858,
+        "hugoGeneSymbol": "NEK11"
+      },
+      {
+        "entrezGeneId": 4763,
+        "hugoGeneSymbol": "NF1"
+      },
+      {
+        "entrezGeneId": 4771,
+        "hugoGeneSymbol": "NF2"
+      },
+      {
+        "entrezGeneId": 4780,
+        "hugoGeneSymbol": "NFE2L2"
+      },
+      {
+        "entrezGeneId": 4781,
+        "hugoGeneSymbol": "NFIB"
+      },
+      {
+        "entrezGeneId": 4792,
+        "hugoGeneSymbol": "NFKBIA"
+      },
+      {
+        "entrezGeneId": 7080,
+        "hugoGeneSymbol": "NKX2-1"
+      },
+      {
+        "entrezGeneId": 4851,
+        "hugoGeneSymbol": "NOTCH1"
+      },
+      {
+        "entrezGeneId": 4853,
+        "hugoGeneSymbol": "NOTCH2"
+      },
+      {
+        "entrezGeneId": 4854,
+        "hugoGeneSymbol": "NOTCH3"
+      },
+      {
+        "entrezGeneId": 4855,
+        "hugoGeneSymbol": "NOTCH4"
+      },
+      {
+        "entrezGeneId": 4869,
+        "hugoGeneSymbol": "NPM1"
+      },
+      {
+        "entrezGeneId": 8013,
+        "hugoGeneSymbol": "NR4A3"
+      },
+      {
+        "entrezGeneId": 4893,
+        "hugoGeneSymbol": "NRAS"
+      },
+      {
+        "entrezGeneId": 3084,
+        "hugoGeneSymbol": "NRG1"
+      },
+      {
+        "entrezGeneId": 10718,
+        "hugoGeneSymbol": "NRG3"
+      },
+      {
+        "entrezGeneId": 64324,
+        "hugoGeneSymbol": "NSD1"
+      },
+      {
+        "entrezGeneId": 7468,
+        "hugoGeneSymbol": "NSD2"
+      },
+      {
+        "entrezGeneId": 4914,
+        "hugoGeneSymbol": "NTRK1"
+      },
+      {
+        "entrezGeneId": 4915,
+        "hugoGeneSymbol": "NTRK2"
+      },
+      {
+        "entrezGeneId": 4916,
+        "hugoGeneSymbol": "NTRK3"
+      },
+      {
+        "entrezGeneId": 9688,
+        "hugoGeneSymbol": "NUP93"
+      },
+      {
+        "entrezGeneId": 5063,
+        "hugoGeneSymbol": "PAK3"
+      },
+      {
+        "entrezGeneId": 79728,
+        "hugoGeneSymbol": "PALB2"
+      },
+      {
+        "entrezGeneId": 142,
+        "hugoGeneSymbol": "PARP1"
+      },
+      {
+        "entrezGeneId": 10038,
+        "hugoGeneSymbol": "PARP2"
+      },
+      {
+        "entrezGeneId": 10039,
+        "hugoGeneSymbol": "PARP3"
+      },
+      {
+        "entrezGeneId": 143,
+        "hugoGeneSymbol": "PARP4"
+      },
+      {
+        "entrezGeneId": 5079,
+        "hugoGeneSymbol": "PAX5"
+      },
+      {
+        "entrezGeneId": 55193,
+        "hugoGeneSymbol": "PBRM1"
+      },
+      {
+        "entrezGeneId": 50652,
+        "hugoGeneSymbol": "PCA3"
+      },
+      {
+        "entrezGeneId": 5133,
+        "hugoGeneSymbol": "PDCD1"
+      },
+      {
+        "entrezGeneId": 80380,
+        "hugoGeneSymbol": "PDCD1LG2"
+      },
+      {
+        "entrezGeneId": 5155,
+        "hugoGeneSymbol": "PDGFB"
+      },
+      {
+        "entrezGeneId": 5156,
+        "hugoGeneSymbol": "PDGFRA"
+      },
+      {
+        "entrezGeneId": 5159,
+        "hugoGeneSymbol": "PDGFRB"
+      },
+      {
+        "entrezGeneId": 5163,
+        "hugoGeneSymbol": "PDK1"
+      },
+      {
+        "entrezGeneId": 5287,
+        "hugoGeneSymbol": "PIK3C2B"
+      },
+      {
+        "entrezGeneId": 5290,
+        "hugoGeneSymbol": "PIK3CA"
+      },
+      {
+        "entrezGeneId": 5291,
+        "hugoGeneSymbol": "PIK3CB"
+      },
+      {
+        "entrezGeneId": 5293,
+        "hugoGeneSymbol": "PIK3CD"
+      },
+      {
+        "entrezGeneId": 5294,
+        "hugoGeneSymbol": "PIK3CG"
+      },
+      {
+        "entrezGeneId": 5295,
+        "hugoGeneSymbol": "PIK3R1"
+      },
+      {
+        "entrezGeneId": 5296,
+        "hugoGeneSymbol": "PIK3R2"
+      },
+      {
+        "entrezGeneId": 5311,
+        "hugoGeneSymbol": "PKD2"
+      },
+      {
+        "entrezGeneId": 5319,
+        "hugoGeneSymbol": "PLA2G1B"
+      },
+      {
+        "entrezGeneId": 5336,
+        "hugoGeneSymbol": "PLCG2"
+      },
+      {
+        "entrezGeneId": 5395,
+        "hugoGeneSymbol": "PMS2"
+      },
+      {
+        "entrezGeneId": 5423,
+        "hugoGeneSymbol": "POLB"
+      },
+      {
+        "entrezGeneId": 5424,
+        "hugoGeneSymbol": "POLD1"
+      },
+      {
+        "entrezGeneId": 5426,
+        "hugoGeneSymbol": "POLE"
+      },
+      {
+        "entrezGeneId": 5518,
+        "hugoGeneSymbol": "PPP2R1A"
+      },
+      {
+        "entrezGeneId": 639,
+        "hugoGeneSymbol": "PRDM1"
+      },
+      {
+        "entrezGeneId": 80243,
+        "hugoGeneSymbol": "PREX2"
+      },
+      {
+        "entrezGeneId": 5566,
+        "hugoGeneSymbol": "PRKACA"
+      },
+      {
+        "entrezGeneId": 5573,
+        "hugoGeneSymbol": "PRKAR1A"
+      },
+      {
+        "entrezGeneId": 5584,
+        "hugoGeneSymbol": "PRKCI"
+      },
+      {
+        "entrezGeneId": 5591,
+        "hugoGeneSymbol": "PRKDC"
+      },
+      {
+        "entrezGeneId": 5071,
+        "hugoGeneSymbol": "PRKN"
+      },
+      {
+        "entrezGeneId": 5644,
+        "hugoGeneSymbol": "PRSS1"
+      },
+      {
+        "entrezGeneId": 5652,
+        "hugoGeneSymbol": "PRSS8"
+      },
+      {
+        "entrezGeneId": 5727,
+        "hugoGeneSymbol": "PTCH1"
+      },
+      {
+        "entrezGeneId": 5728,
+        "hugoGeneSymbol": "PTEN"
+      },
+      {
+        "entrezGeneId": 5747,
+        "hugoGeneSymbol": "PTK2"
+      },
+      {
+        "entrezGeneId": 5753,
+        "hugoGeneSymbol": "PTK6"
+      },
+      {
+        "entrezGeneId": 5781,
+        "hugoGeneSymbol": "PTPN11"
+      },
+      {
+        "entrezGeneId": 9444,
+        "hugoGeneSymbol": "QKI"
+      },
+      {
+        "entrezGeneId": 5879,
+        "hugoGeneSymbol": "RAC1"
+      },
+      {
+        "entrezGeneId": 10111,
+        "hugoGeneSymbol": "RAD50"
+      },
+      {
+        "entrezGeneId": 5888,
+        "hugoGeneSymbol": "RAD51"
+      },
+      {
+        "entrezGeneId": 5890,
+        "hugoGeneSymbol": "RAD51B"
+      },
+      {
+        "entrezGeneId": 5889,
+        "hugoGeneSymbol": "RAD51C"
+      },
+      {
+        "entrezGeneId": 5892,
+        "hugoGeneSymbol": "RAD51D"
+      },
+      {
+        "entrezGeneId": 5893,
+        "hugoGeneSymbol": "RAD52"
+      },
+      {
+        "entrezGeneId": 25788,
+        "hugoGeneSymbol": "RAD54B"
+      },
+      {
+        "entrezGeneId": 8438,
+        "hugoGeneSymbol": "RAD54L"
+      },
+      {
+        "entrezGeneId": 5894,
+        "hugoGeneSymbol": "RAF1"
+      },
+      {
+        "entrezGeneId": 5903,
+        "hugoGeneSymbol": "RANBP2"
+      },
+      {
+        "entrezGeneId": 5914,
+        "hugoGeneSymbol": "RARA"
+      },
+      {
+        "entrezGeneId": 5925,
+        "hugoGeneSymbol": "RB1"
+      },
+      {
+        "entrezGeneId": 8241,
+        "hugoGeneSymbol": "RBM10"
+      },
+      {
+        "entrezGeneId": 5965,
+        "hugoGeneSymbol": "RECQL"
+      },
+      {
+        "entrezGeneId": 5966,
+        "hugoGeneSymbol": "REL"
+      },
+      {
+        "entrezGeneId": 5970,
+        "hugoGeneSymbol": "RELA"
+      },
+      {
+        "entrezGeneId": 5971,
+        "hugoGeneSymbol": "RELB"
+      },
+      {
+        "entrezGeneId": 5979,
+        "hugoGeneSymbol": "RET"
+      },
+      {
+        "entrezGeneId": 79651,
+        "hugoGeneSymbol": "RHBDF2"
+      },
+      {
+        "entrezGeneId": 387,
+        "hugoGeneSymbol": "RHOA"
+      },
+      {
+        "entrezGeneId": 253260,
+        "hugoGeneSymbol": "RICTOR"
+      },
+      {
+        "entrezGeneId": 54894,
+        "hugoGeneSymbol": "RNF43"
+      },
+      {
+        "entrezGeneId": 6093,
+        "hugoGeneSymbol": "ROCK1"
+      },
+      {
+        "entrezGeneId": 9475,
+        "hugoGeneSymbol": "ROCK2"
+      },
+      {
+        "entrezGeneId": 6098,
+        "hugoGeneSymbol": "ROS1"
+      },
+      {
+        "entrezGeneId": 57521,
+        "hugoGeneSymbol": "RPTOR"
+      },
+      {
+        "entrezGeneId": 861,
+        "hugoGeneSymbol": "RUNX1"
+      },
+      {
+        "entrezGeneId": 862,
+        "hugoGeneSymbol": "RUNX1T1"
+      },
+      {
+        "entrezGeneId": 6256,
+        "hugoGeneSymbol": "RXRA"
+      },
+      {
+        "entrezGeneId": 6389,
+        "hugoGeneSymbol": "SDHA"
+      },
+      {
+        "entrezGeneId": 6390,
+        "hugoGeneSymbol": "SDHB"
+      },
+      {
+        "entrezGeneId": 6391,
+        "hugoGeneSymbol": "SDHC"
+      },
+      {
+        "entrezGeneId": 6392,
+        "hugoGeneSymbol": "SDHD"
+      },
+      {
+        "entrezGeneId": 29072,
+        "hugoGeneSymbol": "SETD2"
+      },
+      {
+        "entrezGeneId": 23451,
+        "hugoGeneSymbol": "SF3B1"
+      },
+      {
+        "entrezGeneId": 150094,
+        "hugoGeneSymbol": "SIK1"
+      },
+      {
+        "entrezGeneId": 9353,
+        "hugoGeneSymbol": "SLIT2"
+      },
+      {
+        "entrezGeneId": 4087,
+        "hugoGeneSymbol": "SMAD2"
+      },
+      {
+        "entrezGeneId": 4088,
+        "hugoGeneSymbol": "SMAD3"
+      },
+      {
+        "entrezGeneId": 4089,
+        "hugoGeneSymbol": "SMAD4"
+      },
+      {
+        "entrezGeneId": 6597,
+        "hugoGeneSymbol": "SMARCA4"
+      },
+      {
+        "entrezGeneId": 6598,
+        "hugoGeneSymbol": "SMARCB1"
+      },
+      {
+        "entrezGeneId": 6602,
+        "hugoGeneSymbol": "SMARCD1"
+      },
+      {
+        "entrezGeneId": 6608,
+        "hugoGeneSymbol": "SMO"
+      },
+      {
+        "entrezGeneId": 9627,
+        "hugoGeneSymbol": "SNCAIP"
+      },
+      {
+        "entrezGeneId": 8651,
+        "hugoGeneSymbol": "SOCS1"
+      },
+      {
+        "entrezGeneId": 6663,
+        "hugoGeneSymbol": "SOX10"
+      },
+      {
+        "entrezGeneId": 6657,
+        "hugoGeneSymbol": "SOX2"
+      },
+      {
+        "entrezGeneId": 6662,
+        "hugoGeneSymbol": "SOX9"
+      },
+      {
+        "entrezGeneId": 23013,
+        "hugoGeneSymbol": "SPEN"
+      },
+      {
+        "entrezGeneId": 6690,
+        "hugoGeneSymbol": "SPINK1"
+      },
+      {
+        "entrezGeneId": 8405,
+        "hugoGeneSymbol": "SPOP"
+      },
+      {
+        "entrezGeneId": 6708,
+        "hugoGeneSymbol": "SPTA1"
+      },
+      {
+        "entrezGeneId": 6714,
+        "hugoGeneSymbol": "SRC"
+      },
+      {
+        "entrezGeneId": 6725,
+        "hugoGeneSymbol": "SRMS"
+      },
+      {
+        "entrezGeneId": 6760,
+        "hugoGeneSymbol": "SS18"
+      },
+      {
+        "entrezGeneId": 6756,
+        "hugoGeneSymbol": "SSX1"
+      },
+      {
+        "entrezGeneId": 10735,
+        "hugoGeneSymbol": "STAG2"
+      },
+      {
+        "entrezGeneId": 6774,
+        "hugoGeneSymbol": "STAT3"
+      },
+      {
+        "entrezGeneId": 6775,
+        "hugoGeneSymbol": "STAT4"
+      },
+      {
+        "entrezGeneId": 6794,
+        "hugoGeneSymbol": "STK11"
+      },
+      {
+        "entrezGeneId": 8428,
+        "hugoGeneSymbol": "STK24"
+      },
+      {
+        "entrezGeneId": 51684,
+        "hugoGeneSymbol": "SUFU"
+      },
+      {
+        "entrezGeneId": 6850,
+        "hugoGeneSymbol": "SYK"
+      },
+      {
+        "entrezGeneId": 6872,
+        "hugoGeneSymbol": "TAF1"
+      },
+      {
+        "entrezGeneId": 6926,
+        "hugoGeneSymbol": "TBX3"
+      },
+      {
+        "entrezGeneId": 6934,
+        "hugoGeneSymbol": "TCF7L2"
+      },
+      {
+        "entrezGeneId": 7010,
+        "hugoGeneSymbol": "TEK"
+      },
+      {
+        "entrezGeneId": 54855,
+        "hugoGeneSymbol": "TENT5C"
+      },
+      {
+        "entrezGeneId": 7015,
+        "hugoGeneSymbol": "TERT"
+      },
+      {
+        "entrezGeneId": 80312,
+        "hugoGeneSymbol": "TET1"
+      },
+      {
+        "entrezGeneId": 54790,
+        "hugoGeneSymbol": "TET2"
+      },
+      {
+        "entrezGeneId": 200424,
+        "hugoGeneSymbol": "TET3"
+      },
+      {
+        "entrezGeneId": 7030,
+        "hugoGeneSymbol": "TFE3"
+      },
+      {
+        "entrezGeneId": 7046,
+        "hugoGeneSymbol": "TGFBR1"
+      },
+      {
+        "entrezGeneId": 7048,
+        "hugoGeneSymbol": "TGFBR2"
+      },
+      {
+        "entrezGeneId": 7075,
+        "hugoGeneSymbol": "TIE1"
+      },
+      {
+        "entrezGeneId": 25976,
+        "hugoGeneSymbol": "TIPARP"
+      },
+      {
+        "entrezGeneId": 7113,
+        "hugoGeneSymbol": "TMPRSS2"
+      },
+      {
+        "entrezGeneId": 7128,
+        "hugoGeneSymbol": "TNFAIP3"
+      },
+      {
+        "entrezGeneId": 8764,
+        "hugoGeneSymbol": "TNFRSF14"
+      },
+      {
+        "entrezGeneId": 8600,
+        "hugoGeneSymbol": "TNFSF11"
+      },
+      {
+        "entrezGeneId": 10673,
+        "hugoGeneSymbol": "TNFSF13B"
+      },
+      {
+        "entrezGeneId": 10188,
+        "hugoGeneSymbol": "TNK2"
+      },
+      {
+        "entrezGeneId": 7150,
+        "hugoGeneSymbol": "TOP1"
+      },
+      {
+        "entrezGeneId": 7153,
+        "hugoGeneSymbol": "TOP2A"
+      },
+      {
+        "entrezGeneId": 7157,
+        "hugoGeneSymbol": "TP53"
+      },
+      {
+        "entrezGeneId": 7172,
+        "hugoGeneSymbol": "TPMT"
+      },
+      {
+        "entrezGeneId": 7248,
+        "hugoGeneSymbol": "TSC1"
+      },
+      {
+        "entrezGeneId": 7249,
+        "hugoGeneSymbol": "TSC2"
+      },
+      {
+        "entrezGeneId": 7253,
+        "hugoGeneSymbol": "TSHR"
+      },
+      {
+        "entrezGeneId": 7297,
+        "hugoGeneSymbol": "TYK2"
+      },
+      {
+        "entrezGeneId": 7307,
+        "hugoGeneSymbol": "U2AF1"
+      },
+      {
+        "entrezGeneId": 54658,
+        "hugoGeneSymbol": "UGT1A1"
+      },
+      {
+        "entrezGeneId": 7422,
+        "hugoGeneSymbol": "VEGFA"
+      },
+      {
+        "entrezGeneId": 7428,
+        "hugoGeneSymbol": "VHL"
+      },
+      {
+        "entrezGeneId": 7465,
+        "hugoGeneSymbol": "WEE1"
+      },
+      {
+        "entrezGeneId": 494551,
+        "hugoGeneSymbol": "WEE2"
+      },
+      {
+        "entrezGeneId": 7490,
+        "hugoGeneSymbol": "WT1"
+      },
+      {
+        "entrezGeneId": 331,
+        "hugoGeneSymbol": "XIAP"
+      },
+      {
+        "entrezGeneId": 7514,
+        "hugoGeneSymbol": "XPO1"
+      },
+      {
+        "entrezGeneId": 7516,
+        "hugoGeneSymbol": "XRCC2"
+      },
+      {
+        "entrezGeneId": 7517,
+        "hugoGeneSymbol": "XRCC3"
+      },
+      {
+        "entrezGeneId": 7525,
+        "hugoGeneSymbol": "YES1"
+      },
+      {
+        "entrezGeneId": 57621,
+        "hugoGeneSymbol": "ZBTB2"
+      },
+      {
+        "entrezGeneId": 7764,
+        "hugoGeneSymbol": "ZNF217"
+      },
+      {
+        "entrezGeneId": 80139,
+        "hugoGeneSymbol": "ZNF703"
+      },
+      {
+        "entrezGeneId": 79755,
+        "hugoGeneSymbol": "ZNF750"
+      }
+    ],
+    "genePanelId": "pan_origimed_2020_panel"
   }
 ]
