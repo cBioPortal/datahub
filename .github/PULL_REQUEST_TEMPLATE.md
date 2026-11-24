@@ -5,6 +5,26 @@ Describe changes proposed in this pull request:
 - a
 - b
 
+# preview
+<!--
+Add the `preview` label to get a preview of this pull request on its own
+portal. A link to it appears on the pull request once the studies are
+imported. By default the preview holds only the studies this pull request
+changes.
+
+To change that, copy one of these examples out of this comment and edit it:
+
+Every study on hub.cbioportal.org, with this pull request's studies on top:
+
+hub-preview: pr-studies-plus-hub
+
+Only some of this pull request's studies (works with either mode):
+
+hub-preview: pr-studies
+- public/brca_tcga
+- public/luad_tcga
+-->
+
 # checks
 For all pull requests:
 - [ ] Passes validation
