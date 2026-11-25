@@ -1,0 +1,6 @@
+cancer_study_identifier: mfs_msk_2026
+stable_id: mfs_msk_2026_cnaseq
+case_list_name: Samples with mutation and CNA data
+case_list_description: Samples with mutation and CNA data (7 samples)
+case_list_category: all_cases_with_mutation_and_cna_data
+case_list_ids: s_8500_CL_08671	s_2734_CL_08671	s_9172_CL_08671	s_9100_CL_08671	s_MXF8000p19_08671C	s_MFH4746p8_2_08671C	s_3672_CL_08671

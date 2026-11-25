@@ -1,0 +1,6 @@
+type_of_cancer: bladder
+cancer_study_identifier: bladder_msk_2024
+name: Bladder Cancer (MSK, Eur Urol 2024)
+description: Targeted sequencing of 112 bladder cancer patients and their tumor normals via MSK-IMPACT.
+pmid: 39550333
+citation: Kwanghee et al. Eur Urol. 2024

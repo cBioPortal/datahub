@@ -1,0 +1,8 @@
+cancer_study_identifier: pan_pdo_wcm_2026
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: rna_seq_mrna
+show_profile_in_analysis_tab: true
+profile_name: mRNA FPKMs
+profile_description: Raw, untransformed FPKM values from Cufflinks
+data_filename: data_mrna_seq_fpkm.txt

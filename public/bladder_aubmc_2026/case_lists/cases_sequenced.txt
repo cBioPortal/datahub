@@ -1,0 +1,6 @@
+cancer_study_identifier: bladder_aubmc_2026
+stable_id: bladder_aubmc_2026_sequenced
+case_list_name: Sequenced samples
+case_list_description: All sequenced samples (13 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: s_C_0DJMJU_P001_d	s_C_59HVWP_P001_d	s_C_36P9R2_P001_d	s_C_4R4R0T_P001_d	s_C_3LPVY1_P001_d	s_C_LR2X2T_P001_d	s_C_JWWJAW_P001_d	s_C_W99TP8_P001_d	s_C_CDW3P7_P001_d	s_C_742FE6_P001_d	s_C_5R9XE3_P001_d	s_C_7X52D1_P001_d	s_C_HWK2HJ_P001_d

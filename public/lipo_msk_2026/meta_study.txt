@@ -1,0 +1,4 @@
+type_of_cancer: lipo
+cancer_study_identifier: lipo_msk_2026
+name: Liposarcoma (MSK, 2026)
+description: Whole-exome sequencing of 277 liposarcoma samples using custom capture array to define a longitudinal model of liposarcomagenesis.

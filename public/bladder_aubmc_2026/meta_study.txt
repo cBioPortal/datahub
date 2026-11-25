@@ -1,0 +1,4 @@
+type_of_cancer: bladder
+cancer_study_identifier: bladder_aubmc_2026
+name: Bladder Cancer (AUBMC, 2026)
+description: Targeted sequencing of 13 tumors from the American University of Beirut Medical Center (AUBMC) to characterize the genomic landscape of bladder cancer in patients from Lebanon with a history of hookah (waterpipe) smoking.

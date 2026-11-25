@@ -1,0 +1,4 @@
+type_of_cancer: mixed
+cancer_study_identifier: mycf_msk_2026
+name: MYC Family Amplifications in MSK-IMPACT Solid Tumors (MSK, 2026)
+description: Characterization of MYC, MYCN and MYCL copy number amplifications in 3,419 patients with matched normals sequenced by MSK-IMPACT and annotated with FACETS. This study explores the genomic and clinical landscape of MYC family-amplified tumors, including amplification focality, total copy number and co-occurring oncogenic alterations.

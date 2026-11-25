@@ -1,0 +1,6 @@
+cancer_study_identifier: breast_msk_cfdna_2026
+stable_id: breast_msk_cfdna_2026_sequenced
+case_list_name: Samples with mutation data
+case_list_description: Samples with mutation data (50 samples)
+case_list_category: all_cases_with_mutation_data
+case_list_ids: BC01-P1	BC01-T	BC01-T2	BC02-P1	BC02-T	BC02-M	BC03-P1	BC03-T	BC04-P1	BC04-T	BC04-T2	BC05-P1	BC05-T	BC06-P1	BC06-T	BC07-P1	BC07-T	BC07-T2	BC07-M1	BC07-M2	BC08-P1	BC08-T	BC08-T2	BC09-P1	BC09-T	BC09-T2	BC10-P1	BC10-T2	BC10-M1	BC10-M2	BC10-M3	BC12-P1	BC12-T	BC13-P1	BC13-T	BC14-P1	BC14-T2	BC15-P1	BC15-T2	BC16-P1	BC16-T	BC17-P1	BC17-T	BC18-P1	BC18-T2	BC20-P1	BC20-T1	BC20-T2	BC21-P1	BC21-T2

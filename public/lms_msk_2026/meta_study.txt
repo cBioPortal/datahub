@@ -1,0 +1,4 @@
+type_of_cancer: soft_tissue
+cancer_study_identifier: lms_msk_2026
+name: Sarcoma (MSK, 2026)
+description: Targeted sequencing of 41 sarcoma clinical cases via MSK-IMPACT. 

@@ -1,0 +1,8 @@
+cancer_study_identifier: bladder_aubmc_2026
+genetic_alteration_type: COPY_NUMBER_ALTERATION
+datatype: DISCRETE
+stable_id: gistic
+profile_name: Putative copy-number alterations from GISTIC
+profile_description: Putative copy-number alterations from GISTIC 2.0. Values: -2 = deep deletion, -1 = shallow deletion, 0 = diploid, 1 = gain, 2 = amplification.
+show_profile_in_analysis_tab: true
+data_filename: data_cna.txt

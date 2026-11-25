@@ -1,0 +1,4 @@
+type_of_cancer: soft_tissue
+cancer_study_identifier: sarcoma_msk_2026
+name: Targeting eIF4A-dependent translation in genetically complex sarcoma (MSK, J Clin Invest 2026)
+description: Comprehensive profiling of 157 soft-tissue sarcoma cancer,70 Myxofibrosarcoma,20 Undifferentiated Pleiomorphic Sarcoma,34 Dedifferentiated Liposarcoma,29 Well-Differentiated Liposarcoma samples.

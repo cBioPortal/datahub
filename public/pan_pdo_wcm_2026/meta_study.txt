@@ -1,0 +1,5 @@
+type_of_cancer: mixed
+cancer_study_identifier: pan_pdo_wcm_2026
+name: Pan-Cancer Patient-Derived Organoids (WCM, 2026)
+description: Whole exome sequencing of 113 patient-derived organoids from 99 patients across 10 cancer types, paired with matched parent tumor samples. 
+groups: PUBLIC

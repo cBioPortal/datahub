@@ -1,0 +1,5 @@
+type_of_cancer: astr
+cancer_study_identifier: astr_ut_2026
+name: IDH-mutant Astrocytoma (ut, 2026)
+description: Whole-exome sequencing of 2 IDH-mutant astrocytoma grade 4 patients.
+reference_genome: hg38

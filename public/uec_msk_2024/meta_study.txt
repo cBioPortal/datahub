@@ -1,0 +1,4 @@
+type_of_cancer: ucec
+cancer_study_identifier: uec_msk_2024
+name: Endometrial cancer HR-positive (MSK, 2024)
+description: Targeted sequencing of 24 endometrial cancer tumors and their matched normals via MSK-IMPACT.
