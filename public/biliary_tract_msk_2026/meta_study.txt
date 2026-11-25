@@ -5,3 +5,4 @@ description: Targeted sequencing of 1,291 samples (1,285 tumor and 6 plasma cfDN
 pmid: 42360806
 citation: Cowzer et al. Clin Cancer Res. 2026
 groups: PUBLIC
+reference_genome: hg19
