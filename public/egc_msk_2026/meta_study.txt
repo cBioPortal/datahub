@@ -1,0 +1,6 @@
+type_of_cancer: egc
+cancer_study_identifier: egc_msk_2026
+name: Esophagogastric Adenocarcinoma (MSK, JAMA Surg 2026)
+description: Targeted sequencing of 377 esophagogastric adenocarcinoma samples and their matched normals via MSK-IMPACT.
+pmid: 42555007
+citation: Coffey MR, et al. JAMA Surg. 2026
