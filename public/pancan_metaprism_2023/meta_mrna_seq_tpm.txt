@@ -1,0 +1,8 @@
+cancer_study_identifier: pancan_metaprism_2023
+genetic_alteration_type: MRNA_EXPRESSION
+datatype: CONTINUOUS
+stable_id: rna_seq_mrna
+profile_name: mRNA expression
+profile_description: Gene expression as quantified by Kallisto v0.44.0 on GENCODE v27 and aggregated to the gene level (58,288 genes) by TxImport v1.16.0.
+data_filename: data_mrna_seq_tpm.txt
+show_profile_in_analysis_tab: false
