@@ -5,4 +5,4 @@ description: Whole exome sequencing of tumor-normal tissue pairs from 16 non-sma
 citation: Rivzi et al. Science 2016
 pmid: 25765070
 short_name: NSCLC (MSKCC)
-groups: public
+groups: PUBLIC
